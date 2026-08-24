@@ -5,7 +5,8 @@
   "type": "module",
   "exports": {
     ".": "./src/index.ts",
-    "./schema": "./src/schema.ts"
+    "./schema": "./src/schema.ts",
+    "./search": "./src/search.ts"
   },
   "dependencies": {
     "zod": "^4.1.13",

@@ -54,6 +54,17 @@ import { Agent, ContextWindow, VectorDatabase } from "@iconmind/react";
 
 Every icon ships as a plain SVG too, so no framework is required.
 
+## For AI assistants
+
+There is an MCP server, so an assistant writing your UI can search the real set instead
+of guessing icon names that do not exist.
+
+```bash
+claude mcp add iconmind -- npx -y @iconmind/mcp
+```
+
+It runs offline, bundles the icon data, and starts in well under a second.
+
 ## Categories
 
 Twelve domains, 621 concepts mapped out, 1000 icons planned for the first year.

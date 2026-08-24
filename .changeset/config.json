@@ -5,7 +5,8 @@
   "fixed": [
     [
       "@iconmind/icons",
-      "@iconmind/react"
+      "@iconmind/react",
+      "@iconmind/mcp"
     ]
   ],
   "linked": [],
