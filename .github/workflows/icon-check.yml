@@ -1,0 +1,47 @@
+name: Icon Check
+
+# The quality gate for icons. Runs only when icon sources change, so feedback on an
+# icon PR stays under two minutes.
+on:
+  pull_request:
+    paths:
+      - "packages/icons/icons/**"
+      - "scripts/validate/**"
+      - "packages/shared/src/**"
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: pnpm/action-setup@v4
+        with: { version: 10 }
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      - name: Validate SVG and metadata
+        run: pnpm icons:validate
+
+      # Enabled as each script lands; see docs/masterplan/18-timeline.md (T3.2, T3.3).
+      - name: Optimizer must be idempotent
+        if: hashFiles('scripts/optimize/run.ts') != ''
+        run: |
+          pnpm icons:optimize
+          if ! git diff --quiet; then
+            echo "::error::SVG is not optimized. Run 'pnpm icons:optimize' and commit the result."
+            git --no-pager diff --stat
+            exit 1
+          fi
+
+      - name: Duplicate detection
+        if: hashFiles('scripts/validate/duplicates.ts') != ''
+        run: pnpm icons:duplicates

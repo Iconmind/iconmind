@@ -1,0 +1,36 @@
+name: Request an icon
+description: Suggest a new icon
+title: "[Icon] "
+labels: ["icon-request"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Concept name
+      placeholder: "agent memory"
+    validations: { required: true }
+  - type: textarea
+    id: meaning
+    attributes:
+      label: What does it mean?
+      description: One sentence. The concept, not the drawing.
+    validations: { required: true }
+  - type: input
+    id: usecase
+    attributes:
+      label: Where would you use it?
+      description: A real screen or feature. Requests with a concrete use case make better icons.
+      placeholder: "Status panel in an agent dashboard"
+    validations: { required: true }
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options: [ai, agents, mcp, rag, data, devops, cloud, security,
+                automation, analytics, devtools, interface, not sure]
+    validations: { required: true }
+  - type: textarea
+    id: reference
+    attributes:
+      label: Visual reference (optional)
+      description: A sketch, a link, or a description of what you picture.

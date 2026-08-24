@@ -1,0 +1,24 @@
+name: Bug report
+description: Something is broken
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where?
+      options: ["@iconmind/icons", "@iconmind/react", "@iconmind/vue", "@iconmind/mcp", "website", "an icon itself", "build tooling"]
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations: { required: true }
+  - type: textarea
+    id: repro
+    attributes:
+      label: How can we reproduce it?
+      description: A minimal snippet or a link to a repository.
+  - type: input
+    id: version
+    attributes:
+      label: Package version
