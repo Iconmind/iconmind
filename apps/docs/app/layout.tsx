@@ -15,6 +15,7 @@ const NAV = [
   { href: "/icons/", label: "Icons" },
   { href: "/categories/", label: "Categories" },
   { href: "/docs/", label: "Docs" },
+  { href: "/roadmap/", label: "Roadmap" },
 ];
 
 function Mark() {
@@ -45,6 +46,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               ))}
             </ul>
             <div className="ml-auto flex items-center gap-5 text-sm text-ink-soft">
+              <Link href="/search/" className="transition-colors hover:text-ink" aria-label="Search">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  strokeWidth="2" strokeLinecap="round" aria-hidden="true">
+                  <circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" />
+                </svg>
+              </Link>
               <span className="hidden tabular-nums sm:inline">{iconCount} icons</span>
               <a href="https://github.com/iconmind/iconmind" className="transition-colors hover:text-ink">GitHub</a>
             </div>
@@ -56,7 +63,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="mt-32 border-t border-line">
           <div className="mx-auto flex max-w-[68rem] flex-col gap-3 px-6 py-12 text-sm text-ink-faint sm:flex-row sm:items-center sm:justify-between">
             <p>MIT licensed. Free for commercial use, no attribution required.</p>
-            <a href="https://github.com/iconmind/iconmind" className="transition-colors hover:text-ink">Source</a>
+            <div className="flex gap-5">
+              <Link href="/changelog/" className="transition-colors hover:text-ink">Changelog</Link>
+              <Link href="/roadmap/" className="transition-colors hover:text-ink">Roadmap</Link>
+              <a href="https://github.com/iconmind/iconmind" className="transition-colors hover:text-ink">Source</a>
+            </div>
           </div>
         </footer>
       </body>

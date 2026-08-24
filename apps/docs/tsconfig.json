@@ -2,9 +2,25 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "allowImportingTsExtensions": false,
-    "plugins": [{ "name": "next" }],
-    "paths": { "@/*": ["./*"] }
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    },
+    "resolveJsonModule": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

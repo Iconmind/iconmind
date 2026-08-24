@@ -16,6 +16,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/icons/`, priority: 0.9 },
     { url: `${BASE}/categories/`, priority: 0.8 },
     { url: `${BASE}/docs/`, priority: 0.8 },
+    { url: `${BASE}/search/`, priority: 0.6 },
+    { url: `${BASE}/roadmap/`, priority: 0.6 },
+    { url: `${BASE}/changelog/`, priority: 0.5 },
     ...allCategories.map((c) => ({ url: `${BASE}/categories/${c.slug}/`, priority: 0.7 })),
     ...allIcons.map((i) => ({ url: `${BASE}/icons/${i.slug}/`, priority: 0.6 })),
   ];
