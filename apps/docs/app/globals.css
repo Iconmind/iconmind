@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+/* ─────────────────────────────────────────────────────────────
+   Design tokens. Everything on the site pulls from here; nothing
+   sets a colour or radius inline. That rule is what keeps 60 pages
+   looking like one product instead of sixty.
+   ───────────────────────────────────────────────────────────── */
+@theme {
+  --font-sans: ui-sans-serif, -apple-system, "SF Pro Text", "Segoe UI Variable", "Segoe UI", Inter, system-ui, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "JetBrains Mono", "Cascadia Code", Menlo, monospace;
+
+  --color-canvas:    #fcfcfd;
+  --color-surface:   #ffffff;
+  --color-raised:    #f6f6f8;
+  --color-line:      #e9e9ee;
+  --color-line-soft: #f1f1f4;
+  --color-ink:       #0b0b0f;
+  --color-ink-soft:  #56565f;
+  --color-ink-faint: #8b8b95;
+  --color-accent:    #5b4bde;
+  --color-accent-soft: #efedfd;
+
+  --radius-card: 0.875rem;
+  --radius-pill: 999px;
+
+  --text-hero: 3.25rem;
+  --text-hero--line-height: 1.05;
+  --text-hero--letter-spacing: -0.035em;
+  --text-title: 1.75rem;
+  --text-title--line-height: 1.2;
+  --text-title--letter-spacing: -0.022em;
+  --text-eyebrow: 0.6875rem;
+  --text-eyebrow--line-height: 1;
+  --text-eyebrow--letter-spacing: 0.11em;
+}
+
+@media (prefers-color-scheme: dark) {
+  @theme {
+    --color-canvas:    #08080b;
+    --color-surface:   #0e0e12;
+    --color-raised:    #15151a;
+    --color-line:      #232329;
+    --color-line-soft: #1a1a1f;
+    --color-ink:       #f7f7f8;
+    --color-ink-soft:  #9a9aa4;
+    --color-ink-faint: #6b6b76;
+    --color-accent:    #a396ff;
+    --color-accent-soft: #191634;
+  }
+}
+
+html { color-scheme: light dark; }
+
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* The house chamfer, borrowed from the icons. Using it on the UI is what ties the
+   product to the thing it sells. */
+@utility chamfer {
+  clip-path: polygon(14px 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%, 0 14px);
+}
+@utility chamfer-sm {
+  clip-path: polygon(9px 0, 100% 0, 100% calc(100% - 9px), calc(100% - 9px) 100%, 0 100%, 0 9px);
+}
+
+/* A hairline that stays a hairline on retina, instead of doubling. */
+@utility hairline {
+  box-shadow: inset 0 0 0 1px var(--color-line);
+}
+
+*:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+::selection { background: var(--color-accent); color: #fff; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+}
