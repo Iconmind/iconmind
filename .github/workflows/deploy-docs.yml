@@ -15,6 +15,9 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    # Same reasoning as release.yml — enable by setting the repository variable once the
+    # Cloudflare credentials are in place.
+    if: ${{ vars.DEPLOY_ENABLED == 'true' }}
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4      # version comes from packageManager

@@ -297,6 +297,17 @@ Pemeriksaan mahal diletakkan di sini, bukan di PR, supaya umpan balik PR tetap d
 
 Squash merge menjaga riwayat `main` tetap satu commit per icon — yang membuat `git log` menjadi changelog icon yang bisa dibaca, dan membuat `addedIn`/`updatedIn` ([06 §6.6](./06-svg-engine.md#66-generator-metadata)) akurat.
 
+## 14.7b Saklar Aktivasi
+
+`release.yml` dan `deploy-docs.yml` dijaga oleh **repository variable**, bukan hanya oleh keberadaan secret:
+
+```
+RELEASE_ENABLED=true    aktifkan setelah NPM_TOKEN dipasang
+DEPLOY_ENABLED=true     aktifkan setelah CF_API_TOKEN dan CF_ACCOUNT_ID dipasang
+```
+
+Alasannya bukan kerapian. Pada push pertama ke repo baru, kedua workflow ini gagal karena kredensialnya belum ada — dan workflow yang **selalu merah karena memang belum bisa jalan** melatih orang mengabaikan warna merah. Begitu kebiasaan itu terbentuk, kegagalan yang sungguhan ikut terlewat. Melewatkan diri sendiri lebih jujur daripada gagal.
+
 ## 14.8 Manajemen Secret
 
 | Secret | Dipakai di | Cakupan |

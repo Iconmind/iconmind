@@ -14,6 +14,10 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
+    # Skips cleanly until NPM_TOKEN exists. A workflow that is red on every push until
+    # someone adds a secret teaches the team to ignore red, which costs more than the
+    # workflow is worth.
+    if: ${{ vars.RELEASE_ENABLED == 'true' }}
     steps:
       - uses: actions/checkout@v4
         with: { fetch-depth: 0 }
