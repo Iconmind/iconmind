@@ -1,15 +1,39 @@
 {
   "name": "@iconmind/mcp",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "license": "MIT",
   "description": "MCP server for IconMind — lets an AI assistant search and insert icons that actually exist",
-  "repository": { "type": "git", "url": "git+https://github.com/iconmind/iconmind.git", "directory": "packages/mcp" },
-  "bin": { "iconmind-mcp": "./dist/index.js" },
-  "exports": { ".": { "types": "./dist/index.d.ts", "default": "./dist/index.js" } },
-  "files": ["dist"],
-  "scripts": { "build": "tsup" },
-  "dependencies": { "@modelcontextprotocol/sdk": "^1.22.0" },
-  "devDependencies": { "@iconmind/icons": "workspace:*", "@iconmind/shared": "workspace:*", "tsup": "^8.5.0" },
-  "publishConfig": { "access": "public", "provenance": true }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iconmind/iconmind.git",
+    "directory": "packages/mcp"
+  },
+  "bin": {
+    "iconmind-mcp": "./dist/index.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.22.0"
+  },
+  "devDependencies": {
+    "@iconmind/icons": "workspace:*",
+    "@iconmind/shared": "workspace:*",
+    "tsup": "^8.5.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
 }
