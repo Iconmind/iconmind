@@ -12,6 +12,13 @@ export const ANCHOR_MIN = 2;
 export const ANCHOR_MAX = 22;
 export const GRID_SNAP = 0.5;
 export const MIN_ELEMENT_SIZE = 2;
+/**
+ * Exact values `icons:new` seeds. The validator compares against these rather than
+ * looking for the word "todo", because "todo" is a perfectly good tag for `plan`.
+ */
+export const SCAFFOLD_DESCRIPTION = "todo one sentence describing the concept, not the drawing";
+export const SCAFFOLD_TAGS = ["todo", "add", "real tags"] as const;
+
 /** House signature: containers cut their corners at 45° instead of rounding them. */
 export const CHAMFER = 4;
 /**

@@ -1,4 +1,4 @@
-import { IconMetaInput, isValidSlug, toComponentName, RESERVED_WORDS } from "@iconmind/shared";
+import { IconMetaInput, isValidSlug, toComponentName, RESERVED_WORDS, SCAFFOLD_DESCRIPTION, SCAFFOLD_TAGS } from "@iconmind/shared";
 import type { IconFile } from "../../lib/fs.ts";
 import type { Report } from "../../lib/report.ts";
 
@@ -37,6 +37,13 @@ export function checkMetadata(icons: IconFile[], r: Report) {
       if (p2) r.add(f, "naming/alias-no-collision", `alias '${a}' is also used by ${p2}`);
       aliases.set(a, f);
     }
+
+    // Scaffold markers, caught by name so the message says what to do rather than
+    // failing somewhere deep in the schema.
+    if (m.description === SCAFFOLD_DESCRIPTION)
+      r.add(f, "metadata/scaffold-todo", "description is still the scaffold placeholder — say what the concept means");
+    if (SCAFFOLD_TAGS.every((t) => m.tags.includes(t)))
+      r.add(f, "metadata/scaffold-todo", "tags are still the scaffold placeholder — replace with real search terms");
 
     const comp = toComponentName(m.slug);
     if (RESERVED_WORDS.has(comp)) r.add(f, "naming/component-name-safe", `'${comp}' collides with a JS global`);

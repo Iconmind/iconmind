@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-blue"></a>
-  <img alt="icons" src="https://img.shields.io/badge/icons-52-black">
+  <img alt="icons" src="https://img.shields.io/badge/icons-53-black">
   <img alt="status" src="https://img.shields.io/badge/status-early%20development-orange">
 </p>
 
