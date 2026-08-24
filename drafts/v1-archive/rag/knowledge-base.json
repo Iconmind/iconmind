@@ -1,0 +1,5 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json",
+  "slug": "knowledge-base", "category": "rag", "subcategory": "knowledge",
+  "name": "Knowledge Base", "description": "Curated body of documents a system can draw on",
+  "tags": ["knowledge", "book", "reference", "corpus", "docs", "library"],
+  "aliases": ["kb"], "keywords": [], "contributors": [] }

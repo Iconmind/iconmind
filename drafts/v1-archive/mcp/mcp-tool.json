@@ -1,0 +1,8 @@
+{
+  "$schema": "https://iconmind.dev/schema/icon.json",
+  "slug": "mcp-tool", "category": "mcp", "subcategory": "tool",
+  "name": "MCP Tool",
+  "description": "Capability an MCP server exposes for clients to invoke",
+  "tags": ["tool", "capability", "plugin", "puzzle", "extension", "invoke"],
+  "aliases": [], "keywords": [], "contributors": []
+}

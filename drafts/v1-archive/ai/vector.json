@@ -1,0 +1,3 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "vector", "category": "ai", "subcategory": "embedding",
+  "name": "Vector", "description": "An ordered list of numbers representing meaning",
+  "tags": ["vector", "array", "column", "numbers", "coordinates", "features"], "aliases": [], "keywords": [], "contributors": [] }

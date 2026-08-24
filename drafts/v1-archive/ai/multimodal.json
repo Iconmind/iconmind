@@ -1,0 +1,3 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "multimodal", "category": "ai", "subcategory": "multimodal",
+  "name": "Multimodal", "description": "A model that takes more than one kind of input",
+  "tags": ["multimodal", "vision", "audio", "mixed input", "cross modal", "fusion"], "aliases": [], "keywords": [], "contributors": [] }

@@ -1,0 +1,8 @@
+{
+  "$schema": "https://iconmind.dev/schema/icon.json",
+  "slug": "vector-search", "category": "rag", "subcategory": "retrieval",
+  "name": "Vector Search",
+  "description": "Finding the nearest vectors to a query",
+  "tags": ["vector", "search", "nearest neighbour", "similarity", "lookup", "query"],
+  "aliases": [], "keywords": [], "contributors": []
+}

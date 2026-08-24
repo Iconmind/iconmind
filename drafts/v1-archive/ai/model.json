@@ -1,0 +1,8 @@
+{
+  "$schema": "https://iconmind.dev/schema/icon.json",
+  "slug": "model", "category": "ai", "subcategory": "model",
+  "name": "Model",
+  "description": "A machine learning model that turns input into output",
+  "tags": ["model", "ml", "neural network", "weights", "component", "inference"],
+  "aliases": [], "keywords": ["foundation model"], "contributors": []
+}

@@ -1,0 +1,3 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "temperature", "category": "ai", "subcategory": "inference",
+  "name": "Temperature", "description": "How much randomness a model allows in its output",
+  "tags": ["temperature", "randomness", "sampling", "creativity", "variance", "parameter"], "aliases": [], "keywords": [], "contributors": [] }

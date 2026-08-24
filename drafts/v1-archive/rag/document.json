@@ -1,0 +1,5 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json",
+  "slug": "document", "category": "rag", "subcategory": "ingestion",
+  "name": "Document", "description": "A source file fed into a pipeline",
+  "tags": ["document", "file", "page", "source", "text", "paper"],
+  "aliases": ["doc"], "keywords": [], "contributors": [] }

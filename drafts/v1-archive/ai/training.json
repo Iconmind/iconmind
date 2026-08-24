@@ -1,0 +1,3 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "training", "category": "ai", "subcategory": "training",
+  "name": "Training", "description": "Teaching a model from data until it improves",
+  "tags": ["training", "learn", "fit", "improve", "epoch", "optimise"], "aliases": [], "keywords": [], "contributors": [] }

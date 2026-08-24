@@ -1,0 +1,5 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json",
+  "slug": "memory", "category": "agents", "subcategory": "memory",
+  "name": "Memory", "description": "Memory an agent writes to and reads back",
+  "tags": ["memory", "recall", "state", "store", "remember", "cells"],
+  "aliases": [], "keywords": [], "contributors": [] }

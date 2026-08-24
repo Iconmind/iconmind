@@ -1,0 +1,8 @@
+{
+  "$schema": "https://iconmind.dev/schema/icon.json",
+  "slug": "chunk-overlap", "category": "rag", "subcategory": "chunking",
+  "name": "Chunk Overlap",
+  "description": "Content shared between two consecutive document chunks",
+  "tags": ["chunk", "overlap", "intersection", "sliding window", "split", "venn"],
+  "aliases": [], "keywords": [], "contributors": []
+}

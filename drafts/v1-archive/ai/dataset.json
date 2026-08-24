@@ -1,0 +1,5 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json",
+  "slug": "dataset", "category": "ai", "subcategory": "training",
+  "name": "Dataset", "description": "A collection of records used to train or evaluate",
+  "tags": ["dataset", "records", "rows", "corpus", "samples", "training data"],
+  "aliases": [], "keywords": [], "contributors": [] }

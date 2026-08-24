@@ -1,0 +1,5 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json",
+  "slug": "embedding", "category": "ai", "subcategory": "embedding",
+  "name": "Embedding", "description": "Text turned into a vector of numbers",
+  "tags": ["embedding", "vector", "encode", "representation", "features", "transform"],
+  "aliases": [], "keywords": [], "contributors": [] }

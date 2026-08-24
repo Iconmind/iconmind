@@ -1,0 +1,8 @@
+{
+  "$schema": "https://iconmind.dev/schema/icon.json",
+  "slug": "reranker", "category": "rag", "subcategory": "ranking",
+  "name": "Reranker",
+  "description": "Model that reorders search results by relevance",
+  "tags": ["rerank", "reorder", "relevance", "ranking", "promote", "cross encoder"],
+  "aliases": ["rerank"], "keywords": [], "contributors": []
+}

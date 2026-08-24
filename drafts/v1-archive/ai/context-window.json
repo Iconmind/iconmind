@@ -1,0 +1,8 @@
+{
+  "$schema": "https://iconmind.dev/schema/icon.json",
+  "slug": "context-window", "category": "ai", "subcategory": "context",
+  "name": "Context Window",
+  "description": "Span of tokens a model can see in a single call",
+  "tags": ["context", "window", "scope", "token limit", "prompt", "boundary"],
+  "aliases": [], "keywords": [], "contributors": []
+}

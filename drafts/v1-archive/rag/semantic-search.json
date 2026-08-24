@@ -1,0 +1,3 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "semantic-search", "category": "rag", "subcategory": "retrieval",
+  "name": "Semantic Search", "description": "Finding results by meaning rather than exact words",
+  "tags": ["semantic search", "meaning", "similarity", "nearest", "lookup", "embedding search"], "aliases": [], "keywords": [], "contributors": [] }

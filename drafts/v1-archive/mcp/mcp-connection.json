@@ -1,0 +1,3 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "mcp-connection", "category": "mcp", "subcategory": "client",
+  "name": "MCP Connection", "description": "An open link between a client and a server",
+  "tags": ["connection", "link", "session", "connected", "channel", "port"], "aliases": [], "keywords": [], "contributors": [] }

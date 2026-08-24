@@ -1,0 +1,5 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json",
+  "slug": "llm", "category": "ai", "subcategory": "model",
+  "name": "LLM", "description": "A large language model",
+  "tags": ["llm", "language model", "text", "generative", "transformer", "chat"],
+  "aliases": ["large-language-model"], "keywords": [], "contributors": [] }

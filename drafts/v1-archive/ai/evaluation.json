@@ -1,0 +1,3 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "evaluation", "category": "ai", "subcategory": "evaluation",
+  "name": "Evaluation", "description": "Scoring model output against expected results",
+  "tags": ["evaluation", "eval", "score", "assess", "check", "grade"], "aliases": ["eval"], "keywords": [], "contributors": [] }

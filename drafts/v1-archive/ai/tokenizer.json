@@ -1,0 +1,3 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "tokenizer", "category": "ai", "subcategory": "token",
+  "name": "Tokenizer", "description": "The component that splits text into tokens",
+  "tags": ["tokenizer", "split", "encode", "segment", "parse", "bpe"], "aliases": [], "keywords": [], "contributors": [] }

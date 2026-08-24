@@ -1,0 +1,5 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json",
+  "slug": "guardrail", "category": "ai", "subcategory": "safety",
+  "name": "Guardrail", "description": "A constraint that blocks unsafe model output",
+  "tags": ["guardrail", "safety", "block", "constraint", "shield", "policy"],
+  "aliases": [], "keywords": [], "contributors": [] }

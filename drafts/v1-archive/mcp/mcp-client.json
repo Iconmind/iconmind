@@ -1,0 +1,5 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json",
+  "slug": "mcp-client", "category": "mcp", "subcategory": "client",
+  "name": "MCP Client", "description": "An application that consumes what MCP servers expose",
+  "tags": ["client", "consumer", "host", "connect", "caller", "application"],
+  "aliases": [], "keywords": [], "contributors": [] }

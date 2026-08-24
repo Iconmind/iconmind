@@ -1,0 +1,5 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json",
+  "slug": "mcp-prompt", "category": "mcp", "subcategory": "prompt",
+  "name": "MCP Prompt", "description": "A reusable prompt template an MCP server exposes",
+  "tags": ["prompt", "template", "reusable", "expose", "message", "preset"],
+  "aliases": [], "keywords": [], "contributors": [] }

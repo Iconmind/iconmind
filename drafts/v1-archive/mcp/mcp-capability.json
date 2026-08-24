@@ -1,0 +1,3 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "mcp-capability", "category": "mcp", "subcategory": "transport",
+  "name": "MCP Capability", "description": "What a server declares it can do during handshake",
+  "tags": ["capability", "negotiate", "declare", "support", "feature", "handshake"], "aliases": [], "keywords": [], "contributors": [] }

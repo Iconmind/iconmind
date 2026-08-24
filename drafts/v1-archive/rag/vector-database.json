@@ -1,0 +1,8 @@
+{
+  "$schema": "https://iconmind.dev/schema/icon.json",
+  "slug": "vector-database", "category": "rag", "subcategory": "vector",
+  "name": "Vector Database",
+  "description": "Database for storing and searching vectors",
+  "tags": ["vector", "database", "store", "embedding", "index", "similarity"],
+  "aliases": ["vector-store"], "keywords": [], "contributors": []
+}

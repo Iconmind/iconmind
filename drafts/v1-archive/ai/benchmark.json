@@ -1,0 +1,3 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "benchmark", "category": "ai", "subcategory": "evaluation",
+  "name": "Benchmark", "description": "A standard test models are ranked against",
+  "tags": ["benchmark", "ranking", "leaderboard", "compare", "podium", "score"], "aliases": [], "keywords": [], "contributors": [] }

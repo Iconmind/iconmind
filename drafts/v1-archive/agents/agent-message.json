@@ -1,0 +1,3 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "agent-message", "category": "agents", "subcategory": "communication",
+  "name": "Agent Message", "description": "Something one agent says to another",
+  "tags": ["message", "speak", "communicate", "send", "utterance", "reply"], "aliases": [], "keywords": [], "contributors": [] }

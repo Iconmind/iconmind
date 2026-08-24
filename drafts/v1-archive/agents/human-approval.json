@@ -1,0 +1,3 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "human-approval", "category": "agents", "subcategory": "communication",
+  "name": "Human Approval", "description": "A person signing off before an agent proceeds",
+  "tags": ["approval", "human in the loop", "sign off", "confirm", "review", "consent"], "aliases": [], "keywords": [], "contributors": [] }

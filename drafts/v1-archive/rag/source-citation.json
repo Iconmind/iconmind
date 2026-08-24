@@ -1,0 +1,3 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "source-citation", "category": "rag", "subcategory": "grounding",
+  "name": "Source Citation", "description": "A pointer back to where an answer came from",
+  "tags": ["citation", "quote", "source", "reference", "attribution", "provenance"], "aliases": [], "keywords": [], "contributors": [] }

@@ -1,0 +1,3 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "fine-tuning", "category": "ai", "subcategory": "training",
+  "name": "Fine Tuning", "description": "Adapting a trained model to a narrower task",
+  "tags": ["fine tuning", "adapt", "tune", "adjust", "specialise", "lora"], "aliases": ["finetune"], "keywords": [], "contributors": [] }
