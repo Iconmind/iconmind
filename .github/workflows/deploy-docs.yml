@@ -15,13 +15,9 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    # The site lands in phase 1 week 11 (T5.2). Until then this is a no-op guard
-    # rather than a workflow that fails on every push.
-    if: hashFiles('apps/docs/package.json') != ''
     steps:
       - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
-        with: { version: 10 }
+      - uses: pnpm/action-setup@v4      # version comes from packageManager
       - uses: actions/setup-node@v4
         with:
           node-version-file: .nvmrc
