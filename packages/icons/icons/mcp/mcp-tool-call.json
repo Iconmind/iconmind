@@ -1,0 +1,2 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "mcp-tool-call", "category": "mcp", "subcategory": "tool",
+  "name": "MCP Tool Call", "description": "Invoking a tool an MCP server exposes", "tags": ["tool call","invoke","execute","run","request","dispatch"], "aliases": [], "keywords": [], "contributors": [] }

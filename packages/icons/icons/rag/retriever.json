@@ -1,0 +1,3 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "retriever", "category": "rag", "subcategory": "retrieval",
+  "name": "Retriever", "description": "Component that pulls relevant documents from a store",
+  "tags": ["retriever","pull","fetch","attract","magnet","relevant"], "aliases": [], "keywords": [], "contributors": [] }

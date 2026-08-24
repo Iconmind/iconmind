@@ -1,0 +1,2 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "goal", "category": "agents", "subcategory": "planning",
+  "name": "Goal", "description": "The outcome an agent is working toward", "tags": ["goal","objective","target","flag","milestone","intent"], "aliases": [], "keywords": [], "contributors": [] }

@@ -1,0 +1,3 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "inference", "category": "ai", "subcategory": "inference",
+  "name": "Inference", "description": "Running input through a model to get output",
+  "tags": ["inference","predict","forward pass","run","serve","throughput"], "aliases": [], "keywords": [], "contributors": [] }

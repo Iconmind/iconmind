@@ -1,0 +1,3 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "mcp-server", "category": "mcp", "subcategory": "server",
+  "name": "MCP Server", "description": "A server that exposes resources, tools, and prompts over MCP",
+  "tags": ["server", "host", "expose", "endpoint", "provider", "protocol"], "aliases": [], "keywords": [], "contributors": [] }

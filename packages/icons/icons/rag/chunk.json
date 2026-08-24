@@ -1,0 +1,3 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "chunk", "category": "rag", "subcategory": "chunking",
+  "name": "Chunk", "description": "One piece of a document, sized to fit a model",
+  "tags": ["chunk","block","segment","passage","split","text block"], "aliases": [], "keywords": [], "contributors": [] }

@@ -1,0 +1,3 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "function-call", "category": "agents", "subcategory": "tool-use",
+  "name": "Function Call", "description": "Structured function invocation emitted by a model",
+  "tags": ["function","call","invoke","parentheses","arguments","tool use"], "aliases": [], "keywords": [], "contributors": [] }

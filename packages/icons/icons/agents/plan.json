@@ -1,0 +1,2 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "plan", "category": "agents", "subcategory": "planning",
+  "name": "Plan", "description": "An ordered set of steps an agent intends to take", "tags": ["plan","steps","checklist","todo","sequence","tasks"], "aliases": [], "keywords": [], "contributors": [] }

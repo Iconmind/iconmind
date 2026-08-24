@@ -1,0 +1,3 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "agent-run", "category": "agents", "subcategory": "lifecycle",
+  "name": "Agent Run", "description": "Start an agent and let it work",
+  "tags": ["run", "start", "execute", "play", "launch", "active"], "aliases": [], "keywords": [], "contributors": [] }

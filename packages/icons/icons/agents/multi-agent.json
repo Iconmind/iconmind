@@ -1,0 +1,3 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "multi-agent", "category": "agents", "subcategory": "multi-agent",
+  "name": "Multi Agent", "description": "Several agents working on the same task",
+  "tags": ["multi agent", "team", "swarm", "group", "cluster", "crew"], "aliases": [], "keywords": [], "contributors": [] }

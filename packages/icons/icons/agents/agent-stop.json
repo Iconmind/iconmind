@@ -1,0 +1,3 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "agent-stop", "category": "agents", "subcategory": "lifecycle",
+  "name": "Agent Stop", "description": "Halt an agent before it finishes",
+  "tags": ["stop","halt","cancel","abort","terminate","kill"], "aliases": [], "keywords": [], "contributors": [] }

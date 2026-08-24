@@ -1,0 +1,2 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "system-prompt", "category": "ai", "subcategory": "prompt",
+  "name": "System Prompt", "description": "Standing instructions that sit above the conversation", "tags": ["system prompt","instruction","role","preamble","persona","rules"], "aliases": [], "keywords": [], "contributors": [] }

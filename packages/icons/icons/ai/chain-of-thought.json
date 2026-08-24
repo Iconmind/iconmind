@@ -1,0 +1,2 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "chain-of-thought", "category": "ai", "subcategory": "prompt",
+  "name": "Chain of Thought", "description": "Reasoning worked through one step at a time", "tags": ["chain of thought","reasoning","steps","cot","stepwise","deliberate"], "aliases": [], "keywords": [], "contributors": [] }

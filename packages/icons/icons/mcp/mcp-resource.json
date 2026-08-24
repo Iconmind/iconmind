@@ -1,0 +1,3 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "mcp-resource", "category": "mcp", "subcategory": "resource",
+  "name": "MCP Resource", "description": "Data an MCP server exposes for clients to read",
+  "tags": ["resource","document","expose","read","context source","uri"], "aliases": [], "keywords": [], "contributors": [] }

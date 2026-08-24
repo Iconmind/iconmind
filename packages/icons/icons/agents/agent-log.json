@@ -1,0 +1,2 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "agent-log", "category": "agents", "subcategory": "lifecycle",
+  "name": "Agent Log", "description": "A time-ordered record of what an agent did", "tags": ["log","history","trace","audit","timeline","record"], "aliases": [], "keywords": [], "contributors": [] }

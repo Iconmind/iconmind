@@ -1,0 +1,2 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "agent-hierarchy", "category": "agents", "subcategory": "multi-agent",
+  "name": "Agent Hierarchy", "description": "Agents arranged in tiers with one above several others", "tags": ["hierarchy","tree","supervisor","delegation","org chart","tiers"], "aliases": [], "keywords": [], "contributors": [] }

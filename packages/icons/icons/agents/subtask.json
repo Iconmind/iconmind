@@ -1,0 +1,2 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "subtask", "category": "agents", "subcategory": "planning",
+  "name": "Subtask", "description": "A smaller piece of work nested inside a larger one", "tags": ["subtask","nested","child","breakdown","sub step","decompose"], "aliases": [], "keywords": [], "contributors": [] }

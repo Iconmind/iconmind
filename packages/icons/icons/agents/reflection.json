@@ -1,0 +1,2 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "reflection", "category": "agents", "subcategory": "reflection",
+  "name": "Reflection", "description": "An agent reviewing its own output before continuing", "tags": ["reflection","self review","critique","introspection","mirror","check"], "aliases": [], "keywords": [], "contributors": [] }

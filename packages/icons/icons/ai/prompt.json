@@ -1,0 +1,3 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "prompt", "category": "ai", "subcategory": "prompt",
+  "name": "Prompt", "description": "An instruction sent to a model",
+  "tags": ["prompt", "instruction", "input", "query", "command", "ask"], "aliases": [], "keywords": [], "contributors": [] }

@@ -1,0 +1,3 @@
+{ "$schema": "https://iconmind.dev/schema/icon.json", "slug": "agent", "category": "agents", "subcategory": "agent-core",
+  "name": "Agent", "description": "An autonomous agent that acts on its own",
+  "tags": ["agent", "autonomous", "actor", "entity", "worker", "bot"], "aliases": [], "keywords": [], "contributors": [] }
