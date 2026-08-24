@@ -4,9 +4,9 @@
  */
 import { mkdir, writeFile } from "node:fs/promises";
 import { parseSvg, VIEW_BOX } from "@iconmind/shared";
-import { loadIcons } from "../lib/fs.ts";
+import { fromRoot, loadIcons } from "../lib/fs.ts";
 
-const OUT = "packages/icons/dist";
+const OUT = fromRoot("packages/icons/dist");
 const icons = (await loadIcons()).filter((i) => i.svg).sort((a, b) => a.slug.localeCompare(b.slug));
 
 const symbols = icons.map((icon) => {

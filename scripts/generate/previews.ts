@@ -7,12 +7,12 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { Resvg } from "@resvg/resvg-js";
 import { parseSvg } from "@iconmind/shared";
-import { loadIcons } from "../lib/fs.ts";
+import { fromRoot, loadIcons } from "../lib/fs.ts";
 
 const COLS = 10;
 const SCALE = 2;          // a 24px icon drawn at 48px
 const CELL = 24 * SCALE + 24;
-const OUT = ".github/assets";
+const OUT = fromRoot(".github/assets");
 
 const icons = (await loadIcons()).filter((i) => i.svg).sort((a, b) => a.slug.localeCompare(b.slug));
 const rows = Math.ceil(icons.length / COLS);
@@ -46,7 +46,7 @@ for (const [name, stroke] of [["light", "#18181b"], ["dark", "#fafafa"]] as cons
 
 // The README badge is part of the same generated surface. A hand-typed count is a
 // promise to keep updating it, and that promise always breaks around icon 40.
-const readme = "README.md";
+const readme = fromRoot("README.md");
 const before = await readFile(readme, "utf8");
 const after = before.replace(/icons-\d+-black/, `icons-${icons.length}-black`);
 if (after !== before) {

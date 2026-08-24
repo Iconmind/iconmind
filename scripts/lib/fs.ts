@@ -1,8 +1,17 @@
 import { readdir, readFile } from "node:fs/promises";
-import { join, relative } from "node:path";
+import { dirname, join, relative, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 import { DOMAINS } from "@iconmind/shared";
 
-export const ICONS_DIR = "packages/icons/icons";
+/**
+ * Anchored to this file, not to the working directory. Turbo runs each package's build
+ * from inside that package, so every cwd-relative path silently resolves one level off
+ * — which is how the icons package ended up building into packages/icons/packages/icons.
+ */
+export const REPO = resolve(dirname(fileURLToPath(import.meta.url)), "..", "..");
+export const fromRoot = (...p: string[]) => join(REPO, ...p);
+
+export const ICONS_DIR = fromRoot("packages/icons/icons");
 
 export interface IconFile { slug: string; category: string; svgPath: string; jsonPath: string; svg: string; json: string | null }
 

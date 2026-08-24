@@ -12,10 +12,10 @@ import {
   IconMetaInput, toComponentName, parseSvg,
   DOMAINS, DOMAIN_TITLE, SUBCATEGORIES, type Domain,
 } from "@iconmind/shared";
-import { loadIcons } from "../lib/fs.ts";
+import { fromRoot, loadIcons } from "../lib/fs.ts";
 import { contentHash, structuralHash, inkMap, inkDistance } from "../lib/hash.ts";
 
-const OUT = "packages/icons/dist";
+const OUT = fromRoot("packages/icons/dist");
 const VERSION = process.env["npm_package_version"] ?? "0.0.0";
 const RELATED_MAX_DISTANCE = 0.180;
 const RELATED_LIMIT = 6;

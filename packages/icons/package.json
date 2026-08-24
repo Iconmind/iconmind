@@ -4,14 +4,35 @@
   "type": "module",
   "license": "MIT",
   "sideEffects": false,
-  "repository": { "type": "git", "url": "git+https://github.com/iconmind/iconmind.git", "directory": "packages/icons" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iconmind/iconmind.git",
+    "directory": "packages/icons"
+  },
   "exports": {
-    ".": { "types": "./dist/index.d.ts", "default": "./dist/index.js" },
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
     "./metadata.json": "./dist/metadata.json",
     "./sprite.svg": "./dist/sprite.svg",
     "./icons/*": "./icons/*",
     "./package.json": "./package.json"
   },
-  "files": ["dist", "icons"],
-  "publishConfig": { "access": "public", "provenance": true }
+  "files": [
+    "dist",
+    "icons"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "scripts": {
+    "build": "tsx ../../scripts/generate/metadata.ts && tsx ../../scripts/generate/sprite.ts && tsx ../../scripts/generate/icons-entry.ts"
+  },
+  "types": "./dist/index.d.ts",
+  "devDependencies": {
+    "@iconmind/shared": "workspace:*",
+    "tsx": "^4.20.6"
+  }
 }

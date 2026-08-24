@@ -9,10 +9,10 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import { gzipSync } from "node:zlib";
 import { DOMAINS, SUBCATEGORIES, type Domain } from "@iconmind/shared";
-import { loadIcons } from "../lib/fs.ts";
+import { fromRoot, loadIcons } from "../lib/fs.ts";
 import { IconMetaInput } from "@iconmind/shared";
 
-const OUT = "apps/docs/public";
+const OUT = fromRoot("apps/docs/public");
 const BUDGET_GZIP = 150 * 1024;   // doc 09 §9.4 — hard ceiling
 
 const subList: string[] = [];

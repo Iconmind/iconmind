@@ -10,7 +10,7 @@
 import { mkdir, writeFile, access } from "node:fs/promises";
 import { join } from "node:path";
 import { DOMAINS, SUBCATEGORIES, STROKE_WIDTH, VIEW_BOX, SCAFFOLD_DESCRIPTION, SCAFFOLD_TAGS, isValidSlug, type Domain } from "@iconmind/shared";
-import { loadIcons } from "../lib/fs.ts";
+import { fromRoot, loadIcons } from "../lib/fs.ts";
 
 const [category, slug, subcategoryArg] = process.argv.slice(2);
 
@@ -38,7 +38,7 @@ if (!subs.includes(subcategory)) {
 const clash = (await loadIcons()).find((i) => i.slug === slug);
 if (clash) die(`'${slug}' already exists in '${clash.category}'.`);
 
-const dir = join("packages/icons/icons", category!);
+const dir = join(fromRoot("packages/icons/icons"), category!);
 const svgPath = join(dir, `${slug}.svg`);
 const jsonPath = join(dir, `${slug}.json`);
 for (const p of [svgPath, jsonPath]) {

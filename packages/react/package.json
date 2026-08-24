@@ -24,7 +24,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup"
+    "build": "tsx ../../scripts/generate/components.ts && tsup"
   },
   "peerDependencies": {
     "react": ">=18"
@@ -36,7 +36,8 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.8",
     "tsup": "^8.5.0",
-    "@iconmind/icons": "workspace:*"
+    "@iconmind/icons": "workspace:*",
+    "tsx": "^4.20.6"
   },
   "publishConfig": {
     "access": "public",
