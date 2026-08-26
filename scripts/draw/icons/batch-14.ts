@@ -40,8 +40,8 @@ export const BATCH_14: Icon[] = [
     // Down and to the right, and the second ring is no smaller than the first. Shrinking it
     // would say the work got smaller; what changed is who is doing it.
     shapes: [
-      arc(6, 8, 3.5, 295, 245), poly([[9, 11], [12, 14]]),
-      poly([[11.5, 14], [14, 14], [14, 11.5]]), arc(17, 17, 3.5, 295, 245),
+      arc(6, 6, 3, 295, 245), poly([[10, 10], [12.5, 12.5]]),
+      poly([[11.5, 14], [14, 14], [14, 11.5]]), arc(18, 18, 3, 295, 245),
     ],
   },
   {

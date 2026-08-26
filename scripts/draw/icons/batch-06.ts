@@ -150,8 +150,8 @@ export const BATCH_06: Icon[] = [
     // The exact mirror of `agent-delegate`: there the work goes down to a subordinate,
     // here it goes up and across to a peer. Same rings, same corner-arrow, opposite slope.
     shapes: [
-      arc(6, 16, 3.5, 295, 245), poly([[9, 13], [12, 10]]),
-      poly([[11.5, 10], [14, 10], [14, 12.5]]), arc(17, 7, 3.5, 295, 245),
+      arc(6, 18, 3, 295, 245), poly([[10, 14], [12.5, 11.5]]),
+      poly([[11.5, 10], [14, 10], [14, 12.5]]), arc(18, 6, 3, 295, 245),
     ],
   },
 
