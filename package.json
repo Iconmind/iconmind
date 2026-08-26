@@ -47,5 +47,10 @@
   },
   "dependencies": {
     "@iconmind/shared": "workspace:*"
+  },
+  "pnpm": {
+    "overrides": {
+      "esbuild@<0.28.1": ">=0.28.1"
+    }
   }
 }
