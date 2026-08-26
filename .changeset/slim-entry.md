@@ -1,5 +1,5 @@
 ---
-"@iconmind/icons": minor
+"@iconmind/icons": patch
 ---
 
 The bare entry point is now a few hundred bytes — `version` and `counts` only. The full

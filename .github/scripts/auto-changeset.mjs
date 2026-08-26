@@ -1,7 +1,10 @@
 // Guarantees every release run has a changeset. If the push already carries one
 // (hand-written, with a real description), that one wins and this script does
-// nothing. Otherwise it derives the bump from the head commit message:
-// "feat!:" or "BREAKING" → major, "feat:" → minor, anything else → patch.
+// nothing. Otherwise it writes a PATCH changeset from the head commit message.
+//
+// Automatic releases only ever step 0.3.1 → 0.3.2 → 0.3.3 (the user's explicit
+// choice — no surprise 0.4.0 from a commit prefix). A minor or major release is a
+// decision, made by committing a hand-written changeset that says so.
 // The packages are a fixed group, so bumping @iconmind/icons bumps all of them.
 import { readdirSync, writeFileSync } from "node:fs";
 
@@ -15,14 +18,9 @@ if (existing.length > 0) {
 
 const msg = (process.env.HEAD_COMMIT_MESSAGE ?? "").trim();
 const firstLine = msg.split("\n")[0] || "automated release";
-const bump = /^[a-z]+(\(.+\))?!:|BREAKING/.test(msg)
-  ? "major"
-  : /^feat/.test(msg)
-    ? "minor"
-    : "patch";
 
 writeFileSync(
   ".changeset/auto-release.md",
-  `---\n"@iconmind/icons": ${bump}\n---\n\n${firstLine}\n`,
+  `---\n"@iconmind/icons": patch\n---\n\n${firstLine}\n`,
 );
-console.log(`wrote auto changeset: ${bump} — ${firstLine}`);
+console.log(`wrote auto changeset: patch — ${firstLine}`);
