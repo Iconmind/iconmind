@@ -62,16 +62,14 @@ jobs:
           git commit -m "chore: release v$VERSION"
           git push
 
-      # changeset publish reads npm credentials from ~/.npmrc; without this it
-      # waits on auth in silence and the job dies with orphaned processes.
-      - run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-
+      # setup-node's registry-url points NPM_CONFIG_USERCONFIG at its own .npmrc, which
+      # reads the token from NODE_AUTH_TOKEN — so that env var is the ONLY place npm will
+      # look. A hand-written ~/.npmrc was tried first and silently ignored; every publish
+      # then failed E404, which is how npm spells "unauthorised" for scoped packages.
       - name: Build and publish to npm
         run: pnpm release
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Push tags and cut the GitHub Release
         run: |
