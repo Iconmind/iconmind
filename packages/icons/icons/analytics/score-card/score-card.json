@@ -1,0 +1,32 @@
+{
+  "slug": "score-card",
+  "category": "analytics",
+  "subcategory": "experiment",
+  "name": "Score card",
+  "description": "The number, big, and how it moved",
+  "tags": [
+    "kpi",
+    "number",
+    "tile"
+  ],
+  "keywords": [
+    "metric card",
+    "big number",
+    "kpi tile"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M6 9H13",
+      "closed": false
+    },
+    {
+      "d": "M6 16L9 13L12 16L16 12",
+      "closed": false
+    }
+  ]
+}

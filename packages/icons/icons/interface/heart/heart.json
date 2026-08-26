@@ -1,0 +1,37 @@
+{
+  "slug": "heart",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Heart",
+  "description": "Liked, or kept",
+  "tags": [
+    "like",
+    "favourite",
+    "love"
+  ],
+  "aliases": [
+    "like"
+  ],
+  "keywords": [
+    "favourite",
+    "favorite",
+    "love",
+    "save",
+    "star"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 9A4 4 0 0 1 12 9",
+      "closed": false
+    },
+    {
+      "d": "M12 9A4 4 0 0 1 20 9",
+      "closed": false
+    },
+    {
+      "d": "M4 9L12 17L20 9",
+      "closed": false
+    }
+  ]
+}

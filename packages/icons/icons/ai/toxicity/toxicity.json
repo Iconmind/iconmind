@@ -1,0 +1,38 @@
+{
+  "slug": "toxicity",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Toxicity",
+  "description": "Content that should not have been said",
+  "tags": [
+    "harmful",
+    "abuse",
+    "flagged"
+  ],
+  "keywords": [
+    "harmful content",
+    "abuse",
+    "hate speech",
+    "moderation",
+    "flagged"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V14A2 2 0 0 1 20 16H4A2 2 0 0 1 2 14Z",
+      "closed": true
+    },
+    {
+      "d": "M7 16L7 21L12 16",
+      "closed": false
+    },
+    {
+      "d": "M9 7L15 13",
+      "closed": false
+    },
+    {
+      "d": "M15 7L9 13",
+      "closed": false
+    }
+  ]
+}

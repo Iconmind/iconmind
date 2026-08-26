@@ -1,0 +1,36 @@
+{
+  "slug": "constraint-db",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Constraint",
+  "description": "What the database refuses to store",
+  "tags": [
+    "not-null",
+    "unique",
+    "rule"
+  ],
+  "keywords": [
+    "not null",
+    "unique",
+    "foreign key rule"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V9A2 2 0 0 1 20 11H4A2 2 0 0 1 2 9Z",
+      "closed": true
+    },
+    {
+      "d": "M2 16A2 2 0 0 1 4 14H20A2 2 0 0 1 22 16V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M12 11V14",
+      "closed": false
+    },
+    {
+      "d": "M11 7.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

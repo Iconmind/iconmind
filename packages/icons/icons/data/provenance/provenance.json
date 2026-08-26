@@ -1,0 +1,41 @@
+{
+  "slug": "provenance",
+  "category": "data",
+  "subcategory": "catalog",
+  "name": "Provenance",
+  "description": "The whole story of where it came from",
+  "tags": [
+    "origin",
+    "history",
+    "chain"
+  ],
+  "keywords": [
+    "origin",
+    "chain of custody",
+    "came from",
+    "history of data"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 17L11 13",
+      "closed": false
+    },
+    {
+      "d": "M11 11a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 9L19 5",
+      "closed": false
+    },
+    {
+      "d": "M18 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

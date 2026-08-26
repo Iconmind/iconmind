@@ -1,0 +1,34 @@
+{
+  "slug": "seasonality",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Seasonality",
+  "description": "The same shape, coming round again",
+  "tags": [
+    "cycle",
+    "periodic",
+    "repeats"
+  ],
+  "keywords": [
+    "periodic",
+    "cycle",
+    "weekly pattern",
+    "recurring",
+    "wave"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 12A4 4 0 0 1 11 12",
+      "closed": false
+    },
+    {
+      "d": "M11 12A4 4 0 0 1 19 12",
+      "closed": false
+    },
+    {
+      "d": "M3 16H21",
+      "closed": false
+    }
+  ]
+}

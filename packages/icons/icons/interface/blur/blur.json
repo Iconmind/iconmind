@@ -1,0 +1,34 @@
+{
+  "slug": "blur",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Blur",
+  "description": "Softened until it is not readable",
+  "tags": [
+    "soften",
+    "hide",
+    "obscure"
+  ],
+  "keywords": [
+    "gaussian",
+    "soften",
+    "obscure",
+    "out of focus",
+    "redact visually"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M19.52 14.74A8 8 0 0 1 4.48 14.74",
+      "closed": false
+    },
+    {
+      "d": "M4.48 9.26A8 8 0 0 1 19.52 9.26",
+      "closed": false
+    }
+  ]
+}

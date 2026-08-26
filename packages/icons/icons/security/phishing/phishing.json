@@ -1,0 +1,38 @@
+{
+  "slug": "phishing",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Phishing",
+  "description": "A message with a hook in it",
+  "tags": [
+    "lure",
+    "scam",
+    "bait"
+  ],
+  "keywords": [
+    "scam email",
+    "lure",
+    "credential harvest",
+    "spoofed",
+    "bait"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12A2 2 0 0 1 4 10H20A2 2 0 0 1 22 12V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M2 10L9 17L15 17L22 10",
+      "closed": false
+    },
+    {
+      "d": "M19 2V5",
+      "closed": false
+    },
+    {
+      "d": "M19 5A2 2 0 0 1 15 5",
+      "closed": false
+    }
+  ]
+}

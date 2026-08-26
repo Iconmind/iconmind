@@ -1,0 +1,30 @@
+{
+  "slug": "threshold",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Threshold",
+  "description": "The line it must not cross",
+  "tags": [
+    "limit",
+    "level",
+    "breach"
+  ],
+  "keywords": [
+    "alert level",
+    "sla",
+    "breach",
+    "ceiling",
+    "trigger point"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M3 11H21",
+      "closed": false
+    },
+    {
+      "d": "M4 18L10 12L14 16L20 10",
+      "closed": false
+    }
+  ]
+}

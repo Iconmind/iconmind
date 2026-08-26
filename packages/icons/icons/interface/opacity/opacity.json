@@ -1,0 +1,48 @@
+{
+  "slug": "opacity",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Opacity",
+  "description": "How much shows through",
+  "tags": [
+    "alpha",
+    "transparent",
+    "fade"
+  ],
+  "aliases": [
+    "alpha"
+  ],
+  "keywords": [
+    "alpha",
+    "transparency",
+    "see through",
+    "fade"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M6 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

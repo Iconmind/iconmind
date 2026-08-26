@@ -1,0 +1,36 @@
+{
+  "slug": "stream",
+  "category": "data",
+  "subcategory": "streaming",
+  "name": "Stream",
+  "description": "Data arriving continuously rather than in batches",
+  "tags": [
+    "flow",
+    "continuous",
+    "realtime"
+  ],
+  "aliases": [
+    "streaming"
+  ],
+  "keywords": [
+    "kafka",
+    "realtime",
+    "event stream",
+    "tokens"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M2 6H16",
+      "closed": false
+    },
+    {
+      "d": "M8 12H22",
+      "closed": false
+    },
+    {
+      "d": "M2 18H16",
+      "closed": false
+    }
+  ]
+}

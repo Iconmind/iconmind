@@ -1,0 +1,40 @@
+{
+  "slug": "server",
+  "category": "cloud",
+  "subcategory": "compute",
+  "name": "Server",
+  "description": "The machine that answers",
+  "tags": [
+    "host",
+    "backend",
+    "tower"
+  ],
+  "aliases": [
+    "host"
+  ],
+  "keywords": [
+    "backend",
+    "host",
+    "rack unit",
+    "answers requests"
+  ],
+  "family": "tower",
+  "shapes": [
+    {
+      "d": "M4 4A2 2 0 0 1 6 2H18A2 2 0 0 1 20 4V8.5A2 2 0 0 1 18 10.5H6A2 2 0 0 1 4 8.5Z",
+      "closed": true
+    },
+    {
+      "d": "M7 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 15.5A2 2 0 0 1 6 13.5H18A2 2 0 0 1 20 15.5V20A2 2 0 0 1 18 22H6A2 2 0 0 1 4 20Z",
+      "closed": true
+    },
+    {
+      "d": "M7 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

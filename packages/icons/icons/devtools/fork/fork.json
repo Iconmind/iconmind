@@ -1,0 +1,42 @@
+{
+  "slug": "fork",
+  "category": "devtools",
+  "subcategory": "version-control",
+  "name": "Fork",
+  "description": "Your own copy of somebody's work",
+  "tags": [
+    "copy",
+    "diverge",
+    "branch"
+  ],
+  "keywords": [
+    "fork repo",
+    "diverge",
+    "clone",
+    "upstream",
+    "contribute"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M10 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 9.5L6 14",
+      "closed": false
+    },
+    {
+      "d": "M13.5 9.5L18 14",
+      "closed": false
+    },
+    {
+      "d": "M3 16a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 16a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "fallback",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Fallback",
+  "description": "What to do when the first way fails",
+  "tags": [
+    "backup",
+    "alternate",
+    "recover"
+  ],
+  "keywords": [
+    "retry path",
+    "alternative",
+    "degraded",
+    "plan b",
+    "recover"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M3 7L12 7L12 15L19 15",
+      "closed": false
+    },
+    {
+      "d": "M16 12L19 15L16 18",
+      "closed": false
+    }
+  ]
+}

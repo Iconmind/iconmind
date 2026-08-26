@@ -1,0 +1,44 @@
+{
+  "slug": "golden-set",
+  "category": "ai",
+  "subcategory": "evaluation",
+  "name": "Golden set",
+  "description": "The answers you trust enough to grade with",
+  "tags": [
+    "reference",
+    "ground-truth",
+    "eval"
+  ],
+  "aliases": [
+    "ground-truth"
+  ],
+  "keywords": [
+    "ground truth",
+    "reference answers",
+    "eval set",
+    "labelled"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M6 9H14",
+      "closed": false
+    },
+    {
+      "d": "M16 8L18 10L21 7",
+      "closed": false
+    },
+    {
+      "d": "M6 14H14",
+      "closed": false
+    },
+    {
+      "d": "M16 13L18 15L21 12",
+      "closed": false
+    }
+  ]
+}

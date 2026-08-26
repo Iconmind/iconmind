@@ -1,0 +1,42 @@
+{
+  "slug": "message-bus",
+  "category": "agents",
+  "subcategory": "communication",
+  "name": "Message bus",
+  "description": "One channel everything hangs off",
+  "tags": [
+    "channel",
+    "queue",
+    "shared"
+  ],
+  "keywords": [
+    "pubsub",
+    "channel",
+    "topic",
+    "event bus",
+    "broker"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M2 16H22",
+      "closed": false
+    },
+    {
+      "d": "M4 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 9.5V16",
+      "closed": false
+    },
+    {
+      "d": "M18 9.5V16",
+      "closed": false
+    }
+  ]
+}

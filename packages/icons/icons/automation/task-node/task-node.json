@@ -1,0 +1,34 @@
+{
+  "slug": "task-node",
+  "category": "automation",
+  "subcategory": "workflow",
+  "name": "Task node",
+  "description": "One piece of work, with what comes before and after",
+  "tags": [
+    "step",
+    "unit",
+    "job"
+  ],
+  "keywords": [
+    "job",
+    "work item",
+    "node",
+    "step",
+    "unit of work"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 10A2 2 0 0 1 8 8H16A2 2 0 0 1 18 10V14A2 2 0 0 1 16 16H8A2 2 0 0 1 6 14Z",
+      "closed": true
+    },
+    {
+      "d": "M2 12H6",
+      "closed": false
+    },
+    {
+      "d": "M18 12H22",
+      "closed": false
+    }
+  ]
+}

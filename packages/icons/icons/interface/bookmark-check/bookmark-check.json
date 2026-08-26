@@ -1,0 +1,29 @@
+{
+  "slug": "bookmark-check",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Bookmark check",
+  "description": "Already saved",
+  "tags": [
+    "saved",
+    "kept",
+    "done"
+  ],
+  "keywords": [
+    "saved",
+    "in your list",
+    "collected",
+    "already added"
+  ],
+  "family": "ribbon",
+  "shapes": [
+    {
+      "d": "M15 3L18 3L18 21L12 15L6 21L6 3L9 3",
+      "closed": true
+    },
+    {
+      "d": "M9 10L11 12L15 8",
+      "closed": false
+    }
+  ]
+}

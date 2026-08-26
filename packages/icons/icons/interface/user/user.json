@@ -1,0 +1,32 @@
+{
+  "slug": "user",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "User",
+  "description": "A person, and their account",
+  "tags": [
+    "person",
+    "profile",
+    "account"
+  ],
+  "aliases": [
+    "person"
+  ],
+  "keywords": [
+    "profile",
+    "account",
+    "avatar",
+    "human"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 21A7 7 0 0 1 19 21",
+      "closed": true
+    }
+  ]
+}

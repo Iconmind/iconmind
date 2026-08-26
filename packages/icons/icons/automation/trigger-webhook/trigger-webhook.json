@@ -1,0 +1,38 @@
+{
+  "slug": "trigger-webhook",
+  "category": "automation",
+  "subcategory": "trigger",
+  "name": "Webhook trigger",
+  "description": "Something outside pressed it",
+  "tags": [
+    "event",
+    "incoming",
+    "push"
+  ],
+  "keywords": [
+    "incoming event",
+    "callback",
+    "push",
+    "external",
+    "http trigger"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 6.8A6 6 0 1 1 5 17.2",
+      "closed": false
+    },
+    {
+      "d": "M6 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 12H20",
+      "closed": false
+    },
+    {
+      "d": "M17 9L20 12L17 15",
+      "closed": false
+    }
+  ]
+}

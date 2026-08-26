@@ -1,0 +1,25 @@
+name: Icon request
+description: Ask for an icon the set is missing. Takes a minute, needs no design skills.
+title: "icon: "
+labels: ["icon-request"]
+body:
+  - type: input
+    id: concept
+    attributes:
+      label: What concept needs an icon?
+      description: The thing itself, not a drawing suggestion — e.g. "speculative decoding", "prompt cache".
+      placeholder: speculative-decoding
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Where would you use it?
+      description: One sentence about the UI it is for. Real demand beats a guess.
+    validations:
+      required: true
+  - type: input
+    id: searched
+    attributes:
+      label: What did you search for first?
+      description: If a search on iconmind.dev came up empty, paste the query — misses drive the roadmap.

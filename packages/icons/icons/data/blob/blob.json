@@ -1,0 +1,28 @@
+{
+  "slug": "blob",
+  "category": "data",
+  "subcategory": "storage",
+  "name": "Blob",
+  "description": "Bytes with no promised shape",
+  "tags": [
+    "binary",
+    "opaque",
+    "bytes"
+  ],
+  "keywords": [
+    "binary object",
+    "opaque bytes",
+    "unstructured"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 10a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 15a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    }
+  ]
+}

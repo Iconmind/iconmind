@@ -1,0 +1,41 @@
+{
+  "slug": "eye-off",
+  "category": "interface",
+  "subcategory": "state",
+  "name": "Eye off",
+  "description": "Hidden",
+  "tags": [
+    "hide",
+    "invisible",
+    "private"
+  ],
+  "aliases": [
+    "hide"
+  ],
+  "keywords": [
+    "hidden",
+    "invisible",
+    "conceal",
+    "private",
+    "unwatch"
+  ],
+  "family": "eye",
+  "shapes": [
+    {
+      "d": "M2 12A12.5 12.5 0 0 1 22 12",
+      "closed": false
+    },
+    {
+      "d": "M22 12A12.5 12.5 0 0 1 2 12",
+      "closed": false
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 20L20 4",
+      "closed": false
+    }
+  ]
+}

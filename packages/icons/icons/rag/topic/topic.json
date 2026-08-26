@@ -1,0 +1,41 @@
+{
+  "slug": "topic",
+  "category": "rag",
+  "subcategory": "knowledge",
+  "name": "Topic",
+  "description": "What this cluster of things is about",
+  "tags": [
+    "theme",
+    "cluster",
+    "subject"
+  ],
+  "aliases": [
+    "theme-topic"
+  ],
+  "keywords": [
+    "theme",
+    "subject",
+    "cluster label",
+    "about",
+    "grouping"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 10a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

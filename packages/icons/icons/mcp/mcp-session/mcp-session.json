@@ -1,0 +1,38 @@
+{
+  "slug": "mcp-session",
+  "category": "mcp",
+  "subcategory": "transport",
+  "name": "MCP session",
+  "description": "One conversation, from open to close",
+  "tags": [
+    "connection",
+    "lifetime",
+    "state"
+  ],
+  "keywords": [
+    "session id",
+    "lifetime",
+    "stateful",
+    "connection",
+    "resume"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14 4H18A3 3 0 0 1 21 7V17A3 3 0 0 1 18 20H6A3 3 0 0 1 3 17V7L6 4H10",
+      "closed": true
+    },
+    {
+      "d": "M13.69 9.37A4 4 0 1 1 10.31 9.37",
+      "closed": false
+    },
+    {
+      "d": "M12 10V13",
+      "closed": false
+    },
+    {
+      "d": "M13 13H16",
+      "closed": false
+    }
+  ]
+}

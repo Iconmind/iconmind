@@ -1,0 +1,38 @@
+{
+  "slug": "agent-thinking",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Agent thinking",
+  "description": "The agent is working on it",
+  "tags": [
+    "working",
+    "busy",
+    "reasoning"
+  ],
+  "keywords": [
+    "busy",
+    "processing",
+    "ellipsis",
+    "waiting",
+    "reasoning"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M7 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

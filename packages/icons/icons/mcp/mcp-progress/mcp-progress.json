@@ -1,0 +1,29 @@
+{
+  "slug": "mcp-progress",
+  "category": "mcp",
+  "subcategory": "transport",
+  "name": "MCP progress",
+  "description": "How far through a long call it is",
+  "tags": [
+    "partial",
+    "streaming",
+    "percent"
+  ],
+  "keywords": [
+    "progress token",
+    "partial result",
+    "long running",
+    "percent"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M13.5 7H19A3 3 0 0 1 22 10V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V10L5 7H10.5",
+      "closed": true
+    },
+    {
+      "d": "M12 7V17",
+      "closed": false
+    }
+  ]
+}

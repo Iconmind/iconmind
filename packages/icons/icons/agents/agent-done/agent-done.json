@@ -1,0 +1,30 @@
+{
+  "slug": "agent-done",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Agent done",
+  "description": "Finished, and it went well",
+  "tags": [
+    "complete",
+    "finished",
+    "ok"
+  ],
+  "keywords": [
+    "complete",
+    "finished",
+    "task done",
+    "success",
+    "wrapped up"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 12L10 14L16 8",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "one-off",
+  "category": "automation",
+  "subcategory": "schedule",
+  "name": "One-off",
+  "description": "Once, and never again",
+  "tags": [
+    "single",
+    "adhoc",
+    "once"
+  ],
+  "aliases": [
+    "adhoc"
+  ],
+  "keywords": [
+    "run once",
+    "ad hoc",
+    "single shot"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 12a8 8 0 1 0 16 0a8 8 0 1 0 -16 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 8V16",
+      "closed": false
+    }
+  ]
+}

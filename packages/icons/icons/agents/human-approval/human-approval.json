@@ -1,0 +1,33 @@
+{
+  "slug": "human-approval",
+  "category": "agents",
+  "subcategory": "communication",
+  "name": "Human approval",
+  "description": "A person has to say yes first",
+  "tags": [
+    "review",
+    "consent",
+    "gate"
+  ],
+  "keywords": [
+    "review",
+    "sign-off",
+    "consent",
+    "manual"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A6 6 0 0 1 15 21",
+      "closed": false
+    },
+    {
+      "d": "M15 12L17 14L21 10",
+      "closed": false
+    }
+  ]
+}

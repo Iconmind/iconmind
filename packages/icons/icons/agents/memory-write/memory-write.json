@@ -1,0 +1,37 @@
+{
+  "slug": "memory-write",
+  "category": "agents",
+  "subcategory": "memory",
+  "name": "Memory write",
+  "description": "Put something away for later",
+  "tags": [
+    "store",
+    "save",
+    "commit"
+  ],
+  "keywords": [
+    "persist",
+    "save state",
+    "record",
+    "commit"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 6H18A3 3 0 0 1 21 9V15A3 3 0 0 1 18 18H6A3 3 0 0 1 3 15V9A3 3 0 0 1 6 6H9",
+      "closed": true
+    },
+    {
+      "d": "M9 9V15",
+      "closed": false
+    },
+    {
+      "d": "M13 9V15",
+      "closed": false
+    },
+    {
+      "d": "M18 10L16 12L18 14",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "sort-desc",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Sort descending",
+  "description": "Largest first",
+  "tags": [
+    "order",
+    "descending",
+    "za"
+  ],
+  "keywords": [
+    "descending",
+    "z-a",
+    "high to low",
+    "order by"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M4 6H20",
+      "closed": false
+    },
+    {
+      "d": "M4 12H15",
+      "closed": false
+    },
+    {
+      "d": "M4 18H10",
+      "closed": false
+    }
+  ]
+}

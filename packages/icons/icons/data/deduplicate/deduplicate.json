@@ -1,0 +1,32 @@
+{
+  "slug": "deduplicate",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Deduplicate",
+  "description": "Two of the same become one",
+  "tags": [
+    "unique",
+    "merge",
+    "distinct"
+  ],
+  "aliases": [
+    "dedupe-data"
+  ],
+  "keywords": [
+    "distinct",
+    "unique rows",
+    "remove copies",
+    "merge same"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H11A2 2 0 0 1 13 6V12A2 2 0 0 1 11 14H4A2 2 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12A2 2 0 0 1 13 10H20A2 2 0 0 1 22 12V18A2 2 0 0 1 20 20H13A2 2 0 0 1 11 18Z",
+      "closed": true
+    }
+  ]
+}

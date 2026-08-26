@@ -1,0 +1,44 @@
+---
+/**
+ * The one runtime every generated icon delegates to — the same contract as
+ * @iconmind/react, written once so a thousand components cannot drift.
+ */
+const {
+  cells,
+  size = 24,
+  color = "currentColor",
+  variant = "outline",
+  weight = "regular",
+  strokeWidth,
+  absoluteStrokeWidth = false,
+  ...rest
+} = Astro.props;
+
+const STROKE = { thin: 1.5, regular: 2, bold: 2.5 };
+const nodes = cells[`${variant}-${weight}`] ?? cells[`outline-${weight}`] ?? cells["outline-regular"] ?? [];
+const stroke = strokeWidth ?? STROKE[weight];
+const labelled = rest["aria-label"] != null || rest["aria-labelledby"] != null;
+
+const esc = (v) => String(v).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+const inner = nodes
+  .map(([tag, attrs]) =>
+    `<${tag} ${Object.entries(attrs).map(([k, v]) => `${k}="${esc(v)}"`).join(" ")}/>`)
+  .join("");
+---
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke={color}
+  stroke-width={absoluteStrokeWidth ? (Number(stroke) * 24) / Number(size) : stroke}
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  focusable="false"
+  role={labelled ? "img" : undefined}
+  aria-hidden={labelled ? undefined : "true"}
+  {...rest}
+  set:html={inner}
+/>

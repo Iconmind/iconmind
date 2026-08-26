@@ -1,0 +1,33 @@
+{
+  "slug": "document-alert",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Document alert",
+  "description": "Something is wrong with this one",
+  "tags": [
+    "invalid",
+    "problem",
+    "attention"
+  ],
+  "keywords": [
+    "invalid",
+    "error",
+    "malformed",
+    "needs review"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M12 9V12",
+      "closed": false
+    },
+    {
+      "d": "M11 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

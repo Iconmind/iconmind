@@ -1,0 +1,37 @@
+{
+  "slug": "variant",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Variant",
+  "description": "The same thing, one difference",
+  "tags": [
+    "version",
+    "flavour",
+    "alternative"
+  ],
+  "keywords": [
+    "flavour",
+    "alternative",
+    "a and b",
+    "one difference"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H8A2 2 0 0 1 10 6V18A2 2 0 0 1 8 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M14 6A2 2 0 0 1 16 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H16A2 2 0 0 1 14 18Z",
+      "closed": true
+    },
+    {
+      "d": "M5 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 7.5V10.5",
+      "closed": false
+    }
+  ]
+}

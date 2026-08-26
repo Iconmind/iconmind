@@ -1,0 +1,30 @@
+{
+  "slug": "mcp-tool-permission",
+  "category": "mcp",
+  "subcategory": "tool",
+  "name": "MCP tool permission",
+  "description": "Whether it is allowed to run",
+  "tags": [
+    "allow",
+    "consent",
+    "gate"
+  ],
+  "keywords": [
+    "consent",
+    "allow",
+    "approve tool",
+    "human gate",
+    "trust"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M12 10H15A3 3 0 0 1 18 13V17A3 3 0 0 1 15 20H9A3 3 0 0 1 6 17V13L9 10Z",
+      "closed": true
+    },
+    {
+      "d": "M8 10A4 4 0 0 1 16 10",
+      "closed": false
+    }
+  ]
+}

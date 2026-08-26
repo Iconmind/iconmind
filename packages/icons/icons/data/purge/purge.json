@@ -1,0 +1,38 @@
+{
+  "slug": "purge",
+  "category": "data",
+  "subcategory": "storage",
+  "name": "Purge",
+  "description": "All of it, gone",
+  "tags": [
+    "wipe",
+    "delete-all",
+    "empty"
+  ],
+  "keywords": [
+    "wipe",
+    "delete everything",
+    "truncate",
+    "empty the store",
+    "erase"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 9A2 2 0 0 1 7 7H17A2 2 0 0 1 19 9V19A2 2 0 0 1 17 21H7A2 2 0 0 1 5 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 4H21",
+      "closed": false
+    },
+    {
+      "d": "M9 11L15 17",
+      "closed": false
+    },
+    {
+      "d": "M15 11L9 17",
+      "closed": false
+    }
+  ]
+}

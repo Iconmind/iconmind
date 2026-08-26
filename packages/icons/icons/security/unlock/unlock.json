@@ -1,0 +1,34 @@
+{
+  "slug": "unlock",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Unlock",
+  "description": "It is open",
+  "tags": [
+    "open",
+    "granted",
+    "access"
+  ],
+  "keywords": [
+    "open",
+    "access granted",
+    "decrypt",
+    "unlocked",
+    "permit"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M5 11A2 2 0 0 1 7 9H17A2 2 0 0 1 19 11V18A2 2 0 0 1 17 20H7A2 2 0 0 1 5 18Z",
+      "closed": true
+    },
+    {
+      "d": "M7 9A5 5 0 0 1 15.54 5.46",
+      "closed": false
+    },
+    {
+      "d": "M11 14.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

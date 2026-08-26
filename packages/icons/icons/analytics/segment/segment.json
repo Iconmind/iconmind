@@ -1,0 +1,32 @@
+{
+  "slug": "segment",
+  "category": "analytics",
+  "subcategory": "segment",
+  "name": "Segment",
+  "description": "The part of the whole you mean",
+  "tags": [
+    "slice",
+    "cohort",
+    "part"
+  ],
+  "keywords": [
+    "cohort",
+    "slice of users",
+    "part of whole"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12L12 3",
+      "closed": false
+    },
+    {
+      "d": "M12 12L18 6",
+      "closed": false
+    }
+  ]
+}

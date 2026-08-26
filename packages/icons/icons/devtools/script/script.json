@@ -1,0 +1,33 @@
+{
+  "slug": "script",
+  "category": "devtools",
+  "subcategory": "terminal",
+  "name": "Script",
+  "description": "Commands, saved for later",
+  "tags": [
+    "file",
+    "batch",
+    "saved"
+  ],
+  "keywords": [
+    "shell script",
+    "batch file",
+    "saved commands",
+    "sh"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 9L12 12L9 15",
+      "closed": false
+    },
+    {
+      "d": "M8 17H14",
+      "closed": false
+    }
+  ]
+}

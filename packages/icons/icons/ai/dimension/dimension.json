@@ -1,0 +1,34 @@
+{
+  "slug": "dimension",
+  "category": "ai",
+  "subcategory": "embedding",
+  "name": "Dimension",
+  "description": "How many numbers each vector has",
+  "tags": [
+    "axes",
+    "size",
+    "width"
+  ],
+  "keywords": [
+    "dims",
+    "vector size",
+    "1536",
+    "axes",
+    "rank"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M4 20L10 14",
+      "closed": false
+    }
+  ]
+}

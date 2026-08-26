@@ -1,0 +1,41 @@
+{
+  "slug": "anomaly",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Anomaly",
+  "description": "One reading that does not belong",
+  "tags": [
+    "outlier",
+    "spike",
+    "unexpected"
+  ],
+  "aliases": [
+    "outlier"
+  ],
+  "keywords": [
+    "spike",
+    "outlier",
+    "deviation",
+    "unexpected",
+    "alert"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M3 19H21",
+      "closed": false
+    },
+    {
+      "d": "M6 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

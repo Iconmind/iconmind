@@ -1,0 +1,36 @@
+{
+  "slug": "terminal",
+  "category": "devtools",
+  "subcategory": "terminal",
+  "name": "Terminal",
+  "description": "Run it from a command line",
+  "tags": [
+    "console",
+    "shell",
+    "command"
+  ],
+  "aliases": [
+    "console"
+  ],
+  "keywords": [
+    "shell",
+    "bash",
+    "zsh",
+    "command line"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M15.5 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V8L6 4H9.5",
+      "closed": true
+    },
+    {
+      "d": "M6 9L9 12L6 15",
+      "closed": false
+    },
+    {
+      "d": "M11.5 15H17.5",
+      "closed": false
+    }
+  ]
+}

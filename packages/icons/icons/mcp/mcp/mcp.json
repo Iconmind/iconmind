@@ -1,0 +1,32 @@
+{
+  "slug": "mcp",
+  "category": "mcp",
+  "subcategory": "server",
+  "name": "MCP",
+  "description": "The protocol a model talks to tools through",
+  "tags": [
+    "protocol",
+    "connect",
+    "standard"
+  ],
+  "keywords": [
+    "model context protocol",
+    "anthropic",
+    "tool protocol"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M2 10A2 2 0 0 1 4 8H8A2 2 0 0 1 10 10V14A2 2 0 0 1 8 16H4A2 2 0 0 1 2 14Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12H14",
+      "closed": false
+    },
+    {
+      "d": "M14 10A2 2 0 0 1 16 8H20A2 2 0 0 1 22 10V14A2 2 0 0 1 20 16H16A2 2 0 0 1 14 14Z",
+      "closed": true
+    }
+  ]
+}

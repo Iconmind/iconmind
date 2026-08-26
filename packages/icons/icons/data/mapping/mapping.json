@@ -1,0 +1,44 @@
+{
+  "slug": "mapping",
+  "category": "data",
+  "subcategory": "transform",
+  "name": "Mapping",
+  "description": "Each of these to one of those",
+  "tags": [
+    "pairs",
+    "translate",
+    "onto"
+  ],
+  "keywords": [
+    "one to one",
+    "pairs",
+    "translate keys"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 6H18",
+      "closed": false
+    },
+    {
+      "d": "M8 12H15",
+      "closed": false
+    },
+    {
+      "d": "M8 18H18",
+      "closed": false
+    }
+  ]
+}

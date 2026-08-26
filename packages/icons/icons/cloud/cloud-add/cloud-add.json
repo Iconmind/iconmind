@@ -1,0 +1,34 @@
+{
+  "slug": "cloud-add",
+  "category": "cloud",
+  "subcategory": "compute",
+  "name": "Cloud add",
+  "description": "Add a cloud account or resource",
+  "tags": [
+    "new",
+    "connect",
+    "provision"
+  ],
+  "keywords": [
+    "provision",
+    "connect account",
+    "new resource",
+    "spin up"
+  ],
+  "family": "cloud",
+  "shapes": [
+    {
+      "d": "M4 18A4 4 0 0 1 6 10.5A5 5 0 0 1 15.5 9A5.5 5.5 0 0 1 20 18Z",
+      "closed": true,
+      "_why": "three lobes, each an arc whose radius is set by the chord it spans — 4 across 7.76, 5 across 9.62, 5.5 across 10.06 — which no constructor takes as an argument"
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "replica",
+  "category": "data",
+  "subcategory": "storage",
+  "name": "Replica",
+  "description": "The copy that answers reads",
+  "tags": [
+    "copy",
+    "standby",
+    "mirror"
+  ],
+  "keywords": [
+    "read replica",
+    "standby copy",
+    "mirror db"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H9A2 2 0 0 1 11 6V18A2 2 0 0 1 9 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M4 9H11",
+      "closed": false
+    },
+    {
+      "d": "M14 10A2 2 0 0 1 16 8H20A2 2 0 0 1 22 10V18A2 2 0 0 1 20 20H16A2 2 0 0 1 14 18Z",
+      "closed": true
+    },
+    {
+      "d": "M15.5 13H20.5",
+      "closed": false
+    }
+  ]
+}

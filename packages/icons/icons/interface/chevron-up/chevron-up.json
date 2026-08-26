@@ -1,0 +1,26 @@
+{
+  "slug": "chevron-up",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Chevron up",
+  "description": "Close what is below, or go up a level",
+  "tags": [
+    "collapse",
+    "up",
+    "less"
+  ],
+  "keywords": [
+    "close",
+    "less",
+    "fold",
+    "scroll up",
+    "collapse"
+  ],
+  "family": "chevron",
+  "shapes": [
+    {
+      "d": "M5 15L12 8L19 15",
+      "closed": false
+    }
+  ]
+}

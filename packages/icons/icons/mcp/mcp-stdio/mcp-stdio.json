@@ -1,0 +1,34 @@
+{
+  "slug": "mcp-stdio",
+  "category": "mcp",
+  "subcategory": "transport",
+  "name": "MCP stdio",
+  "description": "A server on the other end of a pipe",
+  "tags": [
+    "pipe",
+    "local",
+    "process"
+  ],
+  "keywords": [
+    "stdin stdout",
+    "local process",
+    "pipe",
+    "spawn",
+    "subprocess"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M12 4H15A3 3 0 0 1 18 7V17A3 3 0 0 1 15 20H9A3 3 0 0 1 6 17V7L9 4Z",
+      "closed": true
+    },
+    {
+      "d": "M2 9H6",
+      "closed": false
+    },
+    {
+      "d": "M18 15H22",
+      "closed": false
+    }
+  ]
+}

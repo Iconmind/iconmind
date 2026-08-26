@@ -1,0 +1,44 @@
+{
+  "slug": "fine-tuning",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Fine-tuning",
+  "description": "Adapting a trained model to one domain",
+  "tags": [
+    "adapt",
+    "tune",
+    "specialise"
+  ],
+  "aliases": [
+    "finetune"
+  ],
+  "keywords": [
+    "lora",
+    "adapter",
+    "peft",
+    "domain adaptation"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 11H17",
+      "closed": false
+    },
+    {
+      "d": "M14 9V13",
+      "closed": false
+    },
+    {
+      "d": "M7 15H17",
+      "closed": false
+    },
+    {
+      "d": "M10 13V17",
+      "closed": false
+    }
+  ]
+}

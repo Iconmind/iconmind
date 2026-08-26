@@ -1,0 +1,65 @@
+---
+title: Contributing
+description: Three ways to help. The first takes about a minute.
+---
+
+## Request an icon
+
+No design skills needed, and it is the most useful thing we get — a request is real
+demand, where a roadmap is a guess.
+
+[Open an icon request →](https://github.com/iconmind/iconmind/issues/new?template=icon-request.yml)
+
+Tell us the concept, what it means in one sentence, and where you would use it. Requests
+with a concrete use case almost always make better icons than ones that just complete a
+list.
+
+## Submit an icon
+
+```bash
+git clone https://github.com/iconmind/iconmind.git
+cd iconmind && pnpm install
+
+pnpm icons:new agents agent-memory     # scaffolds .svg and .json
+# draw it, then fill in the description and tags
+pnpm icons:validate                    # 30+ rules, under 5 seconds
+pnpm icons:duplicates                  # is it a twin of something we have?
+pnpm changeset                         # choose "minor"
+```
+
+The scaffold hands you the house container rather than a blank file, so the starting
+point already speaks the design language.
+
+One icon per pull request, or one family. Branch `icon/<slug>`, commits in
+[Conventional Commits](https://www.conventionalcommits.org).
+
+## Contribute code
+
+pnpm workspace with Turborepo. `packages/icons` is the source of truth; the React and MCP
+packages are generated from it at build time, which is why no component files are
+committed.
+
+```bash
+pnpm typecheck && pnpm test && pnpm icons:validate
+```
+
+## Naming
+
+Slugs are public API — renaming one is a breaking change, so it is worth an extra minute
+up front. Use the real term from the domain: `reranker`, not `sort-smart`. No brand
+names. No abbreviations unless the industry already uses them (`llm`, `api`, `mcp`).
+
+## Originality
+
+Icons must be your own work. Shared industry metaphors — a cylinder for a database, a
+shield for security — are common language and free to use. Copying the distinctive shapes
+of another set is not. If a similarity is reported we redraw first and discuss afterwards.
+
+## Language
+
+Everything a second person might read is in English: metadata, code comments, validator
+messages, issue templates.
+
+## License
+
+By contributing you agree your work is released under the MIT License. There is no CLA.

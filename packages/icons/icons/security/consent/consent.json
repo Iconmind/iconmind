@@ -1,0 +1,37 @@
+{
+  "slug": "consent",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Consent",
+  "description": "Somebody said yes, on the record",
+  "tags": [
+    "agree",
+    "opt-in",
+    "signed"
+  ],
+  "aliases": [
+    "opt-in"
+  ],
+  "keywords": [
+    "opt in",
+    "agreed",
+    "gdpr",
+    "signature",
+    "permission given"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 11L11 13L15 9",
+      "closed": false
+    },
+    {
+      "d": "M8 17H16",
+      "closed": false
+    }
+  ]
+}

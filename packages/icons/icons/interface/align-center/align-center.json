@@ -1,0 +1,33 @@
+{
+  "slug": "align-center",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Align center",
+  "description": "Centred, ragged both sides",
+  "tags": [
+    "text",
+    "centred",
+    "middle"
+  ],
+  "keywords": [
+    "justify center",
+    "centre",
+    "text align",
+    "middle"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M3 6H21",
+      "closed": false
+    },
+    {
+      "d": "M6.5 12H17.5",
+      "closed": false
+    },
+    {
+      "d": "M4.5 18H19.5",
+      "closed": false
+    }
+  ]
+}

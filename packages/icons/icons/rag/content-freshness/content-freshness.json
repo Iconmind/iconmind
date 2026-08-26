@@ -1,0 +1,37 @@
+{
+  "slug": "content-freshness",
+  "category": "rag",
+  "subcategory": "knowledge",
+  "name": "Content freshness",
+  "description": "Is the knowledge still true?",
+  "tags": [
+    "current",
+    "updated",
+    "stale"
+  ],
+  "keywords": [
+    "stale knowledge",
+    "last crawled",
+    "current",
+    "reindex"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9.5V12",
+      "closed": false
+    },
+    {
+      "d": "M12 12H14.5",
+      "closed": false
+    }
+  ]
+}

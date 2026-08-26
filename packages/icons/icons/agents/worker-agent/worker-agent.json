@@ -1,0 +1,33 @@
+{
+  "slug": "worker-agent",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Worker agent",
+  "description": "The one that does the task",
+  "tags": [
+    "executor",
+    "doer",
+    "labour"
+  ],
+  "keywords": [
+    "executor",
+    "does the work",
+    "task runner",
+    "labourer"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 16A5 5 0 0 1 17 16",
+      "closed": false
+    },
+    {
+      "d": "M8 20.5A1.5 1.5 0 0 1 9.5 19H14.5A1.5 1.5 0 0 1 16 20.5V20.5A1.5 1.5 0 0 1 14.5 22H9.5A1.5 1.5 0 0 1 8 20.5Z",
+      "closed": true
+    }
+  ]
+}

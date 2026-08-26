@@ -1,0 +1,41 @@
+{
+  "slug": "broadcast",
+  "category": "agents",
+  "subcategory": "communication",
+  "name": "Broadcast",
+  "description": "Told to everyone at once",
+  "tags": [
+    "announce",
+    "publish",
+    "fan-out"
+  ],
+  "aliases": [
+    "announce"
+  ],
+  "keywords": [
+    "publish",
+    "pubsub",
+    "fan out",
+    "notify all",
+    "emit"
+  ],
+  "family": "fan",
+  "shapes": [
+    {
+      "d": "M12 12V21",
+      "closed": false
+    },
+    {
+      "d": "M7 21H17",
+      "closed": false
+    },
+    {
+      "d": "M8.24 8.63A4 4 0 0 1 15.76 8.63",
+      "closed": false
+    },
+    {
+      "d": "M5.42 7.61A7 7 0 0 1 18.58 7.61",
+      "closed": false
+    }
+  ]
+}

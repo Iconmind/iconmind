@@ -1,0 +1,28 @@
+{
+  "slug": "vector",
+  "category": "ai",
+  "subcategory": "embedding",
+  "name": "Vector",
+  "description": "A direction and a magnitude",
+  "tags": [
+    "arrow",
+    "direction",
+    "magnitude"
+  ],
+  "keywords": [
+    "euclidean",
+    "coordinates",
+    "magnitude"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M3 21L20 4",
+      "closed": false
+    },
+    {
+      "d": "M13 4L20 4L20 11",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "breach",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Breach",
+  "description": "They got in",
+  "tags": [
+    "compromise",
+    "broken",
+    "leak"
+  ],
+  "aliases": [
+    "threat"
+  ],
+  "keywords": [
+    "compromise",
+    "incident",
+    "leaked",
+    "penetrated",
+    "exposed"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M15 6L11 10L14 13L10 17",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "replan",
+  "category": "agents",
+  "subcategory": "planning",
+  "name": "Replan",
+  "description": "That plan is no good; here is another",
+  "tags": [
+    "rethink",
+    "discard",
+    "again"
+  ],
+  "keywords": [
+    "rethink",
+    "new plan",
+    "abandon",
+    "adjust",
+    "course correct"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H8A2 2 0 0 1 10 6V18A2 2 0 0 1 8 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M3 17L9 11",
+      "closed": false
+    },
+    {
+      "d": "M14 6A2 2 0 0 1 16 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H16A2 2 0 0 1 14 18Z",
+      "closed": true
+    },
+    {
+      "d": "M16 9H20",
+      "closed": false
+    },
+    {
+      "d": "M16 13H20",
+      "closed": false
+    }
+  ]
+}

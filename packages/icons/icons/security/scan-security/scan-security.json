@@ -1,0 +1,30 @@
+{
+  "slug": "scan-security",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Security scan",
+  "description": "Looking for what is wrong with it",
+  "tags": [
+    "sweep",
+    "audit",
+    "cve"
+  ],
+  "keywords": [
+    "vulnerability scan",
+    "cve",
+    "sweep",
+    "sast",
+    "audit"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M4 12H20",
+      "closed": false
+    }
+  ]
+}

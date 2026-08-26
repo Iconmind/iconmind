@@ -1,0 +1,46 @@
+{
+  "slug": "mcp-tool-error",
+  "category": "mcp",
+  "subcategory": "tool",
+  "name": "MCP tool error",
+  "description": "It failed instead",
+  "tags": [
+    "failure",
+    "failed",
+    "fault"
+  ],
+  "keywords": [
+    "isError",
+    "failure",
+    "exception",
+    "fault",
+    "rejected"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 10H15A3 3 0 0 1 18 13V16A3 3 0 0 1 15 19H9A3 3 0 0 1 6 16V13L9 10Z",
+      "closed": true
+    },
+    {
+      "d": "M9 5V10",
+      "closed": false
+    },
+    {
+      "d": "M12 5V10",
+      "closed": false
+    },
+    {
+      "d": "M15 5V10",
+      "closed": false
+    },
+    {
+      "d": "M10 12.5L14 16.5",
+      "closed": false
+    },
+    {
+      "d": "M14 12.5L10 16.5",
+      "closed": false
+    }
+  ]
+}

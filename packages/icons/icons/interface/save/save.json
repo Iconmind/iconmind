@@ -1,0 +1,34 @@
+{
+  "slug": "save",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Save",
+  "description": "Keep the changes",
+  "tags": [
+    "store",
+    "disk",
+    "commit"
+  ],
+  "keywords": [
+    "write",
+    "persist",
+    "disk",
+    "floppy",
+    "ctrl-s"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3L8 9L16 9L16 3",
+      "closed": false
+    },
+    {
+      "d": "M8 15H16",
+      "closed": false
+    }
+  ]
+}

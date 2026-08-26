@@ -1,0 +1,37 @@
+{
+  "slug": "insight",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Insight",
+  "description": "The thing the numbers were hiding",
+  "tags": [
+    "idea",
+    "finding",
+    "bulb"
+  ],
+  "aliases": [
+    "idea"
+  ],
+  "keywords": [
+    "finding",
+    "discovery",
+    "aha",
+    "recommendation",
+    "lightbulb"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 8a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 16H15",
+      "closed": false
+    },
+    {
+      "d": "M10 19H14",
+      "closed": false
+    }
+  ]
+}

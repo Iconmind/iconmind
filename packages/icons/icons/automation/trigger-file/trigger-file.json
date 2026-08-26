@@ -1,0 +1,34 @@
+{
+  "slug": "trigger-file",
+  "category": "automation",
+  "subcategory": "trigger",
+  "name": "File trigger",
+  "description": "A file arriving pressed it",
+  "tags": [
+    "watch",
+    "upload",
+    "arrival"
+  ],
+  "keywords": [
+    "file watcher",
+    "on upload",
+    "new file",
+    "landing",
+    "drop folder"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 8L12 20L3 20L3 4L8 4Z",
+      "closed": true
+    },
+    {
+      "d": "M16 12H20",
+      "closed": false
+    },
+    {
+      "d": "M17 9L20 12L17 15",
+      "closed": false
+    }
+  ]
+}

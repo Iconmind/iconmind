@@ -1,0 +1,40 @@
+{
+  "slug": "churn",
+  "category": "analytics",
+  "subcategory": "segment",
+  "name": "Churn",
+  "description": "The ones who left",
+  "tags": [
+    "loss",
+    "attrition",
+    "leaving"
+  ],
+  "aliases": [
+    "attrition"
+  ],
+  "keywords": [
+    "attrition",
+    "cancelled",
+    "lost customers",
+    "retention"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 20A5 5 0 0 1 13 20",
+      "closed": false
+    },
+    {
+      "d": "M15 9L21 15",
+      "closed": false
+    },
+    {
+      "d": "M21 9L15 15",
+      "closed": false
+    }
+  ]
+}

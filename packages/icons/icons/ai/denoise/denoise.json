@@ -1,0 +1,38 @@
+{
+  "slug": "denoise",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Denoise",
+  "description": "Take the noise out",
+  "tags": [
+    "clean",
+    "smooth",
+    "filter"
+  ],
+  "keywords": [
+    "clean up",
+    "smooth",
+    "restore",
+    "upscale",
+    "artifacts"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M2 15L5 12L8 15L11 12",
+      "closed": false
+    },
+    {
+      "d": "M13 12H16",
+      "closed": false
+    },
+    {
+      "d": "M15 10L17 12L15 14",
+      "closed": false
+    },
+    {
+      "d": "M18 12H22",
+      "closed": false
+    }
+  ]
+}

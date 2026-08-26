@@ -1,0 +1,37 @@
+{
+  "slug": "webhook-out",
+  "category": "automation",
+  "subcategory": "integration",
+  "name": "Outgoing webhook",
+  "description": "Our event, sent to someone else",
+  "tags": [
+    "send",
+    "notify",
+    "push"
+  ],
+  "keywords": [
+    "outgoing",
+    "push event",
+    "notify external",
+    "post to url"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M11 6.8A6 6 0 0 1 11 17.2",
+      "closed": false
+    },
+    {
+      "d": "M6 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 12H22",
+      "closed": false
+    },
+    {
+      "d": "M19 9L22 12L19 15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "agent-log",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Agent log",
+  "description": "What the agent did, in order",
+  "tags": [
+    "history",
+    "trace",
+    "record"
+  ],
+  "keywords": [
+    "history",
+    "audit",
+    "transcript",
+    "run log",
+    "steps",
+    "trace"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M7 9H17",
+      "closed": false
+    },
+    {
+      "d": "M7 12.5H17",
+      "closed": false
+    },
+    {
+      "d": "M7 16H15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "stash",
+  "category": "devtools",
+  "subcategory": "version-control",
+  "name": "Stash",
+  "description": "Put it aside for now",
+  "tags": [
+    "shelve",
+    "later",
+    "hold"
+  ],
+  "aliases": [
+    "shelve"
+  ],
+  "keywords": [
+    "git stash",
+    "set aside",
+    "shelve",
+    "temporary",
+    "pick up later"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M2 14A2 2 0 0 1 4 12H20A2 2 0 0 1 22 14V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M12 2V8",
+      "closed": false
+    },
+    {
+      "d": "M9 5L12 8L15 5",
+      "closed": false
+    },
+    {
+      "d": "M6 16H18",
+      "closed": false
+    }
+  ]
+}

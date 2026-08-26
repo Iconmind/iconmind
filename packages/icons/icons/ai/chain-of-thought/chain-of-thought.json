@@ -1,0 +1,43 @@
+{
+  "slug": "chain-of-thought",
+  "category": "ai",
+  "subcategory": "prompt",
+  "name": "Chain of thought",
+  "description": "Reasoning worked through one step at a time",
+  "tags": [
+    "reasoning",
+    "steps",
+    "thinking"
+  ],
+  "aliases": [
+    "reasoning"
+  ],
+  "keywords": [
+    "cot",
+    "step by step",
+    "scratchpad"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M4 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 7.5L10.5 10.5",
+      "closed": false
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 13.5L16.5 16.5",
+      "closed": false
+    },
+    {
+      "d": "M16 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "pipeline-ci",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "CI pipeline",
+  "description": "Build, test, ship, in that order",
+  "tags": [
+    "stages",
+    "sequence",
+    "build"
+  ],
+  "aliases": [
+    "ci-cd"
+  ],
+  "keywords": [
+    "build test deploy",
+    "stages",
+    "ci cd line"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12A2.5 2.5 0 0 1 4.5 9.5H4.5A2.5 2.5 0 0 1 7 12V12A2.5 2.5 0 0 1 4.5 14.5H4.5A2.5 2.5 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 12A2.5 2.5 0 0 1 12 9.5H12A2.5 2.5 0 0 1 14.5 12V12A2.5 2.5 0 0 1 12 14.5H12A2.5 2.5 0 0 1 9.5 12Z",
+      "closed": true
+    },
+    {
+      "d": "M17 12A2.5 2.5 0 0 1 19.5 9.5H19.5A2.5 2.5 0 0 1 22 12V12A2.5 2.5 0 0 1 19.5 14.5H19.5A2.5 2.5 0 0 1 17 12Z",
+      "closed": true
+    },
+    {
+      "d": "M4 17H20",
+      "closed": false
+    }
+  ]
+}

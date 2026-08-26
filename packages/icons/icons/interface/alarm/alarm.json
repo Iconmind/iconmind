@@ -1,0 +1,42 @@
+{
+  "slug": "alarm",
+  "category": "interface",
+  "subcategory": "time",
+  "name": "Alarm",
+  "description": "It will go off",
+  "tags": [
+    "wake",
+    "reminder",
+    "ring"
+  ],
+  "keywords": [
+    "wake",
+    "timer",
+    "reminder",
+    "snooze",
+    "ring"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M12 6.5V12",
+      "closed": false
+    },
+    {
+      "d": "M12 12H16.5",
+      "closed": false
+    },
+    {
+      "d": "M5 19L3 21",
+      "closed": false
+    },
+    {
+      "d": "M19 19L21 21",
+      "closed": false
+    }
+  ]
+}

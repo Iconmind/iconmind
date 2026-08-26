@@ -1,0 +1,32 @@
+{
+  "slug": "knowledge",
+  "category": "rag",
+  "subcategory": "knowledge",
+  "name": "Knowledge",
+  "description": "What is known, kept where it can be asked",
+  "tags": [
+    "facts",
+    "corpus",
+    "base"
+  ],
+  "keywords": [
+    "knowledge base",
+    "what is known",
+    "facts"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 9a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 17H15",
+      "closed": false
+    },
+    {
+      "d": "M10 20H14",
+      "closed": false
+    }
+  ]
+}

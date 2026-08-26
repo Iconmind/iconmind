@@ -1,0 +1,29 @@
+{
+  "slug": "kernel",
+  "category": "devops",
+  "subcategory": "infrastructure",
+  "name": "Kernel",
+  "description": "The part everything else stands on",
+  "tags": [
+    "core",
+    "os",
+    "lowest"
+  ],
+  "keywords": [
+    "os kernel",
+    "core",
+    "ring zero",
+    "lowest layer"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H20A2 2 0 0 1 22 4V20A2 2 0 0 1 20 22H4A2 2 0 0 1 2 20Z",
+      "closed": true
+    },
+    {
+      "d": "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

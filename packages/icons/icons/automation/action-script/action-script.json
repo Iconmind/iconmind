@@ -1,0 +1,34 @@
+{
+  "slug": "action-script",
+  "category": "automation",
+  "subcategory": "action",
+  "name": "Script action",
+  "description": "The step that runs code",
+  "tags": [
+    "code",
+    "custom",
+    "run"
+  ],
+  "keywords": [
+    "custom code",
+    "javascript",
+    "python step",
+    "eval",
+    "run"
+  ],
+  "family": "chevron",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V7L5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M8 10L11 13L8 16",
+      "closed": false
+    },
+    {
+      "d": "M13 16H17",
+      "closed": false
+    }
+  ]
+}

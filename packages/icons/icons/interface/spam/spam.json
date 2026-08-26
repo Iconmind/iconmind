@@ -1,0 +1,41 @@
+{
+  "slug": "spam",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Spam",
+  "description": "Unwanted, and probably lying",
+  "tags": [
+    "junk",
+    "unwanted",
+    "phishing"
+  ],
+  "aliases": [
+    "junk"
+  ],
+  "keywords": [
+    "junk",
+    "phishing",
+    "unsolicited",
+    "report",
+    "block sender"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 21L11 17",
+      "closed": false
+    },
+    {
+      "d": "M12 7V10",
+      "closed": false
+    },
+    {
+      "d": "M11 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

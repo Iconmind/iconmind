@@ -1,0 +1,32 @@
+{
+  "slug": "evaluation",
+  "category": "ai",
+  "subcategory": "evaluation",
+  "name": "Evaluation",
+  "description": "Measuring how good the output is",
+  "tags": [
+    "measure",
+    "score",
+    "test"
+  ],
+  "aliases": [
+    "eval"
+  ],
+  "keywords": [
+    "benchmark",
+    "score",
+    "quality",
+    "assessment"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M8 12L11 15L16 10",
+      "closed": false
+    }
+  ]
+}

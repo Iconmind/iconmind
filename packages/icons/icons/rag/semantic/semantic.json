@@ -1,0 +1,32 @@
+{
+  "slug": "semantic",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Semantic",
+  "description": "By what it means, not what it says",
+  "tags": [
+    "meaning",
+    "concept",
+    "beyond-words"
+  ],
+  "keywords": [
+    "meaning",
+    "conceptual",
+    "beyond keywords"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 10A2 2 0 0 1 4 8H8A2 2 0 0 1 10 10V14A2 2 0 0 1 8 16H4A2 2 0 0 1 2 14Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12L14 12",
+      "closed": false
+    },
+    {
+      "d": "M14 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    }
+  ]
+}

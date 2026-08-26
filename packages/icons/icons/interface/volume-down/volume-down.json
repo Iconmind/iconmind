@@ -1,0 +1,29 @@
+{
+  "slug": "volume-down",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Volume down",
+  "description": "Quieter",
+  "tags": [
+    "quiet",
+    "lower",
+    "sound"
+  ],
+  "keywords": [
+    "quieter",
+    "turn down",
+    "low volume",
+    "soft"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 9L3 9L3 15L8 15L13 20L13 4Z",
+      "closed": true
+    },
+    {
+      "d": "M15.5 7.67A5 5 0 0 1 15.5 16.33",
+      "closed": false
+    }
+  ]
+}

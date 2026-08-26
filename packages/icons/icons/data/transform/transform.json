@@ -1,0 +1,37 @@
+{
+  "slug": "transform",
+  "category": "data",
+  "subcategory": "transform",
+  "name": "Transform",
+  "description": "In one shape, out another",
+  "tags": [
+    "convert",
+    "reshape",
+    "change"
+  ],
+  "keywords": [
+    "convert",
+    "reshape",
+    "map",
+    "one form to another"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H8A2 2 0 0 1 10 6V10A2 2 0 0 1 8 12H4A2 2 0 0 1 2 10Z",
+      "closed": true
+    },
+    {
+      "d": "M8 12H16",
+      "closed": false
+    },
+    {
+      "d": "M13 9L16 12L13 15",
+      "closed": false
+    },
+    {
+      "d": "M13 16a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    }
+  ]
+}

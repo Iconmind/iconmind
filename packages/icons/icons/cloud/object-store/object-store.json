@@ -1,0 +1,40 @@
+{
+  "slug": "object-store",
+  "category": "cloud",
+  "subcategory": "storage",
+  "name": "Object store",
+  "description": "Things kept by name, not place",
+  "tags": [
+    "bucket",
+    "keyed",
+    "flat"
+  ],
+  "aliases": [
+    "object-storage"
+  ],
+  "keywords": [
+    "s3",
+    "bucket",
+    "keyed blobs",
+    "flat namespace"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 8L4 20L20 20L20 8",
+      "closed": false
+    },
+    {
+      "d": "M2 4H22",
+      "closed": false
+    },
+    {
+      "d": "M7 14a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 13A2 2 0 0 1 15 11H15A2 2 0 0 1 17 13V16A2 2 0 0 1 15 18H15A2 2 0 0 1 13 16Z",
+      "closed": true
+    }
+  ]
+}

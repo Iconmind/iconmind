@@ -1,0 +1,32 @@
+{
+  "slug": "ingestion-pipeline",
+  "category": "rag",
+  "subcategory": "ingestion",
+  "name": "Ingestion pipeline",
+  "description": "Documents in, index entries out",
+  "tags": [
+    "intake",
+    "process",
+    "index"
+  ],
+  "keywords": [
+    "intake",
+    "docs to index",
+    "processing line"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M18 12L22 12",
+      "closed": false
+    },
+    {
+      "d": "M20 10L22 12L20 14",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "namespace-code",
+  "category": "devtools",
+  "subcategory": "code",
+  "name": "Code namespace",
+  "description": "Names that belong together",
+  "tags": [
+    "scope",
+    "module",
+    "prefix"
+  ],
+  "keywords": [
+    "module scope",
+    "package name",
+    "prefix",
+    "belongs to"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 4L4 4L4 20L8 20",
+      "closed": false
+    },
+    {
+      "d": "M11 8a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 16a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 4L20 4L20 20L16 20",
+      "closed": false
+    }
+  ]
+}

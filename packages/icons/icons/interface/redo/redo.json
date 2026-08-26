@@ -1,0 +1,34 @@
+{
+  "slug": "redo",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Redo",
+  "description": "Do it again after all",
+  "tags": [
+    "forward",
+    "repeat",
+    "history"
+  ],
+  "keywords": [
+    "forward",
+    "again",
+    "history",
+    "ctrl-y",
+    "reapply"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M5 13A7 7 0 0 1 19 13",
+      "closed": false
+    },
+    {
+      "d": "M5 13V18",
+      "closed": false
+    },
+    {
+      "d": "M16 10L19 13L22 10",
+      "closed": false
+    }
+  ]
+}

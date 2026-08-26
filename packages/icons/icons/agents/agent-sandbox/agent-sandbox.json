@@ -1,0 +1,30 @@
+{
+  "slug": "agent-sandbox",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Agent sandbox",
+  "description": "Where an agent can run without touching anything",
+  "tags": [
+    "isolated",
+    "contained",
+    "safe"
+  ],
+  "keywords": [
+    "isolation",
+    "container",
+    "restricted",
+    "vm",
+    "safe execution"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 2H19A3 3 0 0 1 22 5V19A3 3 0 0 1 19 22H5A3 3 0 0 1 2 19V5A3 3 0 0 1 5 2H10",
+      "closed": true
+    },
+    {
+      "d": "M14.54 6.56A6 6 0 1 1 9.46 6.56",
+      "closed": false
+    }
+  ]
+}

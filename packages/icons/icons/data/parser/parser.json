@@ -1,0 +1,38 @@
+{
+  "slug": "parser",
+  "category": "data",
+  "subcategory": "transform",
+  "name": "Parser",
+  "description": "Text going in, structure coming out",
+  "tags": [
+    "ast",
+    "read",
+    "structure"
+  ],
+  "keywords": [
+    "ast",
+    "tokenise",
+    "grammar",
+    "read into structure",
+    "syntax tree"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12H13",
+      "closed": false
+    },
+    {
+      "d": "M13 7V17",
+      "closed": false
+    },
+    {
+      "d": "M13 7H20",
+      "closed": false
+    },
+    {
+      "d": "M13 17H20",
+      "closed": false
+    }
+  ]
+}

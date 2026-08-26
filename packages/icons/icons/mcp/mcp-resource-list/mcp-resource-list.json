@@ -1,0 +1,30 @@
+{
+  "slug": "mcp-resource-list",
+  "category": "mcp",
+  "subcategory": "resource",
+  "name": "MCP resource list",
+  "description": "Everything this server offers",
+  "tags": [
+    "catalogue",
+    "index",
+    "available"
+  ],
+  "keywords": [
+    "catalog",
+    "available",
+    "enumerate",
+    "index",
+    "manifest"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 2L10 2L7 5L7 17L17 17L17 7",
+      "closed": true
+    },
+    {
+      "d": "M16 7L13 7L10 10L10 22L20 22L20 12",
+      "closed": true
+    }
+  ]
+}

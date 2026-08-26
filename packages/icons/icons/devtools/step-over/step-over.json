@@ -1,0 +1,34 @@
+{
+  "slug": "step-over",
+  "category": "devtools",
+  "subcategory": "debug",
+  "name": "Step over",
+  "description": "Past the call, not through it",
+  "tags": [
+    "skip",
+    "past",
+    "debug"
+  ],
+  "keywords": [
+    "step over",
+    "skip call",
+    "next line",
+    "debugger",
+    "f10"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 18H21",
+      "closed": false
+    },
+    {
+      "d": "M6 14A6 6 0 0 1 18 14",
+      "closed": false
+    },
+    {
+      "d": "M15 11L18 14L15 14",
+      "closed": false
+    }
+  ]
+}

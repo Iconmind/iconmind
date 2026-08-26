@@ -1,0 +1,30 @@
+{
+  "slug": "quota",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Quota",
+  "description": "The most you are allowed",
+  "tags": [
+    "limit",
+    "ceiling",
+    "cap"
+  ],
+  "keywords": [
+    "hard limit",
+    "cap",
+    "allowance",
+    "service limit",
+    "ceiling"
+  ],
+  "family": "meter",
+  "shapes": [
+    {
+      "d": "M2 12A3 3 0 0 1 5 9H15A3 3 0 0 1 18 12V12A3 3 0 0 1 15 15H5A3 3 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M21 5V19",
+      "closed": false
+    }
+  ]
+}

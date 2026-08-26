@@ -1,0 +1,44 @@
+{
+  "slug": "registry",
+  "category": "devops",
+  "subcategory": "release",
+  "name": "Registry",
+  "description": "Where the named things live",
+  "tags": [
+    "catalog",
+    "published",
+    "lookup"
+  ],
+  "keywords": [
+    "package registry",
+    "lookup by name",
+    "published"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M2 8H22",
+      "closed": false
+    },
+    {
+      "d": "M6 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 13H18",
+      "closed": false
+    },
+    {
+      "d": "M6 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 17H15",
+      "closed": false
+    }
+  ]
+}

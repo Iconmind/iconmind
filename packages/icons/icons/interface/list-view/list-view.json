@@ -1,0 +1,46 @@
+{
+  "slug": "list-view",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "List view",
+  "description": "Everything as rows",
+  "tags": [
+    "rows",
+    "table",
+    "lines"
+  ],
+  "keywords": [
+    "rows",
+    "table view",
+    "compact",
+    "lines",
+    "details"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 6H21",
+      "closed": false
+    },
+    {
+      "d": "M3 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 12H21",
+      "closed": false
+    },
+    {
+      "d": "M3 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 18H21",
+      "closed": false
+    }
+  ]
+}

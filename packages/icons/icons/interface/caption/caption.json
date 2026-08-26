@@ -1,0 +1,37 @@
+{
+  "slug": "caption",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Caption",
+  "description": "Words over the picture",
+  "tags": [
+    "subtitle",
+    "text",
+    "overlay"
+  ],
+  "aliases": [
+    "subtitle"
+  ],
+  "keywords": [
+    "subtitles",
+    "cc",
+    "closed captions",
+    "overlay",
+    "srt"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M6 13H18",
+      "closed": false
+    },
+    {
+      "d": "M6 16.5H13",
+      "closed": false
+    }
+  ]
+}

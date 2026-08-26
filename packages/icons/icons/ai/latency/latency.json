@@ -1,0 +1,27 @@
+{
+  "slug": "latency",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Latency",
+  "description": "How long you wait for the answer",
+  "tags": [
+    "delay",
+    "wait",
+    "response-time"
+  ],
+  "keywords": [
+    "response time",
+    "ttft",
+    "p99",
+    "slow",
+    "hourglass",
+    "delay"
+  ],
+  "family": "gauge",
+  "shapes": [
+    {
+      "d": "M4 3L20 3L12 11L20 19L4 19L12 11Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "tag-git",
+  "category": "devtools",
+  "subcategory": "version-control",
+  "name": "Git tag",
+  "description": "A commit with a name on it",
+  "tags": [
+    "label",
+    "version",
+    "pin"
+  ],
+  "keywords": [
+    "git tag",
+    "named commit",
+    "version label"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 12H13",
+      "closed": false
+    },
+    {
+      "d": "M13 8L18 8L22 12L18 16L13 16Z",
+      "closed": true
+    }
+  ]
+}

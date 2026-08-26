@@ -1,0 +1,33 @@
+{
+  "slug": "draft",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Draft",
+  "description": "Started, not finished",
+  "tags": [
+    "unfinished",
+    "wip",
+    "unsent"
+  ],
+  "keywords": [
+    "unsent",
+    "work in progress",
+    "unpublished",
+    "scratch"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L14 21",
+      "closed": false
+    },
+    {
+      "d": "M9 9H15",
+      "closed": false
+    },
+    {
+      "d": "M9 13H13",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "unpin",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Unpin",
+  "description": "Let it move again",
+  "tags": [
+    "release",
+    "unfix",
+    "float"
+  ],
+  "keywords": [
+    "release pin",
+    "unstick",
+    "let go"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 9a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 14V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20L20 4",
+      "closed": false
+    }
+  ]
+}

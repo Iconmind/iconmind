@@ -1,0 +1,40 @@
+{
+  "slug": "vote",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Vote",
+  "description": "Each says; most wins",
+  "tags": [
+    "ballot",
+    "majority",
+    "choose"
+  ],
+  "aliases": [
+    "ballot"
+  ],
+  "keywords": [
+    "majority",
+    "ballot",
+    "consensus vote",
+    "tally"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 14A2 2 0 0 1 4 12H20A2 2 0 0 1 22 14V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M12 3V8",
+      "closed": false
+    },
+    {
+      "d": "M9 6L12 9L15 6",
+      "closed": false
+    },
+    {
+      "d": "M6 16H18",
+      "closed": false
+    }
+  ]
+}

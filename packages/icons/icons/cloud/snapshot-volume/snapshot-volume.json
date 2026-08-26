@@ -1,0 +1,32 @@
+{
+  "slug": "snapshot-volume",
+  "category": "cloud",
+  "subcategory": "storage",
+  "name": "Volume snapshot",
+  "description": "The disk, as it was just then",
+  "tags": [
+    "backup",
+    "point-in-time",
+    "copy"
+  ],
+  "keywords": [
+    "disk snapshot",
+    "point in time",
+    "restore point"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H17A2 2 0 0 1 19 5V11A2 2 0 0 1 17 13H5A2 2 0 0 1 3 11Z",
+      "closed": true
+    },
+    {
+      "d": "M6 16H18",
+      "closed": false
+    },
+    {
+      "d": "M9 19H21",
+      "closed": false
+    }
+  ]
+}

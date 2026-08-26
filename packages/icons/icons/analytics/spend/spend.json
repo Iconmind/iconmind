@@ -1,0 +1,41 @@
+{
+  "slug": "spend",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Spend",
+  "description": "Money, going",
+  "tags": [
+    "cost",
+    "outflow",
+    "burn"
+  ],
+  "keywords": [
+    "burn",
+    "outflow",
+    "spending",
+    "cost per month"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12a7 7 0 1 0 14 0a7 7 0 1 0 -14 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 8V16",
+      "closed": false
+    },
+    {
+      "d": "M6 12H12",
+      "closed": false
+    },
+    {
+      "d": "M18 12H22",
+      "closed": false
+    },
+    {
+      "d": "M19 9L22 12L19 15",
+      "closed": false
+    }
+  ]
+}

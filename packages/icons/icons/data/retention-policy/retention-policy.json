@@ -1,0 +1,41 @@
+{
+  "slug": "retention-policy",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Retention policy",
+  "description": "How long it is kept before it goes",
+  "tags": [
+    "expiry",
+    "delete-after",
+    "ttl"
+  ],
+  "keywords": [
+    "keep for",
+    "delete after",
+    "ttl",
+    "expiry rule"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H14A2 2 0 0 1 16 7V17A2 2 0 0 1 14 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M4 9H14",
+      "closed": false
+    },
+    {
+      "d": "M16 17a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M19 14.5V17",
+      "closed": false
+    },
+    {
+      "d": "M19 17H21.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "guardrail",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Guardrail",
+  "description": "A limit the output is not allowed past",
+  "tags": [
+    "limit",
+    "safety",
+    "constraint"
+  ],
+  "aliases": [
+    "constraint"
+  ],
+  "keywords": [
+    "safety",
+    "policy",
+    "moderation",
+    "boundary"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M18 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 12H14",
+      "closed": false
+    },
+    {
+      "d": "M11 9L14 12L11 15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "firewall-rule",
+  "category": "security",
+  "subcategory": "policy",
+  "name": "Firewall rule",
+  "description": "One line of what may pass",
+  "tags": [
+    "allow",
+    "deny",
+    "acl"
+  ],
+  "keywords": [
+    "acl",
+    "allow list",
+    "deny",
+    "ingress rule",
+    "security group"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M7 9H17",
+      "closed": false
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    },
+    {
+      "d": "M7 15H17",
+      "closed": false
+    }
+  ]
+}

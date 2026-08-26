@@ -1,0 +1,38 @@
+{
+  "slug": "mcp-transport",
+  "category": "mcp",
+  "subcategory": "transport",
+  "name": "MCP transport",
+  "description": "How the two ends actually talk",
+  "tags": [
+    "stdio",
+    "channel",
+    "wire"
+  ],
+  "keywords": [
+    "stdio",
+    "sse",
+    "http",
+    "websocket",
+    "channel"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M7.5 6H10A3 3 0 0 1 13 9V15A3 3 0 0 1 10 18H5A3 3 0 0 1 2 15V9L5 6Z",
+      "closed": true
+    },
+    {
+      "d": "M16 9A3 3 0 0 1 19 6H19A3 3 0 0 1 22 9V15A3 3 0 0 1 19 18H19A3 3 0 0 1 16 15Z",
+      "closed": true
+    },
+    {
+      "d": "M13 11H16",
+      "closed": false
+    },
+    {
+      "d": "M13 15H16",
+      "closed": false
+    }
+  ]
+}

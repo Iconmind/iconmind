@@ -1,0 +1,32 @@
+{
+  "slug": "code",
+  "category": "devtools",
+  "subcategory": "code",
+  "name": "Code",
+  "description": "Source, as written",
+  "tags": [
+    "source",
+    "brackets",
+    "syntax"
+  ],
+  "aliases": [
+    "source"
+  ],
+  "keywords": [
+    "brackets",
+    "syntax",
+    "programming",
+    "snippet"
+  ],
+  "family": "chevron",
+  "shapes": [
+    {
+      "d": "M9 6L3 12L9 18",
+      "closed": false
+    },
+    {
+      "d": "M15 6L21 12L15 18",
+      "closed": false
+    }
+  ]
+}

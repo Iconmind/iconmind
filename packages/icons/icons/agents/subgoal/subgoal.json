@@ -1,0 +1,33 @@
+{
+  "slug": "subgoal",
+  "category": "agents",
+  "subcategory": "planning",
+  "name": "Subgoal",
+  "description": "A smaller thing on the way to the big one",
+  "tags": [
+    "step",
+    "milestone",
+    "under"
+  ],
+  "keywords": [
+    "sub task",
+    "intermediate",
+    "on the way to",
+    "decomposed goal"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H10A2 2 0 0 1 12 4V8A2 2 0 0 1 10 10H4A2 2 0 0 1 2 8Z",
+      "closed": true
+    },
+    {
+      "d": "M7 10L7 15L13 15",
+      "closed": false
+    },
+    {
+      "d": "M13 14A2 2 0 0 1 15 12H20A2 2 0 0 1 22 14V18A2 2 0 0 1 20 20H15A2 2 0 0 1 13 18Z",
+      "closed": true
+    }
+  ]
+}

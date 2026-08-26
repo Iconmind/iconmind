@@ -1,0 +1,36 @@
+{
+  "slug": "eyedropper",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Eyedropper",
+  "description": "Pick the colour off the page",
+  "tags": [
+    "pick",
+    "sample",
+    "colour"
+  ],
+  "aliases": [
+    "color-picker"
+  ],
+  "keywords": [
+    "colour picker",
+    "sample",
+    "pipette",
+    "pick from image"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M13 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 9L7 16",
+      "closed": false
+    },
+    {
+      "d": "M3.5 18.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

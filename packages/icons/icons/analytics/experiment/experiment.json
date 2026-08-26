@@ -1,0 +1,29 @@
+{
+  "slug": "experiment",
+  "category": "analytics",
+  "subcategory": "experiment",
+  "name": "Experiment",
+  "description": "Try it and see",
+  "tags": [
+    "flask",
+    "test",
+    "trial"
+  ],
+  "aliases": [
+    "lab"
+  ],
+  "keywords": [
+    "trial",
+    "hypothesis",
+    "beta",
+    "lab",
+    "science"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 3L9 10L4 15L4 19L20 19L20 15L15 10L15 3",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "schema-map",
+  "category": "data",
+  "subcategory": "transform",
+  "name": "Schema map",
+  "description": "This field over there is that field over here",
+  "tags": [
+    "mapping",
+    "fields",
+    "translate"
+  ],
+  "keywords": [
+    "field mapping",
+    "translate schema",
+    "etl mapping",
+    "crosswalk"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H7A2 2 0 0 1 9 6V18A2 2 0 0 1 7 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M15 6A2 2 0 0 1 17 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H17A2 2 0 0 1 15 18Z",
+      "closed": true
+    },
+    {
+      "d": "M9 9L15 15",
+      "closed": false
+    }
+  ]
+}

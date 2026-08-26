@@ -1,0 +1,37 @@
+{
+  "slug": "sla",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "SLA",
+  "description": "The promise with a signature on it",
+  "tags": [
+    "agreement",
+    "contract",
+    "promise"
+  ],
+  "keywords": [
+    "service level agreement",
+    "contract",
+    "uptime promise",
+    "penalty"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M8.24 13.63A4 4 0 0 1 15.76 13.63",
+      "closed": false
+    },
+    {
+      "d": "M12 15L14.5 12.5",
+      "closed": false
+    },
+    {
+      "d": "M8 18H16",
+      "closed": false
+    }
+  ]
+}

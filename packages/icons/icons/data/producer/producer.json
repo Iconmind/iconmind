@@ -1,0 +1,36 @@
+{
+  "slug": "producer",
+  "category": "data",
+  "subcategory": "streaming",
+  "name": "Producer",
+  "description": "What puts messages on the queue",
+  "tags": [
+    "writer",
+    "source",
+    "emits"
+  ],
+  "keywords": [
+    "writes to queue",
+    "emitter",
+    "source of events"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 10A2 2 0 0 1 14 8H20A2 2 0 0 1 22 10V14A2 2 0 0 1 20 16H14A2 2 0 0 1 12 14Z",
+      "closed": true
+    },
+    {
+      "d": "M5 12H11",
+      "closed": false
+    },
+    {
+      "d": "M9 9L12 12L9 15",
+      "closed": false
+    },
+    {
+      "d": "M2 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

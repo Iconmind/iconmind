@@ -1,0 +1,34 @@
+{
+  "slug": "governance",
+  "category": "data",
+  "subcategory": "catalog",
+  "name": "Governance",
+  "description": "The rules the data has to follow",
+  "tags": [
+    "policy",
+    "rules",
+    "control"
+  ],
+  "keywords": [
+    "policy",
+    "stewardship",
+    "compliance",
+    "rules",
+    "ownership"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M8 10H16",
+      "closed": false
+    },
+    {
+      "d": "M8 14H14",
+      "closed": false
+    }
+  ]
+}

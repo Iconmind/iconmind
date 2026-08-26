@@ -1,0 +1,29 @@
+{
+  "slug": "execute",
+  "category": "automation",
+  "subcategory": "action",
+  "name": "Execute",
+  "description": "Do it now",
+  "tags": [
+    "run",
+    "invoke",
+    "go"
+  ],
+  "aliases": [
+    "act",
+    "execution"
+  ],
+  "keywords": [
+    "run now",
+    "invoke",
+    "do it",
+    "fire"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 4L15 12L7 20Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "chevron-right",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Chevron right",
+  "description": "Go forward, or open what is next",
+  "tags": [
+    "next",
+    "forward",
+    "expand"
+  ],
+  "aliases": [
+    "next"
+  ],
+  "keywords": [
+    "arrow right",
+    "caret",
+    "disclosure",
+    "more"
+  ],
+  "family": "chevron",
+  "shapes": [
+    {
+      "d": "M9 5L16 12L9 19",
+      "closed": false
+    }
+  ]
+}

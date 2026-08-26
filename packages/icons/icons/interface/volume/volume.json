@@ -1,0 +1,37 @@
+{
+  "slug": "volume",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Volume",
+  "description": "How loud",
+  "tags": [
+    "sound",
+    "audio",
+    "speaker"
+  ],
+  "aliases": [
+    "sound"
+  ],
+  "keywords": [
+    "speaker",
+    "loud",
+    "mute",
+    "audio",
+    "level"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 9L3 9L3 15L8 15L13 20L13 4Z",
+      "closed": true
+    },
+    {
+      "d": "M15.5 7.67A5 5 0 0 1 15.5 16.33",
+      "closed": false
+    },
+    {
+      "d": "M17 5.07A8 8 0 0 1 17 18.93",
+      "closed": false
+    }
+  ]
+}

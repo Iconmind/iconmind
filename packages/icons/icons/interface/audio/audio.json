@@ -1,0 +1,45 @@
+{
+  "slug": "audio",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Audio",
+  "description": "A sound, as a waveform",
+  "tags": [
+    "waveform",
+    "sound",
+    "levels"
+  ],
+  "aliases": [
+    "waveform"
+  ],
+  "keywords": [
+    "sound",
+    "levels",
+    "equaliser",
+    "recording",
+    "track"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M4 10V14",
+      "closed": false
+    },
+    {
+      "d": "M8 7V17",
+      "closed": false
+    },
+    {
+      "d": "M12 4V20",
+      "closed": false
+    },
+    {
+      "d": "M16 7V17",
+      "closed": false
+    },
+    {
+      "d": "M20 10V14",
+      "closed": false
+    }
+  ]
+}

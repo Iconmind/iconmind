@@ -1,0 +1,41 @@
+{
+  "slug": "pii",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "PII",
+  "description": "Data that is somebody",
+  "tags": [
+    "personal",
+    "identifying",
+    "sensitive"
+  ],
+  "keywords": [
+    "personal data",
+    "identifying",
+    "name and address",
+    "sensitive"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 19A5 5 0 0 1 14 19",
+      "closed": false
+    },
+    {
+      "d": "M15 8H21",
+      "closed": false
+    },
+    {
+      "d": "M15 12H19",
+      "closed": false
+    },
+    {
+      "d": "M17 16H21",
+      "closed": false
+    }
+  ]
+}

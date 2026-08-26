@@ -1,0 +1,37 @@
+{
+  "slug": "metadata-store",
+  "category": "data",
+  "subcategory": "catalog",
+  "name": "Metadata store",
+  "description": "What is known about the data",
+  "tags": [
+    "about",
+    "schema",
+    "registry"
+  ],
+  "keywords": [
+    "about the data",
+    "schema registry",
+    "annotations",
+    "properties"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M2 9H22",
+      "closed": false
+    },
+    {
+      "d": "M6 13H18",
+      "closed": false
+    },
+    {
+      "d": "M6 17H14",
+      "closed": false
+    }
+  ]
+}

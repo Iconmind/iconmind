@@ -1,0 +1,26 @@
+{
+  "slug": "learning-rate",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Learning rate",
+  "description": "How big a step to take",
+  "tags": [
+    "step",
+    "schedule",
+    "decay"
+  ],
+  "keywords": [
+    "step size",
+    "lr schedule",
+    "decay",
+    "warmup",
+    "optimiser"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 5L8 5L8 10L13 10L13 15L18 15L18 20L21 20",
+      "closed": false
+    }
+  ]
+}

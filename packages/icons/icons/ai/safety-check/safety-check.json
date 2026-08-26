@@ -1,0 +1,35 @@
+{
+  "slug": "safety-check",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Safety check",
+  "description": "Looked at before it goes out",
+  "tags": [
+    "screen",
+    "gate",
+    "reviewed"
+  ],
+  "aliases": [
+    "safety"
+  ],
+  "keywords": [
+    "safety gate",
+    "screened",
+    "reviewed output"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M20 4V20",
+      "closed": false
+    },
+    {
+      "d": "M8 12L10 14L16 8",
+      "closed": false
+    }
+  ]
+}

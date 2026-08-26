@@ -1,0 +1,32 @@
+{
+  "slug": "rule",
+  "category": "automation",
+  "subcategory": "condition",
+  "name": "Rule",
+  "description": "When this, then that — always",
+  "tags": [
+    "if-then",
+    "policy",
+    "always"
+  ],
+  "keywords": [
+    "if then",
+    "always applies",
+    "condition action"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H8A2 2 0 0 1 10 6V9A2 2 0 0 1 8 11H4A2 2 0 0 1 2 9Z",
+      "closed": true
+    },
+    {
+      "d": "M11 7.5H14",
+      "closed": false
+    },
+    {
+      "d": "M14 15A2 2 0 0 1 16 13H20A2 2 0 0 1 22 15V18A2 2 0 0 1 20 20H16A2 2 0 0 1 14 18Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "human-eval",
+  "category": "ai",
+  "subcategory": "evaluation",
+  "name": "Human evaluation",
+  "description": "A person scoring the answers",
+  "tags": [
+    "rater",
+    "review",
+    "score"
+  ],
+  "keywords": [
+    "human rater",
+    "annotation",
+    "preference",
+    "review",
+    "labelling"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 19A5 5 0 0 1 12 19",
+      "closed": false
+    },
+    {
+      "d": "M13 14L16 17L21 12",
+      "closed": false
+    }
+  ]
+}

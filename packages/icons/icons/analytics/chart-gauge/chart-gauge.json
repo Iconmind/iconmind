@@ -1,0 +1,38 @@
+{
+  "slug": "chart-gauge",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Gauge chart",
+  "description": "One number against its range",
+  "tags": [
+    "dial",
+    "needle",
+    "meter"
+  ],
+  "keywords": [
+    "dial",
+    "speedometer",
+    "meter",
+    "kpi",
+    "score"
+  ],
+  "family": "gauge",
+  "shapes": [
+    {
+      "d": "M3 16A9 9 0 0 1 21 16",
+      "closed": false
+    },
+    {
+      "d": "M12 16L17 11",
+      "closed": false
+    },
+    {
+      "d": "M3 16L5.5 16",
+      "closed": false
+    },
+    {
+      "d": "M18.5 16L21 16",
+      "closed": false
+    }
+  ]
+}

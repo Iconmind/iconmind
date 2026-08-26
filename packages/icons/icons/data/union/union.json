@@ -1,0 +1,32 @@
+{
+  "slug": "union",
+  "category": "data",
+  "subcategory": "transform",
+  "name": "Union",
+  "description": "Everything from both",
+  "tags": [
+    "combine",
+    "all",
+    "merge"
+  ],
+  "keywords": [
+    "union all",
+    "both sets",
+    "combine rows"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 4V14",
+      "closed": false
+    },
+    {
+      "d": "M19 14A7 7 0 0 1 5 14",
+      "closed": false
+    },
+    {
+      "d": "M19 4V14",
+      "closed": false
+    }
+  ]
+}

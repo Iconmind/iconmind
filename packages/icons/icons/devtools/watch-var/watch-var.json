@@ -1,0 +1,35 @@
+{
+  "slug": "watch-var",
+  "category": "devtools",
+  "subcategory": "debug",
+  "name": "Watch variable",
+  "description": "Its value, kept in sight",
+  "tags": [
+    "inspect",
+    "track",
+    "debug"
+  ],
+  "aliases": [
+    "watch-variable"
+  ],
+  "keywords": [
+    "watch expression",
+    "track value",
+    "debugger watch"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 12L9 6L15 6L21 12",
+      "closed": false
+    },
+    {
+      "d": "M3 12L9 18L15 18L21 12",
+      "closed": false
+    },
+    {
+      "d": "M10 12H14",
+      "closed": false
+    }
+  ]
+}

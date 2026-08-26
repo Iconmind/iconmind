@@ -1,0 +1,36 @@
+{
+  "slug": "drift-infra",
+  "category": "devops",
+  "subcategory": "infrastructure",
+  "name": "Infrastructure drift",
+  "description": "What is running is not what was declared",
+  "tags": [
+    "diverged",
+    "terraform",
+    "unmanaged"
+  ],
+  "keywords": [
+    "terraform drift",
+    "declared vs actual",
+    "unmanaged change"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V8A2 2 0 0 1 20 10H4A2 2 0 0 1 2 8Z",
+      "closed": true
+    },
+    {
+      "d": "M5 6.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 16A2 2 0 0 1 4 14H20A2 2 0 0 1 22 16V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M17 17.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

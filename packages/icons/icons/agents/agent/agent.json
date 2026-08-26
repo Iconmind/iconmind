@@ -1,0 +1,30 @@
+{
+  "slug": "agent",
+  "category": "agents",
+  "subcategory": "agent-core",
+  "name": "Agent",
+  "description": "Autonomous program that decides and acts on its own",
+  "tags": [
+    "autonomous",
+    "bot",
+    "actor"
+  ],
+  "aliases": [
+    "bot"
+  ],
+  "keywords": [
+    "autonomous agent",
+    "ai agent"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    }
+  ]
+}

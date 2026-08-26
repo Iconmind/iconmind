@@ -1,0 +1,33 @@
+{
+  "slug": "encryption",
+  "category": "security",
+  "subcategory": "encryption",
+  "name": "Encryption",
+  "description": "Unreadable to anyone without the key",
+  "tags": [
+    "cipher",
+    "protect",
+    "shield"
+  ],
+  "aliases": [
+    "cipher"
+  ],
+  "keywords": [
+    "aes",
+    "tls",
+    "at rest",
+    "in transit",
+    "keyhole"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M10 11a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

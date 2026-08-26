@@ -1,0 +1,40 @@
+{
+  "slug": "brightness",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Brightness",
+  "description": "More light on it",
+  "tags": [
+    "sun",
+    "level",
+    "light"
+  ],
+  "keywords": [
+    "light level",
+    "brighten",
+    "sun control"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 3V6",
+      "closed": false
+    },
+    {
+      "d": "M12 18V21",
+      "closed": false
+    },
+    {
+      "d": "M3 12H6",
+      "closed": false
+    },
+    {
+      "d": "M18 12H21",
+      "closed": false
+    }
+  ]
+}

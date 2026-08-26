@@ -1,0 +1,42 @@
+{
+  "slug": "mcp-resource-template",
+  "category": "mcp",
+  "subcategory": "resource",
+  "name": "MCP resource template",
+  "description": "A URI with a hole in it",
+  "tags": [
+    "uri",
+    "placeholder",
+    "pattern"
+  ],
+  "keywords": [
+    "uri template",
+    "placeholder",
+    "parameterised",
+    "rfc 6570",
+    "pattern"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L9 3L6 6L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 10H15",
+      "closed": false
+    },
+    {
+      "d": "M9 14H15",
+      "closed": false
+    },
+    {
+      "d": "M9 10V14",
+      "closed": false
+    },
+    {
+      "d": "M15 10V14",
+      "closed": false
+    }
+  ]
+}

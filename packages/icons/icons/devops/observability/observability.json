@@ -1,0 +1,38 @@
+{
+  "slug": "observability",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Observability",
+  "description": "Being able to see what the system is doing",
+  "tags": [
+    "watch",
+    "monitor",
+    "eye"
+  ],
+  "aliases": [
+    "observe",
+    "monitoring"
+  ],
+  "keywords": [
+    "telemetry",
+    "tracing",
+    "logs",
+    "metrics",
+    "watch"
+  ],
+  "family": "eye",
+  "shapes": [
+    {
+      "d": "M2 12A12.5 12.5 0 0 1 22 12",
+      "closed": false
+    },
+    {
+      "d": "M22 12A12.5 12.5 0 0 1 2 12",
+      "closed": false
+    },
+    {
+      "d": "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

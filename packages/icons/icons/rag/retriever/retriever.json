@@ -1,0 +1,37 @@
+{
+  "slug": "retriever",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Retriever",
+  "description": "Fetches the documents that might help",
+  "tags": [
+    "fetch",
+    "lookup",
+    "pull"
+  ],
+  "aliases": [
+    "retrieval"
+  ],
+  "keywords": [
+    "fetch",
+    "top-k",
+    "recall",
+    "lookup",
+    "context"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H8A2 2 0 0 1 10 8V16A2 2 0 0 1 8 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M13 12H21",
+      "closed": false
+    },
+    {
+      "d": "M16 9L13 12L16 15",
+      "closed": false
+    }
+  ]
+}

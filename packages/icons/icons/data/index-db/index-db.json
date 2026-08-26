@@ -1,0 +1,42 @@
+{
+  "slug": "index-db",
+  "category": "data",
+  "subcategory": "catalog",
+  "name": "Index",
+  "description": "The lookup that makes it fast",
+  "tags": [
+    "btree",
+    "key",
+    "seek"
+  ],
+  "keywords": [
+    "b-tree",
+    "primary key",
+    "seek",
+    "query plan",
+    "lookup"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M9 8V16",
+      "closed": false
+    },
+    {
+      "d": "M9 9H16",
+      "closed": false
+    },
+    {
+      "d": "M9 12H16",
+      "closed": false
+    },
+    {
+      "d": "M9 15H16",
+      "closed": false
+    }
+  ]
+}

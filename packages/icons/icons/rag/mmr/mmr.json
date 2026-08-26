@@ -1,0 +1,35 @@
+{
+  "slug": "mmr",
+  "category": "rag",
+  "subcategory": "ranking",
+  "name": "MMR",
+  "description": "Relevant, but not all the same",
+  "tags": [
+    "diversity",
+    "rerank",
+    "spread"
+  ],
+  "keywords": [
+    "maximal marginal relevance",
+    "diverse results"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 6H21",
+      "closed": false
+    },
+    {
+      "d": "M3 11H17",
+      "closed": false
+    },
+    {
+      "d": "M8 9L12 13",
+      "closed": false
+    },
+    {
+      "d": "M3 16H19",
+      "closed": false
+    }
+  ]
+}

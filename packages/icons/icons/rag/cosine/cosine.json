@@ -1,0 +1,34 @@
+{
+  "slug": "cosine",
+  "category": "rag",
+  "subcategory": "vector",
+  "name": "Cosine similarity",
+  "description": "The angle between two vectors",
+  "tags": [
+    "angle",
+    "distance",
+    "score"
+  ],
+  "keywords": [
+    "cosine",
+    "angle",
+    "dot product",
+    "similarity metric",
+    "vectors"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 20L20 4",
+      "closed": false
+    },
+    {
+      "d": "M4 20L20 20",
+      "closed": false
+    },
+    {
+      "d": "M4 13A7 7 0 0 1 8.95 15.05",
+      "closed": false
+    }
+  ]
+}

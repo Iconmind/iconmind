@@ -1,0 +1,29 @@
+{
+  "slug": "agent-remove",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Agent remove",
+  "description": "Take an agent out",
+  "tags": [
+    "delete",
+    "detach",
+    "drop"
+  ],
+  "keywords": [
+    "delete agent",
+    "unregister",
+    "detach",
+    "drop"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M8 12H16",
+      "closed": false
+    }
+  ]
+}

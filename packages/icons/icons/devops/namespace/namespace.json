@@ -1,0 +1,30 @@
+{
+  "slug": "namespace",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Namespace",
+  "description": "A named place things belong to",
+  "tags": [
+    "scope",
+    "group",
+    "isolated"
+  ],
+  "keywords": [
+    "scope",
+    "kubernetes namespace",
+    "isolation",
+    "grouping",
+    "tenant"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 9A2 2 0 0 1 4 7H20A2 2 0 0 1 22 9V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M6 4H14",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "switch-case",
+  "category": "automation",
+  "subcategory": "condition",
+  "name": "Switch",
+  "description": "Many ways out, not two",
+  "tags": [
+    "branch",
+    "cases",
+    "route"
+  ],
+  "keywords": [
+    "case",
+    "match",
+    "route",
+    "dispatch",
+    "when"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M12 4L18 10L12 16L6 10Z",
+      "closed": true
+    },
+    {
+      "d": "M18 10H21",
+      "closed": false
+    },
+    {
+      "d": "M3 10H6",
+      "closed": false
+    },
+    {
+      "d": "M12 16V20",
+      "closed": false
+    }
+  ]
+}

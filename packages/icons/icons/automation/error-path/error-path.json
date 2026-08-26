@@ -1,0 +1,37 @@
+{
+  "slug": "error-path",
+  "category": "automation",
+  "subcategory": "condition",
+  "name": "Error path",
+  "description": "Where it goes when it goes wrong",
+  "tags": [
+    "failure",
+    "branch",
+    "catch"
+  ],
+  "keywords": [
+    "failure branch",
+    "on error",
+    "except",
+    "fallback route"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M2 8L9 8L13 12L22 12",
+      "closed": false
+    },
+    {
+      "d": "M9 8L13 4L22 4",
+      "closed": false
+    },
+    {
+      "d": "M16 15L20 19",
+      "closed": false
+    },
+    {
+      "d": "M20 15L16 19",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "tpu",
+  "category": "cloud",
+  "subcategory": "compute",
+  "name": "TPU",
+  "description": "A chip grown for tensors",
+  "tags": [
+    "accelerator",
+    "chip",
+    "matrix"
+  ],
+  "keywords": [
+    "tensor processing",
+    "accelerator",
+    "matrix chip"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M5 7A2 2 0 0 1 7 5H17A2 2 0 0 1 19 7V17A2 2 0 0 1 17 19H7A2 2 0 0 1 5 17Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 12A2.5 2.5 0 0 1 12 9.5H12A2.5 2.5 0 0 1 14.5 12V12A2.5 2.5 0 0 1 12 14.5H12A2.5 2.5 0 0 1 9.5 12Z",
+      "closed": true
+    },
+    {
+      "d": "M9 2V5",
+      "closed": false
+    },
+    {
+      "d": "M15 2V5",
+      "closed": false
+    },
+    {
+      "d": "M9 19V22",
+      "closed": false
+    },
+    {
+      "d": "M15 19V22",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "working-memory",
+  "category": "agents",
+  "subcategory": "memory",
+  "name": "Working memory",
+  "description": "What it is holding while it thinks",
+  "tags": [
+    "short-term",
+    "active",
+    "holding"
+  ],
+  "aliases": [
+    "short-term"
+  ],
+  "keywords": [
+    "short term",
+    "scratch state",
+    "held in mind",
+    "active"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 5H19A3 3 0 0 1 22 8V16A3 3 0 0 1 19 19H5A3 3 0 0 1 2 16V8A3 3 0 0 1 5 5H9",
+      "closed": true
+    },
+    {
+      "d": "M7 10V14",
+      "closed": false
+    },
+    {
+      "d": "M12 8V16",
+      "closed": false
+    },
+    {
+      "d": "M17 10V14",
+      "closed": false
+    }
+  ]
+}

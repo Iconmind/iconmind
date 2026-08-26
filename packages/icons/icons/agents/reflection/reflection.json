@@ -1,0 +1,40 @@
+{
+  "slug": "reflection",
+  "category": "agents",
+  "subcategory": "reflection",
+  "name": "Reflection",
+  "description": "The agent checking its own work",
+  "tags": [
+    "review",
+    "self-check",
+    "critique"
+  ],
+  "aliases": [
+    "self-critique"
+  ],
+  "keywords": [
+    "critique",
+    "self-review",
+    "revise",
+    "introspect"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M8.5 18.06A7 7 0 0 1 8.5 5.94",
+      "closed": false
+    },
+    {
+      "d": "M15.5 5.94A7 7 0 0 1 15.5 18.06",
+      "closed": false
+    },
+    {
+      "d": "M12 4V9",
+      "closed": false
+    },
+    {
+      "d": "M12 15V20",
+      "closed": false
+    }
+  ]
+}

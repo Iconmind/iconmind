@@ -1,0 +1,40 @@
+{
+  "slug": "palette",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Palette",
+  "description": "The colours to choose from",
+  "tags": [
+    "colour",
+    "swatch",
+    "theme"
+  ],
+  "aliases": [
+    "colours"
+  ],
+  "keywords": [
+    "swatches",
+    "colour picker",
+    "theme",
+    "brand colours"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M5 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

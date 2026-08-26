@@ -1,0 +1,33 @@
+{
+  "slug": "theme",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Theme",
+  "description": "The same page, dressed differently",
+  "tags": [
+    "dark-mode",
+    "skin",
+    "palette"
+  ],
+  "keywords": [
+    "dark mode",
+    "light mode",
+    "skin",
+    "appearance"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 12a8 8 0 1 0 16 0a8 8 0 1 0 -16 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 4V20",
+      "closed": false
+    },
+    {
+      "d": "M7 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

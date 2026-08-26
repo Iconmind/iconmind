@@ -1,0 +1,34 @@
+{
+  "slug": "segmentation",
+  "category": "analytics",
+  "subcategory": "segment",
+  "name": "Segmentation",
+  "description": "One population, cut into parts",
+  "tags": [
+    "groups",
+    "split",
+    "cohorts"
+  ],
+  "keywords": [
+    "cohorts",
+    "buckets",
+    "split audience",
+    "groups",
+    "breakdown"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M2 10A2 2 0 0 1 4 8H20A2 2 0 0 1 22 10V14A2 2 0 0 1 20 16H4A2 2 0 0 1 2 14Z",
+      "closed": true
+    },
+    {
+      "d": "M8 8V16",
+      "closed": false
+    },
+    {
+      "d": "M13 8V16",
+      "closed": false
+    }
+  ]
+}

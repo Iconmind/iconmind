@@ -1,0 +1,11 @@
+name: Bug report
+description: Something renders wrong, imports wrong, or the docs disagree with reality.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Icon name, package and version, and what you saw vs. expected. A screenshot helps for rendering issues.
+    validations:
+      required: true

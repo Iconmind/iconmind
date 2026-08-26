@@ -1,0 +1,38 @@
+{
+  "slug": "attention-head",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Attention head",
+  "description": "One of the model's several viewpoints",
+  "tags": [
+    "head",
+    "multi",
+    "focus"
+  ],
+  "keywords": [
+    "multi-head",
+    "qkv",
+    "self-attention",
+    "layer",
+    "focus"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M6 6L10 10",
+      "closed": false
+    },
+    {
+      "d": "M18 6L14 10",
+      "closed": false
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

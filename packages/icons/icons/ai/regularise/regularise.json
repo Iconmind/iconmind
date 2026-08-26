@@ -1,0 +1,31 @@
+{
+  "slug": "regularise",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Regularise",
+  "description": "Held back from memorising",
+  "tags": [
+    "dropout",
+    "penalty",
+    "smooth"
+  ],
+  "aliases": [
+    "regularize"
+  ],
+  "keywords": [
+    "dropout",
+    "weight decay",
+    "keep it smooth"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 15L8 10L13 15L18 10",
+      "closed": false
+    },
+    {
+      "d": "M3 6H21",
+      "closed": false
+    }
+  ]
+}

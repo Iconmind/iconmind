@@ -1,0 +1,38 @@
+{
+  "slug": "registry-image",
+  "category": "devops",
+  "subcategory": "container",
+  "name": "Image registry",
+  "description": "Where the built images sit",
+  "tags": [
+    "shelf",
+    "images",
+    "store"
+  ],
+  "keywords": [
+    "container registry",
+    "ghcr",
+    "docker hub",
+    "pushed image",
+    "tags"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 4H20",
+      "closed": false
+    },
+    {
+      "d": "M2 9A2 2 0 0 1 4 7H20A2 2 0 0 1 22 9V15A2 2 0 0 1 20 17H4A2 2 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M8 7V17",
+      "closed": false
+    },
+    {
+      "d": "M15 7V17",
+      "closed": false
+    }
+  ]
+}

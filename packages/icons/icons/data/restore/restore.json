@@ -1,0 +1,43 @@
+{
+  "slug": "restore",
+  "category": "data",
+  "subcategory": "storage",
+  "name": "Restore",
+  "description": "Put the copy back",
+  "tags": [
+    "recover",
+    "revert",
+    "load"
+  ],
+  "aliases": [
+    "recover"
+  ],
+  "keywords": [
+    "recovery",
+    "reload",
+    "rollback data",
+    "import",
+    "undelete"
+  ],
+  "family": "cylinder",
+  "shapes": [
+    {
+      "d": "M4 5A8 3 0 0 1 20 5V10A8 3 0 0 1 4 10Z",
+      "closed": true,
+      "_why": "a cylinder: an elliptical rim of 8 by 3, sides of 5, and the front of the base"
+    },
+    {
+      "d": "M4 5A8 3 0 0 0 20 5",
+      "closed": false,
+      "_why": "the far side of the top rim, which the near side hides"
+    },
+    {
+      "d": "M12 16V21",
+      "closed": false
+    },
+    {
+      "d": "M9 19L12 16L15 19",
+      "closed": false
+    }
+  ]
+}

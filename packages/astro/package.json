@@ -1,0 +1,57 @@
+{
+  "name": "@iconmind/astro",
+  "version": "0.3.0",
+  "description": "Astro components for IconMind — 1,008 tree-shakeable icons for AI-era software (LLMs, agents, MCP, RAG).",
+  "keywords": [
+    "icons",
+    "svg",
+    "ai",
+    "llm",
+    "agents",
+    "mcp",
+    "rag",
+    "icon-set",
+    "iconmind",
+    "astro",
+    "components",
+    "astro-component",
+    "withastro"
+  ],
+  "homepage": "https://iconmind.dev",
+  "bugs": "https://github.com/Iconmind/iconmind/issues",
+  "type": "module",
+  "sideEffects": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iconmind/iconmind.git",
+    "directory": "packages/astro"
+  },
+  "exports": {
+    ".": {
+      "types": "./src/generated/index.d.ts",
+      "default": "./src/index.js"
+    },
+    "./icons/*.astro": "./src/generated/*.astro",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "build": "node check.mjs"
+  },
+  "peerDependencies": {
+    "astro": ">=4"
+  },
+  "peerDependenciesMeta": {
+    "astro": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@astrojs/compiler": "^2.10.4",
+    "@iconmind/icons": "workspace:*",
+    "tsx": "^4.20.6"
+  }
+}

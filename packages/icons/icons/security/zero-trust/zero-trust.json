@@ -1,0 +1,33 @@
+{
+  "slug": "zero-trust",
+  "category": "security",
+  "subcategory": "policy",
+  "name": "Zero trust",
+  "description": "Nobody is inside by default",
+  "tags": [
+    "verify",
+    "always",
+    "no-perimeter"
+  ],
+  "keywords": [
+    "never trust",
+    "always verify",
+    "no perimeter",
+    "per request"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H20A2 2 0 0 1 22 4V20A2 2 0 0 1 20 22H4A2 2 0 0 1 2 20Z",
+      "closed": true
+    },
+    {
+      "d": "M7 9A2 2 0 0 1 9 7H15A2 2 0 0 1 17 9V15A2 2 0 0 1 15 17H9A2 2 0 0 1 7 15Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "trigger",
+  "category": "automation",
+  "subcategory": "trigger",
+  "name": "Trigger",
+  "description": "What sets the thing running",
+  "tags": [
+    "event",
+    "fire",
+    "bolt"
+  ],
+  "aliases": [
+    "event"
+  ],
+  "keywords": [
+    "webhook",
+    "fire",
+    "lightning",
+    "on-event",
+    "hook"
+  ],
+  "family": "mark",
+  "shapes": [
+    {
+      "d": "M16 4L9 11L14 11L7 18",
+      "closed": false
+    }
+  ]
+}

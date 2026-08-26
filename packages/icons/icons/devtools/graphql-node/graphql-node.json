@@ -1,0 +1,38 @@
+{
+  "slug": "graphql-node",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "GraphQL node",
+  "description": "One field, and what hangs off it",
+  "tags": [
+    "field",
+    "query",
+    "graph"
+  ],
+  "keywords": [
+    "field",
+    "resolver",
+    "query node",
+    "selection set",
+    "schema"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 3V9",
+      "closed": false
+    },
+    {
+      "d": "M9.5 14.5L5 19",
+      "closed": false
+    },
+    {
+      "d": "M14.5 14.5L19 19",
+      "closed": false
+    }
+  ]
+}

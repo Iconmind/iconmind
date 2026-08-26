@@ -1,0 +1,34 @@
+{
+  "slug": "action-step",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Action step",
+  "description": "One thing the agent actually does",
+  "tags": [
+    "step",
+    "act",
+    "invoke"
+  ],
+  "keywords": [
+    "step",
+    "act",
+    "invoke",
+    "call",
+    "operation"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M2.5 12a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12H21",
+      "closed": false
+    },
+    {
+      "d": "M18 9L21 12L18 15",
+      "closed": false
+    }
+  ]
+}

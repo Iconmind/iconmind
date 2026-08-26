@@ -1,0 +1,33 @@
+{
+  "slug": "message",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Message",
+  "description": "Something somebody said",
+  "tags": [
+    "chat",
+    "bubble",
+    "comment"
+  ],
+  "aliases": [
+    "chat"
+  ],
+  "keywords": [
+    "comment",
+    "bubble",
+    "conversation",
+    "dm",
+    "thread"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 21L11 17",
+      "closed": false
+    }
+  ]
+}

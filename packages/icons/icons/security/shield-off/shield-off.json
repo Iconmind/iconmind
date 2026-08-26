@@ -1,0 +1,34 @@
+{
+  "slug": "shield-off",
+  "category": "security",
+  "subcategory": "policy",
+  "name": "Shield off",
+  "description": "Protection is disabled",
+  "tags": [
+    "unprotected",
+    "disabled",
+    "exposed"
+  ],
+  "keywords": [
+    "unprotected",
+    "disabled",
+    "bypass",
+    "exposed",
+    "insecure"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M10 9L14 13",
+      "closed": false
+    },
+    {
+      "d": "M14 9L10 13",
+      "closed": false
+    }
+  ]
+}

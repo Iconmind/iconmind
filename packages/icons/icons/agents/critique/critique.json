@@ -1,0 +1,42 @@
+{
+  "slug": "critique",
+  "category": "agents",
+  "subcategory": "reflection",
+  "name": "Critique",
+  "description": "Saying what is wrong with it",
+  "tags": [
+    "review",
+    "feedback",
+    "judge"
+  ],
+  "keywords": [
+    "feedback",
+    "review",
+    "criticism",
+    "self-critique",
+    "judge"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 21L11 17",
+      "closed": false
+    },
+    {
+      "d": "M7 8H17",
+      "closed": false
+    },
+    {
+      "d": "M7 13H14",
+      "closed": false
+    },
+    {
+      "d": "M6 16L17 5",
+      "closed": false
+    }
+  ]
+}

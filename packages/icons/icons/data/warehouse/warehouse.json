@@ -1,0 +1,33 @@
+{
+  "slug": "warehouse",
+  "category": "data",
+  "subcategory": "storage",
+  "name": "Warehouse",
+  "description": "Everything, shelved and queryable",
+  "tags": [
+    "analytics",
+    "columnar",
+    "store"
+  ],
+  "keywords": [
+    "data warehouse",
+    "columnar",
+    "bigquery",
+    "snowflake style"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 20L2 10L5 7L19 7L22 10L22 20",
+      "closed": false
+    },
+    {
+      "d": "M6 14.5A2.5 2.5 0 0 1 8.5 12H8.5A2.5 2.5 0 0 1 11 14.5V17.5A2.5 2.5 0 0 1 8.5 20H8.5A2.5 2.5 0 0 1 6 17.5Z",
+      "closed": true
+    },
+    {
+      "d": "M14 14.5A2.5 2.5 0 0 1 16.5 12H16.5A2.5 2.5 0 0 1 19 14.5V17.5A2.5 2.5 0 0 1 16.5 20H16.5A2.5 2.5 0 0 1 14 17.5Z",
+      "closed": true
+    }
+  ]
+}

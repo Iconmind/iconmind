@@ -1,0 +1,47 @@
+{
+  "slug": "cpu",
+  "category": "cloud",
+  "subcategory": "compute",
+  "name": "CPU",
+  "description": "Where the computation actually happens",
+  "tags": [
+    "processor",
+    "chip",
+    "compute"
+  ],
+  "aliases": [
+    "processor"
+  ],
+  "keywords": [
+    "chip",
+    "compute",
+    "silicon"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M13.5 5H16A3 3 0 0 1 19 8V16A3 3 0 0 1 16 19H8A3 3 0 0 1 5 16V8L8 5H10.5",
+      "closed": true
+    },
+    {
+      "d": "M8.5 10.5A2 2 0 0 1 10.5 8.5H13.5A2 2 0 0 1 15.5 10.5V13.5A2 2 0 0 1 13.5 15.5H10.5A2 2 0 0 1 8.5 13.5Z",
+      "closed": true
+    },
+    {
+      "d": "M2 9H5",
+      "closed": false
+    },
+    {
+      "d": "M2 15H5",
+      "closed": false
+    },
+    {
+      "d": "M19 9H22",
+      "closed": false
+    },
+    {
+      "d": "M19 15H22",
+      "closed": false
+    }
+  ]
+}

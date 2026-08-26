@@ -1,0 +1,38 @@
+{
+  "slug": "agent-delegate",
+  "category": "agents",
+  "subcategory": "communication",
+  "name": "Agent delegate",
+  "description": "Give the work to a smaller agent",
+  "tags": [
+    "assign",
+    "hand-down",
+    "sub-agent"
+  ],
+  "keywords": [
+    "assign",
+    "sub-agent",
+    "spawn worker",
+    "hand down",
+    "farm out"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M7.48 4.83A3.5 3.5 0 1 1 4.52 4.83",
+      "closed": false
+    },
+    {
+      "d": "M9 11L12 14",
+      "closed": false
+    },
+    {
+      "d": "M11.5 14L14 14L14 11.5",
+      "closed": false
+    },
+    {
+      "d": "M18.48 13.83A3.5 3.5 0 1 1 15.52 13.83",
+      "closed": false
+    }
+  ]
+}

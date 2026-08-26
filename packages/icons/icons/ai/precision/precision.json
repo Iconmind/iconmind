@@ -1,0 +1,33 @@
+{
+  "slug": "precision",
+  "category": "ai",
+  "subcategory": "evaluation",
+  "name": "Precision",
+  "description": "How many of the hits were right",
+  "tags": [
+    "accuracy",
+    "tight",
+    "hits"
+  ],
+  "keywords": [
+    "true positives",
+    "exactness",
+    "false positives",
+    "tight grouping"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M2 14H22",
+      "closed": false
+    },
+    {
+      "d": "M10 8V14",
+      "closed": false
+    },
+    {
+      "d": "M14 8V14",
+      "closed": false
+    }
+  ]
+}

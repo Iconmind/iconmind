@@ -1,0 +1,42 @@
+{
+  "slug": "extractor",
+  "category": "rag",
+  "subcategory": "ingestion",
+  "name": "Extractor",
+  "description": "Pulls the useful part out",
+  "tags": [
+    "parse",
+    "pick",
+    "lift"
+  ],
+  "keywords": [
+    "parse",
+    "scrape",
+    "structured output",
+    "pick out",
+    "field"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 2L6 2L6 21L14 21",
+      "closed": false
+    },
+    {
+      "d": "M9 8H13",
+      "closed": false
+    },
+    {
+      "d": "M9 12H13",
+      "closed": false
+    },
+    {
+      "d": "M16 12H20",
+      "closed": false
+    },
+    {
+      "d": "M17 9L20 12L17 15",
+      "closed": false
+    }
+  ]
+}

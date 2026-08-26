@@ -1,0 +1,40 @@
+{
+  "slug": "signature-crypto",
+  "category": "security",
+  "subcategory": "encryption",
+  "name": "Cryptographic signature",
+  "description": "Math that says it was them",
+  "tags": [
+    "signed",
+    "verify",
+    "hash"
+  ],
+  "keywords": [
+    "digital signature",
+    "signed hash",
+    "verify author"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 10L9 14",
+      "closed": false
+    },
+    {
+      "d": "M11 12H21",
+      "closed": false
+    },
+    {
+      "d": "M15 12V15",
+      "closed": false
+    },
+    {
+      "d": "M19 12V16",
+      "closed": false
+    }
+  ]
+}

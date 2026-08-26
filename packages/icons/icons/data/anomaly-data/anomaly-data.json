@@ -1,0 +1,41 @@
+{
+  "slug": "anomaly-data",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Data anomaly",
+  "description": "The row that does not belong",
+  "tags": [
+    "outlier",
+    "odd",
+    "wrong"
+  ],
+  "keywords": [
+    "outlier row",
+    "bad record",
+    "unexpected value",
+    "odd one out"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V8A2 2 0 0 1 20 10H4A2 2 0 0 1 2 8Z",
+      "closed": true
+    },
+    {
+      "d": "M5 6.5H19",
+      "closed": false
+    },
+    {
+      "d": "M2 15A2 2 0 0 1 4 13H20A2 2 0 0 1 22 15V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M10 14.5L14 18.5",
+      "closed": false
+    },
+    {
+      "d": "M14 14.5L10 18.5",
+      "closed": false
+    }
+  ]
+}

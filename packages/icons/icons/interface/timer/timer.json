@@ -1,0 +1,45 @@
+{
+  "slug": "timer",
+  "category": "interface",
+  "subcategory": "time",
+  "name": "Timer",
+  "description": "Counting down",
+  "tags": [
+    "countdown",
+    "stopwatch",
+    "elapsed"
+  ],
+  "aliases": [
+    "stopwatch"
+  ],
+  "keywords": [
+    "countdown",
+    "stopwatch",
+    "elapsed",
+    "duration",
+    "egg timer"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M15.38 6.75A8 8 0 1 1 8.62 6.75",
+      "closed": false
+    },
+    {
+      "d": "M12 9V14",
+      "closed": false
+    },
+    {
+      "d": "M14 14H18",
+      "closed": false
+    },
+    {
+      "d": "M12 3V6",
+      "closed": false
+    },
+    {
+      "d": "M9 3H15",
+      "closed": false
+    }
+  ]
+}

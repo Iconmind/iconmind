@@ -1,0 +1,29 @@
+{
+  "slug": "copy",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Copy",
+  "description": "Make another one",
+  "tags": [
+    "duplicate",
+    "clone",
+    "clipboard"
+  ],
+  "keywords": [
+    "clipboard",
+    "clone",
+    "paste",
+    "duplicate"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H14A2 2 0 0 1 16 5V14A2 2 0 0 1 14 16H5A2 2 0 0 1 3 14Z",
+      "closed": true
+    },
+    {
+      "d": "M8 10A2 2 0 0 1 10 8H19A2 2 0 0 1 21 10V19A2 2 0 0 1 19 21H10A2 2 0 0 1 8 19Z",
+      "closed": true
+    }
+  ]
+}

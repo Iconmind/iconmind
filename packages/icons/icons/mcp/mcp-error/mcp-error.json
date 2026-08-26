@@ -1,0 +1,34 @@
+{
+  "slug": "mcp-error",
+  "category": "mcp",
+  "subcategory": "transport",
+  "name": "MCP error",
+  "description": "The call came back wrong",
+  "tags": [
+    "failure",
+    "fault",
+    "rejected"
+  ],
+  "keywords": [
+    "json-rpc error",
+    "fault",
+    "rejected",
+    "exception",
+    "code"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L9 3L6 6L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M10 10L14 14",
+      "closed": false
+    },
+    {
+      "d": "M14 10L10 14",
+      "closed": false
+    }
+  ]
+}

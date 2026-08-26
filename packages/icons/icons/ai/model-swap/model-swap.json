@@ -1,0 +1,42 @@
+{
+  "slug": "model-swap",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Model swap",
+  "description": "Put a different one behind the same call",
+  "tags": [
+    "switch",
+    "replace",
+    "route"
+  ],
+  "keywords": [
+    "switch model",
+    "route",
+    "fallback model",
+    "a/b",
+    "replace"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M8 10H15",
+      "closed": false
+    },
+    {
+      "d": "M13 8L15 10L13 12",
+      "closed": false
+    },
+    {
+      "d": "M9 14H16",
+      "closed": false
+    },
+    {
+      "d": "M11 12L9 14L11 16",
+      "closed": false
+    }
+  ]
+}

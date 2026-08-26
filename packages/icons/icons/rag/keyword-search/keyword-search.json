@@ -1,0 +1,41 @@
+{
+  "slug": "keyword-search",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Keyword search",
+  "description": "Find the words themselves",
+  "tags": [
+    "literal",
+    "exact",
+    "text"
+  ],
+  "aliases": [
+    "full-text"
+  ],
+  "keywords": [
+    "bm25",
+    "lexical",
+    "exact match",
+    "grep",
+    "tf-idf"
+  ],
+  "family": "magnifier",
+  "shapes": [
+    {
+      "d": "M12.62 3.51A7 7 0 1 1 7.38 3.51",
+      "closed": false
+    },
+    {
+      "d": "M15 15L21 21",
+      "closed": false
+    },
+    {
+      "d": "M7 8H13",
+      "closed": false
+    },
+    {
+      "d": "M7 12H13",
+      "closed": false
+    }
+  ]
+}

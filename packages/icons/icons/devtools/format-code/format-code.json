@@ -1,0 +1,41 @@
+{
+  "slug": "format-code",
+  "category": "devtools",
+  "subcategory": "editor",
+  "name": "Format",
+  "description": "Line it all up",
+  "tags": [
+    "prettier",
+    "align",
+    "tidy"
+  ],
+  "aliases": [
+    "prettier"
+  ],
+  "keywords": [
+    "prettier",
+    "gofmt",
+    "indent",
+    "tidy",
+    "lint fix"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M3 5H21",
+      "closed": false
+    },
+    {
+      "d": "M8 10H21",
+      "closed": false
+    },
+    {
+      "d": "M8 15H21",
+      "closed": false
+    },
+    {
+      "d": "M3 20H21",
+      "closed": false
+    }
+  ]
+}

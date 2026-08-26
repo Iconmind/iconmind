@@ -1,0 +1,37 @@
+{
+  "slug": "executor",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Executor",
+  "description": "The part that actually carries the steps out",
+  "tags": [
+    "run",
+    "worker",
+    "carry-out"
+  ],
+  "aliases": [
+    "worker"
+  ],
+  "keywords": [
+    "runner",
+    "worker",
+    "step",
+    "invoke",
+    "carry out"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M10.5 5H13A3 3 0 0 1 16 8V16A3 3 0 0 1 13 19H5A3 3 0 0 1 2 16V8L5 5H7.5",
+      "closed": true
+    },
+    {
+      "d": "M2 12H22",
+      "closed": false
+    },
+    {
+      "d": "M18 8L22 12L18 16",
+      "closed": false
+    }
+  ]
+}

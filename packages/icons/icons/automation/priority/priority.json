@@ -1,0 +1,33 @@
+{
+  "slug": "priority",
+  "category": "automation",
+  "subcategory": "workflow",
+  "name": "Priority",
+  "description": "This one before the others",
+  "tags": [
+    "first",
+    "urgent",
+    "ahead"
+  ],
+  "keywords": [
+    "urgent",
+    "first",
+    "jump the queue",
+    "p0"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 4V13",
+      "closed": false
+    },
+    {
+      "d": "M8 8L12 4L16 8",
+      "closed": false
+    },
+    {
+      "d": "M11 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

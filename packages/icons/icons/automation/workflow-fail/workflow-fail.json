@@ -1,0 +1,37 @@
+{
+  "slug": "workflow-fail",
+  "category": "automation",
+  "subcategory": "workflow",
+  "name": "Workflow fail",
+  "description": "It broke partway",
+  "tags": [
+    "error",
+    "broken",
+    "red"
+  ],
+  "keywords": [
+    "failed flow",
+    "error in step",
+    "broken",
+    "went red"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H8A2 2 0 0 1 10 4V8A2 2 0 0 1 8 10H4A2 2 0 0 1 2 8Z",
+      "closed": true
+    },
+    {
+      "d": "M6 10L6 16L10 16",
+      "closed": false
+    },
+    {
+      "d": "M13 12L20 19",
+      "closed": false
+    },
+    {
+      "d": "M20 12L13 19",
+      "closed": false
+    }
+  ]
+}

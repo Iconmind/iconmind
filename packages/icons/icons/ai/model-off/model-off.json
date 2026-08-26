@@ -1,0 +1,33 @@
+{
+  "slug": "model-off",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Model off",
+  "description": "The model is disabled",
+  "tags": [
+    "disabled",
+    "retired",
+    "inactive"
+  ],
+  "keywords": [
+    "disable",
+    "deprecated",
+    "retired",
+    "unavailable"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M9 9L15 15",
+      "closed": false
+    },
+    {
+      "d": "M15 9L9 15",
+      "closed": false
+    }
+  ]
+}

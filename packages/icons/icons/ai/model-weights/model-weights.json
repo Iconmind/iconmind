@@ -1,0 +1,38 @@
+{
+  "slug": "model-weights",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Model weights",
+  "description": "The numbers that are the model",
+  "tags": [
+    "parameters",
+    "checkpoint",
+    "file"
+  ],
+  "keywords": [
+    "parameters",
+    "safetensors",
+    "checkpoint",
+    "gguf",
+    "billions"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M8 9H16",
+      "closed": false
+    },
+    {
+      "d": "M8 12H13",
+      "closed": false
+    },
+    {
+      "d": "M8 15H16",
+      "closed": false
+    }
+  ]
+}

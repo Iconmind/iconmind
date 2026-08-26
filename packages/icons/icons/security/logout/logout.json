@@ -1,0 +1,36 @@
+{
+  "slug": "logout",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Log out",
+  "description": "Leave",
+  "tags": [
+    "exit",
+    "sign-out",
+    "go"
+  ],
+  "aliases": [
+    "sign-out"
+  ],
+  "keywords": [
+    "sign out",
+    "exit",
+    "end session",
+    "leave"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M9 3L3 3L3 21L9 21",
+      "closed": false
+    },
+    {
+      "d": "M11 12H21",
+      "closed": false
+    },
+    {
+      "d": "M18 9L21 12L18 15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "object",
+  "category": "devtools",
+  "subcategory": "code",
+  "name": "Object",
+  "description": "Named parts, boxed together",
+  "tags": [
+    "struct",
+    "record",
+    "braces"
+  ],
+  "aliases": [
+    "struct"
+  ],
+  "keywords": [
+    "struct",
+    "record",
+    "key values",
+    "braces"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 4L7 6L7 10L5 12L7 14L7 18L9 20",
+      "closed": false
+    },
+    {
+      "d": "M15 4L17 6L17 10L19 12L17 14L17 18L15 20",
+      "closed": false
+    }
+  ]
+}

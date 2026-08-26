@@ -1,0 +1,36 @@
+{
+  "slug": "document-add",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Document add",
+  "description": "Start a new one",
+  "tags": [
+    "new",
+    "create",
+    "file"
+  ],
+  "aliases": [
+    "new-file"
+  ],
+  "keywords": [
+    "new document",
+    "create",
+    "blank",
+    "compose"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    }
+  ]
+}

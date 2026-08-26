@@ -1,0 +1,38 @@
+{
+  "slug": "dedupe",
+  "category": "rag",
+  "subcategory": "chunking",
+  "name": "Deduplicate",
+  "description": "Two of the same, one of them dropped",
+  "tags": [
+    "duplicate",
+    "unique",
+    "drop"
+  ],
+  "keywords": [
+    "duplicate",
+    "unique",
+    "distinct",
+    "collapse",
+    "near-duplicate"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 9A2 2 0 0 1 4 7H8A2 2 0 0 1 10 9V15A2 2 0 0 1 8 17H4A2 2 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M13 9A2 2 0 0 1 15 7H19A2 2 0 0 1 21 9V15A2 2 0 0 1 19 17H15A2 2 0 0 1 13 15Z",
+      "closed": true
+    },
+    {
+      "d": "M15 10L19 14",
+      "closed": false
+    },
+    {
+      "d": "M19 10L15 14",
+      "closed": false
+    }
+  ]
+}

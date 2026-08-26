@@ -1,0 +1,29 @@
+{
+  "slug": "success",
+  "category": "interface",
+  "subcategory": "state",
+  "name": "Success",
+  "description": "It worked",
+  "tags": [
+    "done",
+    "ok",
+    "green"
+  ],
+  "keywords": [
+    "worked",
+    "done",
+    "all good",
+    "green"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 12L10.5 15.5L17 9",
+      "closed": false
+    }
+  ]
+}

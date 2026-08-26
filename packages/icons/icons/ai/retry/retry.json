@@ -1,0 +1,31 @@
+{
+  "slug": "retry",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Retry",
+  "description": "Go round and try again",
+  "tags": [
+    "repeat",
+    "again",
+    "loop"
+  ],
+  "keywords": [
+    "backoff",
+    "attempt",
+    "refresh",
+    "again",
+    "resilience",
+    "repeat"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V17A3 3 0 0 1 18 20H6A3 3 0 0 1 3 17V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M12 2L9 5L12 8",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "refactor",
+  "category": "devtools",
+  "subcategory": "code",
+  "name": "Refactor",
+  "description": "Same behaviour, different shape",
+  "tags": [
+    "reshape",
+    "tidy",
+    "restructure"
+  ],
+  "keywords": [
+    "restructure",
+    "tidy up",
+    "extract method",
+    "no behaviour change"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 8A2 2 0 0 1 8 6H16A2 2 0 0 1 18 8V16A2 2 0 0 1 16 18H8A2 2 0 0 1 6 16Z",
+      "closed": true
+    },
+    {
+      "d": "M3 9L3 3L9 3",
+      "closed": false
+    },
+    {
+      "d": "M21 15L21 21L15 21",
+      "closed": false
+    }
+  ]
+}

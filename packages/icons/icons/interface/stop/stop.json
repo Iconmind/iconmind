@@ -1,0 +1,26 @@
+{
+  "slug": "stop",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Stop",
+  "description": "End it now",
+  "tags": [
+    "end",
+    "halt",
+    "cancel"
+  ],
+  "keywords": [
+    "end",
+    "halt",
+    "terminate",
+    "abort",
+    "kill"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M5 7A2 2 0 0 1 7 5H17A2 2 0 0 1 19 7V17A2 2 0 0 1 17 19H7A2 2 0 0 1 5 17Z",
+      "closed": true
+    }
+  ]
+}

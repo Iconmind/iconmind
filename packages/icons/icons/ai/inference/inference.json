@@ -1,0 +1,31 @@
+{
+  "slug": "inference",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Inference",
+  "description": "Running a model to produce output",
+  "tags": [
+    "run",
+    "predict",
+    "generate"
+  ],
+  "aliases": [
+    "predict"
+  ],
+  "keywords": [
+    "forward pass",
+    "generate",
+    "serving"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M10 8L14 12L10 16",
+      "closed": false
+    }
+  ]
+}

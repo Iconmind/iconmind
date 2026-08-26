@@ -1,0 +1,23 @@
+node_modules/
+.turbo/
+dist/
+out/
+.next/
+coverage/
+**/src/generated/
+packages/icons/dist/
+*.tsbuildinfo
+.DS_Store
+.env*
+!.env.example
+spike/**/.render/
+.source/
+
+# Playwright run output. Baselines under tests/visual/*-snapshots/ are committed.
+test-results/
+playwright-report/
+blob-report/
+
+# Mockup deck, kept out of the repo — it is a design artefact, not source.
+Iconmind UI mockups/
+.vercel

@@ -1,0 +1,34 @@
+{
+  "slug": "response",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "Response",
+  "description": "What came back",
+  "tags": [
+    "reply",
+    "returned",
+    "inbound"
+  ],
+  "keywords": [
+    "http response",
+    "reply",
+    "returned",
+    "payload",
+    "inbound"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M15 6A2 2 0 0 1 17 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H17A2 2 0 0 1 15 18Z",
+      "closed": true
+    },
+    {
+      "d": "M2 12H15",
+      "closed": false
+    },
+    {
+      "d": "M5 9L2 12L5 15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "noise",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Noise",
+  "description": "What carries no signal",
+  "tags": [
+    "random",
+    "scatter",
+    "jitter"
+  ],
+  "keywords": [
+    "random",
+    "jitter",
+    "signal to noise",
+    "scatter",
+    "interference"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 8a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

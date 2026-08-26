@@ -1,0 +1,37 @@
+{
+  "slug": "pipeline-run",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Pipeline run",
+  "description": "This stage is going",
+  "tags": [
+    "running",
+    "started",
+    "build"
+  ],
+  "keywords": [
+    "build running",
+    "in progress",
+    "job started",
+    "execution"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H12A2 2 0 0 1 14 8V16A2 2 0 0 1 12 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M6 9L9 12L6 15Z",
+      "closed": true
+    },
+    {
+      "d": "M14 12H18",
+      "closed": false
+    },
+    {
+      "d": "M18 9L21 12L18 15",
+      "closed": false
+    }
+  ]
+}

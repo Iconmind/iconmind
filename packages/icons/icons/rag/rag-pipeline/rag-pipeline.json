@@ -1,0 +1,32 @@
+{
+  "slug": "rag-pipeline",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "RAG pipeline",
+  "description": "Retrieve, then write with what you found",
+  "tags": [
+    "retrieve",
+    "generate",
+    "stages"
+  ],
+  "keywords": [
+    "retrieval augmented",
+    "stages",
+    "search then write"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 10A2 2 0 0 1 4 8H6.5A2 2 0 0 1 8.5 10V14A2 2 0 0 1 6.5 16H4A2 2 0 0 1 2 14Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15.5 10A2 2 0 0 1 17.5 8H20A2 2 0 0 1 22 10V14A2 2 0 0 1 20 16H17.5A2 2 0 0 1 15.5 14Z",
+      "closed": true
+    }
+  ]
+}

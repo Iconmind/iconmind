@@ -1,0 +1,41 @@
+{
+  "slug": "memory-episodic",
+  "category": "agents",
+  "subcategory": "memory",
+  "name": "Episodic memory",
+  "description": "What happened, in order",
+  "tags": [
+    "events",
+    "history",
+    "when"
+  ],
+  "aliases": [
+    "episodic"
+  ],
+  "keywords": [
+    "what happened",
+    "event log",
+    "timeline",
+    "recall",
+    "past turns"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M6 8H20",
+      "closed": false
+    },
+    {
+      "d": "M6 12H16",
+      "closed": false
+    },
+    {
+      "d": "M6 16H20",
+      "closed": false
+    }
+  ]
+}

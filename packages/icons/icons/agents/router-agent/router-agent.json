@@ -1,0 +1,38 @@
+{
+  "slug": "router-agent",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Router agent",
+  "description": "The one that decides who gets it",
+  "tags": [
+    "dispatch",
+    "choose",
+    "route"
+  ],
+  "keywords": [
+    "dispatcher",
+    "route to agent",
+    "triage",
+    "choose handler",
+    "delegate"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 12H14",
+      "closed": false
+    },
+    {
+      "d": "M14 12L19 7",
+      "closed": false
+    },
+    {
+      "d": "M14 12L19 17",
+      "closed": false
+    }
+  ]
+}

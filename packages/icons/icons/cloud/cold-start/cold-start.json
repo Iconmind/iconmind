@@ -1,0 +1,36 @@
+{
+  "slug": "cold-start",
+  "category": "cloud",
+  "subcategory": "serverless",
+  "name": "Cold start",
+  "description": "The first call pays for waking it",
+  "tags": [
+    "latency",
+    "wake",
+    "first"
+  ],
+  "aliases": [
+    "cold-boot"
+  ],
+  "keywords": [
+    "lambda cold start",
+    "wake up",
+    "first request",
+    "warm up"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M6 15A2 2 0 0 1 8 13H16A2 2 0 0 1 18 15V19A2 2 0 0 1 16 21H8A2 2 0 0 1 6 19Z",
+      "closed": true
+    },
+    {
+      "d": "M9 3V8",
+      "closed": false
+    },
+    {
+      "d": "M15 3V8",
+      "closed": false
+    }
+  ]
+}

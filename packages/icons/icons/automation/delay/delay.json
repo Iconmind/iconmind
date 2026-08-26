@@ -1,0 +1,45 @@
+{
+  "slug": "delay",
+  "category": "automation",
+  "subcategory": "schedule",
+  "name": "Delay",
+  "description": "Wait, then carry on",
+  "tags": [
+    "wait",
+    "pause",
+    "sleep"
+  ],
+  "aliases": [
+    "wait"
+  ],
+  "keywords": [
+    "sleep",
+    "timeout",
+    "backoff",
+    "pause",
+    "throttle"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M2 12H7",
+      "closed": false
+    },
+    {
+      "d": "M14.11 7.47A5 5 0 1 1 9.89 7.47",
+      "closed": false
+    },
+    {
+      "d": "M12 8V12",
+      "closed": false
+    },
+    {
+      "d": "M12 12H15",
+      "closed": false
+    },
+    {
+      "d": "M17 12H22",
+      "closed": false
+    }
+  ]
+}

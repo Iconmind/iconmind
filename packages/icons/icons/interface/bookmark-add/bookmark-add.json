@@ -1,0 +1,33 @@
+{
+  "slug": "bookmark-add",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Bookmark add",
+  "description": "Keep this one",
+  "tags": [
+    "save",
+    "new",
+    "favourite"
+  ],
+  "keywords": [
+    "save for later",
+    "add to list",
+    "pin",
+    "collect"
+  ],
+  "family": "ribbon",
+  "shapes": [
+    {
+      "d": "M15 3L18 3L18 21L12 15L6 21L6 3L9 3",
+      "closed": true
+    },
+    {
+      "d": "M12 7V13",
+      "closed": false
+    },
+    {
+      "d": "M9 10H15",
+      "closed": false
+    }
+  ]
+}

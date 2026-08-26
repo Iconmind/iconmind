@@ -1,0 +1,36 @@
+{
+  "slug": "timeout-flow",
+  "category": "automation",
+  "subcategory": "condition",
+  "name": "Timeout branch",
+  "description": "Where it goes when it takes too long",
+  "tags": [
+    "deadline",
+    "branch",
+    "expired"
+  ],
+  "keywords": [
+    "timeout branch",
+    "deadline path",
+    "took too long"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 9L8 12L11 12",
+      "closed": false
+    },
+    {
+      "d": "M16 12H20",
+      "closed": false
+    },
+    {
+      "d": "M18 10L20 12L18 14",
+      "closed": false
+    }
+  ]
+}

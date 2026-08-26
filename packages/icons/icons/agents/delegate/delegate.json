@@ -1,0 +1,40 @@
+{
+  "slug": "delegate",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Delegate",
+  "description": "Handed down, not over",
+  "tags": [
+    "assign",
+    "down",
+    "give"
+  ],
+  "aliases": [
+    "assign"
+  ],
+  "keywords": [
+    "assign",
+    "give work",
+    "farm out",
+    "to a subagent"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 11V15",
+      "closed": false
+    },
+    {
+      "d": "M9 14L12 17L15 14",
+      "closed": false
+    },
+    {
+      "d": "M10 20a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

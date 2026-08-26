@@ -1,0 +1,44 @@
+{
+  "slug": "recursive-split",
+  "category": "rag",
+  "subcategory": "chunking",
+  "name": "Recursive split",
+  "description": "Halve it until the pieces fit",
+  "tags": [
+    "divide",
+    "again",
+    "tree"
+  ],
+  "keywords": [
+    "split again",
+    "recursive chunking",
+    "halve until fits"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 4H22",
+      "closed": false
+    },
+    {
+      "d": "M2 10H10.5",
+      "closed": false
+    },
+    {
+      "d": "M13.5 10H22",
+      "closed": false
+    },
+    {
+      "d": "M2 16H5",
+      "closed": false
+    },
+    {
+      "d": "M7.5 16H10.5",
+      "closed": false
+    },
+    {
+      "d": "M13.5 16H22",
+      "closed": false
+    }
+  ]
+}

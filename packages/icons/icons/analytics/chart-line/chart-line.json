@@ -1,0 +1,36 @@
+{
+  "slug": "chart-line",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Line chart",
+  "description": "How something moved over time",
+  "tags": [
+    "trend",
+    "series",
+    "graph"
+  ],
+  "aliases": [
+    "trend"
+  ],
+  "keywords": [
+    "time series",
+    "graph",
+    "plot",
+    "sparkline"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M6 17L10 13L14 17L20 11",
+      "closed": false
+    }
+  ]
+}

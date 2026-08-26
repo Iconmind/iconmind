@@ -1,0 +1,34 @@
+{
+  "slug": "message-queue",
+  "category": "data",
+  "subcategory": "streaming",
+  "name": "Message queue",
+  "description": "Things waiting their turn",
+  "tags": [
+    "fifo",
+    "backlog",
+    "waiting"
+  ],
+  "keywords": [
+    "fifo",
+    "backlog",
+    "kafka",
+    "sqs",
+    "waiting"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H7A2 2 0 0 1 9 8V16A2 2 0 0 1 7 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M12 8A2 2 0 0 1 14 6H17A2 2 0 0 1 19 8V16A2 2 0 0 1 17 18H14A2 2 0 0 1 12 16Z",
+      "closed": true
+    },
+    {
+      "d": "M19 9L22 12L19 15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "transcribe-ingest",
+  "category": "rag",
+  "subcategory": "ingestion",
+  "name": "Transcribe",
+  "description": "Speech written down",
+  "tags": [
+    "speech",
+    "text",
+    "convert"
+  ],
+  "keywords": [
+    "speech to text",
+    "whisper",
+    "dictation",
+    "written down"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 9V15",
+      "closed": false
+    },
+    {
+      "d": "M8 6V18",
+      "closed": false
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    },
+    {
+      "d": "M16 9H21",
+      "closed": false
+    },
+    {
+      "d": "M16 13H19",
+      "closed": false
+    },
+    {
+      "d": "M16 17H21",
+      "closed": false
+    }
+  ]
+}

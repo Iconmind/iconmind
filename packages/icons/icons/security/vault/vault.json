@@ -1,0 +1,34 @@
+{
+  "slug": "vault",
+  "category": "security",
+  "subcategory": "secret",
+  "name": "Vault",
+  "description": "Where the secrets are kept",
+  "tags": [
+    "safe",
+    "store",
+    "locked"
+  ],
+  "keywords": [
+    "secrets manager",
+    "kms",
+    "safe",
+    "keychain",
+    "hsm"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 6A2 2 0 0 1 5 4H19A2 2 0 0 1 21 6V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12H17",
+      "closed": false
+    }
+  ]
+}

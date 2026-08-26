@@ -1,0 +1,38 @@
+{
+  "slug": "corner-radius",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Corner radius",
+  "description": "How round the corner is",
+  "tags": [
+    "rounding",
+    "corner",
+    "shape"
+  ],
+  "keywords": [
+    "border radius",
+    "rounding",
+    "corner",
+    "css",
+    "shape"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M4 10V20",
+      "closed": false
+    },
+    {
+      "d": "M4 10A6 6 0 0 1 10 4",
+      "closed": false
+    },
+    {
+      "d": "M10 4H20",
+      "closed": false
+    },
+    {
+      "d": "M9 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

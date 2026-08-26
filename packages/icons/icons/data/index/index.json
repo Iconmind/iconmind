@@ -1,0 +1,38 @@
+{
+  "slug": "index",
+  "category": "data",
+  "subcategory": "catalog",
+  "name": "Index",
+  "description": "What is where, so you can find it",
+  "tags": [
+    "lookup",
+    "catalogue",
+    "entries"
+  ],
+  "keywords": [
+    "lookup",
+    "catalog",
+    "b-tree",
+    "key",
+    "entries"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M7 7H20",
+      "closed": false
+    },
+    {
+      "d": "M7 12H20",
+      "closed": false
+    },
+    {
+      "d": "M7 17H20",
+      "closed": false
+    }
+  ]
+}

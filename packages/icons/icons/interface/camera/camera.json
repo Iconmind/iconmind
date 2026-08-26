@@ -1,0 +1,31 @@
+{
+  "slug": "camera",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Camera",
+  "description": "Take a picture",
+  "tags": [
+    "photo",
+    "capture",
+    "lens"
+  ],
+  "keywords": [
+    "capture",
+    "snapshot",
+    "lens",
+    "shoot",
+    "selfie",
+    "photo"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 7H19A3 3 0 0 1 22 10V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V10A3 3 0 0 1 5 7H10",
+      "closed": true
+    },
+    {
+      "d": "M8.5 13.5a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "mcp-manifest",
+  "category": "mcp",
+  "subcategory": "registry",
+  "name": "MCP manifest",
+  "description": "What a server declares about itself",
+  "tags": [
+    "metadata",
+    "declares",
+    "config"
+  ],
+  "keywords": [
+    "server info",
+    "metadata",
+    "declaration",
+    "config",
+    "version"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L9 3L6 6L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 11H15",
+      "closed": false
+    },
+    {
+      "d": "M9 15H13",
+      "closed": false
+    },
+    {
+      "d": "M14 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

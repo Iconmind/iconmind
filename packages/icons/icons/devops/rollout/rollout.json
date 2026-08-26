@@ -1,0 +1,33 @@
+{
+  "slug": "rollout",
+  "category": "devops",
+  "subcategory": "release",
+  "name": "Rollout",
+  "description": "To a few, then to more, then to all",
+  "tags": [
+    "gradual",
+    "staged",
+    "ramp"
+  ],
+  "keywords": [
+    "staged rollout",
+    "ramp",
+    "percentage",
+    "progressive delivery"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 7H9",
+      "closed": false
+    },
+    {
+      "d": "M3 12H15",
+      "closed": false
+    },
+    {
+      "d": "M3 17H21",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" role="img" aria-label="IconMind">
+  <!--
+    The favicon, boxed.
+
+    The canvas draws the mark two ways: bare on paper for the lockup, and inside a rounded
+    square on the dark panel for the app icon. A tab strip is neither paper nor a page —
+    it is whatever colour the browser and the OS theme decide — so the boxed treatment is
+    the one that survives there, and it is the one the canvas already specifies.
+
+    This is the 16px rung of the ladder: hull and core only. The spine and the ribs are
+    8 grid units long, which at 16 physical pixels is five and a bit, and they merge.
+  -->
+  <rect width="24" height="24" rx="5.5" fill="#14110E"/>
+  <path d="M12 4 20 8 20 16 12 20 4 16 4 8Z" fill="none" stroke="#F3EEE8" stroke-width="2.4"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="12" cy="12" r="2.4" fill="#F97316"/>
+</svg>

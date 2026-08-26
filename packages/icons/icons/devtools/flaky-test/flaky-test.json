@@ -1,0 +1,33 @@
+{
+  "slug": "flaky-test",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Flaky test",
+  "description": "Passes and fails on the same code",
+  "tags": [
+    "unreliable",
+    "intermittent",
+    "test"
+  ],
+  "keywords": [
+    "intermittent",
+    "unreliable",
+    "retry",
+    "nondeterministic"
+  ],
+  "family": "mark",
+  "shapes": [
+    {
+      "d": "M2 12L5 15L10 10",
+      "closed": false
+    },
+    {
+      "d": "M14 8L21 15",
+      "closed": false
+    },
+    {
+      "d": "M21 8L14 15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+name: Release
+
+# Changesets drives releases: a push to main updates (or opens) the "Version Packages"
+# PR; merging that PR is the release — this workflow then publishes all three packages
+# to npm in one go. Versions are fixed together, so @iconmind/icons, /react and /mcp
+# always share a number.
+on:
+  push:
+    branches: [main]
+
+concurrency: release-${{ github.ref }}
+
+permissions:
+  contents: write        # the version PR commits bumps + changelogs
+  pull-requests: write
+  id-token: write        # npm provenance
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+          registry-url: https://registry.npmjs.org
+      - run: pnpm install --frozen-lockfile
+
+      # The same gate CI runs — nothing publishes that the validator has not passed.
+      - run: pnpm icons:build
+      - run: pnpm icons:validate
+
+      # changesets/action does not write npm credentials itself; without this the publish
+      # step waits on auth in silence and the job dies with orphaned processes.
+      - run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Version PR or publish
+        uses: changesets/action@v1
+        with:
+          publish: pnpm release
+          title: "Version packages"
+          commit: "chore: version packages"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

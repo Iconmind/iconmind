@@ -1,0 +1,42 @@
+{
+  "slug": "priority-queue",
+  "category": "data",
+  "subcategory": "streaming",
+  "name": "Priority queue",
+  "description": "Some things go first",
+  "tags": [
+    "ordered",
+    "ahead",
+    "urgent"
+  ],
+  "keywords": [
+    "priority",
+    "jump the queue",
+    "heap",
+    "urgent first",
+    "ordered"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 8H17",
+      "closed": false
+    },
+    {
+      "d": "M3 13H17",
+      "closed": false
+    },
+    {
+      "d": "M3 18H17",
+      "closed": false
+    },
+    {
+      "d": "M20 15L20 9",
+      "closed": false
+    },
+    {
+      "d": "M18 11L20 9L22 11",
+      "closed": false
+    }
+  ]
+}

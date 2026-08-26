@@ -1,0 +1,38 @@
+{
+  "slug": "data-quality",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Data quality",
+  "description": "The records are what they claim to be",
+  "tags": [
+    "validate",
+    "clean",
+    "check"
+  ],
+  "keywords": [
+    "validation",
+    "profiling",
+    "nulls",
+    "schema check",
+    "clean"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M3 6H14",
+      "closed": false
+    },
+    {
+      "d": "M3 12H14",
+      "closed": false
+    },
+    {
+      "d": "M3 18H14",
+      "closed": false
+    },
+    {
+      "d": "M16 12L18 14L22 10",
+      "closed": false
+    }
+  ]
+}

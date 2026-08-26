@@ -1,0 +1,66 @@
+---
+title: React
+description: Props, tree shaking, server components, and type safety.
+---
+
+Every icon is a named export. Import only what you use.
+
+```tsx
+import { Agent, VectorDatabase } from "@iconmind/react";
+
+<Agent />
+<VectorDatabase color="#5b4bde" strokeWidth={1.5} />
+<Agent className="text-violet-500" />
+<Agent aria-label="Agent" />
+```
+
+## Props
+
+| Prop | Default | What it does |
+|---|---|---|
+| `size` | `24` | Width and height, in px or any CSS length |
+| `color` | `currentColor` | Stroke colour |
+| `strokeWidth` | `2` | Stroke thickness |
+| `absoluteStrokeWidth` | `false` | Keeps the stroke looking the same weight as size changes |
+
+Anything else you pass lands on the `<svg>`, and it is spread **after** the defaults — so
+you can override any of them, including `viewBox`.
+
+### absoluteStrokeWidth
+
+At `size={48}` a 2px stroke scales with everything else and reads as 4px. With this on,
+the stroke is divided by the scale factor so it looks the same at every size.
+
+## Tree shaking
+
+Importing three icons pulls in roughly 600 bytes gzipped, not the whole library. That is
+not a promise — it is a test that fails if it stops being true.
+
+| Import | Size |
+|---|---|
+| 1 icon | 520 B gzip |
+| 3 icons | 660 B gzip |
+| the whole set | 2.9 KB gzip |
+
+Measured against the published package installed from npm, not the workspace copy.
+
+The package is ESM only with `sideEffects: false`, and every icon is its own entry point,
+so `@iconmind/react/icons/agent` works too.
+
+## Server components
+
+No hooks, no state, no browser APIs. Icons render on the server and ship **zero bytes of
+client JavaScript** in a Next.js App Router page.
+
+Output is deterministic — no `Math.random()`, no `useId()` — so hydration never mismatches.
+
+## Dynamic imports
+
+If the icon name is only known at runtime, prefer an explicit map:
+
+```tsx
+const ICONS = { agent: Agent, prompt: Prompt } as const;
+```
+
+A template literal in `import()` forces the bundler to include every possible icon. That
+is the usual cause of "why is my bundle 200 KB", and it is not a tree-shaking bug.

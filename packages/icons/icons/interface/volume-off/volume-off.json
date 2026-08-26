@@ -1,0 +1,36 @@
+{
+  "slug": "volume-off",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Volume off",
+  "description": "Silenced",
+  "tags": [
+    "mute",
+    "silent",
+    "quiet"
+  ],
+  "aliases": [
+    "mute"
+  ],
+  "keywords": [
+    "mute",
+    "silence",
+    "quiet",
+    "no sound"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 9L3 9L3 15L8 15L13 20L13 4Z",
+      "closed": true
+    },
+    {
+      "d": "M16 9L21 14",
+      "closed": false
+    },
+    {
+      "d": "M21 9L16 14",
+      "closed": false
+    }
+  ]
+}

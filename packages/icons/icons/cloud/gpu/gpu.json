@@ -1,0 +1,41 @@
+{
+  "slug": "gpu",
+  "category": "cloud",
+  "subcategory": "compute",
+  "name": "GPU",
+  "description": "The card the maths actually runs on",
+  "tags": [
+    "graphics",
+    "accelerator",
+    "card"
+  ],
+  "aliases": [
+    "accelerator"
+  ],
+  "keywords": [
+    "cuda",
+    "nvidia",
+    "vram",
+    "tensor",
+    "training"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14 6H19A3 3 0 0 1 22 9V15A3 3 0 0 1 19 18H5A3 3 0 0 1 2 15V9L5 6H10",
+      "closed": true
+    },
+    {
+      "d": "M5 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 9V15",
+      "closed": false
+    },
+    {
+      "d": "M18 9V15",
+      "closed": false
+    }
+  ]
+}

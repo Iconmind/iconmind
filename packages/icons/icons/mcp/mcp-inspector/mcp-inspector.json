@@ -1,0 +1,42 @@
+{
+  "slug": "mcp-inspector",
+  "category": "mcp",
+  "subcategory": "registry",
+  "name": "MCP inspector",
+  "description": "The tool you debug a server with",
+  "tags": [
+    "debug",
+    "inspect",
+    "test"
+  ],
+  "keywords": [
+    "inspector",
+    "debug ui",
+    "test harness",
+    "poke",
+    "devtool"
+  ],
+  "family": "tower",
+  "shapes": [
+    {
+      "d": "M13.5 3H17A3 3 0 0 1 20 6V18A3 3 0 0 1 17 21H7A3 3 0 0 1 4 18V6L7 3H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 18H12",
+      "closed": false
+    },
+    {
+      "d": "M15 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13.12 7.22A3 3 0 1 1 10.88 7.22",
+      "closed": false
+    },
+    {
+      "d": "M14 12L17 15",
+      "closed": false
+    }
+  ]
+}

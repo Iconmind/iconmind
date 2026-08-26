@@ -1,0 +1,33 @@
+{
+  "slug": "knowledge-base",
+  "category": "rag",
+  "subcategory": "knowledge",
+  "name": "Knowledge base",
+  "description": "The body of material a system can draw on",
+  "tags": [
+    "book",
+    "reference",
+    "corpus"
+  ],
+  "aliases": [
+    "kb"
+  ],
+  "keywords": [
+    "docs",
+    "wiki",
+    "reference",
+    "corpus",
+    "manual"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V7A3 3 0 0 1 7 4H10",
+      "closed": true
+    },
+    {
+      "d": "M8 4V20",
+      "closed": false
+    }
+  ]
+}

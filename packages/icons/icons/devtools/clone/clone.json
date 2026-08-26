@@ -1,0 +1,37 @@
+{
+  "slug": "clone",
+  "category": "devtools",
+  "subcategory": "version-control",
+  "name": "Clone",
+  "description": "Take a copy of the whole thing",
+  "tags": [
+    "copy",
+    "fetch",
+    "duplicate"
+  ],
+  "keywords": [
+    "git clone",
+    "checkout",
+    "pull down",
+    "local copy"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H10A2 2 0 0 1 12 4V10A2 2 0 0 1 10 12H4A2 2 0 0 1 2 10Z",
+      "closed": true
+    },
+    {
+      "d": "M13 15A2 2 0 0 1 15 13H20A2 2 0 0 1 22 15V20A2 2 0 0 1 20 22H15A2 2 0 0 1 13 20Z",
+      "closed": true
+    },
+    {
+      "d": "M15 5L18 8",
+      "closed": false
+    },
+    {
+      "d": "M15 8L18 8L18 5",
+      "closed": false
+    }
+  ]
+}

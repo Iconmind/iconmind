@@ -1,0 +1,36 @@
+{
+  "slug": "environment-var",
+  "category": "devtools",
+  "subcategory": "editor",
+  "name": "Environment variable",
+  "description": "A value the process is handed",
+  "tags": [
+    "config",
+    "secret",
+    "setting"
+  ],
+  "aliases": [
+    "env-var"
+  ],
+  "keywords": [
+    "dotenv",
+    "process.env",
+    "config value",
+    "export"
+  ],
+  "family": "capsule",
+  "shapes": [
+    {
+      "d": "M2 12A3 3 0 0 1 5 9H8A3 3 0 0 1 11 12V12A3 3 0 0 1 8 15H5A3 3 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12H15",
+      "closed": false
+    },
+    {
+      "d": "M16 12A3 3 0 0 1 19 9H19A3 3 0 0 1 22 12V12A3 3 0 0 1 19 15H19A3 3 0 0 1 16 12Z",
+      "closed": true
+    }
+  ]
+}

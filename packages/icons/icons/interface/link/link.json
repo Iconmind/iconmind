@@ -1,0 +1,33 @@
+{
+  "slug": "link",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Link",
+  "description": "Joined to something else",
+  "tags": [
+    "chain",
+    "url",
+    "connect"
+  ],
+  "aliases": [
+    "chain"
+  ],
+  "keywords": [
+    "url",
+    "href",
+    "hyperlink",
+    "connect",
+    "attach"
+  ],
+  "family": "capsule",
+  "shapes": [
+    {
+      "d": "M7.5 9H10A3 3 0 0 1 13 12V12A3 3 0 0 1 10 15H5A3 3 0 0 1 2 12V12A3 3 0 0 1 5 9Z",
+      "closed": true
+    },
+    {
+      "d": "M16.5 9H19A3 3 0 0 1 22 12V12A3 3 0 0 1 19 15H14A3 3 0 0 1 11 12V12A3 3 0 0 1 14 9Z",
+      "closed": true
+    }
+  ]
+}

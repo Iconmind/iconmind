@@ -1,0 +1,41 @@
+{
+  "slug": "release-tag",
+  "category": "devops",
+  "subcategory": "release",
+  "name": "Release tag",
+  "description": "The name this version answers to",
+  "tags": [
+    "version",
+    "label",
+    "semver"
+  ],
+  "aliases": [
+    "tag-release"
+  ],
+  "keywords": [
+    "semver",
+    "v1.2.0",
+    "git tag",
+    "label",
+    "named version"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12L9 5L21 5L21 19L9 19Z",
+      "closed": true
+    },
+    {
+      "d": "M6 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 10H18",
+      "closed": false
+    },
+    {
+      "d": "M11 14H16",
+      "closed": false
+    }
+  ]
+}

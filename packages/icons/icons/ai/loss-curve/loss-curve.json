@@ -1,0 +1,33 @@
+{
+  "slug": "loss-curve",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Loss curve",
+  "description": "The error coming down as training goes on",
+  "tags": [
+    "training",
+    "error",
+    "convergence"
+  ],
+  "keywords": [
+    "convergence",
+    "gradient descent",
+    "plateau",
+    "error"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M6 6L11 11L15 15L20 15",
+      "closed": false
+    }
+  ]
+}

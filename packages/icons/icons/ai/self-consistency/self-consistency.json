@@ -1,0 +1,38 @@
+{
+  "slug": "self-consistency",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Self-consistency",
+  "description": "Ask several times, keep what most of them said",
+  "tags": [
+    "majority",
+    "samples",
+    "agree"
+  ],
+  "keywords": [
+    "majority vote",
+    "sample n",
+    "agreement",
+    "ensemble",
+    "best of"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 7H15",
+      "closed": false
+    },
+    {
+      "d": "M3 12H15",
+      "closed": false
+    },
+    {
+      "d": "M3 17H15",
+      "closed": false
+    },
+    {
+      "d": "M17 11L19 13L22 10",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "database",
+  "category": "data",
+  "subcategory": "storage",
+  "name": "Database",
+  "description": "Where records are kept and queried",
+  "tags": [
+    "storage",
+    "records",
+    "sql"
+  ],
+  "aliases": [
+    "db"
+  ],
+  "keywords": [
+    "sql",
+    "datastore",
+    "table"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 11H17",
+      "closed": false
+    },
+    {
+      "d": "M7 15.5H17",
+      "closed": false
+    }
+  ]
+}

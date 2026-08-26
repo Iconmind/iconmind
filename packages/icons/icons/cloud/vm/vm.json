@@ -1,0 +1,32 @@
+{
+  "slug": "vm",
+  "category": "cloud",
+  "subcategory": "compute",
+  "name": "Virtual machine",
+  "description": "A machine that is really software",
+  "tags": [
+    "instance",
+    "virtual",
+    "host"
+  ],
+  "aliases": [
+    "instance"
+  ],
+  "keywords": [
+    "ec2",
+    "hypervisor",
+    "guest",
+    "virtualisation"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 10A2 2 0 0 1 9 8H15A2 2 0 0 1 17 10V14A2 2 0 0 1 15 16H9A2 2 0 0 1 7 14Z",
+      "closed": true
+    }
+  ]
+}

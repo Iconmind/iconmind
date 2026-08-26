@@ -1,0 +1,34 @@
+{
+  "slug": "mcp-sse",
+  "category": "mcp",
+  "subcategory": "transport",
+  "name": "MCP server-sent events",
+  "description": "The server talking without being asked",
+  "tags": [
+    "stream",
+    "push",
+    "events"
+  ],
+  "keywords": [
+    "server sent events",
+    "stream",
+    "push",
+    "one way",
+    "eventsource"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M8 6H11A3 3 0 0 1 14 9V15A3 3 0 0 1 11 18H5A3 3 0 0 1 2 15V9L5 6Z",
+      "closed": true
+    },
+    {
+      "d": "M16.83 9.17A4 4 0 0 1 16.83 14.83",
+      "closed": false
+    },
+    {
+      "d": "M18.95 7.05A7 7 0 0 1 18.95 16.95",
+      "closed": false
+    }
+  ]
+}

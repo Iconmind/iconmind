@@ -1,0 +1,33 @@
+{
+  "slug": "mcp-prompt-add",
+  "category": "mcp",
+  "subcategory": "prompt",
+  "name": "MCP prompt add",
+  "description": "Offer another prompt template",
+  "tags": [
+    "new",
+    "expose",
+    "register"
+  ],
+  "keywords": [
+    "new template",
+    "register prompt",
+    "publish",
+    "expose"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15.5 6H18A3 3 0 0 1 21 9V15A3 3 0 0 1 18 18H6A3 3 0 0 1 3 15V11L8 6H10.5",
+      "closed": true
+    },
+    {
+      "d": "M12 10V16",
+      "closed": false
+    },
+    {
+      "d": "M9 13H15",
+      "closed": false
+    }
+  ]
+}

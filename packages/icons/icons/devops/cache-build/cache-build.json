@@ -1,0 +1,44 @@
+{
+  "slug": "cache-build",
+  "category": "devops",
+  "subcategory": "infrastructure",
+  "name": "Cache build",
+  "description": "Fill it before anyone asks",
+  "tags": [
+    "warm",
+    "prefill",
+    "prime"
+  ],
+  "aliases": [
+    "cache-warm"
+  ],
+  "keywords": [
+    "warm cache",
+    "prime",
+    "prefill",
+    "precompute"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M3 15A2 2 0 0 1 5 13H19A2 2 0 0 1 21 15V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M7 4V10",
+      "closed": false
+    },
+    {
+      "d": "M12 2V5.5",
+      "closed": false
+    },
+    {
+      "d": "M10 6.5L12 8.5L14 6.5",
+      "closed": false
+    },
+    {
+      "d": "M17 4V10",
+      "closed": false
+    }
+  ]
+}

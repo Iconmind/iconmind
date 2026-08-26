@@ -1,0 +1,38 @@
+{
+  "slug": "evidence",
+  "category": "rag",
+  "subcategory": "grounding",
+  "name": "Evidence",
+  "description": "The passage that supports it",
+  "tags": [
+    "passage",
+    "proof",
+    "quote"
+  ],
+  "keywords": [
+    "supporting passage",
+    "quote",
+    "proof",
+    "excerpt",
+    "highlight"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 7H15",
+      "closed": false
+    },
+    {
+      "d": "M8 13A2 2 0 0 1 10 11H14A2 2 0 0 1 16 13V13A2 2 0 0 1 14 15H10A2 2 0 0 1 8 13Z",
+      "closed": true
+    },
+    {
+      "d": "M9 18H13",
+      "closed": false
+    }
+  ]
+}

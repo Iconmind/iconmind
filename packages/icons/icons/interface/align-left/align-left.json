@@ -1,0 +1,33 @@
+{
+  "slug": "align-left",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Align left",
+  "description": "Flush against the left",
+  "tags": [
+    "text",
+    "flush",
+    "ragged"
+  ],
+  "keywords": [
+    "justify left",
+    "ragged right",
+    "text align",
+    "start"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M3 6H21",
+      "closed": false
+    },
+    {
+      "d": "M3 12H14",
+      "closed": false
+    },
+    {
+      "d": "M3 18H18",
+      "closed": false
+    }
+  ]
+}

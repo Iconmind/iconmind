@@ -1,0 +1,33 @@
+{
+  "slug": "small-language-model",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Small language model",
+  "description": "A model that fits somewhere it did not before",
+  "tags": [
+    "slm",
+    "compact",
+    "on-device"
+  ],
+  "aliases": [
+    "slm"
+  ],
+  "keywords": [
+    "slm",
+    "on device",
+    "phi",
+    "compact model",
+    "edge inference"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H20A2 2 0 0 1 22 4V20A2 2 0 0 1 20 22H4A2 2 0 0 1 2 20Z",
+      "closed": true
+    },
+    {
+      "d": "M11.5 6H14A3 3 0 0 1 17 9V14A3 3 0 0 1 14 17H9A3 3 0 0 1 6 14V9L9 6Z",
+      "closed": true
+    }
+  ]
+}

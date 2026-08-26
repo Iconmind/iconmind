@@ -1,0 +1,47 @@
+{
+  "slug": "token-auth",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Token auth",
+  "description": "The string that vouches for you",
+  "tags": [
+    "bearer",
+    "header",
+    "key"
+  ],
+  "aliases": [
+    "bearer-token"
+  ],
+  "keywords": [
+    "bearer",
+    "api token",
+    "authorization header"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12A4 4 0 0 1 6 8H11A4 4 0 0 1 15 12V12A4 4 0 0 1 11 16H6A4 4 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M5 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 12H21",
+      "closed": false
+    },
+    {
+      "d": "M18 12V15",
+      "closed": false
+    },
+    {
+      "d": "M21 12V14.5",
+      "closed": false
+    }
+  ]
+}

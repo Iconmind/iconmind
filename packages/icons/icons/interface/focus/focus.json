@@ -1,0 +1,42 @@
+{
+  "slug": "focus",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Focus",
+  "description": "Pay attention to this",
+  "tags": [
+    "target",
+    "crop",
+    "attention"
+  ],
+  "keywords": [
+    "viewfinder",
+    "target",
+    "centre",
+    "autofocus",
+    "spotlight"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M3 9L3 3L9 3",
+      "closed": false
+    },
+    {
+      "d": "M15 3L21 3L21 9",
+      "closed": false
+    },
+    {
+      "d": "M21 15L21 21L15 21",
+      "closed": false
+    },
+    {
+      "d": "M9 21L3 21L3 15",
+      "closed": false
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

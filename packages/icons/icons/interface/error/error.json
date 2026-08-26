@@ -1,0 +1,37 @@
+{
+  "slug": "error",
+  "category": "interface",
+  "subcategory": "state",
+  "name": "Error",
+  "description": "It failed",
+  "tags": [
+    "failure",
+    "broken",
+    "stop"
+  ],
+  "aliases": [
+    "failed"
+  ],
+  "keywords": [
+    "failure",
+    "exception",
+    "broken",
+    "crash",
+    "fatal"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 9L15 15",
+      "closed": false
+    },
+    {
+      "d": "M15 9L9 15",
+      "closed": false
+    }
+  ]
+}

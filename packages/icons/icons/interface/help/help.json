@@ -1,0 +1,45 @@
+{
+  "slug": "help",
+  "category": "interface",
+  "subcategory": "state",
+  "name": "Help",
+  "description": "How does this work?",
+  "tags": [
+    "question",
+    "support",
+    "docs"
+  ],
+  "aliases": [
+    "support"
+  ],
+  "keywords": [
+    "question mark",
+    "faq",
+    "docs",
+    "assistance",
+    "guide"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M9 9A3 3 0 0 1 15 9",
+      "closed": false
+    },
+    {
+      "d": "M15 9L12 12",
+      "closed": false
+    },
+    {
+      "d": "M12 12V15",
+      "closed": false
+    },
+    {
+      "d": "M11 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

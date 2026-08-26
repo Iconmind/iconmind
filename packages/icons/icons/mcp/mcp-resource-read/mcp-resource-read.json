@@ -1,0 +1,30 @@
+{
+  "slug": "mcp-resource-read",
+  "category": "mcp",
+  "subcategory": "resource",
+  "name": "MCP resource read",
+  "description": "Fetch what the server is offering",
+  "tags": [
+    "fetch",
+    "load",
+    "get"
+  ],
+  "keywords": [
+    "fetch",
+    "get",
+    "load",
+    "retrieve",
+    "subscribe"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L9 3L6 6L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M10 9L14 13L10 17",
+      "closed": false
+    }
+  ]
+}

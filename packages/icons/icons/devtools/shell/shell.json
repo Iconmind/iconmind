@@ -1,0 +1,37 @@
+{
+  "slug": "shell",
+  "category": "devtools",
+  "subcategory": "terminal",
+  "name": "Shell",
+  "description": "Where you talk to the machine",
+  "tags": [
+    "terminal",
+    "bash",
+    "prompt"
+  ],
+  "aliases": [
+    "bash"
+  ],
+  "keywords": [
+    "terminal",
+    "bash",
+    "zsh",
+    "command line",
+    "console"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M6 9L9 12L6 15",
+      "closed": false
+    },
+    {
+      "d": "M12 16H17",
+      "closed": false
+    }
+  ]
+}

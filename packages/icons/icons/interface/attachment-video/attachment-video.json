@@ -1,0 +1,30 @@
+{
+  "slug": "attachment-video",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Video attachment",
+  "description": "A clip sent with the message",
+  "tags": [
+    "clip",
+    "upload",
+    "file"
+  ],
+  "keywords": [
+    "clip",
+    "mp4",
+    "upload video",
+    "movie",
+    "footage"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M10 8L15 13L10 18Z",
+      "closed": true
+    }
+  ]
+}

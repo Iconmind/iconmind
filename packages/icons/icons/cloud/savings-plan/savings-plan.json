@@ -1,0 +1,35 @@
+{
+  "slug": "savings-plan",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Savings plan",
+  "description": "Cheaper, for promising to stay",
+  "tags": [
+    "reserved",
+    "discount",
+    "commit"
+  ],
+  "aliases": [
+    "reserved"
+  ],
+  "keywords": [
+    "reserved instances",
+    "committed use",
+    "discount"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M5 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 15L15 17L20 12",
+      "closed": false
+    }
+  ]
+}

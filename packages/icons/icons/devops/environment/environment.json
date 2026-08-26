@@ -1,0 +1,30 @@
+{
+  "slug": "environment",
+  "category": "devops",
+  "subcategory": "infrastructure",
+  "name": "Environment",
+  "description": "Development, staging, production",
+  "tags": [
+    "stage",
+    "tier",
+    "deploy-target"
+  ],
+  "keywords": [
+    "dev",
+    "staging",
+    "prod",
+    "tier",
+    "target"
+  ],
+  "family": "grid",
+  "shapes": [
+    {
+      "d": "M4 12L12 4L20 12L20 20L4 20Z",
+      "closed": true
+    },
+    {
+      "d": "M12 16V20",
+      "closed": false
+    }
+  ]
+}

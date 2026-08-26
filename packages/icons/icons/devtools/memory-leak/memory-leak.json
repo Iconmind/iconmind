@@ -1,0 +1,34 @@
+{
+  "slug": "memory-leak",
+  "category": "devtools",
+  "subcategory": "debug",
+  "name": "Memory leak",
+  "description": "It never gives any back",
+  "tags": [
+    "drip",
+    "grow",
+    "waste"
+  ],
+  "keywords": [
+    "heap",
+    "retained",
+    "oom",
+    "grows forever",
+    "gc"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M5 5A2 2 0 0 1 7 3H17A2 2 0 0 1 19 5V11A2 2 0 0 1 17 13H7A2 2 0 0 1 5 11Z",
+      "closed": true
+    },
+    {
+      "d": "M8 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 20a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

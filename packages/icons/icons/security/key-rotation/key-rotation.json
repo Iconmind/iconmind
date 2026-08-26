@@ -1,0 +1,42 @@
+{
+  "slug": "key-rotation",
+  "category": "security",
+  "subcategory": "secret",
+  "name": "Key rotation",
+  "description": "Replace it before it is old",
+  "tags": [
+    "rotate",
+    "renew",
+    "cycle"
+  ],
+  "keywords": [
+    "rotate",
+    "renew",
+    "expiry",
+    "roll",
+    "credentials"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V17A3 3 0 0 1 18 20H6A3 3 0 0 1 3 17V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M12 2L15 5L12 8",
+      "closed": false
+    },
+    {
+      "d": "M7.5 14a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12.5L15 8.5",
+      "closed": false
+    },
+    {
+      "d": "M13 10.5L15 12.5",
+      "closed": false
+    }
+  ]
+}

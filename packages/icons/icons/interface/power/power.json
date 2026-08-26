@@ -1,0 +1,33 @@
+{
+  "slug": "power",
+  "category": "interface",
+  "subcategory": "state",
+  "name": "Power",
+  "description": "On, or off",
+  "tags": [
+    "on",
+    "off",
+    "toggle"
+  ],
+  "aliases": [
+    "on-off"
+  ],
+  "keywords": [
+    "shutdown",
+    "restart",
+    "standby",
+    "switch",
+    "boot"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": false
+    },
+    {
+      "d": "M12 3V10",
+      "closed": false
+    }
+  ]
+}

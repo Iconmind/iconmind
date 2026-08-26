@@ -1,0 +1,42 @@
+{
+  "slug": "billing",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Billing",
+  "description": "The invoice",
+  "tags": [
+    "invoice",
+    "charge",
+    "account"
+  ],
+  "keywords": [
+    "invoice",
+    "statement",
+    "charges",
+    "account",
+    "payment"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 9H15",
+      "closed": false
+    },
+    {
+      "d": "M9 13H13",
+      "closed": false
+    },
+    {
+      "d": "M9 18H15",
+      "closed": false
+    },
+    {
+      "d": "M15 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

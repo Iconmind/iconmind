@@ -1,0 +1,34 @@
+{
+  "slug": "dependency",
+  "category": "devtools",
+  "subcategory": "package",
+  "name": "Dependency",
+  "description": "Something this needs to work",
+  "tags": [
+    "requires",
+    "package",
+    "link"
+  ],
+  "keywords": [
+    "requires",
+    "npm install",
+    "transitive",
+    "lock",
+    "upstream"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H9A2 2 0 0 1 11 5V9A2 2 0 0 1 9 11H4A2 2 0 0 1 2 9Z",
+      "closed": true
+    },
+    {
+      "d": "M6.5 11L6.5 16L13 16",
+      "closed": false
+    },
+    {
+      "d": "M13 14A2 2 0 0 1 15 12H20A2 2 0 0 1 22 14V18A2 2 0 0 1 20 20H15A2 2 0 0 1 13 18Z",
+      "closed": true
+    }
+  ]
+}

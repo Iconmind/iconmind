@@ -1,0 +1,38 @@
+{
+  "slug": "mcp-tool",
+  "category": "mcp",
+  "subcategory": "tool",
+  "name": "MCP tool",
+  "description": "Something a server lets a model call",
+  "tags": [
+    "capability",
+    "function",
+    "plug"
+  ],
+  "keywords": [
+    "function",
+    "capability",
+    "invoke",
+    "action",
+    "handler"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 10H15A3 3 0 0 1 18 13V16A3 3 0 0 1 15 19H9A3 3 0 0 1 6 16V13L9 10Z",
+      "closed": true
+    },
+    {
+      "d": "M9 5V10",
+      "closed": false
+    },
+    {
+      "d": "M12 5V10",
+      "closed": false
+    },
+    {
+      "d": "M15 5V10",
+      "closed": false
+    }
+  ]
+}

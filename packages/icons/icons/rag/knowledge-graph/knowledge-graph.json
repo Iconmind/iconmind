@@ -1,0 +1,46 @@
+{
+  "slug": "knowledge-graph",
+  "category": "rag",
+  "subcategory": "knowledge",
+  "name": "Knowledge graph",
+  "description": "Facts joined to other facts",
+  "tags": [
+    "entities",
+    "edges",
+    "triples"
+  ],
+  "keywords": [
+    "entities",
+    "triples",
+    "rdf",
+    "ontology",
+    "relations"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 7H16",
+      "closed": false
+    },
+    {
+      "d": "M6 9V15",
+      "closed": false
+    }
+  ]
+}

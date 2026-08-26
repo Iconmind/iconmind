@@ -1,0 +1,29 @@
+{
+  "slug": "forward",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Forward",
+  "description": "Pass it on",
+  "tags": [
+    "send-on",
+    "share",
+    "relay"
+  ],
+  "keywords": [
+    "send on",
+    "relay",
+    "redirect",
+    "fwd"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M16 4L21 9L16 14",
+      "closed": false
+    },
+    {
+      "d": "M21 9L7 9L7 20",
+      "closed": false
+    }
+  ]
+}

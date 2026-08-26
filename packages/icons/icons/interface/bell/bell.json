@@ -1,0 +1,45 @@
+{
+  "slug": "bell",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Bell",
+  "description": "You will be told",
+  "tags": [
+    "notification",
+    "alert",
+    "ring"
+  ],
+  "aliases": [
+    "notification"
+  ],
+  "keywords": [
+    "notify",
+    "alarm",
+    "reminder",
+    "subscribe",
+    "ping"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 13A6 6 0 0 1 18 13",
+      "closed": false
+    },
+    {
+      "d": "M6 13V17",
+      "closed": false
+    },
+    {
+      "d": "M18 13V17",
+      "closed": false
+    },
+    {
+      "d": "M4 17H20",
+      "closed": false
+    },
+    {
+      "d": "M11 20a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

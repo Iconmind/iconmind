@@ -1,0 +1,35 @@
+{
+  "slug": "join",
+  "category": "data",
+  "subcategory": "transform",
+  "name": "Join tables",
+  "description": "Matched where the keys agree",
+  "tags": [
+    "merge",
+    "match",
+    "keys"
+  ],
+  "aliases": [
+    "join-data"
+  ],
+  "keywords": [
+    "sql join",
+    "on key",
+    "matched rows"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    }
+  ]
+}

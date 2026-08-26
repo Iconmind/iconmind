@@ -1,0 +1,45 @@
+{
+  "slug": "ab-test",
+  "category": "analytics",
+  "subcategory": "experiment",
+  "name": "A/B test",
+  "description": "Two versions, and which one wins",
+  "tags": [
+    "split",
+    "variant",
+    "compare"
+  ],
+  "aliases": [
+    "split-test"
+  ],
+  "keywords": [
+    "variant",
+    "experiment",
+    "control",
+    "cohort",
+    "split"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M12 3V10",
+      "closed": false
+    },
+    {
+      "d": "M12 10L6 16",
+      "closed": false
+    },
+    {
+      "d": "M12 10L18 16",
+      "closed": false
+    },
+    {
+      "d": "M4 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

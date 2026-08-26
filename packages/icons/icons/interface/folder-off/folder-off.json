@@ -1,0 +1,33 @@
+{
+  "slug": "folder-off",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Folder off",
+  "description": "This folder is not available",
+  "tags": [
+    "missing",
+    "disabled",
+    "excluded"
+  ],
+  "keywords": [
+    "missing",
+    "ignored",
+    "excluded",
+    "unavailable"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M10 11L14 15",
+      "closed": false
+    },
+    {
+      "d": "M14 11L10 15",
+      "closed": false
+    }
+  ]
+}

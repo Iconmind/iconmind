@@ -1,0 +1,41 @@
+---
+title: Vue
+description: Planned for phase 2, and why it is not here yet.
+---
+
+Not published yet.
+
+The component generator already emits Vue from the same intermediate representation as
+React, so the two can never disagree about what they draw. What is missing is the package
+itself and the parity test that keeps the promise honest.
+
+## Why it waits
+
+The plan puts Vue in phase 2 on purpose. A second framework package is surface area, and
+the thing worth proving first is that one package is genuinely good — tree-shaken,
+server-renderable, and actually used by somebody.
+
+Shipping Vue early would mean maintaining an unpublished package for months while the
+API is still moving.
+
+## What it will look like
+
+Identical to React: same component names, same props, same defaults. Everything that
+differs will differ for a Vue reason — `h()` instead of `createElement`, `inheritAttrs`
+for attribute order — never for taste.
+
+```vue
+<script setup lang="ts">
+import { Agent, Prompt } from "@iconmind/vue";
+</script>
+
+<template>
+  <Agent />
+  <Prompt :size="32" />
+</template>
+```
+
+A Nuxt module will register the components for auto-import, with a configurable prefix —
+projects that already have a `Search` or `Settings` component will need it.
+
+In the meantime the raw SVG works fine in Vue. See [Plain SVG](/docs/svg/).

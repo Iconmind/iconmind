@@ -1,0 +1,45 @@
+{
+  "slug": "chart-bar",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Bar chart",
+  "description": "Compare quantities side by side",
+  "tags": [
+    "bars",
+    "compare",
+    "graph"
+  ],
+  "aliases": [
+    "bars",
+    "chart"
+  ],
+  "keywords": [
+    "histogram",
+    "graph",
+    "compare",
+    "column chart"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M8 12V20",
+      "closed": false
+    },
+    {
+      "d": "M13 8V20",
+      "closed": false
+    },
+    {
+      "d": "M18 14V20",
+      "closed": false
+    }
+  ]
+}

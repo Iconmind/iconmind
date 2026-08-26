@@ -1,0 +1,45 @@
+{
+  "slug": "ingestion",
+  "category": "rag",
+  "subcategory": "ingestion",
+  "name": "Ingestion",
+  "description": "Getting the material in",
+  "tags": [
+    "load",
+    "intake",
+    "feed"
+  ],
+  "aliases": [
+    "intake"
+  ],
+  "keywords": [
+    "load",
+    "crawl",
+    "import",
+    "feed",
+    "index build"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 18.5A2.5 2.5 0 0 1 6.5 16H17.5A2.5 2.5 0 0 1 20 18.5V18.5A2.5 2.5 0 0 1 17.5 21H6.5A2.5 2.5 0 0 1 4 18.5Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V10",
+      "closed": false
+    },
+    {
+      "d": "M6 8L8 10L10 8",
+      "closed": false
+    },
+    {
+      "d": "M16 3V10",
+      "closed": false
+    },
+    {
+      "d": "M14 8L16 10L18 8",
+      "closed": false
+    }
+  ]
+}

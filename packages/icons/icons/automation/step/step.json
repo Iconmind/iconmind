@@ -1,0 +1,36 @@
+{
+  "slug": "step",
+  "category": "automation",
+  "subcategory": "workflow",
+  "name": "Step",
+  "description": "One thing at a time",
+  "tags": [
+    "single",
+    "increment",
+    "one"
+  ],
+  "keywords": [
+    "one step",
+    "single action",
+    "increment"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 18H10",
+      "closed": false
+    },
+    {
+      "d": "M10 11V18",
+      "closed": false
+    },
+    {
+      "d": "M10 11H17",
+      "closed": false
+    },
+    {
+      "d": "M17 4V11",
+      "closed": false
+    }
+  ]
+}

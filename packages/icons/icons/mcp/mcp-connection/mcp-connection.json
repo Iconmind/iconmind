@@ -1,0 +1,38 @@
+{
+  "slug": "mcp-connection",
+  "category": "mcp",
+  "subcategory": "transport",
+  "name": "MCP connection",
+  "description": "A live link between a client and a server",
+  "tags": [
+    "link",
+    "session",
+    "transport"
+  ],
+  "keywords": [
+    "stdio",
+    "sse",
+    "session",
+    "handshake",
+    "transport"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M3 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8.5 12H11",
+      "closed": false
+    },
+    {
+      "d": "M13 12H15.5",
+      "closed": false
+    },
+    {
+      "d": "M17 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

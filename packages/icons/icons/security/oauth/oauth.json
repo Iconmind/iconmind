@@ -1,0 +1,38 @@
+{
+  "slug": "oauth",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "OAuth",
+  "description": "Somebody else's key, lent to you",
+  "tags": [
+    "delegate",
+    "grant",
+    "token"
+  ],
+  "keywords": [
+    "authorisation",
+    "delegated access",
+    "access token",
+    "grant",
+    "scope"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M8 11A2 2 0 0 1 10 9H20A2 2 0 0 1 22 11V18A2 2 0 0 1 20 20H10A2 2 0 0 1 8 18Z",
+      "closed": true
+    },
+    {
+      "d": "M11 9A4 4 0 0 1 19 9",
+      "closed": false
+    },
+    {
+      "d": "M2 14a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 14H10",
+      "closed": false
+    }
+  ]
+}

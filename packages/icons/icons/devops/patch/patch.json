@@ -1,0 +1,30 @@
+{
+  "slug": "patch",
+  "category": "devops",
+  "subcategory": "release",
+  "name": "Patch",
+  "description": "A small piece let into a big one",
+  "tags": [
+    "fix",
+    "hotfix",
+    "overlay"
+  ],
+  "keywords": [
+    "fix",
+    "small release",
+    "overlay",
+    "diff applied",
+    "bugfix"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H14A2 2 0 0 1 16 5V15A2 2 0 0 1 14 17H4A2 2 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M11 13A2 2 0 0 1 13 11H20A2 2 0 0 1 22 13V19A2 2 0 0 1 20 21H13A2 2 0 0 1 11 19Z",
+      "closed": true
+    }
+  ]
+}

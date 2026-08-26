@@ -1,0 +1,29 @@
+{
+  "slug": "skip-forward",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Skip forward",
+  "description": "On to the next one",
+  "tags": [
+    "next",
+    "forward",
+    "advance"
+  ],
+  "keywords": [
+    "next track",
+    "advance",
+    "fast forward",
+    "seek"
+  ],
+  "family": "chevron",
+  "shapes": [
+    {
+      "d": "M6 5L13 12L6 19",
+      "closed": false
+    },
+    {
+      "d": "M17 5V19",
+      "closed": false
+    }
+  ]
+}

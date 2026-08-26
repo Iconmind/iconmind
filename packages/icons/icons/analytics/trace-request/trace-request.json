@@ -1,0 +1,40 @@
+{
+  "slug": "trace-request",
+  "category": "analytics",
+  "subcategory": "llm-observability",
+  "name": "Request trace",
+  "description": "One call, followed all the way",
+  "tags": [
+    "follow",
+    "path",
+    "journey"
+  ],
+  "keywords": [
+    "follow the call",
+    "distributed trace",
+    "one request"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 7L12 13",
+      "closed": false
+    },
+    {
+      "d": "M12 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 15L20 15",
+      "closed": false
+    },
+    {
+      "d": "M19 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

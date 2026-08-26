@@ -1,0 +1,28 @@
+{
+  "slug": "action",
+  "category": "automation",
+  "subcategory": "action",
+  "name": "Action",
+  "description": "The step that actually does something",
+  "tags": [
+    "run",
+    "execute",
+    "play"
+  ],
+  "aliases": [
+    "run"
+  ],
+  "keywords": [
+    "execute",
+    "play",
+    "invoke",
+    "step"
+  ],
+  "family": "chevron",
+  "shapes": [
+    {
+      "d": "M9 5L16 12L9 19Z",
+      "closed": true
+    }
+  ]
+}

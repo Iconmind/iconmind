@@ -1,0 +1,34 @@
+{
+  "slug": "edge-node",
+  "category": "cloud",
+  "subcategory": "edge",
+  "name": "Edge node",
+  "description": "A machine out where the users are",
+  "tags": [
+    "near",
+    "pop",
+    "local"
+  ],
+  "keywords": [
+    "point of presence",
+    "near users",
+    "regional",
+    "close",
+    "pop"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H9A2 2 0 0 1 11 6V18A2 2 0 0 1 9 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12H16",
+      "closed": false
+    },
+    {
+      "d": "M17 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

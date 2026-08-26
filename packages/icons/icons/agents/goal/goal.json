@@ -1,0 +1,35 @@
+{
+  "slug": "goal",
+  "category": "agents",
+  "subcategory": "planning",
+  "name": "Goal",
+  "description": "What the agent is working toward",
+  "tags": [
+    "target",
+    "objective",
+    "aim"
+  ],
+  "aliases": [
+    "target"
+  ],
+  "keywords": [
+    "objective",
+    "aim",
+    "bullseye"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M14.32 7.02A5.5 5.5 0 1 1 9.68 7.02",
+      "closed": true
+    },
+    {
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

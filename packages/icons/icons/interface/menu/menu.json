@@ -1,0 +1,37 @@
+{
+  "slug": "menu",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Menu",
+  "description": "Everything else is in here",
+  "tags": [
+    "hamburger",
+    "nav",
+    "more"
+  ],
+  "aliases": [
+    "hamburger"
+  ],
+  "keywords": [
+    "nav",
+    "navigation",
+    "drawer",
+    "sidebar",
+    "more"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M4 6H20",
+      "closed": false
+    },
+    {
+      "d": "M4 12H20",
+      "closed": false
+    },
+    {
+      "d": "M4 18H20",
+      "closed": false
+    }
+  ]
+}

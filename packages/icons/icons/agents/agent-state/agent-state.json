@@ -1,0 +1,34 @@
+{
+  "slug": "agent-state",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Agent state",
+  "description": "What it is doing right now",
+  "tags": [
+    "status",
+    "mode",
+    "phase"
+  ],
+  "keywords": [
+    "status",
+    "phase",
+    "mode",
+    "lifecycle",
+    "current"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M7 12H12",
+      "closed": false
+    },
+    {
+      "d": "M13.5 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

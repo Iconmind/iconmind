@@ -1,0 +1,38 @@
+{
+  "slug": "hotfix",
+  "category": "devops",
+  "subcategory": "release",
+  "name": "Hotfix",
+  "description": "A repair that could not wait",
+  "tags": [
+    "patch",
+    "urgent",
+    "quick"
+  ],
+  "keywords": [
+    "patch",
+    "urgent",
+    "emergency",
+    "cherry-pick",
+    "band-aid"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H13A2 2 0 0 1 15 6V15A2 2 0 0 1 13 17H4A2 2 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M10 13A2 2 0 0 1 12 11H19A2 2 0 0 1 21 13V18A2 2 0 0 1 19 20H12A2 2 0 0 1 10 18Z",
+      "closed": true
+    },
+    {
+      "d": "M19 2V5.5",
+      "closed": false
+    },
+    {
+      "d": "M18 8.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

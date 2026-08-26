@@ -1,0 +1,30 @@
+{
+  "slug": "trend-up",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Trend up",
+  "description": "It is getting bigger",
+  "tags": [
+    "rising",
+    "growth",
+    "gain"
+  ],
+  "keywords": [
+    "rising",
+    "growth",
+    "up and to the right",
+    "gain",
+    "improving"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 17L9 11L13 15L21 7",
+      "closed": false
+    },
+    {
+      "d": "M17 7L21 7L21 11",
+      "closed": false
+    }
+  ]
+}

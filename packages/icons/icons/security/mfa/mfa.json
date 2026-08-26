@@ -1,0 +1,39 @@
+{
+  "slug": "mfa",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Multi-factor",
+  "description": "Two proofs, not one",
+  "tags": [
+    "2fa",
+    "second",
+    "device"
+  ],
+  "keywords": [
+    "2fa",
+    "two-factor",
+    "otp",
+    "authenticator",
+    "second factor",
+    "totp"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M2 10A2 2 0 0 1 4 8H10A2 2 0 0 1 12 10V17A2 2 0 0 1 10 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M4 8A3 3 0 0 1 10 8",
+      "closed": false
+    },
+    {
+      "d": "M15 6A2 2 0 0 1 17 4H20A2 2 0 0 1 22 6V19A2 2 0 0 1 20 21H17A2 2 0 0 1 15 19Z",
+      "closed": true
+    },
+    {
+      "d": "M17 18H20",
+      "closed": false
+    }
+  ]
+}

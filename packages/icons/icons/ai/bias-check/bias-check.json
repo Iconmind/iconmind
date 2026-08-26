@@ -1,0 +1,36 @@
+{
+  "slug": "bias-check",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Bias check",
+  "description": "Does it treat like cases alike?",
+  "tags": [
+    "fairness",
+    "audit",
+    "even"
+  ],
+  "aliases": [
+    "fairness"
+  ],
+  "keywords": [
+    "fairness",
+    "disparate impact",
+    "audit",
+    "equal treatment"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 8H14",
+      "closed": false
+    },
+    {
+      "d": "M4 13H14",
+      "closed": false
+    },
+    {
+      "d": "M14 16L17 19L22 14",
+      "closed": false
+    }
+  ]
+}

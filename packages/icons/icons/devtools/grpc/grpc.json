@@ -1,0 +1,42 @@
+{
+  "slug": "grpc",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "gRPC",
+  "description": "Two services calling each other in binary",
+  "tags": [
+    "rpc",
+    "protobuf",
+    "duplex"
+  ],
+  "keywords": [
+    "protobuf",
+    "rpc",
+    "streaming",
+    "duplex",
+    "service mesh"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M14 6A2 2 0 0 1 16 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H16A2 2 0 0 1 14 18Z",
+      "closed": true
+    },
+    {
+      "d": "M2 9H14",
+      "closed": false
+    },
+    {
+      "d": "M11 6L14 9L11 12",
+      "closed": false
+    },
+    {
+      "d": "M2 15H14",
+      "closed": false
+    },
+    {
+      "d": "M5 12L2 15L5 18",
+      "closed": false
+    }
+  ]
+}

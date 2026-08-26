@@ -1,0 +1,41 @@
+{
+  "slug": "retention",
+  "category": "analytics",
+  "subcategory": "segment",
+  "name": "Retention",
+  "description": "Who is still here later",
+  "tags": [
+    "stayed",
+    "kept",
+    "cohort"
+  ],
+  "keywords": [
+    "still here",
+    "cohort retention",
+    "kept users",
+    "churn inverse"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M9 8V20",
+      "closed": false
+    },
+    {
+      "d": "M14 11V20",
+      "closed": false
+    },
+    {
+      "d": "M19 13V20",
+      "closed": false
+    },
+    {
+      "d": "M2 20H22",
+      "closed": false
+    }
+  ]
+}

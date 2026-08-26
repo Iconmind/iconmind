@@ -1,0 +1,34 @@
+{
+  "slug": "mcp-resource",
+  "category": "mcp",
+  "subcategory": "resource",
+  "name": "MCP resource",
+  "description": "Data a server offers a model",
+  "tags": [
+    "data",
+    "file",
+    "provided"
+  ],
+  "keywords": [
+    "uri",
+    "context",
+    "attachment",
+    "provided data",
+    "read-only"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L9 3L6 6L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    },
+    {
+      "d": "M9 16H15",
+      "closed": false
+    }
+  ]
+}

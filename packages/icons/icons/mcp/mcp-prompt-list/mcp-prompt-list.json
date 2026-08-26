@@ -1,0 +1,29 @@
+{
+  "slug": "mcp-prompt-list",
+  "category": "mcp",
+  "subcategory": "prompt",
+  "name": "MCP prompt list",
+  "description": "Every template this server provides",
+  "tags": [
+    "catalogue",
+    "available",
+    "index"
+  ],
+  "keywords": [
+    "available prompts",
+    "slash commands",
+    "catalog",
+    "menu"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M16 4L11 4L7 8L7 14L17 14L17 5",
+      "closed": true
+    },
+    {
+      "d": "M19 10L14 10L10 14L10 20L20 20L20 11",
+      "closed": true
+    }
+  ]
+}

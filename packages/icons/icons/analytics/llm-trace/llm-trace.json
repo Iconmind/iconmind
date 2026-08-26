@@ -1,0 +1,45 @@
+{
+  "slug": "llm-trace",
+  "category": "analytics",
+  "subcategory": "llm-observability",
+  "name": "LLM trace",
+  "description": "Every step the call took, laid out",
+  "tags": [
+    "spans",
+    "waterfall",
+    "inspect"
+  ],
+  "aliases": [
+    "llm-observability"
+  ],
+  "keywords": [
+    "trace view",
+    "spans",
+    "latency breakdown",
+    "langsmith",
+    "inspect"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 3V21",
+      "closed": false
+    },
+    {
+      "d": "M7 7H21",
+      "closed": false
+    },
+    {
+      "d": "M7 12H16",
+      "closed": false
+    },
+    {
+      "d": "M7 17H19",
+      "closed": false
+    },
+    {
+      "d": "M18 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

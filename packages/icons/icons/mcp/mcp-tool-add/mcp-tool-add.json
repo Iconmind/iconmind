@@ -1,0 +1,45 @@
+{
+  "slug": "mcp-tool-add",
+  "category": "mcp",
+  "subcategory": "tool",
+  "name": "MCP tool add",
+  "description": "Offer another capability",
+  "tags": [
+    "new",
+    "expose",
+    "register"
+  ],
+  "keywords": [
+    "register tool",
+    "expose",
+    "publish",
+    "new capability"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M12 10H15A3 3 0 0 1 18 13V16A3 3 0 0 1 15 19H9A3 3 0 0 1 6 16V13L9 10Z",
+      "closed": true
+    },
+    {
+      "d": "M9 5V10",
+      "closed": false
+    },
+    {
+      "d": "M12 5V10",
+      "closed": false
+    },
+    {
+      "d": "M15 5V10",
+      "closed": false
+    },
+    {
+      "d": "M12 11.5V17.5",
+      "closed": false
+    },
+    {
+      "d": "M9 14.5H15",
+      "closed": false
+    }
+  ]
+}

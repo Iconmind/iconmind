@@ -1,0 +1,30 @@
+{
+  "slug": "crop",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Crop",
+  "description": "Keep this part",
+  "tags": [
+    "trim",
+    "frame",
+    "cut"
+  ],
+  "keywords": [
+    "trim",
+    "frame",
+    "aspect ratio",
+    "cut",
+    "resize"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M6 2L6 18L22 18",
+      "closed": false
+    },
+    {
+      "d": "M2 6L18 6L18 22",
+      "closed": false
+    }
+  ]
+}

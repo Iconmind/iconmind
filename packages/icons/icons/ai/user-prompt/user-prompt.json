@@ -1,0 +1,37 @@
+{
+  "slug": "user-prompt",
+  "category": "ai",
+  "subcategory": "prompt",
+  "name": "User prompt",
+  "description": "What the person actually asked",
+  "tags": [
+    "question",
+    "input",
+    "human"
+  ],
+  "keywords": [
+    "user message",
+    "question",
+    "human turn",
+    "asked"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 19A5 5 0 0 1 12 19",
+      "closed": false
+    },
+    {
+      "d": "M13.5 11A3 3 0 0 1 16.5 8H19A3 3 0 0 1 22 11V11A3 3 0 0 1 19 14H16.5A3 3 0 0 1 13.5 11Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 17H22",
+      "closed": false
+    }
+  ]
+}

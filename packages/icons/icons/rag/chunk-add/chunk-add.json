@@ -1,0 +1,41 @@
+{
+  "slug": "chunk-add",
+  "category": "rag",
+  "subcategory": "chunking",
+  "name": "Add chunk",
+  "description": "One more piece into the index",
+  "tags": [
+    "insert",
+    "new",
+    "piece"
+  ],
+  "keywords": [
+    "insert chunk",
+    "upsert",
+    "new passage",
+    "index one"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H11A2 2 0 0 1 13 6V18A2 2 0 0 1 11 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M4 9H11",
+      "closed": false
+    },
+    {
+      "d": "M4 14H11",
+      "closed": false
+    },
+    {
+      "d": "M18 8V16",
+      "closed": false
+    },
+    {
+      "d": "M14 12H22",
+      "closed": false
+    }
+  ]
+}

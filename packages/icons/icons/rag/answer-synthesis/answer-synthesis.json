@@ -1,0 +1,45 @@
+{
+  "slug": "answer-synthesis",
+  "category": "rag",
+  "subcategory": "grounding",
+  "name": "Answer synthesis",
+  "description": "Several sources, one answer",
+  "tags": [
+    "combine",
+    "compose",
+    "write"
+  ],
+  "keywords": [
+    "compose",
+    "summarise",
+    "generate answer",
+    "merge sources"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M3 6H9",
+      "closed": false
+    },
+    {
+      "d": "M3 12H9",
+      "closed": false
+    },
+    {
+      "d": "M3 18H9",
+      "closed": false
+    },
+    {
+      "d": "M9 8L13 12",
+      "closed": false
+    },
+    {
+      "d": "M9 16L13 12",
+      "closed": false
+    },
+    {
+      "d": "M13 12H21",
+      "closed": false
+    }
+  ]
+}

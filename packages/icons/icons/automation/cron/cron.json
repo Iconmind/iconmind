@@ -1,0 +1,41 @@
+{
+  "slug": "cron",
+  "category": "automation",
+  "subcategory": "schedule",
+  "name": "Cron",
+  "description": "At the same time, every time",
+  "tags": [
+    "schedule",
+    "recurring",
+    "clock"
+  ],
+  "aliases": [
+    "recurring"
+  ],
+  "keywords": [
+    "crontab",
+    "scheduled job",
+    "every hour",
+    "recurring"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M3 12A9 9 0 1 0 12 3",
+      "closed": false,
+      "_why": "three quarters of a circle, opening at the top"
+    },
+    {
+      "d": "M9 6L12 3L12 6",
+      "closed": false
+    },
+    {
+      "d": "M12 9V12",
+      "closed": false
+    },
+    {
+      "d": "M12 12H16",
+      "closed": false
+    }
+  ]
+}

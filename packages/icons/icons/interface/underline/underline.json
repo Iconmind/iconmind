@@ -1,0 +1,29 @@
+{
+  "slug": "underline",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Underline",
+  "description": "A line under the words",
+  "tags": [
+    "format",
+    "text",
+    "style"
+  ],
+  "keywords": [
+    "format",
+    "text style",
+    "underscore",
+    "emphasis"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 7A2 2 0 0 1 7 5H17A2 2 0 0 1 19 7V11A2 2 0 0 1 17 13H7A2 2 0 0 1 5 11Z",
+      "closed": true
+    },
+    {
+      "d": "M3 17H21",
+      "closed": false
+    }
+  ]
+}

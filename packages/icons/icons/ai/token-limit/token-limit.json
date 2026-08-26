@@ -1,0 +1,30 @@
+{
+  "slug": "token-limit",
+  "category": "ai",
+  "subcategory": "token",
+  "name": "Token limit",
+  "description": "The ceiling you are not allowed past",
+  "tags": [
+    "ceiling",
+    "max",
+    "cap"
+  ],
+  "keywords": [
+    "max tokens",
+    "cap",
+    "quota",
+    "hard limit",
+    "truncate"
+  ],
+  "family": "capsule",
+  "shapes": [
+    {
+      "d": "M3 12A3 3 0 0 1 6 9H13A3 3 0 0 1 16 12V12A3 3 0 0 1 13 15H6A3 3 0 0 1 3 12Z",
+      "closed": true
+    },
+    {
+      "d": "M19 5V19",
+      "closed": false
+    }
+  ]
+}

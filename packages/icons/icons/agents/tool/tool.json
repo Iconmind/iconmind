@@ -1,0 +1,38 @@
+{
+  "slug": "tool",
+  "category": "agents",
+  "subcategory": "tool-use",
+  "name": "Tool",
+  "description": "Something the agent can pick up",
+  "tags": [
+    "capability",
+    "use",
+    "spanner"
+  ],
+  "keywords": [
+    "capability",
+    "function",
+    "spanner",
+    "use a tool",
+    "equipment"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 13A2 2 0 0 1 8 11H16A2 2 0 0 1 18 13V18A2 2 0 0 1 16 20H8A2 2 0 0 1 6 18Z",
+      "closed": true
+    },
+    {
+      "d": "M9 4V11",
+      "closed": false
+    },
+    {
+      "d": "M12 4V11",
+      "closed": false
+    },
+    {
+      "d": "M15 4V11",
+      "closed": false
+    }
+  ]
+}

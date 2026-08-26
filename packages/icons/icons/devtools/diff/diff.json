@@ -1,0 +1,41 @@
+{
+  "slug": "diff",
+  "category": "devtools",
+  "subcategory": "version-control",
+  "name": "Diff",
+  "description": "What changed",
+  "tags": [
+    "change",
+    "compare",
+    "patch"
+  ],
+  "aliases": [
+    "compare"
+  ],
+  "keywords": [
+    "patch",
+    "changes",
+    "added removed",
+    "review",
+    "delta"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M12 3V21",
+      "closed": false
+    },
+    {
+      "d": "M7 6V12",
+      "closed": false
+    },
+    {
+      "d": "M4 9H10",
+      "closed": false
+    },
+    {
+      "d": "M14 15H20",
+      "closed": false
+    }
+  ]
+}

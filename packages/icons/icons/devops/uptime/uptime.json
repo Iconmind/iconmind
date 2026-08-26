@@ -1,0 +1,38 @@
+{
+  "slug": "uptime",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Uptime",
+  "description": "How long it has stayed up",
+  "tags": [
+    "available",
+    "steady",
+    "alive"
+  ],
+  "keywords": [
+    "availability",
+    "nines",
+    "steady",
+    "no downtime",
+    "alive"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M2 11H22",
+      "closed": false
+    },
+    {
+      "d": "M2 17H11",
+      "closed": false
+    },
+    {
+      "d": "M15 17H22",
+      "closed": false
+    },
+    {
+      "d": "M16 6L18 8L22 4",
+      "closed": false
+    }
+  ]
+}

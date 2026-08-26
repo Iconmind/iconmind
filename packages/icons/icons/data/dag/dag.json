@@ -1,0 +1,45 @@
+{
+  "slug": "dag",
+  "category": "data",
+  "subcategory": "orchestration",
+  "name": "DAG",
+  "description": "Tasks with dependencies, and no way back",
+  "tags": [
+    "graph",
+    "dependencies",
+    "acyclic"
+  ],
+  "keywords": [
+    "airflow",
+    "dependency graph",
+    "topology",
+    "acyclic"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M4 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 8L12 12",
+      "closed": false
+    },
+    {
+      "d": "M8 16L12 12",
+      "closed": false
+    },
+    {
+      "d": "M12 12H15.5",
+      "closed": false
+    },
+    {
+      "d": "M16 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

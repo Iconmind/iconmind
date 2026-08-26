@@ -1,0 +1,33 @@
+{
+  "slug": "integration",
+  "category": "automation",
+  "subcategory": "integration",
+  "name": "Integration",
+  "description": "Two systems that know about each other",
+  "tags": [
+    "connect",
+    "overlap",
+    "join"
+  ],
+  "aliases": [
+    "connector"
+  ],
+  "keywords": [
+    "plugin",
+    "sync",
+    "third party",
+    "venn",
+    "connect"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M3.5 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
+      "closed": true
+    }
+  ]
+}

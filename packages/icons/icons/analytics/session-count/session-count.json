@@ -1,0 +1,36 @@
+{
+  "slug": "session-count",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Session count",
+  "description": "How many are in right now",
+  "tags": [
+    "concurrent",
+    "active",
+    "online"
+  ],
+  "keywords": [
+    "active sessions",
+    "concurrent users",
+    "online now"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 19A5 5 0 0 1 12 19",
+      "closed": false
+    },
+    {
+      "d": "M14 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 19A5 5 0 0 1 22 19",
+      "closed": false
+    }
+  ]
+}

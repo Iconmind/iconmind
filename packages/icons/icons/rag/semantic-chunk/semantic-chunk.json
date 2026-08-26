@@ -1,0 +1,45 @@
+{
+  "slug": "semantic-chunk",
+  "category": "rag",
+  "subcategory": "chunking",
+  "name": "Semantic chunk",
+  "description": "Cut where the meaning changes, not where the page ends",
+  "tags": [
+    "boundary",
+    "meaning",
+    "split"
+  ],
+  "keywords": [
+    "semantic split",
+    "boundary",
+    "topic shift",
+    "coherent passage"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 6H21",
+      "closed": false
+    },
+    {
+      "d": "M3 9H17",
+      "closed": false
+    },
+    {
+      "d": "M3 12H9",
+      "closed": false
+    },
+    {
+      "d": "M15 12H21",
+      "closed": false
+    },
+    {
+      "d": "M3 15H21",
+      "closed": false
+    },
+    {
+      "d": "M3 18H15",
+      "closed": false
+    }
+  ]
+}

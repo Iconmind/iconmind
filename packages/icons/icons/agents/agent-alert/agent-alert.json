@@ -1,0 +1,33 @@
+{
+  "slug": "agent-alert",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Agent alert",
+  "description": "Something is wrong with this agent",
+  "tags": [
+    "warning",
+    "problem",
+    "attention"
+  ],
+  "keywords": [
+    "error",
+    "failing",
+    "attention",
+    "degraded"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M12 8V13",
+      "closed": false
+    },
+    {
+      "d": "M11 16a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

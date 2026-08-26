@@ -1,0 +1,33 @@
+{
+  "slug": "canary",
+  "category": "devops",
+  "subcategory": "release",
+  "name": "Canary",
+  "description": "One instance on the new version",
+  "tags": [
+    "gradual",
+    "sample",
+    "test"
+  ],
+  "keywords": [
+    "canary release",
+    "gradual rollout",
+    "percentage",
+    "sample"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M3 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M19 9L22 12L19 15L16 12Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "evaluate-step",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Evaluate step",
+  "description": "Check whether that step worked",
+  "tags": [
+    "verify",
+    "assess",
+    "judge"
+  ],
+  "aliases": [
+    "verify-step"
+  ],
+  "keywords": [
+    "verify",
+    "assert",
+    "judge",
+    "gate",
+    "validate"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M2.5 12a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12H16",
+      "closed": false
+    },
+    {
+      "d": "M16 12L18 14L22 10",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "user-off",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "User off",
+  "description": "This account is disabled",
+  "tags": [
+    "disabled",
+    "banned",
+    "removed"
+  ],
+  "keywords": [
+    "deactivate",
+    "banned",
+    "suspended",
+    "remove member"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A6 6 0 0 1 15 21",
+      "closed": false
+    },
+    {
+      "d": "M15 9L21 15",
+      "closed": false
+    },
+    {
+      "d": "M21 9L15 15",
+      "closed": false
+    }
+  ]
+}

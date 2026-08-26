@@ -1,0 +1,53 @@
+{
+  "slug": "agent-hierarchy",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Agent hierarchy",
+  "description": "Who reports to whom",
+  "tags": [
+    "tree",
+    "levels",
+    "org"
+  ],
+  "accepted": {
+    "lint/element-budget": "a hierarchy needs three nodes and the lines between them; with fewer it is a pair"
+  },
+  "keywords": [
+    "org chart",
+    "tree",
+    "levels",
+    "reporting",
+    "supervisor tree"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M13.27 2.28A3 3 0 1 1 10.73 2.28",
+      "closed": false
+    },
+    {
+      "d": "M12 8V12",
+      "closed": false
+    },
+    {
+      "d": "M6 12H18",
+      "closed": false
+    },
+    {
+      "d": "M7.27 15.28A3 3 0 1 1 4.73 15.28",
+      "closed": false
+    },
+    {
+      "d": "M19.27 15.28A3 3 0 1 1 16.73 15.28",
+      "closed": false
+    },
+    {
+      "d": "M6 12V15",
+      "closed": false
+    },
+    {
+      "d": "M18 12V15",
+      "closed": false
+    }
+  ]
+}

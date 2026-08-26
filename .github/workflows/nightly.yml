@@ -1,0 +1,78 @@
+name: Nightly
+
+# Expensive audits live here so pull-request feedback stays fast.
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+    inputs:
+      linux_baselines:
+        description: "Generate Linux drift baselines and upload them for committing"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4      # version comes from packageManager
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      - run: pnpm icons:validate
+
+      # Rasterises every cell to check that a heavier weight really draws more. Too slow
+      # for a pre-commit gate, and the only thing that can catch a swapped weight.
+      - name: Matrix ink ordering
+        run: pnpm icons:validate --ink
+
+      - run: pnpm typecheck
+
+      # doc 10 §10.6. The budgets are stated in gzip and React is a peer dependency, so
+      # both are configured in .size-limit.json — measured with defaults the numbers are
+      # brotli and include a bundled React, which makes every budget look blown.
+      - name: Bundle size budget
+        if: hashFiles('.size-limit.json') != ''
+        run: pnpm size
+
+      - name: Perceptual duplicate scan
+        if: hashFiles('scripts/validate/duplicates.ts') != ''
+        run: pnpm icons:duplicates --perceptual
+
+      # Drift snapshots are per platform, and the committed set is macOS. Rendering is
+      # deterministic — the whole icon set re-rendered byte-identically in one browser —
+      # so a Linux set generated here is stable enough to commit and let CI run drift too.
+      # Kept behind a dispatch input because a job that rewrites baselines on a schedule
+      # would launder real regressions into new expectations.
+      - name: Generate Linux drift baselines
+        if: inputs.linux_baselines
+        run: |
+          pnpm exec playwright install --with-deps chromium
+          pnpm test:visual --update-snapshots
+      - name: Upload them
+        if: inputs.linux_baselines
+        uses: actions/upload-artifact@v4
+        with:
+          name: drift-baselines-linux
+          path: tests/visual/**-snapshots/*-chromium-linux.png
+
+      - name: Open an issue when the audit fails
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.create({
+              ...context.repo,
+              title: `Nightly audit failed — ${new Date().toISOString().slice(0, 10)}`,
+              body: `Run: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`,
+              labels: ["maintenance"],
+            });

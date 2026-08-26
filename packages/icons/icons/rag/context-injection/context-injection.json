@@ -1,0 +1,34 @@
+{
+  "slug": "context-injection",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Context injection",
+  "description": "Putting something into the prompt",
+  "tags": [
+    "insert",
+    "prepend",
+    "add"
+  ],
+  "keywords": [
+    "inject",
+    "prepend",
+    "system prompt",
+    "insert",
+    "augment"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M9 5A2 2 0 0 1 11 3H19A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H11A2 2 0 0 1 9 19Z",
+      "closed": true
+    },
+    {
+      "d": "M2 12H9",
+      "closed": false
+    },
+    {
+      "d": "M6 9L9 12L6 15",
+      "closed": false
+    }
+  ]
+}

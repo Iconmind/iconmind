@@ -1,0 +1,34 @@
+{
+  "slug": "quarantine",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Quarantine",
+  "description": "Held where it can do no harm",
+  "tags": [
+    "isolate",
+    "held",
+    "flagged"
+  ],
+  "keywords": [
+    "isolated",
+    "held",
+    "malware quarantine",
+    "flagged",
+    "detained"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H20A2 2 0 0 1 22 4V20A2 2 0 0 1 20 22H4A2 2 0 0 1 2 20Z",
+      "closed": true
+    },
+    {
+      "d": "M9 9L15 15",
+      "closed": false
+    },
+    {
+      "d": "M15 9L9 15",
+      "closed": false
+    }
+  ]
+}

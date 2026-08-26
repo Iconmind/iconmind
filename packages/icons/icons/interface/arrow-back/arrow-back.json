@@ -1,0 +1,33 @@
+{
+  "slug": "arrow-back",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Arrow back",
+  "description": "The way you came",
+  "tags": [
+    "return",
+    "previous",
+    "left"
+  ],
+  "aliases": [
+    "previous"
+  ],
+  "keywords": [
+    "back",
+    "return",
+    "previous",
+    "navigate back",
+    "west"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M4 12H20",
+      "closed": false
+    },
+    {
+      "d": "M10 6L4 12L10 18",
+      "closed": false
+    }
+  ]
+}

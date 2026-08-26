@@ -1,0 +1,37 @@
+{
+  "slug": "info",
+  "category": "interface",
+  "subcategory": "state",
+  "name": "Info",
+  "description": "Something worth knowing",
+  "tags": [
+    "about",
+    "detail",
+    "note"
+  ],
+  "aliases": [
+    "about"
+  ],
+  "keywords": [
+    "details",
+    "help",
+    "note",
+    "tooltip",
+    "learn more"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M11 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 11V17",
+      "closed": false
+    }
+  ]
+}

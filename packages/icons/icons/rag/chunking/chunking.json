@@ -1,0 +1,32 @@
+{
+  "slug": "chunking",
+  "category": "rag",
+  "subcategory": "chunking",
+  "name": "Chunking",
+  "description": "The whole, made into pieces that fit",
+  "tags": [
+    "split",
+    "pieces",
+    "size"
+  ],
+  "keywords": [
+    "split into chunks",
+    "pieces",
+    "fit the window"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 7A3 3 0 0 1 5 4H19A3 3 0 0 1 22 7V7A3 3 0 0 1 19 10H5A3 3 0 0 1 2 7Z",
+      "closed": true
+    },
+    {
+      "d": "M2 17A3 3 0 0 1 5 14H8A3 3 0 0 1 11 17V17A3 3 0 0 1 8 20H5A3 3 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M13 17A3 3 0 0 1 16 14H19A3 3 0 0 1 22 17V17A3 3 0 0 1 19 20H16A3 3 0 0 1 13 17Z",
+      "closed": true
+    }
+  ]
+}

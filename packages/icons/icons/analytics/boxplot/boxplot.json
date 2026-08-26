@@ -1,0 +1,38 @@
+{
+  "slug": "boxplot",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Box plot",
+  "description": "The middle half, and how far the rest reaches",
+  "tags": [
+    "quartile",
+    "whisker",
+    "spread"
+  ],
+  "keywords": [
+    "quartiles",
+    "whiskers",
+    "median",
+    "iqr",
+    "distribution"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M12 3V7",
+      "closed": false
+    },
+    {
+      "d": "M5 9A2 2 0 0 1 7 7H17A2 2 0 0 1 19 9V15A2 2 0 0 1 17 17H7A2 2 0 0 1 5 15Z",
+      "closed": true
+    },
+    {
+      "d": "M5 12H19",
+      "closed": false
+    },
+    {
+      "d": "M12 17V21",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "more-horizontal",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "More",
+  "description": "There are other options",
+  "tags": [
+    "ellipsis",
+    "overflow",
+    "options"
+  ],
+  "aliases": [
+    "ellipsis"
+  ],
+  "keywords": [
+    "overflow",
+    "options",
+    "kebab",
+    "dots",
+    "actions"
+  ],
+  "family": "mark",
+  "shapes": [
+    {
+      "d": "M4 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

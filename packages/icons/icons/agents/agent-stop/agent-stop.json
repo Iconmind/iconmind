@@ -1,0 +1,30 @@
+{
+  "slug": "agent-stop",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Agent stop",
+  "description": "Stop the agent",
+  "tags": [
+    "halt",
+    "cancel",
+    "end"
+  ],
+  "keywords": [
+    "halt",
+    "terminate",
+    "kill",
+    "abort",
+    "end"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M8.5 10.5A2 2 0 0 1 10.5 8.5H13.5A2 2 0 0 1 15.5 10.5V13.5A2 2 0 0 1 13.5 15.5H10.5A2 2 0 0 1 8.5 13.5Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "freshness",
+  "category": "rag",
+  "subcategory": "knowledge",
+  "name": "Freshness",
+  "description": "How recently it was checked",
+  "tags": [
+    "recent",
+    "stale",
+    "age"
+  ],
+  "keywords": [
+    "stale",
+    "last updated",
+    "age",
+    "ttl",
+    "re-index"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M12 9V16",
+      "closed": false
+    },
+    {
+      "d": "M12 9L7 4",
+      "closed": false
+    },
+    {
+      "d": "M12 9L17 4",
+      "closed": false
+    },
+    {
+      "d": "M5 18.5A2.5 2.5 0 0 1 7.5 16H16.5A2.5 2.5 0 0 1 19 18.5V18.5A2.5 2.5 0 0 1 16.5 21H7.5A2.5 2.5 0 0 1 5 18.5Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "maximize",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Maximize",
+  "description": "Make it fill the space",
+  "tags": [
+    "expand",
+    "fullscreen",
+    "grow"
+  ],
+  "aliases": [
+    "fullscreen"
+  ],
+  "keywords": [
+    "expand",
+    "enlarge",
+    "full screen",
+    "grow"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M3 9L3 3L9 3",
+      "closed": false
+    },
+    {
+      "d": "M15 3L21 3L21 9",
+      "closed": false
+    },
+    {
+      "d": "M21 15L21 21L15 21",
+      "closed": false
+    },
+    {
+      "d": "M9 21L3 21L3 15",
+      "closed": false
+    }
+  ]
+}

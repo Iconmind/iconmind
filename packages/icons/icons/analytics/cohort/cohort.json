@@ -1,0 +1,42 @@
+{
+  "slug": "cohort",
+  "category": "analytics",
+  "subcategory": "segment",
+  "name": "Cohort",
+  "description": "A group that started together",
+  "tags": [
+    "group",
+    "batch",
+    "segment"
+  ],
+  "keywords": [
+    "segment",
+    "signup month",
+    "retention",
+    "group",
+    "bucket"
+  ],
+  "family": "grid",
+  "shapes": [
+    {
+      "d": "M3 6H21",
+      "closed": false
+    },
+    {
+      "d": "M4 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 18H21",
+      "closed": false
+    }
+  ]
+}

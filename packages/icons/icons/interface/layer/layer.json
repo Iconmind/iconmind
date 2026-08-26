@@ -1,0 +1,28 @@
+{
+  "slug": "layer",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Layer",
+  "description": "One sheet of the stack",
+  "tags": [
+    "sheet",
+    "level",
+    "stacked"
+  ],
+  "keywords": [
+    "one level",
+    "sheet",
+    "in the stack"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 12L12 4L20 12L12 20Z",
+      "closed": true
+    },
+    {
+      "d": "M8 22H16",
+      "closed": false
+    }
+  ]
+}

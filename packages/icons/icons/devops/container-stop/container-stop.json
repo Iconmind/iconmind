@@ -1,0 +1,34 @@
+{
+  "slug": "container-stop",
+  "category": "devops",
+  "subcategory": "container",
+  "name": "Container stopped",
+  "description": "It is not",
+  "tags": [
+    "stopped",
+    "halted",
+    "down"
+  ],
+  "keywords": [
+    "stopped",
+    "exited",
+    "down",
+    "halted",
+    "terminated"
+  ],
+  "family": "grid",
+  "shapes": [
+    {
+      "d": "M3 8A2 2 0 0 1 5 6H19A2 2 0 0 1 21 8V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M6 6V20",
+      "closed": false
+    },
+    {
+      "d": "M10.5 11.5A2 2 0 0 1 12.5 9.5H15.5A2 2 0 0 1 17.5 11.5V14.5A2 2 0 0 1 15.5 16.5H12.5A2 2 0 0 1 10.5 14.5Z",
+      "closed": true
+    }
+  ]
+}

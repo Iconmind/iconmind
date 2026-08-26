@@ -1,0 +1,34 @@
+{
+  "slug": "attachment-image",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Image attachment",
+  "description": "A picture sent with the message",
+  "tags": [
+    "photo",
+    "upload",
+    "file"
+  ],
+  "keywords": [
+    "photo",
+    "picture",
+    "png",
+    "upload image",
+    "vision input"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M8 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 16L11 12L17 18",
+      "closed": false
+    }
+  ]
+}

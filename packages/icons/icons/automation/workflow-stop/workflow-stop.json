@@ -1,0 +1,33 @@
+{
+  "slug": "workflow-stop",
+  "category": "automation",
+  "subcategory": "workflow",
+  "name": "Workflow stop",
+  "description": "Ended before its end",
+  "tags": [
+    "halted",
+    "cancelled",
+    "killed"
+  ],
+  "keywords": [
+    "stopped flow",
+    "cancelled",
+    "halted",
+    "killed"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H8A2 2 0 0 1 10 4V8A2 2 0 0 1 8 10H4A2 2 0 0 1 2 8Z",
+      "closed": true
+    },
+    {
+      "d": "M6 10L6 16L10 16",
+      "closed": false
+    },
+    {
+      "d": "M13 13A2 2 0 0 1 15 11H19A2 2 0 0 1 21 13V17A2 2 0 0 1 19 19H15A2 2 0 0 1 13 17Z",
+      "closed": true
+    }
+  ]
+}

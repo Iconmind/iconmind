@@ -1,0 +1,41 @@
+{
+  "slug": "version-control",
+  "category": "devtools",
+  "subcategory": "version-control",
+  "name": "Version control",
+  "description": "Every change, kept",
+  "tags": [
+    "git",
+    "history",
+    "commits"
+  ],
+  "keywords": [
+    "git",
+    "history",
+    "commits",
+    "kept changes"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 8V16",
+      "closed": false
+    },
+    {
+      "d": "M8 6L12 6L16 10",
+      "closed": false
+    }
+  ]
+}

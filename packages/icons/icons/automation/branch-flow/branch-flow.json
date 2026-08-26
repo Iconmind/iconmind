@@ -1,0 +1,31 @@
+{
+  "slug": "branch-flow",
+  "category": "automation",
+  "subcategory": "condition",
+  "name": "Branch",
+  "description": "The path divides here",
+  "tags": [
+    "split",
+    "fork",
+    "route"
+  ],
+  "keywords": [
+    "split",
+    "route",
+    "if else",
+    "diverge",
+    "path",
+    "branch"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M2 12L9 12L14 7L22 7",
+      "closed": false
+    },
+    {
+      "d": "M9 12L14 17L22 17",
+      "closed": false
+    }
+  ]
+}

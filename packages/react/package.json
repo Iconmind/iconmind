@@ -1,0 +1,61 @@
+{
+  "name": "@iconmind/react",
+  "version": "0.3.0",
+  "type": "module",
+  "sideEffects": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iconmind/iconmind.git",
+    "directory": "packages/react"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./icons/*": {
+      "types": "./dist/generated/*.d.ts",
+      "default": "./dist/generated/*.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.4",
+    "esbuild": "^0.28.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.8",
+    "tsup": "^8.5.0",
+    "@iconmind/icons": "workspace:*",
+    "tsx": "^4.20.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "React components for IconMind — 1,008 tree-shakeable icons for AI-era software (LLMs, agents, MCP, RAG).",
+  "keywords": [
+    "icons",
+    "svg",
+    "ai",
+    "llm",
+    "agents",
+    "mcp",
+    "rag",
+    "icon-set",
+    "iconmind",
+    "react",
+    "components"
+  ],
+  "homepage": "https://iconmind.dev",
+  "bugs": "https://github.com/Iconmind/iconmind/issues"
+}

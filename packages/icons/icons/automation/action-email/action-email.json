@@ -1,0 +1,34 @@
+{
+  "slug": "action-email",
+  "category": "automation",
+  "subcategory": "action",
+  "name": "Email action",
+  "description": "The step that sends a message",
+  "tags": [
+    "send",
+    "notify",
+    "mail"
+  ],
+  "keywords": [
+    "send email",
+    "notify",
+    "smtp",
+    "template",
+    "outbound"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M5 7L12 14L19 7",
+      "closed": false
+    },
+    {
+      "d": "M12 2V5",
+      "closed": false
+    }
+  ]
+}

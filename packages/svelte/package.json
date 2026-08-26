@@ -1,0 +1,55 @@
+{
+  "name": "@iconmind/svelte",
+  "version": "0.3.0",
+  "description": "Svelte components for IconMind — 1,008 tree-shakeable icons for AI-era software (LLMs, agents, MCP, RAG).",
+  "keywords": [
+    "icons",
+    "svg",
+    "ai",
+    "llm",
+    "agents",
+    "mcp",
+    "rag",
+    "icon-set",
+    "iconmind",
+    "svelte",
+    "components"
+  ],
+  "homepage": "https://iconmind.dev",
+  "bugs": "https://github.com/Iconmind/iconmind/issues",
+  "type": "module",
+  "sideEffects": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iconmind/iconmind.git",
+    "directory": "packages/svelte"
+  },
+  "svelte": "./src/index.js",
+  "exports": {
+    ".": {
+      "types": "./src/generated/index.d.ts",
+      "svelte": "./src/index.js",
+      "default": "./src/index.js"
+    },
+    "./icons/*.svelte": {
+      "svelte": "./src/generated/*.svelte",
+      "default": "./src/generated/*.svelte"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "build": "node check.mjs"
+  },
+  "peerDependencies": {
+    "svelte": ">=4"
+  },
+  "devDependencies": {
+    "svelte": "^5.19.0",
+    "@iconmind/icons": "workspace:*",
+    "tsx": "^4.20.6"
+  }
+}

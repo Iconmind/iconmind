@@ -1,0 +1,34 @@
+{
+  "slug": "subnet",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Subnet",
+  "description": "A part of the network, fenced off",
+  "tags": [
+    "cidr",
+    "range",
+    "slice"
+  ],
+  "keywords": [
+    "cidr",
+    "address range",
+    "vpc subnet",
+    "private range",
+    "slice"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H20A2 2 0 0 1 22 4V20A2 2 0 0 1 20 22H4A2 2 0 0 1 2 20Z",
+      "closed": true
+    },
+    {
+      "d": "M6 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12A2 2 0 0 1 12 10H16A2 2 0 0 1 18 12V16A2 2 0 0 1 16 18H12A2 2 0 0 1 10 16Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "bookmark-off",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Bookmark off",
+  "description": "Take it out of the list",
+  "tags": [
+    "unsave",
+    "remove",
+    "forget"
+  ],
+  "keywords": [
+    "unsave",
+    "remove from list",
+    "forget",
+    "unpin"
+  ],
+  "family": "ribbon",
+  "shapes": [
+    {
+      "d": "M15 3L18 3L18 21L12 15L6 21L6 3L9 3",
+      "closed": true
+    },
+    {
+      "d": "M10 8L14 12",
+      "closed": false
+    },
+    {
+      "d": "M14 8L10 12",
+      "closed": false
+    }
+  ]
+}

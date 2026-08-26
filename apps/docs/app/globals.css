@@ -1,0 +1,348 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* ─────────────────────────────────────────────────────────────
+   Design tokens, taken from the mockup in `Iconmind UI mockups`.
+
+   Two themes, light first. The previous site was dark-only with a
+   violet accent on near-black; this palette is warm — a paper
+   ground, a burnt-orange accent, and neutrals that carry a little
+   red rather than none. Nothing on the site sets a colour inline.
+   ───────────────────────────────────────────────────────────── */
+@theme {
+  /* Figtree carries the identity and the reading — the mockup uses one face for the 84px
+     hero and the 13px nav, and it holds at both. Azeret Mono keeps every technical label:
+     counts, specs, code, and anything naming a thing rather than saying something. */
+  --font-sans: var(--font-figtree), Figtree, ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-azeret), "Azeret Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  --color-page: #faf8f5;
+  --color-panel: #ffffff;
+  --color-sunk: #f3efe9;
+  --color-ink: #14110e;
+  --color-ink-2: #443d35;
+  /* Darkened from the mockup's #847B71, which is 3.92:1 on the page and 3.63:1 on a sunk
+     panel — under WCAG's 4.5:1, and this token carries every caption, count, rail heading
+     and footer link on the site. #736A61 is the nearest value that clears it on all three
+     grounds (5.00 / 5.30 / 4.63) and keeps the warm cast. Dark's #8E857B already passed. */
+  --color-muted: #736a61;
+  --color-line: #e5dfd6;
+  --color-line-2: #efeae2;
+  --color-accent: #c2410c;
+  --color-accent-soft: #fbeee5;
+
+  --radius-xs: 5px;
+  --radius-sm: 7px;
+  --radius-md: 9px;
+  --radius-lg: 11px;
+  --radius-xl: 14px;
+  --radius-2xl: 16px;
+  --radius-3xl: 20px;
+  --radius-pill: 999px;
+
+  --text-hero: clamp(3rem, 6vw, 5.25rem);
+  --text-hero--line-height: 0.94;
+  --text-hero--letter-spacing: -0.045em;
+  --text-h1: clamp(1.75rem, 3vw, 2.125rem);
+  --text-h1--line-height: 1.1;
+  --text-h1--letter-spacing: -0.035em;
+  --text-h2: 1.6875rem;
+  --text-h2--line-height: 1.15;
+  --text-h2--letter-spacing: -0.03em;
+  --text-lead: 1.09375rem;
+  --text-lead--line-height: 1.55;
+
+  /* The mockup's running sizes, to the half-pixel it specifies. */
+  --text-ui: 0.84375rem;     /* 13.5px — nav, buttons, rail items */
+  --text-body: 0.875rem;     /* 14px  — paragraphs in panels */
+  --text-meta: 0.78125rem;   /* 12.5px — captions, help, secondary rows */
+  --text-mono: 0.71875rem;   /* 11.5px — counts, specs, code */
+  --text-label: 0.65625rem;  /* 10.5px — uppercase mono rails only */
+  --text-label--letter-spacing: 0.09em;
+
+  /* ─────────────────────────────────────────────────────────────
+     shadcn/ui's semantic layer, pointed at the palette above.
+
+     shadcn components are written against `background`, `card`,
+     `primary`, `border`, `ring` and so on. Rather than run a second
+     palette beside this one — two sources of truth for one colour is
+     how a site ends up with two greys — every shadcn token is an
+     alias for a token that was already here. `var()` resolves at use,
+     so the dark block below re-tints all of them for free.
+
+     Two names are deliberately *not* aliased. shadcn's `--muted` is a
+     surface and `--accent` is a hover tint; here `muted` is the caption
+     colour and `accent` is the one brand hue. Components in
+     `components/ui` use `sunk` where shadcn would say `muted`, and keep
+     `accent` meaning orange.
+     ───────────────────────────────────────────────────────────── */
+  --color-background: var(--color-page);
+  --color-foreground: var(--color-ink);
+  --color-card: var(--color-panel);
+  --color-card-foreground: var(--color-ink);
+  --color-popover: var(--color-panel);
+  --color-popover-foreground: var(--color-ink);
+  --color-primary: var(--color-ink);
+  --color-primary-foreground: var(--color-page);
+  --color-secondary: var(--color-sunk);
+  --color-secondary-foreground: var(--color-ink);
+  --color-muted-foreground: var(--color-muted);
+  --color-accent-foreground: #ffffff;
+  --color-destructive: #b42318;
+  --color-destructive-foreground: #ffffff;
+  /* Two states the docs actually name: a check that blocks a pull request, and one that
+     can be waived. `bg-ok/10 text-ok` was already being written on the contribute page
+     against tokens that did not exist, so those rules compiled to nothing and the badges
+     rendered as bare text. */
+  --color-ok: #15803d;
+  --color-warn: #b45309;
+  --color-border: var(--color-line);
+  --color-input: var(--color-line);
+  --color-ring: var(--color-accent);
+}
+
+/* The accent is the one hue on the page. Dark is the same design with the ground and the
+   ink swapped, not a second palette — the orange brightens because #C2410C on #100E0D is
+   3.1:1, which is under the bar for a link. */
+[data-theme="dark"] {
+  --color-page: #100e0d;
+  --color-panel: #191615;
+  --color-sunk: #141211;
+  --color-ink: #f3eee8;
+  --color-ink-2: #cfc7be;
+  --color-muted: #8e857b;
+  --color-line: #2b2724;
+  --color-line-2: #221f1d;
+  --color-accent: #f97316;
+  --color-accent-soft: #2a1a10;
+  --color-destructive: #f87171;
+  --color-destructive-foreground: #1a0e0c;
+  --color-ok: #4ade80;
+  --color-warn: #fbbf24;
+}
+
+html {
+  background: var(--color-page);
+}
+
+body {
+  margin: 0;
+  background: var(--color-page);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+@utility shadow-panel {
+  box-shadow: 0 1px 2px rgba(30, 20, 10, 0.04), 0 8px 24px -12px rgba(30, 20, 10, 0.14);
+}
+[data-theme="dark"] .shadow-panel {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px -12px rgba(0, 0, 0, 0.7);
+}
+
+/* Technical labels — rail headings, spec keys, screen ids. Mono, small, wide, upper. */
+@utility label {
+  font-family: var(--font-mono);
+  font-size: var(--text-label);
+  letter-spacing: var(--text-label--letter-spacing);
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+/*
+ * The dotted ground.
+ *
+ * The hard stop is the fix. `radial-gradient(..., <colour> 1px, transparent 0)` ends the
+ * colour and starts the transparency at the same offset, so the browser has nothing to
+ * interpolate across and every dot renders with a hard, un-antialiased edge. At a 12px
+ * pitch that is a few hundred crunchy marks behind the drawing, and the whole panel reads
+ * rough — which is easy to mistake for the icon itself being rough. Giving the stop a
+ * sub-pixel ramp costs nothing and antialiases each dot.
+ *
+ * The old comment claimed this was "the 24-unit grid the icons are drawn to, at one dot
+ * per unit". It never was: the pitch is a fixed 12px while an icon on this page is drawn
+ * at 64, 84 or 160, so the dots lined up with the drawing at exactly no size. It is a
+ * texture, and it is now labelled as one. The real grid is `artboard` below.
+ */
+@utility dotted {
+  background-color: var(--color-sunk);
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    color-mix(in srgb, var(--color-muted) 34%, transparent) 0.5px,
+    transparent 1.5px
+  );
+  background-size: 12px 12px;
+}
+
+/*
+ * The icon's own grid, actually.
+ *
+ * A ground whose pitch is one grid unit of the drawing centred on it. Set `--unit` to
+ * (rendered icon size ÷ 24) and centre an icon of that size in the box: every anchor in
+ * the drawing then lands on an intersection, because that is what "snapped to the grid"
+ * means and this is that grid.
+ *
+ * ── Why the background is offset by half a unit ─────────────────────────────────────
+ * `background-position: 50%` aligns the centre of one *tile* with the centre of the box,
+ * which puts the rules half a unit off from a centred icon — the anchors would sit in the
+ * middle of each cell rather than on its corners. Shifting by `--unit / 2` puts the first
+ * rule at the box's midpoint instead, and the icon's own midline is there too. It holds
+ * at any box size, including an odd one: both the icon's left edge and the first rule
+ * land on the same fraction, so they move together.
+ *
+ * Keep `--unit` a whole number of pixels. A fractional pitch puts most of the rules on
+ * half-pixels, and a grid that is itself blurry is worse than no grid — which is the trap
+ * the dot pattern above fell into.
+ */
+@utility artboard {
+  --unit: 8px;
+  background-color: var(--color-sunk);
+  /* Two pitches, because a hundred identical rules across a panel is noise rather than a
+     grid. The minor rule is one unit and sits near the threshold of visibility; the major
+     one every four units gives the eye something to count by — which is how graph paper
+     and every drawing program does it, and it is also the interval the icons' own
+     geometry tends to land on. */
+  background-image:
+    linear-gradient(to right, color-mix(in srgb, var(--color-muted) 26%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in srgb, var(--color-muted) 26%, transparent) 1px, transparent 1px),
+    linear-gradient(to right, color-mix(in srgb, var(--color-muted) 12%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in srgb, var(--color-muted) 12%, transparent) 1px, transparent 1px);
+  background-size:
+    calc(var(--unit) * 4) calc(var(--unit) * 4),
+    calc(var(--unit) * 4) calc(var(--unit) * 4),
+    var(--unit) var(--unit),
+    var(--unit) var(--unit);
+  /* One offset per layer, and they are not the same number.
+     `background-position: 50%` centres a *tile*, so the shift that lands a rule on the
+     box's midline is half that layer's own tile — `--unit / 2` for the minor grid and
+     `--unit * 2` for the major one. Using the minor offset for both put the major rules
+     20px off the icon's four-unit intersections, which is exactly the kind of
+     almost-aligned that looks like a mistake. */
+  background-position:
+    calc(50% + var(--unit) * 2) calc(50% + var(--unit) * 2),
+    calc(50% + var(--unit) * 2) calc(50% + var(--unit) * 2),
+    calc(50% + var(--unit) / 2) calc(50% + var(--unit) / 2),
+    calc(50% + var(--unit) / 2) calc(50% + var(--unit) / 2);
+}
+
+
+/*
+ * In a layer, on purpose.
+ *
+ * Unlayered CSS beats every layered rule, whatever the specificity — so `button { color:
+ * inherit }` written out here silently overrode `.text-page`, `.text-accent` and every
+ * other text-colour utility on every button in the site. The dark "Copy SVG" button was
+ * rendering its label in ink on ink. Tailwind's preflight already gives buttons
+ * `font: inherit` and `color: inherit`; the only thing here it does not cover is the
+ * range thumb.
+ */
+@layer base {
+  input[type="range"] {
+    accent-color: var(--color-accent);
+  }
+}
+
+*:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+input:focus-visible,
+textarea:focus-visible {
+  outline: none;
+  border-color: var(--color-accent);
+}
+::selection {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+/*
+ * The panel's own motion, written out.
+ *
+ * The Radix example uses `animate-in slide-in-from-right`, which are `tailwindcss-animate`
+ * utilities — a package this project does not have. They compiled to nothing, so the panel
+ * appeared and vanished with no transition at all. Four keyframes is less than a
+ * dependency, and honest about what is actually running.
+ */
+@keyframes im-overlay-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes im-overlay-out { from { opacity: 1; } to { opacity: 0; } }
+@keyframes im-panel-in { from { transform: translateX(100%); } to { transform: none; } }
+@keyframes im-panel-out { from { transform: none; } to { transform: translateX(100%); } }
+
+[data-im-overlay][data-state="open"] { animation: im-overlay-in 0.2s ease-out; }
+[data-im-overlay][data-state="closed"] { animation: im-overlay-out 0.18s ease-in; }
+[data-im-panel][data-state="open"] { animation: im-panel-in 0.26s cubic-bezier(0.32, 0.72, 0, 1); }
+[data-im-panel][data-state="closed"] { animation: im-panel-out 0.2s cubic-bezier(0.32, 0.72, 0, 1); }
+
+/* Somebody who has asked the system for less movement gets the panel, not the slide. */
+@media (prefers-reduced-motion: reduce) {
+  [data-im-overlay], [data-im-panel] { animation: none !important; }
+}
+
+/*
+ * The gutter is always reserved.
+ *
+ * Radix locks the body while the panel is open, which removes the scrollbar — and on a
+ * platform that shows one, the page then widens by its width and an `auto-fill` grid
+ * silently gains a column. Every icon behind the panel jumps.
+ */
+html {
+  scrollbar-gutter: stable;
+}
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-line); border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-muted); }
+
+/* ─────────────────────────────────────────────────────────────
+   Surface utilities the marketing pages lean on.
+
+   Three of them and no more. Each is a thing the token layer cannot
+   express as a single colour: a ground with structure, a rule that is
+   thinner than a pixel, and a mask that ends a scroller without a hard
+   edge.
+   ───────────────────────────────────────────────────────────── */
+
+/* The 24-unit grid, faint, behind a hero. Same geometry as `dotted`, drawn as lines. */
+@utility grid-ground {
+  background-image:
+    linear-gradient(to right, color-mix(in srgb, var(--color-line) 70%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in srgb, var(--color-line) 70%, transparent) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+/* A border that stays hairline on a 2× screen, where 1px reads as heavy. */
+@utility hairline {
+  border: 1px solid color-mix(in srgb, var(--color-line) 85%, transparent);
+}
+
+/* Fades the last 40px of a horizontal scroller so the cut is not a cliff. */
+@utility fade-r {
+  mask-image: linear-gradient(to right, #000 calc(100% - 40px), transparent 100%);
+}
+
+/* Radix's data-state animations arrive from tw-animate-css; these two are the ones the
+   library does not ship — a bar that slides under the active tab, and a marquee. */
+@keyframes im-shimmer { 100% { transform: translateX(100%); } }
+@utility shimmer {
+  position: relative;
+  overflow: hidden;
+}
+.shimmer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background-image: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in srgb, var(--color-muted) 12%, transparent),
+    transparent
+  );
+  animation: im-shimmer 1.6s infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .shimmer::after { animation: none; }
+}

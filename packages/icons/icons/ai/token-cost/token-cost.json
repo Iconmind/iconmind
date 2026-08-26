@@ -1,0 +1,30 @@
+{
+  "slug": "token-cost",
+  "category": "ai",
+  "subcategory": "token",
+  "name": "Token cost",
+  "description": "What the tokens are worth",
+  "tags": [
+    "price",
+    "billing",
+    "spend"
+  ],
+  "keywords": [
+    "price per token",
+    "spend",
+    "billing",
+    "usage",
+    "budget"
+  ],
+  "family": "capsule",
+  "shapes": [
+    {
+      "d": "M4 5.5A2.5 2.5 0 0 1 6.5 3H17.5A2.5 2.5 0 0 1 20 5.5V5.5A2.5 2.5 0 0 1 17.5 8H6.5A2.5 2.5 0 0 1 4 5.5Z",
+      "closed": true
+    },
+    {
+      "d": "M7 16a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    }
+  ]
+}

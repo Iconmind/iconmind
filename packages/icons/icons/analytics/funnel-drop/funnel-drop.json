@@ -1,0 +1,38 @@
+{
+  "slug": "funnel-drop",
+  "category": "analytics",
+  "subcategory": "segment",
+  "name": "Funnel drop",
+  "description": "Where people leave instead",
+  "tags": [
+    "churn",
+    "lost",
+    "fell-out"
+  ],
+  "keywords": [
+    "drop off",
+    "abandoned",
+    "lost",
+    "leak",
+    "attrition"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M6 13H18",
+      "closed": false
+    },
+    {
+      "d": "M19 13V19",
+      "closed": false
+    },
+    {
+      "d": "M16 16L19 19L22 16",
+      "closed": false
+    }
+  ]
+}

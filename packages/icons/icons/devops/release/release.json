@@ -1,0 +1,33 @@
+{
+  "slug": "release",
+  "category": "devops",
+  "subcategory": "release",
+  "name": "Release",
+  "description": "A version, tagged and shipped",
+  "tags": [
+    "version",
+    "tag",
+    "ship"
+  ],
+  "aliases": [
+    "version"
+  ],
+  "keywords": [
+    "tag",
+    "semver",
+    "changelog",
+    "ship",
+    "publish"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 12L10 6L20 6L20 18L10 18Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

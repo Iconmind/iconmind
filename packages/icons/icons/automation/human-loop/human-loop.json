@@ -1,0 +1,37 @@
+{
+  "slug": "human-loop",
+  "category": "automation",
+  "subcategory": "human-loop",
+  "name": "Human in the loop",
+  "description": "A person inside the cycle",
+  "tags": [
+    "review",
+    "person",
+    "gate"
+  ],
+  "keywords": [
+    "human review",
+    "person in cycle",
+    "approval loop",
+    "oversight"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16 5.07A8 8 0 1 1 8 5.07",
+      "closed": false
+    },
+    {
+      "d": "M5 4L8 4L8 7",
+      "closed": false
+    },
+    {
+      "d": "M10 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8.5 17A3.5 3.5 0 0 1 15.5 17",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "deploy-rollback",
+  "category": "devops",
+  "subcategory": "release",
+  "name": "Deploy rollback",
+  "description": "Undo the last release",
+  "tags": [
+    "revert",
+    "previous",
+    "back"
+  ],
+  "keywords": [
+    "roll back",
+    "previous version",
+    "undo deploy",
+    "recover"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14 11H17A3 3 0 0 1 20 14V18A3 3 0 0 1 17 21H7A3 3 0 0 1 4 18V14L7 11H10",
+      "closed": true
+    },
+    {
+      "d": "M8 6A4 4 0 0 1 16 6",
+      "closed": false
+    },
+    {
+      "d": "M10 4L8 6L10 8",
+      "closed": false
+    }
+  ]
+}

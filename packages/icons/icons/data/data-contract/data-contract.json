@@ -1,0 +1,33 @@
+{
+  "slug": "data-contract",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Data contract",
+  "description": "The shape both sides agreed on",
+  "tags": [
+    "schema",
+    "agreed",
+    "promise"
+  ],
+  "keywords": [
+    "schema agreement",
+    "producer consumer",
+    "promise",
+    "interface"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M7 11H17",
+      "closed": false
+    },
+    {
+      "d": "M12 11V18",
+      "closed": false
+    }
+  ]
+}

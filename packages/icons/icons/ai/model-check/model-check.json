@@ -1,0 +1,29 @@
+{
+  "slug": "model-check",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Model check",
+  "description": "The model passed evaluation",
+  "tags": [
+    "valid",
+    "approved",
+    "verified"
+  ],
+  "keywords": [
+    "validated",
+    "approved",
+    "eval passed",
+    "certified"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M8 12L10 14L16 8",
+      "closed": false
+    }
+  ]
+}

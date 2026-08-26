@@ -1,0 +1,65 @@
+name: Icon Check
+
+# The quality gate for icons. Runs only when icon sources change, so feedback on an
+# icon PR stays under two minutes.
+on:
+  pull_request:
+    paths:
+      - "packages/icons/icons/**"
+      - "scripts/validate/**"
+      - "packages/shared/src/**"
+      - "tests/visual/**"
+      - "playwright.config.ts"
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: pnpm/action-setup@v4      # version comes from packageManager
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      - name: Validate SVG and metadata
+        run: pnpm icons:validate
+
+      # Enabled as each script lands; see docs/masterplan/18-timeline.md (T3.2, T3.3).
+      - name: Optimizer must be idempotent
+        if: hashFiles('scripts/optimize/run.ts') != ''
+        run: |
+          pnpm icons:optimize
+          if ! git diff --quiet; then
+            echo "::error::SVG is not optimized. Run 'pnpm icons:optimize' and commit the result."
+            git --no-pager diff --stat
+            exit 1
+          fi
+
+      - name: Duplicate detection
+        if: hashFiles('scripts/validate/duplicates.ts') != ''
+        run: pnpm icons:duplicates
+
+      - name: Install Chromium
+        if: hashFiles('playwright.config.ts') != ''
+        run: pnpm exec playwright install --with-deps chromium
+
+      # Everything except the drift snapshots.
+      #
+      # The invariants — an icon that paints nothing at 16px, a dot idiom an optimizer
+      # silently flattened, a shape that fills in when inverted, a detail too small for
+      # the drift budget to protect — are properties of the artwork and hold on any
+      # machine, so they need no committed images. Drift compares against baselines
+      # Playwright names per platform (`agent-chromium-darwin.png`), and no Linux set
+      # exists yet; the Nightly workflow can generate one on demand. Running drift here
+      # before then would fail on a missing file rather than on a changed icon.
+      - name: Browser rendering invariants
+        if: hashFiles('playwright.config.ts') != ''
+        run: pnpm test:visual:invariants

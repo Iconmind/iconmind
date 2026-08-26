@@ -1,0 +1,44 @@
+{
+  "slug": "log-stream",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Log stream",
+  "description": "Lines arriving as they happen",
+  "tags": [
+    "tail",
+    "live",
+    "follow"
+  ],
+  "aliases": [
+    "tail-logs"
+  ],
+  "keywords": [
+    "tail -f",
+    "live logs",
+    "follow",
+    "streaming lines"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 5H21",
+      "closed": false
+    },
+    {
+      "d": "M3 9H17",
+      "closed": false
+    },
+    {
+      "d": "M3 13H19",
+      "closed": false
+    },
+    {
+      "d": "M3 17H14",
+      "closed": false
+    },
+    {
+      "d": "M19 17L21 19L19 21",
+      "closed": false
+    }
+  ]
+}

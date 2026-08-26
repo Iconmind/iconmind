@@ -1,0 +1,32 @@
+{
+  "slug": "prompt-injection",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Prompt injection",
+  "description": "Instructions smuggled in with the input",
+  "tags": [
+    "attack",
+    "jailbreak",
+    "exploit"
+  ],
+  "aliases": [
+    "jailbreak"
+  ],
+  "keywords": [
+    "attack",
+    "exploit",
+    "untrusted input",
+    "smuggling"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V18A3 3 0 0 1 18 21H6A3 3 0 0 1 3 18V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M15 2L10 7L13 7L8 12",
+      "closed": false
+    }
+  ]
+}

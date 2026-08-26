@@ -1,0 +1,33 @@
+{
+  "slug": "subtask",
+  "category": "agents",
+  "subcategory": "planning",
+  "name": "Subtask",
+  "description": "A piece of work that belongs to a bigger one",
+  "tags": [
+    "child",
+    "nested",
+    "step"
+  ],
+  "keywords": [
+    "child task",
+    "nested",
+    "indent",
+    "breakdown"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M3 6H21",
+      "closed": false
+    },
+    {
+      "d": "M6 10L6 16L11 16",
+      "closed": false
+    },
+    {
+      "d": "M14 16H21",
+      "closed": false
+    }
+  ]
+}

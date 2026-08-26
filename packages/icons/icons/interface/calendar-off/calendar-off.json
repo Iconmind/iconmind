@@ -1,0 +1,45 @@
+{
+  "slug": "calendar-off",
+  "category": "interface",
+  "subcategory": "time",
+  "name": "Calendar off",
+  "description": "Cancelled",
+  "tags": [
+    "cancelled",
+    "unavailable",
+    "blocked"
+  ],
+  "keywords": [
+    "cancelled",
+    "declined",
+    "blocked",
+    "unavailable"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V18A3 3 0 0 1 18 21H6A3 3 0 0 1 3 18V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M3 10H21",
+      "closed": false
+    },
+    {
+      "d": "M8 2.5V5",
+      "closed": false
+    },
+    {
+      "d": "M16 2.5V5",
+      "closed": false
+    },
+    {
+      "d": "M10 13L14 17",
+      "closed": false
+    },
+    {
+      "d": "M14 13L10 17",
+      "closed": false
+    }
+  ]
+}

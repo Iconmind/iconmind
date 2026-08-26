@@ -1,0 +1,32 @@
+{
+  "slug": "namespace-k8s",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Kubernetes namespace",
+  "description": "A fenced part of the cluster",
+  "tags": [
+    "scope",
+    "tenant",
+    "fenced"
+  ],
+  "keywords": [
+    "k8s namespace",
+    "tenant",
+    "fenced workloads"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H20A2 2 0 0 1 22 4V20A2 2 0 0 1 20 22H4A2 2 0 0 1 2 20Z",
+      "closed": true
+    },
+    {
+      "d": "M6 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

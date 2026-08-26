@@ -1,0 +1,36 @@
+{
+  "slug": "chart-donut",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Donut chart",
+  "description": "Parts of a whole, with the middle free",
+  "tags": [
+    "ring",
+    "share",
+    "proportion"
+  ],
+  "aliases": [
+    "donut"
+  ],
+  "keywords": [
+    "proportion",
+    "share",
+    "ring chart",
+    "breakdown"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 3V8",
+      "closed": false
+    }
+  ]
+}

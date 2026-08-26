@@ -1,0 +1,42 @@
+{
+  "slug": "softmax",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Softmax",
+  "description": "Scores turned into one that wins",
+  "tags": [
+    "probability",
+    "peak",
+    "normalise"
+  ],
+  "keywords": [
+    "probabilities",
+    "temperature",
+    "argmax",
+    "distribution",
+    "peak"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 20H21",
+      "closed": false
+    },
+    {
+      "d": "M6 17V20",
+      "closed": false
+    },
+    {
+      "d": "M10 15V20",
+      "closed": false
+    },
+    {
+      "d": "M14 4V20",
+      "closed": false
+    },
+    {
+      "d": "M18 17V20",
+      "closed": false
+    }
+  ]
+}

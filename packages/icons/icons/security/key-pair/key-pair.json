@@ -1,0 +1,48 @@
+{
+  "slug": "key-pair",
+  "category": "security",
+  "subcategory": "encryption",
+  "name": "Key pair",
+  "description": "One to lock with, one to open with",
+  "tags": [
+    "public",
+    "private",
+    "asymmetric"
+  ],
+  "aliases": [
+    "keypair"
+  ],
+  "keywords": [
+    "public private",
+    "asymmetric",
+    "rsa",
+    "signing"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 8H17",
+      "closed": false
+    },
+    {
+      "d": "M15 8V11",
+      "closed": false
+    },
+    {
+      "d": "M17 16a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 16H17",
+      "closed": false
+    },
+    {
+      "d": "M9 13V16",
+      "closed": false
+    }
+  ]
+}

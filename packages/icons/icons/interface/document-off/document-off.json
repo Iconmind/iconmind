@@ -1,0 +1,33 @@
+{
+  "slug": "document-off",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Document off",
+  "description": "This one is gone or unreadable",
+  "tags": [
+    "missing",
+    "corrupt",
+    "excluded"
+  ],
+  "keywords": [
+    "missing",
+    "deleted",
+    "corrupt",
+    "unreadable"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M10 10L14 14",
+      "closed": false
+    },
+    {
+      "d": "M14 10L10 14",
+      "closed": false
+    }
+  ]
+}

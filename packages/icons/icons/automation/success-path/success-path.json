@@ -1,0 +1,39 @@
+{
+  "slug": "success-path",
+  "category": "automation",
+  "subcategory": "condition",
+  "name": "Success path",
+  "description": "The branch things take when they go right",
+  "tags": [
+    "happy",
+    "green",
+    "branch"
+  ],
+  "aliases": [
+    "happy-path"
+  ],
+  "keywords": [
+    "happy path",
+    "green branch",
+    "went right"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12H8",
+      "closed": false
+    },
+    {
+      "d": "M8 12L12 8L17 8",
+      "closed": false
+    },
+    {
+      "d": "M15 13L17 15L21 11",
+      "closed": false
+    },
+    {
+      "d": "M8 12L12 16L15 16",
+      "closed": false
+    }
+  ]
+}

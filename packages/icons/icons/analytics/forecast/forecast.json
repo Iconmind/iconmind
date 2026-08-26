@@ -1,0 +1,45 @@
+{
+  "slug": "forecast",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Forecast",
+  "description": "What the line does next",
+  "tags": [
+    "predict",
+    "projection",
+    "future"
+  ],
+  "aliases": [
+    "projection"
+  ],
+  "keywords": [
+    "predict",
+    "extrapolate",
+    "trend",
+    "future",
+    "estimate"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M6 16L11 11",
+      "closed": false
+    },
+    {
+      "d": "M13 9L15 7",
+      "closed": false
+    },
+    {
+      "d": "M17 5L19 3",
+      "closed": false
+    }
+  ]
+}

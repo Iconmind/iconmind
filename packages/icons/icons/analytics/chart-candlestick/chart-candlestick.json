@@ -1,0 +1,49 @@
+{
+  "slug": "chart-candlestick",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Candlestick chart",
+  "description": "Open, high, low and close",
+  "tags": [
+    "ohlc",
+    "trading",
+    "range"
+  ],
+  "aliases": [
+    "ohlc"
+  ],
+  "keywords": [
+    "trading",
+    "stock",
+    "ohlc",
+    "range",
+    "finance"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M6 4V8",
+      "closed": false
+    },
+    {
+      "d": "M2.5 10A2 2 0 0 1 4.5 8H7.5A2 2 0 0 1 9.5 10V14A2 2 0 0 1 7.5 16H4.5A2 2 0 0 1 2.5 14Z",
+      "closed": true
+    },
+    {
+      "d": "M6 16V20",
+      "closed": false
+    },
+    {
+      "d": "M16 5V9",
+      "closed": false
+    },
+    {
+      "d": "M12.5 11A2 2 0 0 1 14.5 9H17.5A2 2 0 0 1 19.5 11V14A2 2 0 0 1 17.5 16H14.5A2 2 0 0 1 12.5 14Z",
+      "closed": true
+    },
+    {
+      "d": "M16 16V19",
+      "closed": false
+    }
+  ]
+}

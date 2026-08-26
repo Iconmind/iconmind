@@ -1,0 +1,36 @@
+{
+  "slug": "login",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Log in",
+  "description": "Come in",
+  "tags": [
+    "enter",
+    "sign-in",
+    "arrive"
+  ],
+  "aliases": [
+    "sign-in"
+  ],
+  "keywords": [
+    "sign in",
+    "enter",
+    "session start",
+    "authenticate"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M15 3L21 3L21 21L15 21",
+      "closed": false
+    },
+    {
+      "d": "M3 12H13",
+      "closed": false
+    },
+    {
+      "d": "M10 9L13 12L10 15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "few-shot",
+  "category": "ai",
+  "subcategory": "prompt",
+  "name": "Few-shot",
+  "description": "Show it some examples first",
+  "tags": [
+    "examples",
+    "demonstration",
+    "prompt"
+  ],
+  "keywords": [
+    "in-context learning",
+    "examples",
+    "demonstrations",
+    "shots"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M3 5H11",
+      "closed": false
+    },
+    {
+      "d": "M3 12H11",
+      "closed": false
+    },
+    {
+      "d": "M3 19H11",
+      "closed": false
+    },
+    {
+      "d": "M14 12H19",
+      "closed": false
+    },
+    {
+      "d": "M16 9L19 12L16 15",
+      "closed": false
+    }
+  ]
+}

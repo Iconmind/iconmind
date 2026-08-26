@@ -1,0 +1,30 @@
+{
+  "slug": "similarity",
+  "category": "ai",
+  "subcategory": "embedding",
+  "name": "Similarity",
+  "description": "How close two meanings are",
+  "tags": [
+    "overlap",
+    "distance",
+    "match"
+  ],
+  "keywords": [
+    "cosine",
+    "distance",
+    "nearest",
+    "match",
+    "overlap"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M9 5L14 10L9 15L4 10Z",
+      "closed": true
+    },
+    {
+      "d": "M15 9L20 14L15 19L10 14Z",
+      "closed": true
+    }
+  ]
+}

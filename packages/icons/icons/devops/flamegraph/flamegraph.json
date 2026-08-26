@@ -1,0 +1,37 @@
+{
+  "slug": "flamegraph",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Flame graph",
+  "description": "Where the time actually went",
+  "tags": [
+    "profile",
+    "stack",
+    "cpu"
+  ],
+  "aliases": [
+    "profile"
+  ],
+  "keywords": [
+    "profiler",
+    "stack",
+    "cpu time",
+    "hot path",
+    "perf"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V5A2 2 0 0 1 20 7H4A2 2 0 0 1 2 5Z",
+      "closed": true
+    },
+    {
+      "d": "M2 12A2 2 0 0 1 4 10H12A2 2 0 0 1 14 12V12A2 2 0 0 1 12 14H4A2 2 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M6 19A2 2 0 0 1 8 17H14A2 2 0 0 1 16 19V19A2 2 0 0 1 14 21H8A2 2 0 0 1 6 19Z",
+      "closed": true
+    }
+  ]
+}

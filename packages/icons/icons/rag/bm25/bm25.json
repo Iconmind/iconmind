@@ -1,0 +1,46 @@
+{
+  "slug": "bm25",
+  "category": "rag",
+  "subcategory": "ranking",
+  "name": "BM25",
+  "description": "Ranked by how well the words match",
+  "tags": [
+    "ranking",
+    "keyword",
+    "score"
+  ],
+  "keywords": [
+    "okapi",
+    "keyword ranking",
+    "lexical",
+    "tf-idf",
+    "sparse"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 7H21",
+      "closed": false
+    },
+    {
+      "d": "M2 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 12H17",
+      "closed": false
+    },
+    {
+      "d": "M2 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 17H13",
+      "closed": false
+    }
+  ]
+}

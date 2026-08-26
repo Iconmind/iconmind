@@ -1,0 +1,30 @@
+{
+  "slug": "early-stop",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Early stopping",
+  "description": "Stop before it starts getting worse",
+  "tags": [
+    "halt",
+    "patience",
+    "converged"
+  ],
+  "keywords": [
+    "patience",
+    "convergence",
+    "overfitting",
+    "checkpoint",
+    "halt"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M3 5L9 11L13 11L16 14",
+      "closed": false
+    },
+    {
+      "d": "M19 4V20",
+      "closed": false
+    }
+  ]
+}

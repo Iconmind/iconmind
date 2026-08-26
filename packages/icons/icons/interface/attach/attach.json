@@ -1,0 +1,30 @@
+{
+  "slug": "attach",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Attach",
+  "description": "Clipped to the message",
+  "tags": [
+    "clip",
+    "add-file",
+    "with"
+  ],
+  "keywords": [
+    "paperclip",
+    "attachment",
+    "add file",
+    "clip on",
+    "with this"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M10 8A2 2 0 0 1 12 6H12A2 2 0 0 1 14 8V16A2 2 0 0 1 12 18H12A2 2 0 0 1 10 16Z",
+      "closed": true
+    }
+  ]
+}

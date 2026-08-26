@@ -1,0 +1,29 @@
+{
+  "slug": "loading",
+  "category": "interface",
+  "subcategory": "state",
+  "name": "Loading",
+  "description": "Working on it",
+  "tags": [
+    "spinner",
+    "progress",
+    "wait"
+  ],
+  "aliases": [
+    "spinner",
+    "loader"
+  ],
+  "keywords": [
+    "progress",
+    "busy",
+    "wait",
+    "pending"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M12 3A9 9 0 1 1 3 12",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "bring-front",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Bring to front",
+  "description": "Put this one on top",
+  "tags": [
+    "layer",
+    "raise",
+    "above"
+  ],
+  "keywords": [
+    "z-order",
+    "raise",
+    "on top",
+    "front",
+    "layer"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12A2 2 0 0 1 4 10H12A2 2 0 0 1 14 12V18A2 2 0 0 1 12 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M10 6A2 2 0 0 1 12 4H20A2 2 0 0 1 22 6V12A2 2 0 0 1 20 14H12A2 2 0 0 1 10 12Z",
+      "closed": true
+    }
+  ]
+}

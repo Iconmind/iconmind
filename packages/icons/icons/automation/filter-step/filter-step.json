@@ -1,0 +1,29 @@
+{
+  "slug": "filter-step",
+  "category": "automation",
+  "subcategory": "condition",
+  "name": "Filter step",
+  "description": "Only some of it goes on",
+  "tags": [
+    "narrow",
+    "condition",
+    "pass"
+  ],
+  "keywords": [
+    "condition step",
+    "narrow",
+    "only matching",
+    "pass through"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 4L21 4L14 11L14 16L10 16L10 11Z",
+      "closed": true
+    },
+    {
+      "d": "M9 19L12 22L15 19",
+      "closed": false
+    }
+  ]
+}

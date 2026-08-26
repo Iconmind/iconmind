@@ -1,0 +1,28 @@
+{
+  "slug": "chevron-down",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Chevron down",
+  "description": "Open what is below, or drop it down",
+  "tags": [
+    "expand",
+    "dropdown",
+    "below"
+  ],
+  "aliases": [
+    "dropdown"
+  ],
+  "keywords": [
+    "arrow down",
+    "caret",
+    "collapse",
+    "select"
+  ],
+  "family": "chevron",
+  "shapes": [
+    {
+      "d": "M5 9L12 16L19 9",
+      "closed": false
+    }
+  ]
+}

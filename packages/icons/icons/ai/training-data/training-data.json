@@ -1,0 +1,37 @@
+{
+  "slug": "training-data",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Training data",
+  "description": "What the model learned from",
+  "tags": [
+    "corpus",
+    "examples",
+    "labelled"
+  ],
+  "keywords": [
+    "dataset",
+    "corpus",
+    "examples",
+    "learned from"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V8A2 2 0 0 1 20 10H4A2 2 0 0 1 2 8Z",
+      "closed": true
+    },
+    {
+      "d": "M5 6.5H19",
+      "closed": false
+    },
+    {
+      "d": "M2 15A2 2 0 0 1 4 13H9A2 2 0 0 1 11 15V19A2 2 0 0 1 9 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 17L16 19.5L20.5 15",
+      "closed": false
+    }
+  ]
+}

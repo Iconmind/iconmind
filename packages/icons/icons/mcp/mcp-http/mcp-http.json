@@ -1,0 +1,42 @@
+{
+  "slug": "mcp-http",
+  "category": "mcp",
+  "subcategory": "transport",
+  "name": "MCP over HTTP",
+  "description": "A server you call across the network",
+  "tags": [
+    "remote",
+    "request",
+    "post"
+  ],
+  "keywords": [
+    "streamable http",
+    "remote server",
+    "post",
+    "url",
+    "network"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M16.5 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H14A3 3 0 0 1 11 17V7L14 4Z",
+      "closed": true
+    },
+    {
+      "d": "M2 9H11",
+      "closed": false
+    },
+    {
+      "d": "M8 6L11 9L8 12",
+      "closed": false
+    },
+    {
+      "d": "M2 15H11",
+      "closed": false
+    },
+    {
+      "d": "M5 12L2 15L5 18",
+      "closed": false
+    }
+  ]
+}

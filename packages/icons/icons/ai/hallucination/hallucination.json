@@ -1,0 +1,38 @@
+{
+  "slug": "hallucination",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Hallucination",
+  "description": "Said with confidence, true of nothing",
+  "tags": [
+    "false",
+    "invented",
+    "confab"
+  ],
+  "keywords": [
+    "made up",
+    "confabulation",
+    "false claim",
+    "ungrounded",
+    "invented"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V13A2 2 0 0 1 20 15H4A2 2 0 0 1 2 13Z",
+      "closed": true
+    },
+    {
+      "d": "M6 9H14",
+      "closed": false
+    },
+    {
+      "d": "M6 18L9 21",
+      "closed": false
+    },
+    {
+      "d": "M9 18L6 21",
+      "closed": false
+    }
+  ]
+}

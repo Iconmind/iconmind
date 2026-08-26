@@ -1,0 +1,34 @@
+{
+  "slug": "event-driven",
+  "category": "automation",
+  "subcategory": "trigger",
+  "name": "Event driven",
+  "description": "It runs because something happened",
+  "tags": [
+    "reactive",
+    "emit",
+    "listen"
+  ],
+  "keywords": [
+    "reactive",
+    "pubsub",
+    "listener",
+    "emit",
+    "on event"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M16 3L11 8L14 8L9 13",
+      "closed": false
+    },
+    {
+      "d": "M3 17H15",
+      "closed": false
+    },
+    {
+      "d": "M14 14L17 17L14 20",
+      "closed": false
+    }
+  ]
+}

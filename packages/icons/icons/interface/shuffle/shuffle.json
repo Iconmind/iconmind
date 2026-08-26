@@ -1,0 +1,40 @@
+{
+  "slug": "shuffle",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Shuffle",
+  "description": "In no particular order",
+  "tags": [
+    "random",
+    "mix",
+    "cross"
+  ],
+  "aliases": [
+    "random"
+  ],
+  "keywords": [
+    "random",
+    "mix",
+    "reorder",
+    "randomise"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M3 7L9 7L18 16L21 16",
+      "closed": false
+    },
+    {
+      "d": "M18 13L21 16L18 19",
+      "closed": false
+    },
+    {
+      "d": "M3 17L9 17L18 8L21 8",
+      "closed": false
+    },
+    {
+      "d": "M18 5L21 8L18 11",
+      "closed": false
+    }
+  ]
+}

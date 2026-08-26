@@ -1,0 +1,33 @@
+{
+  "slug": "link-off",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Unlink",
+  "description": "Broken apart",
+  "tags": [
+    "broken",
+    "detach",
+    "unjoin"
+  ],
+  "aliases": [
+    "unlink"
+  ],
+  "keywords": [
+    "broken link",
+    "detach",
+    "disconnect",
+    "404",
+    "unjoin"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 8A3 3 0 0 1 5 5H8A3 3 0 0 1 11 8V8A3 3 0 0 1 8 11H5A3 3 0 0 1 2 8Z",
+      "closed": true
+    },
+    {
+      "d": "M13 16A3 3 0 0 1 16 13H19A3 3 0 0 1 22 16V16A3 3 0 0 1 19 19H16A3 3 0 0 1 13 16Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "external-link",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "External link",
+  "description": "This opens somewhere else",
+  "tags": [
+    "outside",
+    "new-tab",
+    "away"
+  ],
+  "aliases": [
+    "open-in-new"
+  ],
+  "keywords": [
+    "new tab",
+    "outbound",
+    "leave",
+    "away",
+    "target blank"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M10 6L4 6L4 20L18 20L18 14",
+      "closed": false
+    },
+    {
+      "d": "M12 12L20 4",
+      "closed": false
+    },
+    {
+      "d": "M14 4L20 4L20 10",
+      "closed": false
+    }
+  ]
+}

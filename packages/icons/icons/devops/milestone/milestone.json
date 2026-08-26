@@ -1,0 +1,36 @@
+{
+  "slug": "milestone",
+  "category": "devops",
+  "subcategory": "release",
+  "name": "Milestone",
+  "description": "The point you were aiming for",
+  "tags": [
+    "marker",
+    "flag",
+    "target"
+  ],
+  "aliases": [
+    "flag"
+  ],
+  "keywords": [
+    "marker",
+    "target date",
+    "goal post",
+    "release marker"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 19H22",
+      "closed": false
+    },
+    {
+      "d": "M8 7V19",
+      "closed": false
+    },
+    {
+      "d": "M8 7L18 7L14 11L18 15L8 15",
+      "closed": false
+    }
+  ]
+}

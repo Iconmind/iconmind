@@ -1,0 +1,42 @@
+{
+  "slug": "config",
+  "category": "devops",
+  "subcategory": "infrastructure",
+  "name": "Config",
+  "description": "The settings, as a file",
+  "tags": [
+    "settings",
+    "yaml",
+    "file"
+  ],
+  "keywords": [
+    "yaml",
+    "toml",
+    "env",
+    "dotfile",
+    "settings file"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 10H15",
+      "closed": false
+    },
+    {
+      "d": "M13 8V12",
+      "closed": false
+    },
+    {
+      "d": "M9 15H15",
+      "closed": false
+    },
+    {
+      "d": "M11 13V17",
+      "closed": false
+    }
+  ]
+}

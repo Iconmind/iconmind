@@ -1,0 +1,33 @@
+{
+  "slug": "endpoint",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "Endpoint",
+  "description": "One address something answers on",
+  "tags": [
+    "route",
+    "url",
+    "address"
+  ],
+  "aliases": [
+    "route"
+  ],
+  "keywords": [
+    "url",
+    "path",
+    "route",
+    "handler",
+    "rest"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M3 12H16",
+      "closed": false
+    },
+    {
+      "d": "M17 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "cross-encoder",
+  "category": "rag",
+  "subcategory": "ranking",
+  "name": "Cross-encoder",
+  "description": "Judges the pair together, not apart",
+  "tags": [
+    "pairwise",
+    "rerank",
+    "score"
+  ],
+  "keywords": [
+    "pairwise",
+    "rerank",
+    "relevance model",
+    "joint scoring"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M2 8H8",
+      "closed": false
+    },
+    {
+      "d": "M2 16H8",
+      "closed": false
+    },
+    {
+      "d": "M8 8L12 12",
+      "closed": false
+    },
+    {
+      "d": "M8 16L12 12",
+      "closed": false
+    },
+    {
+      "d": "M12 12H22",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "file-storage",
+  "category": "cloud",
+  "subcategory": "storage",
+  "name": "File storage",
+  "description": "Files kept somewhere with room",
+  "tags": [
+    "bucket",
+    "blob",
+    "keep"
+  ],
+  "aliases": [
+    "blob-storage"
+  ],
+  "keywords": [
+    "object storage",
+    "bucket",
+    "s3",
+    "blob",
+    "files at rest"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 10A2 2 0 0 1 4 8H20A2 2 0 0 1 22 10V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M6 4H18",
+      "closed": false
+    },
+    {
+      "d": "M6 13H12",
+      "closed": false
+    },
+    {
+      "d": "M6 16H15",
+      "closed": false
+    }
+  ]
+}

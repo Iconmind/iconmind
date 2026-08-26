@@ -1,0 +1,49 @@
+{
+  "slug": "runbook",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Runbook",
+  "description": "The written steps for when it breaks",
+  "tags": [
+    "procedure",
+    "steps",
+    "playbook"
+  ],
+  "aliases": [
+    "playbook"
+  ],
+  "keywords": [
+    "procedure",
+    "on-call",
+    "sop",
+    "checklist",
+    "recovery"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M8 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 9H15",
+      "closed": false
+    },
+    {
+      "d": "M8 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 13H15",
+      "closed": false
+    },
+    {
+      "d": "M10 16L12 18L10 20",
+      "closed": false
+    }
+  ]
+}

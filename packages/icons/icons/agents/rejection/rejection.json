@@ -1,0 +1,38 @@
+{
+  "slug": "rejection",
+  "category": "agents",
+  "subcategory": "reflection",
+  "name": "Rejection",
+  "description": "That step did not pass",
+  "tags": [
+    "refuse",
+    "fail",
+    "discard"
+  ],
+  "keywords": [
+    "refused",
+    "failed",
+    "discard",
+    "retry",
+    "invalid"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M2.5 12a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12H15",
+      "closed": false
+    },
+    {
+      "d": "M16 10L21 15",
+      "closed": false
+    },
+    {
+      "d": "M21 10L16 15",
+      "closed": false
+    }
+  ]
+}

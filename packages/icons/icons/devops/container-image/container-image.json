@@ -1,0 +1,34 @@
+{
+  "slug": "container-image",
+  "category": "devops",
+  "subcategory": "container",
+  "name": "Container image",
+  "description": "The thing a container is started from",
+  "tags": [
+    "template",
+    "layers",
+    "immutable"
+  ],
+  "keywords": [
+    "docker image",
+    "layers",
+    "tag",
+    "registry",
+    "immutable"
+  ],
+  "family": "grid",
+  "shapes": [
+    {
+      "d": "M3 4.5A2.5 2.5 0 0 1 5.5 2H18.5A2.5 2.5 0 0 1 21 4.5V4.5A2.5 2.5 0 0 1 18.5 7H5.5A2.5 2.5 0 0 1 3 4.5Z",
+      "closed": true
+    },
+    {
+      "d": "M3 12.5A2.5 2.5 0 0 1 5.5 10H18.5A2.5 2.5 0 0 1 21 12.5V12.5A2.5 2.5 0 0 1 18.5 15H5.5A2.5 2.5 0 0 1 3 12.5Z",
+      "closed": true
+    },
+    {
+      "d": "M3 20A2 2 0 0 1 5 18H19A2 2 0 0 1 21 20V20A2 2 0 0 1 19 22H5A2 2 0 0 1 3 20Z",
+      "closed": true
+    }
+  ]
+}

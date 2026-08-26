@@ -1,0 +1,33 @@
+{
+  "slug": "cost-per-request",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Cost per request",
+  "description": "What one call works out at",
+  "tags": [
+    "unit",
+    "rate",
+    "spend"
+  ],
+  "keywords": [
+    "unit economics",
+    "per call",
+    "amortised",
+    "margin"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M3 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 8L14 14",
+      "closed": false
+    },
+    {
+      "d": "M12 17a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    }
+  ]
+}

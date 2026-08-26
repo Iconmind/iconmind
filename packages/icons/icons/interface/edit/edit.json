@@ -1,0 +1,29 @@
+{
+  "slug": "edit",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Edit",
+  "description": "Change it",
+  "tags": [
+    "pencil",
+    "write",
+    "modify"
+  ],
+  "aliases": [
+    "pencil"
+  ],
+  "keywords": [
+    "write",
+    "modify",
+    "compose",
+    "rename",
+    "draft"
+  ],
+  "family": "mark",
+  "shapes": [
+    {
+      "d": "M5 19L5 15L16 4L20 8L9 19Z",
+      "closed": true
+    }
+  ]
+}

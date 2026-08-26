@@ -1,0 +1,33 @@
+{
+  "slug": "shield-check",
+  "category": "security",
+  "subcategory": "policy",
+  "name": "Shield check",
+  "description": "It passed the policy",
+  "tags": [
+    "safe",
+    "verified",
+    "compliant"
+  ],
+  "aliases": [
+    "verified"
+  ],
+  "keywords": [
+    "compliant",
+    "approved",
+    "secure",
+    "passed",
+    "audit"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M9 11L11 13L15 9",
+      "closed": false
+    }
+  ]
+}

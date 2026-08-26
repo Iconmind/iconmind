@@ -1,0 +1,38 @@
+{
+  "slug": "filter-metadata",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Metadata filter",
+  "description": "Narrow it before you search",
+  "tags": [
+    "facet",
+    "restrict",
+    "tags"
+  ],
+  "keywords": [
+    "facet",
+    "where clause",
+    "pre-filter",
+    "namespace",
+    "tags"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M9 4L3 4L10 11L10 18L14 18L14 11L21 4L15 4",
+      "closed": false
+    },
+    {
+      "d": "M5 20a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 20a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 20a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

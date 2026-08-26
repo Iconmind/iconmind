@@ -1,0 +1,34 @@
+{
+  "slug": "compile",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Compile",
+  "description": "Source turned into something that runs",
+  "tags": [
+    "build",
+    "transform",
+    "binary"
+  ],
+  "keywords": [
+    "transpile",
+    "bundle",
+    "binary",
+    "translate",
+    "assemble"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M10 4L4 10L10 16",
+      "closed": false
+    },
+    {
+      "d": "M12 13H21",
+      "closed": false
+    },
+    {
+      "d": "M18 10L21 13L18 16",
+      "closed": false
+    }
+  ]
+}

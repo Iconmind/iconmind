@@ -1,0 +1,32 @@
+{
+  "slug": "arrow-left",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Arrow left",
+  "description": "That way, back",
+  "tags": [
+    "left",
+    "back",
+    "west"
+  ],
+  "aliases": [
+    "back"
+  ],
+  "keywords": [
+    "west",
+    "previous",
+    "return",
+    "backward"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M4 12H20",
+      "closed": false
+    },
+    {
+      "d": "M9 7L4 12L9 17",
+      "closed": false
+    }
+  ]
+}

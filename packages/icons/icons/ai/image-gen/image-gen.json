@@ -1,0 +1,34 @@
+{
+  "slug": "image-gen",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Image generation",
+  "description": "A picture made rather than taken",
+  "tags": [
+    "generate",
+    "diffusion",
+    "create"
+  ],
+  "keywords": [
+    "diffusion",
+    "text to image",
+    "midjourney",
+    "render",
+    "create"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H18A3 3 0 0 1 21 7V17A3 3 0 0 1 18 20H6A3 3 0 0 1 3 17V7A3 3 0 0 1 6 4H10",
+      "closed": true
+    },
+    {
+      "d": "M6 17L10 13L14 17L19 12",
+      "closed": false
+    },
+    {
+      "d": "M8 8L10 10L8 12L6 10Z",
+      "closed": true
+    }
+  ]
+}

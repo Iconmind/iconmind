@@ -1,0 +1,44 @@
+{
+  "slug": "container-file",
+  "category": "devops",
+  "subcategory": "container",
+  "name": "Container file",
+  "description": "The file that says how to build the image",
+  "tags": [
+    "dockerfile",
+    "recipe",
+    "build"
+  ],
+  "aliases": [
+    "dockerfile"
+  ],
+  "keywords": [
+    "dockerfile",
+    "containerfile",
+    "image recipe",
+    "build"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L9 3L6 6L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 11H16",
+      "closed": false
+    },
+    {
+      "d": "M9 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 15H16",
+      "closed": false
+    }
+  ]
+}

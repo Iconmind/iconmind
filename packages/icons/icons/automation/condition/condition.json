@@ -1,0 +1,37 @@
+{
+  "slug": "condition",
+  "category": "automation",
+  "subcategory": "condition",
+  "name": "Condition",
+  "description": "The point where the path splits",
+  "tags": [
+    "branch",
+    "if",
+    "decision"
+  ],
+  "aliases": [
+    "decision"
+  ],
+  "keywords": [
+    "if",
+    "branch",
+    "switch",
+    "rule",
+    "gate"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M12 4L18 10L12 16L6 10Z",
+      "closed": true
+    },
+    {
+      "d": "M18 10H21",
+      "closed": false
+    },
+    {
+      "d": "M3 10H6",
+      "closed": false
+    }
+  ]
+}

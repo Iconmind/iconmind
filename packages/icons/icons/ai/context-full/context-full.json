@@ -1,0 +1,41 @@
+{
+  "slug": "context-full",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Context full",
+  "description": "There is no room left in the window",
+  "tags": [
+    "limit",
+    "capacity",
+    "overflow"
+  ],
+  "keywords": [
+    "overflow",
+    "max tokens",
+    "truncated",
+    "at capacity"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M8 6L5 6L5 18L8 18",
+      "closed": false
+    },
+    {
+      "d": "M16 6L19 6L19 18L16 18",
+      "closed": false
+    },
+    {
+      "d": "M9 9V15",
+      "closed": false
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    },
+    {
+      "d": "M15 9V15",
+      "closed": false
+    }
+  ]
+}

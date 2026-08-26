@@ -1,0 +1,41 @@
+{
+  "slug": "widget",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Widget",
+  "description": "A small thing that shows one thing",
+  "tags": [
+    "tile",
+    "card",
+    "mini"
+  ],
+  "keywords": [
+    "dashboard widget",
+    "tile",
+    "small card",
+    "at a glance"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H12A2 2 0 0 1 14 4V12A2 2 0 0 1 12 14H4A2 2 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M17 4.5A2.5 2.5 0 0 1 19.5 2H19.5A2.5 2.5 0 0 1 22 4.5V4.5A2.5 2.5 0 0 1 19.5 7H19.5A2.5 2.5 0 0 1 17 4.5Z",
+      "closed": true
+    },
+    {
+      "d": "M17 11.5A2.5 2.5 0 0 1 19.5 9H19.5A2.5 2.5 0 0 1 22 11.5V11.5A2.5 2.5 0 0 1 19.5 14H19.5A2.5 2.5 0 0 1 17 11.5Z",
+      "closed": true
+    },
+    {
+      "d": "M2 19.5A2.5 2.5 0 0 1 4.5 17H11.5A2.5 2.5 0 0 1 14 19.5V19.5A2.5 2.5 0 0 1 11.5 22H4.5A2.5 2.5 0 0 1 2 19.5Z",
+      "closed": true
+    },
+    {
+      "d": "M17 19.5A2.5 2.5 0 0 1 19.5 17H19.5A2.5 2.5 0 0 1 22 19.5V19.5A2.5 2.5 0 0 1 19.5 22H19.5A2.5 2.5 0 0 1 17 19.5Z",
+      "closed": true
+    }
+  ]
+}

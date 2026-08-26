@@ -1,0 +1,42 @@
+{
+  "slug": "agent-config",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Agent config",
+  "description": "How this agent is set up",
+  "tags": [
+    "settings",
+    "options",
+    "tuning"
+  ],
+  "keywords": [
+    "settings",
+    "options",
+    "parameters",
+    "setup",
+    "profile"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M8 10H16",
+      "closed": false
+    },
+    {
+      "d": "M14 8V12",
+      "closed": false
+    },
+    {
+      "d": "M8 15H16",
+      "closed": false
+    },
+    {
+      "d": "M10 13V17",
+      "closed": false
+    }
+  ]
+}

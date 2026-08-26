@@ -1,0 +1,45 @@
+{
+  "slug": "branch-git",
+  "category": "devtools",
+  "subcategory": "version-control",
+  "name": "Branch",
+  "description": "A line of work split off from another",
+  "tags": [
+    "git",
+    "fork",
+    "version"
+  ],
+  "aliases": [
+    "branch"
+  ],
+  "keywords": [
+    "git",
+    "fork",
+    "merge",
+    "commit",
+    "version control"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M5 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 8.5V15.5",
+      "closed": false
+    },
+    {
+      "d": "M5 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 12H14.5",
+      "closed": false
+    },
+    {
+      "d": "M15 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

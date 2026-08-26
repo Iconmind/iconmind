@@ -1,0 +1,41 @@
+{
+  "slug": "spacing",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Spacing",
+  "description": "The distance between things",
+  "tags": [
+    "gap",
+    "margin",
+    "distance"
+  ],
+  "keywords": [
+    "gap",
+    "margin",
+    "padding",
+    "distance between"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M20 4V20",
+      "closed": false
+    },
+    {
+      "d": "M7 12H17",
+      "closed": false
+    },
+    {
+      "d": "M9 10L7 12L9 14",
+      "closed": false
+    },
+    {
+      "d": "M15 10L17 12L15 14",
+      "closed": false
+    }
+  ]
+}

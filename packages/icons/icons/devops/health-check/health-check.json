@@ -1,0 +1,29 @@
+{
+  "slug": "health-check",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Health check",
+  "description": "Is it still answering?",
+  "tags": [
+    "heartbeat",
+    "probe",
+    "alive"
+  ],
+  "aliases": [
+    "heartbeat"
+  ],
+  "keywords": [
+    "liveness",
+    "readiness",
+    "ping",
+    "probe",
+    "uptime"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M3 12L8 12L8 6L12 6L12 18L16 18L16 12L21 12",
+      "closed": false
+    }
+  ]
+}

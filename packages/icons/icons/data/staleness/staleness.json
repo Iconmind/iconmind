@@ -1,0 +1,38 @@
+{
+  "slug": "staleness",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Staleness",
+  "description": "How long since this was true",
+  "tags": [
+    "old",
+    "outdated",
+    "aging"
+  ],
+  "keywords": [
+    "out of date",
+    "last updated",
+    "aging data",
+    "expired",
+    "old"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 12a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 9L10 12L13 12",
+      "closed": false
+    },
+    {
+      "d": "M14 20H21",
+      "closed": false
+    },
+    {
+      "d": "M16 16H21",
+      "closed": false
+    }
+  ]
+}

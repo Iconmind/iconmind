@@ -1,0 +1,45 @@
+{
+  "slug": "aggregate",
+  "category": "data",
+  "subcategory": "transform",
+  "name": "Aggregate",
+  "description": "Many rows into one number",
+  "tags": [
+    "sum",
+    "roll-up",
+    "combine"
+  ],
+  "aliases": [
+    "rollup"
+  ],
+  "keywords": [
+    "sum",
+    "group by",
+    "count",
+    "roll up",
+    "reduce"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M3 5L10 12",
+      "closed": false
+    },
+    {
+      "d": "M3 12H10",
+      "closed": false
+    },
+    {
+      "d": "M3 19L10 12",
+      "closed": false
+    },
+    {
+      "d": "M10 12H18",
+      "closed": false
+    },
+    {
+      "d": "M15 9L18 12L15 15",
+      "closed": false
+    }
+  ]
+}

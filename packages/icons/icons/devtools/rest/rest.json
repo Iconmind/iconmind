@@ -1,0 +1,44 @@
+{
+  "slug": "rest",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "REST",
+  "description": "Verbs against addresses",
+  "tags": [
+    "http",
+    "crud",
+    "api"
+  ],
+  "keywords": [
+    "get post put delete",
+    "http api",
+    "crud"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 7A3 3 0 0 1 5 4H19A3 3 0 0 1 22 7V7A3 3 0 0 1 19 10H5A3 3 0 0 1 2 7Z",
+      "closed": true
+    },
+    {
+      "d": "M5 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 7H18",
+      "closed": false
+    },
+    {
+      "d": "M2 17A3 3 0 0 1 5 14H19A3 3 0 0 1 22 17V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M5 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 17H15",
+      "closed": false
+    }
+  ]
+}

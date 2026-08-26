@@ -1,0 +1,33 @@
+{
+  "slug": "sort-asc",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Sort ascending",
+  "description": "Smallest first",
+  "tags": [
+    "order",
+    "ascending",
+    "az"
+  ],
+  "keywords": [
+    "ascending",
+    "a-z",
+    "low to high",
+    "order by"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M4 6H10",
+      "closed": false
+    },
+    {
+      "d": "M4 12H15",
+      "closed": false
+    },
+    {
+      "d": "M4 18H20",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "settings",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Settings",
+  "description": "Change how it behaves",
+  "tags": [
+    "preferences",
+    "controls",
+    "options"
+  ],
+  "aliases": [
+    "preferences"
+  ],
+  "keywords": [
+    "options",
+    "config",
+    "gear",
+    "controls"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M4 9H20",
+      "closed": false
+    },
+    {
+      "d": "M9 7V11",
+      "closed": false
+    },
+    {
+      "d": "M4 15H20",
+      "closed": false
+    },
+    {
+      "d": "M15 13V17",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "transport",
+  "category": "mcp",
+  "subcategory": "transport",
+  "name": "Transport",
+  "description": "However the messages travel",
+  "tags": [
+    "channel",
+    "wire",
+    "carries"
+  ],
+  "keywords": [
+    "message channel",
+    "wire",
+    "how it travels"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 7.5H22",
+      "closed": false
+    },
+    {
+      "d": "M2 16.5H22",
+      "closed": false
+    },
+    {
+      "d": "M6 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

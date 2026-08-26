@@ -1,0 +1,38 @@
+{
+  "slug": "agent-working",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Agent working",
+  "description": "Busy on it now",
+  "tags": [
+    "busy",
+    "active",
+    "running"
+  ],
+  "keywords": [
+    "busy",
+    "in progress",
+    "thinking",
+    "active",
+    "running"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M4 12a8 8 0 1 0 16 0a8 8 0 1 0 -16 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 10V14",
+      "closed": false
+    },
+    {
+      "d": "M12 8V16",
+      "closed": false
+    },
+    {
+      "d": "M17 10V14",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "action-notify",
+  "category": "automation",
+  "subcategory": "action",
+  "name": "Notify action",
+  "description": "The step that tells somebody",
+  "tags": [
+    "alert",
+    "message",
+    "ping"
+  ],
+  "keywords": [
+    "push",
+    "slack",
+    "ping",
+    "notify",
+    "message step"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 12A6 6 0 0 1 18 12",
+      "closed": false
+    },
+    {
+      "d": "M6 12V16",
+      "closed": false
+    },
+    {
+      "d": "M18 12V16",
+      "closed": false
+    },
+    {
+      "d": "M4 16H20",
+      "closed": false
+    },
+    {
+      "d": "M11 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

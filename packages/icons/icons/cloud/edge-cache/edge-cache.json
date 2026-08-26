@@ -1,0 +1,38 @@
+{
+  "slug": "edge-cache",
+  "category": "cloud",
+  "subcategory": "edge",
+  "name": "Edge cache",
+  "description": "The copy kept out there",
+  "tags": [
+    "cdn",
+    "copy",
+    "near"
+  ],
+  "keywords": [
+    "cdn cache",
+    "cached at edge",
+    "regional copy",
+    "ttl",
+    "purge"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H9A2 2 0 0 1 11 6V18A2 2 0 0 1 9 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12H15",
+      "closed": false
+    },
+    {
+      "d": "M15 10A2 2 0 0 1 17 8H20A2 2 0 0 1 22 10V14A2 2 0 0 1 20 16H17A2 2 0 0 1 15 14Z",
+      "closed": true
+    },
+    {
+      "d": "M17 12H20",
+      "closed": false
+    }
+  ]
+}

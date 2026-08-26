@@ -1,0 +1,41 @@
+{
+  "slug": "trigger-event",
+  "category": "automation",
+  "subcategory": "trigger",
+  "name": "Event trigger",
+  "description": "Something happened, so this starts",
+  "tags": [
+    "on-event",
+    "fire",
+    "start"
+  ],
+  "keywords": [
+    "on event",
+    "fired by",
+    "reactive",
+    "when x happens"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11.54 8.46A5 5 0 0 1 11.54 15.54",
+      "closed": false
+    },
+    {
+      "d": "M13.66 6.34A8 8 0 0 1 13.66 17.66",
+      "closed": false
+    },
+    {
+      "d": "M16 12H20",
+      "closed": false
+    },
+    {
+      "d": "M17 9L20 12L17 15",
+      "closed": false
+    }
+  ]
+}

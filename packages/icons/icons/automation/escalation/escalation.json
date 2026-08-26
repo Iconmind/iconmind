@@ -1,0 +1,30 @@
+{
+  "slug": "escalation",
+  "category": "automation",
+  "subcategory": "human-loop",
+  "name": "Escalation",
+  "description": "Up to somebody more senior",
+  "tags": [
+    "raise",
+    "steps",
+    "up"
+  ],
+  "keywords": [
+    "escalate",
+    "raise",
+    "tier 2",
+    "on-call",
+    "severity"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M3 19L8 19L8 14L13 14L13 9L19 9",
+      "closed": false
+    },
+    {
+      "d": "M16 6L19 9L16 12",
+      "closed": false
+    }
+  ]
+}

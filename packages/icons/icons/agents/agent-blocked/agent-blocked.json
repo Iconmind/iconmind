@@ -1,0 +1,33 @@
+{
+  "slug": "agent-blocked",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Agent blocked",
+  "description": "It cannot go on",
+  "tags": [
+    "stuck",
+    "waiting",
+    "barred"
+  ],
+  "aliases": [
+    "blocked"
+  ],
+  "keywords": [
+    "stuck",
+    "deadlock",
+    "waiting on",
+    "barred",
+    "held"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M6 18L18 6",
+      "closed": false
+    }
+  ]
+}

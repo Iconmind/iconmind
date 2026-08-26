@@ -1,0 +1,34 @@
+{
+  "slug": "container-run",
+  "category": "devops",
+  "subcategory": "container",
+  "name": "Container running",
+  "description": "It is up",
+  "tags": [
+    "running",
+    "live",
+    "up"
+  ],
+  "keywords": [
+    "running",
+    "healthy",
+    "up",
+    "started",
+    "live"
+  ],
+  "family": "grid",
+  "shapes": [
+    {
+      "d": "M3 8A2 2 0 0 1 5 6H19A2 2 0 0 1 21 8V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M6 6V20",
+      "closed": false
+    },
+    {
+      "d": "M11 9L15 13L11 17",
+      "closed": false
+    }
+  ]
+}

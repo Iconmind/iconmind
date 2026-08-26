@@ -1,0 +1,38 @@
+{
+  "slug": "gradient",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Gradient",
+  "description": "Which way is downhill",
+  "tags": [
+    "slope",
+    "descent",
+    "derivative"
+  ],
+  "keywords": [
+    "descent",
+    "backprop",
+    "slope",
+    "derivative",
+    "step"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M6 6L11 11L16 16",
+      "closed": false
+    },
+    {
+      "d": "M12 16L16 16L16 12",
+      "closed": false
+    }
+  ]
+}

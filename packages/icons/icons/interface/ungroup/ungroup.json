@@ -1,0 +1,32 @@
+{
+  "slug": "ungroup",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Ungroup",
+  "description": "Let them be separate again",
+  "tags": [
+    "split",
+    "apart",
+    "release"
+  ],
+  "keywords": [
+    "break group",
+    "separate",
+    "apart again"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H12A2 2 0 0 1 14 4V12A2 2 0 0 1 12 14H4A2 2 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M17 19.5A2.5 2.5 0 0 1 19.5 17H19.5A2.5 2.5 0 0 1 22 19.5V19.5A2.5 2.5 0 0 1 19.5 22H19.5A2.5 2.5 0 0 1 17 19.5Z",
+      "closed": true
+    },
+    {
+      "d": "M16 16L13.5 13.5",
+      "closed": false
+    }
+  ]
+}

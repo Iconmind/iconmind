@@ -1,0 +1,37 @@
+{
+  "slug": "distribute",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Distribute",
+  "description": "Spread them evenly",
+  "tags": [
+    "space",
+    "align",
+    "even"
+  ],
+  "keywords": [
+    "even spacing",
+    "align",
+    "arrange",
+    "justify"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M3 4V20",
+      "closed": false
+    },
+    {
+      "d": "M21 4V20",
+      "closed": false
+    },
+    {
+      "d": "M6 10A2 2 0 0 1 8 8H8A2 2 0 0 1 10 10V14A2 2 0 0 1 8 16H8A2 2 0 0 1 6 14Z",
+      "closed": true
+    },
+    {
+      "d": "M14 10A2 2 0 0 1 16 8H16A2 2 0 0 1 18 10V14A2 2 0 0 1 16 16H16A2 2 0 0 1 14 14Z",
+      "closed": true
+    }
+  ]
+}

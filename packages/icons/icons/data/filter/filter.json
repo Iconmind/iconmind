@@ -1,0 +1,27 @@
+{
+  "slug": "filter",
+  "category": "data",
+  "subcategory": "transform",
+  "name": "Filter",
+  "description": "Keep only what matches",
+  "tags": [
+    "funnel",
+    "narrow",
+    "query"
+  ],
+  "aliases": [
+    "funnel"
+  ],
+  "keywords": [
+    "narrow",
+    "where",
+    "refine"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M9 5L3 5L10 12L10 19L14 19L14 12L21 5L15 5",
+      "closed": true
+    }
+  ]
+}

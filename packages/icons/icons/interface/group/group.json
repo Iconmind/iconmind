@@ -1,0 +1,46 @@
+{
+  "slug": "group",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Group",
+  "description": "Treat these as one",
+  "tags": [
+    "combine",
+    "select",
+    "bind"
+  ],
+  "keywords": [
+    "combine",
+    "selection",
+    "bind",
+    "container",
+    "merge objects"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M3 9L3 3L9 3",
+      "closed": false
+    },
+    {
+      "d": "M15 3L21 3L21 9",
+      "closed": false
+    },
+    {
+      "d": "M21 15L21 21L15 21",
+      "closed": false
+    },
+    {
+      "d": "M9 21L3 21L3 15",
+      "closed": false
+    },
+    {
+      "d": "M6 10A2 2 0 0 1 8 8H8A2 2 0 0 1 10 10V14A2 2 0 0 1 8 16H8A2 2 0 0 1 6 14Z",
+      "closed": true
+    },
+    {
+      "d": "M14 10A2 2 0 0 1 16 8H16A2 2 0 0 1 18 10V14A2 2 0 0 1 16 16H16A2 2 0 0 1 14 14Z",
+      "closed": true
+    }
+  ]
+}

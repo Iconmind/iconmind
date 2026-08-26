@@ -1,0 +1,33 @@
+{
+  "slug": "f1",
+  "category": "ai",
+  "subcategory": "evaluation",
+  "name": "F1 score",
+  "description": "Precision and recall, forced to agree",
+  "tags": [
+    "harmonic",
+    "balance",
+    "both"
+  ],
+  "keywords": [
+    "f1",
+    "harmonic mean",
+    "precision recall",
+    "balanced score"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 10.5V13.5",
+      "closed": false
+    }
+  ]
+}

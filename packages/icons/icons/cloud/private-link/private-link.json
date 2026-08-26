@@ -1,0 +1,37 @@
+{
+  "slug": "private-link",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Private link",
+  "description": "A connection that never leaves the network",
+  "tags": [
+    "private",
+    "peering",
+    "secure"
+  ],
+  "keywords": [
+    "vpc peering",
+    "private endpoint",
+    "internal",
+    "no internet"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M2 12H8",
+      "closed": false
+    },
+    {
+      "d": "M8.5 10.5A2 2 0 0 1 10.5 8.5H13.5A2 2 0 0 1 15.5 10.5V13.5A2 2 0 0 1 13.5 15.5H10.5A2 2 0 0 1 8.5 13.5Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 8.5A2.5 2.5 0 0 1 14.5 8.5",
+      "closed": false
+    },
+    {
+      "d": "M16 12H22",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "tokenizer",
+  "category": "ai",
+  "subcategory": "token",
+  "name": "Tokenizer",
+  "description": "Splits text into the units a model reads",
+  "tags": [
+    "split",
+    "segment",
+    "encode"
+  ],
+  "keywords": [
+    "bpe",
+    "subword",
+    "vocab",
+    "encoding"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M3 9H21",
+      "closed": false
+    },
+    {
+      "d": "M3 15H9",
+      "closed": false
+    },
+    {
+      "d": "M11 15H15",
+      "closed": false
+    },
+    {
+      "d": "M17 15H21",
+      "closed": false
+    }
+  ]
+}

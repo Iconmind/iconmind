@@ -1,0 +1,41 @@
+{
+  "slug": "consensus",
+  "category": "agents",
+  "subcategory": "communication",
+  "name": "Consensus",
+  "description": "They all agree",
+  "tags": [
+    "agree",
+    "vote",
+    "quorum"
+  ],
+  "aliases": [
+    "quorum"
+  ],
+  "keywords": [
+    "vote",
+    "quorum",
+    "majority",
+    "agreement",
+    "raft"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M10 4a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 13a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

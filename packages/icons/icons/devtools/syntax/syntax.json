@@ -1,0 +1,36 @@
+{
+  "slug": "syntax",
+  "category": "devtools",
+  "subcategory": "code",
+  "name": "Syntax",
+  "description": "The rules the words obey",
+  "tags": [
+    "grammar",
+    "structure",
+    "valid"
+  ],
+  "keywords": [
+    "grammar",
+    "parse rules",
+    "valid form"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 4L4 8L8 12",
+      "closed": false
+    },
+    {
+      "d": "M16 4L20 8L16 12",
+      "closed": false
+    },
+    {
+      "d": "M4 17H12",
+      "closed": false
+    },
+    {
+      "d": "M15 17H20",
+      "closed": false
+    }
+  ]
+}

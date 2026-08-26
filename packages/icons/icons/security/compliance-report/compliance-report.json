@@ -1,0 +1,34 @@
+{
+  "slug": "compliance-report",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Compliance report",
+  "description": "The paper that says you passed",
+  "tags": [
+    "audit",
+    "attest",
+    "passed"
+  ],
+  "keywords": [
+    "soc2",
+    "audit report",
+    "attestation",
+    "evidence",
+    "passed"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M8 9H16",
+      "closed": false
+    },
+    {
+      "d": "M9 15L11 17L15 13",
+      "closed": false
+    }
+  ]
+}

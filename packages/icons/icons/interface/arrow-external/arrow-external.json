@@ -1,0 +1,29 @@
+{
+  "slug": "arrow-external",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "External arrow",
+  "description": "It opens somewhere else",
+  "tags": [
+    "out",
+    "new-tab",
+    "leave"
+  ],
+  "keywords": [
+    "open in new tab",
+    "external",
+    "leaves the app",
+    "out and up"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M4 20L20 4",
+      "closed": false
+    },
+    {
+      "d": "M10 4L20 4L20 14",
+      "closed": false
+    }
+  ]
+}

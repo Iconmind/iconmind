@@ -1,0 +1,37 @@
+{
+  "slug": "planner",
+  "category": "agents",
+  "subcategory": "planning",
+  "name": "Planner",
+  "description": "The part that works out what to do",
+  "tags": [
+    "decompose",
+    "strategy",
+    "breakdown"
+  ],
+  "keywords": [
+    "decomposition",
+    "task graph",
+    "strategy",
+    "scheduler"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M8 9H17",
+      "closed": false
+    },
+    {
+      "d": "M9 9V15",
+      "closed": false
+    },
+    {
+      "d": "M9 15H17",
+      "closed": false
+    }
+  ]
+}

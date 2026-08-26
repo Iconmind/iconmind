@@ -1,0 +1,32 @@
+{
+  "slug": "location",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Location",
+  "description": "Here, on a map",
+  "tags": [
+    "pin",
+    "place",
+    "map"
+  ],
+  "keywords": [
+    "map",
+    "place",
+    "marker",
+    "geo",
+    "address",
+    "pin"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 10A8 8 0 0 1 20 10L12 18Z",
+      "closed": true,
+      "_why": "a circle open below its widest points, closed by two runs at 45° meeting at the tip"
+    },
+    {
+      "d": "M9 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

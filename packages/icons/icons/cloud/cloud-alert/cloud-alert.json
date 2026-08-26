@@ -1,0 +1,35 @@
+{
+  "slug": "cloud-alert",
+  "category": "cloud",
+  "subcategory": "compute",
+  "name": "Cloud alert",
+  "description": "Something is wrong up there",
+  "tags": [
+    "error",
+    "degraded",
+    "attention"
+  ],
+  "keywords": [
+    "outage",
+    "degraded",
+    "quota",
+    "error",
+    "incident"
+  ],
+  "family": "cloud",
+  "shapes": [
+    {
+      "d": "M4 18A4 4 0 0 1 6 10.5A5 5 0 0 1 15.5 9A5.5 5.5 0 0 1 20 18Z",
+      "closed": true,
+      "_why": "three lobes, each an arc whose radius is set by the chord it spans — 4 across 7.76, 5 across 9.62, 5.5 across 10.06 — which no constructor takes as an argument"
+    },
+    {
+      "d": "M12 9V12",
+      "closed": false
+    },
+    {
+      "d": "M11 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

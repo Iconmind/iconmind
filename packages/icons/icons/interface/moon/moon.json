@@ -1,0 +1,30 @@
+{
+  "slug": "moon",
+  "category": "interface",
+  "subcategory": "state",
+  "name": "Moon",
+  "description": "Night, or the dark theme",
+  "tags": [
+    "night",
+    "dark",
+    "sleep"
+  ],
+  "aliases": [
+    "dark-mode"
+  ],
+  "keywords": [
+    "night",
+    "dark mode",
+    "theme",
+    "sleep",
+    "crescent"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M18 3A10 10 0 1 0 18 21A12 12 0 0 1 18 3Z",
+      "closed": true,
+      "_why": "a crescent: two arcs on the same chord of 18, one of radius 10 the long way round and one of radius 12 back, which is the only way to bound a lune"
+    }
+  ]
+}

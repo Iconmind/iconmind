@@ -1,0 +1,34 @@
+{
+  "slug": "gdpr",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "GDPR",
+  "description": "A record about a person, and the rules for it",
+  "tags": [
+    "privacy",
+    "personal",
+    "regulation"
+  ],
+  "keywords": [
+    "privacy",
+    "personal data",
+    "regulation",
+    "dsar",
+    "right to erasure"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M10 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 19A5 5 0 0 1 17 19",
+      "closed": false
+    }
+  ]
+}

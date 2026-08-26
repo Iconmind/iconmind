@@ -1,0 +1,41 @@
+{
+  "slug": "send-back",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Send back",
+  "description": "Return it to whoever sent it",
+  "tags": [
+    "return",
+    "bounce",
+    "reject"
+  ],
+  "aliases": [
+    "return"
+  ],
+  "keywords": [
+    "return",
+    "bounce",
+    "send to sender",
+    "reject",
+    "back"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H13A2 2 0 0 1 15 8V16A2 2 0 0 1 13 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M2 6L8.5 12.5L15 6",
+      "closed": false
+    },
+    {
+      "d": "M17 12H21",
+      "closed": false
+    },
+    {
+      "d": "M20 9L17 12L20 15",
+      "closed": false
+    }
+  ]
+}

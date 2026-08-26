@@ -1,0 +1,33 @@
+{
+  "slug": "chunk",
+  "category": "rag",
+  "subcategory": "chunking",
+  "name": "Chunk",
+  "description": "One piece of a document, sized for retrieval",
+  "tags": [
+    "piece",
+    "split",
+    "segment"
+  ],
+  "keywords": [
+    "chunking",
+    "passage",
+    "window",
+    "overlap"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V5A2 2 0 0 1 18 7H6A2 2 0 0 1 4 5Z",
+      "closed": true
+    },
+    {
+      "d": "M4 12A2 2 0 0 1 6 10H18A2 2 0 0 1 20 12V12A2 2 0 0 1 18 14H6A2 2 0 0 1 4 12Z",
+      "closed": true
+    },
+    {
+      "d": "M4 19A2 2 0 0 1 6 17H18A2 2 0 0 1 20 19V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    }
+  ]
+}

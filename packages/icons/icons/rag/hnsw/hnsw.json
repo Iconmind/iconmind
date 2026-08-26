@@ -1,0 +1,46 @@
+{
+  "slug": "hnsw",
+  "category": "rag",
+  "subcategory": "vector",
+  "name": "HNSW",
+  "description": "A graph you can search in layers",
+  "tags": [
+    "index",
+    "graph",
+    "layers"
+  ],
+  "keywords": [
+    "hierarchical",
+    "navigable",
+    "ann index",
+    "graph index",
+    "layers"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M10 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M19 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

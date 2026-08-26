@@ -1,0 +1,41 @@
+{
+  "slug": "prompt-stuffing",
+  "category": "ai",
+  "subcategory": "prompt",
+  "name": "Prompt stuffing",
+  "description": "Everything pushed in, in case it helps",
+  "tags": [
+    "overfull",
+    "cram",
+    "context"
+  ],
+  "keywords": [
+    "cram context",
+    "overfull prompt",
+    "kitchen sink",
+    "too much"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H14A2 2 0 0 1 16 8V18A2 2 0 0 1 14 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M4 10H12",
+      "closed": false
+    },
+    {
+      "d": "M4 13H12",
+      "closed": false
+    },
+    {
+      "d": "M4 16H12",
+      "closed": false
+    },
+    {
+      "d": "M18 10L21 13L18 16",
+      "closed": false
+    }
+  ]
+}

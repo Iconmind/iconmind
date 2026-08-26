@@ -1,0 +1,42 @@
+{
+  "slug": "alert-rule",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Alert rule",
+  "description": "What has to be true before it fires",
+  "tags": [
+    "condition",
+    "policy",
+    "threshold"
+  ],
+  "keywords": [
+    "condition",
+    "policy",
+    "when",
+    "threshold",
+    "definition"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 9H15",
+      "closed": false
+    },
+    {
+      "d": "M9 13H13",
+      "closed": false
+    },
+    {
+      "d": "M12 16V19",
+      "closed": false
+    },
+    {
+      "d": "M11 21a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

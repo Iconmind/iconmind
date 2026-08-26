@@ -1,0 +1,42 @@
+{
+  "slug": "date-range",
+  "category": "interface",
+  "subcategory": "time",
+  "name": "Date range",
+  "description": "From one day to another",
+  "tags": [
+    "period",
+    "between",
+    "span"
+  ],
+  "keywords": [
+    "period",
+    "from to",
+    "between dates",
+    "span",
+    "calendar range"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M2 9H22",
+      "closed": false
+    },
+    {
+      "d": "M6 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 14H16",
+      "closed": false
+    },
+    {
+      "d": "M16 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

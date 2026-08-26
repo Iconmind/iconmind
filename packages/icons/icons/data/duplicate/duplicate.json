@@ -1,0 +1,33 @@
+{
+  "slug": "duplicate",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Duplicate",
+  "description": "The same row, twice",
+  "tags": [
+    "repeat",
+    "copy",
+    "same"
+  ],
+  "keywords": [
+    "duplicate row",
+    "repeated",
+    "same record",
+    "collision"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 7A3 3 0 0 1 5 4H11A3 3 0 0 1 14 7V7A3 3 0 0 1 11 10H5A3 3 0 0 1 2 7Z",
+      "closed": true
+    },
+    {
+      "d": "M2 17A3 3 0 0 1 5 14H11A3 3 0 0 1 14 17V17A3 3 0 0 1 11 20H5A3 3 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M17 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

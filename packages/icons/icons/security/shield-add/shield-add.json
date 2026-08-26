@@ -1,0 +1,33 @@
+{
+  "slug": "shield-add",
+  "category": "security",
+  "subcategory": "policy",
+  "name": "Shield add",
+  "description": "Put a rule in place",
+  "tags": [
+    "protect",
+    "new-rule",
+    "enable"
+  ],
+  "keywords": [
+    "add policy",
+    "new rule",
+    "enable protection",
+    "harden"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M12 8V14",
+      "closed": false
+    },
+    {
+      "d": "M9 11H15",
+      "closed": false
+    }
+  ]
+}

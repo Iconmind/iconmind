@@ -1,0 +1,29 @@
+{
+  "slug": "filter-result",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Filter result",
+  "description": "What made it through",
+  "tags": [
+    "kept",
+    "matching",
+    "output"
+  ],
+  "keywords": [
+    "what remains",
+    "kept rows",
+    "matches",
+    "survived the filter"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 4L21 4L14 11L14 16L10 16L10 11Z",
+      "closed": true
+    },
+    {
+      "d": "M8 20H16",
+      "closed": false
+    }
+  ]
+}

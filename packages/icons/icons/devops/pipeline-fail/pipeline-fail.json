@@ -1,0 +1,41 @@
+{
+  "slug": "pipeline-fail",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Pipeline failure",
+  "description": "This stage did not",
+  "tags": [
+    "failed",
+    "red",
+    "broken"
+  ],
+  "keywords": [
+    "build failed",
+    "red build",
+    "job failed",
+    "broken pipeline"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H12A2 2 0 0 1 14 8V16A2 2 0 0 1 12 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M5 9L11 15",
+      "closed": false
+    },
+    {
+      "d": "M11 9L5 15",
+      "closed": false
+    },
+    {
+      "d": "M14 12H18",
+      "closed": false
+    },
+    {
+      "d": "M18 9L21 12L18 15",
+      "closed": false
+    }
+  ]
+}

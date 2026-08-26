@@ -1,0 +1,42 @@
+{
+  "slug": "agent-negotiation",
+  "category": "agents",
+  "subcategory": "communication",
+  "name": "Agent negotiation",
+  "description": "Two of them working it out",
+  "tags": [
+    "bargain",
+    "exchange",
+    "agree"
+  ],
+  "keywords": [
+    "bargain",
+    "trade",
+    "propose",
+    "counter",
+    "settle"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M6.27 9.28A3 3 0 1 1 3.73 9.28",
+      "closed": false
+    },
+    {
+      "d": "M20.27 9.28A3 3 0 1 1 17.73 9.28",
+      "closed": false
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    },
+    {
+      "d": "M11 10L9 12L11 14",
+      "closed": false
+    },
+    {
+      "d": "M13 10L15 12L13 14",
+      "closed": false
+    }
+  ]
+}

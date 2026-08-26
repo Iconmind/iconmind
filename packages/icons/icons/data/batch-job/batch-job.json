@@ -1,0 +1,42 @@
+{
+  "slug": "batch-job",
+  "category": "data",
+  "subcategory": "orchestration",
+  "name": "Batch job",
+  "description": "Work that runs on a schedule, in bulk",
+  "tags": [
+    "scheduled",
+    "bulk",
+    "run"
+  ],
+  "keywords": [
+    "nightly",
+    "cron job",
+    "bulk",
+    "etl run",
+    "scheduled"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M16.5 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H11A3 3 0 0 1 8 17V7L11 4H13.5",
+      "closed": true
+    },
+    {
+      "d": "M2 8H6",
+      "closed": false
+    },
+    {
+      "d": "M2 12H6",
+      "closed": false
+    },
+    {
+      "d": "M2 16H6",
+      "closed": false
+    },
+    {
+      "d": "M12 9L15 12L12 15",
+      "closed": false
+    }
+  ]
+}

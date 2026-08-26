@@ -1,0 +1,34 @@
+{
+  "slug": "citation-link",
+  "category": "rag",
+  "subcategory": "grounding",
+  "name": "Citation link",
+  "description": "The claim joined to what it rests on",
+  "tags": [
+    "trace",
+    "source",
+    "joined"
+  ],
+  "keywords": [
+    "footnote",
+    "reference",
+    "backlink",
+    "provenance",
+    "trace"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 14A2 2 0 0 1 4 12H9A2 2 0 0 1 11 14V18A2 2 0 0 1 9 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M13 6A2 2 0 0 1 15 4H20A2 2 0 0 1 22 6V10A2 2 0 0 1 20 12H15A2 2 0 0 1 13 10Z",
+      "closed": true
+    },
+    {
+      "d": "M11 14L13 12",
+      "closed": false
+    }
+  ]
+}

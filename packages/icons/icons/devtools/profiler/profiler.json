@@ -1,0 +1,38 @@
+{
+  "slug": "profiler",
+  "category": "devtools",
+  "subcategory": "debug",
+  "name": "Profiler",
+  "description": "Where the time actually went",
+  "tags": [
+    "flame",
+    "timing",
+    "hot"
+  ],
+  "keywords": [
+    "flamegraph",
+    "hot path",
+    "cpu time",
+    "trace",
+    "where time went"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M2 6H22",
+      "closed": false
+    },
+    {
+      "d": "M2 10H16",
+      "closed": false
+    },
+    {
+      "d": "M4 14H16",
+      "closed": false
+    },
+    {
+      "d": "M4 18H10",
+      "closed": false
+    }
+  ]
+}

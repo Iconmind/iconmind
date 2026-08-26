@@ -1,0 +1,38 @@
+{
+  "slug": "passkey",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Passkey",
+  "description": "The key is the device",
+  "tags": [
+    "webauthn",
+    "device",
+    "passwordless"
+  ],
+  "keywords": [
+    "webauthn",
+    "fido2",
+    "passwordless",
+    "device bound",
+    "biometric login"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 5A2 2 0 0 1 9 3H15A2 2 0 0 1 17 5V19A2 2 0 0 1 15 21H9A2 2 0 0 1 7 19Z",
+      "closed": true
+    },
+    {
+      "d": "M10 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 11V17",
+      "closed": false
+    },
+    {
+      "d": "M12 15H15",
+      "closed": false
+    }
+  ]
+}

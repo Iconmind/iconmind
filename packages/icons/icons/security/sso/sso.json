@@ -1,0 +1,42 @@
+{
+  "slug": "sso",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Single sign-on",
+  "description": "One key, every door",
+  "tags": [
+    "once",
+    "federated",
+    "shared"
+  ],
+  "keywords": [
+    "saml",
+    "oidc",
+    "federated",
+    "sign in once",
+    "identity provider"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 12L12 12L12 6L15 6",
+      "closed": false
+    },
+    {
+      "d": "M12 12L12 18L15 18",
+      "closed": false
+    },
+    {
+      "d": "M15 4A2 2 0 0 1 17 2H20A2 2 0 0 1 22 4V8A2 2 0 0 1 20 10H17A2 2 0 0 1 15 8Z",
+      "closed": true
+    },
+    {
+      "d": "M15 16A2 2 0 0 1 17 14H20A2 2 0 0 1 22 16V20A2 2 0 0 1 20 22H17A2 2 0 0 1 15 20Z",
+      "closed": true
+    }
+  ]
+}

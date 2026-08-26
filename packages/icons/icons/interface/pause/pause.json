@@ -1,0 +1,29 @@
+{
+  "slug": "pause",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Pause",
+  "description": "Hold it there",
+  "tags": [
+    "hold",
+    "suspend",
+    "wait"
+  ],
+  "keywords": [
+    "hold",
+    "suspend",
+    "break",
+    "interrupt"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M9 4V20",
+      "closed": false
+    },
+    {
+      "d": "M15 4V20",
+      "closed": false
+    }
+  ]
+}

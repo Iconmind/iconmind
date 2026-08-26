@@ -1,0 +1,37 @@
+{
+  "slug": "access-deny",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Access denied",
+  "description": "You may not",
+  "tags": [
+    "block",
+    "refuse",
+    "closed"
+  ],
+  "aliases": [
+    "deny"
+  ],
+  "keywords": [
+    "forbidden",
+    "403",
+    "blocked",
+    "refused",
+    "unauthorised"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M13.5 4H16A3 3 0 0 1 19 7V17A3 3 0 0 1 16 20H8A3 3 0 0 1 5 17V7A3 3 0 0 1 8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M9 10L15 16",
+      "closed": false
+    },
+    {
+      "d": "M15 10L9 16",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "citation",
+  "category": "rag",
+  "subcategory": "grounding",
+  "name": "Citation",
+  "description": "Where that came from",
+  "tags": [
+    "source",
+    "reference",
+    "quote"
+  ],
+  "aliases": [
+    "reference"
+  ],
+  "keywords": [
+    "footnote",
+    "source",
+    "attribution",
+    "quote",
+    "link"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M10 8V11",
+      "closed": false
+    },
+    {
+      "d": "M14 8V11",
+      "closed": false
+    },
+    {
+      "d": "M8 15H16",
+      "closed": false
+    }
+  ]
+}

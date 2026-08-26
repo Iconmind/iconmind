@@ -1,0 +1,33 @@
+{
+  "slug": "arrow-right",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Arrow right",
+  "description": "That way, on",
+  "tags": [
+    "right",
+    "forward",
+    "east"
+  ],
+  "aliases": [
+    "arrow"
+  ],
+  "keywords": [
+    "east",
+    "next",
+    "continue",
+    "onward",
+    "forward"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M4 12H20",
+      "closed": false
+    },
+    {
+      "d": "M15 7L20 12L15 17",
+      "closed": false
+    }
+  ]
+}

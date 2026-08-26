@@ -1,0 +1,37 @@
+{
+  "slug": "slo",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "SLO",
+  "description": "The mark you hold yourself to",
+  "tags": [
+    "objective",
+    "target",
+    "line"
+  ],
+  "keywords": [
+    "service level objective",
+    "target",
+    "error budget",
+    "99.9"
+  ],
+  "family": "meter",
+  "shapes": [
+    {
+      "d": "M3.54 13.92A9 9 0 0 1 20.46 13.92",
+      "closed": false
+    },
+    {
+      "d": "M12 17L17 12",
+      "closed": false
+    },
+    {
+      "d": "M11 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 3L19 5L22 2",
+      "closed": false
+    }
+  ]
+}

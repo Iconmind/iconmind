@@ -1,0 +1,34 @@
+{
+  "slug": "postmortem",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Postmortem",
+  "description": "What went wrong, written down afterwards",
+  "tags": [
+    "retro",
+    "writeup",
+    "learn"
+  ],
+  "keywords": [
+    "incident review",
+    "retrospective",
+    "root cause",
+    "blameless",
+    "learn"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M7 8H17",
+      "closed": false
+    },
+    {
+      "d": "M7 12L12 17L17 17",
+      "closed": false
+    }
+  ]
+}

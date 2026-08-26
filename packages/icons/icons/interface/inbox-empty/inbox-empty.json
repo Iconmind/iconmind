@@ -1,0 +1,32 @@
+{
+  "slug": "inbox-empty",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Inbox empty",
+  "description": "Nothing waiting",
+  "tags": [
+    "clear",
+    "done",
+    "none"
+  ],
+  "aliases": [
+    "inbox-zero"
+  ],
+  "keywords": [
+    "inbox zero",
+    "all clear",
+    "nothing new",
+    "caught up"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M2 13H22",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "etl",
+  "category": "data",
+  "subcategory": "transform",
+  "name": "ETL",
+  "description": "Take it out, change it, put it back",
+  "tags": [
+    "extract",
+    "transform",
+    "load"
+  ],
+  "keywords": [
+    "extract transform load",
+    "elt",
+    "batch",
+    "ingest"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M2 12H6.5",
+      "closed": false
+    },
+    {
+      "d": "M4.5 10L6.5 12L4.5 14",
+      "closed": false
+    },
+    {
+      "d": "M9 9A2 2 0 0 1 11 7H14A2 2 0 0 1 16 9V15A2 2 0 0 1 14 17H11A2 2 0 0 1 9 15Z",
+      "closed": true
+    },
+    {
+      "d": "M18.5 12H22",
+      "closed": false
+    },
+    {
+      "d": "M20 10L22 12L20 14",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "code-review",
+  "category": "devtools",
+  "subcategory": "version-control",
+  "name": "Code review",
+  "description": "Somebody read it before it landed",
+  "tags": [
+    "review",
+    "comment",
+    "approve"
+  ],
+  "keywords": [
+    "pr review",
+    "comments",
+    "lgtm",
+    "approve",
+    "feedback"
+  ],
+  "family": "chevron",
+  "shapes": [
+    {
+      "d": "M8 7L4 11L8 15",
+      "closed": false
+    },
+    {
+      "d": "M14 7L18 11L14 15",
+      "closed": false
+    },
+    {
+      "d": "M9 19L11 21L15 17",
+      "closed": false
+    }
+  ]
+}

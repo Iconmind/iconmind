@@ -1,0 +1,29 @@
+{
+  "slug": "delta",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Delta",
+  "description": "How much it moved",
+  "tags": [
+    "change",
+    "difference",
+    "since"
+  ],
+  "aliases": [
+    "change"
+  ],
+  "keywords": [
+    "difference",
+    "change",
+    "diff value",
+    "since last",
+    "shift"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 17L12 8L21 17Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "error-budget",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Error budget",
+  "description": "How much failure you are allowed",
+  "tags": [
+    "slo",
+    "allowance",
+    "spent"
+  ],
+  "keywords": [
+    "slo",
+    "sli",
+    "burn rate",
+    "allowance",
+    "remaining"
+  ],
+  "family": "capsule",
+  "shapes": [
+    {
+      "d": "M2 15A3 3 0 0 1 5 12H19A3 3 0 0 1 22 15V15A3 3 0 0 1 19 18H5A3 3 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M15 9V15",
+      "closed": false
+    },
+    {
+      "d": "M17 4L21 8",
+      "closed": false
+    },
+    {
+      "d": "M21 4L17 8",
+      "closed": false
+    }
+  ]
+}

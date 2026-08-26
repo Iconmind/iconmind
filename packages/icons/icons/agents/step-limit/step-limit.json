@@ -1,0 +1,36 @@
+{
+  "slug": "step-limit",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Step limit",
+  "description": "Only this many tries",
+  "tags": [
+    "budget",
+    "cap",
+    "iterations"
+  ],
+  "keywords": [
+    "max iterations",
+    "step budget",
+    "cap on tries"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 18H6",
+      "closed": false
+    },
+    {
+      "d": "M8 14H12",
+      "closed": false
+    },
+    {
+      "d": "M14 10H18",
+      "closed": false
+    },
+    {
+      "d": "M21 4V20",
+      "closed": false
+    }
+  ]
+}

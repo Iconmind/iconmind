@@ -1,0 +1,49 @@
+{
+  "slug": "move",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Move",
+  "description": "Drag it anywhere",
+  "tags": [
+    "drag",
+    "pan",
+    "reposition"
+  ],
+  "aliases": [
+    "drag"
+  ],
+  "keywords": [
+    "pan",
+    "reposition",
+    "handle",
+    "grab",
+    "translate"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M12 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 12H20",
+      "closed": false
+    },
+    {
+      "d": "M9 7L12 4L15 7",
+      "closed": false
+    },
+    {
+      "d": "M9 17L12 20L15 17",
+      "closed": false
+    },
+    {
+      "d": "M7 9L4 12L7 15",
+      "closed": false
+    },
+    {
+      "d": "M17 9L20 12L17 15",
+      "closed": false
+    }
+  ]
+}

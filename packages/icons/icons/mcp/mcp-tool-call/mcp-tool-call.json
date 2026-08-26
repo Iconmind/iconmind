@@ -1,0 +1,44 @@
+{
+  "slug": "mcp-tool-call",
+  "category": "mcp",
+  "subcategory": "tool",
+  "name": "MCP tool call",
+  "description": "The model asking a server to do something",
+  "tags": [
+    "invoke",
+    "request",
+    "run"
+  ],
+  "aliases": [
+    "function-call"
+  ],
+  "keywords": [
+    "invoke",
+    "tools/call",
+    "arguments",
+    "request"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 10H11A3 3 0 0 1 14 13V16A3 3 0 0 1 11 19H5A3 3 0 0 1 2 16V13L5 10Z",
+      "closed": true
+    },
+    {
+      "d": "M5 5V10",
+      "closed": false
+    },
+    {
+      "d": "M11 5V10",
+      "closed": false
+    },
+    {
+      "d": "M16 14H20",
+      "closed": false
+    },
+    {
+      "d": "M18 12L21 15L18 18",
+      "closed": false
+    }
+  ]
+}

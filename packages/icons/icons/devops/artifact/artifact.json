@@ -1,0 +1,38 @@
+{
+  "slug": "artifact",
+  "category": "devops",
+  "subcategory": "release",
+  "name": "Artifact",
+  "description": "What the build produced",
+  "tags": [
+    "output",
+    "binary",
+    "bundle"
+  ],
+  "keywords": [
+    "build output",
+    "bundle",
+    "jar",
+    "wheel",
+    "tarball"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 6H17A3 3 0 0 1 20 9V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V9A3 3 0 0 1 7 6H10",
+      "closed": true
+    },
+    {
+      "d": "M4 11H20",
+      "closed": false
+    },
+    {
+      "d": "M12 6V11",
+      "closed": false
+    },
+    {
+      "d": "M10 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

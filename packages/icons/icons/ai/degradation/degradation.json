@@ -1,0 +1,36 @@
+{
+  "slug": "degradation",
+  "category": "ai",
+  "subcategory": "evaluation",
+  "name": "Degradation",
+  "description": "It is getting worse",
+  "tags": [
+    "decline",
+    "worse",
+    "decay"
+  ],
+  "aliases": [
+    "regression"
+  ],
+  "keywords": [
+    "decline",
+    "worse over time",
+    "decay",
+    "erosion"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M6 6L11 11L15 11L20 16",
+      "closed": false
+    }
+  ]
+}

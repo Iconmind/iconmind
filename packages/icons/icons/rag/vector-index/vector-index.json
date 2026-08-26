@@ -1,0 +1,44 @@
+{
+  "slug": "vector-index",
+  "category": "rag",
+  "subcategory": "vector",
+  "name": "Vector index",
+  "description": "Embeddings, filed for finding",
+  "tags": [
+    "ann",
+    "store",
+    "filed"
+  ],
+  "keywords": [
+    "ann index",
+    "embedding store",
+    "filed vectors"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 16A2 2 0 0 1 4 14H20A2 2 0 0 1 22 16V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M5 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 4a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

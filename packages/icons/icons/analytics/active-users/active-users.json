@@ -1,0 +1,45 @@
+{
+  "slug": "active-users",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Active users",
+  "description": "How many are actually here",
+  "tags": [
+    "dau",
+    "live",
+    "count"
+  ],
+  "aliases": [
+    "dau"
+  ],
+  "keywords": [
+    "dau",
+    "mau",
+    "concurrent",
+    "online",
+    "engagement"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 20A5 5 0 0 1 13 20",
+      "closed": false
+    },
+    {
+      "d": "M15 14V20",
+      "closed": false
+    },
+    {
+      "d": "M18 10V20",
+      "closed": false
+    },
+    {
+      "d": "M21 6V20",
+      "closed": false
+    }
+  ]
+}

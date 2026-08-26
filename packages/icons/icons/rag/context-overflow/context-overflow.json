@@ -1,0 +1,34 @@
+{
+  "slug": "context-overflow",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Context overflow",
+  "description": "More than the window will hold",
+  "tags": [
+    "spill",
+    "too-much",
+    "truncate"
+  ],
+  "keywords": [
+    "too long",
+    "truncated",
+    "exceeds window",
+    "spill",
+    "dropped"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H16A2 2 0 0 1 18 8V16A2 2 0 0 1 16 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M14 9H22",
+      "closed": false
+    },
+    {
+      "d": "M14 15H22",
+      "closed": false
+    }
+  ]
+}

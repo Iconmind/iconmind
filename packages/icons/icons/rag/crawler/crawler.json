@@ -1,0 +1,42 @@
+{
+  "slug": "crawler",
+  "category": "rag",
+  "subcategory": "ingestion",
+  "name": "Crawler",
+  "description": "Goes and gets the pages",
+  "tags": [
+    "fetch",
+    "spider",
+    "web"
+  ],
+  "aliases": [
+    "spider"
+  ],
+  "keywords": [
+    "scrape",
+    "spider",
+    "fetch pages",
+    "sitemap",
+    "index web"
+  ],
+  "family": "magnifier",
+  "shapes": [
+    {
+      "d": "M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 10H17",
+      "closed": false
+    },
+    {
+      "d": "M10 3A4.5 7 0 0 0 10 17A4.5 7 0 0 0 10 3Z",
+      "closed": true,
+      "_why": "the meridian is an ellipse of 4.5 by 7"
+    },
+    {
+      "d": "M15 15L21 21",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "arrow-down",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Arrow down",
+  "description": "That way, down",
+  "tags": [
+    "down",
+    "south",
+    "decrease"
+  ],
+  "keywords": [
+    "south",
+    "decrease",
+    "fall",
+    "bottom",
+    "descend"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M12 4V20",
+      "closed": false
+    },
+    {
+      "d": "M7 15L12 20L17 15",
+      "closed": false
+    }
+  ]
+}

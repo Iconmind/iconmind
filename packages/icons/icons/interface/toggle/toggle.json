@@ -1,0 +1,32 @@
+{
+  "slug": "toggle",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Toggle",
+  "description": "On, or off",
+  "tags": [
+    "switch",
+    "boolean",
+    "flip"
+  ],
+  "aliases": [
+    "switch-ui"
+  ],
+  "keywords": [
+    "switch",
+    "on off",
+    "boolean",
+    "flip"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12A5 5 0 0 1 7 7H17A5 5 0 0 1 22 12V12A5 5 0 0 1 17 17H7A5 5 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M14 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

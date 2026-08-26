@@ -1,0 +1,42 @@
+{
+  "slug": "audio-gen",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Audio generation",
+  "description": "Sound the model made",
+  "tags": [
+    "tts",
+    "synth",
+    "new"
+  ],
+  "keywords": [
+    "tts",
+    "speech synthesis",
+    "music gen",
+    "voice",
+    "sound"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 9V15",
+      "closed": false
+    },
+    {
+      "d": "M8 5V19",
+      "closed": false
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    },
+    {
+      "d": "M18 8V14",
+      "closed": false
+    },
+    {
+      "d": "M15 11H21",
+      "closed": false
+    }
+  ]
+}

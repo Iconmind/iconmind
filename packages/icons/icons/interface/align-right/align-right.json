@@ -1,0 +1,33 @@
+{
+  "slug": "align-right",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Align right",
+  "description": "Flush against the right",
+  "tags": [
+    "text",
+    "flush",
+    "ragged"
+  ],
+  "keywords": [
+    "justify right",
+    "ragged left",
+    "text align",
+    "end"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M3 6H21",
+      "closed": false
+    },
+    {
+      "d": "M10 12H21",
+      "closed": false
+    },
+    {
+      "d": "M6 18H21",
+      "closed": false
+    }
+  ]
+}

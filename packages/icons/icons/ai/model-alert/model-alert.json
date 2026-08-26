@@ -1,0 +1,33 @@
+{
+  "slug": "model-alert",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Model alert",
+  "description": "Something is wrong with this model",
+  "tags": [
+    "warning",
+    "drift",
+    "problem"
+  ],
+  "keywords": [
+    "drift",
+    "degraded",
+    "error",
+    "attention"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M12 8V13",
+      "closed": false
+    },
+    {
+      "d": "M11 16a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

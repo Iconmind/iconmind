@@ -1,0 +1,41 @@
+{
+  "slug": "sparse-search",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Sparse search",
+  "description": "Match the words, not the meaning",
+  "tags": [
+    "keyword",
+    "lexical",
+    "exact"
+  ],
+  "keywords": [
+    "keyword search",
+    "lexical",
+    "bm25 family",
+    "exact terms"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 6H9",
+      "closed": false
+    },
+    {
+      "d": "M15 6H21",
+      "closed": false
+    },
+    {
+      "d": "M9 11H15",
+      "closed": false
+    },
+    {
+      "d": "M3 16H9",
+      "closed": false
+    },
+    {
+      "d": "M15 16H21",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "metric-point",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Metric point",
+  "description": "One reading, at one moment",
+  "tags": [
+    "sample",
+    "datum",
+    "dot"
+  ],
+  "keywords": [
+    "data point",
+    "one reading",
+    "sample at time"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M4 3V21",
+      "closed": false
+    },
+    {
+      "d": "M4 21H22",
+      "closed": false
+    },
+    {
+      "d": "M11 11a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 14V18",
+      "closed": false
+    }
+  ]
+}

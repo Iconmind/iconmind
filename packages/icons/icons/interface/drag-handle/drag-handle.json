@@ -1,0 +1,49 @@
+{
+  "slug": "drag-handle",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Drag handle",
+  "description": "The part you take hold of",
+  "tags": [
+    "grip",
+    "move",
+    "reorder"
+  ],
+  "aliases": [
+    "grip"
+  ],
+  "keywords": [
+    "grip",
+    "reorder",
+    "handle",
+    "move",
+    "drag"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

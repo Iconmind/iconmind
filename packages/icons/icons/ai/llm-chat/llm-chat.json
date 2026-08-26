@@ -1,0 +1,30 @@
+{
+  "slug": "llm-chat",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "LLM chat",
+  "description": "The model, talking",
+  "tags": [
+    "conversation",
+    "reply",
+    "bubble"
+  ],
+  "keywords": [
+    "chat",
+    "conversation",
+    "assistant reply",
+    "turn",
+    "dialogue"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M12 4H19A3 3 0 0 1 22 7V13A3 3 0 0 1 19 16H5A3 3 0 0 1 2 13V7L5 4Z",
+      "closed": true
+    },
+    {
+      "d": "M7 16L7 21L12 16",
+      "closed": false
+    }
+  ]
+}

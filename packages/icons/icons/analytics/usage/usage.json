@@ -1,0 +1,41 @@
+{
+  "slug": "usage",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Usage",
+  "description": "How much of it is being used",
+  "tags": [
+    "consumption",
+    "meter",
+    "load"
+  ],
+  "aliases": [
+    "consumption"
+  ],
+  "keywords": [
+    "consumption",
+    "utilisation",
+    "how much",
+    "load",
+    "meter"
+  ],
+  "family": "meter",
+  "shapes": [
+    {
+      "d": "M2 12A3 3 0 0 1 5 9H19A3 3 0 0 1 22 12V12A3 3 0 0 1 19 15H5A3 3 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M5 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

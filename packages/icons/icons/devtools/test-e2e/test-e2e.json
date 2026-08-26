@@ -1,0 +1,38 @@
+{
+  "slug": "test-e2e",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "End-to-end test",
+  "description": "The whole way through, checked",
+  "tags": [
+    "journey",
+    "full",
+    "integration"
+  ],
+  "keywords": [
+    "e2e",
+    "integration",
+    "user journey",
+    "full path",
+    "playwright"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H7A2 2 0 0 1 9 8V12A2 2 0 0 1 7 14H4A2 2 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M9 10H13",
+      "closed": false
+    },
+    {
+      "d": "M13 8A2 2 0 0 1 15 6H18A2 2 0 0 1 20 8V12A2 2 0 0 1 18 14H15A2 2 0 0 1 13 12Z",
+      "closed": true
+    },
+    {
+      "d": "M15 16L17 18L21 14",
+      "closed": false
+    }
+  ]
+}

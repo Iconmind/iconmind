@@ -1,0 +1,51 @@
+{
+  "name": "iconmind",
+  "private": true,
+  "packageManager": "pnpm@10.32.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "typecheck": "turbo build && tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "icons:validate": "tsx scripts/validate/run.ts",
+    "icons:optimize": "tsx scripts/optimize/run.ts",
+    "icons:duplicates": "tsx scripts/validate/duplicates.ts",
+    "icons:scale": "tsx scripts/review/scale.mts",
+    "icons:generate": "tsx scripts/generate/metadata.ts && tsx scripts/generate/components.ts && tsx scripts/generate/sprite.ts && tsx scripts/generate/search-index.ts && tsx scripts/generate/cell-bundles.ts",
+    "icons:new": "tsx scripts/generate/new-icon.ts",
+    "changeset": "changeset",
+    "release": "turbo build && changeset publish",
+    "icons:draft": "tsx scripts/validate/run.ts --files",
+    "icons:preview": "tsx scripts/generate/previews.ts",
+    "icons:metadata": "tsx scripts/generate/metadata.ts",
+    "icons:index": "tsx scripts/generate/search-index.ts",
+    "size": "size-limit",
+    "icons:handwritten": "tsx scripts/validate/handwritten.ts",
+    "icons:bundles": "tsx scripts/generate/cell-bundles.ts",
+    "icons:build": "tsx scripts/draw/run.ts",
+    "icons:generate:components": "tsx scripts/generate/components.ts"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.7",
+    "@resvg/resvg-js": "^2.6.2",
+    "@size-limit/preset-small-lib": "^13.0.3",
+    "@types/node": "^24.10.1",
+    "@types/pngjs": "^6.0.5",
+    "pixelmatch": "^7.2.0",
+    "pngjs": "^7.0.0",
+    "size-limit": "^13.0.3",
+    "svgo": "^4.0.2",
+    "tsx": "^4.20.6",
+    "turbo": "^2.5.8",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  },
+  "dependencies": {
+    "@iconmind/shared": "workspace:*"
+  }
+}

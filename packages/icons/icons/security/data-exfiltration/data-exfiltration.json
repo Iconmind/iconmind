@@ -1,0 +1,37 @@
+{
+  "slug": "data-exfiltration",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Data exfiltration",
+  "description": "It left, and it should not have",
+  "tags": [
+    "leak",
+    "stolen",
+    "out"
+  ],
+  "aliases": [
+    "data-leak"
+  ],
+  "keywords": [
+    "leak",
+    "stolen data",
+    "egress",
+    "breach",
+    "siphoned"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H12A2 2 0 0 1 14 8V16A2 2 0 0 1 12 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12H20",
+      "closed": false
+    },
+    {
+      "d": "M17 9L20 12L17 15",
+      "closed": false
+    }
+  ]
+}

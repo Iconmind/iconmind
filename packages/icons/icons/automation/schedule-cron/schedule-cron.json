@@ -1,0 +1,40 @@
+{
+  "slug": "schedule-cron",
+  "category": "automation",
+  "subcategory": "schedule",
+  "name": "Cron schedule",
+  "description": "At these minutes, on these days",
+  "tags": [
+    "timer",
+    "expression",
+    "recurring"
+  ],
+  "keywords": [
+    "cron expression",
+    "at midnight",
+    "every five minutes"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12a7 7 0 1 0 14 0a7 7 0 1 0 -14 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 8L9 12L12.5 12",
+      "closed": false
+    },
+    {
+      "d": "M19 5V9",
+      "closed": false
+    },
+    {
+      "d": "M19 11V14",
+      "closed": false
+    },
+    {
+      "d": "M19 16V19",
+      "closed": false
+    }
+  ]
+}

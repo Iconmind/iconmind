@@ -1,0 +1,38 @@
+{
+  "slug": "event-stream",
+  "category": "data",
+  "subcategory": "streaming",
+  "name": "Event stream",
+  "description": "Events arriving one after another",
+  "tags": [
+    "events",
+    "log",
+    "append"
+  ],
+  "keywords": [
+    "kafka",
+    "append-only",
+    "topic",
+    "cdc",
+    "events"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M2 12H6",
+      "closed": false
+    },
+    {
+      "d": "M8 12H12",
+      "closed": false
+    },
+    {
+      "d": "M14 12H18",
+      "closed": false
+    },
+    {
+      "d": "M19 9L22 12L19 15",
+      "closed": false
+    }
+  ]
+}

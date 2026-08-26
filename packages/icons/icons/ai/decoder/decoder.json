@@ -1,0 +1,34 @@
+{
+  "slug": "decoder",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Decoder",
+  "description": "Turns a representation back into output",
+  "tags": [
+    "expand",
+    "widen",
+    "output"
+  ],
+  "keywords": [
+    "generate",
+    "expand",
+    "detokenise",
+    "output head",
+    "autoregressive"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M20 3L14 9L14 15L20 21",
+      "closed": false
+    },
+    {
+      "d": "M3 12H11",
+      "closed": false
+    },
+    {
+      "d": "M8 9L11 12L8 15",
+      "closed": false
+    }
+  ]
+}

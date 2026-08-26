@@ -1,0 +1,38 @@
+{
+  "slug": "api-bridge",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "API bridge",
+  "description": "One system reaching into another",
+  "tags": [
+    "adapter",
+    "span",
+    "between"
+  ],
+  "keywords": [
+    "adapter",
+    "shim",
+    "proxy",
+    "translate",
+    "between systems"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 6V18",
+      "closed": false
+    },
+    {
+      "d": "M20 6V18",
+      "closed": false
+    },
+    {
+      "d": "M4 12H20",
+      "closed": false
+    },
+    {
+      "d": "M10 10L12 12L10 14",
+      "closed": false
+    }
+  ]
+}

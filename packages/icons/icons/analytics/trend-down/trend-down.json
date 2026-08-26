@@ -1,0 +1,30 @@
+{
+  "slug": "trend-down",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Trend down",
+  "description": "It is getting smaller",
+  "tags": [
+    "falling",
+    "decline",
+    "loss"
+  ],
+  "keywords": [
+    "falling",
+    "decline",
+    "down and to the right",
+    "loss",
+    "worsening"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 7L9 13L13 9L21 17",
+      "closed": false
+    },
+    {
+      "d": "M17 17L21 17L21 13",
+      "closed": false
+    }
+  ]
+}

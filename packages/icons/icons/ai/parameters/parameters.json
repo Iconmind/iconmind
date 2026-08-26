@@ -1,0 +1,39 @@
+{
+  "slug": "parameters",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Parameters",
+  "description": "The knobs you set before you run it",
+  "tags": [
+    "settings",
+    "tuning",
+    "controls"
+  ],
+  "keywords": [
+    "temperature",
+    "top-p",
+    "tuning",
+    "sliders",
+    "controls",
+    "settings"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M8 4V20",
+      "closed": false
+    },
+    {
+      "d": "M16 4V20",
+      "closed": false
+    },
+    {
+      "d": "M5.5 9H10.5",
+      "closed": false
+    },
+    {
+      "d": "M13.5 15H18.5",
+      "closed": false
+    }
+  ]
+}

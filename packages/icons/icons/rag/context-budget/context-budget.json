@@ -1,0 +1,37 @@
+{
+  "slug": "context-budget",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Context budget",
+  "description": "How much room is left in the window",
+  "tags": [
+    "room",
+    "remaining",
+    "size"
+  ],
+  "keywords": [
+    "remaining tokens",
+    "headroom",
+    "window size",
+    "capacity"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M6 8H18",
+      "closed": false
+    },
+    {
+      "d": "M6 11H14",
+      "closed": false
+    },
+    {
+      "d": "M2 14H22",
+      "closed": false
+    }
+  ]
+}

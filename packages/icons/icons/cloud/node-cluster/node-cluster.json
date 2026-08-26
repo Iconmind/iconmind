@@ -1,0 +1,45 @@
+{
+  "slug": "node-cluster",
+  "category": "cloud",
+  "subcategory": "compute",
+  "name": "Node cluster",
+  "description": "Machines acting as one",
+  "tags": [
+    "fleet",
+    "group",
+    "together"
+  ],
+  "keywords": [
+    "cluster",
+    "fleet",
+    "many as one",
+    "nodes"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M10 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 8V11",
+      "closed": false
+    },
+    {
+      "d": "M10.5 9.5L7.5 12.5",
+      "closed": false
+    },
+    {
+      "d": "M13.5 9.5L16.5 12.5",
+      "closed": false
+    }
+  ]
+}

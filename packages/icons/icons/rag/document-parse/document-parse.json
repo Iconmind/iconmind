@@ -1,0 +1,38 @@
+{
+  "slug": "document-parse",
+  "category": "rag",
+  "subcategory": "ingestion",
+  "name": "Document parse",
+  "description": "Reading the shape out of a file",
+  "tags": [
+    "structure",
+    "read",
+    "convert"
+  ],
+  "keywords": [
+    "ocr",
+    "layout",
+    "structured",
+    "convert",
+    "markdown"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M12 2L5 2L5 18L13 18",
+      "closed": false
+    },
+    {
+      "d": "M15 14H19",
+      "closed": false
+    },
+    {
+      "d": "M16 11L19 14L16 17",
+      "closed": false
+    },
+    {
+      "d": "M14 4A2 2 0 0 1 16 2H20A2 2 0 0 1 22 4V7A2 2 0 0 1 20 9H16A2 2 0 0 1 14 7Z",
+      "closed": true
+    }
+  ]
+}

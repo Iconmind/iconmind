@@ -1,0 +1,36 @@
+{
+  "slug": "deploy",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Deploy",
+  "description": "Put it where people will use it",
+  "tags": [
+    "ship",
+    "release",
+    "publish"
+  ],
+  "aliases": [
+    "ship"
+  ],
+  "keywords": [
+    "release",
+    "publish",
+    "rollout",
+    "production"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M13.5 11H17A3 3 0 0 1 20 14V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V14L7 11H10.5",
+      "closed": true
+    },
+    {
+      "d": "M12 3V8",
+      "closed": false
+    },
+    {
+      "d": "M9 6L12 3L15 6",
+      "closed": false
+    }
+  ]
+}

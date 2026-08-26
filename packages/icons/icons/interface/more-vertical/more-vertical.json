@@ -1,0 +1,36 @@
+{
+  "slug": "more-vertical",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "More vertical",
+  "description": "Other options, in a column",
+  "tags": [
+    "ellipsis",
+    "kebab",
+    "menu"
+  ],
+  "aliases": [
+    "kebab"
+  ],
+  "keywords": [
+    "overflow",
+    "context menu",
+    "dots",
+    "options"
+  ],
+  "family": "mark",
+  "shapes": [
+    {
+      "d": "M11 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

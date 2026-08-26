@@ -1,0 +1,32 @@
+{
+  "slug": "function-cloud",
+  "category": "cloud",
+  "subcategory": "serverless",
+  "name": "Cloud function",
+  "description": "One piece of code, run on demand",
+  "tags": [
+    "lambda",
+    "handler",
+    "small"
+  ],
+  "keywords": [
+    "lambda",
+    "handler",
+    "faas",
+    "trigger",
+    "invoke",
+    "function"
+  ],
+  "family": "cloud",
+  "shapes": [
+    {
+      "d": "M4 18A4 4 0 0 1 6 10.5A5 5 0 0 1 15.5 9A5.5 5.5 0 0 1 20 18Z",
+      "closed": true,
+      "_why": "three lobes, each an arc whose radius is set by the chord it spans — 4 across 7.76, 5 across 9.62, 5.5 across 10.06 — which no constructor takes as an argument"
+    },
+    {
+      "d": "M10 9L14 13L10 17",
+      "closed": false
+    }
+  ]
+}

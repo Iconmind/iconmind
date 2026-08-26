@@ -1,0 +1,33 @@
+{
+  "slug": "window",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Window",
+  "description": "One app's piece of the screen",
+  "tags": [
+    "frame",
+    "app",
+    "pane"
+  ],
+  "keywords": [
+    "app window",
+    "frame",
+    "titlebar",
+    "pane"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M2 8H22",
+      "closed": false
+    },
+    {
+      "d": "M4.5 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

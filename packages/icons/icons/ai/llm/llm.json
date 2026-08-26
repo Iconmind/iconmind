@@ -1,0 +1,39 @@
+{
+  "slug": "llm",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "LLM",
+  "description": "A large language model",
+  "tags": [
+    "language",
+    "model",
+    "generative"
+  ],
+  "aliases": [
+    "language-model"
+  ],
+  "keywords": [
+    "gpt",
+    "large language model",
+    "chatbot"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M15.5 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V8L6 4H9.5",
+      "closed": true
+    },
+    {
+      "d": "M6 9H18",
+      "closed": false
+    },
+    {
+      "d": "M6 12.5H15",
+      "closed": false
+    },
+    {
+      "d": "M6 16H12",
+      "closed": false
+    }
+  ]
+}

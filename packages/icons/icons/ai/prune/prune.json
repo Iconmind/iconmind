@@ -1,0 +1,45 @@
+{
+  "slug": "prune",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Prune",
+  "description": "Cut the part that was not earning its place",
+  "tags": [
+    "cut",
+    "drop",
+    "shrink"
+  ],
+  "aliases": [
+    "pruning"
+  ],
+  "keywords": [
+    "cut branch",
+    "drop weights",
+    "sparsity",
+    "trim",
+    "shrink"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 4V20",
+      "closed": false
+    },
+    {
+      "d": "M6 9H14",
+      "closed": false
+    },
+    {
+      "d": "M6 15H14",
+      "closed": false
+    },
+    {
+      "d": "M16 7L20 11",
+      "closed": false
+    },
+    {
+      "d": "M20 7L16 11",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "cdn",
+  "category": "cloud",
+  "subcategory": "edge",
+  "name": "CDN",
+  "description": "Copies of it, close to everyone",
+  "tags": [
+    "edge",
+    "cache",
+    "distributed"
+  ],
+  "keywords": [
+    "cache",
+    "pop",
+    "edge cache",
+    "distribution",
+    "cloudfront"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M7 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

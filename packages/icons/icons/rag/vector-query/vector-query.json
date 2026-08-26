@@ -1,0 +1,37 @@
+{
+  "slug": "vector-query",
+  "category": "rag",
+  "subcategory": "vector",
+  "name": "Vector query",
+  "description": "Asking the index what is nearby",
+  "tags": [
+    "nearest",
+    "search",
+    "knn"
+  ],
+  "keywords": [
+    "nearest neighbour",
+    "knn",
+    "similarity query",
+    "ask the index"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 9a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 13L19 19",
+      "closed": false
+    },
+    {
+      "d": "M6 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

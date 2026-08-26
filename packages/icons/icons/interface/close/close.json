@@ -1,0 +1,33 @@
+{
+  "slug": "close",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Close",
+  "description": "Dismiss it",
+  "tags": [
+    "dismiss",
+    "cancel",
+    "x"
+  ],
+  "aliases": [
+    "cancel"
+  ],
+  "keywords": [
+    "x",
+    "dismiss",
+    "exit",
+    "remove",
+    "clear"
+  ],
+  "family": "mark",
+  "shapes": [
+    {
+      "d": "M5 5L19 19",
+      "closed": false
+    },
+    {
+      "d": "M19 5L5 19",
+      "closed": false
+    }
+  ]
+}

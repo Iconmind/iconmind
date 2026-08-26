@@ -1,0 +1,30 @@
+{
+  "slug": "drift",
+  "category": "ai",
+  "subcategory": "evaluation",
+  "name": "Drift",
+  "description": "The model and the world coming apart",
+  "tags": [
+    "divergence",
+    "decay",
+    "stale"
+  ],
+  "keywords": [
+    "data drift",
+    "concept drift",
+    "degradation",
+    "diverge",
+    "stale"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M3 12L12 12L18 6",
+      "closed": false
+    },
+    {
+      "d": "M12 12L18 18",
+      "closed": false
+    }
+  ]
+}

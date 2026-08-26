@@ -1,0 +1,30 @@
+{
+  "slug": "null-check",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Null check",
+  "description": "Is anything missing?",
+  "tags": [
+    "empty",
+    "missing",
+    "blank"
+  ],
+  "keywords": [
+    "null",
+    "nan",
+    "missing values",
+    "blank",
+    "empty cell"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 9A2 2 0 0 1 6 7H18A2 2 0 0 1 20 9V15A2 2 0 0 1 18 17H6A2 2 0 0 1 4 15Z",
+      "closed": true
+    },
+    {
+      "d": "M4 18L18 4",
+      "closed": false
+    }
+  ]
+}

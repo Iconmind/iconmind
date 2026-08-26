@@ -1,0 +1,38 @@
+{
+  "slug": "foreign-key",
+  "category": "data",
+  "subcategory": "catalog",
+  "name": "Foreign key",
+  "description": "A column that points at another table",
+  "tags": [
+    "relation",
+    "reference",
+    "link"
+  ],
+  "keywords": [
+    "relation",
+    "reference",
+    "constraint",
+    "join key",
+    "fk"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H8A2 2 0 0 1 10 7V17A2 2 0 0 1 8 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M14 7A2 2 0 0 1 16 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H16A2 2 0 0 1 14 17Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12H14",
+      "closed": false
+    },
+    {
+      "d": "M4 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

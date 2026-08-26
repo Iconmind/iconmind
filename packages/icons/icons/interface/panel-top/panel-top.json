@@ -1,0 +1,32 @@
+{
+  "slug": "panel-top",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Panel top",
+  "description": "A strip across the top",
+  "tags": [
+    "header",
+    "toolbar",
+    "band"
+  ],
+  "aliases": [
+    "header"
+  ],
+  "keywords": [
+    "toolbar",
+    "app bar",
+    "banner",
+    "top bar"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M2 9H22",
+      "closed": false
+    }
+  ]
+}

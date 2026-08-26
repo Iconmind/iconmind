@@ -1,0 +1,35 @@
+{
+  "slug": "context-window",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Context window",
+  "description": "How much a model can see at once",
+  "tags": [
+    "span",
+    "window",
+    "limit"
+  ],
+  "aliases": [
+    "context"
+  ],
+  "keywords": [
+    "context length",
+    "window size",
+    "attention span"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M8 6L5 6L5 18L8 18",
+      "closed": false
+    },
+    {
+      "d": "M16 6L19 6L19 18L16 18",
+      "closed": false
+    },
+    {
+      "d": "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "build-fail",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Build fail",
+  "description": "It did not",
+  "tags": [
+    "red",
+    "broken",
+    "error"
+  ],
+  "keywords": [
+    "red build",
+    "broken",
+    "ci failure",
+    "fix the build"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V14A2 2 0 0 1 18 16H6A2 2 0 0 1 4 14Z",
+      "closed": true
+    },
+    {
+      "d": "M10 8L14 12",
+      "closed": false
+    },
+    {
+      "d": "M14 8L10 12",
+      "closed": false
+    },
+    {
+      "d": "M7 19H17",
+      "closed": false
+    }
+  ]
+}

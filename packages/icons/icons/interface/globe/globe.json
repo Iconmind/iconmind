@@ -1,0 +1,38 @@
+{
+  "slug": "globe",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Globe",
+  "description": "Everywhere, or the public internet",
+  "tags": [
+    "world",
+    "international",
+    "web"
+  ],
+  "aliases": [
+    "world"
+  ],
+  "keywords": [
+    "internet",
+    "language",
+    "region",
+    "public",
+    "www"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 12H21",
+      "closed": false
+    },
+    {
+      "d": "M12 3A6 9 0 0 0 12 21A6 9 0 0 0 12 3Z",
+      "closed": true,
+      "_why": "the meridian is an ellipse of 6 by 9"
+    }
+  ]
+}

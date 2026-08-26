@@ -1,0 +1,35 @@
+{
+  "slug": "terraform",
+  "category": "devops",
+  "subcategory": "infrastructure",
+  "name": "Terraform",
+  "description": "The world, declared in files",
+  "tags": [
+    "iac",
+    "declare",
+    "plan"
+  ],
+  "aliases": [
+    "infra-plan"
+  ],
+  "keywords": [
+    "infrastructure as code",
+    "plan apply",
+    "declared"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H8A2 2 0 0 1 10 6V18A2 2 0 0 1 8 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M14 6A2 2 0 0 1 16 4H20A2 2 0 0 1 22 6V10A2 2 0 0 1 20 12H16A2 2 0 0 1 14 10Z",
+      "closed": true
+    },
+    {
+      "d": "M14 17A2 2 0 0 1 16 15H20A2 2 0 0 1 22 17V20A2 2 0 0 1 20 22H16A2 2 0 0 1 14 20Z",
+      "closed": true
+    }
+  ]
+}

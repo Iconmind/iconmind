@@ -1,0 +1,38 @@
+{
+  "slug": "objective",
+  "category": "agents",
+  "subcategory": "planning",
+  "name": "Objective",
+  "description": "What it is trying to reach",
+  "tags": [
+    "target",
+    "aim",
+    "goal"
+  ],
+  "keywords": [
+    "target",
+    "aim",
+    "north star",
+    "what success is",
+    "intent"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M20 4L15 9",
+      "closed": false
+    },
+    {
+      "d": "M15 6L15 9L18 9",
+      "closed": false
+    }
+  ]
+}

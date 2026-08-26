@@ -1,0 +1,13 @@
+# Default owner for everything.
+*                               @iconmind/maintainers
+
+# Category owners are added here as contributors earn review rights over a domain
+# (see docs/masterplan/15-open-source-strategy.md §15.7). Keeping this file split by
+# directory is what lets the bus factor rise above one.
+/packages/icons/icons/ai/       @iconmind/maintainers
+/packages/icons/icons/agents/   @iconmind/maintainers
+/packages/icons/icons/mcp/      @iconmind/maintainers
+/packages/icons/icons/rag/      @iconmind/maintainers
+
+# The anchor set defines the visual language. Changes here need extra care.
+/packages/icons/__anchors__/    @iconmind/maintainers

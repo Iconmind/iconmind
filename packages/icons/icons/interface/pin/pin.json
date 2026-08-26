@@ -1,0 +1,34 @@
+{
+  "slug": "pin",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Pin",
+  "description": "Keep it where it is",
+  "tags": [
+    "fix",
+    "stick",
+    "keep"
+  ],
+  "keywords": [
+    "stick",
+    "keep on top",
+    "fix",
+    "tack",
+    "always show"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 5H18",
+      "closed": false
+    },
+    {
+      "d": "M9 5L9 13L12 16L15 13L15 5",
+      "closed": false
+    },
+    {
+      "d": "M12 16V21",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "agent-core",
+  "category": "agents",
+  "subcategory": "agent-core",
+  "name": "Agent core",
+  "description": "The model at the middle of an agent",
+  "tags": [
+    "kernel",
+    "engine",
+    "inner"
+  ],
+  "keywords": [
+    "kernel",
+    "engine",
+    "brain",
+    "inner loop",
+    "runtime"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M8 10A2 2 0 0 1 10 8H14A2 2 0 0 1 16 10V14A2 2 0 0 1 14 16H10A2 2 0 0 1 8 14Z",
+      "closed": true
+    }
+  ]
+}

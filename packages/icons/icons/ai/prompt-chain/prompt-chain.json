@@ -1,0 +1,33 @@
+{
+  "slug": "prompt-chain",
+  "category": "ai",
+  "subcategory": "prompt",
+  "name": "Prompt chain",
+  "description": "One prompt feeding the next",
+  "tags": [
+    "sequence",
+    "steps",
+    "linked"
+  ],
+  "keywords": [
+    "chained prompts",
+    "multi-step",
+    "sequential",
+    "pipeline of prompts"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H10A2 2 0 0 1 12 5V9A2 2 0 0 1 10 11H4A2 2 0 0 1 2 9Z",
+      "closed": true
+    },
+    {
+      "d": "M12 15A2 2 0 0 1 14 13H20A2 2 0 0 1 22 15V19A2 2 0 0 1 20 21H14A2 2 0 0 1 12 19Z",
+      "closed": true
+    },
+    {
+      "d": "M10 11L14 15",
+      "closed": false
+    }
+  ]
+}

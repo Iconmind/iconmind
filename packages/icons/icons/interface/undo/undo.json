@@ -1,0 +1,37 @@
+{
+  "slug": "undo",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Undo",
+  "description": "Put it back the way it was",
+  "tags": [
+    "back",
+    "revert",
+    "history"
+  ],
+  "aliases": [
+    "revert"
+  ],
+  "keywords": [
+    "back",
+    "rollback",
+    "history",
+    "ctrl-z",
+    "reverse"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M5 13A7 7 0 0 1 19 13",
+      "closed": false
+    },
+    {
+      "d": "M19 13V18",
+      "closed": false
+    },
+    {
+      "d": "M2 10L5 13L8 10",
+      "closed": false
+    }
+  ]
+}

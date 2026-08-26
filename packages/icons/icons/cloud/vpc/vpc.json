@@ -1,0 +1,37 @@
+{
+  "slug": "vpc",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "VPC",
+  "description": "Your own corner of their network",
+  "tags": [
+    "private",
+    "network",
+    "walled"
+  ],
+  "keywords": [
+    "virtual private cloud",
+    "own network",
+    "walled garden"
+  ],
+  "family": "cloud",
+  "shapes": [
+    {
+      "d": "M4 15A4 4 0 0 1 6 7.5A5 5 0 0 1 15.5 6A5.5 5.5 0 0 1 20 15Z",
+      "closed": true,
+      "_why": "three lobes, each an arc whose radius is set by the chord it spans — 4 across 7.76, 5 across 9.62, 5.5 across 10.06 — which no constructor takes as an argument"
+    },
+    {
+      "d": "M6 18V21",
+      "closed": false
+    },
+    {
+      "d": "M12 18V21",
+      "closed": false
+    },
+    {
+      "d": "M18 18V21",
+      "closed": false
+    }
+  ]
+}

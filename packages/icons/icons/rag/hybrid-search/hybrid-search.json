@@ -1,0 +1,38 @@
+{
+  "slug": "hybrid-search",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Hybrid search",
+  "description": "Words and meaning together",
+  "tags": [
+    "combined",
+    "fusion",
+    "both"
+  ],
+  "keywords": [
+    "rrf",
+    "fusion",
+    "lexical plus vector",
+    "combined",
+    "rerank"
+  ],
+  "family": "magnifier",
+  "shapes": [
+    {
+      "d": "M12.62 3.51A7 7 0 1 1 7.38 3.51",
+      "closed": false
+    },
+    {
+      "d": "M15 15L21 21",
+      "closed": false
+    },
+    {
+      "d": "M10 6L13 9L10 12L7 9Z",
+      "closed": true
+    },
+    {
+      "d": "M7 14H13",
+      "closed": false
+    }
+  ]
+}

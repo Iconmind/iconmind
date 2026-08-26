@@ -1,0 +1,37 @@
+{
+  "slug": "consumer",
+  "category": "data",
+  "subcategory": "streaming",
+  "name": "Consumer",
+  "description": "What takes messages off the queue",
+  "tags": [
+    "subscriber",
+    "reader",
+    "sink"
+  ],
+  "aliases": [
+    "subscriber"
+  ],
+  "keywords": [
+    "subscriber",
+    "worker",
+    "sink",
+    "poll",
+    "reads from"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 10A2 2 0 0 1 4 8H10A2 2 0 0 1 12 10V14A2 2 0 0 1 10 16H4A2 2 0 0 1 2 14Z",
+      "closed": true
+    },
+    {
+      "d": "M13 12H19",
+      "closed": false
+    },
+    {
+      "d": "M17 9L20 12L17 15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "rotate-ccw",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Rotate anticlockwise",
+  "description": "A quarter turn to the left",
+  "tags": [
+    "turn",
+    "left",
+    "spin"
+  ],
+  "keywords": [
+    "turn left",
+    "quarter turn",
+    "counterclockwise",
+    "undo rotate"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V17A3 3 0 0 1 18 20H6A3 3 0 0 1 3 17V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M12 2L9 5L12 8",
+      "closed": false
+    },
+    {
+      "d": "M11 12.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

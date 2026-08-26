@@ -1,0 +1,37 @@
+{
+  "slug": "mcp-cancel",
+  "category": "mcp",
+  "subcategory": "transport",
+  "name": "MCP cancel",
+  "description": "Stop the call that is running",
+  "tags": [
+    "abort",
+    "halt",
+    "stop"
+  ],
+  "keywords": [
+    "cancelled",
+    "abort",
+    "notifications/cancelled",
+    "halt"
+  ],
+  "family": "tower",
+  "shapes": [
+    {
+      "d": "M13.5 3H17A3 3 0 0 1 20 6V18A3 3 0 0 1 17 21H7A3 3 0 0 1 4 18V6L7 3H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 18H12",
+      "closed": false
+    },
+    {
+      "d": "M15 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8.5 9.5A2 2 0 0 1 10.5 7.5H13.5A2 2 0 0 1 15.5 9.5V12.5A2 2 0 0 1 13.5 14.5H10.5A2 2 0 0 1 8.5 12.5Z",
+      "closed": true
+    }
+  ]
+}

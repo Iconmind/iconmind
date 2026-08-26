@@ -1,0 +1,39 @@
+{
+  "slug": "materialise",
+  "category": "data",
+  "subcategory": "transform",
+  "name": "Materialise",
+  "description": "The query's answer, made a table",
+  "tags": [
+    "view",
+    "cached",
+    "solid"
+  ],
+  "aliases": [
+    "materialize"
+  ],
+  "keywords": [
+    "materialised view",
+    "made solid",
+    "precomputed"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 4L9 4L9 10L3 10",
+      "closed": false
+    },
+    {
+      "d": "M12 7L15 7",
+      "closed": false
+    },
+    {
+      "d": "M2 15A2 2 0 0 1 4 13H20A2 2 0 0 1 22 15V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M6 17H18",
+      "closed": false
+    }
+  ]
+}

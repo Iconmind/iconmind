@@ -1,0 +1,45 @@
+{
+  "slug": "tree-of-thought",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Tree of thought",
+  "description": "Several lines of thinking, one kept",
+  "tags": [
+    "branch",
+    "explore",
+    "choose"
+  ],
+  "keywords": [
+    "branching reasoning",
+    "explore paths",
+    "backtrack",
+    "search tree"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 10L12 5L17 5",
+      "closed": false
+    },
+    {
+      "d": "M7 12L17 12",
+      "closed": false
+    },
+    {
+      "d": "M7 14L12 19L17 19",
+      "closed": false
+    },
+    {
+      "d": "M17 12L21 12",
+      "closed": false
+    },
+    {
+      "d": "M19 10L21 12L19 14",
+      "closed": false
+    }
+  ]
+}

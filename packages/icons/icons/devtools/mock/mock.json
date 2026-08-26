@@ -1,0 +1,44 @@
+{
+  "slug": "mock",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Mock",
+  "description": "Stands in for the real one",
+  "tags": [
+    "fake",
+    "stub",
+    "double"
+  ],
+  "aliases": [
+    "stub"
+  ],
+  "keywords": [
+    "fake",
+    "stub",
+    "test double",
+    "stands in"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H9A2 2 0 0 1 11 6V18A2 2 0 0 1 9 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M4 9H11",
+      "closed": false
+    },
+    {
+      "d": "M15 6L22 6",
+      "closed": false
+    },
+    {
+      "d": "M15 12L22 12",
+      "closed": false
+    },
+    {
+      "d": "M15 18L22 18",
+      "closed": false
+    }
+  ]
+}

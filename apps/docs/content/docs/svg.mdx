@@ -1,0 +1,50 @@
+---
+title: Plain SVG
+description: Use the icons with no framework and no build step.
+---
+
+Every icon page on this site has a copy button for the raw file. If you would rather have
+them locally:
+
+```bash
+npm i @iconmind/icons
+```
+
+## The files
+
+```
+icons/<category>/<slug>.svg    the source, one file per icon
+dist/metadata.json             names, tags, categories, relationships
+dist/sprite.svg                every icon as a <symbol>
+```
+
+## Sprite
+
+```html
+<svg width="24" height="24"><use href="/sprite.svg#im-agent" /></svg>
+```
+
+Symbol ids are the slug prefixed with `im-`.
+
+## Inline
+
+```html
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+     fill="none" stroke="currentColor" stroke-width="2"
+     stroke-linecap="round" stroke-linejoin="round">
+  <!-- paste the paths -->
+</svg>
+```
+
+Icons inherit `currentColor`, so colour comes from CSS. Nothing in the set relies on
+colour to carry meaning — every icon has to read in monochrome.
+
+## Metadata
+
+```js
+import { getIcon, iconsIn, categories } from "@iconmind/icons";
+
+getIcon("agent");        // one icon, aliases resolved
+iconsIn("mcp");          // every icon in a category
+categories;              // categories with counts
+```

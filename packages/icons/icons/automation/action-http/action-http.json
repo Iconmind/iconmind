@@ -1,0 +1,42 @@
+{
+  "slug": "action-http",
+  "category": "automation",
+  "subcategory": "action",
+  "name": "HTTP action",
+  "description": "The step that calls something",
+  "tags": [
+    "request",
+    "call",
+    "webhook"
+  ],
+  "aliases": [
+    "webhook"
+  ],
+  "keywords": [
+    "request",
+    "post",
+    "call out",
+    "webhook",
+    "rest"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 12H21",
+      "closed": false
+    },
+    {
+      "d": "M12 3A6 9 0 0 0 12 21A6 9 0 0 0 12 3Z",
+      "closed": false,
+      "_why": "the meridian is an ellipse of 6 by 9"
+    },
+    {
+      "d": "M16 8L20 12L16 16",
+      "closed": false
+    }
+  ]
+}

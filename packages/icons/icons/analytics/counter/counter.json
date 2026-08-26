@@ -1,0 +1,37 @@
+{
+  "slug": "counter",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Counter",
+  "description": "A number that only goes up",
+  "tags": [
+    "tally",
+    "count",
+    "odometer"
+  ],
+  "aliases": [
+    "tally"
+  ],
+  "keywords": [
+    "count",
+    "increment",
+    "odometer",
+    "total",
+    "monotonic"
+  ],
+  "family": "meter",
+  "shapes": [
+    {
+      "d": "M2 9A2 2 0 0 1 4 7H20A2 2 0 0 1 22 9V15A2 2 0 0 1 20 17H4A2 2 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M9 7V17",
+      "closed": false
+    },
+    {
+      "d": "M15 7V17",
+      "closed": false
+    }
+  ]
+}

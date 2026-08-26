@@ -1,0 +1,34 @@
+{
+  "slug": "span-trace",
+  "category": "analytics",
+  "subcategory": "llm-observability",
+  "name": "Span",
+  "description": "One piece of work inside a trace",
+  "tags": [
+    "timing",
+    "trace",
+    "segment"
+  ],
+  "keywords": [
+    "trace span",
+    "waterfall",
+    "opentelemetry",
+    "duration",
+    "child span"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 7H19",
+      "closed": false
+    },
+    {
+      "d": "M6 12H16",
+      "closed": false
+    },
+    {
+      "d": "M9 17H21",
+      "closed": false
+    }
+  ]
+}

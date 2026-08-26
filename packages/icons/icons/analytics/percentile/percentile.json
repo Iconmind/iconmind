@@ -1,0 +1,44 @@
+{
+  "slug": "percentile",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Percentile",
+  "description": "Where this one stands among all",
+  "tags": [
+    "p99",
+    "rank",
+    "position"
+  ],
+  "keywords": [
+    "p50 p99",
+    "rank",
+    "distribution position"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M4 15V20",
+      "closed": false
+    },
+    {
+      "d": "M8 11V20",
+      "closed": false
+    },
+    {
+      "d": "M12 13V20",
+      "closed": false
+    },
+    {
+      "d": "M16 7V20",
+      "closed": false
+    },
+    {
+      "d": "M20 16V20",
+      "closed": false
+    },
+    {
+      "d": "M2 4H22",
+      "closed": false
+    }
+  ]
+}

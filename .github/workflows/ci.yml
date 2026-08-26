@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      # The validator is the reviewer: every rule, all 6,048 cells. Optimize is part of
+      # the pipeline the committed SVGs went through — without it the determinism gate
+      # below compares pre-canonical output against canonical files.
+      - run: pnpm icons:build
+      - run: pnpm icons:optimize
+      - run: pnpm icons:validate
+      - run: pnpm icons:duplicates
+
+      # The pipeline must be deterministic — a build from source that dirties the
+      # tree means generated files and sources have drifted.
+      - run: git diff --exit-code || (echo "::error::icons:build changed committed files — regenerate and commit" && exit 1)
+
+      - run: pnpm build
+      - run: pnpm test

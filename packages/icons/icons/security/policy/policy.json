@@ -1,0 +1,42 @@
+{
+  "slug": "policy",
+  "category": "security",
+  "subcategory": "policy",
+  "name": "Policy",
+  "description": "The rules, written down",
+  "tags": [
+    "rule",
+    "standard",
+    "governs"
+  ],
+  "keywords": [
+    "rules",
+    "standard",
+    "governance",
+    "must",
+    "enforcement"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 8V18",
+      "closed": false
+    },
+    {
+      "d": "M11 10H17",
+      "closed": false
+    },
+    {
+      "d": "M11 13H17",
+      "closed": false
+    },
+    {
+      "d": "M11 16H17",
+      "closed": false
+    }
+  ]
+}

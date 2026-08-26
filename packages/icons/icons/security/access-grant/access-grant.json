@@ -1,0 +1,33 @@
+{
+  "slug": "access-grant",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Access granted",
+  "description": "You may come through",
+  "tags": [
+    "allow",
+    "permit",
+    "open"
+  ],
+  "aliases": [
+    "allow"
+  ],
+  "keywords": [
+    "permit",
+    "authorised",
+    "let in",
+    "approved",
+    "green"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M13.5 4H16A3 3 0 0 1 19 7V17A3 3 0 0 1 16 20H8A3 3 0 0 1 5 17V7A3 3 0 0 1 8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M9 12L11 14L15 10",
+      "closed": false
+    }
+  ]
+}

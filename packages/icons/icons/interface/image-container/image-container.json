@@ -1,0 +1,28 @@
+{
+  "slug": "image-container",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Image container",
+  "description": "The box a picture arrives in",
+  "tags": [
+    "frame",
+    "placeholder",
+    "media"
+  ],
+  "keywords": [
+    "image frame",
+    "placeholder",
+    "media box"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M6 16L10 12L13 15L17 11",
+      "closed": false
+    }
+  ]
+}

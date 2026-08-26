@@ -1,0 +1,37 @@
+{
+  "slug": "mcp-resource-subscribe",
+  "category": "mcp",
+  "subcategory": "resource",
+  "name": "MCP resource subscribe",
+  "description": "Tell me when this changes",
+  "tags": [
+    "watch",
+    "notify",
+    "follow"
+  ],
+  "keywords": [
+    "subscribe",
+    "watch",
+    "resources/subscribe",
+    "notify on change"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L9 3L6 6L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M15 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 17A4 4 0 0 1 16 13",
+      "closed": false
+    },
+    {
+      "d": "M9 17A7 7 0 0 1 16 10",
+      "closed": false
+    }
+  ]
+}

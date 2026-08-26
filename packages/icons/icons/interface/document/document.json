@@ -1,0 +1,36 @@
+{
+  "slug": "document",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Document",
+  "description": "One file, with something written in it",
+  "tags": [
+    "file",
+    "page",
+    "text"
+  ],
+  "aliases": [
+    "file",
+    "page"
+  ],
+  "keywords": [
+    "page",
+    "doc",
+    "text file"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    },
+    {
+      "d": "M9 16H15",
+      "closed": false
+    }
+  ]
+}

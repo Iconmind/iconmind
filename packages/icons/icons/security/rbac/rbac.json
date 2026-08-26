@@ -1,0 +1,34 @@
+{
+  "slug": "rbac",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Role-based access",
+  "description": "What this kind of person may do",
+  "tags": [
+    "roles",
+    "grants",
+    "who"
+  ],
+  "keywords": [
+    "roles",
+    "permissions",
+    "grants",
+    "least privilege",
+    "iam"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M10 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 14A3 3 0 0 1 15 14",
+      "closed": false
+    }
+  ]
+}

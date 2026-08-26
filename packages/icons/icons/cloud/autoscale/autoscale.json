@@ -1,0 +1,38 @@
+{
+  "slug": "autoscale",
+  "category": "cloud",
+  "subcategory": "compute",
+  "name": "Autoscale",
+  "description": "More instances when there is more to do",
+  "tags": [
+    "scale",
+    "elastic",
+    "grow"
+  ],
+  "keywords": [
+    "elastic",
+    "scale out",
+    "replicas",
+    "hpa",
+    "grow"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H12A2 2 0 0 1 14 5V8A2 2 0 0 1 12 10H5A2 2 0 0 1 3 8Z",
+      "closed": true
+    },
+    {
+      "d": "M3 15A2 2 0 0 1 5 13H12A2 2 0 0 1 14 15V18A2 2 0 0 1 12 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M19 7V17",
+      "closed": false
+    },
+    {
+      "d": "M16 10L19 7L22 10",
+      "closed": false
+    }
+  ]
+}

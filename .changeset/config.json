@@ -1,0 +1,26 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@3.1.4/schema.json",
+  "changelog": "@changesets/cli/changelog",
+  "commit": false,
+  "fixed": [
+    [
+      "@iconmind/icons",
+      "@iconmind/react",
+      "@iconmind/mcp",
+      "@iconmind/vue",
+      "@iconmind/svelte",
+      "@iconmind/solid",
+      "@iconmind/preact",
+      "@iconmind/react-native",
+      "@iconmind/astro"
+    ]
+  ],
+  "linked": [],
+  "access": "public",
+  "baseBranch": "main",
+  "updateInternalDependencies": "patch",
+  "ignore": [
+    "docs",
+    "@iconmind/shared"
+  ]
+}

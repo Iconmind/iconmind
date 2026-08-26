@@ -1,0 +1,37 @@
+{
+  "slug": "intrusion",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Intrusion",
+  "description": "Something got through",
+  "tags": [
+    "breach",
+    "attack",
+    "unauthorised"
+  ],
+  "keywords": [
+    "breach",
+    "unauthorised access",
+    "attack",
+    "compromise"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M6 3V21",
+      "closed": false
+    },
+    {
+      "d": "M18 3V21",
+      "closed": false
+    },
+    {
+      "d": "M2 12H13",
+      "closed": false
+    },
+    {
+      "d": "M10 9L13 12L10 15",
+      "closed": false
+    }
+  ]
+}

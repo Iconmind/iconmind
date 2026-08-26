@@ -1,0 +1,34 @@
+{
+  "slug": "upload-cloud",
+  "category": "cloud",
+  "subcategory": "storage",
+  "name": "Upload to cloud",
+  "description": "Send it up there",
+  "tags": [
+    "send",
+    "sync",
+    "backup"
+  ],
+  "keywords": [
+    "sync up",
+    "backup",
+    "push",
+    "store remotely"
+  ],
+  "family": "cloud",
+  "shapes": [
+    {
+      "d": "M4 14A4 4 0 0 1 6 6.5A5 5 0 0 1 15.5 5A5.5 5.5 0 0 1 20 14Z",
+      "closed": true,
+      "_why": "three lobes, each an arc whose radius is set by the chord it spans — 4 across 7.76, 5 across 9.62, 5.5 across 10.06 — which no constructor takes as an argument"
+    },
+    {
+      "d": "M12 17V21",
+      "closed": false
+    },
+    {
+      "d": "M9 20L12 17L15 20",
+      "closed": false
+    }
+  ]
+}

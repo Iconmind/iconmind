@@ -1,0 +1,41 @@
+{
+  "slug": "on-call",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "On call",
+  "description": "Whoever is carrying the pager",
+  "tags": [
+    "rota",
+    "paged",
+    "duty"
+  ],
+  "aliases": [
+    "oncall"
+  ],
+  "keywords": [
+    "pager",
+    "rota",
+    "duty",
+    "escalation",
+    "page someone"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H10A2 2 0 0 1 12 5V19A2 2 0 0 1 10 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M5 17H9",
+      "closed": false
+    },
+    {
+      "d": "M15 5A3 3 0 0 1 15 11",
+      "closed": false
+    },
+    {
+      "d": "M15 2A6 6 0 0 1 15 14",
+      "closed": false
+    }
+  ]
+}

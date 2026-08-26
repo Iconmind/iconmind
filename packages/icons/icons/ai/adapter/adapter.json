@@ -1,0 +1,37 @@
+{
+  "slug": "adapter",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Adapter",
+  "description": "A small trained piece bolted to a big model",
+  "tags": [
+    "lora",
+    "attach",
+    "small"
+  ],
+  "aliases": [
+    "lora"
+  ],
+  "keywords": [
+    "lora",
+    "peft",
+    "fine-tune",
+    "plugin weights",
+    "delta"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H10A2 2 0 0 1 12 8V16A2 2 0 0 1 10 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12H15",
+      "closed": false
+    },
+    {
+      "d": "M15 11A2 2 0 0 1 17 9H20A2 2 0 0 1 22 11V14A2 2 0 0 1 20 16H17A2 2 0 0 1 15 14Z",
+      "closed": true
+    }
+  ]
+}

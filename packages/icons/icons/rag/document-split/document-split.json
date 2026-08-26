@@ -1,0 +1,30 @@
+{
+  "slug": "document-split",
+  "category": "rag",
+  "subcategory": "chunking",
+  "name": "Document split",
+  "description": "One document, cut into pieces",
+  "tags": [
+    "divide",
+    "separate",
+    "chunk"
+  ],
+  "keywords": [
+    "split",
+    "divide",
+    "segment",
+    "partition",
+    "cut"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M10 3L4 3L4 19L10 19",
+      "closed": false
+    },
+    {
+      "d": "M14 5L20 5L20 21L14 21",
+      "closed": false
+    }
+  ]
+}

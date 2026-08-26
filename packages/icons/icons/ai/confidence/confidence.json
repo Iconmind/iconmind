@@ -1,0 +1,37 @@
+{
+  "slug": "confidence",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Confidence",
+  "description": "How sure the model is",
+  "tags": [
+    "certainty",
+    "score",
+    "sure"
+  ],
+  "aliases": [
+    "certainty"
+  ],
+  "keywords": [
+    "probability",
+    "certainty",
+    "logprob",
+    "score",
+    "sure"
+  ],
+  "family": "meter",
+  "shapes": [
+    {
+      "d": "M3 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

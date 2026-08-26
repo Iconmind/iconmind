@@ -1,0 +1,42 @@
+{
+  "slug": "flip-horizontal",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Flip horizontal",
+  "description": "Mirror it left to right",
+  "tags": [
+    "mirror",
+    "reflect",
+    "reverse"
+  ],
+  "keywords": [
+    "mirror",
+    "reflect",
+    "transform",
+    "reverse",
+    "invert"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M9 5L2 12L9 19Z",
+      "closed": true
+    },
+    {
+      "d": "M15 5L22 12L15 19Z",
+      "closed": true
+    },
+    {
+      "d": "M12 3V7",
+      "closed": false
+    },
+    {
+      "d": "M12 10V14",
+      "closed": false
+    },
+    {
+      "d": "M12 17V21",
+      "closed": false
+    }
+  ]
+}

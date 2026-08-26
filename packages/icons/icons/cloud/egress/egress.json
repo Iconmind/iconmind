@@ -1,0 +1,37 @@
+{
+  "slug": "egress",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Egress",
+  "description": "Traffic leaving",
+  "tags": [
+    "outbound",
+    "exit",
+    "out"
+  ],
+  "aliases": [
+    "outbound"
+  ],
+  "keywords": [
+    "outbound",
+    "leaving",
+    "exit",
+    "data transfer",
+    "billing"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M6 3V21",
+      "closed": false
+    },
+    {
+      "d": "M8 12H20",
+      "closed": false
+    },
+    {
+      "d": "M17 9L20 12L17 15",
+      "closed": false
+    }
+  ]
+}

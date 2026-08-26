@@ -1,0 +1,33 @@
+{
+  "slug": "folder-alert",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Folder alert",
+  "description": "Something in here needs looking at",
+  "tags": [
+    "problem",
+    "warning",
+    "attention"
+  ],
+  "keywords": [
+    "conflict",
+    "warning",
+    "sync error",
+    "needs review"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M12 10V13",
+      "closed": false
+    },
+    {
+      "d": "M11 16a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

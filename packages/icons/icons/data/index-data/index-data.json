@@ -1,0 +1,42 @@
+{
+  "slug": "index-data",
+  "category": "data",
+  "subcategory": "storage",
+  "name": "Index",
+  "description": "The fast way to find a row",
+  "tags": [
+    "lookup",
+    "btree",
+    "fast"
+  ],
+  "keywords": [
+    "database index",
+    "btree",
+    "lookup",
+    "fast find",
+    "key"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H14A2 2 0 0 1 16 6V18A2 2 0 0 1 14 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M4 9H16",
+      "closed": false
+    },
+    {
+      "d": "M4 14H16",
+      "closed": false
+    },
+    {
+      "d": "M19 6L19 18",
+      "closed": false
+    },
+    {
+      "d": "M17 16L19 18L21 16",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "minimize",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Minimize",
+  "description": "Give the space back",
+  "tags": [
+    "shrink",
+    "restore",
+    "collapse"
+  ],
+  "keywords": [
+    "shrink",
+    "exit fullscreen",
+    "collapse",
+    "reduce",
+    "restore"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M9 3L9 9L3 9",
+      "closed": false
+    },
+    {
+      "d": "M15 9L21 9L21 3",
+      "closed": false
+    },
+    {
+      "d": "M21 15L15 15L15 21",
+      "closed": false
+    },
+    {
+      "d": "M9 21L9 15L3 15",
+      "closed": false
+    }
+  ]
+}

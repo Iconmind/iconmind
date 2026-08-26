@@ -1,0 +1,37 @@
+{
+  "slug": "gauge",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Gauge",
+  "description": "Where the needle is now",
+  "tags": [
+    "dial",
+    "meter",
+    "level"
+  ],
+  "aliases": [
+    "dial"
+  ],
+  "keywords": [
+    "dial",
+    "speedometer",
+    "level",
+    "needle",
+    "reading"
+  ],
+  "family": "meter",
+  "shapes": [
+    {
+      "d": "M3.54 13.92A9 9 0 0 1 20.46 13.92",
+      "closed": false
+    },
+    {
+      "d": "M12 17L7 12",
+      "closed": false
+    },
+    {
+      "d": "M11 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

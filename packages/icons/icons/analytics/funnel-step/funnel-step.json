@@ -1,0 +1,33 @@
+{
+  "slug": "funnel-step",
+  "category": "analytics",
+  "subcategory": "segment",
+  "name": "Funnel step",
+  "description": "One stage on the way through",
+  "tags": [
+    "stage",
+    "narrow",
+    "step"
+  ],
+  "keywords": [
+    "stage",
+    "conversion step",
+    "narrowing",
+    "cohort step"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M6 12H18",
+      "closed": false
+    },
+    {
+      "d": "M9 17H15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "logits",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Logits",
+  "description": "The raw scores, before they are probabilities",
+  "tags": [
+    "scores",
+    "raw",
+    "softmax"
+  ],
+  "keywords": [
+    "logprobs",
+    "raw scores",
+    "before softmax",
+    "distribution"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M6 8V18",
+      "closed": false
+    },
+    {
+      "d": "M11 5V18",
+      "closed": false
+    },
+    {
+      "d": "M16 11V18",
+      "closed": false
+    },
+    {
+      "d": "M3 18H21",
+      "closed": false
+    }
+  ]
+}

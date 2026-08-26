@@ -1,0 +1,37 @@
+{
+  "slug": "webhook-in",
+  "category": "automation",
+  "subcategory": "integration",
+  "name": "Incoming webhook",
+  "description": "Someone else's event, arriving here",
+  "tags": [
+    "receive",
+    "callback",
+    "listen"
+  ],
+  "keywords": [
+    "incoming",
+    "receive event",
+    "callback url",
+    "listener"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M13 6.8A6 6 0 1 1 13 17.2",
+      "closed": false
+    },
+    {
+      "d": "M14 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 12H10",
+      "closed": false
+    },
+    {
+      "d": "M7 9L10 12L7 15",
+      "closed": false
+    }
+  ]
+}

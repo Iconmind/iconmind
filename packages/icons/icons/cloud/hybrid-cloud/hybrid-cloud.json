@@ -1,0 +1,30 @@
+{
+  "slug": "hybrid-cloud",
+  "category": "cloud",
+  "subcategory": "compute",
+  "name": "Hybrid cloud",
+  "description": "Some of it yours, some of it theirs",
+  "tags": [
+    "mixed",
+    "on-prem",
+    "both"
+  ],
+  "keywords": [
+    "on-premise",
+    "mixed",
+    "burst",
+    "private and public"
+  ],
+  "family": "cloud",
+  "shapes": [
+    {
+      "d": "M4 14A4 4 0 0 1 6 6.5A5 5 0 0 1 15.5 5A5.5 5.5 0 0 1 20 14Z",
+      "closed": true,
+      "_why": "three lobes, each an arc whose radius is set by the chord it spans — 4 across 7.76, 5 across 9.62, 5.5 across 10.06 — which no constructor takes as an argument"
+    },
+    {
+      "d": "M6 19.5A2.5 2.5 0 0 1 8.5 17H15.5A2.5 2.5 0 0 1 18 19.5V19.5A2.5 2.5 0 0 1 15.5 22H8.5A2.5 2.5 0 0 1 6 19.5Z",
+      "closed": true
+    }
+  ]
+}

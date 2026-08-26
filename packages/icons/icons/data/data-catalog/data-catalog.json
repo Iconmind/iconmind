@@ -1,0 +1,38 @@
+{
+  "slug": "data-catalog",
+  "category": "data",
+  "subcategory": "catalog",
+  "name": "Data catalogue",
+  "description": "What data there is, and where",
+  "tags": [
+    "inventory",
+    "index",
+    "registry"
+  ],
+  "keywords": [
+    "inventory",
+    "metadata store",
+    "discovery",
+    "registry",
+    "glossary"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V8A2 2 0 0 1 20 10H4A2 2 0 0 1 2 8Z",
+      "closed": true
+    },
+    {
+      "d": "M5 6.5H19",
+      "closed": false
+    },
+    {
+      "d": "M2 15A2 2 0 0 1 4 13H20A2 2 0 0 1 22 15V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M5 16.5H19",
+      "closed": false
+    }
+  ]
+}

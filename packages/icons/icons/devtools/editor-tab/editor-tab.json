@@ -1,0 +1,32 @@
+{
+  "slug": "editor-tab",
+  "category": "devtools",
+  "subcategory": "editor",
+  "name": "Editor tab",
+  "description": "One open file among several",
+  "tags": [
+    "tab",
+    "open",
+    "file"
+  ],
+  "aliases": [
+    "tab"
+  ],
+  "keywords": [
+    "open file",
+    "buffer",
+    "tabs",
+    "workspace"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 7H19A3 3 0 0 1 22 10V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V10A3 3 0 0 1 5 7H10",
+      "closed": true
+    },
+    {
+      "d": "M4 7L4 3L11 3L11 7",
+      "closed": false
+    }
+  ]
+}

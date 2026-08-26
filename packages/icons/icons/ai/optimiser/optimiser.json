@@ -1,0 +1,33 @@
+{
+  "slug": "optimiser",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Optimiser",
+  "description": "What walks the loss downhill",
+  "tags": [
+    "descent",
+    "minimum",
+    "adam"
+  ],
+  "aliases": [
+    "optimizer"
+  ],
+  "keywords": [
+    "gradient descent",
+    "adam",
+    "sgd",
+    "minimum",
+    "converge"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 7L9 13L15 13L21 7",
+      "closed": false
+    },
+    {
+      "d": "M12 13V17",
+      "closed": false
+    }
+  ]
+}

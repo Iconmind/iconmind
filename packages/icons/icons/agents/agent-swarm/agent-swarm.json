@@ -1,0 +1,42 @@
+{
+  "slug": "agent-swarm",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Agent swarm",
+  "description": "Many of them, working loosely",
+  "tags": [
+    "many",
+    "crowd",
+    "distributed"
+  ],
+  "keywords": [
+    "crowd",
+    "colony",
+    "many agents",
+    "emergent",
+    "distributed"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M7.27 3.28A3 3 0 1 1 4.73 3.28",
+      "closed": false
+    },
+    {
+      "d": "M17.27 2.28A3 3 0 1 1 14.73 2.28",
+      "closed": false
+    },
+    {
+      "d": "M20.27 11.28A3 3 0 1 1 17.73 11.28",
+      "closed": false
+    },
+    {
+      "d": "M12.27 10.28A3 3 0 1 1 9.73 10.28",
+      "closed": false
+    },
+    {
+      "d": "M8.27 16.28A3 3 0 1 1 5.73 16.28",
+      "closed": false
+    }
+  ]
+}

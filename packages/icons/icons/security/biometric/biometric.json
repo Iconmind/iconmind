@@ -1,0 +1,37 @@
+{
+  "slug": "biometric",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Biometric",
+  "description": "Proving it is you by what you are",
+  "tags": [
+    "fingerprint",
+    "face",
+    "physical"
+  ],
+  "aliases": [
+    "fingerprint"
+  ],
+  "keywords": [
+    "fingerprint",
+    "face id",
+    "touch id",
+    "physical",
+    "identity"
+  ],
+  "family": "fan",
+  "shapes": [
+    {
+      "d": "M8 17A4 4 0 0 1 16 17",
+      "closed": false
+    },
+    {
+      "d": "M5 17A7 7 0 0 1 19 17",
+      "closed": false
+    },
+    {
+      "d": "M2 17A10 10 0 0 1 22 17",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "layers",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Layers",
+  "description": "Things stacked on top of each other",
+  "tags": [
+    "stack",
+    "levels",
+    "z-order"
+  ],
+  "aliases": [
+    "stack"
+  ],
+  "keywords": [
+    "z-index",
+    "levels",
+    "overlay",
+    "depth"
+  ],
+  "family": "chevron",
+  "shapes": [
+    {
+      "d": "M4 4L12 12L20 4",
+      "closed": false
+    },
+    {
+      "d": "M4 8.5L12 16.5L20 8.5",
+      "closed": false
+    },
+    {
+      "d": "M4 13L12 21L20 13",
+      "closed": false
+    }
+  ]
+}

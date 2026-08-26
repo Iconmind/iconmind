@@ -1,0 +1,30 @@
+{
+  "slug": "chart-sankey",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Sankey chart",
+  "description": "Where the flow went",
+  "tags": [
+    "flow",
+    "diagram",
+    "split"
+  ],
+  "keywords": [
+    "flow diagram",
+    "alluvial",
+    "where it went",
+    "split",
+    "volume"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M4 6L10 6L14 10L20 10",
+      "closed": false
+    },
+    {
+      "d": "M4 18L10 18L14 14L20 14",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "package",
+  "category": "devtools",
+  "subcategory": "package",
+  "name": "Package",
+  "description": "Something built, wrapped and versioned",
+  "tags": [
+    "module",
+    "library",
+    "dependency"
+  ],
+  "aliases": [
+    "module"
+  ],
+  "keywords": [
+    "npm",
+    "dependency",
+    "library",
+    "bundle",
+    "box"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 6H17A3 3 0 0 1 20 9V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V9A3 3 0 0 1 7 6H10",
+      "closed": true
+    },
+    {
+      "d": "M4 11H20",
+      "closed": false
+    },
+    {
+      "d": "M12 6V11",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "breakpoint",
+  "category": "devtools",
+  "subcategory": "debug",
+  "name": "Breakpoint",
+  "description": "Stop here",
+  "tags": [
+    "pause",
+    "debug",
+    "halt"
+  ],
+  "keywords": [
+    "debugger",
+    "stop here",
+    "step",
+    "inspect",
+    "red dot"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M3 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12H21",
+      "closed": false
+    },
+    {
+      "d": "M9 8L9 16",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "command",
+  "category": "devtools",
+  "subcategory": "terminal",
+  "name": "Command",
+  "description": "The line you type",
+  "tags": [
+    "cli",
+    "prompt",
+    "shell"
+  ],
+  "keywords": [
+    "command line",
+    "prompt",
+    "type",
+    "shell",
+    "run"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 7L8 12L3 17",
+      "closed": false
+    },
+    {
+      "d": "M11 17H21",
+      "closed": false
+    }
+  ]
+}

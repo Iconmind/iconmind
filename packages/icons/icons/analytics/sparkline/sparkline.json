@@ -1,0 +1,26 @@
+{
+  "slug": "sparkline",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Sparkline",
+  "description": "The shape of it, small enough to sit in a line",
+  "tags": [
+    "inline",
+    "trend",
+    "tiny"
+  ],
+  "keywords": [
+    "inline chart",
+    "trend",
+    "micro chart",
+    "in a table",
+    "tiny"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 15L7 11L10 14L14 10L17 13L21 9",
+      "closed": false
+    }
+  ]
+}

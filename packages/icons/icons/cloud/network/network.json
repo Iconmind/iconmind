@@ -1,0 +1,49 @@
+{
+  "slug": "network",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Network",
+  "description": "Machines that can reach each other",
+  "tags": [
+    "nodes",
+    "topology",
+    "mesh"
+  ],
+  "aliases": [
+    "topology"
+  ],
+  "keywords": [
+    "vpc",
+    "subnet",
+    "mesh",
+    "peers",
+    "topology"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M10 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 10L7 13",
+      "closed": false
+    },
+    {
+      "d": "M14 10L17 13",
+      "closed": false
+    },
+    {
+      "d": "M7.5 15H16.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "monorepo",
+  "category": "devtools",
+  "subcategory": "version-control",
+  "name": "Monorepo",
+  "description": "Every project, one root",
+  "tags": [
+    "single",
+    "workspace",
+    "packages"
+  ],
+  "keywords": [
+    "one repo",
+    "workspaces",
+    "packages together",
+    "single root"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 4A2 2 0 0 1 10 2H14A2 2 0 0 1 16 4V7A2 2 0 0 1 14 9H10A2 2 0 0 1 8 7Z",
+      "closed": true
+    },
+    {
+      "d": "M6 12H18",
+      "closed": false
+    },
+    {
+      "d": "M6 12V15",
+      "closed": false
+    },
+    {
+      "d": "M18 12V15",
+      "closed": false
+    },
+    {
+      "d": "M2 17A2 2 0 0 1 4 15H8A2 2 0 0 1 10 17V20A2 2 0 0 1 8 22H4A2 2 0 0 1 2 20Z",
+      "closed": true
+    },
+    {
+      "d": "M14 17A2 2 0 0 1 16 15H20A2 2 0 0 1 22 17V20A2 2 0 0 1 20 22H16A2 2 0 0 1 14 20Z",
+      "closed": true
+    }
+  ]
+}

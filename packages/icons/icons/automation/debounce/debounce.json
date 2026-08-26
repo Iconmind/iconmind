@@ -1,0 +1,49 @@
+{
+  "slug": "debounce",
+  "category": "automation",
+  "subcategory": "trigger",
+  "name": "Debounce",
+  "description": "Many firings collapsed into one",
+  "tags": [
+    "throttle",
+    "collapse",
+    "settle"
+  ],
+  "aliases": [
+    "throttle"
+  ],
+  "keywords": [
+    "throttle",
+    "coalesce",
+    "settle",
+    "rate limit",
+    "burst"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M3 9V15",
+      "closed": false
+    },
+    {
+      "d": "M6 9V15",
+      "closed": false
+    },
+    {
+      "d": "M9 9V15",
+      "closed": false
+    },
+    {
+      "d": "M12 12H15",
+      "closed": false
+    },
+    {
+      "d": "M15 10L17 12L15 14",
+      "closed": false
+    },
+    {
+      "d": "M20 7V17",
+      "closed": false
+    }
+  ]
+}

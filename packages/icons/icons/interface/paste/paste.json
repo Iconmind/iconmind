@@ -1,0 +1,37 @@
+{
+  "slug": "paste",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Paste",
+  "description": "Put the copy here",
+  "tags": [
+    "clipboard",
+    "insert",
+    "place"
+  ],
+  "keywords": [
+    "clipboard",
+    "ctrl-v",
+    "insert",
+    "drop"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 7A2 2 0 0 1 6 5H18A2 2 0 0 1 20 7V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 4A2 2 0 0 1 10 2H14A2 2 0 0 1 16 4V7A2 2 0 0 1 14 9H10A2 2 0 0 1 8 7Z",
+      "closed": true
+    },
+    {
+      "d": "M12 10V16",
+      "closed": false
+    },
+    {
+      "d": "M9 13L12 16L15 13",
+      "closed": false
+    }
+  ]
+}

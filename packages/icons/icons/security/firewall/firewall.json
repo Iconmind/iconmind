@@ -1,0 +1,39 @@
+{
+  "slug": "firewall",
+  "category": "security",
+  "subcategory": "policy",
+  "name": "Firewall",
+  "description": "What traffic is allowed through",
+  "tags": [
+    "wall",
+    "block",
+    "network"
+  ],
+  "keywords": [
+    "ingress",
+    "egress",
+    "block",
+    "acl",
+    "perimeter",
+    "bricks"
+  ],
+  "family": "grid",
+  "shapes": [
+    {
+      "d": "M3 8A2 2 0 0 1 5 6H19A2 2 0 0 1 21 8V16A2 2 0 0 1 19 18H5A2 2 0 0 1 3 16Z",
+      "closed": true
+    },
+    {
+      "d": "M3 12H21",
+      "closed": false
+    },
+    {
+      "d": "M9 6V12",
+      "closed": false
+    },
+    {
+      "d": "M15 12V18",
+      "closed": false
+    }
+  ]
+}

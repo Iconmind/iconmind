@@ -1,0 +1,33 @@
+{
+  "slug": "blue-green",
+  "category": "devops",
+  "subcategory": "release",
+  "name": "Blue-green",
+  "description": "Two identical stacks, one of them live",
+  "tags": [
+    "swap",
+    "cutover",
+    "parallel"
+  ],
+  "keywords": [
+    "cutover",
+    "swap",
+    "zero downtime",
+    "two environments"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 9A2 2 0 0 1 4 7H8A2 2 0 0 1 10 9V15A2 2 0 0 1 8 17H4A2 2 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M13 9A2 2 0 0 1 15 7H19A2 2 0 0 1 21 9V15A2 2 0 0 1 19 17H15A2 2 0 0 1 13 15Z",
+      "closed": true
+    },
+    {
+      "d": "M15 12L17 14L20 11",
+      "closed": false
+    }
+  ]
+}

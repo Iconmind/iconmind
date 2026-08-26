@@ -1,0 +1,32 @@
+{
+  "slug": "home",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Home",
+  "description": "Back to the start",
+  "tags": [
+    "house",
+    "start",
+    "index"
+  ],
+  "aliases": [
+    "house"
+  ],
+  "keywords": [
+    "start",
+    "index",
+    "dashboard",
+    "main"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 11L12 2L21 11",
+      "closed": false
+    },
+    {
+      "d": "M6 11L6 20L18 20L18 11",
+      "closed": false
+    }
+  ]
+}

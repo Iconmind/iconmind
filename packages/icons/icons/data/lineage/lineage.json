@@ -1,0 +1,34 @@
+{
+  "slug": "lineage",
+  "category": "data",
+  "subcategory": "catalog",
+  "name": "Lineage",
+  "description": "Where this came from, and what came from it",
+  "tags": [
+    "provenance",
+    "upstream",
+    "trace"
+  ],
+  "keywords": [
+    "provenance",
+    "upstream",
+    "downstream",
+    "impact",
+    "derived from"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 12L12 12L16 8L21 8",
+      "closed": false
+    },
+    {
+      "d": "M12 12L16 16L21 16",
+      "closed": false
+    }
+  ]
+}

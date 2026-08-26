@@ -1,0 +1,37 @@
+{
+  "slug": "greedy",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Greedy decoding",
+  "description": "Always take the likeliest next one",
+  "tags": [
+    "argmax",
+    "deterministic",
+    "top"
+  ],
+  "keywords": [
+    "argmax",
+    "temperature zero",
+    "deterministic",
+    "single path"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M2 16H9",
+      "closed": false
+    },
+    {
+      "d": "M9 16L14 11",
+      "closed": false
+    },
+    {
+      "d": "M14 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M19 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

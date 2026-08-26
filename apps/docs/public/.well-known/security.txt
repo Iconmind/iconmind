@@ -1,0 +1,10 @@
+# https://securitytxt.org — where to report a vulnerability in IconMind.
+# The policy this points at is SECURITY.md in the repository.
+# Expires is required by RFC 9116; renew it when the policy is next reviewed.
+
+Contact: mailto:security@iconmind.dev
+Contact: https://github.com/iconmind/iconmind/security/advisories/new
+Policy: https://github.com/iconmind/iconmind/blob/main/SECURITY.md
+Expires: 2027-08-26T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://iconmind.dev/.well-known/security.txt

@@ -1,0 +1,38 @@
+{
+  "slug": "kv-cache",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "KV cache",
+  "description": "What the model already worked out",
+  "tags": [
+    "reuse",
+    "attention",
+    "fast"
+  ],
+  "keywords": [
+    "key value cache",
+    "attention cache",
+    "prefill",
+    "reuse",
+    "speed"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M10 5V19",
+      "closed": false
+    },
+    {
+      "d": "M12 9H19",
+      "closed": false
+    },
+    {
+      "d": "M12 15H19",
+      "closed": false
+    }
+  ]
+}

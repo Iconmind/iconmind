@@ -1,0 +1,40 @@
+{
+  "slug": "error-handler",
+  "category": "automation",
+  "subcategory": "condition",
+  "name": "Error handler",
+  "description": "Where things go when they fail",
+  "tags": [
+    "catch",
+    "fallback",
+    "branch"
+  ],
+  "aliases": [
+    "catch"
+  ],
+  "keywords": [
+    "try catch",
+    "on error",
+    "exception path",
+    "recover"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M2 12L8 12L12 8L17 8",
+      "closed": false
+    },
+    {
+      "d": "M8 12L12 16L17 16",
+      "closed": false
+    },
+    {
+      "d": "M19 14L22 17",
+      "closed": false
+    },
+    {
+      "d": "M22 14L19 17",
+      "closed": false
+    }
+  ]
+}

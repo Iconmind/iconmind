@@ -1,0 +1,43 @@
+{
+  "slug": "top-p",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Top-p",
+  "description": "Enough choices to cover the odds",
+  "tags": [
+    "nucleus",
+    "sampling",
+    "cutoff"
+  ],
+  "aliases": [
+    "nucleus-sampling"
+  ],
+  "keywords": [
+    "nucleus sampling",
+    "probability mass",
+    "cutoff"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M5 8V20",
+      "closed": false
+    },
+    {
+      "d": "M10 11V20",
+      "closed": false
+    },
+    {
+      "d": "M15 14V20",
+      "closed": false
+    },
+    {
+      "d": "M3 12L12 12",
+      "closed": false
+    },
+    {
+      "d": "M20 17V20",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "braces",
+  "category": "devtools",
+  "subcategory": "code",
+  "name": "Braces",
+  "description": "A block, or an object",
+  "tags": [
+    "json",
+    "block",
+    "syntax"
+  ],
+  "aliases": [
+    "json"
+  ],
+  "keywords": [
+    "curly",
+    "object",
+    "scope",
+    "block",
+    "config"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M11 3L8 3L8 10L6 12L8 14L8 21L11 21",
+      "closed": false
+    },
+    {
+      "d": "M13 3L16 3L16 10L18 12L16 14L16 21L13 21",
+      "closed": false
+    }
+  ]
+}

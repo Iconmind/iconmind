@@ -1,0 +1,41 @@
+{
+  "slug": "memory-ram",
+  "category": "cloud",
+  "subcategory": "compute",
+  "name": "Memory",
+  "description": "How much it can hold at once",
+  "tags": [
+    "ram",
+    "module",
+    "capacity"
+  ],
+  "aliases": [
+    "ram"
+  ],
+  "keywords": [
+    "ram",
+    "gb",
+    "dimm",
+    "capacity",
+    "working set"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M3 8A2 2 0 0 1 5 6H19A2 2 0 0 1 21 8V14A2 2 0 0 1 19 16H5A2 2 0 0 1 3 14Z",
+      "closed": true
+    },
+    {
+      "d": "M7 16V20",
+      "closed": false
+    },
+    {
+      "d": "M12 16V20",
+      "closed": false
+    },
+    {
+      "d": "M17 16V20",
+      "closed": false
+    }
+  ]
+}

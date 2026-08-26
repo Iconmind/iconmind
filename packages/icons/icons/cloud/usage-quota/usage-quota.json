@@ -1,0 +1,33 @@
+{
+  "slug": "usage-quota",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Usage quota",
+  "description": "This much used, that much allowed",
+  "tags": [
+    "meter",
+    "cap",
+    "remaining"
+  ],
+  "keywords": [
+    "used of allowed",
+    "quota bar",
+    "remaining",
+    "cap"
+  ],
+  "family": "meter",
+  "shapes": [
+    {
+      "d": "M2 12A3 3 0 0 1 5 9H19A3 3 0 0 1 22 12V12A3 3 0 0 1 19 15H5A3 3 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M5 12H12",
+      "closed": false
+    },
+    {
+      "d": "M15.5 10.5V13.5",
+      "closed": false
+    }
+  ]
+}

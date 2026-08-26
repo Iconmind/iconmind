@@ -1,0 +1,30 @@
+{
+  "slug": "arrow-up",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Arrow up",
+  "description": "That way, up",
+  "tags": [
+    "up",
+    "north",
+    "increase"
+  ],
+  "keywords": [
+    "north",
+    "increase",
+    "rise",
+    "top",
+    "ascend"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M12 4V20",
+      "closed": false
+    },
+    {
+      "d": "M7 9L12 4L17 9",
+      "closed": false
+    }
+  ]
+}

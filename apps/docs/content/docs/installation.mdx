@@ -1,0 +1,46 @@
+---
+title: Installation
+description: Install IconMind for React, plain SVG, or an AI assistant.
+---
+
+## React
+
+```bash
+npm i @iconmind/react
+```
+
+```tsx
+import { Agent, Prompt } from "@iconmind/react";
+
+<Agent />
+<Prompt size={32} />
+```
+
+## Raw SVG
+
+```bash
+npm i @iconmind/icons
+```
+
+Every icon is a file under `icons/<category>/<slug>.svg`. The package also ships
+`dist/metadata.json` and a `dist/sprite.svg` of `<symbol>` elements, so you can use it
+with no build step at all.
+
+```html
+<svg width="24" height="24"><use href="sprite.svg#im-agent" /></svg>
+```
+
+## For an AI assistant
+
+```bash
+claude mcp add iconmind -- npx -y @iconmind/mcp
+```
+
+Runs offline, bundles the icon data, and starts in well under a second. See
+[MCP server](/docs/mcp/).
+
+## Requirements
+
+ESM only. React 18 or newer for the React package, Node 20 or newer for the MCP server.
+There is no CJS build — providing one would mean providing a path that does not
+tree-shake well, and some bundlers would choose it.

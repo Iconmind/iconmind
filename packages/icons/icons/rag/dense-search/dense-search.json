@@ -1,0 +1,45 @@
+{
+  "slug": "dense-search",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Dense search",
+  "description": "Search by vector, not by word",
+  "tags": [
+    "vector",
+    "embedding",
+    "knn"
+  ],
+  "keywords": [
+    "embedding search",
+    "dense retrieval",
+    "ann",
+    "vector index"
+  ],
+  "family": "magnifier",
+  "shapes": [
+    {
+      "d": "M12.62 3.51A7 7 0 1 1 7.38 3.51",
+      "closed": false
+    },
+    {
+      "d": "M15 15L21 21",
+      "closed": false
+    },
+    {
+      "d": "M7 8a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 8a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "zero-shot",
+  "category": "ai",
+  "subcategory": "prompt",
+  "name": "Zero-shot",
+  "description": "No examples at all",
+  "tags": [
+    "none",
+    "cold",
+    "prompt"
+  ],
+  "keywords": [
+    "no examples",
+    "cold start",
+    "instruction only",
+    "direct"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M3 8L10 15",
+      "closed": false
+    },
+    {
+      "d": "M10 8L3 15",
+      "closed": false
+    },
+    {
+      "d": "M13 12H21",
+      "closed": false
+    },
+    {
+      "d": "M18 9L21 12L18 15",
+      "closed": false
+    }
+  ]
+}

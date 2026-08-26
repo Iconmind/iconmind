@@ -1,0 +1,41 @@
+{
+  "slug": "arbiter",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Arbiter",
+  "description": "Who decides when agents disagree",
+  "tags": [
+    "judge",
+    "decide",
+    "resolve"
+  ],
+  "aliases": [
+    "judge"
+  ],
+  "keywords": [
+    "judge",
+    "referee",
+    "tie break",
+    "resolve",
+    "decide"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 17a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 7L15 12L10 17",
+      "closed": false
+    },
+    {
+      "d": "M17 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

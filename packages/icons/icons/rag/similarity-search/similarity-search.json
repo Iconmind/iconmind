@@ -1,0 +1,41 @@
+{
+  "slug": "similarity-search",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Similarity search",
+  "description": "Find what is most like this",
+  "tags": [
+    "nearest",
+    "alike",
+    "close"
+  ],
+  "keywords": [
+    "most similar",
+    "nearest",
+    "alike",
+    "closest match"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 16a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 11.5L10.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M16.5 11.5L13.5 14.5",
+      "closed": false
+    }
+  ]
+}

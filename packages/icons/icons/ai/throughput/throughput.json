@@ -1,0 +1,40 @@
+{
+  "slug": "throughput",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Throughput",
+  "description": "How much gets through, per second",
+  "tags": [
+    "rate",
+    "volume",
+    "capacity"
+  ],
+  "aliases": [
+    "rate"
+  ],
+  "keywords": [
+    "tokens per second",
+    "qps",
+    "bandwidth",
+    "capacity"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M3 8H17",
+      "closed": false
+    },
+    {
+      "d": "M14 5L17 8L14 11",
+      "closed": false
+    },
+    {
+      "d": "M3 16H17",
+      "closed": false
+    },
+    {
+      "d": "M14 13L17 16L14 19",
+      "closed": false
+    }
+  ]
+}

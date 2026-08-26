@@ -1,0 +1,37 @@
+{
+  "slug": "edge-function",
+  "category": "cloud",
+  "subcategory": "edge",
+  "name": "Edge function",
+  "description": "Code that runs out there",
+  "tags": [
+    "worker",
+    "compute",
+    "near"
+  ],
+  "keywords": [
+    "edge worker",
+    "cloudflare worker",
+    "run near user",
+    "v8 isolate"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H9A2 2 0 0 1 11 6V18A2 2 0 0 1 9 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12H15",
+      "closed": false
+    },
+    {
+      "d": "M18 8L16 10L16 14L18 16",
+      "closed": false
+    },
+    {
+      "d": "M20 8L22 10L22 14L20 16",
+      "closed": false
+    }
+  ]
+}

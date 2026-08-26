@@ -1,0 +1,37 @@
+{
+  "slug": "vector-database",
+  "category": "rag",
+  "subcategory": "vector",
+  "name": "Vector database",
+  "description": "Stores embeddings and finds the nearest",
+  "tags": [
+    "store",
+    "index",
+    "similarity"
+  ],
+  "aliases": [
+    "vector-store"
+  ],
+  "keywords": [
+    "pinecone",
+    "faiss",
+    "index",
+    "ann",
+    "pgvector"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M12 7L15 10L12 13L9 10Z",
+      "closed": true
+    },
+    {
+      "d": "M7 16H17",
+      "closed": false
+    }
+  ]
+}

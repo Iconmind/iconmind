@@ -1,0 +1,37 @@
+{
+  "slug": "attribution",
+  "category": "rag",
+  "subcategory": "grounding",
+  "name": "Attribution",
+  "description": "Which source a sentence came from",
+  "tags": [
+    "credit",
+    "quote",
+    "source"
+  ],
+  "aliases": [
+    "credit"
+  ],
+  "keywords": [
+    "quote",
+    "cite",
+    "provenance",
+    "source",
+    "credit"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 6H21",
+      "closed": false
+    },
+    {
+      "d": "M3 10H15",
+      "closed": false
+    },
+    {
+      "d": "M14 16a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

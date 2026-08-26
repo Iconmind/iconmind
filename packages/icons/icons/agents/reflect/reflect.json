@@ -1,0 +1,33 @@
+{
+  "slug": "reflect",
+  "category": "agents",
+  "subcategory": "reflection",
+  "name": "Reflect",
+  "description": "Looking at what it just did",
+  "tags": [
+    "review",
+    "own-work",
+    "mirror"
+  ],
+  "keywords": [
+    "self review",
+    "look back",
+    "mirror",
+    "critique own"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 3V21",
+      "closed": false
+    },
+    {
+      "d": "M8 8L4 12L8 16",
+      "closed": false
+    },
+    {
+      "d": "M16 8L20 12L16 16",
+      "closed": false
+    }
+  ]
+}

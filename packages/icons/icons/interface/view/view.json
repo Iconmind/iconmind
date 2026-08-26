@@ -1,0 +1,32 @@
+{
+  "slug": "view",
+  "category": "interface",
+  "subcategory": "state",
+  "name": "View",
+  "description": "Just looking",
+  "tags": [
+    "see",
+    "read-only",
+    "open"
+  ],
+  "keywords": [
+    "look at",
+    "open",
+    "read only view"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 12L9 6L15 6L21 12",
+      "closed": false
+    },
+    {
+      "d": "M3 12L9 18L15 18L21 12",
+      "closed": false
+    },
+    {
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

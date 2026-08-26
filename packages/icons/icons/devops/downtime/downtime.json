@@ -1,0 +1,27 @@
+{
+  "slug": "downtime",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Downtime",
+  "description": "It is not answering",
+  "tags": [
+    "outage",
+    "offline",
+    "dead"
+  ],
+  "keywords": [
+    "offline",
+    "unavailable",
+    "dead",
+    "sev1",
+    "unreachable",
+    "outage"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M3 12L7 12L7 6L11 6L11 18L15 18L15 12L21 12",
+      "closed": false
+    }
+  ]
+}

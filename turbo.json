@@ -1,0 +1,51 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "build": {
+      "dependsOn": [
+        "^build",
+        "//#icons:generate:components"
+      ],
+      "outputs": [
+        "dist/**",
+        ".next/**",
+        "out/**",
+        "src/generated/**"
+      ]
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "lint": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "typecheck": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "test": {
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "coverage/**"
+      ]
+    },
+    "//#icons:generate:components": {
+      "cache": true,
+      "inputs": [
+        "packages/icons/icons/**",
+        "scripts/generate/components.ts",
+        "packages/*/src/create-icon.*",
+        "packages/*/src/Icon.svelte"
+      ],
+      "outputs": [
+        "packages/*/src/generated/**"
+      ]
+    }
+  }
+}

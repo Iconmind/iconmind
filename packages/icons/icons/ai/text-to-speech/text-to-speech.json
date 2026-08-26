@@ -1,0 +1,41 @@
+{
+  "slug": "text-to-speech",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Text to speech",
+  "description": "Words turned into sound",
+  "tags": [
+    "tts",
+    "voice",
+    "read"
+  ],
+  "aliases": [
+    "tts"
+  ],
+  "keywords": [
+    "tts",
+    "voice",
+    "read aloud",
+    "synthesis",
+    "narration"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 9H10",
+      "closed": false
+    },
+    {
+      "d": "M2 13H8",
+      "closed": false
+    },
+    {
+      "d": "M15.5 9.4A3 3 0 0 1 15.5 14.6",
+      "closed": false
+    },
+    {
+      "d": "M17 6.8A6 6 0 0 1 17 17.2",
+      "closed": false
+    }
+  ]
+}

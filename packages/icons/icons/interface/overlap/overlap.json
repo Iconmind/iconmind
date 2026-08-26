@@ -1,0 +1,31 @@
+{
+  "slug": "overlap",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Overlap",
+  "description": "Where both are true at once",
+  "tags": [
+    "intersect",
+    "shared",
+    "both"
+  ],
+  "aliases": [
+    "intersect"
+  ],
+  "keywords": [
+    "intersection",
+    "shared region",
+    "both at once"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H13A2 2 0 0 1 15 4V13A2 2 0 0 1 13 15H4A2 2 0 0 1 2 13Z",
+      "closed": true
+    },
+    {
+      "d": "M9 11A2 2 0 0 1 11 9H20A2 2 0 0 1 22 11V20A2 2 0 0 1 20 22H11A2 2 0 0 1 9 20Z",
+      "closed": true
+    }
+  ]
+}

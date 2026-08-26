@@ -1,0 +1,45 @@
+{
+  "slug": "editor",
+  "category": "devtools",
+  "subcategory": "editor",
+  "name": "Editor",
+  "description": "Where the code is written",
+  "tags": [
+    "ide",
+    "workspace",
+    "window"
+  ],
+  "aliases": [
+    "ide"
+  ],
+  "keywords": [
+    "ide",
+    "vscode",
+    "workspace",
+    "buffer",
+    "text editor"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M8 4V20",
+      "closed": false
+    },
+    {
+      "d": "M11 9H19",
+      "closed": false
+    },
+    {
+      "d": "M11 13H16",
+      "closed": false
+    },
+    {
+      "d": "M11 17H18",
+      "closed": false
+    }
+  ]
+}

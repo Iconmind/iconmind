@@ -1,0 +1,38 @@
+{
+  "slug": "sync-two-way",
+  "category": "data",
+  "subcategory": "pipeline",
+  "name": "Two-way sync",
+  "description": "Each side gets what the other has",
+  "tags": [
+    "both",
+    "mirror",
+    "exchange"
+  ],
+  "keywords": [
+    "bidirectional",
+    "mirror",
+    "exchange",
+    "both ways",
+    "reconcile"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 9H18",
+      "closed": false
+    },
+    {
+      "d": "M15 6L18 9L15 12",
+      "closed": false
+    },
+    {
+      "d": "M6 15H20",
+      "closed": false
+    },
+    {
+      "d": "M9 12L6 15L9 18",
+      "closed": false
+    }
+  ]
+}

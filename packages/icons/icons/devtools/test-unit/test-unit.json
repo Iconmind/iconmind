@@ -1,0 +1,33 @@
+{
+  "slug": "test-unit",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Unit test",
+  "description": "One piece, checked on its own",
+  "tags": [
+    "small",
+    "isolated",
+    "passes"
+  ],
+  "aliases": [
+    "testing"
+  ],
+  "keywords": [
+    "unit test",
+    "isolated",
+    "one function",
+    "fast test",
+    "green"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M6 6A2 2 0 0 1 8 4H16A2 2 0 0 1 18 6V18A2 2 0 0 1 16 20H8A2 2 0 0 1 6 18Z",
+      "closed": true
+    },
+    {
+      "d": "M9 12L11 14L15 10",
+      "closed": false
+    }
+  ]
+}

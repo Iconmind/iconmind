@@ -1,0 +1,34 @@
+{
+  "slug": "splitter",
+  "category": "data",
+  "subcategory": "transform",
+  "name": "Splitter",
+  "description": "One stream becoming two",
+  "tags": [
+    "fan-out",
+    "divide",
+    "branch"
+  ],
+  "keywords": [
+    "fan out",
+    "tee",
+    "divide stream",
+    "branch",
+    "demux"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12H10",
+      "closed": false
+    },
+    {
+      "d": "M10 12L14 8L21 8",
+      "closed": false
+    },
+    {
+      "d": "M10 12L14 16L21 16",
+      "closed": false
+    }
+  ]
+}

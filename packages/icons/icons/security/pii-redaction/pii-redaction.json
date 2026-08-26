@@ -1,0 +1,34 @@
+{
+  "slug": "pii-redaction",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "PII redaction",
+  "description": "The part that had to be covered",
+  "tags": [
+    "masked",
+    "blacked-out",
+    "privacy"
+  ],
+  "keywords": [
+    "masked",
+    "anonymise",
+    "personal data",
+    "blacked out",
+    "scrub"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M7 10H17",
+      "closed": false
+    },
+    {
+      "d": "M7 15.5A2.5 2.5 0 0 1 9.5 13H14.5A2.5 2.5 0 0 1 17 15.5V15.5A2.5 2.5 0 0 1 14.5 18H9.5A2.5 2.5 0 0 1 7 15.5Z",
+      "closed": true
+    }
+  ]
+}

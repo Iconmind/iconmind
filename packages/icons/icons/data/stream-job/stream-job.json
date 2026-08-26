@@ -1,0 +1,45 @@
+{
+  "slug": "stream-job",
+  "category": "data",
+  "subcategory": "streaming",
+  "name": "Stream job",
+  "description": "Always running, never done",
+  "tags": [
+    "continuous",
+    "flink",
+    "live"
+  ],
+  "keywords": [
+    "streaming job",
+    "continuous",
+    "always on",
+    "flink spark"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 6A2 2 0 0 1 8 4H16A2 2 0 0 1 18 6V11A2 2 0 0 1 16 13H8A2 2 0 0 1 6 11Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 6.5L11.5 8.5L9.5 10.5",
+      "closed": false
+    },
+    {
+      "d": "M3 16H9",
+      "closed": false
+    },
+    {
+      "d": "M12 16H15",
+      "closed": false
+    },
+    {
+      "d": "M18 16H21",
+      "closed": false
+    },
+    {
+      "d": "M6 20H12",
+      "closed": false
+    }
+  ]
+}

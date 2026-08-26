@@ -1,0 +1,40 @@
+{
+  "slug": "repl",
+  "category": "devtools",
+  "subcategory": "terminal",
+  "name": "REPL",
+  "description": "Type, see, type again",
+  "tags": [
+    "interactive",
+    "loop",
+    "eval"
+  ],
+  "keywords": [
+    "read eval print",
+    "interactive",
+    "try it"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M6 8L9 11L6 14",
+      "closed": false
+    },
+    {
+      "d": "M6 16H12",
+      "closed": false
+    },
+    {
+      "d": "M15 15L18 15L18 9",
+      "closed": false
+    },
+    {
+      "d": "M16 11L18 9L20 11",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "notebook",
+  "category": "devtools",
+  "subcategory": "editor",
+  "name": "Notebook",
+  "description": "Cells you run one at a time",
+  "tags": [
+    "jupyter",
+    "cells",
+    "run"
+  ],
+  "keywords": [
+    "jupyter",
+    "ipynb",
+    "cells",
+    "colab",
+    "run cell"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M7 3V21",
+      "closed": false
+    },
+    {
+      "d": "M9 9H19",
+      "closed": false
+    },
+    {
+      "d": "M9 15H19",
+      "closed": false
+    }
+  ]
+}

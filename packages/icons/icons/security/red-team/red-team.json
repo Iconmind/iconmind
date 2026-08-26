@@ -1,0 +1,33 @@
+{
+  "slug": "red-team",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Red team",
+  "description": "Attacking it before somebody else does",
+  "tags": [
+    "attack",
+    "probe",
+    "adversarial"
+  ],
+  "keywords": [
+    "adversarial testing",
+    "pen test",
+    "probe",
+    "jailbreak attempt"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M4 20L16 8",
+      "closed": false
+    },
+    {
+      "d": "M12 8L16 8L16 12",
+      "closed": false
+    }
+  ]
+}

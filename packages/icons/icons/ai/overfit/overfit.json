@@ -1,0 +1,29 @@
+{
+  "slug": "overfit",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Overfit",
+  "description": "A curve that followed every wobble",
+  "tags": [
+    "memorised",
+    "variance",
+    "too-close"
+  ],
+  "keywords": [
+    "overfitting",
+    "memorised training set",
+    "high variance",
+    "generalise"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 9L6 6L9 9L12 6L15 9L18 6L21 9",
+      "closed": false
+    },
+    {
+      "d": "M3 16H21",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "percent",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Percent",
+  "description": "A share of something",
+  "tags": [
+    "rate",
+    "share",
+    "discount"
+  ],
+  "keywords": [
+    "rate",
+    "discount",
+    "proportion",
+    "ratio",
+    "off"
+  ],
+  "family": "mark",
+  "shapes": [
+    {
+      "d": "M4 20L20 4",
+      "closed": false
+    },
+    {
+      "d": "M5 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "embedding-space",
+  "category": "ai",
+  "subcategory": "embedding",
+  "name": "Embedding space",
+  "description": "Where the vectors live",
+  "tags": [
+    "latent",
+    "manifold",
+    "points"
+  ],
+  "aliases": [
+    "latent-space"
+  ],
+  "keywords": [
+    "latent",
+    "manifold",
+    "vector space",
+    "projection"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M15 7L20 12L12 20L4 12L9 7",
+      "closed": true
+    },
+    {
+      "d": "M8 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

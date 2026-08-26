@@ -1,0 +1,36 @@
+{
+  "slug": "sync-source",
+  "category": "data",
+  "subcategory": "pipeline",
+  "name": "Sync source",
+  "description": "The side the truth comes from",
+  "tags": [
+    "origin",
+    "master",
+    "from"
+  ],
+  "keywords": [
+    "source of truth",
+    "sync from",
+    "origin side"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H8A2 2 0 0 1 10 8V16A2 2 0 0 1 8 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M5 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12H20",
+      "closed": false
+    },
+    {
+      "d": "M17 9L20 12L17 15",
+      "closed": false
+    }
+  ]
+}

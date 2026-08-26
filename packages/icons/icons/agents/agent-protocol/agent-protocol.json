@@ -1,0 +1,38 @@
+{
+  "slug": "agent-protocol",
+  "category": "agents",
+  "subcategory": "communication",
+  "name": "Agent protocol",
+  "description": "The rules two agents talk by",
+  "tags": [
+    "contract",
+    "channel",
+    "agreement"
+  ],
+  "keywords": [
+    "a2a",
+    "contract",
+    "schema",
+    "interop",
+    "handshake"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M7.48 8.83A3.5 3.5 0 1 1 4.52 8.83",
+      "closed": false
+    },
+    {
+      "d": "M19.48 8.83A3.5 3.5 0 1 1 16.52 8.83",
+      "closed": false
+    },
+    {
+      "d": "M13 11H16",
+      "closed": false
+    },
+    {
+      "d": "M13 15H16",
+      "closed": false
+    }
+  ]
+}

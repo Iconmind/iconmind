@@ -1,0 +1,40 @@
+{
+  "slug": "region",
+  "category": "cloud",
+  "subcategory": "region",
+  "name": "Region",
+  "description": "Which part of the world it runs in",
+  "tags": [
+    "zone",
+    "location",
+    "geography"
+  ],
+  "aliases": [
+    "zone"
+  ],
+  "keywords": [
+    "availability zone",
+    "datacentre",
+    "geography",
+    "locale"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 7.5H17",
+      "closed": false
+    },
+    {
+      "d": "M3 12H21",
+      "closed": false
+    },
+    {
+      "d": "M7 16.5H17",
+      "closed": false
+    }
+  ]
+}

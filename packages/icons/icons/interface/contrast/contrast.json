@@ -1,0 +1,31 @@
+{
+  "slug": "contrast",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Contrast",
+  "description": "Light against dark",
+  "tags": [
+    "theme",
+    "half",
+    "tone"
+  ],
+  "keywords": [
+    "theme",
+    "invert",
+    "tone",
+    "accessibility",
+    "dark mode"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 3A9 9 0 0 1 12 21Z",
+      "closed": true,
+      "_why": "half the disc, closed across its own diameter"
+    }
+  ]
+}

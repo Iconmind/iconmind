@@ -1,0 +1,34 @@
+{
+  "slug": "node",
+  "category": "cloud",
+  "subcategory": "compute",
+  "name": "Node",
+  "description": "One machine in the group",
+  "tags": [
+    "instance",
+    "member",
+    "host"
+  ],
+  "keywords": [
+    "instance",
+    "host",
+    "worker",
+    "member",
+    "vm"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 12H8",
+      "closed": false
+    },
+    {
+      "d": "M16 12H22",
+      "closed": false
+    }
+  ]
+}

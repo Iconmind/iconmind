@@ -1,0 +1,34 @@
+{
+  "slug": "subagent",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Subagent",
+  "description": "An agent working for another agent",
+  "tags": [
+    "child",
+    "spawned",
+    "under"
+  ],
+  "keywords": [
+    "child agent",
+    "spawned",
+    "worker agent",
+    "delegated to",
+    "nested"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 15a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 9L14 13",
+      "closed": false
+    }
+  ]
+}

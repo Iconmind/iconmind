@@ -1,0 +1,33 @@
+{
+  "slug": "print",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Print",
+  "description": "Put it on paper",
+  "tags": [
+    "paper",
+    "output",
+    "hardcopy"
+  ],
+  "keywords": [
+    "hardcopy",
+    "pdf",
+    "output",
+    "printer"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M6 5A3 3 0 0 1 9 2H15A3 3 0 0 1 18 5V5A3 3 0 0 1 15 8H9A3 3 0 0 1 6 5Z",
+      "closed": true
+    },
+    {
+      "d": "M2 13A2 2 0 0 1 4 11H20A2 2 0 0 1 22 13V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M7 15H17",
+      "closed": false
+    }
+  ]
+}

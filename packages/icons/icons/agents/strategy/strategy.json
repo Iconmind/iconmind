@@ -1,0 +1,40 @@
+{
+  "slug": "strategy",
+  "category": "agents",
+  "subcategory": "planning",
+  "name": "Strategy",
+  "description": "Which way, decided before moving",
+  "tags": [
+    "plan",
+    "route",
+    "chosen"
+  ],
+  "keywords": [
+    "chosen route",
+    "game plan",
+    "which way"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 17L11 13",
+      "closed": false
+    },
+    {
+      "d": "M11 13L15 13",
+      "closed": false
+    },
+    {
+      "d": "M15 13L19 9",
+      "closed": false
+    },
+    {
+      "d": "M19 5L19 9L15 9",
+      "closed": false
+    }
+  ]
+}

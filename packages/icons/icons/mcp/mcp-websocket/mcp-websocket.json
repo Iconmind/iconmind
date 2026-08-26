@@ -1,0 +1,34 @@
+{
+  "slug": "mcp-websocket",
+  "category": "mcp",
+  "subcategory": "transport",
+  "name": "MCP over WebSocket",
+  "description": "A connection that stays open both ways",
+  "tags": [
+    "duplex",
+    "persistent",
+    "socket"
+  ],
+  "keywords": [
+    "websocket",
+    "duplex",
+    "persistent",
+    "open connection",
+    "ws"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M7.5 6H10A3 3 0 0 1 13 9V15A3 3 0 0 1 10 18H5A3 3 0 0 1 2 15V9L5 6Z",
+      "closed": true
+    },
+    {
+      "d": "M13 12H16",
+      "closed": false
+    },
+    {
+      "d": "M16 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

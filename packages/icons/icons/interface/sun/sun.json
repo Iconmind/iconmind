@@ -1,0 +1,64 @@
+{
+  "slug": "sun",
+  "category": "interface",
+  "subcategory": "state",
+  "name": "Sun",
+  "description": "Light",
+  "tags": [
+    "light",
+    "day",
+    "bright"
+  ],
+  "aliases": [
+    "light-mode"
+  ],
+  "accepted": {
+    "lint/element-budget": "four rays on the axes is a crosshair; light needs the diagonals as well"
+  },
+  "keywords": [
+    "day",
+    "bright",
+    "theme",
+    "light mode",
+    "brightness"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M7.5 12a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 2V5.5",
+      "closed": false
+    },
+    {
+      "d": "M12 18.5V22",
+      "closed": false
+    },
+    {
+      "d": "M2 12H5.5",
+      "closed": false
+    },
+    {
+      "d": "M18.5 12H22",
+      "closed": false
+    },
+    {
+      "d": "M5 5L7.5 7.5",
+      "closed": false
+    },
+    {
+      "d": "M19 5L16.5 7.5",
+      "closed": false
+    },
+    {
+      "d": "M5 19L7.5 16.5",
+      "closed": false
+    },
+    {
+      "d": "M19 19L16.5 16.5",
+      "closed": false
+    }
+  ]
+}

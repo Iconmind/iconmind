@@ -1,0 +1,28 @@
+{
+  "slug": "minus",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Minus",
+  "description": "Take one away",
+  "tags": [
+    "remove",
+    "subtract",
+    "less"
+  ],
+  "aliases": [
+    "remove"
+  ],
+  "keywords": [
+    "subtract",
+    "delete",
+    "decrease",
+    "collapse"
+  ],
+  "family": "mark",
+  "shapes": [
+    {
+      "d": "M4 12H20",
+      "closed": false
+    }
+  ]
+}

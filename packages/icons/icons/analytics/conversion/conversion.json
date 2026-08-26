@@ -1,0 +1,38 @@
+{
+  "slug": "conversion",
+  "category": "analytics",
+  "subcategory": "segment",
+  "name": "Conversion",
+  "description": "One thing became another",
+  "tags": [
+    "became",
+    "turned",
+    "rate"
+  ],
+  "keywords": [
+    "converted",
+    "signup rate",
+    "became",
+    "funnel end",
+    "turned into"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    },
+    {
+      "d": "M12 9L15 12L12 15",
+      "closed": false
+    },
+    {
+      "d": "M16 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

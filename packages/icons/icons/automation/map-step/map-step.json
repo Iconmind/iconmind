@@ -1,0 +1,41 @@
+{
+  "slug": "map-step",
+  "category": "automation",
+  "subcategory": "workflow",
+  "name": "Map step",
+  "description": "The same thing done to each",
+  "tags": [
+    "each",
+    "fan-out",
+    "apply"
+  ],
+  "keywords": [
+    "for each",
+    "map over",
+    "apply to all",
+    "fan out step"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 10A2 2 0 0 1 4 8H7A2 2 0 0 1 9 10V14A2 2 0 0 1 7 16H4A2 2 0 0 1 2 14Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 12H12.5",
+      "closed": false
+    },
+    {
+      "d": "M13 4.5A2 2 0 0 1 15 2.5H20A2 2 0 0 1 22 4.5V4.5A2 2 0 0 1 20 6.5H15A2 2 0 0 1 13 4.5Z",
+      "closed": true
+    },
+    {
+      "d": "M13 12A2 2 0 0 1 15 10H20A2 2 0 0 1 22 12V12A2 2 0 0 1 20 14H15A2 2 0 0 1 13 12Z",
+      "closed": true
+    },
+    {
+      "d": "M13 19.5A2 2 0 0 1 15 17.5H20A2 2 0 0 1 22 19.5V19.5A2 2 0 0 1 20 21.5H15A2 2 0 0 1 13 19.5Z",
+      "closed": true
+    }
+  ]
+}

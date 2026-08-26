@@ -1,0 +1,33 @@
+{
+  "slug": "assertion",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Assertion",
+  "description": "The claim a test makes",
+  "tags": [
+    "expect",
+    "holds",
+    "claim"
+  ],
+  "aliases": [
+    "expect"
+  ],
+  "keywords": [
+    "expect",
+    "assert",
+    "should",
+    "invariant",
+    "claim"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 10L10 13L17 6",
+      "closed": false
+    },
+    {
+      "d": "M4 18H20",
+      "closed": false
+    }
+  ]
+}

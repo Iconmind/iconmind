@@ -1,0 +1,46 @@
+{
+  "slug": "task-graph",
+  "category": "automation",
+  "subcategory": "workflow",
+  "name": "Task graph",
+  "description": "What has to happen before what",
+  "tags": [
+    "dependencies",
+    "dag",
+    "order"
+  ],
+  "keywords": [
+    "dependencies",
+    "dag",
+    "prerequisites",
+    "ordering",
+    "fan in"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 8L11 12",
+      "closed": false
+    },
+    {
+      "d": "M7 16L11 12",
+      "closed": false
+    },
+    {
+      "d": "M15 12H21",
+      "closed": false
+    }
+  ]
+}

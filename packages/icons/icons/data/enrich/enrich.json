@@ -1,0 +1,49 @@
+{
+  "slug": "enrich",
+  "category": "data",
+  "subcategory": "transform",
+  "name": "Enrich",
+  "description": "The same rows, with more on them",
+  "tags": [
+    "augment",
+    "join-in",
+    "add"
+  ],
+  "aliases": [
+    "augment"
+  ],
+  "keywords": [
+    "add columns",
+    "augment",
+    "lookup",
+    "joined in",
+    "richer"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H13A2 2 0 0 1 15 6V18A2 2 0 0 1 13 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M4 9H13",
+      "closed": false
+    },
+    {
+      "d": "M4 14H13",
+      "closed": false
+    },
+    {
+      "d": "M19 8V12",
+      "closed": false
+    },
+    {
+      "d": "M17 10H21",
+      "closed": false
+    },
+    {
+      "d": "M17 16H21",
+      "closed": false
+    }
+  ]
+}

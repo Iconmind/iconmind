@@ -1,0 +1,25 @@
+{
+  "slug": "bookmark",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Bookmark",
+  "description": "Keep it where you can find it",
+  "tags": [
+    "save",
+    "flag",
+    "pin"
+  ],
+  "keywords": [
+    "flag",
+    "save",
+    "favourite",
+    "favorite"
+  ],
+  "family": "ribbon",
+  "shapes": [
+    {
+      "d": "M15 3L18 3L18 21L12 15L6 21L6 3L9 3",
+      "closed": true
+    }
+  ]
+}

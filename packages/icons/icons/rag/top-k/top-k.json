@@ -1,0 +1,42 @@
+{
+  "slug": "top-k",
+  "category": "rag",
+  "subcategory": "ranking",
+  "name": "Top-k",
+  "description": "Keep this many, drop the rest",
+  "tags": [
+    "cut-off",
+    "best",
+    "limit"
+  ],
+  "keywords": [
+    "top k",
+    "cut off",
+    "how many results",
+    "best n",
+    "shortlist"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 6H21",
+      "closed": false
+    },
+    {
+      "d": "M3 10H18",
+      "closed": false
+    },
+    {
+      "d": "M3 13L21 13",
+      "closed": false
+    },
+    {
+      "d": "M3 17H15",
+      "closed": false
+    },
+    {
+      "d": "M3 21H12",
+      "closed": false
+    }
+  ]
+}

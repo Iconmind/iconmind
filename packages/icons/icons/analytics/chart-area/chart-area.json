@@ -1,0 +1,34 @@
+{
+  "slug": "chart-area",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Area chart",
+  "description": "How much, over time",
+  "tags": [
+    "volume",
+    "trend",
+    "filled"
+  ],
+  "keywords": [
+    "stacked",
+    "volume",
+    "cumulative",
+    "trend",
+    "graph"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 14L10 11L14 15L20 9L20 17L7 17Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "code-diff",
+  "category": "devtools",
+  "subcategory": "version-control",
+  "name": "Diff",
+  "description": "What changed, line by line",
+  "tags": [
+    "compare",
+    "delta",
+    "review"
+  ],
+  "keywords": [
+    "diff view",
+    "changes",
+    "added removed",
+    "compare",
+    "review"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 4V10",
+      "closed": false
+    },
+    {
+      "d": "M4 7H10",
+      "closed": false
+    },
+    {
+      "d": "M4 20L20 4",
+      "closed": false
+    },
+    {
+      "d": "M14 17H20",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "phone",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Phone",
+  "description": "The thing in your pocket",
+  "tags": [
+    "mobile",
+    "device",
+    "call"
+  ],
+  "aliases": [
+    "mobile"
+  ],
+  "keywords": [
+    "device",
+    "cell",
+    "handset",
+    "responsive",
+    "call"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M7 4A2 2 0 0 1 9 2H15A2 2 0 0 1 17 4V20A2 2 0 0 1 15 22H9A2 2 0 0 1 7 20Z",
+      "closed": true
+    },
+    {
+      "d": "M10 5H14",
+      "closed": false
+    },
+    {
+      "d": "M10 19H14",
+      "closed": false
+    }
+  ]
+}

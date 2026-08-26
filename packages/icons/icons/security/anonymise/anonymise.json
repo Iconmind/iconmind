@@ -1,0 +1,38 @@
+{
+  "slug": "anonymise",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Anonymise",
+  "description": "The person, with the person taken out",
+  "tags": [
+    "mask",
+    "pii",
+    "private"
+  ],
+  "aliases": [
+    "pseudonymise",
+    "privacy"
+  ],
+  "keywords": [
+    "pii",
+    "mask",
+    "gdpr",
+    "redact",
+    "de-identify"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 21A6 6 0 0 1 18 21",
+      "closed": false
+    },
+    {
+      "d": "M7 8A1.5 1.5 0 0 1 8.5 6.5H15.5A1.5 1.5 0 0 1 17 8V8A1.5 1.5 0 0 1 15.5 9.5H8.5A1.5 1.5 0 0 1 7 8Z",
+      "closed": true
+    }
+  ]
+}

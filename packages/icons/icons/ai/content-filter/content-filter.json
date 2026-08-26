@@ -1,0 +1,37 @@
+{
+  "slug": "content-filter",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Content filter",
+  "description": "What is not allowed through",
+  "tags": [
+    "moderation",
+    "block",
+    "screen"
+  ],
+  "aliases": [
+    "moderation"
+  ],
+  "keywords": [
+    "moderation",
+    "nsfw",
+    "policy",
+    "screen",
+    "block"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M9 9L12 12L12 15",
+      "closed": false
+    },
+    {
+      "d": "M15 9L12 12",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "schedule-report",
+  "category": "analytics",
+  "subcategory": "dashboard",
+  "name": "Scheduled report",
+  "description": "The one that arrives on its own",
+  "tags": [
+    "recurring",
+    "digest",
+    "sent"
+  ],
+  "keywords": [
+    "digest",
+    "weekly report",
+    "recurring",
+    "emailed",
+    "automatic"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 10A2 2 0 0 1 4 8H20A2 2 0 0 1 22 10V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V8",
+      "closed": false
+    },
+    {
+      "d": "M16 3V8",
+      "closed": false
+    },
+    {
+      "d": "M5 11H17",
+      "closed": false
+    },
+    {
+      "d": "M5 15H13",
+      "closed": false
+    }
+  ]
+}

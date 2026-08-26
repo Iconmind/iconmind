@@ -1,0 +1,36 @@
+{
+  "slug": "long-term",
+  "category": "agents",
+  "subcategory": "memory",
+  "name": "Long-term memory",
+  "description": "What survives the session",
+  "tags": [
+    "persistent",
+    "keeps",
+    "durable"
+  ],
+  "keywords": [
+    "persists",
+    "across sessions",
+    "durable memory"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V15A2 2 0 0 1 20 17H4A2 2 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M6 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 11H18",
+      "closed": false
+    },
+    {
+      "d": "M2 20H22",
+      "closed": false
+    }
+  ]
+}

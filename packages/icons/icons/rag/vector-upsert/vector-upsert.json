@@ -1,0 +1,44 @@
+{
+  "slug": "vector-upsert",
+  "category": "rag",
+  "subcategory": "vector",
+  "name": "Vector upsert",
+  "description": "New vectors into the index",
+  "tags": [
+    "insert",
+    "write",
+    "add"
+  ],
+  "keywords": [
+    "upsert vectors",
+    "write to index",
+    "add embeddings"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 19.5A2.5 2.5 0 0 1 4.5 17H19.5A2.5 2.5 0 0 1 22 19.5V19.5A2.5 2.5 0 0 1 19.5 22H4.5A2.5 2.5 0 0 1 2 19.5Z",
+      "closed": true
+    },
+    {
+      "d": "M18 4V10",
+      "closed": false
+    },
+    {
+      "d": "M15 7L18 10L21 7",
+      "closed": false
+    }
+  ]
+}

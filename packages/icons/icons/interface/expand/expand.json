@@ -1,0 +1,38 @@
+{
+  "slug": "expand",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Expand",
+  "description": "Make it bigger",
+  "tags": [
+    "grow",
+    "open",
+    "enlarge"
+  ],
+  "keywords": [
+    "grow",
+    "enlarge",
+    "open",
+    "widen",
+    "scale up"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M4 10L4 4L10 4",
+      "closed": false
+    },
+    {
+      "d": "M4 4L10 10",
+      "closed": false
+    },
+    {
+      "d": "M14 20L20 20L20 14",
+      "closed": false
+    },
+    {
+      "d": "M20 20L14 14",
+      "closed": false
+    }
+  ]
+}

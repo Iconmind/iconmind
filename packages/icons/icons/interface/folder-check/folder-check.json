@@ -1,0 +1,29 @@
+{
+  "slug": "folder-check",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Folder check",
+  "description": "This folder is in order",
+  "tags": [
+    "synced",
+    "verified",
+    "done"
+  ],
+  "keywords": [
+    "synced",
+    "backed up",
+    "verified",
+    "complete"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M9 13L11 15L15 11",
+      "closed": false
+    }
+  ]
+}

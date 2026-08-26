@@ -1,0 +1,38 @@
+{
+  "slug": "timeout",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "Timeout",
+  "description": "It took too long, so it was stopped",
+  "tags": [
+    "expired",
+    "deadline",
+    "cut-off"
+  ],
+  "keywords": [
+    "deadline exceeded",
+    "expired",
+    "took too long",
+    "gave up",
+    "504"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 12a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 9L10 12L13 12",
+      "closed": false
+    },
+    {
+      "d": "M17 8L21 12",
+      "closed": false
+    },
+    {
+      "d": "M21 8L17 12",
+      "closed": false
+    }
+  ]
+}

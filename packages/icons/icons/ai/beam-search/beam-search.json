@@ -1,0 +1,34 @@
+{
+  "slug": "beam-search",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Beam search",
+  "description": "Keep several candidates alive",
+  "tags": [
+    "candidates",
+    "paths",
+    "width"
+  ],
+  "keywords": [
+    "beam width",
+    "candidates",
+    "n-best",
+    "search",
+    "decode"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M3 12L8 12L14 6L21 6",
+      "closed": false
+    },
+    {
+      "d": "M8 12L14 12L21 12",
+      "closed": false
+    },
+    {
+      "d": "M8 12L14 18L21 18",
+      "closed": false
+    }
+  ]
+}

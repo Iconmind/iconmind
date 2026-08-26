@@ -1,0 +1,45 @@
+{
+  "slug": "editor-split",
+  "category": "devtools",
+  "subcategory": "editor",
+  "name": "Split editor",
+  "description": "Two files at once",
+  "tags": [
+    "panes",
+    "side-by-side",
+    "compare"
+  ],
+  "keywords": [
+    "split view",
+    "two panes",
+    "compare",
+    "diff view"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M12 4V20",
+      "closed": false
+    },
+    {
+      "d": "M5 9H10",
+      "closed": false
+    },
+    {
+      "d": "M5 13H9",
+      "closed": false
+    },
+    {
+      "d": "M14 9H19",
+      "closed": false
+    },
+    {
+      "d": "M14 13H18",
+      "closed": false
+    }
+  ]
+}

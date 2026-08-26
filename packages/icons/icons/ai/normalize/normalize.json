@@ -1,0 +1,45 @@
+{
+  "slug": "normalize",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Normalise",
+  "description": "Brought onto the same scale",
+  "tags": [
+    "scale",
+    "even",
+    "rescale"
+  ],
+  "aliases": [
+    "normalise"
+  ],
+  "keywords": [
+    "rescale",
+    "standardise",
+    "z-score",
+    "min max",
+    "same range"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 6H21",
+      "closed": false
+    },
+    {
+      "d": "M6 8V16",
+      "closed": false
+    },
+    {
+      "d": "M12 8V16",
+      "closed": false
+    },
+    {
+      "d": "M18 8V16",
+      "closed": false
+    },
+    {
+      "d": "M3 18H21",
+      "closed": false
+    }
+  ]
+}

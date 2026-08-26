@@ -1,0 +1,35 @@
+{
+  "slug": "clock",
+  "category": "interface",
+  "subcategory": "time",
+  "name": "Clock",
+  "description": "What the time is",
+  "tags": [
+    "time",
+    "hour",
+    "watch"
+  ],
+  "aliases": [
+    "time"
+  ],
+  "keywords": [
+    "hour",
+    "watch",
+    "latency"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M12 6.5V12",
+      "closed": false
+    },
+    {
+      "d": "M12 12H16.5",
+      "closed": false
+    }
+  ]
+}

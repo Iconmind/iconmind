@@ -1,0 +1,42 @@
+{
+  "slug": "chart-scatter",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Scatter chart",
+  "description": "Where the points fall",
+  "tags": [
+    "points",
+    "correlation",
+    "spread"
+  ],
+  "keywords": [
+    "correlation",
+    "distribution",
+    "plot",
+    "points",
+    "cluster"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

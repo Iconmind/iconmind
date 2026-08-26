@@ -1,0 +1,37 @@
+{
+  "slug": "inline-suggestion",
+  "category": "devtools",
+  "subcategory": "editor",
+  "name": "Inline suggestion",
+  "description": "What it thinks you were about to type",
+  "tags": [
+    "ghost",
+    "completion",
+    "hint"
+  ],
+  "aliases": [
+    "ghost-text"
+  ],
+  "keywords": [
+    "copilot",
+    "ghost text",
+    "autocomplete",
+    "accept",
+    "tab"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 9H21",
+      "closed": false
+    },
+    {
+      "d": "M3 15H12",
+      "closed": false
+    },
+    {
+      "d": "M15 15H21",
+      "closed": false
+    }
+  ]
+}

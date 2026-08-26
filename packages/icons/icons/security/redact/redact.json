@@ -1,0 +1,37 @@
+{
+  "slug": "redact",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Redact",
+  "description": "Blacked out",
+  "tags": [
+    "hide",
+    "censor",
+    "mask"
+  ],
+  "aliases": [
+    "censor"
+  ],
+  "keywords": [
+    "mask",
+    "pii",
+    "anonymise",
+    "black bar",
+    "obscure"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M4 6H20",
+      "closed": false
+    },
+    {
+      "d": "M4 12A2 2 0 0 1 6 10H14A2 2 0 0 1 16 12V12A2 2 0 0 1 14 14H6A2 2 0 0 1 4 12Z",
+      "closed": true
+    },
+    {
+      "d": "M4 18H20",
+      "closed": false
+    }
+  ]
+}

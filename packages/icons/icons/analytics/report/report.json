@@ -1,0 +1,42 @@
+{
+  "slug": "report",
+  "category": "analytics",
+  "subcategory": "dashboard",
+  "name": "Report",
+  "description": "The numbers, written up",
+  "tags": [
+    "summary",
+    "document",
+    "chart"
+  ],
+  "keywords": [
+    "summary",
+    "export",
+    "pdf",
+    "monthly",
+    "figures"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 14V18",
+      "closed": false
+    },
+    {
+      "d": "M12 11V18",
+      "closed": false
+    },
+    {
+      "d": "M15 13V18",
+      "closed": false
+    },
+    {
+      "d": "M8 18H16",
+      "closed": false
+    }
+  ]
+}

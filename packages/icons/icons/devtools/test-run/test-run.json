@@ -1,0 +1,32 @@
+{
+  "slug": "test-run",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Test run",
+  "description": "The suite, going",
+  "tags": [
+    "running",
+    "suite",
+    "progress"
+  ],
+  "keywords": [
+    "running tests",
+    "suite in progress",
+    "watch tests"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 9L12 12L9 15Z",
+      "closed": true
+    },
+    {
+      "d": "M8 18H16",
+      "closed": false
+    }
+  ]
+}

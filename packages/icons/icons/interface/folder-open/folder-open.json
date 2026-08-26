@@ -1,0 +1,29 @@
+{
+  "slug": "folder-open",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Folder open",
+  "description": "You are looking inside it",
+  "tags": [
+    "open",
+    "expanded",
+    "contents"
+  ],
+  "keywords": [
+    "expanded",
+    "current directory",
+    "contents",
+    "browse"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M4 20L4 4L9 4L12 7L19 7L19 11",
+      "closed": false
+    },
+    {
+      "d": "M4 20L12 12L22 12L14 20Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "pull-request",
+  "category": "devtools",
+  "subcategory": "version-control",
+  "name": "Pull request",
+  "description": "Asking for your work to be taken",
+  "tags": [
+    "review",
+    "propose",
+    "merge"
+  ],
+  "aliases": [
+    "pr"
+  ],
+  "keywords": [
+    "merge request",
+    "review",
+    "diff",
+    "github",
+    "propose"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M4 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 7.5V21",
+      "closed": false
+    },
+    {
+      "d": "M18 5V16.5",
+      "closed": false
+    },
+    {
+      "d": "M16 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 8L18 5L21 8",
+      "closed": false
+    }
+  ]
+}

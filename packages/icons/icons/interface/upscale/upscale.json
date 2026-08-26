@@ -1,0 +1,32 @@
+{
+  "slug": "upscale",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Upscale",
+  "description": "The same picture, more of it",
+  "tags": [
+    "enlarge",
+    "enhance",
+    "grow"
+  ],
+  "keywords": [
+    "enlarge",
+    "super resolution",
+    "enhance"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12A2 2 0 0 1 4 10H10A2 2 0 0 1 12 12V18A2 2 0 0 1 10 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M14 10L20 4",
+      "closed": false
+    },
+    {
+      "d": "M15 4L20 4L20 9",
+      "closed": false
+    }
+  ]
+}

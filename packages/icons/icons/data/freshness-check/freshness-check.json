@@ -1,0 +1,36 @@
+{
+  "slug": "freshness-check",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Freshness check",
+  "description": "Is this still current?",
+  "tags": [
+    "recent",
+    "current",
+    "verified"
+  ],
+  "aliases": [
+    "freshness-data"
+  ],
+  "keywords": [
+    "up to date",
+    "recent",
+    "sla on data",
+    "current"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 12a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 9L10 12L13 12",
+      "closed": false
+    },
+    {
+      "d": "M16 15L18 17L22 13",
+      "closed": false
+    }
+  ]
+}

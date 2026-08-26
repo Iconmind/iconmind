@@ -1,0 +1,32 @@
+{
+  "slug": "volume-up",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Volume up",
+  "description": "Louder",
+  "tags": [
+    "sound",
+    "louder",
+    "raise"
+  ],
+  "keywords": [
+    "louder",
+    "raise volume",
+    "sound up"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 9L8 9L13 4L13 20L8 15L3 15Z",
+      "closed": true
+    },
+    {
+      "d": "M17 8.54A4 4 0 0 1 17 15.46",
+      "closed": false
+    },
+    {
+      "d": "M18.5 5.94A7 7 0 0 1 18.5 18.06",
+      "closed": false
+    }
+  ]
+}

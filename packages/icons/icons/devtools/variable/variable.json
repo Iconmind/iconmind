@@ -1,0 +1,33 @@
+{
+  "slug": "variable",
+  "category": "devtools",
+  "subcategory": "code",
+  "name": "Variable",
+  "description": "A name with a value in it",
+  "tags": [
+    "binding",
+    "name",
+    "holds"
+  ],
+  "keywords": [
+    "binding",
+    "let",
+    "holds a value",
+    "name equals"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 9A2 2 0 0 1 4 7H9A2 2 0 0 1 11 9V15A2 2 0 0 1 9 17H4A2 2 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M14 11H21",
+      "closed": false
+    },
+    {
+      "d": "M14 14H19",
+      "closed": false
+    }
+  ]
+}

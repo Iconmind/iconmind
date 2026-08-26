@@ -1,0 +1,38 @@
+{
+  "slug": "grounding",
+  "category": "rag",
+  "subcategory": "grounding",
+  "name": "Grounding",
+  "description": "The answer tied to a source",
+  "tags": [
+    "source",
+    "evidence",
+    "anchored"
+  ],
+  "keywords": [
+    "citation",
+    "evidence",
+    "attribution",
+    "provenance",
+    "sourced"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M14 2L5 2L5 17L19 17L19 7",
+      "closed": false
+    },
+    {
+      "d": "M8 8H16",
+      "closed": false
+    },
+    {
+      "d": "M8 12H16",
+      "closed": false
+    },
+    {
+      "d": "M3 21H21",
+      "closed": false
+    }
+  ]
+}

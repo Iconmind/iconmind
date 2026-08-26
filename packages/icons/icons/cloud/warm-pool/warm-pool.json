@@ -1,0 +1,41 @@
+{
+  "slug": "warm-pool",
+  "category": "cloud",
+  "subcategory": "compute",
+  "name": "Warm pool",
+  "description": "Started early so nobody waits",
+  "tags": [
+    "ready",
+    "standby",
+    "pre-warmed"
+  ],
+  "keywords": [
+    "pre warmed",
+    "standby instances",
+    "ready to go",
+    "no cold start"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12A2 2 0 0 1 4 10H8A2 2 0 0 1 10 12V18A2 2 0 0 1 8 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M13 12A2 2 0 0 1 15 10H19A2 2 0 0 1 21 12V18A2 2 0 0 1 19 20H15A2 2 0 0 1 13 18Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V6.5",
+      "closed": false
+    },
+    {
+      "d": "M12 2V5.5",
+      "closed": false
+    },
+    {
+      "d": "M16 3V6.5",
+      "closed": false
+    }
+  ]
+}

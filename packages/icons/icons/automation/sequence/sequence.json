@@ -1,0 +1,41 @@
+{
+  "slug": "sequence",
+  "category": "automation",
+  "subcategory": "workflow",
+  "name": "Sequence",
+  "description": "This, then that, then the next",
+  "tags": [
+    "order",
+    "series",
+    "steps"
+  ],
+  "keywords": [
+    "in order",
+    "one after another",
+    "series",
+    "steps"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 12H10",
+      "closed": false
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 12H18",
+      "closed": false
+    },
+    {
+      "d": "M18 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

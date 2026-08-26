@@ -1,0 +1,33 @@
+{
+  "slug": "mcp-resource-add",
+  "category": "mcp",
+  "subcategory": "resource",
+  "name": "MCP resource add",
+  "description": "Offer another resource",
+  "tags": [
+    "new",
+    "expose",
+    "register"
+  ],
+  "keywords": [
+    "expose",
+    "register",
+    "publish",
+    "new uri"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L9 3L6 6L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    }
+  ]
+}

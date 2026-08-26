@@ -1,0 +1,29 @@
+{
+  "slug": "agent-check",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Agent check",
+  "description": "The agent passed its checks",
+  "tags": [
+    "valid",
+    "healthy",
+    "verified"
+  ],
+  "keywords": [
+    "healthy",
+    "verified",
+    "ready",
+    "passing"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M8 12L10 14L16 8",
+      "closed": false
+    }
+  ]
+}

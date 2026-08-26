@@ -1,0 +1,41 @@
+{
+  "slug": "benchmark-code",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Benchmark",
+  "description": "How fast, measured fairly",
+  "tags": [
+    "perf",
+    "timing",
+    "compare"
+  ],
+  "keywords": [
+    "performance test",
+    "timing",
+    "ops per second",
+    "fair compare"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 13a7 7 0 1 0 14 0a7 7 0 1 0 -14 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 13L14 9",
+      "closed": false
+    },
+    {
+      "d": "M9 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M19 4V8",
+      "closed": false
+    },
+    {
+      "d": "M22 6V10",
+      "closed": false
+    }
+  ]
+}

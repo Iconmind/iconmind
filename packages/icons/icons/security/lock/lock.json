@@ -1,0 +1,34 @@
+{
+  "slug": "lock",
+  "category": "security",
+  "subcategory": "encryption",
+  "name": "Lock",
+  "description": "Closed to anyone without the key",
+  "tags": [
+    "secure",
+    "closed",
+    "private"
+  ],
+  "keywords": [
+    "locked",
+    "secure",
+    "closed",
+    "private",
+    "protected"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M5 12A2 2 0 0 1 7 10H17A2 2 0 0 1 19 12V19A2 2 0 0 1 17 21H7A2 2 0 0 1 5 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 10A4 4 0 0 1 16 10",
+      "closed": false
+    },
+    {
+      "d": "M11 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

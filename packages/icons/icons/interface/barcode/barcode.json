@@ -1,0 +1,42 @@
+{
+  "slug": "barcode",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Barcode",
+  "description": "The old kind of code",
+  "tags": [
+    "scan",
+    "stripes",
+    "product"
+  ],
+  "keywords": [
+    "upc",
+    "ean",
+    "scan",
+    "sku",
+    "stripes"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M4 5V19",
+      "closed": false
+    },
+    {
+      "d": "M7 5V19",
+      "closed": false
+    },
+    {
+      "d": "M11 5V19",
+      "closed": false
+    },
+    {
+      "d": "M14 5V19",
+      "closed": false
+    },
+    {
+      "d": "M18 5V19",
+      "closed": false
+    }
+  ]
+}

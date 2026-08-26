@@ -1,0 +1,37 @@
+{
+  "slug": "end-to-end",
+  "category": "automation",
+  "subcategory": "workflow",
+  "name": "End to end",
+  "description": "From the first thing to the last",
+  "tags": [
+    "whole",
+    "through",
+    "complete"
+  ],
+  "keywords": [
+    "whole journey",
+    "start to finish",
+    "full path",
+    "through"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 12H17",
+      "closed": false
+    },
+    {
+      "d": "M18 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 9L17 12L14 15",
+      "closed": false
+    }
+  ]
+}

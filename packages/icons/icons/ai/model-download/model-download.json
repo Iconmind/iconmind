@@ -1,0 +1,33 @@
+{
+  "slug": "model-download",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Model download",
+  "description": "Fetch the weights",
+  "tags": [
+    "fetch",
+    "pull",
+    "weights"
+  ],
+  "keywords": [
+    "pull weights",
+    "huggingface",
+    "fetch model",
+    "local"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14 4H17A3 3 0 0 1 20 7V13A3 3 0 0 1 17 16H7A3 3 0 0 1 4 13V7L7 4H10",
+      "closed": true
+    },
+    {
+      "d": "M12 17V21",
+      "closed": false
+    },
+    {
+      "d": "M9 18L12 21L15 18",
+      "closed": false
+    }
+  ]
+}

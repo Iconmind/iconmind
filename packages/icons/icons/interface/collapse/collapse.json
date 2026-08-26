@@ -1,0 +1,38 @@
+{
+  "slug": "collapse",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Collapse",
+  "description": "Make it smaller",
+  "tags": [
+    "shrink",
+    "close",
+    "reduce"
+  ],
+  "keywords": [
+    "shrink",
+    "reduce",
+    "close",
+    "narrow",
+    "scale down"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M10 4L10 10L4 10",
+      "closed": false
+    },
+    {
+      "d": "M10 10L4 4",
+      "closed": false
+    },
+    {
+      "d": "M14 20L14 14L20 14",
+      "closed": false
+    },
+    {
+      "d": "M14 14L20 20",
+      "closed": false
+    }
+  ]
+}

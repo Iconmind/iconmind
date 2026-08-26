@@ -1,0 +1,36 @@
+{
+  "slug": "transform-step",
+  "category": "automation",
+  "subcategory": "action",
+  "name": "Transform step",
+  "description": "The stage that changes the shape",
+  "tags": [
+    "convert",
+    "stage",
+    "middle"
+  ],
+  "keywords": [
+    "conversion stage",
+    "reshape step",
+    "middle of the line"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12H7",
+      "closed": false
+    },
+    {
+      "d": "M7 9A2 2 0 0 1 9 7H15A2 2 0 0 1 17 9V15A2 2 0 0 1 15 17H9A2 2 0 0 1 7 15Z",
+      "closed": true
+    },
+    {
+      "d": "M10 14L14 10",
+      "closed": false
+    },
+    {
+      "d": "M17 12H22",
+      "closed": false
+    }
+  ]
+}

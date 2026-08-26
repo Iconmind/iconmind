@@ -1,0 +1,41 @@
+{
+  "slug": "approval",
+  "category": "automation",
+  "subcategory": "human-loop",
+  "name": "Approval",
+  "description": "Somebody said yes",
+  "tags": [
+    "sign-off",
+    "consent",
+    "yes"
+  ],
+  "aliases": [
+    "sign-off"
+  ],
+  "keywords": [
+    "consent",
+    "authorise",
+    "yes",
+    "signed",
+    "green light"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 9H15",
+      "closed": false
+    },
+    {
+      "d": "M9 13H13",
+      "closed": false
+    },
+    {
+      "d": "M8 19L11 16L14 19L17 16",
+      "closed": false
+    }
+  ]
+}

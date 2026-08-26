@@ -1,0 +1,41 @@
+{
+  "slug": "calendar-run",
+  "category": "automation",
+  "subcategory": "schedule",
+  "name": "Calendar run",
+  "description": "The day it will happen",
+  "tags": [
+    "scheduled",
+    "planned",
+    "date"
+  ],
+  "keywords": [
+    "scheduled run",
+    "planned",
+    "on this date",
+    "calendar job"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M8 2V5",
+      "closed": false
+    },
+    {
+      "d": "M16 2V5",
+      "closed": false
+    },
+    {
+      "d": "M2 9H22",
+      "closed": false
+    },
+    {
+      "d": "M10 12L13 15L10 18Z",
+      "closed": true
+    }
+  ]
+}

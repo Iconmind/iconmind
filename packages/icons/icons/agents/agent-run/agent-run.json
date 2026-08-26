@@ -1,0 +1,32 @@
+{
+  "slug": "agent-run",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Agent run",
+  "description": "Start the agent",
+  "tags": [
+    "start",
+    "execute",
+    "play"
+  ],
+  "aliases": [
+    "agent-start"
+  ],
+  "keywords": [
+    "run",
+    "execute",
+    "launch",
+    "invoke"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M10 7L15 12L10 17",
+      "closed": false
+    }
+  ]
+}

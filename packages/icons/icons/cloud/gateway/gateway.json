@@ -1,0 +1,37 @@
+{
+  "slug": "gateway",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Gateway",
+  "description": "The one way in",
+  "tags": [
+    "entry",
+    "door",
+    "ingress"
+  ],
+  "aliases": [
+    "ingress"
+  ],
+  "keywords": [
+    "api gateway",
+    "entry point",
+    "proxy",
+    "ingress",
+    "door"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M10.5 4H13A3 3 0 0 1 16 7V17A3 3 0 0 1 13 20H5A3 3 0 0 1 2 17V7A3 3 0 0 1 5 4H7.5",
+      "closed": true
+    },
+    {
+      "d": "M2 12H22",
+      "closed": false
+    },
+    {
+      "d": "M18 8L22 12L18 16",
+      "closed": false
+    }
+  ]
+}

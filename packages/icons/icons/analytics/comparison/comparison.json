@@ -1,0 +1,33 @@
+{
+  "slug": "comparison",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Comparison",
+  "description": "This one against that one",
+  "tags": [
+    "versus",
+    "against",
+    "two"
+  ],
+  "aliases": [
+    "versus"
+  ],
+  "keywords": [
+    "vs",
+    "a/b",
+    "side by side",
+    "against",
+    "benchmark"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H8A2 2 0 0 1 10 6V18A2 2 0 0 1 8 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M14 10A2 2 0 0 1 16 8H20A2 2 0 0 1 22 10V18A2 2 0 0 1 20 20H16A2 2 0 0 1 14 18Z",
+      "closed": true
+    }
+  ]
+}

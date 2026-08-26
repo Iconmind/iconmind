@@ -1,0 +1,30 @@
+{
+  "slug": "multi-cloud",
+  "category": "cloud",
+  "subcategory": "compute",
+  "name": "Multi-cloud",
+  "description": "More than one sky",
+  "tags": [
+    "hybrid",
+    "several",
+    "providers"
+  ],
+  "keywords": [
+    "several providers",
+    "aws and gcp",
+    "hybrid",
+    "portable"
+  ],
+  "family": "cloud",
+  "shapes": [
+    {
+      "d": "M4 15A4 4 0 0 1 6 7.5A5 5 0 0 1 15.5 6A5.5 5.5 0 0 1 20 15Z",
+      "closed": true,
+      "_why": "three lobes, each an arc whose radius is set by the chord it spans — 4 across 7.76, 5 across 9.62, 5.5 across 10.06 — which no constructor takes as an argument"
+    },
+    {
+      "d": "M6 20H18",
+      "closed": false
+    }
+  ]
+}

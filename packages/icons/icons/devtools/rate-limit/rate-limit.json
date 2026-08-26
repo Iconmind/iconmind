@@ -1,0 +1,42 @@
+{
+  "slug": "rate-limit",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "Rate limit",
+  "description": "Many asking, fewer let through",
+  "tags": [
+    "throttle",
+    "429",
+    "quota"
+  ],
+  "keywords": [
+    "429",
+    "throttle",
+    "requests per second",
+    "backoff",
+    "quota"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 8H10",
+      "closed": false
+    },
+    {
+      "d": "M2 12H10",
+      "closed": false
+    },
+    {
+      "d": "M2 16H10",
+      "closed": false
+    },
+    {
+      "d": "M11 7L11 17",
+      "closed": false
+    },
+    {
+      "d": "M13 12H22",
+      "closed": false
+    }
+  ]
+}

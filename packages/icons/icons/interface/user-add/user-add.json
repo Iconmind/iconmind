@@ -1,0 +1,40 @@
+{
+  "slug": "user-add",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "User add",
+  "description": "Invite somebody",
+  "tags": [
+    "invite",
+    "new",
+    "member"
+  ],
+  "aliases": [
+    "invite"
+  ],
+  "keywords": [
+    "add member",
+    "invite",
+    "signup",
+    "new account"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A6 6 0 0 1 15 21",
+      "closed": false
+    },
+    {
+      "d": "M18 9V15",
+      "closed": false
+    },
+    {
+      "d": "M15 12H21",
+      "closed": false
+    }
+  ]
+}

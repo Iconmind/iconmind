@@ -1,0 +1,38 @@
+{
+  "slug": "feature-flag",
+  "category": "devops",
+  "subcategory": "release",
+  "name": "Feature flag",
+  "description": "On for some, off for the rest",
+  "tags": [
+    "toggle",
+    "gradual",
+    "switch"
+  ],
+  "keywords": [
+    "toggle",
+    "kill switch",
+    "gradual release",
+    "a/b",
+    "on off"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 6A4 4 0 0 1 6 2H18A4 4 0 0 1 22 6V6A4 4 0 0 1 18 10H6A4 4 0 0 1 2 6Z",
+      "closed": true
+    },
+    {
+      "d": "M16 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 18A4 4 0 0 1 6 14H18A4 4 0 0 1 22 18V18A4 4 0 0 1 18 22H6A4 4 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M4 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

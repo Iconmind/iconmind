@@ -1,0 +1,45 @@
+{
+  "slug": "load-balancer",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Load balancer",
+  "description": "One address, spread across many machines",
+  "tags": [
+    "distribute",
+    "spread",
+    "traffic"
+  ],
+  "aliases": [
+    "lb"
+  ],
+  "keywords": [
+    "nginx",
+    "round robin",
+    "traffic",
+    "distribute",
+    "ingress"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M2 12H8",
+      "closed": false
+    },
+    {
+      "d": "M8 6V18",
+      "closed": false
+    },
+    {
+      "d": "M8 6H21",
+      "closed": false
+    },
+    {
+      "d": "M8 12H21",
+      "closed": false
+    },
+    {
+      "d": "M8 18H21",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "dead-letter",
+  "category": "automation",
+  "subcategory": "workflow",
+  "name": "Dead letter",
+  "description": "The message that could not be delivered",
+  "tags": [
+    "failed",
+    "undelivered",
+    "queue"
+  ],
+  "keywords": [
+    "dlq",
+    "undeliverable",
+    "poison message",
+    "failed queue"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 21L11 17",
+      "closed": false
+    },
+    {
+      "d": "M10 8L14 12",
+      "closed": false
+    },
+    {
+      "d": "M14 8L10 12",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "quantization",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Quantization",
+  "description": "Fewer bits per weight, on purpose",
+  "tags": [
+    "precision",
+    "compress",
+    "steps"
+  ],
+  "aliases": [
+    "quantize",
+    "quantise"
+  ],
+  "keywords": [
+    "int8",
+    "int4",
+    "gguf",
+    "precision",
+    "compress"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M4 18L8 18L8 14L12 14L12 10L16 10L16 6L20 6",
+      "closed": false
+    }
+  ]
+}

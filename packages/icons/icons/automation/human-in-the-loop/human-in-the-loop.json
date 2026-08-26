@@ -1,0 +1,37 @@
+{
+  "slug": "human-in-the-loop",
+  "category": "automation",
+  "subcategory": "human-loop",
+  "name": "Human in the loop",
+  "description": "A person is part of the run",
+  "tags": [
+    "manual",
+    "review",
+    "person"
+  ],
+  "keywords": [
+    "manual step",
+    "review gate",
+    "operator",
+    "supervised"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12H7",
+      "closed": false
+    },
+    {
+      "d": "M9 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 19A5 5 0 0 1 17 19",
+      "closed": false
+    },
+    {
+      "d": "M17 12H22",
+      "closed": false
+    }
+  ]
+}

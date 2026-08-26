@@ -1,0 +1,55 @@
+{
+  "slug": "debug",
+  "category": "devtools",
+  "subcategory": "debug",
+  "name": "Debug",
+  "description": "Find out what it is actually doing",
+  "tags": [
+    "bug",
+    "inspect",
+    "breakpoint"
+  ],
+  "aliases": [
+    "bug"
+  ],
+  "accepted": {
+    "lint/element-budget": "a beetle is a body, six limbs and two feelers; with fewer parts it is a chip"
+  },
+  "keywords": [
+    "breakpoint",
+    "step",
+    "inspect",
+    "troubleshoot"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 13a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 11H7.5",
+      "closed": false
+    },
+    {
+      "d": "M16.5 11H21",
+      "closed": false
+    },
+    {
+      "d": "M3 15H7.5",
+      "closed": false
+    },
+    {
+      "d": "M16.5 15H21",
+      "closed": false
+    },
+    {
+      "d": "M8 5L10.5 7.5",
+      "closed": false
+    },
+    {
+      "d": "M16 5L13.5 7.5",
+      "closed": false
+    }
+  ]
+}

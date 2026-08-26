@@ -1,0 +1,52 @@
+---
+title: MCP server
+description: Let an AI assistant search and insert icons that actually exist.
+---
+
+Ask an assistant to build a UI and it has to pick icons. Without help it guesses from
+memory, and the names it produces usually belong to some other library. With the MCP
+server installed it searches the real set instead.
+
+```bash
+claude mcp add iconmind -- npx -y @iconmind/mcp
+```
+
+Or by hand:
+
+```json
+{
+  "mcpServers": {
+    "iconmind": { "command": "npx", "args": ["-y", "@iconmind/mcp"] }
+  }
+}
+```
+
+No API key, no account, no network. The icon data is bundled, so it works offline and
+starts in well under a second — it runs every time your client opens.
+
+## Tools
+
+| Tool | What it does |
+|---|---|
+| `search_icon` | Search by keyword or concept. Returns paste-ready code with each result. |
+| `get_icon` | One icon by exact slug. Unknown slugs return suggestions, never an error. |
+| `list_category` | Icons in a category, or the categories themselves. |
+| `get_icon_code` | One combined import for several icons at once. |
+
+An unknown slug returning suggestions rather than an error is deliberate: an assistant
+handed an error tends to stop or invent a name, while one handed suggestions picks the
+right thing.
+
+## Prompts
+
+`recommend_icons` maps icons onto a feature you describe. `ai_workflow_icons` breaks a
+pipeline into stages and finds an icon for each — that one is the clearest demonstration
+of why this set exists, because a RAG pipeline has icons for `chunk`, `retriever`,
+`reranker`, and `vector-search` here and nowhere else.
+
+## Resources
+
+`icon://<slug>`, `category://<slug>`, `category://index`, `metadata://stats`.
+
+`metadata://all` exists but is not advertised — it is large enough to crowd a context
+window, and `search_icon` answers the same questions for a fraction of the tokens.

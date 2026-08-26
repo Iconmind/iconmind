@@ -1,0 +1,37 @@
+{
+  "slug": "workflow",
+  "category": "automation",
+  "subcategory": "workflow",
+  "name": "Workflow",
+  "description": "Steps that run in order, without anyone watching",
+  "tags": [
+    "flow",
+    "steps",
+    "sequence"
+  ],
+  "aliases": [
+    "flow",
+    "orchestration"
+  ],
+  "keywords": [
+    "automation",
+    "dag",
+    "orchestration",
+    "unattended"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M3 6A2 2 0 0 1 5 4H9A2 2 0 0 1 11 6V9A2 2 0 0 1 9 11H5A2 2 0 0 1 3 9Z",
+      "closed": true
+    },
+    {
+      "d": "M7 11L7 16.5L13 16.5",
+      "closed": false
+    },
+    {
+      "d": "M13 15A2 2 0 0 1 15 13H19A2 2 0 0 1 21 15V18A2 2 0 0 1 19 20H15A2 2 0 0 1 13 18Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "histogram",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Histogram",
+  "description": "How the values are spread",
+  "tags": [
+    "distribution",
+    "bins",
+    "spread"
+  ],
+  "aliases": [
+    "distribution"
+  ],
+  "keywords": [
+    "bins",
+    "frequency",
+    "spread",
+    "normal",
+    "buckets"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 12V20",
+      "closed": false
+    },
+    {
+      "d": "M8 7V20",
+      "closed": false
+    },
+    {
+      "d": "M12 4V20",
+      "closed": false
+    },
+    {
+      "d": "M16 9V20",
+      "closed": false
+    },
+    {
+      "d": "M20 14V20",
+      "closed": false
+    },
+    {
+      "d": "M3 20H21",
+      "closed": false
+    }
+  ]
+}

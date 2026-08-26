@@ -1,0 +1,33 @@
+{
+  "slug": "agent-pause",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Agent pause",
+  "description": "The agent is held, not stopped",
+  "tags": [
+    "hold",
+    "suspend",
+    "wait"
+  ],
+  "keywords": [
+    "suspend",
+    "hold",
+    "resume",
+    "paused"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M10 8V16",
+      "closed": false
+    },
+    {
+      "d": "M14 8V16",
+      "closed": false
+    }
+  ]
+}

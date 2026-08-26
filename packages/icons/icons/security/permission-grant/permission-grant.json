@@ -1,0 +1,38 @@
+{
+  "slug": "permission-grant",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Grant permission",
+  "description": "From now on, you may",
+  "tags": [
+    "allow",
+    "give",
+    "approve"
+  ],
+  "keywords": [
+    "grant",
+    "allow",
+    "give access",
+    "approve",
+    "authorise"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M2 12A2 2 0 0 1 4 10H12A2 2 0 0 1 14 12V18A2 2 0 0 1 12 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M4 10A4 4 0 0 1 12 10",
+      "closed": false
+    },
+    {
+      "d": "M15 12H21",
+      "closed": false
+    },
+    {
+      "d": "M18 12L21 15L18 18",
+      "closed": false
+    }
+  ]
+}

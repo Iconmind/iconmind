@@ -1,0 +1,41 @@
+{
+  "slug": "deadline",
+  "category": "agents",
+  "subcategory": "planning",
+  "name": "Deadline",
+  "description": "The time it has to be done by",
+  "tags": [
+    "due",
+    "cutoff",
+    "limit"
+  ],
+  "aliases": [
+    "due-date"
+  ],
+  "keywords": [
+    "due",
+    "cutoff",
+    "sla",
+    "expiry",
+    "overdue"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M12.96 5.66A7 7 0 1 1 7.04 5.66",
+      "closed": false
+    },
+    {
+      "d": "M10 7V12",
+      "closed": false
+    },
+    {
+      "d": "M10 12H15",
+      "closed": false
+    },
+    {
+      "d": "M21 3V21",
+      "closed": false
+    }
+  ]
+}

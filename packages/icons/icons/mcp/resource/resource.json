@@ -1,0 +1,32 @@
+{
+  "slug": "resource",
+  "category": "mcp",
+  "subcategory": "resource",
+  "name": "Resource",
+  "description": "A thing with an address",
+  "tags": [
+    "uri",
+    "addressable",
+    "thing"
+  ],
+  "keywords": [
+    "uri",
+    "addressable",
+    "named thing"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V18A2 2 0 0 1 18 20H6A2 2 0 0 1 4 18Z",
+      "closed": true
+    },
+    {
+      "d": "M8 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12H17",
+      "closed": false
+    }
+  ]
+}

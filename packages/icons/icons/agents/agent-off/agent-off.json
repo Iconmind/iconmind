@@ -1,0 +1,33 @@
+{
+  "slug": "agent-off",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Agent off",
+  "description": "The agent is disabled",
+  "tags": [
+    "disabled",
+    "stopped",
+    "inactive"
+  ],
+  "keywords": [
+    "disable",
+    "inactive",
+    "suspended",
+    "shut down"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M9 9L15 15",
+      "closed": false
+    },
+    {
+      "d": "M15 9L9 15",
+      "closed": false
+    }
+  ]
+}

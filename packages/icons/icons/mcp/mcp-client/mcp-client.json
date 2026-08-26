@@ -1,0 +1,33 @@
+{
+  "slug": "mcp-client",
+  "category": "mcp",
+  "subcategory": "client",
+  "name": "MCP client",
+  "description": "The side that asks",
+  "tags": [
+    "consumer",
+    "caller",
+    "host"
+  ],
+  "keywords": [
+    "host",
+    "consumer",
+    "caller",
+    "claude desktop"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M2 10A2 2 0 0 1 4 8H10A2 2 0 0 1 12 10V14A2 2 0 0 1 10 16H4A2 2 0 0 1 2 14Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12H20",
+      "closed": false
+    },
+    {
+      "d": "M17 9L20 12L17 15",
+      "closed": false
+    }
+  ]
+}

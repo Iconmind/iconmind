@@ -1,0 +1,37 @@
+{
+  "slug": "token-count",
+  "category": "ai",
+  "subcategory": "token",
+  "name": "Token count",
+  "description": "How many pieces the text became",
+  "tags": [
+    "length",
+    "usage",
+    "number"
+  ],
+  "keywords": [
+    "token length",
+    "context used",
+    "how many tokens",
+    "count"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 11A3 3 0 0 1 5 8H5A3 3 0 0 1 8 11V11A3 3 0 0 1 5 14H5A3 3 0 0 1 2 11Z",
+      "closed": true
+    },
+    {
+      "d": "M10 11A3 3 0 0 1 13 8H13A3 3 0 0 1 16 11V11A3 3 0 0 1 13 14H13A3 3 0 0 1 10 11Z",
+      "closed": true
+    },
+    {
+      "d": "M18 10A2 2 0 0 1 20 8H20A2 2 0 0 1 22 10V13A2 2 0 0 1 20 15H20A2 2 0 0 1 18 13Z",
+      "closed": true
+    },
+    {
+      "d": "M3 18H13",
+      "closed": false
+    }
+  ]
+}

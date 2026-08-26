@@ -1,0 +1,35 @@
+{
+  "slug": "upload",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Upload",
+  "description": "Send it away from here",
+  "tags": [
+    "send",
+    "push",
+    "export"
+  ],
+  "aliases": [
+    "export"
+  ],
+  "keywords": [
+    "send",
+    "push",
+    "share"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M12 7V15",
+      "closed": false
+    },
+    {
+      "d": "M8 11L12 7L16 11",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "lock-ui",
+  "category": "interface",
+  "subcategory": "state",
+  "name": "Locked control",
+  "description": "You can see it, not change it",
+  "tags": [
+    "disabled",
+    "frozen",
+    "read-only"
+  ],
+  "keywords": [
+    "read only",
+    "frozen field",
+    "disabled",
+    "cannot edit"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M6 9H10",
+      "closed": false
+    },
+    {
+      "d": "M12 12A2 2 0 0 1 14 10H17A2 2 0 0 1 19 12V15A2 2 0 0 1 17 17H14A2 2 0 0 1 12 15Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 10A2 2 0 0 1 17.5 10",
+      "closed": false
+    }
+  ]
+}

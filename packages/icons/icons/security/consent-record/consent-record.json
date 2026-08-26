@@ -1,0 +1,37 @@
+{
+  "slug": "consent-record",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Consent record",
+  "description": "Who said yes, and when",
+  "tags": [
+    "log",
+    "proof",
+    "signed"
+  ],
+  "keywords": [
+    "consent log",
+    "who agreed",
+    "when",
+    "proof of consent"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 10L11 12L15 8",
+      "closed": false
+    },
+    {
+      "d": "M8 15H16",
+      "closed": false
+    },
+    {
+      "d": "M8 18H13",
+      "closed": false
+    }
+  ]
+}

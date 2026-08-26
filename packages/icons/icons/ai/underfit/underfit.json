@@ -1,0 +1,29 @@
+{
+  "slug": "underfit",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Underfit",
+  "description": "A line too simple for the shape it is after",
+  "tags": [
+    "bias",
+    "too-simple",
+    "misses"
+  ],
+  "keywords": [
+    "underfitting",
+    "high bias",
+    "too simple",
+    "misses the pattern"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 8H21",
+      "closed": false
+    },
+    {
+      "d": "M3 17L6 14L9 17L12 14L15 17L18 14L21 17",
+      "closed": false
+    }
+  ]
+}

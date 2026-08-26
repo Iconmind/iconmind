@@ -1,0 +1,34 @@
+{
+  "slug": "mcp-tool-schema",
+  "category": "mcp",
+  "subcategory": "tool",
+  "name": "MCP tool schema",
+  "description": "What arguments it takes",
+  "tags": [
+    "contract",
+    "shape",
+    "json"
+  ],
+  "keywords": [
+    "input schema",
+    "json schema",
+    "arguments",
+    "contract",
+    "types"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L9 3L6 6L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M11 9L8 12L11 15",
+      "closed": false
+    },
+    {
+      "d": "M13 9L16 12L13 15",
+      "closed": false
+    }
+  ]
+}

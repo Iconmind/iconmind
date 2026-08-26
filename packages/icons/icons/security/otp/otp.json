@@ -1,0 +1,44 @@
+{
+  "slug": "otp",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "One-time password",
+  "description": "A code that works once",
+  "tags": [
+    "code",
+    "six-digits",
+    "expires"
+  ],
+  "aliases": [
+    "one-time-password"
+  ],
+  "keywords": [
+    "totp",
+    "6 digit code",
+    "expires",
+    "authenticator"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 10A2 2 0 0 1 4 8H20A2 2 0 0 1 22 10V14A2 2 0 0 1 20 16H4A2 2 0 0 1 2 14Z",
+      "closed": true
+    },
+    {
+      "d": "M5 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M19 10V14",
+      "closed": false
+    }
+  ]
+}

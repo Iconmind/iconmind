@@ -1,0 +1,45 @@
+{
+  "slug": "log",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Log",
+  "description": "What happened, written down as it happened",
+  "tags": [
+    "records",
+    "entries",
+    "history"
+  ],
+  "aliases": [
+    "logs"
+  ],
+  "keywords": [
+    "stdout",
+    "entries",
+    "syslog",
+    "journal",
+    "tail"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 6V18",
+      "closed": false
+    },
+    {
+      "d": "M11 9H16",
+      "closed": false
+    },
+    {
+      "d": "M11 13H16",
+      "closed": false
+    },
+    {
+      "d": "M11 17H14",
+      "closed": false
+    }
+  ]
+}

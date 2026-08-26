@@ -1,0 +1,41 @@
+[
+  {
+    "name": "1 icon",
+    "path": "packages/react/dist/index.js",
+    "import": "{ Agent }",
+    "limit": "1.3 KB",
+    "ignore": [
+      "react",
+      "react-dom",
+      "react/jsx-runtime"
+    ],
+    "gzip": true,
+    "brotli": false
+  },
+  {
+    "name": "three icons",
+    "path": "packages/react/dist/index.js",
+    "import": "{ Agent, Model, Prompt }",
+    "limit": "2.5 KB",
+    "ignore": [
+      "react",
+      "react-dom",
+      "react/jsx-runtime"
+    ],
+    "gzip": true,
+    "brotli": false
+  },
+  {
+    "name": "createIcon runtime",
+    "path": "packages/react/dist/index.js",
+    "import": "{ createIcon }",
+    "limit": "600 B",
+    "ignore": [
+      "react",
+      "react-dom",
+      "react/jsx-runtime"
+    ],
+    "gzip": true,
+    "brotli": false
+  }
+]

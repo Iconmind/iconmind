@@ -1,0 +1,29 @@
+{
+  "slug": "skip-back",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Skip back",
+  "description": "Back to the last one",
+  "tags": [
+    "previous",
+    "back",
+    "rewind"
+  ],
+  "keywords": [
+    "previous track",
+    "rewind",
+    "seek back",
+    "restart"
+  ],
+  "family": "chevron",
+  "shapes": [
+    {
+      "d": "M18 5L11 12L18 19",
+      "closed": false
+    },
+    {
+      "d": "M7 5V19",
+      "closed": false
+    }
+  ]
+}

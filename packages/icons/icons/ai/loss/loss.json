@@ -1,0 +1,33 @@
+{
+  "slug": "loss",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Loss",
+  "description": "How wrong it still is",
+  "tags": [
+    "error",
+    "objective",
+    "falling"
+  ],
+  "keywords": [
+    "loss curve",
+    "training error",
+    "objective",
+    "going down"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M4 3V21",
+      "closed": false
+    },
+    {
+      "d": "M4 21H22",
+      "closed": false
+    },
+    {
+      "d": "M6 5L12 11L15 14L20 14",
+      "closed": false
+    }
+  ]
+}

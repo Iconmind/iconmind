@@ -1,0 +1,33 @@
+{
+  "slug": "system-prompt",
+  "category": "ai",
+  "subcategory": "prompt",
+  "name": "System prompt",
+  "description": "The instruction the model always has",
+  "tags": [
+    "system",
+    "instruction",
+    "fixed"
+  ],
+  "keywords": [
+    "system message",
+    "preamble",
+    "role",
+    "persona"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M15.5 6H18A3 3 0 0 1 21 9V15A3 3 0 0 1 18 18H6A3 3 0 0 1 3 15V11L8 6H10.5",
+      "closed": true
+    },
+    {
+      "d": "M9 10H17",
+      "closed": false
+    },
+    {
+      "d": "M9 14H14",
+      "closed": false
+    }
+  ]
+}

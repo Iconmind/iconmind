@@ -1,0 +1,41 @@
+{
+  "slug": "batch-inference",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Batch inference",
+  "description": "Many inputs through in one go",
+  "tags": [
+    "bulk",
+    "offline",
+    "many"
+  ],
+  "aliases": [
+    "batch"
+  ],
+  "keywords": [
+    "bulk",
+    "offline",
+    "throughput",
+    "queue",
+    "job"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M16.5 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H11A3 3 0 0 1 8 17V7L11 4H13.5",
+      "closed": true
+    },
+    {
+      "d": "M2 8H6",
+      "closed": false
+    },
+    {
+      "d": "M2 12H6",
+      "closed": false
+    },
+    {
+      "d": "M2 16H6",
+      "closed": false
+    }
+  ]
+}

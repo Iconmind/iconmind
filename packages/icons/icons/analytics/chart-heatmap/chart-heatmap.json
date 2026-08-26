@@ -1,0 +1,46 @@
+{
+  "slug": "chart-heatmap",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Heatmap",
+  "description": "Where the values are dense",
+  "tags": [
+    "grid",
+    "density",
+    "cells"
+  ],
+  "keywords": [
+    "density",
+    "cells",
+    "matrix",
+    "intensity",
+    "calendar heatmap"
+  ],
+  "family": "grid",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H9A2 2 0 0 1 11 6V9A2 2 0 0 1 9 11H6A2 2 0 0 1 4 9Z",
+      "closed": true
+    },
+    {
+      "d": "M14 6A2 2 0 0 1 16 4H19A2 2 0 0 1 21 6V9A2 2 0 0 1 19 11H16A2 2 0 0 1 14 9Z",
+      "closed": true
+    },
+    {
+      "d": "M4 16A2 2 0 0 1 6 14H9A2 2 0 0 1 11 16V19A2 2 0 0 1 9 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M14 16A2 2 0 0 1 16 14H19A2 2 0 0 1 21 16V19A2 2 0 0 1 19 21H16A2 2 0 0 1 14 19Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 7.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15.5 17.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

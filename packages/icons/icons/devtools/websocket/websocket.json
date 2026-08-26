@@ -1,0 +1,37 @@
+{
+  "slug": "websocket",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "WebSocket",
+  "description": "Open, and staying open",
+  "tags": [
+    "duplex",
+    "live",
+    "socket"
+  ],
+  "keywords": [
+    "ws",
+    "duplex",
+    "persistent connection",
+    "live channel"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H7A2 2 0 0 1 9 8V16A2 2 0 0 1 7 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M15 8A2 2 0 0 1 17 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H17A2 2 0 0 1 15 16Z",
+      "closed": true
+    },
+    {
+      "d": "M9 10H15",
+      "closed": false
+    },
+    {
+      "d": "M9 14H15",
+      "closed": false
+    }
+  ]
+}

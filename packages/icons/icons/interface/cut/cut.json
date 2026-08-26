@@ -1,0 +1,41 @@
+{
+  "slug": "cut",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Cut",
+  "description": "Take it out and hold it",
+  "tags": [
+    "scissors",
+    "remove",
+    "clip"
+  ],
+  "aliases": [
+    "scissors"
+  ],
+  "keywords": [
+    "clip",
+    "trim",
+    "ctrl-x",
+    "snip",
+    "remove"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 4L17 15",
+      "closed": false
+    },
+    {
+      "d": "M18 4L7 15",
+      "closed": false
+    },
+    {
+      "d": "M5 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

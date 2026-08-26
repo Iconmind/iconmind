@@ -1,0 +1,42 @@
+{
+  "slug": "ddos",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "DDoS",
+  "description": "More traffic than it can take",
+  "tags": [
+    "flood",
+    "overwhelm",
+    "attack"
+  ],
+  "keywords": [
+    "flood",
+    "volumetric",
+    "amplification",
+    "overwhelm",
+    "botnet"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M2 5H14",
+      "closed": false
+    },
+    {
+      "d": "M2 9H14",
+      "closed": false
+    },
+    {
+      "d": "M2 15H14",
+      "closed": false
+    },
+    {
+      "d": "M2 19H14",
+      "closed": false
+    },
+    {
+      "d": "M18 3V21",
+      "closed": false
+    }
+  ]
+}

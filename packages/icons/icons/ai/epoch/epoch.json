@@ -1,0 +1,34 @@
+{
+  "slug": "epoch",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Epoch",
+  "description": "One pass over all the data",
+  "tags": [
+    "pass",
+    "cycle",
+    "iteration"
+  ],
+  "keywords": [
+    "iteration",
+    "pass",
+    "cycle",
+    "step",
+    "round"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M12 3A9 9 0 1 1 3 12",
+      "closed": false
+    },
+    {
+      "d": "M12 6A6 6 0 1 1 6 12",
+      "closed": false
+    },
+    {
+      "d": "M12 9A3 3 0 1 1 9 12",
+      "closed": false
+    }
+  ]
+}

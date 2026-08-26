@@ -1,0 +1,41 @@
+{
+  "slug": "tls",
+  "category": "security",
+  "subcategory": "encryption",
+  "name": "TLS",
+  "description": "The wire, with a lock on it",
+  "tags": [
+    "https",
+    "encrypted",
+    "transport"
+  ],
+  "aliases": [
+    "https"
+  ],
+  "keywords": [
+    "https",
+    "ssl",
+    "encrypted transport",
+    "certificate",
+    "in transit"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M2 12H8",
+      "closed": false
+    },
+    {
+      "d": "M8 11A2 2 0 0 1 10 9H14A2 2 0 0 1 16 11V15A2 2 0 0 1 14 17H10A2 2 0 0 1 8 15Z",
+      "closed": true
+    },
+    {
+      "d": "M9 9A3 3 0 0 1 15 9",
+      "closed": false
+    },
+    {
+      "d": "M16 12H22",
+      "closed": false
+    }
+  ]
+}

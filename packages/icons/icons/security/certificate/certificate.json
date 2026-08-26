@@ -1,0 +1,41 @@
+{
+  "slug": "certificate",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Certificate",
+  "description": "Signed proof that something is what it says",
+  "tags": [
+    "seal",
+    "signed",
+    "proof"
+  ],
+  "aliases": [
+    "cert"
+  ],
+  "keywords": [
+    "x509",
+    "tls",
+    "signature",
+    "seal",
+    "attestation"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V13A2 2 0 0 1 19 15H5A2 2 0 0 1 3 13Z",
+      "closed": true
+    },
+    {
+      "d": "M6 7H18",
+      "closed": false
+    },
+    {
+      "d": "M6 11H14",
+      "closed": false
+    },
+    {
+      "d": "M9 18.5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

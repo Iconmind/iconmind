@@ -1,0 +1,36 @@
+{
+  "slug": "distil",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Distillation",
+  "description": "A smaller model taught by a bigger one",
+  "tags": [
+    "compress",
+    "teacher",
+    "student"
+  ],
+  "aliases": [
+    "distillation"
+  ],
+  "keywords": [
+    "teacher student",
+    "compress",
+    "shrink model",
+    "kd"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H9A2 2 0 0 1 11 5V10A2 2 0 0 1 9 12H4A2 2 0 0 1 2 10Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12L14 15",
+      "closed": false
+    },
+    {
+      "d": "M14 15A2 2 0 0 1 16 13H20A2 2 0 0 1 22 15V19A2 2 0 0 1 20 21H16A2 2 0 0 1 14 19Z",
+      "closed": true
+    }
+  ]
+}

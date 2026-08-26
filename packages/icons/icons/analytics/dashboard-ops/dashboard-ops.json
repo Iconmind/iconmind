@@ -1,0 +1,41 @@
+{
+  "slug": "dashboard-ops",
+  "category": "analytics",
+  "subcategory": "dashboard",
+  "name": "Ops dashboard",
+  "description": "Everything that matters, on one wall",
+  "tags": [
+    "noc",
+    "wall",
+    "panels"
+  ],
+  "keywords": [
+    "noc wall",
+    "operations view",
+    "panels",
+    "at a glance"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M2 9H22",
+      "closed": false
+    },
+    {
+      "d": "M12 9V21",
+      "closed": false
+    },
+    {
+      "d": "M5 7L7 5",
+      "closed": false
+    },
+    {
+      "d": "M15 13H19",
+      "closed": false
+    }
+  ]
+}

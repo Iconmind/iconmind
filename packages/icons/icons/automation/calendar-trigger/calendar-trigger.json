@@ -1,0 +1,41 @@
+{
+  "slug": "calendar-trigger",
+  "category": "automation",
+  "subcategory": "schedule",
+  "name": "Calendar trigger",
+  "description": "It runs on a date",
+  "tags": [
+    "date",
+    "scheduled",
+    "when"
+  ],
+  "keywords": [
+    "on a date",
+    "monthly",
+    "scheduled run",
+    "planned"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V18A3 3 0 0 1 18 21H6A3 3 0 0 1 3 18V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M3 10H21",
+      "closed": false
+    },
+    {
+      "d": "M8 2.5V5",
+      "closed": false
+    },
+    {
+      "d": "M16 2.5V5",
+      "closed": false
+    },
+    {
+      "d": "M10 13L14 17L10 21",
+      "closed": false
+    }
+  ]
+}
