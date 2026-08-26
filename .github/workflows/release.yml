@@ -1,25 +1,36 @@
 name: Release
 
-# Changesets drives releases: a push to main updates (or opens) the "Version Packages"
-# PR; merging that PR is the release — this workflow then publishes all three packages
-# to npm in one go. Versions are fixed together, so @iconmind/icons, /react and /mcp
-# always share a number.
+# Fully automatic: any push to main that touches the packages (or the scripts
+# that generate them) becomes a release. No PR round-trip — the workflow writes
+# a changeset if the push didn't bring one, versions the fixed group, commits
+# the bump back to main, publishes all packages to npm, pushes the tags, and
+# cuts a GitHub Release. The version-bump push uses the default GITHUB_TOKEN,
+# which never retriggers workflows, so there is no loop — and Vercel (a
+# separate GitHub App) still sees that push and redeploys the site with the
+# new version number.
 on:
   push:
     branches: [main]
+    paths:
+      - "packages/**"
+      - "scripts/**"
+      - ".changeset/**"
 
 concurrency: release-${{ github.ref }}
 
 permissions:
-  contents: write        # the version PR commits bumps + changelogs
-  pull-requests: write
+  contents: write        # version-bump commit, tags, GitHub Release
   id-token: write        # npm provenance
 
 jobs:
   release:
+    # Belt and braces: the release commit itself must never release again.
+    if: "!startsWith(github.event.head_commit.message, 'chore: release v')"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v4
         with:
@@ -32,18 +43,42 @@ jobs:
       - run: pnpm icons:build
       - run: pnpm icons:validate
 
-      # changesets/action does not write npm credentials itself; without this the publish
-      # step waits on auth in silence and the job dies with orphaned processes.
+      - name: Ensure a changeset exists
+        run: node .github/scripts/auto-changeset.mjs
+        env:
+          HEAD_COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+
+      - name: Bump versions
+        run: pnpm changeset version
+
+      - name: Commit the bump back to main
+        id: bump
+        run: |
+          VERSION=$(node -p "require('./packages/icons/package.json').version")
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: release v$VERSION"
+          git push
+
+      # changeset publish reads npm credentials from ~/.npmrc; without this it
+      # waits on auth in silence and the job dies with orphaned processes.
       - run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - name: Version PR or publish
-        uses: changesets/action@v1
-        with:
-          publish: pnpm release
-          title: "Version packages"
-          commit: "chore: version packages"
+      - name: Build and publish to npm
+        run: pnpm release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Push tags and cut the GitHub Release
+        run: |
+          VERSION="${{ steps.bump.outputs.version }}"
+          git tag -f "v$VERSION"
+          git push origin --tags --force
+          gh release create "v$VERSION" --title "v$VERSION" --generate-notes || \
+            echo "release v$VERSION already exists"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
