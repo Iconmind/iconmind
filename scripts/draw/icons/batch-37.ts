@@ -58,7 +58,9 @@ export const BATCH_37: Icon[] = [
     name: "Step over", description: "Past the call, not through it",
     tags: ["skip", "past", "debug"], family: "figure",
     aliases: [], keywords: ["step over", "skip call", "next line", "debugger", "f10"],
-    shapes: [row(18, 3, 21), arc(12, 14, 6, 180, 0), poly([[15, 11], [18, 14], [15, 14]])],
+    // The arc lands pointing down, so the head is `step-into`'s chevron at the landing
+    // point. The old half-triangle head shared its corner with the arc and fused into it.
+    shapes: [row(18, 3, 21), arc(12, 14, 6, 180, 0), poly([[15, 11], [18, 14], [21, 11]])],
   },
   {
     slug: "stack-trace", category: "devtools", subcategory: "debug",

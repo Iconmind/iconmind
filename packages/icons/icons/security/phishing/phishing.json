@@ -27,11 +27,11 @@
       "closed": false
     },
     {
-      "d": "M19 2V5",
+      "d": "M15 2V5",
       "closed": false
     },
     {
-      "d": "M19 5A2 2 0 0 1 15 5",
+      "d": "M15 5A2 2 0 0 1 11 5",
       "closed": false
     }
   ]

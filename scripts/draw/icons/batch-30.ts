@@ -24,9 +24,12 @@ export const BATCH_30: Icon[] = [
     name: "MCP tool call", description: "The model asking a server to do something",
     tags: ["invoke", "request", "run"], family: "figure",
     aliases: ["function-call"], keywords: ["invoke", "tools/call", "arguments", "request"],
+    // The same full plug as `mcp-tool-result` and `-error`, with the verb in the hollow:
+    // a small rightward arrow, the request on its way. An earlier drawing squeezed the
+    // plug leftward to fit a big arrow beside it — two prongs, off-centre, read as ears.
     shapes: [
-      frame(2, 10, 12, 9, 3, { chamfer: 3, gap: 0 }), col(5, 5, 10), col(11, 5, 10),
-      row(14, 16, 20), poly([[18, 12], [21, 15], [18, 18]]),
+      ...plug(),
+      row(15, 9.5, 14.5), poly([[12.5, 13], [14.5, 15], [12.5, 17]]),
     ],
   },
   {

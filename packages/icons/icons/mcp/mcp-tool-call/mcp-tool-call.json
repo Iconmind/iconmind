@@ -21,23 +21,27 @@
   "family": "figure",
   "shapes": [
     {
-      "d": "M8 10H11A3 3 0 0 1 14 13V16A3 3 0 0 1 11 19H5A3 3 0 0 1 2 16V13L5 10Z",
+      "d": "M12 10H15A3 3 0 0 1 18 13V16A3 3 0 0 1 15 19H9A3 3 0 0 1 6 16V13L9 10Z",
       "closed": true
     },
     {
-      "d": "M5 5V10",
+      "d": "M9 5V10",
       "closed": false
     },
     {
-      "d": "M11 5V10",
+      "d": "M12 5V10",
       "closed": false
     },
     {
-      "d": "M16 14H20",
+      "d": "M15 5V10",
       "closed": false
     },
     {
-      "d": "M18 12L21 15L18 18",
+      "d": "M9.5 15H14.5",
+      "closed": false
+    },
+    {
+      "d": "M12.5 13L14.5 15L12.5 17",
       "closed": false
     }
   ]

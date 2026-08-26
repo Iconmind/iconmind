@@ -35,7 +35,9 @@ export const BATCH_42: Icon[] = [
     name: "Grant permission", description: "From now on, you may",
     tags: ["allow", "give", "approve"], family: "lock",
     aliases: [], keywords: ["grant", "allow", "give access", "approve", "authorise"],
-    shapes: [rect(2, 10, 12, 10, 2), arc(8, 10, 4, 180, 360), row(12, 15, 21), poly([[18, 12], [21, 15], [18, 18]])],
+    // The shaft rides the arrowhead's centreline; it used to sit on the head's top arm,
+    // which broke the arrow at the elbow.
+    shapes: [rect(2, 10, 12, 10, 2), arc(8, 10, 4, 180, 360), row(15, 16, 21), poly([[18, 12], [21, 15], [18, 18]])],
   },
   {
     slug: "passphrase", category: "security", subcategory: "secret",
@@ -97,7 +99,9 @@ export const BATCH_42: Icon[] = [
     name: "Perplexity", description: "How surprised the model is",
     tags: ["surprise", "uncertain", "metric"], family: "machine",
     aliases: [], keywords: ["surprise", "language model metric", "uncertainty", "ppl"],
-    shapes: [machine(), arc(12, 11, 3, 270, 60), disc(12, 16, 1)],
+    // A question mark: in from the west, over the top, and down to land centred over its
+    // dot. The old arc stopped at 60° and the hook hung lopsided.
+    shapes: [machine(), arc(12, 10.5, 2.5, 180, 90), disc(12, 16, 1)],
   },
 
   /* ── Where things live ────────────────────────────────────────────────────────── */

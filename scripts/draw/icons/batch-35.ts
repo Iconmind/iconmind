@@ -190,9 +190,11 @@ export const BATCH_35: Icon[] = [
     name: "Phishing", description: "A message with a hook in it",
     tags: ["lure", "scam", "bait"], family: "figure",
     aliases: [], keywords: ["scam email", "lure", "credential harvest", "spoofed", "bait"],
+    // The hook hangs over the middle of the envelope, clear of the flap's corners; at the
+    // right edge it crowded the flap diagonal and the two read as one tangle.
     shapes: [
       rect(2, 10, 20, 10, 2), poly([[2, 10], [9, 17], [15, 17], [22, 10]]),
-      col(19, 2, 5), arc(17, 5, 2, 0, 180),
+      col(15, 2, 5), arc(13, 5, 2, 0, 180),
     ],
   },
   {
