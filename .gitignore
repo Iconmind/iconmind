@@ -3,7 +3,7 @@ node_modules/
 dist/
 out/
 .next/
-coverage/
+/coverage/
 **/src/generated/
 packages/icons/dist/
 *.tsbuildinfo
