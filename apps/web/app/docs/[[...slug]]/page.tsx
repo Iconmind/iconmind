@@ -3,7 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { TOCItemType } from "fumadocs-core/toc";
 import { getMDXComponents } from "@/components/mdx";
-import { orderedPages, source } from "@/lib/source";
+import { GROUPS, orderedPages, source } from "@/lib/source";
+import { TocNav } from "@/components/toc-nav";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { JsonLd, breadcrumbs } from "@/components/json-ld";
@@ -98,21 +99,31 @@ export default async function DocPage({ params }: { params: Promise<{ slug?: str
         aria-label="Documentation"
         className="border-line py-8 lg:sticky lg:top-[60px] lg:h-[calc(100vh-60px)] lg:overflow-y-auto lg:border-r lg:py-12 lg:pr-6"
       >
-        <h2 className="label mb-3">Docs</h2>
-        <ul className="grid gap-px">
-          {pages.map((p) => {
-            const active = p.url === page.url;
-            return (
-              <li key={p.url}>
-                <Link href={`${p.url}/`}
-                  className={`block rounded-md px-2.5 py-1.5 text-ui transition-colors ${
-                    active ? "bg-accent-soft font-semibold text-accent" : "text-ink-2 hover:bg-sunk hover:text-ink"}`}>
-                  {p.data.title}
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
+        {GROUPS.map((group) => {
+          const groupPages = group.slugs
+            .map((s) => pages.find((p) => (p.slugs.length ? p.slugs.join("/") : "index") === s))
+            .filter((p): p is (typeof pages)[number] => Boolean(p));
+          if (!groupPages.length) return null;
+          return (
+            <div key={group.title} className="mb-6">
+              <h2 className="label mb-2">{group.title}</h2>
+              <ul className="grid gap-px">
+                {groupPages.map((p) => {
+                  const active = p.url === page.url;
+                  return (
+                    <li key={p.url}>
+                      <Link href={`${p.url}/`}
+                        className={`block rounded-md px-2.5 py-1.5 text-ui transition-colors ${
+                          active ? "bg-accent-soft font-semibold text-accent" : "text-ink-2 hover:bg-sunk hover:text-ink"}`}>
+                        {p.data.title}
+                      </Link>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          );
+        })}
         <Separator className="my-6 hidden lg:block" />
         <a
           href="https://github.com/iconmind/iconmind"
@@ -162,15 +173,7 @@ export default async function DocPage({ params }: { params: Promise<{ slug?: str
           className="hidden py-12 lg:sticky lg:top-[60px] lg:block lg:max-h-[calc(100vh-60px)] lg:self-start lg:overflow-y-auto"
         >
           <h2 className="label mb-3">On this page</h2>
-          <ul className="grid gap-1.5 border-l border-line">
-            {toc.map((item: TOCItemType) => (
-              <li key={item.url} style={{ paddingLeft: `${0.75 + (item.depth - 2) * 0.75}rem` }}>
-                <a href={item.url} className="block text-meta leading-[1.45] text-muted transition-colors hover:text-ink">
-                  {item.title}
-                </a>
-              </li>
-            ))}
-          </ul>
+          <TocNav items={toc as TOCItemType[]} />
         </nav>
       )}
     </div>

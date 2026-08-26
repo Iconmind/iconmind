@@ -1,22 +1,28 @@
 ---
 title: Design guidelines
-description: The rules every icon follows, and the reasoning behind them.
+description: The rules every icon follows, the vocabulary they share, and the measurements behind both.
 ---
 
-Everything mechanical here is checked by `pnpm icons:validate` in under five seconds, so
-you do not need to memorise it. What follows is the reasoning, which the validator cannot
-give you.
+Icons here are not drawn in a vector editor. Each one is a **TypeScript declaration** —
+a list of shapes on a 24-unit grid — and the build compiles it into all six cells:
+outline and duotone, across thin, regular and bold. The shape constructors throw on
+illegal geometry and `pnpm icons:validate` checks thirty-odd rules in under five
+seconds, so everything mechanical on this page is enforced by machine. What follows is
+the *reasoning*, which a validator cannot give you.
 
 ## The grid
 
 | | |
 |---|---|
 | Canvas | 24 × 24, `viewBox="0 0 24 24"` |
-| Anchors | inside **2..22** |
-| Stroke | `2`, `currentColor`, round cap and join |
-| Fill | `none` |
-| Coordinates | multiples of `0.5` for straight lines |
+| Anchors | inside **2..22**, multiples of `0.5` |
+| Stroke | round cap and join; `1.5` / `2` / `2.5` by weight |
+| Fill | `none` — duotone adds a 20% tint, never a solid |
+| Angles | multiples of 45° |
+| Size | an icon's longer side spans **18–22** units |
+| Optical centre | within 2 units of the canvas centre |
 | Crossings | at most 2 |
+| Stroke gaps | ≥ 2.5 units apart (3 at bold), runs ≥ 2.5 |
 
 Ink reaches 1..23 because a 2px stroke bleeds 1px past the axis.
 
@@ -31,6 +37,34 @@ Widening it also settled the stroke question. At 2px the set averages 28.7% ink 
 which is where established sets sit. Pushing to 2.5px took seven of ten icons past 34%
 and turned them to mush at 16px. The confidence came from scale, not from a heavier line.
 
+### Why a weight is a drawing, not a multiplier
+
+Thin, regular and bold share their geometry — the build proves it — but the *rules*
+tighten with weight: a gap that reads at 1.5px closes up at 2.5px, so the validator's
+minimum gaps grow with the stroke. Drawing once and checking three times is what keeps
+bold from becoming a smudged copy of regular.
+
+## The shared bodies
+
+A concept's outer shape is decided by what kind of thing it is, and the bodies live in
+one file (`scripts/draw/bodies.ts`) so families cannot drift apart:
+
+| Body | Meaning |
+|---|---|
+| Ring (gapped circle) | An agent — autonomous, has state |
+| Chamfered frame | A machine or MCP server — gets invoked |
+| Plug with prongs | A tool or capability |
+| Page with a folded corner | A document or resource |
+| Cylinder | Stored data |
+| Shield | Security |
+| Window frame | An interface, a page, a sandbox |
+| Square loop with a chevron | Rotation and repetition — refresh, retry, lifecycle |
+
+The mark **inside** the body says which member of the family this is: `agent` is the
+bare ring, `agent-run` holds a triangle, `agent-stop` a square, `mcp-tool-call` puts a
+small arrow in the plug's hollow. The body is byte-identical across a family — that is
+what makes the family read as one.
+
 ## Corners and terminals
 
 Caps and joins are round. Corner radius follows the size of the shape carrying it: **2
@@ -40,24 +74,16 @@ straight side and the shape stops reading as a box.
 An earlier version cut every container's corners at 45° instead, as a house signature. It
 was dropped. A signature made of a corner treatment governs the container and then fights
 the metaphor — `vector-database` drawn with cut corners stopped reading as a database at
-all. The set is distinguished by its vocabulary and by having seven cells where most sets
+all. The set is distinguished by its vocabulary and by having six cells where most sets
 have one, not by a cut that has to be argued for on every shape.
 
-## What shape to use
+## Duotone is derived, not drawn
 
-Ask what kind of thing it is, and the outer shape is already decided.
-
-| Shape | Meaning |
-|---|---|
-| Chamfered octagon | An actor — has state, acts on its own |
-| Hexagon | A component — gets invoked |
-| Rounded square | A container or system |
-| Cylinder | Stored data |
-| Bracket pair | A scope or boundary |
-| Chamfered bubble | Something sent |
-
-The mark **inside** says which one: `agent` is a ring, `agent-run` a triangle,
-`agent-stop` a square.
+Nobody draws the duotone cell. The build tints every closed shape at 20% opacity behind
+the strokes; an icon made only of open strokes gets a **halo** instead — the same paths
+echoed behind it, three units wider, at the same 20%. Small closed marks (a status dot)
+tint without suppressing the halo. One drawing, and the second variant can never
+disagree with the first.
 
 ### Make the inner mark large
 
@@ -74,6 +100,11 @@ different it looks at 48px.
 Not element count. An icon with five elements stays sharp as long as its strokes do not
 cross; one with four elements and four crossings becomes a dark blot. That is why
 `max-crossings` is a rule and the twelve-element limit is left loose.
+
+The other killer is fusion: two strokes closer than the gap minimum melt together at
+bold. When a composition will not fit — two arrowheads and a shaft between two bodies,
+say — the answer is to redesign the layout (route the arrows *around* the middle), not
+to shave the gaps.
 
 ## Before you open a pull request
 

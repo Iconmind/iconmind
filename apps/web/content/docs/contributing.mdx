@@ -16,28 +16,40 @@ list.
 
 ## Submit an icon
 
+Icons are **written, not drawn**: each one is a TypeScript declaration in
+`scripts/draw/icons/`, built from a small vocabulary of forms (`row`, `col`, `poly`,
+`arc`, `disc`, `frame`) and shared bodies (`ring`, `machine`, `page`, `shield`…). The
+build compiles it into all six cells, and the constructors throw on anything the
+[design guidelines](/docs/design-guidelines/) forbid — so the fast feedback loop is the
+compiler, not a review comment.
+
 ```bash
 git clone https://github.com/iconmind/iconmind.git
 cd iconmind && pnpm install
 
-pnpm icons:new agents agent-memory     # scaffolds .svg and .json
-# draw it, then fill in the description and tags
-pnpm icons:validate                    # 30+ rules, under 5 seconds
-pnpm icons:duplicates                  # is it a twin of something we have?
-pnpm changeset                         # choose "minor"
+# add your icon to a batch file in scripts/draw/icons/, then:
+pnpm icons:build        # compiles every declaration into its six SVG cells
+pnpm icons:validate     # 30+ geometry rules, under 5 seconds
+pnpm icons:duplicates   # is it a twin of something we have?
 ```
 
-The scaffold hands you the house container rather than a blank file, so the starting
-point already speaks the design language.
+A contact sheet renders any subset at 88, 24 and 16px, which is how compositions are
+actually judged:
+
+```bash
+ONLY="my-icon its-siblings" npx tsx scripts/review/sheet.mts outline-regular out.png
+```
 
 One icon per pull request, or one family. Branch `icon/<slug>`, commits in
-[Conventional Commits](https://www.conventionalcommits.org).
+[Conventional Commits](https://www.conventionalcommits.org). No changeset needed —
+releases are automatic and step the patch version on merge.
 
 ## Contribute code
 
-pnpm workspace with Turborepo. `packages/icons` is the source of truth; the React and MCP
-packages are generated from it at build time, which is why no component files are
-committed.
+pnpm workspace with Turborepo. `packages/icons` is the source of truth; every framework
+package — React, Vue, Svelte, Solid, Preact, React Native, Astro, Flutter, the Blade
+SVGs — is generated from it by one generator, which is why component files are build
+output, not source. Fix a drawing once and ten packages agree.
 
 ```bash
 pnpm typecheck && pnpm test && pnpm icons:validate

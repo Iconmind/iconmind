@@ -15,13 +15,23 @@ export const source = loader({
   source: docs.toFumadocsSource(),
 });
 
-/** Sidebar order. Anything not listed falls to the end, alphabetically. */
-const ORDER = [
-  "index", "installation",
-  "react", "vue", "svelte", "solid", "preact", "react-native", "astro", "flutter", "laravel",
-  "svg", "figma", "mcp",
-  "design-guidelines", "contributing", "faq",
+/**
+ * The sidebar's shape: sixteen flat entries stopped scanning well around the eighth
+ * framework, so the list is grouped by the question a reader arrives with — getting
+ * started, "my framework", the non-framework ways in, and the project itself.
+ */
+export const GROUPS: { title: string; slugs: string[] }[] = [
+  { title: "Start here", slugs: ["index", "installation"] },
+  {
+    title: "Frameworks",
+    slugs: ["react", "vue", "svelte", "solid", "preact", "react-native", "astro", "flutter", "laravel"],
+  },
+  { title: "Other ways in", slugs: ["svg", "mcp", "figma"] },
+  { title: "The project", slugs: ["design-guidelines", "contributing", "faq"] },
 ];
+
+/** Flat order for prev/next. Anything not listed falls to the end, alphabetically. */
+const ORDER = GROUPS.flatMap((g) => g.slugs);
 
 export function orderedPages() {
   const pages = source.getPages();
