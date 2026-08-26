@@ -18,7 +18,7 @@ export const source = loader({
 /** Sidebar order. Anything not listed falls to the end, alphabetically. */
 const ORDER = [
   "index", "installation",
-  "react", "vue", "svelte", "solid", "preact", "react-native", "astro", "laravel",
+  "react", "vue", "svelte", "solid", "preact", "react-native", "astro", "flutter", "laravel",
   "svg", "figma", "mcp",
   "design-guidelines", "contributing", "faq",
 ];

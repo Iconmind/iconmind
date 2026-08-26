@@ -33,8 +33,8 @@ never hand-maintained:
 ## Phase 4 — Native
 
 - ✅ `@iconmind/react-native` — components over `react-native-svg`
-- `iconmind_flutter` — needs stroke→outline conversion before a font is possible;
-  a `flutter_svg` wrapper may ship first
+- ✅ `iconmind_flutter` — no font, no conversion: compile-time path constants
+  painted by a `CustomPaint` runtime, so duotone and the weights survive intact
 
 ## Phase 5 — Design & static
 

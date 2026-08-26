@@ -4,7 +4,9 @@ dist/
 out/
 .next/
 /coverage/
-**/src/generated/
+# The JS packages' generated components are build output; Flutter's generated
+# Dart (lib/src/generated) is committed — pub.dev publishes from the git tree.
+packages/*/src/generated/
 packages/icons/dist/
 *.tsbuildinfo
 .DS_Store

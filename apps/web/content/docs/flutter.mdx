@@ -1,0 +1,52 @@
+---
+title: Flutter
+description: Real strokes on a CustomPaint — not an icon font — so duotone and the weights survive.
+---
+
+```bash
+flutter pub add iconmind_flutter
+```
+
+```dart
+import 'package:iconmind_flutter/iconmind_flutter.dart';
+
+IconMind(IconMindIcons.agent)
+IconMind(IconMindIcons.vectorDatabase,
+    variant: IconMindVariant.duotone,
+    weight: IconMindWeight.bold,
+    size: 32, color: Colors.deepPurple)
+```
+
+## Properties
+
+The same contract as every other package, spelled the Flutter way:
+
+| Property | Default | What it does |
+|---|---|---|
+| `size` | `24` | Width and height, in logical pixels |
+| `color` | ambient `IconTheme` | Stroke colour — icons follow the theme the way `Icon` does |
+| `variant` | `outline` | `IconMindVariant.outline` or `.duotone` |
+| `weight` | `regular` | `IconMindWeight.thin`, `.regular` or `.bold` |
+| `strokeWidth` | per weight | Fine adjustment; picking a weight is the intended control |
+| `absoluteStrokeWidth` | `false` | Keeps stroke thickness constant as size changes |
+| `semanticLabel` | — | Announced by screen readers; icons are decorative without it |
+
+## Not a font
+
+Icon fonts flatten strokes into filled glyphs — duotone's tinted second layer
+and the three weights would not survive the conversion. This package keeps the
+real geometry: each icon is a compile-time constant of SVG path data, painted
+with round caps and joins by a small `CustomPaint` runtime.
+
+A weight is a stroke width on the same drawing — the generator proves on every
+build that the geometry never changes between weights, which is also why the
+whole package is ~100 KB compressed.
+
+## Tree shaking
+
+Icons are `const` values referenced through `IconMindIcons`. Flutter's AOT
+compiler drops the ones you never mention; an app that shows three icons
+carries three icons.
+
+Four names collide with Dart keywords and get Flutter's own suffix convention,
+e.g. `IconMindIcons.class_` — the same spelling `Icons.class_` uses.

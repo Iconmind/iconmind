@@ -80,6 +80,21 @@ export const FRAMEWORKS: Framework[] = [
       `---\nimport { ${n} } from "@iconmind/astro";\n---\n\n${tag(n, templateProps(l))}`,
   },
   {
+    id: "flutter", label: "Flutter", install: "flutter pub add iconmind_flutter",
+    code: (n, _s, l) => {
+      const props = [
+        l.variant !== "outline" && `variant: IconMindVariant.${l.variant}`,
+        l.weightName !== "regular" && `weight: IconMindWeight.${l.weightName}`,
+        l.size !== 24 && `size: ${l.size}`,
+        l.hex && `color: const Color(0xFF${l.hex.slice(1).toUpperCase()})`,
+      ].filter((p): p is string => Boolean(p));
+      const name = `IconMindIcons.${n[0]!.toLowerCase() + n.slice(1)}`;
+      return props.length
+        ? `IconMind(${name},\n${props.map((p) => `    ${p}`).join(",\n")})`
+        : `IconMind(${name})`;
+    },
+  },
+  {
     id: "laravel", label: "Laravel", install: "composer require iconmind/blade-iconmind",
     code: (_n, s, l) => {
       const cell =
