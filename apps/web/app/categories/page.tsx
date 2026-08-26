@@ -8,6 +8,7 @@ import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { PageCta } from "@/components/page-cta";
 import { JsonLd, breadcrumbs } from "@/components/json-ld";
 import { Button } from "@/components/ui/button";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Categories",
@@ -54,7 +55,7 @@ export default function CategoriesPage() {
               "@type": "CollectionPage",
               name: "Icon categories",
               description: `${allCategories.length} domains covering ${iconCount} open-source icons for AI-era software.`,
-              url: "https://iconmind.dev/categories/",
+              url: `${SITE_URL}/categories/`,
               mainEntity: {
                 "@type": "ItemList",
                 numberOfItems: allCategories.length,
@@ -62,7 +63,7 @@ export default function CategoriesPage() {
                   "@type": "ListItem",
                   position: i + 1,
                   name: `${c.name} icons`,
-                  url: `https://iconmind.dev/categories/${c.slug}/`,
+                  url: `${SITE_URL}/categories/${c.slug}/`,
                 })),
               },
             },

@@ -20,7 +20,9 @@ import { Agent, VectorDatabase } from "@iconmind/react";
 |---|---|---|
 | `size` | `24` | Width and height, in px or any CSS length |
 | `color` | `currentColor` | Stroke colour |
-| `strokeWidth` | `2` | Stroke thickness |
+| `variant` | `"outline"` | `"outline"` or `"duotone"` |
+| `weight` | `"regular"` | `"thin"`, `"regular"` or `"bold"` — each is its own drawing |
+| `strokeWidth` | per weight | Fine adjustment (1.5 / 2 / 2.5); picking a weight redraws instead |
 | `absoluteStrokeWidth` | `false` | Keeps the stroke looking the same weight as size changes |
 
 Anything else you pass lands on the `<svg>`, and it is spread **after** the defaults — so

@@ -11,6 +11,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "IconMind — open-source icons for AI-era software",
@@ -50,15 +51,15 @@ function schema(count: number) {
     "@graph": [
       {
         "@type": "WebSite",
-        "@id": "https://iconmind.dev/#website",
-        url: "https://iconmind.dev/",
+        "@id": `${SITE_URL}/#website`,
+        url: `${SITE_URL}/`,
         name: "IconMind",
         description: `${count} open-source SVG icons for AI-era software.`,
         potentialAction: {
           "@type": "SearchAction",
           target: {
             "@type": "EntryPoint",
-            urlTemplate: "https://iconmind.dev/search/?q={search_term_string}",
+            urlTemplate: `${SITE_URL}/search/?q={search_term_string}`,
           },
           "query-input": "required name=search_term_string",
         },
@@ -68,7 +69,7 @@ function schema(count: number) {
         name: "IconMind",
         applicationCategory: "DeveloperApplication",
         operatingSystem: "Any",
-        url: "https://iconmind.dev/",
+        url: `${SITE_URL}/`,
         description: `${count} open-source SVG icons for LLMs, agents, MCP and RAG. Outline and duotone, in three weights.`,
         license: "https://opensource.org/licenses/MIT",
         offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },

@@ -1,0 +1,50 @@
+---
+title: Laravel
+description: Blade components via blade-icons — every icon, every variant, server-rendered.
+---
+
+```bash
+composer require iconmind/blade-iconmind
+```
+
+Built on [blade-icons](https://github.com/blade-ui-kit/blade-icons), so it works the way
+every other Blade icon set works — component tags, `@svg` directives, and the `svg()`
+helper all included.
+
+```blade
+<x-im-agent class="w-6 h-6" />
+<x-im-agent-duotone class="w-6 h-6 text-violet-500" />
+<x-im-vector-database-outline-bold class="w-8 h-8" />
+```
+
+## Naming
+
+The bare name is the default drawing; suffixes pick the others:
+
+| Tag | Cell |
+|---|---|
+| `<x-im-agent />` | outline · regular |
+| `<x-im-agent-duotone />` | duotone · regular |
+| `<x-im-agent-outline-thin />` | outline · thin |
+| `<x-im-agent-outline-bold />` | outline · bold |
+| `<x-im-agent-duotone-thin />` | duotone · thin |
+| `<x-im-agent-duotone-bold />` | duotone · bold |
+
+All 6,048 cells are in the package — 1,008 icons × two variants × three weights.
+
+## Sizing and colour
+
+Icons render inline with `currentColor` strokes, so Tailwind utilities do what you
+expect: `class="w-6 h-6 text-violet-500"`. No JavaScript is involved at any point —
+Blade renders the SVG into the HTML.
+
+## The other Blade idioms
+
+```blade
+@svg('im-agent', 'w-6 h-6')
+
+{{ svg('im-agent-duotone')->toHtml() }}
+```
+
+Caching, deferred rendering and the rest of blade-icons' feature set apply unchanged;
+see their README for the knobs.

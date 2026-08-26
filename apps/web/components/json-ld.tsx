@@ -1,3 +1,4 @@
+import { SITE_URL } from "@/lib/site";
 /**
  * Structured data, as a real `<script>` in the HTML.
  *
@@ -15,7 +16,7 @@ export function JsonLd({ data }: { data: object }) {
   );
 }
 
-const BASE = "https://iconmind.dev";
+const BASE = SITE_URL;
 
 /** The trail a search result shows under its title instead of a bare URL. */
 export function breadcrumbs(trail: { name: string; path: string }[]) {

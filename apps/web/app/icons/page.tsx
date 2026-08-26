@@ -6,6 +6,7 @@ import { readSvg, svgBody } from "@/lib/svg";
 import { IconGrid } from "@/components/icon-grid";
 import { IconSvg } from "@/components/icon-svg";
 import { JsonLd, breadcrumbs } from "@/components/json-ld";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Browse icons",
@@ -42,8 +43,8 @@ export default function IconsPage() {
               "@type": "CollectionPage",
               name: "Browse icons",
               description: `All ${iconCount} IconMind icons, searchable by name, tag or alias.`,
-              url: "https://iconmind.dev/icons/",
-              isPartOf: { "@type": "WebSite", "@id": "https://iconmind.dev/#website" },
+              url: `${SITE_URL}/icons/`,
+              isPartOf: { "@type": "WebSite", "@id": `${SITE_URL}/#website` },
               mainEntity: {
                 "@type": "ItemList",
                 numberOfItems: iconCount,
@@ -51,7 +52,7 @@ export default function IconsPage() {
                   "@type": "ListItem",
                   position: i + 1,
                   name: `${c.name} icons`,
-                  url: `https://iconmind.dev/categories/${c.slug}/`,
+                  url: `${SITE_URL}/categories/${c.slug}/`,
                 })),
               },
             },

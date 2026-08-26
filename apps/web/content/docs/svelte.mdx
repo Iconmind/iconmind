@@ -1,0 +1,50 @@
+---
+title: Svelte
+description: Icons as Svelte components, compiled by your bundler, not ours.
+---
+
+Every icon is a named export. Import only what you use.
+
+```svelte
+<script>
+  import { Agent, VectorDatabase } from "@iconmind/svelte";
+</script>
+
+<Agent />
+<VectorDatabase variant="duotone" weight="bold" />
+<Agent color="#5b4bde" size={32} />
+```
+
+## Props
+
+The same contract as every other framework package:
+
+| Prop | Default | What it does |
+|---|---|---|
+| `size` | `24` | Width and height, in px or any CSS length |
+| `color` | `currentColor` | Stroke colour |
+| `variant` | `"outline"` | `"outline"` or `"duotone"` |
+| `weight` | `"regular"` | `"thin"`, `"regular"` or `"bold"` — each is its own drawing |
+| `strokeWidth` | per weight | Fine adjustment; picking a weight redraws instead |
+| `absoluteStrokeWidth` | `false` | Keeps the stroke looking the same weight as size changes |
+
+Anything else lands on the `<svg>` via `$$restProps` — `class`, `aria-label`, handlers.
+
+## Published as source
+
+The package ships `.svelte` files, not compiled JavaScript. Your bundler compiles them
+with **your** Svelte version, the way the Svelte ecosystem expects — no risk of a
+runtime compiled against a different major. The publish step still proves every
+component compiles with the real Svelte compiler before it ships.
+
+Per-icon imports work too: `@iconmind/svelte/icons/agent.svelte`.
+
+## SvelteKit
+
+Components render on the server and are deterministic, so SSR and hydration agree.
+Nothing to configure.
+
+## Accessibility
+
+Icons are `aria-hidden` by default. Pass `aria-label="…"` and the icon becomes
+`role="img"` with that label instead.

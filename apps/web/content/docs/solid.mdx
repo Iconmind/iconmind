@@ -1,0 +1,47 @@
+---
+title: Solid
+description: Icons for SolidJS — fine-grained reactivity, no wasted renders.
+---
+
+Every icon is a named export. Import only what you use.
+
+```tsx
+import { Agent, VectorDatabase } from "@iconmind/solid";
+
+<Agent />
+<VectorDatabase variant="duotone" weight="bold" />
+<Agent color="#5b4bde" size={32} />
+```
+
+## Props
+
+The same contract as every other framework package:
+
+| Prop | Default | What it does |
+|---|---|---|
+| `size` | `24` | Width and height, in px or any CSS length |
+| `color` | `currentColor` | Stroke colour |
+| `variant` | `"outline"` | `"outline"` or `"duotone"` |
+| `weight` | `"regular"` | `"thin"`, `"regular"` or `"bold"` — each is its own drawing |
+| `strokeWidth` | per weight | Fine adjustment; picking a weight redraws instead |
+| `absoluteStrokeWidth` | `false` | Keeps the stroke looking the same weight as size changes |
+
+Props are read through getters, so passing signals works the way Solid expects — change
+`size` and only the two attributes that depend on it update, not the component.
+
+```tsx
+const [size, setSize] = createSignal(24);
+<Agent size={size()} />
+```
+
+Anything else you pass spreads onto the `<svg>`.
+
+## Tree shaking
+
+ESM only, `sideEffects: false`, one entry point per icon —
+`@iconmind/solid/icons/agent` works. Importing three icons costs three icons.
+
+## Accessibility
+
+Icons are `aria-hidden` by default. Pass `aria-label="…"` and the icon becomes
+`role="img"` with that label instead.

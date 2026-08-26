@@ -1,5 +1,6 @@
 import { allCategories, iconCount, version } from "@/lib/icons";
 import { orderedPages } from "@/lib/source";
+import { SITE_URL } from "@/lib/site";
 
 // A static export has no server; a route handler is emitted as a file at build time.
 export const dynamic = "force-static";
@@ -32,29 +33,29 @@ Picking an icon: search the inventory by slug, name, tag and alias. Prefer the e
 
 ## Machine-readable
 
-- [Icon inventory](https://iconmind.dev/llms-full.txt): every icon as a line of \`slug — name — category/subcategory — tags\`. Start here to pick a name.
-- [Search index](https://iconmind.dev/search-index.json): the same set as compact JSON, with fields interned. What the site's own search uses.
-- [Sprite sheet](https://iconmind.dev/sprite.svg): every icon as a \`<symbol id="im-{slug}">\`, for \`<use href>\` with no build step.
+- [Icon inventory](${SITE_URL}/llms-full.txt): every icon as a line of \`slug — name — category/subcategory — tags\`. Start here to pick a name.
+- [Search index](${SITE_URL}/search-index.json): the same set as compact JSON, with fields interned. What the site's own search uses.
+- [Sprite sheet](${SITE_URL}/sprite.svg): every icon as a \`<symbol id="im-{slug}">\`, for \`<use href>\` with no build step.
 
 ## Using the icons
 
-${docs.map((p) => `- [${p.data.title}](https://iconmind.dev${p.url}/): ${p.data.description ?? ""}`).join("\n")}
+${docs.map((p) => `- [${p.data.title}](${SITE_URL}${p.url}/): ${p.data.description ?? ""}`).join("\n")}
 
 ## Browsing
 
-- [All icons](https://iconmind.dev/icons/): the full set, searchable.
-- [Categories](https://iconmind.dev/categories/): ${allCategories.length} domains.
-${allCategories.map((c) => `- [${c.name}](https://iconmind.dev/categories/${c.slug}/): ${c.count} icons across ${c.subcategories.length} groups.`).join("\n")}
+- [All icons](${SITE_URL}/icons/): the full set, searchable.
+- [Categories](${SITE_URL}/categories/): ${allCategories.length} domains.
+${allCategories.map((c) => `- [${c.name}](${SITE_URL}/categories/${c.slug}/): ${c.count} icons across ${c.subcategories.length} groups.`).join("\n")}
 
 ## For assistants
 
-- [MCP server](https://iconmind.dev/docs/mcp/): \`npx @iconmind/mcp\` — search the set and get paste-ready code without guessing names. Prefer this over reading the inventory when a tool call is available.
+- [MCP server](${SITE_URL}/docs/mcp/): \`npx @iconmind/mcp\` — search the set and get paste-ready code without guessing names. Prefer this over reading the inventory when a tool call is available.
 
 ## Optional
 
-- [Changelog](https://iconmind.dev/changelog/): what shipped, written at release time.
-- [Roadmap](https://iconmind.dev/roadmap/): what is planned and how far along it is.
-- [Design guidelines](https://iconmind.dev/docs/design-guidelines/): the rules the compiler enforces.
+- [Changelog](${SITE_URL}/changelog/): what shipped, written at release time.
+- [Roadmap](${SITE_URL}/roadmap/): what is planned and how far along it is.
+- [Design guidelines](${SITE_URL}/docs/design-guidelines/): the rules the compiler enforces.
 
 Version ${version}. Licence MIT (https://opensource.org/licenses/MIT).
 `;

@@ -1,0 +1,42 @@
+---
+title: Preact
+description: The React API at Preact size — no compat layer required.
+---
+
+Every icon is a named export. Import only what you use. No `preact/compat` needed — the
+package targets Preact directly.
+
+```tsx
+import { Agent, VectorDatabase } from "@iconmind/preact";
+
+<Agent />
+<VectorDatabase variant="duotone" weight="bold" />
+<Agent color="#5b4bde" size={32} />
+```
+
+## Props
+
+The same contract as every other framework package:
+
+| Prop | Default | What it does |
+|---|---|---|
+| `size` | `24` | Width and height, in px or any CSS length |
+| `color` | `currentColor` | Stroke colour |
+| `variant` | `"outline"` | `"outline"` or `"duotone"` |
+| `weight` | `"regular"` | `"thin"`, `"regular"` or `"bold"` — each is its own drawing |
+| `strokeWidth` | per weight | Fine adjustment; picking a weight redraws instead |
+| `absoluteStrokeWidth` | `false` | Keeps the stroke looking the same weight as size changes |
+
+Anything else you pass spreads onto the `<svg>`, after the defaults, so any of them can
+be overridden.
+
+## Tree shaking
+
+ESM only, `sideEffects: false`, one entry point per icon —
+`@iconmind/preact/icons/agent` works. If your whole app is 4 KB of Preact, three icons
+adding ~600 bytes gzipped keeps it in proportion.
+
+## Accessibility
+
+Icons are `aria-hidden` by default. Pass `aria-label="…"` and the icon becomes
+`role="img"` with that label instead.

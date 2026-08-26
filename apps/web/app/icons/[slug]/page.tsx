@@ -8,6 +8,7 @@ import { IconTileGrid } from "@/components/icon-tile-grid";
 import { PageCta } from "@/components/page-cta";
 import { JsonLd, breadcrumbs } from "@/components/json-ld";
 import { Badge } from "@/components/ui/badge";
+import { SITE_URL } from "@/lib/site";
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -50,10 +51,10 @@ function schema(icon: {
         "@type": "ImageObject",
         name: `${icon.name} icon`,
         description: icon.description,
-        contentUrl: `https://iconmind.dev/icons/${icon.slug}.svg`,
+        contentUrl: `${SITE_URL}/icons/${icon.slug}.svg`,
         encodingFormat: "image/svg+xml",
         license: "https://opensource.org/licenses/MIT",
-        acquireLicensePage: "https://iconmind.dev/docs/licence/",
+        acquireLicensePage: `${SITE_URL}/docs/licence/`,
         creditText: "IconMind",
         isFamilyFriendly: true,
       },

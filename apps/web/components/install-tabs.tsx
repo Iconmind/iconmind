@@ -7,11 +7,11 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
 /*
- * Only what is published.
+ * Four ways in, not nine tabs.
  *
- * Vue is generated from the same intermediate representation as React and is documented
- * as phase 2 — but it is not on npm, and a tab offering `npm i @iconmind/vue` is an
- * install command that fails. The docs say "not yet"; this said "here you go".
+ * All nine packages are live, but a tab bar is not a package registry: React stands in
+ * for the component packages (the note names the rest — same API everywhere), and the
+ * other tabs are the ways in that are not a framework at all.
  */
 const WAYS = [
   {
@@ -34,7 +34,7 @@ const WAYS = [
     id: "svg",
     label: "SVG",
     badge: "file",
-    install: "curl -O https://iconmind.dev/icons/agent.svg",
+    install: "npm i @iconmind/icons",
     code: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
   viewBox="0 0 24 24" fill="none" stroke="currentColor"
   stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -47,7 +47,7 @@ const WAYS = [
     id: "sprite",
     label: "Sprite",
     badge: "1 request",
-    install: "curl -O https://iconmind.dev/sprite.svg",
+    install: "npm i @iconmind/icons  # ships dist/sprite.svg",
     code: `<svg width="24" height="24">
   <use href="/sprite.svg#im-agent" />
 </svg>`,

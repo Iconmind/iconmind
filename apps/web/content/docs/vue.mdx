@@ -1,41 +1,51 @@
 ---
 title: Vue
-description: Planned for phase 2, and why it is not here yet.
+description: The same icons as components for Vue 3, generated from the same drawings.
 ---
 
-Not published yet.
-
-The component generator already emits Vue from the same intermediate representation as
-React, so the two can never disagree about what they draw. What is missing is the package
-itself and the parity test that keeps the promise honest.
-
-## Why it waits
-
-The plan puts Vue in phase 2 on purpose. A second framework package is surface area, and
-the thing worth proving first is that one package is genuinely good — tree-shaken,
-server-renderable, and actually used by somebody.
-
-Shipping Vue early would mean maintaining an unpublished package for months while the
-API is still moving.
-
-## What it will look like
-
-Identical to React: same component names, same props, same defaults. Everything that
-differs will differ for a Vue reason — `h()` instead of `createElement`, `inheritAttrs`
-for attribute order — never for taste.
+Every icon is a named export. Import only what you use.
 
 ```vue
 <script setup lang="ts">
-import { Agent, Prompt } from "@iconmind/vue";
+import { Agent, VectorDatabase } from "@iconmind/vue";
 </script>
 
 <template>
   <Agent />
-  <Prompt :size="32" />
+  <VectorDatabase variant="duotone" weight="bold" />
+  <Agent color="#5b4bde" :size="32" />
 </template>
 ```
 
-A Nuxt module will register the components for auto-import, with a configurable prefix —
-projects that already have a `Search` or `Settings` component will need it.
+## Props
 
-In the meantime the raw SVG works fine in Vue. See [Plain SVG](/docs/svg/).
+The same contract as every other framework package:
+
+| Prop | Default | What it does |
+|---|---|---|
+| `size` | `24` | Width and height, in px or any CSS length |
+| `color` | `currentColor` | Stroke colour |
+| `variant` | `"outline"` | `"outline"` or `"duotone"` |
+| `weight` | `"regular"` | `"thin"`, `"regular"` or `"bold"` — each is its own drawing |
+| `strokeWidth` | per weight | Fine adjustment; picking a weight redraws instead |
+| `absoluteStrokeWidth` | `false` | Keeps the stroke looking the same weight as size changes |
+
+Anything else you pass — `class`, `aria-label`, event handlers — falls through to the
+`<svg>` element via Vue's attribute fallthrough.
+
+## Tree shaking
+
+The package is ESM only with `sideEffects: false`. Importing three icons pulls in the
+three icons, the shared runtime, and nothing else. Per-icon entry points exist too:
+`@iconmind/vue/icons/agent`.
+
+## Accessibility
+
+Icons are `aria-hidden` by default. Pass `aria-label="…"` and the icon becomes
+`role="img"` with that label instead — one prop, both attributes handled.
+
+## Nuxt
+
+Nothing special is required: the components are plain Vue components and SSR-render
+deterministically, so hydration never mismatches. Auto-import via a Nuxt module is on the
+roadmap; until then, import from the package directly.

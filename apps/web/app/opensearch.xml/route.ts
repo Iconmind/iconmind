@@ -1,4 +1,5 @@
 import { iconCount } from "@/lib/icons";
+import { SITE_URL } from "@/lib/site";
 
 export const dynamic = "force-static";
 
@@ -18,9 +19,9 @@ export function GET() {
   <ShortName>IconMind</ShortName>
   <Description>Search ${iconCount} open-source icons for AI-era software</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="32" height="32" type="image/svg+xml">https://iconmind.dev/icon.svg</Image>
-  <Url type="text/html" method="get" template="https://iconmind.dev/search/?q={searchTerms}"/>
-  <moz:SearchForm xmlns:moz="http://www.mozilla.org/2006/browser/search/">https://iconmind.dev/search/</moz:SearchForm>
+  <Image width="32" height="32" type="image/svg+xml">${SITE_URL}/icon.svg</Image>
+  <Url type="text/html" method="get" template="${SITE_URL}/search/?q={searchTerms}"/>
+  <moz:SearchForm xmlns:moz="http://www.mozilla.org/2006/browser/search/">${SITE_URL}/search/</moz:SearchForm>
 </OpenSearchDescription>
 `;
   return new Response(body, {

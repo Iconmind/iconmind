@@ -9,6 +9,7 @@ import { PageCta } from "@/components/page-cta";
 import { JsonLd, breadcrumbs } from "@/components/json-ld";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { SITE_URL } from "@/lib/site";
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -49,8 +50,8 @@ function schema(c: { slug: string; name: string; count: number }, blurb: string,
         "@type": "CollectionPage",
         name: `${c.name} icons`,
         description: blurb,
-        url: `https://iconmind.dev/categories/${c.slug}/`,
-        isPartOf: { "@type": "WebSite", "@id": "https://iconmind.dev/#website" },
+        url: `${SITE_URL}/categories/${c.slug}/`,
+        isPartOf: { "@type": "WebSite", "@id": `${SITE_URL}/#website` },
         mainEntity: {
           "@type": "ItemList",
           numberOfItems: c.count,
@@ -58,7 +59,7 @@ function schema(c: { slug: string; name: string; count: number }, blurb: string,
             "@type": "ListItem",
             position: i + 1,
             name: `${t.name} icon`,
-            url: `https://iconmind.dev/icons/${t.slug}/`,
+            url: `${SITE_URL}/icons/${t.slug}/`,
           })),
         },
       },

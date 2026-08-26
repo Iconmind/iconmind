@@ -1,0 +1,44 @@
+---
+title: React Native
+description: The same icons on iOS and Android, rendered by react-native-svg.
+---
+
+```bash
+npm i @iconmind/react-native react-native-svg
+```
+
+`react-native-svg` is a peer dependency — it needs native modules, so it must be
+installed (and pod-installed) by your app, not hidden inside ours. Expo projects:
+`npx expo install react-native-svg`.
+
+```tsx
+import { Agent, VectorDatabase } from "@iconmind/react-native";
+
+<Agent />
+<VectorDatabase variant="duotone" weight="bold" />
+<Agent color="#5b4bde" size={32} />
+```
+
+## Props
+
+The same contract as every other framework package:
+
+| Prop | Default | What it does |
+|---|---|---|
+| `size` | `24` | Width and height, in density-independent pixels |
+| `color` | `currentColor` | Stroke colour — pass a real colour; there is no CSS cascade to inherit from |
+| `variant` | `"outline"` | `"outline"` or `"duotone"` |
+| `weight` | `"regular"` | `"thin"`, `"regular"` or `"bold"` — each is its own drawing |
+| `strokeWidth` | per weight | Fine adjustment; picking a weight redraws instead |
+| `absoluteStrokeWidth` | `false` | Keeps the stroke looking the same weight as size changes |
+
+On native there is no `currentColor` inheritance chain, so in practice you will always
+pass `color`. Everything else you pass lands on the root `Svg` element.
+
+## What is different from the web packages
+
+Only the renderer. Tags become `react-native-svg` components (`<path>` → `<Path>`,
+`stroke-width` → `strokeWidth`); the drawings, names and props are identical, so a design
+system shared between web and native only writes the import differently.
+
+Per-icon imports work too: `@iconmind/react-native/icons/agent`.

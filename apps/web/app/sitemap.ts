@@ -3,8 +3,9 @@ import type { MetadataRoute } from "next";
 export const dynamic = "force-static";
 import { allCategories, allIcons } from "@/lib/icons";
 import { source } from "@/lib/source";
+import { SITE_URL } from "@/lib/site";
 
-const BASE = "https://iconmind.dev";
+const BASE = SITE_URL;
 
 /**
  * Every icon gets its own indexable page. With a thousand icons that is a thousand

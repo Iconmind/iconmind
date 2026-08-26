@@ -8,6 +8,7 @@ import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { JsonLd, breadcrumbs } from "@/components/json-ld";
 import { faqEntries } from "@/lib/faq";
+import { SITE_URL } from "@/lib/site";
 
 export function generateStaticParams() {
   return source.generateParams();
@@ -39,7 +40,7 @@ export async function generateMetadata(
  * few types that still changes what a result looks like.
  */
 function schema(page: { url: string; data: { title: string; description?: string } }, isFaq: boolean) {
-  const url = `https://iconmind.dev${page.url}/`;
+  const url = `${SITE_URL}${page.url}/`;
   return {
     "@context": "https://schema.org",
     "@graph": [
@@ -49,7 +50,7 @@ function schema(page: { url: string; data: { title: string; description?: string
         description: page.data.description,
         url,
         inLanguage: "en",
-        isPartOf: { "@type": "WebSite", "@id": "https://iconmind.dev/#website" },
+        isPartOf: { "@type": "WebSite", "@id": `${SITE_URL}/#website` },
         license: "https://opensource.org/licenses/MIT",
       },
       breadcrumbs(

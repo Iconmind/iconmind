@@ -13,6 +13,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { allCategories, iconCount, version } from "@/lib/icons";
 import "./globals.css";
+import { SITE_URL } from "@/lib/site";
 
 /*
  * Two faces. Figtree carries the identity and the reading both — the mockup sets the 84px
@@ -38,7 +39,7 @@ const azeret = Azeret_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://iconmind.dev"),
+  metadataBase: new URL(SITE_URL),
   title: { default: "IconMind — icons for AI-era software", template: "%s — IconMind" },
   description:
     "Open-source icons for AI-era software: LLMs, agents, MCP, RAG, and everything around them. MIT licensed.",

@@ -1,0 +1,50 @@
+---
+title: Astro
+description: Zero-JavaScript icons for Astro — SVG in the HTML, nothing in the bundle.
+---
+
+Every icon is an `.astro` component. It renders to inline SVG at build time and ships
+**zero bytes of JavaScript** to the browser.
+
+```astro
+---
+import { Agent, VectorDatabase } from "@iconmind/astro";
+---
+
+<Agent />
+<VectorDatabase variant="duotone" weight="bold" />
+<Agent color="#5b4bde" size={32} />
+```
+
+## Props
+
+The same contract as every other framework package:
+
+| Prop | Default | What it does |
+|---|---|---|
+| `size` | `24` | Width and height, in px or any CSS length |
+| `color` | `currentColor` | Stroke colour |
+| `variant` | `"outline"` | `"outline"` or `"duotone"` |
+| `weight` | `"regular"` | `"thin"`, `"regular"` or `"bold"` — each is its own drawing |
+| `strokeWidth` | per weight | Fine adjustment; picking a weight redraws instead |
+| `absoluteStrokeWidth` | `false` | Keeps the stroke looking the same weight as size changes |
+
+Anything else you pass — `class`, `aria-label` — lands on the `<svg>`.
+
+## Published as source
+
+The package ships `.astro` files; the Astro compiler in your project renders them. The
+publish step proves every component parses with the real `@astrojs/compiler` first.
+
+Per-icon imports work too: `@iconmind/astro/icons/agent.astro`.
+
+## Inside islands
+
+Icons inside a React/Svelte/Vue island belong to that framework — use `@iconmind/react`
+(or the matching package) there, and this one everywhere Astro renders the HTML itself.
+Same drawings either way.
+
+## Accessibility
+
+Icons are `aria-hidden` by default. Pass `aria-label="…"` and the icon becomes
+`role="img"` with that label instead.
