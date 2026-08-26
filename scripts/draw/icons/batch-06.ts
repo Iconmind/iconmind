@@ -147,11 +147,11 @@ export const BATCH_06: Icon[] = [
     name: "Agent handoff", description: "One agent passing the work to another",
     tags: ["transfer", "delegate", "pass"], family: "orbit",
     aliases: ["handover"], keywords: ["delegate", "transfer", "route", "escalate"],
-    // Two of `agent`'s ring at the size two of them fit, and the direction between them.
-    // `multi-agent` is the same pair with nothing in between, because nothing is moving.
+    // The exact mirror of `agent-delegate`: there the work goes down to a subordinate,
+    // here it goes up and across to a peer. Same rings, same corner-arrow, opposite slope.
     shapes: [
-      arc(6, 12, 3.5, 295, 245), arc(18, 12, 3.5, 295, 245),
-      row(12, 10, 13), poly([[12, 10], [14, 12], [12, 14]]),
+      arc(6, 16, 3.5, 295, 245), poly([[9, 13], [12, 10]]),
+      poly([[11.5, 10], [14, 10], [14, 12.5]]), arc(17, 7, 3.5, 295, 245),
     ],
   },
 

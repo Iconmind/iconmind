@@ -110,11 +110,11 @@ export const BATCH_21: Icon[] = [
     name: "Agent protocol", description: "The rules two agents talk by",
     tags: ["contract", "channel", "agreement"], family: "orbit",
     aliases: [], keywords: ["a2a", "contract", "schema", "interop", "handshake"],
-    // Two rings and two lines between them. `agent-handoff` has one line with a point on
-    // it, because something is moving; a protocol is the agreement, which has no direction.
+    // Two agents on `agent-delegate`'s diagonal, and an equals sign turned to lie along
+    // it — the agreement between them. No arrowheads: a protocol has no direction.
     shapes: [
-      arc(6, 12, 3.5, 295, 245), arc(18, 12, 3.5, 295, 245),
-      row(11, 13, 16), row(15, 13, 16),
+      arc(6, 6, 3, 295, 245), arc(18, 18, 3, 295, 245),
+      poly([[9.5, 12], [12, 9.5]]), poly([[12, 14.5], [14.5, 12]]),
     ],
   },
   {

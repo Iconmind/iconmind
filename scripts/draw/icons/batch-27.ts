@@ -150,12 +150,15 @@ export const BATCH_27: Icon[] = [
     name: "Agent negotiation", description: "Two of them working it out",
     tags: ["bargain", "exchange", "agree"], family: "orbit",
     aliases: [], keywords: ["bargain", "trade", "propose", "counter", "settle"],
-    // One line with a head at each end, in the space between the rings. Two separate arrows
-    // need eight units of clear width and there are only six between two bodies this size —
-    // they ended up drawn across the rings themselves.
+    // Two agents on `agent-delegate`'s diagonal, and the exchange routed AROUND the
+    // middle: proposal out the high side, counter back the low side, nothing in the
+    // centre. Anything drawn straight between the rings — a two-headed shaft, two tight
+    // lanes — fused into a blob at bold; the empty middle is what keeps this one legible.
     shapes: [
-      arc(5, 12, 3, 295, 245), arc(19, 12, 3, 295, 245),
-      row(12, 9, 15), poly([[11, 10], [9, 12], [11, 14]]), poly([[13, 10], [15, 12], [13, 14]]),
+      arc(6, 6, 3, 295, 245),
+      poly([[13, 8], [16, 11]]), poly([[16.5, 9], [16.5, 11.5], [14, 11.5]]),
+      poly([[11, 16], [8, 13]]), poly([[7.5, 15], [7.5, 12.5], [10, 12.5]]),
+      arc(18, 18, 3, 295, 245),
     ],
   },
 
