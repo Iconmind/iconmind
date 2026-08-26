@@ -14,6 +14,10 @@
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
     },
+    "./metadata": {
+      "types": "./dist/metadata.d.ts",
+      "default": "./dist/metadata.js"
+    },
     "./metadata.json": "./dist/metadata.json",
     "./sprite.svg": "./dist/sprite.svg",
     "./icons/*": "./icons/*",
@@ -34,7 +38,7 @@
     "@iconmind/shared": "workspace:*",
     "tsx": "^4.20.6"
   },
-  "description": "1,008 SVG icons for AI-era software — LLMs, agents, MCP, RAG. Six cells per icon: outline & duotone at three weights.",
+  "description": "1,008 SVG icons for AI-era software \u2014 LLMs, agents, MCP, RAG. Six cells per icon: outline & duotone at three weights.",
   "keywords": [
     "icons",
     "svg",

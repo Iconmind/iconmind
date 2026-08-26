@@ -41,10 +41,20 @@ colour to carry meaning — every icon has to read in monochrome.
 
 ## Metadata
 
+The full database — descriptions, tags, keywords, lookups — lives on its own subpath, so
+importing it is a decision rather than an accident. It is ~180 KB gzipped: right for a
+build script, a docs site or a search index, wrong for a client bundle.
+
 ```js
-import { getIcon, iconsIn, categories } from "@iconmind/icons";
+import { getIcon, iconsIn, categories } from "@iconmind/icons/metadata";
 
 getIcon("agent");        // one icon, aliases resolved
 iconsIn("mcp");          // every icon in a category
 categories;              // categories with counts
+```
+
+The bare entry point costs a few hundred bytes and tells you only what is here:
+
+```js
+import { version, counts } from "@iconmind/icons";
 ```
