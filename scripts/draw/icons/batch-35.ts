@@ -5,7 +5,7 @@
  * stage's hollow — the mark system applied to a body that is not a badge holder. The stage,
  * the line out of it and the arrow are byte-identical across the pair.
  */
-import { arc, col, disc, poly, rect, row } from "../forms.ts";
+import { arc, col, disc, frame, poly, rect, row } from "../forms.ts";
 import { page, ring } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
@@ -187,14 +187,16 @@ export const BATCH_35: Icon[] = [
   },
   {
     slug: "phishing", category: "security", subcategory: "threat",
-    name: "Phishing", description: "A message with a hook in it",
+    name: "Phishing", description: "The hook, waiting for a bite",
     tags: ["lure", "scam", "bait"], family: "figure",
     aliases: [], keywords: ["scam email", "lure", "credential harvest", "spoofed", "bait"],
-    // The hook hangs over the middle of the envelope, clear of the flap's corners; at the
-    // right edge it crowded the flap diagonal and the two read as one tangle.
+    // One object, drawn whole: eye, shank, bend, barb. Every composition tried around it —
+    // envelope under a hook, a hook through a window — buried the hook in its scenery;
+    // the hook alone is the threat. The eye sits tangent on the shank as `passkey`'s
+    // bow does on its stem.
     shapes: [
-      rect(2, 10, 20, 10, 2), poly([[2, 10], [9, 17], [15, 17], [22, 10]]),
-      col(15, 2, 5), arc(13, 5, 2, 0, 180),
+      disc(15, 4, 2), col(15, 6, 15.5),
+      arc(10.5, 15.5, 4.5, 0, 180), col(6, 11, 15.5),
     ],
   },
   {

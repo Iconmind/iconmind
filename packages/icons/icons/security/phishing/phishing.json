@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "threat",
   "name": "Phishing",
-  "description": "A message with a hook in it",
+  "description": "The hook, waiting for a bite",
   "tags": [
     "lure",
     "scam",
@@ -19,19 +19,19 @@
   "family": "figure",
   "shapes": [
     {
-      "d": "M2 12A2 2 0 0 1 4 10H20A2 2 0 0 1 22 12V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "d": "M13 4a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
       "closed": true
     },
     {
-      "d": "M2 10L9 17L15 17L22 10",
+      "d": "M15 6V15.5",
       "closed": false
     },
     {
-      "d": "M15 2V5",
+      "d": "M15 15.5A4.5 4.5 0 0 1 6 15.5",
       "closed": false
     },
     {
-      "d": "M15 5A2 2 0 0 1 11 5",
+      "d": "M6 11V15.5",
       "closed": false
     }
   ]
