@@ -54,7 +54,6 @@ ${allCategories.map((c) => `- [${c.name}](${SITE_URL}/categories/${c.slug}/): ${
 ## Optional
 
 - [Changelog](${SITE_URL}/changelog/): what shipped, written at release time.
-- [Roadmap](${SITE_URL}/roadmap/): what is planned and how far along it is.
 - [Design guidelines](${SITE_URL}/docs/design-guidelines/): the rules the compiler enforces.
 
 Version ${version}. Licence MIT (https://opensource.org/licenses/MIT).

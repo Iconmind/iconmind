@@ -204,9 +204,18 @@ export const BATCH_08: Icon[] = [
     name: "Sync", description: "Both sides ending up the same",
     tags: ["two-way", "mirror", "replicate"], family: "arrow",
     aliases: ["replicate"], keywords: ["two-way", "mirror", "replication", "refresh", "bidirectional"],
-    // Two straight arrows rather than two curved ones. Curved, the pair is `retry` with an
-    // extra head; straight and opposed, it is plainly two things going different ways.
-    shapes: [...cycle(), poly([[13, 14], [10, 17], [13, 20]])],
+    // The square loop with a chevron riding EACH long edge — flow out along the top,
+    // flow back along the bottom, both on the path. The old drawing dropped a reversed
+    // chevron loose inside `cycle()`'s hollow, where it floated against the loop's own
+    // direction. `cycle()` itself cannot host this: its gap is a top-edge affair, and a
+    // bottom chevron needs the bottom edge broken too, so the loop is written by hand.
+    shapes: [
+      raw("M14.5 4.5h3.5a3 3 0 0 1 3 3v9a3 3 0 0 1 -3 3h-3.5",
+        "the right half of a two-gap loop; frame() can only open its top edge"),
+      raw("M9.5 19.5H6a3 3 0 0 1 -3 -3v-9a3 3 0 0 1 3 -3h3.5",
+        "the left half of a two-gap loop; frame() can only open its top edge"),
+      poly([[12, 2], [14.5, 4.5], [12, 7]]), poly([[12, 17], [9.5, 19.5], [12, 22]]),
+    ],
   },
 
   /* ── Measuring ────────────────────────────────────────────────────────────────── */

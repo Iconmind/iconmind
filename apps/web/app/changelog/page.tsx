@@ -34,10 +34,9 @@ export default function ChangelogPage() {
                 <h2 className="text-h2 font-semibold">No releases yet</h2>
                 <p className="mt-3 leading-relaxed text-ink-2">
                   {iconCount.toLocaleString("en-GB")} icons are drawn and the release
-                  pipeline is wired, but nothing has been published to npm. The first
-                  release is <code className="font-mono text-[13px] text-ink">v0.1.0</code>,
-                  and it lands quietly — the launch comes later, once there is enough of the
-                  set to be worth someone&rsquo;s time.
+                  pipeline is wired; the changelog for the next release has not been cut
+                  yet. Releases are automatic — every merged change steps the version and
+                  publishes all the packages together.
                 </p>
               </div>
               <dl className="grid shrink-0 gap-4">
@@ -51,13 +50,13 @@ export default function ChangelogPage() {
                 <Link href="/icons/">Browse what is drawn</Link>
               </Button>
               <Button asChild variant="outline">
-                <Link href="/roadmap/">See the roadmap</Link>
+                <Link href="/docs/installation/">Install a package</Link>
               </Button>
             </div>
           </Card>
 
           <section className="mt-12">
-            <h2 className="label mb-4">What v0.1.0 will contain</h2>
+            <h2 className="label mb-4">What the set contains</h2>
             {/* Counts by domain rather than 756 anonymous glyphs. The wall of icons that
                 used to be here was a second copy of the landing page's, four screens tall,
                 and it answered a question nobody had asked on this page. */}

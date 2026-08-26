@@ -98,7 +98,10 @@ export const BATCH_09: Icon[] = [
     tags: ["shrink", "restore", "collapse"], family: "bracket",
     aliases: [], keywords: ["shrink", "exit fullscreen", "collapse", "reduce", "restore"],
     shapes: [
-      poly([[9, 3], [9, 9], [3, 9]]), poly([[15, 9], [21, 9], [21, 3]]),
+      // Four corners, four elbows, all pointing at the centre. The top-right one was
+      // drawn with its elbow on the outer edge — three corners collapsing inward and one
+      // pointing out, which is what made the icon read as scattered crop marks.
+      poly([[9, 3], [9, 9], [3, 9]]), poly([[15, 3], [15, 9], [21, 9]]),
       poly([[21, 15], [15, 15], [15, 21]]), poly([[9, 21], [9, 15], [3, 15]]),
     ],
   },

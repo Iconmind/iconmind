@@ -23,31 +23,30 @@ const REPO = "https://github.com/iconmind/iconmind";
  */
 const CHECKS: Array<{ rule: string; says: string; level: "pass" | "warn" }> = [
   { rule: "structure/viewbox-exact", says: "24 × 24 viewBox, no width or height", level: "pass" },
-  { rule: "attributes/fill-none", says: "Stroke only — no fills on an outline cell", level: "pass" },
+  { rule: "attributes/fill-none", says: "Stroke only — duotone's tint is derived, never drawn", level: "pass" },
   { rule: "geometry/grid-snap", says: "Every anchor on the 0.5 grid", level: "pass" },
-  { rule: "geometry/within-live-area", says: "Anchors inside 3..21 so the painted edge lands on 2..22", level: "pass" },
-  { rule: "geometry/min-stroke-gap", says: "Parallel strokes at least 2 units apart", level: "pass" },
+  { rule: "geometry/live-area", says: "Anchors inside 2..22 — ink bleeds to 1..23 and no further", level: "pass" },
+  { rule: "geometry/size-band", says: "The longer side spans 18–22 units, so no icon reads small", level: "pass" },
+  { rule: "geometry/min-stroke-gap", says: "Strokes at least 2.5 units apart — 3 at bold, or they fuse", level: "pass" },
   { rule: "geometry/stub-segment", says: "No run under 2.5 — a dot is a circle, not a short stroke", level: "pass" },
-  { rule: "geometry/angle-constraint", says: "Segments on 0/30/45/60/90° unless the shape defines its own", level: "warn" },
-  { rule: "lint/element-budget", says: "Six elements or fewer", level: "warn" },
-  { rule: "duplicate/perceptual", says: "Nothing already in the set renders the same", level: "pass" },
+  { rule: "geometry/angle-constraint", says: "Segments on multiples of 45°", level: "warn" },
+  { rule: "geometry/optical-centre", says: "The mass sits within 2 units of the canvas centre", level: "warn" },
+  { rule: "duplicate/structural", says: "Nothing already in the set is the same composition", level: "warn" },
 ];
 
+/* The real declaration of security/phishing, verbatim from scripts/draw/icons. */
 const SAMPLE = `{
-  "slug": "vector-store",
-  "category": "rag",
-  "subcategory": "vector",
-  "name": "Vector Store",
-  "description": "Store of embedding vectors",
-  "tags": ["vector store", "embeddings", "index"],
-  "shapes": [
-    { "d": "M4 6.5h16v11H4z", "closed": true },
-    { "d": "M8 10.5H16" }
-  ]
+  slug: "phishing", category: "security", subcategory: "threat",
+  name: "Phishing", description: "The hook, waiting for a bite",
+  tags: ["lure", "scam", "bait"], family: "figure",
+  shapes: [
+    disc(15, 4, 2), col(15, 6, 15.5),
+    arc(10.5, 15.5, 4.5, 0, 180), col(6, 11, 15.5),
+  ],
 }`;
 
 export default function ContributePage() {
-  const sample = allIcons.find((i) => i.slug === "vector-database") ?? allIcons[0]!;
+  const sample = allIcons.find((i) => i.slug === "phishing") ?? allIcons[0]!;
   const body = svgBody(readSvg(sample.category, sample.slug));
   const blocking = CHECKS.filter((c) => c.level === "pass").length;
 
@@ -58,8 +57,10 @@ export default function ContributePage() {
           <h2 className="label">Contribute</h2>
           <h1 className="mt-3 text-h1 font-semibold">Submit an icon</h1>
           <p className="mt-3 text-lead leading-relaxed text-ink-2">
-            Declare the shapes, and the generator draws all seven cells. Every rule below
-            runs before a human ever looks at it. Everything merged stays MIT.
+            All 1,008 icons are written, not drawn: declare the shapes in TypeScript and
+            the build compiles all six cells. The constructors throw on illegal geometry
+            and every rule below runs before a human ever looks at it. Everything merged
+            stays MIT.
           </p>
         </div>
         <div className="flex shrink-0 items-center gap-2">
@@ -76,9 +77,9 @@ export default function ContributePage() {
       <div className="mt-10 grid gap-4 lg:grid-cols-[minmax(0,1fr)_22rem]">
         <Card className="overflow-hidden">
           <div className="flex items-center justify-between border-b border-line-2 px-5 py-3">
-            <p className="label">One JSON file per concept</p>
+            <p className="label">One declaration per concept</p>
             <a
-              href={`${REPO}/tree/main/packages/icons/icons`}
+              href={`${REPO}/tree/main/scripts/draw/icons`}
               className="font-mono text-mono text-muted transition-colors hover:text-accent"
             >
               see the folder →
@@ -89,8 +90,11 @@ export default function ContributePage() {
           </pre>
           <p className="border-t border-line-2 px-5 py-3.5 text-meta leading-[1.55] text-muted">
             A slug, a description, tags, and a <span className="font-mono">shapes</span> array
-            of path data. Nothing else is hand-written — the seven SVGs, the React component,
-            the sprite entry and the metadata row are all generated from this.
+            built from a small vocabulary — <span className="font-mono">disc</span>,{" "}
+            <span className="font-mono">col</span>, <span className="font-mono">arc</span>,{" "}
+            <span className="font-mono">poly</span>, <span className="font-mono">frame</span>,
+            and the shared bodies. Nothing else is hand-written: the six SVG cells and the
+            components for all ten packages are generated from this one declaration.
           </p>
         </Card>
 

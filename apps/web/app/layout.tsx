@@ -73,7 +73,6 @@ const NAV = [
 ];
 
 const PROJECT = [
-  { href: "/roadmap/", label: "Roadmap" },
   { href: "/contribute/", label: "Contribute" },
   { href: "/search/", label: "Search" },
 ];
@@ -109,7 +108,6 @@ const FOOTER: { heading: string; links: { href: string; label: string; external?
     heading: "Project",
     links: [
       { href: "/changelog/", label: "Changelog" },
-      { href: "/roadmap/", label: "Roadmap" },
       { href: "/contribute/", label: "Contribute" },
       { href: "/docs/design-guidelines/", label: "Design guidelines" },
     ],

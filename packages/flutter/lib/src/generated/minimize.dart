@@ -4,6 +4,6 @@ import '../data.dart';
 /// Minimize
 const IconMindData minimize = IconMindData(
   'minimize',
-  [N('M9 3v6H3'), N('M15 9h6V3'), N('M21 15h-6v6'), N('M9 21v-6H3')],
-  [N.halo('M9 3v6H3'), N.halo('M15 9h6V3'), N.halo('M21 15h-6v6'), N.halo('M9 21v-6H3'), N('M9 3v6H3'), N('M15 9h6V3'), N('M21 15h-6v6'), N('M9 21v-6H3')],
+  [N('M9 3v6H3'), N('M15 3v6h6'), N('M21 15h-6v6'), N('M9 21v-6H3')],
+  [N.halo('M9 3v6H3'), N.halo('M15 3v6h6'), N.halo('M21 15h-6v6'), N.halo('M9 21v-6H3'), N('M9 3v6H3'), N('M15 3v6h6'), N('M21 15h-6v6'), N('M9 21v-6H3')],
 );

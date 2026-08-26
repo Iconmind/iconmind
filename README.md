@@ -16,14 +16,14 @@
   <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-blue"></a>
   <img alt="icons" src="https://img.shields.io/badge/icons-1008-black">
   <img alt="cells" src="https://img.shields.io/badge/SVGs-6048-black">
-  <a href="https://www.npmjs.com/package/@iconmind/react"><img alt="npm" src="https://img.shields.io/badge/npm-0.2.0-blue"></a>
+  <a href="https://www.npmjs.com/package/@iconmind/react"><img alt="npm" src="https://img.shields.io/npm/v/%40iconmind%2Freact?label=npm&color=blue"></a>
 </p>
 
 ---
 
-> **v0.2.0 is live on npm.** All 1,008 icons — six cells each (outline & duotone ×
+> **Live on npm.** All 1,008 icons — six cells each (outline & duotone ×
 > thin / regular / bold), every geometric rule machine-enforced. What comes next is
-> more targets, not more pictures: [`ROADMAP.md`](ROADMAP.md).
+> more targets, not more pictures.
 
 ## Why this exists
 
@@ -77,7 +77,7 @@ never drift:
 | `@iconmind/astro` | Astro — zero client JS |
 | `iconmind/blade-iconmind` | Laravel, via Blade Icons |
 
-Angular, Flutter and Figma are next — see [`ROADMAP.md`](ROADMAP.md).
+Angular and Figma are next; Flutter is already in the tree, awaiting its first pub.dev release.
 
 ## For AI assistants
 

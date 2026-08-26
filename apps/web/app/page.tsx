@@ -205,7 +205,7 @@ export default function Home() {
               <path d="M8.5 4.5H6a1.5 1.5 0 0 0-1.5 1.5v12A1.5 1.5 0 0 0 6 19.5h12a1.5 1.5 0 0 0 1.5-1.5v-2.5M9 15l10.5-10.5M15 3.5h5.5V9" />
             }
           >
-            Every icon is one declaration. The generator emits all seven cells from it, so a
+            Every icon is one declaration. The generator emits all six cells from it, so a
             change to the corner radius is a change to {iconCount} icons rather than{" "}
             {iconCount} edits.
           </Feature>
