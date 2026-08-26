@@ -16,7 +16,7 @@ import { join } from "node:path";
 import { fromRoot } from "../lib/fs.ts";
 
 const ICONS = fromRoot("packages/icons/icons");
-const OUT = fromRoot("apps/docs/public/v");
+const OUT = fromRoot("apps/web/public/v");
 
 const CELLS = [
   "outline-thin", "outline-regular", "outline-bold",
@@ -45,4 +45,4 @@ for (const cell of CELLS) {
   console.log(`  ${cell.padEnd(16)} ${Object.keys(map).length} icons, ${Math.round(json.length / 1024)} KB`);
 }
 
-console.log(`apps/docs/public/v — ${CELLS.length} bundles`);
+console.log(`apps/web/public/v — ${CELLS.length} bundles`);

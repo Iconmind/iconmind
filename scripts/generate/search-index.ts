@@ -12,7 +12,7 @@ import { DOMAINS, SUBCATEGORIES, type Domain } from "@iconmind/shared";
 import { fromRoot, loadIcons } from "../lib/fs.ts";
 import { IconMetaInput } from "@iconmind/shared";
 
-const OUT = fromRoot("apps/docs/public");
+const OUT = fromRoot("apps/web/public");
 const BUDGET_GZIP = 150 * 1024;   // doc 09 §9.4 — hard ceiling
 
 const subList: string[] = [];
