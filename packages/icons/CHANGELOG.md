@@ -1,5 +1,11 @@
 # @iconmind/icons
 
+## 0.3.3
+
+### Patch Changes
+
+- feat(flutter): the example gallery, and a README that answers everything
+
 ## 0.3.2
 
 ### Patch Changes
