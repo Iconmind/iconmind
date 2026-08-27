@@ -1,5 +1,11 @@
 # @iconmind/icons
 
+## 0.3.5
+
+### Patch Changes
+
+- fix(mcp): the server can finally start on a machine that is not this repo
+
 ## 0.3.4
 
 ### Patch Changes
