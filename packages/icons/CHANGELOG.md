@@ -1,5 +1,11 @@
 # @iconmind/icons
 
+## 0.3.4
+
+### Patch Changes
+
+- seo(web): structured data stops pointing at ghosts, and every icon gets a real URL
+
 ## 0.3.3
 
 ### Patch Changes
