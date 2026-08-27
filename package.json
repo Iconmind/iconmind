@@ -28,7 +28,8 @@
     "icons:handwritten": "tsx scripts/validate/handwritten.ts",
     "icons:bundles": "tsx scripts/generate/cell-bundles.ts",
     "icons:build": "tsx scripts/draw/run.ts",
-    "icons:generate:components": "tsx scripts/generate/components.ts"
+    "icons:generate:components": "tsx scripts/generate/components.ts",
+    "icons:audit": "tsx scripts/review/audit.mts"
   },
   "devDependencies": {
     "@changesets/cli": "^2.29.7",
