@@ -177,8 +177,8 @@ importers:
   packages/mcp:
     dependencies:
       '@iconmind/icons':
-        specifier: ^0.3.4
-        version: 0.3.4
+        specifier: ^0.3.5
+        version: 0.3.5
       '@modelcontextprotocol/sdk':
         specifier: ^1.22.0
         version: 1.30.0(zod@4.4.3)
@@ -777,8 +777,8 @@ packages:
     peerDependencies:
       hono: ^4
 
-  '@iconmind/icons@0.3.4':
-    resolution: {integrity: sha512-EFynRkiQ8Ib3HduvTQz1AJ77m/9T6LR6mwf4HzAKBR8wM+5HCxIugkAvTo/v3tjzPEzWTRbXDvxW9ycJGsPQeQ==}
+  '@iconmind/icons@0.3.5':
+    resolution: {integrity: sha512-xtm5Y0BQW8yqiDS+6E+cJj6BuVtT4+yfSlLBY6t2E9mNfmoSD20IhwvC2ZkynBsp+qB1GQ7qgErcrNolWLU3jA==}
 
   '@img/colour@1.1.0':
     resolution: {integrity: sha512-Td76q7j57o/tLVdgS746cYARfSyxk8iEfRxewL9h4OMzYhbW4TAcppl0mT4eyqXddh6L/jwoM75mo7ixa/pCeQ==}
@@ -5641,7 +5641,7 @@ snapshots:
     dependencies:
       hono: 4.13.3
 
-  '@iconmind/icons@0.3.4': {}
+  '@iconmind/icons@0.3.5': {}
 
   '@img/colour@1.1.0':
     optional: true

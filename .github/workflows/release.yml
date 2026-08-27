@@ -58,11 +58,6 @@ jobs:
       - name: Bump versions
         run: pnpm changeset version
 
-      # changeset version rewrites internal dependency ranges (mcp depends on icons),
-      # which makes the lockfile stale — and every frozen-lockfile install after the
-      # bump commit (our CI, Vercel) fails on it. Refresh it as part of the bump.
-      - run: pnpm install --lockfile-only
-
       - name: Commit the bump back to main
         id: bump
         run: |
@@ -82,6 +77,27 @@ jobs:
         run: pnpm release
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      # @iconmind/mcp needs the icon data at runtime, so its range is plain semver rather
+      # than workspace: — which means a bumped range sends pnpm to the registry. Patch
+      # releases no longer touch it (updateInternalDependencies: minor), but a minor one
+      # does, and a stale lockfile fails every frozen-lockfile install afterwards: our own
+      # CI, and Vercel's build. Hence *after* publish — the version it must resolve is on
+      # the registry only once the step above has run. A no-op when nothing changed.
+      - name: Refresh the lockfile if the bump moved an internal range
+        run: |
+          for i in 1 2 3; do
+            pnpm install --lockfile-only && break
+            echo "registry has not caught up yet; retrying in 15s"
+            sleep 15
+          done
+          git diff --quiet -- pnpm-lock.yaml && echo "lockfile unchanged" && exit 0
+          # A follow-up commit, never an amend: main's tip is already published and
+          # already building on Vercel. pnpm-lock.yaml is outside this workflow's paths
+          # filter, so this cannot retrigger a release.
+          git add pnpm-lock.yaml
+          git commit -m "chore: refresh lockfile for v${{ steps.bump.outputs.version }}"
+          git pull --rebase --autostash && git push
 
       - name: Push tags and cut the GitHub Release
         run: |

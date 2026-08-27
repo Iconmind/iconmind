@@ -18,7 +18,7 @@
   "linked": [],
   "access": "public",
   "baseBranch": "main",
-  "updateInternalDependencies": "patch",
+  "updateInternalDependencies": "minor",
   "ignore": [
     "web",
     "@iconmind/shared"
