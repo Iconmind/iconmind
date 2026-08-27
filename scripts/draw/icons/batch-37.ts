@@ -68,7 +68,7 @@ export const BATCH_37: Icon[] = [
     tags: ["frames", "crash", "where"], family: "figure",
     aliases: [], keywords: ["call stack", "frames", "traceback", "exception", "where it broke"],
     // Rows that all end at the same place are `align-right`. Frames nest.
-    shapes: [poly([[3, 4], [3, 20], [8, 20]]), poly([[8, 7], [8, 17], [13, 17]]), poly([[13, 10], [13, 14], [18, 14]])],
+    shapes: [poly([[3, 3], [3, 21], [11, 21]]), poly([[9, 7], [9, 17], [15, 17]]), poly([[15, 10], [15, 13], [19, 13]])],
   },
   {
     slug: "span-trace", category: "analytics", subcategory: "llm-observability",
@@ -208,7 +208,7 @@ export const BATCH_37: Icon[] = [
     name: "Softmax", description: "Scores turned into one that wins",
     tags: ["probability", "peak", "normalise"], family: "chart",
     aliases: [], keywords: ["probabilities", "temperature", "argmax", "distribution", "peak"],
-    shapes: [row(20, 3, 21), col(6, 17, 20), col(10, 15, 20), col(14, 4, 20), col(18, 17, 20)],
+    shapes: [row(20, 3, 21), col(6, 14, 20), col(10, 8, 20), col(14, 3, 20), col(18, 14, 20)],
   },
   {
     slug: "sparkline", category: "analytics", subcategory: "chart",

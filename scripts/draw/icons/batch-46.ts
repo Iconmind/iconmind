@@ -137,7 +137,7 @@ export const BATCH_46: Icon[] = [
     name: "Step limit", description: "Only this many tries",
     tags: ["budget", "cap", "iterations"], family: "figure",
     aliases: [], keywords: ["max iterations", "step budget", "cap on tries"],
-    shapes: [row(18, 2, 6), row(14, 8, 12), row(10, 14, 18), col(21, 4, 20)],
+    shapes: [poly([[3, 6], [8, 6], [8, 11], [13, 11], [13, 16], [18, 16]]), col(21, 4, 20)],
   },
 
   /* ── Sources cited, rows joined ───────────────────────────────────────────────── */

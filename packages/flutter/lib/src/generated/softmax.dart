@@ -4,6 +4,6 @@ import '../data.dart';
 /// Softmax
 const IconMindData softmax = IconMindData(
   'softmax',
-  [N('M3 20h18'), N('M6 17v3'), N('M10 15v5'), N('M14 4v16'), N('M18 17v3')],
-  [N.halo('M3 20h18'), N.halo('M6 17v3'), N.halo('M10 15v5'), N.halo('M14 4v16'), N.halo('M18 17v3'), N('M3 20h18'), N('M6 17v3'), N('M10 15v5'), N('M14 4v16'), N('M18 17v3')],
+  [N('M3 20h18'), N('M6 14v6'), N('M10 8v12'), N('M14 3v17'), N('M18 14v6')],
+  [N.halo('M3 20h18'), N.halo('M6 14v6'), N.halo('M10 8v12'), N.halo('M14 3v17'), N.halo('M18 14v6'), N('M3 20h18'), N('M6 14v6'), N('M10 8v12'), N('M14 3v17'), N('M18 14v6')],
 );

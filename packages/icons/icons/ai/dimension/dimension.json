@@ -27,7 +27,11 @@
       "closed": false
     },
     {
-      "d": "M4 20L10 14",
+      "d": "M7 17L15 9",
+      "closed": false
+    },
+    {
+      "d": "M13.5 7L17 7L17 10.5",
       "closed": false
     }
   ]

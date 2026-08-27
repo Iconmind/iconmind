@@ -111,7 +111,7 @@ export const BATCH_27: Icon[] = [
     name: "Budget alert", description: "You are close to the limit",
     tags: ["spend", "warning", "cap"], family: "capsule",
     aliases: [], keywords: ["overspend", "cap", "quota", "billing alert", "forecast"],
-    shapes: [rect(3, 3, 18, 5, 2.5), col(15, 3, 8), ...alert(SMALL, 15)],
+    shapes: [rect(2, 4, 20, 6, 3), col(12, 13, 18), disc(12, 21, 1)],
   },
   {
     slug: "agent-state", category: "agents", subcategory: "lifecycle",

@@ -4,6 +4,6 @@ import '../data.dart';
 /// StreamingResponse
 const IconMindData streamingResponse = IconMindData(
   'streaming-response',
-  [N('M2 9a2 2 0 0 1 2 -2h3a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z'), N('M11 12h4'), N('M17 12h4')],
-  [N.tint('M2 9a2 2 0 0 1 2 -2h3a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z'), N('M2 9a2 2 0 0 1 2 -2h3a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z'), N('M11 12h4'), N('M17 12h4')],
+  [N('M2 5a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z'), N('M5 7h10'), N('M5 11h5'), N('M3 19h3.5'), N('M9.5 19H13'), N('M16 19h3.5')],
+  [N.tint('M2 5a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z'), N('M2 5a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z'), N('M5 7h10'), N('M5 11h5'), N('M3 19h3.5'), N('M9.5 19H13'), N('M16 19h3.5')],
 );

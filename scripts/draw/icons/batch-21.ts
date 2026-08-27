@@ -71,7 +71,7 @@ export const BATCH_21: Icon[] = [
     aliases: [], keywords: ["dims", "vector size", "1536", "axes", "rank"],
     // Three axes from one corner, the third at 45° because that is how a third dimension
     // has been drawn on flat paper since before anyone had a screen.
-    shapes: [col(4, 4, 20), row(20, 4, 20), poly([[4, 20], [10, 14]])],
+    shapes: [col(4, 4, 20), row(20, 4, 20), poly([[7, 17], [15, 9]]), poly([[13.5, 7], [17, 7], [17, 10.5]])],
   },
 
   /* ── Training, stopped ────────────────────────────────────────────────────────── */

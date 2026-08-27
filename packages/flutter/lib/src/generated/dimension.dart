@@ -4,6 +4,6 @@ import '../data.dart';
 /// Dimension
 const IconMindData dimension = IconMindData(
   'dimension',
-  [N('M4 4v16'), N('M4 20h16'), N('m4 20 6 -6')],
-  [N.halo('M4 4v16'), N.halo('M4 20h16'), N.halo('m4 20 6 -6'), N('M4 4v16'), N('M4 20h16'), N('m4 20 6 -6')],
+  [N('M4 4v16'), N('M4 20h16'), N('m7 17 8 -8'), N('M13.5 7H17v3.5')],
+  [N.halo('M4 4v16'), N.halo('M4 20h16'), N.halo('m7 17 8 -8'), N.halo('M13.5 7H17v3.5'), N('M4 4v16'), N('M4 20h16'), N('m7 17 8 -8'), N('M13.5 7H17v3.5')],
 );

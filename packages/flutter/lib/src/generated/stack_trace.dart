@@ -4,6 +4,6 @@ import '../data.dart';
 /// StackTrace
 const IconMindData stackTrace = IconMindData(
   'stack-trace',
-  [N('M3 4v16h5'), N('M8 7v10h5'), N('M13 10v4h5')],
-  [N.halo('M3 4v16h5'), N.halo('M8 7v10h5'), N.halo('M13 10v4h5'), N('M3 4v16h5'), N('M8 7v10h5'), N('M13 10v4h5')],
+  [N('M3 3v18h8'), N('M9 7v10h6'), N('M15 10v3h4')],
+  [N.halo('M3 3v18h8'), N.halo('M9 7v10h6'), N.halo('M15 10v3h4'), N('M3 3v18h8'), N('M9 7v10h6'), N('M15 10v3h4')],
 );

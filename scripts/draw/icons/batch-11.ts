@@ -99,7 +99,10 @@ export const BATCH_11: Icon[] = [
     aliases: [], keywords: ["sse", "token by token", "incremental", "live", "typing"],
     // Two dashes leaving the machine, not three. Three is a queue; two is something still
     // coming, because the reader supplies the rest.
-    shapes: [rect(2, 7, 7, 10, 2), row(12, 11, 15), row(12, 17, 21)],
+    shapes: [
+      rect(2, 3, 20, 12, 2), row(7, 5, 15), row(11, 5, 10),
+      row(19, 3, 6.5), row(19, 9.5, 13), row(19, 16, 19.5),
+    ],
   },
 
   /* ── Agents ───────────────────────────────────────────────────────────────────── */

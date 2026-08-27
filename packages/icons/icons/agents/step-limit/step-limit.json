@@ -17,15 +17,7 @@
   "family": "figure",
   "shapes": [
     {
-      "d": "M2 18H6",
-      "closed": false
-    },
-    {
-      "d": "M8 14H12",
-      "closed": false
-    },
-    {
-      "d": "M14 10H18",
+      "d": "M3 6L8 6L8 11L13 11L13 16L18 16",
       "closed": false
     },
     {
