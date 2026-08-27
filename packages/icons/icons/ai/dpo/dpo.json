@@ -1,0 +1,45 @@
+{
+  "slug": "dpo",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "DPO",
+  "description": "Trained on which answer people preferred",
+  "tags": [
+    "preference",
+    "chosen",
+    "rejected"
+  ],
+  "aliases": [
+    "preference-pair"
+  ],
+  "keywords": [
+    "direct preference optimization",
+    "chosen",
+    "rejected",
+    "pairwise",
+    "alignment"
+  ],
+  "family": "capsule",
+  "shapes": [
+    {
+      "d": "M2 6.5A3.5 3.5 0 0 1 5.5 3H10.5A3.5 3.5 0 0 1 14 6.5V6.5A3.5 3.5 0 0 1 10.5 10H5.5A3.5 3.5 0 0 1 2 6.5Z",
+      "closed": true
+    },
+    {
+      "d": "M17 6.5L19 8.5L21.5 6",
+      "closed": false
+    },
+    {
+      "d": "M2 17.5A3.5 3.5 0 0 1 5.5 14H10.5A3.5 3.5 0 0 1 14 17.5V17.5A3.5 3.5 0 0 1 10.5 21H5.5A3.5 3.5 0 0 1 2 17.5Z",
+      "closed": true
+    },
+    {
+      "d": "M17.5 15L21.5 19",
+      "closed": false
+    },
+    {
+      "d": "M21.5 15L17.5 19",
+      "closed": false
+    }
+  ]
+}

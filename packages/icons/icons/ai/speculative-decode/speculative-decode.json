@@ -1,0 +1,34 @@
+{
+  "slug": "speculative-decode",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Speculative decoding",
+  "description": "A draft races ahead, the model verifies",
+  "tags": [
+    "draft",
+    "fast",
+    "verify"
+  ],
+  "keywords": [
+    "speculative decoding",
+    "draft model",
+    "verify",
+    "latency",
+    "assisted generation"
+  ],
+  "family": "chevron",
+  "shapes": [
+    {
+      "d": "M3 6L9 12L3 18",
+      "closed": false
+    },
+    {
+      "d": "M10 6L16 12L10 18",
+      "closed": false
+    },
+    {
+      "d": "M16 17L18 19L22 15",
+      "closed": false
+    }
+  ]
+}

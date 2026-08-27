@@ -1,0 +1,41 @@
+{
+  "slug": "pii-redact",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "PII redaction",
+  "description": "The personal part, blacked out",
+  "tags": [
+    "privacy",
+    "mask",
+    "remove"
+  ],
+  "aliases": [
+    "redaction"
+  ],
+  "keywords": [
+    "pii",
+    "redact",
+    "mask personal data",
+    "anonymise",
+    "scrub"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M3 5H21",
+      "closed": false
+    },
+    {
+      "d": "M3 11A2 2 0 0 1 5 9H13A2 2 0 0 1 15 11V11A2 2 0 0 1 13 13H5A2 2 0 0 1 3 11Z",
+      "closed": true
+    },
+    {
+      "d": "M18 11H21",
+      "closed": false
+    },
+    {
+      "d": "M3 17H13",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "voice-agent",
+  "category": "agents",
+  "subcategory": "communication",
+  "name": "Voice agent",
+  "description": "An agent you talk to out loud",
+  "tags": [
+    "speech",
+    "audio",
+    "levels"
+  ],
+  "keywords": [
+    "voice",
+    "speech",
+    "realtime audio",
+    "talk",
+    "call agent"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M9.11 7.47A5 5 0 1 1 4.89 7.47",
+      "closed": false
+    },
+    {
+      "d": "M15 9V15",
+      "closed": false
+    },
+    {
+      "d": "M18 5V19",
+      "closed": false
+    },
+    {
+      "d": "M21 10V14",
+      "closed": false
+    }
+  ]
+}

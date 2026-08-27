@@ -1,0 +1,38 @@
+{
+  "slug": "logprobs",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Logprobs",
+  "description": "How sure it was about each token",
+  "tags": [
+    "probability",
+    "confidence",
+    "per-token"
+  ],
+  "keywords": [
+    "log probabilities",
+    "token probability",
+    "confidence",
+    "sampling",
+    "logits"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M3 4H21",
+      "closed": false
+    },
+    {
+      "d": "M7 7V17",
+      "closed": false
+    },
+    {
+      "d": "M12 7V21",
+      "closed": false
+    },
+    {
+      "d": "M17 7V19",
+      "closed": false
+    }
+  ]
+}

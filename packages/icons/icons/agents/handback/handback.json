@@ -1,0 +1,42 @@
+{
+  "slug": "handback",
+  "category": "agents",
+  "subcategory": "communication",
+  "name": "Handback",
+  "description": "The agent gives control back to a person",
+  "tags": [
+    "return",
+    "human",
+    "control"
+  ],
+  "keywords": [
+    "hand back",
+    "return control",
+    "human takeover",
+    "escalate",
+    "defer"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M7.27 15.28A3 3 0 1 1 4.73 15.28",
+      "closed": false
+    },
+    {
+      "d": "M8.5 15.5L11 13",
+      "closed": false
+    },
+    {
+      "d": "M10.5 11L13 11L13 13.5",
+      "closed": false
+    },
+    {
+      "d": "M17 4a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 10A3 3 0 0 1 22 10",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "rlhf",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "RLHF",
+  "description": "A person inside the training loop",
+  "tags": [
+    "feedback",
+    "human",
+    "loop"
+  ],
+  "keywords": [
+    "human feedback",
+    "reinforcement learning",
+    "alignment",
+    "rater",
+    "reward signal"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6.5 19A5.5 5.5 0 0 1 17.5 19",
+      "closed": false
+    },
+    {
+      "d": "M7 20.66A10 10 0 0 1 7 3.34",
+      "closed": false
+    },
+    {
+      "d": "M17 3.34A10 10 0 0 1 17 20.66",
+      "closed": false
+    }
+  ]
+}

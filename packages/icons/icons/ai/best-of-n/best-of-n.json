@@ -1,0 +1,38 @@
+{
+  "slug": "best-of-n",
+  "category": "ai",
+  "subcategory": "evaluation",
+  "name": "Best of N",
+  "description": "Generate several, keep the winner",
+  "tags": [
+    "sampling",
+    "candidates",
+    "pick"
+  ],
+  "keywords": [
+    "best of n",
+    "rerank samples",
+    "candidates",
+    "pick the best",
+    "rejection sampling"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M3 5H13",
+      "closed": false
+    },
+    {
+      "d": "M3 12H13",
+      "closed": false
+    },
+    {
+      "d": "M3 19H13",
+      "closed": false
+    },
+    {
+      "d": "M16 12L18 14L22 10",
+      "closed": false
+    }
+  ]
+}

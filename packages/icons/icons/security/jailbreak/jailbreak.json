@@ -1,0 +1,42 @@
+{
+  "slug": "jailbreak",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Jailbreak",
+  "description": "Out through the broken bar",
+  "tags": [
+    "escape",
+    "bypass",
+    "guardrail"
+  ],
+  "keywords": [
+    "jailbreak",
+    "guardrail bypass",
+    "prompt attack",
+    "escape",
+    "unsafe output"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 3V21",
+      "closed": false
+    },
+    {
+      "d": "M11 3V21",
+      "closed": false
+    },
+    {
+      "d": "M17 3V9",
+      "closed": false
+    },
+    {
+      "d": "M14 15H19",
+      "closed": false
+    },
+    {
+      "d": "M17 12L20 15L17 18",
+      "closed": false
+    }
+  ]
+}

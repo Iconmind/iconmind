@@ -1,0 +1,34 @@
+{
+  "slug": "computer-use",
+  "category": "agents",
+  "subcategory": "tool-use",
+  "name": "Computer use",
+  "description": "An agent driving the screen itself",
+  "tags": [
+    "screen",
+    "control",
+    "click"
+  ],
+  "keywords": [
+    "computer use",
+    "screen control",
+    "gui agent",
+    "operate",
+    "desktop"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M12 4H18A3 3 0 0 1 21 7V17A3 3 0 0 1 18 20H6A3 3 0 0 1 3 17V7A3 3 0 0 1 6 4Z",
+      "closed": true
+    },
+    {
+      "d": "M8 13a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 7.5A5.5 5.5 0 0 1 15.5 13",
+      "closed": false
+    }
+  ]
+}

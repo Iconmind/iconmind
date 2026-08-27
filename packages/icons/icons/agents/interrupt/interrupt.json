@@ -1,0 +1,29 @@
+{
+  "slug": "interrupt",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Interrupt",
+  "description": "Cut in right now",
+  "tags": [
+    "stop",
+    "barge-in",
+    "cancel"
+  ],
+  "aliases": [
+    "zap"
+  ],
+  "keywords": [
+    "interrupt",
+    "barge in",
+    "cancel generation",
+    "stop it",
+    "break in"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M18 2L8 12L13 12L5 20",
+      "closed": false
+    }
+  ]
+}

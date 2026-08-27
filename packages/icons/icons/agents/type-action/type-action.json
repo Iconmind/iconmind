@@ -1,0 +1,34 @@
+{
+  "slug": "type-action",
+  "category": "agents",
+  "subcategory": "tool-use",
+  "name": "Type",
+  "description": "The caret, and what it has written so far",
+  "tags": [
+    "keyboard",
+    "input",
+    "caret"
+  ],
+  "keywords": [
+    "type",
+    "keyboard input",
+    "text entry",
+    "caret",
+    "fill field"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M4 6V18",
+      "closed": false
+    },
+    {
+      "d": "M8 9H16",
+      "closed": false
+    },
+    {
+      "d": "M8 15H20",
+      "closed": false
+    }
+  ]
+}

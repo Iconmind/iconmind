@@ -215,7 +215,7 @@ export const BATCH_05: Icon[] = [
     slug: "prompt-injection", category: "security", subcategory: "ai-security",
     name: "Prompt injection", description: "Instructions smuggled in with the input",
     tags: ["attack", "jailbreak", "exploit"], family: "window",
-    aliases: ["jailbreak"], keywords: ["attack", "exploit", "untrusted input", "smuggling"],
+    aliases: [], keywords: ["attack", "exploit", "untrusted input", "smuggling"],
     // The bolt starts outside and comes in through the break the body already has. Drawn
     // wholly inside the window it was `incident` with a different corner radius — and at
     // sixteen pixels a corner radius is not a difference. Getting in is the whole idea, so

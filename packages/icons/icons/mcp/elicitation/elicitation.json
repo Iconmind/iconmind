@@ -1,0 +1,38 @@
+{
+  "slug": "elicitation",
+  "category": "mcp",
+  "subcategory": "prompt",
+  "name": "Elicitation",
+  "description": "The server stops to ask the user something",
+  "tags": [
+    "ask",
+    "mid-flow",
+    "input"
+  ],
+  "keywords": [
+    "elicitation",
+    "ask user",
+    "server question",
+    "form request",
+    "mid-session"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 3H19A3 3 0 0 1 22 6V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V6A3 3 0 0 1 5 3H10",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 21L11 17",
+      "closed": false
+    },
+    {
+      "d": "M9.5 9A2.5 2.5 0 1 1 12 11.5",
+      "closed": false
+    },
+    {
+      "d": "M11 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}
