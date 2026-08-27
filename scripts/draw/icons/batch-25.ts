@@ -33,7 +33,7 @@ export const BATCH_25: Icon[] = [
     // as slashes through cells rather than as the cells that matter.
     shapes: [
       rect(3, 3, 18, 18, 2), row(12, 3, 21), col(12, 3, 21),
-      disc(7, 7, 2), disc(17, 17, 2),
+      disc(7, 7, 1), disc(17, 17, 1),
     ],
   },
   {

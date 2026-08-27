@@ -123,7 +123,7 @@ export const BATCH_41: Icon[] = [
     name: "Ops dashboard", description: "Everything that matters, on one wall",
     tags: ["noc", "wall", "panels"], family: "window",
     aliases: [], keywords: ["noc wall", "operations view", "panels", "at a glance"],
-    shapes: [rect(2, 3, 20, 18, 2), row(9, 2, 22), col(12, 9, 21), poly([[5, 7], [7, 5]]), row(13, 15, 19)],
+    shapes: [rect(2, 3, 20, 18, 2), row(8, 2, 22), disc(18, 5.5, 1), poly([[5, 17], [9, 13], [12, 16], [17, 11]])],
   },
   {
     slug: "benchmark-code", category: "devtools", subcategory: "testing",

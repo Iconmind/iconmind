@@ -63,7 +63,7 @@ export const BATCH_26: Icon[] = [
     aliases: [], keywords: ["docker image", "layers", "tag", "registry", "immutable"],
     // Layers, stacked. A container is one box; an image is what it was stamped from, and a
     // stamp is legible as a stack of the same thing.
-    shapes: [rect(3, 2, 18, 5, 2.5), rect(3, 10, 18, 5, 2.5), rect(3, 18, 18, 4, 2)],
+    shapes: [rect(3, 2, 18, 5, 2.5), rect(5, 10, 14, 5, 2.5), rect(7, 18, 10, 4, 2)],
   },
   {
     slug: "downtime", category: "devops", subcategory: "incident",

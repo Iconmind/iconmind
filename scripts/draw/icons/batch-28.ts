@@ -201,7 +201,7 @@ export const BATCH_28: Icon[] = [
     name: "Class", description: "A shape other things are made from",
     tags: ["type", "object", "template"], family: "window",
     aliases: ["type"], keywords: ["object", "struct", "interface", "instance", "oop"],
-    shapes: [rect(3, 3, 18, 18, 2), row(9, 3, 21), row(15, 3, 21)],
+    shapes: [rect(3, 3, 18, 18, 2), row(8, 3, 21), row(12.5, 6, 13), row(16.5, 6, 15)],
   },
   {
     slug: "dependency", category: "devtools", subcategory: "package",

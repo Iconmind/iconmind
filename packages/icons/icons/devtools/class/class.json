@@ -26,11 +26,15 @@
       "closed": true
     },
     {
-      "d": "M3 9H21",
+      "d": "M3 8H21",
       "closed": false
     },
     {
-      "d": "M3 15H21",
+      "d": "M6 12.5H13",
+      "closed": false
+    },
+    {
+      "d": "M6 16.5H15",
       "closed": false
     }
   ]

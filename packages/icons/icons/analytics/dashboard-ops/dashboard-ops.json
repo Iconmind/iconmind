@@ -22,19 +22,15 @@
       "closed": true
     },
     {
-      "d": "M2 9H22",
+      "d": "M2 8H22",
       "closed": false
     },
     {
-      "d": "M12 9V21",
-      "closed": false
+      "d": "M17 5.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
     },
     {
-      "d": "M5 7L7 5",
-      "closed": false
-    },
-    {
-      "d": "M15 13H19",
+      "d": "M5 17L9 13L12 16L17 11",
       "closed": false
     }
   ]
