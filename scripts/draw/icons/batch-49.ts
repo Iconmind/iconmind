@@ -68,7 +68,7 @@ export const BATCH_49: Icon[] = [
     name: "Provenance chain", description: "Every hand it passed through, linked",
     tags: ["custody", "linked", "history"], family: "figure",
     aliases: [], keywords: ["chain of custody", "linked history", "c2pa"],
-    shapes: [rect(2, 9, 6, 6, 3), rect(11, 9, 6, 6, 3), disc(20, 12, 1)],
+    shapes: [rect(2, 2, 7, 7, 2), poly([[11, 11], [13, 13]]), rect(15, 15, 7, 7, 2)],
   },
   {
     slug: "regularise", category: "ai", subcategory: "training",

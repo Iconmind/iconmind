@@ -22,7 +22,7 @@
   "family": "chain",
   "shapes": [
     {
-      "d": "M2 12H8",
+      "d": "M4 20L9 15",
       "closed": false
     },
     {
@@ -30,7 +30,7 @@
       "closed": true
     },
     {
-      "d": "M16 12H22",
+      "d": "M15 9L20 4",
       "closed": false
     }
   ]

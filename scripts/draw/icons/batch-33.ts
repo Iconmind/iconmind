@@ -162,7 +162,10 @@ export const BATCH_33: Icon[] = [
     name: "Inline suggestion", description: "What it thinks you were about to type",
     tags: ["ghost", "completion", "hint"], family: "figure",
     aliases: ["ghost-text"], keywords: ["copilot", "ghost text", "autocomplete", "accept", "tab"],
-    shapes: [row(9, 3, 21), row(15, 3, 12), row(15, 15, 21)],
+    shapes: [
+      row(6, 3, 21), row(12, 3, 10),
+      row(12, 13, 15.5), row(12, 18.5, 21), row(18, 3, 8),
+    ],
   },
   {
     slug: "inpaint", category: "interface", subcategory: "media",

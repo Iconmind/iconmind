@@ -4,6 +4,6 @@ import '../data.dart';
 /// FlakyTest
 const IconMindData flakyTest = IconMindData(
   'flaky-test',
-  [N('m2 12 3 3 5 -5'), N('m14 8 7 7'), N('m21 8 -7 7')],
-  [N.halo('m2 12 3 3 5 -5'), N.halo('m14 8 7 7'), N.halo('m21 8 -7 7'), N('m2 12 3 3 5 -5'), N('m14 8 7 7'), N('m21 8 -7 7')],
+  [N('m3 7 3 3 5 -5'), N('m15 15 6 6'), N('m21 15 -6 6')],
+  [N.halo('m3 7 3 3 5 -5'), N.halo('m15 15 6 6'), N.halo('m21 15 -6 6'), N('m3 7 3 3 5 -5'), N('m15 15 6 6'), N('m21 15 -6 6')],
 );

@@ -18,20 +18,20 @@
   "family": "figure",
   "shapes": [
     {
-      "d": "M2 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "d": "M3 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
       "closed": true
     },
     {
-      "d": "M7 12H17",
+      "d": "M8 8L12 12",
       "closed": false
     },
     {
-      "d": "M18 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "d": "M15 12.5L15 15L12.5 15",
+      "closed": false
+    },
+    {
+      "d": "M17 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
       "closed": true
-    },
-    {
-      "d": "M14 9L17 12L14 15",
-      "closed": false
     }
   ]
 }

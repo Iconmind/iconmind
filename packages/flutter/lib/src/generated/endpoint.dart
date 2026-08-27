@@ -4,6 +4,6 @@ import '../data.dart';
 /// Endpoint
 const IconMindData endpoint = IconMindData(
   'endpoint',
-  [N('M3 12h13'), N('M17 12a2 2 0 1 0 4 0 2 2 0 1 0 -4 0')],
-  [N.tint('M17 12a2 2 0 1 0 4 0 2 2 0 1 0 -4 0'), N.halo('M3 12h13'), N('M3 12h13'), N('M17 12a2 2 0 1 0 4 0 2 2 0 1 0 -4 0')],
+  [N('m3 3 10 10'), N('M15 18a3 3 0 1 0 6 0 3 3 0 1 0 -6 0')],
+  [N.tint('M15 18a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('m3 3 10 10'), N('M15 18a3 3 0 1 0 6 0 3 3 0 1 0 -6 0')],
 );

@@ -22,11 +22,11 @@
   "family": "chain",
   "shapes": [
     {
-      "d": "M3 12H16",
+      "d": "M3 3L13 13",
       "closed": false
     },
     {
-      "d": "M17 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "d": "M15 18a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
       "closed": true
     }
   ]

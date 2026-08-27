@@ -186,7 +186,7 @@ export const BATCH_03: Icon[] = [
     aliases: ["run"], keywords: ["execute", "play", "invoke", "step"],
     // The solid form of `chevron-right`. Open, it points the way; closed, it is the thing
     // you press — which is the difference between a direction and a deed.
-    shapes: [poly([[9, 5], [16, 12], [9, 19]], true)],
+    shapes: [poly([[8, 3], [17, 12], [8, 21]], true)],
   },
 
   /* ── Analytics ────────────────────────────────────────────────────────────────── */

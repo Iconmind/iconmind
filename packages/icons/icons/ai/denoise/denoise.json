@@ -19,19 +19,15 @@
   "family": "arrow",
   "shapes": [
     {
-      "d": "M2 15L5 12L8 15L11 12",
+      "d": "M3 6L7 2L11 6L15 2L19 6",
       "closed": false
     },
     {
-      "d": "M13 12H16",
+      "d": "M9 11L12 14L15 11",
       "closed": false
     },
     {
-      "d": "M15 10L17 12L15 14",
-      "closed": false
-    },
-    {
-      "d": "M18 12H22",
+      "d": "M4 20H20",
       "closed": false
     }
   ]

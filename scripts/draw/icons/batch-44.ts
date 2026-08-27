@@ -57,7 +57,7 @@ export const BATCH_44: Icon[] = [
     name: "Usage quota", description: "This much used, that much allowed",
     tags: ["meter", "cap", "remaining"], family: "meter",
     aliases: [], keywords: ["used of allowed", "quota bar", "remaining", "cap"],
-    shapes: [rect(2, 9, 20, 6, 3), row(12, 5, 12), col(15.5, 10.5, 13.5)],
+    shapes: [row(4, 3, 21), rect(5, 9, 14, 11, 2), row(15, 8, 16)],
   },
   {
     slug: "spend", category: "analytics", subcategory: "metric",

@@ -166,7 +166,12 @@ export const BATCH_42: Icon[] = [
     name: "End to end", description: "From the first thing to the last",
     tags: ["whole", "through", "complete"], family: "figure",
     aliases: [], keywords: ["whole journey", "start to finish", "full path", "through"],
-    shapes: [disc(4, 12, 2), row(12, 7, 17), disc(20, 12, 2), poly([[14, 9], [17, 12], [14, 15]])],
+    // The whole journey, corner to corner: out of one node, down the diagonal, arrowhead
+    // into the other. Flat on the equator it read as a stripe, not a journey.
+    shapes: [
+      disc(5, 5, 2), poly([[8, 8], [12, 12]]),
+      poly([[15, 12.5], [15, 15], [12.5, 15]]), disc(19, 19, 2),
+    ],
   },
 
   /* ── Keeping the record straight ──────────────────────────────────────────────── */

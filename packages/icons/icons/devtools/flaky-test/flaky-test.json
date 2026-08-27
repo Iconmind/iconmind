@@ -18,15 +18,15 @@
   "family": "mark",
   "shapes": [
     {
-      "d": "M2 12L5 15L10 10",
+      "d": "M3 7L6 10L11 5",
       "closed": false
     },
     {
-      "d": "M14 8L21 15",
+      "d": "M15 15L21 21",
       "closed": false
     },
     {
-      "d": "M21 8L14 15",
+      "d": "M21 15L15 21",
       "closed": false
     }
   ]

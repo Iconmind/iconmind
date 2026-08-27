@@ -4,6 +4,6 @@ import '../data.dart';
 /// Action
 const IconMindData action = IconMindData(
   'action',
-  [N('m9 5 7 7 -7 7Z')],
-  [N.tint('m9 5 7 7 -7 7Z'), N('m9 5 7 7 -7 7Z')],
+  [N('m8 3 9 9 -9 9Z')],
+  [N.tint('m8 3 9 9 -9 9Z'), N('m8 3 9 9 -9 9Z')],
 );

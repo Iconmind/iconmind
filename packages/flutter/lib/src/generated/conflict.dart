@@ -4,6 +4,6 @@ import '../data.dart';
 /// Conflict
 const IconMindData conflict = IconMindData(
   'conflict',
-  [N('M3 12h7'), N('m8 9 3 3 -3 3'), N('M14 12h7'), N('m16 9 -3 3 3 3')],
-  [N.halo('M3 12h7'), N.halo('m8 9 3 3 -3 3'), N.halo('M14 12h7'), N.halo('m16 9 -3 3 3 3'), N('M3 12h7'), N('m8 9 3 3 -3 3'), N('M14 12h7'), N('m16 9 -3 3 3 3')],
+  [N('m3 3 5 5'), N('M10.5 7v3.5H7'), N('m21 21 -5 -5'), N('M13.5 17v-3.5H17')],
+  [N.halo('m3 3 5 5'), N.halo('M10.5 7v3.5H7'), N.halo('m21 21 -5 -5'), N.halo('M13.5 17v-3.5H17'), N('m3 3 5 5'), N('M10.5 7v3.5H7'), N('m21 21 -5 -5'), N('M13.5 17v-3.5H17')],
 );

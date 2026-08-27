@@ -19,19 +19,19 @@
   "family": "rails",
   "shapes": [
     {
-      "d": "M2 12H6",
+      "d": "M2.5 2.5L5 5",
       "closed": false
     },
     {
-      "d": "M8 12H12",
+      "d": "M7.5 7.5L10 10",
       "closed": false
     },
     {
-      "d": "M14 12H18",
+      "d": "M12.5 12.5L15 15",
       "closed": false
     },
     {
-      "d": "M19 9L22 12L19 15",
+      "d": "M20.5 17L20.5 20.5L17 20.5",
       "closed": false
     }
   ]

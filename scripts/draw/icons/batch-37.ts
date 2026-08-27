@@ -215,6 +215,9 @@ export const BATCH_37: Icon[] = [
     name: "Sparkline", description: "The shape of it, small enough to sit in a line",
     tags: ["inline", "trend", "tiny"], family: "chart",
     aliases: [], keywords: ["inline chart", "trend", "micro chart", "in a table", "tiny"],
-    shapes: [poly([[3, 15], [7, 11], [10, 14], [14, 10], [17, 13], [21, 9]])],
+    shapes: [
+      poly([[3, 8], [3, 3], [8, 3]]), poly([[16, 21], [21, 21], [21, 16]]),
+      poly([[5, 16], [9, 12], [12, 15], [16, 11], [19, 14]]),
+    ],
   },
 ];

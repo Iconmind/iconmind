@@ -45,9 +45,11 @@ export const BATCH_22: Icon[] = [
     aliases: [], keywords: ["kafka", "append-only", "topic", "cdc", "events"],
     // A broken line, not a solid one. `stream`'s three offset runs are a flow; a dashed
     // line is a series of separate things, which is what an event stream is.
+    // Dashes falling down the diagonal into an arrowhead: the same append-only flow,
+    // no longer a 20×6 stripe.
     shapes: [
-      row(12, 2, 6), row(12, 8, 12), row(12, 14, 18),
-      poly([[19, 9], [22, 12], [19, 15]]),
+      poly([[2.5, 2.5], [5, 5]]), poly([[7.5, 7.5], [10, 10]]), poly([[12.5, 12.5], [15, 15]]),
+      poly([[20.5, 17], [20.5, 20.5], [17, 20.5]]),
     ],
   },
   {
@@ -86,8 +88,8 @@ export const BATCH_22: Icon[] = [
     // Two of one shape and one of another. Which one is different matters less than that
     // exactly one of them is.
     shapes: [
-      disc(5, 12, 2), disc(12, 12, 2),
-      poly([[19, 9], [22, 12], [19, 15], [16, 12]], true),
+      disc(5, 5, 2), disc(12, 12, 2),
+      poly([[18.5, 15.5], [21.5, 18.5], [18.5, 21.5], [15.5, 18.5]], true),
     ],
   },
   {

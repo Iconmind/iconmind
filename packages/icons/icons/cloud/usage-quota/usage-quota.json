@@ -18,15 +18,15 @@
   "family": "meter",
   "shapes": [
     {
-      "d": "M2 12A3 3 0 0 1 5 9H19A3 3 0 0 1 22 12V12A3 3 0 0 1 19 15H5A3 3 0 0 1 2 12Z",
-      "closed": true
-    },
-    {
-      "d": "M5 12H12",
+      "d": "M3 4H21",
       "closed": false
     },
     {
-      "d": "M15.5 10.5V13.5",
+      "d": "M5 11A2 2 0 0 1 7 9H17A2 2 0 0 1 19 11V18A2 2 0 0 1 17 20H7A2 2 0 0 1 5 18Z",
+      "closed": true
+    },
+    {
+      "d": "M8 15H16",
       "closed": false
     }
   ]

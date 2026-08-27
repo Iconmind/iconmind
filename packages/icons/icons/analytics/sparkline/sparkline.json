@@ -19,7 +19,15 @@
   "family": "chart",
   "shapes": [
     {
-      "d": "M3 15L7 11L10 14L14 10L17 13L21 9",
+      "d": "M3 8L3 3L8 3",
+      "closed": false
+    },
+    {
+      "d": "M16 21L21 21L21 16",
+      "closed": false
+    },
+    {
+      "d": "M5 16L9 12L12 15L16 11L19 14",
       "closed": false
     }
   ]

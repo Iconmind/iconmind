@@ -11,7 +11,7 @@
  * body to make room; here the body is untouched and the badge takes the space the figure
  * does not use.
  */
-import { arc, col, disc, poly, row } from "../forms.ts";
+import { arc, col, disc, frame, poly, rect, row } from "../forms.ts";
 import { bookmark, core, shield } from "../bodies.ts";
 import { SMALL, check, off } from "../marks.ts";
 import type { Icon } from "../build.ts";
@@ -123,11 +123,12 @@ export const BATCH_12: Icon[] = [
     name: "Zero-shot", description: "No examples at all",
     tags: ["none", "cold", "prompt"], family: "rails",
     aliases: [], keywords: ["no examples", "cold start", "instruction only", "direct"],
-    // The same arrow as `few-shot` with the examples struck out. The pair only works if the
-    // arrow is identical in both, which is why it is written at the same coordinates.
+    // A literal zero where `few-shot` has its three examples, and the identical arrow —
+    // the pair reads as a pair. The old struck-out cross was a 7-unit mark that left the
+    // icon a flat stripe, and an X beside an arrow read as "wrong", not "none".
     shapes: [
-      poly([[3, 8], [10, 15]]), poly([[10, 8], [3, 15]]),
-      row(12, 13, 21), poly([[18, 9], [21, 12], [18, 15]]),
+      rect(3, 7, 6, 10, 3),
+      row(12, 14, 19), poly([[16, 9], [19, 12], [16, 15]]),
     ],
   },
 

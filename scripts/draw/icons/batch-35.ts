@@ -59,7 +59,9 @@ export const BATCH_35: Icon[] = [
     // A tight cluster of dots cannot be drawn: a painted r=1 disc is four units across, so
     // three of them close enough to read as *tight* merge into one blob. Two marks on a rule
     // say the same thing and survive bold.
-    shapes: [row(14, 2, 22), col(10, 8, 14), col(14, 8, 14)],
+    shapes: [
+      rect(6, 2, 12, 20, 2), row(6, 6, 11), row(10, 6, 13.5), row(14, 6, 11), row(18, 6, 13.5),
+    ],
   },
   {
     slug: "objective", category: "agents", subcategory: "planning",
@@ -152,7 +154,9 @@ export const BATCH_35: Icon[] = [
     name: "Peering", description: "Two networks joined straight to each other",
     tags: ["direct", "vpc", "link"], family: "figure",
     aliases: [], keywords: ["vpc peering", "direct connect", "private link", "cross network"],
-    shapes: [disc(6, 12, 3), disc(18, 12, 3), row(12, 9, 15)],
+    // Two networks joined directly, drawn on the diagonal so the pair stands as tall as
+    // its neighbours.
+    shapes: [disc(5.5, 5.5, 3), poly([[9.5, 9.5], [14.5, 14.5]]), disc(18.5, 18.5, 3)],
   },
   {
     slug: "parser", category: "data", subcategory: "transform",

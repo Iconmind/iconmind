@@ -73,7 +73,11 @@ export const BATCH_02: Icon[] = [
     // The whole above, the pieces below. Cuts drawn *through* the run made a hash — two
     // verticals crossing a horizontal is that character and nothing else. Showing the
     // before and the after says what the cutting was for.
-    shapes: [row(9, 3, 21), row(15, 3, 9), row(15, 11, 15), row(15, 17, 21)],
+    shapes: [
+      row(5, 3, 21),
+      row(12, 3, 9), row(12, 12, 21),
+      row(19, 3, 13), row(19, 16, 21),
+    ],
   },
 
   {

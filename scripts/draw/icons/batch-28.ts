@@ -36,7 +36,7 @@ export const BATCH_28: Icon[] = [
     name: "Environment variable", description: "A value the process is handed",
     tags: ["config", "secret", "setting"], family: "capsule",
     aliases: ["env-var"], keywords: ["dotenv", "process.env", "config value", "export"],
-    shapes: [rect(2, 9, 9, 6, 3), row(12, 12, 15), rect(16, 9, 6, 6, 3)],
+    shapes: [rect(3, 3, 18, 18, 2), row(10.5, 8, 16), row(13.5, 8, 16)],
   },
   {
     slug: "hotfix", category: "devops", subcategory: "release",

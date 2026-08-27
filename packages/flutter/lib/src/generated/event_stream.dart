@@ -4,6 +4,6 @@ import '../data.dart';
 /// EventStream
 const IconMindData eventStream = IconMindData(
   'event-stream',
-  [N('M2 12h4'), N('M8 12h4'), N('M14 12h4'), N('m19 9 3 3 -3 3')],
-  [N.halo('M2 12h4'), N.halo('M8 12h4'), N.halo('M14 12h4'), N.halo('m19 9 3 3 -3 3'), N('M2 12h4'), N('M8 12h4'), N('M14 12h4'), N('m19 9 3 3 -3 3')],
+  [N('M2.5 2.5 5 5'), N('M7.5 7.5 10 10'), N('M12.5 12.5 15 15'), N('M20.5 17v3.5H17')],
+  [N.halo('M2.5 2.5 5 5'), N.halo('M7.5 7.5 10 10'), N.halo('M12.5 12.5 15 15'), N.halo('M20.5 17v3.5H17'), N('M2.5 2.5 5 5'), N('M7.5 7.5 10 10'), N('M12.5 12.5 15 15'), N('M20.5 17v3.5H17')],
 );

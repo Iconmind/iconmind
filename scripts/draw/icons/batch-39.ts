@@ -5,7 +5,7 @@
  * held to, and the page that says what happens if it is not. The `trigger-*` four share one
  * grammar — the thing that fires on the left, the arrow it fires on the right.
  */
-import { arc, col, disc, poly, rect, row } from "../forms.ts";
+import { arc, col, disc, frame, poly, rect, row } from "../forms.ts";
 import { machine, page } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
@@ -176,7 +176,7 @@ export const BATCH_39: Icon[] = [
     name: "Usage", description: "How much of it is being used",
     tags: ["consumption", "meter", "load"], family: "meter",
     aliases: ["consumption"], keywords: ["consumption", "utilisation", "how much", "load", "meter"],
-    shapes: [rect(2, 9, 20, 6, 3), disc(6, 12, 1), disc(10, 12, 1), disc(14, 12, 1)],
+    shapes: [frame(3, 3, 18, 18, 3, { gap: 0 }), row(13, 5.5, 18.5), row(16.5, 5.5, 18.5)],
   },
 
   /* ── Words made structure ─────────────────────────────────────────────────────── */

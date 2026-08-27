@@ -18,15 +18,23 @@
   "family": "orbit",
   "shapes": [
     {
-      "d": "M2 14H22",
+      "d": "M6 4A2 2 0 0 1 8 2H16A2 2 0 0 1 18 4V20A2 2 0 0 1 16 22H8A2 2 0 0 1 6 20Z",
+      "closed": true
+    },
+    {
+      "d": "M6 6H11",
       "closed": false
     },
     {
-      "d": "M10 8V14",
+      "d": "M6 10H13.5",
       "closed": false
     },
     {
-      "d": "M14 8V14",
+      "d": "M6 14H11",
+      "closed": false
+    },
+    {
+      "d": "M6 18H13.5",
       "closed": false
     }
   ]

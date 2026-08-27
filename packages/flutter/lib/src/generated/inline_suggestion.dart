@@ -4,6 +4,6 @@ import '../data.dart';
 /// InlineSuggestion
 const IconMindData inlineSuggestion = IconMindData(
   'inline-suggestion',
-  [N('M3 9h18'), N('M3 15h9'), N('M15 15h6')],
-  [N.halo('M3 9h18'), N.halo('M3 15h9'), N.halo('M15 15h6'), N('M3 9h18'), N('M3 15h9'), N('M15 15h6')],
+  [N('M3 6h18'), N('M3 12h7'), N('M13 12h2.5'), N('M18.5 12H21'), N('M3 18h5')],
+  [N.halo('M3 6h18'), N.halo('M3 12h7'), N.halo('M13 12h2.5'), N.halo('M18.5 12H21'), N.halo('M3 18h5'), N('M3 6h18'), N('M3 12h7'), N('M13 12h2.5'), N('M18.5 12H21'), N('M3 18h5')],
 );

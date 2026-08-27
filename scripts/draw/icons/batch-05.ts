@@ -119,7 +119,12 @@ export const BATCH_05: Icon[] = [
     aliases: [], keywords: ["stdio", "sse", "session", "handshake", "transport"],
     // The wire is broken in the middle, because a connection is the thing that can be
     // absent. An unbroken line is a pipe; a broken one is something being held open.
-    shapes: [disc(5, 12, 2), row(12, 8.5, 11), row(12, 13, 15.5), disc(19, 12, 2)],
+    // The dashed session runs down the diagonal — same two ends, same broken line, but
+    // the icon fills its frame instead of being a 20×4 stripe.
+    shapes: [
+      disc(5, 5, 2), poly([[8.5, 8.5], [10.5, 10.5]]),
+      poly([[13.5, 13.5], [15.5, 15.5]]), disc(19, 19, 2),
+    ],
   },
 
   /* ── Finding and keeping ──────────────────────────────────────────────────────── */

@@ -4,6 +4,6 @@ import '../data.dart';
 /// Sparkline
 const IconMindData sparkline = IconMindData(
   'sparkline',
-  [N('m3 15 4 -4 3 3 4 -4 3 3 4 -4')],
-  [N.halo('m3 15 4 -4 3 3 4 -4 3 3 4 -4'), N('m3 15 4 -4 3 3 4 -4 3 3 4 -4')],
+  [N('M3 8V3h5'), N('M16 21h5v-5'), N('m5 16 4 -4 3 3 4 -4 3 3')],
+  [N.halo('M3 8V3h5'), N.halo('M16 21h5v-5'), N.halo('m5 16 4 -4 3 3 4 -4 3 3'), N('M3 8V3h5'), N('M16 21h5v-5'), N('m5 16 4 -4 3 3 4 -4 3 3')],
 );

@@ -191,7 +191,12 @@ export const BATCH_43: Icon[] = [
     name: "Sequence", description: "This, then that, then the next",
     tags: ["order", "series", "steps"], family: "figure",
     aliases: [], keywords: ["in order", "one after another", "series", "steps"],
-    shapes: [disc(4, 12, 2), row(12, 7, 10), disc(12, 12, 2), row(12, 15, 18), disc(20, 12, 2)],
+    // Three nodes down the diagonal instead of across the equator: the same chain, but
+    // the icon stands as tall as its neighbours instead of being a 22×4 stripe.
+    shapes: [
+      disc(5, 5, 2), poly([[7.5, 7.5], [9.5, 9.5]]), disc(12, 12, 2),
+      poly([[14.5, 14.5], [16.5, 16.5]]), disc(19, 19, 2),
+    ],
   },
   {
     slug: "state", category: "agents", subcategory: "memory",

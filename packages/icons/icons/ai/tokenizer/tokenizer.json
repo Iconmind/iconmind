@@ -18,19 +18,23 @@
   "family": "rails",
   "shapes": [
     {
-      "d": "M3 9H21",
+      "d": "M3 5H21",
       "closed": false
     },
     {
-      "d": "M3 15H9",
+      "d": "M3 12H9",
       "closed": false
     },
     {
-      "d": "M11 15H15",
+      "d": "M12 12H21",
       "closed": false
     },
     {
-      "d": "M17 15H21",
+      "d": "M3 19H13",
+      "closed": false
+    },
+    {
+      "d": "M16 19H21",
       "closed": false
     }
   ]

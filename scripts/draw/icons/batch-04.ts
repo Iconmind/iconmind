@@ -168,7 +168,8 @@ export const BATCH_04: Icon[] = [
     // the set's angles. Horizontal, the teeth would have to be vertical stubs of about two
     // units, which vanish at the bold weight.
     shapes: [
-      disc(12, 6, 3.5), col(12, 9.5, 20), row(17, 12, 15.5), row(20, 12, 14.5),
+      disc(6.5, 17.5, 3.5), poly([[9.5, 14.5], [18, 6]]),
+      poly([[14, 10], [16.5, 12.5]]), poly([[17.5, 6.5], [20, 9]]),
     ],
   },
 

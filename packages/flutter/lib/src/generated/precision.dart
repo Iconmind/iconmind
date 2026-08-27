@@ -4,6 +4,6 @@ import '../data.dart';
 /// Precision
 const IconMindData precision = IconMindData(
   'precision',
-  [N('M2 14h20'), N('M10 8v6'), N('M14 8v6')],
-  [N.halo('M2 14h20'), N.halo('M10 8v6'), N.halo('M14 8v6'), N('M2 14h20'), N('M10 8v6'), N('M14 8v6')],
+  [N('M6 4a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H8a2 2 0 0 1 -2 -2Z'), N('M6 6h5'), N('M6 10h7.5'), N('M6 14h5'), N('M6 18h7.5')],
+  [N.tint('M6 4a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H8a2 2 0 0 1 -2 -2Z'), N('M6 4a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H8a2 2 0 0 1 -2 -2Z'), N('M6 6h5'), N('M6 10h7.5'), N('M6 14h5'), N('M6 18h7.5')],
 );

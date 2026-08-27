@@ -18,19 +18,19 @@
   "family": "arrow",
   "shapes": [
     {
-      "d": "M3 12H10",
+      "d": "M3 3L8 8",
       "closed": false
     },
     {
-      "d": "M8 9L11 12L8 15",
+      "d": "M10.5 7L10.5 10.5L7 10.5",
       "closed": false
     },
     {
-      "d": "M14 12H21",
+      "d": "M21 21L16 16",
       "closed": false
     },
     {
-      "d": "M16 9L13 12L16 15",
+      "d": "M13.5 17L13.5 13.5L17 13.5",
       "closed": false
     }
   ]

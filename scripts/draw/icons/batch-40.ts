@@ -107,8 +107,8 @@ export const BATCH_40: Icon[] = [
     tags: ["assign", "down", "give"], family: "figure",
     aliases: ["assign"], keywords: ["assign", "give work", "farm out", "to a subagent"],
     shapes: [
-      disc(12, 6, 3), col(12, 11, 15),
-      poly([[9, 14], [12, 17], [15, 14]]), disc(12, 20, 2),
+      disc(5.5, 5.5, 3), poly([[9.5, 9.5], [12, 12]]),
+      poly([[14.5, 11.5], [14.5, 14.5], [11.5, 14.5]]), disc(19, 19, 2),
     ],
   },
 

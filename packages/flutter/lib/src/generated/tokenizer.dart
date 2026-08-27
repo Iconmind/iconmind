@@ -4,6 +4,6 @@ import '../data.dart';
 /// Tokenizer
 const IconMindData tokenizer = IconMindData(
   'tokenizer',
-  [N('M3 9h18'), N('M3 15h6'), N('M11 15h4'), N('M17 15h4')],
-  [N.halo('M3 9h18'), N.halo('M3 15h6'), N.halo('M11 15h4'), N.halo('M17 15h4'), N('M3 9h18'), N('M3 15h6'), N('M11 15h4'), N('M17 15h4')],
+  [N('M3 5h18'), N('M3 12h6'), N('M12 12h9'), N('M3 19h10'), N('M16 19h5')],
+  [N.halo('M3 5h18'), N.halo('M3 12h6'), N.halo('M12 12h9'), N.halo('M3 19h10'), N.halo('M16 19h5'), N('M3 5h18'), N('M3 12h6'), N('M12 12h9'), N('M3 19h10'), N('M16 19h5')],
 );

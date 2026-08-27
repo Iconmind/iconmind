@@ -157,9 +157,11 @@ export const BATCH_23: Icon[] = [
     name: "Conflict", description: "Two changes that cannot both apply",
     tags: ["clash", "collision", "merge"], family: "arrow",
     aliases: [], keywords: ["merge conflict", "clash", "both changed", "resolve"],
+    // Two arrows meeting head-on across the diagonal, point-symmetric about the centre.
+    // Head-on across the equator they made a 18×6 stripe.
     shapes: [
-      row(12, 3, 10), poly([[8, 9], [11, 12], [8, 15]]),
-      row(12, 14, 21), poly([[16, 9], [13, 12], [16, 15]]),
+      poly([[3, 3], [8, 8]]), poly([[10.5, 7], [10.5, 10.5], [7, 10.5]]),
+      poly([[21, 21], [16, 16]]), poly([[13.5, 17], [13.5, 13.5], [17, 13.5]]),
     ],
   },
   {
@@ -170,8 +172,8 @@ export const BATCH_23: Icon[] = [
     // A tick and a cross side by side, at the same size, so neither is the answer. Every
     // other icon in the set uses one or the other; this is the only one that needs both.
     shapes: [
-      poly([[2, 12], [5, 15], [10, 10]]),
-      poly([[14, 8], [21, 15]]), poly([[21, 8], [14, 15]]),
+      poly([[3, 7], [6, 10], [11, 5]]),
+      poly([[15, 15], [21, 21]]), poly([[21, 15], [15, 21]]),
     ],
   },
   {
@@ -186,7 +188,9 @@ export const BATCH_23: Icon[] = [
     name: "Endpoint", description: "One address something answers on",
     tags: ["route", "url", "address"], family: "chain",
     aliases: ["route"], keywords: ["url", "path", "route", "handler", "rest"],
-    shapes: [row(12, 3, 16), disc(19, 12, 2)],
+    // The route travels the diagonal and terminates in the node, so the drawing spans
+    // both axes instead of lying flat on one.
+    shapes: [poly([[3, 3], [13, 13]]), disc(18, 18, 3)],
   },
   {
     slug: "memory-leak", category: "devtools", subcategory: "debug",

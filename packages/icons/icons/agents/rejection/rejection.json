@@ -19,19 +19,19 @@
   "family": "chain",
   "shapes": [
     {
-      "d": "M2.5 12a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
+      "d": "M2 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
       "closed": true
     },
     {
-      "d": "M12 12H15",
+      "d": "M9.5 9.5L12 12",
       "closed": false
     },
     {
-      "d": "M16 10L21 15",
+      "d": "M15 15L20 20",
       "closed": false
     },
     {
-      "d": "M21 10L16 15",
+      "d": "M20 15L15 20",
       "closed": false
     }
   ]

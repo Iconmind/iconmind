@@ -63,7 +63,10 @@ export const BATCH_46: Icon[] = [
     name: "CI pipeline", description: "Build, test, ship, in that order",
     tags: ["stages", "sequence", "build"], family: "figure",
     aliases: ["ci-cd"], keywords: ["build test deploy", "stages", "ci cd line"],
-    shapes: [rect(2, 9.5, 5, 5, 2.5), rect(9.5, 9.5, 5, 5, 2.5), rect(17, 9.5, 5, 5, 2.5), row(17, 4, 20)],
+    shapes: [
+      rect(2, 2, 5, 5, 2.5), rect(9.5, 2, 5, 5, 2.5), rect(17, 2, 5, 5, 2.5),
+      col(19.5, 10, 14), rect(17, 17, 5, 5, 2.5),
+    ],
   },
   {
     slug: "transform-step", category: "automation", subcategory: "action",

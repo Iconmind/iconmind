@@ -18,7 +18,7 @@ export const BATCH_20: Icon[] = [
     name: "Evaluate step", description: "Check whether that step worked",
     tags: ["verify", "assess", "judge"], family: "chain",
     aliases: ["verify-step"], keywords: ["verify", "assert", "judge", "gate", "validate"],
-    shapes: [disc(6, 12, 3.5), row(12, 12, 16), poly([[16, 12], [18, 14], [22, 10]])],
+    shapes: [disc(5, 5, 3), poly([[9.5, 9.5], [12.5, 12.5]]), poly([[13, 17], [15.5, 19.5], [20, 15]])],
   },
   {
     slug: "rejection", category: "agents", subcategory: "reflection",
@@ -28,8 +28,8 @@ export const BATCH_20: Icon[] = [
     // The same node and the same run as `evaluate-step`, ending the other way. The two only
     // read as opposites because everything except the last mark is identical.
     shapes: [
-      disc(6, 12, 3.5), row(12, 12, 15),
-      poly([[16, 10], [21, 15]]), poly([[21, 10], [16, 15]]),
+      disc(5, 5, 3), poly([[9.5, 9.5], [12, 12]]),
+      poly([[15, 15], [20, 20]]), poly([[20, 15], [15, 20]]),
     ],
   },
 
@@ -40,10 +40,12 @@ export const BATCH_20: Icon[] = [
     name: "Denoise", description: "Take the noise out",
     tags: ["clean", "smooth", "filter"], family: "arrow",
     aliases: [], keywords: ["clean up", "smooth", "restore", "upscale", "artifacts"],
+    // Before above, after below: the noisy zigzag on top, a chevron pressing down, and
+    // the clean flat line at the bottom. The left-to-right version was a 22×7 stripe.
     shapes: [
-      poly([[2, 15], [5, 12], [8, 15], [11, 12]]),
-      row(12, 13, 16), poly([[15, 10], [17, 12], [15, 14]]),
-      row(12, 18, 22),
+      poly([[3, 6], [7, 2], [11, 6], [15, 2], [19, 6]]),
+      poly([[9, 11], [12, 14], [15, 11]]),
+      row(20, 4, 20),
     ],
   },
   {
@@ -105,7 +107,7 @@ export const BATCH_20: Icon[] = [
     // A capsule with a line across it: how much of the allowance is gone. Drawn as bars on
     // an axis under a pill it came out a Greek temple — a wide flat top on columns is a
     // portico before it is anything else.
-    shapes: [rect(3, 9, 18, 6, 3), col(13, 9, 15)],
+    shapes: [rect(2, 4, 20, 6, 3), rect(2, 14, 12, 6, 3)],
   },
 
   /* ── Talking ──────────────────────────────────────────────────────────────────── */

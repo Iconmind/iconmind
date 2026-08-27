@@ -59,7 +59,9 @@ export const BATCH_14: Icon[] = [
     name: "Action step", description: "One thing the agent actually does",
     tags: ["step", "act", "invoke"], family: "chain",
     aliases: [], keywords: ["step", "act", "invoke", "call", "operation"],
-    shapes: [disc(6, 12, 3.5), row(12, 12, 21), poly([[18, 9], [21, 12], [18, 15]])],
+    // The step leaves its node down the diagonal. `evaluate-step` and `rejection` are the
+    // same node and flow with a different verb at the end — the family stays aligned.
+    shapes: [disc(5, 5, 3), poly([[9.5, 9.5], [16, 16]]), poly([[20, 16.5], [20, 20], [16.5, 20]])],
   },
   {
     slug: "tool-registry", category: "agents", subcategory: "tool-use",

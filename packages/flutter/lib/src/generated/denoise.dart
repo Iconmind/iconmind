@@ -4,6 +4,6 @@ import '../data.dart';
 /// Denoise
 const IconMindData denoise = IconMindData(
   'denoise',
-  [N('m2 15 3 -3 3 3 3 -3'), N('M13 12h3'), N('m15 10 2 2 -2 2'), N('M18 12h4')],
-  [N.halo('m2 15 3 -3 3 3 3 -3'), N.halo('M13 12h3'), N.halo('m15 10 2 2 -2 2'), N.halo('M18 12h4'), N('m2 15 3 -3 3 3 3 -3'), N('M13 12h3'), N('m15 10 2 2 -2 2'), N('M18 12h4')],
+  [N('m3 6 4 -4 4 4 4 -4 4 4'), N('m9 11 3 3 3 -3'), N('M4 20h16')],
+  [N.halo('m3 6 4 -4 4 4 4 -4 4 4'), N.halo('m9 11 3 3 3 -3'), N.halo('M4 20h16'), N('m3 6 4 -4 4 4 4 -4 4 4'), N('m9 11 3 3 3 -3'), N('M4 20h16')],
 );

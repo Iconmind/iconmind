@@ -121,7 +121,9 @@ export const BATCH_08: Icon[] = [
     name: "Commit", description: "One change, recorded",
     tags: ["change", "snapshot", "sha"], family: "chain",
     aliases: ["commit"], keywords: ["sha", "revision", "checkin", "history", "git"],
-    shapes: [row(12, 2, 8), disc(12, 12, 3.5), row(12, 16, 22)],
+    // The commit ring sits on a branch line that runs the diagonal — the same glyph,
+    // no longer a 20×7 stripe on the equator.
+    shapes: [poly([[4, 20], [9, 15]]), disc(12, 12, 3.5), poly([[15, 9], [20, 4]])],
   },
 
   {

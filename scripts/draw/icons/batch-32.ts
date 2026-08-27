@@ -51,7 +51,7 @@ export const BATCH_32: Icon[] = [
     name: "Confidence", description: "How sure the model is",
     tags: ["certainty", "score", "sure"], family: "meter",
     aliases: ["certainty"], keywords: ["probability", "certainty", "logprob", "score", "sure"],
-    shapes: [disc(5, 12, 2), disc(12, 12, 2), disc(19, 12, 3)],
+    shapes: [disc(5, 19, 2), disc(12, 12, 2), disc(19, 5, 3)],
   },
   {
     slug: "counter", category: "analytics", subcategory: "metric",
@@ -72,7 +72,11 @@ export const BATCH_32: Icon[] = [
     name: "Conversion", description: "One thing became another",
     tags: ["became", "turned", "rate"], family: "figure",
     aliases: [], keywords: ["converted", "signup rate", "became", "funnel end", "turned into"],
-    shapes: [disc(5, 12, 3), row(12, 9, 15), poly([[12, 9], [15, 12], [12, 15]]), disc(19, 12, 3)],
+    shapes: [
+      disc(6, 6, 3), poly([[10, 10], [12, 12]]),
+      poly([[14.5, 11.5], [14.5, 14.5], [11.5, 14.5]]),
+      poly([[18.5, 15], [22, 18.5], [18.5, 22], [15, 18.5]], true),
+    ],
   },
   {
     slug: "cosine", category: "rag", subcategory: "vector",

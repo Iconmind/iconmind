@@ -16,7 +16,7 @@
  * returns, so an icon that cannot be drawn legally stops the run instead of reaching disk
  * in a state somebody has to notice later.
  */
-import { arc, body, col, disc, openDisc, poly, rect, row } from "../forms.ts";
+import { arc, body, col, disc, frame, openDisc, poly, rect, row } from "../forms.ts";
 import {
   bookmark, core, folder, lattice, machine, machineInset, machineWide, page, panel, pill,
   ring, tray, window_,
@@ -146,7 +146,7 @@ export const BATCH_01: Icon[] = [
     // A capsule that will not close: a token is a fragment of something longer, and the
     // gap says so without a second element. Wider and with a smaller share of its top edge
     // missing than the first version, which took half the top away and read as a letter C.
-    shapes: [pill()],
+    shapes: [frame(2, 4, 13, 6, 3, { gap: 0 }), frame(9, 14, 13, 6, 3, { gap: 0 })],
   },
 
   {
