@@ -1,5 +1,11 @@
 # @iconmind/icons
 
+## 0.3.2
+
+### Patch Changes
+
+- chore(flutter): 0.3.2, aligned with the release this push cuts
+
 ## 0.3.1
 
 ### Patch Changes

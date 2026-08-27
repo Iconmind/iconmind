@@ -1,6 +1,6 @@
 {
   "name": "@iconmind/vue",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Vue 3 components for IconMind — 1,041 tree-shakeable icons for AI-era software (LLMs, agents, MCP, RAG).",
   "keywords": [
     "icons",
