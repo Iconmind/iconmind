@@ -18,7 +18,7 @@ import { describe, expect, it } from "vitest";
 const DIST = new URL("../dist/index.js", import.meta.url).pathname;
 
 const LIMITS: Array<{ name: string; limit: string }> = JSON.parse(
-  readFileSync(new URL("../../../.size-limit.json", import.meta.url), "utf8"),
+  readFileSync(new URL("../../../.size-limit.json", import.meta.url).pathname, "utf8"),
 );
 const budget = (name: string) => {
   const row = LIMITS.find((l) => l.name === name);

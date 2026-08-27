@@ -3,7 +3,7 @@
     "description": "Blade components for IconMind — 1,008 icons for AI-era software (LLMs, agents, MCP, RAG).",
     "keywords": ["laravel", "blade", "icons", "svg", "ai", "llm", "agents", "mcp", "rag", "iconmind"],
     "license": "MIT",
-    "homepage": "https://iconmind.dev",
+    "homepage": "https://iconmind.vercel.app",
     "support": { "issues": "https://github.com/Iconmind/iconmind/issues" },
     "require": {
         "php": "^8.1",

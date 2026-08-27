@@ -48,6 +48,6 @@
     "mcp-server",
     "model-context-protocol"
   ],
-  "homepage": "https://iconmind.dev",
+  "homepage": "https://iconmind.vercel.app",
   "bugs": "https://github.com/Iconmind/iconmind/issues"
 }

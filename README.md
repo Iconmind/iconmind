@@ -13,15 +13,22 @@
 </p>
 
 <p align="center">
+  <a href="https://iconmind.vercel.app"><b>Website</b></a> ·
+  <a href="https://iconmind.vercel.app/icons/"><b>Browse all icons</b></a> ·
+  <a href="https://iconmind.vercel.app/docs/installation/"><b>Docs</b></a> ·
+  <a href="https://iconmind.vercel.app/docs/mcp/"><b>MCP server</b></a>
+</p>
+
+<p align="center">
   <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-blue"></a>
-  <img alt="icons" src="https://img.shields.io/badge/icons-1008-black">
-  <img alt="cells" src="https://img.shields.io/badge/SVGs-6048-black">
+  <img alt="icons" src="https://img.shields.io/badge/icons-1041-black">
+  <img alt="cells" src="https://img.shields.io/badge/SVGs-6246-black">
   <a href="https://www.npmjs.com/package/@iconmind/react"><img alt="npm" src="https://img.shields.io/npm/v/%40iconmind%2Freact?label=npm&color=blue"></a>
 </p>
 
 ---
 
-> **Live on npm.** All 1,008 icons — six cells each (outline & duotone ×
+> **Live on npm.** All 1,041 icons — six cells each (outline & duotone ×
 > thin / regular / bold), every geometric rule machine-enforced. What comes next is
 > more targets, not more pictures.
 
@@ -39,7 +46,7 @@ share an interface without clashing.
 
 ## The set
 
-**1,008 icons · 12 domains · 6 cells each.** Outline and duotone variants, each at
+**1,041 icons · 12 domains · 6 cells each.** Outline and duotone variants, each at
 three weights (1.5 / 2 / 2.5). Duotone tints every closed body at 20% — and icons made
 only of marks (a check, an arrow) tint with their own halo, so the whole grid answers
 the variant switch.
@@ -68,16 +75,33 @@ import { Agent, ContextWindow, VectorDatabase } from "@iconmind/react";
 The same API ships for every major target, all generated from one source so they can
 never drift:
 
-| Package | For |
+| Stack | Install |
 |---|---|
-| [`@iconmind/icons`](https://www.npmjs.com/package/@iconmind/icons) | Plain SVGs, metadata, sprite — no framework |
-| [`@iconmind/react`](https://www.npmjs.com/package/@iconmind/react) | React |
-| `@iconmind/vue` · `@iconmind/svelte` · `@iconmind/solid` · `@iconmind/preact` | Vue 3 · Svelte · SolidJS · Preact |
-| `@iconmind/react-native` | React Native (`react-native-svg`) |
-| `@iconmind/astro` | Astro — zero client JS |
-| `iconmind/blade-iconmind` | Laravel, via Blade Icons |
+| [React](https://iconmind.vercel.app/docs/react/) | `npm i @iconmind/react` |
+| [Vue 3](https://iconmind.vercel.app/docs/vue/) | `npm i @iconmind/vue` |
+| [Svelte](https://iconmind.vercel.app/docs/svelte/) | `npm i @iconmind/svelte` |
+| [Solid](https://iconmind.vercel.app/docs/solid/) | `npm i @iconmind/solid` |
+| [Preact](https://iconmind.vercel.app/docs/preact/) | `npm i @iconmind/preact` |
+| [React Native](https://iconmind.vercel.app/docs/react-native/) | `npm i @iconmind/react-native react-native-svg` |
+| [Astro](https://iconmind.vercel.app/docs/astro/) | `npm i @iconmind/astro` |
+| [Flutter](https://iconmind.vercel.app/docs/flutter/) | `flutter pub add iconmind_flutter` *(first pub.dev release pending)* |
+| [Laravel Blade](https://iconmind.vercel.app/docs/laravel/) | `composer require iconmind/blade-iconmind` |
+| [Plain SVG / sprite](https://iconmind.vercel.app/docs/svg/) | `npm i @iconmind/icons` |
 
-Angular and Figma are next; Flutter is already in the tree, awaiting its first pub.dev release.
+Same component names, same `size` / `color` / `variant` / `weight` props, same defaults
+in every one of them — the components are generated from one source, so they cannot
+drift. In Flutter that means real strokes on a `CustomPaint`, not an icon font, so
+duotone and the three weights survive intact:
+
+```dart
+IconMind(IconMindIcons.agent, variant: IconMindVariant.duotone, weight: IconMindWeight.bold)
+```
+
+```blade
+<x-im-agent-duotone class="w-6 h-6 text-violet-500" />
+```
+
+Angular and Figma are next.
 
 ## For AI assistants
 
@@ -116,6 +140,14 @@ inside it, so siblings are byte-identical where they agree.
 
 So you can usually guess the next icon in a family before you see it.
 
+Beyond the validator, two measuring tools keep the set honest at scale — both grew out
+of real audits that redrew over sixty icons:
+
+```bash
+pnpm icons:audit   # size, ink density and centred-ness outliers, with named exceptions
+pnpm icons:twins   # renders all 1,041 icons and pixel-compares every pair for lookalikes
+```
+
 ## Contributing
 
 Requesting an icon takes a minute and needs no design skills — requests are real demand
@@ -128,9 +160,14 @@ instead of our guesses.
 ```bash
 pnpm install
 pnpm icons:build       # draw every icon from source
-pnpm icons:validate    # every rule, all 6,048 cells
+pnpm icons:validate    # every rule, all 6,246 cells
 pnpm icons:scale       # the size band, measured
 ```
+
+## Support the project
+
+If this set saves you from mapping `reranker` to a generic sort icon, a ⭐ helps other
+people building AI interfaces find it.
 
 ## License
 

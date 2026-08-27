@@ -41,7 +41,7 @@ export function boxOf(ds: string[]) {
     let i = 0, cx = 0, cy = 0, sx = 0, sy = 0, cmd = "M";
     const num = () => Number(tokens[i++]);
     while (i < tokens.length) {
-      if (/[A-Za-z]/.test(tokens[i])) { cmd = tokens[i++]; if (i >= tokens.length) break; }
+      if (/[A-Za-z]/.test(tokens[i]!)) { cmd = tokens[i++]!; if (i >= tokens.length) break; }
       const rel = cmd === cmd.toLowerCase();          // a lowercase command is relative
       const ox = rel ? cx : 0, oy = rel ? cy : 0;
       switch (cmd.toUpperCase()) {
@@ -55,7 +55,7 @@ export function boxOf(ds: string[]) {
         case "A": {
           const rx = num(), ry = num(); num();
           const laf = num(), sf = num(), nx = ox + num(), ny = oy + num();
-          for (const [px, py] of arcPoints(cx, cy, rx, ry, laf, sf, nx, ny)) hit(px, py);
+          for (const [px, py] of arcPoints(cx, cy, rx, ry, laf, sf, nx, ny)) hit(px!, py!);
           cx = nx; cy = ny; break;
         }
         case "C": {

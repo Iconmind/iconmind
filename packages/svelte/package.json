@@ -1,7 +1,7 @@
 {
   "name": "@iconmind/svelte",
   "version": "0.3.1",
-  "description": "Svelte components for IconMind — 1,008 tree-shakeable icons for AI-era software (LLMs, agents, MCP, RAG).",
+  "description": "Svelte components for IconMind — 1,041 tree-shakeable icons for AI-era software (LLMs, agents, MCP, RAG).",
   "keywords": [
     "icons",
     "svg",
@@ -15,7 +15,7 @@
     "svelte",
     "components"
   ],
-  "homepage": "https://iconmind.dev",
+  "homepage": "https://iconmind.vercel.app",
   "bugs": "https://github.com/Iconmind/iconmind/issues",
   "type": "module",
   "sideEffects": false,

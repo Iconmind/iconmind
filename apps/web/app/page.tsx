@@ -17,11 +17,13 @@ export const metadata: Metadata = {
   title: "IconMind — open-source icons for AI-era software",
   description:
     `${iconCount} free SVG icons for LLMs, agents, MCP, RAG, data, devops and interfaces. ` +
-    "Outline and duotone, in three weights. React, Vue and plain SVG. MIT licensed.",
+    "Outline and duotone, in three weights. Packages for React, Vue, Svelte, Solid, " +
+    "Preact, React Native, Astro, Flutter and Laravel — plus plain SVG, a sprite and an " +
+    "MCP server. MIT licensed.",
   alternates: { canonical: "/" },
   openGraph: {
     title: "IconMind — open-source icons for AI-era software",
-    description: `${iconCount} free SVG icons for AI products. Outline and duotone, in three weights. MIT licensed.`,
+    description: `${iconCount} free SVG icons for AI products, with packages for nine frameworks and an MCP server. MIT licensed.`,
     url: "/",
   },
 };
@@ -153,7 +155,7 @@ export default function Home() {
 
             <p className="mt-7 max-w-[470px] text-lead text-ink-2 text-pretty">
               Open-source icons for AI-era software — LLMs, agents, MCP, RAG and everything
-              around them. Three weights, three variants, generated from one grid by a
+              around them. Two variants across three weights — six drawings per icon — generated from one grid by a
               compiler that refuses a shape it cannot draw correctly.
             </p>
 
@@ -194,6 +196,40 @@ export default function Home() {
         className="pt-4"
       >
         <InstallTabs />
+      </Section>
+
+      {/* ── Every stack, one API ───────────────────────────────────────────── */}
+      <Section title="Works with your stack">
+        <p className="max-w-[64ch] text-ui leading-relaxed text-ink-2">
+          Ten packages, one generated source of truth: the same icon names, the same
+          <span className="font-mono"> size</span>, <span className="font-mono">color</span>,{" "}
+          <span className="font-mono">variant</span> and <span className="font-mono">weight</span>{" "}
+          props in every framework — learn the API once and carry it everywhere.
+        </p>
+        <ul className="mt-6 grid gap-px overflow-hidden rounded-2xl border border-line bg-line-2 sm:grid-cols-2 lg:grid-cols-5">
+          {[
+            ["react", "React", "Server components, zero client JS"],
+            ["vue", "Vue 3", "Attribute fallthrough, SSR-safe"],
+            ["svelte", "Svelte", "Published as source, your compiler"],
+            ["solid", "Solid", "Getter props, fine-grained updates"],
+            ["preact", "Preact", "No compat layer needed"],
+            ["react-native", "React Native", "iOS and Android via react-native-svg"],
+            ["astro", "Astro", "Inline SVG at build time"],
+            ["flutter", "Flutter", "Compile-time constants, CustomPaint"],
+            ["laravel", "Laravel", "Blade components, server-rendered"],
+            ["mcp", "MCP server", "The set, searchable by your AI assistant"],
+          ].map(([slug, label, blurb]) => (
+            <li key={slug}>
+              <Link
+                href={`/docs/${slug}/`}
+                className="block h-full bg-panel px-5 py-4 transition-colors hover:bg-sunk"
+              >
+                <span className="block text-ui font-semibold">{label}</span>
+                <span className="mt-1 block text-meta leading-[1.5] text-muted">{blurb}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
       </Section>
 
       {/* ── What makes it one set ──────────────────────────────────────────── */}

@@ -1,6 +1,6 @@
 # iconmind/blade-iconmind
 
-Blade components for [IconMind](https://iconmind.dev) — 1,008 icons for AI-era
+Blade components for [IconMind](https://iconmind.vercel.app) — 1,041 icons for AI-era
 software: LLMs, agents, MCP, RAG, and everything around them.
 
 ```bash

@@ -81,14 +81,19 @@ export const FRAMEWORKS: Framework[] = [
   },
   {
     id: "flutter", label: "Flutter", install: "flutter pub add iconmind_flutter",
-    code: (n, _s, l) => {
+    code: (_n, s, l) => {
       const props = [
         l.variant !== "outline" && `variant: IconMindVariant.${l.variant}`,
         l.weightName !== "regular" && `weight: IconMindWeight.${l.weightName}`,
         l.size !== 24 && `size: ${l.size}`,
         l.hex && `color: const Color(0xFF${l.hex.slice(1).toUpperCase()})`,
       ].filter((p): p is string => Boolean(p));
-      const name = `IconMindIcons.${n[0]!.toLowerCase() + n.slice(1)}`;
+      // Derived from the slug exactly the way the Dart generator does it — including
+      // the trailing underscore for the four names that collide with Dart keywords.
+      const parts = s.split("-");
+      let dart = parts[0] + parts.slice(1).map((w) => w[0]!.toUpperCase() + w.slice(1)).join("");
+      if (["class", "extension", "null", "sync"].includes(dart)) dart += "_";
+      const name = `IconMindIcons.${dart}`;
       return props.length
         ? `IconMind(${name},\n${props.map((p) => `    ${p}`).join(",\n")})`
         : `IconMind(${name})`;

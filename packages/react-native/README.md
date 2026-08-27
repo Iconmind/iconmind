@@ -1,6 +1,6 @@
 # @iconmind/react-native
 
-React Native components for [IconMind](https://iconmind.dev) — 1,008 tree-shakeable
+React Native components for [IconMind](https://iconmind.vercel.app) — 1,041 tree-shakeable
 icons for AI-era software, rendered with `react-native-svg`.
 
 ```bash
@@ -14,4 +14,4 @@ import { Agent, ContextWindow } from "@iconmind/react-native";
 <ContextWindow size={32} />
 ```
 
-Docs & search: [iconmind.dev](https://iconmind.dev) · MIT.
+Docs & search: [iconmind.vercel.app](https://iconmind.vercel.app) · MIT.
