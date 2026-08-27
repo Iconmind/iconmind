@@ -27,7 +27,7 @@ export const GROUPS: { title: string; slugs: string[] }[] = [
     slugs: ["react", "vue", "svelte", "solid", "preact", "react-native", "astro", "flutter", "laravel"],
   },
   { title: "Other ways in", slugs: ["svg", "mcp", "figma"] },
-  { title: "The project", slugs: ["design-guidelines", "contributing", "faq"] },
+  { title: "The project", slugs: ["design-guidelines", "contributing", "license", "faq"] },
 ];
 
 /** Flat order for prev/next. Anything not listed falls to the end, alphabetically. */

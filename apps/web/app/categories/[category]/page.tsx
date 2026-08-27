@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   const blurb = BLURB[c.slug];
   return {
     title: `${c.name} icons`,
-    description: `${c.count} free ${c.name} icons in SVG and React${blurb ? ` — ${blurb.toLowerCase()}` : ""}. Outline and duotone, in three weights. MIT licensed.`,
+    description: `${c.count} free ${c.name} icons${blurb ? ` — ${blurb.toLowerCase()}` : ""}. SVG, React, Vue, Flutter and more; outline and duotone in three weights. MIT licensed.`,
     alternates: { canonical: `/categories/${c.slug}/` },
   };
 }

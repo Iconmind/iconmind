@@ -45,4 +45,13 @@ for (const cell of CELLS) {
   console.log(`  ${cell.padEnd(16)} ${Object.keys(map).length} icons, ${Math.round(json.length / 1024)} KB`);
 }
 
-console.log(`apps/web/public/v — ${CELLS.length} bundles`);
+// One real, linkable SVG per icon: the URL the ImageObject structured data points
+// at, and the file a person can save. outline-regular, the master cell.
+const idir = fromRoot("apps/web/public/i");
+await rm(idir, { recursive: true, force: true });
+await mkdir(idir, { recursive: true });
+for (const ic of metadata.icons) {
+  const svg = await readFile(join(ICONS, ic.category, ic.slug, "outline-regular.svg"), "utf8");
+  await writeFile(join(idir, `${ic.slug}.svg`), svg);
+}
+console.log(`apps/web/public/v — ${CELLS.length} bundles · public/i — ${metadata.icons.length} svgs`);

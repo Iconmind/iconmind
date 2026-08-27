@@ -44,6 +44,7 @@ export const metadata: Metadata = {
   description:
     "Open-source icons for AI-era software: LLMs, agents, MCP, RAG, and everything around them. MIT licensed.",
   openGraph: { type: "website", siteName: "IconMind" },
+  twitter: { card: "summary_large_image" },
   // `app/icon.svg` and `app/apple-icon.png` are picked up by convention; the manifest is
   // the one link Next does not add on its own.
   manifest: "/manifest.webmanifest",

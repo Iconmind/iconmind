@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!icon) return {};
   return {
     title: `${icon.name} icon`,
-    description: `${icon.description}. Free ${icon.category} icon in SVG and React — MIT licensed.`,
+    description: `${icon.description}. Free ${icon.category} icon — SVG, React, Vue, Svelte, Flutter and 6 more. Outline and duotone, MIT licensed.`,
     alternates: { canonical: `/icons/${icon.slug}/` },
   };
 }
@@ -51,10 +51,10 @@ function schema(icon: {
         "@type": "ImageObject",
         name: `${icon.name} icon`,
         description: icon.description,
-        contentUrl: `${SITE_URL}/icons/${icon.slug}.svg`,
+        contentUrl: `${SITE_URL}/i/${icon.slug}.svg`,
         encodingFormat: "image/svg+xml",
         license: "https://opensource.org/licenses/MIT",
-        acquireLicensePage: `${SITE_URL}/docs/licence/`,
+        acquireLicensePage: `${SITE_URL}/docs/license/`,
         creditText: "IconMind",
         isFamilyFriendly: true,
       },
