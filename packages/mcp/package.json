@@ -3,7 +3,7 @@
   "version": "0.3.4",
   "type": "module",
   "license": "MIT",
-  "description": "MCP server for IconMind — lets an AI assistant search the real icon set instead of guessing names. Offline, bundled data, instant start.",
+  "description": "MCP server for IconMind \u2014 lets an AI assistant search the real icon set instead of guessing names. Offline, bundled data, instant start.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iconmind/iconmind.git",
@@ -25,10 +25,10 @@
     "build": "tsup"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.22.0"
+    "@modelcontextprotocol/sdk": "^1.22.0",
+    "@iconmind/icons": "^0.3.4"
   },
   "devDependencies": {
-    "@iconmind/icons": "workspace:*",
     "@iconmind/shared": "workspace:*",
     "tsup": "^8.5.0"
   },

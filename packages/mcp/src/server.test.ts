@@ -1,5 +1,5 @@
 import { spawn, type ChildProcessWithoutNullStreams } from "node:child_process";
-import { existsSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { afterAll, beforeAll, describe, expect, it } from "vitest";
 
 const ENTRY = new URL("../dist/index.js", import.meta.url).pathname;
@@ -145,5 +145,26 @@ describe.skipIf(!built)("MCP server over stdio", () => {
       name: "ai_workflow_icons", arguments: { workflow: "RAG with reranking" },
     });
     expect(r.result.messages[0].content.text).toContain("RAG with reranking");
+  });
+});
+
+/**
+ * The tripwire for the bug that shipped: @iconmind/icons lived in devDependencies,
+ * so every published version resolved its metadata against a workspace that does
+ * not exist on a user's machine, and crashed on require. The suite runs in the
+ * workspace and could never see it. Two claims, both learned the hard way:
+ * the data must be a real dependency, and its range must be plain semver —
+ * a workspace: range would be published verbatim and break npm install.
+ */
+describe("packaging", () => {
+  const pkg = JSON.parse(readFileSync(new URL("../package.json", import.meta.url).pathname, "utf8")) as {
+    dependencies: Record<string, string>; devDependencies?: Record<string, string>;
+  };
+  it("declares the icon data as a real dependency", () => {
+    expect(Object.keys(pkg.dependencies)).toContain("@iconmind/icons");
+    expect(Object.keys(pkg.devDependencies ?? {})).not.toContain("@iconmind/icons");
+  });
+  it("uses a plain semver range that survives npm publish", () => {
+    expect(pkg.dependencies["@iconmind/icons"]).toMatch(/^\^?\d+\.\d+\.\d+$/);
   });
 });

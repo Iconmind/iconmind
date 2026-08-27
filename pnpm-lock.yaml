@@ -176,13 +176,13 @@ importers:
 
   packages/mcp:
     dependencies:
+      '@iconmind/icons':
+        specifier: ^0.3.4
+        version: 0.3.4
       '@modelcontextprotocol/sdk':
         specifier: ^1.22.0
         version: 1.30.0(zod@4.4.3)
     devDependencies:
-      '@iconmind/icons':
-        specifier: workspace:*
-        version: link:../icons
       '@iconmind/shared':
         specifier: workspace:*
         version: link:../shared
@@ -776,6 +776,9 @@ packages:
     engines: {node: '>=20'}
     peerDependencies:
       hono: ^4
+
+  '@iconmind/icons@0.3.4':
+    resolution: {integrity: sha512-EFynRkiQ8Ib3HduvTQz1AJ77m/9T6LR6mwf4HzAKBR8wM+5HCxIugkAvTo/v3tjzPEzWTRbXDvxW9ycJGsPQeQ==}
 
   '@img/colour@1.1.0':
     resolution: {integrity: sha512-Td76q7j57o/tLVdgS746cYARfSyxk8iEfRxewL9h4OMzYhbW4TAcppl0mT4eyqXddh6L/jwoM75mo7ixa/pCeQ==}
@@ -5637,6 +5640,8 @@ snapshots:
   '@hono/node-server@2.1.1(hono@4.13.3)':
     dependencies:
       hono: 4.13.3
+
+  '@iconmind/icons@0.3.4': {}
 
   '@img/colour@1.1.0':
     optional: true
