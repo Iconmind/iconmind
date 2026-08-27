@@ -23,3 +23,9 @@ blob-report/
 # Mockup deck, kept out of the repo — it is a design artefact, not source.
 Iconmind UI mockups/
 .vercel
+
+# Flutter example: runner scaffolding and local artefacts stay out of the repo;
+# lib/ + pubspec.yaml are what pub.dev publishes.
+**/.dart_tool/
+packages/flutter/example/web/
+packages/flutter/example/pubspec.lock

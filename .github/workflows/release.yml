@@ -25,7 +25,7 @@ permissions:
 jobs:
   release:
     # Belt and braces: the release commit itself must never release again.
-    if: "!startsWith(github.event.head_commit.message, 'chore: release v')"
+    if: "!startsWith(github.event.head_commit.message, 'chore: release v') && !contains(github.event.head_commit.message, '[skip release]')"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
