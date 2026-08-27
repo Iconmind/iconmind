@@ -58,6 +58,11 @@ jobs:
       - name: Bump versions
         run: pnpm changeset version
 
+      # changeset version rewrites internal dependency ranges (mcp depends on icons),
+      # which makes the lockfile stale — and every frozen-lockfile install after the
+      # bump commit (our CI, Vercel) fails on it. Refresh it as part of the bump.
+      - run: pnpm install --lockfile-only
+
       - name: Commit the bump back to main
         id: bump
         run: |
