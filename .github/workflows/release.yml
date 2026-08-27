@@ -42,6 +42,11 @@ jobs:
       # The same gate CI runs — nothing publishes that the validator has not passed.
       - run: pnpm icons:build
       - run: pnpm icons:validate
+      # The gate rebuilds cells in their raw, pre-canonical form. Left in the tree, the
+      # version-bump's `git add -A` committed all 6,246 of them — which is exactly what
+      # v0.3.2's release commit did, and why every local rebuild then showed the whole
+      # set as modified. The gate proves; it must not publish its scratch work.
+      - run: git checkout -- .
 
       - name: Ensure a changeset exists
         run: node .github/scripts/auto-changeset.mjs
