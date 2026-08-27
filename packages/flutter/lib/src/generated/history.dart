@@ -4,6 +4,6 @@ import '../data.dart';
 /// History
 const IconMindData history = IconMindData(
   'history',
-  [N('m9 6 3 -3 3 3'), N('M12 8v4'), N('M12 12h4'), N('M12 3a9 9 0 1 1 -9 9')],
-  [N.halo('m9 6 3 -3 3 3'), N.halo('M12 8v4'), N.halo('M12 12h4'), N.halo('M12 3a9 9 0 1 1 -9 9'), N('m9 6 3 -3 3 3'), N('M12 8v4'), N('M12 12h4'), N('M12 3a9 9 0 1 1 -9 9')],
+  [N('M3 4v5h5'), N('M12 8v4'), N('M12 12h4'), N('M12 3a9 9 0 1 1 -9 9')],
+  [N.halo('M3 4v5h5'), N.halo('M12 8v4'), N.halo('M12 12h4'), N.halo('M12 3a9 9 0 1 1 -9 9'), N('M3 4v5h5'), N('M12 8v4'), N('M12 12h4'), N('M12 3a9 9 0 1 1 -9 9')],
 );

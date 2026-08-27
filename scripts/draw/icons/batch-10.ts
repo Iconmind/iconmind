@@ -154,7 +154,7 @@ export const BATCH_10: Icon[] = [
     // `retry`'s turning arrow with `clock`'s hands inside it. Retry says go round again;
     // with a dial in the middle it says go round backwards, to when.
     shapes: [
-      poly([[9, 6], [12, 3], [15, 6]]),
+      poly([[3, 4], [3, 9], [8, 9]]),
       col(12, 8, 12), row(12, 12, 16),
       raw("M12 3A9 9 0 1 1 3 12", "three quarters of a circle, opening at the top left", false),
     ],

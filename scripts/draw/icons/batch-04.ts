@@ -92,7 +92,7 @@ export const BATCH_04: Icon[] = [
     // the body already has. `upload` is the same arrow over a tray, where the tray is what
     // the thing came out of; here it is what the thing came out of and stays.
     shapes: [
-      frame(4, 11, 16, 9, 3, { chamfer: 3, gap: 3 }),
+      frame(4, 11, 16, 9, 3, { gap: 3 }),
       col(12, 3, 8), poly([[9, 6], [12, 3], [15, 6]]),
     ],
   },

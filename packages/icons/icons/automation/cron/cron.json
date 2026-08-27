@@ -21,12 +21,12 @@
   "family": "orbit",
   "shapes": [
     {
-      "d": "M3 12A9 9 0 1 0 12 3",
+      "d": "M12 3A9 9 0 1 0 21 12",
       "closed": false,
-      "_why": "three quarters of a circle, opening at the top"
+      "_why": "three quarters of a circle, opening at the top right — history's mirror"
     },
     {
-      "d": "M9 6L12 3L12 6",
+      "d": "M21 4L21 9L16 9",
       "closed": false
     },
     {

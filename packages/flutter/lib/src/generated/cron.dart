@@ -4,6 +4,6 @@ import '../data.dart';
 /// Cron
 const IconMindData cron = IconMindData(
   'cron',
-  [N('M3 12a9 9 0 1 0 9 -9'), N('m9 6 3 -3v3'), N('M12 9v3'), N('M12 12h4')],
-  [N.halo('M3 12a9 9 0 1 0 9 -9'), N.halo('m9 6 3 -3v3'), N.halo('M12 9v3'), N.halo('M12 12h4'), N('M3 12a9 9 0 1 0 9 -9'), N('m9 6 3 -3v3'), N('M12 9v3'), N('M12 12h4')],
+  [N('M12 3a9 9 0 1 0 9 9'), N('M21 4v5h-5'), N('M12 9v3'), N('M12 12h4')],
+  [N.halo('M12 3a9 9 0 1 0 9 9'), N.halo('M21 4v5h-5'), N.halo('M12 9v3'), N.halo('M12 12h4'), N('M12 3a9 9 0 1 0 9 9'), N('M21 4v5h-5'), N('M12 9v3'), N('M12 12h4')],
 );

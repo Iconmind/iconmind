@@ -186,8 +186,8 @@ export const BATCH_26: Icon[] = [
     // goes back to when; cron comes round to when, which is the same circle read the other
     // way.
     shapes: [
-      raw("M3 12A9 9 0 1 0 12 3", "three quarters of a circle, opening at the top", false),
-      poly([[9, 6], [12, 3], [12, 6]]),
+      raw("M12 3A9 9 0 1 0 21 12", "three quarters of a circle, opening at the top right — history's mirror", false),
+      poly([[21, 4], [21, 9], [16, 9]]),
       col(12, 9, 12), row(12, 12, 16),
     ],
   },

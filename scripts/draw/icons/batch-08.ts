@@ -53,7 +53,7 @@ export const BATCH_08: Icon[] = [
     // as a hook hanging over a box; an arrow going back in is unmistakable, and it makes the
     // pair one decision drawn in two directions.
     shapes: [
-      frame(4, 11, 16, 9, 3, { chamfer: 3, gap: 3 }),
+      frame(4, 11, 16, 9, 3, { gap: 3 }),
       col(12, 3, 8), poly([[9, 5], [12, 8], [15, 5]]),
     ],
   },
