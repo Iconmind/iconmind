@@ -104,7 +104,7 @@ export const BATCH_48: Icon[] = [
     name: "Emoji", description: "The feeling, in one glyph",
     tags: ["smiley", "reaction", "face"], family: "orbit",
     aliases: [], keywords: ["smiley", "reaction", "emoticon"],
-    shapes: [disc(12, 12, 9), disc(9, 9.5, 1), disc(15, 9.5, 1), arc(12, 13, 4, 45, 135)],
+    shapes: [rect(3, 3, 18, 18, 2), disc(9, 10, 1), disc(15, 10, 1), arc(12, 13, 4, 45, 135)],
   },
   {
     slug: "image-container", category: "interface", subcategory: "media",
@@ -163,7 +163,7 @@ export const BATCH_48: Icon[] = [
     name: "Sanitise output", description: "Scrubbed before anyone sees it",
     tags: ["clean", "filter", "scrub"], family: "machine",
     aliases: [], keywords: ["scrub output", "strip secrets", "clean before showing"],
-    shapes: [machine(), row(10, 8, 16), row(14, 8, 12), row(14, 14.5, 17)],
+    shapes: [machine(), poly([[9, 9], [12, 12], [12, 15]]), poly([[15, 9], [12, 12]])],
   },
   {
     slug: "producer", category: "data", subcategory: "streaming",

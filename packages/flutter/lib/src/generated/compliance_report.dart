@@ -4,6 +4,6 @@ import '../data.dart';
 /// ComplianceReport
 const IconMindData complianceReport = IconMindData(
   'compliance-report',
-  [N('M13 3H6v18h12V8'), N('M8 9h8'), N('m9 15 2 2 4 -4')],
-  [N.tint('M13 3H6v18h12V8'), N('M13 3H6v18h12V8'), N('M8 9h8'), N('m9 15 2 2 4 -4')],
+  [N('M2 4a2 2 0 0 1 2 -2h7a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z'), N('M5 6h5'), N('M5 10h5'), N('M5 14h3'), N('M16 9h6v4l-3 3 -3 -3Z')],
+  [N.tint('M2 4a2 2 0 0 1 2 -2h7a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z'), N.tint('M16 9h6v4l-3 3 -3 -3Z'), N('M2 4a2 2 0 0 1 2 -2h7a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z'), N('M5 6h5'), N('M5 10h5'), N('M5 14h3'), N('M16 9h6v4l-3 3 -3 -3Z')],
 );

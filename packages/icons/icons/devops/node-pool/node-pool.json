@@ -1,0 +1,37 @@
+{
+  "slug": "node-pool",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Node pool",
+  "description": "Interchangeable machines, one tray",
+  "tags": [
+    "group",
+    "workers",
+    "scale"
+  ],
+  "keywords": [
+    "node pool",
+    "worker group",
+    "autoscaling group",
+    "fleet"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": false
+    }
+  ]
+}

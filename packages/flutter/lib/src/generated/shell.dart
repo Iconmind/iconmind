@@ -4,6 +4,6 @@ import '../data.dart';
 /// Shell
 const IconMindData shell = IconMindData(
   'shell',
-  [N('M2 6a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z'), N('m6 9 3 3 -3 3'), N('M12 16h5')],
-  [N.tint('M2 6a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z'), N('M2 6a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z'), N('m6 9 3 3 -3 3'), N('M12 16h5')],
+  [N('m4 5 7 7 -7 7'), N('M14 19h7')],
+  [N.halo('m4 5 7 7 -7 7'), N.halo('M14 19h7'), N('m4 5 7 7 -7 7'), N('M14 19h7')],
 );

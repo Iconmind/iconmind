@@ -1,0 +1,33 @@
+{
+  "slug": "private-endpoint",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Private endpoint",
+  "description": "The route ends at a lock, not the internet",
+  "tags": [
+    "vpc",
+    "private",
+    "no-egress"
+  ],
+  "keywords": [
+    "private link",
+    "vpc endpoint",
+    "no public ip",
+    "internal only"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M3 3L10 10",
+      "closed": false
+    },
+    {
+      "d": "M13 14A2 2 0 0 1 15 12H19A2 2 0 0 1 21 14V17A2 2 0 0 1 19 19H15A2 2 0 0 1 13 17Z",
+      "closed": true
+    },
+    {
+      "d": "M14 12A3 3 0 0 1 20 12",
+      "closed": false
+    }
+  ]
+}

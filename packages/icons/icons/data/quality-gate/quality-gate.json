@@ -1,0 +1,33 @@
+{
+  "slug": "quality-gate",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Quality gate",
+  "description": "Data does not pass until it checks out",
+  "tags": [
+    "gate",
+    "checks",
+    "block"
+  ],
+  "keywords": [
+    "quality gate",
+    "data checks",
+    "expectations",
+    "block bad data"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 3V21",
+      "closed": false
+    },
+    {
+      "d": "M20 3V21",
+      "closed": false
+    },
+    {
+      "d": "M8 12L11 15L17 9",
+      "closed": false
+    }
+  ]
+}

@@ -4,6 +4,6 @@ import '../data.dart';
 /// WatchVar
 const IconMindData watchVar = IconMindData(
   'watch-var',
-  [N('m3 12 6 -6h6l6 6'), N('m3 12 6 6h6l6 -6'), N('M10 12h4')],
-  [N.halo('m3 12 6 -6h6l6 6'), N.halo('m3 12 6 6h6l6 -6'), N.halo('M10 12h4'), N('m3 12 6 -6h6l6 6'), N('m3 12 6 6h6l6 -6'), N('M10 12h4')],
+  [N('m4 9 5 -5h6l5 5'), N('m4 9 5 5h6l5 -5'), N('M11 9a1 1 0 1 0 2 0 1 1 0 1 0 -2 0'), N('M7 19h10')],
+  [N.tint('M11 9a1 1 0 1 0 2 0 1 1 0 1 0 -2 0'), N.halo('m4 9 5 -5h6l5 5'), N.halo('m4 9 5 5h6l5 -5'), N.halo('M7 19h10'), N('m4 9 5 -5h6l5 5'), N('m4 9 5 5h6l5 -5'), N('M11 9a1 1 0 1 0 2 0 1 1 0 1 0 -2 0'), N('M7 19h10')],
 );

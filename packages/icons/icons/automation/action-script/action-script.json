@@ -19,15 +19,23 @@
   "family": "chevron",
   "shapes": [
     {
-      "d": "M14 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V7L5 4H10",
+      "d": "M2 8A2 2 0 0 1 4 6H13A2 2 0 0 1 15 8V16A2 2 0 0 1 13 18H4A2 2 0 0 1 2 16Z",
       "closed": true
     },
     {
-      "d": "M8 10L11 13L8 16",
+      "d": "M7.5 9.5L5 12L7.5 14.5",
       "closed": false
     },
     {
-      "d": "M13 16H17",
+      "d": "M9.5 9.5L12 12L9.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M15 12H18",
+      "closed": false
+    },
+    {
+      "d": "M18 9L21 12L18 15",
       "closed": false
     }
   ]

@@ -136,7 +136,7 @@ export const BATCH_32: Icon[] = [
     name: "Data catalogue", description: "What data there is, and where",
     tags: ["inventory", "index", "registry"], family: "figure",
     aliases: [], keywords: ["inventory", "metadata store", "discovery", "registry", "glossary"],
-    shapes: [rect(2, 3, 20, 7, 2), disc(6, 6.5, 1), rect(2, 14, 20, 7, 2), disc(6, 17.5, 1)],
+    shapes: [rect(2, 3, 20, 7, 2), row(6.5, 5, 10), rect(2, 14, 20, 7, 2), row(17.5, 5, 10)],
   },
   {
     slug: "data-exfiltration", category: "security", subcategory: "threat",

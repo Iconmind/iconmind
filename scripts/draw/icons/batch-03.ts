@@ -72,7 +72,7 @@ export const BATCH_03: Icon[] = [
     // a 45° triangle on a 24 grid is twice as wide as it is tall — a tent, not a warning.
     // The ring is the body `agent` uses, which makes this the same family: a whole thing,
     // with something in the middle that says what state it is in.
-    shapes: [ring(), col(12, 7, 14), disc(12, 17, 1)],
+    shapes: [disc(12, 12, 9), col(12, 7, 14), disc(12, 17, 1)],
   },
 
   {

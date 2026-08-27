@@ -25,7 +25,9 @@ export const BATCH_45: Icon[] = [
     name: "Shell", description: "Where you talk to the machine",
     tags: ["terminal", "bash", "prompt"], family: "window",
     aliases: ["bash"], keywords: ["terminal", "bash", "zsh", "command line", "console"],
-    shapes: [rect(2, 4, 20, 16, 2), poly([[6, 9], [9, 12], [6, 15]]), row(16, 12, 17)],
+    // The bare prompt, no box: `terminal` owns the boxed one, and three icons were
+    // wearing it. A shell IS the prompt.
+    shapes: [poly([[4, 5], [11, 12], [4, 19]]), row(19, 14, 21)],
   },
   {
     slug: "script", category: "devtools", subcategory: "terminal",
@@ -117,7 +119,11 @@ export const BATCH_45: Icon[] = [
     name: "Upsert", description: "Update it, or add it if it is new",
     tags: ["merge", "insert", "update"], family: "figure",
     aliases: [], keywords: ["insert or update", "merge row", "idempotent write"],
-    shapes: [rect(2, 12, 20, 8, 2), row(16, 6, 12), col(16, 14, 18), row(16, 14, 18), col(12, 3, 8), poly([[9, 6], [12, 9], [15, 6]])],
+    shapes: [
+      row(14, 3, 21), row(18, 3, 21),
+      col(9, 3, 8), poly([[6, 6], [9, 9], [12, 6]]),
+      col(17, 3, 7), row(5, 15, 19),
+    ],
   },
   {
     slug: "stream-job", category: "data", subcategory: "streaming",

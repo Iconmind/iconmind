@@ -4,6 +4,6 @@ import '../data.dart';
 /// Upsert
 const IconMindData upsert = IconMindData(
   'upsert',
-  [N('M2 14a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z'), N('M6 16h6'), N('M16 14v4'), N('M14 16h4'), N('M12 3v5'), N('m9 6 3 3 3 -3')],
-  [N.tint('M2 14a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z'), N('M2 14a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z'), N('M6 16h6'), N('M16 14v4'), N('M14 16h4'), N('M12 3v5'), N('m9 6 3 3 3 -3')],
+  [N('M3 14h18'), N('M3 18h18'), N('M9 3v5'), N('m6 6 3 3 3 -3'), N('M17 3v4'), N('M15 5h4')],
+  [N.halo('M3 14h18'), N.halo('M3 18h18'), N.halo('M9 3v5'), N.halo('m6 6 3 3 3 -3'), N.halo('M17 3v4'), N.halo('M15 5h4'), N('M3 14h18'), N('M3 18h18'), N('M9 3v5'), N('m6 6 3 3 3 -3'), N('M17 3v4'), N('M15 5h4')],
 );

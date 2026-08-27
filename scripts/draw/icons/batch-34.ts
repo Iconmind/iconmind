@@ -117,7 +117,10 @@ export const BATCH_34: Icon[] = [
     name: "Metadata store", description: "What is known about the data",
     tags: ["about", "schema", "registry"], family: "window",
     aliases: [], keywords: ["about the data", "schema registry", "annotations", "properties"],
-    shapes: [rect(2, 4, 20, 16, 2), row(9, 2, 22), row(13, 6, 18), row(17, 6, 14)],
+    shapes: [
+      rect(2, 4, 20, 16, 2), row(9, 2, 22),
+      row(13, 6, 10), row(13, 14, 18), row(17, 6, 10), row(17, 14, 18),
+    ],
   },
   {
     slug: "notebook", category: "devtools", subcategory: "editor",

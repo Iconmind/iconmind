@@ -203,10 +203,6 @@ export const BATCH_26: Icon[] = [
     name: "HTTP action", description: "The step that calls something",
     tags: ["request", "call", "webhook"], family: "orbit",
     aliases: ["webhook"], keywords: ["request", "post", "call out", "webhook", "rest"],
-    shapes: [
-      disc(12, 12, 9), row(12, 3, 21),
-      raw("M12 3A6 9 0 0 0 12 21A6 9 0 0 0 12 3Z", "the meridian is an ellipse of 6 by 9"),
-      poly([[16, 8], [20, 12], [16, 16]]),
-    ],
+    shapes: [rect(2, 6, 11, 12, 2), row(9, 2, 13), row(12, 16, 20), poly([[17, 9], [20, 12], [17, 15]])],
   },
 ];

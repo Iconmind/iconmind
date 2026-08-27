@@ -1,0 +1,45 @@
+{
+  "slug": "property-test",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Property test",
+  "description": "Many generated inputs, one property that must hold",
+  "tags": [
+    "generated",
+    "fuzz",
+    "invariant"
+  ],
+  "aliases": [
+    "fuzzing"
+  ],
+  "keywords": [
+    "property-based",
+    "quickcheck",
+    "generated inputs",
+    "invariant",
+    "fuzz"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 6L11 9.5",
+      "closed": false
+    },
+    {
+      "d": "M7.5 18L11 14.5",
+      "closed": false
+    },
+    {
+      "d": "M13 12L15 14L19 10",
+      "closed": false
+    }
+  ]
+}

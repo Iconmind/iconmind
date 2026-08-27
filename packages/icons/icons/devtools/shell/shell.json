@@ -22,15 +22,11 @@
   "family": "window",
   "shapes": [
     {
-      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
-      "closed": true
-    },
-    {
-      "d": "M6 9L9 12L6 15",
+      "d": "M4 5L11 12L4 19",
       "closed": false
     },
     {
-      "d": "M12 16H17",
+      "d": "M14 19H21",
       "closed": false
     }
   ]

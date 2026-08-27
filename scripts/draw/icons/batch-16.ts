@@ -51,7 +51,7 @@ export const BATCH_16: Icon[] = [
     aliases: ["about"], keywords: ["details", "help", "note", "tooltip", "learn more"],
     // `warning`'s ring with the mark the other way up. The pair is the convention and it is
     // worth keeping: a dot over a bar means read this, a bar over a dot means stop.
-    shapes: [ring(), disc(12, 7, 1), col(12, 11, 17)],
+    shapes: [disc(12, 12, 9), disc(12, 7, 1), col(12, 11, 17)],
   },
 
   /* ── Direction ────────────────────────────────────────────────────────────────── */
@@ -130,10 +130,7 @@ export const BATCH_16: Icon[] = [
     aliases: [], keywords: ["wake", "timer", "reminder", "snooze", "ring"],
     // `clock` with feet. The two hands are at the same coordinates as the clock's, so the
     // pair reads as the same instrument with something added rather than as two clocks.
-    shapes: [
-      ring(), col(12, 6.5, 12), row(12, 12, 16.5),
-      poly([[5, 19], [3, 21]]), poly([[19, 19], [21, 21]]),
-    ],
+    shapes: [disc(12, 13, 8), poly([[12, 8], [12, 13], [16, 13]]), poly([[3, 6], [6, 3]]), poly([[21, 6], [18, 3]])],
   },
   {
     slug: "message", category: "interface", subcategory: "communication",

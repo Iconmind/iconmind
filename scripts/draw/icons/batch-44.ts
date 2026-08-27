@@ -200,9 +200,8 @@ export const BATCH_44: Icon[] = [
     tags: ["inspect", "track", "debug"], family: "figure",
     aliases: ["watch-variable"], keywords: ["watch expression", "track value", "debugger watch"],
     shapes: [
-      poly([[3, 12], [9, 6], [15, 6], [21, 12]]),
-      poly([[3, 12], [9, 18], [15, 18], [21, 12]]),
-      row(12, 10, 14),
+      poly([[4, 9], [9, 4], [15, 4], [20, 9]]), poly([[4, 9], [9, 14], [15, 14], [20, 9]]),
+      disc(12, 9, 1), row(19, 7, 17),
     ],
   },
 ];

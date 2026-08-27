@@ -1,0 +1,49 @@
+{
+  "slug": "cdc",
+  "category": "data",
+  "subcategory": "streaming",
+  "name": "CDC",
+  "description": "Every change, streamed out as it happens",
+  "tags": [
+    "changes",
+    "stream",
+    "capture"
+  ],
+  "aliases": [
+    "change-data-capture"
+  ],
+  "keywords": [
+    "change data capture",
+    "debezium",
+    "binlog",
+    "stream changes",
+    "replication"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H8A2 2 0 0 1 10 7V17A2 2 0 0 1 8 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M2 9H10",
+      "closed": false
+    },
+    {
+      "d": "M2 14H10",
+      "closed": false
+    },
+    {
+      "d": "M13 12L15.5 12",
+      "closed": false
+    },
+    {
+      "d": "M18 12L20.5 12",
+      "closed": false
+    },
+    {
+      "d": "M19 9L22 12L19 15",
+      "closed": false
+    }
+  ]
+}

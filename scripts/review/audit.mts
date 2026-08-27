@@ -38,7 +38,7 @@ const ANCHORED = new Set([
   "devtools/stack-trace", "ai/softmax", "analytics/chart-bar", "analytics/chart-line",
   "analytics/retention", "interface/corner-radius", "rag/bm25", "security/login",
   "devtools/request", "automation/workflow-template", "agents/step-limit",
-  "cloud/budget-alert",
+  "cloud/budget-alert", "analytics/latency-p99",
 ]);
 
 function inkStats(svg: string, size: number) {

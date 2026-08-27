@@ -119,7 +119,7 @@ export const BATCH_43: Icon[] = [
     name: "Zero trust", description: "Nobody is inside by default",
     tags: ["verify", "always", "no-perimeter"], family: "shield",
     aliases: [], keywords: ["never trust", "always verify", "no perimeter", "per request"],
-    shapes: [rect(2, 2, 20, 20, 2), rect(7, 7, 10, 10, 2), disc(12, 12, 1)],
+    shapes: [rect(2, 2, 20, 20, 2), poly([[12, 5], [19, 12], [12, 19], [5, 12]], true), disc(12, 12, 2)],
   },
 
   /* ── Vectors put to work ──────────────────────────────────────────────────────── */

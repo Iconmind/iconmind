@@ -1,0 +1,42 @@
+{
+  "slug": "mutation-test",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Mutation test",
+  "description": "Break the code on purpose; the tests must notice",
+  "tags": [
+    "mutant",
+    "seeded",
+    "caught"
+  ],
+  "keywords": [
+    "mutation testing",
+    "mutant",
+    "seeded bug",
+    "test quality",
+    "stryker"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M3 5H21",
+      "closed": false
+    },
+    {
+      "d": "M3 12H10",
+      "closed": false
+    },
+    {
+      "d": "M13 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 12H21",
+      "closed": false
+    },
+    {
+      "d": "M9 17L11 19L15 15",
+      "closed": false
+    }
+  ]
+}

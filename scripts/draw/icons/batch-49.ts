@@ -44,7 +44,7 @@ export const BATCH_49: Icon[] = [
     name: "Timeout branch", description: "Where it goes when it takes too long",
     tags: ["deadline", "branch", "expired"], family: "figure",
     aliases: [], keywords: ["timeout branch", "deadline path", "took too long"],
-    shapes: [disc(8, 12, 6), poly([[8, 9], [8, 12], [11, 12]]), row(12, 16, 20), poly([[18, 10], [20, 12], [18, 14]])],
+    shapes: [disc(7, 12, 5), poly([[7, 9], [7, 12], [9.5, 12]]), row(12, 15, 18), col(21, 7, 17)],
   },
   {
     slug: "lifecycle", category: "agents", subcategory: "lifecycle",

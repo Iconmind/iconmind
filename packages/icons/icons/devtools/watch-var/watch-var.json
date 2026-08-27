@@ -20,15 +20,19 @@
   "family": "figure",
   "shapes": [
     {
-      "d": "M3 12L9 6L15 6L21 12",
+      "d": "M4 9L9 4L15 4L20 9",
       "closed": false
     },
     {
-      "d": "M3 12L9 18L15 18L21 12",
+      "d": "M4 9L9 14L15 14L20 9",
       "closed": false
     },
     {
-      "d": "M10 12H14",
+      "d": "M11 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 19H17",
       "closed": false
     }
   ]

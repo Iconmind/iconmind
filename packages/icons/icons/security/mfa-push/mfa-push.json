@@ -1,0 +1,34 @@
+{
+  "slug": "mfa-push",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "MFA push",
+  "description": "Approve it on the phone in your hand",
+  "tags": [
+    "phone",
+    "approve",
+    "second-factor"
+  ],
+  "keywords": [
+    "push notification",
+    "mfa",
+    "approve login",
+    "authenticator",
+    "2fa"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 4A2 2 0 0 1 6 2H11A2 2 0 0 1 13 4V20A2 2 0 0 1 11 22H6A2 2 0 0 1 4 20Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 11L18 13L21 10",
+      "closed": false
+    }
+  ]
+}

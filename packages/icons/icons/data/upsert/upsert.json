@@ -17,27 +17,27 @@
   "family": "figure",
   "shapes": [
     {
-      "d": "M2 14A2 2 0 0 1 4 12H20A2 2 0 0 1 22 14V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
-      "closed": true
-    },
-    {
-      "d": "M6 16H12",
+      "d": "M3 14H21",
       "closed": false
     },
     {
-      "d": "M16 14V18",
+      "d": "M3 18H21",
       "closed": false
     },
     {
-      "d": "M14 16H18",
+      "d": "M9 3V8",
       "closed": false
     },
     {
-      "d": "M12 3V8",
+      "d": "M6 6L9 9L12 6",
       "closed": false
     },
     {
-      "d": "M9 6L12 9L15 6",
+      "d": "M17 3V7",
+      "closed": false
+    },
+    {
+      "d": "M15 5H19",
       "closed": false
     }
   ]

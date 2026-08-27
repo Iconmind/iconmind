@@ -4,6 +4,6 @@ import '../data.dart';
 /// LlmTrace
 const IconMindData llmTrace = IconMindData(
   'llm-trace',
-  [N('M4 3v18'), N('M7 7h14'), N('M7 12h9'), N('M7 17h12'), N('M18 12a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
-  [N.tint('M18 12a1 1 0 1 0 2 0 1 1 0 1 0 -2 0'), N.halo('M4 3v18'), N.halo('M7 7h14'), N.halo('M7 12h9'), N.halo('M7 17h12'), N('M4 3v18'), N('M7 7h14'), N('M7 12h9'), N('M7 17h12'), N('M18 12a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
+  [N('M4 3v18'), N('M7 7h7'), N('M10 12h8'), N('M13 17h8')],
+  [N.halo('M4 3v18'), N.halo('M7 7h7'), N.halo('M10 12h8'), N.halo('M13 17h8'), N('M4 3v18'), N('M7 7h7'), N('M10 12h8'), N('M13 17h8')],
 );

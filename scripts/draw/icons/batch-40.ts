@@ -168,9 +168,7 @@ export const BATCH_40: Icon[] = [
     name: "LLM trace", description: "Every step the call took, laid out",
     tags: ["spans", "waterfall", "inspect"], family: "figure",
     aliases: ["llm-observability"], keywords: ["trace view", "spans", "latency breakdown", "langsmith", "inspect"],
-    shapes: [
-      col(4, 3, 21), row(7, 7, 21), row(12, 7, 16), row(17, 7, 19), disc(19, 12, 1),
-    ],
+    shapes: [col(4, 3, 21), row(7, 7, 14), row(12, 10, 18), row(17, 13, 21)],
   },
   {
     slug: "golden-set", category: "ai", subcategory: "evaluation",
@@ -201,6 +199,6 @@ export const BATCH_40: Icon[] = [
     name: "List view", description: "Everything as rows",
     tags: ["rows", "table", "lines"], family: "window",
     aliases: [], keywords: ["rows", "table view", "compact", "lines", "details"],
-    shapes: [disc(4, 6, 1), row(6, 8, 21), disc(4, 12, 1), row(12, 8, 21), disc(4, 18, 1), row(18, 8, 21)],
+    shapes: [rect(2, 2, 20, 20, 2), row(7.5, 5, 19), row(12, 5, 19), row(16.5, 5, 19)],
   },
 ];

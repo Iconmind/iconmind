@@ -1,0 +1,38 @@
+{
+  "slug": "gc-pause",
+  "category": "devtools",
+  "subcategory": "debug",
+  "name": "GC pause",
+  "description": "Everything stops while the collector runs",
+  "tags": [
+    "stop-the-world",
+    "latency",
+    "memory"
+  ],
+  "keywords": [
+    "garbage collection",
+    "stop the world",
+    "pause time",
+    "gc",
+    "hiccup"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M2 12H8",
+      "closed": false
+    },
+    {
+      "d": "M11 7V17",
+      "closed": false
+    },
+    {
+      "d": "M14 7V17",
+      "closed": false
+    },
+    {
+      "d": "M17 12H22",
+      "closed": false
+    }
+  ]
+}

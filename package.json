@@ -29,7 +29,8 @@
     "icons:bundles": "tsx scripts/generate/cell-bundles.ts",
     "icons:build": "tsx scripts/draw/run.ts",
     "icons:generate:components": "tsx scripts/generate/components.ts",
-    "icons:audit": "tsx scripts/review/audit.mts"
+    "icons:audit": "tsx scripts/review/audit.mts",
+    "icons:twins": "tsx scripts/review/twins.mts"
   },
   "devDependencies": {
     "@changesets/cli": "^2.29.7",

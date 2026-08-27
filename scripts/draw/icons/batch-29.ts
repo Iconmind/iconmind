@@ -41,9 +41,11 @@ export const BATCH_29: Icon[] = [
     name: "Script action", description: "The step that runs code",
     tags: ["code", "custom", "run"], family: "chevron",
     aliases: [], keywords: ["custom code", "javascript", "python step", "eval", "run"],
+    // The stage family's box and arrow, with code marks for a verb — it used to be a
+    // third copy of `terminal`'s prompt-in-a-box.
     shapes: [
-      frame(2, 4, 20, 16, 3, { chamfer: 3, gap: 4 }),
-      poly([[8, 10], [11, 13], [8, 16]]), row(16, 13, 17),
+      rect(2, 6, 13, 12, 2), poly([[7.5, 9.5], [5, 12], [7.5, 14.5]]), poly([[9.5, 9.5], [12, 12], [9.5, 14.5]]),
+      row(12, 15, 18), poly([[18, 9], [21, 12], [18, 15]]),
     ],
   },
   {
@@ -111,7 +113,7 @@ export const BATCH_29: Icon[] = [
     name: "Batch inference", description: "Many answers, together",
     tags: ["bulk", "queue", "offline"], family: "machine",
     aliases: [], keywords: ["bulk", "offline", "queued", "throughput", "job"],
-    shapes: [machine(), row(9, 8, 16), row(12, 8, 16), row(15, 8, 16)],
+    shapes: [machine(), poly([[8, 8], [12, 12], [8, 16]]), poly([[12, 8], [16, 12], [12, 16]])],
   },
   {
     slug: "greedy", category: "ai", subcategory: "inference",

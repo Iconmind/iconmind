@@ -173,7 +173,10 @@ export const BATCH_31: Icon[] = [
     name: "Compliance report", description: "The paper that says you passed",
     tags: ["audit", "attest", "passed"], family: "page",
     aliases: [], keywords: ["soc2", "audit report", "attestation", "evidence", "passed"],
-    shapes: [page(), row(9, 8, 16), ...check(SMALL, 15)],
+    shapes: [
+      rect(2, 2, 11, 20, 2), row(6, 5, 10), row(10, 5, 10), row(14, 5, 8),
+      poly([[16, 9], [22, 9], [22, 13], [19, 16], [16, 13]], true),
+    ],
   },
   {
     slug: "consent", category: "security", subcategory: "compliance",
@@ -187,14 +190,14 @@ export const BATCH_31: Icon[] = [
     name: "Consumer", description: "What takes messages off the queue",
     tags: ["subscriber", "reader", "sink"], family: "figure",
     aliases: ["subscriber"], keywords: ["subscriber", "worker", "sink", "poll", "reads from"],
-    shapes: [rect(2, 8, 10, 8, 2), row(12, 13, 19), poly([[17, 9], [20, 12], [17, 15]])],
+    shapes: [arc(8, 12, 6, 45, 315), disc(19, 12, 2)],
   },
   {
     slug: "catalog", category: "interface", subcategory: "layout",
     name: "Catalogue", description: "Everything there is to pick from",
     tags: ["browse", "index", "listing"], family: "window",
     aliases: [], keywords: ["browse", "gallery", "directory", "listing", "index"],
-    shapes: [rect(2, 4, 8, 16, 2), rect(14, 4, 8, 16, 2), row(9, 4, 8), row(9, 16, 20)],
+    shapes: [rect(3, 2, 16, 4, 2), rect(2, 9, 6.5, 13, 2), rect(11.5, 9, 6.5, 13, 2)],
   },
 
   /* ── Two systems, joined ──────────────────────────────────────────────────────── */

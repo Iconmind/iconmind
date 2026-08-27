@@ -4,6 +4,6 @@ import '../data.dart';
 /// MetadataStore
 const IconMindData metadataStore = IconMindData(
   'metadata-store',
-  [N('M2 6a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z'), N('M2 9h20'), N('M6 13h12'), N('M6 17h8')],
-  [N.tint('M2 6a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z'), N('M2 6a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z'), N('M2 9h20'), N('M6 13h12'), N('M6 17h8')],
+  [N('M2 6a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z'), N('M2 9h20'), N('M6 13h4'), N('M14 13h4'), N('M6 17h4'), N('M14 17h4')],
+  [N.tint('M2 6a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z'), N('M2 6a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z'), N('M2 9h20'), N('M6 13h4'), N('M14 13h4'), N('M6 17h4'), N('M14 17h4')],
 );

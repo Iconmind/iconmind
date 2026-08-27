@@ -4,6 +4,6 @@ import '../data.dart';
 /// InferenceBatch
 const IconMindData inferenceBatch = IconMindData(
   'inference-batch',
-  [N('M14.5 4H17a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3H7a3 3 0 0 1 -3 -3V8l4 -4h2.5'), N('M8 9h8'), N('M8 12h8'), N('M8 15h8')],
-  [N.tint('M14.5 4H17a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3H7a3 3 0 0 1 -3 -3V8l4 -4h2.5'), N('M14.5 4H17a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3H7a3 3 0 0 1 -3 -3V8l4 -4h2.5'), N('M8 9h8'), N('M8 12h8'), N('M8 15h8')],
+  [N('M14.5 4H17a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3H7a3 3 0 0 1 -3 -3V8l4 -4h2.5'), N('m8 8 4 4 -4 4'), N('m12 8 4 4 -4 4')],
+  [N.tint('M14.5 4H17a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3H7a3 3 0 0 1 -3 -3V8l4 -4h2.5'), N('M14.5 4H17a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3H7a3 3 0 0 1 -3 -3V8l4 -4h2.5'), N('m8 8 4 4 -4 4'), N('m12 8 4 4 -4 4')],
 );

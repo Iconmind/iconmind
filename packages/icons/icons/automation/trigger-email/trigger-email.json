@@ -1,0 +1,37 @@
+{
+  "slug": "trigger-email",
+  "category": "automation",
+  "subcategory": "trigger",
+  "name": "Email trigger",
+  "description": "A mail arrives, the workflow starts",
+  "tags": [
+    "inbound",
+    "mail",
+    "start"
+  ],
+  "keywords": [
+    "email trigger",
+    "inbound mail",
+    "on receive",
+    "mailbox automation"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 10A2 2 0 0 1 4 8H11A2 2 0 0 1 13 10V15A2 2 0 0 1 11 17H4A2 2 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M4 9L7.5 12.5L11 9",
+      "closed": false
+    },
+    {
+      "d": "M16 12H20",
+      "closed": false
+    },
+    {
+      "d": "M17 9L20 12L17 15",
+      "closed": false
+    }
+  ]
+}

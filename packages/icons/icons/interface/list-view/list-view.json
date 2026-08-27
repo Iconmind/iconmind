@@ -19,27 +19,19 @@
   "family": "window",
   "shapes": [
     {
-      "d": "M3 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "d": "M2 4A2 2 0 0 1 4 2H20A2 2 0 0 1 22 4V20A2 2 0 0 1 20 22H4A2 2 0 0 1 2 20Z",
       "closed": true
     },
     {
-      "d": "M8 6H21",
+      "d": "M5 7.5H19",
       "closed": false
     },
     {
-      "d": "M3 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
-      "closed": true
-    },
-    {
-      "d": "M8 12H21",
+      "d": "M5 12H19",
       "closed": false
     },
     {
-      "d": "M3 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
-      "closed": true
-    },
-    {
-      "d": "M8 18H21",
+      "d": "M5 16.5H19",
       "closed": false
     }
   ]

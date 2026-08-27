@@ -115,7 +115,11 @@ export const BATCH_33: Icon[] = [
     name: "GPU cluster", description: "Many of them, working together",
     tags: ["fleet", "nodes", "training"], family: "figure",
     aliases: [], keywords: ["gpu fleet", "a100", "nodes", "training cluster", "accelerators"],
-    shapes: [rect(2, 2, 8, 8, 2), rect(14, 2, 8, 8, 2), rect(2, 14, 8, 8, 2), rect(14, 14, 8, 8, 2)],
+    shapes: [
+      rect(2, 2, 6.5, 6.5, 2), rect(15.5, 2, 6.5, 6.5, 2),
+      rect(2, 15.5, 6.5, 6.5, 2), rect(15.5, 15.5, 6.5, 6.5, 2),
+      poly([[11, 11], [13, 13]]), poly([[13, 11], [11, 13]]),
+    ],
   },
 
   /* ── The shape of an index ────────────────────────────────────────────────────── */

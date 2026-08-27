@@ -23,15 +23,11 @@
       "closed": true
     },
     {
-      "d": "M8 9H16",
+      "d": "M8 8L12 12L8 16",
       "closed": false
     },
     {
-      "d": "M8 12H16",
-      "closed": false
-    },
-    {
-      "d": "M8 15H16",
+      "d": "M12 8L16 12L12 16",
       "closed": false
     }
   ]

@@ -1,0 +1,41 @@
+{
+  "slug": "multi-cursor",
+  "category": "devtools",
+  "subcategory": "editor",
+  "name": "Multi-cursor",
+  "description": "Two carets, one keystroke",
+  "tags": [
+    "carets",
+    "edit",
+    "simultaneous"
+  ],
+  "keywords": [
+    "multiple cursors",
+    "multi caret",
+    "column edit",
+    "simultaneous edit"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M3 5H21",
+      "closed": false
+    },
+    {
+      "d": "M3 12H9",
+      "closed": false
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    },
+    {
+      "d": "M3 19H13",
+      "closed": false
+    },
+    {
+      "d": "M16 16V22",
+      "closed": false
+    }
+  ]
+}

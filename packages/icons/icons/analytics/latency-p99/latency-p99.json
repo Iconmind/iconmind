@@ -1,0 +1,45 @@
+{
+  "slug": "latency-p99",
+  "category": "analytics",
+  "subcategory": "llm-observability",
+  "name": "p99 latency",
+  "description": "Not the average — the one in a hundred that hurts",
+  "tags": [
+    "tail",
+    "percentile",
+    "slow"
+  ],
+  "aliases": [
+    "tail-latency"
+  ],
+  "keywords": [
+    "p99",
+    "percentile",
+    "tail latency",
+    "slow requests",
+    "sla"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 20H21",
+      "closed": false
+    },
+    {
+      "d": "M5 11V20",
+      "closed": false
+    },
+    {
+      "d": "M9 14V20",
+      "closed": false
+    },
+    {
+      "d": "M13 16V20",
+      "closed": false
+    },
+    {
+      "d": "M19 4V20",
+      "closed": false
+    }
+  ]
+}

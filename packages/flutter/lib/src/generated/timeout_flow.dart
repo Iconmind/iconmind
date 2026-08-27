@@ -4,6 +4,6 @@ import '../data.dart';
 /// TimeoutFlow
 const IconMindData timeoutFlow = IconMindData(
   'timeout-flow',
-  [N('M2 12a6 6 0 1 0 12 0 6 6 0 1 0 -12 0'), N('M8 9v3h3'), N('M16 12h4'), N('m18 10 2 2 -2 2')],
-  [N.tint('M2 12a6 6 0 1 0 12 0 6 6 0 1 0 -12 0'), N('M2 12a6 6 0 1 0 12 0 6 6 0 1 0 -12 0'), N('M8 9v3h3'), N('M16 12h4'), N('m18 10 2 2 -2 2')],
+  [N('M2 12a5 5 0 1 0 10 0 5 5 0 1 0 -10 0'), N('M7 9v3h2.5'), N('M15 12h3'), N('M21 7v10')],
+  [N.tint('M2 12a5 5 0 1 0 10 0 5 5 0 1 0 -10 0'), N('M2 12a5 5 0 1 0 10 0 5 5 0 1 0 -10 0'), N('M7 9v3h2.5'), N('M15 12h3'), N('M21 7v10')],
 );
