@@ -22,6 +22,7 @@ jobs:
       # below compares pre-canonical output against canonical files.
       - run: pnpm icons:build
       - run: pnpm icons:optimize
+      - run: pnpm typecheck
       - run: pnpm icons:validate
       - run: pnpm icons:duplicates
 
