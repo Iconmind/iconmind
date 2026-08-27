@@ -71,28 +71,49 @@ never by drawing one inline.
 
 ## Where the 500 come from
 
-Allocation by category, chosen from where the vocabulary is thinnest against how the
-field has grown. Names below are candidate directions, not final slugs — every batch
-starts with `pnpm icons:duplicates` and the naming rules in CONTRIBUTING.
+**Honest first step: the inventory, not memory.** A draft of this section named
+"kv-cache", "image-gen" and "prompt-injection" as candidate directions — a spot
+check found more than half of them already drawn. The set is more complete than
+anyone's recollection of it, so every batch's naming phase starts from the actual
+list, not from a brainstorm:
 
-| Category | + | Directions (examples) |
+```bash
+node -e "const m=require('./packages/icons/dist/metadata.json');
+  for (const i of m.icons) console.log(i.category+'/'+i.slug)" | sort
+pnpm icons:duplicates        # then check the metaphor, not just the name
+```
+
+The allocation below is a **budget**, not a promise — where the vocabulary is
+thinnest against how the field has grown. The example directions are ones verified
+absent from the set at the time of writing; each still gets the duplicates check
+before drawing, and a category that runs out of *good* concepts hands its budget to
+one that has not. If the set runs dry of concepts a person could guess without a
+label at 1,400, the right total is 1,400 — padding to a round number with jargon
+nobody searches for is how a vocabulary rots.
+
+| Category | + | Verified-absent example directions |
 |---|---|---|
-| ai | 90 | serving internals (kv-cache, paged-attention, speculative-decode, batching, warm-pool), quantisation/distillation (int8, awq, teacher-student), preference training (dpo, rlhf, reward-model), multimodal (image-gen, video-gen, audio-gen, ocr, caption), synthetic data, evals (rubric, judge, leaderboard, contamination) |
-| agents | 70 | computer-use (screen, click, type, browse), browser agents, voice agents (listen, speak, interrupt), guardrails (policy-check, refusal, escalate-human), A2A (discover, capability-card), skills, session/resume, sandbox levels |
-| devtools | 40 | notebooks (cell-run, kernel, restart), profiling (allocation, gc-pause), testing (property-test, snapshot-test, mutation-test), editors (multi-cursor, refactor-rename) |
-| rag | 40 | graph-rag, hybrid-search, chunk overlap/window, citation-check, freshness, index-rebuild, late-interaction, reranker families |
-| data | 40 | lakehouse, iceberg-style tables, cdc, schema-evolve, data-contract, quality-gate, lineage-column, materialise |
-| devops | 40 | gpu fleet (gpu, vram, mig, node-pool), model-deploy (shadow, ab-serve, warm-start), incident (sev1, runbook-run, page-escalate) |
-| security | 40 | AI security (prompt-injection, jailbreak, data-exfil, model-theft, pii-redact, watermark), plus classic gaps (mfa-push, session-hijack) |
-| analytics | 30 | LLM observability (trace-tree, token-cost, latency-p99, feedback-thumbs), cost dashboards |
-| automation | 30 | triggers (email, form, cron-miss), human-in-the-loop (approve-step, reject-step, handback), retries/backoff |
-| cloud | 30 | finops (commitment, rightsize, spot), serverless (cold-start, concurrency), networking (private-endpoint, egress) |
-| mcp | 30 | elicitation, structured-output, roots-add, auth-flow, gateway, server-marketplace, well-known |
-| interface | 20 | real gaps only — media controls, file types, editor chrome — checked against Lucide overlap first: we sit beside generalist sets, not inside them |
+| ai | 90 | speculative-decode, dpo, rlhf, reward-model, teacher-student, contamination-check, best-of-n, logprobs, curriculum |
+| agents | 70 | computer-use, click-action, type-action, browser-agent, voice-agent, interrupt, capability-card, handback, skill-install |
+| devtools | 40 | property-test, mutation-test, snapshot-test, kernel-restart, multi-cursor, refactor-rename, gc-pause |
+| rag | 40 | graph-rag, late-interaction, chunk-overlap, citation-check, index-rebuild, freshness-probe |
+| data | 40 | cdc, data-contract, schema-evolve, quality-gate, materialised-view, iceberg-table |
+| devops | 40 | shadow-deploy, ab-serve, warm-start, vram, node-pool, sev1, page-escalate |
+| security | 40 | jailbreak, pii-redact, data-exfil, model-theft, mfa-push, session-hijack |
+| analytics | 30 | trace-tree, latency-p99, feedback-thumbs, eval-dashboard |
+| automation | 30 | approve-step, reject-step, trigger-email, cron-miss, backoff |
+| cloud | 30 | commitment, rightsize, private-endpoint, egress-cost, concurrency-limit |
+| mcp | 30 | elicitation, structured-output, roots-add, auth-flow, gateway, well-known |
+| interface | 20 | real gaps only, checked against Lucide overlap first — we sit beside generalist sets, not inside them |
 
-**Total: 500.**
+**Total budget: 500.**
 
----
+### Metadata is half the work
+
+An icon nobody can find does not exist. Every new concept ships with the same
+metadata quality bar as the drawing: a one-sentence description that says what the
+thing *is*, tags a user would type, keywords covering the synonyms, and `related`
+links both ways. The search index and the MCP server are only as good as this.
 
 ## The batch loop
 
