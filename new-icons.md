@@ -86,7 +86,9 @@ pnpm icons:duplicates        # then check the metaphor, not just the name
 The allocation below is a **budget**, not a promise — where the vocabulary is
 thinnest against how the field has grown. The example directions are ones verified
 absent from the set at the time of writing; each still gets the duplicates check
-before drawing, and a category that runs out of *good* concepts hands its budget to
+before drawing (a second pass on this very table caught four more collisions, and
+`backoff` hiding as a keyword of `retry` — the check is against metaphors and
+keywords, not just slugs), and a category that runs out of *good* concepts hands its budget to
 one that has not. If the set runs dry of concepts a person could guess without a
 label at 1,400, the right total is 1,400 — padding to a round number with jargon
 nobody searches for is how a vocabulary rots.
@@ -96,14 +98,14 @@ nobody searches for is how a vocabulary rots.
 | ai | 90 | speculative-decode, dpo, rlhf, reward-model, teacher-student, contamination-check, best-of-n, logprobs, curriculum |
 | agents | 70 | computer-use, click-action, type-action, browser-agent, voice-agent, interrupt, capability-card, handback, skill-install |
 | devtools | 40 | property-test, mutation-test, snapshot-test, kernel-restart, multi-cursor, refactor-rename, gc-pause |
-| rag | 40 | graph-rag, late-interaction, chunk-overlap, citation-check, index-rebuild, freshness-probe |
-| data | 40 | cdc, data-contract, schema-evolve, quality-gate, materialised-view, iceberg-table |
+| rag | 40 | graph-rag, late-interaction, citation-check, index-rebuild, freshness-probe |
+| data | 40 | cdc, schema-evolve, quality-gate, materialised-view, iceberg-table |
 | devops | 40 | shadow-deploy, ab-serve, warm-start, vram, node-pool, sev1, page-escalate |
 | security | 40 | jailbreak, pii-redact, data-exfil, model-theft, mfa-push, session-hijack |
 | analytics | 30 | trace-tree, latency-p99, feedback-thumbs, eval-dashboard |
-| automation | 30 | approve-step, reject-step, trigger-email, cron-miss, backoff |
+| automation | 30 | approve-step, reject-step, trigger-email, cron-miss |
 | cloud | 30 | commitment, rightsize, private-endpoint, egress-cost, concurrency-limit |
-| mcp | 30 | elicitation, structured-output, roots-add, auth-flow, gateway, well-known |
+| mcp | 30 | elicitation, roots-add, auth-flow, well-known |
 | interface | 20 | real gaps only, checked against Lucide overlap first — we sit beside generalist sets, not inside them |
 
 **Total budget: 500.**
