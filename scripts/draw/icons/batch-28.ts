@@ -54,9 +54,11 @@ export const BATCH_28: Icon[] = [
     name: "Deploy rollback", description: "Undo the last release",
     tags: ["revert", "previous", "back"], family: "machine",
     aliases: [], keywords: ["roll back", "previous version", "undo deploy", "recover"],
+    // Out of the crate and back to the left — the release, returned to sender. The old
+    // drawing was a chamfered box with an arc whose head fused into its own start.
     shapes: [
-      frame(4, 11, 16, 10, 3, { chamfer: 3, gap: 4 }),
-      arc(12, 6, 4, 180, 0), poly([[10, 4], [8, 6], [10, 8]]),
+      frame(4, 11, 16, 10, 3, { gap: 5 }),
+      poly([[12, 13], [12, 6], [8, 6]]), poly([[8, 3.5], [5.5, 6], [8, 8.5]]),
     ],
   },
   {

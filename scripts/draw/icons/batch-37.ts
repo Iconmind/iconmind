@@ -39,8 +39,11 @@ export const BATCH_37: Icon[] = [
     tags: ["submit", "post", "away"], family: "figure",
     aliases: [], keywords: ["submit", "post message", "deliver", "paper plane", "go"],
     shapes: [
-      rect(2, 6, 13, 12, 2), poly([[2, 6], [8.5, 12.5], [15, 6]]),
-      row(12, 17, 21), poly([[18, 9], [21, 12], [18, 15]]),
+      // The send button itself: a ring with the arrow leaving up and to the right.
+      // The old envelope-beside-an-arrow was `trigger-email`'s layout wearing a
+      // different name.
+      disc(12, 12, 9), poly([[8.5, 15.5], [13, 11]]),
+      poly([[10.5, 9], [15, 9], [15, 13.5]]),
     ],
   },
 

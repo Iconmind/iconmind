@@ -1,4 +1,4 @@
-import { allCategories, iconCount, version } from "@/lib/icons";
+import { allCategories, allIcons, iconCount, version } from "@/lib/icons";
 import { orderedPages } from "@/lib/source";
 import { SITE_URL } from "@/lib/site";
 
@@ -46,6 +46,10 @@ ${docs.map((p) => `- [${p.data.title}](${SITE_URL}${p.url}/): ${p.data.descripti
 - [All icons](${SITE_URL}/icons/): the full set, searchable.
 - [Categories](${SITE_URL}/categories/): ${allCategories.length} domains.
 ${allCategories.map((c) => `- [${c.name}](${SITE_URL}/categories/${c.slug}/): ${c.count} icons across ${c.subcategories.length} groups.`).join("\n")}
+
+## Every icon, by name
+
+${allCategories.map((c) => `### ${c.slug}\n${allIcons.filter((i) => i.category === c.slug).map((i) => i.slug).join(", ")}`).join("\n\n")}
 
 ## For assistants
 

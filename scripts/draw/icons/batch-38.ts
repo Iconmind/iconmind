@@ -187,8 +187,9 @@ export const BATCH_38: Icon[] = [
     tags: ["return", "bounce", "reject"], family: "figure",
     aliases: ["return"], keywords: ["return", "bounce", "send to sender", "reject", "back"],
     shapes: [
-      rect(2, 6, 13, 12, 2), poly([[2, 6], [8.5, 12.5], [15, 6]]),
-      row(12, 17, 21), poly([[20, 9], [17, 12], [20, 15]]),
+      // `send`'s ring with the arrow coming back down-left: the reply.
+      disc(12, 12, 9), poly([[15.5, 8.5], [11, 13]]),
+      poly([[13.5, 15], [9, 15], [9, 10.5]]),
     ],
   },
   {
