@@ -1,5 +1,11 @@
 # @iconmind/icons
 
+## 0.3.6
+
+### Patch Changes
+
+- fix(ci): keep the lockfile valid across a release
+
 ## 0.3.5
 
 ### Patch Changes
