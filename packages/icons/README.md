@@ -18,5 +18,5 @@ import agent from "@iconmind/icons/icons/agents/agent/outline-regular.svg";
 import metadata from "@iconmind/icons/metadata.json";
 ```
 
-Docs & search: [iconmind.vercel.app](https://iconmind.vercel.app) · React components:
+Docs & search: [iconmind.dev](https://iconmind.dev) · React components:
 [`@iconmind/react`](https://www.npmjs.com/package/@iconmind/react) · MIT.

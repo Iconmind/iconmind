@@ -1,6 +1,6 @@
 # @iconmind/astro
 
-Astro components for [IconMind](https://iconmind.vercel.app) — 1,041 tree-shakeable icons
+Astro components for [IconMind](https://iconmind.dev) — 1,041 tree-shakeable icons
 for AI-era software: LLMs, agents, MCP, RAG, and everything around them.
 
 ```bash
@@ -18,4 +18,4 @@ import { Agent, ContextWindow } from "@iconmind/astro";
 
 Zero client JavaScript — icons render to plain SVG at build time.
 
-Docs & search: [iconmind.vercel.app](https://iconmind.vercel.app) · MIT.
+Docs & search: [iconmind.dev](https://iconmind.dev) · MIT.

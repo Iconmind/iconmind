@@ -6,7 +6,7 @@ on a 24px grid with machine-validated consistency.
 
 Every icon ships in **two variants** (outline, duotone) across **three weights**
 (thin, regular, bold), rendered from one source of truth shared with the
-[React, Vue, Svelte, Solid, Preact, React Native, Astro and Laravel packages](https://iconmind.vercel.app/docs/installation/).
+[React, Vue, Svelte, Solid, Preact, React Native, Astro and Laravel packages](https://iconmind.dev/docs/installation/).
 
 ```dart
 import 'package:iconmind_flutter/iconmind_flutter.dart';
@@ -46,4 +46,4 @@ honest — a font would have flattened all six drawings into one filled glyph.
 ## Browse the set
 
 Every icon, searchable, with live code for every framework:
-[iconmind.vercel.app](https://iconmind.vercel.app)
+[iconmind.dev](https://iconmind.dev)

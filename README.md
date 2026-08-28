@@ -13,10 +13,10 @@
 </p>
 
 <p align="center">
-  <a href="https://iconmind.vercel.app"><b>Website</b></a> ·
-  <a href="https://iconmind.vercel.app/icons/"><b>Browse all icons</b></a> ·
-  <a href="https://iconmind.vercel.app/docs/installation/"><b>Docs</b></a> ·
-  <a href="https://iconmind.vercel.app/docs/mcp/"><b>MCP server</b></a>
+  <a href="https://iconmind.dev"><b>Website</b></a> ·
+  <a href="https://iconmind.dev/icons/"><b>Browse all icons</b></a> ·
+  <a href="https://iconmind.dev/docs/installation/"><b>Docs</b></a> ·
+  <a href="https://iconmind.dev/docs/mcp/"><b>MCP server</b></a>
 </p>
 
 <p align="center">
@@ -81,16 +81,16 @@ wider behind them — so the whole set answers the variant switch, not just the 
 
 | Stack | Install |
 |---|---|
-| [React](https://iconmind.vercel.app/docs/react/) | `npm i @iconmind/react` |
-| [Vue 3](https://iconmind.vercel.app/docs/vue/) | `npm i @iconmind/vue` |
-| [Svelte](https://iconmind.vercel.app/docs/svelte/) | `npm i @iconmind/svelte` |
-| [Solid](https://iconmind.vercel.app/docs/solid/) | `npm i @iconmind/solid` |
-| [Preact](https://iconmind.vercel.app/docs/preact/) | `npm i @iconmind/preact` |
-| [React Native](https://iconmind.vercel.app/docs/react-native/) | `npm i @iconmind/react-native react-native-svg` |
-| [Astro](https://iconmind.vercel.app/docs/astro/) | `npm i @iconmind/astro` |
+| [React](https://iconmind.dev/docs/react/) | `npm i @iconmind/react` |
+| [Vue 3](https://iconmind.dev/docs/vue/) | `npm i @iconmind/vue` |
+| [Svelte](https://iconmind.dev/docs/svelte/) | `npm i @iconmind/svelte` |
+| [Solid](https://iconmind.dev/docs/solid/) | `npm i @iconmind/solid` |
+| [Preact](https://iconmind.dev/docs/preact/) | `npm i @iconmind/preact` |
+| [React Native](https://iconmind.dev/docs/react-native/) | `npm i @iconmind/react-native react-native-svg` |
+| [Astro](https://iconmind.dev/docs/astro/) | `npm i @iconmind/astro` |
 | [Flutter](https://pub.dev/packages/iconmind_flutter) | `flutter pub add iconmind_flutter` |
-| [Laravel Blade](https://iconmind.vercel.app/docs/laravel/) | `composer require iconmind/blade-iconmind` |
-| [Plain SVG / sprite](https://iconmind.vercel.app/docs/svg/) | `npm i @iconmind/icons` |
+| [Laravel Blade](https://iconmind.dev/docs/laravel/) | `composer require iconmind/blade-iconmind` |
+| [Plain SVG / sprite](https://iconmind.dev/docs/svg/) | `npm i @iconmind/icons` |
 
 ### One API, everywhere
 
@@ -149,7 +149,7 @@ claude mcp add iconmind -- npx -y @iconmind/mcp
 ```
 
 It runs offline, bundles the icon data, and starts in well under a second. The site also
-serves [`llms.txt`](https://iconmind.vercel.app/llms.txt) and a full machine-readable
+serves [`llms.txt`](https://iconmind.dev/llms.txt) and a full machine-readable
 inventory, so assistants without tool access can still pick real names.
 
 ## No build step at all
@@ -195,7 +195,7 @@ inside it, so siblings are byte-identical where they agree.
 
 So you can usually guess the next icon in a family before you see it. The full
 reasoning — with the measurements behind each rule — is in the
-[design guidelines](https://iconmind.vercel.app/docs/design-guidelines/).
+[design guidelines](https://iconmind.dev/docs/design-guidelines/).
 
 ### Measured, not just validated
 

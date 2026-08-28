@@ -1,18 +1,41 @@
 {
     "name": "iconmind/blade-iconmind",
     "description": "Blade components for IconMind — 1,008 icons for AI-era software (LLMs, agents, MCP, RAG).",
-    "keywords": ["laravel", "blade", "icons", "svg", "ai", "llm", "agents", "mcp", "rag", "iconmind"],
+    "keywords": [
+        "laravel",
+        "blade",
+        "icons",
+        "svg",
+        "ai",
+        "llm",
+        "agents",
+        "mcp",
+        "rag",
+        "iconmind"
+    ],
     "license": "MIT",
-    "homepage": "https://iconmind.vercel.app",
-    "support": { "issues": "https://github.com/Iconmind/iconmind/issues" },
+    "homepage": "https://iconmind.dev",
+    "support": {
+        "issues": "https://github.com/Iconmind/iconmind/issues"
+    },
     "require": {
         "php": "^8.1",
         "blade-ui-kit/blade-icons": "^1.6"
     },
-    "autoload": { "psr-4": { "Iconmind\\Blade\\": "src/" } },
-    "extra": {
-        "laravel": { "providers": ["Iconmind\\Blade\\BladeIconmindServiceProvider"] }
+    "autoload": {
+        "psr-4": {
+            "Iconmind\\Blade\\": "src/"
+        }
     },
-    "config": { "sort-packages": true },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Iconmind\\Blade\\BladeIconmindServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
     "minimum-stability": "stable"
 }

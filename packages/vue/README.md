@@ -1,6 +1,6 @@
 # @iconmind/vue
 
-Vue 3 components for [IconMind](https://iconmind.vercel.app) — 1,041 tree-shakeable icons
+Vue 3 components for [IconMind](https://iconmind.dev) — 1,041 tree-shakeable icons
 for AI-era software: LLMs, agents, MCP, RAG, and everything around them.
 
 ```bash
@@ -22,4 +22,4 @@ import { Agent, ContextWindow, VectorDatabase } from "@iconmind/vue";
 - 24×24 grid, 2px stroke — sits cleanly next to Lucide
 - `size`, `color`, `variant`, `weight`, `strokeWidth` props; everything else falls through to the `<svg>`
 
-Docs & search: [iconmind.vercel.app](https://iconmind.vercel.app) · MIT.
+Docs & search: [iconmind.dev](https://iconmind.dev) · MIT.
