@@ -1,0 +1,31 @@
+{
+  "slug": "iceberg-table",
+  "category": "data",
+  "subcategory": "catalog",
+  "name": "Iceberg",
+  "description": "Most of the table is under the waterline",
+  "tags": [
+    "iceberg",
+    "hidden",
+    "lake"
+  ],
+  "keywords": [
+    "iceberg table",
+    "apache iceberg"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 4.5L14.5 7L9.5 7Z",
+      "closed": true
+    },
+    {
+      "d": "M3 10H21",
+      "closed": false
+    },
+    {
+      "d": "M7 13L17 13L12 18Z",
+      "closed": true
+    }
+  ]
+}

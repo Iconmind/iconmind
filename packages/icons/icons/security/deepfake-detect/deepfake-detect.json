@@ -1,0 +1,39 @@
+{
+  "slug": "deepfake-detect",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Deepfake detect",
+  "description": "The face that never had a body",
+  "tags": [
+    "face",
+    "fake",
+    "lens"
+  ],
+  "keywords": [
+    "deepfake detection",
+    "synthetic face"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 10a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12.5 16.5a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M19.5 19.5L21.5 21.5",
+      "closed": false
+    }
+  ]
+}

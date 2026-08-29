@@ -1,0 +1,38 @@
+{
+  "slug": "target-leak",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Target leak",
+  "description": "The answer key fell into the training set",
+  "tags": [
+    "leak",
+    "cheat",
+    "target"
+  ],
+  "aliases": [
+    "label-leak"
+  ],
+  "keywords": [
+    "target leakage",
+    "data leakage"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 9a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 17.5V20",
+      "closed": false
+    },
+    {
+      "d": "M9 19V21.5",
+      "closed": false
+    }
+  ]
+}

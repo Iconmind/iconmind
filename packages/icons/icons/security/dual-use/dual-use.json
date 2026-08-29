@@ -1,0 +1,39 @@
+{
+  "slug": "dual-use",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Dual use",
+  "description": "Cures with one edge, cuts with the other",
+  "tags": [
+    "both",
+    "tool",
+    "edges"
+  ],
+  "keywords": [
+    "dual use",
+    "two edges"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 15A2 2 0 0 1 8 13H16A2 2 0 0 1 18 15V19A2 2 0 0 1 16 21H8A2 2 0 0 1 6 19Z",
+      "closed": true
+    },
+    {
+      "d": "M9 10V13",
+      "closed": false
+    },
+    {
+      "d": "M15 10V13",
+      "closed": false
+    },
+    {
+      "d": "M6 3.5L3.5 6L6 8.5",
+      "closed": false
+    },
+    {
+      "d": "M18 3.5L20.5 6L18 8.5",
+      "closed": false
+    }
+  ]
+}

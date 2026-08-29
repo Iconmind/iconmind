@@ -1,0 +1,31 @@
+{
+  "slug": "delta-table",
+  "category": "data",
+  "subcategory": "catalog",
+  "name": "Delta table",
+  "description": "The table that remembers its changes",
+  "tags": [
+    "delta",
+    "versioned",
+    "lake"
+  ],
+  "keywords": [
+    "delta table",
+    "delta lake"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 4L16.5 8.5L7.5 8.5Z",
+      "closed": true
+    },
+    {
+      "d": "M4 13.5H20",
+      "closed": false
+    },
+    {
+      "d": "M4 18H20",
+      "closed": false
+    }
+  ]
+}

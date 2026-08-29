@@ -1,0 +1,30 @@
+{
+  "slug": "picture-in-picture",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Picture in picture",
+  "description": "The small window that follows you",
+  "tags": [
+    "pip",
+    "overlay",
+    "corner"
+  ],
+  "aliases": [
+    "pip"
+  ],
+  "keywords": [
+    "picture in picture",
+    "floating window"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M12 14.75A2.25 2.25 0 0 1 14.25 12.5H16.75A2.25 2.25 0 0 1 19 14.75V14.75A2.25 2.25 0 0 1 16.75 17H14.25A2.25 2.25 0 0 1 12 14.75Z",
+      "closed": true
+    }
+  ]
+}

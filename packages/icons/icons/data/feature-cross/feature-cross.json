@@ -1,0 +1,35 @@
+{
+  "slug": "feature-cross",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Feature cross",
+  "description": "Two columns, multiplied into a third",
+  "tags": [
+    "combine",
+    "interaction",
+    "columns"
+  ],
+  "keywords": [
+    "feature cross",
+    "interaction term"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 4V20",
+      "closed": false
+    },
+    {
+      "d": "M19 4V20",
+      "closed": false
+    },
+    {
+      "d": "M9.5 9.5L14.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M14.5 9.5L9.5 14.5",
+      "closed": false
+    }
+  ]
+}

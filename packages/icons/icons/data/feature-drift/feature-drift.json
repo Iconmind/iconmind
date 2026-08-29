@@ -1,0 +1,27 @@
+{
+  "slug": "feature-drift",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Feature drift",
+  "description": "The column is not what it was in March",
+  "tags": [
+    "shift",
+    "change",
+    "wander"
+  ],
+  "keywords": [
+    "feature drift",
+    "input drift"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 4V20",
+      "closed": false
+    },
+    {
+      "d": "M10 9L13 12L16 9L19 12",
+      "closed": false
+    }
+  ]
+}

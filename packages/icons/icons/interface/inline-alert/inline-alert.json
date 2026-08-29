@@ -1,0 +1,35 @@
+{
+  "slug": "inline-alert",
+  "category": "interface",
+  "subcategory": "state",
+  "name": "Inline alert",
+  "description": "A warning that sits inside the flow",
+  "tags": [
+    "notice",
+    "warning",
+    "bar"
+  ],
+  "keywords": [
+    "inline alert",
+    "callout"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 10A2 2 0 0 1 4 8H20A2 2 0 0 1 22 10V14A2 2 0 0 1 20 16H4A2 2 0 0 1 2 14Z",
+      "closed": true
+    },
+    {
+      "d": "M6 10V12.5",
+      "closed": false
+    },
+    {
+      "d": "M5 14.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12H18",
+      "closed": false
+    }
+  ]
+}

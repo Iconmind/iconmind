@@ -1,0 +1,35 @@
+{
+  "slug": "type-error",
+  "category": "devtools",
+  "subcategory": "code",
+  "name": "Type error",
+  "description": "The shape you promised was not the shape you sent",
+  "tags": [
+    "types",
+    "mismatch",
+    "alert"
+  ],
+  "keywords": [
+    "type error",
+    "type mismatch"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 7L4.5 9.5L7 12",
+      "closed": false
+    },
+    {
+      "d": "M17 7L19.5 9.5L17 12",
+      "closed": false
+    },
+    {
+      "d": "M12 6V10.5",
+      "closed": false
+    },
+    {
+      "d": "M11 13.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

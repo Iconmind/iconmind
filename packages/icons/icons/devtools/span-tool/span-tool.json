@@ -1,0 +1,31 @@
+{
+  "slug": "span-tool",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "Span",
+  "description": "How long each piece actually took",
+  "tags": [
+    "trace",
+    "timing",
+    "waterfall"
+  ],
+  "keywords": [
+    "span",
+    "trace waterfall"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 5H12",
+      "closed": false
+    },
+    {
+      "d": "M7 11H18",
+      "closed": false
+    },
+    {
+      "d": "M10 17H21",
+      "closed": false
+    }
+  ]
+}

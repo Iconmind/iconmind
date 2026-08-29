@@ -1,0 +1,30 @@
+{
+  "slug": "test-double",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Test double",
+  "description": "The understudy that takes the stage",
+  "tags": [
+    "mock",
+    "fake",
+    "shadow"
+  ],
+  "aliases": [
+    "mock-double"
+  ],
+  "keywords": [
+    "test double",
+    "mock"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 5L11 12L4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M12 5L19 12L12 19",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "assert-check",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Assert",
+  "description": "If this is false, everything stops",
+  "tags": [
+    "invariant",
+    "check",
+    "must"
+  ],
+  "keywords": [
+    "assertion",
+    "assert",
+    "invariant check"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7.5 4L5 4L5 20L7.5 20",
+      "closed": false
+    },
+    {
+      "d": "M16.5 4L19 4L19 20L16.5 20",
+      "closed": false
+    },
+    {
+      "d": "M8.5 12L11 14.5L16 9.5",
+      "closed": false
+    }
+  ]
+}

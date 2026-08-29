@@ -1,0 +1,34 @@
+{
+  "slug": "nullable",
+  "category": "devtools",
+  "subcategory": "code",
+  "name": "Nullable",
+  "description": "There might be nothing in this box",
+  "tags": [
+    "maybe",
+    "null",
+    "optional"
+  ],
+  "aliases": [
+    "optional-type"
+  ],
+  "keywords": [
+    "nullable",
+    "optional"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V18A2 2 0 0 1 18 20H6A2 2 0 0 1 4 18Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 10A2.5 2.5 0 1 1 12 12.5",
+      "closed": false
+    },
+    {
+      "d": "M11 16a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

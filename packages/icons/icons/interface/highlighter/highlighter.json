@@ -1,0 +1,31 @@
+{
+  "slug": "highlighter",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Highlighter",
+  "description": "The line that suddenly matters",
+  "tags": [
+    "mark",
+    "pen",
+    "emphasis"
+  ],
+  "keywords": [
+    "highlighter",
+    "highlight text"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M11 11L14 8L16 10L13 13Z",
+      "closed": true
+    },
+    {
+      "d": "M14 8L18 4",
+      "closed": false
+    },
+    {
+      "d": "M3 17H12",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "data-residency",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Data residency",
+  "description": "It lives here, by law",
+  "tags": [
+    "region",
+    "pin",
+    "law"
+  ],
+  "keywords": [
+    "data residency",
+    "sovereignty"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 10a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 10H15",
+      "closed": false
+    },
+    {
+      "d": "M15 15a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 18V21",
+      "closed": false
+    }
+  ]
+}

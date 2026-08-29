@@ -1,0 +1,38 @@
+{
+  "slug": "layer-down",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Layer down",
+  "description": "Send it toward the paper",
+  "tags": [
+    "stack",
+    "lower",
+    "order"
+  ],
+  "aliases": [
+    "send-backward"
+  ],
+  "keywords": [
+    "layer down",
+    "send backward"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 4.5A2 2 0 0 1 6 2.5H18A2 2 0 0 1 20 4.5V4.5A2 2 0 0 1 18 6.5H6A2 2 0 0 1 4 4.5Z",
+      "closed": true
+    },
+    {
+      "d": "M4 11.5A2 2 0 0 1 6 9.5H18A2 2 0 0 1 20 11.5V11.5A2 2 0 0 1 18 13.5H6A2 2 0 0 1 4 11.5Z",
+      "closed": true
+    },
+    {
+      "d": "M12 15.5V20",
+      "closed": false
+    },
+    {
+      "d": "M9.5 19.5L12 22L14.5 19.5",
+      "closed": false
+    }
+  ]
+}

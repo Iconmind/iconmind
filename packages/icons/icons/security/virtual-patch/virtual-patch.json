@@ -1,0 +1,27 @@
+{
+  "slug": "virtual-patch",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Virtual patch",
+  "description": "Armour over the hole, until the fix lands",
+  "tags": [
+    "shield",
+    "patch",
+    "interim"
+  ],
+  "keywords": [
+    "virtual patch",
+    "waf rule"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M9 11A2 2 0 0 1 11 9H13.5A2 2 0 0 1 15.5 11V11A2 2 0 0 1 13.5 13H11A2 2 0 0 1 9 11Z",
+      "closed": true
+    }
+  ]
+}

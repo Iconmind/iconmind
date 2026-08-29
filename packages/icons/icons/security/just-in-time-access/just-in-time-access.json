@@ -1,0 +1,46 @@
+{
+  "slug": "just-in-time-access",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Just-in-time access",
+  "description": "The key exists only for the hour",
+  "tags": [
+    "temporary",
+    "key",
+    "clock"
+  ],
+  "aliases": [
+    "jit-access"
+  ],
+  "keywords": [
+    "jit access",
+    "temporary elevation"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 8a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 5.5V8",
+      "closed": false
+    },
+    {
+      "d": "M8 8H10.5",
+      "closed": false
+    },
+    {
+      "d": "M13 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 17H21.5",
+      "closed": false
+    },
+    {
+      "d": "M20 17V19.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "language-server",
+  "category": "devtools",
+  "subcategory": "editor",
+  "name": "Language server",
+  "description": "The thing that knows what your code means",
+  "tags": [
+    "lsp",
+    "editor",
+    "smart"
+  ],
+  "aliases": [
+    "lsp"
+  ],
+  "keywords": [
+    "language server",
+    "lsp"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 6A2 2 0 0 1 5 4H19A2 2 0 0 1 21 6V14A2 2 0 0 1 19 16H5A2 2 0 0 1 3 14Z",
+      "closed": true
+    },
+    {
+      "d": "M8 7L5.5 9.5L8 12",
+      "closed": false
+    },
+    {
+      "d": "M16 7L18.5 9.5L16 12",
+      "closed": false
+    },
+    {
+      "d": "M9 16V19.5",
+      "closed": false
+    },
+    {
+      "d": "M15 16V19.5",
+      "closed": false
+    }
+  ]
+}

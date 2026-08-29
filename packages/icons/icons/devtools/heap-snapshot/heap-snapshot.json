@@ -1,0 +1,35 @@
+{
+  "slug": "heap-snapshot",
+  "category": "devtools",
+  "subcategory": "debug",
+  "name": "Heap snapshot",
+  "description": "The memory, photographed mid-thought",
+  "tags": [
+    "memory",
+    "capture",
+    "camera"
+  ],
+  "keywords": [
+    "heap snapshot",
+    "memory snapshot"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M8 3.5A1.5 1.5 0 0 1 9.5 2H14.5A1.5 1.5 0 0 1 16 3.5V3.5A1.5 1.5 0 0 1 14.5 5H9.5A1.5 1.5 0 0 1 8 3.5Z",
+      "closed": true
+    },
+    {
+      "d": "M3 10A2 2 0 0 1 5 8H19A2 2 0 0 1 21 10V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M8 14a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

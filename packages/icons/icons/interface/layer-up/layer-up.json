@@ -1,0 +1,38 @@
+{
+  "slug": "layer-up",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Layer up",
+  "description": "Bring it nearer the eye",
+  "tags": [
+    "stack",
+    "raise",
+    "order"
+  ],
+  "aliases": [
+    "bring-forward"
+  ],
+  "keywords": [
+    "layer up",
+    "bring forward"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 4V8.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 4.5L12 2L14.5 4.5",
+      "closed": false
+    },
+    {
+      "d": "M4 12.5A2 2 0 0 1 6 10.5H18A2 2 0 0 1 20 12.5V12.5A2 2 0 0 1 18 14.5H6A2 2 0 0 1 4 12.5Z",
+      "closed": true
+    },
+    {
+      "d": "M4 19.5A2 2 0 0 1 6 17.5H18A2 2 0 0 1 20 19.5V19.5A2 2 0 0 1 18 21.5H6A2 2 0 0 1 4 19.5Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "banner-dismiss",
+  "category": "interface",
+  "subcategory": "state",
+  "name": "Dismiss banner",
+  "description": "Understood; now go away",
+  "tags": [
+    "close",
+    "notice",
+    "bar"
+  ],
+  "keywords": [
+    "dismiss banner",
+    "close notice"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 10A2 2 0 0 1 4 8H20A2 2 0 0 1 22 10V14A2 2 0 0 1 20 16H4A2 2 0 0 1 2 14Z",
+      "closed": true
+    },
+    {
+      "d": "M5 12H11",
+      "closed": false
+    },
+    {
+      "d": "M15 10L19 14",
+      "closed": false
+    },
+    {
+      "d": "M19 10L15 14",
+      "closed": false
+    }
+  ]
+}

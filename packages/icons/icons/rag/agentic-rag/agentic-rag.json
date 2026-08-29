@@ -1,0 +1,31 @@
+{
+  "slug": "agentic-rag",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Agentic RAG",
+  "description": "The agent decides what to look up",
+  "tags": [
+    "agent",
+    "search",
+    "loop"
+  ],
+  "keywords": [
+    "agentic rag",
+    "agent retrieval"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M11 15a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 18L20.5 20.5",
+      "closed": false
+    }
+  ]
+}

@@ -138,7 +138,7 @@ export const BATCH_62: Icon[] = [
     tags: ["strict", "rules", "safe"], family: "window",
     aliases: [], keywords: ["strict mode", "strictness", "no loose ends"],
     shapes: [rect(3, 3, 18, 18, 2), rect(7, 7, 10, 10, 2)],
-  },
+  }, 
   {
     slug: "test-select", category: "devtools", subcategory: "testing",
     name: "Test select", description: "Run just the one that matters now",

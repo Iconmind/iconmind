@@ -1,0 +1,38 @@
+{
+  "slug": "parquet",
+  "category": "data",
+  "subcategory": "catalog",
+  "name": "Parquet",
+  "description": "The file that thinks in columns",
+  "tags": [
+    "columnar",
+    "file",
+    "format"
+  ],
+  "aliases": [
+    "columnar-file"
+  ],
+  "keywords": [
+    "parquet",
+    "columnar format"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 7V12",
+      "closed": false
+    },
+    {
+      "d": "M12 7V14",
+      "closed": false
+    },
+    {
+      "d": "M15 7V10",
+      "closed": false
+    }
+  ]
+}

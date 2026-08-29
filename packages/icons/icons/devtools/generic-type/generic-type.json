@@ -1,0 +1,31 @@
+{
+  "slug": "generic-type",
+  "category": "devtools",
+  "subcategory": "code",
+  "name": "Generic",
+  "description": "Works for whatever you put in the brackets",
+  "tags": [
+    "types",
+    "template",
+    "any"
+  ],
+  "keywords": [
+    "generics",
+    "type parameter"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V18A2 2 0 0 1 18 20H6A2 2 0 0 1 4 18Z",
+      "closed": true
+    },
+    {
+      "d": "M10 9.5L8 11.5L10 13.5",
+      "closed": false
+    },
+    {
+      "d": "M14 9.5L16 11.5L14 13.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "eval-rag",
+  "category": "rag",
+  "subcategory": "grounding",
+  "name": "RAG eval",
+  "description": "Grading the search, not just the answer",
+  "tags": [
+    "grade",
+    "check",
+    "search"
+  ],
+  "aliases": [
+    "rag-eval"
+  ],
+  "keywords": [
+    "rag evaluation",
+    "retrieval eval"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 9a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12.5 12.5L16 16",
+      "closed": false
+    },
+    {
+      "d": "M13 17L15.5 19.5L20 15",
+      "closed": false
+    }
+  ]
+}

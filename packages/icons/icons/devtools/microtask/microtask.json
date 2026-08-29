@@ -1,0 +1,39 @@
+{
+  "slug": "microtask",
+  "category": "devtools",
+  "subcategory": "code",
+  "name": "Microtask",
+  "description": "The little jobs that cut in line",
+  "tags": [
+    "queue",
+    "tiny",
+    "loop"
+  ],
+  "keywords": [
+    "microtask",
+    "event loop tasks"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

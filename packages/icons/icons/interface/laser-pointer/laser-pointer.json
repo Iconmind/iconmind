@@ -1,0 +1,31 @@
+{
+  "slug": "laser-pointer",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Laser pointer",
+  "description": "The dot everyone's eyes follow",
+  "tags": [
+    "point",
+    "beam",
+    "dot"
+  ],
+  "keywords": [
+    "laser pointer",
+    "pointer dot"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 19A2 2 0 0 1 4 17H6.5A2 2 0 0 1 8.5 19V19A2 2 0 0 1 6.5 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M9 16.5L16 9.5",
+      "closed": false
+    },
+    {
+      "d": "M17.5 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

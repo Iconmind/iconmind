@@ -1,0 +1,35 @@
+{
+  "slug": "capability-eval",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Capability eval",
+  "description": "Measure what it can do, before it does",
+  "tags": [
+    "measure",
+    "danger",
+    "bars"
+  ],
+  "keywords": [
+    "capability evaluation",
+    "dangerous capabilities"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M9 9V14",
+      "closed": false
+    },
+    {
+      "d": "M12 7V14",
+      "closed": false
+    },
+    {
+      "d": "M15 11V14",
+      "closed": false
+    }
+  ]
+}

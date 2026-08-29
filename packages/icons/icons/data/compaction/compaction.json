@@ -1,0 +1,39 @@
+{
+  "slug": "compaction",
+  "category": "data",
+  "subcategory": "catalog",
+  "name": "Compaction",
+  "description": "A thousand crumbs become one loaf",
+  "tags": [
+    "merge",
+    "files",
+    "squash"
+  ],
+  "keywords": [
+    "compaction",
+    "small files problem"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 8.5L12 11L14.5 8.5",
+      "closed": false
+    },
+    {
+      "d": "M6 17A2.5 2.5 0 0 1 8.5 14.5H15.5A2.5 2.5 0 0 1 18 17V17A2.5 2.5 0 0 1 15.5 19.5H8.5A2.5 2.5 0 0 1 6 17Z",
+      "closed": true
+    }
+  ]
+}

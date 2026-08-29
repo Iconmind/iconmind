@@ -69,9 +69,10 @@ import { BATCH_60 } from "./icons/batch-60.ts";
 import { BATCH_61 } from "./icons/batch-61.ts";
 import { BATCH_62 } from "./icons/batch-62.ts";
 import { BATCH_63 } from "./icons/batch-63.ts";
+import { BATCH_64 } from "./icons/batch-64.ts";
 
 const ICONS = [
-  ...BATCH_01, ...BATCH_02, ...BATCH_03, ...BATCH_04, ...BATCH_05, ...BATCH_06, ...BATCH_07, ...BATCH_08, ...BATCH_09, ...BATCH_10, ...BATCH_11, ...BATCH_12, ...BATCH_13, ...BATCH_14, ...BATCH_15, ...BATCH_16, ...BATCH_17, ...BATCH_18, ...BATCH_19, ...BATCH_20, ...BATCH_21, ...BATCH_22, ...BATCH_23, ...BATCH_24, ...BATCH_25, ...BATCH_26, ...BATCH_27, ...BATCH_28, ...BATCH_29, ...BATCH_30, ...BATCH_31, ...BATCH_32, ...BATCH_33, ...BATCH_34, ...BATCH_35, ...BATCH_36, ...BATCH_37, ...BATCH_38, ...BATCH_39, ...BATCH_40, ...BATCH_41, ...BATCH_42, ...BATCH_43, ...BATCH_44, ...BATCH_45, ...BATCH_46, ...BATCH_47, ...BATCH_48, ...BATCH_49, ...BATCH_50, ...BATCH_51, ...BATCH_52, ...BATCH_53, ...BATCH_54, ...BATCH_55, ...BATCH_56, ...BATCH_57, ...BATCH_58, ...BATCH_59, ...BATCH_60, ...BATCH_61, ...BATCH_62, ...BATCH_63,
+  ...BATCH_01, ...BATCH_02, ...BATCH_03, ...BATCH_04, ...BATCH_05, ...BATCH_06, ...BATCH_07, ...BATCH_08, ...BATCH_09, ...BATCH_10, ...BATCH_11, ...BATCH_12, ...BATCH_13, ...BATCH_14, ...BATCH_15, ...BATCH_16, ...BATCH_17, ...BATCH_18, ...BATCH_19, ...BATCH_20, ...BATCH_21, ...BATCH_22, ...BATCH_23, ...BATCH_24, ...BATCH_25, ...BATCH_26, ...BATCH_27, ...BATCH_28, ...BATCH_29, ...BATCH_30, ...BATCH_31, ...BATCH_32, ...BATCH_33, ...BATCH_34, ...BATCH_35, ...BATCH_36, ...BATCH_37, ...BATCH_38, ...BATCH_39, ...BATCH_40, ...BATCH_41, ...BATCH_42, ...BATCH_43, ...BATCH_44, ...BATCH_45, ...BATCH_46, ...BATCH_47, ...BATCH_48, ...BATCH_49, ...BATCH_50, ...BATCH_51, ...BATCH_52, ...BATCH_53, ...BATCH_54, ...BATCH_55, ...BATCH_56, ...BATCH_57, ...BATCH_58, ...BATCH_59, ...BATCH_60, ...BATCH_61, ...BATCH_62, ...BATCH_63, ...BATCH_64,
 ];
 
 const { icons, cells } = await buildAll(ICONS);

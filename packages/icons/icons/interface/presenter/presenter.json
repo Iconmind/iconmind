@@ -1,0 +1,34 @@
+{
+  "slug": "presenter",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Presenter",
+  "description": "The person beside the board",
+  "tags": [
+    "present",
+    "talk",
+    "board"
+  ],
+  "aliases": [
+    "presentation-mode"
+  ],
+  "keywords": [
+    "presenter",
+    "presentation"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 7A2 2 0 0 1 5 5H14A2 2 0 0 1 16 7V15A2 2 0 0 1 14 17H5A2 2 0 0 1 3 15Z",
+      "closed": true
+    },
+    {
+      "d": "M16.5 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 17A3.5 3.5 0 0 1 22 17",
+      "closed": false
+    }
+  ]
+}

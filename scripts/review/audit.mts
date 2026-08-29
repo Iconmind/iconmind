@@ -57,6 +57,8 @@ const ANCHORED = new Set([
   "analytics/novelty-effect",
   // Bracket-led compositions lean on their wall — bin-pack's own reason.
   "ai/kv-evict",
+  // A pointer is held at one edge; its dot lands at the other — the beam is the picture.
+  "interface/laser-pointer",
   // A boom gate hinges on its post; a warm pool sits on the ground it is dug into.
   "devops/admission-control", "devops/prewarm-pool",
   // Bars stand on their baseline; a funnel hangs from its mouth; an axes chart
@@ -67,6 +69,8 @@ const ANCHORED = new Set([
   "analytics/novelty-effect",
   // Bracket-led compositions lean on their wall — bin-pack's own reason.
   "ai/kv-evict",
+  // A pointer is held at one edge; its dot lands at the other — the beam is the picture.
+  "interface/laser-pointer",
 ]);
 
 function inkStats(svg: string, size: number) {

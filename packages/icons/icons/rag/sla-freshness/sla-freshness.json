@@ -1,0 +1,42 @@
+{
+  "slug": "sla-freshness",
+  "category": "rag",
+  "subcategory": "ingestion",
+  "name": "Freshness",
+  "description": "How old is the newest thing we know?",
+  "tags": [
+    "age",
+    "stale",
+    "clock"
+  ],
+  "aliases": [
+    "freshness-sla"
+  ],
+  "keywords": [
+    "freshness",
+    "stale docs"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M3 5H21",
+      "closed": false
+    },
+    {
+      "d": "M3 10H12",
+      "closed": false
+    },
+    {
+      "d": "M11.5 15a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 12V15",
+      "closed": false
+    },
+    {
+      "d": "M16 15H19",
+      "closed": false
+    }
+  ]
+}

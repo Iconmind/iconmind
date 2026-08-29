@@ -1,0 +1,32 @@
+{
+  "slug": "stub-tool",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Stub",
+  "description": "Looks like the tool; does nothing",
+  "tags": [
+    "fake",
+    "test",
+    "hollow"
+  ],
+  "keywords": [
+    "stub",
+    "test stub",
+    "fake dependency"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 13A2 2 0 0 1 8 11H16A2 2 0 0 1 18 13V17A2 2 0 0 1 16 19H8A2 2 0 0 1 6 17Z",
+      "closed": true
+    },
+    {
+      "d": "M9 5V8",
+      "closed": false
+    },
+    {
+      "d": "M15 5V8",
+      "closed": false
+    }
+  ]
+}

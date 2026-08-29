@@ -1,0 +1,31 @@
+{
+  "slug": "user-consent",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "User consent",
+  "description": "Asked first; the person said yes",
+  "tags": [
+    "person",
+    "yes",
+    "agree"
+  ],
+  "keywords": [
+    "consent",
+    "user agreement"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 15A4 4 0 0 1 12 15",
+      "closed": false
+    },
+    {
+      "d": "M14 13L16 15L19.5 11.5",
+      "closed": false
+    }
+  ]
+}

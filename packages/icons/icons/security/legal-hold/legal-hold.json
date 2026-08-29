@@ -1,0 +1,31 @@
+{
+  "slug": "legal-hold",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Legal hold",
+  "description": "Nothing here may be deleted, by order",
+  "tags": [
+    "freeze",
+    "litigation",
+    "pause"
+  ],
+  "keywords": [
+    "legal hold",
+    "litigation hold"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M10 8V16",
+      "closed": false
+    },
+    {
+      "d": "M14 8V16",
+      "closed": false
+    }
+  ]
+}

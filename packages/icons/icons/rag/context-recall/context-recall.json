@@ -1,0 +1,43 @@
+{
+  "slug": "context-recall",
+  "category": "rag",
+  "subcategory": "grounding",
+  "name": "Context recall",
+  "description": "Did we fetch everything that mattered?",
+  "tags": [
+    "complete",
+    "found",
+    "checks"
+  ],
+  "keywords": [
+    "context recall",
+    "retrieval recall"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 5H14",
+      "closed": false
+    },
+    {
+      "d": "M3 11H14",
+      "closed": false
+    },
+    {
+      "d": "M3 17H14",
+      "closed": false
+    },
+    {
+      "d": "M16 5.5L18 7.5L21 4.5",
+      "closed": false
+    },
+    {
+      "d": "M16 11.5L18 13.5L21 10.5",
+      "closed": false
+    },
+    {
+      "d": "M16 17.5L18 19.5L21 16.5",
+      "closed": false
+    }
+  ]
+}

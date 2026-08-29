@@ -1,0 +1,35 @@
+{
+  "slug": "color-sample",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Colour sample",
+  "description": "That exact shade, lifted off the page",
+  "tags": [
+    "eyedropper",
+    "pick",
+    "shade"
+  ],
+  "aliases": [
+    "eyedrop"
+  ],
+  "keywords": [
+    "eyedropper",
+    "color picker",
+    "sample"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M13 4L19 10",
+      "closed": false
+    },
+    {
+      "d": "M9 14L13 10L16 13L12 17Z",
+      "closed": true
+    },
+    {
+      "d": "M4 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}
