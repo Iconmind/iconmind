@@ -1,0 +1,33 @@
+{
+  "slug": "agent-clone",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Agent clone",
+  "description": "The same agent, twice",
+  "tags": [
+    "copy",
+    "duplicate",
+    "identical"
+  ],
+  "keywords": [
+    "clone agent",
+    "duplicate",
+    "replica",
+    "same config"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M8.19 8.37A4 4 0 1 1 4.81 8.37",
+      "closed": false
+    },
+    {
+      "d": "M19.19 8.37A4 4 0 1 1 15.81 8.37",
+      "closed": false
+    },
+    {
+      "d": "M4 19.5H20",
+      "closed": false
+    }
+  ]
+}

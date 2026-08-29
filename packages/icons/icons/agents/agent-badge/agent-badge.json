@@ -1,0 +1,29 @@
+{
+  "slug": "agent-badge",
+  "category": "agents",
+  "subcategory": "agent-core",
+  "name": "Agent badge",
+  "description": "Who this agent is, verifiably",
+  "tags": [
+    "identity",
+    "credential",
+    "verified"
+  ],
+  "keywords": [
+    "identity",
+    "credential",
+    "verified agent",
+    "attestation"
+  ],
+  "family": "agent",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M8 7L16 7L16 12L12 16L8 12Z",
+      "closed": true
+    }
+  ]
+}

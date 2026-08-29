@@ -1,0 +1,33 @@
+{
+  "slug": "agent-pool",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Agent pool",
+  "description": "Ready agents, waiting to be handed work",
+  "tags": [
+    "ready",
+    "workers",
+    "capacity"
+  ],
+  "keywords": [
+    "worker pool",
+    "pool of agents",
+    "warm agents",
+    "capacity"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M8.77 4.78A3 3 0 1 1 6.23 4.78",
+      "closed": false
+    },
+    {
+      "d": "M17.77 4.78A3 3 0 1 1 15.23 4.78",
+      "closed": false
+    },
+    {
+      "d": "M3 14L3 19L21 19L21 14",
+      "closed": false
+    }
+  ]
+}

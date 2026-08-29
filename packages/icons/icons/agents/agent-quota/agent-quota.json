@@ -1,0 +1,33 @@
+{
+  "slug": "agent-quota",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Agent quota",
+  "description": "This many, and no more",
+  "tags": [
+    "limit",
+    "cap",
+    "seats"
+  ],
+  "keywords": [
+    "max agents",
+    "concurrency cap",
+    "seats",
+    "limit"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M6.27 9.28A3 3 0 1 1 3.73 9.28",
+      "closed": false
+    },
+    {
+      "d": "M15.27 9.28A3 3 0 1 1 12.73 9.28",
+      "closed": false
+    },
+    {
+      "d": "M20 7V17",
+      "closed": false
+    }
+  ]
+}

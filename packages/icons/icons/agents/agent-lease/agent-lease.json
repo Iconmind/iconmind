@@ -1,0 +1,29 @@
+{
+  "slug": "agent-lease",
+  "category": "agents",
+  "subcategory": "agent-core",
+  "name": "Agent lease",
+  "description": "Yours for a while, then given back",
+  "tags": [
+    "temporary",
+    "borrowed",
+    "expiry"
+  ],
+  "keywords": [
+    "lease",
+    "ttl",
+    "borrowed agent",
+    "time-boxed"
+  ],
+  "family": "agent",
+  "shapes": [
+    {
+      "d": "M13.9 2.42A4.5 4.5 0 1 1 10.1 2.42",
+      "closed": false
+    },
+    {
+      "d": "M9 14L15 14L9 20L15 20Z",
+      "closed": true
+    }
+  ]
+}

@@ -122,7 +122,7 @@ In drawing order within each category. Ten consecutive names = one round.
 
 ### agents (+130)
 
-  1. agent-spawn, agent-pool, agent-lease, agent-quota, agent-badge, agent-rank, agent-skill, agent-skill-add, agent-toolbelt, agent-persona
+  1. agent-spawn, agent-pool, agent-lease, agent-quota, agent-badge, agent-rank, agent-clone, agent-priority, agent-toolbelt, agent-persona
   2. agent-mask, agent-avatar, agent-goal, agent-subgoal, goal-drift, plan-tree, plan-step-skip, plan-revise, replan-step, task-queue-agent
   3. task-claim, task-yield, task-steal, task-split, task-merge, goal-milestone, deadline-agent, budget-agent, spend-cap, token-budget-agent
   4. turn-limit, cycle-guard, loop-break, stuck-agent, nudge, escalate-human, approval-gate, approval-grant, approval-deny, autonomy-level

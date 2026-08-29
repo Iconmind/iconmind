@@ -1,0 +1,33 @@
+{
+  "slug": "agent-rank",
+  "category": "agents",
+  "subcategory": "agent-core",
+  "name": "Agent rank",
+  "description": "Where it stands among the others",
+  "tags": [
+    "grade",
+    "level",
+    "stripes"
+  ],
+  "keywords": [
+    "ranking",
+    "grade",
+    "tier",
+    "leaderboard agent"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M13.48 3.33A3.5 3.5 0 1 1 10.52 3.33",
+      "closed": false
+    },
+    {
+      "d": "M7 17.5L12 12.5L17 17.5",
+      "closed": false
+    },
+    {
+      "d": "M7 22L12 17L17 22",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "agent-priority",
+  "category": "agents",
+  "subcategory": "agent-core",
+  "name": "Agent priority",
+  "description": "This one goes first",
+  "tags": [
+    "first",
+    "urgent",
+    "raise"
+  ],
+  "keywords": [
+    "priority",
+    "precedence",
+    "urgent agent",
+    "queue jump"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M7 7L12 2L17 7",
+      "closed": false
+    },
+    {
+      "d": "M14.11 9.47A5 5 0 1 1 9.89 9.47",
+      "closed": false
+    }
+  ]
+}

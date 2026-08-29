@@ -1,0 +1,33 @@
+{
+  "slug": "agent-spawn",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Agent spawn",
+  "description": "One agent starts another",
+  "tags": [
+    "create",
+    "child",
+    "runtime"
+  ],
+  "keywords": [
+    "spawn",
+    "start agent",
+    "child process",
+    "fork agent"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M13.9 2.92A4.5 4.5 0 1 1 10.1 2.92",
+      "closed": false
+    },
+    {
+      "d": "M12 11.5V14.5",
+      "closed": false
+    },
+    {
+      "d": "M13.48 14.83A3.5 3.5 0 1 1 10.52 14.83",
+      "closed": false
+    }
+  ]
+}

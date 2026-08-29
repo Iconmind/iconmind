@@ -38,11 +38,13 @@ abstract final class IconMindIcons {
   static const IconMindData bot = g.agent;
   static const IconMindData agentAdd = g.agentAdd;
   static const IconMindData agentAlert = g.agentAlert;
+  static const IconMindData agentBadge = g.agentBadge;
   static const IconMindData agentBlocked = g.agentBlocked;
   @Deprecated('use agentBlocked')
   static const IconMindData blocked = g.agentBlocked;
   static const IconMindData agentBroadcast = g.agentBroadcast;
   static const IconMindData agentCheck = g.agentCheck;
+  static const IconMindData agentClone = g.agentClone;
   static const IconMindData agentConfig = g.agentConfig;
   static const IconMindData agentCore = g.agentCore;
   static const IconMindData agentDelegate = g.agentDelegate;
@@ -53,17 +55,24 @@ abstract final class IconMindIcons {
   static const IconMindData agentHierarchy = g.agentHierarchy;
   static const IconMindData agentIdle = g.agentIdle;
   static const IconMindData agentInbox = g.agentInbox;
+  static const IconMindData agentLease = g.agentLease;
   static const IconMindData agentLog = g.agentLog;
   static const IconMindData agentMessage = g.agentMessage;
   static const IconMindData agentNegotiation = g.agentNegotiation;
   static const IconMindData agentOff = g.agentOff;
   static const IconMindData agentPause = g.agentPause;
+  static const IconMindData agentPersona = g.agentPersona;
+  static const IconMindData agentPool = g.agentPool;
+  static const IconMindData agentPriority = g.agentPriority;
   static const IconMindData agentProtocol = g.agentProtocol;
+  static const IconMindData agentQuota = g.agentQuota;
+  static const IconMindData agentRank = g.agentRank;
   static const IconMindData agentRemove = g.agentRemove;
   static const IconMindData agentRun = g.agentRun;
   @Deprecated('use agentRun')
   static const IconMindData agentStart = g.agentRun;
   static const IconMindData agentSandbox = g.agentSandbox;
+  static const IconMindData agentSpawn = g.agentSpawn;
   static const IconMindData agentState = g.agentState;
   static const IconMindData agentStop = g.agentStop;
   static const IconMindData agentSwarm = g.agentSwarm;
@@ -71,6 +80,7 @@ abstract final class IconMindIcons {
   @Deprecated('use agentTeam')
   static const IconMindData crew = g.agentTeam;
   static const IconMindData agentThinking = g.agentThinking;
+  static const IconMindData agentToolbelt = g.agentToolbelt;
   static const IconMindData agentWorking = g.agentWorking;
   static const IconMindData aggregate = g.aggregate;
   @Deprecated('use aggregate')
