@@ -1,0 +1,32 @@
+{
+  "slug": "kanban-column",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Kanban column",
+  "description": "A tall column holding two cards — one lane of a kanban board",
+  "tags": [
+    "kanban",
+    "board",
+    "column"
+  ],
+  "keywords": [
+    "kanban column",
+    "board lane",
+    "task cards"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M5 4A2 2 0 0 1 7 2H17A2 2 0 0 1 19 4V20A2 2 0 0 1 17 22H7A2 2 0 0 1 5 20Z",
+      "closed": true
+    },
+    {
+      "d": "M8.5 8A2 2 0 0 1 10.5 6H13.5A2 2 0 0 1 15.5 8V8A2 2 0 0 1 13.5 10H10.5A2 2 0 0 1 8.5 8Z",
+      "closed": true
+    },
+    {
+      "d": "M8.5 15A2 2 0 0 1 10.5 13H13.5A2 2 0 0 1 15.5 15V15A2 2 0 0 1 13.5 17H10.5A2 2 0 0 1 8.5 15Z",
+      "closed": true
+    }
+  ]
+}

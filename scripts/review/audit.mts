@@ -64,6 +64,8 @@ const ANCHORED = new Set([
   "ai/activation", "analytics/significance-test", "analytics/trend-break", "interface/align-left-obj",
   // The locked layer is the lid; the lock hangs beneath it.
   "interface/layer-lock",
+  "devtools/precondition", // the check sits before the block by design
+  "devtools/postcondition", // the check sits after the block by design
   // A boom gate hinges on its post; a warm pool sits on the ground it is dug into.
   "devops/admission-control", "devops/prewarm-pool",
   // Bars stand on their baseline; a funnel hangs from its mouth; an axes chart
@@ -81,6 +83,8 @@ const ANCHORED = new Set([
   "ai/activation", "analytics/significance-test", "analytics/trend-break", "interface/align-left-obj",
   // The locked layer is the lid; the lock hangs beneath it.
   "interface/layer-lock",
+  "devtools/precondition", // the check sits before the block by design
+  "devtools/postcondition", // the check sits after the block by design
 ]);
 
 function inkStats(svg: string, size: number) {

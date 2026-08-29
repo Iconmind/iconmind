@@ -1,0 +1,44 @@
+{
+  "slug": "partial-answer",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Partial answer",
+  "description": "Text that trails off into an ellipsis — a partial or truncated model answer that stopped early",
+  "tags": [
+    "truncated",
+    "incomplete",
+    "ellipsis"
+  ],
+  "keywords": [
+    "partial answer",
+    "truncated response",
+    "incomplete output"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 5H21",
+      "closed": false
+    },
+    {
+      "d": "M3 10H21",
+      "closed": false
+    },
+    {
+      "d": "M3 15H12",
+      "closed": false
+    },
+    {
+      "d": "M6 20a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 20a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 20a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

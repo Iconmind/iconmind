@@ -1,0 +1,40 @@
+{
+  "slug": "backfill-data",
+  "category": "data",
+  "subcategory": "streaming",
+  "name": "Backfill",
+  "description": "A chevron dropping into the hole in a row — backfilling the data a pipeline missed",
+  "tags": [
+    "backfill",
+    "gap",
+    "reprocess"
+  ],
+  "keywords": [
+    "data backfill",
+    "fill the gap",
+    "reprocess history"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 5H21",
+      "closed": false
+    },
+    {
+      "d": "M3 10H7",
+      "closed": false
+    },
+    {
+      "d": "M17 10H21",
+      "closed": false
+    },
+    {
+      "d": "M10 9L12 11L14 9",
+      "closed": false
+    },
+    {
+      "d": "M3 15H21",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "speech-recognize",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Speech recognition",
+  "description": "Sound waves turning into lines of text — automatic speech recognition and speech-to-text",
+  "tags": [
+    "asr",
+    "transcribe",
+    "listen"
+  ],
+  "aliases": [
+    "asr"
+  ],
+  "keywords": [
+    "speech recognition",
+    "speech to text",
+    "asr model"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7.88 14.12A3 3 0 0 1 7.88 9.88",
+      "closed": false
+    },
+    {
+      "d": "M5.05 16.95A7 7 0 0 1 5.05 7.05",
+      "closed": false
+    },
+    {
+      "d": "M16 10H21",
+      "closed": false
+    },
+    {
+      "d": "M16 14H21",
+      "closed": false
+    }
+  ]
+}

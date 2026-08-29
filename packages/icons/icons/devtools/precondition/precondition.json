@@ -1,0 +1,31 @@
+{
+  "slug": "precondition",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Precondition",
+  "description": "A check placed before the block — a precondition that must hold before code runs",
+  "tags": [
+    "check",
+    "before",
+    "contract"
+  ],
+  "aliases": [
+    "pre-condition"
+  ],
+  "keywords": [
+    "precondition",
+    "input validation",
+    "contract check"
+  ],
+  "family": "mark",
+  "shapes": [
+    {
+      "d": "M2 12L4.5 14.5L9 10",
+      "closed": false
+    },
+    {
+      "d": "M12 7A2 2 0 0 1 14 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H14A2 2 0 0 1 12 17Z",
+      "closed": true
+    }
+  ]
+}

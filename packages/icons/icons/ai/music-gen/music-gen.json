@@ -1,0 +1,25 @@
+{
+  "slug": "music-gen",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Music generation",
+  "description": "A single musical note for a tune nobody hummed first — AI music and audio generation",
+  "tags": [
+    "note",
+    "audio",
+    "compose"
+  ],
+  "keywords": [
+    "music generation",
+    "generative audio",
+    "ai composer"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M16 9L12 5V17A3 3 0 1 1 6 17A3 3 0 1 1 12 17",
+      "closed": false,
+      "_why": "a note is one stroke: flag, stem and head must join without seams"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "diff-text",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Text diff",
+  "description": "Lines of text marked with plus and minus — a diff of what the model added and removed",
+  "tags": [
+    "diff",
+    "edit",
+    "compare"
+  ],
+  "keywords": [
+    "text diff",
+    "compare edits",
+    "track changes"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M2.5 6H5.5",
+      "closed": false
+    },
+    {
+      "d": "M4 4.5V7.5",
+      "closed": false
+    },
+    {
+      "d": "M2.5 12H5.5",
+      "closed": false
+    },
+    {
+      "d": "M8.5 6H21",
+      "closed": false
+    },
+    {
+      "d": "M8.5 12H21",
+      "closed": false
+    },
+    {
+      "d": "M8.5 18H21",
+      "closed": false
+    }
+  ]
+}

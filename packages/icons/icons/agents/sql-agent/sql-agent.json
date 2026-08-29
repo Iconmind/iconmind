@@ -1,0 +1,36 @@
+{
+  "slug": "sql-agent",
+  "category": "agents",
+  "subcategory": "tool-use",
+  "name": "SQL agent",
+  "description": "An agent sitting at a database table — an agent that writes and runs SQL queries",
+  "tags": [
+    "sql",
+    "database",
+    "query"
+  ],
+  "keywords": [
+    "sql agent",
+    "text to sql",
+    "database agent"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M12 14A2 2 0 0 1 14 12H20A2 2 0 0 1 22 14V19A2 2 0 0 1 20 21H14A2 2 0 0 1 12 19Z",
+      "closed": true
+    },
+    {
+      "d": "M12 15.5H22",
+      "closed": false
+    },
+    {
+      "d": "M17 15.5V21",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "reorder",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Reorder",
+  "description": "A list beside an up-and-down arrow — drag rows to reorder or sort them by hand",
+  "tags": [
+    "sort",
+    "drag",
+    "list"
+  ],
+  "aliases": [
+    "drag-sort"
+  ],
+  "keywords": [
+    "reorder list",
+    "drag and drop sort",
+    "sortable rows"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M9 7H21",
+      "closed": false
+    },
+    {
+      "d": "M9 12H21",
+      "closed": false
+    },
+    {
+      "d": "M9 17H21",
+      "closed": false
+    },
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M2 6L4 4L6 6",
+      "closed": false
+    },
+    {
+      "d": "M2 18L4 20L6 18",
+      "closed": false
+    }
+  ]
+}

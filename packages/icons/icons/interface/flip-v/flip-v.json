@@ -1,0 +1,32 @@
+{
+  "slug": "flip-v",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Flip vertical",
+  "description": "Two triangles mirrored across a horizontal axis — flip an object or layer vertically",
+  "tags": [
+    "mirror",
+    "vertical",
+    "transform"
+  ],
+  "keywords": [
+    "flip vertical",
+    "mirror vertically",
+    "transform object"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M6 3L12 9L18 3Z",
+      "closed": true
+    },
+    {
+      "d": "M4 12H20",
+      "closed": false
+    },
+    {
+      "d": "M6 21L12 15L18 21Z",
+      "closed": true
+    }
+  ]
+}

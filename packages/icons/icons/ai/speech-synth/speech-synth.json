@@ -1,0 +1,36 @@
+{
+  "slug": "speech-synth",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Speech synthesis",
+  "description": "Lines of text turning into sound waves — text-to-speech and voice synthesis",
+  "tags": [
+    "tts",
+    "voice",
+    "speak"
+  ],
+  "keywords": [
+    "text to speech",
+    "speech synthesis",
+    "voice generation"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 10H8",
+      "closed": false
+    },
+    {
+      "d": "M3 14H8",
+      "closed": false
+    },
+    {
+      "d": "M16.12 9.88A3 3 0 0 1 16.12 14.12",
+      "closed": false
+    },
+    {
+      "d": "M18.95 7.05A7 7 0 0 1 18.95 16.95",
+      "closed": false
+    }
+  ]
+}

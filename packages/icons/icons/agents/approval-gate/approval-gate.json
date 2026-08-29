@@ -1,0 +1,28 @@
+{
+  "slug": "approval-gate",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Approval gate",
+  "description": "An agent waiting at a closed door — a gate where a human must approve before it continues",
+  "tags": [
+    "approve",
+    "gate",
+    "human"
+  ],
+  "keywords": [
+    "approval gate",
+    "human approval",
+    "agent checkpoint"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H8A2 2 0 0 1 10 5V19A2 2 0 0 1 8 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M19.19 8.37A4 4 0 1 1 15.81 8.37",
+      "closed": false
+    }
+  ]
+}

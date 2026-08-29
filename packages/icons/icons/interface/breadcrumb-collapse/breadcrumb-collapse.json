@@ -1,0 +1,36 @@
+{
+  "slug": "breadcrumb-collapse",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Breadcrumb collapse",
+  "description": "An ellipsis followed by a chevron — a breadcrumb trail collapsed to its last steps",
+  "tags": [
+    "breadcrumb",
+    "path",
+    "collapse"
+  ],
+  "keywords": [
+    "collapsed breadcrumb",
+    "breadcrumb navigation",
+    "path overflow"
+  ],
+  "family": "navigation",
+  "shapes": [
+    {
+      "d": "M3 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 8L21 12L17 16",
+      "closed": false
+    }
+  ]
+}

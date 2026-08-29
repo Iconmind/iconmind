@@ -1,0 +1,32 @@
+{
+  "slug": "double-tap",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Double tap",
+  "description": "A touch point with two rings rippling outward — the double-tap gesture on a touchscreen",
+  "tags": [
+    "tap",
+    "gesture",
+    "touch"
+  ],
+  "keywords": [
+    "double tap",
+    "tap gesture",
+    "touch interaction"
+  ],
+  "family": "touch",
+  "shapes": [
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16.24 7.76A6 6 0 1 1 7.76 7.76",
+      "closed": false
+    },
+    {
+      "d": "M19.07 4.93A10 10 0 1 1 4.93 4.93",
+      "closed": false
+    }
+  ]
+}

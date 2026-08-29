@@ -1,0 +1,40 @@
+{
+  "slug": "face-detect",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Face detection",
+  "description": "A face between the two corner brackets that found it — face detection and facial recognition",
+  "tags": [
+    "face",
+    "vision",
+    "frame"
+  ],
+  "keywords": [
+    "face detection",
+    "face recognition",
+    "facial landmarks"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 12a7 7 0 1 0 14 0a7 7 0 1 0 -14 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8.5 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7L3 3L7 3",
+      "closed": false
+    },
+    {
+      "d": "M21 17L21 21L17 21",
+      "closed": false
+    }
+  ]
+}

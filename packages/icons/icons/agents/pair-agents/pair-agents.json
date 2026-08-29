@@ -1,0 +1,32 @@
+{
+  "slug": "pair-agents",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Pair agents",
+  "description": "Two agents joined corner to corner by a short bridge — a pair working the same task together",
+  "tags": [
+    "pair",
+    "duo",
+    "collaborate"
+  ],
+  "keywords": [
+    "agent pair",
+    "pair programming agents",
+    "two agents"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 7.37A4 4 0 1 1 5.31 7.37",
+      "closed": false
+    },
+    {
+      "d": "M18.69 9.37A4 4 0 1 1 15.31 9.37",
+      "closed": false
+    },
+    {
+      "d": "M11 11L13 13",
+      "closed": false
+    }
+  ]
+}

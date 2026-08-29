@@ -1,0 +1,32 @@
+{
+  "slug": "visual-grounding",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Visual grounding",
+  "description": "A location pin dropped inside a picture — grounding words to the exact pixels they refer to",
+  "tags": [
+    "ground",
+    "pin",
+    "vision"
+  ],
+  "keywords": [
+    "visual grounding",
+    "referring expression",
+    "point to region"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M9 9a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12V16",
+      "closed": false
+    }
+  ]
+}

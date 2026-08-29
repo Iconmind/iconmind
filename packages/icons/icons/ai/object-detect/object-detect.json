@@ -1,0 +1,35 @@
+{
+  "slug": "object-detect",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Object detection",
+  "description": "A labelled bounding box drawn around the thing the model found — object detection in an image",
+  "tags": [
+    "bounding",
+    "vision",
+    "find"
+  ],
+  "aliases": [
+    "bounding-box"
+  ],
+  "keywords": [
+    "object detection",
+    "bounding box",
+    "computer vision"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 7H14",
+      "closed": false
+    },
+    {
+      "d": "M8 12A2 2 0 0 1 10 10H14A2 2 0 0 1 16 12V15A2 2 0 0 1 14 17H10A2 2 0 0 1 8 15Z",
+      "closed": true
+    }
+  ]
+}

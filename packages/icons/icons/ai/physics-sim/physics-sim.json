@@ -1,0 +1,28 @@
+{
+  "slug": "physics-sim",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Physics simulation",
+  "description": "A ball above a ramp and a model that knows what happens next — physics and world simulation",
+  "tags": [
+    "simulate",
+    "gravity",
+    "world"
+  ],
+  "keywords": [
+    "physics simulation",
+    "world model",
+    "simulation engine"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 20L20 4L20 20Z",
+      "closed": true
+    },
+    {
+      "d": "M4 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "pinch",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Pinch",
+  "description": "Two diagonal arrows closing on the centre — the pinch gesture that zooms out or collapses a view",
+  "tags": [
+    "gesture",
+    "zoom",
+    "touch"
+  ],
+  "aliases": [
+    "pinch-in"
+  ],
+  "keywords": [
+    "pinch gesture",
+    "pinch to zoom",
+    "touch gesture"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M3 3L9 9",
+      "closed": false
+    },
+    {
+      "d": "M9 5.5L9 9L5.5 9",
+      "closed": false
+    },
+    {
+      "d": "M21 21L15 15",
+      "closed": false
+    },
+    {
+      "d": "M15 18.5L15 15L18.5 15",
+      "closed": false
+    }
+  ]
+}

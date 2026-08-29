@@ -1,0 +1,36 @@
+{
+  "slug": "agent-review-score",
+  "category": "agents",
+  "subcategory": "reflection",
+  "name": "Agent review score",
+  "description": "An agent next to a set of score bars — how an agent's work was rated in review",
+  "tags": [
+    "score",
+    "rating",
+    "review"
+  ],
+  "keywords": [
+    "agent score",
+    "performance review",
+    "agent rating"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.19 8.37A4 4 0 1 1 4.81 8.37",
+      "closed": false
+    },
+    {
+      "d": "M14 13V18",
+      "closed": false
+    },
+    {
+      "d": "M17.5 9V18",
+      "closed": false
+    },
+    {
+      "d": "M21 15V18",
+      "closed": false
+    }
+  ]
+}

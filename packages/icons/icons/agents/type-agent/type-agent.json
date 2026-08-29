@@ -1,0 +1,40 @@
+{
+  "slug": "type-agent",
+  "category": "agents",
+  "subcategory": "tool-use",
+  "name": "Typing agent",
+  "description": "An agent above a keyboard — a computer-use agent that types into real applications",
+  "tags": [
+    "keyboard",
+    "type",
+    "computer-use"
+  ],
+  "keywords": [
+    "typing agent",
+    "computer use",
+    "keyboard automation"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M13.69 2.37A4 4 0 1 1 10.31 2.37",
+      "closed": false
+    },
+    {
+      "d": "M3 15A2 2 0 0 1 5 13H19A2 2 0 0 1 21 15V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M6 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

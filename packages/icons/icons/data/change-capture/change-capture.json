@@ -1,0 +1,36 @@
+{
+  "slug": "change-capture",
+  "category": "data",
+  "subcategory": "streaming",
+  "name": "Change capture",
+  "description": "Table rows with a lightning bolt beside them — change data capture streaming every edit",
+  "tags": [
+    "cdc",
+    "stream",
+    "change"
+  ],
+  "keywords": [
+    "change data capture",
+    "cdc",
+    "database streaming"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 5H21",
+      "closed": false
+    },
+    {
+      "d": "M3 10H21",
+      "closed": false
+    },
+    {
+      "d": "M3 15H12",
+      "closed": false
+    },
+    {
+      "d": "M20 13L17 16L19.5 16L16.5 19",
+      "closed": false
+    }
+  ]
+}

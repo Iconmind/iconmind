@@ -1,0 +1,36 @@
+{
+  "slug": "form-fill",
+  "category": "agents",
+  "subcategory": "tool-use",
+  "name": "Form fill",
+  "description": "A form with its fields completed and ticked — an agent filling out a web form",
+  "tags": [
+    "form",
+    "fill",
+    "submit"
+  ],
+  "keywords": [
+    "form filling",
+    "auto fill",
+    "web form automation"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M7 7H17",
+      "closed": false
+    },
+    {
+      "d": "M7 11H17",
+      "closed": false
+    },
+    {
+      "d": "M7 16L9 18L13 14",
+      "closed": false
+    }
+  ]
+}

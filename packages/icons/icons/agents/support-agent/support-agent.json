@@ -1,0 +1,32 @@
+{
+  "slug": "support-agent",
+  "category": "agents",
+  "subcategory": "tool-use",
+  "name": "Support agent",
+  "description": "An agent beside a speech bubble — a customer support agent that answers people",
+  "tags": [
+    "support",
+    "chat",
+    "help"
+  ],
+  "keywords": [
+    "support agent",
+    "customer service ai",
+    "help desk bot"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M12 14A2 2 0 0 1 14 12H20A2 2 0 0 1 22 14V17A2 2 0 0 1 20 19H14A2 2 0 0 1 12 17Z",
+      "closed": true
+    },
+    {
+      "d": "M14 19L14 22L17 19",
+      "closed": false
+    }
+  ]
+}

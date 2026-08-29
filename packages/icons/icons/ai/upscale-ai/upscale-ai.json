@@ -1,0 +1,39 @@
+{
+  "slug": "upscale-ai",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Upscale",
+  "description": "A small image expanding toward the corner — AI upscaling and super-resolution enhancement",
+  "tags": [
+    "enlarge",
+    "resolution",
+    "enhance"
+  ],
+  "aliases": [
+    "super-resolution"
+  ],
+  "keywords": [
+    "ai upscaling",
+    "super resolution",
+    "enhance image"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H20A2 2 0 0 1 22 4V20A2 2 0 0 1 20 22H4A2 2 0 0 1 2 20Z",
+      "closed": true
+    },
+    {
+      "d": "M5 14.5A2 2 0 0 1 7 12.5H9.5A2 2 0 0 1 11.5 14.5V17A2 2 0 0 1 9.5 19H7A2 2 0 0 1 5 17Z",
+      "closed": true
+    },
+    {
+      "d": "M14 10L18 6",
+      "closed": false
+    },
+    {
+      "d": "M14.5 6L18 6L18 9.5",
+      "closed": false
+    }
+  ]
+}

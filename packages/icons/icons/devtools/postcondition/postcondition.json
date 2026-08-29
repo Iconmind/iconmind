@@ -1,0 +1,31 @@
+{
+  "slug": "postcondition",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Postcondition",
+  "description": "A check placed after the block — a postcondition that must hold once code has run",
+  "tags": [
+    "check",
+    "after",
+    "contract"
+  ],
+  "aliases": [
+    "post-condition"
+  ],
+  "keywords": [
+    "postcondition",
+    "output validation",
+    "contract check"
+  ],
+  "family": "mark",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H10A2 2 0 0 1 12 7V17A2 2 0 0 1 10 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M15 12L17.5 14.5L22 10",
+      "closed": false
+    }
+  ]
+}

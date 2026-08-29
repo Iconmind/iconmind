@@ -1,0 +1,28 @@
+{
+  "slug": "heartbeat-agent",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Agent heartbeat",
+  "description": "An agent above a pulse line — the heartbeat that proves a long-running agent is still alive",
+  "tags": [
+    "pulse",
+    "alive",
+    "health"
+  ],
+  "keywords": [
+    "agent heartbeat",
+    "liveness check",
+    "agent health"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M10 18L13 18L15.5 15.5L18 18L21 18",
+      "closed": false
+    }
+  ]
+}

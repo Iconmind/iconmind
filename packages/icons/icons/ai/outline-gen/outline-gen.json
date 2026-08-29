@@ -1,0 +1,36 @@
+{
+  "slug": "outline-gen",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Outline generation",
+  "description": "Headings and nested points stepping inward — an outline generated before the prose is written",
+  "tags": [
+    "outline",
+    "structure",
+    "headings"
+  ],
+  "keywords": [
+    "outline generation",
+    "document structure",
+    "nested headings"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 5H21",
+      "closed": false
+    },
+    {
+      "d": "M7 10H21",
+      "closed": false
+    },
+    {
+      "d": "M7 15H21",
+      "closed": false
+    },
+    {
+      "d": "M11 20H21",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "mesh-gen",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Mesh generation",
+  "description": "A wireframe of joined triangles conjured from a description — 3D mesh and geometry generation",
+  "tags": [
+    "3d",
+    "wireframe",
+    "geometry"
+  ],
+  "keywords": [
+    "mesh generation",
+    "3d mesh",
+    "text to 3d"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 9H21",
+      "closed": false
+    },
+    {
+      "d": "M3 18H21",
+      "closed": false
+    },
+    {
+      "d": "M3 18L12 9L21 18",
+      "closed": false
+    },
+    {
+      "d": "M12 9V18",
+      "closed": false
+    }
+  ]
+}

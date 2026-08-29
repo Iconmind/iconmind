@@ -1,0 +1,40 @@
+{
+  "slug": "diffusion-model",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Diffusion model",
+  "description": "The model frame filled with scattered noise — a diffusion model that denoises its way to an image",
+  "tags": [
+    "noise",
+    "denoise",
+    "generate"
+  ],
+  "keywords": [
+    "diffusion model",
+    "stable diffusion",
+    "latent diffusion"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M8 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 8.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 15.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14.5 14.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

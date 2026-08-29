@@ -1,0 +1,43 @@
+{
+  "slug": "tombstone",
+  "category": "data",
+  "subcategory": "streaming",
+  "name": "Tombstone",
+  "description": "A row marked with an X among live rows — a tombstone record standing in for a deleted row",
+  "tags": [
+    "delete",
+    "marker",
+    "record"
+  ],
+  "aliases": [
+    "delete-marker"
+  ],
+  "keywords": [
+    "tombstone record",
+    "soft delete",
+    "deleted row marker"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 6H21",
+      "closed": false
+    },
+    {
+      "d": "M3 11H14",
+      "closed": false
+    },
+    {
+      "d": "M17.5 9.5L20.5 12.5",
+      "closed": false
+    },
+    {
+      "d": "M20.5 9.5L17.5 12.5",
+      "closed": false
+    },
+    {
+      "d": "M3 16H21",
+      "closed": false
+    }
+  ]
+}

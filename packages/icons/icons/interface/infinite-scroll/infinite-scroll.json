@@ -1,0 +1,39 @@
+{
+  "slug": "infinite-scroll",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Infinite scroll",
+  "description": "Rows of content with a double chevron that keeps going — infinite scrolling and load more",
+  "tags": [
+    "scroll",
+    "feed",
+    "load"
+  ],
+  "aliases": [
+    "load-more"
+  ],
+  "keywords": [
+    "infinite scroll",
+    "load more",
+    "endless feed"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 5H21",
+      "closed": false
+    },
+    {
+      "d": "M3 10H21",
+      "closed": false
+    },
+    {
+      "d": "M9.5 14L12 16.5L14.5 14",
+      "closed": false
+    },
+    {
+      "d": "M9.5 18.5L12 21L14.5 18.5",
+      "closed": false
+    }
+  ]
+}

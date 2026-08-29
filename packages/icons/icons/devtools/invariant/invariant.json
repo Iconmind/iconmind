@@ -1,0 +1,36 @@
+{
+  "slug": "invariant",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Invariant",
+  "description": "Two equal lines held between brackets — an invariant that must stay true throughout",
+  "tags": [
+    "assert",
+    "always",
+    "contract"
+  ],
+  "keywords": [
+    "invariant",
+    "assertion",
+    "design by contract"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M8 9.5H16",
+      "closed": false
+    },
+    {
+      "d": "M8 14.5H16",
+      "closed": false
+    }
+  ]
+}

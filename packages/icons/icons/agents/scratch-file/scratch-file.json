@@ -1,0 +1,28 @@
+{
+  "slug": "scratch-file",
+  "category": "agents",
+  "subcategory": "memory",
+  "name": "Scratch file",
+  "description": "A page with a scribble across it — the scratch file an agent thinks in before it answers",
+  "tags": [
+    "scratch",
+    "notes",
+    "working"
+  ],
+  "keywords": [
+    "scratch file",
+    "working notes",
+    "agent scratchpad"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 14L11 12L13 14L15 12",
+      "closed": false
+    }
+  ]
+}

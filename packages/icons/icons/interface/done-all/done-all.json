@@ -1,0 +1,28 @@
+{
+  "slug": "done-all",
+  "category": "interface",
+  "subcategory": "state",
+  "name": "Done all",
+  "description": "Two check marks side by side — everything done, read or completed",
+  "tags": [
+    "check",
+    "complete",
+    "all"
+  ],
+  "keywords": [
+    "double check",
+    "all done",
+    "mark all complete"
+  ],
+  "family": "mark",
+  "shapes": [
+    {
+      "d": "M2 12L7 17L15 9",
+      "closed": false
+    },
+    {
+      "d": "M9 12L14 17L22 9",
+      "closed": false
+    }
+  ]
+}

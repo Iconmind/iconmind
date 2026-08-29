@@ -1,0 +1,35 @@
+{
+  "slug": "haptic",
+  "category": "interface",
+  "subcategory": "state",
+  "name": "Haptic",
+  "description": "A phone with vibration waves on both sides — haptic feedback and vibration alerts",
+  "tags": [
+    "vibrate",
+    "feedback",
+    "phone"
+  ],
+  "aliases": [
+    "vibration"
+  ],
+  "keywords": [
+    "haptic feedback",
+    "vibration",
+    "tactile response"
+  ],
+  "family": "device",
+  "shapes": [
+    {
+      "d": "M8 5A2 2 0 0 1 10 3H14A2 2 0 0 1 16 5V19A2 2 0 0 1 14 21H10A2 2 0 0 1 8 19Z",
+      "closed": true
+    },
+    {
+      "d": "M19.83 9.17A4 4 0 0 1 19.83 14.83",
+      "closed": false
+    },
+    {
+      "d": "M4.17 14.83A4 4 0 0 1 4.17 9.17",
+      "closed": false
+    }
+  ]
+}

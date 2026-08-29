@@ -1,0 +1,36 @@
+{
+  "slug": "image-caption",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Image caption",
+  "description": "A picture with the model's description written beneath it — image captioning and alt text",
+  "tags": [
+    "vision",
+    "caption",
+    "describe"
+  ],
+  "keywords": [
+    "image captioning",
+    "describe image",
+    "alt text generation"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V12A2 2 0 0 1 19 14H5A2 2 0 0 1 3 12Z",
+      "closed": true
+    },
+    {
+      "d": "M6 11L10 7L13 10L17 6",
+      "closed": false
+    },
+    {
+      "d": "M5 17H19",
+      "closed": false
+    },
+    {
+      "d": "M5 20.5H14",
+      "closed": false
+    }
+  ]
+}

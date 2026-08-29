@@ -1,0 +1,39 @@
+{
+  "slug": "gaussian-splat",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Gaussian splat",
+  "description": "A scene rendered from soft overlapping dots — 3D Gaussian splatting and radiance fields",
+  "tags": [
+    "splat",
+    "3d",
+    "render"
+  ],
+  "aliases": [
+    "splatting"
+  ],
+  "keywords": [
+    "gaussian splatting",
+    "3d scene reconstruction",
+    "radiance field"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 15a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

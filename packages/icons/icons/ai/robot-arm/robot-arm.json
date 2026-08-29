@@ -1,0 +1,36 @@
+{
+  "slug": "robot-arm",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Robot arm",
+  "description": "A jointed arm with an open gripper — embodied AI, robotics and manipulation policies",
+  "tags": [
+    "robotics",
+    "arm",
+    "manipulate"
+  ],
+  "keywords": [
+    "robot arm",
+    "robotic manipulation",
+    "embodied ai"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 20H9",
+      "closed": false
+    },
+    {
+      "d": "M6 12V20",
+      "closed": false
+    },
+    {
+      "d": "M6 12L12 6L20 6L20 9.5",
+      "closed": false
+    },
+    {
+      "d": "M17 6V9.5",
+      "closed": false
+    }
+  ]
+}
