@@ -1,0 +1,44 @@
+{
+  "slug": "agent-graph",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Agent graph",
+  "description": "An agent beside a small graph of nodes — the graph of agents and how they connect",
+  "tags": [
+    "graph",
+    "nodes",
+    "topology"
+  ],
+  "keywords": [
+    "agent graph",
+    "agent topology",
+    "connected agents"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M7.69 2.37A4 4 0 1 1 4.31 2.37",
+      "closed": false
+    },
+    {
+      "d": "M12 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M20 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 15L16 17",
+      "closed": false
+    },
+    {
+      "d": "M20 15L18 17",
+      "closed": false
+    }
+  ]
+}

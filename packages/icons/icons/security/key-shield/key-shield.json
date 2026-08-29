@@ -1,0 +1,36 @@
+{
+  "slug": "key-shield",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Key shield",
+  "description": "A key with a shield beside it — a credential kept under protection",
+  "tags": [
+    "key",
+    "protected",
+    "shield"
+  ],
+  "keywords": [
+    "protected key",
+    "guarded credential",
+    "key security"
+  ],
+  "family": "key",
+  "shapes": [
+    {
+      "d": "M3 9a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V21",
+      "closed": false
+    },
+    {
+      "d": "M7 18H10",
+      "closed": false
+    },
+    {
+      "d": "M14 12L22 12L22 17L18 21L14 17Z",
+      "closed": true
+    }
+  ]
+}

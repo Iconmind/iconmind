@@ -1,0 +1,28 @@
+{
+  "slug": "test-file",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Test file",
+  "description": "A page with a play button on it — a test file ready to run",
+  "tags": [
+    "test",
+    "spec",
+    "file"
+  ],
+  "keywords": [
+    "test file",
+    "spec file",
+    "run tests"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M10 10L10 16L13 13Z",
+      "closed": true
+    }
+  ]
+}

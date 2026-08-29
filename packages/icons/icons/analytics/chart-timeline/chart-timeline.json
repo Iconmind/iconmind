@@ -1,0 +1,36 @@
+{
+  "slug": "chart-timeline",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Timeline chart",
+  "description": "Events placed above and below one line — a timeline chart",
+  "tags": [
+    "timeline",
+    "events",
+    "chart"
+  ],
+  "keywords": [
+    "timeline chart",
+    "event timeline",
+    "chronology"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M2 12H22",
+      "closed": false
+    },
+    {
+      "d": "M4 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

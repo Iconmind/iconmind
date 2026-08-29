@@ -1,0 +1,40 @@
+{
+  "slug": "episodic-memory",
+  "category": "agents",
+  "subcategory": "memory",
+  "name": "Episodic memory",
+  "description": "Notes beside a clock — what an agent remembers happening, and when",
+  "tags": [
+    "memory",
+    "episode",
+    "time"
+  ],
+  "keywords": [
+    "episodic memory",
+    "event memory",
+    "what happened when"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M2 6H8",
+      "closed": false
+    },
+    {
+      "d": "M2 11H8",
+      "closed": false
+    },
+    {
+      "d": "M2 16H8",
+      "closed": false
+    },
+    {
+      "d": "M11 11a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16.5 8.5L16.5 11L19 11",
+      "closed": false
+    }
+  ]
+}

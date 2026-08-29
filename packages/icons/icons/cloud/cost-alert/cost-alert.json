@@ -1,0 +1,36 @@
+{
+  "slug": "cost-alert",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Spend alert",
+  "description": "A coin with an alert mark beside it — spending has crossed a threshold",
+  "tags": [
+    "alert",
+    "budget",
+    "threshold"
+  ],
+  "keywords": [
+    "spend alert",
+    "budget warning",
+    "cost threshold"
+  ],
+  "family": "coin",
+  "shapes": [
+    {
+      "d": "M3 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M18 6V11",
+      "closed": false
+    },
+    {
+      "d": "M17 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

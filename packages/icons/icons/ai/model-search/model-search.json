@@ -1,0 +1,32 @@
+{
+  "slug": "model-search",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Model search",
+  "description": "A model core beside a magnifying glass — search for a model in a catalogue",
+  "tags": [
+    "search",
+    "find",
+    "catalogue"
+  ],
+  "keywords": [
+    "model search",
+    "find a model",
+    "model catalogue"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M6 10.5L9.5 14L6 17.5L2.5 14Z",
+      "closed": true
+    },
+    {
+      "d": "M12 10a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M19 13L21.5 15.5",
+      "closed": false
+    }
+  ]
+}

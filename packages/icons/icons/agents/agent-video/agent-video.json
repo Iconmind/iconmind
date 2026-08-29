@@ -1,0 +1,32 @@
+{
+  "slug": "agent-video",
+  "category": "agents",
+  "subcategory": "tool-use",
+  "name": "Agent video",
+  "description": "An agent beside a video player — an agent that watches and understands video",
+  "tags": [
+    "video",
+    "watch",
+    "media"
+  ],
+  "keywords": [
+    "video agent",
+    "video understanding",
+    "media agent"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M12.5 13.5A2 2 0 0 1 14.5 11.5H20A2 2 0 0 1 22 13.5V20A2 2 0 0 1 20 22H14.5A2 2 0 0 1 12.5 20Z",
+      "closed": true
+    },
+    {
+      "d": "M15.5 14.5L15.5 18.5L17.5 16.5Z",
+      "closed": true
+    }
+  ]
+}

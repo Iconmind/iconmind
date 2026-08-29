@@ -1,0 +1,36 @@
+{
+  "slug": "diff-file",
+  "category": "devtools",
+  "subcategory": "version-control",
+  "name": "Diff file",
+  "description": "A page marked with a plus and a minus — a diff or patch file",
+  "tags": [
+    "diff",
+    "patch",
+    "file"
+  ],
+  "keywords": [
+    "diff file",
+    "patch file",
+    "unified diff"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 9H15",
+      "closed": false
+    },
+    {
+      "d": "M12 6.5V11.5",
+      "closed": false
+    },
+    {
+      "d": "M9 16H15",
+      "closed": false
+    }
+  ]
+}

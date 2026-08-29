@@ -1,0 +1,32 @@
+{
+  "slug": "chat-check",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Chat check",
+  "description": "A speech bubble with a check inside — a message delivered, read or resolved",
+  "tags": [
+    "delivered",
+    "read",
+    "resolved"
+  ],
+  "keywords": [
+    "message delivered",
+    "read receipt",
+    "resolved conversation"
+  ],
+  "family": "bubble",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V16A2 2 0 0 1 19 18H5A2 2 0 0 1 3 16Z",
+      "closed": true
+    },
+    {
+      "d": "M7 18L7 21L10 18",
+      "closed": false
+    },
+    {
+      "d": "M8 10L11 13L16 8",
+      "closed": false
+    }
+  ]
+}

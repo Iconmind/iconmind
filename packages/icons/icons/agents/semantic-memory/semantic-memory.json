@@ -1,0 +1,36 @@
+{
+  "slug": "semantic-memory",
+  "category": "agents",
+  "subcategory": "memory",
+  "name": "Semantic memory",
+  "description": "Notes beside a model core — the facts and concepts an agent keeps as memory",
+  "tags": [
+    "memory",
+    "facts",
+    "knowledge"
+  ],
+  "keywords": [
+    "semantic memory",
+    "factual memory",
+    "knowledge store"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M2 6H9",
+      "closed": false
+    },
+    {
+      "d": "M2 11H9",
+      "closed": false
+    },
+    {
+      "d": "M2 16H9",
+      "closed": false
+    },
+    {
+      "d": "M17 7L21 11L17 15L13 11Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "model-lock",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Model lock",
+  "description": "A model core beside a padlock — a model locked to approved use",
+  "tags": [
+    "lock",
+    "restricted",
+    "access"
+  ],
+  "keywords": [
+    "locked model",
+    "restricted model",
+    "model access control"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M6 6.5L9.5 10L6 13.5L2.5 10Z",
+      "closed": true
+    },
+    {
+      "d": "M12 15A2 2 0 0 1 14 13H20A2 2 0 0 1 22 15V19A2 2 0 0 1 20 21H14A2 2 0 0 1 12 19Z",
+      "closed": true
+    },
+    {
+      "d": "M14 13A3 3 0 0 1 20 13",
+      "closed": false
+    }
+  ]
+}

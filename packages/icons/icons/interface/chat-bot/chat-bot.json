@@ -1,0 +1,32 @@
+{
+  "slug": "chat-bot",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Chat bot",
+  "description": "A speech bubble with an agent inside — a message from the assistant",
+  "tags": [
+    "bot",
+    "assistant",
+    "message"
+  ],
+  "keywords": [
+    "bot message",
+    "assistant reply",
+    "chatbot"
+  ],
+  "family": "bubble",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V16A2 2 0 0 1 19 18H5A2 2 0 0 1 3 16Z",
+      "closed": true
+    },
+    {
+      "d": "M7 18L7 21L10 18",
+      "closed": false
+    },
+    {
+      "d": "M13.69 6.87A4 4 0 1 1 10.31 6.87",
+      "closed": false
+    }
+  ]
+}

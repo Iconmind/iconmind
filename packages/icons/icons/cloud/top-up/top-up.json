@@ -1,0 +1,36 @@
+{
+  "slug": "top-up",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Top up",
+  "description": "A coin with a plus beside it — add credit to a balance",
+  "tags": [
+    "credit",
+    "add",
+    "balance"
+  ],
+  "keywords": [
+    "top up",
+    "add credits",
+    "add funds"
+  ],
+  "family": "coin",
+  "shapes": [
+    {
+      "d": "M3 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M16 12H22",
+      "closed": false
+    },
+    {
+      "d": "M19 9V15",
+      "closed": false
+    }
+  ]
+}

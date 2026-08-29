@@ -1,0 +1,36 @@
+{
+  "slug": "key-tag",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Key tag",
+  "description": "A key with a label beside it — a named credential",
+  "tags": [
+    "key",
+    "label",
+    "named"
+  ],
+  "keywords": [
+    "labelled key",
+    "named credential",
+    "key name"
+  ],
+  "family": "key",
+  "shapes": [
+    {
+      "d": "M3 9a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V21",
+      "closed": false
+    },
+    {
+      "d": "M7 18H10",
+      "closed": false
+    },
+    {
+      "d": "M14 13L19 13L22 16L19 19L14 19Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "model-checkpoint",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Model checkpoint",
+  "description": "A model core beside a flag — a checkpoint saved during training",
+  "tags": [
+    "checkpoint",
+    "flag",
+    "save"
+  ],
+  "keywords": [
+    "model checkpoint",
+    "training checkpoint",
+    "saved weights"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M6 9.5L9.5 13L6 16.5L2.5 13Z",
+      "closed": true
+    },
+    {
+      "d": "M13 4V21",
+      "closed": false
+    },
+    {
+      "d": "M13 4L21 4L18 7L21 10L13 10",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "agent-report",
+  "category": "agents",
+  "subcategory": "reflection",
+  "name": "Agent report",
+  "description": "An agent beside a pie chart — the report an agent files on its work",
+  "tags": [
+    "report",
+    "chart",
+    "summary"
+  ],
+  "keywords": [
+    "agent report",
+    "run summary",
+    "agent analytics"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M12 16a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16.5 11.5V16",
+      "closed": false
+    },
+    {
+      "d": "M16.5 16H21",
+      "closed": false
+    }
+  ]
+}

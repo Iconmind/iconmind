@@ -1,0 +1,32 @@
+{
+  "slug": "playground",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Playground",
+  "description": "A window with a model core inside — the playground where you try a model by hand",
+  "tags": [
+    "try",
+    "experiment",
+    "sandbox"
+  ],
+  "keywords": [
+    "model playground",
+    "try a model",
+    "prompt playground"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 4.5A2 2 0 0 1 5 2.5H19A2 2 0 0 1 21 4.5V19.5A2 2 0 0 1 19 21.5H5A2 2 0 0 1 3 19.5Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M12 10.5L16 14.5L12 18.5L8 14.5Z",
+      "closed": true
+    }
+  ]
+}

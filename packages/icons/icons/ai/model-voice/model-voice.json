@@ -1,0 +1,32 @@
+{
+  "slug": "model-voice",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Model voice",
+  "description": "A model core with sound waves leaving it — a model that speaks",
+  "tags": [
+    "voice",
+    "speech",
+    "audio"
+  ],
+  "keywords": [
+    "voice model",
+    "speaking model",
+    "audio output"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M8 8L12 12L8 16L4 12Z",
+      "closed": true
+    },
+    {
+      "d": "M17.12 9.88A3 3 0 0 1 17.12 14.12",
+      "closed": false
+    },
+    {
+      "d": "M19.24 7.76A6 6 0 0 1 19.24 16.24",
+      "closed": false
+    }
+  ]
+}

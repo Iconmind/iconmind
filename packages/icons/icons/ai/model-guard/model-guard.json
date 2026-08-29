@@ -1,0 +1,28 @@
+{
+  "slug": "model-guard",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Model guard",
+  "description": "A model core beside a shield — the guardrails wrapped around a model",
+  "tags": [
+    "guard",
+    "shield",
+    "safety"
+  ],
+  "keywords": [
+    "model guardrails",
+    "guarded model",
+    "model safety layer"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M6 6.5L9.5 10L6 13.5L2.5 10Z",
+      "closed": true
+    },
+    {
+      "d": "M13 11L22 11L22 16.5L17.5 21L13 16.5Z",
+      "closed": true
+    }
+  ]
+}

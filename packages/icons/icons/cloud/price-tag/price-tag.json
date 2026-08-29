@@ -1,0 +1,32 @@
+{
+  "slug": "price-tag",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Price tag",
+  "description": "A coin beside a label — the price attached to a plan or a request",
+  "tags": [
+    "price",
+    "tag",
+    "cost"
+  ],
+  "keywords": [
+    "price tag",
+    "pricing",
+    "cost label"
+  ],
+  "family": "coin",
+  "shapes": [
+    {
+      "d": "M2 11a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6.5 9.5V12.5",
+      "closed": false
+    },
+    {
+      "d": "M14 13L19 13L22 16L19 19L14 19Z",
+      "closed": true
+    }
+  ]
+}

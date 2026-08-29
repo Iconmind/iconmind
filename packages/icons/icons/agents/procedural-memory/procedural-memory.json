@@ -1,0 +1,36 @@
+{
+  "slug": "procedural-memory",
+  "category": "agents",
+  "subcategory": "memory",
+  "name": "Procedural memory",
+  "description": "Notes beside a play button — the procedures an agent remembers how to run",
+  "tags": [
+    "memory",
+    "procedure",
+    "skill"
+  ],
+  "keywords": [
+    "procedural memory",
+    "learned procedures",
+    "skill memory"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M2 6H9",
+      "closed": false
+    },
+    {
+      "d": "M2 11H9",
+      "closed": false
+    },
+    {
+      "d": "M2 16H9",
+      "closed": false
+    },
+    {
+      "d": "M14 6L14 16L19 11Z",
+      "closed": true
+    }
+  ]
+}

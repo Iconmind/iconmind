@@ -1,0 +1,36 @@
+{
+  "slug": "embed",
+  "category": "devtools",
+  "subcategory": "editor",
+  "name": "Embed",
+  "description": "A window with angle brackets inside — the embed code for a widget or player",
+  "tags": [
+    "embed",
+    "iframe",
+    "widget"
+  ],
+  "keywords": [
+    "embed code",
+    "iframe embed",
+    "embeddable widget"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 8H21",
+      "closed": false
+    },
+    {
+      "d": "M9.5 12L7 14.5L9.5 17",
+      "closed": false
+    },
+    {
+      "d": "M14.5 12L17 14.5L14.5 17",
+      "closed": false
+    }
+  ]
+}

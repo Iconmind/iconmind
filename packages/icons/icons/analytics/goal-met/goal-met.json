@@ -1,0 +1,32 @@
+{
+  "slug": "goal-met",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Goal met",
+  "description": "A target with a check beside it — a goal that was reached",
+  "tags": [
+    "goal",
+    "reached",
+    "target"
+  ],
+  "keywords": [
+    "goal met",
+    "target reached",
+    "objective achieved"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M4 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 13L19 15L22 12",
+      "closed": false
+    }
+  ]
+}

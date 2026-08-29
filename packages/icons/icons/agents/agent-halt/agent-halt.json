@@ -1,0 +1,28 @@
+{
+  "slug": "agent-halt",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Agent halt",
+  "description": "An agent beside a stop square — halt an agent where it stands",
+  "tags": [
+    "stop",
+    "halt",
+    "abort"
+  ],
+  "keywords": [
+    "halt agent",
+    "stop agent",
+    "abort run"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M13 13L21 13L21 21L13 21Z",
+      "closed": true
+    }
+  ]
+}

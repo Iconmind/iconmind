@@ -1,0 +1,32 @@
+{
+  "slug": "milestone-flag",
+  "category": "interface",
+  "subcategory": "time",
+  "name": "Milestone flag",
+  "description": "A flag with a check beside it — a milestone reached on a timeline",
+  "tags": [
+    "milestone",
+    "flag",
+    "done"
+  ],
+  "keywords": [
+    "milestone reached",
+    "project milestone",
+    "flag done"
+  ],
+  "family": "flag",
+  "shapes": [
+    {
+      "d": "M6 3V21",
+      "closed": false
+    },
+    {
+      "d": "M6 3L15 3L12 6L15 9L6 9",
+      "closed": false
+    },
+    {
+      "d": "M13 15L16 18L21 13",
+      "closed": false
+    }
+  ]
+}

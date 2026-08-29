@@ -1,0 +1,32 @@
+{
+  "slug": "on-time",
+  "category": "interface",
+  "subcategory": "time",
+  "name": "On time",
+  "description": "A clock with a check beside it — something that happened on schedule",
+  "tags": [
+    "schedule",
+    "punctual",
+    "check"
+  ],
+  "keywords": [
+    "on time",
+    "on schedule",
+    "deadline met"
+  ],
+  "family": "clock",
+  "shapes": [
+    {
+      "d": "M3 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8.5 9L8.5 12L11 12",
+      "closed": false
+    },
+    {
+      "d": "M17 13L19 15L22 12",
+      "closed": false
+    }
+  ]
+}

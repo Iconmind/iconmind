@@ -1,0 +1,40 @@
+{
+  "slug": "credits",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Credits",
+  "description": "A coin beside a statement of lines — the credits left on an account",
+  "tags": [
+    "credits",
+    "balance",
+    "account"
+  ],
+  "keywords": [
+    "account credits",
+    "remaining balance",
+    "prepaid credits"
+  ],
+  "family": "coin",
+  "shapes": [
+    {
+      "d": "M3 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M16 8H22",
+      "closed": false
+    },
+    {
+      "d": "M16 12H22",
+      "closed": false
+    },
+    {
+      "d": "M16 16H22",
+      "closed": false
+    }
+  ]
+}

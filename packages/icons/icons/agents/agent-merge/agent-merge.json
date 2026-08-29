@@ -1,0 +1,32 @@
+{
+  "slug": "agent-merge",
+  "category": "agents",
+  "subcategory": "planning",
+  "name": "Agent merge",
+  "description": "An agent beside two lines joining — parallel agent paths merging back into one",
+  "tags": [
+    "merge",
+    "join",
+    "combine"
+  ],
+  "keywords": [
+    "agent merge",
+    "join paths",
+    "combine results"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M21 11V21",
+      "closed": false
+    },
+    {
+      "d": "M21 15L17 11L13 11",
+      "closed": false
+    }
+  ]
+}

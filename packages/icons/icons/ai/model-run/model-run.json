@@ -1,0 +1,28 @@
+{
+  "slug": "model-run",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Model run",
+  "description": "A model core beside a play button — run an inference with this model",
+  "tags": [
+    "run",
+    "inference",
+    "execute"
+  ],
+  "keywords": [
+    "run model",
+    "model inference",
+    "execute model"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M8 8L12 12L8 16L4 12Z",
+      "closed": true
+    },
+    {
+      "d": "M15 8L15 16L19 12Z",
+      "closed": true
+    }
+  ]
+}

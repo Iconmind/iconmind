@@ -1,0 +1,32 @@
+{
+  "slug": "agent-image",
+  "category": "agents",
+  "subcategory": "tool-use",
+  "name": "Agent image",
+  "description": "An agent beside a picture — an agent that looks at images",
+  "tags": [
+    "image",
+    "vision",
+    "picture"
+  ],
+  "keywords": [
+    "vision agent",
+    "image agent",
+    "look at pictures"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.19 2.87A4 4 0 1 1 4.81 2.87",
+      "closed": false
+    },
+    {
+      "d": "M12 14A2 2 0 0 1 14 12H20A2 2 0 0 1 22 14V20A2 2 0 0 1 20 22H14A2 2 0 0 1 12 20Z",
+      "closed": true
+    },
+    {
+      "d": "M15 18L17 16L19 18",
+      "closed": false
+    }
+  ]
+}

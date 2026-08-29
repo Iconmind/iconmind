@@ -1,0 +1,32 @@
+{
+  "slug": "reminder-snooze",
+  "category": "interface",
+  "subcategory": "time",
+  "name": "Reminder snooze",
+  "description": "A clock with a Z beside it — snooze a reminder until later",
+  "tags": [
+    "snooze",
+    "later",
+    "reminder"
+  ],
+  "keywords": [
+    "snooze reminder",
+    "remind me later",
+    "postpone"
+  ],
+  "family": "clock",
+  "shapes": [
+    {
+      "d": "M3 12a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 9L9 12L11.5 12",
+      "closed": false
+    },
+    {
+      "d": "M18 10L22 10L18 14L22 14",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "model-fast",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Model fast",
+  "description": "A model core beside a lightning bolt — the low-latency mode of a model",
+  "tags": [
+    "fast",
+    "latency",
+    "speed"
+  ],
+  "keywords": [
+    "fast model",
+    "low latency mode",
+    "speed tier"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M7 8L11 12L7 16L3 12Z",
+      "closed": true
+    },
+    {
+      "d": "M20 6L15 11L19 11L14 16",
+      "closed": false
+    }
+  ]
+}

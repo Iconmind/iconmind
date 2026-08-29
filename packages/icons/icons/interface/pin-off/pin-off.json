@@ -1,0 +1,32 @@
+{
+  "slug": "pin-off",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Unpin",
+  "description": "A pin struck through — unpin an item so it no longer stays on top",
+  "tags": [
+    "unpin",
+    "release",
+    "pin"
+  ],
+  "keywords": [
+    "unpin",
+    "remove pin",
+    "unstick"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M7 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 10V17",
+      "closed": false
+    },
+    {
+      "d": "M5 21L19 7",
+      "closed": false
+    }
+  ]
+}

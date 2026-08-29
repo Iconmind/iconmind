@@ -1,0 +1,36 @@
+{
+  "slug": "goal-missed",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Goal missed",
+  "description": "A target with an X beside it — a goal that was missed",
+  "tags": [
+    "goal",
+    "missed",
+    "target"
+  ],
+  "keywords": [
+    "goal missed",
+    "target missed",
+    "objective failed"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M4 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 9.5L22 14.5",
+      "closed": false
+    },
+    {
+      "d": "M22 9.5L17 14.5",
+      "closed": false
+    }
+  ]
+}

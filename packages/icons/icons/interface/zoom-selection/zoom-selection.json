@@ -1,0 +1,32 @@
+{
+  "slug": "zoom-selection",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Zoom to selection",
+  "description": "A magnifying glass over a selected box — zoom the view to fit the selection",
+  "tags": [
+    "zoom",
+    "fit",
+    "selection"
+  ],
+  "keywords": [
+    "zoom to selection",
+    "zoom to fit",
+    "focus selection"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M3 11a8 8 0 1 0 16 0a8 8 0 1 0 -16 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 9.5A2 2 0 0 1 9.5 7.5H12.5A2 2 0 0 1 14.5 9.5V12.5A2 2 0 0 1 12.5 14.5H9.5A2 2 0 0 1 7.5 12.5Z",
+      "closed": true
+    },
+    {
+      "d": "M16.5 16.5L21 21",
+      "closed": false
+    }
+  ]
+}

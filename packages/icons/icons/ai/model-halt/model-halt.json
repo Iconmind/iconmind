@@ -1,0 +1,28 @@
+{
+  "slug": "model-halt",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Model halt",
+  "description": "A model core beside a stop square — halt a model mid-generation",
+  "tags": [
+    "stop",
+    "halt",
+    "cancel"
+  ],
+  "keywords": [
+    "stop generation",
+    "halt model",
+    "cancel inference"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M7 8L11 12L7 16L3 12Z",
+      "closed": true
+    },
+    {
+      "d": "M14 8L22 8L22 16L14 16Z",
+      "closed": true
+    }
+  ]
+}

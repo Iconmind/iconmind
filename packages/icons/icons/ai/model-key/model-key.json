@@ -1,0 +1,36 @@
+{
+  "slug": "model-key",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Model key",
+  "description": "A model core beside a key — the API key that unlocks a model",
+  "tags": [
+    "key",
+    "api",
+    "access"
+  ],
+  "keywords": [
+    "model api key",
+    "model access key",
+    "unlock model"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M6 8L10 12L6 16L2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M13 9a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 12V20",
+      "closed": false
+    },
+    {
+      "d": "M16 17H18.5",
+      "closed": false
+    }
+  ]
+}

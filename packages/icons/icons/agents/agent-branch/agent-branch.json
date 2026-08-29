@@ -1,0 +1,32 @@
+{
+  "slug": "agent-branch",
+  "category": "agents",
+  "subcategory": "planning",
+  "name": "Agent branch",
+  "description": "An agent beside a forking line — an agent branching into a parallel path",
+  "tags": [
+    "branch",
+    "fork",
+    "parallel"
+  ],
+  "keywords": [
+    "agent branch",
+    "fork the run",
+    "parallel path"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M13 11V21",
+      "closed": false
+    },
+    {
+      "d": "M13 15L17 11L21 11",
+      "closed": false
+    }
+  ]
+}
