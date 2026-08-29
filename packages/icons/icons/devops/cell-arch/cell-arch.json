@@ -1,0 +1,47 @@
+{
+  "slug": "cell-arch",
+  "category": "devops",
+  "subcategory": "infrastructure",
+  "name": "Cell architecture",
+  "description": "Blast radius, by construction",
+  "tags": [
+    "isolate",
+    "cells",
+    "contain"
+  ],
+  "aliases": [
+    "cell-based"
+  ],
+  "keywords": [
+    "cell architecture",
+    "isolation",
+    "blast radius"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2.5 6A2 2 0 0 1 4.5 4H8.5A2 2 0 0 1 10.5 6V9A2 2 0 0 1 8.5 11H4.5A2 2 0 0 1 2.5 9Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 7.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 6A2 2 0 0 1 15.5 4H19.5A2 2 0 0 1 21.5 6V9A2 2 0 0 1 19.5 11H15.5A2 2 0 0 1 13.5 9Z",
+      "closed": true
+    },
+    {
+      "d": "M16.5 7.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 16A2 2 0 0 1 10 14H14A2 2 0 0 1 16 16V19A2 2 0 0 1 14 21H10A2 2 0 0 1 8 19Z",
+      "closed": true
+    },
+    {
+      "d": "M11 17.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

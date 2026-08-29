@@ -1,0 +1,32 @@
+{
+  "slug": "admission-control",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Admission control",
+  "description": "The boom stays down until there is room",
+  "tags": [
+    "gate",
+    "barrier",
+    "limit"
+  ],
+  "keywords": [
+    "admission control",
+    "gate",
+    "load gate"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 6V20",
+      "closed": false
+    },
+    {
+      "d": "M4 13L13 4",
+      "closed": false
+    },
+    {
+      "d": "M3 20H21",
+      "closed": false
+    }
+  ]
+}

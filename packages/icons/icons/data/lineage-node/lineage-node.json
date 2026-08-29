@@ -1,0 +1,40 @@
+{
+  "slug": "lineage-node",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Lineage node",
+  "description": "This table, in the chain that made it",
+  "tags": [
+    "provenance",
+    "chain",
+    "step"
+  ],
+  "keywords": [
+    "lineage",
+    "provenance node",
+    "upstream downstream"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M3 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6.5 6.5L9.5 9.5",
+      "closed": false
+    },
+    {
+      "d": "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14.5 14.5L17.5 17.5",
+      "closed": false
+    },
+    {
+      "d": "M17 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

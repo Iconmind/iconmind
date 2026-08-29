@@ -1,0 +1,27 @@
+{
+  "slug": "break-glass",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Break glass",
+  "description": "The access you hope stays sealed",
+  "tags": [
+    "emergency",
+    "override",
+    "crack"
+  ],
+  "keywords": [
+    "break glass access",
+    "emergency override"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V18A2 2 0 0 1 18 20H6A2 2 0 0 1 4 18Z",
+      "closed": true
+    },
+    {
+      "d": "M11 4.5L8.5 7L11.5 10L9 12.5",
+      "closed": false
+    }
+  ]
+}

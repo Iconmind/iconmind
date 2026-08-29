@@ -1,0 +1,32 @@
+{
+  "slug": "evasion",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Evasion",
+  "description": "Straight through the defence",
+  "tags": [
+    "bypass",
+    "slip",
+    "attack"
+  ],
+  "keywords": [
+    "evasion attack",
+    "bypass filter",
+    "slip past"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M5 3L21 19",
+      "closed": false
+    },
+    {
+      "d": "M21 15L21 19L17 19",
+      "closed": false
+    }
+  ]
+}

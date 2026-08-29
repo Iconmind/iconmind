@@ -1,0 +1,43 @@
+{
+  "slug": "unused-export",
+  "category": "devtools",
+  "subcategory": "code",
+  "name": "Unused export",
+  "description": "Offered to everyone; taken by no one",
+  "tags": [
+    "dead",
+    "export",
+    "strike"
+  ],
+  "aliases": [
+    "dead-export"
+  ],
+  "keywords": [
+    "unused export",
+    "dead code",
+    "never imported"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 4H21",
+      "closed": false
+    },
+    {
+      "d": "M3 9H21",
+      "closed": false
+    },
+    {
+      "d": "M3 14H15",
+      "closed": false
+    },
+    {
+      "d": "M3 19H21",
+      "closed": false
+    },
+    {
+      "d": "M7 16.5L12 11.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "context-precision",
+  "category": "rag",
+  "subcategory": "grounding",
+  "name": "Context precision",
+  "description": "How much of what was fetched mattered",
+  "tags": [
+    "signal",
+    "ratio",
+    "hit"
+  ],
+  "keywords": [
+    "context precision",
+    "retrieval precision",
+    "signal"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 5H13",
+      "closed": false
+    },
+    {
+      "d": "M3 11H13",
+      "closed": false
+    },
+    {
+      "d": "M3 17H13",
+      "closed": false
+    },
+    {
+      "d": "M16 11a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

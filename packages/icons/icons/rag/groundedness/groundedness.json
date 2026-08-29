@@ -1,0 +1,28 @@
+{
+  "slug": "groundedness",
+  "category": "rag",
+  "subcategory": "grounding",
+  "name": "Groundedness",
+  "description": "Every claim, standing on something",
+  "tags": [
+    "verified",
+    "sourced",
+    "solid"
+  ],
+  "keywords": [
+    "groundedness",
+    "claims supported",
+    "faithful"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 9L11 13L17 7",
+      "closed": false
+    },
+    {
+      "d": "M4 17H20",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "multi-hop",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Multi-hop",
+  "description": "The answer is two documents away",
+  "tags": [
+    "hops",
+    "chain",
+    "reason"
+  ],
+  "aliases": [
+    "hop-question"
+  ],
+  "keywords": [
+    "multi-hop",
+    "chained retrieval",
+    "two hops"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M2 16a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 16a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 16a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 14A4 4 0 0 1 12 14",
+      "closed": false
+    },
+    {
+      "d": "M12 14A4 4 0 0 1 20 14",
+      "closed": false
+    }
+  ]
+}

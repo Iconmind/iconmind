@@ -1,0 +1,32 @@
+{
+  "slug": "lost-in-middle",
+  "category": "rag",
+  "subcategory": "grounding",
+  "name": "Lost in the middle",
+  "description": "The context it skims past",
+  "tags": [
+    "attention",
+    "middle",
+    "skip"
+  ],
+  "keywords": [
+    "lost in the middle",
+    "position bias",
+    "context skim"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 5H21",
+      "closed": false
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    },
+    {
+      "d": "M3 19H21",
+      "closed": false
+    }
+  ]
+}

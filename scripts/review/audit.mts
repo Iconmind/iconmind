@@ -44,9 +44,13 @@ const ANCHORED = new Set([
   // score-distribution's bars stand on their baseline, exactly as chart-bar does.
   "analytics/score-distribution",
   // Lines drawn on axes put their ink where the axes are — chart-line's own reason.
-  "ai/lr-schedule", "ai/train-loss", "ai/warmup", "ai/gradient-clip",
+  "ai/lr-schedule", "ai/train-loss", "ai/warmup", "ai/gradient-clip", "devops/scale-to-zero",
   // The catch tray is at the bottom because that is where thrown things land.
   "automation/catch-block",
+  // A boom gate hinges on its post; a warm pool sits on the ground it is dug into.
+  "devops/admission-control", "devops/prewarm-pool",
+  // A boom gate hinges on its post; a warm pool sits on the ground it is dug into.
+  "devops/admission-control", "devops/prewarm-pool",
 ]);
 
 function inkStats(svg: string, size: number) {

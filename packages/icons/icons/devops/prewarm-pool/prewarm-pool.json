@@ -1,0 +1,32 @@
+{
+  "slug": "prewarm-pool",
+  "category": "devops",
+  "subcategory": "infrastructure",
+  "name": "Prewarm pool",
+  "description": "Empty seats, already warm",
+  "tags": [
+    "ready",
+    "warm",
+    "standby"
+  ],
+  "keywords": [
+    "prewarmed pool",
+    "warm capacity",
+    "no cold start"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 14L3 19L21 19L21 14",
+      "closed": false
+    },
+    {
+      "d": "M9 11L11 9L9 7",
+      "closed": false
+    },
+    {
+      "d": "M15 11L17 9L15 7",
+      "closed": false
+    }
+  ]
+}

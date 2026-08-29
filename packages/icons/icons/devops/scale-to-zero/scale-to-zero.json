@@ -1,0 +1,28 @@
+{
+  "slug": "scale-to-zero",
+  "category": "devops",
+  "subcategory": "infrastructure",
+  "name": "Scale to zero",
+  "description": "Nobody asked, so nothing runs",
+  "tags": [
+    "idle",
+    "zero",
+    "serverless"
+  ],
+  "keywords": [
+    "scale to zero",
+    "idle down",
+    "serverless"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 3L3 21L21 21",
+      "closed": false
+    },
+    {
+      "d": "M5 7L11 13L19 21",
+      "closed": false
+    }
+  ]
+}

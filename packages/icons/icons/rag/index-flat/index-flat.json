@@ -1,0 +1,43 @@
+{
+  "slug": "index-flat",
+  "category": "rag",
+  "subcategory": "vector",
+  "name": "Flat index",
+  "description": "Compare against every single one",
+  "tags": [
+    "exact",
+    "scan",
+    "brute"
+  ],
+  "aliases": [
+    "brute-force-index"
+  ],
+  "keywords": [
+    "flat index",
+    "exact search",
+    "full scan"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 5H16",
+      "closed": false
+    },
+    {
+      "d": "M3 11H16",
+      "closed": false
+    },
+    {
+      "d": "M3 17H16",
+      "closed": false
+    },
+    {
+      "d": "M20 4V15",
+      "closed": false
+    },
+    {
+      "d": "M18 13L20 15L22 13",
+      "closed": false
+    }
+  ]
+}

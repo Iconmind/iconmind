@@ -1,0 +1,36 @@
+{
+  "slug": "short-lived-token",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Short-lived token",
+  "description": "Good for minutes, on purpose",
+  "tags": [
+    "expiry",
+    "temporary",
+    "auth"
+  ],
+  "keywords": [
+    "short lived token",
+    "ephemeral credential",
+    "ttl token"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12A3 3 0 0 1 5 9H11A3 3 0 0 1 14 12V12A3 3 0 0 1 11 15H5A3 3 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M14 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 9.5V12",
+      "closed": false
+    },
+    {
+      "d": "M18 12H20.5",
+      "closed": false
+    }
+  ]
+}

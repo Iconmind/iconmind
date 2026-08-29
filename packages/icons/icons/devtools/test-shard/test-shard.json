@@ -1,0 +1,32 @@
+{
+  "slug": "test-shard",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Test shard",
+  "description": "The suite, split three ways to finish sooner",
+  "tags": [
+    "parallel",
+    "split",
+    "ci"
+  ],
+  "keywords": [
+    "test sharding",
+    "parallel tests",
+    "split suite"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 8L7 12L3 16Z",
+      "closed": true
+    },
+    {
+      "d": "M10 8L14 12L10 16Z",
+      "closed": true
+    },
+    {
+      "d": "M17 8L21 12L17 16Z",
+      "closed": true
+    }
+  ]
+}

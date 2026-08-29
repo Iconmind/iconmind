@@ -1,0 +1,32 @@
+{
+  "slug": "prefilter",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Pre-filter",
+  "description": "Narrow first, then search what is left",
+  "tags": [
+    "filter",
+    "first",
+    "narrow"
+  ],
+  "keywords": [
+    "prefilter",
+    "filter then search",
+    "metadata first"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 3L21 3L14 10L14 15L10 15L10 10Z",
+      "closed": true
+    },
+    {
+      "d": "M12.5 17.5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 20L20 22",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "top-n-tune",
+  "category": "rag",
+  "subcategory": "ranking",
+  "name": "Top-N",
+  "description": "How many of the best to keep",
+  "tags": [
+    "cutoff",
+    "k",
+    "keep"
+  ],
+  "aliases": [
+    "top-k-results"
+  ],
+  "keywords": [
+    "top n",
+    "top k",
+    "result count"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 4H20",
+      "closed": false
+    },
+    {
+      "d": "M8 9H20",
+      "closed": false
+    },
+    {
+      "d": "M8 14H20",
+      "closed": false
+    },
+    {
+      "d": "M8 19H20",
+      "closed": false
+    },
+    {
+      "d": "M5.5 2L3 2L3 11L5.5 11",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "multi-package",
+  "category": "devtools",
+  "subcategory": "package",
+  "name": "Multi-package",
+  "description": "Many packages, one repository",
+  "tags": [
+    "monorepo",
+    "workspace",
+    "linked"
+  ],
+  "aliases": [
+    "workspace-packages"
+  ],
+  "keywords": [
+    "monorepo",
+    "workspaces",
+    "packages"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H10A2 2 0 0 1 12 4V10A2 2 0 0 1 10 12H4A2 2 0 0 1 2 10Z",
+      "closed": true
+    },
+    {
+      "d": "M12 14A2 2 0 0 1 14 12H20A2 2 0 0 1 22 14V20A2 2 0 0 1 20 22H14A2 2 0 0 1 12 20Z",
+      "closed": true
+    }
+  ]
+}

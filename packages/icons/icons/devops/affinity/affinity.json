@@ -1,0 +1,36 @@
+{
+  "slug": "affinity",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Affinity",
+  "description": "Schedule these two together",
+  "tags": [
+    "together",
+    "attract",
+    "placement"
+  ],
+  "keywords": [
+    "affinity",
+    "co-locate",
+    "same node"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M2 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 10V14",
+      "closed": false
+    },
+    {
+      "d": "M10 12H14",
+      "closed": false
+    }
+  ]
+}

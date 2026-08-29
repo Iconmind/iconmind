@@ -1,0 +1,35 @@
+{
+  "slug": "subquestion",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Subquestion",
+  "description": "The big ask, cut into answerable pieces",
+  "tags": [
+    "decompose",
+    "question",
+    "split"
+  ],
+  "keywords": [
+    "subquestion",
+    "question decomposition"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 7A4 4 0 1 1 8 11",
+      "closed": false
+    },
+    {
+      "d": "M7 15.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14.5 13.5A2.5 2.5 0 1 1 17 16",
+      "closed": false
+    },
+    {
+      "d": "M16 19.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "postfilter",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Post-filter",
+  "description": "Search wide, then throw most of it back",
+  "tags": [
+    "filter",
+    "after",
+    "trim"
+  ],
+  "keywords": [
+    "postfilter",
+    "search then filter",
+    "trim results"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5.5 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 7L12.5 9",
+      "closed": false
+    },
+    {
+      "d": "M3 11L21 11L14 18L14 22L10 22L10 18Z",
+      "closed": true
+    }
+  ]
+}

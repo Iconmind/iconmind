@@ -1,0 +1,36 @@
+{
+  "slug": "circular-dep",
+  "category": "devtools",
+  "subcategory": "package",
+  "name": "Circular dependency",
+  "description": "A needs B needs A",
+  "tags": [
+    "cycle",
+    "imports",
+    "knot"
+  ],
+  "keywords": [
+    "circular dependency",
+    "import cycle",
+    "dependency loop"
+  ],
+  "family": "rotation",
+  "shapes": [
+    {
+      "d": "M14.39 5.42A7 7 0 0 1 14.39 18.58",
+      "closed": false
+    },
+    {
+      "d": "M9.61 18.58A7 7 0 0 1 9.61 5.42",
+      "closed": false
+    },
+    {
+      "d": "M12 2L15 5L12 8",
+      "closed": false
+    },
+    {
+      "d": "M12 16L9 19L12 22",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "dedupe-fuzzy",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Fuzzy dedupe",
+  "description": "Nearly the same is the same",
+  "tags": [
+    "merge",
+    "near",
+    "clean"
+  ],
+  "keywords": [
+    "fuzzy dedup",
+    "near duplicates",
+    "merge rows"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 4H16",
+      "closed": false
+    },
+    {
+      "d": "M3 8H17",
+      "closed": false
+    },
+    {
+      "d": "M10 11.5L12 13.5L14 11.5",
+      "closed": false
+    },
+    {
+      "d": "M3 17H16",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "redact-fields",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Redact fields",
+  "description": "The line is there; the words are not",
+  "tags": [
+    "censor",
+    "hide",
+    "bar"
+  ],
+  "keywords": [
+    "redaction",
+    "black bar",
+    "hide fields"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 5H21",
+      "closed": false
+    },
+    {
+      "d": "M6 11A2 2 0 0 1 8 9H16A2 2 0 0 1 18 11V11A2 2 0 0 1 16 13H8A2 2 0 0 1 6 11Z",
+      "closed": true
+    },
+    {
+      "d": "M3 19H21",
+      "closed": false
+    }
+  ]
+}

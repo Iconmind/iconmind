@@ -1,0 +1,35 @@
+{
+  "slug": "honeypot-ai",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Honeypot",
+  "description": "The bait knows your name",
+  "tags": [
+    "trap",
+    "decoy",
+    "lure"
+  ],
+  "aliases": [
+    "honeypot"
+  ],
+  "keywords": [
+    "honeypot",
+    "decoy system",
+    "trap"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M5 8L5 20L19 20L19 8",
+      "closed": false
+    },
+    {
+      "d": "M4 5H20",
+      "closed": false
+    },
+    {
+      "d": "M10 14a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "sleeper",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Sleeper",
+  "description": "Harmless, until the phrase wakes it",
+  "tags": [
+    "dormant",
+    "hidden",
+    "trigger"
+  ],
+  "aliases": [
+    "sleeper-agent"
+  ],
+  "keywords": [
+    "sleeper agent",
+    "dormant backdoor"
+  ],
+  "family": "agent",
+  "shapes": [
+    {
+      "d": "M12.54 7.56A6 6 0 1 1 7.46 7.56",
+      "closed": false
+    },
+    {
+      "d": "M15 4L19 4L15 8L19 8",
+      "closed": false
+    }
+  ]
+}

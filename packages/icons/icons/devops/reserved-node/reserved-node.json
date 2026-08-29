@@ -1,0 +1,30 @@
+{
+  "slug": "reserved-node",
+  "category": "devops",
+  "subcategory": "infrastructure",
+  "name": "Reserved node",
+  "description": "Paid for in advance, held for you",
+  "tags": [
+    "committed",
+    "held",
+    "capacity"
+  ],
+  "aliases": [
+    "reserved-instance"
+  ],
+  "keywords": [
+    "reserved instance",
+    "committed capacity"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V18A2 2 0 0 1 18 20H6A2 2 0 0 1 4 18Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 7L14.5 7L14.5 16L12 13.5L9.5 16Z",
+      "closed": true
+    }
+  ]
+}

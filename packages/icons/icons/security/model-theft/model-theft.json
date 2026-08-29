@@ -1,0 +1,32 @@
+{
+  "slug": "model-theft",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Model theft",
+  "description": "The whole thing walked out the door",
+  "tags": [
+    "steal",
+    "extract",
+    "gone"
+  ],
+  "keywords": [
+    "model theft",
+    "extraction",
+    "stolen weights"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M10.5 7H13A3 3 0 0 1 16 10V14A3 3 0 0 1 13 17H5A3 3 0 0 1 2 14V10L5 7H7.5",
+      "closed": true
+    },
+    {
+      "d": "M17.5 12H20",
+      "closed": false
+    },
+    {
+      "d": "M19.5 9.5L22 12L19.5 14.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "fuzz",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Fuzz",
+  "description": "Feed it chaos until it confesses",
+  "tags": [
+    "random",
+    "chaos",
+    "inputs"
+  ],
+  "aliases": [
+    "fuzz-test"
+  ],
+  "keywords": [
+    "fuzzing",
+    "random inputs",
+    "property chaos"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M2 8L5 11L8 8L11 11",
+      "closed": false
+    },
+    {
+      "d": "M2 14L5 17L8 14L11 17",
+      "closed": false
+    },
+    {
+      "d": "M15 9A2 2 0 0 1 17 7H20A2 2 0 0 1 22 9V15A2 2 0 0 1 20 17H17A2 2 0 0 1 15 15Z",
+      "closed": true
+    }
+  ]
+}

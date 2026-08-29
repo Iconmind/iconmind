@@ -1,0 +1,36 @@
+{
+  "slug": "closure",
+  "category": "devtools",
+  "subcategory": "code",
+  "name": "Closure",
+  "description": "The function that kept a piece of where it was born",
+  "tags": [
+    "scope",
+    "capture",
+    "function"
+  ],
+  "keywords": [
+    "closure",
+    "captured scope",
+    "lexical"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H20A2 2 0 0 1 22 4V20A2 2 0 0 1 20 22H4A2 2 0 0 1 2 20Z",
+      "closed": true
+    },
+    {
+      "d": "M6 14A2 2 0 0 1 8 12H11A2 2 0 0 1 13 14V16.5A2 2 0 0 1 11 18.5H8A2 2 0 0 1 6 16.5Z",
+      "closed": true
+    },
+    {
+      "d": "M15 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 11.5L15.5 9",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "schema-diff",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Schema diff",
+  "description": "The same table, one column later",
+  "tags": [
+    "compare",
+    "change",
+    "columns"
+  ],
+  "keywords": [
+    "schema diff",
+    "migration diff",
+    "column change"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H8.5A2 2 0 0 1 10.5 6V18A2 2 0 0 1 8.5 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M2 9H10.5",
+      "closed": false
+    },
+    {
+      "d": "M13.5 6A2 2 0 0 1 15.5 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H15.5A2 2 0 0 1 13.5 18Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 9H22",
+      "closed": false
+    },
+    {
+      "d": "M15.5 14.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

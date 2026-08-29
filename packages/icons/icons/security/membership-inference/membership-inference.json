@@ -1,0 +1,43 @@
+{
+  "slug": "membership-inference",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Membership inference",
+  "description": "It remembers who it was trained on",
+  "tags": [
+    "privacy",
+    "identify",
+    "leak"
+  ],
+  "keywords": [
+    "membership inference",
+    "training data leak"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    }
+  ]
+}

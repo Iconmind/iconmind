@@ -1,0 +1,32 @@
+{
+  "slug": "symlink",
+  "category": "devtools",
+  "subcategory": "package",
+  "name": "Symlink",
+  "description": "A file that is really a pointer",
+  "tags": [
+    "link",
+    "alias",
+    "shortcut"
+  ],
+  "keywords": [
+    "symlink",
+    "symbolic link",
+    "linked file"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 16L14 11",
+      "closed": false
+    },
+    {
+      "d": "M10.5 10.5L14.5 10.5L14.5 14.5",
+      "closed": false
+    }
+  ]
+}

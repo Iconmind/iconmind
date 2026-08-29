@@ -1,0 +1,44 @@
+{
+  "slug": "dynamic-batch",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Dynamic batching",
+  "description": "Whoever arrives together, rides together",
+  "tags": [
+    "group",
+    "requests",
+    "throughput"
+  ],
+  "keywords": [
+    "dynamic batching",
+    "request batching",
+    "inference batch"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3.5 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3.5 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3.5 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 4L10.5 4L10.5 20L8 20",
+      "closed": false
+    },
+    {
+      "d": "M13 12H17",
+      "closed": false
+    },
+    {
+      "d": "M16.5 9.5L19 12L16.5 14.5",
+      "closed": false
+    }
+  ]
+}

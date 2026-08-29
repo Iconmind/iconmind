@@ -1,0 +1,43 @@
+{
+  "slug": "bucket-data",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Bucket",
+  "description": "Every value into its bin",
+  "tags": [
+    "bin",
+    "sort",
+    "route"
+  ],
+  "aliases": [
+    "binning"
+  ],
+  "keywords": [
+    "bucketing",
+    "binning",
+    "histogram bins"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4.5 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15.5 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 8.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 13L3 20L10 20L10 13",
+      "closed": false
+    },
+    {
+      "d": "M14 13L14 20L21 20L21 13",
+      "closed": false
+    }
+  ]
+}
