@@ -1,0 +1,44 @@
+{
+  "slug": "synthetic-row",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Synthetic row",
+  "description": "A row nobody collected",
+  "tags": [
+    "generated",
+    "fake",
+    "dotted"
+  ],
+  "keywords": [
+    "synthetic data",
+    "generated row",
+    "fake sample"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 4H21",
+      "closed": false
+    },
+    {
+      "d": "M3 9H21",
+      "closed": false
+    },
+    {
+      "d": "M3 19H21",
+      "closed": false
+    },
+    {
+      "d": "M5 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

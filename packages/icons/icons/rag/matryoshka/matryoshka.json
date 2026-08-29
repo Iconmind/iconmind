@@ -1,0 +1,32 @@
+{
+  "slug": "matryoshka",
+  "category": "rag",
+  "subcategory": "vector",
+  "name": "Matryoshka",
+  "description": "The small embedding lives inside the big one",
+  "tags": [
+    "nested",
+    "truncate",
+    "dimensions"
+  ],
+  "keywords": [
+    "matryoshka embedding",
+    "truncated dims",
+    "nested vector"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 3L21 12L12 21L3 12Z",
+      "closed": true
+    },
+    {
+      "d": "M12 7.5L16.5 12L12 16.5L7.5 12Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

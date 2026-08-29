@@ -1,0 +1,40 @@
+{
+  "slug": "table-extract",
+  "category": "rag",
+  "subcategory": "ingestion",
+  "name": "Table extract",
+  "description": "The table found inside the page, pulled out whole",
+  "tags": [
+    "parse",
+    "rows",
+    "structure"
+  ],
+  "keywords": [
+    "table extraction",
+    "parse table",
+    "structured data"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 3H19A3 3 0 0 1 22 6V12A3 3 0 0 1 19 15H5A3 3 0 0 1 2 12V6A3 3 0 0 1 5 3H10",
+      "closed": true
+    },
+    {
+      "d": "M2 8H22",
+      "closed": false
+    },
+    {
+      "d": "M9 8V15",
+      "closed": false
+    },
+    {
+      "d": "M15 8V15",
+      "closed": false
+    },
+    {
+      "d": "M6 20A2 2 0 0 1 8 18H16A2 2 0 0 1 18 20V20A2 2 0 0 1 16 22H8A2 2 0 0 1 6 20Z",
+      "closed": true
+    }
+  ]
+}

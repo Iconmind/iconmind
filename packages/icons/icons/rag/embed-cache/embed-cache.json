@@ -1,0 +1,28 @@
+{
+  "slug": "embed-cache",
+  "category": "rag",
+  "subcategory": "vector",
+  "name": "Embed cache",
+  "description": "Computed once, kept for next time",
+  "tags": [
+    "store",
+    "reuse",
+    "fast"
+  ],
+  "keywords": [
+    "embedding cache",
+    "cached vectors",
+    "reuse embeddings"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 8.5L16 11L12 15L8 11L10.5 8.5",
+      "closed": false
+    }
+  ]
+}

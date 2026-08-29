@@ -1,0 +1,44 @@
+{
+  "slug": "data-augment",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Data augment",
+  "description": "More rows, made from the rows you have",
+  "tags": [
+    "expand",
+    "more",
+    "derived"
+  ],
+  "keywords": [
+    "data augmentation",
+    "augment rows",
+    "expand dataset"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 4H21",
+      "closed": false
+    },
+    {
+      "d": "M3 9H21",
+      "closed": false
+    },
+    {
+      "d": "M3 19H21",
+      "closed": false
+    },
+    {
+      "d": "M3 14H13",
+      "closed": false
+    },
+    {
+      "d": "M16.5 14H20.5",
+      "closed": false
+    },
+    {
+      "d": "M18.5 12V16",
+      "closed": false
+    }
+  ]
+}

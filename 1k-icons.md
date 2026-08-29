@@ -166,7 +166,7 @@ In drawing order within each category. Ten consecutive names = one round.
 
 ### data (+80)
 
-  1. dataset-card, dataset-version, dataset-split, train-split, holdout, test-split, sample-rows, stratified-sample, upsample, downsample
+  1. dataset-card, dataset-version, dataset-split, holdout, sample-rows, stratified-sample, class-balance, label, data-augment, synthetic-row
   2. class-balance, label, label-queue, label-review, annotator, inter-annotator, gold-label, weak-label, synthetic-row, synthetic-flag
   3. data-augment, perturb, noise-inject, dedupe-fuzzy, canonicalize, entity-resolve, record-link, survivorship, null-fill, impute
   4. outlier-remove, winsorize, normalize-data, standardize, bin, bucket-data, one-hot, feature, feature-cross, feature-store
@@ -177,7 +177,7 @@ In drawing order within each category. Ten consecutive names = one round.
 
 ### rag (+70)
 
-  1. knowledge-corpus, corpus-add, crawl-schedule, sitemap-ingest, pdf-parse, table-extract, layout-parse, header-split, semantic-split, sentence-split
+  1. corpus-add, table-extract, matryoshka, parent-chunk, child-chunk, sliding-window, embed-batch, embed-cache, reembed, hybrid-fuse
   2. nested-split, token-split, overlap-tune, chunk-viz, parent-chunk, child-chunk, sliding-window, late-chunk, embed-batch, embed-cache
   3. embed-version, reembed, dimension-reduce, matryoshka, index-hnsw, index-ivf, index-flat, index-merge, index-warm, shard-index
   4. ann-search, exact-search, prefilter, postfilter, metadata-filter, hybrid-fuse, rrf, alpha-blend, rerank-cross, rerank-llm

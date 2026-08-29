@@ -1,0 +1,39 @@
+{
+  "slug": "hybrid-fuse",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Hybrid fuse",
+  "description": "Keyword and semantic, one ranked list",
+  "tags": [
+    "merge",
+    "bm25",
+    "vector"
+  ],
+  "aliases": [
+    "hybrid-search-fuse"
+  ],
+  "keywords": [
+    "hybrid search",
+    "fusion",
+    "bm25 plus vector"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M3 5L9 11",
+      "closed": false
+    },
+    {
+      "d": "M3 19L9 13",
+      "closed": false
+    },
+    {
+      "d": "M10 12H17",
+      "closed": false
+    },
+    {
+      "d": "M17 9.5L19.5 12L17 14.5",
+      "closed": false
+    }
+  ]
+}

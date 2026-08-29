@@ -1,0 +1,33 @@
+{
+  "slug": "dataset-version",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Dataset version",
+  "description": "The data as it was, kept",
+  "tags": [
+    "snapshot",
+    "copy",
+    "lineage"
+  ],
+  "keywords": [
+    "dataset version",
+    "data snapshot",
+    "dvc",
+    "lineage"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M6 4.25A1.75 1.75 0 0 1 7.75 2.5H19.25A1.75 1.75 0 0 1 21 4.25V4.25A1.75 1.75 0 0 1 19.25 6H7.75A1.75 1.75 0 0 1 6 4.25Z",
+      "closed": true
+    },
+    {
+      "d": "M3 11A2 2 0 0 1 5 9H19A2 2 0 0 1 21 11V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M6 14.5H18",
+      "closed": false
+    }
+  ]
+}

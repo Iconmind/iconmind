@@ -1,0 +1,44 @@
+{
+  "slug": "stratified-sample",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Stratified sample",
+  "description": "One from every layer, fairly",
+  "tags": [
+    "layers",
+    "fair",
+    "strata"
+  ],
+  "keywords": [
+    "stratified sampling",
+    "per stratum",
+    "balanced sample"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 4H21",
+      "closed": false
+    },
+    {
+      "d": "M6 7.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 11H21",
+      "closed": false
+    },
+    {
+      "d": "M11 14.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 18H21",
+      "closed": false
+    },
+    {
+      "d": "M16 21a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

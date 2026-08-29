@@ -1,0 +1,32 @@
+{
+  "slug": "embed-batch",
+  "category": "rag",
+  "subcategory": "vector",
+  "name": "Embed batch",
+  "description": "Many texts through the model at once",
+  "tags": [
+    "bulk",
+    "vectors",
+    "throughput"
+  ],
+  "keywords": [
+    "batch embedding",
+    "bulk vectors",
+    "embed many"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7.5 5L10 7.5L6 11.5L2 7.5L4.5 5",
+      "closed": false
+    },
+    {
+      "d": "M19.5 5L22 7.5L18 11.5L14 7.5L16.5 5",
+      "closed": false
+    },
+    {
+      "d": "M3 15L3 19L21 19L21 15",
+      "closed": false
+    }
+  ]
+}

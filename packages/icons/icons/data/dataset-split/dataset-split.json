@@ -1,0 +1,43 @@
+{
+  "slug": "dataset-split",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Dataset split",
+  "description": "Most to learn from, some to be judged on",
+  "tags": [
+    "train",
+    "test",
+    "portion"
+  ],
+  "aliases": [
+    "train-test-split"
+  ],
+  "keywords": [
+    "train test split",
+    "80 20",
+    "partition data"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 6A2 2 0 0 1 5 4H19A2 2 0 0 1 21 6V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M15 4V20",
+      "closed": false
+    },
+    {
+      "d": "M6 9H12",
+      "closed": false
+    },
+    {
+      "d": "M6 12H12",
+      "closed": false
+    },
+    {
+      "d": "M6 15H12",
+      "closed": false
+    }
+  ]
+}

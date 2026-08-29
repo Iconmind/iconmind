@@ -1,0 +1,32 @@
+{
+  "slug": "label",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Label",
+  "description": "The name a row is taught under",
+  "tags": [
+    "tag",
+    "class",
+    "annotation"
+  ],
+  "aliases": [
+    "class-label"
+  ],
+  "keywords": [
+    "label",
+    "annotation",
+    "ground truth",
+    "class"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 7L16 7L21 12L16 17L3 17Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "dataset-card",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Dataset card",
+  "description": "What this data is, on one page",
+  "tags": [
+    "docs",
+    "sheet",
+    "provenance"
+  ],
+  "keywords": [
+    "dataset card",
+    "datasheet",
+    "documentation",
+    "provenance"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M5 4A2 2 0 0 1 7 2H17A2 2 0 0 1 19 4V20A2 2 0 0 1 17 22H7A2 2 0 0 1 5 20Z",
+      "closed": true
+    },
+    {
+      "d": "M8 7.5A2 2 0 0 1 10 5.5H14A2 2 0 0 1 16 7.5V10A2 2 0 0 1 14 12H10A2 2 0 0 1 8 10Z",
+      "closed": true
+    },
+    {
+      "d": "M12 5.5V12",
+      "closed": false
+    },
+    {
+      "d": "M9 15.5H15",
+      "closed": false
+    },
+    {
+      "d": "M9 18.5H13",
+      "closed": false
+    }
+  ]
+}
