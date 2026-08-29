@@ -1,0 +1,35 @@
+{
+  "slug": "tab-close",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Close tab",
+  "description": "That one is finished with",
+  "tags": [
+    "browser",
+    "dismiss",
+    "x"
+  ],
+  "keywords": [
+    "close tab",
+    "dismiss tab"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 20L2 9L4 7L11 7L13 9L13 20",
+      "closed": false
+    },
+    {
+      "d": "M2 20H22",
+      "closed": false
+    },
+    {
+      "d": "M16 11L20 15",
+      "closed": false
+    },
+    {
+      "d": "M20 11L16 15",
+      "closed": false
+    }
+  ]
+}

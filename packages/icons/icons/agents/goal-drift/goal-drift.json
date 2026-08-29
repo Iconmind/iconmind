@@ -1,0 +1,36 @@
+{
+  "slug": "goal-drift",
+  "category": "agents",
+  "subcategory": "planning",
+  "name": "Goal drift",
+  "description": "Still moving — just not at the target",
+  "tags": [
+    "miss",
+    "wander",
+    "aim"
+  ],
+  "keywords": [
+    "goal drift",
+    "off target",
+    "objective drift"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M4 15a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 5H14.5",
+      "closed": false
+    },
+    {
+      "d": "M14.5 2.5L17 5L14.5 7.5",
+      "closed": false
+    }
+  ]
+}

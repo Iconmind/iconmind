@@ -1,0 +1,40 @@
+{
+  "slug": "plan-tree",
+  "category": "agents",
+  "subcategory": "planning",
+  "name": "Plan tree",
+  "description": "One intent, branching into steps",
+  "tags": [
+    "branches",
+    "steps",
+    "decompose"
+  ],
+  "keywords": [
+    "plan tree",
+    "decomposition",
+    "task tree"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M7 6.5A2 2 0 0 1 9 4.5H15A2 2 0 0 1 17 6.5V6.5A2 2 0 0 1 15 8.5H9A2 2 0 0 1 7 6.5Z",
+      "closed": true
+    },
+    {
+      "d": "M12 8.5V12",
+      "closed": false
+    },
+    {
+      "d": "M6 15.5L6 12L18 12L18 15.5",
+      "closed": false
+    },
+    {
+      "d": "M2.5 17.75A2.25 2.25 0 0 1 4.75 15.5H7.25A2.25 2.25 0 0 1 9.5 17.75V17.75A2.25 2.25 0 0 1 7.25 20H4.75A2.25 2.25 0 0 1 2.5 17.75Z",
+      "closed": true
+    },
+    {
+      "d": "M14.5 17.75A2.25 2.25 0 0 1 16.75 15.5H19.25A2.25 2.25 0 0 1 21.5 17.75V17.75A2.25 2.25 0 0 1 19.25 20H16.75A2.25 2.25 0 0 1 14.5 17.75Z",
+      "closed": true
+    }
+  ]
+}

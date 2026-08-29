@@ -1,0 +1,32 @@
+{
+  "slug": "task-yield",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Task yield",
+  "description": "Given back for someone else",
+  "tags": [
+    "release",
+    "return",
+    "unassign"
+  ],
+  "keywords": [
+    "yield task",
+    "release",
+    "give back"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M8.69 13.37A4 4 0 1 1 5.31 13.37",
+      "closed": false
+    },
+    {
+      "d": "M10 14L14.5 9.5",
+      "closed": false
+    },
+    {
+      "d": "M12 6.5A2.5 2.5 0 0 1 14.5 4H18.5A2.5 2.5 0 0 1 21 6.5V6.5A2.5 2.5 0 0 1 18.5 9H14.5A2.5 2.5 0 0 1 12 6.5Z",
+      "closed": true
+    }
+  ]
+}

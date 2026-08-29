@@ -1,0 +1,40 @@
+{
+  "slug": "mcp-version",
+  "category": "mcp",
+  "subcategory": "transport",
+  "name": "MCP version",
+  "description": "Which dialect both sides agree to speak",
+  "tags": [
+    "protocol",
+    "negotiate",
+    "level"
+  ],
+  "keywords": [
+    "protocol version",
+    "negotiation",
+    "compatibility"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M13.5 3H17A3 3 0 0 1 20 6V18A3 3 0 0 1 17 21H7A3 3 0 0 1 4 18V6L7 3H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 18H12",
+      "closed": false
+    },
+    {
+      "d": "M15 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 12L12 9L15 12",
+      "closed": false
+    },
+    {
+      "d": "M9 16L12 13L15 16",
+      "closed": false
+    }
+  ]
+}

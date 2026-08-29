@@ -1,0 +1,32 @@
+{
+  "slug": "mcp-elicit-confirm",
+  "category": "mcp",
+  "subcategory": "client",
+  "name": "MCP elicit confirm",
+  "description": "The user says yes to the form",
+  "tags": [
+    "confirm",
+    "consent",
+    "form"
+  ],
+  "keywords": [
+    "elicitation confirm",
+    "user consent",
+    "form accepted"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14 3H19A3 3 0 0 1 22 6V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V6A3 3 0 0 1 5 3H10",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 21L11 17",
+      "closed": false
+    },
+    {
+      "d": "M9 9.5L11 11.5L15 7.5",
+      "closed": false
+    }
+  ]
+}

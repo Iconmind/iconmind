@@ -1,0 +1,28 @@
+{
+  "slug": "hotkey",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Hotkey",
+  "description": "The key with a power behind it",
+  "tags": [
+    "shortcut",
+    "modifier",
+    "key"
+  ],
+  "keywords": [
+    "hotkey",
+    "shortcut key",
+    "modifier"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V18A2 2 0 0 1 18 20H6A2 2 0 0 1 4 18Z",
+      "closed": true
+    },
+    {
+      "d": "M9 13.5L12 10.5L15 13.5",
+      "closed": false
+    }
+  ]
+}

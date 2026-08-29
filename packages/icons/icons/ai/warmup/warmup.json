@@ -1,0 +1,31 @@
+{
+  "slug": "warmup",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Warmup",
+  "description": "Gently up to speed, then hold",
+  "tags": [
+    "ramp",
+    "start",
+    "ease"
+  ],
+  "aliases": [
+    "lr-warmup"
+  ],
+  "keywords": [
+    "warmup",
+    "ramp up",
+    "ease in"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 3L3 21L21 21",
+      "closed": false
+    },
+    {
+      "d": "M5 18L12 11L19 11",
+      "closed": false
+    }
+  ]
+}

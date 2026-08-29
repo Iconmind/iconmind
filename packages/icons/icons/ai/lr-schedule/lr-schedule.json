@@ -1,0 +1,31 @@
+{
+  "slug": "lr-schedule",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "LR schedule",
+  "description": "The learning rate, stepped down on plan",
+  "tags": [
+    "rate",
+    "steps",
+    "decay"
+  ],
+  "aliases": [
+    "learning-rate-schedule"
+  ],
+  "keywords": [
+    "lr schedule",
+    "step decay",
+    "warmup decay"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 3L3 21L21 21",
+      "closed": false
+    },
+    {
+      "d": "M5 6L10 6L10 11L15 11L15 16L19 16",
+      "closed": false
+    }
+  ]
+}

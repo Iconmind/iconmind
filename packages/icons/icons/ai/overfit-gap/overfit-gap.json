@@ -1,0 +1,30 @@
+{
+  "slug": "overfit-gap",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Overfit gap",
+  "description": "Train keeps falling; validation turns away",
+  "tags": [
+    "diverge",
+    "curves",
+    "generalise"
+  ],
+  "aliases": [
+    "train-val-gap"
+  ],
+  "keywords": [
+    "overfitting gap",
+    "train val divergence"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M4 14L9 9L20 9",
+      "closed": false
+    },
+    {
+      "d": "M4 19L9 14L13 14L17 18",
+      "closed": false
+    }
+  ]
+}

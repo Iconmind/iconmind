@@ -1,0 +1,31 @@
+{
+  "slug": "key-combo",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Key combo",
+  "description": "Two keys, pressed as one",
+  "tags": [
+    "chord",
+    "shortcut",
+    "together"
+  ],
+  "aliases": [
+    "keyboard-chord"
+  ],
+  "keywords": [
+    "key combo",
+    "chord",
+    "shortcut combo"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H13A2 2 0 0 1 15 5V13A2 2 0 0 1 13 15H5A2 2 0 0 1 3 13Z",
+      "closed": true
+    },
+    {
+      "d": "M9 11A2 2 0 0 1 11 9H19A2 2 0 0 1 21 11V19A2 2 0 0 1 19 21H11A2 2 0 0 1 9 19Z",
+      "closed": true
+    }
+  ]
+}

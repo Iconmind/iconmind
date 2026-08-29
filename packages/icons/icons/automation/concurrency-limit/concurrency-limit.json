@@ -1,0 +1,36 @@
+{
+  "slug": "concurrency-limit",
+  "category": "automation",
+  "subcategory": "trigger",
+  "name": "Concurrency limit",
+  "description": "Three at once, and the wall says so",
+  "tags": [
+    "parallel",
+    "cap",
+    "lanes"
+  ],
+  "keywords": [
+    "concurrency limit",
+    "max parallel",
+    "lanes capped"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 5H15",
+      "closed": false
+    },
+    {
+      "d": "M3 12H15",
+      "closed": false
+    },
+    {
+      "d": "M3 19H15",
+      "closed": false
+    },
+    {
+      "d": "M19 3V21",
+      "closed": false
+    }
+  ]
+}

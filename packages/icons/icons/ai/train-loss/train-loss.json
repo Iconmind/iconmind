@@ -1,0 +1,28 @@
+{
+  "slug": "train-loss",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Training loss",
+  "description": "Down, then flat — that is the whole hope",
+  "tags": [
+    "curve",
+    "descent",
+    "converge"
+  ],
+  "keywords": [
+    "training loss",
+    "loss curve down",
+    "convergence"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 3L3 21L21 21",
+      "closed": false
+    },
+    {
+      "d": "M5 6L11 12L15 16L19 16",
+      "closed": false
+    }
+  ]
+}

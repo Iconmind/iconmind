@@ -1,0 +1,28 @@
+{
+  "slug": "finally-block",
+  "category": "automation",
+  "subcategory": "workflow",
+  "name": "Finally block",
+  "description": "Runs no matter how it went",
+  "tags": [
+    "cleanup",
+    "always",
+    "after"
+  ],
+  "keywords": [
+    "finally",
+    "cleanup",
+    "always runs"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V14A2 2 0 0 1 18 16H6A2 2 0 0 1 4 14Z",
+      "closed": true
+    },
+    {
+      "d": "M8 18.5L10 20.5L14 16.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "semaphore",
+  "category": "automation",
+  "subcategory": "condition",
+  "name": "Semaphore",
+  "description": "Take a light before you enter",
+  "tags": [
+    "lock",
+    "signal",
+    "slots"
+  ],
+  "keywords": [
+    "semaphore",
+    "concurrency permit",
+    "traffic light"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7.5 4A2 2 0 0 1 9.5 2H14.5A2 2 0 0 1 16.5 4V20A2 2 0 0 1 14.5 22H9.5A2 2 0 0 1 7.5 20Z",
+      "closed": true
+    },
+    {
+      "d": "M10 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

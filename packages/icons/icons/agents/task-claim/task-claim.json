@@ -1,0 +1,32 @@
+{
+  "slug": "task-claim",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Task claim",
+  "description": "This one is mine now",
+  "tags": [
+    "take",
+    "own",
+    "grab"
+  ],
+  "keywords": [
+    "claim task",
+    "take ownership",
+    "assign self"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M10 10L14.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M12 17.5A2.5 2.5 0 0 1 14.5 15H18.5A2.5 2.5 0 0 1 21 17.5V17.5A2.5 2.5 0 0 1 18.5 20H14.5A2.5 2.5 0 0 1 12 17.5Z",
+      "closed": true
+    }
+  ]
+}

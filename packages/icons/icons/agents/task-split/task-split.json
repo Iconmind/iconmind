@@ -1,0 +1,40 @@
+{
+  "slug": "task-split",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Task split",
+  "description": "Too big for one; now it is two",
+  "tags": [
+    "divide",
+    "subtasks",
+    "fan"
+  ],
+  "keywords": [
+    "split task",
+    "subtasks",
+    "divide work"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M3 5.5A2.5 2.5 0 0 1 5.5 3H18.5A2.5 2.5 0 0 1 21 5.5V5.5A2.5 2.5 0 0 1 18.5 8H5.5A2.5 2.5 0 0 1 3 5.5Z",
+      "closed": true
+    },
+    {
+      "d": "M7 8V14",
+      "closed": false
+    },
+    {
+      "d": "M17 8V14",
+      "closed": false
+    },
+    {
+      "d": "M3 16.5A2.5 2.5 0 0 1 5.5 14H8.5A2.5 2.5 0 0 1 11 16.5V16.5A2.5 2.5 0 0 1 8.5 19H5.5A2.5 2.5 0 0 1 3 16.5Z",
+      "closed": true
+    },
+    {
+      "d": "M13 16.5A2.5 2.5 0 0 1 15.5 14H18.5A2.5 2.5 0 0 1 21 16.5V16.5A2.5 2.5 0 0 1 18.5 19H15.5A2.5 2.5 0 0 1 13 16.5Z",
+      "closed": true
+    }
+  ]
+}

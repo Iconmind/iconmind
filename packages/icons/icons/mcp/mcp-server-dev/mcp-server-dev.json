@@ -1,0 +1,40 @@
+{
+  "slug": "mcp-server-dev",
+  "category": "mcp",
+  "subcategory": "server",
+  "name": "MCP server dev",
+  "description": "A server still being written",
+  "tags": [
+    "develop",
+    "code",
+    "build"
+  ],
+  "keywords": [
+    "build mcp server",
+    "develop",
+    "sdk"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M13.5 3H17A3 3 0 0 1 20 6V18A3 3 0 0 1 17 21H7A3 3 0 0 1 4 18V6L7 3H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 18H12",
+      "closed": false
+    },
+    {
+      "d": "M15 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 7L7.5 9.5L10 12",
+      "closed": false
+    },
+    {
+      "d": "M14 7L16.5 9.5L14 12",
+      "closed": false
+    }
+  ]
+}

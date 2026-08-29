@@ -1,0 +1,36 @@
+{
+  "slug": "scatter-gather",
+  "category": "automation",
+  "subcategory": "workflow",
+  "name": "Scatter-gather",
+  "description": "Fan out, then everyone reports back",
+  "tags": [
+    "fanout",
+    "merge",
+    "parallel"
+  ],
+  "keywords": [
+    "scatter gather",
+    "fan out fan in",
+    "parallel then join"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M2 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 10.5L10 6L14 6L18.5 10.5",
+      "closed": false
+    },
+    {
+      "d": "M5.5 13.5L10 18L14 18L18.5 13.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "grad-flow",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Gradient flow",
+  "description": "The correction, travelling back down",
+  "tags": [
+    "backprop",
+    "layers",
+    "down"
+  ],
+  "keywords": [
+    "gradient flow",
+    "backprop",
+    "through layers"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 5H20",
+      "closed": false
+    },
+    {
+      "d": "M10 7.5L12 9.5L14 7.5",
+      "closed": false
+    },
+    {
+      "d": "M4 12H20",
+      "closed": false
+    },
+    {
+      "d": "M10 14.5L12 16.5L14 14.5",
+      "closed": false
+    },
+    {
+      "d": "M4 19H20",
+      "closed": false
+    }
+  ]
+}

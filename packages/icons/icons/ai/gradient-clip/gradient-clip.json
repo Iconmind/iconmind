@@ -1,0 +1,40 @@
+{
+  "slug": "gradient-clip",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Gradient clip",
+  "description": "No single step gets to be that big",
+  "tags": [
+    "cap",
+    "ceiling",
+    "limit"
+  ],
+  "keywords": [
+    "gradient clipping",
+    "cap gradient",
+    "max norm"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M6 10V19",
+      "closed": false
+    },
+    {
+      "d": "M12 4V19",
+      "closed": false
+    },
+    {
+      "d": "M18 12V19",
+      "closed": false
+    },
+    {
+      "d": "M9 7H15",
+      "closed": false
+    },
+    {
+      "d": "M4 21.5H20",
+      "closed": false
+    }
+  ]
+}

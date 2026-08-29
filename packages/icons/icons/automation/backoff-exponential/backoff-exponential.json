@@ -1,0 +1,43 @@
+{
+  "slug": "backoff-exponential",
+  "category": "automation",
+  "subcategory": "schedule",
+  "name": "Exponential backoff",
+  "description": "Retry later; then much later",
+  "tags": [
+    "retry",
+    "spacing",
+    "wait"
+  ],
+  "aliases": [
+    "backoff"
+  ],
+  "keywords": [
+    "exponential backoff",
+    "retry spacing",
+    "cooldown"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 8V14",
+      "closed": false
+    },
+    {
+      "d": "M6 8V14",
+      "closed": false
+    },
+    {
+      "d": "M11 8V14",
+      "closed": false
+    },
+    {
+      "d": "M19 8V14",
+      "closed": false
+    },
+    {
+      "d": "M3 17H21",
+      "closed": false
+    }
+  ]
+}

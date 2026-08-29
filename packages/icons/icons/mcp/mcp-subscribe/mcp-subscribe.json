@@ -1,0 +1,44 @@
+{
+  "slug": "mcp-subscribe",
+  "category": "mcp",
+  "subcategory": "resource",
+  "name": "MCP subscribe",
+  "description": "Tell me every time it changes",
+  "tags": [
+    "updates",
+    "watch",
+    "feed"
+  ],
+  "keywords": [
+    "resource subscription",
+    "updates",
+    "watch resource"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M13.5 3H17A3 3 0 0 1 20 6V18A3 3 0 0 1 17 21H7A3 3 0 0 1 4 18V6L7 3H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 18H12",
+      "closed": false
+    },
+    {
+      "d": "M15 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 10A3 3 0 0 1 12 13",
+      "closed": false
+    },
+    {
+      "d": "M9 7A6 6 0 0 1 15 13",
+      "closed": false
+    },
+    {
+      "d": "M8 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

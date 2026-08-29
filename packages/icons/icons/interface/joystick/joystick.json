@@ -1,0 +1,32 @@
+{
+  "slug": "joystick",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Joystick",
+  "description": "The stick that goes everywhere",
+  "tags": [
+    "control",
+    "game",
+    "direction"
+  ],
+  "keywords": [
+    "joystick",
+    "game control",
+    "analog stick"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 20A7 7 0 0 1 19 20",
+      "closed": false
+    },
+    {
+      "d": "M12 6V13",
+      "closed": false
+    },
+    {
+      "d": "M10 4a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

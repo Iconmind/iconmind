@@ -1,0 +1,31 @@
+{
+  "slug": "fader",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Fader",
+  "description": "Slide it to where it sounds right",
+  "tags": [
+    "slider",
+    "level",
+    "mix"
+  ],
+  "aliases": [
+    "slider-vertical"
+  ],
+  "keywords": [
+    "fader",
+    "vertical slider",
+    "level"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 3V21",
+      "closed": false
+    },
+    {
+      "d": "M8 11A2 2 0 0 1 10 9H14A2 2 0 0 1 16 11V11A2 2 0 0 1 14 13H10A2 2 0 0 1 8 11Z",
+      "closed": true
+    }
+  ]
+}

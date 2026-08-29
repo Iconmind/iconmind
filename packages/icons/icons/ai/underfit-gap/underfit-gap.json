@@ -1,0 +1,32 @@
+{
+  "slug": "underfit-gap",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Underfit",
+  "description": "Both curves high, nothing learned yet",
+  "tags": [
+    "stuck",
+    "high",
+    "capacity"
+  ],
+  "keywords": [
+    "underfitting",
+    "both curves high",
+    "capacity"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 3L3 21L21 21",
+      "closed": false
+    },
+    {
+      "d": "M6 8H19",
+      "closed": false
+    },
+    {
+      "d": "M6 13H19",
+      "closed": false
+    }
+  ]
+}

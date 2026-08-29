@@ -62,13 +62,16 @@ prose here is documentation of the gates, never a substitute for them:
 8. Only a fully green round unlocks the next 10. A concept that will not draw well
    is swapped for a spare from the same category — the list is a menu, not a vow.
 
-**Push cadence**: commit per round, push per phase (see below) — one push = one
-automatic patch release, so pushing every round would mint 100 releases.
+**Push cadence** (revised, the user's call 2026-08-29): NO push until all 1,000
+are drawn. Everything accumulates as local commits. Before the one push at the
+end: update README (icon/cell counts are hardcoded there), the landing page's
+copy and counts, the docs pages that quote numbers, and re-run icons:generate —
+then a single push mints one release with the whole set.
 **Never** touch versions by hand; `[skip release]` only for non-icon fixes.
 
 ## Phases
 
-Ten phases of ~100. Rounds are 20 icons from round 5 on (the user's call, 2026-08-29) — two category slices per round, same gates, same sheet. Rounds rotate through the categories in the order
+Ten phases of ~100. Rounds are 50 icons from round 8 on (the user's call, 2026-08-29; 20 from round 5, 10 before that) — two category slices per round, same gates, same sheet. Rounds rotate through the categories in the order
 listed — round 1 is the first 10 of `ai`, round 2 the first 10 of `agents`, and so
 on, wrapping back to `ai` and skipping a category once its list is exhausted. Every
 phase is therefore a cross-section of the whole set, which is what makes voice
@@ -100,7 +103,7 @@ In drawing order within each category. Ten consecutive names = one round.
 ### ai (+200)
 
   1. model-card, model-registry-entry, model-license, model-size, model-family, model-fork, checkpoint-save, checkpoint-load, checkpoint-compare, gradient-descent
-  2. lr-schedule, grad-flow, gradient-clip, train-loss, overfit-gap, underfit-gap, stop-patience, warmup, weight-decay, dropout
+  2. lr-schedule, grad-flow, gradient-clip, train-loss, overfit-gap, underfit-gap, stop-patience, warmup, dropout, frozen-layer
   3. frozen-layer, layer-unfreeze, rank-adapter, lora-merge, adapter-swap, quantize-4bit, quantize-8bit, dequantize, weight-prune, sparsity
   4. moe, expert-router, expert-active, context-length, context-extend, rope, attention-cache, kv-evict, logit-lens, logit-bias
   5. top-k-sample, nucleus-sample, min-p, temperature-high, temperature-low, greedy-decode, draft-verify, draft-model, token-in, token-out
@@ -123,7 +126,7 @@ In drawing order within each category. Ten consecutive names = one round.
 ### agents (+130)
 
   1. agent-spawn, agent-pool, agent-lease, agent-quota, agent-badge, agent-rank, agent-clone, agent-priority, agent-toolbelt, agent-persona
-  2. agent-mask, agent-avatar, agent-goal, agent-subgoal, goal-drift, plan-tree, plan-step-skip, plan-revise, replan-step, task-queue-agent
+  2. goal-drift, plan-tree, task-queue-agent, task-claim, task-yield, task-split, task-merge, turn-limit, nudge, escalate-human
   3. task-claim, task-yield, task-steal, task-split, task-merge, goal-milestone, deadline-agent, budget-agent, spend-cap, token-budget-agent
   4. turn-limit, cycle-guard, loop-break, stuck-agent, nudge, escalate-human, approval-gate, approval-grant, approval-deny, autonomy-level
   5. leash-short, leash-long, guarded-action, dry-run-agent, preview-action, undo-action, checkpoint-agent, rollback-agent, agent-memory-write, agent-memory-read
@@ -139,7 +142,7 @@ In drawing order within each category. Ten consecutive names = one round.
 ### interface (+130)
 
   1. composer, composer-attach, composer-expand, slash-command, at-mention, text-cursor, chip, chip-add, chip-remove, segmented
-  2. stepper-input, dial-control, knob, fader, joystick, dpad, hotkey, key-combo, command-bar, omnibox
+  2. stepper-input, fader, joystick, dpad, hotkey, key-combo, reading-list, tab-new, tab-close, split-pane
   3. spotlight, quick-switch, recent-items, frecency, pin-item, unpin-item, favorite-add, favorite-remove, bookmark-folder, reading-list
   4. tab-new, tab-close, tab-group, tab-pin, tab-overflow, split-pane, pane-left, pane-right, pane-bottom, pane-float
   5. dock-left, dock-right, undock, picture-in-picture, kiosk, presenter, spotlight-cursor, laser-pointer, annotate-screen, highlighter
@@ -223,7 +226,7 @@ In drawing order within each category. Ten consecutive names = one round.
 
 ### automation (+50)
 
-  1. automation-pack, playbook-run, recipe, recipe-step, macro, macro-record, if-branch, else-branch, branch-switch, for-each
+  1. for-each, try-block, catch-block, finally-block, throw-error, rate-window, concurrency-limit, semaphore, backoff-exponential, scatter-gather
   2. while-loop, until-loop, break-loop, continue-loop, try-block, catch-block, finally-block, throw-error, wait-until, wait-event
   3. debounce-flow, throttle-flow, rate-window, concurrency-limit, semaphore, mutex-flow, queue-worker, queue-priority, delay-queue, cron-expression
   4. jitter, backoff-exponential, idempotency-key, exactly-once, at-least-once, dedupe-window, saga, compensate, two-phase, outbox
@@ -231,7 +234,7 @@ In drawing order within each category. Ten consecutive names = one round.
 
 ### mcp (+10)
 
-  1. mcp-sample-request, mcp-root-list, mcp-elicit-confirm, mcp-channel, mcp-pipe, mcp-stream, mcp-oauth, mcp-scope, mcp-server-dev, mcp-server-test
+  1. mcp-batch, mcp-timeout, mcp-elicit-confirm, mcp-version, mcp-oauth, mcp-scope, mcp-server-dev, mcp-server-test, mcp-subscribe, mcp-ping
 
 ## Legacy debt (recorded 2026-08-29)
 

@@ -1,0 +1,32 @@
+{
+  "slug": "turn-limit",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Turn limit",
+  "description": "The conversation has a budget",
+  "tags": [
+    "cap",
+    "turns",
+    "wall"
+  ],
+  "keywords": [
+    "turn limit",
+    "max turns",
+    "conversation cap"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H10A2 2 0 0 1 12 5V8A2 2 0 0 1 10 10H4A2 2 0 0 1 2 8Z",
+      "closed": true
+    },
+    {
+      "d": "M7 15A2 2 0 0 1 9 13H15A2 2 0 0 1 17 15V18A2 2 0 0 1 15 20H9A2 2 0 0 1 7 18Z",
+      "closed": true
+    },
+    {
+      "d": "M20.5 4V20",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "stop-patience",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Patience",
+  "description": "The plateau is on the clock",
+  "tags": [
+    "early-stop",
+    "wait",
+    "plateau"
+  ],
+  "aliases": [
+    "early-stop-patience"
+  ],
+  "keywords": [
+    "patience",
+    "early stopping",
+    "plateau timer"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 12H10",
+      "closed": false
+    },
+    {
+      "d": "M12.5 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16.5 9.5V12",
+      "closed": false
+    },
+    {
+      "d": "M16.5 12H19",
+      "closed": false
+    }
+  ]
+}

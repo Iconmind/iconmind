@@ -1,0 +1,36 @@
+{
+  "slug": "stepper-input",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Stepper",
+  "description": "One less on the left, one more on the right",
+  "tags": [
+    "number",
+    "increment",
+    "control"
+  ],
+  "keywords": [
+    "stepper",
+    "number input",
+    "plus minus"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 10A2 2 0 0 1 4 8H20A2 2 0 0 1 22 10V14A2 2 0 0 1 20 16H4A2 2 0 0 1 2 14Z",
+      "closed": true
+    },
+    {
+      "d": "M5 12H8",
+      "closed": false
+    },
+    {
+      "d": "M16 12H19",
+      "closed": false
+    },
+    {
+      "d": "M17.5 10.5V13.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "tab-new",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "New tab",
+  "description": "Another one, next to the rest",
+  "tags": [
+    "browser",
+    "open",
+    "plus"
+  ],
+  "keywords": [
+    "new tab",
+    "open tab",
+    "plus tab"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 20L3 9L5 7L12 7L14 9L14 20",
+      "closed": false
+    },
+    {
+      "d": "M2 20H22",
+      "closed": false
+    },
+    {
+      "d": "M15.5 13H21.5",
+      "closed": false
+    },
+    {
+      "d": "M18.5 10V16",
+      "closed": false
+    }
+  ]
+}

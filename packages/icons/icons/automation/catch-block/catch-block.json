@@ -1,0 +1,32 @@
+{
+  "slug": "catch-block",
+  "category": "automation",
+  "subcategory": "workflow",
+  "name": "Catch block",
+  "description": "Where the failure lands",
+  "tags": [
+    "handle",
+    "error",
+    "net"
+  ],
+  "keywords": [
+    "catch",
+    "error handler",
+    "exception"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 10L4 20L20 20L20 10",
+      "closed": false
+    },
+    {
+      "d": "M12 3V5.5",
+      "closed": false
+    },
+    {
+      "d": "M11 8.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

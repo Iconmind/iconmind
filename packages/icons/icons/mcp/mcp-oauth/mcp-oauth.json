@@ -1,0 +1,47 @@
+{
+  "slug": "mcp-oauth",
+  "category": "mcp",
+  "subcategory": "server",
+  "name": "MCP OAuth",
+  "description": "The server proves who may call it",
+  "tags": [
+    "auth",
+    "key",
+    "token"
+  ],
+  "aliases": [
+    "mcp-auth"
+  ],
+  "keywords": [
+    "oauth",
+    "authorization",
+    "mcp auth"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M13.5 3H17A3 3 0 0 1 20 6V18A3 3 0 0 1 17 21H7A3 3 0 0 1 4 18V6L7 3H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 18H12",
+      "closed": false
+    },
+    {
+      "d": "M15 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 10H16.5",
+      "closed": false
+    },
+    {
+      "d": "M15 10V12.5",
+      "closed": false
+    }
+  ]
+}

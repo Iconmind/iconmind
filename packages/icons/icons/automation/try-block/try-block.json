@@ -1,0 +1,28 @@
+{
+  "slug": "try-block",
+  "category": "automation",
+  "subcategory": "workflow",
+  "name": "Try block",
+  "description": "Run it, ready for the worst",
+  "tags": [
+    "attempt",
+    "guarded",
+    "run"
+  ],
+  "keywords": [
+    "try",
+    "attempt",
+    "guarded execution"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V18A2 2 0 0 1 18 20H6A2 2 0 0 1 4 18Z",
+      "closed": true
+    },
+    {
+      "d": "M10 8L14 12L10 16Z",
+      "closed": true
+    }
+  ]
+}

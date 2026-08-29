@@ -1,0 +1,36 @@
+{
+  "slug": "escalate-human",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Escalate to human",
+  "description": "Past what it should decide alone",
+  "tags": [
+    "handoff",
+    "person",
+    "up"
+  ],
+  "keywords": [
+    "escalate",
+    "human handoff",
+    "ask a person"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M7.48 13.83A3.5 3.5 0 1 1 4.52 13.83",
+      "closed": false
+    },
+    {
+      "d": "M9 15L14 10",
+      "closed": false
+    },
+    {
+      "d": "M15 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 13A4 4 0 0 1 21 13",
+      "closed": false
+    }
+  ]
+}

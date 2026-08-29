@@ -1,0 +1,39 @@
+{
+  "slug": "throw-error",
+  "category": "automation",
+  "subcategory": "workflow",
+  "name": "Throw",
+  "description": "Out of this block, somebody else's problem",
+  "tags": [
+    "raise",
+    "eject",
+    "error"
+  ],
+  "aliases": [
+    "raise-error"
+  ],
+  "keywords": [
+    "throw",
+    "raise",
+    "exception thrown"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M3 11A2 2 0 0 1 5 9H13A2 2 0 0 1 15 11V19A2 2 0 0 1 13 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M13 9L15.5 6.5",
+      "closed": false
+    },
+    {
+      "d": "M18.5 2.5V5",
+      "closed": false
+    },
+    {
+      "d": "M17.5 8.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

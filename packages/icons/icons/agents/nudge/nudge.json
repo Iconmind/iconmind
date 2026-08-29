@@ -1,0 +1,32 @@
+{
+  "slug": "nudge",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Nudge",
+  "description": "A tap, not an order",
+  "tags": [
+    "prompt",
+    "poke",
+    "resume"
+  ],
+  "keywords": [
+    "nudge agent",
+    "poke",
+    "gentle prompt"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.32 7.02A5.5 5.5 0 1 1 11.68 7.02",
+      "closed": false
+    },
+    {
+      "d": "M3 12H6",
+      "closed": false
+    },
+    {
+      "d": "M6 10L8 12L6 14",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "mcp-batch",
+  "category": "mcp",
+  "subcategory": "client",
+  "name": "MCP batch",
+  "description": "Several requests in one envelope",
+  "tags": [
+    "batch",
+    "bundle",
+    "requests"
+  ],
+  "keywords": [
+    "batch requests",
+    "jsonrpc batch",
+    "bundle"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M13.5 3H17A3 3 0 0 1 20 6V18A3 3 0 0 1 17 21H7A3 3 0 0 1 4 18V6L7 3H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 18H12",
+      "closed": false
+    },
+    {
+      "d": "M15 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 6L7 6L7 14L9.5 14",
+      "closed": false
+    },
+    {
+      "d": "M10 8.5H16",
+      "closed": false
+    },
+    {
+      "d": "M10 11.5H16",
+      "closed": false
+    }
+  ]
+}

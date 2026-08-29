@@ -43,6 +43,10 @@ const ANCHORED = new Set([
   "devops/bin-pack",
   // score-distribution's bars stand on their baseline, exactly as chart-bar does.
   "analytics/score-distribution",
+  // Lines drawn on axes put their ink where the axes are — chart-line's own reason.
+  "ai/lr-schedule", "ai/train-loss", "ai/warmup", "ai/gradient-clip",
+  // The catch tray is at the bottom because that is where thrown things land.
+  "automation/catch-block",
 ]);
 
 function inkStats(svg: string, size: number) {

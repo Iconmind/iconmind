@@ -1,0 +1,37 @@
+{
+  "slug": "for-each",
+  "category": "automation",
+  "subcategory": "workflow",
+  "name": "For each",
+  "description": "The same steps, once per item",
+  "tags": [
+    "loop",
+    "iterate",
+    "items"
+  ],
+  "keywords": [
+    "for each",
+    "iterate",
+    "loop over items",
+    "map"
+  ],
+  "family": "rotation",
+  "shapes": [
+    {
+      "d": "M15.8 3.84A9 9 0 1 1 8.2 3.84",
+      "closed": false
+    },
+    {
+      "d": "M6 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

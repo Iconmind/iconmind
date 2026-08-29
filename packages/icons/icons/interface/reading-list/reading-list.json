@@ -1,0 +1,36 @@
+{
+  "slug": "reading-list",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Reading list",
+  "description": "Saved for a quieter hour",
+  "tags": [
+    "bookmark",
+    "later",
+    "queue"
+  ],
+  "keywords": [
+    "reading list",
+    "save for later",
+    "bookmarks"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 6L10 6L10 16L7 13L4 16Z",
+      "closed": true
+    },
+    {
+      "d": "M13 9H20",
+      "closed": false
+    },
+    {
+      "d": "M13 13H20",
+      "closed": false
+    },
+    {
+      "d": "M13 17H18",
+      "closed": false
+    }
+  ]
+}
