@@ -1,0 +1,35 @@
+{
+  "slug": "nat-gw",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "NAT gateway",
+  "description": "Everyone leaves wearing the same address",
+  "tags": [
+    "translate",
+    "address",
+    "gateway"
+  ],
+  "aliases": [
+    "nat-gateway"
+  ],
+  "keywords": [
+    "nat",
+    "address translation",
+    "gateway"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 8A2 2 0 0 1 11 6H13.5A2 2 0 0 1 15.5 8V16A2 2 0 0 1 13.5 18H11A2 2 0 0 1 9 16Z",
+      "closed": true
+    },
+    {
+      "d": "M18 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

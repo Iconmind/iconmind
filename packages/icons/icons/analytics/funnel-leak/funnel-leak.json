@@ -1,0 +1,32 @@
+{
+  "slug": "funnel-leak",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Funnel leak",
+  "description": "Where they quietly fall out",
+  "tags": [
+    "drop",
+    "loss",
+    "funnel"
+  ],
+  "keywords": [
+    "funnel leak",
+    "drop-off",
+    "conversion loss"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 3L21 3L14 10L14 16L10 16L10 10Z",
+      "closed": true
+    },
+    {
+      "d": "M17.5 12V14.5",
+      "closed": false
+    },
+    {
+      "d": "M19.5 16V18.5",
+      "closed": false
+    }
+  ]
+}

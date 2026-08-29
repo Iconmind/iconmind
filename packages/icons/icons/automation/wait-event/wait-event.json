@@ -1,0 +1,32 @@
+{
+  "slug": "wait-event",
+  "category": "automation",
+  "subcategory": "trigger",
+  "name": "Wait for event",
+  "description": "Held here till something happens",
+  "tags": [
+    "pause",
+    "signal",
+    "listen"
+  ],
+  "keywords": [
+    "wait for event",
+    "on signal",
+    "listener"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 4V20",
+      "closed": false
+    },
+    {
+      "d": "M9 4V20",
+      "closed": false
+    },
+    {
+      "d": "M19 6L14.5 10.5L17 10.5L12.5 15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "context-length",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Context length",
+  "description": "How much fits between the brackets",
+  "tags": [
+    "window",
+    "capacity",
+    "tokens"
+  ],
+  "keywords": [
+    "context length",
+    "window size",
+    "token capacity"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5.5 4L3 4L3 20L5.5 20",
+      "closed": false
+    },
+    {
+      "d": "M18.5 4L21 4L21 20L18.5 20",
+      "closed": false
+    },
+    {
+      "d": "M7 12H17",
+      "closed": false
+    }
+  ]
+}

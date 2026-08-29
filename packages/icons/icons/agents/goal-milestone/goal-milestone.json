@@ -1,0 +1,36 @@
+{
+  "slug": "goal-milestone",
+  "category": "agents",
+  "subcategory": "planning",
+  "name": "Goal milestone",
+  "description": "The flag planted partway to the middle",
+  "tags": [
+    "progress",
+    "flag",
+    "target"
+  ],
+  "keywords": [
+    "milestone",
+    "waypoint",
+    "progress marker"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 15a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 2V9",
+      "closed": false
+    },
+    {
+      "d": "M12 2.5L17 2.5L17 6L12 6",
+      "closed": false
+    }
+  ]
+}

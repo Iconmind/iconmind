@@ -1,0 +1,40 @@
+{
+  "slug": "autonomy-level",
+  "category": "agents",
+  "subcategory": "agent-core",
+  "name": "Autonomy level",
+  "description": "How long the leash is today",
+  "tags": [
+    "slider",
+    "freedom",
+    "dial"
+  ],
+  "keywords": [
+    "autonomy level",
+    "permission level",
+    "leash"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 5V8",
+      "closed": false
+    },
+    {
+      "d": "M12 5V8",
+      "closed": false
+    },
+    {
+      "d": "M18 5V8",
+      "closed": false
+    },
+    {
+      "d": "M3 15H21",
+      "closed": false
+    },
+    {
+      "d": "M10 15A2 2 0 0 1 12 13H12A2 2 0 0 1 14 15V15A2 2 0 0 1 12 17H12A2 2 0 0 1 10 15Z",
+      "closed": true
+    }
+  ]
+}

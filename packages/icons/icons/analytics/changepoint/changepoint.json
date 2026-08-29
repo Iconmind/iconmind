@@ -1,0 +1,28 @@
+{
+  "slug": "changepoint",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Changepoint",
+  "description": "The exact moment it stopped being the old normal",
+  "tags": [
+    "shift",
+    "kink",
+    "moment"
+  ],
+  "keywords": [
+    "changepoint",
+    "structural break",
+    "shift"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M4 10L12 10L19 17",
+      "closed": false
+    },
+    {
+      "d": "M12 5V7.5",
+      "closed": false
+    }
+  ]
+}

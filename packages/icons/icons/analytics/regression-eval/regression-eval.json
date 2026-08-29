@@ -1,0 +1,31 @@
+{
+  "slug": "regression-eval",
+  "category": "analytics",
+  "subcategory": "llm-observability",
+  "name": "Regression",
+  "description": "Better, better, worse",
+  "tags": [
+    "dip",
+    "worse",
+    "alert"
+  ],
+  "aliases": [
+    "eval-regression"
+  ],
+  "keywords": [
+    "regression",
+    "quality dip",
+    "got worse"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 3L3 21L21 21",
+      "closed": false
+    },
+    {
+      "d": "M5 16L11 10L15 10L19 14",
+      "closed": false
+    }
+  ]
+}

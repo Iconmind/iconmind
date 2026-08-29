@@ -1,0 +1,31 @@
+{
+  "slug": "exactly-once",
+  "category": "automation",
+  "subcategory": "integration",
+  "name": "Exactly once",
+  "description": "Not zero, not twice",
+  "tags": [
+    "delivery",
+    "once",
+    "certain"
+  ],
+  "keywords": [
+    "exactly once",
+    "delivery guarantee"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 12.5L17 15.5L21.5 11",
+      "closed": false
+    }
+  ]
+}

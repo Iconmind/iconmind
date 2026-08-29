@@ -1,0 +1,39 @@
+{
+  "slug": "task-steal",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Task steal",
+  "description": "Idle hands take from the busy pile",
+  "tags": [
+    "balance",
+    "take",
+    "queue"
+  ],
+  "aliases": [
+    "work-stealing"
+  ],
+  "keywords": [
+    "work stealing",
+    "task stealing",
+    "rebalance"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M7.48 2.83A3.5 3.5 0 1 1 4.52 2.83",
+      "closed": false
+    },
+    {
+      "d": "M19.48 14.83A3.5 3.5 0 1 1 16.52 14.83",
+      "closed": false
+    },
+    {
+      "d": "M8 12A2 2 0 0 1 10 10H14A2 2 0 0 1 16 12V12A2 2 0 0 1 14 14H10A2 2 0 0 1 8 12Z",
+      "closed": true
+    },
+    {
+      "d": "M13 15L15 17",
+      "closed": false
+    }
+  ]
+}

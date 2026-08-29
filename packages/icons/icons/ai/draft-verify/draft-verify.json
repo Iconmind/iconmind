@@ -1,0 +1,31 @@
+{
+  "slug": "draft-verify",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Draft and verify",
+  "description": "The small model guesses; the big one signs off",
+  "tags": [
+    "speculative",
+    "fast",
+    "check"
+  ],
+  "aliases": [
+    "speculative-decoding"
+  ],
+  "keywords": [
+    "speculative decoding",
+    "draft model",
+    "verify"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M3 7A2 2 0 0 1 5 5H9A2 2 0 0 1 11 7V11A2 2 0 0 1 9 13H5A2 2 0 0 1 3 11Z",
+      "closed": true
+    },
+    {
+      "d": "M12 15L15 18L21 12",
+      "closed": false
+    }
+  ]
+}

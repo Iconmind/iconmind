@@ -1,0 +1,32 @@
+{
+  "slug": "cache-hit",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Cache hit",
+  "description": "Found it without asking anyone",
+  "tags": [
+    "fast",
+    "found",
+    "bolt"
+  ],
+  "keywords": [
+    "cache hit",
+    "served from cache",
+    "fast path"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 11a7 7 0 1 0 14 0a7 7 0 1 0 -14 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 6.5L9.5 10L12 10L8.5 13.5",
+      "closed": false
+    },
+    {
+      "d": "M16 16L19.5 19.5",
+      "closed": false
+    }
+  ]
+}

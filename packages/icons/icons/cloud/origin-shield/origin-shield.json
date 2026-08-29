@@ -1,0 +1,32 @@
+{
+  "slug": "origin-shield",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Origin shield",
+  "description": "One more wall before anyone reaches home",
+  "tags": [
+    "cdn",
+    "protect",
+    "origin"
+  ],
+  "keywords": [
+    "origin shield",
+    "cdn shield",
+    "protect origin"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M8.5 11a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 11H15",
+      "closed": false
+    }
+  ]
+}

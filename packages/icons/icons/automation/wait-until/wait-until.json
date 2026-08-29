@@ -1,0 +1,36 @@
+{
+  "slug": "wait-until",
+  "category": "automation",
+  "subcategory": "schedule",
+  "name": "Wait until",
+  "description": "Held here till the clock says go",
+  "tags": [
+    "pause",
+    "then",
+    "time"
+  ],
+  "keywords": [
+    "wait until",
+    "delay until",
+    "scheduled resume"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 4V20",
+      "closed": false
+    },
+    {
+      "d": "M9 4V20",
+      "closed": false
+    },
+    {
+      "d": "M12.5 12H17",
+      "closed": false
+    },
+    {
+      "d": "M16.5 9.5L19 12L16.5 14.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "uplift",
+  "category": "analytics",
+  "subcategory": "experiment",
+  "name": "Uplift",
+  "description": "The difference the change actually made",
+  "tags": [
+    "delta",
+    "gain",
+    "bars"
+  ],
+  "keywords": [
+    "uplift",
+    "treatment effect",
+    "delta"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M7 12V19",
+      "closed": false
+    },
+    {
+      "d": "M15 6V19",
+      "closed": false
+    },
+    {
+      "d": "M4 21.5H20",
+      "closed": false
+    },
+    {
+      "d": "M9 10.5L12 7.5",
+      "closed": false
+    }
+  ]
+}

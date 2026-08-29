@@ -1,0 +1,32 @@
+{
+  "slug": "anomaly-band",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Anomaly band",
+  "description": "The corridor, and the dot outside it",
+  "tags": [
+    "outlier",
+    "bounds",
+    "escape"
+  ],
+  "keywords": [
+    "anomaly band",
+    "confidence band",
+    "out of bounds"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M3 13H21",
+      "closed": false
+    },
+    {
+      "d": "M14 18.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "leaderboard-internal",
+  "category": "analytics",
+  "subcategory": "llm-observability",
+  "name": "Leaderboard",
+  "description": "Who is on top, today",
+  "tags": [
+    "podium",
+    "rank",
+    "top"
+  ],
+  "aliases": [
+    "podium"
+  ],
+  "keywords": [
+    "leaderboard",
+    "ranking",
+    "podium"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M5 11V19",
+      "closed": false
+    },
+    {
+      "d": "M12 5V19",
+      "closed": false
+    },
+    {
+      "d": "M19 14V19",
+      "closed": false
+    },
+    {
+      "d": "M3 21.5H21",
+      "closed": false
+    }
+  ]
+}

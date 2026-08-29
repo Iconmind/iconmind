@@ -1,0 +1,43 @@
+{
+  "slug": "expert-router",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Expert router",
+  "description": "This token goes to that specialist",
+  "tags": [
+    "moe",
+    "route",
+    "pick"
+  ],
+  "aliases": [
+    "moe-router"
+  ],
+  "keywords": [
+    "mixture of experts",
+    "router",
+    "gating"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M12 2L15 5L12 8L9 5Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 9L7.5 12",
+      "closed": false
+    },
+    {
+      "d": "M13.5 9L16.5 12",
+      "closed": false
+    },
+    {
+      "d": "M2.5 15A2 2 0 0 1 4.5 13H8.5A2 2 0 0 1 10.5 15V18A2 2 0 0 1 8.5 20H4.5A2 2 0 0 1 2.5 18Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 15A2 2 0 0 1 15.5 13H19.5A2 2 0 0 1 21.5 15V18A2 2 0 0 1 19.5 20H15.5A2 2 0 0 1 13.5 18Z",
+      "closed": true
+    }
+  ]
+}

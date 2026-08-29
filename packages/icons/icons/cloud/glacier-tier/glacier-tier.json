@@ -1,0 +1,39 @@
+{
+  "slug": "glacier-tier",
+  "category": "cloud",
+  "subcategory": "storage",
+  "name": "Glacier tier",
+  "description": "Cold, cheap, and slow to wake",
+  "tags": [
+    "cold",
+    "archive",
+    "icicles"
+  ],
+  "aliases": [
+    "cold-tier"
+  ],
+  "keywords": [
+    "glacier",
+    "cold storage",
+    "archive tier"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 6A2 2 0 0 1 5 4H19A2 2 0 0 1 21 6V10A2 2 0 0 1 19 12H5A2 2 0 0 1 3 10Z",
+      "closed": true
+    },
+    {
+      "d": "M7 15V18.5",
+      "closed": false
+    },
+    {
+      "d": "M12 15V21",
+      "closed": false
+    },
+    {
+      "d": "M17 15V18.5",
+      "closed": false
+    }
+  ]
+}

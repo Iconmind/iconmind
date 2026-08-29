@@ -1,0 +1,28 @@
+{
+  "slug": "guarded-action",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Guarded action",
+  "description": "It acts — inside the shield",
+  "tags": [
+    "safe",
+    "run",
+    "protected"
+  ],
+  "keywords": [
+    "guarded action",
+    "safe execution",
+    "protected run"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M10 8L14 12L10 16Z",
+      "closed": true
+    }
+  ]
+}

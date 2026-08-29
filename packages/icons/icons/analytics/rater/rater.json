@@ -1,0 +1,43 @@
+{
+  "slug": "rater",
+  "category": "analytics",
+  "subcategory": "llm-observability",
+  "name": "Rater",
+  "description": "A person, reading carefully, scoring",
+  "tags": [
+    "human",
+    "review",
+    "score"
+  ],
+  "aliases": [
+    "human-rater"
+  ],
+  "keywords": [
+    "human rater",
+    "annotator",
+    "review scores"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 13A4 4 0 0 1 11 13",
+      "closed": false
+    },
+    {
+      "d": "M14 7H21",
+      "closed": false
+    },
+    {
+      "d": "M14 12H21",
+      "closed": false
+    },
+    {
+      "d": "M14 17H19",
+      "closed": false
+    }
+  ]
+}

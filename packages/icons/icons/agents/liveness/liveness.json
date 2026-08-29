@@ -1,0 +1,31 @@
+{
+  "slug": "liveness",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Liveness",
+  "description": "Alive, and proving it on schedule",
+  "tags": [
+    "heartbeat",
+    "alive",
+    "pulse"
+  ],
+  "aliases": [
+    "agent-heartbeat"
+  ],
+  "keywords": [
+    "liveness",
+    "heartbeat",
+    "still alive"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M5 6L8 6L10 4L14 8L16 6L19 6",
+      "closed": false
+    },
+    {
+      "d": "M14.32 10.02A5.5 5.5 0 1 1 9.68 10.02",
+      "closed": false
+    }
+  ]
+}

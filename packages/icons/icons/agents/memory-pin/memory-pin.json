@@ -1,0 +1,36 @@
+{
+  "slug": "memory-pin",
+  "category": "agents",
+  "subcategory": "memory",
+  "name": "Memory pin",
+  "description": "This one is not allowed to fade",
+  "tags": [
+    "keep",
+    "pin",
+    "remember"
+  ],
+  "keywords": [
+    "pin memory",
+    "keep note",
+    "never forget"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9V13",
+      "closed": false
+    },
+    {
+      "d": "M4 17H20",
+      "closed": false
+    },
+    {
+      "d": "M4 21H15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "transit-gateway",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Transit gateway",
+  "description": "Every network's traffic, through one hub",
+  "tags": [
+    "hub",
+    "spokes",
+    "router"
+  ],
+  "keywords": [
+    "transit gateway",
+    "hub and spoke",
+    "network hub"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 8.5L15.5 12L12 15.5L8.5 12Z",
+      "closed": true
+    },
+    {
+      "d": "M3 12H7",
+      "closed": false
+    },
+    {
+      "d": "M17 12H21",
+      "closed": false
+    },
+    {
+      "d": "M12 3V7",
+      "closed": false
+    },
+    {
+      "d": "M12 17V21",
+      "closed": false
+    }
+  ]
+}

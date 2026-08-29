@@ -1,0 +1,31 @@
+{
+  "slug": "seasonal-cycle",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Seasonal cycle",
+  "description": "It always comes back around",
+  "tags": [
+    "wave",
+    "repeat",
+    "period"
+  ],
+  "aliases": [
+    "seasonality-wave"
+  ],
+  "keywords": [
+    "seasonality",
+    "periodic",
+    "wave"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 12A4 4 0 0 1 11 12",
+      "closed": false
+    },
+    {
+      "d": "M19 12A4 4 0 0 1 11 12",
+      "closed": false
+    }
+  ]
+}

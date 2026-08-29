@@ -1,0 +1,39 @@
+{
+  "slug": "context-extend",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Context extend",
+  "description": "The brackets pushed further apart",
+  "tags": [
+    "longer",
+    "grow",
+    "window"
+  ],
+  "aliases": [
+    "long-context"
+  ],
+  "keywords": [
+    "extend context",
+    "long context",
+    "128k"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5.5 4L3 4L3 20L5.5 20",
+      "closed": false
+    },
+    {
+      "d": "M7 12H14",
+      "closed": false
+    },
+    {
+      "d": "M13.5 9.5L16 12L13.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M18.5 4L21 4L21 20L18.5 20",
+      "closed": false
+    }
+  ]
+}

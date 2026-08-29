@@ -1,0 +1,39 @@
+{
+  "slug": "mutex-flow",
+  "category": "automation",
+  "subcategory": "condition",
+  "name": "Mutex",
+  "description": "One at a time, by lock",
+  "tags": [
+    "lock",
+    "exclusive",
+    "one"
+  ],
+  "aliases": [
+    "mutex"
+  ],
+  "keywords": [
+    "mutex",
+    "mutual exclusion",
+    "one at a time"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8.5 12A2 2 0 0 1 10.5 10H13.5A2 2 0 0 1 15.5 12V14.5A2 2 0 0 1 13.5 16.5H10.5A2 2 0 0 1 8.5 14.5Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 10A2.5 2.5 0 0 1 14.5 10",
+      "closed": false
+    },
+    {
+      "d": "M2 13a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 13a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

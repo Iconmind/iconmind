@@ -1,0 +1,40 @@
+{
+  "slug": "logit-lens",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Logit lens",
+  "description": "What it is thinking, one layer early",
+  "tags": [
+    "inspect",
+    "probs",
+    "peek"
+  ],
+  "keywords": [
+    "logit lens",
+    "probe layer",
+    "interpretability"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 13V18",
+      "closed": false
+    },
+    {
+      "d": "M9 9V18",
+      "closed": false
+    },
+    {
+      "d": "M13 11V18",
+      "closed": false
+    },
+    {
+      "d": "M13 7a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M20 10L22 12",
+      "closed": false
+    }
+  ]
+}

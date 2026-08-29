@@ -1,0 +1,32 @@
+{
+  "slug": "rightsizing",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Rightsizing",
+  "description": "Paid-for and needed, finally the same size",
+  "tags": [
+    "fit",
+    "shrink",
+    "cost"
+  ],
+  "keywords": [
+    "rightsizing",
+    "fit instance",
+    "downsize"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M6 8A2 2 0 0 1 8 6H16A2 2 0 0 1 18 8V16A2 2 0 0 1 16 18H8A2 2 0 0 1 6 16Z",
+      "closed": true
+    },
+    {
+      "d": "M2.5 9.5L5 12L2.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M21.5 9.5L19 12L21.5 14.5",
+      "closed": false
+    }
+  ]
+}

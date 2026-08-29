@@ -1,0 +1,36 @@
+{
+  "slug": "vpc-peering",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "VPC peering",
+  "description": "Two private networks, one quiet corridor",
+  "tags": [
+    "private",
+    "link",
+    "pair"
+  ],
+  "keywords": [
+    "vpc peering",
+    "private link",
+    "network pair"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 9A2 2 0 0 1 4 7H8A2 2 0 0 1 10 9V15A2 2 0 0 1 8 17H4A2 2 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M14 9A2 2 0 0 1 16 7H20A2 2 0 0 1 22 9V15A2 2 0 0 1 20 17H16A2 2 0 0 1 14 15Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 10H13.5",
+      "closed": false
+    },
+    {
+      "d": "M10.5 14H13.5",
+      "closed": false
+    }
+  ]
+}

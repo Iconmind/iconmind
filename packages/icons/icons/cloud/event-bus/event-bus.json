@@ -1,0 +1,36 @@
+{
+  "slug": "event-bus",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Event bus",
+  "description": "One rail; everyone taps it",
+  "tags": [
+    "bus",
+    "events",
+    "taps"
+  ],
+  "keywords": [
+    "event bus",
+    "pub sub rail",
+    "eventbridge"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12H22",
+      "closed": false
+    },
+    {
+      "d": "M6 5V9.5",
+      "closed": false
+    },
+    {
+      "d": "M12 14.5V19",
+      "closed": false
+    },
+    {
+      "d": "M18 5V9.5",
+      "closed": false
+    }
+  ]
+}

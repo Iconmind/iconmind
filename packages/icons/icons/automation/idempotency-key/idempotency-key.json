@@ -1,0 +1,40 @@
+{
+  "slug": "idempotency-key",
+  "category": "automation",
+  "subcategory": "integration",
+  "name": "Idempotency key",
+  "description": "Send it twice; it happens once",
+  "tags": [
+    "safe",
+    "repeat",
+    "key"
+  ],
+  "keywords": [
+    "idempotency key",
+    "safe retry",
+    "dedupe requests"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 10H15",
+      "closed": false
+    },
+    {
+      "d": "M12.5 10V13",
+      "closed": false
+    },
+    {
+      "d": "M17 10H21",
+      "closed": false
+    },
+    {
+      "d": "M17 16H21",
+      "closed": false
+    }
+  ]
+}

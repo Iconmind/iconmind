@@ -1,0 +1,33 @@
+{
+  "slug": "quantize-4bit",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Quantize",
+  "description": "The smooth line, told to pick a step",
+  "tags": [
+    "compress",
+    "steps",
+    "bits"
+  ],
+  "aliases": [
+    "quantization-4bit",
+    "quantize-8bit"
+  ],
+  "keywords": [
+    "quantization",
+    "4-bit",
+    "int8",
+    "gguf"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 9L9 3",
+      "closed": false
+    },
+    {
+      "d": "M3 21L8 21L8 16L13 16L13 11L18 11L18 6L21 6",
+      "closed": false
+    }
+  ]
+}

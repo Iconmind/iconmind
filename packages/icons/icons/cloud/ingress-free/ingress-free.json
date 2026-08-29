@@ -1,0 +1,32 @@
+{
+  "slug": "ingress-free",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Ingress free",
+  "description": "Coming in costs nothing",
+  "tags": [
+    "free",
+    "in",
+    "transfer"
+  ],
+  "keywords": [
+    "free ingress",
+    "data in",
+    "no charge in"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M11 6A2 2 0 0 1 13 4H19A2 2 0 0 1 21 6V18A2 2 0 0 1 19 20H13A2 2 0 0 1 11 18Z",
+      "closed": true
+    },
+    {
+      "d": "M3 12H8.5",
+      "closed": false
+    },
+    {
+      "d": "M6 9.5L8.5 12L6 14.5",
+      "closed": false
+    }
+  ]
+}

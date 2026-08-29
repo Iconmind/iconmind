@@ -49,8 +49,16 @@ const ANCHORED = new Set([
   "automation/catch-block",
   // A boom gate hinges on its post; a warm pool sits on the ground it is dug into.
   "devops/admission-control", "devops/prewarm-pool",
+  // Bars stand on their baseline; a funnel hangs from its mouth; an axes chart
+  // keeps its ink where the axes are.
+  "analytics/leaderboard-internal", "analytics/uplift", "analytics/regression-eval",
+  "analytics/funnel-leak",
   // A boom gate hinges on its post; a warm pool sits on the ground it is dug into.
   "devops/admission-control", "devops/prewarm-pool",
+  // Bars stand on their baseline; a funnel hangs from its mouth; an axes chart
+  // keeps its ink where the axes are.
+  "analytics/leaderboard-internal", "analytics/uplift", "analytics/regression-eval",
+  "analytics/funnel-leak",
 ]);
 
 function inkStats(svg: string, size: number) {

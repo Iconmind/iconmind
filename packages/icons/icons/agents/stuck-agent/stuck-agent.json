@@ -1,0 +1,28 @@
+{
+  "slug": "stuck-agent",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Stuck agent",
+  "description": "Still trying; not moving",
+  "tags": [
+    "blocked",
+    "wall",
+    "stalled"
+  ],
+  "keywords": [
+    "stuck",
+    "stalled agent",
+    "blocked progress"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M11.32 7.02A5.5 5.5 0 1 1 6.68 7.02",
+      "closed": false
+    },
+    {
+      "d": "M19.5 4V20",
+      "closed": false
+    }
+  ]
+}

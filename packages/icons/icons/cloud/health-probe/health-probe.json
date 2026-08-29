@@ -1,0 +1,31 @@
+{
+  "slug": "health-probe",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Health probe",
+  "description": "Poked on schedule, and it answered",
+  "tags": [
+    "check",
+    "pulse",
+    "alive"
+  ],
+  "aliases": [
+    "healthcheck-probe"
+  ],
+  "keywords": [
+    "health probe",
+    "healthcheck",
+    "liveness check"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 8L7.5 8L9.5 6L13.5 10L15.5 8L21 8",
+      "closed": false
+    },
+    {
+      "d": "M9 15L11 17L15 13",
+      "closed": false
+    }
+  ]
+}
