@@ -4,6 +4,7 @@ import type { CSSProperties } from "react";
 import { useCallback, useEffect, useState } from "react";
 import Link from "next/link";
 import { toast } from "sonner";
+import { downloadSvg } from "@/lib/download";
 import {
   Sheet,
   SheetCloseButton,
@@ -260,7 +261,10 @@ export function IconDrawer({
                   <path d="M4 7h11M4 12h16M4 17h9" />
                 </svg>
               </IconAction>
-              <IconAction label="Download SVG" href={`/icons/${icon.slug}.svg`}>
+              <IconAction
+                label="Download SVG"
+                onClick={() => downloadSvg(svg, `${icon.slug}-${look.variant}-${weightOf(look.stroke)}.svg`, hex)}
+              >
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"
                   strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                   <path d="M12 3.5v11.6M7.4 10.6l4.6 4.6 4.6-4.6" />

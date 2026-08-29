@@ -22,4 +22,12 @@ const sprite =
 
 await mkdir(OUT, { recursive: true });
 await writeFile(`${OUT}/sprite.svg`, sprite);
+
+// The site links to /sprite.svg — the grid's download button, and every copied
+// <use href="/sprite.svg#..."> snippet. It was never emitted into the export, so
+// all of those resolved to 404.html. The web copy is written here, beside the
+// package copy, so the two can never drift.
+const WEB = fromRoot("apps/web/public");
+await mkdir(WEB, { recursive: true });
+await writeFile(`${WEB}/sprite.svg`, sprite);
 console.log(`sprite.svg — ${icons.length} symbols, ${(Buffer.byteLength(sprite) / 1024).toFixed(1)} KB`);
