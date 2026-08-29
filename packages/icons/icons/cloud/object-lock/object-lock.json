@@ -1,0 +1,36 @@
+{
+  "slug": "object-lock",
+  "category": "cloud",
+  "subcategory": "storage",
+  "name": "Object lock",
+  "description": "Written once, and nobody can unwrite it",
+  "tags": [
+    "immutable",
+    "worm",
+    "retention"
+  ],
+  "aliases": [
+    "worm-storage"
+  ],
+  "keywords": [
+    "object lock",
+    "immutable",
+    "worm",
+    "retention"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V9A2 2 0 0 1 19 11H5A2 2 0 0 1 3 9Z",
+      "closed": true
+    },
+    {
+      "d": "M8.5 16.5A2 2 0 0 1 10.5 14.5H13.5A2 2 0 0 1 15.5 16.5V19A2 2 0 0 1 13.5 21H10.5A2 2 0 0 1 8.5 19Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 14.5A2.5 2.5 0 0 1 14.5 14.5",
+      "closed": false
+    }
+  ]
+}

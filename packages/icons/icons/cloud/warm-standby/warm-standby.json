@@ -1,0 +1,32 @@
+{
+  "slug": "warm-standby",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Warm standby",
+  "description": "Half awake, so the wake-up is short",
+  "tags": [
+    "half",
+    "ready",
+    "spare"
+  ],
+  "keywords": [
+    "warm standby",
+    "half ready",
+    "scaled down copy"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M4 12a8 8 0 1 0 16 0a8 8 0 1 0 -16 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 9.5V14.5",
+      "closed": false
+    },
+    {
+      "d": "M13.5 9.5V14.5",
+      "closed": false
+    }
+  ]
+}

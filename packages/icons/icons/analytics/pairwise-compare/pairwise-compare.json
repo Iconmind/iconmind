@@ -1,0 +1,35 @@
+{
+  "slug": "pairwise-compare",
+  "category": "analytics",
+  "subcategory": "llm-observability",
+  "name": "Pairwise compare",
+  "description": "Two answers, one verdict",
+  "tags": [
+    "versus",
+    "prefer",
+    "judge"
+  ],
+  "aliases": [
+    "a-b-judge"
+  ],
+  "keywords": [
+    "pairwise comparison",
+    "preference",
+    "a vs b"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H8A2 2 0 0 1 10 7V13A2 2 0 0 1 8 15H4A2 2 0 0 1 2 13Z",
+      "closed": true
+    },
+    {
+      "d": "M14 7A2 2 0 0 1 16 5H20A2 2 0 0 1 22 7V13A2 2 0 0 1 20 15H16A2 2 0 0 1 14 13Z",
+      "closed": true
+    },
+    {
+      "d": "M3 18L5 20L8.5 16.5",
+      "closed": false
+    }
+  ]
+}

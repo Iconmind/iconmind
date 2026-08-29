@@ -1,0 +1,32 @@
+{
+  "slug": "egress-fee",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Egress fee",
+  "description": "Leaving is the expensive direction",
+  "tags": [
+    "cost",
+    "exit",
+    "transfer"
+  ],
+  "keywords": [
+    "egress fee",
+    "data transfer cost",
+    "leaving charge"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M3 6A2 2 0 0 1 5 4H11A2 2 0 0 1 13 6V18A2 2 0 0 1 11 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M8 12H16",
+      "closed": false
+    },
+    {
+      "d": "M16 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

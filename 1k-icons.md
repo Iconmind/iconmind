@@ -206,7 +206,7 @@ In drawing order within each category. Ten consecutive names = one round.
 
 ### analytics (+60)
 
-  1. eval-batch, eval-run, eval-case, eval-pass, eval-fail, eval-skip, rubric, grader, llm-judge-score, pairwise-compare
+  1. rubric, pairwise-compare, elo, win-rate, score-distribution, percentile-rank, forecast-spend, cost-per-call, spend-alert, budget-burn
   2. elo, leaderboard-internal, win-rate, regression-eval, reference-set, canary-eval, live-eval, offline-eval, rater, choice-pair
   3. annotation-ui, score-distribution, percentile-rank, p95-metric, cost-per-call, token-price, spend-alert, budget-burn, forecast-spend, unit-economics
   4. cohort-ai, funnel-leak, retention-curve, daily-active, stickiness, north-star, guardrail-metric, counter-metric, experiment-arm, holdout-group
@@ -215,7 +215,7 @@ In drawing order within each category. Ten consecutive names = one round.
 
 ### cloud (+50)
 
-  1. region-pair, zone-spread, edge-pop, anycast, global-lb, failover-region, active-active, active-passive, rto, rpo
+  1. region-pair, zone-spread, failover-region, active-active, active-passive, pilot-light, warm-standby, object-lock, lifecycle-rule, egress-fee
   2. dr-drill, pilot-light, warm-standby, backup-tier, object-lock, glacier-tier, lifecycle-rule, intelligent-tier, egress-fee, ingress-free
   3. vpc-peering, transit-gateway, endpoint-private, service-endpoint, nat-gw, elastic-ip, ipv6, dual-stack, dns-failover, health-probe
   4. origin-shield, cache-hit, cache-miss, purge-cache, stale-while-revalidate, edge-config, kv-edge, durable-object, queue-cloud, fanout-sns

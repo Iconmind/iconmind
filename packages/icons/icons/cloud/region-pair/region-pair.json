@@ -1,0 +1,44 @@
+{
+  "slug": "region-pair",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Region pair",
+  "description": "Two homes for the same service",
+  "tags": [
+    "geo",
+    "redundancy",
+    "link"
+  ],
+  "keywords": [
+    "region pair",
+    "multi region",
+    "geo redundancy"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M2.5 6.5a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 6.5H10",
+      "closed": false
+    },
+    {
+      "d": "M6.5 3V10",
+      "closed": false
+    },
+    {
+      "d": "M13.5 17.5a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 17.5H21",
+      "closed": false
+    },
+    {
+      "d": "M17.5 14V21",
+      "closed": false
+    }
+  ]
+}

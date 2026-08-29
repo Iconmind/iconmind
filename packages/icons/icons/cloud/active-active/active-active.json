@@ -1,0 +1,36 @@
+{
+  "slug": "active-active",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Active-active",
+  "description": "Both of them serving, all the time",
+  "tags": [
+    "dual",
+    "live",
+    "both"
+  ],
+  "keywords": [
+    "active active",
+    "dual live",
+    "both serving"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M2.5 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16.5 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "elo",
+  "category": "analytics",
+  "subcategory": "llm-observability",
+  "name": "Elo",
+  "description": "One rating rises by exactly what the other loses",
+  "tags": [
+    "rating",
+    "exchange",
+    "rank"
+  ],
+  "aliases": [
+    "elo-rating"
+  ],
+  "keywords": [
+    "elo",
+    "rating exchange",
+    "arena",
+    "head to head"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M3 16a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 4V13",
+      "closed": false
+    },
+    {
+      "d": "M3.5 6.5L6 4L8.5 6.5",
+      "closed": false
+    },
+    {
+      "d": "M15 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 11V20",
+      "closed": false
+    },
+    {
+      "d": "M15.5 17.5L18 20L20.5 17.5",
+      "closed": false
+    }
+  ]
+}

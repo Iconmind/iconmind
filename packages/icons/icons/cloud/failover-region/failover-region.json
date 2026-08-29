@@ -1,0 +1,44 @@
+{
+  "slug": "failover-region",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Failover region",
+  "description": "The one that answers when home does not",
+  "tags": [
+    "standby",
+    "switch",
+    "disaster"
+  ],
+  "keywords": [
+    "failover",
+    "dr region",
+    "standby region"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M2.5 6.5a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 9L9 4",
+      "closed": false
+    },
+    {
+      "d": "M13.5 17.5a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 17.5H21",
+      "closed": false
+    },
+    {
+      "d": "M17.5 14V21",
+      "closed": false
+    },
+    {
+      "d": "M9.5 9.5L14 14",
+      "closed": false
+    }
+  ]
+}

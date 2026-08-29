@@ -1,0 +1,40 @@
+{
+  "slug": "cost-per-call",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Cost per call",
+  "description": "What each request quietly costs",
+  "tags": [
+    "unit",
+    "price",
+    "request"
+  ],
+  "keywords": [
+    "cost per call",
+    "unit cost",
+    "per request price"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 7a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 16H17",
+      "closed": false
+    },
+    {
+      "d": "M15.5 14L17.5 16L15.5 18",
+      "closed": false
+    },
+    {
+      "d": "M4 20H13",
+      "closed": false
+    }
+  ]
+}

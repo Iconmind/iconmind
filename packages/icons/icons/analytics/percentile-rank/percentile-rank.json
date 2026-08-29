@@ -1,0 +1,40 @@
+{
+  "slug": "percentile-rank",
+  "category": "analytics",
+  "subcategory": "llm-observability",
+  "name": "Percentile rank",
+  "description": "Better than this much of everyone",
+  "tags": [
+    "position",
+    "scale",
+    "marker"
+  ],
+  "keywords": [
+    "percentile",
+    "rank position",
+    "where you stand"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 16H21",
+      "closed": false
+    },
+    {
+      "d": "M6 14.5V17.5",
+      "closed": false
+    },
+    {
+      "d": "M11 14.5V17.5",
+      "closed": false
+    },
+    {
+      "d": "M15 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 7V16",
+      "closed": false
+    }
+  ]
+}

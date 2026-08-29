@@ -1,0 +1,36 @@
+{
+  "slug": "win-rate",
+  "category": "analytics",
+  "subcategory": "llm-observability",
+  "name": "Win rate",
+  "description": "How much of the pie says yes",
+  "tags": [
+    "share",
+    "pie",
+    "ratio"
+  ],
+  "keywords": [
+    "win rate",
+    "share",
+    "victory ratio"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 3V12",
+      "closed": false
+    },
+    {
+      "d": "M12 12H21",
+      "closed": false
+    },
+    {
+      "d": "M5 14L7 16L10.5 12.5",
+      "closed": false
+    }
+  ]
+}

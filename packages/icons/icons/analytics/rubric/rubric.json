@@ -1,0 +1,37 @@
+{
+  "slug": "rubric",
+  "category": "analytics",
+  "subcategory": "llm-observability",
+  "name": "Rubric",
+  "description": "The criteria, written down before the grading",
+  "tags": [
+    "criteria",
+    "checklist",
+    "grading"
+  ],
+  "keywords": [
+    "rubric",
+    "grading criteria",
+    "checklist",
+    "scoring guide"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 7L5 9L8 6",
+      "closed": false
+    },
+    {
+      "d": "M11 7.5H21",
+      "closed": false
+    },
+    {
+      "d": "M3 15L5 17L8 14",
+      "closed": false
+    },
+    {
+      "d": "M11 15.5H21",
+      "closed": false
+    }
+  ]
+}

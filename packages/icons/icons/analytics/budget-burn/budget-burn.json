@@ -1,0 +1,43 @@
+{
+  "slug": "budget-burn",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Budget burn",
+  "description": "Less every time anyone looks",
+  "tags": [
+    "deplete",
+    "shrink",
+    "down"
+  ],
+  "aliases": [
+    "burn-rate"
+  ],
+  "keywords": [
+    "budget burn",
+    "burn rate",
+    "depleting"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 6H21",
+      "closed": false
+    },
+    {
+      "d": "M3 11H17",
+      "closed": false
+    },
+    {
+      "d": "M3 16H13",
+      "closed": false
+    },
+    {
+      "d": "M17 16L21 20",
+      "closed": false
+    },
+    {
+      "d": "M21 17L21 20L18 20",
+      "closed": false
+    }
+  ]
+}

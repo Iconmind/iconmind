@@ -41,6 +41,8 @@ const ANCHORED = new Set([
   "cloud/budget-alert", "analytics/latency-p99",
   // bin-pack hugs the bin's corner because packing toward the corner IS the metaphor.
   "devops/bin-pack",
+  // score-distribution's bars stand on their baseline, exactly as chart-bar does.
+  "analytics/score-distribution",
 ]);
 
 function inkStats(svg: string, size: number) {
