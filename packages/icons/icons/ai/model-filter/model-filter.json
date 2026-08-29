@@ -1,0 +1,28 @@
+{
+  "slug": "model-filter",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Model filter",
+  "description": "A funnel beside a model core — requests filtered before they reach a model",
+  "tags": [
+    "filter",
+    "route",
+    "requests"
+  ],
+  "keywords": [
+    "model filter",
+    "request filtering",
+    "pre-model routing"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M3 5L14 5L10 9L10 17L7 17L7 9Z",
+      "closed": true
+    },
+    {
+      "d": "M18.5 8.5L22 12L18.5 15.5L15 12Z",
+      "closed": true
+    }
+  ]
+}

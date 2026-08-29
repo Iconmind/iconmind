@@ -1,0 +1,32 @@
+{
+  "slug": "run-block",
+  "category": "devtools",
+  "subcategory": "code",
+  "name": "Run block",
+  "description": "A play button held between brackets — run this block of code",
+  "tags": [
+    "run",
+    "block",
+    "execute"
+  ],
+  "keywords": [
+    "run code block",
+    "execute cell",
+    "run selection"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M9.5 8.5L9.5 15.5L13 12Z",
+      "closed": true
+    }
+  ]
+}

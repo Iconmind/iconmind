@@ -1,0 +1,40 @@
+{
+  "slug": "paywall",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Paywall",
+  "description": "A coin beside a key — content or features unlocked by paying",
+  "tags": [
+    "paywall",
+    "premium",
+    "unlock"
+  ],
+  "keywords": [
+    "paywall",
+    "premium content",
+    "pay to unlock"
+  ],
+  "family": "coin",
+  "shapes": [
+    {
+      "d": "M2 12a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M14 9a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 12V20",
+      "closed": false
+    },
+    {
+      "d": "M17 17H19.5",
+      "closed": false
+    }
+  ]
+}

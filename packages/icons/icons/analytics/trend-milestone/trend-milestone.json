@@ -1,0 +1,32 @@
+{
+  "slug": "trend-milestone",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Trend milestone",
+  "description": "A flag beside a rising line — a milestone marked on a trend",
+  "tags": [
+    "milestone",
+    "trend",
+    "chart"
+  ],
+  "keywords": [
+    "trend milestone",
+    "annotated chart",
+    "marked point"
+  ],
+  "family": "flag",
+  "shapes": [
+    {
+      "d": "M4 3V21",
+      "closed": false
+    },
+    {
+      "d": "M4 3L13 3L10 6L13 9L4 9",
+      "closed": false
+    },
+    {
+      "d": "M15 19L17.5 16.5L19.5 18.5L22 16",
+      "closed": false
+    }
+  ]
+}

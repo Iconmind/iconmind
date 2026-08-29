@@ -1,0 +1,37 @@
+{
+  "slug": "wishlist",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Wishlist",
+  "description": "A heart beside a list — the things someone wants",
+  "tags": [
+    "wishlist",
+    "wants",
+    "saved"
+  ],
+  "keywords": [
+    "wishlist",
+    "saved for later",
+    "favourites list"
+  ],
+  "family": "heart",
+  "shapes": [
+    {
+      "d": "M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
+    },
+    {
+      "d": "M14 8H22",
+      "closed": false
+    },
+    {
+      "d": "M14 12H22",
+      "closed": false
+    },
+    {
+      "d": "M14 16H22",
+      "closed": false
+    }
+  ]
+}

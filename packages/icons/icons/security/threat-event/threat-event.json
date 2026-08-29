@@ -1,0 +1,28 @@
+{
+  "slug": "threat-event",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Threat event",
+  "description": "A shield beside a lightning bolt — a security event that hit the guardrails",
+  "tags": [
+    "threat",
+    "event",
+    "alert"
+  ],
+  "keywords": [
+    "threat event",
+    "security incident",
+    "attack detected"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M3 5L12 5L12 11L7.5 15.5L3 11Z",
+      "closed": true
+    },
+    {
+      "d": "M21 7L17 11L20 11L16 15",
+      "closed": false
+    }
+  ]
+}

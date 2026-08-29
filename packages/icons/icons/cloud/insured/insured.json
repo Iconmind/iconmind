@@ -1,0 +1,32 @@
+{
+  "slug": "insured",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Insured",
+  "description": "A coin beside a shield — a payment or balance that is protected",
+  "tags": [
+    "protected",
+    "insurance",
+    "money"
+  ],
+  "keywords": [
+    "insured",
+    "payment protection",
+    "covered balance"
+  ],
+  "family": "coin",
+  "shapes": [
+    {
+      "d": "M2 12a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M14 7L22 7L22 12.5L18 16.5L14 12.5Z",
+      "closed": true
+    }
+  ]
+}

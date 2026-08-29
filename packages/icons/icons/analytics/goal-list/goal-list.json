@@ -1,0 +1,40 @@
+{
+  "slug": "goal-list",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Goal list",
+  "description": "A target beside a list — the goals being tracked",
+  "tags": [
+    "goals",
+    "list",
+    "okr"
+  ],
+  "keywords": [
+    "goal list",
+    "objectives",
+    "okr list"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M3 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7H22",
+      "closed": false
+    },
+    {
+      "d": "M16 12H22",
+      "closed": false
+    },
+    {
+      "d": "M16 17H22",
+      "closed": false
+    }
+  ]
+}

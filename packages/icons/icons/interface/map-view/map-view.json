@@ -1,0 +1,36 @@
+{
+  "slug": "map-view",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Map view",
+  "description": "A window with a location pin inside — the map view of an app",
+  "tags": [
+    "map",
+    "view",
+    "location"
+  ],
+  "keywords": [
+    "map view",
+    "map mode",
+    "location view"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 8H21",
+      "closed": false
+    },
+    {
+      "d": "M10 13a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 15V18",
+      "closed": false
+    }
+  ]
+}

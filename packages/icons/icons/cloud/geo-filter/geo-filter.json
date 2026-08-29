@@ -1,0 +1,32 @@
+{
+  "slug": "geo-filter",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Geo filter",
+  "description": "A funnel beside a location pin — traffic filtered by where it comes from",
+  "tags": [
+    "geo",
+    "filter",
+    "region"
+  ],
+  "keywords": [
+    "geo filter",
+    "region filter",
+    "geo blocking"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M3 5L14 5L10 9L10 17L7 17L7 9Z",
+      "closed": true
+    },
+    {
+      "d": "M15 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 13V17",
+      "closed": false
+    }
+  ]
+}

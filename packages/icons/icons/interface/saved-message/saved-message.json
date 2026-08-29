@@ -1,0 +1,32 @@
+{
+  "slug": "saved-message",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Saved message",
+  "description": "A speech bubble with a bookmark inside — a message saved for later",
+  "tags": [
+    "saved",
+    "bookmark",
+    "message"
+  ],
+  "keywords": [
+    "saved message",
+    "bookmark message",
+    "keep message"
+  ],
+  "family": "bubble",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V16A2 2 0 0 1 19 18H5A2 2 0 0 1 3 16Z",
+      "closed": true
+    },
+    {
+      "d": "M7 18L7 21L10 18",
+      "closed": false
+    },
+    {
+      "d": "M9 6L15 6L15 14L12 11L9 14Z",
+      "closed": true
+    }
+  ]
+}

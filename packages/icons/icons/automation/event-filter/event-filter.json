@@ -1,0 +1,28 @@
+{
+  "slug": "event-filter",
+  "category": "automation",
+  "subcategory": "trigger",
+  "name": "Event filter",
+  "description": "A funnel beside a lightning bolt — only matching events pass through",
+  "tags": [
+    "filter",
+    "event",
+    "trigger"
+  ],
+  "keywords": [
+    "event filter",
+    "filtered trigger",
+    "event matching"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M3 5L14 5L10 9L10 17L7 17L7 9Z",
+      "closed": true
+    },
+    {
+      "d": "M21 8L17 12L20 12L16 16",
+      "closed": false
+    }
+  ]
+}

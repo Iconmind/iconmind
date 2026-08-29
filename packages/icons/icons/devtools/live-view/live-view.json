@@ -1,0 +1,32 @@
+{
+  "slug": "live-view",
+  "category": "devtools",
+  "subcategory": "editor",
+  "name": "Live view",
+  "description": "A window with a lightning bolt inside — a live-updating preview",
+  "tags": [
+    "live",
+    "preview",
+    "realtime"
+  ],
+  "keywords": [
+    "live preview",
+    "live view",
+    "instant reload"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 4.5A2 2 0 0 1 5 2.5H19A2 2 0 0 1 21 4.5V19.5A2 2 0 0 1 19 21.5H5A2 2 0 0 1 3 19.5Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M13.5 10.5L10 14L13 14L9.5 17.5",
+      "closed": false
+    }
+  ]
+}

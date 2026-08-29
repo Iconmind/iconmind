@@ -1,0 +1,36 @@
+{
+  "slug": "tagged-list",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Tagged list",
+  "description": "A label beside a list — items grouped under one tag",
+  "tags": [
+    "tag",
+    "list",
+    "group"
+  ],
+  "keywords": [
+    "tagged items",
+    "items by tag",
+    "label view"
+  ],
+  "family": "tag",
+  "shapes": [
+    {
+      "d": "M3 5L9 5L12 8L9 11L3 11Z",
+      "closed": true
+    },
+    {
+      "d": "M15 8H22",
+      "closed": false
+    },
+    {
+      "d": "M15 12H22",
+      "closed": false
+    },
+    {
+      "d": "M15 16H22",
+      "closed": false
+    }
+  ]
+}

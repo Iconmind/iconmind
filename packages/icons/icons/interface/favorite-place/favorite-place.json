@@ -1,0 +1,33 @@
+{
+  "slug": "favorite-place",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "Favourite place",
+  "description": "A location pin beside a heart — a place saved as a favourite",
+  "tags": [
+    "favourite",
+    "place",
+    "pin"
+  ],
+  "keywords": [
+    "favourite place",
+    "saved location",
+    "loved spot"
+  ],
+  "family": "pin",
+  "shapes": [
+    {
+      "d": "M4 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V17",
+      "closed": false
+    },
+    {
+      "d": "M13 11A2.5 2.5 0 0 1 17 11A2.5 2.5 0 0 1 21 11L17 15Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
+    }
+  ]
+}

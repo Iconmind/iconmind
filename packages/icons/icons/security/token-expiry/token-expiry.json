@@ -1,0 +1,40 @@
+{
+  "slug": "token-expiry",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Token expiry",
+  "description": "A clock beside a key — a credential that expires after a while",
+  "tags": [
+    "expiry",
+    "token",
+    "ttl"
+  ],
+  "keywords": [
+    "token expiry",
+    "credential ttl",
+    "expiring key"
+  ],
+  "family": "clock",
+  "shapes": [
+    {
+      "d": "M2 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 9.5L7.5 12L10 12",
+      "closed": false
+    },
+    {
+      "d": "M15.5 7.5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18.5 10.5V20",
+      "closed": false
+    },
+    {
+      "d": "M18.5 17H21",
+      "closed": false
+    }
+  ]
+}

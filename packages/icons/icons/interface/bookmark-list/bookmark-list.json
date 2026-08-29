@@ -1,0 +1,36 @@
+{
+  "slug": "bookmark-list",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Bookmark list",
+  "description": "A bookmark beside a list — everything saved to read later",
+  "tags": [
+    "bookmarks",
+    "reading",
+    "saved"
+  ],
+  "keywords": [
+    "bookmark list",
+    "reading list",
+    "saved articles"
+  ],
+  "family": "bookmark",
+  "shapes": [
+    {
+      "d": "M3 5L12 5L12 19L7.5 14.5L3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M15 8H22",
+      "closed": false
+    },
+    {
+      "d": "M15 12H22",
+      "closed": false
+    },
+    {
+      "d": "M15 16H22",
+      "closed": false
+    }
+  ]
+}

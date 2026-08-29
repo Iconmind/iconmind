@@ -1,0 +1,32 @@
+{
+  "slug": "model-scope",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Model scope",
+  "description": "A model core held between brackets — the scope a model is allowed to work in",
+  "tags": [
+    "scope",
+    "bounds",
+    "limits"
+  ],
+  "keywords": [
+    "model scope",
+    "model boundaries",
+    "allowed scope"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M12 9L15 12L12 15L9 12Z",
+      "closed": true
+    }
+  ]
+}

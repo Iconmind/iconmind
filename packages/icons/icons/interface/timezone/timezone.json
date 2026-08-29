@@ -1,0 +1,36 @@
+{
+  "slug": "timezone",
+  "category": "interface",
+  "subcategory": "time",
+  "name": "Timezone",
+  "description": "A clock beside a location pin — the local time somewhere else",
+  "tags": [
+    "timezone",
+    "local",
+    "clock"
+  ],
+  "keywords": [
+    "timezone",
+    "local time",
+    "time in another place"
+  ],
+  "family": "clock",
+  "shapes": [
+    {
+      "d": "M2.5 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 9.5L8 12L10.5 12",
+      "closed": false
+    },
+    {
+      "d": "M16 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M19 11V15",
+      "closed": false
+    }
+  ]
+}

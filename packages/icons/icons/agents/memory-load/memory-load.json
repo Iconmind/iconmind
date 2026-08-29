@@ -1,0 +1,40 @@
+{
+  "slug": "memory-load",
+  "category": "agents",
+  "subcategory": "memory",
+  "name": "Memory load",
+  "description": "An arrow leaving stored notes — an agent loading something from memory",
+  "tags": [
+    "memory",
+    "read",
+    "recall"
+  ],
+  "keywords": [
+    "load from memory",
+    "read memory",
+    "recall"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 6H14",
+      "closed": false
+    },
+    {
+      "d": "M3 11H14",
+      "closed": false
+    },
+    {
+      "d": "M3 16H14",
+      "closed": false
+    },
+    {
+      "d": "M17 11H22",
+      "closed": false
+    },
+    {
+      "d": "M19.5 8.5L22 11L19.5 13.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "event-spike",
+  "category": "automation",
+  "subcategory": "trigger",
+  "name": "Event spike",
+  "description": "A lightning bolt beside a bump in a line — a sudden burst of events",
+  "tags": [
+    "spike",
+    "burst",
+    "events"
+  ],
+  "keywords": [
+    "event spike",
+    "burst of events",
+    "traffic surge"
+  ],
+  "family": "bolt",
+  "shapes": [
+    {
+      "d": "M10 6L5 11L9 11L4 16",
+      "closed": false
+    },
+    {
+      "d": "M12 18L15 18L18 15L21 18",
+      "closed": false
+    }
+  ]
+}

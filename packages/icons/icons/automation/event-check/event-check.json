@@ -1,0 +1,28 @@
+{
+  "slug": "event-check",
+  "category": "automation",
+  "subcategory": "condition",
+  "name": "Event check",
+  "description": "A lightning bolt beside a check — an event that was handled",
+  "tags": [
+    "event",
+    "handled",
+    "check"
+  ],
+  "keywords": [
+    "event handled",
+    "event acknowledged",
+    "trigger succeeded"
+  ],
+  "family": "bolt",
+  "shapes": [
+    {
+      "d": "M10 6L5 11L9 11L4 16",
+      "closed": false
+    },
+    {
+      "d": "M13 14L15.5 16.5L20 12",
+      "closed": false
+    }
+  ]
+}

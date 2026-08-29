@@ -1,0 +1,44 @@
+{
+  "slug": "key-list",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Key list",
+  "description": "A key beside a list — the credentials issued to an account",
+  "tags": [
+    "keys",
+    "list",
+    "credentials"
+  ],
+  "keywords": [
+    "key list",
+    "api keys",
+    "credential inventory"
+  ],
+  "family": "key",
+  "shapes": [
+    {
+      "d": "M3 9a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V21",
+      "closed": false
+    },
+    {
+      "d": "M7 18H10",
+      "closed": false
+    },
+    {
+      "d": "M14 8H22",
+      "closed": false
+    },
+    {
+      "d": "M14 12H22",
+      "closed": false
+    },
+    {
+      "d": "M14 16H22",
+      "closed": false
+    }
+  ]
+}

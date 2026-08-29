@@ -1,0 +1,32 @@
+{
+  "slug": "instant",
+  "category": "interface",
+  "subcategory": "time",
+  "name": "Instant",
+  "description": "A clock with a lightning bolt beside it — something that happens right away",
+  "tags": [
+    "instant",
+    "immediate",
+    "fast"
+  ],
+  "keywords": [
+    "instant",
+    "immediate",
+    "real time"
+  ],
+  "family": "clock",
+  "shapes": [
+    {
+      "d": "M3 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8.5 9L8.5 12L11 12",
+      "closed": false
+    },
+    {
+      "d": "M22 7L18 11L21 11L17 15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,399 @@
+/**
+ * Batch 72 — round 21 of the 1k plan: two motifs side by side. A coin, a
+ * clock, a key, a pin, a flag, a funnel, a target, a bookmark or a heart on
+ * the left; the mark that qualifies it on the right.
+ *
+ * Unattended round. The grammar is deliberate: every icon here is "X with Y",
+ * drawn from the same sub-shapes so the set keeps one voice. Every name checked
+ * free before drawing.
+ */
+import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
+import type { Icon } from "../build.ts";
+
+const HEART = "a heart is one line, not three strokes with visible seams";
+const BR_L = poly([[7, 3], [3, 3], [3, 21], [7, 21]]);
+const BR_R = poly([[17, 3], [21, 3], [21, 21], [17, 21]]);
+const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
+const KEY_L = [disc(7, 9, 4), col(7, 13, 21), row(18, 7, 10)];
+const FUNNEL_L = poly([[3, 5], [14, 5], [10, 9], [10, 17], [7, 17], [7, 9]], true);
+const FLAG_L = [col(4, 3, 21), poly([[4, 3], [13, 3], [10, 6], [13, 9], [4, 9]])];
+const ROWS_R = (x: number) => [row(8, x, 22), row(12, x, 22), row(16, x, 22)];
+
+export const BATCH_72: Icon[] = [
+  /* ── cloud: a coin with a mark ────────────────────────────────────────────────── */
+
+  {
+    slug: "escrow", category: "cloud", subcategory: "cost",
+    name: "Escrow", description: "A coin beside a padlock — money held in escrow until both sides deliver",
+    tags: ["escrow", "hold", "payment"], family: "coin",
+    aliases: [], keywords: ["escrow", "held funds", "conditional payment"],
+    shapes: [disc(7, 12, 4.5), col(7, 10.5, 13.5), rect(14, 9, 8, 7.5, 2), arc(18, 9, 2, 180, 360)],
+  },
+  {
+    slug: "insured", category: "cloud", subcategory: "cost",
+    name: "Insured", description: "A coin beside a shield — a payment or balance that is protected",
+    tags: ["protected", "insurance", "money"], family: "coin",
+    aliases: [], keywords: ["insured", "payment protection", "covered balance"],
+    shapes: [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5), poly([[14, 7], [22, 7], [22, 12.5], [18, 16.5], [14, 12.5]], true)],
+  },
+  {
+    slug: "revenue", category: "cloud", subcategory: "cost",
+    name: "Revenue", description: "A coin beside a rising line — revenue growing over time",
+    tags: ["revenue", "growth", "money"], family: "coin",
+    aliases: [], keywords: ["revenue", "income growth", "monthly recurring revenue"],
+    shapes: [disc(7, 12, 4.5), col(7, 10.5, 13.5), poly([[14, 17], [16.5, 14.5], [18.5, 16.5], [22, 13]])],
+  },
+  {
+    slug: "paywall", category: "cloud", subcategory: "cost",
+    name: "Paywall", description: "A coin beside a key — content or features unlocked by paying",
+    tags: ["paywall", "premium", "unlock"], family: "coin",
+    aliases: [], keywords: ["paywall", "premium content", "pay to unlock"],
+    shapes: [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5), disc(17, 9, 3), col(17, 12, 20), row(17, 17, 19.5)],
+  },
+  {
+    slug: "donate", category: "cloud", subcategory: "cost",
+    name: "Donate", description: "A coin beside a heart — a donation or a tip",
+    tags: ["donate", "tip", "give"], family: "coin",
+    aliases: [], keywords: ["donate", "tip jar", "support with money"],
+    shapes: [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5), raw("M14 9A2.5 2.5 0 0 1 18 9A2.5 2.5 0 0 1 22 9L18 13Z", HEART, true)],
+  },
+  {
+    slug: "discount", category: "cloud", subcategory: "cost",
+    name: "Discount", description: "A coin with a minus beside it — a discount taken off the price",
+    tags: ["discount", "reduce", "price"], family: "coin",
+    aliases: [], keywords: ["discount", "price reduction", "promo"],
+    shapes: [disc(8, 12, 5), col(8, 10.5, 13.5), row(12, 16, 22)],
+  },
+  {
+    slug: "geo-filter", category: "cloud", subcategory: "network",
+    name: "Geo filter", description: "A funnel beside a location pin — traffic filtered by where it comes from",
+    tags: ["geo", "filter", "region"], family: "funnel",
+    aliases: [], keywords: ["geo filter", "region filter", "geo blocking"],
+    shapes: [FUNNEL_L, disc(18, 10, 3), col(18, 13, 17)],
+  },
+
+  /* ── interface: a clock with a mark ───────────────────────────────────────────── */
+
+  {
+    slug: "deadline-missed", category: "interface", subcategory: "time",
+    name: "Deadline missed", description: "A clock with an X beside it — a deadline that passed unmet",
+    tags: ["deadline", "late", "missed"], family: "clock",
+    aliases: [], keywords: ["deadline missed", "overdue", "past due"],
+    shapes: [disc(8.5, 12, 5.5), poly([[8.5, 9], [8.5, 12], [11, 12]]), poly([[17, 9.5], [22, 14.5]]), poly([[22, 9.5], [17, 14.5]])],
+  },
+  {
+    slug: "instant", category: "interface", subcategory: "time",
+    name: "Instant", description: "A clock with a lightning bolt beside it — something that happens right away",
+    tags: ["instant", "immediate", "fast"], family: "clock",
+    aliases: [], keywords: ["instant", "immediate", "real time"],
+    shapes: [disc(8.5, 12, 5.5), poly([[8.5, 9], [8.5, 12], [11, 12]]), poly([[22, 7], [18, 11], [21, 11], [17, 15]])],
+  },
+  {
+    slug: "timezone", category: "interface", subcategory: "time",
+    name: "Timezone", description: "A clock beside a location pin — the local time somewhere else",
+    tags: ["timezone", "local", "clock"], family: "clock",
+    aliases: [], keywords: ["timezone", "local time", "time in another place"],
+    shapes: [disc(8, 12, 5.5), poly([[8, 9.5], [8, 12], [10.5, 12]]), disc(19, 8, 3), col(19, 11, 15)],
+  },
+  {
+    slug: "time-shift", category: "interface", subcategory: "time",
+    name: "Time shift", description: "A clock with an arrow moving on — shift a schedule forward",
+    tags: ["shift", "reschedule", "forward"], family: "clock",
+    aliases: [], keywords: ["time shift", "reschedule", "move forward"],
+    shapes: [disc(8, 12, 5.5), poly([[8, 9.5], [8, 12], [10.5, 12]]), row(12, 16.5, 22), poly([[19.5, 9.5], [22, 12], [19.5, 14.5]])],
+  },
+
+  /* ── ai: a model core with a mark ─────────────────────────────────────────────── */
+
+  {
+    slug: "model-latency", category: "ai", subcategory: "inference",
+    name: "Model latency", description: "A clock beside a model core — how long a model takes to answer",
+    tags: ["latency", "speed", "time"], family: "clock",
+    aliases: [], keywords: ["model latency", "time to first token", "response time"],
+    shapes: [disc(7.5, 12, 5.5), poly([[7.5, 9.5], [7.5, 12], [10, 12]]), poly([[19, 9], [22, 12], [19, 15], [16, 12]], true)],
+  },
+  {
+    slug: "model-trend", category: "ai", subcategory: "training",
+    name: "Model trend", description: "A model core beside a rising line — a model's quality trending over versions",
+    tags: ["trend", "quality", "versions"], family: "lattice",
+    aliases: [], keywords: ["model trend", "quality over time", "model progress"],
+    shapes: [poly([[7, 8], [11, 12], [7, 16], [3, 12]], true), poly([[13, 19], [16, 16], [18, 18], [22, 14]])],
+  },
+  {
+    slug: "model-scope", category: "ai", subcategory: "model",
+    name: "Model scope", description: "A model core held between brackets — the scope a model is allowed to work in",
+    tags: ["scope", "bounds", "limits"], family: "bracket",
+    aliases: [], keywords: ["model scope", "model boundaries", "allowed scope"],
+    shapes: [BR_L, BR_R, poly([[12, 9], [15, 12], [12, 15], [9, 12]], true)],
+  },
+  {
+    slug: "model-bookmark", category: "ai", subcategory: "model",
+    name: "Model bookmark", description: "A bookmark beside a model core — a model saved to come back to",
+    tags: ["bookmark", "saved", "model"], family: "bookmark",
+    aliases: [], keywords: ["bookmark model", "saved model", "model shortlist"],
+    shapes: [poly([[3, 5], [12, 5], [12, 19], [7.5, 14.5], [3, 19]], true), poly([[18.5, 8.5], [22, 12], [18.5, 15.5], [15, 12]], true)],
+  },
+  {
+    slug: "region-model", category: "ai", subcategory: "model",
+    name: "Region model", description: "A location pin beside a model core — the model served in a given region",
+    tags: ["region", "deploy", "locality"], family: "pin",
+    aliases: [], keywords: ["regional model", "model region", "data residency model"],
+    shapes: [disc(7, 8, 3), col(7, 11, 15), poly([[17, 8], [21, 12], [17, 16], [13, 12]], true)],
+  },
+  {
+    slug: "model-filter", category: "ai", subcategory: "inference",
+    name: "Model filter", description: "A funnel beside a model core — requests filtered before they reach a model",
+    tags: ["filter", "route", "requests"], family: "funnel",
+    aliases: [], keywords: ["model filter", "request filtering", "pre-model routing"],
+    shapes: [FUNNEL_L, poly([[18.5, 8.5], [22, 12], [18.5, 15.5], [15, 12]], true)],
+  },
+
+  /* ── security: a key with a mark ──────────────────────────────────────────────── */
+
+  {
+    slug: "token-expiry", category: "security", subcategory: "auth",
+    name: "Token expiry", description: "A clock beside a key — a credential that expires after a while",
+    tags: ["expiry", "token", "ttl"], family: "clock",
+    aliases: [], keywords: ["token expiry", "credential ttl", "expiring key"],
+    shapes: [disc(7.5, 12, 5.5), poly([[7.5, 9.5], [7.5, 12], [10, 12]]), disc(18.5, 7.5, 3), col(18.5, 10.5, 20), row(17, 18.5, 21)],
+  },
+  {
+    slug: "geofence", category: "security", subcategory: "auth",
+    name: "Geofence", description: "A location pin beside a shield — access allowed only inside a geographic boundary",
+    tags: ["geofence", "location", "boundary"], family: "pin",
+    aliases: [], keywords: ["geofence", "location-based access", "geo restriction"],
+    shapes: [disc(7, 8, 3), col(7, 11, 15), poly([[13, 11], [22, 11], [22, 16.5], [17.5, 21], [13, 16.5]], true)],
+  },
+  {
+    slug: "policy-list", category: "security", subcategory: "auth",
+    name: "Policy list", description: "A shield beside a list — the policies that apply",
+    tags: ["policy", "rules", "list"], family: "shield",
+    aliases: [], keywords: ["policy list", "security policies", "rule set"],
+    shapes: [poly([[3, 5], [12, 5], [12, 11], [7.5, 15.5], [3, 11]], true), row(9, 15, 22), row(13, 15, 22), row(17, 15, 22)],
+  },
+  {
+    slug: "threat-event", category: "security", subcategory: "ai-security",
+    name: "Threat event", description: "A shield beside a lightning bolt — a security event that hit the guardrails",
+    tags: ["threat", "event", "alert"], family: "shield",
+    aliases: [], keywords: ["threat event", "security incident", "attack detected"],
+    shapes: [poly([[3, 5], [12, 5], [12, 11], [7.5, 15.5], [3, 11]], true), poly([[21, 7], [17, 11], [20, 11], [16, 15]])],
+  },
+  {
+    slug: "secret-block", category: "security", subcategory: "auth",
+    name: "Secret block", description: "A key held between brackets — a secret kept inside a code block",
+    tags: ["secret", "code", "key"], family: "bracket",
+    aliases: [], keywords: ["secret in code", "embedded credential", "secret block"],
+    shapes: [BR_L, BR_R, disc(12, 9, 3), col(12, 12, 17), row(15, 12, 14.5)],
+  },
+  {
+    slug: "key-usage", category: "security", subcategory: "auth",
+    name: "Key usage", description: "A key beside a rising line — how much a credential is being used",
+    tags: ["usage", "key", "metrics"], family: "key",
+    aliases: [], keywords: ["api key usage", "credential usage", "key metrics"],
+    shapes: [...KEY_L, poly([[13, 19], [16, 16], [18, 18], [22, 14]])],
+  },
+  {
+    slug: "key-list", category: "security", subcategory: "auth",
+    name: "Key list", description: "A key beside a list — the credentials issued to an account",
+    tags: ["keys", "list", "credentials"], family: "key",
+    aliases: [], keywords: ["key list", "api keys", "credential inventory"],
+    shapes: [...KEY_L, ...ROWS_R(14)],
+  },
+
+  /* ── interface: kept, saved, flagged ──────────────────────────────────────────── */
+
+  {
+    slug: "favorite-place", category: "interface", subcategory: "identity",
+    name: "Favourite place", description: "A location pin beside a heart — a place saved as a favourite",
+    tags: ["favourite", "place", "pin"], family: "pin",
+    aliases: [], keywords: ["favourite place", "saved location", "loved spot"],
+    shapes: [disc(7, 10, 3), col(7, 13, 17), raw("M13 11A2.5 2.5 0 0 1 17 11A2.5 2.5 0 0 1 21 11L17 15Z", HEART, true)],
+  },
+  {
+    slug: "wishlist", category: "interface", subcategory: "file",
+    name: "Wishlist", description: "A heart beside a list — the things someone wants",
+    tags: ["wishlist", "wants", "saved"], family: "heart",
+    aliases: [], keywords: ["wishlist", "saved for later", "favourites list"],
+    shapes: [raw("M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z", HEART, true), ...ROWS_R(14)],
+  },
+  {
+    slug: "bookmark-list", category: "interface", subcategory: "file",
+    name: "Bookmark list", description: "A bookmark beside a list — everything saved to read later",
+    tags: ["bookmarks", "reading", "saved"], family: "bookmark",
+    aliases: [], keywords: ["bookmark list", "reading list", "saved articles"],
+    shapes: [poly([[3, 5], [12, 5], [12, 19], [7.5, 14.5], [3, 19]], true), ...ROWS_R(15)],
+  },
+  {
+    slug: "flagged-message", category: "interface", subcategory: "communication",
+    name: "Flagged message", description: "A speech bubble with a flag inside — a message flagged for attention",
+    tags: ["flag", "message", "attention"], family: "bubble",
+    aliases: [], keywords: ["flagged message", "flag for follow-up", "reported message"],
+    shapes: [...BUBBLE, col(8, 6, 15), poly([[8, 6], [15, 6], [13, 8], [15, 10], [8, 10]])],
+  },
+  {
+    slug: "saved-message", category: "interface", subcategory: "communication",
+    name: "Saved message", description: "A speech bubble with a bookmark inside — a message saved for later",
+    tags: ["saved", "bookmark", "message"], family: "bubble",
+    aliases: [], keywords: ["saved message", "bookmark message", "keep message"],
+    shapes: [...BUBBLE, poly([[9, 6], [15, 6], [15, 14], [12, 11], [9, 14]], true)],
+  },
+  {
+    slug: "moderated-message", category: "interface", subcategory: "communication",
+    name: "Moderated message", description: "A speech bubble with a shield inside — a message checked by moderation",
+    tags: ["moderation", "shield", "message"], family: "bubble",
+    aliases: [], keywords: ["moderated message", "content moderation", "safe message"],
+    shapes: [...BUBBLE, poly([[8, 6], [16, 6], [16, 10.5], [12, 14.5], [8, 10.5]], true)],
+  },
+  {
+    slug: "map-view", category: "interface", subcategory: "media",
+    name: "Map view", description: "A window with a location pin inside — the map view of an app",
+    tags: ["map", "view", "location"], family: "window",
+    aliases: [], keywords: ["map view", "map mode", "location view"],
+    shapes: [rect(3, 3, 18, 18, 2), row(8, 3, 21), disc(12, 13, 2), col(12, 15, 18)],
+  },
+  {
+    slug: "page-search", category: "interface", subcategory: "action",
+    name: "Page search", description: "A window with a magnifying glass inside — find text on the current page",
+    tags: ["search", "find", "page"], family: "window",
+    aliases: [], keywords: ["find on page", "page search", "search within"],
+    shapes: [rect(3, 2.5, 18, 19, 2), row(7, 3, 21), disc(11, 13.5, 3), poly([[13, 15.5], [15.5, 18]])],
+  },
+  {
+    slug: "tagged-list", category: "interface", subcategory: "file",
+    name: "Tagged list", description: "A label beside a list — items grouped under one tag",
+    tags: ["tag", "list", "group"], family: "tag",
+    aliases: [], keywords: ["tagged items", "items by tag", "label view"],
+    shapes: [poly([[3, 5], [9, 5], [12, 8], [9, 11], [3, 11]], true), ...ROWS_R(15)],
+  },
+
+  /* ── devtools: a block with a verdict ─────────────────────────────────────────── */
+
+  {
+    slug: "assert-pass", category: "devtools", subcategory: "testing",
+    name: "Assert pass", description: "A check held between brackets — an assertion that held",
+    tags: ["assert", "pass", "test"], family: "bracket",
+    aliases: [], keywords: ["assertion passed", "assert ok", "test assertion"],
+    shapes: [BR_L, BR_R, poly([[8.5, 12], [11, 14.5], [15.5, 10]])],
+  },
+  {
+    slug: "assert-fail", category: "devtools", subcategory: "testing",
+    name: "Assert fail", description: "An X held between brackets — an assertion that failed",
+    tags: ["assert", "fail", "test"], family: "bracket",
+    aliases: [], keywords: ["assertion failed", "assert error", "failing test"],
+    shapes: [BR_L, BR_R, poly([[9.5, 9.5], [14.5, 14.5]]), poly([[14.5, 9.5], [9.5, 14.5]])],
+  },
+  {
+    slug: "run-block", category: "devtools", subcategory: "code",
+    name: "Run block", description: "A play button held between brackets — run this block of code",
+    tags: ["run", "block", "execute"], family: "bracket",
+    aliases: [], keywords: ["run code block", "execute cell", "run selection"],
+    shapes: [BR_L, BR_R, poly([[9.5, 8.5], [9.5, 15.5], [13, 12]], true)],
+  },
+  {
+    slug: "macro", category: "devtools", subcategory: "editor",
+    name: "Macro", description: "A lightning bolt held between brackets — a macro that expands into code",
+    tags: ["macro", "expand", "code"], family: "bracket",
+    aliases: [], keywords: ["macro", "code macro", "recorded actions"],
+    shapes: [BR_L, BR_R, poly([[13.5, 7.5], [10, 11], [13, 11], [9.5, 14.5]])],
+  },
+  {
+    slug: "live-view", category: "devtools", subcategory: "editor",
+    name: "Live view", description: "A window with a lightning bolt inside — a live-updating preview",
+    tags: ["live", "preview", "realtime"], family: "window",
+    aliases: [], keywords: ["live preview", "live view", "instant reload"],
+    shapes: [rect(3, 2.5, 18, 19, 2), row(7, 3, 21), poly([[13.5, 10.5], [10, 14], [13, 14], [9.5, 17.5]])],
+  },
+
+  /* ── automation: an event with a verdict ──────────────────────────────────────── */
+
+  {
+    slug: "event-filter", category: "automation", subcategory: "trigger",
+    name: "Event filter", description: "A funnel beside a lightning bolt — only matching events pass through",
+    tags: ["filter", "event", "trigger"], family: "funnel",
+    aliases: [], keywords: ["event filter", "filtered trigger", "event matching"],
+    shapes: [FUNNEL_L, poly([[21, 8], [17, 12], [20, 12], [16, 16]])],
+  },
+  {
+    slug: "event-check", category: "automation", subcategory: "condition",
+    name: "Event check", description: "A lightning bolt beside a check — an event that was handled",
+    tags: ["event", "handled", "check"], family: "bolt",
+    aliases: [], keywords: ["event handled", "event acknowledged", "trigger succeeded"],
+    shapes: [poly([[10, 6], [5, 11], [9, 11], [4, 16]]), poly([[13, 14], [15.5, 16.5], [20, 12]])],
+  },
+  {
+    slug: "event-failed", category: "automation", subcategory: "condition",
+    name: "Event failed", description: "A lightning bolt beside an X — an event whose handler failed",
+    tags: ["event", "failed", "error"], family: "bolt",
+    aliases: [], keywords: ["event failed", "handler error", "trigger failed"],
+    shapes: [poly([[10, 6], [5, 11], [9, 11], [4, 16]]), poly([[14, 10], [19, 15]]), poly([[19, 10], [14, 15]])],
+  },
+  {
+    slug: "checkpoint-failed", category: "automation", subcategory: "action",
+    name: "Checkpoint failed", description: "A flag with an X beside it — a checkpoint that could not be saved",
+    tags: ["checkpoint", "failed", "flag"], family: "flag",
+    aliases: [], keywords: ["checkpoint failed", "save failed", "milestone missed"],
+    shapes: [col(6, 3, 21), poly([[6, 3], [15, 3], [12, 6], [15, 9], [6, 9]]), poly([[16, 13], [21, 18]]), poly([[21, 13], [16, 18]])],
+  },
+  {
+    slug: "event-spike", category: "automation", subcategory: "trigger",
+    name: "Event spike", description: "A lightning bolt beside a bump in a line — a sudden burst of events",
+    tags: ["spike", "burst", "events"], family: "bolt",
+    aliases: [], keywords: ["event spike", "burst of events", "traffic surge"],
+    shapes: [poly([[10, 6], [5, 11], [9, 11], [4, 16]]), poly([[12, 18], [15, 18], [18, 15], [21, 18]])],
+  },
+
+  /* ── analytics: goals and lists ───────────────────────────────────────────────── */
+
+  {
+    slug: "goal-progress", category: "analytics", subcategory: "metric",
+    name: "Goal progress", description: "A target beside a rising line — progress toward a goal",
+    tags: ["goal", "progress", "trend"], family: "object",
+    aliases: [], keywords: ["goal progress", "toward target", "okr progress"],
+    shapes: [disc(8, 12, 5), disc(8, 12, 1), poly([[15, 17], [17.5, 14.5], [19.5, 16.5], [22, 14]])],
+  },
+  {
+    slug: "goal-list", category: "analytics", subcategory: "metric",
+    name: "Goal list", description: "A target beside a list — the goals being tracked",
+    tags: ["goals", "list", "okr"], family: "object",
+    aliases: [], keywords: ["goal list", "objectives", "okr list"],
+    shapes: [disc(8, 12, 5), disc(8, 12, 2), row(7, 16, 22), row(12, 16, 22), row(17, 16, 22)],
+  },
+  {
+    slug: "checkpoint-list", category: "analytics", subcategory: "dashboard",
+    name: "Checkpoint list", description: "A flag beside a list — every checkpoint saved so far",
+    tags: ["checkpoints", "list", "history"], family: "flag",
+    aliases: [], keywords: ["checkpoint list", "saved checkpoints", "milestone history"],
+    shapes: [...FLAG_L, ...ROWS_R(16)],
+  },
+  {
+    slug: "filtered-list", category: "analytics", subcategory: "segment",
+    name: "Filtered list", description: "A funnel beside a list — the rows that passed the filter",
+    tags: ["filter", "list", "results"], family: "funnel",
+    aliases: [], keywords: ["filtered list", "filter results", "narrowed rows"],
+    shapes: [FUNNEL_L, ...ROWS_R(16)],
+  },
+  {
+    slug: "trend-milestone", category: "analytics", subcategory: "chart",
+    name: "Trend milestone", description: "A flag beside a rising line — a milestone marked on a trend",
+    tags: ["milestone", "trend", "chart"], family: "flag",
+    aliases: [], keywords: ["trend milestone", "annotated chart", "marked point"],
+    shapes: [...FLAG_L, poly([[15, 19], [17.5, 16.5], [19.5, 18.5], [22, 16]])],
+  },
+
+  /* ── agents: memory in and out ────────────────────────────────────────────────── */
+
+  {
+    slug: "memory-save", category: "agents", subcategory: "memory",
+    name: "Memory save", description: "An arrow writing into stored notes — an agent saving something to memory",
+    tags: ["memory", "write", "store"], family: "text",
+    aliases: [], keywords: ["save to memory", "write memory", "remember"],
+    shapes: [row(11, 2, 7), poly([[5, 9], [7, 11], [5, 13]]), row(6, 10, 21), row(11, 10, 21), row(16, 10, 21)],
+  },
+  {
+    slug: "memory-load", category: "agents", subcategory: "memory",
+    name: "Memory load", description: "An arrow leaving stored notes — an agent loading something from memory",
+    tags: ["memory", "read", "recall"], family: "text",
+    aliases: [], keywords: ["load from memory", "read memory", "recall"],
+    shapes: [row(6, 3, 14), row(11, 3, 14), row(16, 3, 14), row(11, 17, 22), poly([[19.5, 8.5], [22, 11], [19.5, 13.5]])],
+  },
+];

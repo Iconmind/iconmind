@@ -1,0 +1,32 @@
+{
+  "slug": "goal-progress",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Goal progress",
+  "description": "A target beside a rising line — progress toward a goal",
+  "tags": [
+    "goal",
+    "progress",
+    "trend"
+  ],
+  "keywords": [
+    "goal progress",
+    "toward target",
+    "okr progress"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M3 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 17L17.5 14.5L19.5 16.5L22 14",
+      "closed": false
+    }
+  ]
+}

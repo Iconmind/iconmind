@@ -1,0 +1,28 @@
+{
+  "slug": "model-bookmark",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Model bookmark",
+  "description": "A bookmark beside a model core — a model saved to come back to",
+  "tags": [
+    "bookmark",
+    "saved",
+    "model"
+  ],
+  "keywords": [
+    "bookmark model",
+    "saved model",
+    "model shortlist"
+  ],
+  "family": "bookmark",
+  "shapes": [
+    {
+      "d": "M3 5L12 5L12 19L7.5 14.5L3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M18.5 8.5L22 12L18.5 15.5L15 12Z",
+      "closed": true
+    }
+  ]
+}

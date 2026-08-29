@@ -1,0 +1,32 @@
+{
+  "slug": "moderated-message",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Moderated message",
+  "description": "A speech bubble with a shield inside — a message checked by moderation",
+  "tags": [
+    "moderation",
+    "shield",
+    "message"
+  ],
+  "keywords": [
+    "moderated message",
+    "content moderation",
+    "safe message"
+  ],
+  "family": "bubble",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V16A2 2 0 0 1 19 18H5A2 2 0 0 1 3 16Z",
+      "closed": true
+    },
+    {
+      "d": "M7 18L7 21L10 18",
+      "closed": false
+    },
+    {
+      "d": "M8 6L16 6L16 10.5L12 14.5L8 10.5Z",
+      "closed": true
+    }
+  ]
+}

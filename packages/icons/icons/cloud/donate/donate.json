@@ -1,0 +1,33 @@
+{
+  "slug": "donate",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Donate",
+  "description": "A coin beside a heart — a donation or a tip",
+  "tags": [
+    "donate",
+    "tip",
+    "give"
+  ],
+  "keywords": [
+    "donate",
+    "tip jar",
+    "support with money"
+  ],
+  "family": "coin",
+  "shapes": [
+    {
+      "d": "M2 12a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M14 9A2.5 2.5 0 0 1 18 9A2.5 2.5 0 0 1 22 9L18 13Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
+    }
+  ]
+}

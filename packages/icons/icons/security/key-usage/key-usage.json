@@ -1,0 +1,36 @@
+{
+  "slug": "key-usage",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Key usage",
+  "description": "A key beside a rising line — how much a credential is being used",
+  "tags": [
+    "usage",
+    "key",
+    "metrics"
+  ],
+  "keywords": [
+    "api key usage",
+    "credential usage",
+    "key metrics"
+  ],
+  "family": "key",
+  "shapes": [
+    {
+      "d": "M3 9a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V21",
+      "closed": false
+    },
+    {
+      "d": "M7 18H10",
+      "closed": false
+    },
+    {
+      "d": "M13 19L16 16L18 18L22 14",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "revenue",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Revenue",
+  "description": "A coin beside a rising line — revenue growing over time",
+  "tags": [
+    "revenue",
+    "growth",
+    "money"
+  ],
+  "keywords": [
+    "revenue",
+    "income growth",
+    "monthly recurring revenue"
+  ],
+  "family": "coin",
+  "shapes": [
+    {
+      "d": "M2.5 12a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M14 17L16.5 14.5L18.5 16.5L22 13",
+      "closed": false
+    }
+  ]
+}

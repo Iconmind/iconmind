@@ -1,0 +1,32 @@
+{
+  "slug": "assert-pass",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Assert pass",
+  "description": "A check held between brackets — an assertion that held",
+  "tags": [
+    "assert",
+    "pass",
+    "test"
+  ],
+  "keywords": [
+    "assertion passed",
+    "assert ok",
+    "test assertion"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M8.5 12L11 14.5L15.5 10",
+      "closed": false
+    }
+  ]
+}

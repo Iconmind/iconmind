@@ -1,0 +1,36 @@
+{
+  "slug": "assert-fail",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Assert fail",
+  "description": "An X held between brackets — an assertion that failed",
+  "tags": [
+    "assert",
+    "fail",
+    "test"
+  ],
+  "keywords": [
+    "assertion failed",
+    "assert error",
+    "failing test"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M9.5 9.5L14.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M14.5 9.5L9.5 14.5",
+      "closed": false
+    }
+  ]
+}

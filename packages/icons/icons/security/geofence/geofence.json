@@ -1,0 +1,32 @@
+{
+  "slug": "geofence",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Geofence",
+  "description": "A location pin beside a shield — access allowed only inside a geographic boundary",
+  "tags": [
+    "geofence",
+    "location",
+    "boundary"
+  ],
+  "keywords": [
+    "geofence",
+    "location-based access",
+    "geo restriction"
+  ],
+  "family": "pin",
+  "shapes": [
+    {
+      "d": "M4 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 11V15",
+      "closed": false
+    },
+    {
+      "d": "M13 11L22 11L22 16.5L17.5 21L13 16.5Z",
+      "closed": true
+    }
+  ]
+}

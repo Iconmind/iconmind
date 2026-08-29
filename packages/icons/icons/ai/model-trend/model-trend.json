@@ -1,0 +1,28 @@
+{
+  "slug": "model-trend",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Model trend",
+  "description": "A model core beside a rising line — a model's quality trending over versions",
+  "tags": [
+    "trend",
+    "quality",
+    "versions"
+  ],
+  "keywords": [
+    "model trend",
+    "quality over time",
+    "model progress"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M7 8L11 12L7 16L3 12Z",
+      "closed": true
+    },
+    {
+      "d": "M13 19L16 16L18 18L22 14",
+      "closed": false
+    }
+  ]
+}

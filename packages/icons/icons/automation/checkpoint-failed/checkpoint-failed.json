@@ -1,0 +1,36 @@
+{
+  "slug": "checkpoint-failed",
+  "category": "automation",
+  "subcategory": "action",
+  "name": "Checkpoint failed",
+  "description": "A flag with an X beside it — a checkpoint that could not be saved",
+  "tags": [
+    "checkpoint",
+    "failed",
+    "flag"
+  ],
+  "keywords": [
+    "checkpoint failed",
+    "save failed",
+    "milestone missed"
+  ],
+  "family": "flag",
+  "shapes": [
+    {
+      "d": "M6 3V21",
+      "closed": false
+    },
+    {
+      "d": "M6 3L15 3L12 6L15 9L6 9",
+      "closed": false
+    },
+    {
+      "d": "M16 13L21 18",
+      "closed": false
+    },
+    {
+      "d": "M21 13L16 18",
+      "closed": false
+    }
+  ]
+}

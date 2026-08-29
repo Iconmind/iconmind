@@ -1,0 +1,32 @@
+{
+  "slug": "region-model",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Region model",
+  "description": "A location pin beside a model core — the model served in a given region",
+  "tags": [
+    "region",
+    "deploy",
+    "locality"
+  ],
+  "keywords": [
+    "regional model",
+    "model region",
+    "data residency model"
+  ],
+  "family": "pin",
+  "shapes": [
+    {
+      "d": "M4 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 11V15",
+      "closed": false
+    },
+    {
+      "d": "M17 8L21 12L17 16L13 12Z",
+      "closed": true
+    }
+  ]
+}

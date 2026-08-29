@@ -1,0 +1,36 @@
+{
+  "slug": "policy-list",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Policy list",
+  "description": "A shield beside a list — the policies that apply",
+  "tags": [
+    "policy",
+    "rules",
+    "list"
+  ],
+  "keywords": [
+    "policy list",
+    "security policies",
+    "rule set"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M3 5L12 5L12 11L7.5 15.5L3 11Z",
+      "closed": true
+    },
+    {
+      "d": "M15 9H22",
+      "closed": false
+    },
+    {
+      "d": "M15 13H22",
+      "closed": false
+    },
+    {
+      "d": "M15 17H22",
+      "closed": false
+    }
+  ]
+}

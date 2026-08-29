@@ -1,0 +1,36 @@
+{
+  "slug": "deadline-missed",
+  "category": "interface",
+  "subcategory": "time",
+  "name": "Deadline missed",
+  "description": "A clock with an X beside it — a deadline that passed unmet",
+  "tags": [
+    "deadline",
+    "late",
+    "missed"
+  ],
+  "keywords": [
+    "deadline missed",
+    "overdue",
+    "past due"
+  ],
+  "family": "clock",
+  "shapes": [
+    {
+      "d": "M3 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8.5 9L8.5 12L11 12",
+      "closed": false
+    },
+    {
+      "d": "M17 9.5L22 14.5",
+      "closed": false
+    },
+    {
+      "d": "M22 9.5L17 14.5",
+      "closed": false
+    }
+  ]
+}
