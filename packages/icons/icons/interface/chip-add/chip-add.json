@@ -1,0 +1,36 @@
+{
+  "slug": "chip-add",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Chip add",
+  "description": "Another one joins the set",
+  "tags": [
+    "plus",
+    "filter",
+    "new"
+  ],
+  "keywords": [
+    "add filter",
+    "add tag",
+    "new chip"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 12A4 4 0 0 1 7 8H17A4 4 0 0 1 21 12V12A4 4 0 0 1 17 16H7A4 4 0 0 1 3 12Z",
+      "closed": true
+    },
+    {
+      "d": "M6.5 12H11",
+      "closed": false
+    },
+    {
+      "d": "M14 12H18",
+      "closed": false
+    },
+    {
+      "d": "M16 10V14",
+      "closed": false
+    }
+  ]
+}

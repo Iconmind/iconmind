@@ -1,0 +1,32 @@
+{
+  "slug": "composer-expand",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Composer expand",
+  "description": "More room to write",
+  "tags": [
+    "grow",
+    "fullscreen",
+    "larger"
+  ],
+  "keywords": [
+    "expand input",
+    "large editor",
+    "grow composer"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 11A2 2 0 0 1 4 9H20A2 2 0 0 1 22 11V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M6 11.5V15.5",
+      "closed": false
+    },
+    {
+      "d": "M9 6L12 3L15 6",
+      "closed": false
+    }
+  ]
+}

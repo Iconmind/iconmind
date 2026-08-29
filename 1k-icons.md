@@ -138,7 +138,7 @@ In drawing order within each category. Ten consecutive names = one round.
 
 ### interface (+130)
 
-  1. composer, composer-attach, composer-expand, slash-command, at-mention, hashtag, chip, chip-remove, pill-toggle, segmented
+  1. composer, composer-attach, composer-expand, slash-command, at-mention, text-cursor, chip, chip-add, chip-remove, segmented
   2. stepper-input, dial-control, knob, fader, joystick, dpad, hotkey, key-combo, command-bar, omnibox
   3. spotlight, quick-switch, recent-items, frecency, pin-item, unpin-item, favorite-add, favorite-remove, bookmark-folder, reading-list
   4. tab-new, tab-close, tab-group, tab-pin, tab-overflow, split-pane, pane-left, pane-right, pane-bottom, pane-float

@@ -130,6 +130,9 @@ abstract final class IconMindIcons {
   static const IconMindData assertion = g.assertion;
   @Deprecated('use assertion')
   static const IconMindData expect = g.assertion;
+  static const IconMindData atMention = g.atMention;
+  @Deprecated('use atMention')
+  static const IconMindData mention = g.atMention;
   static const IconMindData attach = g.attach;
   static const IconMindData attachmentImage = g.attachmentImage;
   static const IconMindData attachmentVideo = g.attachmentVideo;
@@ -297,6 +300,11 @@ abstract final class IconMindIcons {
   @Deprecated('use chevronRight')
   static const IconMindData next = g.chevronRight;
   static const IconMindData chevronUp = g.chevronUp;
+  static const IconMindData chip = g.chip;
+  @Deprecated('use chip')
+  static const IconMindData filterChip = g.chip;
+  static const IconMindData chipAdd = g.chipAdd;
+  static const IconMindData chipRemove = g.chipRemove;
   static const IconMindData chunk = g.chunk;
   static const IconMindData chunkAdd = g.chunkAdd;
   static const IconMindData chunkOverlap = g.chunkOverlap;
@@ -360,6 +368,11 @@ abstract final class IconMindIcons {
   static const IconMindData compile = g.compile;
   static const IconMindData compliance = g.compliance;
   static const IconMindData complianceReport = g.complianceReport;
+  static const IconMindData composer = g.composer;
+  @Deprecated('use composer')
+  static const IconMindData messageInput = g.composer;
+  static const IconMindData composerAttach = g.composerAttach;
+  static const IconMindData composerExpand = g.composerExpand;
   static const IconMindData compute = g.compute;
   static const IconMindData computerUse = g.computerUse;
   static const IconMindData condition = g.condition;
@@ -1375,6 +1388,9 @@ abstract final class IconMindIcons {
   static const IconMindData secretVault = g.secretVault;
   static const IconMindData segment = g.segment;
   static const IconMindData segmentation = g.segmentation;
+  static const IconMindData segmented = g.segmented;
+  @Deprecated('use segmented')
+  static const IconMindData segmentedControl = g.segmented;
   static const IconMindData selfConsistency = g.selfConsistency;
   static const IconMindData selfCorrect = g.selfCorrect;
   static const IconMindData semantic = g.semantic;
@@ -1426,6 +1442,7 @@ abstract final class IconMindIcons {
   static const IconMindData skipBack = g.skipBack;
   static const IconMindData skipForward = g.skipForward;
   static const IconMindData sla = g.sla;
+  static const IconMindData slashCommand = g.slashCommand;
   static const IconMindData sli = g.sli;
   static const IconMindData slo = g.slo;
   static const IconMindData smallLanguageModel = g.smallLanguageModel;
@@ -1526,6 +1543,9 @@ abstract final class IconMindIcons {
   static const IconMindData testUnit = g.testUnit;
   @Deprecated('use testUnit')
   static const IconMindData testing = g.testUnit;
+  static const IconMindData textCursor = g.textCursor;
+  @Deprecated('use textCursor')
+  static const IconMindData ibeam = g.textCursor;
   static const IconMindData textToSpeech = g.textToSpeech;
   @Deprecated('use textToSpeech')
   static const IconMindData tts = g.textToSpeech;

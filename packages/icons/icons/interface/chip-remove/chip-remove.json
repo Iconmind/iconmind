@@ -1,0 +1,36 @@
+{
+  "slug": "chip-remove",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Chip remove",
+  "description": "Taken back out of the set",
+  "tags": [
+    "dismiss",
+    "clear",
+    "x"
+  ],
+  "keywords": [
+    "remove filter",
+    "clear tag",
+    "dismiss chip"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 12A4 4 0 0 1 7 8H17A4 4 0 0 1 21 12V12A4 4 0 0 1 17 16H7A4 4 0 0 1 3 12Z",
+      "closed": true
+    },
+    {
+      "d": "M6.5 12H11",
+      "closed": false
+    },
+    {
+      "d": "M14.5 10.5L17.5 13.5",
+      "closed": false
+    },
+    {
+      "d": "M17.5 10.5L14.5 13.5",
+      "closed": false
+    }
+  ]
+}

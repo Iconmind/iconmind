@@ -1,0 +1,36 @@
+{
+  "slug": "at-mention",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "At mention",
+  "description": "Say a name and they hear it",
+  "tags": [
+    "mention",
+    "notify",
+    "name"
+  ],
+  "aliases": [
+    "mention"
+  ],
+  "keywords": [
+    "@",
+    "mention someone",
+    "ping",
+    "tag a person"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 12.5a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14.5 9V16",
+      "closed": false
+    },
+    {
+      "d": "M20.16 15.8A9 9 0 1 1 20.16 8.2",
+      "closed": false
+    }
+  ]
+}

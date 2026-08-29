@@ -1,0 +1,36 @@
+{
+  "slug": "chip",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Chip",
+  "description": "A small labelled thing you can pick",
+  "tags": [
+    "pill",
+    "filter",
+    "token"
+  ],
+  "aliases": [
+    "filter-chip"
+  ],
+  "keywords": [
+    "chip",
+    "pill",
+    "filter token",
+    "selected value"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 12A4 4 0 0 1 7 8H17A4 4 0 0 1 21 12V12A4 4 0 0 1 17 16H7A4 4 0 0 1 3 12Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12H17",
+      "closed": false
+    }
+  ]
+}
