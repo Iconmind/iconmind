@@ -2,5 +2,25 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": "cd ../.. && pnpm icons:generate && pnpm --filter web run build",
   "outputDirectory": "out",
-  "trailingSlash": true
+  "trailingSlash": true,
+  "headers": [
+    {
+      "source": "/opengraph-image",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "image/png"
+        }
+      ]
+    },
+    {
+      "source": "/opengraph-image/",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "image/png"
+        }
+      ]
+    }
+  ]
 }
