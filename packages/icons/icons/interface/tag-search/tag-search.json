@@ -1,0 +1,32 @@
+{
+  "slug": "tag-search",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Tag search",
+  "description": "A label beside a magnifying glass — search by tag",
+  "tags": [
+    "tag",
+    "search",
+    "label"
+  ],
+  "keywords": [
+    "tag search",
+    "search by label",
+    "find tag"
+  ],
+  "family": "tag",
+  "shapes": [
+    {
+      "d": "M3 6L8 6L12 10L8 14L3 14Z",
+      "closed": true
+    },
+    {
+      "d": "M15 10a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 12.5L14 14.5",
+      "closed": false
+    }
+  ]
+}

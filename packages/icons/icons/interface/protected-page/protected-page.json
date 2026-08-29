@@ -1,0 +1,32 @@
+{
+  "slug": "protected-page",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Protected page",
+  "description": "A window with a shield inside — a page behind protection",
+  "tags": [
+    "protected",
+    "page",
+    "shield"
+  ],
+  "keywords": [
+    "protected page",
+    "guarded route",
+    "secure page"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 4.5A2 2 0 0 1 5 2.5H19A2 2 0 0 1 21 4.5V19.5A2 2 0 0 1 19 21.5H5A2 2 0 0 1 3 19.5Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M8 10L16 10L16 14L12 18L8 14Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "place-search",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "Place search",
+  "description": "A location pin beside a magnifying glass — search for a place",
+  "tags": [
+    "place",
+    "search",
+    "map"
+  ],
+  "keywords": [
+    "place search",
+    "find a location",
+    "search nearby"
+  ],
+  "family": "pin",
+  "shapes": [
+    {
+      "d": "M4 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V17",
+      "closed": false
+    },
+    {
+      "d": "M13 10a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M20 13L22 15",
+      "closed": false
+    }
+  ]
+}

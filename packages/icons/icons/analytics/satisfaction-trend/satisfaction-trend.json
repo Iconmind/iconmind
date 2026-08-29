@@ -1,0 +1,29 @@
+{
+  "slug": "satisfaction-trend",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Satisfaction trend",
+  "description": "A heart beside a rising line — how satisfied people are over time",
+  "tags": [
+    "satisfaction",
+    "trend",
+    "csat"
+  ],
+  "keywords": [
+    "satisfaction trend",
+    "csat over time",
+    "nps trend"
+  ],
+  "family": "heart",
+  "shapes": [
+    {
+      "d": "M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
+    },
+    {
+      "d": "M13 19L16 16L18 18L22 14",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "event-search",
+  "category": "automation",
+  "subcategory": "trigger",
+  "name": "Event search",
+  "description": "A lightning bolt beside a magnifying glass — search the event stream",
+  "tags": [
+    "event",
+    "search",
+    "log"
+  ],
+  "keywords": [
+    "event search",
+    "search events",
+    "find trigger"
+  ],
+  "family": "bolt",
+  "shapes": [
+    {
+      "d": "M10 6L5 11L9 11L4 16",
+      "closed": false
+    },
+    {
+      "d": "M13 10a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M20 13L22 15",
+      "closed": false
+    }
+  ]
+}

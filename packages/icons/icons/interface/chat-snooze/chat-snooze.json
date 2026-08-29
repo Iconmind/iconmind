@@ -1,0 +1,32 @@
+{
+  "slug": "chat-snooze",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Chat snooze",
+  "description": "A speech bubble with a Z inside — a conversation snoozed until later",
+  "tags": [
+    "snooze",
+    "later",
+    "chat"
+  ],
+  "keywords": [
+    "snooze conversation",
+    "mute until later",
+    "chat snooze"
+  ],
+  "family": "bubble",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V16A2 2 0 0 1 19 18H5A2 2 0 0 1 3 16Z",
+      "closed": true
+    },
+    {
+      "d": "M7 18L7 21L10 18",
+      "closed": false
+    },
+    {
+      "d": "M9 8L15 8L9 14L15 14",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "threat-hunt",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Threat hunt",
+  "description": "A shield beside a magnifying glass — searching for threats before they strike",
+  "tags": [
+    "threat",
+    "hunt",
+    "search"
+  ],
+  "keywords": [
+    "threat hunting",
+    "security search",
+    "proactive detection"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M3 5L11 5L11 11L7 15L3 11Z",
+      "closed": true
+    },
+    {
+      "d": "M14 10a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
+      "closed": true
+    },
+    {
+      "d": "M20 12.5L22 14.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "revenue-goal",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Revenue goal",
+  "description": "A coin beside a target — the revenue figure a team is aiming for",
+  "tags": [
+    "revenue",
+    "goal",
+    "target"
+  ],
+  "keywords": [
+    "revenue goal",
+    "sales target",
+    "arr target"
+  ],
+  "family": "coin",
+  "shapes": [
+    {
+      "d": "M2 12a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M14 13a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "scheduled-run",
+  "category": "automation",
+  "subcategory": "schedule",
+  "name": "Scheduled run",
+  "description": "A clock beside a play button — a run that starts on a schedule",
+  "tags": [
+    "schedule",
+    "run",
+    "cron"
+  ],
+  "keywords": [
+    "scheduled run",
+    "cron job",
+    "timed execution"
+  ],
+  "family": "clock",
+  "shapes": [
+    {
+      "d": "M2 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 9L7.5 12L10 12",
+      "closed": false
+    },
+    {
+      "d": "M16 8L16 16L20 12Z",
+      "closed": true
+    }
+  ]
+}

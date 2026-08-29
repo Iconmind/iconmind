@@ -1,0 +1,32 @@
+{
+  "slug": "pin-model",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Pin model",
+  "description": "A model core beside a pin — pin a deployment to one exact model version",
+  "tags": [
+    "pin",
+    "version",
+    "freeze"
+  ],
+  "keywords": [
+    "pin model version",
+    "model pinning",
+    "fixed model"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M7 8L11 12L7 16L3 12Z",
+      "closed": true
+    },
+    {
+      "d": "M15 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 13V17",
+      "closed": false
+    }
+  ]
+}

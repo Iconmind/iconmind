@@ -1,0 +1,40 @@
+{
+  "slug": "key-alert",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Key alert",
+  "description": "A key beside an alert mark — a credential that needs attention",
+  "tags": [
+    "alert",
+    "key",
+    "leak"
+  ],
+  "keywords": [
+    "key alert",
+    "leaked credential",
+    "key warning"
+  ],
+  "family": "key",
+  "shapes": [
+    {
+      "d": "M3 9a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V21",
+      "closed": false
+    },
+    {
+      "d": "M7 18H10",
+      "closed": false
+    },
+    {
+      "d": "M18 7V12",
+      "closed": false
+    },
+    {
+      "d": "M17 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

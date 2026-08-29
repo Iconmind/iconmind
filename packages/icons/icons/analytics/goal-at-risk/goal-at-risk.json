@@ -1,0 +1,36 @@
+{
+  "slug": "goal-at-risk",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Goal at risk",
+  "description": "A target with an alert mark beside it — a goal unlikely to be met",
+  "tags": [
+    "goal",
+    "risk",
+    "alert"
+  ],
+  "keywords": [
+    "goal at risk",
+    "off track",
+    "objective warning"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M3 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 7V12",
+      "closed": false
+    },
+    {
+      "d": "M17 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

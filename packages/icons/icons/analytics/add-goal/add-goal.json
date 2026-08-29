@@ -1,0 +1,36 @@
+{
+  "slug": "add-goal",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Add goal",
+  "description": "A target with a plus beside it — set a new goal",
+  "tags": [
+    "goal",
+    "add",
+    "new"
+  ],
+  "keywords": [
+    "add goal",
+    "new objective",
+    "set a target"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M3 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 12H22",
+      "closed": false
+    },
+    {
+      "d": "M19 9V15",
+      "closed": false
+    }
+  ]
+}

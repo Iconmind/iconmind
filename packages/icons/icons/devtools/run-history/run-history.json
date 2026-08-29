@@ -1,0 +1,36 @@
+{
+  "slug": "run-history",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Run history",
+  "description": "A play button beside a list — every run so far",
+  "tags": [
+    "run",
+    "history",
+    "list"
+  ],
+  "keywords": [
+    "run history",
+    "past runs",
+    "job history"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M3 5L3 19L10 12Z",
+      "closed": true
+    },
+    {
+      "d": "M14 8H22",
+      "closed": false
+    },
+    {
+      "d": "M14 12H22",
+      "closed": false
+    },
+    {
+      "d": "M14 16H22",
+      "closed": false
+    }
+  ]
+}

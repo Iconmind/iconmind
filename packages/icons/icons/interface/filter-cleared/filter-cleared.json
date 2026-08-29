@@ -1,0 +1,32 @@
+{
+  "slug": "filter-cleared",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Filter cleared",
+  "description": "A funnel with an X beside it — all filters removed",
+  "tags": [
+    "filter",
+    "clear",
+    "reset"
+  ],
+  "keywords": [
+    "clear filters",
+    "reset filter",
+    "remove filter"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M3 5L14 5L10 9L10 17L7 17L7 9Z",
+      "closed": true
+    },
+    {
+      "d": "M16.5 9.5L21.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M21.5 9.5L16.5 14.5",
+      "closed": false
+    }
+  ]
+}

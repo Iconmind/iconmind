@@ -1,0 +1,28 @@
+{
+  "slug": "filter-applied",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Filter applied",
+  "description": "A funnel with a check beside it — a filter that is in effect",
+  "tags": [
+    "filter",
+    "applied",
+    "active"
+  ],
+  "keywords": [
+    "filter applied",
+    "active filter",
+    "filter on"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M3 5L14 5L10 9L10 17L7 17L7 9Z",
+      "closed": true
+    },
+    {
+      "d": "M16 13L18.5 15.5L22 12",
+      "closed": false
+    }
+  ]
+}

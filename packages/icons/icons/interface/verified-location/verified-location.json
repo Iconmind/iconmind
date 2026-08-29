@@ -1,0 +1,32 @@
+{
+  "slug": "verified-location",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "Verified location",
+  "description": "A location pin with a check beside it — a place that has been verified",
+  "tags": [
+    "location",
+    "verified",
+    "pin"
+  ],
+  "keywords": [
+    "verified location",
+    "confirmed place",
+    "location check"
+  ],
+  "family": "pin",
+  "shapes": [
+    {
+      "d": "M4 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V17",
+      "closed": false
+    },
+    {
+      "d": "M15 13L17.5 15.5L22 11",
+      "closed": false
+    }
+  ]
+}

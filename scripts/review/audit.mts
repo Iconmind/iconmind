@@ -109,6 +109,8 @@ function inkStats(svg: string, size: number) {
 }
 
 const all = process.argv.includes("--all");
+// Scoped mode: pass slugs (or category/slug) to audit only those — a full run renders every icon.
+const only = new Set(process.argv.slice(2).filter((x) => !x.startsWith("--")));
 const flags: string[] = [];
 let count = 0;
 
@@ -116,6 +118,7 @@ for (const cat of readdirSync(ROOT)) {
   const d = join(ROOT, cat);
   if (!statSync(d).isDirectory()) continue;
   for (const slug of readdirSync(d)) {
+    if (only.size && !only.has(slug) && !only.has(cat + "/" + slug)) continue;
     const dir = join(d, slug);
     if (!statSync(dir).isDirectory()) continue;
     const id = `${cat}/${slug}`;

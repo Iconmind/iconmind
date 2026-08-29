@@ -1,0 +1,28 @@
+{
+  "slug": "security-trend",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Security trend",
+  "description": "A shield beside a rising line — how the security posture is trending",
+  "tags": [
+    "posture",
+    "trend",
+    "risk"
+  ],
+  "keywords": [
+    "security trend",
+    "posture over time",
+    "risk trend"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M3 5L12 5L12 11L7.5 15.5L3 11Z",
+      "closed": true
+    },
+    {
+      "d": "M15 19L17.5 16.5L19.5 18.5L22 16",
+      "closed": false
+    }
+  ]
+}

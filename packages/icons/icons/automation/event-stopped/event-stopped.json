@@ -1,0 +1,28 @@
+{
+  "slug": "event-stopped",
+  "category": "automation",
+  "subcategory": "condition",
+  "name": "Event stopped",
+  "description": "A lightning bolt beside a stop square — an event stopped from propagating",
+  "tags": [
+    "event",
+    "stop",
+    "propagation"
+  ],
+  "keywords": [
+    "stop propagation",
+    "event stopped",
+    "halt trigger"
+  ],
+  "family": "bolt",
+  "shapes": [
+    {
+      "d": "M10 6L5 11L9 11L4 16",
+      "closed": false
+    },
+    {
+      "d": "M15 9L21 9L21 15L15 15Z",
+      "closed": true
+    }
+  ]
+}

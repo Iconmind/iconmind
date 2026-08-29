@@ -1,0 +1,28 @@
+{
+  "slug": "filter-by-label",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Filter by label",
+  "description": "A funnel beside a label — narrow the list to one tag",
+  "tags": [
+    "filter",
+    "label",
+    "tag"
+  ],
+  "keywords": [
+    "filter by tag",
+    "filter by label",
+    "tag filter"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M3 5L14 5L10 9L10 17L7 17L7 9Z",
+      "closed": true
+    },
+    {
+      "d": "M15 13L20 13L22 15L20 17L15 17Z",
+      "closed": true
+    }
+  ]
+}

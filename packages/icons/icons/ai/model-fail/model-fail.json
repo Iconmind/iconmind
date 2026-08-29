@@ -1,0 +1,32 @@
+{
+  "slug": "model-fail",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Model fail",
+  "description": "A model core beside an X — a model call that failed",
+  "tags": [
+    "fail",
+    "error",
+    "model"
+  ],
+  "keywords": [
+    "model failure",
+    "inference error",
+    "model call failed"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M7 8L11 12L7 16L3 12Z",
+      "closed": true
+    },
+    {
+      "d": "M16 9.5L21 14.5",
+      "closed": false
+    },
+    {
+      "d": "M21 9.5L16 14.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "time-filter",
+  "category": "interface",
+  "subcategory": "time",
+  "name": "Time filter",
+  "description": "A clock beside a funnel — filter results to a window of time",
+  "tags": [
+    "filter",
+    "time",
+    "range"
+  ],
+  "keywords": [
+    "time filter",
+    "date range filter",
+    "filter by time"
+  ],
+  "family": "clock",
+  "shapes": [
+    {
+      "d": "M2 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 9L7.5 12L10 12",
+      "closed": false
+    },
+    {
+      "d": "M15 9L22 9L20 11L20 19L17 19L17 11Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "no-results",
+  "category": "interface",
+  "subcategory": "state",
+  "name": "No results",
+  "description": "A magnifying glass with an X beside it — a search that found nothing",
+  "tags": [
+    "search",
+    "empty",
+    "none"
+  ],
+  "keywords": [
+    "no results",
+    "nothing found",
+    "empty search"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M4 10a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 13.5L2.5 16.5",
+      "closed": false
+    },
+    {
+      "d": "M17 12L22 17",
+      "closed": false
+    },
+    {
+      "d": "M22 12L17 17",
+      "closed": false
+    }
+  ]
+}

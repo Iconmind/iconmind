@@ -1,0 +1,36 @@
+{
+  "slug": "location-alert",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "Location alert",
+  "description": "A location pin beside an alert mark — something to know about this place",
+  "tags": [
+    "location",
+    "alert",
+    "warning"
+  ],
+  "keywords": [
+    "location alert",
+    "place warning",
+    "geo alert"
+  ],
+  "family": "pin",
+  "shapes": [
+    {
+      "d": "M3 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 11V17",
+      "closed": false
+    },
+    {
+      "d": "M18 6V13",
+      "closed": false
+    },
+    {
+      "d": "M17 16a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

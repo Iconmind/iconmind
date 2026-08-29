@@ -1,0 +1,32 @@
+{
+  "slug": "time-lock",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Time lock",
+  "description": "A clock beside a shield — access that only opens during a window",
+  "tags": [
+    "time",
+    "access",
+    "window"
+  ],
+  "keywords": [
+    "time-locked access",
+    "time-bound permission",
+    "access window"
+  ],
+  "family": "clock",
+  "shapes": [
+    {
+      "d": "M2 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 9L7.5 12L10 12",
+      "closed": false
+    },
+    {
+      "d": "M16 9L22 9L22 14.5L19 17.5L16 14.5Z",
+      "closed": true
+    }
+  ]
+}

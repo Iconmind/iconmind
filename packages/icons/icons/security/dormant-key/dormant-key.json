@@ -1,0 +1,36 @@
+{
+  "slug": "dormant-key",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Dormant key",
+  "description": "A key beside a Z — a credential that has not been used in a long time",
+  "tags": [
+    "dormant",
+    "unused",
+    "key"
+  ],
+  "keywords": [
+    "dormant key",
+    "unused credential",
+    "stale key"
+  ],
+  "family": "key",
+  "shapes": [
+    {
+      "d": "M3 9a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V21",
+      "closed": false
+    },
+    {
+      "d": "M7 18H10",
+      "closed": false
+    },
+    {
+      "d": "M15 9.5L20 9.5L15 14.5L20 14.5",
+      "closed": false
+    }
+  ]
+}

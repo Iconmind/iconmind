@@ -1,0 +1,40 @@
+{
+  "slug": "agenda",
+  "category": "interface",
+  "subcategory": "time",
+  "name": "Agenda",
+  "description": "A clock beside a list — the agenda for the day",
+  "tags": [
+    "agenda",
+    "schedule",
+    "list"
+  ],
+  "keywords": [
+    "agenda",
+    "daily schedule",
+    "upcoming"
+  ],
+  "family": "clock",
+  "shapes": [
+    {
+      "d": "M2 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 9L7.5 12L10 12",
+      "closed": false
+    },
+    {
+      "d": "M16 8H22",
+      "closed": false
+    },
+    {
+      "d": "M16 12H22",
+      "closed": false
+    },
+    {
+      "d": "M16 16H22",
+      "closed": false
+    }
+  ]
+}

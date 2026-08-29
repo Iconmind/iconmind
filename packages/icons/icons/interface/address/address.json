@@ -1,0 +1,40 @@
+{
+  "slug": "address",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "Address",
+  "description": "A location pin beside lines of text — a postal address",
+  "tags": [
+    "address",
+    "location",
+    "text"
+  ],
+  "keywords": [
+    "address",
+    "postal address",
+    "location details"
+  ],
+  "family": "pin",
+  "shapes": [
+    {
+      "d": "M4 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V17",
+      "closed": false
+    },
+    {
+      "d": "M13 8H22",
+      "closed": false
+    },
+    {
+      "d": "M13 12H22",
+      "closed": false
+    },
+    {
+      "d": "M13 16H22",
+      "closed": false
+    }
+  ]
+}

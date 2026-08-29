@@ -1,0 +1,36 @@
+{
+  "slug": "local-pricing",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Local pricing",
+  "description": "A location pin beside a coin — prices that depend on where you are",
+  "tags": [
+    "pricing",
+    "local",
+    "region"
+  ],
+  "keywords": [
+    "local pricing",
+    "regional price",
+    "purchasing power parity"
+  ],
+  "family": "pin",
+  "shapes": [
+    {
+      "d": "M4 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V17",
+      "closed": false
+    },
+    {
+      "d": "M13 12a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17.5 10.5V13.5",
+      "closed": false
+    }
+  ]
+}

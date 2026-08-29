@@ -1,0 +1,36 @@
+{
+  "slug": "milestone-goal",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Milestone goal",
+  "description": "A flag beside a target — the goal a milestone stands for",
+  "tags": [
+    "milestone",
+    "goal",
+    "target"
+  ],
+  "keywords": [
+    "milestone goal",
+    "milestone target",
+    "project objective"
+  ],
+  "family": "flag",
+  "shapes": [
+    {
+      "d": "M4 3V21",
+      "closed": false
+    },
+    {
+      "d": "M4 3L13 3L10 6L13 9L4 9",
+      "closed": false
+    },
+    {
+      "d": "M14 14a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

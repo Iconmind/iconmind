@@ -1,0 +1,32 @@
+{
+  "slug": "read-later",
+  "category": "interface",
+  "subcategory": "time",
+  "name": "Read later",
+  "description": "A clock beside a bookmark — saved to read when there is time",
+  "tags": [
+    "later",
+    "bookmark",
+    "save"
+  ],
+  "keywords": [
+    "read later",
+    "save for later",
+    "reading queue"
+  ],
+  "family": "clock",
+  "shapes": [
+    {
+      "d": "M2 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 9L7.5 12L10 12",
+      "closed": false
+    },
+    {
+      "d": "M15 7L22 7L22 17L18.5 13.5L15 17Z",
+      "closed": true
+    }
+  ]
+}
