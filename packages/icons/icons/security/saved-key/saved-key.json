@@ -1,0 +1,36 @@
+{
+  "slug": "saved-key",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Saved key",
+  "description": "A key beside a bookmark — a credential kept for reuse",
+  "tags": [
+    "key",
+    "saved",
+    "reuse"
+  ],
+  "keywords": [
+    "saved key",
+    "stored credential",
+    "remembered key"
+  ],
+  "family": "key",
+  "shapes": [
+    {
+      "d": "M3 9a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V21",
+      "closed": false
+    },
+    {
+      "d": "M7 18H10",
+      "closed": false
+    },
+    {
+      "d": "M14 7L21 7L21 17L17.5 13.5L14 17Z",
+      "closed": true
+    }
+  ]
+}

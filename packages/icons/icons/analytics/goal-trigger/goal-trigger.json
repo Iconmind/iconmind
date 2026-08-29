@@ -1,0 +1,32 @@
+{
+  "slug": "goal-trigger",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Goal trigger",
+  "description": "A target beside a lightning bolt — an action fired when a goal is hit",
+  "tags": [
+    "goal",
+    "trigger",
+    "event"
+  ],
+  "keywords": [
+    "goal trigger",
+    "goal reached event",
+    "conversion event"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M3 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M21 7L17 11L20 11L16 15",
+      "closed": false
+    }
+  ]
+}

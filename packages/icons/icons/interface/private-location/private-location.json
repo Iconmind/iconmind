@@ -1,0 +1,36 @@
+{
+  "slug": "private-location",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "Private location",
+  "description": "A location pin beside a padlock — a place shared with no one",
+  "tags": [
+    "private",
+    "location",
+    "lock"
+  ],
+  "keywords": [
+    "private location",
+    "hidden place",
+    "location privacy"
+  ],
+  "family": "pin",
+  "shapes": [
+    {
+      "d": "M4 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V17",
+      "closed": false
+    },
+    {
+      "d": "M14 11A2 2 0 0 1 16 9H20A2 2 0 0 1 22 11V14.5A2 2 0 0 1 20 16.5H16A2 2 0 0 1 14 14.5Z",
+      "closed": true
+    },
+    {
+      "d": "M16 9A2 2 0 0 1 20 9",
+      "closed": false
+    }
+  ]
+}

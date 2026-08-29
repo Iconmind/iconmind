@@ -1,0 +1,32 @@
+{
+  "slug": "dormant-account",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Dormant account",
+  "description": "A coin beside a Z — an account that has gone quiet",
+  "tags": [
+    "dormant",
+    "inactive",
+    "account"
+  ],
+  "keywords": [
+    "dormant account",
+    "inactive billing",
+    "sleeping account"
+  ],
+  "family": "coin",
+  "shapes": [
+    {
+      "d": "M2 12a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M15 9.5L20 9.5L15 14.5L20 14.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "deadline-soon",
+  "category": "interface",
+  "subcategory": "time",
+  "name": "Deadline soon",
+  "description": "A clock beside a double chevron rising — a deadline closing in",
+  "tags": [
+    "deadline",
+    "soon",
+    "urgent"
+  ],
+  "keywords": [
+    "deadline soon",
+    "due soon",
+    "time running out"
+  ],
+  "family": "clock",
+  "shapes": [
+    {
+      "d": "M2 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 9L7.5 12L10 12",
+      "closed": false
+    },
+    {
+      "d": "M16 13L19 10L22 13",
+      "closed": false
+    },
+    {
+      "d": "M16 17.5L19 14.5L22 17.5",
+      "closed": false
+    }
+  ]
+}

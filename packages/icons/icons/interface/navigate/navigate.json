@@ -1,0 +1,32 @@
+{
+  "slug": "navigate",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "Navigate",
+  "description": "A location pin beside a play button — start navigating to a place",
+  "tags": [
+    "navigate",
+    "directions",
+    "go"
+  ],
+  "keywords": [
+    "navigate",
+    "start directions",
+    "go to place"
+  ],
+  "family": "pin",
+  "shapes": [
+    {
+      "d": "M4 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V17",
+      "closed": false
+    },
+    {
+      "d": "M15 8L15 16L19 12Z",
+      "closed": true
+    }
+  ]
+}

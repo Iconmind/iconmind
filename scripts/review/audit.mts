@@ -69,6 +69,7 @@ const ANCHORED = new Set([
   "ai/noise-schedule", // the schedule shrinks along the diagonal; the big dot leads by design
   "interface/resize-handle", // a corner grip lives in its corner by definition
   "analytics/trend-milestone", // the flag stands top-left and the trend climbs bottom-right by design
+  "devtools/run-alert", "devtools/run-trend", // a play button keeps its ink on its left edge; the mark beside it cannot balance that
   // A boom gate hinges on its post; a warm pool sits on the ground it is dug into.
   "devops/admission-control", "devops/prewarm-pool",
   // Bars stand on their baseline; a funnel hangs from its mouth; an axes chart
@@ -91,6 +92,7 @@ const ANCHORED = new Set([
   "ai/noise-schedule", // the schedule shrinks along the diagonal; the big dot leads by design
   "interface/resize-handle", // a corner grip lives in its corner by definition
   "analytics/trend-milestone", // the flag stands top-left and the trend climbs bottom-right by design
+  "devtools/run-alert", "devtools/run-trend", // a play button keeps its ink on its left edge; the mark beside it cannot balance that
 ]);
 
 function inkStats(svg: string, size: number) {

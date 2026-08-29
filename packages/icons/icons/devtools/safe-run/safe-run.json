@@ -1,0 +1,28 @@
+{
+  "slug": "safe-run",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Safe run",
+  "description": "A play button beside a shield — a run inside its guardrails",
+  "tags": [
+    "run",
+    "safe",
+    "shield"
+  ],
+  "keywords": [
+    "safe run",
+    "guarded execution",
+    "protected run"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M3 5L3 19L10 12Z",
+      "closed": true
+    },
+    {
+      "d": "M13 11L22 11L22 16.5L17.5 21L13 16.5Z",
+      "closed": true
+    }
+  ]
+}

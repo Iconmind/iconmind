@@ -1,0 +1,32 @@
+{
+  "slug": "payment-stopped",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Payment stopped",
+  "description": "A coin beside a stop square — payments halted",
+  "tags": [
+    "payment",
+    "stopped",
+    "halt"
+  ],
+  "keywords": [
+    "payment stopped",
+    "billing paused",
+    "stop payments"
+  ],
+  "family": "coin",
+  "shapes": [
+    {
+      "d": "M2 12a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M15 9L21 9L21 15L15 15Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "run-trend",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Run trend",
+  "description": "A play button beside a rising line — how runs are trending",
+  "tags": [
+    "run",
+    "trend",
+    "metrics"
+  ],
+  "keywords": [
+    "run trend",
+    "run duration trend",
+    "runs over time"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M3 5L3 19L10 12Z",
+      "closed": true
+    },
+    {
+      "d": "M13 19L16 16L18 18L22 14",
+      "closed": false
+    }
+  ]
+}

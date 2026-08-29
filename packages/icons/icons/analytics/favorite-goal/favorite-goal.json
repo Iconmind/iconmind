@@ -1,0 +1,33 @@
+{
+  "slug": "favorite-goal",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Favourite goal",
+  "description": "A target beside a heart — the goal that matters most",
+  "tags": [
+    "goal",
+    "favourite",
+    "heart"
+  ],
+  "keywords": [
+    "favourite goal",
+    "priority goal",
+    "north star goal"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M3 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 10A2 2 0 0 1 19 10A2 2 0 0 1 22 10L19 13Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
+    }
+  ]
+}

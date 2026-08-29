@@ -1,0 +1,32 @@
+{
+  "slug": "filter-alert",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Filter alert",
+  "description": "A funnel beside an alert mark — a filter that hides something important",
+  "tags": [
+    "filter",
+    "alert",
+    "warning"
+  ],
+  "keywords": [
+    "filter warning",
+    "hidden by filter",
+    "filter alert"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M3 5L14 5L10 9L10 17L7 17L7 9Z",
+      "closed": true
+    },
+    {
+      "d": "M18 7V12",
+      "closed": false
+    },
+    {
+      "d": "M17 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

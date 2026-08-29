@@ -1,0 +1,36 @@
+{
+  "slug": "key-event",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Key event",
+  "description": "A key beside a lightning bolt — a credential used, created or revoked",
+  "tags": [
+    "key",
+    "event",
+    "audit"
+  ],
+  "keywords": [
+    "key event",
+    "credential activity",
+    "key audit event"
+  ],
+  "family": "key",
+  "shapes": [
+    {
+      "d": "M3 9a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V21",
+      "closed": false
+    },
+    {
+      "d": "M7 18H10",
+      "closed": false
+    },
+    {
+      "d": "M21 7L17 11L20 11L16 15",
+      "closed": false
+    }
+  ]
+}

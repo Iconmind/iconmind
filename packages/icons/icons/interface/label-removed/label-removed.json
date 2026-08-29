@@ -1,0 +1,32 @@
+{
+  "slug": "label-removed",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Label removed",
+  "description": "A label with an X beside it — a tag taken off",
+  "tags": [
+    "label",
+    "removed",
+    "untag"
+  ],
+  "keywords": [
+    "remove label",
+    "untag",
+    "label removed"
+  ],
+  "family": "tag",
+  "shapes": [
+    {
+      "d": "M3 6L7 6L11 10L7 14L3 14Z",
+      "closed": true
+    },
+    {
+      "d": "M16 9.5L21 14.5",
+      "closed": false
+    },
+    {
+      "d": "M21 9.5L16 14.5",
+      "closed": false
+    }
+  ]
+}

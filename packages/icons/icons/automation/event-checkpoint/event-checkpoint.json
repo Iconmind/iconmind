@@ -1,0 +1,32 @@
+{
+  "slug": "event-checkpoint",
+  "category": "automation",
+  "subcategory": "action",
+  "name": "Event checkpoint",
+  "description": "A lightning bolt beside a flag — a checkpoint written when an event fires",
+  "tags": [
+    "event",
+    "checkpoint",
+    "flag"
+  ],
+  "keywords": [
+    "event checkpoint",
+    "checkpoint on trigger",
+    "event marker"
+  ],
+  "family": "bolt",
+  "shapes": [
+    {
+      "d": "M10 6L5 11L9 11L4 16",
+      "closed": false
+    },
+    {
+      "d": "M14 5V21",
+      "closed": false
+    },
+    {
+      "d": "M14 5L22 5L19 8L22 11L14 11",
+      "closed": false
+    }
+  ]
+}

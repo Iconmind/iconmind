@@ -1,0 +1,36 @@
+{
+  "slug": "price-increase",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Price increase",
+  "description": "A coin beside a double chevron rising — a price going up",
+  "tags": [
+    "price",
+    "increase",
+    "up"
+  ],
+  "keywords": [
+    "price increase",
+    "price hike",
+    "cost going up"
+  ],
+  "family": "coin",
+  "shapes": [
+    {
+      "d": "M2 12a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M15 13L18.5 9.5L22 13",
+      "closed": false
+    },
+    {
+      "d": "M15 17.5L18.5 14L22 17.5",
+      "closed": false
+    }
+  ]
+}

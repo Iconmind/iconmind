@@ -1,0 +1,32 @@
+{
+  "slug": "cost-filter",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Cost filter",
+  "description": "A coin beside a funnel — filter spending by service or tag",
+  "tags": [
+    "cost",
+    "filter",
+    "spend"
+  ],
+  "keywords": [
+    "cost filter",
+    "filter spending",
+    "spend by service"
+  ],
+  "family": "coin",
+  "shapes": [
+    {
+      "d": "M2 12a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M15 9L22 9L20 11L20 19L17 19L17 11Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "event-label",
+  "category": "automation",
+  "subcategory": "trigger",
+  "name": "Event label",
+  "description": "A lightning bolt beside a label — an event given a name",
+  "tags": [
+    "event",
+    "label",
+    "name"
+  ],
+  "keywords": [
+    "event label",
+    "named event",
+    "event type"
+  ],
+  "family": "bolt",
+  "shapes": [
+    {
+      "d": "M10 6L5 11L9 11L4 16",
+      "closed": false
+    },
+    {
+      "d": "M14 13L19 13L22 16L19 19L14 19Z",
+      "closed": true
+    }
+  ]
+}

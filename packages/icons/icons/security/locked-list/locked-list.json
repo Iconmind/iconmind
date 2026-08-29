@@ -1,0 +1,40 @@
+{
+  "slug": "locked-list",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Locked list",
+  "description": "A padlock beside a list — a list only some people may see or change",
+  "tags": [
+    "locked",
+    "list",
+    "restricted"
+  ],
+  "keywords": [
+    "locked list",
+    "restricted list",
+    "protected records"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M2 13A2 2 0 0 1 4 11H10A2 2 0 0 1 12 13V17A2 2 0 0 1 10 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M4 11A3 3 0 0 1 10 11",
+      "closed": false
+    },
+    {
+      "d": "M15 8H22",
+      "closed": false
+    },
+    {
+      "d": "M15 12H22",
+      "closed": false
+    },
+    {
+      "d": "M15 16H22",
+      "closed": false
+    }
+  ]
+}

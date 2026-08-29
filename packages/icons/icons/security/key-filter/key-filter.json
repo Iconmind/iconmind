@@ -1,0 +1,36 @@
+{
+  "slug": "key-filter",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Key filter",
+  "description": "A key beside a funnel — filter by which credential was used",
+  "tags": [
+    "key",
+    "filter",
+    "audit"
+  ],
+  "keywords": [
+    "filter by key",
+    "credential filter",
+    "key audit"
+  ],
+  "family": "key",
+  "shapes": [
+    {
+      "d": "M3 9a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V21",
+      "closed": false
+    },
+    {
+      "d": "M7 18H10",
+      "closed": false
+    },
+    {
+      "d": "M15 9L22 9L20 11L20 19L17 19L17 11Z",
+      "closed": true
+    }
+  ]
+}

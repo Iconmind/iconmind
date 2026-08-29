@@ -1,0 +1,28 @@
+{
+  "slug": "remove-filter",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Remove filter",
+  "description": "A funnel with a minus beside it — take one filter away",
+  "tags": [
+    "filter",
+    "remove",
+    "minus"
+  ],
+  "keywords": [
+    "remove filter",
+    "drop a filter",
+    "filter minus"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M3 5L14 5L10 9L10 17L7 17L7 9Z",
+      "closed": true
+    },
+    {
+      "d": "M16 12H22",
+      "closed": false
+    }
+  ]
+}

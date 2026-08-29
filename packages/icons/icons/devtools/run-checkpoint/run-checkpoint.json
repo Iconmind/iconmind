@@ -1,0 +1,32 @@
+{
+  "slug": "run-checkpoint",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Run checkpoint",
+  "description": "A play button beside a flag — a checkpoint inside a run",
+  "tags": [
+    "run",
+    "checkpoint",
+    "flag"
+  ],
+  "keywords": [
+    "run checkpoint",
+    "mid-run save",
+    "run milestone"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M3 5L3 19L10 12Z",
+      "closed": true
+    },
+    {
+      "d": "M14 5V21",
+      "closed": false
+    },
+    {
+      "d": "M14 5L22 5L19 8L22 11L14 11",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "time-label",
+  "category": "interface",
+  "subcategory": "time",
+  "name": "Time label",
+  "description": "A clock beside a label — a moment given a name",
+  "tags": [
+    "time",
+    "label",
+    "name"
+  ],
+  "keywords": [
+    "time label",
+    "named moment",
+    "timestamp label"
+  ],
+  "family": "clock",
+  "shapes": [
+    {
+      "d": "M2 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 9L7.5 12L10 12",
+      "closed": false
+    },
+    {
+      "d": "M16 13L20 13L22 15L20 17L16 17Z",
+      "closed": true
+    }
+  ]
+}

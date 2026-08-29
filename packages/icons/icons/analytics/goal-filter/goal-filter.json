@@ -1,0 +1,32 @@
+{
+  "slug": "goal-filter",
+  "category": "analytics",
+  "subcategory": "segment",
+  "name": "Goal filter",
+  "description": "A funnel beside a target — filter to the users who hit a goal",
+  "tags": [
+    "goal",
+    "filter",
+    "segment"
+  ],
+  "keywords": [
+    "goal filter",
+    "converted users",
+    "segment by goal"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M3 5L14 5L10 9L10 17L7 17L7 9Z",
+      "closed": true
+    },
+    {
+      "d": "M14 13a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "run-alert",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Run alert",
+  "description": "A play button beside an alert mark — a run that needs attention",
+  "tags": [
+    "run",
+    "alert",
+    "warning"
+  ],
+  "keywords": [
+    "run alert",
+    "run warning",
+    "attention needed"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M4 5L4 19L11 12Z",
+      "closed": true
+    },
+    {
+      "d": "M18 7V12",
+      "closed": false
+    },
+    {
+      "d": "M17 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

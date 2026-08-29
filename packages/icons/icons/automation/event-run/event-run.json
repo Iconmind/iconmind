@@ -1,0 +1,28 @@
+{
+  "slug": "event-run",
+  "category": "automation",
+  "subcategory": "action",
+  "name": "Event run",
+  "description": "A lightning bolt beside a play button — a run started by an event",
+  "tags": [
+    "event",
+    "run",
+    "start"
+  ],
+  "keywords": [
+    "event-triggered run",
+    "run on event",
+    "triggered job"
+  ],
+  "family": "bolt",
+  "shapes": [
+    {
+      "d": "M10 6L5 11L9 11L4 16",
+      "closed": false
+    },
+    {
+      "d": "M15 8L15 16L19 12Z",
+      "closed": true
+    }
+  ]
+}

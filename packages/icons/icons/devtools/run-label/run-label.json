@@ -1,0 +1,28 @@
+{
+  "slug": "run-label",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Run label",
+  "description": "A play button beside a label — a run with a name",
+  "tags": [
+    "run",
+    "label",
+    "name"
+  ],
+  "keywords": [
+    "run label",
+    "named run",
+    "run tag"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M3 5L3 19L10 12Z",
+      "closed": true
+    },
+    {
+      "d": "M14 13L19 13L22 16L19 19L14 19Z",
+      "closed": true
+    }
+  ]
+}

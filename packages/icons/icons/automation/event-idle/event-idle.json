@@ -1,0 +1,28 @@
+{
+  "slug": "event-idle",
+  "category": "automation",
+  "subcategory": "condition",
+  "name": "Event idle",
+  "description": "A lightning bolt beside a Z — a trigger that has not fired in a while",
+  "tags": [
+    "event",
+    "idle",
+    "quiet"
+  ],
+  "keywords": [
+    "idle trigger",
+    "quiet event",
+    "no recent events"
+  ],
+  "family": "bolt",
+  "shapes": [
+    {
+      "d": "M10 6L5 11L9 11L4 16",
+      "closed": false
+    },
+    {
+      "d": "M15 9.5L20 9.5L15 14.5L20 14.5",
+      "closed": false
+    }
+  ]
+}

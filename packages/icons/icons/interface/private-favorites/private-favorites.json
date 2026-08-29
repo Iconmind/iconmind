@@ -1,0 +1,33 @@
+{
+  "slug": "private-favorites",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "Private favourites",
+  "description": "A heart beside a padlock — favourites nobody else can see",
+  "tags": [
+    "favourites",
+    "private",
+    "lock"
+  ],
+  "keywords": [
+    "private favourites",
+    "hidden likes",
+    "favourites privacy"
+  ],
+  "family": "heart",
+  "shapes": [
+    {
+      "d": "M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
+    },
+    {
+      "d": "M14 11A2 2 0 0 1 16 9H20A2 2 0 0 1 22 11V14.5A2 2 0 0 1 20 16.5H16A2 2 0 0 1 14 14.5Z",
+      "closed": true
+    },
+    {
+      "d": "M16 9A2 2 0 0 1 20 9",
+      "closed": false
+    }
+  ]
+}

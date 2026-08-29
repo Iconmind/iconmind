@@ -1,0 +1,36 @@
+{
+  "slug": "add-checkpoint",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Add checkpoint",
+  "description": "A flag with a plus beside it — save a new checkpoint",
+  "tags": [
+    "checkpoint",
+    "add",
+    "save"
+  ],
+  "keywords": [
+    "add checkpoint",
+    "save checkpoint",
+    "new checkpoint"
+  ],
+  "family": "flag",
+  "shapes": [
+    {
+      "d": "M4 3V21",
+      "closed": false
+    },
+    {
+      "d": "M4 3L13 3L10 6L13 9L4 9",
+      "closed": false
+    },
+    {
+      "d": "M16 14H22",
+      "closed": false
+    },
+    {
+      "d": "M19 11V17",
+      "closed": false
+    }
+  ]
+}

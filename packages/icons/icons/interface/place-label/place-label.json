@@ -1,0 +1,32 @@
+{
+  "slug": "place-label",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "Place label",
+  "description": "A location pin beside a label — a place with a name of its own",
+  "tags": [
+    "place",
+    "label",
+    "name"
+  ],
+  "keywords": [
+    "place label",
+    "named location",
+    "custom place name"
+  ],
+  "family": "pin",
+  "shapes": [
+    {
+      "d": "M4 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V17",
+      "closed": false
+    },
+    {
+      "d": "M14 13L19 13L22 16L19 19L14 19Z",
+      "closed": true
+    }
+  ]
+}

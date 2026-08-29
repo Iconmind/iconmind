@@ -1,0 +1,36 @@
+{
+  "slug": "key-blocked",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Key blocked",
+  "description": "A key beside a stop square — a credential blocked from use",
+  "tags": [
+    "key",
+    "blocked",
+    "deny"
+  ],
+  "keywords": [
+    "blocked key",
+    "denied credential",
+    "key suspended"
+  ],
+  "family": "key",
+  "shapes": [
+    {
+      "d": "M3 9a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V21",
+      "closed": false
+    },
+    {
+      "d": "M7 18H10",
+      "closed": false
+    },
+    {
+      "d": "M15 9L21 9L21 15L15 15Z",
+      "closed": true
+    }
+  ]
+}

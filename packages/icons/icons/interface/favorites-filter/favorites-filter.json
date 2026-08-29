@@ -1,0 +1,29 @@
+{
+  "slug": "favorites-filter",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Favourites filter",
+  "description": "A funnel beside a heart — show only favourites",
+  "tags": [
+    "filter",
+    "favourites",
+    "heart"
+  ],
+  "keywords": [
+    "favourites only",
+    "filter favourites",
+    "show starred"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M3 5L14 5L10 9L10 17L7 17L7 9Z",
+      "closed": true
+    },
+    {
+      "d": "M16 10A2 2 0 0 1 19 10A2 2 0 0 1 22 10L19 13Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
+    }
+  ]
+}

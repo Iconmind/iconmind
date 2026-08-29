@@ -1,0 +1,32 @@
+{
+  "slug": "resume-checkpoint",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Resume checkpoint",
+  "description": "A flag beside a play button — resume training from a checkpoint",
+  "tags": [
+    "resume",
+    "checkpoint",
+    "training"
+  ],
+  "keywords": [
+    "resume from checkpoint",
+    "continue training",
+    "restart run"
+  ],
+  "family": "flag",
+  "shapes": [
+    {
+      "d": "M4 3V21",
+      "closed": false
+    },
+    {
+      "d": "M4 3L13 3L10 6L13 9L4 9",
+      "closed": false
+    },
+    {
+      "d": "M16 8L16 16L20 12Z",
+      "closed": true
+    }
+  ]
+}

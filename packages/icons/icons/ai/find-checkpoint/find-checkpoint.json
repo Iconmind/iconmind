@@ -1,0 +1,36 @@
+{
+  "slug": "find-checkpoint",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Find checkpoint",
+  "description": "A flag beside a magnifying glass — find the checkpoint you need",
+  "tags": [
+    "checkpoint",
+    "find",
+    "search"
+  ],
+  "keywords": [
+    "find checkpoint",
+    "search checkpoints",
+    "locate save"
+  ],
+  "family": "flag",
+  "shapes": [
+    {
+      "d": "M4 3V21",
+      "closed": false
+    },
+    {
+      "d": "M4 3L13 3L10 6L13 9L4 9",
+      "closed": false
+    },
+    {
+      "d": "M15 13.5a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 16L14 18",
+      "closed": false
+    }
+  ]
+}
