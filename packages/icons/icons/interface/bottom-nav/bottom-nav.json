@@ -1,0 +1,40 @@
+{
+  "slug": "bottom-nav",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Bottom navigation",
+  "description": "A screen with a bar of three destinations along its foot — mobile bottom navigation",
+  "tags": [
+    "navigation",
+    "tabs",
+    "mobile"
+  ],
+  "keywords": [
+    "bottom navigation",
+    "tab bar",
+    "mobile nav"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 13H21",
+      "closed": false
+    },
+    {
+      "d": "M6 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

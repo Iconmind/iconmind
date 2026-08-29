@@ -1,0 +1,44 @@
+{
+  "slug": "group-objects",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Group objects",
+  "description": "Two objects inside one set of selection corners — grouping layers so they move together",
+  "tags": [
+    "group",
+    "select",
+    "layers"
+  ],
+  "keywords": [
+    "group objects",
+    "group layers",
+    "grouped selection"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M2 10A2 2 0 0 1 4 8H8A2 2 0 0 1 10 10V14A2 2 0 0 1 8 16H4A2 2 0 0 1 2 14Z",
+      "closed": true
+    },
+    {
+      "d": "M14 10A2 2 0 0 1 16 8H20A2 2 0 0 1 22 10V14A2 2 0 0 1 20 16H16A2 2 0 0 1 14 14Z",
+      "closed": true
+    },
+    {
+      "d": "M2 4.5L2 2L4.5 2",
+      "closed": false
+    },
+    {
+      "d": "M19.5 2L22 2L22 4.5",
+      "closed": false
+    },
+    {
+      "d": "M2 19.5L2 22L4.5 22",
+      "closed": false
+    },
+    {
+      "d": "M19.5 22L22 22L22 19.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "mutant-kill",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Mutant kill",
+  "description": "A crossed-out mutant — a mutation the test suite caught and killed",
+  "tags": [
+    "mutation",
+    "test",
+    "kill"
+  ],
+  "keywords": [
+    "mutation testing",
+    "killed mutant",
+    "test strength"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M12 4L20 12L12 20L4 12Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 10.5L13.5 13.5",
+      "closed": false
+    },
+    {
+      "d": "M10.5 13.5L13.5 10.5",
+      "closed": false
+    }
+  ]
+}

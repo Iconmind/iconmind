@@ -1,0 +1,36 @@
+{
+  "slug": "desktop-agent",
+  "category": "agents",
+  "subcategory": "tool-use",
+  "name": "Desktop agent",
+  "description": "An agent inside a monitor on its stand — an agent that operates a desktop computer",
+  "tags": [
+    "desktop",
+    "computer-use",
+    "screen"
+  ],
+  "keywords": [
+    "desktop agent",
+    "computer use",
+    "screen automation"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V14A2 2 0 0 1 19 16H5A2 2 0 0 1 3 14Z",
+      "closed": true
+    },
+    {
+      "d": "M13.48 6.33A3.5 3.5 0 1 1 10.52 6.33",
+      "closed": false
+    },
+    {
+      "d": "M12 16V20",
+      "closed": false
+    },
+    {
+      "d": "M8 20H16",
+      "closed": false
+    }
+  ]
+}

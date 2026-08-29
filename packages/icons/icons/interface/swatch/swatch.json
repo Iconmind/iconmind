@@ -1,0 +1,36 @@
+{
+  "slug": "swatch",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Swatch",
+  "description": "A card with a colour block and its name beneath — a swatch from a palette",
+  "tags": [
+    "colour",
+    "palette",
+    "sample"
+  ],
+  "keywords": [
+    "colour swatch",
+    "palette sample",
+    "design token"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M4 4A2 2 0 0 1 6 2H18A2 2 0 0 1 20 4V20A2 2 0 0 1 18 22H6A2 2 0 0 1 4 20Z",
+      "closed": true
+    },
+    {
+      "d": "M7 7A2 2 0 0 1 9 5H15A2 2 0 0 1 17 7V10A2 2 0 0 1 15 12H9A2 2 0 0 1 7 10Z",
+      "closed": true
+    },
+    {
+      "d": "M7 15H17",
+      "closed": false
+    },
+    {
+      "d": "M7 18.5H14",
+      "closed": false
+    }
+  ]
+}

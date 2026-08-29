@@ -1,0 +1,32 @@
+{
+  "slug": "cascade",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Cascade",
+  "description": "Model cores stepping down a diagonal — a cascade that escalates from cheap models to strong ones",
+  "tags": [
+    "escalate",
+    "tiers",
+    "fallback"
+  ],
+  "keywords": [
+    "model cascade",
+    "tiered inference",
+    "escalation"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M5 2.5L7.5 5L5 7.5L2.5 5Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9.5L14.5 12L12 14.5L9.5 12Z",
+      "closed": true
+    },
+    {
+      "d": "M19 16.5L21.5 19L19 21.5L16.5 19Z",
+      "closed": true
+    }
+  ]
+}

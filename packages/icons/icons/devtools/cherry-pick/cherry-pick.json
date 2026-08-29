@@ -1,0 +1,40 @@
+{
+  "slug": "cherry-pick",
+  "category": "devtools",
+  "subcategory": "version-control",
+  "name": "Cherry-pick",
+  "description": "One commit lifted straight out of a row of commits — cherry-picking a single change",
+  "tags": [
+    "git",
+    "commit",
+    "pick"
+  ],
+  "keywords": [
+    "git cherry-pick",
+    "pick a commit",
+    "selective merge"
+  ],
+  "family": "node",
+  "shapes": [
+    {
+      "d": "M3 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 7V15",
+      "closed": false
+    }
+  ]
+}

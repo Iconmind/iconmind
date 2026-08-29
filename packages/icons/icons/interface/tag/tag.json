@@ -1,0 +1,28 @@
+{
+  "slug": "tag",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "Tag",
+  "description": "A label tag with a hole for its string — tagging and labelling items",
+  "tags": [
+    "label",
+    "tag",
+    "category"
+  ],
+  "keywords": [
+    "tag",
+    "label",
+    "price tag"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M3 6L13 6L21 14L13 22L3 22Z",
+      "closed": true
+    },
+    {
+      "d": "M6 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

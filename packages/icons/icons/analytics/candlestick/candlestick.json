@@ -1,0 +1,44 @@
+{
+  "slug": "candlestick",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Candlestick",
+  "description": "Two candles with their wicks — a candlestick chart of open, high, low and close",
+  "tags": [
+    "chart",
+    "finance",
+    "ohlc"
+  ],
+  "keywords": [
+    "candlestick chart",
+    "ohlc",
+    "price chart"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M5.5 3V8",
+      "closed": false
+    },
+    {
+      "d": "M2 10A2 2 0 0 1 4 8H7A2 2 0 0 1 9 10V14A2 2 0 0 1 7 16H4A2 2 0 0 1 2 14Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 16V21",
+      "closed": false
+    },
+    {
+      "d": "M16.5 2V5",
+      "closed": false
+    },
+    {
+      "d": "M13 7A2 2 0 0 1 15 5H18A2 2 0 0 1 20 7V13A2 2 0 0 1 18 15H15A2 2 0 0 1 13 13Z",
+      "closed": true
+    },
+    {
+      "d": "M16.5 15V20",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "negative-prompt",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Negative prompt",
+  "description": "A speech bubble holding a minus — the negative prompt that tells a model what to leave out",
+  "tags": [
+    "exclude",
+    "prompt",
+    "minus"
+  ],
+  "keywords": [
+    "negative prompt",
+    "exclude from generation",
+    "prompt constraint"
+  ],
+  "family": "bubble",
+  "shapes": [
+    {
+      "d": "M3 6A2 2 0 0 1 5 4H19A2 2 0 0 1 21 6V14A2 2 0 0 1 19 16H5A2 2 0 0 1 3 14Z",
+      "closed": true
+    },
+    {
+      "d": "M7 16L7 19L10 16",
+      "closed": false
+    },
+    {
+      "d": "M8 10H16",
+      "closed": false
+    }
+  ]
+}

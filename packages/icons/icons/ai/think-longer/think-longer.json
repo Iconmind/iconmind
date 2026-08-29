@@ -1,0 +1,36 @@
+{
+  "slug": "think-longer",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Think longer",
+  "description": "A clock with a plus beside it — give the model more thinking time before it answers",
+  "tags": [
+    "reasoning",
+    "time",
+    "budget"
+  ],
+  "keywords": [
+    "extended thinking",
+    "thinking budget",
+    "reasoning effort"
+  ],
+  "family": "clock",
+  "shapes": [
+    {
+      "d": "M3 12a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 9L9 12L11.5 12",
+      "closed": false
+    },
+    {
+      "d": "M18 12H22",
+      "closed": false
+    },
+    {
+      "d": "M20 10V14",
+      "closed": false
+    }
+  ]
+}

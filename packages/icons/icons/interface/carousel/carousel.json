@@ -1,0 +1,44 @@
+{
+  "slug": "carousel",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Carousel",
+  "description": "A slide between two chevrons with page dots beneath — a carousel of images or cards",
+  "tags": [
+    "slider",
+    "slides",
+    "gallery"
+  ],
+  "keywords": [
+    "carousel",
+    "image slider",
+    "slideshow"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M7 5A2 2 0 0 1 9 3H15A2 2 0 0 1 17 5V14A2 2 0 0 1 15 16H9A2 2 0 0 1 7 14Z",
+      "closed": true
+    },
+    {
+      "d": "M4 7L2 9L4 11",
+      "closed": false
+    },
+    {
+      "d": "M20 7L22 9L20 11",
+      "closed": false
+    },
+    {
+      "d": "M6 20a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 20a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 20a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

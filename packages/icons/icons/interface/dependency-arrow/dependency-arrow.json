@@ -1,0 +1,32 @@
+{
+  "slug": "dependency-arrow",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Dependency arrow",
+  "description": "An elbow connector from one task bar to the next — a dependency between items on a timeline",
+  "tags": [
+    "dependency",
+    "gantt",
+    "link"
+  ],
+  "keywords": [
+    "task dependency",
+    "gantt link",
+    "blocked by"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H9A2 2 0 0 1 11 5V5A2 2 0 0 1 9 7H4A2 2 0 0 1 2 5Z",
+      "closed": true
+    },
+    {
+      "d": "M6.5 7L6.5 12L17.5 12L17.5 17",
+      "closed": false
+    },
+    {
+      "d": "M13 19A2 2 0 0 1 15 17H20A2 2 0 0 1 22 19V19A2 2 0 0 1 20 21H15A2 2 0 0 1 13 19Z",
+      "closed": true
+    }
+  ]
+}

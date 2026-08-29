@@ -1,0 +1,32 @@
+{
+  "slug": "agent-email",
+  "category": "agents",
+  "subcategory": "tool-use",
+  "name": "Agent email",
+  "description": "An agent beside an envelope — an agent that reads and sends email",
+  "tags": [
+    "email",
+    "inbox",
+    "send"
+  ],
+  "keywords": [
+    "email agent",
+    "inbox agent",
+    "mail automation"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M12 14A2 2 0 0 1 14 12H20A2 2 0 0 1 22 14V19A2 2 0 0 1 20 21H14A2 2 0 0 1 12 19Z",
+      "closed": true
+    },
+    {
+      "d": "M14 12L17 15L20 12",
+      "closed": false
+    }
+  ]
+}

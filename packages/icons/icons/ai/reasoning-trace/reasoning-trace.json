@@ -1,0 +1,36 @@
+{
+  "slug": "reasoning-trace",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Reasoning trace",
+  "description": "Lines of thought stepping down and to the right — the visible trace of a model's reasoning",
+  "tags": [
+    "trace",
+    "steps",
+    "thought"
+  ],
+  "keywords": [
+    "reasoning trace",
+    "chain of thought",
+    "thinking steps"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 5H10",
+      "closed": false
+    },
+    {
+      "d": "M7 10H14",
+      "closed": false
+    },
+    {
+      "d": "M11 15H18",
+      "closed": false
+    },
+    {
+      "d": "M15 20H22",
+      "closed": false
+    }
+  ]
+}

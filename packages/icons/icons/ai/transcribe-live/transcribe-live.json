@@ -1,0 +1,32 @@
+{
+  "slug": "transcribe-live",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Live transcription",
+  "description": "Lines of text above a live waveform — speech transcribed as it is spoken",
+  "tags": [
+    "transcribe",
+    "realtime",
+    "speech"
+  ],
+  "keywords": [
+    "live transcription",
+    "real-time captions",
+    "streaming speech to text"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 5H21",
+      "closed": false
+    },
+    {
+      "d": "M3 10H21",
+      "closed": false
+    },
+    {
+      "d": "M3 17L7 17L9.5 14.5L12 17L14.5 14.5L17 17L21 17",
+      "closed": false
+    }
+  ]
+}

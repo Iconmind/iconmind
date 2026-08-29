@@ -1,0 +1,36 @@
+{
+  "slug": "cite-sources",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Cite sources",
+  "description": "Text with a superscript reference mark — an answer that cites where its claims came from",
+  "tags": [
+    "citation",
+    "reference",
+    "source"
+  ],
+  "keywords": [
+    "cite sources",
+    "citations",
+    "referenced answer"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 8H14",
+      "closed": false
+    },
+    {
+      "d": "M17 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 13H21",
+      "closed": false
+    },
+    {
+      "d": "M3 18H21",
+      "closed": false
+    }
+  ]
+}

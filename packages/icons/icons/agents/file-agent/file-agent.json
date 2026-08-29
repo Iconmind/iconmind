@@ -1,0 +1,28 @@
+{
+  "slug": "file-agent",
+  "category": "agents",
+  "subcategory": "tool-use",
+  "name": "File agent",
+  "description": "An agent beside a document — an agent that reads, writes and organises files",
+  "tags": [
+    "file",
+    "document",
+    "read"
+  ],
+  "keywords": [
+    "file agent",
+    "document agent",
+    "file operations"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M19 12L13 12L13 21L22 21L22 15",
+      "closed": false
+    }
+  ]
+}

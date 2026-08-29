@@ -1,0 +1,44 @@
+{
+  "slug": "tree-view",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Tree view",
+  "description": "A root with two children hanging from guide lines — a tree view of nested items",
+  "tags": [
+    "tree",
+    "nested",
+    "hierarchy"
+  ],
+  "keywords": [
+    "tree view",
+    "nested list",
+    "file tree"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M4 4H21",
+      "closed": false
+    },
+    {
+      "d": "M4 4V18",
+      "closed": false
+    },
+    {
+      "d": "M4 11H8",
+      "closed": false
+    },
+    {
+      "d": "M11 11H21",
+      "closed": false
+    },
+    {
+      "d": "M4 18H8",
+      "closed": false
+    },
+    {
+      "d": "M11 18H21",
+      "closed": false
+    }
+  ]
+}

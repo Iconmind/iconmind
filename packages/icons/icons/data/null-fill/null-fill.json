@@ -1,0 +1,40 @@
+{
+  "slug": "null-fill",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Null fill",
+  "description": "A dot filling the gap in a row — replacing missing values with a default",
+  "tags": [
+    "missing",
+    "impute",
+    "default"
+  ],
+  "keywords": [
+    "null fill",
+    "fill missing values",
+    "imputation"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 5H21",
+      "closed": false
+    },
+    {
+      "d": "M3 10H7",
+      "closed": false
+    },
+    {
+      "d": "M10 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 10H21",
+      "closed": false
+    },
+    {
+      "d": "M3 15H21",
+      "closed": false
+    }
+  ]
+}

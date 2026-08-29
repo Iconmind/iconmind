@@ -1,0 +1,28 @@
+{
+  "slug": "badge-count",
+  "category": "interface",
+  "subcategory": "state",
+  "name": "Badge count",
+  "description": "A card with a small badge at its corner — the unread count on an icon",
+  "tags": [
+    "badge",
+    "unread",
+    "notification"
+  ],
+  "keywords": [
+    "notification badge",
+    "unread count",
+    "badge indicator"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 9A2 2 0 0 1 4 7H12A2 2 0 0 1 14 9V18A2 2 0 0 1 12 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M17 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

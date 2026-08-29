@@ -1,0 +1,32 @@
+{
+  "slug": "outpaint",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Outpaint",
+  "description": "A picture with an open frame extending past its edge — outpainting beyond the original canvas",
+  "tags": [
+    "extend",
+    "canvas",
+    "generate"
+  ],
+  "keywords": [
+    "outpainting",
+    "extend image",
+    "generative expand"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 9A2 2 0 0 1 4 7H12A2 2 0 0 1 14 9V15A2 2 0 0 1 12 17H4A2 2 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M5 14L7.5 11.5L10 14",
+      "closed": false
+    },
+    {
+      "d": "M17 7L21 7L21 17L17 17",
+      "closed": false
+    }
+  ]
+}

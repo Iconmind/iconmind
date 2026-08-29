@@ -1,0 +1,44 @@
+{
+  "slug": "accordion",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Accordion",
+  "description": "Three headings with chevrons, one of them open — an accordion of collapsible sections",
+  "tags": [
+    "collapse",
+    "expand",
+    "sections"
+  ],
+  "keywords": [
+    "accordion",
+    "collapsible sections",
+    "expandable list"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 5H14",
+      "closed": false
+    },
+    {
+      "d": "M17 3.5L19 5.5L21 3.5",
+      "closed": false
+    },
+    {
+      "d": "M3 12H14",
+      "closed": false
+    },
+    {
+      "d": "M17 13.5L19 11.5L21 13.5",
+      "closed": false
+    },
+    {
+      "d": "M3 19H14",
+      "closed": false
+    },
+    {
+      "d": "M17 17.5L19 19.5L21 17.5",
+      "closed": false
+    }
+  ]
+}

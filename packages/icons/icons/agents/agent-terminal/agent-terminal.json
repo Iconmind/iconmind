@@ -1,0 +1,32 @@
+{
+  "slug": "agent-terminal",
+  "category": "agents",
+  "subcategory": "tool-use",
+  "name": "Agent terminal",
+  "description": "An agent beside a terminal prompt — an agent that runs shell commands",
+  "tags": [
+    "terminal",
+    "shell",
+    "command"
+  ],
+  "keywords": [
+    "terminal agent",
+    "shell agent",
+    "command line agent"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M11 13A2 2 0 0 1 13 11H20A2 2 0 0 1 22 13V20A2 2 0 0 1 20 22H13A2 2 0 0 1 11 20Z",
+      "closed": true
+    },
+    {
+      "d": "M14 14L16 16L14 18",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "agent-lock",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Agent lock",
+  "description": "An agent beside a padlock — an agent locked to its permissions and scope",
+  "tags": [
+    "lock",
+    "permission",
+    "scope"
+  ],
+  "keywords": [
+    "locked agent",
+    "agent permissions",
+    "scoped access"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M11 15A2 2 0 0 1 13 13H19A2 2 0 0 1 21 15V19A2 2 0 0 1 19 21H13A2 2 0 0 1 11 19Z",
+      "closed": true
+    },
+    {
+      "d": "M13 13A3 3 0 0 1 19 13",
+      "closed": false
+    }
+  ]
+}

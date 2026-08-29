@@ -1,0 +1,32 @@
+{
+  "slug": "web-navigator",
+  "category": "agents",
+  "subcategory": "tool-use",
+  "name": "Web navigator",
+  "description": "An agent inside a browser window — an agent that browses and navigates the web",
+  "tags": [
+    "browser",
+    "navigate",
+    "web"
+  ],
+  "keywords": [
+    "browser agent",
+    "web navigation",
+    "browsing agent"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H20A2 2 0 0 1 22 4V20A2 2 0 0 1 20 22H4A2 2 0 0 1 2 20Z",
+      "closed": true
+    },
+    {
+      "d": "M2 7H22",
+      "closed": false
+    },
+    {
+      "d": "M13.27 11.78A3 3 0 1 1 10.73 11.78",
+      "closed": false
+    }
+  ]
+}

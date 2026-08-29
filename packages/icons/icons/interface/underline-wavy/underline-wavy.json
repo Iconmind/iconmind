@@ -1,0 +1,32 @@
+{
+  "slug": "underline-wavy",
+  "category": "interface",
+  "subcategory": "state",
+  "name": "Wavy underline",
+  "description": "Text with a wavy line beneath it — the squiggle that marks a spelling or lint problem",
+  "tags": [
+    "squiggle",
+    "spellcheck",
+    "lint"
+  ],
+  "keywords": [
+    "wavy underline",
+    "spellcheck squiggle",
+    "error underline"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 4H21",
+      "closed": false
+    },
+    {
+      "d": "M3 9H21",
+      "closed": false
+    },
+    {
+      "d": "M3 16L5.5 13.5L8 16L10.5 13.5L13 16L15.5 13.5L18 16L20.5 13.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "volume-anomaly",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Volume anomaly",
+  "description": "One bar spiking far above its neighbours — a sudden anomaly in data volume",
+  "tags": [
+    "spike",
+    "volume",
+    "alert"
+  ],
+  "keywords": [
+    "volume anomaly",
+    "traffic spike",
+    "row count alert"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M4 14V19",
+      "closed": false
+    },
+    {
+      "d": "M8 11V19",
+      "closed": false
+    },
+    {
+      "d": "M12 3V19",
+      "closed": false
+    },
+    {
+      "d": "M16 12V19",
+      "closed": false
+    },
+    {
+      "d": "M20 15V19",
+      "closed": false
+    },
+    {
+      "d": "M2 19H22",
+      "closed": false
+    }
+  ]
+}

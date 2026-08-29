@@ -1,0 +1,40 @@
+{
+  "slug": "winsorize",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Winsorize",
+  "description": "A clip line cutting across the tallest bar — capping extreme values at a threshold",
+  "tags": [
+    "clip",
+    "outlier",
+    "cap"
+  ],
+  "keywords": [
+    "winsorize",
+    "clip outliers",
+    "cap values"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M6 11V18",
+      "closed": false
+    },
+    {
+      "d": "M12 6V18",
+      "closed": false
+    },
+    {
+      "d": "M18 12V18",
+      "closed": false
+    },
+    {
+      "d": "M3 8H21",
+      "closed": false
+    },
+    {
+      "d": "M3 18H21",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "pull-refresh",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Pull to refresh",
+  "description": "A double chevron above a list — pull the top of a feed down to refresh it",
+  "tags": [
+    "refresh",
+    "pull",
+    "gesture"
+  ],
+  "keywords": [
+    "pull to refresh",
+    "refresh gesture",
+    "reload feed"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M9.5 3L12 5.5L14.5 3",
+      "closed": false
+    },
+    {
+      "d": "M9.5 7.5L12 10L14.5 7.5",
+      "closed": false
+    },
+    {
+      "d": "M3 14H21",
+      "closed": false
+    },
+    {
+      "d": "M3 19H21",
+      "closed": false
+    }
+  ]
+}

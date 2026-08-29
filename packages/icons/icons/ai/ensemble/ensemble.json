@@ -1,0 +1,32 @@
+{
+  "slug": "ensemble",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Ensemble",
+  "description": "Three model cores arranged together — an ensemble whose answers are combined",
+  "tags": [
+    "combine",
+    "models",
+    "vote"
+  ],
+  "keywords": [
+    "model ensemble",
+    "ensemble learning",
+    "combined models"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M12 3L15 6L12 9L9 6Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13L10 16L7 19L4 16Z",
+      "closed": true
+    },
+    {
+      "d": "M17 13L20 16L17 19L14 16Z",
+      "closed": true
+    }
+  ]
+}

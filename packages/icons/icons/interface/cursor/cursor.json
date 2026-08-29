@@ -1,0 +1,24 @@
+{
+  "slug": "cursor",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Cursor",
+  "description": "The mouse pointer arrow — the cursor that clicks, drags and hovers",
+  "tags": [
+    "pointer",
+    "mouse",
+    "click"
+  ],
+  "keywords": [
+    "mouse cursor",
+    "pointer arrow",
+    "click"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M7 3L7 18.5L10 15.5L13.5 19L16 16.5L12.5 13L17 13Z",
+      "closed": true
+    }
+  ]
+}

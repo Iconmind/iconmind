@@ -1,0 +1,32 @@
+{
+  "slug": "agent-search",
+  "category": "agents",
+  "subcategory": "tool-use",
+  "name": "Agent search",
+  "description": "An agent with a magnifying glass — an agent that searches and researches on your behalf",
+  "tags": [
+    "search",
+    "research",
+    "find"
+  ],
+  "keywords": [
+    "research agent",
+    "search agent",
+    "deep research"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M11.5 15.5a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18.5 18.5L21.5 21.5",
+      "closed": false
+    }
+  ]
+}

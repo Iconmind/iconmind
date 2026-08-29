@@ -1,0 +1,32 @@
+{
+  "slug": "leash-long",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Long leash",
+  "description": "An agent on a long tether from its post — wide latitude to act before checking in",
+  "tags": [
+    "latitude",
+    "tether",
+    "autonomy"
+  ],
+  "keywords": [
+    "long leash",
+    "high autonomy",
+    "loose guardrails"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M7.69 8.37A4 4 0 1 1 4.31 8.37",
+      "closed": false
+    },
+    {
+      "d": "M10 12H20",
+      "closed": false
+    },
+    {
+      "d": "M20 5V19",
+      "closed": false
+    }
+  ]
+}

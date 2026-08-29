@@ -1,0 +1,32 @@
+{
+  "slug": "call-stack",
+  "category": "devtools",
+  "subcategory": "debug",
+  "name": "Call stack",
+  "description": "Frames stacked from widest to narrowest — the call stack a debugger walks",
+  "tags": [
+    "stack",
+    "frames",
+    "debug"
+  ],
+  "keywords": [
+    "call stack",
+    "stack frames",
+    "stack trace"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V5A2 2 0 0 1 19 7H5A2 2 0 0 1 3 5Z",
+      "closed": true
+    },
+    {
+      "d": "M3 12A2 2 0 0 1 5 10H15A2 2 0 0 1 17 12V12A2 2 0 0 1 15 14H5A2 2 0 0 1 3 12Z",
+      "closed": true
+    },
+    {
+      "d": "M3 19A2 2 0 0 1 5 17H11A2 2 0 0 1 13 19V19A2 2 0 0 1 11 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    }
+  ]
+}

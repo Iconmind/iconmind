@@ -1,0 +1,28 @@
+{
+  "slug": "latent",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Latent",
+  "description": "Two triangles meeting at a narrow waist — the compressed latent space between encoder and decoder",
+  "tags": [
+    "hidden",
+    "space",
+    "bottleneck"
+  ],
+  "keywords": [
+    "latent space",
+    "latent variable",
+    "hidden representation"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 4.5L10.5 12L3 19.5Z",
+      "closed": true
+    },
+    {
+      "d": "M21 4.5L13.5 12L21 19.5Z",
+      "closed": true
+    }
+  ]
+}

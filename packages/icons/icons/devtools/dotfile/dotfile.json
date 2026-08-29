@@ -1,0 +1,28 @@
+{
+  "slug": "dotfile",
+  "category": "devtools",
+  "subcategory": "package",
+  "name": "Dotfile",
+  "description": "A page with a single dot on it — the hidden dotfile that configures a tool",
+  "tags": [
+    "config",
+    "hidden",
+    "file"
+  ],
+  "keywords": [
+    "dotfile",
+    "hidden config",
+    "rc file"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M10 14a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

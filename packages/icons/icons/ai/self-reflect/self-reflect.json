@@ -1,0 +1,32 @@
+{
+  "slug": "self-reflect",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Self-reflect",
+  "description": "An agent above its own reflection — a model reviewing its answer before it commits",
+  "tags": [
+    "reflection",
+    "critique",
+    "review"
+  ],
+  "keywords": [
+    "self reflection",
+    "self critique",
+    "reflexion"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M13.69 2.37A4 4 0 1 1 10.31 2.37",
+      "closed": false
+    },
+    {
+      "d": "M5 13H19",
+      "closed": false
+    },
+    {
+      "d": "M10.73 21.72A3 3 0 1 1 13.27 21.72",
+      "closed": false
+    }
+  ]
+}

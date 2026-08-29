@@ -1,0 +1,32 @@
+{
+  "slug": "leash-short",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Short leash",
+  "description": "An agent tethered close to its post — tight limits on what it may do unsupervised",
+  "tags": [
+    "limit",
+    "tether",
+    "autonomy"
+  ],
+  "keywords": [
+    "short leash",
+    "restricted autonomy",
+    "tight guardrails"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M11.11 7.47A5 5 0 1 1 6.89 7.47",
+      "closed": false
+    },
+    {
+      "d": "M14 12H17",
+      "closed": false
+    },
+    {
+      "d": "M17 5V19",
+      "closed": false
+    }
+  ]
+}

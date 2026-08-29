@@ -1,0 +1,24 @@
+{
+  "slug": "z-order",
+  "category": "data",
+  "subcategory": "catalog",
+  "name": "Z-order",
+  "description": "A Z traced through the grid — z-order clustering that keeps nearby rows together",
+  "tags": [
+    "cluster",
+    "layout",
+    "locality"
+  ],
+  "keywords": [
+    "z-order",
+    "z-ordering",
+    "data clustering"
+  ],
+  "family": "glyph",
+  "shapes": [
+    {
+      "d": "M4 5L20 5L6 19L22 19",
+      "closed": false
+    }
+  ]
+}

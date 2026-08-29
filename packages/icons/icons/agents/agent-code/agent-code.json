@@ -1,0 +1,32 @@
+{
+  "slug": "agent-code",
+  "category": "agents",
+  "subcategory": "tool-use",
+  "name": "Agent code",
+  "description": "An agent beside a pair of angle brackets — a coding agent that writes and edits source",
+  "tags": [
+    "code",
+    "developer",
+    "write"
+  ],
+  "keywords": [
+    "coding agent",
+    "code generation agent",
+    "ai developer"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M14 13L11.5 15.5L14 18",
+      "closed": false
+    },
+    {
+      "d": "M19 13L21.5 15.5L19 18",
+      "closed": false
+    }
+  ]
+}

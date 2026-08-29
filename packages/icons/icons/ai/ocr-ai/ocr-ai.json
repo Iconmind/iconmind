@@ -1,0 +1,36 @@
+{
+  "slug": "ocr-ai",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "OCR",
+  "description": "A scan line sweeping across a page of text — optical character recognition that reads documents",
+  "tags": [
+    "scan",
+    "read",
+    "document"
+  ],
+  "keywords": [
+    "ocr",
+    "optical character recognition",
+    "document scanning"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 7H15",
+      "closed": false
+    },
+    {
+      "d": "M3 12H21",
+      "closed": false
+    },
+    {
+      "d": "M9 17H15",
+      "closed": false
+    }
+  ]
+}

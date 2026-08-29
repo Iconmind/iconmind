@@ -1,0 +1,36 @@
+{
+  "slug": "contradiction",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Contradiction",
+  "description": "Two arrows meeting head-on — statements that cannot both be true, flagged as a contradiction",
+  "tags": [
+    "conflict",
+    "inconsistent",
+    "clash"
+  ],
+  "keywords": [
+    "contradiction detection",
+    "inconsistent claims",
+    "conflicting statements"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M2 12H10",
+      "closed": false
+    },
+    {
+      "d": "M6 8L10 12L6 16",
+      "closed": false
+    },
+    {
+      "d": "M14 12H22",
+      "closed": false
+    },
+    {
+      "d": "M18 8L14 12L18 16",
+      "closed": false
+    }
+  ]
+}

@@ -61,7 +61,7 @@ const ANCHORED = new Set([
   "interface/laser-pointer",
   // Axes charts and bars on a baseline keep their ink low and left; an object
   // aligned to its edge is, by definition, on that edge.
-  "ai/activation", "analytics/significance-test", "analytics/trend-break", "interface/align-left-obj",
+  "ai/activation", "analytics/significance-test", "analytics/trend-break", "interface/align-left-obj", "data/volume-anomaly",
   // The locked layer is the lid; the lock hangs beneath it.
   "interface/layer-lock",
   "devtools/precondition", // the check sits before the block by design
@@ -80,7 +80,7 @@ const ANCHORED = new Set([
   "interface/laser-pointer",
   // Axes charts and bars on a baseline keep their ink low and left; an object
   // aligned to its edge is, by definition, on that edge.
-  "ai/activation", "analytics/significance-test", "analytics/trend-break", "interface/align-left-obj",
+  "ai/activation", "analytics/significance-test", "analytics/trend-break", "interface/align-left-obj", "data/volume-anomaly",
   // The locked layer is the lid; the lock hangs beneath it.
   "interface/layer-lock",
   "devtools/precondition", // the check sits before the block by design
