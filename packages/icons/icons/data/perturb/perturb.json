@@ -1,0 +1,27 @@
+{
+  "slug": "perturb",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Perturb",
+  "description": "The same row, shaken slightly",
+  "tags": [
+    "jitter",
+    "vary",
+    "noise"
+  ],
+  "keywords": [
+    "perturbation",
+    "jitter data"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M3 15L6 12L9 15L12 12L15 15L18 12L21 15",
+      "closed": false
+    }
+  ]
+}

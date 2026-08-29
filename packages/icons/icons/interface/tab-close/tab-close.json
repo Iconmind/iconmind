@@ -16,19 +16,19 @@
   "family": "window",
   "shapes": [
     {
-      "d": "M2 20L2 9L4 7L11 7L13 9L13 20",
+      "d": "M2 19L2 9L4 7L10 7L12 9L12 19",
       "closed": false
     },
     {
-      "d": "M2 20H22",
+      "d": "M2 19H22",
       "closed": false
     },
     {
-      "d": "M16 11L20 15",
+      "d": "M15.5 10.5L20.5 15.5",
       "closed": false
     },
     {
-      "d": "M20 11L16 15",
+      "d": "M20.5 10.5L15.5 15.5",
       "closed": false
     }
   ]

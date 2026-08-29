@@ -1,0 +1,32 @@
+{
+  "slug": "watermark-ai",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Watermark",
+  "description": "Signed invisibly, in the words themselves",
+  "tags": [
+    "mark",
+    "hidden",
+    "provenance"
+  ],
+  "keywords": [
+    "watermarking",
+    "text watermark",
+    "provenance"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M8 11L10 9L12 11L14 9L16 11",
+      "closed": false
+    },
+    {
+      "d": "M8 16L10 14L12 16L14 14L16 16",
+      "closed": false
+    }
+  ]
+}

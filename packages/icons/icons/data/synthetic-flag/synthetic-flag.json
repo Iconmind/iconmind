@@ -1,0 +1,39 @@
+{
+  "slug": "synthetic-flag",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Synthetic flag",
+  "description": "Made-up rows carry a flag",
+  "tags": [
+    "marker",
+    "generated",
+    "flag"
+  ],
+  "keywords": [
+    "synthetic flag",
+    "generated marker"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 4V16",
+      "closed": false
+    },
+    {
+      "d": "M5 5L8 5L8 8L5 8",
+      "closed": false
+    },
+    {
+      "d": "M8 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

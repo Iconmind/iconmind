@@ -1,0 +1,32 @@
+{
+  "slug": "oversight",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Oversight",
+  "description": "Somebody is actually watching",
+  "tags": [
+    "eye",
+    "monitor",
+    "watch"
+  ],
+  "keywords": [
+    "oversight",
+    "monitoring",
+    "human eye"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M19.52 10.74A8 8 0 0 1 4.48 10.74",
+      "closed": false
+    },
+    {
+      "d": "M4.48 13.26A8 8 0 0 1 19.52 13.26",
+      "closed": false
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

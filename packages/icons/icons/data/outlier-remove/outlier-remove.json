@@ -1,0 +1,43 @@
+{
+  "slug": "outlier-remove",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Outlier removal",
+  "description": "The one that was never really data",
+  "tags": [
+    "clean",
+    "drop",
+    "extreme"
+  ],
+  "keywords": [
+    "remove outliers",
+    "drop extreme"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16.5 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16.5 9.5L20.5 13.5",
+      "closed": false
+    },
+    {
+      "d": "M20.5 9.5L16.5 13.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "probe-safety",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Safety probe",
+  "description": "A thin question, lowered in",
+  "tags": [
+    "probe",
+    "test",
+    "inside"
+  ],
+  "keywords": [
+    "safety probe",
+    "linear probe"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M12 2V9",
+      "closed": false
+    },
+    {
+      "d": "M11 11.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

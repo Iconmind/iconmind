@@ -1,0 +1,35 @@
+{
+  "slug": "prompt-compress",
+  "category": "rag",
+  "subcategory": "grounding",
+  "name": "Prompt compress",
+  "description": "Fewer tokens; the same ask",
+  "tags": [
+    "shrink",
+    "tokens",
+    "squeeze"
+  ],
+  "keywords": [
+    "prompt compression",
+    "compress context"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 10H18",
+      "closed": false
+    },
+    {
+      "d": "M6 14H18",
+      "closed": false
+    },
+    {
+      "d": "M9.5 3L12 5.5L14.5 3",
+      "closed": false
+    },
+    {
+      "d": "M9.5 21L12 18.5L14.5 21",
+      "closed": false
+    }
+  ]
+}

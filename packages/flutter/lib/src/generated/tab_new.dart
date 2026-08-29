@@ -4,6 +4,6 @@ import '../data.dart';
 /// TabNew
 const IconMindData tabNew = IconMindData(
   'tab-new',
-  [N('M3 20V9l2 -2h7l2 2v11'), N('M2 20h20'), N('M15.5 13h6'), N('M18.5 10v6')],
-  [N.halo('M3 20V9l2 -2h7l2 2v11'), N.halo('M2 20h20'), N.halo('M15.5 13h6'), N.halo('M18.5 10v6'), N('M3 20V9l2 -2h7l2 2v11'), N('M2 20h20'), N('M15.5 13h6'), N('M18.5 10v6')],
+  [N('M2 19V9l2 -2h6l2 2v10'), N('M2 19h20'), N('M15 13h6'), N('M18 10v6')],
+  [N.halo('M2 19V9l2 -2h6l2 2v10'), N.halo('M2 19h20'), N.halo('M15 13h6'), N.halo('M18 10v6'), N('M2 19V9l2 -2h6l2 2v10'), N('M2 19h20'), N('M15 13h6'), N('M18 10v6')],
 );

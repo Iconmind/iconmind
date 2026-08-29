@@ -1,0 +1,35 @@
+{
+  "slug": "tab-group",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Tab group",
+  "description": "Two tabs, travelling together",
+  "tags": [
+    "browser",
+    "bundle",
+    "tabs"
+  ],
+  "keywords": [
+    "tab group",
+    "grouped tabs"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 16L2 9L4 7L8 7L10 9L10 16",
+      "closed": false
+    },
+    {
+      "d": "M14 16L14 9L16 7L20 7L22 9L22 16",
+      "closed": false
+    },
+    {
+      "d": "M2 16H22",
+      "closed": false
+    },
+    {
+      "d": "M4 19.5H20",
+      "closed": false
+    }
+  ]
+}

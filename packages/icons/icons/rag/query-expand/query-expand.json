@@ -1,0 +1,39 @@
+{
+  "slug": "query-expand",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Query expand",
+  "description": "One question becomes several searches",
+  "tags": [
+    "broaden",
+    "fan",
+    "variants"
+  ],
+  "keywords": [
+    "query expansion",
+    "broaden query"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12H8",
+      "closed": false
+    },
+    {
+      "d": "M9 10L11.5 12.5L9 15",
+      "closed": false
+    },
+    {
+      "d": "M14 5H21",
+      "closed": false
+    },
+    {
+      "d": "M14 12H21",
+      "closed": false
+    },
+    {
+      "d": "M14 19H21",
+      "closed": false
+    }
+  ]
+}

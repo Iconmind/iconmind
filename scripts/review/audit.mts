@@ -53,12 +53,14 @@ const ANCHORED = new Set([
   // keeps its ink where the axes are.
   "analytics/leaderboard-internal", "analytics/uplift", "analytics/regression-eval",
   "analytics/funnel-leak",
+  "devtools/flame-graph", "security/sandbag",
   // A boom gate hinges on its post; a warm pool sits on the ground it is dug into.
   "devops/admission-control", "devops/prewarm-pool",
   // Bars stand on their baseline; a funnel hangs from its mouth; an axes chart
   // keeps its ink where the axes are.
   "analytics/leaderboard-internal", "analytics/uplift", "analytics/regression-eval",
   "analytics/funnel-leak",
+  "devtools/flame-graph", "security/sandbag",
 ]);
 
 function inkStats(svg: string, size: number) {

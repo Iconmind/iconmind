@@ -1,0 +1,34 @@
+{
+  "slug": "annotator",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Annotator",
+  "description": "The person the labels come from",
+  "tags": [
+    "human",
+    "labeler",
+    "person"
+  ],
+  "aliases": [
+    "labeler"
+  ],
+  "keywords": [
+    "annotator",
+    "human labeler"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 13A4 4 0 0 1 11 13",
+      "closed": false
+    },
+    {
+      "d": "M13 12L18 12L21.5 15.5L18 19L13 19Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "normalize-data",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Normalise",
+  "description": "Everything into the same band",
+  "tags": [
+    "scale",
+    "range",
+    "fit"
+  ],
+  "aliases": [
+    "normalise-data"
+  ],
+  "keywords": [
+    "normalize",
+    "scaling",
+    "0 to 1"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 5H21",
+      "closed": false
+    },
+    {
+      "d": "M3 19H21",
+      "closed": false
+    },
+    {
+      "d": "M6 8V16",
+      "closed": false
+    },
+    {
+      "d": "M12 5V19",
+      "closed": false
+    },
+    {
+      "d": "M18 11V16",
+      "closed": false
+    }
+  ]
+}

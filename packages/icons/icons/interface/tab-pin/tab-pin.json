@@ -1,0 +1,38 @@
+{
+  "slug": "tab-pin",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Pin tab",
+  "description": "This one stays put",
+  "tags": [
+    "browser",
+    "keep",
+    "pin"
+  ],
+  "aliases": [
+    "pinned-tab"
+  ],
+  "keywords": [
+    "pin tab",
+    "pinned tab"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 19L2 9L4 7L10 7L12 9L12 19",
+      "closed": false
+    },
+    {
+      "d": "M2 19H22",
+      "closed": false
+    },
+    {
+      "d": "M15 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 13V16.5",
+      "closed": false
+    }
+  ]
+}

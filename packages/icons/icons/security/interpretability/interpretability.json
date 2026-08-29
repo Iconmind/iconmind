@@ -1,0 +1,31 @@
+{
+  "slug": "interpretability",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Interpretability",
+  "description": "The lens finally goes inside",
+  "tags": [
+    "inspect",
+    "inside",
+    "explain"
+  ],
+  "keywords": [
+    "interpretability",
+    "explainability"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14 3H17A3 3 0 0 1 20 6V12A3 3 0 0 1 17 15H7A3 3 0 0 1 4 12V6L7 3H10",
+      "closed": true
+    },
+    {
+      "d": "M10 15a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 18L20 21",
+      "closed": false
+    }
+  ]
+}

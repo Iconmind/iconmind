@@ -1,0 +1,35 @@
+{
+  "slug": "exact-search",
+  "category": "rag",
+  "subcategory": "vector",
+  "name": "Exact search",
+  "description": "Not close — the one",
+  "tags": [
+    "precise",
+    "equal",
+    "sure"
+  ],
+  "keywords": [
+    "exact search",
+    "exact match"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 9a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12.5 12.5L16 16",
+      "closed": false
+    },
+    {
+      "d": "M15 17.5H21",
+      "closed": false
+    },
+    {
+      "d": "M15 21H21",
+      "closed": false
+    }
+  ]
+}

@@ -489,9 +489,9 @@ export const BATCH_59: Icon[] = [
     tags: ["browser", "open", "plus"], family: "window",
     aliases: [], keywords: ["new tab", "open tab", "plus tab"],
     shapes: [
-      poly([[3, 20], [3, 9], [5, 7], [12, 7], [14, 9], [14, 20]]),
-      row(20, 2, 22),
-      row(13, 15.5, 21.5), col(18.5, 10, 16),
+      poly([[2, 19], [2, 9], [4, 7], [10, 7], [12, 9], [12, 19]]),
+      row(19, 2, 22),
+      row(13, 15, 21), col(18, 10, 16),
     ],
   },
   {
@@ -500,9 +500,9 @@ export const BATCH_59: Icon[] = [
     tags: ["browser", "dismiss", "x"], family: "window",
     aliases: [], keywords: ["close tab", "dismiss tab"],
     shapes: [
-      poly([[2, 20], [2, 9], [4, 7], [11, 7], [13, 9], [13, 20]]),
-      row(20, 2, 22),
-      poly([[16, 11], [20, 15]]), poly([[20, 11], [16, 15]]),
+      poly([[2, 19], [2, 9], [4, 7], [10, 7], [12, 9], [12, 19]]),
+      row(19, 2, 22),
+      poly([[15.5, 10.5], [20.5, 15.5]]), poly([[20.5, 10.5], [15.5, 15.5]]),
     ],
   },
   {

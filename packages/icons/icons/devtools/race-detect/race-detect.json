@@ -1,0 +1,35 @@
+{
+  "slug": "race-detect",
+  "category": "devtools",
+  "subcategory": "debug",
+  "name": "Race",
+  "description": "Two writers, one address, no referee",
+  "tags": [
+    "concurrent",
+    "collide",
+    "bug"
+  ],
+  "aliases": [
+    "race-condition"
+  ],
+  "keywords": [
+    "race condition",
+    "data race",
+    "concurrent write"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M3 5L10 12",
+      "closed": false
+    },
+    {
+      "d": "M3 19L10 12",
+      "closed": false
+    },
+    {
+      "d": "M11.5 12a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
+      "closed": true
+    }
+  ]
+}

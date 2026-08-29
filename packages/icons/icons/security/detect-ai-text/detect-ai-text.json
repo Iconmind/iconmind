@@ -1,0 +1,39 @@
+{
+  "slug": "detect-ai-text",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Detect AI text",
+  "description": "Reading for the machine's accent",
+  "tags": [
+    "classifier",
+    "detect",
+    "text"
+  ],
+  "keywords": [
+    "ai text detection",
+    "generated text"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 5H21",
+      "closed": false
+    },
+    {
+      "d": "M3 10H21",
+      "closed": false
+    },
+    {
+      "d": "M3 15H12",
+      "closed": false
+    },
+    {
+      "d": "M12.5 16a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M19.5 19L21.5 21",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "circuit-break",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Circuit breaker",
+  "description": "The wire opens before the damage does",
+  "tags": [
+    "stop",
+    "open",
+    "cut"
+  ],
+  "aliases": [
+    "circuit-breaker"
+  ],
+  "keywords": [
+    "circuit breaker",
+    "trip",
+    "cutoff"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 16H8.5",
+      "closed": false
+    },
+    {
+      "d": "M15.5 16H22",
+      "closed": false
+    },
+    {
+      "d": "M8.5 16L16.5 8",
+      "closed": false
+    }
+  ]
+}

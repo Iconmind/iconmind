@@ -1,0 +1,47 @@
+{
+  "slug": "organize-imports",
+  "category": "devtools",
+  "subcategory": "editor",
+  "name": "Organise imports",
+  "description": "The jumble, alphabetised",
+  "tags": [
+    "sort",
+    "tidy",
+    "imports"
+  ],
+  "aliases": [
+    "sort-imports"
+  ],
+  "keywords": [
+    "organize imports",
+    "sort imports",
+    "tidy"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 5H9",
+      "closed": false
+    },
+    {
+      "d": "M3 10H7",
+      "closed": false
+    },
+    {
+      "d": "M3 15H10",
+      "closed": false
+    },
+    {
+      "d": "M14 5H20",
+      "closed": false
+    },
+    {
+      "d": "M14 10H20",
+      "closed": false
+    },
+    {
+      "d": "M14 15H20",
+      "closed": false
+    }
+  ]
+}

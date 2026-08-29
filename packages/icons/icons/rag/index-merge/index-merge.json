@@ -1,0 +1,43 @@
+{
+  "slug": "index-merge",
+  "category": "rag",
+  "subcategory": "vector",
+  "name": "Index merge",
+  "description": "Two shelves become one",
+  "tags": [
+    "compact",
+    "combine",
+    "segments"
+  ],
+  "keywords": [
+    "merge segments",
+    "index compaction"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 5H10",
+      "closed": false
+    },
+    {
+      "d": "M3 9H10",
+      "closed": false
+    },
+    {
+      "d": "M14 5H21",
+      "closed": false
+    },
+    {
+      "d": "M14 9H21",
+      "closed": false
+    },
+    {
+      "d": "M12 11.5V14",
+      "closed": false
+    },
+    {
+      "d": "M5 17H19",
+      "closed": false
+    }
+  ]
+}

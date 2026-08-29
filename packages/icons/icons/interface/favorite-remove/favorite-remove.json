@@ -1,0 +1,28 @@
+{
+  "slug": "favorite-remove",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Remove favorite",
+  "description": "The heart lets it go",
+  "tags": [
+    "heart",
+    "unsave",
+    "unlike"
+  ],
+  "keywords": [
+    "unfavorite",
+    "remove favorite"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 11A4 4 0 0 1 12 11A4 4 0 0 1 20 11L12 19Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
+    },
+    {
+      "d": "M17.5 4.5H21.5",
+      "closed": false
+    }
+  ]
+}

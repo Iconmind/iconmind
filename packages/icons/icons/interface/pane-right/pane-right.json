@@ -1,0 +1,31 @@
+{
+  "slug": "pane-right",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Right pane",
+  "description": "Details live on the right",
+  "tags": [
+    "layout",
+    "sidebar",
+    "focus"
+  ],
+  "keywords": [
+    "right pane",
+    "sidebar right"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M15 4V20",
+      "closed": false
+    },
+    {
+      "d": "M18.5 8V16",
+      "closed": false
+    }
+  ]
+}

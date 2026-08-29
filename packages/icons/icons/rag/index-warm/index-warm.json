@@ -1,0 +1,39 @@
+{
+  "slug": "index-warm",
+  "category": "rag",
+  "subcategory": "vector",
+  "name": "Warm index",
+  "description": "Kept hot so the first query is fast",
+  "tags": [
+    "ready",
+    "loaded",
+    "heat"
+  ],
+  "keywords": [
+    "warm index",
+    "preloaded index"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 5H15",
+      "closed": false
+    },
+    {
+      "d": "M3 10H15",
+      "closed": false
+    },
+    {
+      "d": "M3 15H15",
+      "closed": false
+    },
+    {
+      "d": "M18 8L20 6L18 4",
+      "closed": false
+    },
+    {
+      "d": "M18 16L20 14L18 12",
+      "closed": false
+    }
+  ]
+}

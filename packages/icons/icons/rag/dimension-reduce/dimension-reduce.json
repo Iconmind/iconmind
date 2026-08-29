@@ -1,0 +1,27 @@
+{
+  "slug": "dimension-reduce",
+  "category": "rag",
+  "subcategory": "vector",
+  "name": "Dimension reduce",
+  "description": "The same shape, in fewer numbers",
+  "tags": [
+    "compress",
+    "smaller",
+    "project"
+  ],
+  "keywords": [
+    "dimensionality reduction",
+    "reduce dims"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M13 4L17 8L10.5 14.5L4 8L8 4",
+      "closed": false
+    },
+    {
+      "d": "M18.5 14L21 16.5L17 20.5L13 16.5L15.5 14",
+      "closed": false
+    }
+  ]
+}

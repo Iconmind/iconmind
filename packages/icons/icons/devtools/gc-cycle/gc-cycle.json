@@ -1,0 +1,35 @@
+{
+  "slug": "gc-cycle",
+  "category": "devtools",
+  "subcategory": "code",
+  "name": "GC cycle",
+  "description": "The collector making its rounds",
+  "tags": [
+    "memory",
+    "sweep",
+    "collect"
+  ],
+  "aliases": [
+    "garbage-collect"
+  ],
+  "keywords": [
+    "garbage collection",
+    "gc",
+    "sweep"
+  ],
+  "family": "rotation",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V17A3 3 0 0 1 18 20H6A3 3 0 0 1 3 17V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M12 2L9 5L12 8",
+      "closed": false
+    },
+    {
+      "d": "M10 12.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

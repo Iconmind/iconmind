@@ -1,0 +1,39 @@
+{
+  "slug": "tab-overflow",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Tab overflow",
+  "description": "More of them than the bar can show",
+  "tags": [
+    "browser",
+    "more",
+    "dots"
+  ],
+  "keywords": [
+    "tab overflow",
+    "more tabs"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 19L2 9L4 7L10 7L12 9L12 19",
+      "closed": false
+    },
+    {
+      "d": "M2 19H22",
+      "closed": false
+    },
+    {
+      "d": "M14 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M20 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

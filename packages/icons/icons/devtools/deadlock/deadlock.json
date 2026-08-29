@@ -1,0 +1,36 @@
+{
+  "slug": "deadlock",
+  "category": "devtools",
+  "subcategory": "debug",
+  "name": "Deadlock",
+  "description": "Each is waiting for the other to move",
+  "tags": [
+    "stuck",
+    "waiting",
+    "threads"
+  ],
+  "keywords": [
+    "deadlock",
+    "mutual wait",
+    "stuck threads"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M2 8H6.5",
+      "closed": false
+    },
+    {
+      "d": "M6.5 5.5L9 8L6.5 10.5",
+      "closed": false
+    },
+    {
+      "d": "M17.5 16H22",
+      "closed": false
+    },
+    {
+      "d": "M17.5 13.5L15 16L17.5 18.5",
+      "closed": false
+    }
+  ]
+}

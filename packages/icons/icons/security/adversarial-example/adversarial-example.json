@@ -1,0 +1,35 @@
+{
+  "slug": "adversarial-example",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Adversarial example",
+  "description": "Looks the same; classifies as something else",
+  "tags": [
+    "attack",
+    "image",
+    "noise"
+  ],
+  "keywords": [
+    "adversarial example",
+    "perturbed input"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 6A2 2 0 0 1 5 4H19A2 2 0 0 1 21 6V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M5 16L10 11L13 14L17 10",
+      "closed": false
+    },
+    {
+      "d": "M6 8a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15.5 16.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

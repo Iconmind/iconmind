@@ -1,0 +1,39 @@
+{
+  "slug": "test-select",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Test select",
+  "description": "Run just the one that matters now",
+  "tags": [
+    "focus",
+    "only",
+    "pick"
+  ],
+  "aliases": [
+    "test-only"
+  ],
+  "keywords": [
+    "test.only",
+    "focused test",
+    "run one"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 5H20",
+      "closed": false
+    },
+    {
+      "d": "M8 12H20",
+      "closed": false
+    },
+    {
+      "d": "M8 19H20",
+      "closed": false
+    },
+    {
+      "d": "M3 9L6 12L3 15Z",
+      "closed": true
+    }
+  ]
+}

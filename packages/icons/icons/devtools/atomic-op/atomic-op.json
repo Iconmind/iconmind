@@ -1,0 +1,35 @@
+{
+  "slug": "atomic-op",
+  "category": "devtools",
+  "subcategory": "code",
+  "name": "Atomic",
+  "description": "All of it, or none of it",
+  "tags": [
+    "indivisible",
+    "safe",
+    "single"
+  ],
+  "aliases": [
+    "atomic"
+  ],
+  "keywords": [
+    "atomic operation",
+    "indivisible",
+    "cas"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7.5 4L5 4L5 20L7.5 20",
+      "closed": false
+    },
+    {
+      "d": "M16.5 4L19 4L19 20L16.5 20",
+      "closed": false
+    },
+    {
+      "d": "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

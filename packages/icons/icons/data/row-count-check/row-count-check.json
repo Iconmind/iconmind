@@ -1,0 +1,35 @@
+{
+  "slug": "row-count-check",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Row count check",
+  "description": "As many as there were supposed to be",
+  "tags": [
+    "count",
+    "verify",
+    "rows"
+  ],
+  "keywords": [
+    "row count",
+    "count check"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 4H17",
+      "closed": false
+    },
+    {
+      "d": "M3 9H17",
+      "closed": false
+    },
+    {
+      "d": "M3 14H17",
+      "closed": false
+    },
+    {
+      "d": "M14.5 17.5L17 20L21.5 15.5",
+      "closed": false
+    }
+  ]
+}

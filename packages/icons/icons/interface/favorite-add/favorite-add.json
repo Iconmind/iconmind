@@ -1,0 +1,33 @@
+{
+  "slug": "favorite-add",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Add favorite",
+  "description": "Kept where the heart keeps things",
+  "tags": [
+    "heart",
+    "save",
+    "like"
+  ],
+  "keywords": [
+    "favorite",
+    "add to favorites",
+    "heart"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 11A4 4 0 0 1 12 11A4 4 0 0 1 20 11L12 19Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
+    },
+    {
+      "d": "M17.5 4.5H21.5",
+      "closed": false
+    },
+    {
+      "d": "M19.5 2.5V6.5",
+      "closed": false
+    }
+  ]
+}
