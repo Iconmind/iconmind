@@ -1,0 +1,40 @@
+{
+  "slug": "window-function",
+  "category": "data",
+  "subcategory": "catalog",
+  "name": "Window function",
+  "description": "A bracket spanning two of four rows — a window function over neighbouring rows",
+  "tags": [
+    "window",
+    "sql",
+    "rows"
+  ],
+  "keywords": [
+    "window function",
+    "sql over clause",
+    "sliding window rows"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 4H15.5",
+      "closed": false
+    },
+    {
+      "d": "M3 10H15.5",
+      "closed": false
+    },
+    {
+      "d": "M3 16H15.5",
+      "closed": false
+    },
+    {
+      "d": "M3 22H15.5",
+      "closed": false
+    },
+    {
+      "d": "M18.5 7L21 7L21 19L18.5 19",
+      "closed": false
+    }
+  ]
+}

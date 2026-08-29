@@ -1,0 +1,28 @@
+{
+  "slug": "grokking",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Grokking",
+  "description": "A curve that stays flat and then suddenly climbs — the moment a model finally generalises",
+  "tags": [
+    "generalise",
+    "sudden",
+    "training"
+  ],
+  "keywords": [
+    "grokking",
+    "delayed generalisation",
+    "phase change in training"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 3L3 21L21 21",
+      "closed": false
+    },
+    {
+      "d": "M6 18L14 18L18 14L18 6",
+      "closed": false
+    }
+  ]
+}

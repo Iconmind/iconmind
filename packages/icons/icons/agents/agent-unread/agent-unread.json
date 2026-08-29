@@ -1,0 +1,28 @@
+{
+  "slug": "agent-unread",
+  "category": "agents",
+  "subcategory": "communication",
+  "name": "Agent badge",
+  "description": "An agent with a badge at its shoulder — an agent with something new to show you",
+  "tags": [
+    "badge",
+    "notification",
+    "new"
+  ],
+  "keywords": [
+    "agent notification",
+    "agent badge",
+    "unread from agent"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M13.96 6.66A7 7 0 1 1 8.04 6.66",
+      "closed": false
+    },
+    {
+      "d": "M18 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

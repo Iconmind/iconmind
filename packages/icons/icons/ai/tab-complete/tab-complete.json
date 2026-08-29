@@ -1,0 +1,44 @@
+{
+  "slug": "tab-complete",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Tab complete",
+  "description": "Text with a tab arrow at the end of the last line — accept an inline suggestion with Tab",
+  "tags": [
+    "autocomplete",
+    "suggest",
+    "tab"
+  ],
+  "keywords": [
+    "tab to accept",
+    "inline completion",
+    "autocomplete suggestion"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 6H21",
+      "closed": false
+    },
+    {
+      "d": "M3 11H21",
+      "closed": false
+    },
+    {
+      "d": "M3 16H12",
+      "closed": false
+    },
+    {
+      "d": "M15 16H19",
+      "closed": false
+    },
+    {
+      "d": "M16.5 13.5L19 16L16.5 18.5",
+      "closed": false
+    },
+    {
+      "d": "M22 13.5V18.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "pivot",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Pivot",
+  "description": "Rows turning into columns — pivoting a table from long to wide",
+  "tags": [
+    "reshape",
+    "wide",
+    "table"
+  ],
+  "keywords": [
+    "pivot table",
+    "long to wide",
+    "reshape data"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 4H21",
+      "closed": false
+    },
+    {
+      "d": "M3 8H21",
+      "closed": false
+    },
+    {
+      "d": "M9.5 11L12 13.5L14.5 11",
+      "closed": false
+    },
+    {
+      "d": "M6 16.5V22",
+      "closed": false
+    },
+    {
+      "d": "M12 16.5V22",
+      "closed": false
+    },
+    {
+      "d": "M18 16.5V22",
+      "closed": false
+    }
+  ]
+}

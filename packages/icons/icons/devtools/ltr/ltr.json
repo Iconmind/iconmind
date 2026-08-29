@@ -1,0 +1,36 @@
+{
+  "slug": "ltr",
+  "category": "devtools",
+  "subcategory": "editor",
+  "name": "Left to right",
+  "description": "Lines of text with an arrow pointing right — left-to-right text direction",
+  "tags": [
+    "direction",
+    "text",
+    "i18n"
+  ],
+  "keywords": [
+    "left to right",
+    "ltr text",
+    "text direction"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 6H21",
+      "closed": false
+    },
+    {
+      "d": "M3 11H21",
+      "closed": false
+    },
+    {
+      "d": "M3 17H18",
+      "closed": false
+    },
+    {
+      "d": "M15.5 14.5L18 17L15.5 19.5",
+      "closed": false
+    }
+  ]
+}

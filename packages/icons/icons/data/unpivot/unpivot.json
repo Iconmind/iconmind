@@ -1,0 +1,44 @@
+{
+  "slug": "unpivot",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Unpivot",
+  "description": "Columns turning into rows — unpivoting a table from wide to long",
+  "tags": [
+    "reshape",
+    "long",
+    "table"
+  ],
+  "keywords": [
+    "unpivot",
+    "wide to long",
+    "melt table"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M6 2V7.5",
+      "closed": false
+    },
+    {
+      "d": "M12 2V7.5",
+      "closed": false
+    },
+    {
+      "d": "M18 2V7.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 10.5L12 13L14.5 10.5",
+      "closed": false
+    },
+    {
+      "d": "M3 16H21",
+      "closed": false
+    },
+    {
+      "d": "M3 20H21",
+      "closed": false
+    }
+  ]
+}

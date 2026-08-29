@@ -1,0 +1,40 @@
+{
+  "slug": "grant",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Grant",
+  "description": "A key with a plus beside it — grant a permission or a new scope",
+  "tags": [
+    "access",
+    "allow",
+    "permission"
+  ],
+  "keywords": [
+    "grant access",
+    "grant permission",
+    "add scope"
+  ],
+  "family": "key",
+  "shapes": [
+    {
+      "d": "M4 10a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 14V21",
+      "closed": false
+    },
+    {
+      "d": "M8 18H11",
+      "closed": false
+    },
+    {
+      "d": "M15 12H21",
+      "closed": false
+    },
+    {
+      "d": "M18 9V15",
+      "closed": false
+    }
+  ]
+}

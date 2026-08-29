@@ -1,0 +1,32 @@
+{
+  "slug": "agent-cost",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Agent cost",
+  "description": "An agent beside a coin — what a run of this agent costs",
+  "tags": [
+    "cost",
+    "spend",
+    "billing"
+  ],
+  "keywords": [
+    "agent cost",
+    "agent spend",
+    "cost per run"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M11 15a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 13.5V16.5",
+      "closed": false
+    }
+  ]
+}

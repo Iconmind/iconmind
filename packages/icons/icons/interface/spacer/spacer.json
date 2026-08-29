@@ -1,0 +1,40 @@
+{
+  "slug": "spacer",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Spacer",
+  "description": "Two edges with a double arrow between them — the spacer that sets the gap in a layout",
+  "tags": [
+    "gap",
+    "spacing",
+    "layout"
+  ],
+  "keywords": [
+    "spacer",
+    "layout gap",
+    "spacing control"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M3 4H21",
+      "closed": false
+    },
+    {
+      "d": "M3 20H21",
+      "closed": false
+    },
+    {
+      "d": "M12 8V16",
+      "closed": false
+    },
+    {
+      "d": "M9.5 10.5L12 8L14.5 10.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 13.5L12 16L14.5 13.5",
+      "closed": false
+    }
+  ]
+}

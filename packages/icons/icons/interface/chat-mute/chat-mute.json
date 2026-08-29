@@ -1,0 +1,32 @@
+{
+  "slug": "chat-mute",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Chat mute",
+  "description": "A speech bubble with a slash inside — a conversation muted so it no longer notifies",
+  "tags": [
+    "mute",
+    "silence",
+    "chat"
+  ],
+  "keywords": [
+    "mute chat",
+    "silence conversation",
+    "notifications off"
+  ],
+  "family": "bubble",
+  "shapes": [
+    {
+      "d": "M3 6A2 2 0 0 1 5 4H19A2 2 0 0 1 21 6V14A2 2 0 0 1 19 16H5A2 2 0 0 1 3 14Z",
+      "closed": true
+    },
+    {
+      "d": "M7 16L7 19L10 16",
+      "closed": false
+    },
+    {
+      "d": "M8 13L13 8",
+      "closed": false
+    }
+  ]
+}

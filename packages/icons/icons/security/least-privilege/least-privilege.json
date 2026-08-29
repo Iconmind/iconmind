@@ -1,0 +1,36 @@
+{
+  "slug": "least-privilege",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Least privilege",
+  "description": "A key with a minus beside it — grant only the access a task needs",
+  "tags": [
+    "access",
+    "minimal",
+    "permission"
+  ],
+  "keywords": [
+    "least privilege",
+    "minimal permissions",
+    "restricted access"
+  ],
+  "family": "key",
+  "shapes": [
+    {
+      "d": "M4 10a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 14V21",
+      "closed": false
+    },
+    {
+      "d": "M8 18H11",
+      "closed": false
+    },
+    {
+      "d": "M15 12H21",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "tokens-used",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Tokens used",
+  "description": "A pill holding three tokens — the count of tokens a request consumed",
+  "tags": [
+    "tokens",
+    "usage",
+    "count"
+  ],
+  "keywords": [
+    "token usage",
+    "tokens consumed",
+    "usage meter"
+  ],
+  "family": "chip",
+  "shapes": [
+    {
+      "d": "M2 9.5A2 2 0 0 1 4 7.5H20A2 2 0 0 1 22 9.5V14.5A2 2 0 0 1 20 16.5H4A2 2 0 0 1 2 14.5Z",
+      "closed": true
+    },
+    {
+      "d": "M6 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

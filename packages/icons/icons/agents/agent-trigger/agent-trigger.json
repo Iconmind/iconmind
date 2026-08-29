@@ -1,0 +1,28 @@
+{
+  "slug": "agent-trigger",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Agent trigger",
+  "description": "An agent beside a lightning bolt — the event that fires an agent into action",
+  "tags": [
+    "trigger",
+    "event",
+    "fire"
+  ],
+  "keywords": [
+    "agent trigger",
+    "event-driven agent",
+    "fire an agent"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M19 11L14 16L18 16L13 21",
+      "closed": false
+    }
+  ]
+}

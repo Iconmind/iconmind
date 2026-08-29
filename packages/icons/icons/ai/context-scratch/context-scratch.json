@@ -1,0 +1,32 @@
+{
+  "slug": "context-scratch",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Context scratch",
+  "description": "A scribble held between brackets — scratch space inside the context window for working notes",
+  "tags": [
+    "scratch",
+    "context",
+    "notes"
+  ],
+  "keywords": [
+    "context scratchpad",
+    "working notes",
+    "scratch tokens"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M8 13L10 11L12 13L14 11L16 13",
+      "closed": false
+    }
+  ]
+}

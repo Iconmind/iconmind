@@ -1,0 +1,44 @@
+{
+  "slug": "magnet-snap",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Magnet snap",
+  "description": "A horseshoe magnet — snapping objects to guides and each other",
+  "tags": [
+    "snap",
+    "magnet",
+    "align"
+  ],
+  "keywords": [
+    "snap to grid",
+    "magnetic snapping",
+    "smart snap"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M18 14A6 6 0 0 1 6 14",
+      "closed": false
+    },
+    {
+      "d": "M6 3V14",
+      "closed": false
+    },
+    {
+      "d": "M18 3V14",
+      "closed": false
+    },
+    {
+      "d": "M14 14A2 2 0 0 1 10 14",
+      "closed": false
+    },
+    {
+      "d": "M10 3V14",
+      "closed": false
+    },
+    {
+      "d": "M14 3V14",
+      "closed": false
+    }
+  ]
+}

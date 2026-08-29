@@ -1,0 +1,28 @@
+{
+  "slug": "mask-layer",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Mask layer",
+  "description": "A circle clipping the corner of a square — a layer used as a mask",
+  "tags": [
+    "mask",
+    "clip",
+    "layer"
+  ],
+  "keywords": [
+    "mask layer",
+    "clipping mask",
+    "layer mask"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H14A2 2 0 0 1 16 5V14A2 2 0 0 1 14 16H5A2 2 0 0 1 3 14Z",
+      "closed": true
+    },
+    {
+      "d": "M9 15a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    }
+  ]
+}

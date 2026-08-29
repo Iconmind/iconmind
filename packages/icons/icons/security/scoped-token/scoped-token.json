@@ -1,0 +1,32 @@
+{
+  "slug": "scoped-token",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Scoped token",
+  "description": "A token pill held between brackets — an access token limited to one scope",
+  "tags": [
+    "token",
+    "scope",
+    "access"
+  ],
+  "keywords": [
+    "scoped token",
+    "limited access token",
+    "token scope"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M8 12A2 2 0 0 1 10 10H14A2 2 0 0 1 16 12V12A2 2 0 0 1 14 14H10A2 2 0 0 1 8 12Z",
+      "closed": true
+    }
+  ]
+}

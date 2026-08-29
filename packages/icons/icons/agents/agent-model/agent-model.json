@@ -1,0 +1,28 @@
+{
+  "slug": "agent-model",
+  "category": "agents",
+  "subcategory": "agent-core",
+  "name": "Agent model",
+  "description": "An agent beside a model core — the model an agent runs on",
+  "tags": [
+    "model",
+    "backend",
+    "llm"
+  ],
+  "keywords": [
+    "agent model",
+    "underlying model",
+    "model selection"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M16.5 12L21 16.5L16.5 21L12 16.5Z",
+      "closed": true
+    }
+  ]
+}

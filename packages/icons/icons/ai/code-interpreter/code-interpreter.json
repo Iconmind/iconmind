@@ -1,0 +1,32 @@
+{
+  "slug": "code-interpreter",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Code interpreter",
+  "description": "A play button between angle brackets — the sandbox where a model runs the code it writes",
+  "tags": [
+    "run",
+    "sandbox",
+    "code"
+  ],
+  "keywords": [
+    "code interpreter",
+    "code execution tool",
+    "run generated code"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 7L2 12L7 17",
+      "closed": false
+    },
+    {
+      "d": "M10 9L10 15L13 12Z",
+      "closed": true
+    },
+    {
+      "d": "M17 7L22 12L17 17",
+      "closed": false
+    }
+  ]
+}

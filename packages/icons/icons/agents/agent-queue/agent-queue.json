@@ -1,0 +1,32 @@
+{
+  "slug": "agent-queue",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Agent queue",
+  "description": "An agent beside two queued items — the backlog of work waiting for an agent",
+  "tags": [
+    "queue",
+    "backlog",
+    "tasks"
+  ],
+  "keywords": [
+    "agent queue",
+    "task backlog",
+    "queued work"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M13 13A2 2 0 0 1 15 11H20A2 2 0 0 1 22 13V13A2 2 0 0 1 20 15H15A2 2 0 0 1 13 13Z",
+      "closed": true
+    },
+    {
+      "d": "M13 20A2 2 0 0 1 15 18H20A2 2 0 0 1 22 20V20A2 2 0 0 1 20 22H15A2 2 0 0 1 13 20Z",
+      "closed": true
+    }
+  ]
+}

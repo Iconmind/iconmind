@@ -1,0 +1,32 @@
+{
+  "slug": "agent-pin",
+  "category": "agents",
+  "subcategory": "tool-use",
+  "name": "Agent pin",
+  "description": "An agent beside a location pin — an agent that works with places and maps",
+  "tags": [
+    "location",
+    "map",
+    "place"
+  ],
+  "keywords": [
+    "location agent",
+    "map agent",
+    "geo agent"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M13.5 13a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16.5 16V20",
+      "closed": false
+    }
+  ]
+}

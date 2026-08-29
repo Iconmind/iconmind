@@ -1,0 +1,40 @@
+{
+  "slug": "lollipop-chart",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Lollipop chart",
+  "description": "Dots on stems rising from a baseline — a lollipop chart",
+  "tags": [
+    "chart",
+    "dots",
+    "stems"
+  ],
+  "keywords": [
+    "lollipop chart",
+    "dot and stem chart",
+    "categorical values"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M6 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 9V20",
+      "closed": false
+    },
+    {
+      "d": "M14 11a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 13V20",
+      "closed": false
+    },
+    {
+      "d": "M3 20H21",
+      "closed": false
+    }
+  ]
+}

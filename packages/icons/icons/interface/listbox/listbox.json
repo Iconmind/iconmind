@@ -1,0 +1,32 @@
+{
+  "slug": "listbox",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Listbox",
+  "description": "A box of options with one of them selected — a listbox control",
+  "tags": [
+    "list",
+    "select",
+    "options"
+  ],
+  "keywords": [
+    "listbox",
+    "select list",
+    "option list"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H20A2 2 0 0 1 22 4V20A2 2 0 0 1 20 22H4A2 2 0 0 1 2 20Z",
+      "closed": true
+    },
+    {
+      "d": "M6 8H18",
+      "closed": false
+    },
+    {
+      "d": "M5 14A2 2 0 0 1 7 12H17A2 2 0 0 1 19 14V14A2 2 0 0 1 17 16H7A2 2 0 0 1 5 14Z",
+      "closed": true
+    }
+  ]
+}

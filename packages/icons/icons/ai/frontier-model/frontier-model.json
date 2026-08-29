@@ -1,0 +1,28 @@
+{
+  "slug": "frontier-model",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Frontier model",
+  "description": "A model core beneath a mountain peak — the most capable model at the frontier",
+  "tags": [
+    "frontier",
+    "flagship",
+    "capable"
+  ],
+  "keywords": [
+    "frontier model",
+    "flagship model",
+    "state of the art"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M12 11L16 15L12 19L8 15Z",
+      "closed": true
+    },
+    {
+      "d": "M8 8L12 4L16 8",
+      "closed": false
+    }
+  ]
+}

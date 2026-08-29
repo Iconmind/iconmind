@@ -1,0 +1,32 @@
+{
+  "slug": "hazard",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Hazard",
+  "description": "An alert mark inside a diamond — a dangerous capability flagged before release",
+  "tags": [
+    "danger",
+    "warning",
+    "risk"
+  ],
+  "keywords": [
+    "hazard",
+    "dangerous capability",
+    "risk warning"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M12 2.5L21.5 12L12 21.5L2.5 12Z",
+      "closed": true
+    },
+    {
+      "d": "M12 7V11.5",
+      "closed": false
+    },
+    {
+      "d": "M11 15.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "edge-model",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Edge model",
+  "description": "A model core tucked into the corner of a frame — a model that runs at the edge, near the user",
+  "tags": [
+    "edge",
+    "on-device",
+    "local"
+  ],
+  "keywords": [
+    "edge model",
+    "on-device inference",
+    "edge ai"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M15 6L18 9L15 12L12 9Z",
+      "closed": true
+    }
+  ]
+}

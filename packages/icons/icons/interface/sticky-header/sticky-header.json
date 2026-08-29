@@ -1,0 +1,36 @@
+{
+  "slug": "sticky-header",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Sticky header",
+  "description": "A window whose header stays put above the content — a sticky header",
+  "tags": [
+    "header",
+    "sticky",
+    "scroll"
+  ],
+  "keywords": [
+    "sticky header",
+    "fixed header",
+    "pinned toolbar"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H20A2 2 0 0 1 22 4V20A2 2 0 0 1 20 22H4A2 2 0 0 1 2 20Z",
+      "closed": true
+    },
+    {
+      "d": "M2 7H22",
+      "closed": false
+    },
+    {
+      "d": "M6 12H18",
+      "closed": false
+    },
+    {
+      "d": "M6 17H18",
+      "closed": false
+    }
+  ]
+}

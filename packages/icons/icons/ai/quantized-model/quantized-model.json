@@ -1,0 +1,28 @@
+{
+  "slug": "quantized-model",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Quantized model",
+  "description": "A model frame with a staircase inside — a model quantized to fewer bits so it runs smaller and faster",
+  "tags": [
+    "quantize",
+    "compress",
+    "bits"
+  ],
+  "keywords": [
+    "quantized model",
+    "int8 model",
+    "model compression"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 16L10 16L10 13L13 13L13 10L16 10",
+      "closed": false
+    }
+  ]
+}

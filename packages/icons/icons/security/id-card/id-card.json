@@ -1,0 +1,36 @@
+{
+  "slug": "id-card",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "ID card",
+  "description": "A card with a person and their details — an identity card or service account",
+  "tags": [
+    "identity",
+    "card",
+    "account"
+  ],
+  "keywords": [
+    "id card",
+    "identity badge",
+    "service account"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M9.27 9.28A3 3 0 1 1 6.73 9.28",
+      "closed": false
+    },
+    {
+      "d": "M14 10H19",
+      "closed": false
+    },
+    {
+      "d": "M14 14H19",
+      "closed": false
+    }
+  ]
+}

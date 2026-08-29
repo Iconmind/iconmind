@@ -1,0 +1,32 @@
+{
+  "slug": "type-check",
+  "category": "devtools",
+  "subcategory": "code",
+  "name": "Type check",
+  "description": "A letter T with a check beside it — static type checking that passed",
+  "tags": [
+    "types",
+    "check",
+    "static"
+  ],
+  "keywords": [
+    "type check",
+    "typecheck passed",
+    "static typing"
+  ],
+  "family": "glyph",
+  "shapes": [
+    {
+      "d": "M4 5H16",
+      "closed": false
+    },
+    {
+      "d": "M10 5V15",
+      "closed": false
+    },
+    {
+      "d": "M14 15L17 18L22 13",
+      "closed": false
+    }
+  ]
+}

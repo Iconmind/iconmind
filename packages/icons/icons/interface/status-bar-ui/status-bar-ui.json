@@ -1,0 +1,36 @@
+{
+  "slug": "status-bar-ui",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Status bar",
+  "description": "A phone with its notch and content beneath — the status bar area of a mobile screen",
+  "tags": [
+    "mobile",
+    "notch",
+    "status"
+  ],
+  "keywords": [
+    "status bar",
+    "phone notch",
+    "safe area top"
+  ],
+  "family": "device",
+  "shapes": [
+    {
+      "d": "M6 4A2 2 0 0 1 8 2H16A2 2 0 0 1 18 4V20A2 2 0 0 1 16 22H8A2 2 0 0 1 6 20Z",
+      "closed": true
+    },
+    {
+      "d": "M10 5H14",
+      "closed": false
+    },
+    {
+      "d": "M9 10H15",
+      "closed": false
+    },
+    {
+      "d": "M9 14H15",
+      "closed": false
+    }
+  ]
+}

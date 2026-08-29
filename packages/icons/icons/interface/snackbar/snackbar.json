@@ -1,0 +1,28 @@
+{
+  "slug": "snackbar",
+  "category": "interface",
+  "subcategory": "state",
+  "name": "Snackbar",
+  "description": "A pill resting at the foot of a screen — a snackbar message with an action",
+  "tags": [
+    "toast",
+    "message",
+    "bottom"
+  ],
+  "keywords": [
+    "snackbar",
+    "bottom toast",
+    "brief message"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H20A2 2 0 0 1 22 4V20A2 2 0 0 1 20 22H4A2 2 0 0 1 2 20Z",
+      "closed": true
+    },
+    {
+      "d": "M5 15.5A2.5 2.5 0 0 1 7.5 13H16.5A2.5 2.5 0 0 1 19 15.5V15.5A2.5 2.5 0 0 1 16.5 18H7.5A2.5 2.5 0 0 1 5 15.5Z",
+      "closed": true
+    }
+  ]
+}

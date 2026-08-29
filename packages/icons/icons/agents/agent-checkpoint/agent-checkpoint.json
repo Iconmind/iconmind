@@ -1,0 +1,32 @@
+{
+  "slug": "agent-checkpoint",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Agent checkpoint",
+  "description": "An agent beside a flag on its pole — a checkpoint an agent can be restored to",
+  "tags": [
+    "checkpoint",
+    "flag",
+    "restore"
+  ],
+  "keywords": [
+    "agent checkpoint",
+    "save point",
+    "restore agent state"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M13 12V22",
+      "closed": false
+    },
+    {
+      "d": "M13 12L21 12L18 15L21 18L13 18",
+      "closed": false
+    }
+  ]
+}

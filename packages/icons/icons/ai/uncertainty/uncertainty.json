@@ -1,0 +1,28 @@
+{
+  "slug": "uncertainty",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Uncertainty",
+  "description": "A point floating above a wavering line — the uncertainty a model should admit in its answer",
+  "tags": [
+    "doubt",
+    "confidence",
+    "unsure"
+  ],
+  "keywords": [
+    "model uncertainty",
+    "epistemic uncertainty",
+    "confidence estimate"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M10 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 16L6 13L9 16L12 13L15 16L18 13L21 16",
+      "closed": false
+    }
+  ]
+}

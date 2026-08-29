@@ -1,0 +1,40 @@
+{
+  "slug": "quote-reply",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Quote reply",
+  "description": "A speech bubble with a quote bar inside — replying to a specific message",
+  "tags": [
+    "quote",
+    "reply",
+    "chat"
+  ],
+  "keywords": [
+    "quote reply",
+    "reply to message",
+    "quoted text"
+  ],
+  "family": "bubble",
+  "shapes": [
+    {
+      "d": "M3 6A2 2 0 0 1 5 4H19A2 2 0 0 1 21 6V14A2 2 0 0 1 19 16H5A2 2 0 0 1 3 14Z",
+      "closed": true
+    },
+    {
+      "d": "M7 16L7 19L10 16",
+      "closed": false
+    },
+    {
+      "d": "M7 7V13",
+      "closed": false
+    },
+    {
+      "d": "M10 9H17",
+      "closed": false
+    },
+    {
+      "d": "M10 12H17",
+      "closed": false
+    }
+  ]
+}

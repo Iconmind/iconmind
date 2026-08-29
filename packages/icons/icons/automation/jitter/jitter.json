@@ -1,0 +1,28 @@
+{
+  "slug": "jitter",
+  "category": "automation",
+  "subcategory": "schedule",
+  "name": "Jitter",
+  "description": "A line that wobbles unevenly above a baseline — random jitter added to a schedule",
+  "tags": [
+    "random",
+    "delay",
+    "retry"
+  ],
+  "keywords": [
+    "jitter",
+    "randomised delay",
+    "retry jitter"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 15L8 10L10 12L14 8L17 11L21 7",
+      "closed": false
+    },
+    {
+      "d": "M3 18H21",
+      "closed": false
+    }
+  ]
+}

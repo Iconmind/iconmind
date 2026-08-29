@@ -1,0 +1,28 @@
+{
+  "slug": "agent-active",
+  "category": "agents",
+  "subcategory": "agent-core",
+  "name": "Agent active",
+  "description": "An agent with a point lit at its centre — an agent that is awake and running",
+  "tags": [
+    "active",
+    "running",
+    "live"
+  ],
+  "keywords": [
+    "active agent",
+    "running agent",
+    "live agent"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

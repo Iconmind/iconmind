@@ -1,0 +1,36 @@
+{
+  "slug": "rtl",
+  "category": "devtools",
+  "subcategory": "editor",
+  "name": "Right to left",
+  "description": "Lines of text with an arrow pointing left — right-to-left text direction",
+  "tags": [
+    "direction",
+    "text",
+    "i18n"
+  ],
+  "keywords": [
+    "right to left",
+    "rtl text",
+    "bidirectional text"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 6H21",
+      "closed": false
+    },
+    {
+      "d": "M3 11H21",
+      "closed": false
+    },
+    {
+      "d": "M6 17H21",
+      "closed": false
+    },
+    {
+      "d": "M8.5 14.5L6 17L8.5 19.5",
+      "closed": false
+    }
+  ]
+}
