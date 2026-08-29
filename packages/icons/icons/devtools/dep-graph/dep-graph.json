@@ -1,0 +1,47 @@
+{
+  "slug": "dep-graph",
+  "category": "devtools",
+  "subcategory": "package",
+  "name": "Dependency graph",
+  "description": "Who needs whom",
+  "tags": [
+    "nodes",
+    "edges",
+    "imports"
+  ],
+  "aliases": [
+    "dependency-graph"
+  ],
+  "keywords": [
+    "dependency graph",
+    "imports",
+    "module graph"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M2 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 14a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 9.5L10 12",
+      "closed": false
+    },
+    {
+      "d": "M16.5 9.5L14 12",
+      "closed": false
+    },
+    {
+      "d": "M12 17V21",
+      "closed": false
+    }
+  ]
+}

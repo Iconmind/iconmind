@@ -1,0 +1,33 @@
+{
+  "slug": "bundle-analyze",
+  "category": "devtools",
+  "subcategory": "package",
+  "name": "Bundle analyze",
+  "description": "What is actually taking the space",
+  "tags": [
+    "treemap",
+    "size",
+    "inspect"
+  ],
+  "keywords": [
+    "bundle analyzer",
+    "treemap",
+    "bundle size",
+    "what's big"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 6A2 2 0 0 1 5 4H19A2 2 0 0 1 21 6V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M12 4V20",
+      "closed": false
+    },
+    {
+      "d": "M12 12H21",
+      "closed": false
+    }
+  ]
+}

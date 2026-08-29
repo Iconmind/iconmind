@@ -1,0 +1,33 @@
+{
+  "slug": "hot-reload",
+  "category": "devtools",
+  "subcategory": "package",
+  "name": "Hot reload",
+  "description": "Still running while the code changes under it",
+  "tags": [
+    "live",
+    "refresh",
+    "instant"
+  ],
+  "keywords": [
+    "hot reload",
+    "hmr",
+    "live reload",
+    "instant update"
+  ],
+  "family": "rotation",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V17A3 3 0 0 1 18 20H6A3 3 0 0 1 3 17V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M12 2L15 5L12 8",
+      "closed": false
+    },
+    {
+      "d": "M14.5 8L10 12.5L13 12.5L8.5 17",
+      "closed": false
+    }
+  ]
+}

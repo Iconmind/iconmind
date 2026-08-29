@@ -1,0 +1,33 @@
+{
+  "slug": "step-out",
+  "category": "devtools",
+  "subcategory": "debug",
+  "name": "Step out",
+  "description": "Finish this call and surface",
+  "tags": [
+    "return",
+    "up",
+    "debugger"
+  ],
+  "keywords": [
+    "step out",
+    "return from call",
+    "surface",
+    "debugger"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M3 18H21",
+      "closed": false
+    },
+    {
+      "d": "M12 4V14",
+      "closed": false
+    },
+    {
+      "d": "M9 7L12 4L15 7",
+      "closed": false
+    }
+  ]
+}

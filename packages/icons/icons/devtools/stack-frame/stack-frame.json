@@ -1,0 +1,41 @@
+{
+  "slug": "stack-frame",
+  "category": "devtools",
+  "subcategory": "debug",
+  "name": "Stack frame",
+  "description": "The one call you are standing in",
+  "tags": [
+    "frame",
+    "scope",
+    "current"
+  ],
+  "keywords": [
+    "stack frame",
+    "current frame",
+    "scope",
+    "call context"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M7 4H17",
+      "closed": false
+    },
+    {
+      "d": "M4 11A3 3 0 0 1 7 8H17A3 3 0 0 1 20 11V11A3 3 0 0 1 17 14H7A3 3 0 0 1 4 11Z",
+      "closed": true
+    },
+    {
+      "d": "M7 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11.5 11H16.5",
+      "closed": false
+    },
+    {
+      "d": "M7 18H17",
+      "closed": false
+    }
+  ]
+}

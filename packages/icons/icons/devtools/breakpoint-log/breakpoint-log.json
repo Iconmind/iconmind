@@ -1,0 +1,40 @@
+{
+  "slug": "breakpoint-log",
+  "category": "devtools",
+  "subcategory": "debug",
+  "name": "Logpoint",
+  "description": "Doesn't stop — just says it was here",
+  "tags": [
+    "log",
+    "print",
+    "gutter"
+  ],
+  "aliases": [
+    "logpoint"
+  ],
+  "keywords": [
+    "logpoint",
+    "log message",
+    "print here",
+    "tracepoint"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 8L9 16",
+      "closed": false
+    },
+    {
+      "d": "M12 10H21",
+      "closed": false
+    },
+    {
+      "d": "M12 14H21",
+      "closed": false
+    }
+  ]
+}

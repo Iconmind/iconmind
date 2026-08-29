@@ -1,0 +1,33 @@
+{
+  "slug": "source-map",
+  "category": "devtools",
+  "subcategory": "package",
+  "name": "Source map",
+  "description": "Where this line really came from",
+  "tags": [
+    "origin",
+    "pin",
+    "trace"
+  ],
+  "keywords": [
+    "source map",
+    "original source",
+    "stack mapping",
+    "debug build"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 9.5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12.5V16.5",
+      "closed": false
+    }
+  ]
+}

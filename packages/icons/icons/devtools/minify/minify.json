@@ -1,0 +1,37 @@
+{
+  "slug": "minify",
+  "category": "devtools",
+  "subcategory": "package",
+  "name": "Minify",
+  "description": "The same program, in far fewer bytes",
+  "tags": [
+    "compress",
+    "shrink",
+    "bytes"
+  ],
+  "keywords": [
+    "minify",
+    "compress code",
+    "smaller bundle",
+    "uglify"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M4 4A2 2 0 0 1 6 2H18A2 2 0 0 1 20 4V8A2 2 0 0 1 18 10H6A2 2 0 0 1 4 8Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12V15",
+      "closed": false
+    },
+    {
+      "d": "M10 14L12 16L14 14",
+      "closed": false
+    },
+    {
+      "d": "M8 20.25A1.75 1.75 0 0 1 9.75 18.5H14.25A1.75 1.75 0 0 1 16 20.25V20.25A1.75 1.75 0 0 1 14.25 22H9.75A1.75 1.75 0 0 1 8 20.25Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "breakpoint-conditional",
+  "category": "devtools",
+  "subcategory": "debug",
+  "name": "Conditional breakpoint",
+  "description": "Stops here, but only if",
+  "tags": [
+    "condition",
+    "if",
+    "gutter"
+  ],
+  "keywords": [
+    "conditional breakpoint",
+    "stop if",
+    "expression",
+    "debugger"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 9L9 12L6 15L3 12Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12H21",
+      "closed": false
+    },
+    {
+      "d": "M9 8L9 16",
+      "closed": false
+    }
+  ]
+}

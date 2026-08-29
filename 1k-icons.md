@@ -68,7 +68,7 @@ automatic patch release, so pushing every round would mint 100 releases.
 
 ## Phases
 
-Ten phases of ~100 (10 rounds). Rounds rotate through the categories in the order
+Ten phases of ~100. Rounds are 20 icons from round 5 on (the user's call, 2026-08-29) — two category slices per round, same gates, same sheet. Rounds rotate through the categories in the order
 listed — round 1 is the first 10 of `ai`, round 2 the first 10 of `agents`, and so
 on, wrapping back to `ai` and skipping a category once its list is exhausted. Every
 phase is therefore a cross-section of the whole set, which is what makes voice
@@ -154,7 +154,7 @@ In drawing order within each category. Ten consecutive names = one round.
 
 ### devtools (+90)
 
-  1. live-repl, watch-expression, breakpoint-conditional, breakpoint-log, debug-step-in, step-out, call-stack, stack-frame, frame-select, locals
+  1. live-breakpoint-conditional, breakpoint-log, step-out, stack-frame, debug-step-in, step-out, call-stack, stack-frame, frame-select, locals
   2. closure, this-binding, hot-reload, fast-refresh, source-map, minify, bundle-analyze, bundle-chunk, code-split, lazy-import
   3. circular-dep, dep-graph, peer-dep, dep-pin, lockfile-tool, multi-package, workspace-link, symlink, path-alias, barrel-file
   4. lint-fix, format-on-save, organize-imports, dead-code, unused-export, type-error, type-infer, generic-type, union-type, strict-mode
