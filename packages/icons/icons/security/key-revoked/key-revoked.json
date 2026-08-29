@@ -1,0 +1,40 @@
+{
+  "slug": "key-revoked",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Key revoked",
+  "description": "A key with an X beside it — a credential that has been revoked",
+  "tags": [
+    "key",
+    "revoked",
+    "invalid"
+  ],
+  "keywords": [
+    "revoked key",
+    "revoke credential",
+    "invalid key"
+  ],
+  "family": "key",
+  "shapes": [
+    {
+      "d": "M4 10a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 14V21",
+      "closed": false
+    },
+    {
+      "d": "M8 18H11",
+      "closed": false
+    },
+    {
+      "d": "M15.5 9.5L20.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M20.5 9.5L15.5 14.5",
+      "closed": false
+    }
+  ]
+}

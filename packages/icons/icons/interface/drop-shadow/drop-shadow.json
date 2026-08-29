@@ -1,0 +1,28 @@
+{
+  "slug": "drop-shadow",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Drop shadow",
+  "description": "A square with its shadow offset behind it — the drop shadow effect",
+  "tags": [
+    "shadow",
+    "effect",
+    "depth"
+  ],
+  "keywords": [
+    "drop shadow",
+    "shadow effect",
+    "elevation"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H14A2 2 0 0 1 16 5V14A2 2 0 0 1 14 16H5A2 2 0 0 1 3 14Z",
+      "closed": true
+    },
+    {
+      "d": "M7 19L19 19L19 7",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "fallback-model",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Fallback model",
+  "description": "A model core with a smaller one hanging beneath it — the fallback used when the first is unavailable",
+  "tags": [
+    "fallback",
+    "backup",
+    "resilience"
+  ],
+  "keywords": [
+    "fallback model",
+    "backup model",
+    "model failover"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M12 2.5L16.5 7L12 11.5L7.5 7Z",
+      "closed": true
+    },
+    {
+      "d": "M12 11.5V16",
+      "closed": false
+    },
+    {
+      "d": "M12 16L14.5 18.5L12 21L9.5 18.5Z",
+      "closed": true
+    }
+  ]
+}

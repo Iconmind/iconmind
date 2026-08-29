@@ -1,0 +1,36 @@
+{
+  "slug": "agent-outbox",
+  "category": "agents",
+  "subcategory": "communication",
+  "name": "Agent outbox",
+  "description": "An agent beside a tray with an arrow rising from it — the messages an agent has sent",
+  "tags": [
+    "outbox",
+    "sent",
+    "tray"
+  ],
+  "keywords": [
+    "agent outbox",
+    "sent messages",
+    "outgoing"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M7.69 3.37A4 4 0 1 1 4.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M12 15L12 21L22 21L22 15",
+      "closed": false
+    },
+    {
+      "d": "M17 8V13",
+      "closed": false
+    },
+    {
+      "d": "M14.5 10.5L17 8L19.5 10.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "agent-trend",
+  "category": "agents",
+  "subcategory": "reflection",
+  "name": "Agent trend",
+  "description": "An agent beside a rising line — how an agent's results trend over time",
+  "tags": [
+    "trend",
+    "metrics",
+    "improve"
+  ],
+  "keywords": [
+    "agent metrics",
+    "performance trend",
+    "agent analytics"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M12 20L15 17L17 19L21 15",
+      "closed": false
+    }
+  ]
+}

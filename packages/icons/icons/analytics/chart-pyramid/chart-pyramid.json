@@ -1,0 +1,36 @@
+{
+  "slug": "chart-pyramid",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Pyramid chart",
+  "description": "Bars widening toward the base — a pyramid chart of tiers",
+  "tags": [
+    "chart",
+    "tiers",
+    "pyramid"
+  ],
+  "keywords": [
+    "pyramid chart",
+    "tiered chart",
+    "population pyramid"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M8 5H16",
+      "closed": false
+    },
+    {
+      "d": "M6 10H18",
+      "closed": false
+    },
+    {
+      "d": "M4 15H20",
+      "closed": false
+    },
+    {
+      "d": "M2 20H22",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "barrel-file",
+  "category": "devtools",
+  "subcategory": "package",
+  "name": "Barrel file",
+  "description": "Several imports feeding into one file — the barrel file that re-exports a folder",
+  "tags": [
+    "export",
+    "index",
+    "module"
+  ],
+  "keywords": [
+    "barrel file",
+    "index re-export",
+    "module barrel"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M2 9H6",
+      "closed": false
+    },
+    {
+      "d": "M2 12H6",
+      "closed": false
+    },
+    {
+      "d": "M2 15H6",
+      "closed": false
+    }
+  ]
+}

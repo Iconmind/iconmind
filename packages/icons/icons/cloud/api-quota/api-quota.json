@@ -1,0 +1,40 @@
+{
+  "slug": "api-quota",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "API quota",
+  "description": "Bars held between brackets — the quota an API key may consume",
+  "tags": [
+    "quota",
+    "limit",
+    "usage"
+  ],
+  "keywords": [
+    "api quota",
+    "usage limit",
+    "quota remaining"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M9 10V16",
+      "closed": false
+    },
+    {
+      "d": "M12 7V16",
+      "closed": false
+    },
+    {
+      "d": "M15 12V16",
+      "closed": false
+    }
+  ]
+}

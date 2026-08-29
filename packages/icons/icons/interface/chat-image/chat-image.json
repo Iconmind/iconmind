@@ -1,0 +1,32 @@
+{
+  "slug": "chat-image",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Chat image",
+  "description": "A speech bubble holding a picture — an image sent in a conversation",
+  "tags": [
+    "image",
+    "photo",
+    "message"
+  ],
+  "keywords": [
+    "image message",
+    "send photo",
+    "picture in chat"
+  ],
+  "family": "bubble",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V15A2 2 0 0 1 19 17H5A2 2 0 0 1 3 15Z",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 20L10 17",
+      "closed": false
+    },
+    {
+      "d": "M7 13L10 10L12 12L15 9",
+      "closed": false
+    }
+  ]
+}

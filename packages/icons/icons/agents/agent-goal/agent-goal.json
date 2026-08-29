@@ -1,0 +1,32 @@
+{
+  "slug": "agent-goal",
+  "category": "agents",
+  "subcategory": "planning",
+  "name": "Agent goal",
+  "description": "An agent beside a target — the goal an agent is working toward",
+  "tags": [
+    "goal",
+    "target",
+    "objective"
+  ],
+  "keywords": [
+    "agent goal",
+    "objective",
+    "target outcome"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M12.5 15.5a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15.5 15.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "chaos-experiment",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Chaos experiment",
+  "description": "A flask with lightning inside — a chaos experiment that injects failure on purpose",
+  "tags": [
+    "chaos",
+    "failure",
+    "resilience"
+  ],
+  "keywords": [
+    "chaos engineering",
+    "chaos experiment",
+    "fault injection"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M10 3L14 3L14 9L20 15L20 21L4 21L4 15L10 9Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12L9 15L12 15L9 18",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "stop-reason",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Stop reason",
+  "description": "Text ending in a square stop mark — why the model stopped generating",
+  "tags": [
+    "stop",
+    "finish",
+    "reason"
+  ],
+  "keywords": [
+    "stop reason",
+    "finish reason",
+    "end of generation"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 6H21",
+      "closed": false
+    },
+    {
+      "d": "M3 11H21",
+      "closed": false
+    },
+    {
+      "d": "M3 16H12",
+      "closed": false
+    },
+    {
+      "d": "M15 14L19 14L19 18L15 18Z",
+      "closed": true
+    }
+  ]
+}

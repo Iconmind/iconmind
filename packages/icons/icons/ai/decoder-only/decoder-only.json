@@ -1,0 +1,32 @@
+{
+  "slug": "decoder-only",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Decoder-only",
+  "description": "A model core with an arrow leaving it — a decoder-only model that only generates",
+  "tags": [
+    "decoder",
+    "generate",
+    "architecture"
+  ],
+  "keywords": [
+    "decoder-only model",
+    "autoregressive model",
+    "gpt architecture"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M8 8L12 12L8 16L4 12Z",
+      "closed": true
+    },
+    {
+      "d": "M15 12H21",
+      "closed": false
+    },
+    {
+      "d": "M18.5 9.5L21 12L18.5 14.5",
+      "closed": false
+    }
+  ]
+}

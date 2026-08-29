@@ -1,0 +1,32 @@
+{
+  "slug": "vision-encoder",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Vision encoder",
+  "description": "A picture beside a model core — the vision encoder that turns pixels into tokens",
+  "tags": [
+    "vision",
+    "encoder",
+    "image"
+  ],
+  "keywords": [
+    "vision encoder",
+    "image encoder",
+    "vision tower"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H10A2 2 0 0 1 12 6V18A2 2 0 0 1 10 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M5 15L7 13L9 15",
+      "closed": false
+    },
+    {
+      "d": "M18.5 9L21.5 12L18.5 15L15.5 12Z",
+      "closed": true
+    }
+  ]
+}

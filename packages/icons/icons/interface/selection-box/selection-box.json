@@ -1,0 +1,40 @@
+{
+  "slug": "selection-box",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Selection box",
+  "description": "A box with a handle at each corner — the selection around an object on a canvas",
+  "tags": [
+    "select",
+    "handles",
+    "canvas"
+  ],
+  "keywords": [
+    "selection box",
+    "selection handles",
+    "selected object"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M6 8A2 2 0 0 1 8 6H16A2 2 0 0 1 18 8V16A2 2 0 0 1 16 18H8A2 2 0 0 1 6 16Z",
+      "closed": true
+    },
+    {
+      "d": "M2 3a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M20 3a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 21a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M20 21a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

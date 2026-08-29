@@ -1,0 +1,36 @@
+{
+  "slug": "webcam",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Webcam",
+  "description": "A camera lens on a small stand — the webcam used for calls and capture",
+  "tags": [
+    "camera",
+    "video",
+    "call"
+  ],
+  "keywords": [
+    "webcam",
+    "video call camera",
+    "camera on"
+  ],
+  "family": "device",
+  "shapes": [
+    {
+      "d": "M7 10a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 15V19",
+      "closed": false
+    },
+    {
+      "d": "M8 19H16",
+      "closed": false
+    }
+  ]
+}

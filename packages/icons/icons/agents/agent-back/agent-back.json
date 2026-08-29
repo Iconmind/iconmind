@@ -1,0 +1,28 @@
+{
+  "slug": "agent-back",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Agent back",
+  "description": "A chevron pointing back from an agent — rewind an agent to its previous step",
+  "tags": [
+    "back",
+    "previous",
+    "rewind"
+  ],
+  "keywords": [
+    "agent back",
+    "previous step",
+    "step backwards"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M10 7L5 12L10 17",
+      "closed": false
+    },
+    {
+      "d": "M18.69 8.37A4 4 0 1 1 15.31 8.37",
+      "closed": false
+    }
+  ]
+}

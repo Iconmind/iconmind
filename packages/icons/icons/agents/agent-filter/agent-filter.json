@@ -1,0 +1,28 @@
+{
+  "slug": "agent-filter",
+  "category": "agents",
+  "subcategory": "tool-use",
+  "name": "Agent filter",
+  "description": "An agent beside a funnel — an agent that filters and triages what comes in",
+  "tags": [
+    "filter",
+    "triage",
+    "funnel"
+  ],
+  "keywords": [
+    "filter agent",
+    "triage agent",
+    "screening"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M13 11L22 11L19 14L19 21L16 21L16 14Z",
+      "closed": true
+    }
+  ]
+}

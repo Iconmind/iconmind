@@ -1,0 +1,40 @@
+{
+  "slug": "chart-combo",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Combo chart",
+  "description": "Bars with a line running above them — a combo chart of two measures",
+  "tags": [
+    "chart",
+    "bars",
+    "line"
+  ],
+  "keywords": [
+    "combo chart",
+    "bar and line chart",
+    "dual measure"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M5 13V19",
+      "closed": false
+    },
+    {
+      "d": "M11 12V19",
+      "closed": false
+    },
+    {
+      "d": "M17 15V19",
+      "closed": false
+    },
+    {
+      "d": "M3 19H21",
+      "closed": false
+    },
+    {
+      "d": "M4 9L8 5L12 9L16 5L20 9",
+      "closed": false
+    }
+  ]
+}

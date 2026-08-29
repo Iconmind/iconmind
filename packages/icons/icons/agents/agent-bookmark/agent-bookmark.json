@@ -1,0 +1,28 @@
+{
+  "slug": "agent-bookmark",
+  "category": "agents",
+  "subcategory": "memory",
+  "name": "Agent bookmark",
+  "description": "An agent beside a bookmark — a place an agent marked to return to",
+  "tags": [
+    "bookmark",
+    "save",
+    "return"
+  ],
+  "keywords": [
+    "agent bookmark",
+    "saved place",
+    "marked for later"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M13 11L21 11L21 21L17 17L13 21Z",
+      "closed": true
+    }
+  ]
+}

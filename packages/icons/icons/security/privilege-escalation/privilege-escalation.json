@@ -1,0 +1,40 @@
+{
+  "slug": "privilege-escalation",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Privilege escalation",
+  "description": "A key with an arrow climbing beside it — privileges escalating beyond what was granted",
+  "tags": [
+    "privilege",
+    "escalate",
+    "attack"
+  ],
+  "keywords": [
+    "privilege escalation",
+    "elevated access",
+    "escalation attack"
+  ],
+  "family": "key",
+  "shapes": [
+    {
+      "d": "M4 10a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 14V21",
+      "closed": false
+    },
+    {
+      "d": "M8 18H11",
+      "closed": false
+    },
+    {
+      "d": "M14 15L19 10",
+      "closed": false
+    },
+    {
+      "d": "M15.5 10L19 10L19 13.5",
+      "closed": false
+    }
+  ]
+}

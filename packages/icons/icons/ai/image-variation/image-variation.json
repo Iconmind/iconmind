@@ -1,0 +1,36 @@
+{
+  "slug": "image-variation",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Image variation",
+  "description": "A picture with alternative takes beneath it — variations generated from one image",
+  "tags": [
+    "variation",
+    "alternatives",
+    "image"
+  ],
+  "keywords": [
+    "image variations",
+    "generate alternatives",
+    "remix image"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V13A2 2 0 0 1 19 15H5A2 2 0 0 1 3 13Z",
+      "closed": true
+    },
+    {
+      "d": "M6 11L10 7L13 10L17 6",
+      "closed": false
+    },
+    {
+      "d": "M8 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

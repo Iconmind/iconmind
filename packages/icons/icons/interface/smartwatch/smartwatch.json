@@ -1,0 +1,32 @@
+{
+  "slug": "smartwatch",
+  "category": "interface",
+  "subcategory": "time",
+  "name": "Smartwatch",
+  "description": "A watch face between its two straps — a smartwatch or wearable",
+  "tags": [
+    "watch",
+    "wearable",
+    "device"
+  ],
+  "keywords": [
+    "smartwatch",
+    "wearable",
+    "watch app"
+  ],
+  "family": "device",
+  "shapes": [
+    {
+      "d": "M7 8A2 2 0 0 1 9 6H15A2 2 0 0 1 17 8V16A2 2 0 0 1 15 18H9A2 2 0 0 1 7 16Z",
+      "closed": true
+    },
+    {
+      "d": "M9 3H15",
+      "closed": false
+    },
+    {
+      "d": "M9 21H15",
+      "closed": false
+    }
+  ]
+}

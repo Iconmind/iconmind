@@ -1,0 +1,36 @@
+{
+  "slug": "multi-head",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Multi-head",
+  "description": "Three heads rising from one model core — multi-head attention",
+  "tags": [
+    "attention",
+    "heads",
+    "parallel"
+  ],
+  "keywords": [
+    "multi-head attention",
+    "attention heads",
+    "transformer"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M7 3V8",
+      "closed": false
+    },
+    {
+      "d": "M12 3V8",
+      "closed": false
+    },
+    {
+      "d": "M17 3V8",
+      "closed": false
+    },
+    {
+      "d": "M12 11L16 15L12 19L8 15Z",
+      "closed": true
+    }
+  ]
+}

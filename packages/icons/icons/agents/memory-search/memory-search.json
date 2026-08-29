@@ -1,0 +1,40 @@
+{
+  "slug": "memory-search",
+  "category": "agents",
+  "subcategory": "memory",
+  "name": "Memory search",
+  "description": "A magnifying glass over stored notes — searching an agent's memory",
+  "tags": [
+    "memory",
+    "search",
+    "recall"
+  ],
+  "keywords": [
+    "memory search",
+    "recall",
+    "memory retrieval"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M2 6H9",
+      "closed": false
+    },
+    {
+      "d": "M2 11H9",
+      "closed": false
+    },
+    {
+      "d": "M2 16H9",
+      "closed": false
+    },
+    {
+      "d": "M12 10a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M19 13L21.5 15.5",
+      "closed": false
+    }
+  ]
+}

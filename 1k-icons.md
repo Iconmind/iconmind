@@ -31,7 +31,7 @@ prose here is documentation of the gates, never a substitute for them:
   identity is that AI concepts get real shapes, not the sparkle.
 - **Frame/rect radius**: r is 2, or h/2 for a capsule. Stub minimum 5×5 at r2.
   Frame gap lips ≥ 2.5.
-- Deliberate near-pairs stay: MCP chamfer convention, direction pairs
+- Deliberate near-pairs stay: MCP chamfer convention, direction pairs Round 19 adds chat-forward/chat-reply (0.88, mirrored arrow in the same bubble) and grant/least-privilege (0.88, plus/minus beside the same key).
   (backup/restore, zoom-in/out), the rotation family, mark families. They are grammar,
   not accidents — `icons:twins` findings against them are dismissed, not "fixed".
 

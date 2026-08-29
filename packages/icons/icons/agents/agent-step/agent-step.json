@@ -1,0 +1,28 @@
+{
+  "slug": "agent-step",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Agent step",
+  "description": "An agent with a chevron ahead of it — advance an agent by a single step",
+  "tags": [
+    "step",
+    "next",
+    "advance"
+  ],
+  "keywords": [
+    "step agent",
+    "single step",
+    "next action"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 8.37A4 4 0 1 1 5.31 8.37",
+      "closed": false
+    },
+    {
+      "d": "M14 7L19 12L14 17",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "cheap-model",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Cheap model",
+  "description": "A small model core beside a coin — the inexpensive model you route easy requests to",
+  "tags": [
+    "cost",
+    "cheap",
+    "routing"
+  ],
+  "keywords": [
+    "cheap model",
+    "low-cost inference",
+    "economy tier"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M6.5 8.5L10 12L6.5 15.5L3 12Z",
+      "closed": true
+    },
+    {
+      "d": "M13 12a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17.5 10.5V13.5",
+      "closed": false
+    }
+  ]
+}

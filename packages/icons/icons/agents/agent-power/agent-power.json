@@ -1,0 +1,32 @@
+{
+  "slug": "agent-power",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Agent power",
+  "description": "An agent beside a power symbol — switch an agent on or off",
+  "tags": [
+    "power",
+    "on",
+    "off"
+  ],
+  "keywords": [
+    "agent power",
+    "turn agent on",
+    "switch off agent"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M19.68 12.82A4.5 4.5 0 1 1 13.32 12.82",
+      "closed": false
+    },
+    {
+      "d": "M16.5 10V15",
+      "closed": false
+    }
+  ]
+}

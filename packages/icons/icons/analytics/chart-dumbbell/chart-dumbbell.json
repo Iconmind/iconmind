@@ -1,0 +1,44 @@
+{
+  "slug": "chart-dumbbell",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Dumbbell chart",
+  "description": "Pairs of points joined by a bar — a dumbbell chart comparing two values per row",
+  "tags": [
+    "chart",
+    "compare",
+    "range"
+  ],
+  "keywords": [
+    "dumbbell chart",
+    "before and after",
+    "range comparison"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 8H13",
+      "closed": false
+    },
+    {
+      "d": "M7 16a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 16a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 16H17",
+      "closed": false
+    }
+  ]
+}

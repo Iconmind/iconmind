@@ -1,0 +1,36 @@
+{
+  "slug": "nerf",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Radiance field",
+  "description": "Rays converging on a point and leaving as one — a neural radiance field rendering a view",
+  "tags": [
+    "3d",
+    "rays",
+    "render"
+  ],
+  "keywords": [
+    "nerf",
+    "neural radiance field",
+    "novel view synthesis"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 4L8 9",
+      "closed": false
+    },
+    {
+      "d": "M3 20L8 15",
+      "closed": false
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 12H21",
+      "closed": false
+    }
+  ]
+}

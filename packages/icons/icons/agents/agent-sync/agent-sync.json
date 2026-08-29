@@ -1,0 +1,40 @@
+{
+  "slug": "agent-sync",
+  "category": "agents",
+  "subcategory": "communication",
+  "name": "Agent sync",
+  "description": "An agent beside two arrows going both ways — agents syncing state with each other",
+  "tags": [
+    "sync",
+    "exchange",
+    "state"
+  ],
+  "keywords": [
+    "agent sync",
+    "state exchange",
+    "two-way sync"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M13 12H21",
+      "closed": false
+    },
+    {
+      "d": "M18.5 9.5L21 12L18.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M15 19H21",
+      "closed": false
+    },
+    {
+      "d": "M17.5 16.5L15 19L17.5 21.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "chart-radial",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Radial chart",
+  "description": "Arcs of different lengths around one centre — a radial bar chart",
+  "tags": [
+    "chart",
+    "radial",
+    "arcs"
+  ],
+  "keywords": [
+    "radial bar chart",
+    "circular progress chart",
+    "radial gauge"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M12 8A4 4 0 0 1 12 16",
+      "closed": false
+    },
+    {
+      "d": "M12 5A7 7 0 1 1 5 12",
+      "closed": false
+    },
+    {
+      "d": "M12 2A10 10 0 1 1 4.93 4.93",
+      "closed": false
+    }
+  ]
+}

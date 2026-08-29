@@ -1,0 +1,40 @@
+{
+  "slug": "needle-haystack",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Needle in a haystack",
+  "description": "One point hidden among many lines — the needle-in-a-haystack test of long-context recall",
+  "tags": [
+    "recall",
+    "long-context",
+    "test"
+  ],
+  "keywords": [
+    "needle in a haystack",
+    "long context recall",
+    "retrieval test"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 4H21",
+      "closed": false
+    },
+    {
+      "d": "M3 8H21",
+      "closed": false
+    },
+    {
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 16H21",
+      "closed": false
+    },
+    {
+      "d": "M3 20H21",
+      "closed": false
+    }
+  ]
+}

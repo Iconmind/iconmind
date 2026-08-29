@@ -1,0 +1,40 @@
+{
+  "slug": "memory-consolidate",
+  "category": "agents",
+  "subcategory": "memory",
+  "name": "Memory consolidate",
+  "description": "Several notes folding into one compact memory — consolidating what an agent has learned",
+  "tags": [
+    "memory",
+    "consolidate",
+    "compact"
+  ],
+  "keywords": [
+    "memory consolidation",
+    "compact memories",
+    "summarise memory"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M2 7H8",
+      "closed": false
+    },
+    {
+      "d": "M2 12H8",
+      "closed": false
+    },
+    {
+      "d": "M2 17H8",
+      "closed": false
+    },
+    {
+      "d": "M10 9.5L12.5 12L10 14.5",
+      "closed": false
+    },
+    {
+      "d": "M15.5 12A2 2 0 0 1 17.5 10H20A2 2 0 0 1 22 12V12A2 2 0 0 1 20 14H17.5A2 2 0 0 1 15.5 12Z",
+      "closed": true
+    }
+  ]
+}

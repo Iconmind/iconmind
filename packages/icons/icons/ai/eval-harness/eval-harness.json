@@ -1,0 +1,32 @@
+{
+  "slug": "eval-harness",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Eval harness",
+  "description": "A play button and a check inside one frame — the harness that runs evaluations and grades them",
+  "tags": [
+    "eval",
+    "run",
+    "grade"
+  ],
+  "keywords": [
+    "evaluation harness",
+    "eval runner",
+    "benchmark harness"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 8L8 14L11 11Z",
+      "closed": true
+    },
+    {
+      "d": "M12.5 15.5L14.5 17.5L18 14",
+      "closed": false
+    }
+  ]
+}

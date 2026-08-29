@@ -1,0 +1,36 @@
+{
+  "slug": "knowledge-cutoff",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Knowledge cutoff",
+  "description": "A timeline that stops at a bar, with nothing known beyond it — a model's knowledge cutoff",
+  "tags": [
+    "cutoff",
+    "date",
+    "training"
+  ],
+  "keywords": [
+    "knowledge cutoff",
+    "training data cutoff",
+    "cutoff date"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M2 12H12",
+      "closed": false
+    },
+    {
+      "d": "M15 7V17",
+      "closed": false
+    },
+    {
+      "d": "M18 9.5L21 12.5",
+      "closed": false
+    },
+    {
+      "d": "M21 9.5L18 12.5",
+      "closed": false
+    }
+  ]
+}

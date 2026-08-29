@@ -1,0 +1,28 @@
+{
+  "slug": "runner",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Runner",
+  "description": "A play button inside a box — the runner that executes a job or a test suite",
+  "tags": [
+    "run",
+    "job",
+    "execute"
+  ],
+  "keywords": [
+    "job runner",
+    "test runner",
+    "ci runner"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M10 8L10 16L14 12Z",
+      "closed": true
+    }
+  ]
+}

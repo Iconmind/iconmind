@@ -1,0 +1,36 @@
+{
+  "slug": "confidence-score",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Confidence score",
+  "description": "A check beside a set of score bars — how confident the model is in its answer",
+  "tags": [
+    "confidence",
+    "score",
+    "certainty"
+  ],
+  "keywords": [
+    "confidence score",
+    "answer confidence",
+    "certainty estimate"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M2 14L5 17L10 12",
+      "closed": false
+    },
+    {
+      "d": "M14 12V18",
+      "closed": false
+    },
+    {
+      "d": "M17.5 8V18",
+      "closed": false
+    },
+    {
+      "d": "M21 14V18",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "encoder-only",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Encoder-only",
+  "description": "An arrow entering a model core — an encoder-only model that reads and represents",
+  "tags": [
+    "encoder",
+    "represent",
+    "architecture"
+  ],
+  "keywords": [
+    "encoder-only model",
+    "bert architecture",
+    "representation model"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M3 12H9",
+      "closed": false
+    },
+    {
+      "d": "M6.5 9.5L9 12L6.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M16 8L20 12L16 16L12 12Z",
+      "closed": true
+    }
+  ]
+}

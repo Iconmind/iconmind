@@ -1,0 +1,36 @@
+{
+  "slug": "compose",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Compose",
+  "description": "A speech bubble with a plus inside — start a new message or conversation",
+  "tags": [
+    "new",
+    "message",
+    "write"
+  ],
+  "keywords": [
+    "compose message",
+    "new conversation",
+    "new chat"
+  ],
+  "family": "bubble",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V15A2 2 0 0 1 19 17H5A2 2 0 0 1 3 15Z",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 20L10 17",
+      "closed": false
+    },
+    {
+      "d": "M9 10H15",
+      "closed": false
+    },
+    {
+      "d": "M12 7V13",
+      "closed": false
+    }
+  ]
+}

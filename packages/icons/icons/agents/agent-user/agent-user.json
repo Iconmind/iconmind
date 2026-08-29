@@ -1,0 +1,32 @@
+{
+  "slug": "agent-user",
+  "category": "agents",
+  "subcategory": "communication",
+  "name": "Agent and user",
+  "description": "An agent beside a person — the human an agent works with and answers to",
+  "tags": [
+    "user",
+    "person",
+    "human"
+  ],
+  "keywords": [
+    "agent and user",
+    "human in the loop",
+    "user interaction"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M14.5 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12.5 21A4 4 0 0 1 20.5 21",
+      "closed": false
+    }
+  ]
+}
