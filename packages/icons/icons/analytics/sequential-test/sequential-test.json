@@ -1,0 +1,39 @@
+{
+  "slug": "sequential-test",
+  "category": "analytics",
+  "subcategory": "experiment",
+  "name": "Sequential test",
+  "description": "Peek early, stop honestly",
+  "tags": [
+    "stages",
+    "stop",
+    "checks"
+  ],
+  "keywords": [
+    "sequential testing",
+    "early stopping"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 8L5 10L8 7",
+      "closed": false
+    },
+    {
+      "d": "M10 8L12 10L15 7",
+      "closed": false
+    },
+    {
+      "d": "M17.5 7L21 10.5",
+      "closed": false
+    },
+    {
+      "d": "M21 7L17.5 10.5",
+      "closed": false
+    },
+    {
+      "d": "M3 16.5H21",
+      "closed": false
+    }
+  ]
+}

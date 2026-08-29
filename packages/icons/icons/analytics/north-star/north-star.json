@@ -1,0 +1,42 @@
+{
+  "slug": "north-star",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "North star",
+  "description": "The one number everything else serves",
+  "tags": [
+    "guiding",
+    "primary",
+    "star"
+  ],
+  "aliases": [
+    "north-star-metric"
+  ],
+  "keywords": [
+    "north star metric",
+    "primary metric"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 7L17 12L12 17L7 12Z",
+      "closed": true
+    },
+    {
+      "d": "M4 4L7 7",
+      "closed": false
+    },
+    {
+      "d": "M20 4L17 7",
+      "closed": false
+    },
+    {
+      "d": "M4 20L7 17",
+      "closed": false
+    },
+    {
+      "d": "M20 20L17 17",
+      "closed": false
+    }
+  ]
+}

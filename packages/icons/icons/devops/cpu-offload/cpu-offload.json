@@ -1,0 +1,38 @@
+{
+  "slug": "cpu-offload",
+  "category": "devops",
+  "subcategory": "infrastructure",
+  "name": "CPU offload",
+  "description": "What the card cannot hold, the RAM will",
+  "tags": [
+    "spill",
+    "memory",
+    "down"
+  ],
+  "aliases": [
+    "ram-offload"
+  ],
+  "keywords": [
+    "cpu offload",
+    "spill to ram"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14 2H19A3 3 0 0 1 22 5V8A3 3 0 0 1 19 11H5A3 3 0 0 1 2 8V5L5 2H10",
+      "closed": true
+    },
+    {
+      "d": "M12 11V13.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 12.5L12 15L14.5 12.5",
+      "closed": false
+    },
+    {
+      "d": "M6 19.75A2.25 2.25 0 0 1 8.25 17.5H15.75A2.25 2.25 0 0 1 18 19.75V19.75A2.25 2.25 0 0 1 15.75 22H8.25A2.25 2.25 0 0 1 6 19.75Z",
+      "closed": true
+    }
+  ]
+}

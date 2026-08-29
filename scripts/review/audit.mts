@@ -54,6 +54,9 @@ const ANCHORED = new Set([
   "analytics/leaderboard-internal", "analytics/uplift", "analytics/regression-eval",
   "analytics/funnel-leak",
   "devtools/flame-graph", "security/sandbag",
+  "analytics/novelty-effect",
+  // Bracket-led compositions lean on their wall — bin-pack's own reason.
+  "ai/kv-evict",
   // A boom gate hinges on its post; a warm pool sits on the ground it is dug into.
   "devops/admission-control", "devops/prewarm-pool",
   // Bars stand on their baseline; a funnel hangs from its mouth; an axes chart
@@ -61,6 +64,9 @@ const ANCHORED = new Set([
   "analytics/leaderboard-internal", "analytics/uplift", "analytics/regression-eval",
   "analytics/funnel-leak",
   "devtools/flame-graph", "security/sandbag",
+  "analytics/novelty-effect",
+  // Bracket-led compositions lean on their wall — bin-pack's own reason.
+  "ai/kv-evict",
 ]);
 
 function inkStats(svg: string, size: number) {

@@ -1,0 +1,34 @@
+{
+  "slug": "self-heal",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Self-heal",
+  "description": "Cracked at noon, whole by one",
+  "tags": [
+    "repair",
+    "auto",
+    "patch"
+  ],
+  "aliases": [
+    "auto-heal"
+  ],
+  "keywords": [
+    "self healing",
+    "auto remediation"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V18A2 2 0 0 1 18 20H6A2 2 0 0 1 4 18Z",
+      "closed": true
+    },
+    {
+      "d": "M11 4.5L8.5 7L11.5 10",
+      "closed": false
+    },
+    {
+      "d": "M12.5 13A2 2 0 0 1 14.5 11H17A2 2 0 0 1 19 13V13A2 2 0 0 1 17 15H14.5A2 2 0 0 1 12.5 13Z",
+      "closed": true
+    }
+  ]
+}

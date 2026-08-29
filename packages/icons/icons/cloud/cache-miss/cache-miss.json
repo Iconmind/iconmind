@@ -1,0 +1,35 @@
+{
+  "slug": "cache-miss",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Cache miss",
+  "description": "Not here; go ask the origin",
+  "tags": [
+    "lens",
+    "cross",
+    "slow"
+  ],
+  "keywords": [
+    "cache miss",
+    "not cached"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 11a7 7 0 1 0 14 0a7 7 0 1 0 -14 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8.5 8.5L13.5 13.5",
+      "closed": false
+    },
+    {
+      "d": "M13.5 8.5L8.5 13.5",
+      "closed": false
+    },
+    {
+      "d": "M16 16L19.5 19.5",
+      "closed": false
+    }
+  ]
+}

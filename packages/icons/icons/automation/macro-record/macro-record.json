@@ -1,0 +1,31 @@
+{
+  "slug": "macro-record",
+  "category": "automation",
+  "subcategory": "action",
+  "name": "Record macro",
+  "description": "Do it once; it watched",
+  "tags": [
+    "record",
+    "repeat",
+    "capture"
+  ],
+  "keywords": [
+    "record macro",
+    "capture actions"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 13H21",
+      "closed": false
+    },
+    {
+      "d": "M9 18H21",
+      "closed": false
+    }
+  ]
+}

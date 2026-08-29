@@ -1,0 +1,35 @@
+{
+  "slug": "confidence-interval",
+  "category": "analytics",
+  "subcategory": "experiment",
+  "name": "Confidence interval",
+  "description": "The truth is somewhere on this line",
+  "tags": [
+    "range",
+    "error",
+    "bounds"
+  ],
+  "keywords": [
+    "confidence interval",
+    "error bars"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M5 8V16",
+      "closed": false
+    },
+    {
+      "d": "M5 12H19",
+      "closed": false
+    },
+    {
+      "d": "M19 8V16",
+      "closed": false
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

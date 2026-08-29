@@ -1,0 +1,27 @@
+{
+  "slug": "runbook-auto",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Automated runbook",
+  "description": "The page that runs itself at 3am",
+  "tags": [
+    "auto",
+    "steps",
+    "respond"
+  ],
+  "keywords": [
+    "automated runbook",
+    "auto response"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M13.5 8L9.5 12L12.5 12L8.5 16",
+      "closed": false
+    }
+  ]
+}

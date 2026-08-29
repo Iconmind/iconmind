@@ -1,0 +1,39 @@
+{
+  "slug": "temperature-high",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "High temperature",
+  "description": "Let it gamble a little",
+  "tags": [
+    "random",
+    "hot",
+    "creative"
+  ],
+  "keywords": [
+    "high temperature",
+    "creative sampling"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 6A3 3 0 0 1 12 3H12A3 3 0 0 1 15 6V12A3 3 0 0 1 12 15H12A3 3 0 0 1 9 12Z",
+      "closed": true
+    },
+    {
+      "d": "M9 18a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 6V14.5",
+      "closed": false
+    },
+    {
+      "d": "M16.5 6H19",
+      "closed": false
+    },
+    {
+      "d": "M16.5 10H19",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "cost-anomaly",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Cost anomaly",
+  "description": "The bill did something new last night",
+  "tags": [
+    "spike",
+    "bill",
+    "alert"
+  ],
+  "keywords": [
+    "cost anomaly",
+    "billing spike"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 7L8 3L12 7L16 3L20 7",
+      "closed": false
+    },
+    {
+      "d": "M7 15a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

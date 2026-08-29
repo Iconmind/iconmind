@@ -1,0 +1,39 @@
+{
+  "slug": "temperature-low",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Low temperature",
+  "description": "Say the likeliest thing, always",
+  "tags": [
+    "precise",
+    "cold",
+    "safe"
+  ],
+  "keywords": [
+    "low temperature",
+    "deterministic sampling"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 6A3 3 0 0 1 12 3H12A3 3 0 0 1 15 6V12A3 3 0 0 1 12 15H12A3 3 0 0 1 9 12Z",
+      "closed": true
+    },
+    {
+      "d": "M9 18a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 11V14.5",
+      "closed": false
+    },
+    {
+      "d": "M16.5 6H19",
+      "closed": false
+    },
+    {
+      "d": "M16.5 10H19",
+      "closed": false
+    }
+  ]
+}

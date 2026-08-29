@@ -1,0 +1,43 @@
+{
+  "slug": "resequencer",
+  "category": "automation",
+  "subcategory": "integration",
+  "name": "Resequencer",
+  "description": "Arrived jumbled; delivered in order",
+  "tags": [
+    "order",
+    "sort",
+    "queue"
+  ],
+  "keywords": [
+    "resequencer",
+    "reorder messages"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 9.5L13 12L10.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M16 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

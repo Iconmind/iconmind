@@ -1,0 +1,31 @@
+{
+  "slug": "claim-check",
+  "category": "automation",
+  "subcategory": "integration",
+  "name": "Claim check",
+  "description": "Leave the parcel; keep the stub",
+  "tags": [
+    "ticket",
+    "store",
+    "fetch"
+  ],
+  "keywords": [
+    "claim check pattern",
+    "reference message"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 4L11 4L14 7L11 10L3 10Z",
+      "closed": true
+    },
+    {
+      "d": "M5 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 16A2 2 0 0 1 10 14H19A2 2 0 0 1 21 16V18.5A2 2 0 0 1 19 20.5H10A2 2 0 0 1 8 18.5Z",
+      "closed": true
+    }
+  ]
+}

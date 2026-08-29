@@ -1,0 +1,38 @@
+{
+  "slug": "daily-active",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Daily active",
+  "description": "Who actually showed up today",
+  "tags": [
+    "dau",
+    "calendar",
+    "people"
+  ],
+  "aliases": [
+    "dau-metric"
+  ],
+  "keywords": [
+    "daily active users",
+    "dau"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 6A2 2 0 0 1 5 4H19A2 2 0 0 1 21 6V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M3 9H21",
+      "closed": false
+    },
+    {
+      "d": "M6 14.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 14.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

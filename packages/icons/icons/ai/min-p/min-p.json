@@ -1,0 +1,31 @@
+{
+  "slug": "min-p",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Min-p",
+  "description": "Below the floor, you do not exist",
+  "tags": [
+    "floor",
+    "cutoff",
+    "sample"
+  ],
+  "keywords": [
+    "min-p",
+    "probability floor"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M7 5V17",
+      "closed": false
+    },
+    {
+      "d": "M17 11V17",
+      "closed": false
+    },
+    {
+      "d": "M3 14H21",
+      "closed": false
+    }
+  ]
+}

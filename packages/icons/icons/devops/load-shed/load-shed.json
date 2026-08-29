@@ -1,0 +1,35 @@
+{
+  "slug": "load-shed",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Load shedding",
+  "description": "Better to spill some than sink",
+  "tags": [
+    "overflow",
+    "drop",
+    "protect"
+  ],
+  "keywords": [
+    "load shedding",
+    "drop requests"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 5L4 14L20 14L20 5",
+      "closed": false
+    },
+    {
+      "d": "M7 8H17",
+      "closed": false
+    },
+    {
+      "d": "M17 17V19.5",
+      "closed": false
+    },
+    {
+      "d": "M13 18.5V21",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "annotation-ui",
+  "category": "analytics",
+  "subcategory": "llm-observability",
+  "name": "Annotation UI",
+  "description": "The screen where the labels happen",
+  "tags": [
+    "label",
+    "screen",
+    "tag"
+  ],
+  "keywords": [
+    "annotation interface",
+    "labeling ui"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 5H21",
+      "closed": false
+    },
+    {
+      "d": "M3 10H21",
+      "closed": false
+    },
+    {
+      "d": "M3 14L10 14L13 17L10 20L3 20Z",
+      "closed": true
+    },
+    {
+      "d": "M17 14V20",
+      "closed": false
+    }
+  ]
+}

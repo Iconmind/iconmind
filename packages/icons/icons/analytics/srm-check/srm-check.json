@@ -1,0 +1,42 @@
+{
+  "slug": "srm-check",
+  "category": "analytics",
+  "subcategory": "experiment",
+  "name": "SRM check",
+  "description": "The split is not the split you asked for",
+  "tags": [
+    "ratio",
+    "skew",
+    "alarm"
+  ],
+  "aliases": [
+    "sample-ratio-mismatch"
+  ],
+  "keywords": [
+    "srm",
+    "sample ratio mismatch"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 5V19",
+      "closed": false
+    },
+    {
+      "d": "M15 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

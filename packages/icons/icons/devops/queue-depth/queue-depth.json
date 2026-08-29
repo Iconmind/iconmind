@@ -1,0 +1,35 @@
+{
+  "slug": "queue-depth",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Queue depth",
+  "description": "How much is waiting, right now",
+  "tags": [
+    "backlog",
+    "bars",
+    "waiting"
+  ],
+  "keywords": [
+    "queue depth",
+    "backlog size"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M6.5 4L4 4L4 20L6.5 20",
+      "closed": false
+    },
+    {
+      "d": "M10 9V18",
+      "closed": false
+    },
+    {
+      "d": "M14 6V18",
+      "closed": false
+    },
+    {
+      "d": "M18 12V18",
+      "closed": false
+    }
+  ]
+}

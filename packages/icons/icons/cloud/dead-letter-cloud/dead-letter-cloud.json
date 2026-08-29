@@ -1,0 +1,39 @@
+{
+  "slug": "dead-letter-cloud",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Dead letter",
+  "description": "Delivered nowhere, kept anyway",
+  "tags": [
+    "failed",
+    "envelope",
+    "queue"
+  ],
+  "aliases": [
+    "dlq"
+  ],
+  "keywords": [
+    "dead letter queue",
+    "dlq",
+    "failed messages"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 8A2 2 0 0 1 5 6H19A2 2 0 0 1 21 8V16A2 2 0 0 1 19 18H5A2 2 0 0 1 3 16Z",
+      "closed": true
+    },
+    {
+      "d": "M6 7L12 13L18 7",
+      "closed": false
+    },
+    {
+      "d": "M16 19L19 22",
+      "closed": false
+    },
+    {
+      "d": "M19 19L16 22",
+      "closed": false
+    }
+  ]
+}

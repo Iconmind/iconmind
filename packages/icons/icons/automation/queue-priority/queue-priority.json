@@ -1,0 +1,35 @@
+{
+  "slug": "queue-priority",
+  "category": "automation",
+  "subcategory": "schedule",
+  "name": "Priority queue",
+  "description": "The important one boards first",
+  "tags": [
+    "first",
+    "queue",
+    "diamond"
+  ],
+  "keywords": [
+    "priority queue",
+    "jump the line"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5.5 8.5L9 12L5.5 15.5L2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17.5 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 18H21",
+      "closed": false
+    }
+  ]
+}

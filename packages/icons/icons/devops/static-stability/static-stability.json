@@ -1,0 +1,39 @@
+{
+  "slug": "static-stability",
+  "category": "devops",
+  "subcategory": "infrastructure",
+  "name": "Static stability",
+  "description": "The weather changes; the box does not",
+  "tags": [
+    "steady",
+    "calm",
+    "resilient"
+  ],
+  "keywords": [
+    "static stability",
+    "steady state"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M8 10A2 2 0 0 1 10 8H14A2 2 0 0 1 16 10V14A2 2 0 0 1 14 16H10A2 2 0 0 1 8 14Z",
+      "closed": true
+    },
+    {
+      "d": "M3 4H10.5",
+      "closed": false
+    },
+    {
+      "d": "M10.5 2L12.5 4L10.5 6",
+      "closed": false
+    },
+    {
+      "d": "M13.5 20H21",
+      "closed": false
+    },
+    {
+      "d": "M13.5 18L11.5 20L13.5 22",
+      "closed": false
+    }
+  ]
+}

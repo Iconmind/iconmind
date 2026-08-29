@@ -1,0 +1,39 @@
+{
+  "slug": "continuous-batch",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Continuous batching",
+  "description": "New requests board the moving train",
+  "tags": [
+    "stream",
+    "join",
+    "serve"
+  ],
+  "keywords": [
+    "continuous batching",
+    "in-flight batching"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M4 4a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 8a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 12H19A3 3 0 0 1 22 15V18A3 3 0 0 1 19 21H5A3 3 0 0 1 2 18V15L5 12H10",
+      "closed": true
+    },
+    {
+      "d": "M5 16.5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

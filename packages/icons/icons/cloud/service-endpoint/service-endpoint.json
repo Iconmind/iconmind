@@ -1,0 +1,35 @@
+{
+  "slug": "service-endpoint",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Service endpoint",
+  "description": "The socket in the private wall",
+  "tags": [
+    "plug",
+    "socket",
+    "private"
+  ],
+  "keywords": [
+    "service endpoint",
+    "private socket"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 11A2 2 0 0 1 6 9H8.5A2 2 0 0 1 10.5 11V13.5A2 2 0 0 1 8.5 15.5H6A2 2 0 0 1 4 13.5Z",
+      "closed": true
+    },
+    {
+      "d": "M11.5 10.5H14",
+      "closed": false
+    },
+    {
+      "d": "M11.5 13.5H14",
+      "closed": false
+    },
+    {
+      "d": "M17.5 4V20",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "queue-worker",
+  "category": "automation",
+  "subcategory": "integration",
+  "name": "Queue worker",
+  "description": "The box the queue drains into",
+  "tags": [
+    "consumer",
+    "jobs",
+    "drain"
+  ],
+  "aliases": [
+    "consumer-worker"
+  ],
+  "keywords": [
+    "queue worker",
+    "consumer",
+    "job runner"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 9L12 11.5L14.5 9",
+      "closed": false
+    },
+    {
+      "d": "M7 16.5A2 2 0 0 1 9 14.5H15A2 2 0 0 1 17 16.5V19.5A2 2 0 0 1 15 21.5H9A2 2 0 0 1 7 19.5Z",
+      "closed": true
+    }
+  ]
+}

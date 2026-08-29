@@ -1,0 +1,27 @@
+{
+  "slug": "novelty-effect",
+  "category": "analytics",
+  "subcategory": "experiment",
+  "name": "Novelty effect",
+  "description": "The spike that was only curiosity",
+  "tags": [
+    "spike",
+    "settle",
+    "temporary"
+  ],
+  "keywords": [
+    "novelty effect",
+    "temporary lift"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 3L3 21L21 21",
+      "closed": false
+    },
+    {
+      "d": "M5 15L10 10L14 14L19 14",
+      "closed": false
+    }
+  ]
+}

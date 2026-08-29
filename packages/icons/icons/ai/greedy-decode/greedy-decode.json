@@ -1,0 +1,38 @@
+{
+  "slug": "greedy-decode",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Greedy decode",
+  "description": "The straight road, every single step",
+  "tags": [
+    "argmax",
+    "straight",
+    "deterministic"
+  ],
+  "aliases": [
+    "argmax-decode"
+  ],
+  "keywords": [
+    "greedy decoding",
+    "argmax"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M2 12H17.5",
+      "closed": false
+    },
+    {
+      "d": "M17.5 9.5L20 12L17.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M6 12L11 7",
+      "closed": false
+    },
+    {
+      "d": "M10 12L15 17",
+      "closed": false
+    }
+  ]
+}

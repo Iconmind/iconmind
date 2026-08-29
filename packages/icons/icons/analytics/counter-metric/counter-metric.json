@@ -1,0 +1,39 @@
+{
+  "slug": "counter-metric",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Counter metric",
+  "description": "What must not fall while this rises",
+  "tags": [
+    "balance",
+    "opposite",
+    "watch"
+  ],
+  "keywords": [
+    "counter metric",
+    "guardrail pair"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M7 8.5V17.5",
+      "closed": false
+    },
+    {
+      "d": "M4.5 9L7 6.5L9.5 9",
+      "closed": false
+    },
+    {
+      "d": "M17 6.5V15.5",
+      "closed": false
+    },
+    {
+      "d": "M14.5 13L17 15.5L19.5 13",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "outbox",
+  "category": "automation",
+  "subcategory": "integration",
+  "name": "Outbox",
+  "description": "Written here first, sent from here always",
+  "tags": [
+    "send",
+    "tray",
+    "up"
+  ],
+  "aliases": [
+    "outbox-pattern"
+  ],
+  "keywords": [
+    "outbox pattern",
+    "transactional outbox"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 10L4 20L20 20L20 10",
+      "closed": false
+    },
+    {
+      "d": "M12 4V9",
+      "closed": false
+    },
+    {
+      "d": "M9.5 5.5L12 3L14.5 5.5",
+      "closed": false
+    }
+  ]
+}

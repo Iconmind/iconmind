@@ -1,0 +1,35 @@
+{
+  "slug": "form-step",
+  "category": "automation",
+  "subcategory": "human-loop",
+  "name": "Form step",
+  "description": "The workflow pauses for a human's pen",
+  "tags": [
+    "input",
+    "human",
+    "fill"
+  ],
+  "keywords": [
+    "form step",
+    "human input step"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M7 8H17",
+      "closed": false
+    },
+    {
+      "d": "M7 13H14",
+      "closed": false
+    },
+    {
+      "d": "M16.5 11V15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "compensate",
+  "category": "automation",
+  "subcategory": "workflow",
+  "name": "Compensate",
+  "description": "The undo, travelling the road back",
+  "tags": [
+    "undo",
+    "reverse",
+    "saga"
+  ],
+  "aliases": [
+    "compensating-action"
+  ],
+  "keywords": [
+    "compensation",
+    "undo action"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M4 8H17",
+      "closed": false
+    },
+    {
+      "d": "M17 5.5L19.5 8L17 10.5",
+      "closed": false
+    },
+    {
+      "d": "M7 16H20",
+      "closed": false
+    },
+    {
+      "d": "M7 13.5L4.5 16L7 18.5",
+      "closed": false
+    }
+  ]
+}

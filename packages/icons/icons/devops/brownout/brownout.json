@@ -1,0 +1,27 @@
+{
+  "slug": "brownout",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Brownout",
+  "description": "Still on — just less of it",
+  "tags": [
+    "degrade",
+    "reduce",
+    "power"
+  ],
+  "keywords": [
+    "brownout",
+    "graceful degradation"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M13 3L8 8L11.5 8L6.5 13",
+      "closed": false
+    },
+    {
+      "d": "M9 17H15",
+      "closed": false
+    }
+  ]
+}
