@@ -1,0 +1,41 @@
+{
+  "slug": "model-family",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Model family",
+  "description": "One base, several descendants",
+  "tags": [
+    "lineage",
+    "variants",
+    "tree"
+  ],
+  "keywords": [
+    "model lineage",
+    "base model",
+    "variants",
+    "sizes"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M12 2L15 5L12 8L9 5Z",
+      "closed": true
+    },
+    {
+      "d": "M12 8V12",
+      "closed": false
+    },
+    {
+      "d": "M6 15L6 12L18 12L18 15",
+      "closed": false
+    },
+    {
+      "d": "M6 15L9 18L6 21L3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M18 15L21 18L18 21L15 18Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "checkpoint-save",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Checkpoint save",
+  "description": "Write the state down before going on",
+  "tags": [
+    "flag",
+    "write",
+    "state"
+  ],
+  "keywords": [
+    "save checkpoint",
+    "snapshot weights",
+    "resume point"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 3V21",
+      "closed": false
+    },
+    {
+      "d": "M5 5L15 5L15 11L5 11",
+      "closed": false
+    },
+    {
+      "d": "M19 13V19",
+      "closed": false
+    },
+    {
+      "d": "M16.5 16.5L19 19L21.5 16.5",
+      "closed": false
+    }
+  ]
+}

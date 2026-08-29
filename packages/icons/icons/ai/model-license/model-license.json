@@ -1,0 +1,40 @@
+{
+  "slug": "model-license",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Model license",
+  "description": "What you may do with the weights",
+  "tags": [
+    "terms",
+    "seal",
+    "open"
+  ],
+  "aliases": [
+    "model-licence"
+  ],
+  "keywords": [
+    "license",
+    "open weights",
+    "terms of use",
+    "commercial"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M5 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 6.5L15.5 10L12 13.5L8.5 10Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 17.5V21",
+      "closed": false
+    },
+    {
+      "d": "M14.5 17.5V21",
+      "closed": false
+    }
+  ]
+}

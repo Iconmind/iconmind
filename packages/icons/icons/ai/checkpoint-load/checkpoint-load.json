@@ -1,0 +1,36 @@
+{
+  "slug": "checkpoint-load",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Checkpoint load",
+  "description": "Pick up exactly where it stopped",
+  "tags": [
+    "flag",
+    "resume",
+    "restore"
+  ],
+  "keywords": [
+    "load checkpoint",
+    "resume training",
+    "restore weights"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 3V21",
+      "closed": false
+    },
+    {
+      "d": "M5 5L15 5L15 11L5 11",
+      "closed": false
+    },
+    {
+      "d": "M19 13V19",
+      "closed": false
+    },
+    {
+      "d": "M16.5 15.5L19 13L21.5 15.5",
+      "closed": false
+    }
+  ]
+}

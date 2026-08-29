@@ -1,0 +1,30 @@
+{
+  "slug": "model-size",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Model size",
+  "description": "How big the thing actually is",
+  "tags": [
+    "parameters",
+    "measure",
+    "footprint"
+  ],
+  "keywords": [
+    "parameter count",
+    "7b",
+    "70b",
+    "vram fit",
+    "footprint"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M10 3L17 10L10 17L3 10Z",
+      "closed": true
+    },
+    {
+      "d": "M18 14L21.5 17.5L18 21L14.5 17.5Z",
+      "closed": true
+    }
+  ]
+}

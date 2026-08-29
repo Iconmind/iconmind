@@ -1,0 +1,41 @@
+{
+  "slug": "model-fork",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Model fork",
+  "description": "Take the weights and go your own way",
+  "tags": [
+    "diverge",
+    "finetune",
+    "copy"
+  ],
+  "keywords": [
+    "fork model",
+    "diverge",
+    "custom weights",
+    "derivative"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M12 4L14.5 6.5L12 9L9.5 6.5Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 7.5L5.5 12.5",
+      "closed": false
+    },
+    {
+      "d": "M13.5 7.5L18.5 12.5",
+      "closed": false
+    },
+    {
+      "d": "M2.5 14.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17.5 14.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

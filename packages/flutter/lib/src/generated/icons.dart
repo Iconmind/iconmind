@@ -276,6 +276,9 @@ abstract final class IconMindIcons {
   static const IconMindData checkpoint = g.checkpoint;
   @Deprecated('use checkpoint')
   static const IconMindData snapshot = g.checkpoint;
+  static const IconMindData checkpointCompare = g.checkpointCompare;
+  static const IconMindData checkpointLoad = g.checkpointLoad;
+  static const IconMindData checkpointSave = g.checkpointSave;
   static const IconMindData chevronDown = g.chevronDown;
   @Deprecated('use chevronDown')
   static const IconMindData dropdown = g.chevronDown;
@@ -729,6 +732,7 @@ abstract final class IconMindIcons {
   static const IconMindData accelerator = g.gpu;
   static const IconMindData gpuCluster = g.gpuCluster;
   static const IconMindData gradient = g.gradient;
+  static const IconMindData gradientDescent = g.gradientDescent;
   static const IconMindData graphql = g.graphql;
   static const IconMindData graphqlNode = g.graphqlNode;
   static const IconMindData greedy = g.greedy;
@@ -1023,12 +1027,20 @@ abstract final class IconMindIcons {
   static const IconMindData model = g.model;
   static const IconMindData modelAdd = g.modelAdd;
   static const IconMindData modelAlert = g.modelAlert;
+  static const IconMindData modelCard = g.modelCard;
   static const IconMindData modelCheck = g.modelCheck;
   static const IconMindData modelComparison = g.modelComparison;
   static const IconMindData modelDeploy = g.modelDeploy;
   static const IconMindData modelDownload = g.modelDownload;
+  static const IconMindData modelFamily = g.modelFamily;
+  static const IconMindData modelFork = g.modelFork;
+  static const IconMindData modelLicense = g.modelLicense;
+  @Deprecated('use modelLicense')
+  static const IconMindData modelLicence = g.modelLicense;
   static const IconMindData modelOff = g.modelOff;
   static const IconMindData modelPoisoning = g.modelPoisoning;
+  static const IconMindData modelRegistryEntry = g.modelRegistryEntry;
+  static const IconMindData modelSize = g.modelSize;
   static const IconMindData modelSwap = g.modelSwap;
   static const IconMindData modelWeights = g.modelWeights;
   static const IconMindData monitor = g.monitor;

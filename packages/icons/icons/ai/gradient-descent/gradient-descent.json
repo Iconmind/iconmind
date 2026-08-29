@@ -1,0 +1,29 @@
+{
+  "slug": "gradient-descent",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Gradient descent",
+  "description": "Downhill until there is no downhill left",
+  "tags": [
+    "optimize",
+    "minimum",
+    "valley"
+  ],
+  "keywords": [
+    "optimizer",
+    "loss minimum",
+    "converge",
+    "training step"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 3L9 3L9 9L15 9L15 15L21 15",
+      "closed": false
+    },
+    {
+      "d": "M17 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

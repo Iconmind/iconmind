@@ -1,0 +1,36 @@
+{
+  "slug": "checkpoint-compare",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Checkpoint compare",
+  "description": "This saved state against that one",
+  "tags": [
+    "flags",
+    "versus",
+    "pick"
+  ],
+  "keywords": [
+    "compare checkpoints",
+    "best checkpoint",
+    "eval per save"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 3V21",
+      "closed": false
+    },
+    {
+      "d": "M4 5L10.5 5L10.5 10L4 10",
+      "closed": false
+    },
+    {
+      "d": "M14 3V21",
+      "closed": false
+    },
+    {
+      "d": "M14 9L20.5 9L20.5 14L14 14",
+      "closed": false
+    }
+  ]
+}
