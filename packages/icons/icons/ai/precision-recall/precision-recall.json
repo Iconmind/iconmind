@@ -1,0 +1,28 @@
+{
+  "slug": "precision-recall",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Precision-recall",
+  "description": "A curve that holds high then falls away — the precision-recall trade-off of a classifier",
+  "tags": [
+    "precision",
+    "recall",
+    "curve"
+  ],
+  "keywords": [
+    "precision recall curve",
+    "pr curve",
+    "classifier trade-off"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 3L3 21L21 21",
+      "closed": false
+    },
+    {
+      "d": "M6 6L12 6L18 12L18 18",
+      "closed": false
+    }
+  ]
+}

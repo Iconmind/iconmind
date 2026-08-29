@@ -1,0 +1,44 @@
+{
+  "slug": "point-cloud",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Point cloud",
+  "description": "Six points hanging in space — a 3D point cloud from a scanner or depth model",
+  "tags": [
+    "3d",
+    "lidar",
+    "points"
+  ],
+  "keywords": [
+    "point cloud",
+    "lidar scan",
+    "3d points"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 4a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 20a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

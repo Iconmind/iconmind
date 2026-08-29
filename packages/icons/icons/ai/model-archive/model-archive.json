@@ -1,0 +1,28 @@
+{
+  "slug": "model-archive",
+  "category": "ai",
+  "subcategory": "model",
+  "name": "Model archive",
+  "description": "A model core above an open storage tray — a retired model archived for the record",
+  "tags": [
+    "archive",
+    "retire",
+    "store"
+  ],
+  "keywords": [
+    "model archive",
+    "retired model",
+    "model storage"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M12 3L17 8L12 13L7 8Z",
+      "closed": true
+    },
+    {
+      "d": "M3 15L3 21L21 21L21 15",
+      "closed": false
+    }
+  ]
+}

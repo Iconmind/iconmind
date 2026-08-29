@@ -1,0 +1,36 @@
+{
+  "slug": "callout",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Callout",
+  "description": "A box with a pointer on its side and lines of text inside — a callout that annotates something",
+  "tags": [
+    "annotation",
+    "note",
+    "pointer"
+  ],
+  "keywords": [
+    "callout",
+    "annotation box",
+    "side note"
+  ],
+  "family": "bubble",
+  "shapes": [
+    {
+      "d": "M7 6A2 2 0 0 1 9 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H9A2 2 0 0 1 7 18Z",
+      "closed": true
+    },
+    {
+      "d": "M7 9L4 12L7 15",
+      "closed": false
+    },
+    {
+      "d": "M10 9H19",
+      "closed": false
+    },
+    {
+      "d": "M10 13H19",
+      "closed": false
+    }
+  ]
+}

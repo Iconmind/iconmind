@@ -1,0 +1,28 @@
+{
+  "slug": "agent-tag",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Agent tag",
+  "description": "An agent beside a label tag — tagging agents by team, role or environment",
+  "tags": [
+    "tag",
+    "label",
+    "group"
+  ],
+  "keywords": [
+    "agent tag",
+    "agent label",
+    "agent metadata"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M12 12L18 12L22 16L18 20L12 20Z",
+      "closed": true
+    }
+  ]
+}

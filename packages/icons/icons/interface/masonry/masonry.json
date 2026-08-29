@@ -1,0 +1,36 @@
+{
+  "slug": "masonry",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Masonry",
+  "description": "Tiles of different heights packed into two columns — a masonry grid layout",
+  "tags": [
+    "grid",
+    "tiles",
+    "layout"
+  ],
+  "keywords": [
+    "masonry layout",
+    "pinterest grid",
+    "packed tiles"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H8.5A2 2 0 0 1 10.5 4V8A2 2 0 0 1 8.5 10H4A2 2 0 0 1 2 8Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 4A2 2 0 0 1 15.5 2H20A2 2 0 0 1 22 4V12A2 2 0 0 1 20 14H15.5A2 2 0 0 1 13.5 12Z",
+      "closed": true
+    },
+    {
+      "d": "M2 15A2 2 0 0 1 4 13H8.5A2 2 0 0 1 10.5 15V20A2 2 0 0 1 8.5 22H4A2 2 0 0 1 2 20Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 19.5A2.5 2.5 0 0 1 16 17H19.5A2.5 2.5 0 0 1 22 19.5V19.5A2.5 2.5 0 0 1 19.5 22H16A2.5 2.5 0 0 1 13.5 19.5Z",
+      "closed": true
+    }
+  ]
+}

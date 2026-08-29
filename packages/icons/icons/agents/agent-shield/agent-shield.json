@@ -1,0 +1,28 @@
+{
+  "slug": "agent-shield",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Agent shield",
+  "description": "An agent beside a shield — the guardrails that protect an agent and the people it serves",
+  "tags": [
+    "shield",
+    "guardrail",
+    "protect"
+  ],
+  "keywords": [
+    "agent guardrails",
+    "protected agent",
+    "agent safety"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M13 12L22 12L22 17.5L17.5 22L13 17.5Z",
+      "closed": true
+    }
+  ]
+}

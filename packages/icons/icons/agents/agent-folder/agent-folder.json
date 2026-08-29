@@ -1,0 +1,28 @@
+{
+  "slug": "agent-folder",
+  "category": "agents",
+  "subcategory": "tool-use",
+  "name": "Agent folder",
+  "description": "An agent beside a folder — an agent with a workspace of files to manage",
+  "tags": [
+    "folder",
+    "workspace",
+    "files"
+  ],
+  "keywords": [
+    "agent workspace",
+    "folder agent",
+    "file management"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M12 12L12 21L22 21L22 14L17 14L15 12Z",
+      "closed": true
+    }
+  ]
+}

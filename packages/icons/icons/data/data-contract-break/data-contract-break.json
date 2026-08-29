@@ -1,0 +1,28 @@
+{
+  "slug": "data-contract-break",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Data contract break",
+  "description": "A document split by a crack — a data contract broken by an upstream change",
+  "tags": [
+    "contract",
+    "break",
+    "schema"
+  ],
+  "keywords": [
+    "data contract violation",
+    "breaking schema change",
+    "contract break"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 10L12 13L10 15L13 18",
+      "closed": false
+    }
+  ]
+}

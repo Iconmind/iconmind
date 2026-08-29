@@ -1,0 +1,36 @@
+{
+  "slug": "bundler",
+  "category": "devtools",
+  "subcategory": "package",
+  "name": "Bundler",
+  "description": "Several inputs feeding into one box — a bundler that packs modules into one artifact",
+  "tags": [
+    "bundle",
+    "build",
+    "modules"
+  ],
+  "keywords": [
+    "bundler",
+    "module bundling",
+    "build tool"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 8H11",
+      "closed": false
+    },
+    {
+      "d": "M2 12H11",
+      "closed": false
+    },
+    {
+      "d": "M2 16H11",
+      "closed": false
+    },
+    {
+      "d": "M11 6A2 2 0 0 1 13 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H13A2 2 0 0 1 11 18Z",
+      "closed": true
+    }
+  ]
+}

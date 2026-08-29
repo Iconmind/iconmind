@@ -1,0 +1,36 @@
+{
+  "slug": "sample-consensus",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Sample consensus",
+  "description": "Several sampled answers and one check for the answer they agree on — self-consistency voting",
+  "tags": [
+    "vote",
+    "samples",
+    "agree"
+  ],
+  "keywords": [
+    "self-consistency",
+    "majority vote",
+    "sampled answers"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M2 6H12",
+      "closed": false
+    },
+    {
+      "d": "M2 11H12",
+      "closed": false
+    },
+    {
+      "d": "M2 16H12",
+      "closed": false
+    },
+    {
+      "d": "M15 12L17.5 14.5L22 10",
+      "closed": false
+    }
+  ]
+}

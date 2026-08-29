@@ -1,0 +1,40 @@
+{
+  "slug": "circuit-open",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Circuit open",
+  "description": "A switch blade lifted away from its contact — a circuit breaker tripped open",
+  "tags": [
+    "breaker",
+    "open",
+    "fail"
+  ],
+  "keywords": [
+    "circuit breaker open",
+    "tripped breaker",
+    "fail fast"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 5V10",
+      "closed": false
+    },
+    {
+      "d": "M18 14V19",
+      "closed": false
+    },
+    {
+      "d": "M8 12L14 6",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "agent-key",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Agent key",
+  "description": "An agent beside a key — the credential an agent is issued to act on your behalf",
+  "tags": [
+    "credential",
+    "key",
+    "access"
+  ],
+  "keywords": [
+    "agent credential",
+    "agent api key",
+    "delegated access"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M13.5 11.5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16.5 14.5V21.5",
+      "closed": false
+    },
+    {
+      "d": "M16.5 19H19",
+      "closed": false
+    }
+  ]
+}

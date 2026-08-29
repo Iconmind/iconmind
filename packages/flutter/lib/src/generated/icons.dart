@@ -60,13 +60,17 @@ abstract final class IconMindIcons {
   static const IconMindData agentDelegate = g.agentDelegate;
   static const IconMindData agentDone = g.agentDone;
   static const IconMindData agentEmail = g.agentEmail;
+  static const IconMindData agentEscalate = g.agentEscalate;
+  static const IconMindData agentFolder = g.agentFolder;
   static const IconMindData agentHandoff = g.agentHandoff;
   @Deprecated('use agentHandoff')
   static const IconMindData handover = g.agentHandoff;
   static const IconMindData agentHierarchy = g.agentHierarchy;
   static const IconMindData agentIdle = g.agentIdle;
   static const IconMindData agentInbox = g.agentInbox;
+  static const IconMindData agentKey = g.agentKey;
   static const IconMindData agentLease = g.agentLease;
+  static const IconMindData agentListen = g.agentListen;
   static const IconMindData agentLock = g.agentLock;
   static const IconMindData agentLog = g.agentLog;
   static const IconMindData agentMarket = g.agentMarket;
@@ -77,6 +81,7 @@ abstract final class IconMindIcons {
   static const IconMindData agentOff = g.agentOff;
   static const IconMindData agentPause = g.agentPause;
   static const IconMindData agentPersona = g.agentPersona;
+  static const IconMindData agentPhone = g.agentPhone;
   static const IconMindData agentPool = g.agentPool;
   static const IconMindData agentPriority = g.agentPriority;
   static const IconMindData agentProtocol = g.agentProtocol;
@@ -89,16 +94,21 @@ abstract final class IconMindIcons {
   static const IconMindData agentStart = g.agentRun;
   static const IconMindData agentSandbox = g.agentSandbox;
   static const IconMindData agentSearch = g.agentSearch;
+  static const IconMindData agentShield = g.agentShield;
+  static const IconMindData agentSleep = g.agentSleep;
   static const IconMindData agentSpawn = g.agentSpawn;
   static const IconMindData agentState = g.agentState;
   static const IconMindData agentStop = g.agentStop;
   static const IconMindData agentSwarm = g.agentSwarm;
+  static const IconMindData agentTag = g.agentTag;
   static const IconMindData agentTeam = g.agentTeam;
   @Deprecated('use agentTeam')
   static const IconMindData crew = g.agentTeam;
   static const IconMindData agentTerminal = g.agentTerminal;
   static const IconMindData agentThinking = g.agentThinking;
   static const IconMindData agentToolbelt = g.agentToolbelt;
+  static const IconMindData agentUpgrade = g.agentUpgrade;
+  static const IconMindData agentVoice = g.agentVoice;
   static const IconMindData agentWorking = g.agentWorking;
   static const IconMindData agenticRag = g.agenticRag;
   static const IconMindData aggregate = g.aggregate;
@@ -189,6 +199,7 @@ abstract final class IconMindIcons {
   static const IconMindData audio = g.audio;
   @Deprecated('use audio')
   static const IconMindData waveform = g.audio;
+  static const IconMindData audioDenoise = g.audioDenoise;
   static const IconMindData audioGen = g.audioGen;
   static const IconMindData audioModel = g.audioModel;
   static const IconMindData audit = g.audit;
@@ -255,6 +266,7 @@ abstract final class IconMindIcons {
   static const IconMindData bookmarkFolder = g.bookmarkFolder;
   static const IconMindData bookmarkOff = g.bookmarkOff;
   static const IconMindData bottomNav = g.bottomNav;
+  static const IconMindData bottomSheet = g.bottomSheet;
   static const IconMindData boxplot = g.boxplot;
   static const IconMindData braces = g.braces;
   @Deprecated('use braces')
@@ -296,6 +308,7 @@ abstract final class IconMindIcons {
   static const IconMindData buildFail = g.buildFail;
   static const IconMindData buildPass = g.buildPass;
   static const IconMindData bundleAnalyze = g.bundleAnalyze;
+  static const IconMindData bundler = g.bundler;
   static const IconMindData bytePair = g.bytePair;
   @Deprecated('use bytePair')
   static const IconMindData bpe = g.bytePair;
@@ -313,7 +326,9 @@ abstract final class IconMindIcons {
   static const IconMindData calendarOff = g.calendarOff;
   static const IconMindData calendarRun = g.calendarRun;
   static const IconMindData calendarTrigger = g.calendarTrigger;
+  static const IconMindData calibration = g.calibration;
   static const IconMindData callStack = g.callStack;
+  static const IconMindData callout = g.callout;
   static const IconMindData camera = g.camera;
   static const IconMindData canary = g.canary;
   static const IconMindData canaryToken = g.canaryToken;
@@ -406,6 +421,7 @@ abstract final class IconMindIcons {
   @Deprecated('use chip')
   static const IconMindData filterChip = g.chip;
   static const IconMindData chipAdd = g.chipAdd;
+  static const IconMindData chipInput = g.chipInput;
   static const IconMindData chipRemove = g.chipRemove;
   static const IconMindData chunk = g.chunk;
   static const IconMindData chunkAdd = g.chunkAdd;
@@ -420,6 +436,8 @@ abstract final class IconMindIcons {
   static const IconMindData circuitBreak = g.circuitBreak;
   @Deprecated('use circuitBreak')
   static const IconMindData circuitBreaker = g.circuitBreak;
+  static const IconMindData circuitClose = g.circuitClose;
+  static const IconMindData circuitOpen = g.circuitOpen;
   static const IconMindData circularDep = g.circularDep;
   static const IconMindData citation = g.citation;
   @Deprecated('use citation')
@@ -478,6 +496,7 @@ abstract final class IconMindIcons {
   static const IconMindData eyedrop = g.colorSample;
   static const IconMindData column = g.column;
   static const IconMindData columns = g.columns;
+  static const IconMindData combobox = g.combobox;
   static const IconMindData command = g.command;
   static const IconMindData communication = g.communication;
   static const IconMindData compaction = g.compaction;
@@ -490,6 +509,7 @@ abstract final class IconMindIcons {
   static const IconMindData compile = g.compile;
   static const IconMindData compliance = g.compliance;
   static const IconMindData complianceReport = g.complianceReport;
+  static const IconMindData componentInstance = g.componentInstance;
   static const IconMindData composer = g.composer;
   @Deprecated('use composer')
   static const IconMindData messageInput = g.composer;
@@ -604,6 +624,7 @@ abstract final class IconMindIcons {
   static const IconMindData crop = g.crop;
   static const IconMindData crossAttention = g.crossAttention;
   static const IconMindData crossEncoder = g.crossEncoder;
+  static const IconMindData crosshair = g.crosshair;
   static const IconMindData cursor = g.cursor;
   static const IconMindData cut = g.cut;
   @Deprecated('use cut')
@@ -619,6 +640,7 @@ abstract final class IconMindIcons {
   static const IconMindData dataAugment = g.dataAugment;
   static const IconMindData dataCatalog = g.dataCatalog;
   static const IconMindData dataContract = g.dataContract;
+  static const IconMindData dataContractBreak = g.dataContractBreak;
   static const IconMindData dataExfil = g.dataExfil;
   @Deprecated('use dataExfil')
   static const IconMindData exfiltration = g.dataExfil;
@@ -647,6 +669,7 @@ abstract final class IconMindIcons {
   @Deprecated('use datasetSplit')
   static const IconMindData trainTestSplit = g.datasetSplit;
   static const IconMindData datasetVersion = g.datasetVersion;
+  static const IconMindData datePicker = g.datePicker;
   static const IconMindData dateRange = g.dateRange;
   static const IconMindData dateSpan = g.dateSpan;
   static const IconMindData ddos = g.ddos;
@@ -735,6 +758,8 @@ abstract final class IconMindIcons {
   static const IconMindData distributionShift = g.distributionShift;
   static const IconMindData diversityMmr = g.diversityMmr;
   static const IconMindData dns = g.dns;
+  static const IconMindData dockLeft = g.dockLeft;
+  static const IconMindData dockRight = g.dockRight;
   static const IconMindData document = g.document;
   @Deprecated('use document')
   static const IconMindData file = g.document;
@@ -764,6 +789,7 @@ abstract final class IconMindIcons {
   @Deprecated('use dpo')
   static const IconMindData preferencePair = g.dpo;
   static const IconMindData draft = g.draft;
+  static const IconMindData draftModel = g.draftModel;
   static const IconMindData draftVerify = g.draftVerify;
   @Deprecated('use draftVerify')
   static const IconMindData speculativeDecoding = g.draftVerify;
@@ -910,6 +936,7 @@ abstract final class IconMindIcons {
   static const IconMindData sliderVertical = g.fader;
   static const IconMindData failoverRegion = g.failoverRegion;
   static const IconMindData fallback = g.fallback;
+  static const IconMindData fastThinking = g.fastThinking;
   static const IconMindData faultInject = g.faultInject;
   static const IconMindData favoriteAdd = g.favoriteAdd;
   static const IconMindData favoriteRemove = g.favoriteRemove;
@@ -950,6 +977,7 @@ abstract final class IconMindIcons {
   static const IconMindData flipHorizontal = g.flipHorizontal;
   static const IconMindData flipV = g.flipV;
   static const IconMindData flipVertical = g.flipVertical;
+  static const IconMindData floatingAction = g.floatingAction;
   static const IconMindData focus = g.focus;
   static const IconMindData folder = g.folder;
   @Deprecated('use folder')
@@ -1009,6 +1037,7 @@ abstract final class IconMindIcons {
   static const IconMindData gdpr = g.gdpr;
   static const IconMindData generativeTest = g.generativeTest;
   static const IconMindData genericType = g.genericType;
+  static const IconMindData gitBisect = g.gitBisect;
   static const IconMindData gitCommit = g.gitCommit;
   @Deprecated('use gitCommit')
   static const IconMindData commit = g.gitCommit;
@@ -1059,6 +1088,7 @@ abstract final class IconMindIcons {
   static const IconMindData grounding = g.grounding;
   static const IconMindData group = g.group;
   static const IconMindData groupObjects = g.groupObjects;
+  static const IconMindData groupby = g.groupby;
   static const IconMindData grpc = g.grpc;
   static const IconMindData guardedAction = g.guardedAction;
   static const IconMindData guardrail = g.guardrail;
@@ -1207,6 +1237,7 @@ abstract final class IconMindIcons {
   static const IconMindData justInTimeAccess = g.justInTimeAccess;
   @Deprecated('use justInTimeAccess')
   static const IconMindData jitAccess = g.justInTimeAccess;
+  static const IconMindData kanbanCard = g.kanbanCard;
   static const IconMindData kanbanColumn = g.kanbanColumn;
   static const IconMindData kernel = g.kernel;
   static const IconMindData key = g.key;
@@ -1283,6 +1314,7 @@ abstract final class IconMindIcons {
   @Deprecated('use linkOff')
   static const IconMindData unlink = g.linkOff;
   static const IconMindData lintRun = g.lintRun;
+  static const IconMindData lipSync = g.lipSync;
   static const IconMindData list = g.list;
   static const IconMindData listView = g.listView;
   static const IconMindData liveness = g.liveness;
@@ -1348,6 +1380,7 @@ abstract final class IconMindIcons {
   static const IconMindData marginalRoi = g.marginalRoi;
   @Deprecated('use marginalRoi')
   static const IconMindData diminishingReturns = g.marginalRoi;
+  static const IconMindData masonry = g.masonry;
   static const IconMindData materialise = g.materialise;
   @Deprecated('use materialise')
   static const IconMindData materialize = g.materialise;
@@ -1481,6 +1514,7 @@ abstract final class IconMindIcons {
   static const IconMindData model = g.model;
   static const IconMindData modelAdd = g.modelAdd;
   static const IconMindData modelAlert = g.modelAlert;
+  static const IconMindData modelArchive = g.modelArchive;
   static const IconMindData modelCard = g.modelCard;
   static const IconMindData modelCheck = g.modelCheck;
   static const IconMindData modelComparison = g.modelComparison;
@@ -1549,6 +1583,7 @@ abstract final class IconMindIcons {
   static const IconMindData nodePool = g.nodePool;
   static const IconMindData noise = g.noise;
   static const IconMindData noiseInject = g.noiseInject;
+  static const IconMindData noiseSchedule = g.noiseSchedule;
   static const IconMindData normalize = g.normalize;
   @Deprecated('use normalize')
   static const IconMindData normalise = g.normalize;
@@ -1717,6 +1752,7 @@ abstract final class IconMindIcons {
   @Deprecated('use plus')
   static const IconMindData add = g.plus;
   static const IconMindData pod = g.pod;
+  static const IconMindData pointCloud = g.pointCloud;
   static const IconMindData policy = g.policy;
   static const IconMindData policyAllow = g.policyAllow;
   @Deprecated('use policyAllow')
@@ -1730,6 +1766,7 @@ abstract final class IconMindIcons {
   static const IconMindData pooling = g.pooling;
   @Deprecated('use pooling')
   static const IconMindData meanPooling = g.pooling;
+  static const IconMindData popover = g.popover;
   static const IconMindData pose = g.pose;
   static const IconMindData poseEstimate = g.poseEstimate;
   @Deprecated('use poseEstimate')
@@ -1744,6 +1781,7 @@ abstract final class IconMindIcons {
   @Deprecated('use power')
   static const IconMindData onOff = g.power;
   static const IconMindData precision = g.precision;
+  static const IconMindData precisionRecall = g.precisionRecall;
   static const IconMindData precondition = g.precondition;
   @Deprecated('use precondition')
   static const IconMindData preCondition = g.precondition;
@@ -1920,6 +1958,7 @@ abstract final class IconMindIcons {
   @Deprecated('use restore')
   static const IconMindData recover = g.restore;
   static const IconMindData retention = g.retention;
+  static const IconMindData retentionCurve = g.retentionCurve;
   static const IconMindData retentionPolicy = g.retentionPolicy;
   static const IconMindData retriever = g.retriever;
   @Deprecated('use retriever')
@@ -1932,6 +1971,7 @@ abstract final class IconMindIcons {
   static const IconMindData rightsizing = g.rightsizing;
   static const IconMindData rlhf = g.rlhf;
   static const IconMindData robotArm = g.robotArm;
+  static const IconMindData rocCurve = g.rocCurve;
   static const IconMindData role = g.role;
   static const IconMindData rollback = g.rollback;
   static const IconMindData rollout = g.rollout;
@@ -1951,6 +1991,7 @@ abstract final class IconMindIcons {
   @Deprecated('use safetyCheck')
   static const IconMindData safety = g.safetyCheck;
   static const IconMindData saga = g.saga;
+  static const IconMindData sampleConsensus = g.sampleConsensus;
   static const IconMindData sampleRows = g.sampleRows;
   static const IconMindData sampleSize = g.sampleSize;
   static const IconMindData sampling = g.sampling;
@@ -1982,6 +2023,7 @@ abstract final class IconMindIcons {
   static const IconMindData script = g.script;
   static const IconMindData scriptRun = g.scriptRun;
   static const IconMindData scrollAgent = g.scrollAgent;
+  static const IconMindData scrollbar = g.scrollbar;
   static const IconMindData sdk = g.sdk;
   static const IconMindData search = g.search;
   @Deprecated('use search')
@@ -1998,6 +2040,7 @@ abstract final class IconMindIcons {
   static const IconMindData secretRotate = g.secretRotate;
   static const IconMindData secretScan = g.secretScan;
   static const IconMindData secretVault = g.secretVault;
+  static const IconMindData seed = g.seed;
   static const IconMindData segment = g.segment;
   static const IconMindData segmentMask = g.segmentMask;
   static const IconMindData segmentation = g.segmentation;
@@ -2061,6 +2104,7 @@ abstract final class IconMindIcons {
   static const IconMindData drawer = g.sidebar;
   static const IconMindData signature = g.signature;
   static const IconMindData signatureCrypto = g.signatureCrypto;
+  static const IconMindData signatureMedia = g.signatureMedia;
   static const IconMindData significance = g.significance;
   static const IconMindData significanceTest = g.significanceTest;
   @Deprecated('use significanceTest')
@@ -2092,6 +2136,7 @@ abstract final class IconMindIcons {
   static const IconMindData sort = g.sort;
   static const IconMindData sortAsc = g.sortAsc;
   static const IconMindData sortDesc = g.sortDesc;
+  static const IconMindData soundEffect = g.soundEffect;
   static const IconMindData sourceCitation = g.sourceCitation;
   static const IconMindData sourceMap = g.sourceMap;
   static const IconMindData spacing = g.spacing;
@@ -2105,6 +2150,7 @@ abstract final class IconMindIcons {
   static const IconMindData sparsity = g.sparsity;
   @Deprecated('use sparsity')
   static const IconMindData sparseMatrix = g.sparsity;
+  static const IconMindData speakerDiarize = g.speakerDiarize;
   static const IconMindData specialToken = g.specialToken;
   @Deprecated('use specialToken')
   static const IconMindData controlToken = g.specialToken;
@@ -2266,12 +2312,15 @@ abstract final class IconMindIcons {
   static const IconMindData testUnit = g.testUnit;
   @Deprecated('use testUnit')
   static const IconMindData testing = g.testUnit;
+  static const IconMindData textColor = g.textColor;
   static const IconMindData textCursor = g.textCursor;
   @Deprecated('use textCursor')
   static const IconMindData ibeam = g.textCursor;
   static const IconMindData textToSpeech = g.textToSpeech;
   @Deprecated('use textToSpeech')
   static const IconMindData tts = g.textToSpeech;
+  static const IconMindData textToVideo = g.textToVideo;
+  static const IconMindData textureGen = g.textureGen;
   static const IconMindData theme = g.theme;
   static const IconMindData thinkLonger = g.thinkLonger;
   static const IconMindData threshold = g.threshold;
@@ -2362,6 +2411,7 @@ abstract final class IconMindIcons {
   static const IconMindData delete = g.trash;
   static const IconMindData treeOfThought = g.treeOfThought;
   static const IconMindData treeView = g.treeView;
+  static const IconMindData treemap = g.treemap;
   static const IconMindData trendBreak = g.trendBreak;
   static const IconMindData trendDown = g.trendDown;
   static const IconMindData trendUp = g.trendUp;

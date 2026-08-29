@@ -1,0 +1,32 @@
+{
+  "slug": "sound-effect",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Sound effect",
+  "description": "A lightning bolt with sound waves beside it — generated sound effects and foley",
+  "tags": [
+    "sfx",
+    "audio",
+    "generate"
+  ],
+  "keywords": [
+    "sound effect generation",
+    "generated sfx",
+    "text to audio"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M11 5L6 10L10 10L5 15",
+      "closed": false
+    },
+    {
+      "d": "M16.12 10.88A3 3 0 0 1 16.12 15.12",
+      "closed": false
+    },
+    {
+      "d": "M18.24 8.76A6 6 0 0 1 18.24 17.24",
+      "closed": false
+    }
+  ]
+}

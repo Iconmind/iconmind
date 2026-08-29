@@ -1,0 +1,44 @@
+{
+  "slug": "text-to-video",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Text to video",
+  "description": "Lines of text pointing at a strip of film — text-to-video generation from a prompt",
+  "tags": [
+    "video",
+    "generate",
+    "prompt"
+  ],
+  "keywords": [
+    "text to video",
+    "video generation",
+    "prompt to video"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 4H10",
+      "closed": false
+    },
+    {
+      "d": "M2 8H10",
+      "closed": false
+    },
+    {
+      "d": "M4 11.5L7 14.5L4 17.5",
+      "closed": false
+    },
+    {
+      "d": "M11 13A2 2 0 0 1 13 11H20A2 2 0 0 1 22 13V20A2 2 0 0 1 20 22H13A2 2 0 0 1 11 20Z",
+      "closed": true
+    },
+    {
+      "d": "M14 11V22",
+      "closed": false
+    },
+    {
+      "d": "M19 11V22",
+      "closed": false
+    }
+  ]
+}

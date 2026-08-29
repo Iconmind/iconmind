@@ -1,0 +1,28 @@
+{
+  "slug": "retention-curve",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Retention curve",
+  "description": "A curve that drops and then holds steady — the retention curve of returning users",
+  "tags": [
+    "retention",
+    "cohort",
+    "curve"
+  ],
+  "keywords": [
+    "retention curve",
+    "user retention",
+    "cohort retention"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 3L3 21L21 21",
+      "closed": false
+    },
+    {
+      "d": "M6 5L12 11L19 11",
+      "closed": false
+    }
+  ]
+}

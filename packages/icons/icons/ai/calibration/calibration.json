@@ -1,0 +1,36 @@
+{
+  "slug": "calibration",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Calibration",
+  "description": "Points scattered close to the identity line — how well a model's confidence matches its accuracy",
+  "tags": [
+    "confidence",
+    "accuracy",
+    "reliability"
+  ],
+  "keywords": [
+    "model calibration",
+    "reliability diagram",
+    "confidence calibration"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 3L3 21L21 21",
+      "closed": false
+    },
+    {
+      "d": "M6 18L18 6",
+      "closed": false
+    },
+    {
+      "d": "M8 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

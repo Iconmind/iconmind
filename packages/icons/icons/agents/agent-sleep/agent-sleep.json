@@ -1,0 +1,28 @@
+{
+  "slug": "agent-sleep",
+  "category": "agents",
+  "subcategory": "lifecycle",
+  "name": "Agent sleep",
+  "description": "An agent with a Z beside it — an idle agent put to sleep until it is needed",
+  "tags": [
+    "idle",
+    "sleep",
+    "pause"
+  ],
+  "keywords": [
+    "sleeping agent",
+    "idle agent",
+    "dormant"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M13 12L21 12L13 20L21 20",
+      "closed": false
+    }
+  ]
+}

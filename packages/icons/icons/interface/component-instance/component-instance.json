@@ -1,0 +1,28 @@
+{
+  "slug": "component-instance",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Component instance",
+  "description": "A diamond inside a frame — an instance of a design component placed on the canvas",
+  "tags": [
+    "component",
+    "instance",
+    "design"
+  ],
+  "keywords": [
+    "component instance",
+    "design system",
+    "symbol instance"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M12 7L17 12L12 17L7 12Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "dock-right",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Dock right",
+  "description": "A window with an arrow pointing at its right panel — dock a view to the right edge",
+  "tags": [
+    "dock",
+    "panel",
+    "right"
+  ],
+  "keywords": [
+    "dock right",
+    "snap to right",
+    "right panel"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M15 3V21",
+      "closed": false
+    },
+    {
+      "d": "M8 9.5L10.5 12L8 14.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "agent-listen",
+  "category": "agents",
+  "subcategory": "communication",
+  "name": "Agent listen",
+  "description": "Sound waves arriving at an agent — an agent listening for speech or events",
+  "tags": [
+    "listen",
+    "hear",
+    "audio"
+  ],
+  "keywords": [
+    "listening agent",
+    "voice input",
+    "always listening"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M6.88 14.12A3 3 0 0 1 6.88 9.88",
+      "closed": false
+    },
+    {
+      "d": "M4.76 16.24A6 6 0 0 1 4.76 7.76",
+      "closed": false
+    },
+    {
+      "d": "M18.69 8.37A4 4 0 1 1 15.31 8.37",
+      "closed": false
+    }
+  ]
+}

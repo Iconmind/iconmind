@@ -1,0 +1,32 @@
+{
+  "slug": "text-color",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Text colour",
+  "description": "A letter T with a colour bar beneath it — set the colour of selected text",
+  "tags": [
+    "colour",
+    "text",
+    "format"
+  ],
+  "keywords": [
+    "text colour",
+    "font colour",
+    "format text"
+  ],
+  "family": "glyph",
+  "shapes": [
+    {
+      "d": "M5 5H19",
+      "closed": false
+    },
+    {
+      "d": "M12 5V15",
+      "closed": false
+    },
+    {
+      "d": "M5 20H19",
+      "closed": false
+    }
+  ]
+}

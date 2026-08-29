@@ -1,0 +1,40 @@
+{
+  "slug": "circuit-close",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Circuit closed",
+  "description": "A switch blade bridging both contacts — a circuit breaker closed and passing traffic",
+  "tags": [
+    "breaker",
+    "closed",
+    "healthy"
+  ],
+  "keywords": [
+    "circuit breaker closed",
+    "breaker reset",
+    "traffic flowing"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 5V10",
+      "closed": false
+    },
+    {
+      "d": "M18 14V19",
+      "closed": false
+    },
+    {
+      "d": "M8 12H16",
+      "closed": false
+    }
+  ]
+}

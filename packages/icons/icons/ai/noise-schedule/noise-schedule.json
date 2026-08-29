@@ -1,0 +1,36 @@
+{
+  "slug": "noise-schedule",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Noise schedule",
+  "description": "Dots shrinking step by step along a diagonal — the noise schedule of a diffusion process",
+  "tags": [
+    "diffusion",
+    "schedule",
+    "steps"
+  ],
+  "keywords": [
+    "noise schedule",
+    "diffusion steps",
+    "denoising schedule"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 9.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 13.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M20 17.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

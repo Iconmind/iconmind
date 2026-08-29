@@ -1,0 +1,32 @@
+{
+  "slug": "chip-input",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Chip input",
+  "description": "A text field holding a chip and the cursor after it — an input that turns entries into chips",
+  "tags": [
+    "chip",
+    "input",
+    "tags"
+  ],
+  "keywords": [
+    "chip input",
+    "tag input",
+    "token field"
+  ],
+  "family": "field",
+  "shapes": [
+    {
+      "d": "M2 9A2 2 0 0 1 4 7H20A2 2 0 0 1 22 9V15A2 2 0 0 1 20 17H4A2 2 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M5 12A2 2 0 0 1 7 10H10A2 2 0 0 1 12 12V12A2 2 0 0 1 10 14H7A2 2 0 0 1 5 12Z",
+      "closed": true
+    },
+    {
+      "d": "M15 12H19",
+      "closed": false
+    }
+  ]
+}

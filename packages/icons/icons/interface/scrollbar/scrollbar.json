@@ -1,0 +1,36 @@
+{
+  "slug": "scrollbar",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Scrollbar",
+  "description": "Content with a thumb riding along its right edge — the scrollbar of a long view",
+  "tags": [
+    "scroll",
+    "thumb",
+    "overflow"
+  ],
+  "keywords": [
+    "scrollbar",
+    "scroll thumb",
+    "overflow scroll"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H20A2 2 0 0 1 22 4V20A2 2 0 0 1 20 22H4A2 2 0 0 1 2 20Z",
+      "closed": true
+    },
+    {
+      "d": "M5 8H15",
+      "closed": false
+    },
+    {
+      "d": "M5 13H15",
+      "closed": false
+    },
+    {
+      "d": "M19 5V12",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "agent-phone",
+  "category": "agents",
+  "subcategory": "tool-use",
+  "name": "Agent phone",
+  "description": "An agent beside a phone — an agent that places and answers calls",
+  "tags": [
+    "phone",
+    "call",
+    "mobile"
+  ],
+  "keywords": [
+    "phone agent",
+    "voice call agent",
+    "call automation"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M14 13A2 2 0 0 1 16 11H19A2 2 0 0 1 21 13V20A2 2 0 0 1 19 22H16A2 2 0 0 1 14 20Z",
+      "closed": true
+    },
+    {
+      "d": "M16 14H19",
+      "closed": false
+    }
+  ]
+}

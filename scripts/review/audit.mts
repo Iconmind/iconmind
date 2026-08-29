@@ -61,11 +61,12 @@ const ANCHORED = new Set([
   "interface/laser-pointer",
   // Axes charts and bars on a baseline keep their ink low and left; an object
   // aligned to its edge is, by definition, on that edge.
-  "ai/activation", "analytics/significance-test", "analytics/trend-break", "interface/align-left-obj", "data/volume-anomaly",
+  "ai/activation", "analytics/significance-test", "analytics/trend-break", "interface/align-left-obj", "data/volume-anomaly", "ai/roc-curve", "analytics/retention-curve",
   // The locked layer is the lid; the lock hangs beneath it.
   "interface/layer-lock",
   "devtools/precondition", // the check sits before the block by design
   "devtools/postcondition", // the check sits after the block by design
+  "ai/noise-schedule", // the schedule shrinks along the diagonal; the big dot leads by design
   // A boom gate hinges on its post; a warm pool sits on the ground it is dug into.
   "devops/admission-control", "devops/prewarm-pool",
   // Bars stand on their baseline; a funnel hangs from its mouth; an axes chart
@@ -80,11 +81,12 @@ const ANCHORED = new Set([
   "interface/laser-pointer",
   // Axes charts and bars on a baseline keep their ink low and left; an object
   // aligned to its edge is, by definition, on that edge.
-  "ai/activation", "analytics/significance-test", "analytics/trend-break", "interface/align-left-obj", "data/volume-anomaly",
+  "ai/activation", "analytics/significance-test", "analytics/trend-break", "interface/align-left-obj", "data/volume-anomaly", "ai/roc-curve", "analytics/retention-curve",
   // The locked layer is the lid; the lock hangs beneath it.
   "interface/layer-lock",
   "devtools/precondition", // the check sits before the block by design
   "devtools/postcondition", // the check sits after the block by design
+  "ai/noise-schedule", // the schedule shrinks along the diagonal; the big dot leads by design
 ]);
 
 function inkStats(svg: string, size: number) {

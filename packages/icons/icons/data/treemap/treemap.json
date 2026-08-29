@@ -1,0 +1,36 @@
+{
+  "slug": "treemap",
+  "category": "data",
+  "subcategory": "catalog",
+  "name": "Treemap",
+  "description": "A frame divided into uneven tiles — a treemap sized by how much each part holds",
+  "tags": [
+    "chart",
+    "tiles",
+    "hierarchy"
+  ],
+  "keywords": [
+    "treemap",
+    "nested tiles",
+    "size by value"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M10 3V21",
+      "closed": false
+    },
+    {
+      "d": "M10 9H21",
+      "closed": false
+    },
+    {
+      "d": "M3 15H10",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "speaker-diarize",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Speaker diarization",
+  "description": "Two speakers above one shared waveform — telling apart who said what in a recording",
+  "tags": [
+    "speakers",
+    "audio",
+    "who"
+  ],
+  "keywords": [
+    "speaker diarization",
+    "who spoke when",
+    "speaker separation"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.19 3.37A4 4 0 1 1 4.81 3.37",
+      "closed": false
+    },
+    {
+      "d": "M19.19 3.37A4 4 0 1 1 15.81 3.37",
+      "closed": false
+    },
+    {
+      "d": "M3 17L6 14L9 17L12 14L15 17L18 14L21 17",
+      "closed": false
+    }
+  ]
+}

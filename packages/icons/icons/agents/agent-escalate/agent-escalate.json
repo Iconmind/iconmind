@@ -1,0 +1,32 @@
+{
+  "slug": "agent-escalate",
+  "category": "agents",
+  "subcategory": "communication",
+  "name": "Agent escalate",
+  "description": "An agent sending an arrow up and away — escalating a case to a person or a stronger agent",
+  "tags": [
+    "escalate",
+    "handoff",
+    "up"
+  ],
+  "keywords": [
+    "escalation",
+    "escalate to human",
+    "hand off upward"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M8.69 13.37A4 4 0 1 1 5.31 13.37",
+      "closed": false
+    },
+    {
+      "d": "M12 12L19 5",
+      "closed": false
+    },
+    {
+      "d": "M14.5 5L19 5L19 9.5",
+      "closed": false
+    }
+  ]
+}

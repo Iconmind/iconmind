@@ -1,0 +1,36 @@
+{
+  "slug": "groupby",
+  "category": "data",
+  "subcategory": "quality",
+  "name": "Group by",
+  "description": "A bracket gathering three rows together — grouping rows by a shared key",
+  "tags": [
+    "group",
+    "aggregate",
+    "rows"
+  ],
+  "keywords": [
+    "group by",
+    "grouped rows",
+    "aggregate by key"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M6 4L3 4L3 20L6 20",
+      "closed": false
+    },
+    {
+      "d": "M9 7H21",
+      "closed": false
+    },
+    {
+      "d": "M9 12H21",
+      "closed": false
+    },
+    {
+      "d": "M9 17H21",
+      "closed": false
+    }
+  ]
+}

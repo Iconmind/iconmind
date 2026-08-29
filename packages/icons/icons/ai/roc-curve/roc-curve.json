@@ -1,0 +1,32 @@
+{
+  "slug": "roc-curve",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "ROC curve",
+  "description": "A curve bowing above the chance diagonal — the ROC curve of a classifier",
+  "tags": [
+    "classifier",
+    "auc",
+    "curve"
+  ],
+  "keywords": [
+    "roc curve",
+    "auc",
+    "true positive rate"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 3L3 21L21 21",
+      "closed": false
+    },
+    {
+      "d": "M6 18L6 12L12 6L18 6",
+      "closed": false
+    },
+    {
+      "d": "M6 18L18 6",
+      "closed": false
+    }
+  ]
+}

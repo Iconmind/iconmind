@@ -1,0 +1,32 @@
+{
+  "slug": "audio-denoise",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Audio denoise",
+  "description": "A jagged waveform settling into a flat line — removing noise from an audio recording",
+  "tags": [
+    "audio",
+    "noise",
+    "clean"
+  ],
+  "keywords": [
+    "audio denoising",
+    "noise removal",
+    "clean audio"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 7L6 4L9 7L12 4L15 7L18 4L21 7",
+      "closed": false
+    },
+    {
+      "d": "M9.5 10.5L12 13L14.5 10.5",
+      "closed": false
+    },
+    {
+      "d": "M3 17H21",
+      "closed": false
+    }
+  ]
+}

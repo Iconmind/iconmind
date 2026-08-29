@@ -1,0 +1,36 @@
+{
+  "slug": "seed",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Seed",
+  "description": "A seed sending up a sprout with two leaves — the random seed a generation grows from",
+  "tags": [
+    "random",
+    "reproducible",
+    "sprout"
+  ],
+  "keywords": [
+    "random seed",
+    "generation seed",
+    "reproducible output"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 18a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 5V15",
+      "closed": false
+    },
+    {
+      "d": "M12 8L8 4",
+      "closed": false
+    },
+    {
+      "d": "M12 11L16 7",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "git-bisect",
+  "category": "devtools",
+  "subcategory": "version-control",
+  "name": "Git bisect",
+  "description": "A marker over the middle of a chain of commits — bisecting history to find the bad commit",
+  "tags": [
+    "git",
+    "bisect",
+    "search"
+  ],
+  "keywords": [
+    "git bisect",
+    "find bad commit",
+    "binary search history"
+  ],
+  "family": "node",
+  "shapes": [
+    {
+      "d": "M4 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 14H11",
+      "closed": false
+    },
+    {
+      "d": "M13 14H18",
+      "closed": false
+    },
+    {
+      "d": "M12 6V10",
+      "closed": false
+    }
+  ]
+}
