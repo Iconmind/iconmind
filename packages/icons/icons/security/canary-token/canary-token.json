@@ -1,0 +1,36 @@
+{
+  "slug": "canary-token",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Canary token",
+  "description": "The credential that sings when touched",
+  "tags": [
+    "tripline",
+    "decoy",
+    "alarm"
+  ],
+  "keywords": [
+    "canary token",
+    "honeytoken",
+    "decoy credential"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 9L12 9L16 13L12 17L3 17Z",
+      "closed": true
+    },
+    {
+      "d": "M5 13a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18.12 10.88A3 3 0 0 1 18.12 15.12",
+      "closed": false
+    },
+    {
+      "d": "M20.24 8.76A6 6 0 0 1 20.24 17.24",
+      "closed": false
+    }
+  ]
+}

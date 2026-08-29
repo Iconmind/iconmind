@@ -39,6 +39,8 @@ const ANCHORED = new Set([
   "analytics/retention", "interface/corner-radius", "rag/bm25", "security/login",
   "devtools/request", "automation/workflow-template", "agents/step-limit",
   "cloud/budget-alert", "analytics/latency-p99",
+  // bin-pack hugs the bin's corner because packing toward the corner IS the metaphor.
+  "devops/bin-pack",
 ]);
 
 function inkStats(svg: string, size: number) {

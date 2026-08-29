@@ -1,0 +1,29 @@
+{
+  "slug": "gpu-util",
+  "category": "devops",
+  "subcategory": "infrastructure",
+  "name": "GPU utilisation",
+  "description": "How much of the card is actually working",
+  "tags": [
+    "usage",
+    "load",
+    "meter"
+  ],
+  "keywords": [
+    "gpu utilization",
+    "usage",
+    "load",
+    "efficiency"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14 7H19A3 3 0 0 1 22 10V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V10L5 7H10",
+      "closed": true
+    },
+    {
+      "d": "M5 12A2 2 0 0 1 7 10H11A2 2 0 0 1 13 12V12A2 2 0 0 1 11 14H7A2 2 0 0 1 5 12Z",
+      "closed": true
+    }
+  ]
+}

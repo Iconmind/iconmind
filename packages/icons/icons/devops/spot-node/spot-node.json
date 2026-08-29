@@ -1,0 +1,31 @@
+{
+  "slug": "spot-node",
+  "category": "devops",
+  "subcategory": "infrastructure",
+  "name": "Spot node",
+  "description": "Cheap, until it is taken back",
+  "tags": [
+    "spot",
+    "interruptible",
+    "cheap"
+  ],
+  "aliases": [
+    "spot-instance"
+  ],
+  "keywords": [
+    "spot instance",
+    "interruptible",
+    "preemptible"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V18A2 2 0 0 1 18 20H6A2 2 0 0 1 4 18Z",
+      "closed": true
+    },
+    {
+      "d": "M14 7.5L10 11.5L13 11.5L9 15.5",
+      "closed": false
+    }
+  ]
+}

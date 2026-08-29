@@ -1,0 +1,32 @@
+{
+  "slug": "taint",
+  "category": "devops",
+  "subcategory": "infrastructure",
+  "name": "Taint",
+  "description": "Stay away unless you can bear it",
+  "tags": [
+    "hazard",
+    "repel",
+    "mark"
+  ],
+  "keywords": [
+    "taint node",
+    "toleration",
+    "keep away"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V18A2 2 0 0 1 18 20H6A2 2 0 0 1 4 18Z",
+      "closed": true
+    },
+    {
+      "d": "M12 8V13",
+      "closed": false
+    },
+    {
+      "d": "M11 16a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

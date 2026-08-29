@@ -1,0 +1,37 @@
+{
+  "slug": "vram",
+  "category": "devops",
+  "subcategory": "infrastructure",
+  "name": "VRAM",
+  "description": "The memory the model has to fit in",
+  "tags": [
+    "memory",
+    "banks",
+    "fit"
+  ],
+  "keywords": [
+    "vram",
+    "gpu memory",
+    "memory banks",
+    "fit in memory"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14 6H19A3 3 0 0 1 22 9V15A3 3 0 0 1 19 18H5A3 3 0 0 1 2 15V9L5 6H10",
+      "closed": true
+    },
+    {
+      "d": "M7 9V15",
+      "closed": false
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    },
+    {
+      "d": "M17 9V15",
+      "closed": false
+    }
+  ]
+}

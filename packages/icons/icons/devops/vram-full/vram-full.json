@@ -1,0 +1,48 @@
+{
+  "slug": "vram-full",
+  "category": "devops",
+  "subcategory": "infrastructure",
+  "name": "VRAM full",
+  "description": "The model does not fit",
+  "tags": [
+    "oom",
+    "memory",
+    "alert"
+  ],
+  "aliases": [
+    "gpu-oom"
+  ],
+  "keywords": [
+    "vram full",
+    "out of memory",
+    "oom",
+    "doesn't fit"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14 11H19A3 3 0 0 1 22 14V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V14L5 11H10",
+      "closed": true
+    },
+    {
+      "d": "M7 14V17",
+      "closed": false
+    },
+    {
+      "d": "M12 14V17",
+      "closed": false
+    },
+    {
+      "d": "M17 14V17",
+      "closed": false
+    },
+    {
+      "d": "M12 2V4.5",
+      "closed": false
+    },
+    {
+      "d": "M11 7.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "kill-switch",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Kill switch",
+  "description": "The one control that ends it now",
+  "tags": [
+    "emergency",
+    "off",
+    "stop"
+  ],
+  "keywords": [
+    "kill switch",
+    "emergency stop",
+    "shutdown"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 12A5 5 0 0 1 7 7H17A5 5 0 0 1 22 12V12A5 5 0 0 1 17 17H7A5 5 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M4 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 11L8 13",
+      "closed": false
+    },
+    {
+      "d": "M8 11L6 13",
+      "closed": false
+    }
+  ]
+}

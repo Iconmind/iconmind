@@ -1,0 +1,39 @@
+{
+  "slug": "weight-leak",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Weight leak",
+  "description": "The model, dripping out of the building",
+  "tags": [
+    "theft",
+    "exposure",
+    "drip"
+  ],
+  "aliases": [
+    "model-leak"
+  ],
+  "keywords": [
+    "weight leak",
+    "model theft",
+    "exfiltrated weights"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14 3H17A3 3 0 0 1 20 6V10A3 3 0 0 1 17 13H7A3 3 0 0 1 4 10V6L7 3H10",
+      "closed": true
+    },
+    {
+      "d": "M8 16V18.5",
+      "closed": false
+    },
+    {
+      "d": "M12 18.5V21",
+      "closed": false
+    },
+    {
+      "d": "M16 16V18.5",
+      "closed": false
+    }
+  ]
+}

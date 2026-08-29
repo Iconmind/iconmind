@@ -187,7 +187,7 @@ In drawing order within each category. Ten consecutive names = one round.
 
 ### security (+70)
 
-  1. prompt-shield, input-sanitize-ai, output-filter, content-policy, policy-block, policy-allow, nsfw-filter, harm-category, toxicity-score, pii-detect
+  1. prompt-shield, input-sanitize, policy-allow, policy-block, harm-category, data-exfil, canary-token, weight-leak, kill-switch, tripwire
   2. redact-fields, deanonymize-risk, data-exfil, canary-token, honeypot-ai, model-theft, weight-leak, membership-inference, model-inversion, adversarial-example
   3. perturbation-attack, evasion, poisoning, backdoor-model, trigger-phrase, sleeper, alignment-fake, sandbag, scheming, oversight
   4. interpretability, probe-safety, circuit-break, kill-switch, tripwire, containment, eval-dangerous, capability-eval, misuse, dual-use
@@ -197,7 +197,7 @@ In drawing order within each category. Ten consecutive names = one round.
 
 ### devops (+60)
 
-  1. gpu-chip, gpu-rack, gpu-queue, gpu-util, vram, vram-full, tensor-core, nvlink, infiniband, topology-aware
+  1. gpu-queue, gpu-util, vram, vram-full, bin-pack, preempt, node-drain, cordon, taint, spot-node
   2. bin-pack, preempt, spot-node, reserved-node, autoscale-gpu, scale-to-zero, prewarm-pool, node-drain, cordon, taint
   3. toleration, affinity, anti-affinity, pod-ai, inference-server, batch-window, dynamic-batch, continuous-batch, paged-attention, tensor-parallel
   4. pipeline-parallel, data-parallel, zero-offload, cpu-offload, disk-offload, tokens-per-second, latency-p50, goodput, queue-depth, admission-control
@@ -232,6 +232,14 @@ In drawing order within each category. Ten consecutive names = one round.
 ### mcp (+10)
 
   1. mcp-sample-request, mcp-root-list, mcp-elicit-confirm, mcp-channel, mcp-pipe, mcp-stream, mcp-oauth, mcp-scope, mcp-server-dev, mcp-server-test
+
+## Legacy debt (recorded 2026-08-29)
+
+Nine pre-existing pairs sit at IoU >= 0.90 without being family grammar:
+log/audit-log, vote/stash, chart-gauge/metric, fine-tune/instruct-model,
+lint-run/firewall-rule, migrate/websocket, scale-up+scale-down/null,
+approval/billing, calendar-trigger/calendar-off+alert. They predate the plan;
+fixing them is its own round, on the user's word.
 
 ## Known risks, written down before they bite
 

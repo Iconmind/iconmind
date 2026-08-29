@@ -1,0 +1,43 @@
+{
+  "slug": "policy-block",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Policy block",
+  "description": "The rules read no",
+  "tags": [
+    "ruleset",
+    "deny",
+    "stop"
+  ],
+  "aliases": [
+    "denylist-policy"
+  ],
+  "keywords": [
+    "block policy",
+    "denied",
+    "denylist"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M7 8H17",
+      "closed": false
+    },
+    {
+      "d": "M7 12H17",
+      "closed": false
+    },
+    {
+      "d": "M10 15L14 19",
+      "closed": false
+    },
+    {
+      "d": "M14 15L10 19",
+      "closed": false
+    }
+  ]
+}

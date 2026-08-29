@@ -1,0 +1,40 @@
+{
+  "slug": "tripwire",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Tripwire",
+  "description": "Cross the line and it is known",
+  "tags": [
+    "alarm",
+    "line",
+    "detect"
+  ],
+  "keywords": [
+    "tripwire",
+    "trap",
+    "intrusion detection"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 10V20",
+      "closed": false
+    },
+    {
+      "d": "M20 10V20",
+      "closed": false
+    },
+    {
+      "d": "M4 13H20",
+      "closed": false
+    },
+    {
+      "d": "M12 3.5V6",
+      "closed": false
+    },
+    {
+      "d": "M11 8.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

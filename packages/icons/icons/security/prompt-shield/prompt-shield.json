@@ -1,0 +1,32 @@
+{
+  "slug": "prompt-shield",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Prompt shield",
+  "description": "The prompt goes in guarded",
+  "tags": [
+    "guard",
+    "input",
+    "protect"
+  ],
+  "keywords": [
+    "prompt shield",
+    "input guard",
+    "prompt protection"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M9 8.5V12.5",
+      "closed": false
+    },
+    {
+      "d": "M11.5 12.5H15.5",
+      "closed": false
+    }
+  ]
+}
