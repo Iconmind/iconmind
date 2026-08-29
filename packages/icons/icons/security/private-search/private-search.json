@@ -1,0 +1,36 @@
+{
+  "slug": "private-search",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Private search",
+  "description": "A padlock beside a magnifying glass — a search nobody else can see",
+  "tags": [
+    "search",
+    "private",
+    "lock"
+  ],
+  "keywords": [
+    "private search",
+    "confidential query",
+    "search privacy"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M2 13A2 2 0 0 1 4 11H9A2 2 0 0 1 11 13V17A2 2 0 0 1 9 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M4.5 11A2 2 0 0 1 8.5 11",
+      "closed": false
+    },
+    {
+      "d": "M14 10a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
+      "closed": true
+    },
+    {
+      "d": "M20 12.5L22 14.5",
+      "closed": false
+    }
+  ]
+}

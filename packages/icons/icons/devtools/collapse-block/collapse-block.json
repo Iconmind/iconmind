@@ -1,0 +1,36 @@
+{
+  "slug": "collapse-block",
+  "category": "devtools",
+  "subcategory": "editor",
+  "name": "Collapse block",
+  "description": "Two chevrons closing inside brackets — fold a block of code",
+  "tags": [
+    "collapse",
+    "fold",
+    "code"
+  ],
+  "keywords": [
+    "collapse block",
+    "fold code",
+    "code folding"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M9 7L12 10L15 7",
+      "closed": false
+    },
+    {
+      "d": "M9 17L12 14L15 17",
+      "closed": false
+    }
+  ]
+}

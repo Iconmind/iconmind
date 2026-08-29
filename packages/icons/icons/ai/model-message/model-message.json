@@ -1,0 +1,32 @@
+{
+  "slug": "model-message",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Model message",
+  "description": "A speech bubble with a model core inside — a message written by the model",
+  "tags": [
+    "message",
+    "model",
+    "reply"
+  ],
+  "keywords": [
+    "model message",
+    "model reply",
+    "generated message"
+  ],
+  "family": "bubble",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V16A2 2 0 0 1 19 18H5A2 2 0 0 1 3 16Z",
+      "closed": true
+    },
+    {
+      "d": "M7 18L7 21L10 18",
+      "closed": false
+    },
+    {
+      "d": "M12 7.5L15 10.5L12 13.5L9 10.5Z",
+      "closed": true
+    }
+  ]
+}

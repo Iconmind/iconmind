@@ -1,0 +1,28 @@
+{
+  "slug": "run-idle",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Run idle",
+  "description": "A play button beside a Z — a runner with nothing to do",
+  "tags": [
+    "run",
+    "idle",
+    "waiting"
+  ],
+  "keywords": [
+    "idle runner",
+    "runner waiting",
+    "no jobs"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M3 5L3 19L10 12Z",
+      "closed": true
+    },
+    {
+      "d": "M15 9.5L20 9.5L15 14.5L20 14.5",
+      "closed": false
+    }
+  ]
+}

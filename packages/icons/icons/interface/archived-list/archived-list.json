@@ -1,0 +1,36 @@
+{
+  "slug": "archived-list",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Archived list",
+  "description": "A list beside a Z — a list put to rest in the archive",
+  "tags": [
+    "archive",
+    "list",
+    "inactive"
+  ],
+  "keywords": [
+    "archived list",
+    "inactive list",
+    "list archive"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 6H14",
+      "closed": false
+    },
+    {
+      "d": "M3 11H14",
+      "closed": false
+    },
+    {
+      "d": "M3 16H14",
+      "closed": false
+    },
+    {
+      "d": "M17 8.5L22 8.5L17 13.5L22 13.5",
+      "closed": false
+    }
+  ]
+}

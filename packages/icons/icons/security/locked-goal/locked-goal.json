@@ -1,0 +1,36 @@
+{
+  "slug": "locked-goal",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Locked goal",
+  "description": "A padlock beside a target — a goal that cannot be changed once set",
+  "tags": [
+    "goal",
+    "locked",
+    "fixed"
+  ],
+  "keywords": [
+    "locked goal",
+    "fixed objective",
+    "immutable target"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M2 13A2 2 0 0 1 4 11H9A2 2 0 0 1 11 13V17A2 2 0 0 1 9 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M4.5 11A2 2 0 0 1 8.5 11",
+      "closed": false
+    },
+    {
+      "d": "M14 13a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

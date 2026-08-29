@@ -70,6 +70,8 @@ const ANCHORED = new Set([
   "interface/resize-handle", // a corner grip lives in its corner by definition
   "analytics/trend-milestone", // the flag stands top-left and the trend climbs bottom-right by design
   "devtools/run-alert", "devtools/run-trend", // a play button keeps its ink on its left edge; the mark beside it cannot balance that
+  "devtools/add-run", "devtools/run-idle", // same play button, same left edge
+  "ai/checkpoint-alert", "ai/remove-checkpoint", "ai/next-milestone", // a flag pole is a heavy left edge; the small mark beside it cannot balance that
   // A boom gate hinges on its post; a warm pool sits on the ground it is dug into.
   "devops/admission-control", "devops/prewarm-pool",
   // Bars stand on their baseline; a funnel hangs from its mouth; an axes chart
@@ -93,6 +95,8 @@ const ANCHORED = new Set([
   "interface/resize-handle", // a corner grip lives in its corner by definition
   "analytics/trend-milestone", // the flag stands top-left and the trend climbs bottom-right by design
   "devtools/run-alert", "devtools/run-trend", // a play button keeps its ink on its left edge; the mark beside it cannot balance that
+  "devtools/add-run", "devtools/run-idle", // same play button, same left edge
+  "ai/checkpoint-alert", "ai/remove-checkpoint", "ai/next-milestone", // a flag pole is a heavy left edge; the small mark beside it cannot balance that
 ]);
 
 function inkStats(svg: string, size: number) {

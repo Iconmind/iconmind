@@ -1,0 +1,36 @@
+{
+  "slug": "next-milestone",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Next milestone",
+  "description": "A flag with a double chevron beside it — on to the next milestone",
+  "tags": [
+    "milestone",
+    "next",
+    "arrow"
+  ],
+  "keywords": [
+    "next milestone",
+    "advance milestone",
+    "next checkpoint"
+  ],
+  "family": "flag",
+  "shapes": [
+    {
+      "d": "M4 3V21",
+      "closed": false
+    },
+    {
+      "d": "M4 3L13 3L10 6L13 9L4 9",
+      "closed": false
+    },
+    {
+      "d": "M14.5 12L17.5 15L14.5 18",
+      "closed": false
+    },
+    {
+      "d": "M19 12L22 15L19 18",
+      "closed": false
+    }
+  ]
+}

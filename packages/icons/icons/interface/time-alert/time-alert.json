@@ -1,0 +1,36 @@
+{
+  "slug": "time-alert",
+  "category": "interface",
+  "subcategory": "time",
+  "name": "Time alert",
+  "description": "A clock beside an alert mark — a time-based warning",
+  "tags": [
+    "time",
+    "alert",
+    "warning"
+  ],
+  "keywords": [
+    "time alert",
+    "time warning",
+    "running late"
+  ],
+  "family": "clock",
+  "shapes": [
+    {
+      "d": "M2 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 9L7.5 12L10 12",
+      "closed": false
+    },
+    {
+      "d": "M18 7V12",
+      "closed": false
+    },
+    {
+      "d": "M17 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

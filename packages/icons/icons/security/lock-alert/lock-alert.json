@@ -1,0 +1,36 @@
+{
+  "slug": "lock-alert",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Lock alert",
+  "description": "A padlock beside an alert mark — a lock that needs attention",
+  "tags": [
+    "lock",
+    "alert",
+    "warning"
+  ],
+  "keywords": [
+    "lock alert",
+    "lock warning",
+    "lock issue"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M2 13A2 2 0 0 1 4 11H10A2 2 0 0 1 12 13V17A2 2 0 0 1 10 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M4 11A3 3 0 0 1 10 11",
+      "closed": false
+    },
+    {
+      "d": "M18 7V12",
+      "closed": false
+    },
+    {
+      "d": "M17 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

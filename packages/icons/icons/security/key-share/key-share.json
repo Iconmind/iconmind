@@ -1,0 +1,40 @@
+{
+  "slug": "key-share",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Key share",
+  "description": "A key beside an arrow — share a credential with someone",
+  "tags": [
+    "key",
+    "share",
+    "send"
+  ],
+  "keywords": [
+    "share key",
+    "send credential",
+    "key handoff"
+  ],
+  "family": "key",
+  "shapes": [
+    {
+      "d": "M3 9a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V21",
+      "closed": false
+    },
+    {
+      "d": "M7 18H10",
+      "closed": false
+    },
+    {
+      "d": "M15 12H22",
+      "closed": false
+    },
+    {
+      "d": "M19.5 9.5L22 12L19.5 14.5",
+      "closed": false
+    }
+  ]
+}

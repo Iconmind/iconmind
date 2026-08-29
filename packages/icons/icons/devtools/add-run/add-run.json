@@ -1,0 +1,32 @@
+{
+  "slug": "add-run",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Add run",
+  "description": "A play button with a plus beside it — queue another run",
+  "tags": [
+    "run",
+    "add",
+    "queue"
+  ],
+  "keywords": [
+    "add run",
+    "queue run",
+    "new job"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M3 5L3 19L10 12Z",
+      "closed": true
+    },
+    {
+      "d": "M16 12H22",
+      "closed": false
+    },
+    {
+      "d": "M19 9V15",
+      "closed": false
+    }
+  ]
+}

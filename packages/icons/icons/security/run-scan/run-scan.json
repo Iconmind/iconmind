@@ -1,0 +1,28 @@
+{
+  "slug": "run-scan",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Run scan",
+  "description": "A shield beside a play button — start a security scan",
+  "tags": [
+    "scan",
+    "run",
+    "sweep"
+  ],
+  "keywords": [
+    "run scan",
+    "start security scan",
+    "trigger scan"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M3 5L12 5L12 11L7.5 15.5L3 11Z",
+      "closed": true
+    },
+    {
+      "d": "M15 8L15 16L19 12Z",
+      "closed": true
+    }
+  ]
+}

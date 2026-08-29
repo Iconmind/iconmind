@@ -1,0 +1,36 @@
+{
+  "slug": "checkpoint-alert",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Checkpoint alert",
+  "description": "A flag beside an alert mark — a checkpoint that needs attention",
+  "tags": [
+    "checkpoint",
+    "alert",
+    "warning"
+  ],
+  "keywords": [
+    "checkpoint alert",
+    "checkpoint warning",
+    "save issue"
+  ],
+  "family": "flag",
+  "shapes": [
+    {
+      "d": "M4 3V21",
+      "closed": false
+    },
+    {
+      "d": "M4 3L13 3L10 6L13 9L4 9",
+      "closed": false
+    },
+    {
+      "d": "M18 7V12",
+      "closed": false
+    },
+    {
+      "d": "M17 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

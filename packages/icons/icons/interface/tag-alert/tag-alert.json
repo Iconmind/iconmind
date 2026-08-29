@@ -1,0 +1,32 @@
+{
+  "slug": "tag-alert",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Tag alert",
+  "description": "A label beside an alert mark — a tag that needs attention",
+  "tags": [
+    "tag",
+    "alert",
+    "warning"
+  ],
+  "keywords": [
+    "tag alert",
+    "label warning",
+    "tag issue"
+  ],
+  "family": "tag",
+  "shapes": [
+    {
+      "d": "M3 6L7 6L11 10L7 14L3 14Z",
+      "closed": true
+    },
+    {
+      "d": "M18 7V12",
+      "closed": false
+    },
+    {
+      "d": "M17 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

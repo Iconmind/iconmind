@@ -1,0 +1,36 @@
+{
+  "slug": "search-alert",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Search alert",
+  "description": "A magnifying glass beside an alert mark — be told when a search finds something new",
+  "tags": [
+    "search",
+    "alert",
+    "notify"
+  ],
+  "keywords": [
+    "search alert",
+    "saved search notification",
+    "new results alert"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M4 10a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 13.5L2.5 16.5",
+      "closed": false
+    },
+    {
+      "d": "M18 7V12",
+      "closed": false
+    },
+    {
+      "d": "M17 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

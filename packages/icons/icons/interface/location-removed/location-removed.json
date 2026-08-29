@@ -1,0 +1,36 @@
+{
+  "slug": "location-removed",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "Location removed",
+  "description": "A location pin with an X beside it — a place taken off the list",
+  "tags": [
+    "location",
+    "removed",
+    "delete"
+  ],
+  "keywords": [
+    "remove location",
+    "delete place",
+    "location removed"
+  ],
+  "family": "pin",
+  "shapes": [
+    {
+      "d": "M4 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V17",
+      "closed": false
+    },
+    {
+      "d": "M16 9.5L21 14.5",
+      "closed": false
+    },
+    {
+      "d": "M21 9.5L16 14.5",
+      "closed": false
+    }
+  ]
+}

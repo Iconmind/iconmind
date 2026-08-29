@@ -1,0 +1,32 @@
+{
+  "slug": "apply-filter",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Apply filter",
+  "description": "A funnel with a double chevron beside it — put the filter into effect",
+  "tags": [
+    "filter",
+    "apply",
+    "go"
+  ],
+  "keywords": [
+    "apply filter",
+    "run filter",
+    "filter now"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M3 5L14 5L10 9L10 17L7 17L7 9Z",
+      "closed": true
+    },
+    {
+      "d": "M14.5 9L17.5 12L14.5 15",
+      "closed": false
+    },
+    {
+      "d": "M19 9L22 12L19 15",
+      "closed": false
+    }
+  ]
+}

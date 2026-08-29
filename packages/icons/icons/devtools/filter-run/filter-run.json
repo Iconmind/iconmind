@@ -1,0 +1,28 @@
+{
+  "slug": "filter-run",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Filter run",
+  "description": "A funnel beside a play button — run only what the filter selects",
+  "tags": [
+    "filter",
+    "run",
+    "subset"
+  ],
+  "keywords": [
+    "filtered run",
+    "run subset",
+    "run matching tests"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M3 5L14 5L10 9L10 17L7 17L7 9Z",
+      "closed": true
+    },
+    {
+      "d": "M16 8L16 16L20 12Z",
+      "closed": true
+    }
+  ]
+}

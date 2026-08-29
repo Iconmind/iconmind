@@ -1,0 +1,29 @@
+{
+  "slug": "favorite-bookmark",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Favourite bookmark",
+  "description": "A heart beside a bookmark — a saved item you love",
+  "tags": [
+    "favourite",
+    "bookmark",
+    "heart"
+  ],
+  "keywords": [
+    "favourite bookmark",
+    "loved bookmark",
+    "starred save"
+  ],
+  "family": "heart",
+  "shapes": [
+    {
+      "d": "M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
+    },
+    {
+      "d": "M14 7L21 7L21 17L17.5 13.5L14 17Z",
+      "closed": true
+    }
+  ]
+}

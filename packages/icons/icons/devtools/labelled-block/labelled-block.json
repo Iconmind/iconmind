@@ -1,0 +1,32 @@
+{
+  "slug": "labelled-block",
+  "category": "devtools",
+  "subcategory": "code",
+  "name": "Labelled block",
+  "description": "A label held between brackets — a block of code with a name",
+  "tags": [
+    "label",
+    "block",
+    "code"
+  ],
+  "keywords": [
+    "labelled block",
+    "named block",
+    "code region"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M8.5 9L13 9L16 12L13 15L8.5 15Z",
+      "closed": true
+    }
+  ]
+}

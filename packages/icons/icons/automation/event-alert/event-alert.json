@@ -1,0 +1,32 @@
+{
+  "slug": "event-alert",
+  "category": "automation",
+  "subcategory": "condition",
+  "name": "Event alert",
+  "description": "A lightning bolt beside an alert mark — an event that raised a warning",
+  "tags": [
+    "event",
+    "alert",
+    "warning"
+  ],
+  "keywords": [
+    "event alert",
+    "event warning",
+    "trigger alert"
+  ],
+  "family": "bolt",
+  "shapes": [
+    {
+      "d": "M10 6L5 11L9 11L4 16",
+      "closed": false
+    },
+    {
+      "d": "M17 7V12",
+      "closed": false
+    },
+    {
+      "d": "M16 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

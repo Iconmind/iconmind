@@ -1,0 +1,32 @@
+{
+  "slug": "remove-checkpoint",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Remove checkpoint",
+  "description": "A flag with a minus beside it — delete a checkpoint",
+  "tags": [
+    "checkpoint",
+    "remove",
+    "delete"
+  ],
+  "keywords": [
+    "remove checkpoint",
+    "delete checkpoint",
+    "prune saves"
+  ],
+  "family": "flag",
+  "shapes": [
+    {
+      "d": "M4 3V21",
+      "closed": false
+    },
+    {
+      "d": "M4 3L13 3L10 6L13 9L4 9",
+      "closed": false
+    },
+    {
+      "d": "M16 12H22",
+      "closed": false
+    }
+  ]
+}

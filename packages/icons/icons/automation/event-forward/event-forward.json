@@ -1,0 +1,32 @@
+{
+  "slug": "event-forward",
+  "category": "automation",
+  "subcategory": "action",
+  "name": "Event forward",
+  "description": "A lightning bolt with an arrow beside it — an event passed on to the next handler",
+  "tags": [
+    "event",
+    "forward",
+    "relay"
+  ],
+  "keywords": [
+    "forward event",
+    "relay event",
+    "pass event on"
+  ],
+  "family": "bolt",
+  "shapes": [
+    {
+      "d": "M10 6L5 11L9 11L4 16",
+      "closed": false
+    },
+    {
+      "d": "M15 12H22",
+      "closed": false
+    },
+    {
+      "d": "M19.5 9.5L22 12L19.5 14.5",
+      "closed": false
+    }
+  ]
+}

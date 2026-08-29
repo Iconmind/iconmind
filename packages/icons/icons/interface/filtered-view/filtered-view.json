@@ -1,0 +1,32 @@
+{
+  "slug": "filtered-view",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Filtered view",
+  "description": "A window with a funnel inside — a view with a filter applied",
+  "tags": [
+    "filter",
+    "view",
+    "page"
+  ],
+  "keywords": [
+    "filtered view",
+    "view with filter",
+    "narrowed page"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 4.5A2 2 0 0 1 5 2.5H19A2 2 0 0 1 21 4.5V19.5A2 2 0 0 1 19 21.5H5A2 2 0 0 1 3 19.5Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M7 10L17 10L13.5 13.5L13.5 18.5L10.5 18.5L10.5 13.5Z",
+      "closed": true
+    }
+  ]
+}

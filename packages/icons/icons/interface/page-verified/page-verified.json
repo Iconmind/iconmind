@@ -1,0 +1,32 @@
+{
+  "slug": "page-verified",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Page verified",
+  "description": "A window with a check inside — a page that passed its checks",
+  "tags": [
+    "verified",
+    "page",
+    "check"
+  ],
+  "keywords": [
+    "page verified",
+    "page ok",
+    "checks passed"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 8H21",
+      "closed": false
+    },
+    {
+      "d": "M8 14L11 17L16 12",
+      "closed": false
+    }
+  ]
+}

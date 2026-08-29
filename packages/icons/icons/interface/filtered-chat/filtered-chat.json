@@ -1,0 +1,32 @@
+{
+  "slug": "filtered-chat",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Filtered chat",
+  "description": "A speech bubble with a funnel inside — a conversation with a filter on",
+  "tags": [
+    "filter",
+    "chat",
+    "narrow"
+  ],
+  "keywords": [
+    "filtered conversation",
+    "chat filter",
+    "narrow messages"
+  ],
+  "family": "bubble",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H20A2 2 0 0 1 22 4V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M6 18L6 21L9 18",
+      "closed": false
+    },
+    {
+      "d": "M7.5 6L16.5 6L13.5 9L13.5 14L10.5 14L10.5 9Z",
+      "closed": true
+    }
+  ]
+}

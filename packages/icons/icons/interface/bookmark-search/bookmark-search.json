@@ -1,0 +1,32 @@
+{
+  "slug": "bookmark-search",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Bookmark search",
+  "description": "A bookmark beside a magnifying glass — search your bookmarks",
+  "tags": [
+    "bookmark",
+    "search",
+    "find"
+  ],
+  "keywords": [
+    "search bookmarks",
+    "find saved",
+    "bookmark search"
+  ],
+  "family": "bookmark",
+  "shapes": [
+    {
+      "d": "M3 5L11 5L11 19L7 15L3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M14 10a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
+      "closed": true
+    },
+    {
+      "d": "M20 12.5L22 14.5",
+      "closed": false
+    }
+  ]
+}

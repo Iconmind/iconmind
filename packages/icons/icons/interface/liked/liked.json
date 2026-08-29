@@ -1,0 +1,29 @@
+{
+  "slug": "liked",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "Liked",
+  "description": "A heart with a check beside it — something you liked",
+  "tags": [
+    "like",
+    "heart",
+    "check"
+  ],
+  "keywords": [
+    "liked",
+    "marked as liked",
+    "favourite confirmed"
+  ],
+  "family": "heart",
+  "shapes": [
+    {
+      "d": "M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
+    },
+    {
+      "d": "M14.5 13L17.5 16L22 11.5",
+      "closed": false
+    }
+  ]
+}

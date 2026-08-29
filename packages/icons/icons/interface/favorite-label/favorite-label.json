@@ -1,0 +1,29 @@
+{
+  "slug": "favorite-label",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "Favourite label",
+  "description": "A heart beside a label — favourites grouped under a name",
+  "tags": [
+    "favourite",
+    "label",
+    "group"
+  ],
+  "keywords": [
+    "favourite label",
+    "favourites group",
+    "collection name"
+  ],
+  "family": "heart",
+  "shapes": [
+    {
+      "d": "M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
+    },
+    {
+      "d": "M14 13L19 13L22 16L19 19L14 19Z",
+      "closed": true
+    }
+  ]
+}

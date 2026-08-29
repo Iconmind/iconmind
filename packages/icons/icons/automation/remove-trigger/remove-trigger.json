@@ -1,0 +1,28 @@
+{
+  "slug": "remove-trigger",
+  "category": "automation",
+  "subcategory": "trigger",
+  "name": "Remove trigger",
+  "description": "A lightning bolt with a minus beside it — delete a trigger",
+  "tags": [
+    "trigger",
+    "remove",
+    "delete"
+  ],
+  "keywords": [
+    "remove trigger",
+    "delete trigger",
+    "disable event"
+  ],
+  "family": "bolt",
+  "shapes": [
+    {
+      "d": "M10 6L5 11L9 11L4 16",
+      "closed": false
+    },
+    {
+      "d": "M15 12H22",
+      "closed": false
+    }
+  ]
+}

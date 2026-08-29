@@ -1,0 +1,28 @@
+{
+  "slug": "bookmark-label",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Bookmark label",
+  "description": "A bookmark beside a label — a bookmark filed under a tag",
+  "tags": [
+    "bookmark",
+    "label",
+    "tag"
+  ],
+  "keywords": [
+    "bookmark label",
+    "tagged bookmark",
+    "bookmark folder"
+  ],
+  "family": "bookmark",
+  "shapes": [
+    {
+      "d": "M3 5L12 5L12 19L7.5 14.5L3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M16 13L20 13L22 15L20 17L16 17Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "labelled-checkpoint",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Labelled checkpoint",
+  "description": "A flag beside a label — a checkpoint with a name",
+  "tags": [
+    "checkpoint",
+    "label",
+    "name"
+  ],
+  "keywords": [
+    "labelled checkpoint",
+    "named checkpoint",
+    "checkpoint tag"
+  ],
+  "family": "flag",
+  "shapes": [
+    {
+      "d": "M4 3V21",
+      "closed": false
+    },
+    {
+      "d": "M4 3L13 3L10 6L13 9L4 9",
+      "closed": false
+    },
+    {
+      "d": "M16 13L20 13L22 15L20 17L16 17Z",
+      "closed": true
+    }
+  ]
+}

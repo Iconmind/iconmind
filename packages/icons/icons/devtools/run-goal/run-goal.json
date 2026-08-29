@@ -1,0 +1,32 @@
+{
+  "slug": "run-goal",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Run goal",
+  "description": "A play button beside a target — what a run is trying to achieve",
+  "tags": [
+    "run",
+    "goal",
+    "target"
+  ],
+  "keywords": [
+    "run goal",
+    "job objective",
+    "run target"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M3 5L3 19L10 12Z",
+      "closed": true
+    },
+    {
+      "d": "M14 13a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}
