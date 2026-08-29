@@ -1,0 +1,34 @@
+{
+  "slug": "token-in",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Token in",
+  "description": "One more word, entering",
+  "tags": [
+    "input",
+    "prompt",
+    "enter"
+  ],
+  "aliases": [
+    "input-token"
+  ],
+  "keywords": [
+    "input tokens",
+    "prompt tokens"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M2 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 9.5L10 12L7.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M13 7A2 2 0 0 1 15 5H19A2 2 0 0 1 21 7V17A2 2 0 0 1 19 19H15A2 2 0 0 1 13 17Z",
+      "closed": true
+    }
+  ]
+}

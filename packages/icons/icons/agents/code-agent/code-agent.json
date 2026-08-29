@@ -1,0 +1,34 @@
+{
+  "slug": "code-agent",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Code agent",
+  "description": "Writes the code, then reads it back",
+  "tags": [
+    "code",
+    "write",
+    "brackets"
+  ],
+  "aliases": [
+    "coding-agent"
+  ],
+  "keywords": [
+    "code agent",
+    "coding assistant"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M13.69 2.87A4 4 0 1 1 10.31 2.87",
+      "closed": false
+    },
+    {
+      "d": "M9 13L6.5 15.5L9 18",
+      "closed": false
+    },
+    {
+      "d": "M15 13L17.5 15.5L15 18",
+      "closed": false
+    }
+  ]
+}

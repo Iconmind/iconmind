@@ -1,0 +1,27 @@
+{
+  "slug": "blue-team-agent",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Blue team agent",
+  "description": "Paid to keep it standing",
+  "tags": [
+    "defend",
+    "shield",
+    "guard"
+  ],
+  "keywords": [
+    "blue team",
+    "defender agent"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M13 11L20 11L20 15L16.5 18.5L13 15Z",
+      "closed": true
+    }
+  ]
+}

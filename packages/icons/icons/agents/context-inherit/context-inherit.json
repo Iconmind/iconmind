@@ -1,0 +1,31 @@
+{
+  "slug": "context-inherit",
+  "category": "agents",
+  "subcategory": "communication",
+  "name": "Context inherit",
+  "description": "Born knowing what the parent knew",
+  "tags": [
+    "child",
+    "inherit",
+    "page"
+  ],
+  "keywords": [
+    "inherit context",
+    "child context"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M13.69 2.37A4 4 0 1 1 10.31 2.37",
+      "closed": false
+    },
+    {
+      "d": "M12 10V13",
+      "closed": false
+    },
+    {
+      "d": "M8.5 15A2 2 0 0 1 10.5 13H13.5A2 2 0 0 1 15.5 15V18A2 2 0 0 1 13.5 20H10.5A2 2 0 0 1 8.5 18Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "agent-market",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Agent market",
+  "description": "Where agents are bought by the hour",
+  "tags": [
+    "hire",
+    "coin",
+    "trade"
+  ],
+  "aliases": [
+    "agent-marketplace"
+  ],
+  "keywords": [
+    "agent marketplace",
+    "hire agents"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M11 16a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 16a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "durable-object",
+  "category": "cloud",
+  "subcategory": "storage",
+  "name": "Durable object",
+  "description": "Anchored; it will be here tomorrow",
+  "tags": [
+    "persist",
+    "anchor",
+    "state"
+  ],
+  "keywords": [
+    "durable object",
+    "persistent state"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M10 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 7V20",
+      "closed": false
+    },
+    {
+      "d": "M8 10H16",
+      "closed": false
+    },
+    {
+      "d": "M17 15A5 5 0 0 1 7 15",
+      "closed": false
+    }
+  ]
+}

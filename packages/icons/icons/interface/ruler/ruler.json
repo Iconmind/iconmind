@@ -1,0 +1,39 @@
+{
+  "slug": "ruler",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Ruler",
+  "description": "Twelve exactly, not about twelve",
+  "tags": [
+    "measure",
+    "ticks",
+    "length"
+  ],
+  "keywords": [
+    "ruler",
+    "measure"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12A4 4 0 0 1 6 8H18A4 4 0 0 1 22 12V12A4 4 0 0 1 18 16H6A4 4 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M6 8V11.5",
+      "closed": false
+    },
+    {
+      "d": "M10 8V11.5",
+      "closed": false
+    },
+    {
+      "d": "M14 8V11.5",
+      "closed": false
+    },
+    {
+      "d": "M18 8V11.5",
+      "closed": false
+    }
+  ]
+}

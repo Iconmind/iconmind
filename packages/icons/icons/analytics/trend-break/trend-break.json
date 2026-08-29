@@ -1,0 +1,31 @@
+{
+  "slug": "trend-break",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Trend break",
+  "description": "It was rising; then it was not",
+  "tags": [
+    "snap",
+    "reverse",
+    "line"
+  ],
+  "keywords": [
+    "trend break",
+    "trend reversal"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 15L11 7",
+      "closed": false
+    },
+    {
+      "d": "M13 9L19 15",
+      "closed": false
+    },
+    {
+      "d": "M3 19H21",
+      "closed": false
+    }
+  ]
+}

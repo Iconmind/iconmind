@@ -1,0 +1,35 @@
+{
+  "slug": "align-left-obj",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Align left",
+  "description": "Every edge to the same line",
+  "tags": [
+    "align",
+    "edge",
+    "left"
+  ],
+  "keywords": [
+    "align left",
+    "left edge"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 3V21",
+      "closed": false
+    },
+    {
+      "d": "M5.5 7H15",
+      "closed": false
+    },
+    {
+      "d": "M5.5 12H19",
+      "closed": false
+    },
+    {
+      "d": "M5.5 17H12",
+      "closed": false
+    }
+  ]
+}

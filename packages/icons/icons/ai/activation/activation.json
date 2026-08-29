@@ -1,0 +1,30 @@
+{
+  "slug": "activation",
+  "category": "ai",
+  "subcategory": "training",
+  "name": "Activation",
+  "description": "Nothing, nothing, then everything",
+  "tags": [
+    "relu",
+    "nonlinear",
+    "fire"
+  ],
+  "aliases": [
+    "relu"
+  ],
+  "keywords": [
+    "activation function",
+    "relu"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 3L3 21L21 21",
+      "closed": false
+    },
+    {
+      "d": "M5 17L12 17L19 10",
+      "closed": false
+    }
+  ]
+}

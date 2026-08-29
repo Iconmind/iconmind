@@ -1,0 +1,39 @@
+{
+  "slug": "snap-grid",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Snap to grid",
+  "description": "Let go, and it lands on the dots",
+  "tags": [
+    "grid",
+    "snap",
+    "magnet"
+  ],
+  "keywords": [
+    "snap to grid",
+    "grid snapping"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8.5 10.5A2 2 0 0 1 10.5 8.5H13.5A2 2 0 0 1 15.5 10.5V13.5A2 2 0 0 1 13.5 15.5H10.5A2 2 0 0 1 8.5 13.5Z",
+      "closed": true
+    }
+  ]
+}

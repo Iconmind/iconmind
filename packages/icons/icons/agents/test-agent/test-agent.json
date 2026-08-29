@@ -1,0 +1,27 @@
+{
+  "slug": "test-agent",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Test agent",
+  "description": "Runs the suite so nobody has to remember",
+  "tags": [
+    "test",
+    "run",
+    "verify"
+  ],
+  "keywords": [
+    "testing agent",
+    "qa agent"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M12 11L17 16L12 21Z",
+      "closed": true
+    }
+  ]
+}

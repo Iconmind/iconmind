@@ -1,0 +1,35 @@
+{
+  "slug": "scroll-agent",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Scroll agent",
+  "description": "It reads the way people read — down",
+  "tags": [
+    "browse",
+    "scroll",
+    "page"
+  ],
+  "keywords": [
+    "scrolling agent",
+    "browse page"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M9.69 8.37A4 4 0 1 1 6.31 8.37",
+      "closed": false
+    },
+    {
+      "d": "M17 5V19",
+      "closed": false
+    },
+    {
+      "d": "M14.5 7.5L17 5L19.5 7.5",
+      "closed": false
+    },
+    {
+      "d": "M14.5 16.5L17 19L19.5 16.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "marginal-roi",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Marginal ROI",
+  "description": "Each extra coin buys a little less",
+  "tags": [
+    "diminishing",
+    "return",
+    "coin"
+  ],
+  "aliases": [
+    "diminishing-returns"
+  ],
+  "keywords": [
+    "marginal roi",
+    "diminishing returns"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M5 10V19",
+      "closed": false
+    },
+    {
+      "d": "M11 13V19",
+      "closed": false
+    },
+    {
+      "d": "M17 16V19",
+      "closed": false
+    },
+    {
+      "d": "M3 21.5H21",
+      "closed": false
+    },
+    {
+      "d": "M9 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

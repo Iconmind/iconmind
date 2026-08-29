@@ -1,0 +1,35 @@
+{
+  "slug": "cross-attention",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Cross-attention",
+  "description": "Each side looking at the other",
+  "tags": [
+    "attend",
+    "across",
+    "pair"
+  ],
+  "keywords": [
+    "cross attention",
+    "encoder attention"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 5H21",
+      "closed": false
+    },
+    {
+      "d": "M3 19H21",
+      "closed": false
+    },
+    {
+      "d": "M9.5 9.5L14.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M14.5 9.5L9.5 14.5",
+      "closed": false
+    }
+  ]
+}

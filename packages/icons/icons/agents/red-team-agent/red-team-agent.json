@@ -1,0 +1,27 @@
+{
+  "slug": "red-team-agent",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Red team agent",
+  "description": "Paid to break it first",
+  "tags": [
+    "attack",
+    "probe",
+    "bolt"
+  ],
+  "keywords": [
+    "red team",
+    "attacker agent"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M18 10L13.5 14.5L16 14.5L11.5 19",
+      "closed": false
+    }
+  ]
+}

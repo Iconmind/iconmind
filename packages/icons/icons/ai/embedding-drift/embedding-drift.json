@@ -1,0 +1,27 @@
+{
+  "slug": "embedding-drift",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Embedding drift",
+  "description": "The same word, slowly moving house",
+  "tags": [
+    "shift",
+    "wander",
+    "vector"
+  ],
+  "keywords": [
+    "embedding drift",
+    "vector drift"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8.5 5L11 7.5L7 11.5L3 7.5L5.5 5",
+      "closed": false
+    },
+    {
+      "d": "M10 14L13 17L16 14L19 17",
+      "closed": false
+    }
+  ]
+}

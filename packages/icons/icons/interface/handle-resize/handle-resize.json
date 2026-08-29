@@ -1,0 +1,31 @@
+{
+  "slug": "handle-resize",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Resize handle",
+  "description": "Pull the corner; the box follows",
+  "tags": [
+    "resize",
+    "corner",
+    "drag"
+  ],
+  "keywords": [
+    "resize handle",
+    "drag corner"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H14A2 2 0 0 1 16 5V14A2 2 0 0 1 14 16H5A2 2 0 0 1 3 14Z",
+      "closed": true
+    },
+    {
+      "d": "M16 16L20.5 20.5",
+      "closed": false
+    },
+    {
+      "d": "M16.5 20.5L20.5 20.5L20.5 16.5",
+      "closed": false
+    }
+  ]
+}

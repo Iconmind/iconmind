@@ -1,0 +1,31 @@
+{
+  "slug": "email-agent",
+  "category": "agents",
+  "subcategory": "communication",
+  "name": "Email agent",
+  "description": "Reads the inbox so you can not",
+  "tags": [
+    "mail",
+    "inbox",
+    "reply"
+  ],
+  "keywords": [
+    "email agent",
+    "inbox assistant"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M7.48 2.83A3.5 3.5 0 1 1 4.52 2.83",
+      "closed": false
+    },
+    {
+      "d": "M10 13A2 2 0 0 1 12 11H19A2 2 0 0 1 21 13V17A2 2 0 0 1 19 19H12A2 2 0 0 1 10 17Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12L15.5 15.5L19 12",
+      "closed": false
+    }
+  ]
+}

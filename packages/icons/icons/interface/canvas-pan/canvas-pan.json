@@ -1,0 +1,46 @@
+{
+  "slug": "canvas-pan",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Pan canvas",
+  "description": "Drag the world, not the thing",
+  "tags": [
+    "move",
+    "drag",
+    "four-way"
+  ],
+  "aliases": [
+    "pan"
+  ],
+  "keywords": [
+    "pan",
+    "move canvas"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M12 3V21",
+      "closed": false
+    },
+    {
+      "d": "M3 12H21",
+      "closed": false
+    },
+    {
+      "d": "M9.5 5.5L12 3L14.5 5.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 18.5L12 21L14.5 18.5",
+      "closed": false
+    },
+    {
+      "d": "M5.5 9.5L3 12L5.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M18.5 9.5L21 12L18.5 14.5",
+      "closed": false
+    }
+  ]
+}

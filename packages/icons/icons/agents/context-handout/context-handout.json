@@ -1,0 +1,31 @@
+{
+  "slug": "context-handout",
+  "category": "agents",
+  "subcategory": "communication",
+  "name": "Context handout",
+  "description": "Here is what I know; take it with you",
+  "tags": [
+    "pass",
+    "share",
+    "page"
+  ],
+  "keywords": [
+    "context handoff",
+    "share context"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M6.98 2.33A3.5 3.5 0 1 1 4.02 2.33",
+      "closed": false
+    },
+    {
+      "d": "M8.5 10.5A2 2 0 0 1 10.5 8.5H13.5A2 2 0 0 1 15.5 10.5V13.5A2 2 0 0 1 13.5 15.5H10.5A2 2 0 0 1 8.5 13.5Z",
+      "closed": true
+    },
+    {
+      "d": "M19.98 15.33A3.5 3.5 0 1 1 17.02 15.33",
+      "closed": false
+    }
+  ]
+}

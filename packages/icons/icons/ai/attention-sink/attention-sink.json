@@ -1,0 +1,35 @@
+{
+  "slug": "attention-sink",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Attention sink",
+  "description": "The first token soaks it all up",
+  "tags": [
+    "first",
+    "absorb",
+    "heavy"
+  ],
+  "keywords": [
+    "attention sink",
+    "first token"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16.5 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M20 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

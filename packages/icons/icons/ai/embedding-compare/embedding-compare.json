@@ -1,0 +1,38 @@
+{
+  "slug": "embedding-compare",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Embedding compare",
+  "description": "How close two meanings sit",
+  "tags": [
+    "similarity",
+    "cosine",
+    "pair"
+  ],
+  "aliases": [
+    "cosine-similarity"
+  ],
+  "keywords": [
+    "embedding similarity",
+    "cosine"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7.5 5L10 7.5L6 11.5L2 7.5L4.5 5",
+      "closed": false
+    },
+    {
+      "d": "M19.5 5L22 7.5L18 11.5L14 7.5L16.5 5",
+      "closed": false
+    },
+    {
+      "d": "M8 16H16",
+      "closed": false
+    },
+    {
+      "d": "M8 19.5H16",
+      "closed": false
+    }
+  ]
+}

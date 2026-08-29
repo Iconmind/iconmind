@@ -1,0 +1,27 @@
+{
+  "slug": "triage-agent",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Triage agent",
+  "description": "Sorts the pile before anyone opens it",
+  "tags": [
+    "sort",
+    "funnel",
+    "priority"
+  ],
+  "keywords": [
+    "triage agent",
+    "ticket sorting"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M7.98 3.33A3.5 3.5 0 1 1 5.02 3.33",
+      "closed": false
+    },
+    {
+      "d": "M10 11L21 11L17 15L17 20L14 20L14 15Z",
+      "closed": true
+    }
+  ]
+}

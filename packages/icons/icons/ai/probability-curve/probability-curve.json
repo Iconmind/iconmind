@@ -1,0 +1,30 @@
+{
+  "slug": "probability-curve",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Probability curve",
+  "description": "Where the mass of belief sits",
+  "tags": [
+    "bell",
+    "softmax",
+    "distribution"
+  ],
+  "aliases": [
+    "softmax-curve"
+  ],
+  "keywords": [
+    "probability distribution",
+    "softmax"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M4 14A8 8 0 0 1 20 14",
+      "closed": false
+    },
+    {
+      "d": "M3 18H21",
+      "closed": false
+    }
+  ]
+}

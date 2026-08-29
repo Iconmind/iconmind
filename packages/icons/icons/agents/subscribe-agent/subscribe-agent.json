@@ -1,0 +1,35 @@
+{
+  "slug": "subscribe-agent",
+  "category": "agents",
+  "subcategory": "communication",
+  "name": "Subscribe agent",
+  "description": "Wake me when something changes",
+  "tags": [
+    "feed",
+    "listen",
+    "updates"
+  ],
+  "keywords": [
+    "subscribe",
+    "event listener agent"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "closed": false
+    },
+    {
+      "d": "M13 15A3 3 0 0 1 16 18",
+      "closed": false
+    },
+    {
+      "d": "M13 12A6 6 0 0 1 19 18",
+      "closed": false
+    },
+    {
+      "d": "M12 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

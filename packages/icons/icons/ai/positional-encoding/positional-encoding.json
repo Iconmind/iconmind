@@ -1,0 +1,31 @@
+{
+  "slug": "positional-encoding",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Positional encoding",
+  "description": "Every token knows its seat",
+  "tags": [
+    "position",
+    "wave",
+    "order"
+  ],
+  "keywords": [
+    "positional encoding",
+    "position embedding"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 16L7 12L11 16L15 12L19 16",
+      "closed": false
+    },
+    {
+      "d": "M6 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

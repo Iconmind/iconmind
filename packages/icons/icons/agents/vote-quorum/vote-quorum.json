@@ -1,0 +1,38 @@
+{
+  "slug": "vote-quorum",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Quorum",
+  "description": "Enough of them agreed to count",
+  "tags": [
+    "vote",
+    "enough",
+    "agree"
+  ],
+  "aliases": [
+    "agent-quorum"
+  ],
+  "keywords": [
+    "quorum",
+    "majority vote"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M7.27 3.28A3 3 0 1 1 4.73 3.28",
+      "closed": false
+    },
+    {
+      "d": "M19.27 3.28A3 3 0 1 1 16.73 3.28",
+      "closed": false
+    },
+    {
+      "d": "M13.27 15.28A3 3 0 1 1 10.73 15.28",
+      "closed": false
+    },
+    {
+      "d": "M9.5 11L11.5 13L15 9.5",
+      "closed": false
+    }
+  ]
+}

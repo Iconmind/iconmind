@@ -1,0 +1,35 @@
+{
+  "slug": "packet-loss",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Packet loss",
+  "description": "One of them never arrived",
+  "tags": [
+    "dropped",
+    "network",
+    "gap"
+  ],
+  "keywords": [
+    "packet loss",
+    "dropped packets"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 14H22",
+      "closed": false
+    }
+  ]
+}

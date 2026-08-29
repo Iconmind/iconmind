@@ -59,6 +59,11 @@ const ANCHORED = new Set([
   "ai/kv-evict",
   // A pointer is held at one edge; its dot lands at the other — the beam is the picture.
   "interface/laser-pointer",
+  // Axes charts and bars on a baseline keep their ink low and left; an object
+  // aligned to its edge is, by definition, on that edge.
+  "ai/activation", "analytics/significance-test", "analytics/trend-break", "interface/align-left-obj",
+  // The locked layer is the lid; the lock hangs beneath it.
+  "interface/layer-lock",
   // A boom gate hinges on its post; a warm pool sits on the ground it is dug into.
   "devops/admission-control", "devops/prewarm-pool",
   // Bars stand on their baseline; a funnel hangs from its mouth; an axes chart
@@ -71,6 +76,11 @@ const ANCHORED = new Set([
   "ai/kv-evict",
   // A pointer is held at one edge; its dot lands at the other — the beam is the picture.
   "interface/laser-pointer",
+  // Axes charts and bars on a baseline keep their ink low and left; an object
+  // aligned to its edge is, by definition, on that edge.
+  "ai/activation", "analytics/significance-test", "analytics/trend-break", "interface/align-left-obj",
+  // The locked layer is the lid; the lock hangs beneath it.
+  "interface/layer-lock",
 ]);
 
 function inkStats(svg: string, size: number) {

@@ -1,0 +1,42 @@
+{
+  "slug": "message-split",
+  "category": "automation",
+  "subcategory": "integration",
+  "name": "Message split",
+  "description": "One in, two out, each its own way",
+  "tags": [
+    "fork",
+    "divide",
+    "route"
+  ],
+  "aliases": [
+    "splitter-flow"
+  ],
+  "keywords": [
+    "message splitter",
+    "fan out message"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M5 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 12L17 4",
+      "closed": false
+    },
+    {
+      "d": "M14 4L17 4L17 7",
+      "closed": false
+    },
+    {
+      "d": "M9 12L17 20",
+      "closed": false
+    },
+    {
+      "d": "M14 20L17 20L17 17",
+      "closed": false
+    }
+  ]
+}

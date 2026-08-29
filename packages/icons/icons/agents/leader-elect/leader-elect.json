@@ -1,0 +1,27 @@
+{
+  "slug": "leader-elect",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Leader election",
+  "description": "One of them wears the crown, for now",
+  "tags": [
+    "leader",
+    "crown",
+    "chosen"
+  ],
+  "keywords": [
+    "leader election",
+    "elected agent"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M8 7.5L10 5.5L12 7.5L14 5.5L16 7.5",
+      "closed": false
+    },
+    {
+      "d": "M14.32 9.52A5.5 5.5 0 1 1 9.68 9.52",
+      "closed": false
+    }
+  ]
+}

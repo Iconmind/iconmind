@@ -1,0 +1,34 @@
+{
+  "slug": "shell-agent",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Shell agent",
+  "description": "Typing where the prompt blinks",
+  "tags": [
+    "terminal",
+    "command",
+    "run"
+  ],
+  "aliases": [
+    "terminal-agent"
+  ],
+  "keywords": [
+    "shell agent",
+    "cli agent"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M8.69 4.37A4 4 0 1 1 5.31 4.37",
+      "closed": false
+    },
+    {
+      "d": "M13 12L16.5 15.5L13 19",
+      "closed": false
+    },
+    {
+      "d": "M18.5 19H21.5",
+      "closed": false
+    }
+  ]
+}

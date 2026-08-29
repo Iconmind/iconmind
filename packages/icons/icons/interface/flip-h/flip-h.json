@@ -1,0 +1,31 @@
+{
+  "slug": "flip-h",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Flip horizontal",
+  "description": "Its mirror twin, across the line",
+  "tags": [
+    "mirror",
+    "flip",
+    "reflect"
+  ],
+  "keywords": [
+    "flip horizontal",
+    "mirror"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 6L9 12L3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M12 4V20",
+      "closed": false
+    },
+    {
+      "d": "M21 6L15 12L21 18Z",
+      "closed": true
+    }
+  ]
+}

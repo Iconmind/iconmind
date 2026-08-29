@@ -1,0 +1,42 @@
+{
+  "slug": "pooling",
+  "category": "ai",
+  "subcategory": "inference",
+  "name": "Pooling",
+  "description": "Many vectors, folded into one",
+  "tags": [
+    "reduce",
+    "average",
+    "one"
+  ],
+  "aliases": [
+    "mean-pooling"
+  ],
+  "keywords": [
+    "pooling",
+    "mean pool"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 8.5L12 11L14.5 8.5",
+      "closed": false
+    },
+    {
+      "d": "M8 16.5a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    }
+  ]
+}
