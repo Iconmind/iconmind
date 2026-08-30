@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "iconmind",
+  "type": "registry:ui",
+  "title": "IconMind icon",
+  "description": "An <Icon name=\"agent-run\" /> wrapper over @iconmind/react — 2,271 MIT icons for AI-era software, outline and duotone, three weights, tree-shaken per icon.",
+  "dependencies": ["@iconmind/react"],
+  "files": [
+    {
+      "path": "components/ui/iconmind.tsx",
+      "type": "registry:ui",
+      "content": "import * as React from \"react\";\nimport * as icons from \"@iconmind/react\";\nimport { cn } from \"@/lib/utils\";\n\n/** Every IconMind export, keyed by component name — `Icon name=\"AgentRun\"` or the slug `agent-run`. */\ntype IconName = keyof typeof icons;\nconst toName = (s: string) => (s.includes(\"-\") ? s.split(\"-\").map((p) => p[0]!.toUpperCase() + p.slice(1)).join(\"\") : s) as IconName;\n\nexport interface IconProps extends React.SVGProps<SVGSVGElement> {\n  name: IconName | (string & {});\n  /** outline (default) or duotone */\n  variant?: \"outline\" | \"duotone\";\n  /** thin 1.5 · regular 2 · bold 2.5 */\n  weight?: \"thin\" | \"regular\" | \"bold\";\n  size?: number;\n}\n\nexport function Icon({ name, variant = \"outline\", weight = \"regular\", size = 20, className, ...rest }: IconProps) {\n  const Cmp = icons[toName(name)] as React.ComponentType<any> | undefined;\n  if (!Cmp) return null;\n  return <Cmp variant={variant} weight={weight} size={size} className={cn(\"shrink-0\", className)} aria-hidden {...rest} />;\n}\n"
+    }
+  ],
+  "docs": "Usage: <Icon name=\"agent-run\" variant=\"duotone\" weight=\"bold\" /> — names are IconMind slugs or component names; the whole set is at https://iconmind.dev"
+}

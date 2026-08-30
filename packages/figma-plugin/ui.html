@@ -1,0 +1,54 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>
+  :root { color-scheme: light dark; --line: var(--figma-color-border, #e5e5e5); --ink: var(--figma-color-text, #111); --muted: var(--figma-color-text-secondary, #777); --sunk: var(--figma-color-bg-secondary, #f4f4f4); --accent: #C2410C; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 12px/1.4 Inter, -apple-system, system-ui, sans-serif; color: var(--ink); background: var(--figma-color-bg, #fff); }
+  header { display: flex; gap: 6px; padding: 10px; border-bottom: 1px solid var(--line); position: sticky; top: 0; background: var(--figma-color-bg, #fff); }
+  input[type=search] { flex: 1; padding: 6px 8px; border: 1px solid var(--line); border-radius: 6px; background: transparent; color: inherit; font: inherit; }
+  select, .seg button { border: 1px solid var(--line); border-radius: 6px; background: transparent; color: inherit; font: inherit; padding: 4px 6px; }
+  .seg { display: flex; gap: 2px; } .seg button[aria-pressed=true] { background: var(--sunk); font-weight: 600; }
+  #grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); gap: 4px; padding: 8px; }
+  .tile { display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 8px 2px 6px; border: 1px solid transparent; border-radius: 8px; cursor: pointer; }
+  .tile:hover { border-color: var(--accent); background: var(--sunk); }
+  .tile svg { width: 24px; height: 24px; } .tile span { font-size: 9.5px; color: var(--muted); max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  footer { padding: 6px 10px; color: var(--muted); border-top: 1px solid var(--line); display: flex; justify-content: space-between; }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+<header>
+  <input id="q" type="search" placeholder="Search 2,000+ icons — agent, mcp, retry…" autofocus>
+  <div class="seg" role="group" aria-label="Variant"><button data-v="outline" aria-pressed="true">Outline</button><button data-v="duotone" aria-pressed="false">Duotone</button></div>
+  <select id="w" title="Weight"><option value="1.5">Thin</option><option value="2" selected>Regular</option><option value="2.5">Bold</option></select>
+  <select id="s" title="Size"><option>16</option><option>20</option><option selected>24</option><option>32</option><option>48</option></select>
+</header>
+<div id="grid"></div>
+<footer><span id="count">Loading the set…</span><a href="https://iconmind.dev" target="_blank" rel="noopener">iconmind.dev</a></footer>
+<script>
+  // The set comes from the published package: always the current release, nothing bundled.
+  const SRC = "https://cdn.jsdelivr.net/npm/@iconmind/icons/dist/iconify.json";
+  let data = null, variant = "outline";
+  const $ = (s) => document.querySelector(s);
+  const svgOf = (name, w) => {
+    const body = data.icons[name].body.replace(/stroke-width="2"/, `stroke-width="${w}"`);
+    return `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">${body}</svg>`;
+  };
+  function render() {
+    if (!data) return;
+    const q = $("#q").value.trim().toLowerCase(), w = $("#w").value;
+    const names = Object.keys(data.icons).filter((n) => (variant === "duotone") === n.endsWith("-duotone"));
+    const aliasHit = new Set(Object.entries(data.aliases).filter(([a]) => a.includes(q)).map(([, v]) => v.parent + (variant === "duotone" ? "-duotone" : "")));
+    const hits = q ? names.filter((n) => n.includes(q) || aliasHit.has(n)) : names;
+    const grid = $("#grid"); grid.innerHTML = "";
+    for (const n of hits.slice(0, 240)) {
+      const label = n.replace(/-duotone$/, "");
+      const t = document.createElement("button"); t.className = "tile"; t.title = label;
+      t.innerHTML = svgOf(n, w) + `<span>${label}</span>`;
+      t.onclick = () => parent.postMessage({ pluginMessage: { type: "insert", name: `iconmind/${label}${variant === "duotone" ? " duotone" : ""}`, svg: svgOf(n, w).replace(/currentColor/g, "#000000"), size: Number($("#s").value) } }, "*");
+      grid.appendChild(t);
+    }
+    $("#count").textContent = `${hits.length.toLocaleString()} of ${names.length.toLocaleString()} · ${data.info.version}`;
+  }
+  fetch(SRC).then((r) => r.json()).then((j) => { data = j; render(); }).catch(() => { $("#count").textContent = "Could not load the set — check the network permission."; });
+  $("#q").oninput = render; $("#w").onchange = render;
+  document.querySelectorAll(".seg button").forEach((b) => b.onclick = () => { variant = b.dataset.v; document.querySelectorAll(".seg button").forEach((x) => x.setAttribute("aria-pressed", String(x === b))); render(); });
+</script>

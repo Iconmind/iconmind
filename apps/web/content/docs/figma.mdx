@@ -25,3 +25,11 @@ while a Community file keeps being found through Figma's own search for years.
 
 Until then, every icon page here has a copy button for the raw SVG, which pastes straight
 into Figma.
+
+## The plugin
+
+**IconMind for Figma** searches the whole set inside Figma and drops any icon on the canvas as a vector — outline or duotone, thin, regular or bold, at 16–48 px. It reads the set from the published `@iconmind/icons` package, so it is always the current release.
+
+Until it is on the Figma Community, run it from the repository: clone [Iconmind/iconmind](https://github.com/Iconmind/iconmind), then in Figma choose *Plugins → Development → Import plugin from manifest…* and pick `packages/figma-plugin/manifest.json`.
+
+The set is also an Iconify collection (`iconmind:agent`), which the Iconify Figma plugin reads directly.

@@ -1,0 +1,22 @@
+{
+  "name": "iconmind-vscode",
+  "displayName": "IconMind Icons",
+  "description": "Autocomplete and previews for IconMind icons — 2,271 open-source icons for AI-era software — in React, Vue, Svelte, Solid, Preact, React Native, Astro and Flutter.",
+  "version": "0.1.0",
+  "publisher": "iconmind",
+  "private": true,
+  "license": "MIT",
+  "icon": "icon.png",
+  "repository": { "type": "git", "url": "https://github.com/Iconmind/iconmind", "directory": "packages/vscode-extension" },
+  "homepage": "https://iconmind.dev",
+  "engines": { "vscode": "^1.85.0" },
+  "categories": ["Programming Languages", "Snippets", "Other"],
+  "keywords": ["icons", "svg", "react", "flutter", "ai", "mcp", "iconmind"],
+  "activationEvents": ["onLanguage:javascript", "onLanguage:javascriptreact", "onLanguage:typescript", "onLanguage:typescriptreact", "onLanguage:vue", "onLanguage:svelte", "onLanguage:astro", "onLanguage:dart"],
+  "main": "./extension.js",
+  "contributes": {},
+  "scripts": {
+    "build": "node scripts/data.mjs",
+    "package": "node scripts/data.mjs && npx @vscode/vsce package --no-dependencies"
+  }
+}

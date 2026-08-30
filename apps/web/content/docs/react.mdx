@@ -66,3 +66,24 @@ const ICONS = { agent: Agent, prompt: Prompt } as const;
 
 A template literal in `import()` forces the bundler to include every possible icon. That
 is the usual cause of "why is my bundle 200 KB", and it is not a tree-shaking bug.
+
+## shadcn/ui
+
+If your project uses the shadcn CLI, one command adds a typed `<Icon name="…" />` wrapper and the package:
+
+```bash
+npx shadcn@latest add https://iconmind.dev/r/iconmind.json
+```
+
+```tsx
+<Icon name="agent-run" variant="duotone" weight="bold" size={20} />
+```
+
+## Credit, if you like
+
+No attribution is required — MIT, commercial use, no seat count. If you want to say where the icons came from, a line or a badge will do:
+
+```md
+Icons by [IconMind](https://iconmind.dev)
+[![Icons by IconMind](https://img.shields.io/badge/icons-IconMind-black)](https://iconmind.dev)
+```

@@ -21,6 +21,8 @@
   "updateInternalDependencies": "minor",
   "ignore": [
     "web",
-    "@iconmind/shared"
+    "@iconmind/shared",
+    "@iconmind/figma-plugin",
+    "iconmind-vscode"
   ]
 }
