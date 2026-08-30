@@ -71,6 +71,7 @@ export const viewport: Viewport = {
 const NAV = [
   { href: "/icons/", label: "Icons" },
   { href: "/categories/", label: "Categories" },
+  { href: "/tags/", label: "Tags" },
   { href: "/docs/", label: "Docs" },
   { href: "/changelog/", label: "Changelog" },
 ];
@@ -86,6 +87,7 @@ const FOOTER: { heading: string; links: { href: string; label: string; external?
     links: [
       { href: "/icons/", label: "All icons" },
       { href: "/categories/", label: "Categories" },
+      { href: "/tags/", label: "Tags" },
       { href: "/search/", label: "Search" },
     ],
   },

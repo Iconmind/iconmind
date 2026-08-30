@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { allCategories, categoryOf, iconsIn } from "@/lib/icons";
 import { readSvg, svgBody } from "@/lib/svg";
 import { BLURB } from "@/lib/blurbs";
+import { topTags } from "@/lib/index-pages";
 import { IconTileGrid } from "@/components/icon-tile-grid";
 import { PageCta } from "@/components/page-cta";
 import { JsonLd, breadcrumbs } from "@/components/json-ld";
@@ -82,6 +83,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
   const groups = c.subcategories
     .map((sub) => ({
       slug: sub.slug,
+      href: `/categories/${c.slug}/${sub.slug}/`,
       tiles: icons
         .filter((i) => i.subcategory === sub.slug)
         .map((i) => ({
@@ -95,6 +97,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
 
   const blurb = BLURB[c.slug] ?? `${c.count} icons.`;
   const flat = groups.flatMap((g) => g.tiles);
+  const tags = topTags(icons, 16);
 
   return (
     <div className="mx-auto max-w-[1560px] px-5 pt-8 pb-24 sm:px-7">
@@ -170,7 +173,41 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
         attribution, no seat count.
       </PageCta>
 
-      <section className="mt-14 border-t border-line pt-8">
+      {tags.length > 0 && (
+        <section className="mt-14 border-t border-line pt-8">
+          <h2 className="label mb-4">Tags across {c.name}</h2>
+          <div className="flex flex-wrap gap-2">
+            {tags.map((t) => (
+              <Link
+                key={t.slug}
+                href={`/tags/${t.slug}/`}
+                className="flex items-center gap-2 rounded-md border border-line bg-panel px-3 py-1.5 font-mono text-mono transition-colors hover:border-accent"
+              >
+                {t.slug}
+                <span className="text-[11px] tabular-nums text-muted">{t.count}</span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <section className="mt-10 border-t border-line pt-8">
+        <h2 className="label mb-4">Groups in {c.name}</h2>
+        <div className="flex flex-wrap gap-2">
+          {groups.map((g) => (
+            <Link
+              key={g.slug}
+              href={g.href}
+              className="flex items-center gap-2 rounded-md border border-line bg-panel px-3 py-1.5 text-ui transition-colors hover:border-accent"
+            >
+              {g.slug}
+              <span className="font-mono text-[11px] tabular-nums text-muted">{g.tiles.length}</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="mt-10 border-t border-line pt-8">
         <h2 className="label mb-4">Other categories</h2>
         <div className="flex flex-wrap gap-2">
           {others.map((o) => (

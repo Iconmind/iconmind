@@ -15,6 +15,10 @@ export interface Tile {
 export interface TileSection {
   slug: string;
   tiles: Tile[];
+  /** Where the heading goes when the group has a page of its own. */
+  href?: string;
+  /** What the heading says, when the slug is not it. */
+  label?: string;
 }
 
 /**
@@ -96,11 +100,29 @@ export function IconTileGrid({
               className="col-span-full flex scroll-mt-[76px] items-baseline gap-2.5 border-b border-line-2 bg-sunk px-4 py-2.5"
             >
               {/* `h2`, not `h3`: these are the page's top-level content sections — the
-                  only heading above them is the category's own `h1`. */}
-              <h2 className="label">{section.slug}</h2>
+                  only heading above them is the category's own `h1`. A group with a page
+                  links to it from here — the heading is the one place every reader of the
+                  grid passes, and the one link a crawler is sure to find. */}
+              <h2 className="label">
+                {section.href ? (
+                  <Link href={section.href} className="transition-colors hover:text-accent">
+                    {section.label ?? section.slug}
+                  </Link>
+                ) : (
+                  section.label ?? section.slug
+                )}
+              </h2>
               <span className="font-mono text-mono tabular-nums text-muted">
                 {section.tiles.length}
               </span>
+              {section.href && (
+                <Link
+                  href={section.href}
+                  className="ml-auto font-mono text-[10.5px] text-muted transition-colors hover:text-accent"
+                >
+                  open →
+                </Link>
+              )}
             </div>
             {section.tiles.map((t) => (
               <Tile key={t.slug} tile={t} size={size} labels={labels} />

@@ -39,6 +39,7 @@ interface RawIndex {
 const PAGES = [
   { href: "/icons/", label: "Browse all icons", hint: "Grid" },
   { href: "/categories/", label: "Categories", hint: "Grid" },
+  { href: "/tags/", label: "Tags", hint: "Grid" },
   { href: "/docs/", label: "Documentation", hint: "Docs" },
   { href: "/docs/installation/", label: "Installation", hint: "Docs" },
   { href: "/docs/react/", label: "React package", hint: "Docs" },

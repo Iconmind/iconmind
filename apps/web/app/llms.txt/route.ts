@@ -1,4 +1,5 @@
 import { allCategories, allIcons, iconCount, version } from "@/lib/icons";
+import { TAG_PAGE_MIN, allGroups, allTags } from "@/lib/index-pages";
 import { orderedPages } from "@/lib/source";
 import { SITE_URL } from "@/lib/site";
 
@@ -44,8 +45,9 @@ ${docs.map((p) => `- [${p.data.title}](${SITE_URL}${p.url}/): ${p.data.descripti
 ## Browsing
 
 - [All icons](${SITE_URL}/icons/): the full set, searchable.
-- [Categories](${SITE_URL}/categories/): ${allCategories.length} domains.
-${allCategories.map((c) => `- [${c.name}](${SITE_URL}/categories/${c.slug}/): ${c.count} icons across ${c.subcategories.length} groups.`).join("\n")}
+- [Categories](${SITE_URL}/categories/): ${allCategories.length} domains, ${allGroups.length} groups — a group is one page, e.g. ${SITE_URL}/categories/${allGroups[0]?.category}/${allGroups[0]?.slug}/.
+- [Tags](${SITE_URL}/tags/): ${allTags.length} tags with ${TAG_PAGE_MIN} or more icons, one page each at /tags/{tag}/.
+${allCategories.map((c) => `- [${c.name}](${SITE_URL}/categories/${c.slug}/): ${c.count} icons across ${c.subcategories.length} groups — ${c.subcategories.map((s) => s.slug).join(", ")}.`).join("\n")}
 
 ## Every icon, by name
 

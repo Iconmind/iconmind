@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { allIcons, categoryOf, getIcon, iconCount, iconsIn } from "@/lib/icons";
+import { hasTagPage, titleCase } from "@/lib/index-pages";
 import { readCells, readSvg, svgBody } from "@/lib/svg";
 import { IconStudio } from "@/components/icon-studio";
 import { IconTileGrid } from "@/components/icon-tile-grid";
@@ -42,7 +43,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
  * this site actually calls those levels.
  */
 function schema(icon: {
-  slug: string; name: string; description: string; category: string; addedIn: string;
+  slug: string; name: string; description: string; category: string; subcategory: string; addedIn: string;
 }, categoryName: string) {
   return {
     "@context": "https://schema.org",
@@ -61,6 +62,7 @@ function schema(icon: {
       breadcrumbs([
         { name: "Icons", path: "/icons/" },
         { name: categoryName, path: `/categories/${icon.category}/` },
+        { name: titleCase(icon.subcategory), path: `/categories/${icon.category}/${icon.subcategory}/` },
         { name: icon.name, path: `/icons/${icon.slug}/` },
       ]),
     ],
@@ -121,6 +123,12 @@ export default async function IconPage({ params }: { params: Promise<{ slug: str
           </BreadcrumbItem>
           <BreadcrumbSeparator />
           <BreadcrumbItem>
+            <BreadcrumbLink asChild>
+              <Link href={`/categories/${icon.category}/${icon.subcategory}/`}>{icon.subcategory}</Link>
+            </BreadcrumbLink>
+          </BreadcrumbItem>
+          <BreadcrumbSeparator />
+          <BreadcrumbItem>
             <BreadcrumbPage>{icon.slug}</BreadcrumbPage>
           </BreadcrumbItem>
         </BreadcrumbList>
@@ -130,10 +138,13 @@ export default async function IconPage({ params }: { params: Promise<{ slug: str
         <div className="max-w-[62ch]">
           <h1 className="text-h1 font-semibold">{icon.name}</h1>
           <p className="mt-2 text-lead text-ink-2">{icon.description}</p>
+          {/* Every tag is a link. A tag on three or more icons has a page of its own; one
+              on fewer goes to the browser with the word typed in — the same list, without
+              a thin page for a search engine to index. */}
           <div className="mt-4 flex flex-wrap gap-1.5">
             {icon.tags.map((t) => (
-              <Badge key={t} variant="outline" className="px-2.5">
-                {t}
+              <Badge key={t} variant="outline" className="px-2.5 transition-colors hover:border-accent" asChild>
+                <Link href={hasTagPage(t) ? `/tags/${t}/` : `/icons/?q=${encodeURIComponent(t)}`}>{t}</Link>
               </Badge>
             ))}
           </div>
@@ -156,7 +167,8 @@ export default async function IconPage({ params }: { params: Promise<{ slug: str
           )}
         </div>
         <dl className="flex shrink-0 gap-6 sm:gap-8">
-          <Fact k="Category" v={categoryName} />
+          <Fact k="Category" v={categoryName} href={`/categories/${icon.category}/`} />
+          <Fact k="Group" v={icon.subcategory} href={`/categories/${icon.category}/${icon.subcategory}/`} />
           <Fact k="Added" v={icon.addedIn} />
           <Fact k="Licence" v="MIT" />
         </dl>
@@ -243,11 +255,17 @@ export default async function IconPage({ params }: { params: Promise<{ slug: str
   );
 }
 
-function Fact({ k, v }: { k: string; v: string }) {
+function Fact({ k, v, href }: { k: string; v: string; href?: string }) {
   return (
     <div>
       <dt className="label">{k}</dt>
-      <dd className="mt-1 text-ui font-medium">{v}</dd>
+      <dd className="mt-1 text-ui font-medium">
+        {href ? (
+          <Link href={href} className="transition-colors hover:text-accent">{v}</Link>
+        ) : (
+          v
+        )}
+      </dd>
     </div>
   );
 }
