@@ -10,7 +10,7 @@
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "typecheck": "turbo build && tsc --noEmit -p tsconfig.json",
+    "typecheck": "turbo build --concurrency=3 && tsc --noEmit -p tsconfig.json",
     "test": "vitest run",
     "icons:validate": "tsx scripts/validate/run.ts",
     "icons:optimize": "tsx scripts/optimize/run.ts",
