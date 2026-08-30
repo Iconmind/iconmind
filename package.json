@@ -16,7 +16,7 @@
     "icons:optimize": "tsx scripts/optimize/run.ts",
     "icons:duplicates": "tsx scripts/validate/duplicates.ts",
     "icons:scale": "tsx scripts/review/scale.mts",
-    "icons:generate": "tsx scripts/generate/metadata.ts && tsx scripts/generate/components.ts && tsx scripts/generate/sprite.ts && tsx scripts/generate/search-index.ts && tsx scripts/generate/cell-bundles.ts && tsx scripts/generate/previews-png.ts && tsx scripts/generate/iconify.ts && tsx scripts/generate/library-index.ts",
+    "icons:generate": "tsx scripts/generate/metadata.ts && tsx scripts/generate/components.ts && tsx scripts/generate/sprite.ts && tsx scripts/generate/search-index.ts && tsx scripts/generate/cell-bundles.ts && tsx scripts/generate/previews-png.ts && tsx scripts/generate/iconify.ts",
     "icons:new": "tsx scripts/generate/new-icon.ts",
     "changeset": "changeset",
     "release": "turbo build --concurrency=3 && changeset publish",

@@ -139,11 +139,3 @@ Repo: `iconify/icon-sets`. Add to `collections.json`:
 The collection JSON is published as `@iconmind/icons/iconify.json` (prefix `iconmind`,
 2,271 outline icons + 2,271 `-duotone` twins, 688 aliases), regenerated every release.
 Point the import script at the npm package.
-
-## Figma community file
-
-Export: `packages/icons/icons/**/outline-regular.svg` (+ duotone) → import as
-components with variants (Variant: outline/duotone · Weight: thin/regular/bold) → publish
-as "IconMind — 2,271 icons for AI-era software" with the same description as Product
-Hunt and a link to the site. The Figma doc page on the site (`/docs/figma/`) already
-describes the file; update it with the community link once published.

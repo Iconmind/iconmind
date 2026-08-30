@@ -1,37 +1,38 @@
 ---
 title: Figma
-description: Planned — and it will be generated from the same source as everything else.
+description: Three ways to use the set in Figma today — the Iconify plugin, the SVG on any icon page, and the whole set as a folder of files.
 ---
 
-Not published yet.
+There is no IconMind plugin or Community library, and none is planned. There are three
+ways to use the set in Figma that work now and need nothing from us.
 
-## The plan
+## The Iconify plugin
 
-One Community file, not one per category — designers install a library, not twelve.
-Components organised by domain, named `category/slug` so Figma's own grouping does the
-work, with the description field carrying the same tags the site searches on.
+The set is published as an [Iconify](https://iconify.design) collection, and Iconify's
+own Figma plugin reads every collection. Install it, search `iconmind`, and insert any
+icon as a vector — outline or duotone.
 
-## Generated, never redrawn
+```text
+iconmind:agent            outline
+iconmind:agent-duotone    duotone
+```
 
-The file will be built from the SVG in this repository by a script. Redrawing icons in
-Figma would create a second source of truth, and the two would diverge within a month —
-that is the same reason no component files are committed in the packages.
+## Copy the SVG
 
-## Why it matters
+Every icon page has a copy button and a **Download** menu — SVG at the variant, weight
+and colour on screen, and PNG, WebP or a favicon if you need a raster. SVG pasted into
+Figma arrives as a vector with editable strokes.
 
-Figma is where a lot of icon decisions actually get made, before any code is written. It
-is also the channel with the longest tail: a post on Hacker News is dead in two days,
-while a Community file keeps being found through Figma's own search for years.
+## Drag the whole set in
 
-Until then, every icon page here has a copy button for the raw SVG, which pastes straight
-into Figma.
+The [set as a zip](https://github.com/Iconmind/iconmind/releases) — `iconmind-svg.zip` on
+every release — is one folder per icon, six files each. Drag any of them into a Figma
+file and they land as vectors; drag a folder in and Figma imports the lot.
 
-## The plugin
+## Why there is no library file
 
-**IconMind for Figma** does two things: it searches the whole set and drops any icon on the canvas as a vector — outline or duotone, thin, regular or bold, at 16–48 px — and it can **build the library itself**, turning an empty file into every icon as a component set with all six cells as variants, one page per category, each carrying its description and a link to its page.
-
-It reads the same files the site renders from, so it is always the current release.
-
-Until it is on the Figma Community, run it from the repository: clone [Iconmind/iconmind](https://github.com/Iconmind/iconmind), then in Figma choose *Plugins → Development → Import plugin from manifest…* and pick `packages/figma-plugin/manifest.json`.
-
-The set is also an Iconify collection (`iconmind:agent`), which the Iconify Figma plugin reads directly.
+A Figma library would be a second source of truth. The drawings in this repository are
+compiled — every cell is generated from one declaration and checked by a validator — and
+a hand-maintained Figma file would diverge from them within a month. Iconify already
+carries the same generated output, updated with each release, which is the same thing
+without the drift.

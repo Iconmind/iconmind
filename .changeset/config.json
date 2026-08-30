@@ -13,7 +13,6 @@
       "@iconmind/preact",
       "@iconmind/react-native",
       "@iconmind/astro",
-      "@iconmind/figma-plugin",
       "iconmind-vscode"
     ]
   ],

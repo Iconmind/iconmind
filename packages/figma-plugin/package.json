@@ -1,7 +1,0 @@
-{
-  "name": "@iconmind/figma-plugin",
-  "version": "0.5.0",
-  "private": true,
-  "description": "IconMind for Figma — search and insert any of the set's icons as vectors",
-  "license": "MIT"
-}
