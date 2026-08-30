@@ -9,6 +9,9 @@
     "location",
     "bookmark"
   ],
+  "aliases": [
+    "map-pinned"
+  ],
   "keywords": [
     "saved location",
     "bookmark place",

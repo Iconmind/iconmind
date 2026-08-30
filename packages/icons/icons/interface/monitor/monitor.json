@@ -10,7 +10,9 @@
     "desktop"
   ],
   "aliases": [
-    "screen"
+    "screen",
+    "desktop",
+    "display"
   ],
   "keywords": [
     "display",

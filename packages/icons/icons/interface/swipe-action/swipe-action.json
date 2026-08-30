@@ -9,6 +9,10 @@
     "gesture",
     "card"
   ],
+  "aliases": [
+    "hand-swipe",
+    "swipe"
+  ],
   "keywords": [
     "swipe action",
     "swipe to reveal",

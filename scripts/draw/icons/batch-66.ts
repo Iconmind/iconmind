@@ -200,14 +200,14 @@ export const BATCH_66: Icon[] = [
     slug: "swipe-action", category: "interface", subcategory: "action",
     name: "Swipe action", description: "A card sliding sideways behind an arrow — swipe actions on a list item or card",
     tags: ["swipe", "gesture", "card"], family: "card",
-    aliases: [], keywords: ["swipe action", "swipe to reveal", "swipe gesture"],
+    aliases: ["hand-swipe", "swipe"], keywords: ["swipe action", "swipe to reveal", "swipe gesture"],
     shapes: [rect(3, 7, 11, 10, 2), row(12, 17, 21), poly([[18.5, 9.5], [21, 12], [18.5, 14.5]])],
   },
   {
     slug: "double-tap", category: "interface", subcategory: "action",
     name: "Double tap", description: "A touch point with two rings rippling outward — the double-tap gesture on a touchscreen",
     tags: ["tap", "gesture", "touch"], family: "touch",
-    aliases: [], keywords: ["double tap", "tap gesture", "touch interaction"],
+    aliases: ["hand-tap"], keywords: ["double tap", "tap gesture", "touch interaction"],
     shapes: [disc(12, 12, 2), arc(12, 12, 6, -45, 225), arc(12, 12, 10, -45, 225)],
   },
   {

@@ -9,6 +9,9 @@
     "directions",
     "go"
   ],
+  "aliases": [
+    "navigation"
+  ],
   "keywords": [
     "navigate",
     "start directions",

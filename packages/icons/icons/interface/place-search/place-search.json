@@ -9,6 +9,9 @@
     "search",
     "map"
   ],
+  "aliases": [
+    "map-pin-search"
+  ],
   "keywords": [
     "place search",
     "find a location",

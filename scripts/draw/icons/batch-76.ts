@@ -105,7 +105,7 @@ export const BATCH_76: Icon[] = [
     slug: "unlike", category: "interface", subcategory: "identity",
     name: "Unlike", description: "A heart with an X beside it — take a like back and un-favourite",
     tags: ["unlike", "heart", "remove"], family: "heart",
-    aliases: [], keywords: ["unlike", "remove like", "un-favourite"],
+    aliases: ["heart-off"], keywords: ["unlike", "remove like", "un-favourite"],
     shapes: [raw("M2 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 12 9L7 14Z", HEART, true), poly([[15, 9], [22, 16]]), poly([[22, 9], [15, 16]])],
   },
   {

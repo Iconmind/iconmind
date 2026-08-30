@@ -9,6 +9,9 @@
     "verified",
     "pin"
   ],
+  "aliases": [
+    "map-pin-check"
+  ],
   "keywords": [
     "verified location",
     "confirmed place",

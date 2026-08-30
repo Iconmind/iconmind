@@ -9,6 +9,9 @@
     "unsave",
     "unlike"
   ],
+  "aliases": [
+    "heart-remove"
+  ],
   "keywords": [
     "unfavorite",
     "remove favorite"

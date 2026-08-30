@@ -1,0 +1,45 @@
+{
+  "slug": "usb",
+  "category": "devops",
+  "subcategory": "infrastructure",
+  "name": "USB",
+  "description": "The USB trident — a port, a stick or a cable that plugs into one",
+  "tags": [
+    "port",
+    "stick",
+    "connector"
+  ],
+  "keywords": [
+    "usb",
+    "usb port",
+    "thumb drive",
+    "flash drive"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 3V20",
+      "closed": false
+    },
+    {
+      "d": "M10 20a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12L16.5 7.5",
+      "closed": false
+    },
+    {
+      "d": "M15.5 6.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 15L7.5 10.5",
+      "closed": false
+    },
+    {
+      "d": "M3 7.5L7.5 7.5L7.5 12L3 12Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "sd-card",
+  "category": "devops",
+  "subcategory": "infrastructure",
+  "name": "SD card",
+  "description": "An SD card with its notched corner — removable storage for a camera or a board",
+  "tags": [
+    "storage",
+    "removable",
+    "camera"
+  ],
+  "aliases": [
+    "memory-card"
+  ],
+  "keywords": [
+    "sd card",
+    "micro sd",
+    "memory card",
+    "removable storage"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M4 2L15 2L20 7L20 22L4 22Z",
+      "closed": true
+    },
+    {
+      "d": "M8 5V9",
+      "closed": false
+    },
+    {
+      "d": "M11 5V9",
+      "closed": false
+    },
+    {
+      "d": "M14 8V12",
+      "closed": false
+    }
+  ]
+}

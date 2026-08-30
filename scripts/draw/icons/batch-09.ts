@@ -126,14 +126,14 @@ export const BATCH_09: Icon[] = [
     slug: "phone", category: "interface", subcategory: "communication",
     name: "Phone", description: "A phone — the mobile device in your pocket, a call or the mobile version of an app",
     tags: ["mobile", "device", "call"], family: "window",
-    aliases: ["mobile"], keywords: ["device", "cell", "handset", "responsive", "call"],
+    aliases: ["mobile", "smartphone"], keywords: ["device", "cell", "handset", "responsive", "call"],
     shapes: [rect(7, 2, 10, 20, 2), row(5, 10, 14), row(19, 10, 14)],
   },
   {
     slug: "monitor", category: "interface", subcategory: "media",
     name: "Monitor", description: "A monitor — the big desktop screen or display an app is shown on",
     tags: ["screen", "display", "desktop"], family: "window",
-    aliases: ["screen"], keywords: ["display", "desktop", "resolution", "output"],
+    aliases: ["screen", "desktop", "display"], keywords: ["display", "desktop", "resolution", "output"],
     shapes: [frame(2, 4, 20, 13, 3, { gap: 4 }), col(12, 17, 20), row(20, 7, 17)],
   },
   {

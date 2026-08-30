@@ -1,0 +1,33 @@
+{
+  "slug": "mouse",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Mouse",
+  "description": "A computer mouse — the pointing device itself, its button seam and scroll wheel",
+  "tags": [
+    "pointing",
+    "wheel",
+    "input"
+  ],
+  "keywords": [
+    "computer mouse",
+    "pointing device",
+    "scroll wheel",
+    "input device"
+  ],
+  "family": "device",
+  "shapes": [
+    {
+      "d": "M7 7A5 5 0 0 1 12 2H12A5 5 0 0 1 17 7V17A5 5 0 0 1 12 22H12A5 5 0 0 1 7 17Z",
+      "closed": true
+    },
+    {
+      "d": "M7 9H17",
+      "closed": false
+    },
+    {
+      "d": "M12 5V8",
+      "closed": false
+    }
+  ]
+}

@@ -40,14 +40,14 @@ export const BATCH_74: Icon[] = [
     slug: "navigate", category: "interface", subcategory: "identity",
     name: "Navigate", description: "A location pin beside a play button — start navigating to a place",
     tags: ["navigate", "directions", "go"], family: "pin",
-    aliases: [], keywords: ["navigate", "start directions", "go to place"],
+    aliases: ["navigation"], keywords: ["navigate", "start directions", "go to place"],
     shapes: [...PIN_L, PLAY_R],
   },
   {
     slug: "saved-location", category: "interface", subcategory: "identity",
     name: "Saved location", description: "A location pin beside a bookmark — a place saved for later on the map",
     tags: ["saved", "location", "bookmark"], family: "pin",
-    aliases: [], keywords: ["saved location", "bookmark place", "saved places"],
+    aliases: ["map-pinned"], keywords: ["saved location", "bookmark place", "saved places"],
     shapes: [...PIN_L, BOOKMARK_R],
   },
   {

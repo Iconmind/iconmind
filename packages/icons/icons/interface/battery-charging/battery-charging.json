@@ -1,0 +1,36 @@
+{
+  "slug": "battery-charging",
+  "category": "interface",
+  "subcategory": "state",
+  "name": "Battery charging",
+  "description": "A battery with a bolt through it — power going in, charging now",
+  "tags": [
+    "charging",
+    "power",
+    "bolt"
+  ],
+  "aliases": [
+    "battery-full"
+  ],
+  "keywords": [
+    "charging",
+    "battery charging",
+    "plugged in",
+    "power in"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 9A2 2 0 0 1 4 7H15A2 2 0 0 1 17 9V15A2 2 0 0 1 15 17H4A2 2 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M20 10V14",
+      "closed": false
+    },
+    {
+      "d": "M11 9L8 12L11 12L8 15",
+      "closed": false
+    }
+  ]
+}

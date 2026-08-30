@@ -1,0 +1,37 @@
+{
+  "slug": "printer",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Printer",
+  "description": "A printer with a sheet coming out — send this to paper, print the page",
+  "tags": [
+    "print",
+    "paper",
+    "output"
+  ],
+  "keywords": [
+    "print",
+    "printer",
+    "hard copy",
+    "paper output"
+  ],
+  "family": "device",
+  "shapes": [
+    {
+      "d": "M7 6.5L7 2L17 2L17 6.5",
+      "closed": false
+    },
+    {
+      "d": "M2 10.5A2 2 0 0 1 4 8.5H20A2 2 0 0 1 22 10.5V14.5A2 2 0 0 1 20 16.5H4A2 2 0 0 1 2 14.5Z",
+      "closed": true
+    },
+    {
+      "d": "M4.5 12.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 18L7 22L17 22L17 18",
+      "closed": false
+    }
+  ]
+}

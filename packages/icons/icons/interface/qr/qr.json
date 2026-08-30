@@ -10,7 +10,8 @@
     "square"
   ],
   "aliases": [
-    "qr-code"
+    "qr-code",
+    "scan-qr-code"
   ],
   "keywords": [
     "scan",

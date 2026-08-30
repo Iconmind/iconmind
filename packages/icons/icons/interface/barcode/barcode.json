@@ -9,6 +9,9 @@
     "stripes",
     "product"
   ],
+  "aliases": [
+    "scan-barcode"
+  ],
   "keywords": [
     "upc",
     "ean",

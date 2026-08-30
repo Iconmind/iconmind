@@ -1,0 +1,36 @@
+{
+  "slug": "sim-card",
+  "category": "devops",
+  "subcategory": "infrastructure",
+  "name": "SIM card",
+  "description": "A SIM card with its cut corner and contact pad — the chip that carries a subscription",
+  "tags": [
+    "chip",
+    "carrier",
+    "mobile"
+  ],
+  "aliases": [
+    "sim"
+  ],
+  "keywords": [
+    "sim card",
+    "esim",
+    "carrier chip",
+    "mobile subscription"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M9 2L20 2L20 22L4 22L4 7Z",
+      "closed": true
+    },
+    {
+      "d": "M8 11A2 2 0 0 1 10 9H14A2 2 0 0 1 16 11V15A2 2 0 0 1 14 17H10A2 2 0 0 1 8 15Z",
+      "closed": true
+    },
+    {
+      "d": "M8 13H16",
+      "closed": false
+    }
+  ]
+}

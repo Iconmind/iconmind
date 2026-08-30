@@ -1,0 +1,33 @@
+{
+  "slug": "speaker",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Speaker",
+  "description": "A speaker cabinet with its cone and tweeter — sound played out loud",
+  "tags": [
+    "audio",
+    "sound",
+    "cabinet"
+  ],
+  "keywords": [
+    "speaker",
+    "loudspeaker",
+    "audio output",
+    "sound system"
+  ],
+  "family": "device",
+  "shapes": [
+    {
+      "d": "M5 4A2 2 0 0 1 7 2H17A2 2 0 0 1 19 4V20A2 2 0 0 1 17 22H7A2 2 0 0 1 5 20Z",
+      "closed": true
+    },
+    {
+      "d": "M8 15a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

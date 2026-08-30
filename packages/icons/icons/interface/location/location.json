@@ -9,6 +9,9 @@
     "place",
     "map"
   ],
+  "aliases": [
+    "map-pin"
+  ],
   "keywords": [
     "map",
     "place",

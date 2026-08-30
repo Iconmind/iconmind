@@ -9,6 +9,9 @@
     "gesture",
     "touch"
   ],
+  "aliases": [
+    "hand-tap"
+  ],
   "keywords": [
     "double tap",
     "tap gesture",

@@ -9,6 +9,9 @@
     "add",
     "new"
   ],
+  "aliases": [
+    "map-pin-add"
+  ],
   "keywords": [
     "add location",
     "new place",

@@ -1,0 +1,40 @@
+{
+  "slug": "satellite",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Satellite",
+  "description": "A dish on its mount — a satellite link, the ground station end of it",
+  "tags": [
+    "dish",
+    "uplink",
+    "ground-station"
+  ],
+  "aliases": [
+    "satellite-dish"
+  ],
+  "keywords": [
+    "satellite",
+    "dish",
+    "uplink",
+    "ground station"
+  ],
+  "family": "device",
+  "shapes": [
+    {
+      "d": "M3.48 10.26A8 8 0 0 1 18.52 15.74",
+      "closed": false
+    },
+    {
+      "d": "M11 13L17 7",
+      "closed": false
+    },
+    {
+      "d": "M11 13V20",
+      "closed": false
+    },
+    {
+      "d": "M6 20H16",
+      "closed": false
+    }
+  ]
+}

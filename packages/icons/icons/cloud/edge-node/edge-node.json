@@ -9,6 +9,9 @@
     "pop",
     "local"
   ],
+  "aliases": [
+    "edge-device"
+  ],
   "keywords": [
     "point of presence",
     "near users",

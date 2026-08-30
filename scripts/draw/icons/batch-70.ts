@@ -290,7 +290,7 @@ export const BATCH_70: Icon[] = [
     slug: "smartwatch", category: "interface", subcategory: "time",
     name: "Smartwatch", description: "A watch face between its two straps — a smartwatch or wearable",
     tags: ["watch", "wearable", "device"], family: "device",
-    aliases: [], keywords: ["smartwatch", "wearable", "watch app"],
+    aliases: ["watch"], keywords: ["smartwatch", "wearable", "watch app"],
     shapes: [rect(7, 6, 10, 12, 2), row(3, 9, 15), row(21, 9, 15)],
   },
 

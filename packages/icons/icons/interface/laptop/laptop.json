@@ -1,0 +1,40 @@
+{
+  "slug": "laptop",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Laptop",
+  "description": "A laptop, screen open over its base — the portable machine the work happens on",
+  "tags": [
+    "computer",
+    "portable",
+    "screen"
+  ],
+  "aliases": [
+    "notebook-computer"
+  ],
+  "keywords": [
+    "laptop",
+    "macbook",
+    "portable computer",
+    "notebook"
+  ],
+  "family": "device",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V13A2 2 0 0 1 18 15H6A2 2 0 0 1 4 13Z",
+      "closed": true
+    },
+    {
+      "d": "M2 19H22",
+      "closed": false
+    },
+    {
+      "d": "M4 15V19",
+      "closed": false
+    },
+    {
+      "d": "M20 15V19",
+      "closed": false
+    }
+  ]
+}

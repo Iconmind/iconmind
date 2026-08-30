@@ -217,7 +217,7 @@ export const BATCH_67: Icon[] = [
     slug: "cursor", category: "interface", subcategory: "action",
     name: "Cursor", description: "The mouse pointer arrow — the cursor that clicks, drags and hovers",
     tags: ["pointer", "mouse", "click"], family: "object",
-    aliases: [], keywords: ["mouse cursor", "pointer arrow", "click"],
+    aliases: ["mouse-pointer"], keywords: ["mouse cursor", "pointer arrow", "click"],
     shapes: [poly([[7, 3], [7, 18.5], [10, 15.5], [13.5, 19], [16, 16.5], [12.5, 13], [17, 13]], true)],
   },
   {

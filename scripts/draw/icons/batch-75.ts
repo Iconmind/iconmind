@@ -191,14 +191,14 @@ export const BATCH_75: Icon[] = [
     slug: "add-location", category: "interface", subcategory: "identity",
     name: "Add location", description: "A location pin with a plus beside it — add a new place to the map",
     tags: ["location", "add", "new"], family: "pin",
-    aliases: [], keywords: ["add location", "new place", "add address"],
+    aliases: ["map-pin-add"], keywords: ["add location", "new place", "add address"],
     shapes: [...PIN_L, row(12, 15, 21), col(18, 9, 15)],
   },
   {
     slug: "location-removed", category: "interface", subcategory: "identity",
     name: "Location removed", description: "A location pin with an X beside it — a place taken off the list",
     tags: ["location", "removed", "delete"], family: "pin",
-    aliases: [], keywords: ["remove location", "delete place", "location removed"],
+    aliases: ["map-pin-off"], keywords: ["remove location", "delete place", "location removed"],
     shapes: [...PIN_L, ...X_R],
   },
   {

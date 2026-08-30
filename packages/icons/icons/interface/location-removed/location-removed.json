@@ -9,6 +9,9 @@
     "removed",
     "delete"
   ],
+  "aliases": [
+    "map-pin-off"
+  ],
   "keywords": [
     "remove location",
     "delete place",

@@ -54,7 +54,7 @@ export const BATCH_40: Icon[] = [
     slug: "edge-node", category: "cloud", subcategory: "edge",
     name: "Edge node", description: "An edge node — a machine out where the users are, a point of presence",
     tags: ["near", "pop", "local"], family: "figure",
-    aliases: [], keywords: ["point of presence", "near users", "regional", "close", "pop"],
+    aliases: ["edge-device"], keywords: ["point of presence", "near users", "regional", "close", "pop"],
     shapes: [rect(2, 4, 9, 16, 2), row(12, 11, 16), disc(19, 12, 2)],
   },
   {

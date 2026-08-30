@@ -40,7 +40,7 @@ export const BATCH_62: Icon[] = [
     slug: "favorite-add", category: "interface", subcategory: "action",
     name: "Add favorite", description: "Add favourite — kept where the heart keeps things, saved and liked",
     tags: ["heart", "save", "like"], family: "figure",
-    aliases: [], keywords: ["favorite", "add to favorites", "heart"],
+    aliases: ["heart-add"], keywords: ["favorite", "add to favorites", "heart"],
     shapes: [
       raw("M4 11A4 4 0 0 1 12 11A4 4 0 0 1 20 11L12 19Z",
         "a heart is one line, not three strokes with visible seams", true),
@@ -51,7 +51,7 @@ export const BATCH_62: Icon[] = [
     slug: "favorite-remove", category: "interface", subcategory: "action",
     name: "Remove favorite", description: "Remove favourite — the heart lets it go, unsaved and unliked",
     tags: ["heart", "unsave", "unlike"], family: "figure",
-    aliases: [], keywords: ["unfavorite", "remove favorite"],
+    aliases: ["heart-remove"], keywords: ["unfavorite", "remove favorite"],
     shapes: [
       raw("M4 11A4 4 0 0 1 12 11A4 4 0 0 1 20 11L12 19Z",
         "a heart is one line, not three strokes with visible seams", true),

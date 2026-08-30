@@ -9,6 +9,9 @@
     "alert",
     "warning"
   ],
+  "aliases": [
+    "map-pin-alert"
+  ],
   "keywords": [
     "location alert",
     "place warning",

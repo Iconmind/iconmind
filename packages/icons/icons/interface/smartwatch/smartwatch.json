@@ -9,6 +9,9 @@
     "wearable",
     "device"
   ],
+  "aliases": [
+    "watch"
+  ],
   "keywords": [
     "smartwatch",
     "wearable",

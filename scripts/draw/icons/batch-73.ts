@@ -170,14 +170,14 @@ export const BATCH_73: Icon[] = [
     slug: "verified-location", category: "interface", subcategory: "identity",
     name: "Verified location", description: "A location pin with a check beside it — a place that has been verified",
     tags: ["location", "verified", "pin"], family: "pin",
-    aliases: [], keywords: ["verified location", "confirmed place", "location check"],
+    aliases: ["map-pin-check"], keywords: ["verified location", "confirmed place", "location check"],
     shapes: [...PIN_L, poly([[15, 13], [17.5, 15.5], [22, 11]])],
   },
   {
     slug: "place-search", category: "interface", subcategory: "identity",
     name: "Place search", description: "A location pin beside a magnifying glass — search for a place",
     tags: ["place", "search", "map"], family: "pin",
-    aliases: [], keywords: ["place search", "find a location", "search nearby"],
+    aliases: ["map-pin-search"], keywords: ["place search", "find a location", "search nearby"],
     shapes: [...PIN_L, disc(17, 10, 4), poly([[20, 13], [22, 15]])],
   },
   {
@@ -191,7 +191,7 @@ export const BATCH_73: Icon[] = [
     slug: "location-alert", category: "interface", subcategory: "identity",
     name: "Location alert", description: "A location pin beside an alert mark — something to know about this place",
     tags: ["location", "alert", "warning"], family: "pin",
-    aliases: [], keywords: ["location alert", "place warning", "geo alert"],
+    aliases: ["map-pin-alert"], keywords: ["location alert", "place warning", "geo alert"],
     shapes: [disc(6, 8, 3), col(6, 11, 17), col(18, 6, 13), disc(18, 16, 1)],
   },
   {

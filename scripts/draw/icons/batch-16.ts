@@ -149,7 +149,7 @@ export const BATCH_16: Icon[] = [
     slug: "qr", category: "interface", subcategory: "media",
     name: "QR code", description: "A QR code — point a camera at the square to open a link or a payload",
     tags: ["scan", "code", "square"], family: "grid",
-    aliases: ["qr-code"], keywords: ["scan", "barcode", "link", "camera", "2d code"],
+    aliases: ["qr-code", "scan-qr-code"], keywords: ["scan", "barcode", "link", "camera", "2d code"],
     // Three corners and one mark. A real code has hundreds of cells; three finder squares
     // are what a person recognises, and drawing the cells is drawing noise.
     shapes: [rect(3, 3, 7, 7, 2), rect(14, 3, 7, 7, 2), rect(3, 14, 7, 7, 2), disc(17, 17, 2)],
@@ -158,7 +158,7 @@ export const BATCH_16: Icon[] = [
     slug: "barcode", category: "interface", subcategory: "media",
     name: "Barcode", description: "A barcode — the older striped code that identifies a product when scanned",
     tags: ["scan", "stripes", "product"], family: "rails",
-    aliases: [], keywords: ["upc", "ean", "scan", "sku", "stripes"],
+    aliases: ["scan-barcode"], keywords: ["upc", "ean", "scan", "sku", "stripes"],
     shapes: [col(4, 5, 19), col(7, 5, 19), col(11, 5, 19), col(14, 5, 19), col(18, 5, 19)],
   },
   {

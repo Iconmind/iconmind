@@ -1,0 +1,37 @@
+{
+  "slug": "ethernet",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Ethernet",
+  "description": "An RJ45 plug with its clip and pins — a wired network connection",
+  "tags": [
+    "rj45",
+    "wired",
+    "port"
+  ],
+  "keywords": [
+    "ethernet",
+    "rj45",
+    "lan port",
+    "network cable"
+  ],
+  "family": "device",
+  "shapes": [
+    {
+      "d": "M5 8L9 8L9 4L15 4L15 8L19 8L19 20L5 20Z",
+      "closed": true
+    },
+    {
+      "d": "M9 11V15",
+      "closed": false
+    },
+    {
+      "d": "M12 11V15",
+      "closed": false
+    },
+    {
+      "d": "M15 11V15",
+      "closed": false
+    }
+  ]
+}

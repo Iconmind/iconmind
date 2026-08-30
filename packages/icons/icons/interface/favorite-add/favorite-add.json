@@ -9,6 +9,9 @@
     "save",
     "like"
   ],
+  "aliases": [
+    "heart-add"
+  ],
   "keywords": [
     "favorite",
     "add to favorites",

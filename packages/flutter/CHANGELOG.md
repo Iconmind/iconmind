@@ -1,3 +1,11 @@
+## 0.6.0
+
+Sixteen devices — the hardware people kept asking other icon sets for: mouse, printer,
+router, laptop, tablet, speaker, gamepad, headset, USB, SIM and SD cards, ethernet, cable,
+motherboard, battery charging and a satellite dish. Twenty-one more names now resolve to
+icons that already existed (a smartphone is `phone`, a watch is `smartwatch`, the pointer
+arrow is `cursor`, a map pin is `location`). 2,287 icons, 13,722 drawings.
+
 ## 0.5.0
 
 The generic layer, family by family — 230 new icons on the bodies the set already had:

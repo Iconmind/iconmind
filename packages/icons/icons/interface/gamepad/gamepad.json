@@ -1,0 +1,44 @@
+{
+  "slug": "gamepad",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Gamepad",
+  "description": "A controller with its pad and buttons — play, or the input a game takes",
+  "tags": [
+    "controller",
+    "game",
+    "input"
+  ],
+  "aliases": [
+    "controller"
+  ],
+  "keywords": [
+    "gamepad",
+    "game controller",
+    "joypad",
+    "console controller"
+  ],
+  "family": "device",
+  "shapes": [
+    {
+      "d": "M2 12A5.5 5.5 0 0 1 7.5 6.5H16.5A5.5 5.5 0 0 1 22 12V12A5.5 5.5 0 0 1 16.5 17.5H7.5A5.5 5.5 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M7 9.5V14.5",
+      "closed": false
+    },
+    {
+      "d": "M4.5 12H9.5",
+      "closed": false
+    },
+    {
+      "d": "M15 10.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 13.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

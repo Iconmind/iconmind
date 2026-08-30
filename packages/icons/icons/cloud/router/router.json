@@ -1,0 +1,41 @@
+{
+  "slug": "router",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Router",
+  "description": "A router with two aerials — the box a local network runs through",
+  "tags": [
+    "network",
+    "gateway",
+    "wifi"
+  ],
+  "keywords": [
+    "router",
+    "wifi box",
+    "home network",
+    "access point"
+  ],
+  "family": "device",
+  "shapes": [
+    {
+      "d": "M2 11A2 2 0 0 1 4 9H20A2 2 0 0 1 22 11V15A2 2 0 0 1 20 17H4A2 2 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M5 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 9L4 6",
+      "closed": false
+    },
+    {
+      "d": "M17 9L20 6",
+      "closed": false
+    }
+  ]
+}
