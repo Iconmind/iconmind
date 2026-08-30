@@ -19,10 +19,22 @@ function svgToImage(svg: string): Promise<HTMLImageElement> {
   });
 }
 
-/** The SVG with its colour baked in and a pixel size set, ready to rasterise. */
+/**
+ * The SVG with its colour baked in and a pixel size set, ready to rasterise.
+ *
+ * Only the root tag is touched: both its width and height come off (the first version
+ * of this stripped one and prepended a second — two `height` attributes, and a browser
+ * will not decode that), and the pixel size goes on. An SVG handed to an <img> must also
+ * carry the xmlns, which the studio's markup does; it is asserted here rather than assumed.
+ */
 function sized(svg: string, px: number, hex?: string | null) {
   const coloured = hex ? svg.replaceAll("currentColor", hex) : svg.replaceAll("currentColor", "#000000");
-  return coloured.replace(/<svg([^>]*?)\s(width|height)="[^"]*"/g, "<svg$1").replace("<svg", `<svg width="${px}" height="${px}"`);
+  const open = coloured.match(/<svg[^>]*>/)?.[0];
+  if (!open) throw new Error("not an SVG");
+  let root = open.replace(/\s(width|height)="[^"]*"/g, "");
+  if (!/xmlns=/.test(root)) root = root.replace("<svg", '<svg xmlns="http://www.w3.org/2000/svg"');
+  root = root.replace("<svg", `<svg width="${px}" height="${px}"`);
+  return coloured.replace(open, root);
 }
 
 export async function rasterise(svg: string, px: number, type: RasterType, hex?: string | null): Promise<Blob> {
