@@ -104,7 +104,7 @@ export const BATCH_49: Icon[] = [
   {
     slug: "mapping", category: "data", subcategory: "transform",
     name: "Mapping", description: "A mapping — each of these matched to one of those, a translation between sets",
-    tags: ["pairs", "translate", "onto"], family: "figure",
+    tags: ["pairs", "translate", "onto"], family: "rails",
     aliases: [], keywords: ["one to one", "pairs", "translate keys"],
     shapes: [disc(5, 6, 1), disc(5, 12, 1), disc(5, 18, 1), row(6, 8, 18), row(12, 8, 15), row(18, 8, 18)],
   },
@@ -153,14 +153,14 @@ export const BATCH_49: Icon[] = [
   {
     slug: "ranking", category: "rag", subcategory: "ranking",
     name: "Ranking", description: "Ranking — best first and worst last, results put in order of relevance",
-    tags: ["order", "sorted", "best"], family: "figure",
+    tags: ["order", "sorted", "best"], family: "rails",
     aliases: [], keywords: ["ordered by score", "best first"],
     shapes: [disc(4, 6, 1), row(6, 7, 21), disc(4, 12, 1), row(12, 7, 17), disc(4, 18, 1), row(18, 7, 13)],
   },
   {
     slug: "resource", category: "mcp", subcategory: "resource",
     name: "Resource", description: "A resource — a thing with an address, something a URI points at",
-    tags: ["uri", "addressable", "thing"], family: "figure",
+    tags: ["uri", "addressable", "thing"], family: "window",
     aliases: [], keywords: ["uri", "addressable", "named thing"],
     shapes: [rect(4, 4, 16, 16, 2), disc(9, 12, 1), row(12, 12, 17)],
   },

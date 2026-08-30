@@ -19,7 +19,7 @@
     "on-event",
     "hook"
   ],
-  "family": "mark",
+  "family": "bolt",
   "shapes": [
     {
       "d": "M16 4L9 11L14 11L7 18",

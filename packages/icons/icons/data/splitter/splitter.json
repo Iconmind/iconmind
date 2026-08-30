@@ -16,7 +16,7 @@
     "branch",
     "demux"
   ],
-  "family": "figure",
+  "family": "fork",
   "shapes": [
     {
       "d": "M2 12H10",

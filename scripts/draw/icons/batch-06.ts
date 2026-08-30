@@ -110,7 +110,7 @@ export const BATCH_06: Icon[] = [
   {
     slug: "retry", category: "ai", subcategory: "inference",
     name: "Retry", description: "Retry — go round and try the same operation again after a failure",
-    tags: ["repeat", "again", "loop"], family: "orbit",
+    tags: ["repeat", "again", "loop"], family: "rotation",
     aliases: [], keywords: ["backoff", "attempt", "refresh", "again", "resilience", "repeat"],
     // Three quarters of a circle with the head at its opening, so the drawing reads as one
     // turn rather than as a ring with a mark on it.

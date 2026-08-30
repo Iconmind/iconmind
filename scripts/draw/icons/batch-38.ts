@@ -73,7 +73,7 @@ export const BATCH_38: Icon[] = [
   {
     slug: "splitter", category: "data", subcategory: "transform",
     name: "Splitter", description: "A splitter — one stream fanned out into two so both branches receive it",
-    tags: ["fan-out", "divide", "branch"], family: "figure",
+    tags: ["fan-out", "divide", "branch"], family: "fork",
     aliases: [], keywords: ["fan out", "tee", "divide stream", "branch", "demux"],
     shapes: [row(12, 2, 10), poly([[10, 12], [14, 8], [21, 8]]), poly([[10, 12], [14, 16], [21, 16]])],
   },
@@ -184,7 +184,7 @@ export const BATCH_38: Icon[] = [
   {
     slug: "send-back", category: "interface", subcategory: "communication",
     name: "Send back", description: "Send back — return it to whoever sent it, bounce or reject the item",
-    tags: ["return", "bounce", "reject"], family: "figure",
+    tags: ["return", "bounce", "reject"], family: "orbit",
     aliases: ["return"], keywords: ["return", "bounce", "send to sender", "reject", "back"],
     shapes: [
       // `send`'s ring with the arrow coming back down-left: the reply.
@@ -202,7 +202,7 @@ export const BATCH_38: Icon[] = [
   {
     slug: "session-token", category: "security", subcategory: "auth",
     name: "Session token", description: "A session token — the opaque bearer or cookie that proves it is still you",
-    tags: ["cookie", "bearer", "opaque"], family: "figure",
+    tags: ["cookie", "bearer", "opaque"], family: "pill",
     aliases: [], keywords: ["bearer token", "cookie", "jwt", "session id", "opaque string"],
     shapes: [rect(2, 8, 20, 8, 4), col(9, 8, 16), disc(15, 12, 1)],
   },

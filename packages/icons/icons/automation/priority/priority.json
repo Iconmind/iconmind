@@ -15,19 +15,15 @@
     "jump the queue",
     "p0"
   ],
-  "family": "figure",
+  "family": "chevron",
   "shapes": [
     {
-      "d": "M12 4V13",
+      "d": "M4 11L12 3L20 11",
       "closed": false
     },
     {
-      "d": "M8 8L12 4L16 8",
+      "d": "M4 20L12 12L20 20",
       "closed": false
-    },
-    {
-      "d": "M11 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
-      "closed": true
     }
   ]
 }

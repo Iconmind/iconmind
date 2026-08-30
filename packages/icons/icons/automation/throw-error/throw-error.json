@@ -17,7 +17,7 @@
     "raise",
     "exception thrown"
   ],
-  "family": "arrow",
+  "family": "window",
   "shapes": [
     {
       "d": "M3 11A2 2 0 0 1 5 9H13A2 2 0 0 1 15 11V19A2 2 0 0 1 13 21H5A2 2 0 0 1 3 19Z",

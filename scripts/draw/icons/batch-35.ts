@@ -108,7 +108,7 @@ export const BATCH_35: Icon[] = [
   {
     slug: "poll", category: "analytics", subcategory: "segment",
     name: "Poll", description: "A poll — what people said when they were asked, votes and survey answers",
-    tags: ["vote", "survey", "answers"], family: "chart",
+    tags: ["vote", "survey", "answers"], family: "window",
     aliases: ["survey"], keywords: ["vote", "survey", "responses", "share of answers"],
     shapes: [rect(2, 4, 20, 16, 2), row(9, 5, 19), row(13, 5, 15), row(17, 5, 11)],
   },
@@ -145,7 +145,7 @@ export const BATCH_35: Icon[] = [
   {
     slug: "node", category: "cloud", subcategory: "compute",
     name: "Node", description: "A node — one machine, instance or member in a cluster of many",
-    tags: ["instance", "member", "host"], family: "figure",
+    tags: ["instance", "member", "host"], family: "node",
     aliases: [], keywords: ["instance", "host", "worker", "member", "vm"],
     shapes: [disc(12, 12, 4), row(12, 2, 8), row(12, 16, 22)],
   },
@@ -216,7 +216,7 @@ export const BATCH_35: Icon[] = [
   {
     slug: "null", category: "data", subcategory: "quality",
     name: "Null", description: "Null — there is nothing here, an empty or missing value in the field",
-    tags: ["empty", "missing", "none"], family: "orbit",
+    tags: ["empty", "missing", "none"], family: "window",
     aliases: [], keywords: ["empty", "missing value", "none", "nil", "no data"],
     // A ring with a slash through it is `agent-blocked`, byte for byte. A cell is not.
     shapes: [rect(2, 4, 20, 16, 2), poly([[6, 18], [18, 6]])],
@@ -231,7 +231,7 @@ export const BATCH_35: Icon[] = [
   {
     slug: "openapi", category: "devtools", subcategory: "api",
     name: "OpenAPI", description: "OpenAPI — the Swagger document that describes an API's endpoints and schemas",
-    tags: ["spec", "swagger", "schema"], family: "page",
+    tags: ["spec", "swagger", "schema"], family: "window",
     aliases: ["swagger"], keywords: ["swagger", "spec", "api description", "yaml", "endpoints"],
     // `page()`'s walls sit at 6 and 18, which leaves a brace pair either too near the wall
     // or too near each other. A window is wider and both fit.

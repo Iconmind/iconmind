@@ -291,7 +291,7 @@ export const BATCH_76: Icon[] = [
   {
     slug: "send-money", category: "cloud", subcategory: "cost",
     name: "Send money", description: "A coin with an arrow beside it — send a payment to someone else",
-    tags: ["payment", "send", "transfer"], family: "coin",
+    tags: ["payment", "send", "transfer"], family: "object",
     aliases: [], keywords: ["send money", "make a payment", "transfer funds"],
     shapes: [...COIN_L, ...ARROW_R15],
   },

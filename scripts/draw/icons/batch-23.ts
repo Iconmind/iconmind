@@ -78,7 +78,7 @@ export const BATCH_23: Icon[] = [
   {
     slug: "parallel", category: "automation", subcategory: "workflow",
     name: "Parallel", description: "Parallel — two branches running at the same time, fanned out then joined",
-    tags: ["concurrent", "fan-out", "split"], family: "chain",
+    tags: ["concurrent", "fan-out", "split"], family: "fork",
     aliases: ["concurrent"], keywords: ["fan out", "at the same time", "async", "split"],
     // Both branches level out and stay level. `branch-step` diverges and keeps diverging,
     // which is a choice; parallel work runs alongside itself.
@@ -100,7 +100,7 @@ export const BATCH_23: Icon[] = [
   {
     slug: "error-handler", category: "automation", subcategory: "condition",
     name: "Error handler", description: "An error handler — the catch branch where things go when they fail",
-    tags: ["catch", "fallback", "branch"], family: "chain",
+    tags: ["catch", "fallback", "branch"], family: "fork",
     aliases: ["catch"], keywords: ["try catch", "on error", "exception path", "recover"],
     shapes: [
       poly([[2, 12], [8, 12], [12, 8], [17, 8]]),

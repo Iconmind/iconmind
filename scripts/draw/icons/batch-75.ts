@@ -356,7 +356,7 @@ export const BATCH_75: Icon[] = [
   {
     slug: "paid-milestone", category: "cloud", subcategory: "cost",
     name: "Paid milestone", description: "A coin beside a flag — a milestone that releases a payment when it is reached",
-    tags: ["milestone", "payment", "flag"], family: "coin",
+    tags: ["milestone", "payment", "flag"], family: "object",
     aliases: [], keywords: ["paid milestone", "milestone payment", "payment on delivery"],
     shapes: [...COIN_L, ...FLAG_R],
   },

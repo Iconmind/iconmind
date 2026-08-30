@@ -13,7 +13,7 @@
     "capability evaluation",
     "dangerous capabilities"
   ],
-  "family": "machine",
+  "family": "shield",
   "shapes": [
     {
       "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",

@@ -16,14 +16,14 @@
     "shell",
     "run"
   ],
-  "family": "figure",
+  "family": "arrow",
   "shapes": [
     {
-      "d": "M3 7L8 12L3 17",
+      "d": "M21 4L21 14L5 14",
       "closed": false
     },
     {
-      "d": "M11 17H21",
+      "d": "M9 10L5 14L9 18",
       "closed": false
     }
   ]

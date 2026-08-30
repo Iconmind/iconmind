@@ -14,7 +14,7 @@
     "tiered inference",
     "escalation"
   ],
-  "family": "lattice",
+  "family": "chain",
   "shapes": [
     {
       "d": "M5 2.5L7.5 5L5 7.5L2.5 5Z",

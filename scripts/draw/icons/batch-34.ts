@@ -209,7 +209,7 @@ export const BATCH_34: Icon[] = [
   {
     slug: "optimiser", category: "ai", subcategory: "training",
     name: "Optimiser", description: "An optimiser — the algorithm like Adam that walks the loss downhill to a minimum",
-    tags: ["descent", "minimum", "adam"], family: "chart",
+    tags: ["descent", "minimum", "adam"], family: "chevron",
     aliases: ["optimizer"], keywords: ["gradient descent", "adam", "sgd", "minimum", "converge"],
     shapes: [poly([[3, 7], [9, 13], [15, 13], [21, 7]]), col(12, 13, 17)],
   },

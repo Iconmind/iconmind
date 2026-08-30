@@ -14,7 +14,7 @@
     "addressable",
     "named thing"
   ],
-  "family": "figure",
+  "family": "window",
   "shapes": [
     {
       "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V18A2 2 0 0 1 18 20H6A2 2 0 0 1 4 18Z",

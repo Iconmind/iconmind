@@ -40,14 +40,14 @@ export const BATCH_09: Icon[] = [
   {
     slug: "arrow-left", category: "interface", subcategory: "arrow",
     name: "Arrow left", description: "An arrow pointing left — go back, move west or return to the previous screen",
-    tags: ["left", "back", "west"], family: "arrow",
+    tags: ["left", "back", "west"], family: "mark",
     aliases: ["back"], keywords: ["west", "previous", "return", "backward"],
     shapes: [row(12, 4, 20), poly([[9, 7], [4, 12], [9, 17]])],
   },
   {
     slug: "arrow-right", category: "interface", subcategory: "arrow",
     name: "Arrow right", description: "An arrow pointing right — carry on, move east or continue to the next screen",
-    tags: ["right", "forward", "east"], family: "arrow",
+    tags: ["right", "forward", "east"], family: "mark",
     aliases: ["arrow"], keywords: ["east", "next", "continue", "onward", "forward"],
     shapes: [row(12, 4, 20), poly([[15, 7], [20, 12], [15, 17]])],
   },

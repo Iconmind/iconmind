@@ -80,7 +80,7 @@ export const BATCH_40: Icon[] = [
   {
     slug: "agent-working", category: "agents", subcategory: "lifecycle",
     name: "Agent working", description: "Agent working — the agent is busy on the task right now and will report back",
-    tags: ["busy", "active", "running"], family: "orbit",
+    tags: ["busy", "active", "running"], family: "ring",
     aliases: [], keywords: ["busy", "in progress", "thinking", "active", "running"],
     shapes: [disc(12, 12, 8), ...working()],
   },

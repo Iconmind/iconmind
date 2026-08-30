@@ -160,7 +160,7 @@ export const BATCH_68: Icon[] = [
   {
     slug: "crosshair", category: "interface", subcategory: "action",
     name: "Crosshair", description: "A ring with four ticks and a centre point — the crosshair cursor for precise picking",
-    tags: ["target", "precise", "cursor"], family: "ring",
+    tags: ["target", "precise", "cursor"], family: "node",
     aliases: [], keywords: ["crosshair", "precision cursor", "targeting"],
     shapes: [disc(12, 12, 4), col(12, 2, 5), col(12, 19, 22), row(12, 2, 5), row(12, 19, 22), disc(12, 12, 1)],
   },
@@ -188,7 +188,7 @@ export const BATCH_68: Icon[] = [
   {
     slug: "date-picker", category: "interface", subcategory: "time",
     name: "Date picker", description: "A calendar with one day selected — the date picker control for choosing a date",
-    tags: ["calendar", "select", "date"], family: "calendar",
+    tags: ["calendar", "select", "date"], family: "window",
     aliases: [], keywords: ["date picker", "calendar picker", "select a date"],
     shapes: [rect(3, 3, 18, 18, 2), row(8, 3, 21), disc(12, 15, 3)],
   },

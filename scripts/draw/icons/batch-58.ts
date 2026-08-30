@@ -203,7 +203,7 @@ export const BATCH_58: Icon[] = [
   {
     slug: "warm-standby", category: "cloud", subcategory: "network",
     name: "Warm standby", description: "Warm standby — half awake so the wake-up is short when failover comes",
-    tags: ["half", "ready", "spare"], family: "orbit",
+    tags: ["half", "ready", "spare"], family: "ring",
     aliases: [], keywords: ["warm standby", "half ready", "scaled down copy"],
     // The node holding its breath — paused, not off. A half-lit core was drawn
     // first and read as the copyright sign.

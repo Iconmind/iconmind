@@ -36,7 +36,7 @@ export const BATCH_37: Icon[] = [
   {
     slug: "send", category: "interface", subcategory: "communication",
     name: "Send", description: "Send — off it goes, submit and post it away to the recipient",
-    tags: ["submit", "post", "away"], family: "figure",
+    tags: ["submit", "post", "away"], family: "orbit",
     aliases: [], keywords: ["submit", "post message", "deliver", "paper plane", "go"],
     shapes: [
       // The send button itself: a ring with the arrow leaving up and to the right.
@@ -163,7 +163,7 @@ export const BATCH_37: Icon[] = [
   {
     slug: "retry-policy", category: "automation", subcategory: "workflow",
     name: "Retry policy", description: "A retry policy — how many attempts, and how far apart, with backoff",
-    tags: ["backoff", "attempts", "rule"], family: "orbit",
+    tags: ["backoff", "attempts", "rule"], family: "rotation",
     aliases: [], keywords: ["backoff", "max attempts", "exponential", "jitter", "give up"],
     shapes: [...cycle(), col(9, 10, 14), col(12, 10, 14), col(15, 10, 14)],
   },

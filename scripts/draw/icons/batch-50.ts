@@ -113,7 +113,7 @@ export const BATCH_50: Icon[] = [
   {
     slug: "interrupt", category: "agents", subcategory: "execution",
     name: "Interrupt", description: "Interrupt — cut in right now, barge in and stop what the agent is doing",
-    tags: ["stop", "barge-in", "cancel"], family: "figure",
+    tags: ["stop", "barge-in", "cancel"], family: "bolt",
     aliases: ["zap"], keywords: ["interrupt", "barge in", "cancel generation", "stop it", "break in"],
     // The bolt, drawn at the set's angles. No zap ever claimed it, and an interrupt is
     // exactly a bolt: sudden, diagonal, and it does not wait.
@@ -149,7 +149,7 @@ export const BATCH_50: Icon[] = [
   {
     slug: "elicitation", category: "mcp", subcategory: "prompt",
     name: "Elicitation", description: "Elicitation — the server stops mid-flow to ask the user for input",
-    tags: ["ask", "mid-flow", "input"], family: "window",
+    tags: ["ask", "mid-flow", "input"], family: "bubble",
     aliases: [], keywords: ["elicitation", "ask user", "server question", "form request", "mid-session"],
     // `message`'s bubble with a question in it — the shape of being asked.
     shapes: [

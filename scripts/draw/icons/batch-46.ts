@@ -177,9 +177,11 @@ export const BATCH_46: Icon[] = [
   {
     slug: "priority", category: "automation", subcategory: "workflow",
     name: "Priority", description: "Priority — this one before the others, urgent and ahead of the queue",
-    tags: ["first", "urgent", "ahead"], family: "figure",
+    tags: ["first", "urgent", "ahead"], family: "chevron",
     aliases: [], keywords: ["urgent", "first", "jump the queue", "p0"],
-    shapes: [col(12, 4, 13), poly([[8, 8], [12, 4], [16, 8]]), disc(12, 19, 1)],
+    // Two chevrons up — the mark every tracker uses for high. The arrow with a dot under it
+    // was arrow-up's arrow and more-vertical's column at once.
+    shapes: [poly([[4, 11], [12, 3], [20, 11]]), poly([[4, 20], [12, 12], [20, 20]])],
   },
   {
     slug: "unpin", category: "interface", subcategory: "action",

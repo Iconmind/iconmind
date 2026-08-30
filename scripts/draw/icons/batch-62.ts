@@ -354,7 +354,7 @@ export const BATCH_62: Icon[] = [
   {
     slug: "hyde", category: "rag", subcategory: "retrieval",
     name: "HyDE", description: "HyDE — imagine a hypothetical answer and search with its embedding",
-    tags: ["hypothetical", "embed", "trick"], family: "page",
+    tags: ["hypothetical", "embed", "trick"], family: "bubble",
     aliases: ["hypothetical-document"], keywords: ["hyde", "hypothetical document embedding"],
     shapes: [
       frame(2, 3, 20, 14, 3, { gap: 4 }), poly([[7, 17], [7, 21], [11, 17]]),
@@ -394,7 +394,7 @@ export const BATCH_62: Icon[] = [
   {
     slug: "shard-index", category: "rag", subcategory: "vector",
     name: "Sharded index", description: "A sharded index — the index cut into pieces so many machines can hold it",
-    tags: ["split", "pieces", "scale"], family: "figure",
+    tags: ["split", "pieces", "scale"], family: "rails",
     aliases: [], keywords: ["index sharding", "sharded"],
     shapes: [
       row(6, 3, 9), row(6, 12, 21),

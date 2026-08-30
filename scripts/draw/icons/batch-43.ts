@@ -103,7 +103,7 @@ export const BATCH_43: Icon[] = [
   {
     slug: "secret-rotate", category: "security", subcategory: "secret",
     name: "Rotate secret", description: "Rotate secret — issue a new credential before the old one can leak",
-    tags: ["renew", "cycle", "replace"], family: "figure",
+    tags: ["renew", "cycle", "replace"], family: "rotation",
     aliases: [], keywords: ["rotate key", "renew secret", "replace credential", "cycle"],
     shapes: [...cycle(), disc(12, 10, 2), col(12, 12, 15)],
   },
@@ -189,7 +189,7 @@ export const BATCH_43: Icon[] = [
   {
     slug: "sequence", category: "automation", subcategory: "workflow",
     name: "Sequence", description: "A sequence — this, then that, then the next, steps in a fixed order",
-    tags: ["order", "series", "steps"], family: "figure",
+    tags: ["order", "series", "steps"], family: "chain",
     aliases: [], keywords: ["in order", "one after another", "series", "steps"],
     // Three nodes down the diagonal instead of across the equator: the same chain, but
     // the icon stands as tall as its neighbours instead of being a 22×4 stripe.

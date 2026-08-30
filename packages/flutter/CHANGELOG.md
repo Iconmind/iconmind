@@ -1,3 +1,12 @@
+## 0.4.1
+
+Six icons redrawn so that no two in the set render the same: vote (a ballot going into
+the box — it was stash's tray and arrow), agentic-rag (the retrieval loop — it was
+agent-search's lens), taint (the alert as a badge on the node — it was model-alert
+without the chamfer), semantic (a speech bubble with two waves — it was mcp with one end
+rounded), command (the return arrow — it was cli one unit over) and priority (two
+chevrons up — it was arrow-up's arrow over more-vertical's column). Same names, same API.
+
 ## 0.4.0
 
 One thousand new icons — the set grows from 1,041 to 2,041 (12,246 drawings): the generative

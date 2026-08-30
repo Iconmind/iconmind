@@ -111,21 +111,21 @@ export const BATCH_44: Icon[] = [
   {
     slug: "rotate-cw", category: "interface", subcategory: "action",
     name: "Rotate clockwise", description: "Rotate clockwise — a quarter turn to the right around the centre",
-    tags: ["turn", "right", "spin"], family: "orbit",
+    tags: ["turn", "right", "spin"], family: "rotation",
     aliases: [], keywords: ["turn right", "quarter turn", "clockwise", "rotate image"],
     shapes: [...cycle(), disc(12, 12.5, 1)],
   },
   {
     slug: "rotate-ccw", category: "interface", subcategory: "action",
     name: "Rotate anticlockwise", description: "Rotate anticlockwise — a quarter turn to the left around the centre",
-    tags: ["turn", "left", "spin"], family: "orbit",
+    tags: ["turn", "left", "spin"], family: "rotation",
     aliases: [], keywords: ["turn left", "quarter turn", "counterclockwise", "undo rotate"],
     shapes: [...cycle("ccw"), disc(12, 12.5, 1)],
   },
   {
     slug: "refresh", category: "interface", subcategory: "action",
     name: "Refresh", description: "Refresh — ask again and show the latest answer, reload the view",
-    tags: ["reload", "again", "update"], family: "orbit",
+    tags: ["reload", "again", "update"], family: "rotation",
     aliases: ["reload"], keywords: ["reload", "fetch again", "update view", "f5"],
     shapes: [...cycle()],
   },
@@ -190,9 +190,11 @@ export const BATCH_44: Icon[] = [
   {
     slug: "vote", category: "agents", subcategory: "multi-agent",
     name: "Vote", description: "A vote — each one says, and the majority wins the choice among the agents",
-    tags: ["ballot", "majority", "choose"], family: "figure",
+    tags: ["ballot", "majority", "choose"], family: "tray",
     aliases: ["ballot"], keywords: ["majority", "ballot", "consensus vote", "tally"],
-    shapes: [rect(2, 12, 20, 8, 2), col(12, 3, 8), poly([[9, 6], [12, 9], [15, 6]]), row(16, 6, 18)],
+    // The box and, going into it, the ballot: a sheet with the tick already on it. It used to
+    // be an arrow into the tray, which is stash, line for line.
+    shapes: [rect(2, 12, 20, 8, 2), rect(8, 3, 8, 12, 2), poly([[9.5, 8], [11.5, 10], [14.5, 7]])],
   },
   {
     slug: "watch-var", category: "devtools", subcategory: "debug",

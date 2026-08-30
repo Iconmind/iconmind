@@ -15,7 +15,7 @@
     "internal",
     "no internet"
   ],
-  "family": "chain",
+  "family": "node",
   "shapes": [
     {
       "d": "M2 12H8",

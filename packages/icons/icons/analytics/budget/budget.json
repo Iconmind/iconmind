@@ -16,7 +16,7 @@
     "quota",
     "burn"
   ],
-  "family": "meter",
+  "family": "window",
   "shapes": [
     {
       "d": "M2 9A2 2 0 0 1 4 7H20A2 2 0 0 1 22 9V15A2 2 0 0 1 20 17H4A2 2 0 0 1 2 15Z",

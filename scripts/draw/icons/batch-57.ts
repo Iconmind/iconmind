@@ -222,7 +222,9 @@ export const BATCH_57: Icon[] = [
     tags: ["hazard", "repel", "mark"], family: "window",
     aliases: [], keywords: ["taint node", "toleration", "keep away"],
     // The node carrying the alert mark — hazard, declared.
-    shapes: [rect(4, 4, 16, 16, 2), ...alert()],
+    // The node, and the taint as a badge at its shoulder — a mark put on the node rather
+    // than drawn inside it. Inside, it was model-alert without the chamfer.
+    shapes: [rect(3, 6, 14, 14, 2), col(20, 3, 8), disc(20, 11, 1)],
   },
   {
     slug: "spot-node", category: "devops", subcategory: "infrastructure",

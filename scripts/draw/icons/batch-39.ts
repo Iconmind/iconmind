@@ -123,7 +123,7 @@ export const BATCH_39: Icon[] = [
   {
     slug: "sort", category: "interface", subcategory: "action",
     name: "Sort", description: "Sort — put items in order, arrange or rank them by a chosen key",
-    tags: ["order", "arrange", "rank"], family: "figure",
+    tags: ["order", "arrange", "rank"], family: "rails",
     aliases: [], keywords: ["order", "arrange", "rank", "a to z", "by size"],
     shapes: [row(6, 3, 21), row(12, 3, 15), row(18, 3, 9)],
   },

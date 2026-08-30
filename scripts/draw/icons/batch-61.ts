@@ -354,7 +354,7 @@ export const BATCH_61: Icon[] = [
   {
     slug: "transit-gateway", category: "cloud", subcategory: "network",
     name: "Transit gateway", description: "A transit gateway — every network's traffic routed through one hub",
-    tags: ["hub", "spokes", "router"], family: "figure",
+    tags: ["hub", "spokes", "router"], family: "mark",
     aliases: [], keywords: ["transit gateway", "hub and spoke", "network hub"],
     shapes: [
       poly([[12, 8.5], [15.5, 12], [12, 15.5], [8.5, 12]], true),

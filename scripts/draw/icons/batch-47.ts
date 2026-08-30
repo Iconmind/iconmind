@@ -65,7 +65,7 @@ export const BATCH_47: Icon[] = [
   {
     slug: "brightness", category: "interface", subcategory: "media",
     name: "Brightness", description: "Brightness — more light on the picture, the level of a display",
-    tags: ["sun", "level", "light"], family: "orbit",
+    tags: ["sun", "level", "light"], family: "node",
     aliases: [], keywords: ["light level", "brighten", "sun control"],
     shapes: [disc(12, 12, 4), col(12, 3, 6), col(12, 18, 21), row(12, 3, 6), row(12, 18, 21)],
   },
@@ -79,7 +79,7 @@ export const BATCH_47: Icon[] = [
   {
     slug: "theme", category: "interface", subcategory: "media",
     name: "Theme", description: "A theme — the same page dressed differently, dark mode, a skin or a palette",
-    tags: ["dark-mode", "skin", "palette"], family: "figure",
+    tags: ["dark-mode", "skin", "palette"], family: "ring",
     aliases: [], keywords: ["dark mode", "light mode", "skin", "appearance"],
     shapes: [disc(12, 12, 8), col(12, 4, 20), disc(8, 12, 1)],
   },
@@ -153,9 +153,15 @@ export const BATCH_47: Icon[] = [
   {
     slug: "semantic", category: "rag", subcategory: "retrieval",
     name: "Semantic", description: "Semantic — by what it means rather than what it says, meaning beyond the words",
-    tags: ["meaning", "concept", "beyond-words"], family: "figure",
+    tags: ["meaning", "concept", "beyond-words"], family: "bubble",
     aliases: [], keywords: ["meaning", "conceptual", "beyond keywords"],
-    shapes: [rect(2, 8, 8, 8, 2), poly([[10, 12], [14, 12]]), disc(18, 12, 4)],
+    // A speech bubble carrying two waves — "roughly this", the sense rather than the words.
+    // The square-joined-to-a-circle it replaced was mcp with one end rounded off.
+    shapes: [
+      rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]]),
+      poly([[7, 9], [9.5, 6.5], [12, 9], [14.5, 6.5], [17, 9]]),
+      poly([[7, 14], [9.5, 11.5], [12, 14], [14.5, 11.5], [17, 14]]),
+    ],
   },
   {
     slug: "syntax", category: "devtools", subcategory: "code",

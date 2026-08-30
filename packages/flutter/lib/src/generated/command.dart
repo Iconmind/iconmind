@@ -4,6 +4,6 @@ import '../data.dart';
 /// Command
 const IconMindData command = IconMindData(
   'command',
-  [N('m3 7 5 5 -5 5'), N('M11 17h10')],
-  [N.halo('m3 7 5 5 -5 5'), N.halo('M11 17h10'), N('m3 7 5 5 -5 5'), N('M11 17h10')],
+  [N('M21 4v10H5'), N('m9 10 -4 4 4 4')],
+  [N.halo('M21 4v10H5'), N.halo('m9 10 -4 4 4 4'), N('M21 4v10H5'), N('m9 10 -4 4 4 4')],
 );

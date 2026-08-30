@@ -14,7 +14,7 @@
     "tiny model",
     "on-device model"
   ],
-  "family": "machine",
+  "family": "window",
   "shapes": [
     {
       "d": "M13.5 5H16A3 3 0 0 1 19 8V16A3 3 0 0 1 16 19H8A3 3 0 0 1 5 16V8L8 5H10.5",

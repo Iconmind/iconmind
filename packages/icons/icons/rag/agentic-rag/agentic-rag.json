@@ -13,19 +13,23 @@
     "agentic rag",
     "agent retrieval"
   ],
-  "family": "orbit",
+  "family": "ring",
   "shapes": [
     {
       "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
       "closed": false
     },
     {
-      "d": "M11 15a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
-      "closed": true
+      "d": "M15.5 11.5A4 4 0 1 1 11.5 15.5",
+      "closed": false
     },
     {
-      "d": "M18 18L20.5 20.5",
+      "d": "M11.5 12.5L11.5 15.5L14.5 15.5",
       "closed": false
+    },
+    {
+      "d": "M14.5 15.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
     }
   ]
 }

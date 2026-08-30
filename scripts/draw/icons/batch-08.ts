@@ -225,7 +225,7 @@ export const BATCH_08: Icon[] = [
   {
     slug: "chart-pie", category: "analytics", subcategory: "chart",
     name: "Pie chart", description: "A pie chart — parts of a whole shown as slices by proportion",
-    tags: ["share", "proportion", "slice"], family: "orbit",
+    tags: ["share", "proportion", "slice"], family: "chart",
     aliases: ["pie"], keywords: ["proportion", "share", "donut", "breakdown", "percentage"],
     // The two cuts stop at the circle rather than crossing it, so the slice is a region of
     // the disc rather than a cross drawn on top of one.

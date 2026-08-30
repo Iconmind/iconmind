@@ -162,7 +162,7 @@ export const BATCH_30: Icon[] = [
   {
     slug: "key-rotation", category: "security", subcategory: "secret",
     name: "Key rotation", description: "Key rotation — replace a credential before it gets old, renewing on a cycle",
-    tags: ["rotate", "renew", "cycle"], family: "orbit",
+    tags: ["rotate", "renew", "cycle"], family: "rotation",
     aliases: [], keywords: ["rotate", "renew", "expiry", "roll", "credentials"],
     shapes: [
       ...cycle(),

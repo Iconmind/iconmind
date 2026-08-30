@@ -453,7 +453,7 @@ export const BATCH_63: Icon[] = [
   {
     slug: "outbox", category: "automation", subcategory: "integration",
     name: "Outbox", description: "An outbox — written here first and always sent from here, the transactional outbox pattern",
-    tags: ["send", "tray", "up"], family: "figure",
+    tags: ["send", "tray", "up"], family: "tray",
     aliases: ["outbox-pattern"], keywords: ["outbox pattern", "transactional outbox"],
     shapes: [
       poly([[4, 10], [4, 20], [20, 20], [20, 10]]),
@@ -463,7 +463,7 @@ export const BATCH_63: Icon[] = [
   {
     slug: "inbox-pattern", category: "automation", subcategory: "integration",
     name: "Inbox", description: "An inbox — everything lands here before it counts, the inbox pattern for reliable receipt",
-    tags: ["receive", "tray", "down"], family: "figure",
+    tags: ["receive", "tray", "down"], family: "tray",
     aliases: [], keywords: ["inbox pattern", "idempotent consumer"],
     shapes: [
       poly([[4, 10], [4, 20], [20, 20], [20, 10]]),

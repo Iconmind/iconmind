@@ -18,7 +18,7 @@
     "exception path",
     "recover"
   ],
-  "family": "chain",
+  "family": "fork",
   "shapes": [
     {
       "d": "M2 12L8 12L12 8L17 8",

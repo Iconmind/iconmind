@@ -45,7 +45,7 @@ export const BATCH_67: Icon[] = [
   {
     slug: "tiny-model", category: "ai", subcategory: "model",
     name: "Tiny model", description: "The model frame, drawn small — a compact model that fits on a phone or at the edge",
-    tags: ["small", "compact", "edge"], family: "machine",
+    tags: ["small", "compact", "edge"], family: "window",
     aliases: [], keywords: ["small language model", "tiny model", "on-device model"],
     shapes: [frame(5, 5, 14, 14, 3, { chamfer: 3, gap: 3 })],
   },
@@ -87,7 +87,7 @@ export const BATCH_67: Icon[] = [
   {
     slug: "cascade", category: "ai", subcategory: "model",
     name: "Cascade", description: "Model cores stepping down a diagonal — a cascade that escalates from cheap models to strong ones",
-    tags: ["escalate", "tiers", "fallback"], family: "lattice",
+    tags: ["escalate", "tiers", "fallback"], family: "chain",
     aliases: [], keywords: ["model cascade", "tiered inference", "escalation"],
     shapes: [poly([[5, 2.5], [7.5, 5], [5, 7.5], [2.5, 5]], true), poly([[12, 9.5], [14.5, 12], [12, 14.5], [9.5, 12]], true), poly([[19, 16.5], [21.5, 19], [19, 21.5], [16.5, 19]], true)],
   },

@@ -70,7 +70,7 @@ export const BATCH_32: Icon[] = [
   {
     slug: "conversion", category: "analytics", subcategory: "segment",
     name: "Conversion", description: "A conversion — one thing became another, a visitor turned into a customer",
-    tags: ["became", "turned", "rate"], family: "figure",
+    tags: ["became", "turned", "rate"], family: "chain",
     aliases: [], keywords: ["converted", "signup rate", "became", "funnel end", "turned into"],
     shapes: [
       disc(6, 6, 3), poly([[10, 10], [12, 12]]),

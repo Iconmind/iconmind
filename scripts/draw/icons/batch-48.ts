@@ -175,7 +175,7 @@ export const BATCH_48: Icon[] = [
   {
     slug: "one-off", category: "automation", subcategory: "schedule",
     name: "One-off", description: "A one-off — run once and never again, an ad-hoc job outside any schedule",
-    tags: ["single", "adhoc", "once"], family: "figure",
+    tags: ["single", "adhoc", "once"], family: "ring",
     aliases: ["adhoc"], keywords: ["run once", "ad hoc", "single shot"],
     shapes: [disc(12, 12, 8), col(12, 8, 16)],
   },

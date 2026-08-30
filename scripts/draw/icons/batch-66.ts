@@ -147,14 +147,14 @@ export const BATCH_66: Icon[] = [
   {
     slug: "diff-text", category: "ai", subcategory: "inference",
     name: "Text diff", description: "Lines of text marked with plus and minus — a diff of what the model added and removed",
-    tags: ["diff", "edit", "compare"], family: "text",
+    tags: ["diff", "edit", "compare"], family: "rails",
     aliases: [], keywords: ["text diff", "compare edits", "track changes"],
     shapes: [row(6, 2.5, 5.5), col(4, 4.5, 7.5), row(12, 2.5, 5.5), row(6, 8.5, 21), row(12, 8.5, 21), row(18, 8.5, 21)],
   },
   {
     slug: "outline-gen", category: "ai", subcategory: "inference",
     name: "Outline generation", description: "Headings and nested points stepping inward — an outline generated before the prose is written",
-    tags: ["outline", "structure", "headings"], family: "text",
+    tags: ["outline", "structure", "headings"], family: "rails",
     aliases: [], keywords: ["outline generation", "document structure", "nested headings"],
     shapes: [row(5, 3, 21), row(10, 7, 21), row(15, 7, 21), row(20, 11, 21)],
   },
@@ -366,7 +366,7 @@ export const BATCH_66: Icon[] = [
   {
     slug: "tombstone", category: "data", subcategory: "streaming",
     name: "Tombstone", description: "A row marked with an X among live rows — a tombstone record standing in for a deleted row",
-    tags: ["delete", "marker", "record"], family: "text",
+    tags: ["delete", "marker", "record"], family: "rails",
     aliases: ["delete-marker"], keywords: ["tombstone record", "soft delete", "deleted row marker"],
     shapes: [row(6, 3, 21), row(11, 3, 14), poly([[17.5, 9.5], [20.5, 12.5]]), poly([[20.5, 9.5], [17.5, 12.5]]), row(16, 3, 21)],
   },

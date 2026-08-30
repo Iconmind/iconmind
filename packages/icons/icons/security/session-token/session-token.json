@@ -16,7 +16,7 @@
     "session id",
     "opaque string"
   ],
-  "family": "figure",
+  "family": "pill",
   "shapes": [
     {
       "d": "M2 12A4 4 0 0 1 6 8H18A4 4 0 0 1 22 12V12A4 4 0 0 1 18 16H6A4 4 0 0 1 2 12Z",

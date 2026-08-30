@@ -39,7 +39,7 @@ export const BATCH_59: Icon[] = [
   {
     slug: "catch-block", category: "automation", subcategory: "workflow",
     name: "Catch block", description: "A catch block — where a failure lands and is handled, the safety net",
-    tags: ["handle", "error", "net"], family: "window",
+    tags: ["handle", "error", "net"], family: "tray",
     aliases: [], keywords: ["catch", "error handler", "exception"],
     // The open tray, and the alarm falling into it — a closed box with the alert
     // would be `taint` verbatim.
@@ -60,7 +60,7 @@ export const BATCH_59: Icon[] = [
   {
     slug: "throw-error", category: "automation", subcategory: "workflow",
     name: "Throw", description: "Throw — eject the error out of this block and make it somebody else's problem",
-    tags: ["raise", "eject", "error"], family: "arrow",
+    tags: ["raise", "eject", "error"], family: "window",
     aliases: ["raise-error"], keywords: ["throw", "raise", "exception thrown"],
     // `preempt`'s ejection with the alert as the thing thrown.
     shapes: [
@@ -290,7 +290,7 @@ export const BATCH_59: Icon[] = [
   {
     slug: "dropout", category: "ai", subcategory: "training",
     name: "Dropout", description: "Dropout — some neurons sit this batch out at random to regularise the model",
-    tags: ["regularise", "holes", "random"], family: "figure",
+    tags: ["regularise", "holes", "random"], family: "rails",
     aliases: [], keywords: ["dropout", "regularization", "dropped units"],
     // Three layers, and the hole where the dropped units were.
     shapes: [

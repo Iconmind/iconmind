@@ -4,6 +4,6 @@ import '../data.dart';
 /// Priority
 const IconMindData priority = IconMindData(
   'priority',
-  [N('M12 4v9'), N('m8 8 4 -4 4 4'), N('M11 19a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
-  [N.tint('M11 19a1 1 0 1 0 2 0 1 1 0 1 0 -2 0'), N.halo('M12 4v9'), N.halo('m8 8 4 -4 4 4'), N('M12 4v9'), N('m8 8 4 -4 4 4'), N('M11 19a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
+  [N('m4 11 8 -8 8 8'), N('m4 20 8 -8 8 8')],
+  [N.halo('m4 11 8 -8 8 8'), N.halo('m4 20 8 -8 8 8'), N('m4 11 8 -8 8 8'), N('m4 20 8 -8 8 8')],
 );

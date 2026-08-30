@@ -30,7 +30,7 @@ export const BATCH_31: Icon[] = [
   {
     slug: "approval-step", category: "automation", subcategory: "human-loop",
     name: "Approval step", description: "An approval step — a step in a flow that waits for a person to sign off",
-    tags: ["gate", "sign-off", "wait"], family: "step",
+    tags: ["gate", "sign-off", "wait"], family: "window",
     aliases: [], keywords: ["sign off", "human gate", "manual approval", "wait for review"],
     shapes: [rect(3, 7, 18, 10, 2), ...check(SMALL, 12)],
   },
@@ -89,7 +89,7 @@ export const BATCH_31: Icon[] = [
   {
     slug: "budget", category: "analytics", subcategory: "metric",
     name: "Budget", description: "A budget — what is spent against what is allowed, the cap on cost",
-    tags: ["limit", "spend", "cap"], family: "meter",
+    tags: ["limit", "spend", "cap"], family: "window",
     aliases: [], keywords: ["spend limit", "cap", "allowance", "quota", "burn"],
     shapes: [rect(2, 7, 20, 10, 2), row(12, 5, 13), col(13, 9, 15)],
   },

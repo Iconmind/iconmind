@@ -14,7 +14,7 @@
     "brighten",
     "sun control"
   ],
-  "family": "orbit",
+  "family": "node",
   "shapes": [
     {
       "d": "M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",

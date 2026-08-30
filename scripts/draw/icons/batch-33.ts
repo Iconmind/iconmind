@@ -164,7 +164,7 @@ export const BATCH_33: Icon[] = [
   {
     slug: "inline-suggestion", category: "devtools", subcategory: "editor",
     name: "Inline suggestion", description: "An inline suggestion — ghost text for what it thinks you were about to type",
-    tags: ["ghost", "completion", "hint"], family: "figure",
+    tags: ["ghost", "completion", "hint"], family: "rails",
     aliases: ["ghost-text"], keywords: ["copilot", "ghost text", "autocomplete", "accept", "tab"],
     shapes: [
       row(6, 3, 21), row(12, 3, 10),
@@ -174,7 +174,7 @@ export const BATCH_33: Icon[] = [
   {
     slug: "inpaint", category: "interface", subcategory: "media",
     name: "Inpaint", description: "Inpaint — redraw just one region of an image and leave the rest alone",
-    tags: ["region", "fill", "patch"], family: "window",
+    tags: ["region", "fill", "patch"], family: "machine",
     aliases: [], keywords: ["mask", "region", "fill in", "generative fill", "patch"],
     shapes: [rect(2, 4, 20, 16, 2), rect(7, 8, 10, 8, 2), poly([[10, 14], [13, 11]])],
   },

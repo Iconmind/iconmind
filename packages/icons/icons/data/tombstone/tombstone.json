@@ -17,7 +17,7 @@
     "soft delete",
     "deleted row marker"
   ],
-  "family": "text",
+  "family": "rails",
   "shapes": [
     {
       "d": "M3 6H21",

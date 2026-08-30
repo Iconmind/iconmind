@@ -35,7 +35,7 @@ export const BATCH_14: Icon[] = [
   {
     slug: "agent-delegate", category: "agents", subcategory: "communication",
     name: "Agent delegate", description: "Agent delegate — hand a piece of work down to a smaller sub-agent",
-    tags: ["assign", "hand-down", "sub-agent"], family: "orbit",
+    tags: ["assign", "hand-down", "sub-agent"], family: "chain",
     aliases: [], keywords: ["assign", "sub-agent", "spawn worker", "hand down", "farm out"],
     // Down and to the right, and the second ring is no smaller than the first. Shrinking it
     // would say the work got smaller; what changed is who is doing it.

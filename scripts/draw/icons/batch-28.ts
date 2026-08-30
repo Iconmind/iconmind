@@ -34,7 +34,7 @@ export const BATCH_28: Icon[] = [
   {
     slug: "environment-var", category: "devtools", subcategory: "editor",
     name: "Environment variable", description: "An environment variable — a config value or secret handed to a process when it starts",
-    tags: ["config", "secret", "setting"], family: "capsule",
+    tags: ["config", "secret", "setting"], family: "window",
     aliases: ["env-var"], keywords: ["dotenv", "process.env", "config value", "export"],
     shapes: [rect(3, 3, 18, 18, 2), row(10.5, 8, 16), row(13.5, 8, 16)],
   },

@@ -157,7 +157,7 @@ export const BATCH_03: Icon[] = [
   {
     slug: "trigger", category: "automation", subcategory: "trigger",
     name: "Trigger", description: "A trigger — the event that sets an automation, a workflow or an agent running",
-    tags: ["event", "fire", "bolt"], family: "mark",
+    tags: ["event", "fire", "bolt"], family: "bolt",
     aliases: ["event"], keywords: ["webhook", "fire", "lightning", "on-event", "hook"],
     // A bolt on the set's angles: down, across, down. Real lightning is drawn at whatever
     // angles look right, and every one of those would have been a waiver.

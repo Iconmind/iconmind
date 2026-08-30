@@ -65,7 +65,7 @@ export const BATCH_22: Icon[] = [
   {
     slug: "ci", category: "devops", subcategory: "ci-cd",
     name: "Continuous integration", description: "Continuous integration — every change built and tested automatically as soon as it lands",
-    tags: ["build", "test", "loop"], family: "window",
+    tags: ["build", "test", "loop"], family: "rotation",
     aliases: [], keywords: ["pipeline", "build", "test", "github actions", "jenkins"],
     // `repeat`'s loop with a tick in it. The loop says it happens every time and the tick
     // says what it is for, which between them is the whole of the phrase.
@@ -74,7 +74,7 @@ export const BATCH_22: Icon[] = [
   {
     slug: "cd", category: "devops", subcategory: "ci-cd",
     name: "Continuous delivery", description: "Continuous delivery — every successful build on its way out to a release",
-    tags: ["deliver", "release", "loop"], family: "window",
+    tags: ["deliver", "release", "loop"], family: "rotation",
     aliases: [], keywords: ["continuous deployment", "release train", "pipeline", "ship"],
     // The same loop with an arrow leaving instead of a tick. `ci` checks and stops; `cd`
     // checks and keeps going.
@@ -133,7 +133,7 @@ export const BATCH_22: Icon[] = [
   {
     slug: "private-link", category: "cloud", subcategory: "network",
     name: "Private link", description: "A private link — a connection between services that never leaves the private network",
-    tags: ["private", "peering", "secure"], family: "chain",
+    tags: ["private", "peering", "secure"], family: "node",
     aliases: [], keywords: ["vpc peering", "private endpoint", "internal", "no internet"],
     shapes: [
       row(12, 2, 8), rect(8.5, 8.5, 7, 7, 2), arc(12, 8.5, 2.5, 180, 360), row(12, 16, 22),

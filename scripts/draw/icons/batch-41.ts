@@ -14,7 +14,7 @@ export const BATCH_41: Icon[] = [
   {
     slug: "arrow-back", category: "interface", subcategory: "arrow",
     name: "Arrow back", description: "Arrow back — the way you came, return to the previous screen",
-    tags: ["return", "previous", "left"], family: "arrow",
+    tags: ["return", "previous", "left"], family: "mark",
     aliases: ["previous"], keywords: ["back", "return", "previous", "navigate back", "west"],
     shapes: [row(12, 4, 20), poly([[10, 6], [4, 12], [10, 18]])],
   },
@@ -28,7 +28,7 @@ export const BATCH_41: Icon[] = [
   {
     slug: "attach", category: "interface", subcategory: "file",
     name: "Attach", description: "Attach — clip a file to the message so it travels along with it",
-    tags: ["clip", "add-file", "with"], family: "figure",
+    tags: ["clip", "add-file", "with"], family: "page",
     aliases: [], keywords: ["paperclip", "attachment", "add file", "clip on", "with this"],
     // A paperclip's loops need angles the set refuses; a page held by a clip corner does not.
     shapes: [page(), rect(10, 6, 4, 12, 2)],
@@ -135,7 +135,7 @@ export const BATCH_41: Icon[] = [
   {
     slug: "loop-detect", category: "agents", subcategory: "execution",
     name: "Loop detection", description: "Loop detection — the agent is going round in circles and has been caught",
-    tags: ["stuck", "cycle", "caught"], family: "orbit",
+    tags: ["stuck", "cycle", "caught"], family: "rotation",
     aliases: [], keywords: ["infinite loop", "stuck agent", "cycle detected", "going in circles"],
     shapes: [...cycle(), poly([[9.5, 9.5], [14.5, 14.5]]), poly([[14.5, 9.5], [9.5, 14.5]])],
   },
@@ -176,9 +176,11 @@ export const BATCH_41: Icon[] = [
   {
     slug: "command", category: "devtools", subcategory: "terminal",
     name: "Command", description: "A command — the line you type at a prompt in the shell to make something happen",
-    tags: ["cli", "prompt", "shell"], family: "figure",
+    tags: ["cli", "prompt", "shell"], family: "arrow",
     aliases: [], keywords: ["command line", "prompt", "type", "shell", "run"],
-    shapes: [poly([[3, 7], [8, 12], [3, 17]]), row(17, 11, 21)],
+    // The return arrow — the key that turns the typed line into something that happens.
+    // It was the prompt chevron and underscore, which is cli one unit over.
+    shapes: [poly([[21, 4], [21, 14], [5, 14]]), poly([[9, 10], [5, 14], [9, 18]])],
   },
   {
     slug: "calendar-run", category: "automation", subcategory: "schedule",

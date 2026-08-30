@@ -14,7 +14,7 @@
     "price hike",
     "cost going up"
   ],
-  "family": "coin",
+  "family": "object",
   "shapes": [
     {
       "d": "M2 12a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",

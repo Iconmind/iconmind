@@ -136,7 +136,7 @@ export const BATCH_17: Icon[] = [
   {
     slug: "repeat", category: "interface", subcategory: "media",
     name: "Repeat", description: "Repeat — go round again, loop the same thing over from the start",
-    tags: ["loop", "again", "cycle"], family: "window",
+    tags: ["loop", "again", "cycle"], family: "rotation",
     aliases: ["loop"], keywords: ["cycle", "again", "replay", "on repeat"],
     // The loop is a closed rounded rectangle with the language's break at the top, and the
     // head points into the break. `retry` is the same idea on a circle, for an attempt

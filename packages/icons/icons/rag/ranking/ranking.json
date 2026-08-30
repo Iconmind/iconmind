@@ -13,7 +13,7 @@
     "ordered by score",
     "best first"
   ],
-  "family": "figure",
+  "family": "rails",
   "shapes": [
     {
       "d": "M3 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",

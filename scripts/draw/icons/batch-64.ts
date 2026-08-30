@@ -370,11 +370,13 @@ export const BATCH_64: Icon[] = [
   {
     slug: "agentic-rag", category: "rag", subcategory: "retrieval",
     name: "Agentic RAG", description: "Agentic RAG — the agent decides what to look up next in a retrieval loop",
-    tags: ["agent", "search", "loop"], family: "orbit",
+    tags: ["agent", "search", "loop"], family: "ring",
     aliases: [], keywords: ["agentic rag", "agent retrieval"],
+    // The figure and, where agent-search holds a lens, the retrieval loop: the agent goes
+    // round again with what it found at the centre. The lens made it agent-search exactly.
     shapes: [
       arc(7, 7, 4, 295, 245),
-      disc(15, 15, 4), poly([[18, 18], [20.5, 20.5]]),
+      arc(15.5, 15.5, 4, 270, 180), poly([[11.5, 12.5], [11.5, 15.5], [14.5, 15.5]]), disc(15.5, 15.5, 1),
     ],
   },
   {
@@ -400,7 +402,7 @@ export const BATCH_64: Icon[] = [
   {
     slug: "capability-eval", category: "security", subcategory: "ai-security",
     name: "Capability eval", description: "A capability eval — measure what a model can do, and how dangerous, before release",
-    tags: ["measure", "danger", "bars"], family: "machine",
+    tags: ["measure", "danger", "bars"], family: "shield",
     aliases: [], keywords: ["capability evaluation", "dangerous capabilities"],
     shapes: [shield(), col(9, 9, 14), col(12, 7, 14), col(15, 11, 14)],
   },

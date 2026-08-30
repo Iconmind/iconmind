@@ -220,7 +220,7 @@ export const BATCH_02: Icon[] = [
   {
     slug: "pipeline", category: "data", subcategory: "pipeline",
     name: "Pipeline", description: "A pipeline — work moving through stages in order, from data ingestion to a finished output",
-    tags: ["stages", "flow", "sequence"], family: "chain",
+    tags: ["stages", "flow", "sequence"], family: "pill",
     aliases: ["planning"], keywords: ["etl", "dag", "stages", "flow", "workflow"],
     // Three stages in a line. `chain-of-thought` puts its three on a diagonal because each
     // step follows from the last; here the stages are equal and the work simply passes.

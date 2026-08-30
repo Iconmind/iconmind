@@ -19,7 +19,7 @@
     "minimum",
     "converge"
   ],
-  "family": "chart",
+  "family": "chevron",
   "shapes": [
     {
       "d": "M3 7L9 13L15 13L21 7",

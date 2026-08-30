@@ -14,7 +14,7 @@
     "regularization",
     "dropped units"
   ],
-  "family": "figure",
+  "family": "rails",
   "shapes": [
     {
       "d": "M3 6H21",

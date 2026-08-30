@@ -125,7 +125,7 @@ export const BATCH_36: Icon[] = [
   {
     slug: "rbac", category: "security", subcategory: "auth",
     name: "Role-based access", description: "Role-based access control — what a kind of person may do, granted by role",
-    tags: ["roles", "grants", "who"], family: "figure",
+    tags: ["roles", "grants", "who"], family: "shield",
     aliases: [], keywords: ["roles", "permissions", "grants", "least privilege", "iam"],
     shapes: [shield(), disc(12, 8, 2), arc(12, 14, 3, 180, 360)],
   },
@@ -156,7 +156,7 @@ export const BATCH_36: Icon[] = [
   {
     slug: "replay", category: "devtools", subcategory: "debug",
     name: "Replay", description: "Replay — run it again from what was recorded, exactly as it happened",
-    tags: ["rerun", "record", "again"], family: "orbit",
+    tags: ["rerun", "record", "again"], family: "rotation",
     aliases: [], keywords: ["rerun", "time travel", "from the log", "reproduce", "playback"],
     shapes: [...cycle(), poly([[10, 9], [13, 12], [10, 15]], true)],
   },

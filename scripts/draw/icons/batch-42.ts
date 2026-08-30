@@ -147,7 +147,7 @@ export const BATCH_42: Icon[] = [
   {
     slug: "loop-step", category: "automation", subcategory: "workflow",
     name: "Loop step", description: "A loop step — round again and again until the condition is done",
-    tags: ["repeat", "iterate", "until"], family: "orbit",
+    tags: ["repeat", "iterate", "until"], family: "rotation",
     aliases: [], keywords: ["iterate", "repeat step", "until done", "while"],
     shapes: [...cycle(), poly([[9, 15], [12, 15], [12, 11], [15, 11]])],
   },
@@ -164,7 +164,7 @@ export const BATCH_42: Icon[] = [
   {
     slug: "end-to-end", category: "automation", subcategory: "workflow",
     name: "End to end", description: "End to end — from the first thing to the last, the whole way through",
-    tags: ["whole", "through", "complete"], family: "figure",
+    tags: ["whole", "through", "complete"], family: "chain",
     aliases: [], keywords: ["whole journey", "start to finish", "full path", "through"],
     // The whole journey, corner to corner: out of one node, down the diagonal, arrowhead
     // into the other. Flat on the equator it read as a stripe, not a journey.
@@ -200,7 +200,7 @@ export const BATCH_42: Icon[] = [
   {
     slug: "record", category: "interface", subcategory: "media",
     name: "Record", description: "Record — capture it as it happens, live audio or video written down",
-    tags: ["capture", "rec", "live"], family: "orbit",
+    tags: ["capture", "rec", "live"], family: "ring",
     aliases: [], keywords: ["rec", "capture", "recording", "live", "take down"],
     shapes: [disc(12, 12, 8), disc(12, 12, 3)],
   },
