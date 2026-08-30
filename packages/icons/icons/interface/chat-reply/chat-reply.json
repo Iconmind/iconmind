@@ -9,6 +9,9 @@
     "respond",
     "message"
   ],
+  "aliases": [
+    "message-square-reply"
+  ],
   "keywords": [
     "reply to message",
     "respond",

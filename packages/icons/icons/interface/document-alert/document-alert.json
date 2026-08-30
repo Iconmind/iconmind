@@ -9,6 +9,9 @@
     "problem",
     "attention"
   ],
+  "aliases": [
+    "file-warning"
+  ],
   "keywords": [
     "invalid",
     "error",

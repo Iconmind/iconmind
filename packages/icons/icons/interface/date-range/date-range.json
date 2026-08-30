@@ -9,6 +9,9 @@
     "between",
     "span"
   ],
+  "aliases": [
+    "calendar-range"
+  ],
   "keywords": [
     "period",
     "from to",

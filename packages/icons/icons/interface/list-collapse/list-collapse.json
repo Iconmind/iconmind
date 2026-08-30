@@ -9,6 +9,9 @@
     "collapse",
     "fold"
   ],
+  "aliases": [
+    "list-chevrons-down-up"
+  ],
   "keywords": [
     "collapse list",
     "fold list",

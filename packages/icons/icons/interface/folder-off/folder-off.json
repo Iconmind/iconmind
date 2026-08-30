@@ -9,6 +9,9 @@
     "disabled",
     "excluded"
   ],
+  "aliases": [
+    "folder-x"
+  ],
   "keywords": [
     "missing",
     "ignored",

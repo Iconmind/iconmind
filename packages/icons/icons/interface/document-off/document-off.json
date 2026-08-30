@@ -9,6 +9,9 @@
     "corrupt",
     "excluded"
   ],
+  "aliases": [
+    "file-x"
+  ],
   "keywords": [
     "missing",
     "deleted",

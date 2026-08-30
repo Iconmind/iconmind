@@ -220,7 +220,7 @@ export const BATCH_69: Icon[] = [
     slug: "chat-mute", category: "interface", subcategory: "communication",
     name: "Chat mute", description: "A speech bubble with a slash inside — a conversation muted so it no longer notifies",
     tags: ["mute", "silence", "chat"], family: "bubble",
-    aliases: [], keywords: ["mute chat", "silence conversation", "notifications off"],
+    aliases: ["message-circle-off"], keywords: ["mute chat", "silence conversation", "notifications off"],
     shapes: [rect(3, 4, 18, 12, 2), poly([[7, 16], [7, 19], [10, 16]]), poly([[8, 13], [13, 8]])],
   },
   {

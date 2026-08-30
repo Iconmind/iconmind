@@ -47,7 +47,7 @@ export const BATCH_18: Icon[] = [
     slug: "cloud-off", category: "cloud", subcategory: "compute",
     name: "Cloud off", description: "Cloud off — disconnected from the cloud, working offline or locally",
     tags: ["offline", "disconnected", "local"], family: "cloud",
-    aliases: ["offline"], keywords: ["offline", "disconnected", "local only", "no sync"],
+    aliases: ["offline", "cloud-x"], keywords: ["offline", "disconnected", "local only", "no sync"],
     shapes: [cloud(), ...off(SMALL)],
   },
 

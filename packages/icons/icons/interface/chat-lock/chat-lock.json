@@ -9,6 +9,9 @@
     "private",
     "lock"
   ],
+  "aliases": [
+    "message-square-lock"
+  ],
   "keywords": [
     "encrypted chat",
     "private conversation",

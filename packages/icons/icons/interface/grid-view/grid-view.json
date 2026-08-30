@@ -9,6 +9,9 @@
     "cards",
     "gallery"
   ],
+  "aliases": [
+    "grid-2x2"
+  ],
   "keywords": [
     "tiles",
     "cards",

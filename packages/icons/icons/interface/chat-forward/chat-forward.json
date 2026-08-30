@@ -9,6 +9,9 @@
     "share",
     "message"
   ],
+  "aliases": [
+    "message-square-share"
+  ],
   "keywords": [
     "forward message",
     "share message",

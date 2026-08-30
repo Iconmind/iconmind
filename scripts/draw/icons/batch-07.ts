@@ -79,7 +79,7 @@ export const BATCH_07: Icon[] = [
     slug: "shield-off", category: "security", subcategory: "policy",
     name: "Shield off", description: "Shield off — protection is disabled and the system is exposed",
     tags: ["unprotected", "disabled", "exposed"], family: "shield",
-    aliases: [], keywords: ["unprotected", "disabled", "bypass", "exposed", "insecure"],
+    aliases: ["shield-x"], keywords: ["unprotected", "disabled", "bypass", "exposed", "insecure"],
     shapes: [shield(), ...off(SMALL, 11)],
   },
 

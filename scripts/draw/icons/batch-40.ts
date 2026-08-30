@@ -191,7 +191,7 @@ export const BATCH_40: Icon[] = [
     slug: "grid-view", category: "interface", subcategory: "layout",
     name: "Grid view", description: "Grid view — everything shown as tiles or cards in a gallery layout",
     tags: ["tiles", "cards", "gallery"], family: "window",
-    aliases: [], keywords: ["tiles", "cards", "gallery view", "thumbnails", "masonry"],
+    aliases: ["grid-2x2"], keywords: ["tiles", "cards", "gallery view", "thumbnails", "masonry"],
     shapes: [rect(2, 2, 8, 8, 2), rect(14, 2, 8, 8, 2), rect(2, 14, 8, 8, 2), rect(14, 14, 8, 8, 2), disc(12, 12, 1)],
   },
   {

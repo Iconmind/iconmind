@@ -170,7 +170,7 @@ export const BATCH_09: Icon[] = [
     slug: "folder-off", category: "interface", subcategory: "file",
     name: "Folder off", description: "Folder off — this folder is missing, disabled or excluded from view",
     tags: ["missing", "disabled", "excluded"], family: "folder",
-    aliases: [], keywords: ["missing", "ignored", "excluded", "unavailable"],
+    aliases: ["folder-x"], keywords: ["missing", "ignored", "excluded", "unavailable"],
     shapes: [folder(), ...off(SMALL, 13)],
   },
 
@@ -180,7 +180,7 @@ export const BATCH_09: Icon[] = [
     slug: "document-add", category: "interface", subcategory: "file",
     name: "Document add", description: "Document add — start a new file or page from scratch, a blank document",
     tags: ["new", "create", "file"], family: "page",
-    aliases: ["new-file"], keywords: ["new document", "create", "blank", "compose"],
+    aliases: ["new-file", "file-plus"], keywords: ["new document", "create", "blank", "compose"],
     // The small mark, not the big one. A page is twelve units wide inside where a folder is
     // sixteen — the hollow decides which mark fits, and it is not a property of the concept.
     shapes: [page(), ...add(SMALL)],
@@ -189,14 +189,14 @@ export const BATCH_09: Icon[] = [
     slug: "document-check", category: "interface", subcategory: "file",
     name: "Document check", description: "Document check — this file has been dealt with, approved or signed off",
     tags: ["approved", "signed", "done"], family: "page",
-    aliases: [], keywords: ["approved", "signed", "reviewed", "complete"],
+    aliases: ["file-check"], keywords: ["approved", "signed", "reviewed", "complete"],
     shapes: [page(), ...check(SMALL)],
   },
   {
     slug: "document-off", category: "interface", subcategory: "file",
     name: "Document off", description: "Document off — this file is gone, unreadable, corrupt or excluded",
     tags: ["missing", "corrupt", "excluded"], family: "page",
-    aliases: [], keywords: ["missing", "deleted", "corrupt", "unreadable"],
+    aliases: ["file-x"], keywords: ["missing", "deleted", "corrupt", "unreadable"],
     shapes: [page(), ...off(SMALL)],
   },
 
@@ -222,7 +222,7 @@ export const BATCH_09: Icon[] = [
     slug: "calendar-off", category: "interface", subcategory: "time",
     name: "Calendar off", description: "Calendar off — the event is cancelled or the date is blocked and unavailable",
     tags: ["cancelled", "unavailable", "blocked"], family: "window",
-    aliases: [], keywords: ["cancelled", "declined", "blocked", "unavailable"],
+    aliases: ["calendar-x"], keywords: ["cancelled", "declined", "blocked", "unavailable"],
     shapes: [...calendarParts(), ...off(SMALL, 15)],
   },
 

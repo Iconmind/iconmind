@@ -96,7 +96,7 @@ export const BATCH_10: Icon[] = [
     slug: "upload-cloud", category: "cloud", subcategory: "storage",
     name: "Upload to cloud", description: "Upload to cloud — send a file up to cloud storage, a sync service or a backup",
     tags: ["send", "sync", "backup"], family: "cloud",
-    aliases: [], keywords: ["sync up", "backup", "push", "store remotely"],
+    aliases: ["cloud-upload"], keywords: ["sync up", "backup", "push", "store remotely"],
     shapes: [
       cloud(4),
       col(12, 17, 21), poly([[9, 20], [12, 17], [15, 20]]),
@@ -106,7 +106,7 @@ export const BATCH_10: Icon[] = [
     slug: "download-cloud", category: "cloud", subcategory: "storage",
     name: "Download from cloud", description: "Download from cloud — bring a file back down from cloud storage or restore a backup",
     tags: ["fetch", "sync", "restore"], family: "cloud",
-    aliases: [], keywords: ["sync down", "restore", "pull", "fetch remotely"],
+    aliases: ["cloud-download"], keywords: ["sync down", "restore", "pull", "fetch remotely"],
     shapes: [
       cloud(4),
       col(12, 17, 21), poly([[9, 18], [12, 21], [15, 18]]),

@@ -323,7 +323,7 @@ export const BATCH_76: Icon[] = [
     slug: "list-collapse", category: "interface", subcategory: "file",
     name: "List collapse", description: "A list beside two chevrons closing — collapse a list to its heading",
     tags: ["list", "collapse", "fold"], family: "text",
-    aliases: [], keywords: ["collapse list", "fold list", "hide items"],
+    aliases: ["list-chevrons-down-up"], keywords: ["collapse list", "fold list", "hide items"],
     shapes: [...ROWS_L, poly([[17, 7], [19.5, 9.5], [22, 7]]), poly([[17, 17], [19.5, 14.5], [22, 17]])],
   },
   {

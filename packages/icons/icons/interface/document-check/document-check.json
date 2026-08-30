@@ -9,6 +9,9 @@
     "signed",
     "done"
   ],
+  "aliases": [
+    "file-check"
+  ],
   "keywords": [
     "approved",
     "signed",

@@ -113,7 +113,7 @@ export const BATCH_03: Icon[] = [
     slug: "branch-git", category: "devtools", subcategory: "version-control",
     name: "Branch", description: "A git branch — a line of work split off from another so changes can be made in isolation",
     tags: ["git", "fork", "version"], family: "chain",
-    aliases: ["branch"], keywords: ["git", "fork", "merge", "commit", "version control"],
+    aliases: ["branch", "git-branch"], keywords: ["git", "fork", "merge", "commit", "version control"],
     // A trunk with three nodes: where it splits, where the split goes, where it carries on.
     // Two nodes would be a link, and the split is the whole point.
     shapes: [

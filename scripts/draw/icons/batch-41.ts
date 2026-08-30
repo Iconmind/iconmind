@@ -22,7 +22,7 @@ export const BATCH_41: Icon[] = [
     slug: "arrow-external", category: "interface", subcategory: "arrow",
     name: "External arrow", description: "External arrow — it opens somewhere else, in a new tab or another app",
     tags: ["out", "new-tab", "leave"], family: "arrow",
-    aliases: [], keywords: ["open in new tab", "external", "leaves the app", "out and up"],
+    aliases: ["arrow-up-right"], keywords: ["open in new tab", "external", "leaves the app", "out and up"],
     shapes: [poly([[4, 20], [20, 4]]), poly([[10, 4], [20, 4], [20, 14]])],
   },
   {

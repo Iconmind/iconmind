@@ -33,7 +33,7 @@ export const BATCH_12: Icon[] = [
     slug: "user-off", category: "interface", subcategory: "identity",
     name: "User off", description: "User off — this account is disabled, banned or removed from the system",
     tags: ["disabled", "banned", "removed"], family: "figure",
-    aliases: [], keywords: ["deactivate", "banned", "suspended", "remove member"],
+    aliases: ["user-x"], keywords: ["deactivate", "banned", "suspended", "remove member"],
     shapes: [...figure(), poly([[15, 9], [21, 15]]), poly([[21, 9], [15, 15]])],
   },
 

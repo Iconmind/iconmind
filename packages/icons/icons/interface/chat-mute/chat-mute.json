@@ -9,6 +9,9 @@
     "silence",
     "chat"
   ],
+  "aliases": [
+    "message-circle-off"
+  ],
   "keywords": [
     "mute chat",
     "silence conversation",

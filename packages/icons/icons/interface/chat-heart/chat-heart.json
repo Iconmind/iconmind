@@ -9,6 +9,9 @@
     "reaction",
     "like"
   ],
+  "aliases": [
+    "message-square-heart"
+  ],
   "keywords": [
     "message reaction",
     "heart reaction",

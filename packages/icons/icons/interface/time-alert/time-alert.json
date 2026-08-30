@@ -9,6 +9,9 @@
     "alert",
     "warning"
   ],
+  "aliases": [
+    "clock-alert"
+  ],
   "keywords": [
     "time alert",
     "time warning",

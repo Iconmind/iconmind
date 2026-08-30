@@ -9,6 +9,9 @@
     "new-tab",
     "leave"
   ],
+  "aliases": [
+    "arrow-up-right"
+  ],
   "keywords": [
     "open in new tab",
     "external",

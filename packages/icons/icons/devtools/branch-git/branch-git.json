@@ -10,7 +10,8 @@
     "version"
   ],
   "aliases": [
-    "branch"
+    "branch",
+    "git-branch"
   ],
   "keywords": [
     "git",

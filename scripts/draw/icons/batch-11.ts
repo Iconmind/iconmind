@@ -177,7 +177,7 @@ export const BATCH_11: Icon[] = [
     slug: "document-alert", category: "interface", subcategory: "file",
     name: "Document alert", description: "Document alert — something is wrong with this file, invalid or needing attention",
     tags: ["invalid", "problem", "attention"], family: "page",
-    aliases: [], keywords: ["invalid", "error", "malformed", "needs review"],
+    aliases: ["file-warning"], keywords: ["invalid", "error", "malformed", "needs review"],
     shapes: [page(), ...alert(SMALL)],
   },
   {

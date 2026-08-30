@@ -371,7 +371,7 @@ export const BATCH_75: Icon[] = [
     slug: "time-alert", category: "interface", subcategory: "time",
     name: "Time alert", description: "A clock beside an alert mark — a time-based warning that something is due",
     tags: ["time", "alert", "warning"], family: "clock",
-    aliases: [], keywords: ["time alert", "time warning", "running late"],
+    aliases: ["clock-alert"], keywords: ["time alert", "time warning", "running late"],
     shapes: [...CLOCK_L, ...ALERT_R],
   },
 

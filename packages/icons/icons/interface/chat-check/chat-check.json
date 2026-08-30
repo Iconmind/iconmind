@@ -9,6 +9,9 @@
     "read",
     "resolved"
   ],
+  "aliases": [
+    "message-square-check"
+  ],
   "keywords": [
     "message delivered",
     "read receipt",

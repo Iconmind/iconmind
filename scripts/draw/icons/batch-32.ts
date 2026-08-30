@@ -149,7 +149,7 @@ export const BATCH_32: Icon[] = [
     slug: "date-range", category: "interface", subcategory: "time",
     name: "Date range", description: "A date range — from one day to another, a period between two dates",
     tags: ["period", "between", "span"], family: "window",
-    aliases: [], keywords: ["period", "from to", "between dates", "span", "calendar range"],
+    aliases: ["calendar-range"], keywords: ["period", "from to", "between dates", "span", "calendar range"],
     shapes: [
       rect(2, 5, 20, 15, 2), row(9, 2, 22), disc(7, 14, 1), row(14, 8, 16), disc(17, 14, 1),
     ],

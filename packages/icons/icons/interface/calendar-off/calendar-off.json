@@ -9,6 +9,9 @@
     "unavailable",
     "blocked"
   ],
+  "aliases": [
+    "calendar-x"
+  ],
   "keywords": [
     "cancelled",
     "declined",

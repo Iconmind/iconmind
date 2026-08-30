@@ -9,6 +9,9 @@
     "snippet",
     "message"
   ],
+  "aliases": [
+    "message-square-code"
+  ],
   "keywords": [
     "code message",
     "code block in chat",

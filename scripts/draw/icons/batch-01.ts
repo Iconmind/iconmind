@@ -106,7 +106,7 @@ export const BATCH_01: Icon[] = [
     slug: "folder", category: "interface", subcategory: "file",
     name: "Folder", description: "A folder that keeps related files together — a directory in a workspace or a project tree",
     tags: ["directory", "files", "group"], family: "folder",
-    aliases: ["directory"], keywords: ["dir", "files"],
+    aliases: ["directory", "folder-closed"], keywords: ["dir", "files"],
     // The tab is at the top left and steps up, which is the half of the shape that says
     // "folder" — drawn on the right it reads as a page with a corner torn off, which is
     // what the first version of this was and what `document` already is.
@@ -259,7 +259,7 @@ export const BATCH_01: Icon[] = [
     slug: "user", category: "interface", subcategory: "identity",
     name: "User", description: "A user — a person and the account, profile and permissions that belong to them",
     tags: ["person", "profile", "account"], family: "figure",
-    aliases: ["person"], keywords: ["profile", "account", "avatar", "human"],
+    aliases: ["person", "user-round", "circle-user-round"], keywords: ["profile", "account", "avatar", "human"],
     // The shoulders are an arc, so the figure is open at the sides by construction. A head
     // with a gap cut in it reads as damage rather than as language.
     shapes: [disc(12, 8, 3), body(arc(12, 21, 7, 180, 360))],

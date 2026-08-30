@@ -220,21 +220,21 @@ export const BATCH_70: Icon[] = [
     slug: "chat-heart", category: "interface", subcategory: "communication",
     name: "Chat heart", description: "A speech bubble with a heart inside — a reaction on a message",
     tags: ["heart", "reaction", "like"], family: "bubble",
-    aliases: [], keywords: ["message reaction", "heart reaction", "like a message"],
+    aliases: ["message-square-heart"], keywords: ["message reaction", "heart reaction", "like a message"],
     shapes: [rect(3, 3, 18, 14, 2), poly([[7, 17], [7, 20], [10, 17]]), raw("M8 9A2 2 0 0 1 12 9A2 2 0 0 1 16 9L12 13Z", "a heart is one line, not three strokes with visible seams", true)],
   },
   {
     slug: "chat-forward", category: "interface", subcategory: "communication",
     name: "Chat forward", description: "A speech bubble with an arrow pointing onward — forward a message to someone else",
     tags: ["forward", "share", "message"], family: "bubble",
-    aliases: [], keywords: ["forward message", "share message", "send onward"],
+    aliases: ["message-square-share"], keywords: ["forward message", "share message", "send onward"],
     shapes: [rect(3, 3, 18, 14, 2), poly([[7, 17], [7, 20], [10, 17]]), row(10, 7, 15.5), poly([[13, 7.5], [15.5, 10], [13, 12.5]])],
   },
   {
     slug: "chat-reply", category: "interface", subcategory: "communication",
     name: "Chat reply", description: "A speech bubble with an arrow pointing back — reply to a message",
     tags: ["reply", "respond", "message"], family: "bubble",
-    aliases: [], keywords: ["reply to message", "respond", "message reply"],
+    aliases: ["message-square-reply"], keywords: ["reply to message", "respond", "message reply"],
     shapes: [rect(3, 3, 18, 14, 2), poly([[7, 17], [7, 20], [10, 17]]), row(10, 8.5, 17), poly([[11, 7.5], [8.5, 10], [11, 12.5]])],
   },
   {
@@ -248,7 +248,7 @@ export const BATCH_70: Icon[] = [
     slug: "chat-code", category: "interface", subcategory: "communication",
     name: "Chat code", description: "A speech bubble holding angle brackets — a code block sent in a conversation",
     tags: ["code", "snippet", "message"], family: "bubble",
-    aliases: [], keywords: ["code message", "code block in chat", "share snippet"],
+    aliases: ["message-square-code"], keywords: ["code message", "code block in chat", "share snippet"],
     shapes: [rect(3, 3, 18, 14, 2), poly([[7, 17], [7, 20], [10, 17]]), poly([[9.5, 7], [7, 9.5], [9.5, 12]]), poly([[14.5, 7], [17, 9.5], [14.5, 12]])],
   },
   {

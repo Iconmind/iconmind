@@ -10,7 +10,9 @@
     "account"
   ],
   "aliases": [
-    "person"
+    "person",
+    "user-round",
+    "circle-user-round"
   ],
   "keywords": [
     "profile",

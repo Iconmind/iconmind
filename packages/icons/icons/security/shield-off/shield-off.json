@@ -9,6 +9,9 @@
     "disabled",
     "exposed"
   ],
+  "aliases": [
+    "shield-x"
+  ],
   "keywords": [
     "unprotected",
     "disabled",

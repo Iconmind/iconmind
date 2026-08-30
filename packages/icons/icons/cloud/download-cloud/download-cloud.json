@@ -9,6 +9,9 @@
     "sync",
     "restore"
   ],
+  "aliases": [
+    "cloud-download"
+  ],
   "keywords": [
     "sync down",
     "restore",

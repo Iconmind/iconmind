@@ -208,7 +208,7 @@ export const BATCH_71: Icon[] = [
     slug: "chat-lock", category: "interface", subcategory: "communication",
     name: "Chat lock", description: "A speech bubble with a padlock inside — an end-to-end encrypted conversation",
     tags: ["encrypted", "private", "lock"], family: "bubble",
-    aliases: [], keywords: ["encrypted chat", "private conversation", "secure messaging"],
+    aliases: ["message-square-lock"], keywords: ["encrypted chat", "private conversation", "secure messaging"],
     shapes: [rect(3, 3, 18, 15.5, 2), poly([[7, 18.5], [7, 21.5], [10, 18.5]]), rect(8, 9, 8, 6.5, 2), arc(12, 9, 2, 180, 360)],
   },
   {
@@ -229,14 +229,14 @@ export const BATCH_71: Icon[] = [
     slug: "chat-check", category: "interface", subcategory: "communication",
     name: "Chat check", description: "A speech bubble with a check inside — a message delivered, read or resolved",
     tags: ["delivered", "read", "resolved"], family: "bubble",
-    aliases: [], keywords: ["message delivered", "read receipt", "resolved conversation"],
+    aliases: ["message-square-check"], keywords: ["message delivered", "read receipt", "resolved conversation"],
     shapes: [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]]), poly([[8, 10], [11, 13], [16, 8]])],
   },
   {
     slug: "chat-cancel", category: "interface", subcategory: "communication",
     name: "Chat cancel", description: "A speech bubble with an X inside — a message unsent or a conversation closed",
     tags: ["cancel", "unsend", "close"], family: "bubble",
-    aliases: [], keywords: ["unsend message", "cancel message", "close conversation"],
+    aliases: ["message-square-x"], keywords: ["unsend message", "cancel message", "close conversation"],
     shapes: [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]]), poly([[9.5, 8], [14.5, 13]]), poly([[14.5, 8], [9.5, 13]])],
   },
   {
@@ -257,7 +257,7 @@ export const BATCH_71: Icon[] = [
     slug: "diff-file", category: "devtools", subcategory: "version-control",
     name: "Diff file", description: "A page marked with a plus and a minus — a diff or patch file",
     tags: ["diff", "patch", "file"], family: "page",
-    aliases: [], keywords: ["diff file", "patch file", "unified diff"],
+    aliases: ["file-diff"], keywords: ["diff file", "patch file", "unified diff"],
     shapes: [page(), row(9, 9, 15), col(12, 6.5, 11.5), row(16, 9, 15)],
   },
   {

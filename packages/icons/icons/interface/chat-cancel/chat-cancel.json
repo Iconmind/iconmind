@@ -9,6 +9,9 @@
     "unsend",
     "close"
   ],
+  "aliases": [
+    "message-square-x"
+  ],
   "keywords": [
     "unsend message",
     "cancel message",

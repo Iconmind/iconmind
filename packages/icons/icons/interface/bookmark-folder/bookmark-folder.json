@@ -9,6 +9,9 @@
     "folder",
     "flag"
   ],
+  "aliases": [
+    "folder-bookmark"
+  ],
   "keywords": [
     "bookmark folder",
     "saved items"

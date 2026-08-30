@@ -9,6 +9,9 @@
     "banned",
     "removed"
   ],
+  "aliases": [
+    "user-x"
+  ],
   "keywords": [
     "deactivate",
     "banned",

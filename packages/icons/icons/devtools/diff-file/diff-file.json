@@ -9,6 +9,9 @@
     "patch",
     "file"
   ],
+  "aliases": [
+    "file-diff"
+  ],
   "keywords": [
     "diff file",
     "patch file",

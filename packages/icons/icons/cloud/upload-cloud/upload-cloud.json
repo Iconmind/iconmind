@@ -9,6 +9,9 @@
     "sync",
     "backup"
   ],
+  "aliases": [
+    "cloud-upload"
+  ],
   "keywords": [
     "sync up",
     "backup",
