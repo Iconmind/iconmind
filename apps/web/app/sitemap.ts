@@ -33,6 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/icons/`, priority: 0.9, lastModified: latestReleaseDate },
     { url: `${BASE}/categories/`, priority: 0.8, lastModified: latestReleaseDate },
     ...source.getPages().map((p) => ({ url: `${BASE}${p.url}/`, priority: 0.8 })),
+    { url: `${BASE}/not-here/`, priority: 0.7, lastModified: latestReleaseDate },
     { url: `${BASE}/contribute/`, priority: 0.6 },
     { url: `${BASE}/changelog/`, priority: 0.5 },
     { url: `${BASE}/tags/`, priority: 0.8, lastModified: latestReleaseDate },

@@ -8,7 +8,7 @@
 <h1 align="center">IconMind</h1>
 
 <p align="center">
-  Open-source icons for AI-era software —<br>
+  Open-source icons for AI-era software.<br>
   LLMs, agents, MCP, RAG, and everything around them.
 </p>
 
@@ -42,20 +42,24 @@ import { Agent, ContextWindow, VectorDatabase } from "@iconmind/react";
 
 Every icon is a declaration compiled into six cells by a validator that refuses geometry
 it cannot draw correctly, and a nightly job rasterises all 13,722 of them and fails if any
-two icons render the same. That is how a set this size still reads as one hand — and why
+two icons render the same. That is how a set this size still reads as one hand, and why
 an assistant can be handed [an MCP server](https://iconmind.dev/docs/mcp/) that returns
 real names instead of `<AgentBrain />`.
+
+Six icons were redrawn last week because that scan caught them, and Bluetooth was dropped
+because its rune needs three stroke crossings where the set allows two.
+[Everything else that was turned away](https://iconmind.dev/not-here/) is written down too.
 
 ## Why this exists
 
 Build a UI for an agent, a RAG pipeline, or an MCP server and you run out of icons
 almost immediately. There is no `context-window`, no `reranker`, no `tool-calling`, no
-`mcp-resource` in any mainstream set — so interfaces reach for a generic robot, a generic
+`mcp-resource` in any mainstream set, so interfaces reach for a generic robot, a generic
 database, a generic lightning bolt, and the meaning is lost.
 
 Lucide, Heroicons and Phosphor are excellent, and a thousand domain-specific AI icons
 would be scope creep for any of them. **IconMind sits next to them, not instead of
-them** — the 24px grid and 2px regular stroke match Lucide on purpose, so the two can
+them.** The 24px grid and 2px regular stroke match Lucide on purpose, so the two can
 share an interface without clashing.
 
 | | IconMind | Generalist sets |
@@ -68,14 +72,14 @@ share an interface without clashing.
 
 ## The set
 
-**2,287 icons · 12 domains · 6 cells each.** Two variants — outline and duotone — each
+**2,287 icons · 12 domains · 6 cells each.** Two variants, outline and duotone, each
 drawn at three weights (1.5 / 2 / 2.5). A weight is a real drawing constraint, not a
 `stroke-width` slider: gap and legibility rules tighten as the stroke grows, and the
 validator checks every cell separately.
 
 Duotone is **derived, never drawn**: every closed body tints at 20% behind the strokes,
-and icons made only of open marks (a check, an arrow) get a halo — the same paths echoed
-wider behind them — so the whole set answers the variant switch, not just the lucky icons.
+and icons made only of open marks (a check, an arrow) get a halo, the same paths echoed
+wider behind them, so the whole set answers the variant switch, not just the lucky icons.
 
 <p align="center">
   <picture>
@@ -86,10 +90,10 @@ wider behind them — so the whole set answers the variant switch, not just the 
 
 | | | |
 |---|---|---|
-| **AI & LLM** — models, prompts, tokens, embeddings, evaluation, safety | **Agents** — planning, memory, tool use, computer use, multi-agent | **MCP** — servers, clients, resources, tools, transports |
-| **RAG & Search** — chunking, retrieval, ranking, vectors, grounding | **Data Engineering** — pipelines, warehouses, streaming, quality | **DevOps** — CI/CD, containers, observability, incidents |
-| **Cloud** — compute, storage, network, edge, cost | **Security** — auth, secrets, policy, AI security | **Automation** — workflows, triggers, conditions, human-in-the-loop |
-| **Analytics** — charts, metrics, experiments, LLM observability | **Developer Tools** — code, terminal, VCS, API, testing | **Interface** — arrows, actions, states, layout, media |
+| **AI & LLM**: models, prompts, tokens, embeddings, evaluation, safety | **Agents**: planning, memory, tool use, computer use, multi-agent | **MCP**: servers, clients, resources, tools, transports |
+| **RAG & Search**: chunking, retrieval, ranking, vectors, grounding | **Data Engineering**: pipelines, warehouses, streaming, quality | **DevOps**: CI/CD, containers, observability, incidents |
+| **Cloud**: compute, storage, network, edge, cost | **Security**: auth, secrets, policy, AI security | **Automation**: workflows, triggers, conditions, human-in-the-loop |
+| **Analytics**: charts, metrics, experiments, LLM observability | **Developer Tools**: code, terminal, VCS, API, testing | **Interface**: arrows, actions, states, layout, media |
 
 ## Install
 
@@ -116,7 +120,7 @@ from one source so they cannot drift:
 | `size` | `24` | Width and height |
 | `color` | `currentColor` | Stroke colour |
 | `variant` | `"outline"` | `"outline"` or `"duotone"` |
-| `weight` | `"regular"` | `"thin"`, `"regular"` or `"bold"` — each its own drawing |
+| `weight` | `"regular"` | `"thin"`, `"regular"` or `"bold"`, each its own drawing |
 | `strokeWidth` | per weight | Fine adjustment; picking a weight redraws instead |
 | `absoluteStrokeWidth` | `false` | Keeps stroke thickness constant as size changes |
 
@@ -148,14 +152,14 @@ import { VectorDatabase } from "@iconmind/astro";
 
 ### Tree shaking, measured
 
-Importing three icons costs ~660 bytes gzipped, not the whole library — and that is a
-test that fails in CI if it stops being true, not a promise. Every icon is also its own
+Importing three icons costs ~660 bytes gzipped, not the whole library, and that is a
+test that fails in CI if it stops being true rather than a promise. Every icon is also its own
 entry point (`@iconmind/react/icons/agent`). In Flutter, icons are compile-time
 constants: the AOT compiler drops every one you never mention.
 
 ## Download
 
-Every icon page has a **Download** menu — SVG, PNG at 16 to 512 px, WebP, a favicon `.ico`, JPEG and *Copy PNG* — rendered in your browser from the exact variant, weight and colour on screen. The whole set ships as two archives on every [GitHub Release](https://github.com/Iconmind/iconmind/releases): `iconmind-svg.zip` (all 13,722 cells) and `iconmind-png.zip` (one 512 px PNG per icon). It is also an [Iconify](https://icones.js.org) collection (`iconmind:agent`) and one jsDelivr URL away with no install.
+Every icon page has a **Download** menu with SVG, PNG at 16 to 512 px, WebP, a favicon `.ico`, JPEG and *Copy PNG*, rendered in your browser from the exact variant, weight and colour on screen. The whole set ships as two archives on every [GitHub Release](https://github.com/Iconmind/iconmind/releases): `iconmind-svg.zip` (all 13,722 cells) and `iconmind-png.zip` (one 512 px PNG per icon). It is also an [Iconify](https://icones.js.org) collection (`iconmind:agent`) and one jsDelivr URL away with no install.
 
 ## For AI assistants
 
@@ -174,8 +178,8 @@ inventory, so assistants without tool access can still pick real names.
 
 `@iconmind/icons` ships every cell as a file on disk
 (`icons/<category>/<slug>/<variant>-<weight>.svg`), a `sprite.svg` of `<symbol>`
-elements, and the metadata database on its own subpath — importing it is a decision,
-never an accident:
+elements, and the metadata database on its own subpath, so importing it is a decision
+rather than an accident:
 
 ```html
 <svg width="24" height="24"><use href="sprite.svg#im-agent" /></svg>
@@ -189,7 +193,7 @@ import { version } from "@iconmind/icons";                    // a few hundred b
 ## Design system
 
 Icons here are **written, not drawn**: each one is a TypeScript declaration compiled
-into its six cells, and every rule a machine can hold is held by a machine — an illegal
+into its six cells, and every rule a machine can hold is held by a machine. An illegal
 drawing cannot reach a file, because the shape constructors throw before it does:
 
 ```
@@ -203,7 +207,7 @@ inside it, so siblings are byte-identical where they agree.
 
 | Body | Meaning | Example |
 |---|---|---|
-| Open ring | An agent — acts on its own | `agent`, `agent-check` |
+| Open ring | An agent, acting on its own | `agent`, `agent-check` |
 | Chamfered box | A machine; the chamfer is MCP's mark | `model`, `mcp-server` |
 | Two-pronged plug | A capability an agent can pick up | `tool-calling`, `mcp-tool` |
 | Page with a fold | A document | `mcp-resource`, `policy` |
@@ -212,18 +216,29 @@ inside it, so siblings are byte-identical where they agree.
 | Cylinder | Stored data | `database`, `backup` |
 
 So you can usually guess the next icon in a family before you see it. The full
-reasoning — with the measurements behind each rule — is in the
+reasoning, with the measurements behind each rule, is in the
 [design guidelines](https://iconmind.dev/docs/design-guidelines/).
 
 ### Measured, not just validated
 
-Beyond the validator, two audit tools keep the set honest at scale — both grew out of
-real audits that redrew over sixty icons:
+Beyond the validator, three tools keep the set honest at scale. All three grew out of
+real audits that redrew more than sixty icons:
 
 ```bash
 pnpm icons:audit                  # size, ink density and centred-ness outliers, with named exceptions
 pnpm icons:twins                  # renders all 2,287 icons and pixel-compares every pair for lookalikes
 pnpm icons:duplicates --perceptual # the nightly scan: 13,722 cells, fails on two that render alike
+```
+
+## Don't take my word for it
+
+Every claim on this page is a command you can run after cloning:
+
+```bash
+pnpm icons:validate                # every rule, all 13,722 cells
+pnpm icons:twins                   # pixel-compare every pair at 24px
+pnpm icons:duplicates --perceptual # the nightly scan for lookalikes
+pnpm test                          # including the bundle-size tripwires
 ```
 
 ## Versioning & releases
@@ -239,16 +254,17 @@ see on npm is never ahead of or behind the repo.
 tree-shake well, and some bundlers would silently choose it. ESM only.
 
 **Why only 0/45/90° angles?** It is the constraint that makes 2,287 icons read as one
-hand. Some pictures are refused rather than drawn badly — a warning triangle at 45° is
-a tent, so `warning` is a circle.
+hand. Some pictures are refused rather than drawn badly: a warning triangle at 45° is
+a tent, so `warning` is a circle. The rest of the refusals are
+[listed here](https://iconmind.dev/not-here/).
 
-**Can I request an icon?** Yes — it takes a minute and is the most useful contribution
+**Can I request an icon?** Yes, and it takes a minute and is the most useful contribution
 there is: [request an icon](https://github.com/iconmind/iconmind/issues/new?template=icon-request.yml).
 
 **Brand icons?** No. Concepts age better than logos, and logos carry trademark weight
 this set does not want.
 
-**Is there a Figma library?** No, and none is planned — it would be a second source of
+**Is there a Figma library?** No, and none is planned. It would be a second source of
 truth beside the compiler. The set is an [Iconify](https://icones.js.org) collection
 (`iconmind:agent`), which Iconify's own Figma plugin reads, and every icon page copies
 or downloads its SVG.
@@ -259,7 +275,7 @@ trade-offs written out.
 
 ## Contributing
 
-Icons are TypeScript declarations in `scripts/draw/icons/` — the compiler and validator
+Icons are TypeScript declarations in `scripts/draw/icons/`. The compiler and validator
 give you feedback in seconds, and a contact sheet renders any subset at 88/24/16px:
 
 ```bash
@@ -273,7 +289,7 @@ See the [contributing guide](CONTRIBUTING.md) for naming rules, originality poli
 the pull-request checklist.
 
 Ten icons are [described down to their body and mark slot](https://github.com/Iconmind/iconmind/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+icon%22)
-if you want one to start from — the drawing is the fun part, the rules are the tools' job.
+if you want one to start from. The drawing is the fun part; the rules are the tools' job.
 
 ## Support the project
 
@@ -282,5 +298,5 @@ people building AI interfaces find it.
 
 ## License
 
-[MIT](LICENSE) — code and icons alike. Free for commercial use, no attribution
+[MIT](LICENSE), code and icons alike. Free for commercial use, no attribution
 required, no conditions. Forever.

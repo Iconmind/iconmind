@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description:
     `${iconCount} free SVG icons for LLMs, agents, MCP, RAG, data, devops and interfaces. ` +
     "Outline and duotone, in three weights. Packages for React, Vue, Svelte, Solid, " +
-    "Preact, React Native, Astro, Flutter and Laravel — plus plain SVG, a sprite and an " +
+    "Preact, React Native, Astro, Flutter and Laravel, plus plain SVG, a sprite and an " +
     "MCP server. MIT licensed.",
   alternates: { canonical: "/" },
   openGraph: {
@@ -154,8 +154,8 @@ export default function Home() {
             </h1>
 
             <p className="mt-7 max-w-[470px] text-lead text-ink-2 text-pretty">
-              Open-source icons for AI-era software — LLMs, agents, MCP, RAG and everything
-              around them. Two variants across three weights — six drawings per icon — generated from one grid by a
+              Open-source icons for AI-era software. LLMs, agents, MCP, RAG and everything
+              around them. Two variants across three weights, six drawings per icon, generated from one grid by a
               compiler that refuses a shape it cannot draw correctly.
             </p>
 
@@ -192,7 +192,7 @@ export default function Home() {
       {/* ── Install ────────────────────────────────────────────────────────── */}
       <Section
         title="Four ways in"
-        note="Pick one — they are the same drawings."
+        note="Pick one. They are the same drawings."
         className="pt-4"
       >
         <InstallTabs />
@@ -204,7 +204,7 @@ export default function Home() {
           Ten packages, one generated source of truth: the same icon names, the same
           <span className="font-mono"> size</span>, <span className="font-mono">color</span>,{" "}
           <span className="font-mono">variant</span> and <span className="font-mono">weight</span>{" "}
-          props in every framework — learn the API once and carry it everywhere.
+          props in every framework, so you learn the API once and carry it everywhere.
         </p>
         <ul className="mt-6 grid gap-px overflow-hidden rounded-2xl border border-line bg-line-2 sm:grid-cols-2 lg:grid-cols-5">
           {[
@@ -250,7 +250,7 @@ export default function Home() {
             icon={<><circle cx="12" cy="12" r="8.5" /><path d="M6 18 18 6" /></>}
           >
             An anchor off the grid, a segment at 127°, a run too short to survive the bold
-            weight, two strokes that would merge — the compiler stops before the file exists.
+            weight, two strokes that would merge: the compiler stops before the file exists.
           </Feature>
           <Feature
             title="Every cell is the same drawing"
@@ -302,7 +302,7 @@ export default function Home() {
               ))}
             </div>
             <p className="border-t border-line-2 px-5 py-3.5 text-meta leading-[1.55] text-muted">
-              Six files, one source. The weights are separate drawings — the thin cell is not
+              Six files, one source. The weights are separate drawings; the thin cell is not
               the regular one with a smaller <span className="font-mono">stroke-width</span>,
               which is why the counters stay open at 16px and the bold one does not fill in.
             </p>
@@ -361,7 +361,7 @@ export default function Home() {
           <div className="relative">
             <h2 className="text-h1 font-semibold">Free, and it stays free.</h2>
             <p className="mx-auto mt-3 max-w-[52ch] text-lead text-ink-2">
-              MIT licensed — commercial use, no attribution, no seat count, and no later
+              MIT licensed: commercial use, no attribution, no seat count, and no later
               version that takes it away.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-2.5">

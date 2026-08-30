@@ -115,6 +115,7 @@ const FOOTER: { heading: string; links: { href: string; label: string; external?
     heading: "Project",
     links: [
       { href: "/changelog/", label: "Changelog" },
+      { href: "/not-here/", label: "What's not here" },
       { href: "/contribute/", label: "Contribute" },
       { href: "/docs/design-guidelines/", label: "Design guidelines" },
     ],
