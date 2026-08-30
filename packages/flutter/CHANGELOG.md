@@ -1,3 +1,10 @@
+## 0.4.0
+
+One thousand new icons — the set grows from 1,041 to 2,041 (12,246 drawings): the generative
+stack, agents at their desks, the furniture of a screen, keys, pins, flags and targets with the
+mark that qualifies them. Every icon description is now a full sentence written for search.
+Unused icons are still tree-shaken out of release builds.
+
 ## 0.3.3
 
 Adds the example app: a small gallery with live variant, weight and size
