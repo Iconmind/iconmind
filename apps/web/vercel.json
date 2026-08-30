@@ -48,6 +48,33 @@
           "value": "image/png"
         }
       ]
+    },
+    {
+      "source": "/icons/:slug/opengraph-image/",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "image/png"
+        }
+      ]
+    },
+    {
+      "source": "/tags/:tag/opengraph-image/",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "image/png"
+        }
+      ]
+    },
+    {
+      "source": "/categories/:category/:group/opengraph-image/",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "image/png"
+        }
+      ]
     }
   ]
 }
