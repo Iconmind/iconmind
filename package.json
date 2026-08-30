@@ -16,7 +16,7 @@
     "icons:optimize": "tsx scripts/optimize/run.ts",
     "icons:duplicates": "tsx scripts/validate/duplicates.ts",
     "icons:scale": "tsx scripts/review/scale.mts",
-    "icons:generate": "tsx scripts/generate/metadata.ts && tsx scripts/generate/components.ts && tsx scripts/generate/sprite.ts && tsx scripts/generate/search-index.ts && tsx scripts/generate/cell-bundles.ts",
+    "icons:generate": "tsx scripts/generate/metadata.ts && tsx scripts/generate/components.ts && tsx scripts/generate/sprite.ts && tsx scripts/generate/search-index.ts && tsx scripts/generate/cell-bundles.ts && tsx scripts/generate/previews-png.ts && tsx scripts/generate/iconify.ts",
     "icons:new": "tsx scripts/generate/new-icon.ts",
     "changeset": "changeset",
     "release": "turbo build --concurrency=3 && changeset publish",
@@ -30,7 +30,8 @@
     "icons:build": "tsx scripts/draw/run.ts",
     "icons:generate:components": "tsx scripts/generate/components.ts",
     "icons:audit": "tsx scripts/review/audit.mts",
-    "icons:twins": "tsx scripts/review/twins.mts"
+    "icons:twins": "tsx scripts/review/twins.mts",
+    "icons:zips": "node scripts/generate/zips.mjs"
   },
   "devDependencies": {
     "@changesets/cli": "^2.29.7",
@@ -38,6 +39,7 @@
     "@size-limit/preset-small-lib": "^13.0.3",
     "@types/node": "^24.10.1",
     "@types/pngjs": "^6.0.5",
+    "fflate": "^0.8.3",
     "pixelmatch": "^7.2.0",
     "pngjs": "^7.0.0",
     "size-limit": "^13.0.3",

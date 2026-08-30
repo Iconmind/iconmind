@@ -58,3 +58,34 @@ The bare entry point costs a few hundred bytes and tells you only what is here:
 ```js
 import { version, counts } from "@iconmind/icons";
 ```
+
+## Download the whole set
+
+Two archives, rebuilt with every release:
+
+- [iconmind-svg.zip](/download/iconmind-svg.zip) — every icon, all six cells (`outline` and `duotone` × `thin`, `regular`, `bold`), one folder per icon.
+- [iconmind-png.zip](/download/iconmind-png.zip) — one 512 px transparent PNG per icon, outline regular in black.
+
+Both carry the MIT licence file. For a single icon in another size, colour or format — PNG at 16 to 512 px, WebP, a favicon `.ico`, JPEG — use the **Download** menu on the icon's own page: it renders from the exact variant and weight you have on screen.
+
+## From a CDN, no install
+
+The npm package is mirrored by jsDelivr, so the sprite and any single cell are one URL away:
+
+```html
+<svg width="24" height="24">
+  <use href="https://cdn.jsdelivr.net/npm/@iconmind/icons/dist/sprite.svg#im-agent" />
+</svg>
+<img src="https://cdn.jsdelivr.net/npm/@iconmind/icons/icons/agents/agent/duotone-bold.svg" width="24" height="24" alt="Agent">
+```
+
+Pin a version (`@iconmind/icons@0.5.0`) in anything that ships; the unpinned URL follows the latest release.
+
+## Iconify
+
+The set is published as an Iconify collection too — `@iconmind/icons/iconify.json`, prefix `iconmind`, with a `-duotone` twin for every icon and every alias the set knows — so it works wherever Iconify does: the Figma plugin, VS Code, `unplugin-icons`, the Tailwind, Nuxt and Astro icon modules, and [icones.js.org](https://icones.js.org).
+
+```html
+<span class="iconify" data-icon="iconmind:agent"></span>
+<span class="iconify" data-icon="iconmind:vector-database-duotone"></span>
+```

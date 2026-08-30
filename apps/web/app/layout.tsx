@@ -88,6 +88,8 @@ const FOOTER: { heading: string; links: { href: string; label: string; external?
       { href: "/icons/", label: "All icons" },
       { href: "/categories/", label: "Categories" },
       { href: "/tags/", label: "Tags" },
+      { href: "/collections/", label: "Collections" },
+      { href: "/compare/", label: "Compare" },
       { href: "/search/", label: "Search" },
     ],
   },

@@ -39,3 +39,19 @@ export function readCells(category: string, slug: string): Cell[] {
     }
   return out;
 }
+
+/**
+ * The elements of a cell, as tag and attributes — what an Open Graph card needs to
+ * redraw the icon with satori. A cell is the forge's own output: flat, one element per
+ * line, double-quoted attributes, no nesting — so a regex is the whole parser, and the
+ * site does not have to compile `@iconmind/shared` to draw a card.
+ */
+export function svgElements(svg: string): { tag: string; attrs: Record<string, string> }[] {
+  const out: { tag: string; attrs: Record<string, string> }[] = [];
+  for (const m of svg.matchAll(/<(path|circle|rect|line|polyline|polygon|ellipse)\b([^>]*?)\/?>/g)) {
+    const attrs: Record<string, string> = {};
+    for (const a of m[2]!.matchAll(/([a-zA-Z-]+)="([^"]*)"/g)) attrs[a[1]!] = a[2]!;
+    out.push({ tag: m[1]!, attrs });
+  }
+  return out;
+}

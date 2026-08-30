@@ -118,5 +118,8 @@ jobs:
           git push origin --tags --force
           gh release create "v$VERSION" --title "v$VERSION" --generate-notes || \
             echo "release v$VERSION already exists"
+          # The whole set as two archives on every release — what "icon pack download" wants.
+          pnpm icons:generate && pnpm icons:zips
+          gh release upload "v$VERSION" apps/web/out/download/iconmind-svg.zip apps/web/out/download/iconmind-png.zip --clobber
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -3,7 +3,7 @@
 import type { CSSProperties } from "react";
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
-import { downloadSvg } from "@/lib/download";
+import { DownloadMenu } from "@/components/download-menu";
 import { CustomizePanel, inkOf, weightOf } from "@/components/customize-panel";
 import { IconInAction, type Neighbour } from "@/components/icon-in-action";
 import { useLook } from "@/components/icons-shell";
@@ -186,19 +186,7 @@ export function IconStudio({
             <Button variant="outline" onClick={copy(slug, "Name")}>
               Copy name
             </Button>
-            <Button
-              variant="outline"
-              onClick={() => downloadSvg(svg, `${slug}-${look.variant}-${weight}.svg`, hex)}
-            >
-              {/* Direct children of the button, like the copy buttons — wrapped in a span the
-                  icon fell out of the flex row and the label dropped under it. */}
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8"
-                strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                <path d="M12 3.5v11.6M7.4 10.6l4.6 4.6 4.6-4.6" />
-                <path d="M4 17.5v2.4a.6.6 0 0 0 .6.6h14.8a.6.6 0 0 0 .6-.6v-2.4" />
-              </svg>
-              Download
-            </Button>
+            <DownloadMenu svg={svg} base={`${slug}-${look.variant}-${weight}`} hex={hex} />
 
             <div className="ml-auto flex items-center gap-1.5">
               {tab === "code" && <FrameworkMenu value={framework} onChange={pickFramework} />}

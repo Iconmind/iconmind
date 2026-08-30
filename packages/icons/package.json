@@ -21,7 +21,8 @@
     "./metadata.json": "./dist/metadata.json",
     "./sprite.svg": "./dist/sprite.svg",
     "./icons/*": "./icons/*",
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./iconify.json": "./dist/iconify.json"
   },
   "files": [
     "dist",

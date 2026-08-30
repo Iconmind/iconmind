@@ -139,6 +139,10 @@ test that fails in CI if it stops being true, not a promise. Every icon is also 
 entry point (`@iconmind/react/icons/agent`). In Flutter, icons are compile-time
 constants: the AOT compiler drops every one you never mention.
 
+## Download
+
+Every icon page has a **Download** menu — SVG, PNG at 16 to 512 px, WebP, a favicon `.ico`, JPEG and *Copy PNG* — rendered in your browser from the exact variant, weight and colour on screen. The whole set ships as two archives on every [GitHub Release](https://github.com/Iconmind/iconmind/releases): `iconmind-svg.zip` (all 13,626 cells) and `iconmind-png.zip` (one 512 px PNG per icon). It is also an [Iconify](https://icones.js.org) collection (`iconmind:agent`) and one jsDelivr URL away with no install.
+
 ## For AI assistants
 
 There is an MCP server, so an assistant writing your UI can search the real set instead

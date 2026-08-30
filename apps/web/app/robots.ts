@@ -40,7 +40,7 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: "*", allow: "/", disallow: "/search/" },
       ...AI_CRAWLERS.map((userAgent) => ({ userAgent, allow: "/" })),
     ],
-    sitemap: `${SITE_URL}/sitemap.xml`,
+    sitemap: [`${SITE_URL}/sitemap.xml`, `${SITE_URL}/sitemap-images.xml`],
     host: SITE_URL,
   };
 }

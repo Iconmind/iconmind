@@ -135,7 +135,18 @@ export default async function IconPage({ params }: { params: Promise<{ slug: str
       </Breadcrumb>
 
       <header className="mt-4 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
-        <div className="max-w-[62ch]">
+        <div className="flex max-w-[62ch] gap-5">
+          {/* The icon as an image, not only as inline SVG: an `<img>` with a real URL is
+              what Google Images indexes and what a reader sees before the studio hydrates.
+              Its source is the build-time PNG the image sitemap lists. */}
+          <img
+            src={`/p/${icon.slug}.png`}
+            alt={`${icon.name} icon — ${icon.description}`}
+            width={72}
+            height={72}
+            className="hidden size-[72px] shrink-0 rounded-xl border border-line bg-panel p-3 sm:block dark:invert"
+          />
+          <div>
           <h1 className="text-h1 font-semibold">{icon.name}</h1>
           <p className="mt-2 text-lead text-ink-2">{icon.description}</p>
           {/* Every tag is a link. A tag on three or more icons has a page of its own; one
@@ -165,6 +176,7 @@ export default async function IconPage({ params }: { params: Promise<{ slug: str
               .
             </p>
           )}
+          </div>
         </div>
         <dl className="flex shrink-0 gap-6 sm:gap-8">
           <Fact k="Category" v={categoryName} href={`/categories/${icon.category}/`} />

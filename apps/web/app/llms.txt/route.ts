@@ -46,6 +46,7 @@ ${docs.map((p) => `- [${p.data.title}](${SITE_URL}${p.url}/): ${p.data.descripti
 
 - [All icons](${SITE_URL}/icons/): the full set, searchable.
 - [Categories](${SITE_URL}/categories/): ${allCategories.length} domains, ${allGroups.length} groups — a group is one page, e.g. ${SITE_URL}/categories/${allGroups[0]?.category}/${allGroups[0]?.slug}/.
+- [Collections](${SITE_URL}/collections/): icons picked per screen — chat UI, agent dashboard, RAG pipeline, MCP server, LLM observability.
 - [Tags](${SITE_URL}/tags/): ${allTags.length} tags with ${TAG_PAGE_MIN} or more icons, one page each at /tags/{tag}/.
 ${allCategories.map((c) => `- [${c.name}](${SITE_URL}/categories/${c.slug}/): ${c.count} icons across ${c.subcategories.length} groups — ${c.subcategories.map((s) => s.slug).join(", ")}.`).join("\n")}
 

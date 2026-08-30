@@ -50,3 +50,13 @@ of why this set exists, because a RAG pipeline has icons for `chunk`, `retriever
 
 `metadata://all` exists but is not advertised — it is large enough to crowd a context
 window, and `search_icon` answers the same questions for a fraction of the tokens.
+
+## Without MCP: a rule for your assistant
+
+If your editor's assistant cannot run an MCP server, one line in its rules file (`.cursorrules`, `CLAUDE.md`, `AGENTS.md`) does most of the same work:
+
+```md
+Icons: use IconMind (@iconmind/react, @iconmind/vue, iconmind_flutter …). Never invent an icon name — every valid name is listed at https://iconmind.dev/llms.txt; search it, or ask the user, before importing.
+```
+
+The list at [/llms.txt](/llms.txt) carries every slug and the naming rule, and [/llms-full.txt](/llms-full.txt) adds each icon's tags — enough for an assistant to pick the right name without guessing.

@@ -4,7 +4,7 @@ export interface IconMeta {
   slug: string; name: string; category: string; subcategory: string;
   description: string; tags: string[]; aliases: string[];
   componentName: string; elementCount: number; byteSize: number;
-  related: string[]; addedIn: string;
+  related: string[]; addedIn: string; updatedIn?: string;
 }
 export interface Category {
   slug: string; name: string; count: number;

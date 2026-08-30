@@ -3,8 +3,11 @@ import type { MetadataRoute } from "next";
 export const dynamic = "force-static";
 import { allCategories, allIcons } from "@/lib/icons";
 import { allGroups, allTags } from "@/lib/index-pages";
+import { COLLECTIONS } from "@/lib/collections";
+import { COMPARISONS } from "@/lib/compare";
 import { source } from "@/lib/source";
 import { SITE_URL } from "@/lib/site";
+import { latestReleaseDate, releaseDate } from "@/lib/releases";
 
 const BASE = SITE_URL;
 
@@ -26,16 +29,22 @@ const BASE = SITE_URL;
  */
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
-    { url: `${BASE}/`, priority: 1 },
-    { url: `${BASE}/icons/`, priority: 0.9 },
-    { url: `${BASE}/categories/`, priority: 0.8 },
+    { url: `${BASE}/`, priority: 1, lastModified: latestReleaseDate },
+    { url: `${BASE}/icons/`, priority: 0.9, lastModified: latestReleaseDate },
+    { url: `${BASE}/categories/`, priority: 0.8, lastModified: latestReleaseDate },
     ...source.getPages().map((p) => ({ url: `${BASE}${p.url}/`, priority: 0.8 })),
     { url: `${BASE}/contribute/`, priority: 0.6 },
     { url: `${BASE}/changelog/`, priority: 0.5 },
-    { url: `${BASE}/tags/`, priority: 0.8 },
-    ...allCategories.map((c) => ({ url: `${BASE}/categories/${c.slug}/`, priority: 0.7 })),
-    ...allGroups.map((g) => ({ url: `${BASE}/categories/${g.category}/${g.slug}/`, priority: 0.7 })),
-    ...allTags.map((t) => ({ url: `${BASE}/tags/${t.slug}/`, priority: 0.65 })),
-    ...allIcons.map((i) => ({ url: `${BASE}/icons/${i.slug}/`, priority: 0.6 })),
+    { url: `${BASE}/tags/`, priority: 0.8, lastModified: latestReleaseDate },
+    { url: `${BASE}/collections/`, priority: 0.8, lastModified: latestReleaseDate },
+    ...COLLECTIONS.map((c) => ({ url: `${BASE}/collections/${c.slug}/`, priority: 0.75, lastModified: latestReleaseDate })),
+    { url: `${BASE}/compare/`, priority: 0.7, lastModified: latestReleaseDate },
+    ...COMPARISONS.map((c) => ({ url: `${BASE}/compare/${c.slug}/`, priority: 0.7, lastModified: latestReleaseDate })),
+    ...allCategories.map((c) => ({ url: `${BASE}/categories/${c.slug}/`, priority: 0.7, lastModified: latestReleaseDate })),
+    ...allGroups.map((g) => ({ url: `${BASE}/categories/${g.category}/${g.slug}/`, priority: 0.7, lastModified: latestReleaseDate })),
+    ...allTags.map((t) => ({ url: `${BASE}/tags/${t.slug}/`, priority: 0.65, lastModified: latestReleaseDate })),
+    // An icon's lastmod is the release that last touched it — a date that only moves when
+    // the drawing did, which is the one kind of lastmod a crawler keeps trusting.
+    ...allIcons.map((i) => ({ url: `${BASE}/icons/${i.slug}/`, priority: 0.6, lastModified: releaseDate(i.updatedIn ?? i.addedIn) })),
   ];
 }
