@@ -12,7 +12,9 @@
       "@iconmind/solid",
       "@iconmind/preact",
       "@iconmind/react-native",
-      "@iconmind/astro"
+      "@iconmind/astro",
+      "@iconmind/figma-plugin",
+      "iconmind-vscode"
     ]
   ],
   "linked": [],
@@ -21,8 +23,10 @@
   "updateInternalDependencies": "minor",
   "ignore": [
     "web",
-    "@iconmind/shared",
-    "@iconmind/figma-plugin",
-    "iconmind-vscode"
-  ]
+    "@iconmind/shared"
+  ],
+  "privatePackages": {
+    "version": true,
+    "tag": false
+  }
 }

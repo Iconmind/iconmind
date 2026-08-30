@@ -4,10 +4,19 @@
   "api": "1.0.0",
   "main": "code.js",
   "ui": "ui.html",
-  "editorType": ["figma", "figjam"],
+  "editorType": [
+    "figma",
+    "figjam"
+  ],
   "documentAccess": "dynamic-page",
   "networkAccess": {
-    "allowedDomains": ["https://cdn.jsdelivr.net"],
-    "reasoning": "The icon set is loaded from the @iconmind/icons npm package on jsDelivr, so the plugin is always the current release without shipping 2 MB inside it."
+    "allowedDomains": [
+      "https://iconmind.dev"
+    ],
+    "reasoning": "The icons are read from iconmind.dev — the same files the site serves — so the plugin always shows the current release instead of a copy that goes stale.",
+    "devAllowedDomains": [
+      "http://localhost:3000",
+      "http://localhost:3001"
+    ]
   }
 }

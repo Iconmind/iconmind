@@ -115,3 +115,52 @@ pushed harder.
 What only you can do: connect Search Console and Vercel Analytics, publish on
 Packagist, open the Iconify and awesome-list PRs from your account, publish the Figma
 file, and press post on launch day.
+
+## Track F — expansion, and the gate on each step
+
+Written 2026-08-30, after 0.5.0. The order is deliberate: everything here is a *surface*
+before it is a *product*, because the set already outruns its audience — 2,271 icons and
+no users is a distribution problem, and building more product against it is the classic
+way to make that worse. Each step names what has to be true before it starts.
+
+**Versions move together.** The nine npm packages, the Figma plugin and the VS Code
+extension are one `fixed` group in changesets; Flutter's `pubspec.yaml` and Blade's tag
+are bumped by hand in the same release commit. A new package joins the group at the
+current version — never at 0.1.0 — so "which version of IconMind is this?" has one answer
+everywhere.
+
+### Now — Figma (no gate; designers pick icons before developers do)
+
+The plugin (`packages/figma-plugin`) does two things: insert one icon, or **build the
+library** — every icon as a component set with the six cells as variants, one page per
+category, descriptions and links attached. That is how the community file gets made, and
+remade after every release, from the same drawings the packages ship.
+
+Sequence: publish the community file → publish the plugin → link both from the docs and
+the README. The community file is the single highest-traffic surface an icon set has
+outside Google.
+
+### Next — the surfaces that complete the claim
+
+| Step | Gate | Why |
+|---|---|---|
+| **Web Components** (`@iconmind/wc`) | none — half a day | One `<im-icon name="agent">` for Angular, Rails, Laravel, HTMX, WordPress, plain HTML. Closes the largest gap with one package. |
+| **Angular** (`@iconmind/angular`) | after web components | The only major framework without a package; its own directories and awesome-list. |
+| **VS Code extension** published | after the Figma file | Built already; publishing needs a Marketplace publisher. |
+| **Compose (Android)** and **SwiftUI (iOS)** | a request, or mobile traffic in Search Console | The recipe is proven by Flutter (214 KB, tree-shaken). Maven Central and SwiftPM are two more ecosystems — but two more release surfaces to keep in step, so not before someone asks. |
+
+### Later — the things only this project can do
+
+| Step | Gate | Why |
+|---|---|---|
+| **Icons on request, drawn to the grid** | 10 requests in the issue tracker | The asset is the compiler, not the set: a request becomes a real icon in a day, in the same voice. This is what makes people tell other people. |
+| **Animated icons** (Lottie/Rive from the same paths) | 1,000 npm downloads that are not mirrors | A real differentiator, about a week's work, worthless with no audience. |
+| **The compiler itself** (`@iconmind/forge`) | after the compiler article lands | Let anyone build a set with these guarantees. A developer-tool play with its own audience. |
+| **Design-system MCP** — icons *and* tokens *and* component snippets | MCP server used by anyone but us | The wedge nobody else has: assistants that write consistent UI, not just pick a glyph. |
+
+### Never (decided, not deferred)
+
+Brand and logo icons (trademark, not ours to license), an icon font (it flattens duotone
+and the weights into one glyph), a filled variant (tried, dropped), and paid icons — the
+set stays MIT. Sustainability comes from sponsorship, sponsored categories and
+brand-fit commissions, never from a paywall on the drawings.
