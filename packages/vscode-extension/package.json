@@ -7,16 +7,43 @@
   "private": true,
   "license": "MIT",
   "icon": "icon.png",
-  "repository": { "type": "git", "url": "https://github.com/Iconmind/iconmind", "directory": "packages/vscode-extension" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Iconmind/iconmind",
+    "directory": "packages/vscode-extension"
+  },
   "homepage": "https://iconmind.dev",
-  "engines": { "vscode": "^1.85.0" },
-  "categories": ["Programming Languages", "Snippets", "Other"],
-  "keywords": ["icons", "svg", "react", "flutter", "ai", "mcp", "iconmind"],
-  "activationEvents": ["onLanguage:javascript", "onLanguage:javascriptreact", "onLanguage:typescript", "onLanguage:typescriptreact", "onLanguage:vue", "onLanguage:svelte", "onLanguage:astro", "onLanguage:dart"],
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Snippets",
+    "Other"
+  ],
+  "keywords": [
+    "icons",
+    "svg",
+    "react",
+    "flutter",
+    "ai",
+    "mcp",
+    "iconmind"
+  ],
+  "activationEvents": [
+    "onLanguage:javascript",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescript",
+    "onLanguage:typescriptreact",
+    "onLanguage:vue",
+    "onLanguage:svelte",
+    "onLanguage:astro",
+    "onLanguage:dart"
+  ],
   "main": "./extension.js",
   "contributes": {},
   "scripts": {
-    "build": "node scripts/data.mjs",
-    "package": "node scripts/data.mjs && npx @vscode/vsce package --no-dependencies"
+    "package": "pnpm data && npx @vscode/vsce package --no-dependencies",
+    "data": "node scripts/data.mjs"
   }
 }
