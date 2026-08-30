@@ -38,7 +38,7 @@ for (const icon of icons) {
   out.icons[icon.slug] = { body: `<g ${STROKE}>${body(icon.svg)}</g>` };
   const duo = join(fromRoot("packages/icons/icons"), icon.category, icon.slug, "duotone-regular.svg");
   try { out.icons[`${icon.slug}-duotone`] = { body: `<g ${STROKE}>${body(await readFile(duo, "utf8"))}</g>` }; } catch { /* no duotone cell */ }
-  const meta = JSON.parse(icon.json) as { aliases?: string[] };
+  const meta = JSON.parse(icon.json ?? "{}") as { aliases?: string[] };
   for (const a of meta.aliases ?? []) if (!out.icons[a] && !out.aliases[a]) out.aliases[a] = { parent: icon.slug };
 }
 (out.info as { total: number }).total = Object.keys(out.icons).length;
