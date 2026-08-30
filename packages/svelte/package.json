@@ -1,6 +1,6 @@
 {
   "name": "@iconmind/svelte",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Svelte components for IconMind — 2,287 tree-shakeable icons for AI-era software (LLMs, agents, MCP, RAG).",
   "keywords": [
     "icons",
