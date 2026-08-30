@@ -29,3 +29,6 @@ Iconmind UI mockups/
 **/.dart_tool/
 packages/flutter/example/web/
 packages/flutter/example/pubspec.lock
+
+# Flutter build output (packages/flutter/build/ was once force-added: 47 MB of test-cache .dill files)
+packages/flutter/build/
