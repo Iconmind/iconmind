@@ -53,10 +53,18 @@ function schema(icon: {
         name: `${icon.name} icon`,
         description: icon.description,
         contentUrl: `${SITE_URL}/i/${icon.slug}.svg`,
+        thumbnailUrl: `${SITE_URL}/p/${icon.slug}.png`,
         encodingFormat: "image/svg+xml",
+        width: { "@type": "QuantitativeValue", value: 24, unitCode: "E37" },
+        height: { "@type": "QuantitativeValue", value: 24, unitCode: "E37" },
+        // Google's image metadata asks for five fields; the four that name a licence and
+        // its owner were here, and Search Console reported the two that were not.
         license: "https://opensource.org/licenses/MIT",
         acquireLicensePage: `${SITE_URL}/docs/license/`,
         creditText: "IconMind",
+        copyrightNotice: "IconMind — MIT licensed: commercial use, no attribution required",
+        creator: { "@type": "Organization", name: "IconMind", url: SITE_URL },
+        copyrightHolder: { "@type": "Organization", name: "IconMind", url: SITE_URL },
         isFamilyFriendly: true,
       },
       breadcrumbs([
