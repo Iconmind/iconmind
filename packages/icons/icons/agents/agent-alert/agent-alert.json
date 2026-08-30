@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "lifecycle",
   "name": "Agent alert",
-  "description": "Something is wrong with this agent",
+  "description": "An agent with an alert mark beside it — something is wrong with this agent and needs attention",
   "tags": [
     "warning",
     "problem",

@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "lifecycle",
   "name": "Agent pause",
-  "description": "The agent is held, not stopped",
+  "description": "An agent with a pause mark beside it — the agent is held where it is, suspended but not stopped",
   "tags": [
     "hold",
     "suspend",

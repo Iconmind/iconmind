@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "lifecycle",
   "name": "Agent remove",
-  "description": "Take an agent out",
+  "description": "An agent with a minus beside it — take an agent out of the system, detach or unregister it",
   "tags": [
     "delete",
     "detach",

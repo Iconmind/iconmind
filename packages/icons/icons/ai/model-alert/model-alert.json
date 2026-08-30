@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Model alert",
-  "description": "Something is wrong with this model",
+  "description": "A model frame with an alert mark beside it — something is wrong with this model and needs attention",
   "tags": [
     "warning",
     "drift",

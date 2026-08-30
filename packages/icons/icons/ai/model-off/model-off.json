@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Model off",
-  "description": "The model is disabled",
+  "description": "A model frame struck through — the model is disabled and no longer serving requests",
   "tags": [
     "disabled",
     "retired",

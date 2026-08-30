@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Model check",
-  "description": "The model passed evaluation",
+  "description": "A model frame with a check beside it — the model passed evaluation, verified and ready to serve",
   "tags": [
     "valid",
     "approved",

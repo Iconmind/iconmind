@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "lifecycle",
   "name": "Agent add",
-  "description": "Bring another agent in",
+  "description": "An agent with a plus beside it — bring another agent into the system, spawn or register one",
   "tags": [
     "new",
     "create",

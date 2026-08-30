@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Model add",
-  "description": "Register another model",
+  "description": "A model frame with a plus beside it — register another model in the catalogue",
   "tags": [
     "new",
     "register",

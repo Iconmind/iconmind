@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "lifecycle",
   "name": "Agent check",
-  "description": "The agent passed its checks",
+  "description": "An agent with a check beside it — the agent passed its checks, healthy and verified",
   "tags": [
     "valid",
     "healthy",

@@ -36,28 +36,28 @@ const modelFamily = (
 export const BATCH_06: Icon[] = [
   /* ── The agent family: one ring, six middles ──────────────────────────────────── */
 
-  agentFamily("agent-add", "Agent add", "Bring another agent in",
+  agentFamily("agent-add", "Agent add", "An agent with a plus beside it — bring another agent into the system, spawn or register one",
     ["new", "create", "spawn"], ["new agent", "spawn", "create", "register"], add),
-  agentFamily("agent-remove", "Agent remove", "Take an agent out",
+  agentFamily("agent-remove", "Agent remove", "An agent with a minus beside it — take an agent out of the system, detach or unregister it",
     ["delete", "detach", "drop"], ["delete agent", "unregister", "detach", "drop"], remove),
-  agentFamily("agent-check", "Agent check", "The agent passed its checks",
+  agentFamily("agent-check", "Agent check", "An agent with a check beside it — the agent passed its checks, healthy and verified",
     ["valid", "healthy", "verified"], ["healthy", "verified", "ready", "passing"], check),
-  agentFamily("agent-alert", "Agent alert", "Something is wrong with this agent",
+  agentFamily("agent-alert", "Agent alert", "An agent with an alert mark beside it — something is wrong with this agent and needs attention",
     ["warning", "problem", "attention"], ["error", "failing", "attention", "degraded"], alert),
-  agentFamily("agent-off", "Agent off", "The agent is disabled",
+  agentFamily("agent-off", "Agent off", "An agent struck through — the agent is disabled, inactive or shut down",
     ["disabled", "stopped", "inactive"], ["disable", "inactive", "suspended", "shut down"], off),
-  agentFamily("agent-pause", "Agent pause", "The agent is held, not stopped",
+  agentFamily("agent-pause", "Agent pause", "An agent with a pause mark beside it — the agent is held where it is, suspended but not stopped",
     ["hold", "suspend", "wait"], ["suspend", "hold", "resume", "paused"], pause),
 
   /* ── The model family: one machine, four middles ──────────────────────────────── */
 
-  modelFamily("model-add", "Model add", "Register another model",
+  modelFamily("model-add", "Model add", "A model frame with a plus beside it — register another model in the catalogue",
     ["new", "register", "import"], ["new model", "register", "import", "pull"], add),
-  modelFamily("model-check", "Model check", "The model passed evaluation",
+  modelFamily("model-check", "Model check", "A model frame with a check beside it — the model passed evaluation, verified and ready to serve",
     ["valid", "approved", "verified"], ["validated", "approved", "eval passed", "certified"], check),
-  modelFamily("model-alert", "Model alert", "Something is wrong with this model",
+  modelFamily("model-alert", "Model alert", "A model frame with an alert mark beside it — something is wrong with this model and needs attention",
     ["warning", "drift", "problem"], ["drift", "degraded", "error", "attention"], alert),
-  modelFamily("model-off", "Model off", "The model is disabled",
+  modelFamily("model-off", "Model off", "A model frame struck through — the model is disabled and no longer serving requests",
     ["disabled", "retired", "inactive"], ["disable", "deprecated", "retired", "unavailable"], off),
 
   /* ── Concepts whose picture is the whole idea ─────────────────────────────────── */

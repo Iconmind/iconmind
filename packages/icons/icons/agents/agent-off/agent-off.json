@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "lifecycle",
   "name": "Agent off",
-  "description": "The agent is disabled",
+  "description": "An agent struck through — the agent is disabled, inactive or shut down",
   "tags": [
     "disabled",
     "stopped",
