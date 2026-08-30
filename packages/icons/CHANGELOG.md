@@ -1,5 +1,11 @@
 # @iconmind/icons
 
+## 0.4.1
+
+### Patch Changes
+
+- fix(icons): six icons redrawn and 96 family labels unified so the perceptual duplicate scan passes on the full set
+
 ## 0.4.0
 
 ### Minor Changes

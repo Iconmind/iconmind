@@ -1,5 +1,7 @@
 # @iconmind/react-native
 
+## 0.4.1
+
 ## 0.4.0
 
 ### Minor Changes
