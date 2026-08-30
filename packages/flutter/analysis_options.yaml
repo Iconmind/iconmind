@@ -3,5 +3,5 @@ include: package:flutter_lints/flutter.yaml
 analyzer:
   exclude:
     # One file per icon, machine-written; the linter's opinions belong upstream
-    # in the generator, not on 1,008 identical files.
+    # in the generator, not on 2,041 identical files.
     - lib/src/generated/**
