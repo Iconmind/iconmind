@@ -49,6 +49,22 @@ const MIN_EXTENT = 16;
  */
 const MAX_OFFSET = 2;
 
+/**
+ * A cell with its translucent elements removed — the silhouette is the ink at full strength.
+ *
+ * Duotone cells carry two things drawn at the tint opacity: a fill behind each closed body,
+ * and a halo three units wider than the true stroke behind each open one (`draw/build.ts`).
+ * The halo is *meant* to reach a unit and a half past the outline's edge; that is the glow.
+ * The rasteriser counts anything darker than near-white as ink, and twenty percent grey is,
+ * so measured whole a duotone cell sits 1.25 to 1.75 units outside its master and the rule
+ * reported every one of them as the wrong size — 1,674 cells a night, all of them right.
+ * The forge marks every translucent element with an `opacity` attribute, so this strips
+ * exactly those; if nothing solid remains the caller falls back to the whole cell.
+ */
+function solidOnly(svg: string): string {
+  return svg.replace(/<(?:path|circle|rect|line|polyline|polygon|ellipse)\b[^>]*\bopacity="[^"]*"[^>]*\/>/g, "");
+}
+
 export function checkMatrix(icons: IconFile[], r: Report, measureInk = false) {
 
   for (const ic of icons) {
@@ -97,7 +113,7 @@ export function checkMatrix(icons: IconFile[], r: Report, measureInk = false) {
       if (master) {
         for (const cell of ic.cells) {
           if (cell.variant === DEFAULT_VARIANT && cell.weight === DEFAULT_WEIGHT) continue;
-          const box = inkBox(cell.svg);
+          const box = inkBox(solidOnly(cell.svg)) ?? inkBox(cell.svg);
           if (!box) { r.add(cell.svgPath, "matrix/silhouette", "draws nothing"); continue; }
           const off = Math.max(
             Math.abs(box.x0 - master.x0), Math.abs(box.y0 - master.y0),

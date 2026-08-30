@@ -58,7 +58,13 @@ jobs:
       - name: Bump versions
         run: pnpm changeset version
 
-      - name: Commit the bump back to main
+      # Committed here, pushed only after the lockfile step below — one push carries the
+      # bump and its lockfile together. v0.4.0 pushed the bump alone: the minor bump moved
+      # @iconmind/mcp's range, the lockfile in that commit was stale, and Vercel built
+      # exactly that commit (ERR_PNPM_OUTDATED_LOCKFILE) — then never built the follow-up
+      # refresh commit, because a change to pnpm-lock.yaml alone is not a change inside
+      # the site's root directory. The site sat on the previous release.
+      - name: Commit the bump
         id: bump
         run: |
           VERSION=$(node -p "require('./packages/icons/package.json').version")
@@ -67,7 +73,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
           git commit -m "chore: release v$VERSION"
-          git push
 
       # setup-node's registry-url points NPM_CONFIG_USERCONFIG at its own .npmrc, which
       # reads the token from NODE_AUTH_TOKEN — so that env var is the ONLY place npm will
@@ -83,20 +88,27 @@ jobs:
       # releases no longer touch it (updateInternalDependencies: minor), but a minor one
       # does, and a stale lockfile fails every frozen-lockfile install afterwards: our own
       # CI, and Vercel's build. Hence *after* publish — the version it must resolve is on
-      # the registry only once the step above has run. A no-op when nothing changed.
-      - name: Refresh the lockfile if the bump moved an internal range
+      # the registry only once the step above has run. When nothing moved, the lockfile is
+      # unchanged and the bump commit goes up as it is.
+      - name: Refresh the lockfile if the bump moved an internal range, then push
         run: |
           for i in 1 2 3; do
             pnpm install --lockfile-only && break
             echo "registry has not caught up yet; retrying in 15s"
             sleep 15
           done
-          git diff --quiet -- pnpm-lock.yaml && echo "lockfile unchanged" && exit 0
-          # A follow-up commit, never an amend: main's tip is already published and
-          # already building on Vercel. pnpm-lock.yaml is outside this workflow's paths
-          # filter, so this cannot retrigger a release.
-          git add pnpm-lock.yaml
-          git commit -m "chore: refresh lockfile for v${{ steps.bump.outputs.version }}"
+          if git diff --quiet -- pnpm-lock.yaml; then
+            echo "lockfile unchanged"
+          else
+            # A second commit rather than an amend: `changeset publish` has just tagged
+            # the bump commit with the nine package tags, and an amend would leave them
+            # pointing at a commit that is on no branch. Pushed together, the tip that
+            # reaches main — and that Vercel builds — installs cleanly on its own.
+            git add pnpm-lock.yaml
+            git commit -m "chore: refresh lockfile for v${{ steps.bump.outputs.version }}"
+          fi
+          # A push made with GITHUB_TOKEN never retriggers this workflow, and the
+          # "chore: release v" guard above covers the case where it somehow could.
           git pull --rebase --autostash && git push
 
       - name: Push tags and cut the GitHub Release
