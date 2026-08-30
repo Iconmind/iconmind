@@ -29,3 +29,6 @@ Six icons that turned out to be the same drawing as an existing one were not dra
 twice: `user-check` is `human-approval`, `clipboard-paste` is `paste`,
 `chart-no-axes-gantt` is `span-trace`, `chevrons-up` is `priority`, `corner-down-left`
 is `command` — aliases, all of them.
+
+Under the hood, every icon in a family now carries the same family label, which is
+what lets the nightly perceptual scan tell a sibling from a duplicate.
