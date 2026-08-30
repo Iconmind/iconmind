@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset=".github/assets/preview-dark.png">
-    <img src=".github/assets/preview-light.png" alt="A grid of IconMind icons: agents, models, vector databases, MCP servers and more, in outline and duotone" width="100%">
+    <img src=".github/assets/preview-light.png" alt="156 IconMind icons taken evenly across the set: agents, models, vector databases, MCP servers, charts, files and arrows" width="100%">
   </picture>
 </p>
 
@@ -15,6 +15,7 @@
 <p align="center">
   <a href="https://iconmind.dev"><b>Website</b></a> ·
   <a href="https://iconmind.dev/icons/"><b>Browse all icons</b></a> ·
+  <a href="https://iconmind.dev/collections/"><b>Collections</b></a> ·
   <a href="https://iconmind.dev/docs/installation/"><b>Docs</b></a> ·
   <a href="https://iconmind.dev/docs/mcp/"><b>MCP server</b></a>
 </p>
@@ -38,6 +39,12 @@ import { Agent, ContextWindow, VectorDatabase } from "@iconmind/react";
 ```
 
 **2,271 icons · 13,626 drawings · 10 packages · one generated source of truth.**
+
+Every icon is a declaration compiled into six cells by a validator that refuses geometry
+it cannot draw correctly, and a nightly job rasterises all 13,626 of them and fails if any
+two icons render the same. That is how a set this size still reads as one hand — and why
+an assistant can be handed [an MCP server](https://iconmind.dev/docs/mcp/) that returns
+real names instead of `<AgentBrain />`.
 
 ## Why this exists
 
@@ -69,6 +76,13 @@ validator checks every cell separately.
 Duotone is **derived, never drawn**: every closed body tints at 20% behind the strokes,
 and icons made only of open marks (a check, an arrow) get a halo — the same paths echoed
 wider behind them — so the whole set answers the variant switch, not just the lucky icons.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/variants-dark.png">
+    <img src=".github/assets/variants-light.png" alt="Six icons drawn in all six cells: outline and duotone, each at thin, regular and bold" width="100%">
+  </picture>
+</p>
 
 | | | |
 |---|---|---|
@@ -207,8 +221,9 @@ Beyond the validator, two audit tools keep the set honest at scale — both grew
 real audits that redrew over sixty icons:
 
 ```bash
-pnpm icons:audit   # size, ink density and centred-ness outliers, with named exceptions
-pnpm icons:twins   # renders all 2,271 icons and pixel-compares every pair for lookalikes
+pnpm icons:audit                  # size, ink density and centred-ness outliers, with named exceptions
+pnpm icons:twins                  # renders all 2,271 icons and pixel-compares every pair for lookalikes
+pnpm icons:duplicates --perceptual # the nightly scan: 13,626 cells, fails on two that render alike
 ```
 
 ## Versioning & releases
@@ -233,6 +248,15 @@ there is: [request an icon](https://github.com/iconmind/iconmind/issues/new?temp
 **Brand icons?** No. Concepts age better than logos, and logos carry trademark weight
 this set does not want.
 
+**Is there a Figma library?** No, and none is planned — it would be a second source of
+truth beside the compiler. The set is an [Iconify](https://icones.js.org) collection
+(`iconmind:agent`), which Iconify's own Figma plugin reads, and every icon page copies
+or downloads its SVG.
+
+**How do I pick between IconMind and Lucide/Tabler/Heroicons?** There are
+[comparison pages](https://iconmind.dev/compare/) with the counts, licences and
+trade-offs written out.
+
 ## Contributing
 
 Icons are TypeScript declarations in `scripts/draw/icons/` — the compiler and validator
@@ -247,6 +271,9 @@ pnpm icons:audit       # the consistency measures
 
 See the [contributing guide](CONTRIBUTING.md) for naming rules, originality policy and
 the pull-request checklist.
+
+Ten icons are [described down to their body and mark slot](https://github.com/Iconmind/iconmind/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+icon%22)
+if you want one to start from — the drawing is the fun part, the rules are the tools' job.
 
 ## Support the project
 
