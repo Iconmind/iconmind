@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import { useSearchMiss } from "@/lib/search-miss";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useLook } from "@/components/icons-shell";
@@ -119,6 +120,8 @@ export function IconGrid({ icons, categories }: { icons: GridIcon[]; categories:
       .sort((a, b) => b.s - a.s || a.i.slug.localeCompare(b.i.slug))
       .map((r) => r.i);
   }, [icons, q, cat]);
+
+  useSearchMiss("browse", q, results.length);
 
   const ink = inkOf(look.colour);
   const catName = cat === "all" ? "All icons" : categories.find((c) => c.slug === cat)?.name ?? cat;

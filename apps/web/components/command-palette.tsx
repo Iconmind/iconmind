@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useSearchMiss } from "@/lib/search-miss";
 import { useRouter } from "next/navigation";
 import {
   CommandDialog,
@@ -177,6 +178,8 @@ export function CommandPalette({ categories }: { categories: Record<string, stri
     () => (query || !entries ? [] : (recent.map((s) => entries.find((e) => e.slug === s)).filter(Boolean) as Entry[])),
     [recent, entries, query],
   );
+  // A page match is still a result; only a query that finds no icon and no page is a miss.
+  useSearchMiss("palette", q, hits.length + pages.length, entries !== null);
 
   const glyph = (slug: string) => (
     <span

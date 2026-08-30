@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { useSearchMiss } from "@/lib/search-miss";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { Input } from "@/components/ui/input";
@@ -58,6 +59,8 @@ export function SearchResults({ icons }: { icons: SearchIcon[] }) {
     return icons.map((i) => ({ i, ...rank(i, query) })).filter((r) => r.s > 0)
       .sort((a, b) => b.s - a.s || a.i.slug.localeCompare(b.i.slug));
   }, [icons, query]);
+
+  useSearchMiss("search", q, hits.length);
 
   const suggestions = useMemo(() => {
     if (!query || hits.length) return [];
