@@ -174,8 +174,6 @@ importers:
         specifier: ^4.20.6
         version: 4.23.12
 
-  packages/figma-plugin: {}
-
   packages/icons:
     devDependencies:
       '@iconmind/shared':
@@ -188,8 +186,8 @@ importers:
   packages/mcp:
     dependencies:
       '@iconmind/icons':
-        specifier: ^0.5.0
-        version: 0.5.0
+        specifier: ^0.6.0
+        version: 0.6.0
       '@modelcontextprotocol/sdk':
         specifier: ^1.22.0
         version: 1.30.0(zod@4.4.3)
@@ -790,8 +788,8 @@ packages:
     peerDependencies:
       hono: ^4
 
-  '@iconmind/icons@0.5.0':
-    resolution: {integrity: sha512-MvQwXfzPN5C579L8GbVx0stbz/ebgZ6Cmh1rykQF121CAJZphL5VNHTUIspbziW50KWweArZdFeVdBY6j6sZ0A==}
+  '@iconmind/icons@0.6.0':
+    resolution: {integrity: sha512-hnf7Xb9clPuiQ5ee8/HfJYL4E2FUvLYXfQ0srNX23CueERpFYPklc+okrkRaU8qEww6o8mkMoYY7npz94CuXYA==}
 
   '@img/colour@1.1.0':
     resolution: {integrity: sha512-Td76q7j57o/tLVdgS746cYARfSyxk8iEfRxewL9h4OMzYhbW4TAcppl0mT4eyqXddh6L/jwoM75mo7ixa/pCeQ==}
@@ -5712,7 +5710,7 @@ snapshots:
     dependencies:
       hono: 4.13.3
 
-  '@iconmind/icons@0.5.0': {}
+  '@iconmind/icons@0.6.0': {}
 
   '@img/colour@1.1.0':
     optional: true
