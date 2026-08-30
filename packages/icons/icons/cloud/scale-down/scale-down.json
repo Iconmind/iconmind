@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "compute",
   "name": "Scale down",
-  "description": "Give it less",
+  "description": "Scale down — give it less capacity, shrink to smaller or fewer instances",
   "tags": [
     "shrink",
     "smaller",

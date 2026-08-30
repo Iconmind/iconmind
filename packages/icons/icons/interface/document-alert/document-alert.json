@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "file",
   "name": "Document alert",
-  "description": "Something is wrong with this one",
+  "description": "Document alert — something is wrong with this file, invalid or needing attention",
   "tags": [
     "invalid",
     "problem",

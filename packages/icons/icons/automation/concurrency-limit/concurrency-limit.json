@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "trigger",
   "name": "Concurrency limit",
-  "description": "Three at once, and the wall says so",
+  "description": "A concurrency limit — only so many at once, a cap on parallel lanes",
   "tags": [
     "parallel",
     "cap",

@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "code",
   "name": "Braces",
-  "description": "A block, or an object",
+  "description": "Braces — a code block or a JSON object, the curly brackets of structured syntax",
   "tags": [
     "json",
     "block",

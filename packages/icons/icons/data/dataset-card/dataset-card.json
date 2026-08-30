@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Dataset card",
-  "description": "What this data is, on one page",
+  "description": "A dataset card — what this data is, where it came from and how to use it, on one page",
   "tags": [
     "docs",
     "sheet",

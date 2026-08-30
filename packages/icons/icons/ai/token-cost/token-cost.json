@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "token",
   "name": "Token cost",
-  "description": "What the tokens are worth",
+  "description": "Token cost — what the tokens are worth in money, the price of a request",
   "tags": [
     "price",
     "billing",

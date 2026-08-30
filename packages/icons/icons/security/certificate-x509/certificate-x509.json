@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "encryption",
   "name": "X.509 certificate",
-  "description": "The certificate a machine presents",
+  "description": "An X.509 certificate — the signed TLS certificate a machine presents in its chain",
   "tags": [
     "tls",
     "chain",

@@ -24,14 +24,14 @@ export const BATCH_12: Icon[] = [
 
   {
     slug: "user-add", category: "interface", subcategory: "identity",
-    name: "User add", description: "Invite somebody",
+    name: "User add", description: "User add — invite somebody, create an account or add a member",
     tags: ["invite", "new", "member"], family: "figure",
     aliases: ["invite"], keywords: ["add member", "invite", "signup", "new account"],
     shapes: [...figure(), col(18, 9, 15), row(12, 15, 21)],
   },
   {
     slug: "user-off", category: "interface", subcategory: "identity",
-    name: "User off", description: "This account is disabled",
+    name: "User off", description: "User off — this account is disabled, banned or removed from the system",
     tags: ["disabled", "banned", "removed"], family: "figure",
     aliases: [], keywords: ["deactivate", "banned", "suspended", "remove member"],
     shapes: [...figure(), poly([[15, 9], [21, 15]]), poly([[21, 9], [15, 15]])],
@@ -39,14 +39,14 @@ export const BATCH_12: Icon[] = [
 
   {
     slug: "bookmark-check", category: "interface", subcategory: "action",
-    name: "Bookmark check", description: "Already saved",
+    name: "Bookmark check", description: "Bookmark check — already saved, kept safely in your list of bookmarks",
     tags: ["saved", "kept", "done"], family: "ribbon",
     aliases: [], keywords: ["saved", "in your list", "collected", "already added"],
     shapes: [bookmark(), ...check(SMALL, 10)],
   },
   {
     slug: "bookmark-off", category: "interface", subcategory: "action",
-    name: "Bookmark off", description: "Take it out of the list",
+    name: "Bookmark off", description: "Bookmark off — unsave it and take it out of the bookmark list",
     tags: ["unsave", "remove", "forget"], family: "ribbon",
     aliases: [], keywords: ["unsave", "remove from list", "forget", "unpin"],
     shapes: [bookmark(), ...off(SMALL, 10)],
@@ -56,7 +56,7 @@ export const BATCH_12: Icon[] = [
 
   {
     slug: "move", category: "interface", subcategory: "action",
-    name: "Move", description: "Drag it anywhere",
+    name: "Move", description: "Move — drag something anywhere, pan a canvas or reposition an object",
     tags: ["drag", "pan", "reposition"], family: "arrow",
     aliases: ["drag"], keywords: ["pan", "reposition", "handle", "grab", "translate"],
     shapes: [
@@ -67,7 +67,7 @@ export const BATCH_12: Icon[] = [
   },
   {
     slug: "crop", category: "interface", subcategory: "media",
-    name: "Crop", description: "Keep this part",
+    name: "Crop", description: "Crop — keep this part of an image and trim away the rest around it",
     tags: ["trim", "frame", "cut"], family: "bracket",
     aliases: [], keywords: ["trim", "frame", "aspect ratio", "cut", "resize"],
     // Two Ls that cross rather than a rectangle. The corners running past each other are
@@ -76,7 +76,7 @@ export const BATCH_12: Icon[] = [
   },
   {
     slug: "percent", category: "interface", subcategory: "action",
-    name: "Percent", description: "A share of something",
+    name: "Percent", description: "Percent — a share of something, a rate, a discount or a proportion",
     tags: ["rate", "share", "discount"], family: "mark",
     aliases: [], keywords: ["rate", "discount", "proportion", "ratio", "off"],
     shapes: [poly([[4, 20], [20, 4]]), disc(7, 7, 2), disc(17, 17, 2)],
@@ -86,7 +86,7 @@ export const BATCH_12: Icon[] = [
 
   {
     slug: "epoch", category: "ai", subcategory: "training",
-    name: "Epoch", description: "One pass over all the data",
+    name: "Epoch", description: "An epoch — one full pass over all the training data during a training run",
     tags: ["pass", "cycle", "iteration"], family: "orbit",
     aliases: [], keywords: ["iteration", "pass", "cycle", "step", "round"],
     // Three turns of the same opening. `retry` is one turn with a head on it, because retry
@@ -97,7 +97,7 @@ export const BATCH_12: Icon[] = [
   },
   {
     slug: "attention", category: "ai", subcategory: "inference",
-    name: "Attention", description: "Which inputs the model is weighing",
+    name: "Attention", description: "Attention — the mechanism that weighs which inputs a model focuses on for each output",
     tags: ["focus", "weights", "converge"], family: "orbit",
     aliases: [], keywords: ["self-attention", "heads", "focus", "weighting", "transformer"],
     // Four runs converging on a middle they do not reach. Touching it, the drawing is a
@@ -110,7 +110,7 @@ export const BATCH_12: Icon[] = [
   },
   {
     slug: "few-shot", category: "ai", subcategory: "prompt",
-    name: "Few-shot", description: "Show it some examples first",
+    name: "Few-shot", description: "Few-shot prompting — show the model a few worked examples before asking your question",
     tags: ["examples", "demonstration", "prompt"], family: "rails",
     aliases: [], keywords: ["in-context learning", "examples", "demonstrations", "shots"],
     shapes: [
@@ -120,7 +120,7 @@ export const BATCH_12: Icon[] = [
   },
   {
     slug: "zero-shot", category: "ai", subcategory: "prompt",
-    name: "Zero-shot", description: "No examples at all",
+    name: "Zero-shot", description: "Zero-shot prompting — ask the model to do the task with no examples at all",
     tags: ["none", "cold", "prompt"], family: "rails",
     aliases: [], keywords: ["no examples", "cold start", "instruction only", "direct"],
     // A literal zero where `few-shot` has its three examples, and the identical arrow —
@@ -136,14 +136,14 @@ export const BATCH_12: Icon[] = [
 
   {
     slug: "edge", category: "cloud", subcategory: "edge",
-    name: "Edge", description: "Compute right next to the user",
+    name: "Edge", description: "Edge — compute that runs right next to the user, at the network boundary rather than a central cloud",
     tags: ["near", "boundary", "local"], family: "rails",
     aliases: [], keywords: ["edge compute", "pop", "near user", "latency", "cdn"],
     shapes: [col(20, 3, 21), disc(10, 12, 4.5), row(12, 15, 18)],
   },
   {
     slug: "region", category: "cloud", subcategory: "region",
-    name: "Region", description: "Which part of the world it runs in",
+    name: "Region", description: "A region — which part of the world a service runs in, a zone or a geography",
     tags: ["zone", "location", "geography"], family: "orbit",
     aliases: ["zone"], keywords: ["availability zone", "datacentre", "geography", "locale"],
         // Latitudes, not a pin. A single dot near the rim of a circle reads as a blemish on the
@@ -153,7 +153,7 @@ export const BATCH_12: Icon[] = [
   },
   {
     slug: "index", category: "data", subcategory: "catalog",
-    name: "Index", description: "What is where, so you can find it",
+    name: "Index", description: "An index — a record of what is where so items can be found and looked up quickly",
     tags: ["lookup", "catalogue", "entries"], family: "rails",
     aliases: [], keywords: ["lookup", "catalog", "b-tree", "key", "entries"],
     // A spine with entries hanging off it. `list` has bullets and `menu` has full-width
@@ -162,7 +162,7 @@ export const BATCH_12: Icon[] = [
   },
   {
     slug: "funnel-chart", category: "analytics", subcategory: "chart",
-    name: "Funnel chart", description: "How many are left at each step",
+    name: "Funnel chart", description: "A funnel chart — how many are left at each step of a conversion, and where people drop off",
     tags: ["conversion", "steps", "drop-off"], family: "rails",
     aliases: [], keywords: ["conversion", "drop-off", "stages", "cohort", "pipeline"],
     // Centred, where `sort-desc` is flush left. A funnel narrows on both sides, and that
@@ -171,7 +171,7 @@ export const BATCH_12: Icon[] = [
   },
   {
     slug: "vulnerability", category: "security", subcategory: "threat",
-    name: "Vulnerability", description: "A way in that should not be there",
+    name: "Vulnerability", description: "A vulnerability — a flaw that offers a way in that should not be there, a weakness to exploit",
     tags: ["flaw", "exploit", "weakness"], family: "shield",
     aliases: ["cve"], keywords: ["cve", "exploit", "weakness", "flaw", "unpatched"],
     // `trigger`'s bolt through a shield. The set now has three bodies with that bolt in

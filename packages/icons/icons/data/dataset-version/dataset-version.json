@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Dataset version",
-  "description": "The data as it was, kept",
+  "description": "A dataset version — the data exactly as it was, kept as a snapshot in the lineage",
   "tags": [
     "snapshot",
     "copy",

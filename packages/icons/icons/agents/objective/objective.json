@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "planning",
   "name": "Objective",
-  "description": "What it is trying to reach",
+  "description": "An objective — the target a model, an agent or a team is trying to reach",
   "tags": [
     "target",
     "aim",

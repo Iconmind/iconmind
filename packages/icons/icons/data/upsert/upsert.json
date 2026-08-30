@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "transform",
   "name": "Upsert",
-  "description": "Update it, or add it if it is new",
+  "description": "Upsert — update the row if it exists, insert it if it is new",
   "tags": [
     "merge",
     "insert",

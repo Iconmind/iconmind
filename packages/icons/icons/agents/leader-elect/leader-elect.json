@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "multi-agent",
   "name": "Leader election",
-  "description": "One of them wears the crown, for now",
+  "description": "Leader election — one of the nodes wears the crown for now, chosen to lead",
   "tags": [
     "leader",
     "crown",

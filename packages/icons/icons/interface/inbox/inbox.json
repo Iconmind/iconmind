@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "communication",
   "name": "Inbox",
-  "description": "Where things arrive",
+  "description": "An inbox — the tray where new messages, requests and notifications arrive",
   "tags": [
     "received",
     "tray",

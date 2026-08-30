@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "schedule",
   "name": "Delay queue",
-  "description": "Delivered — but not yet",
+  "description": "A delay queue — a message delivered, but not yet, held back for later",
   "tags": [
     "later",
     "hold",

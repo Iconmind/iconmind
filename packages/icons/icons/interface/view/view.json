@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "state",
   "name": "View",
-  "description": "Just looking",
+  "description": "View — just looking, open something read-only without changing it",
   "tags": [
     "see",
     "read-only",

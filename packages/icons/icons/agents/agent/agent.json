@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "agent-core",
   "name": "Agent",
-  "description": "Autonomous program that decides and acts on its own",
+  "description": "An autonomous AI agent that decides and acts on its own to reach a goal, without step-by-step prompts",
   "tags": [
     "autonomous",
     "bot",

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Min-p",
-  "description": "Below the floor, you do not exist",
+  "description": "Min-p — tokens below the probability floor do not exist for sampling",
   "tags": [
     "floor",
     "cutoff",

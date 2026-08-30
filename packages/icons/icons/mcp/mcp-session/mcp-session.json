@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "transport",
   "name": "MCP session",
-  "description": "One conversation, from open to close",
+  "description": "An MCP session — one conversation between client and server from open to close",
   "tags": [
     "connection",
     "lifetime",

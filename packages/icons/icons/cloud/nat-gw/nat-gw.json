@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "NAT gateway",
-  "description": "Everyone leaves wearing the same address",
+  "description": "A NAT gateway — everyone leaves the network wearing the same public address",
   "tags": [
     "translate",
     "address",

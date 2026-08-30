@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Base model",
-  "description": "Before anybody tuned it",
+  "description": "A base model — the pretrained foundation before anybody tuned it",
   "tags": [
     "foundation",
     "raw",

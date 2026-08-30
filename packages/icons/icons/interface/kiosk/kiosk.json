@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Kiosk",
-  "description": "One app, standing in a lobby",
+  "description": "Kiosk mode — one app standing alone on a public display in a lobby",
   "tags": [
     "display",
     "stand",

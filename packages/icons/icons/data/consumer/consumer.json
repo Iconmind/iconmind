@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "streaming",
   "name": "Consumer",
-  "description": "What takes messages off the queue",
+  "description": "A consumer — the subscriber that takes messages off the queue",
   "tags": [
     "subscriber",
     "reader",

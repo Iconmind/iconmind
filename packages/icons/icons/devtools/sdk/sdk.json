@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "package",
   "name": "SDK",
-  "description": "The tools that come in the box",
+  "description": "An SDK — the tools, libraries and docs that come in the box for building on a platform",
   "tags": [
     "kit",
     "library",

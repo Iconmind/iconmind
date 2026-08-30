@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Assert fail",
-  "description": "An X held between brackets — an assertion that failed",
+  "description": "An X held between brackets — an assertion in the code that failed its check",
   "tags": [
     "assert",
     "fail",

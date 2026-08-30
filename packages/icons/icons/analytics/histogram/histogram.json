@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "chart",
   "name": "Histogram",
-  "description": "How the values are spread",
+  "description": "A histogram — how the values are spread across bins, the shape of a distribution",
   "tags": [
     "distribution",
     "bins",

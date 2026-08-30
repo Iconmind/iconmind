@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "More",
-  "description": "There are other options",
+  "description": "More — an ellipsis hiding the other options in an overflow menu",
   "tags": [
     "ellipsis",
     "overflow",

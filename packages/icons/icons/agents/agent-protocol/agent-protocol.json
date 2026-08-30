@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "communication",
   "name": "Agent protocol",
-  "description": "The rules two agents talk by",
+  "description": "An agent protocol — the agreed rules two agents talk by when they exchange messages",
   "tags": [
     "contract",
     "channel",

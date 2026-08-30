@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "time",
   "name": "Clock",
-  "description": "What the time is",
+  "description": "A clock showing the current time — timing, hours, schedules and anything measured in minutes",
   "tags": [
     "time",
     "hour",

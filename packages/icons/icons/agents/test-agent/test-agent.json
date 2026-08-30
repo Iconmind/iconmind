@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Test agent",
-  "description": "Runs the suite so nobody has to remember",
+  "description": "A test agent — runs the test suite so nobody has to remember to",
   "tags": [
     "test",
     "run",

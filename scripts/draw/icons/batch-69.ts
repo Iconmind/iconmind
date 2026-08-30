@@ -75,7 +75,7 @@ export const BATCH_69: Icon[] = [
 
   {
     slug: "agent-cost", category: "agents", subcategory: "lifecycle",
-    name: "Agent cost", description: "An agent beside a coin — what a run of this agent costs",
+    name: "Agent cost", description: "An agent beside a coin — what a single run of this agent costs to operate",
     tags: ["cost", "spend", "billing"], family: "ring",
     aliases: [], keywords: ["agent cost", "agent spend", "cost per run"],
     shapes: [arc(7, 7, 4, 295, 245), disc(16, 15, 5), col(16, 13.5, 16.5)],
@@ -89,7 +89,7 @@ export const BATCH_69: Icon[] = [
   },
   {
     slug: "agent-model", category: "agents", subcategory: "agent-core",
-    name: "Agent model", description: "An agent beside a model core — the model an agent runs on",
+    name: "Agent model", description: "An agent beside a model core — the underlying model an agent runs on",
     tags: ["model", "backend", "llm"], family: "ring",
     aliases: [], keywords: ["agent model", "underlying model", "model selection"],
     shapes: [arc(7, 7, 4, 295, 245), poly([[16.5, 12], [21, 16.5], [16.5, 21], [12, 16.5]], true)],
@@ -183,7 +183,7 @@ export const BATCH_69: Icon[] = [
   },
   {
     slug: "typing-indicator", category: "interface", subcategory: "communication",
-    name: "Typing indicator", description: "A speech bubble with three dots — someone is typing a reply",
+    name: "Typing indicator", description: "A speech bubble with three dots — someone is typing a reply and it is on its way",
     tags: ["typing", "chat", "dots"], family: "bubble",
     aliases: [], keywords: ["typing indicator", "is typing", "chat dots"],
     shapes: [rect(3, 5, 18, 12, 2), poly([[7, 17], [7, 20], [10, 17]]), disc(8, 11, 1), disc(12, 11, 1), disc(16, 11, 1)],
@@ -204,7 +204,7 @@ export const BATCH_69: Icon[] = [
   },
   {
     slug: "text-columns", category: "interface", subcategory: "layout",
-    name: "Text columns", description: "Lines of text set in two columns — multi-column text layout",
+    name: "Text columns", description: "Lines of text set in two columns — a multi-column text layout for long reads",
     tags: ["columns", "text", "layout"], family: "text",
     aliases: [], keywords: ["text columns", "two-column layout", "column text"],
     shapes: [row(8, 3, 9), row(16, 3, 9), col(12, 4, 20), row(8, 15, 21), row(16, 15, 21)],
@@ -281,7 +281,7 @@ export const BATCH_69: Icon[] = [
   },
   {
     slug: "lollipop-chart", category: "analytics", subcategory: "chart",
-    name: "Lollipop chart", description: "Dots on stems rising from a baseline — a lollipop chart",
+    name: "Lollipop chart", description: "Dots on stems rising from a baseline — a lollipop chart of categorical values",
     tags: ["chart", "dots", "stems"], family: "chart",
     aliases: [], keywords: ["lollipop chart", "dot and stem chart", "categorical values"],
     shapes: [disc(8, 7, 2), col(8, 9, 20), disc(16, 11, 2), col(16, 13, 20), row(20, 3, 21)],

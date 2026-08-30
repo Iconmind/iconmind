@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "ingestion",
   "name": "Extractor",
-  "description": "Pulls the useful part out",
+  "description": "An extractor — pulls the useful part out of a document, parsed and lifted into structure",
   "tags": [
     "parse",
     "pick",

@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "compute",
   "name": "GPU cluster",
-  "description": "Many of them, working together",
+  "description": "A GPU cluster — many accelerators working together as one training fleet",
   "tags": [
     "fleet",
     "nodes",

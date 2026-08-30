@@ -17,7 +17,7 @@ export const BATCH_17: Icon[] = [
 
   {
     slug: "flip-horizontal", category: "interface", subcategory: "media",
-    name: "Flip horizontal", description: "Mirror it left to right",
+    name: "Flip horizontal", description: "Flip horizontal — mirror an object left to right across a vertical axis",
     tags: ["mirror", "reflect", "reverse"], family: "lattice",
     aliases: [], keywords: ["mirror", "reflect", "transform", "reverse", "invert"],
     shapes: [
@@ -27,7 +27,7 @@ export const BATCH_17: Icon[] = [
   },
   {
     slug: "flip-vertical", category: "interface", subcategory: "media",
-    name: "Flip vertical", description: "Mirror it top to bottom",
+    name: "Flip vertical", description: "Flip vertical — mirror an object top to bottom across a horizontal axis",
     tags: ["mirror", "reflect", "reverse"], family: "lattice",
     aliases: [], keywords: ["mirror", "reflect", "transform", "flip", "invert"],
     shapes: [
@@ -40,7 +40,7 @@ export const BATCH_17: Icon[] = [
 
   {
     slug: "expand", category: "interface", subcategory: "layout",
-    name: "Expand", description: "Make it bigger",
+    name: "Expand", description: "Expand — make it bigger, open it out or enlarge the view to show more",
     tags: ["grow", "open", "enlarge"], family: "bracket",
     aliases: [], keywords: ["grow", "enlarge", "open", "widen", "scale up"],
     // Two corners with the arrows going out of them. `maximize` is the four corners on
@@ -52,7 +52,7 @@ export const BATCH_17: Icon[] = [
   },
   {
     slug: "collapse", category: "interface", subcategory: "layout",
-    name: "Collapse", description: "Make it smaller",
+    name: "Collapse", description: "Collapse — make it smaller, close it up or reduce the view to a summary",
     tags: ["shrink", "close", "reduce"], family: "bracket",
     aliases: [], keywords: ["shrink", "reduce", "close", "narrow", "scale down"],
     shapes: [
@@ -62,7 +62,7 @@ export const BATCH_17: Icon[] = [
   },
   {
     slug: "focus", category: "interface", subcategory: "layout",
-    name: "Focus", description: "Pay attention to this",
+    name: "Focus", description: "Focus — pay attention to this, target one thing and crop out the rest",
     tags: ["target", "crop", "attention"], family: "bracket",
     aliases: [], keywords: ["viewfinder", "target", "centre", "autofocus", "spotlight"],
     // `maximize`'s four corners with something in the middle to be focused on. The corners
@@ -75,7 +75,7 @@ export const BATCH_17: Icon[] = [
   },
   {
     slug: "corner-radius", category: "interface", subcategory: "layout",
-    name: "Corner radius", description: "How round the corner is",
+    name: "Corner radius", description: "Corner radius — how round a corner is, the rounding of a shape or a box",
     tags: ["rounding", "corner", "shape"], family: "bracket",
     aliases: [], keywords: ["border radius", "rounding", "corner", "css", "shape"],
     // One corner and the arc that softens it, with the centre of that arc marked. The dot
@@ -87,21 +87,21 @@ export const BATCH_17: Icon[] = [
 
   {
     slug: "panel-top", category: "interface", subcategory: "layout",
-    name: "Panel top", description: "A strip across the top",
+    name: "Panel top", description: "Panel top — a strip across the top of a layout, a header or a toolbar",
     tags: ["header", "toolbar", "band"], family: "window",
     aliases: ["header"], keywords: ["toolbar", "app bar", "banner", "top bar"],
     shapes: [frame(2, 4, 20, 16, 3, { gap: 4 }), row(9, 2, 22)],
   },
   {
     slug: "panel-bottom", category: "interface", subcategory: "layout",
-    name: "Panel bottom", description: "A strip across the bottom",
+    name: "Panel bottom", description: "Panel bottom — a strip across the bottom of a layout, a footer or a tray",
     tags: ["footer", "tray", "band"], family: "window",
     aliases: ["footer"], keywords: ["status bar", "tab bar", "footer", "dock"],
     shapes: [frame(2, 4, 20, 16, 3, { gap: 4 }), row(15, 2, 22)],
   },
   {
     slug: "sidebar", category: "interface", subcategory: "layout",
-    name: "Sidebar", description: "A column down one side",
+    name: "Sidebar", description: "A sidebar — a column down one side of the screen for navigation or a drawer",
     tags: ["nav", "rail", "drawer"], family: "window",
     aliases: ["drawer"], keywords: ["navigation", "rail", "side panel", "menu column"],
     shapes: [frame(2, 4, 20, 16, 3, { gap: 4 }), col(9, 4, 20)],
@@ -111,7 +111,7 @@ export const BATCH_17: Icon[] = [
 
   {
     slug: "error", category: "interface", subcategory: "state",
-    name: "Error", description: "It failed",
+    name: "Error", description: "An error — it failed, something is broken and has stopped working",
     tags: ["failure", "broken", "stop"], family: "orbit",
     aliases: ["failed"], keywords: ["failure", "exception", "broken", "crash", "fatal"],
     // The disc is closed where `agent-off`'s ring is open. Off is a state somebody chose;
@@ -120,7 +120,7 @@ export const BATCH_17: Icon[] = [
   },
   {
     slug: "help", category: "interface", subcategory: "state",
-    name: "Help", description: "How does this work?",
+    name: "Help", description: "Help — how does this work? Support, documentation and answers",
     tags: ["question", "support", "docs"], family: "orbit",
     aliases: ["support"], keywords: ["question mark", "faq", "docs", "assistance", "guide"],
     // A question mark drawn as an arc, a run at 45° and a stem — three of the set's own
@@ -135,7 +135,7 @@ export const BATCH_17: Icon[] = [
 
   {
     slug: "repeat", category: "interface", subcategory: "media",
-    name: "Repeat", description: "Go round again",
+    name: "Repeat", description: "Repeat — go round again, loop the same thing over from the start",
     tags: ["loop", "again", "cycle"], family: "window",
     aliases: ["loop"], keywords: ["cycle", "again", "replay", "on repeat"],
     // The loop is a closed rounded rectangle with the language's break at the top, and the
@@ -145,7 +145,7 @@ export const BATCH_17: Icon[] = [
   },
   {
     slug: "audio", category: "interface", subcategory: "media",
-    name: "Audio", description: "A sound, as a waveform",
+    name: "Audio", description: "Audio — a sound shown as a waveform, levels rising and falling",
     tags: ["waveform", "sound", "levels"], family: "rails",
     aliases: ["waveform"], keywords: ["sound", "levels", "equaliser", "recording", "track"],
     // Symmetrical about the middle, where `barcode`'s bars are all the same height. Both

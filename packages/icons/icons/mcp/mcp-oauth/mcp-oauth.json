@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "server",
   "name": "MCP OAuth",
-  "description": "The server proves who may call it",
+  "description": "MCP OAuth — the server proves who may call it with a token from an authorisation flow",
   "tags": [
     "auth",
     "key",

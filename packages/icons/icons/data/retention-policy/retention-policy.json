@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Retention policy",
-  "description": "How long it is kept before it goes",
+  "description": "A retention policy — how long data is kept before it is deleted, a TTL",
   "tags": [
     "expiry",
     "delete-after",

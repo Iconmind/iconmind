@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Policy allow",
-  "description": "The rules read yes",
+  "description": "Policy allow — the rules read yes, the request may go ahead as asked",
   "tags": [
     "ruleset",
     "permit",

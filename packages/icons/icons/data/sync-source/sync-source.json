@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "pipeline",
   "name": "Sync source",
-  "description": "The side the truth comes from",
+  "description": "A sync source — the side the truth comes from, the origin of a sync",
   "tags": [
     "origin",
     "master",

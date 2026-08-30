@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Spotlight",
-  "description": "Type three letters; the thing appears",
+  "description": "Spotlight — type three letters and the thing appears, a quick search overlay",
   "tags": [
     "search",
     "overlay",

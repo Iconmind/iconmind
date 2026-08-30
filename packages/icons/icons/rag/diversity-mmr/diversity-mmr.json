@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "ranking",
   "name": "Diversity",
-  "description": "Picked for being unlike the rest",
+  "description": "Diversity — results picked for being unlike the rest, spread by MMR",
   "tags": [
     "mmr",
     "varied",

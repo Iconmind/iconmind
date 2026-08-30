@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "chart",
   "name": "Radar chart",
-  "description": "Several measures at once",
+  "description": "A radar chart — several measures at once on spokes, a spider profile",
   "tags": [
     "spider",
     "profile",

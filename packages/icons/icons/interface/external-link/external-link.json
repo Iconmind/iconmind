@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "External link",
-  "description": "This opens somewhere else",
+  "description": "An external link — this opens somewhere else, in a new tab or outside the app",
   "tags": [
     "outside",
     "new-tab",

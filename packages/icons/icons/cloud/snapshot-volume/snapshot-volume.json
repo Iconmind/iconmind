@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "storage",
   "name": "Volume snapshot",
-  "description": "The disk, as it was just then",
+  "description": "A volume snapshot — the disk as it was at one point in time, a backup copy",
   "tags": [
     "backup",
     "point-in-time",

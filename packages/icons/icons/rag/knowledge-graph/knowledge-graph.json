@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "knowledge",
   "name": "Knowledge graph",
-  "description": "Facts joined to other facts",
+  "description": "A knowledge graph — facts joined to other facts as entities and edges",
   "tags": [
     "entities",
     "edges",

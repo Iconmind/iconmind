@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "ci-cd",
   "name": "Compile",
-  "description": "Source turned into something that runs",
+  "description": "Compile — turn source code into a binary or bundle that actually runs",
   "tags": [
     "build",
     "transform",

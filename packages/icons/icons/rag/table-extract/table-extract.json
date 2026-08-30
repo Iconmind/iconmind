@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "ingestion",
   "name": "Table extract",
-  "description": "The table found inside the page, pulled out whole",
+  "description": "Table extract — the table found inside a page, pulled out whole with its rows",
   "tags": [
     "parse",
     "rows",

@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "multi-agent",
   "name": "Debate",
-  "description": "Two agents, one argument, better answer",
+  "description": "A debate — two agents, one argument, and a better answer at the end",
   "tags": [
     "argue",
     "two",

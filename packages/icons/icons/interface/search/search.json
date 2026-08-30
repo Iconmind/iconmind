@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Search",
-  "description": "Find it by name",
+  "description": "Search — find something by name or keyword with a magnifying-glass lookup",
   "tags": [
     "find",
     "magnifier",

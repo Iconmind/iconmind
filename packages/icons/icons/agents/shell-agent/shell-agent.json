@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Shell agent",
-  "description": "Typing where the prompt blinks",
+  "description": "A shell agent — an agent typing commands where the terminal prompt blinks",
   "tags": [
     "terminal",
     "command",

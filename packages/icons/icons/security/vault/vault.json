@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "secret",
   "name": "Vault",
-  "description": "Where the secrets are kept",
+  "description": "A vault — the locked store where secrets, keys and credentials are kept",
   "tags": [
     "safe",
     "store",

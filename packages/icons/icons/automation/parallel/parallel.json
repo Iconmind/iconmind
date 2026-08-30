@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "Parallel",
-  "description": "Two branches running at once",
+  "description": "Parallel — two branches running at the same time, fanned out then joined",
   "tags": [
     "concurrent",
     "fan-out",

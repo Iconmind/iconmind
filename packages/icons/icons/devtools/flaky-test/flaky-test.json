@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Flaky test",
-  "description": "Passes and fails on the same code",
+  "description": "A flaky test — one that passes and fails on the same code, unreliable and intermittent",
   "tags": [
     "unreliable",
     "intermittent",

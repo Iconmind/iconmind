@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Goal label",
-  "description": "A target beside a label — a goal with a name",
+  "description": "A target beside a label — a goal with a name attached so it can be found",
   "tags": [
     "goal",
     "label",

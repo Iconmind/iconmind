@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Unpin",
-  "description": "Let it move again",
+  "description": "Unpin — let an item move again, released from its fixed place",
   "tags": [
     "release",
     "unfix",

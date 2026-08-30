@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Feature drift",
-  "description": "The column is not what it was in March",
+  "description": "Feature drift — a column that is no longer what it was in March, its distribution wandered",
   "tags": [
     "shift",
     "change",

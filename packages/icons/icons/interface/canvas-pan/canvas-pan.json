@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Pan canvas",
-  "description": "Drag the world, not the thing",
+  "description": "Pan canvas — drag the whole world, not the thing on it, in any of four directions",
   "tags": [
     "move",
     "drag",

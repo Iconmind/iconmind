@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Task steal",
-  "description": "Idle hands take from the busy pile",
+  "description": "Task steal — idle hands take work from the busy pile to balance the load",
   "tags": [
     "balance",
     "take",

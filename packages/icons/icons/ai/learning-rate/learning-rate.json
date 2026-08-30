@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Learning rate",
-  "description": "How big a step to take",
+  "description": "The learning rate — how big a step the optimiser takes, often decayed on a schedule",
   "tags": [
     "step",
     "schedule",

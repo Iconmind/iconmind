@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Percent",
-  "description": "A share of something",
+  "description": "Percent — a share of something, a rate, a discount or a proportion",
   "tags": [
     "rate",
     "share",

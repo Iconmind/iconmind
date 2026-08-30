@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "chunking",
   "name": "Chunk",
-  "description": "One piece of a document, sized for retrieval",
+  "description": "A chunk — one piece of a document, split to a size that suits retrieval and embedding",
   "tags": [
     "piece",
     "split",

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Softmax",
-  "description": "Scores turned into one that wins",
+  "description": "Softmax — raw scores turned into probabilities where one wins",
   "tags": [
     "probability",
     "peak",

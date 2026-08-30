@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Unit test",
-  "description": "One piece, checked on its own",
+  "description": "A unit test — one small piece of code checked on its own, in isolation",
   "tags": [
     "small",
     "isolated",

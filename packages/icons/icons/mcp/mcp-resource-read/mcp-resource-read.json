@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "resource",
   "name": "MCP resource read",
-  "description": "Fetch what the server is offering",
+  "description": "MCP resource read — fetch the contents of a resource the server is offering",
   "tags": [
     "fetch",
     "load",

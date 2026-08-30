@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "human-loop",
   "name": "Approval",
-  "description": "Somebody said yes",
+  "description": "Approval — somebody said yes, a sign-off or consent given on the record",
   "tags": [
     "sign-off",
     "consent",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "identity",
   "name": "Private favourites",
-  "description": "A heart beside a padlock — favourites nobody else can see",
+  "description": "A heart beside a padlock — favourites that nobody else is able to see",
   "tags": [
     "favourites",
     "private",

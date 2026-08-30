@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Menu",
-  "description": "Everything else is in here",
+  "description": "Menu — the hamburger that opens navigation and everything else",
   "tags": [
     "hamburger",
     "nav",

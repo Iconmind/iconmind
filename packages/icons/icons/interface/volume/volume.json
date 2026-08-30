@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "Volume",
-  "description": "How loud",
+  "description": "Volume — how loud the sound is, the speaker level of a device",
   "tags": [
     "sound",
     "audio",

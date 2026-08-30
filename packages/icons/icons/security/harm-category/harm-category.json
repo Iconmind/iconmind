@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Harm category",
-  "description": "Which kind of bad this is",
+  "description": "A harm category — which kind of bad this content is, a class in the safety taxonomy",
   "tags": [
     "taxonomy",
     "class",

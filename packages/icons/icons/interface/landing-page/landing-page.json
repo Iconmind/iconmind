@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Landing page",
-  "description": "A window with a flag inside — the page a visitor lands on",
+  "description": "A window with a flag inside — the page a visitor lands on first",
   "tags": [
     "landing",
     "page",

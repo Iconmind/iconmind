@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Private bookmark",
-  "description": "A padlock beside a bookmark — a bookmark hidden from others",
+  "description": "A padlock beside a bookmark — a bookmark hidden from everyone but you",
   "tags": [
     "bookmark",
     "private",

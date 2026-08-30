@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Mock",
-  "description": "Stands in for the real one",
+  "description": "A mock — a fake that stands in for the real dependency in a test",
   "tags": [
     "fake",
     "stub",

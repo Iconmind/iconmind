@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "package",
   "name": "Dependency",
-  "description": "Something this needs to work",
+  "description": "A dependency — a package or library this code needs in order to work",
   "tags": [
     "requires",
     "package",

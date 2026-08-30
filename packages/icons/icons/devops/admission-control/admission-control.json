@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "orchestration",
   "name": "Admission control",
-  "description": "The boom stays down until there is room",
+  "description": "Admission control — the barrier stays down until there is room for more",
   "tags": [
     "gate",
     "barrier",

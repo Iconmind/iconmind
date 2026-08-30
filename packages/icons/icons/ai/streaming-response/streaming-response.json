@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Streaming response",
-  "description": "The answer arriving as it is written",
+  "description": "A streaming response — the model's answer arriving token by token as it is written",
   "tags": [
     "stream",
     "tokens",

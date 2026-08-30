@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "editor",
   "name": "Editor tab",
-  "description": "One open file among several",
+  "description": "An editor tab — one open file among several in the editor's tab bar",
   "tags": [
     "tab",
     "open",

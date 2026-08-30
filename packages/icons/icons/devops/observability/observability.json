@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "observability",
   "name": "Observability",
-  "description": "Being able to see what the system is doing",
+  "description": "Observability — being able to see what a system is doing through logs, metrics and traces",
   "tags": [
     "watch",
     "monitor",

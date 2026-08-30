@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "multi-agent",
   "name": "Router agent",
-  "description": "The one that decides who gets it",
+  "description": "A router agent — the dispatcher that decides which agent or model gets the request",
   "tags": [
     "dispatch",
     "choose",

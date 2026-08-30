@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Vocabulary",
-  "description": "Every piece the model can say",
+  "description": "Vocabulary — every token piece the model can say, the full list",
   "tags": [
     "tokens",
     "list",

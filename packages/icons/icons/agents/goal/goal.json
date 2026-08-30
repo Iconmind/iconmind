@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "planning",
   "name": "Goal",
-  "description": "What the agent is working toward",
+  "description": "A goal — the target or objective an agent, a team or a project is working toward",
   "tags": [
     "target",
     "objective",

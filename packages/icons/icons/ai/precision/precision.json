@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "evaluation",
   "name": "Precision",
-  "description": "How many of the hits were right",
+  "description": "Precision — how many of the hits were actually right, tight and accurate",
   "tags": [
     "accuracy",
     "tight",

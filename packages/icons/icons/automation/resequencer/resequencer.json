@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "integration",
   "name": "Resequencer",
-  "description": "Arrived jumbled; delivered in order",
+  "description": "A resequencer — messages that arrived jumbled, delivered in order",
   "tags": [
     "order",
     "sort",

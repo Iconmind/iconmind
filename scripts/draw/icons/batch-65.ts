@@ -18,35 +18,35 @@ export const BATCH_65: Icon[] = [
 
   {
     slug: "token-in", category: "ai", subcategory: "inference",
-    name: "Token in", description: "One more word, entering",
+    name: "Token in", description: "Token in — one more word entering the model, a prompt token on its way in",
     tags: ["input", "prompt", "enter"], family: "arrow",
     aliases: ["input-token"], keywords: ["input tokens", "prompt tokens"],
     shapes: [disc(4, 12, 2), poly([[7.5, 9.5], [10, 12], [7.5, 14.5]]), rect(13, 5, 8, 14, 2)],
   },
   {
     slug: "token-out", category: "ai", subcategory: "inference",
-    name: "Token out", description: "One more word, leaving",
+    name: "Token out", description: "Token out — one more word leaving the model, a completion token on its way out",
     tags: ["output", "completion", "exit"], family: "arrow",
     aliases: ["output-token"], keywords: ["output tokens", "completion tokens"],
     shapes: [rect(3, 5, 9, 14, 2), poly([[14.5, 9.5], [17, 12], [14.5, 14.5]]), disc(20, 12, 2)],
   },
   {
     slug: "byte-pair", category: "ai", subcategory: "inference",
-    name: "Byte pair", description: "Two pieces that keep appearing together",
+    name: "Byte pair", description: "Byte-pair encoding — two pieces that keep appearing together are merged into one token",
     tags: ["bpe", "merge", "pair"], family: "figure",
     aliases: ["bpe"], keywords: ["byte pair encoding", "bpe merge"],
     shapes: [disc(6, 9, 3), disc(18, 9, 3), poly([[6, 14], [6, 17], [18, 17], [18, 14]])],
   },
   {
     slug: "vocabulary", category: "ai", subcategory: "inference",
-    name: "Vocabulary", description: "Every piece the model can say",
+    name: "Vocabulary", description: "Vocabulary — every token piece the model can say, the full list",
     tags: ["tokens", "list", "all"], family: "window",
     aliases: ["vocab"], keywords: ["vocabulary", "token vocab"],
     shapes: [rect(3, 4, 18, 16, 2), disc(8, 9, 1), disc(16, 9, 1), disc(8, 15, 1), disc(16, 15, 1)],
   },
   {
     slug: "embedding-compare", category: "ai", subcategory: "inference",
-    name: "Embedding compare", description: "How close two meanings sit",
+    name: "Embedding compare", description: "Embedding compare — how close two meanings sit, the cosine between a pair of vectors",
     tags: ["similarity", "cosine", "pair"], family: "figure",
     aliases: ["cosine-similarity"], keywords: ["embedding similarity", "cosine"],
     shapes: [
@@ -57,7 +57,7 @@ export const BATCH_65: Icon[] = [
   },
   {
     slug: "embedding-drift", category: "ai", subcategory: "inference",
-    name: "Embedding drift", description: "The same word, slowly moving house",
+    name: "Embedding drift", description: "Embedding drift — the same word slowly moving house as its vector shifts over time",
     tags: ["shift", "wander", "vector"], family: "figure",
     aliases: [], keywords: ["embedding drift", "vector drift"],
     shapes: [
@@ -67,7 +67,7 @@ export const BATCH_65: Icon[] = [
   },
   {
     slug: "pooling", category: "ai", subcategory: "inference",
-    name: "Pooling", description: "Many vectors, folded into one",
+    name: "Pooling", description: "Pooling — many token vectors folded into one by averaging or taking the max",
     tags: ["reduce", "average", "one"], family: "figure",
     aliases: ["mean-pooling"], keywords: ["pooling", "mean pool"],
     shapes: [
@@ -78,28 +78,28 @@ export const BATCH_65: Icon[] = [
   },
   {
     slug: "probability-curve", category: "ai", subcategory: "inference",
-    name: "Probability curve", description: "Where the mass of belief sits",
+    name: "Probability curve", description: "A probability curve — where the mass of belief sits across the possible next tokens",
     tags: ["bell", "softmax", "distribution"], family: "chart",
     aliases: ["softmax-curve"], keywords: ["probability distribution", "softmax"],
     shapes: [arc(12, 14, 8, 180, 0), row(18, 3, 21)],
   },
   {
     slug: "activation", category: "ai", subcategory: "training",
-    name: "Activation", description: "Nothing, nothing, then everything",
+    name: "Activation", description: "An activation — nothing, nothing, then everything, the nonlinear fire of a ReLU",
     tags: ["relu", "nonlinear", "fire"], family: "chart",
     aliases: ["relu"], keywords: ["activation function", "relu"],
     shapes: [poly([[3, 3], [3, 21], [21, 21]]), poly([[5, 17], [12, 17], [19, 10]])],
   },
   {
     slug: "transformer-block", category: "ai", subcategory: "model",
-    name: "Transformer block", description: "Attention, then the thinking layer, stacked",
+    name: "Transformer block", description: "A transformer block — attention, then the thinking layer, stacked again and again",
     tags: ["layer", "attention", "mlp"], family: "window",
     aliases: [], keywords: ["transformer block", "attention layer"],
     shapes: [rect(3, 3, 18, 18, 2), rect(7, 8, 10, 4, 2), row(15.5, 8, 16)],
   },
   {
     slug: "encoder-decoder", category: "ai", subcategory: "model",
-    name: "Encoder-decoder", description: "One side reads; the other writes",
+    name: "Encoder-decoder", description: "Encoder-decoder — one side reads the input and the other writes the output, a seq2seq pair",
     tags: ["seq2seq", "two", "translate"], family: "window",
     aliases: ["seq2seq"], keywords: ["encoder decoder", "seq2seq"],
     shapes: [
@@ -109,7 +109,7 @@ export const BATCH_65: Icon[] = [
   },
   {
     slug: "cross-attention", category: "ai", subcategory: "inference",
-    name: "Cross-attention", description: "Each side looking at the other",
+    name: "Cross-attention", description: "Cross-attention — each side looking at the other, the decoder attending over the encoder",
     tags: ["attend", "across", "pair"], family: "figure",
     aliases: [], keywords: ["cross attention", "encoder attention"],
     shapes: [
@@ -119,7 +119,7 @@ export const BATCH_65: Icon[] = [
   },
   {
     slug: "attention-mask", category: "ai", subcategory: "inference",
-    name: "Attention mask", description: "You may not look ahead",
+    name: "Attention mask", description: "An attention mask — you may not look ahead, the causal triangle that hides future tokens",
     tags: ["causal", "triangle", "hide"], family: "window",
     aliases: ["causal-mask"], keywords: ["attention mask", "causal masking"],
     shapes: [
@@ -129,14 +129,14 @@ export const BATCH_65: Icon[] = [
   },
   {
     slug: "attention-sink", category: "ai", subcategory: "inference",
-    name: "Attention sink", description: "The first token soaks it all up",
+    name: "Attention sink", description: "An attention sink — the first token soaks up the attention that has nowhere else to go",
     tags: ["first", "absorb", "heavy"], family: "figure",
     aliases: [], keywords: ["attention sink", "first token"],
     shapes: [disc(6.5, 12, 4.5), disc(14, 12, 1), disc(17.5, 12, 1), disc(21, 12, 1)],
   },
   {
     slug: "positional-encoding", category: "ai", subcategory: "inference",
-    name: "Positional encoding", description: "Every token knows its seat",
+    name: "Positional encoding", description: "Positional encoding — every token knows its seat in the sequence through a wave of positions",
     tags: ["position", "wave", "order"], family: "figure",
     aliases: [], keywords: ["positional encoding", "position embedding"],
     shapes: [
@@ -149,21 +149,21 @@ export const BATCH_65: Icon[] = [
 
   {
     slug: "context-handout", category: "agents", subcategory: "communication",
-    name: "Context handout", description: "Here is what I know; take it with you",
+    name: "Context handout", description: "Context handout — here is what I know, take it with you when you go to the next agent",
     tags: ["pass", "share", "page"], family: "orbit",
     aliases: [], keywords: ["context handoff", "share context"],
     shapes: [arc(5.5, 5.5, 3.5, 295, 245), rect(8.5, 8.5, 7, 7, 2), arc(18.5, 18.5, 3.5, 295, 245)],
   },
   {
     slug: "context-inherit", category: "agents", subcategory: "communication",
-    name: "Context inherit", description: "Born knowing what the parent knew",
+    name: "Context inherit", description: "Context inherit — a child agent born knowing what its parent knew",
     tags: ["child", "inherit", "page"], family: "orbit",
     aliases: [], keywords: ["inherit context", "child context"],
     shapes: [arc(12, 6, 4, 295, 245), col(12, 10, 13), rect(8.5, 13, 7, 7, 2)],
   },
   {
     slug: "sandbox-escape-alert", category: "agents", subcategory: "execution",
-    name: "Sandbox escape", description: "It is outside the box, and the box knows",
+    name: "Sandbox escape", description: "Sandbox escape alert — something is outside the box, and the box knows",
     tags: ["escape", "alarm", "breach"], family: "orbit",
     aliases: [], keywords: ["sandbox escape", "containment breach"],
     shapes: [
@@ -173,7 +173,7 @@ export const BATCH_65: Icon[] = [
   },
   {
     slug: "scroll-agent", category: "agents", subcategory: "execution",
-    name: "Scroll agent", description: "It reads the way people read — down",
+    name: "Scroll agent", description: "A scroll agent — an agent that reads the way people read, scrolling down the page",
     tags: ["browse", "scroll", "page"], family: "orbit",
     aliases: [], keywords: ["scrolling agent", "browse page"],
     shapes: [
@@ -183,14 +183,14 @@ export const BATCH_65: Icon[] = [
   },
   {
     slug: "shell-agent", category: "agents", subcategory: "execution",
-    name: "Shell agent", description: "Typing where the prompt blinks",
+    name: "Shell agent", description: "A shell agent — an agent typing commands where the terminal prompt blinks",
     tags: ["terminal", "command", "run"], family: "orbit",
     aliases: ["terminal-agent"], keywords: ["shell agent", "cli agent"],
     shapes: [arc(7, 8, 4, 295, 245), poly([[13, 12], [16.5, 15.5], [13, 19]]), row(19, 18.5, 21.5)],
   },
   {
     slug: "code-agent", category: "agents", subcategory: "execution",
-    name: "Code agent", description: "Writes the code, then reads it back",
+    name: "Code agent", description: "A code agent — writes the code, then reads it back to check it",
     tags: ["code", "write", "brackets"], family: "orbit",
     aliases: ["coding-agent"], keywords: ["code agent", "coding assistant"],
     shapes: [
@@ -200,14 +200,14 @@ export const BATCH_65: Icon[] = [
   },
   {
     slug: "test-agent", category: "agents", subcategory: "execution",
-    name: "Test agent", description: "Runs the suite so nobody has to remember",
+    name: "Test agent", description: "A test agent — runs the test suite so nobody has to remember to",
     tags: ["test", "run", "verify"], family: "orbit",
     aliases: [], keywords: ["testing agent", "qa agent"],
     shapes: [arc(7, 7, 4, 295, 245), poly([[12, 11], [17, 16], [12, 21]], true)],
   },
   {
     slug: "deploy-agent", category: "agents", subcategory: "execution",
-    name: "Deploy agent", description: "Ships it, and watches it land",
+    name: "Deploy agent", description: "A deploy agent — ships the release and watches it land in production",
     tags: ["ship", "release", "up"], family: "orbit",
     aliases: [], keywords: ["deploy agent", "release agent"],
     shapes: [
@@ -217,14 +217,14 @@ export const BATCH_65: Icon[] = [
   },
   {
     slug: "summarize-agent", category: "agents", subcategory: "execution",
-    name: "Summarise agent", description: "Long in, short out",
+    name: "Summarise agent", description: "A summarise agent — long text in, a short digest out, the gist kept",
     tags: ["shorten", "digest", "rows"], family: "orbit",
     aliases: ["summary-agent"], keywords: ["summarizer", "digest agent"],
     shapes: [arc(6, 12, 3.5, 295, 245), row(7, 12, 21), row(12, 12, 18), row(17, 12, 15)],
   },
   {
     slug: "email-agent", category: "agents", subcategory: "communication",
-    name: "Email agent", description: "Reads the inbox so you can not",
+    name: "Email agent", description: "An email agent — reads the inbox and drafts replies so you do not have to",
     tags: ["mail", "inbox", "reply"], family: "orbit",
     aliases: [], keywords: ["email agent", "inbox assistant"],
     shapes: [
@@ -234,7 +234,7 @@ export const BATCH_65: Icon[] = [
   },
   {
     slug: "triage-agent", category: "agents", subcategory: "execution",
-    name: "Triage agent", description: "Sorts the pile before anyone opens it",
+    name: "Triage agent", description: "A triage agent — sorts the pile by priority before anyone opens it",
     tags: ["sort", "funnel", "priority"], family: "orbit",
     aliases: [], keywords: ["triage agent", "ticket sorting"],
     shapes: [
@@ -244,14 +244,14 @@ export const BATCH_65: Icon[] = [
   },
   {
     slug: "red-team-agent", category: "agents", subcategory: "execution",
-    name: "Red team agent", description: "Paid to break it first",
+    name: "Red team agent", description: "A red team agent — paid to break the system first, an attacking probe",
     tags: ["attack", "probe", "bolt"], family: "orbit",
     aliases: [], keywords: ["red team", "attacker agent"],
     shapes: [arc(7, 7, 4, 295, 245), poly([[18, 10], [13.5, 14.5], [16, 14.5], [11.5, 19]])],
   },
   {
     slug: "blue-team-agent", category: "agents", subcategory: "execution",
-    name: "Blue team agent", description: "Paid to keep it standing",
+    name: "Blue team agent", description: "A blue team agent — paid to keep the system standing, a defending guard",
     tags: ["defend", "shield", "guard"], family: "orbit",
     aliases: [], keywords: ["blue team", "defender agent"],
     shapes: [
@@ -261,28 +261,28 @@ export const BATCH_65: Icon[] = [
   },
   {
     slug: "leader-elect", category: "agents", subcategory: "multi-agent",
-    name: "Leader election", description: "One of them wears the crown, for now",
+    name: "Leader election", description: "Leader election — one of the nodes wears the crown for now, chosen to lead",
     tags: ["leader", "crown", "chosen"], family: "orbit",
     aliases: [], keywords: ["leader election", "elected agent"],
     shapes: [poly([[8, 7.5], [10, 5.5], [12, 7.5], [14, 5.5], [16, 7.5]]), arc(12, 14.5, 5.5, 295, 245)],
   },
   {
     slug: "agent-market", category: "agents", subcategory: "multi-agent",
-    name: "Agent market", description: "Where agents are bought by the hour",
+    name: "Agent market", description: "An agent market — where agents are hired by the hour and traded for coin",
     tags: ["hire", "coin", "trade"], family: "orbit",
     aliases: ["agent-marketplace"], keywords: ["agent marketplace", "hire agents"],
     shapes: [arc(7, 7, 4, 295, 245), disc(16, 16, 5), disc(16, 16, 2)],
   },
   {
     slug: "subscribe-agent", category: "agents", subcategory: "communication",
-    name: "Subscribe agent", description: "Wake me when something changes",
+    name: "Subscribe agent", description: "A subscribe agent — wake me when something changes, an agent listening to a feed",
     tags: ["feed", "listen", "updates"], family: "orbit",
     aliases: [], keywords: ["subscribe", "event listener agent"],
     shapes: [arc(7, 7, 4, 295, 245), arc(13, 18, 3, -90, 0), arc(13, 18, 6, -90, 0), disc(13, 18, 1)],
   },
   {
     slug: "vote-quorum", category: "agents", subcategory: "multi-agent",
-    name: "Quorum", description: "Enough of them agreed to count",
+    name: "Quorum", description: "A quorum — enough of the agents agreed for the vote to count",
     tags: ["vote", "enough", "agree"], family: "orbit",
     aliases: ["agent-quorum"], keywords: ["quorum", "majority vote"],
     shapes: [
@@ -292,7 +292,7 @@ export const BATCH_65: Icon[] = [
   },
   {
     slug: "debate", category: "agents", subcategory: "multi-agent",
-    name: "Debate", description: "Two agents, one argument, better answer",
+    name: "Debate", description: "A debate — two agents, one argument, and a better answer at the end",
     tags: ["argue", "two", "bolt"], family: "orbit",
     aliases: ["agent-debate"], keywords: ["debate", "adversarial agents"],
     shapes: [
@@ -305,42 +305,42 @@ export const BATCH_65: Icon[] = [
 
   {
     slug: "gradient-fill", category: "interface", subcategory: "action",
-    name: "Gradient fill", description: "Dense to sparse, left to right",
+    name: "Gradient fill", description: "A gradient fill — dense to sparse, left to right, a fade across a shape",
     tags: ["fade", "fill", "shade"], family: "window",
     aliases: [], keywords: ["gradient", "gradient fill"],
     shapes: [rect(3, 7, 18, 10, 2), disc(6, 12, 1), disc(9, 12, 1), disc(13, 12, 1), disc(18, 12, 1)],
   },
   {
     slug: "layer-lock", category: "interface", subcategory: "layout",
-    name: "Lock layer", description: "This one cannot be nudged by accident",
+    name: "Lock layer", description: "Lock layer — this layer cannot be nudged by accident, fixed in place",
     tags: ["lock", "layer", "fixed"], family: "figure",
     aliases: [], keywords: ["lock layer", "locked object"],
     shapes: [rect(4, 2, 16, 3, 1.5), rect(8.5, 13, 7, 6.5, 2), arc(12, 13, 2.5, 180, 360)],
   },
   {
     slug: "align-left-obj", category: "interface", subcategory: "layout",
-    name: "Align left", description: "Every edge to the same line",
+    name: "Align left", description: "Align left — every object's left edge moved to the same line",
     tags: ["align", "edge", "left"], family: "figure",
     aliases: [], keywords: ["align left", "left edge"],
     shapes: [col(3, 3, 21), row(7, 5.5, 15), row(12, 5.5, 19), row(17, 5.5, 12)],
   },
   {
     slug: "snap-grid", category: "interface", subcategory: "layout",
-    name: "Snap to grid", description: "Let go, and it lands on the dots",
+    name: "Snap to grid", description: "Snap to grid — let go, and the object lands exactly on the dots",
     tags: ["grid", "snap", "magnet"], family: "figure",
     aliases: [], keywords: ["snap to grid", "grid snapping"],
     shapes: [disc(5, 5, 1), disc(19, 5, 1), disc(5, 19, 1), disc(19, 19, 1), rect(8.5, 8.5, 7, 7, 2)],
   },
   {
     slug: "ruler", category: "interface", subcategory: "layout",
-    name: "Ruler", description: "Twelve exactly, not about twelve",
+    name: "Ruler", description: "A ruler — twelve exactly, not about twelve, measured with ticks",
     tags: ["measure", "ticks", "length"], family: "figure",
     aliases: [], keywords: ["ruler", "measure"],
     shapes: [rect(2, 8, 20, 8, 4), col(6, 8, 11.5), col(10, 8, 11.5), col(14, 8, 11.5), col(18, 8, 11.5)],
   },
   {
     slug: "artboard", category: "interface", subcategory: "layout",
-    name: "Artboard", description: "The canvas, with its corners marked",
+    name: "Artboard", description: "An artboard — the canvas with its corners marked, the frame you design inside",
     tags: ["canvas", "frame", "marks"], family: "window",
     aliases: [], keywords: ["artboard", "canvas frame"],
     shapes: [
@@ -351,7 +351,7 @@ export const BATCH_65: Icon[] = [
   },
   {
     slug: "canvas-pan", category: "interface", subcategory: "action",
-    name: "Pan canvas", description: "Drag the world, not the thing",
+    name: "Pan canvas", description: "Pan canvas — drag the whole world, not the thing on it, in any of four directions",
     tags: ["move", "drag", "four-way"], family: "arrow",
     aliases: ["pan"], keywords: ["pan", "move canvas"],
     shapes: [
@@ -362,21 +362,21 @@ export const BATCH_65: Icon[] = [
   },
   {
     slug: "zoom-fit", category: "interface", subcategory: "action",
-    name: "Zoom to fit", description: "All of it, exactly on screen",
+    name: "Zoom to fit", description: "Zoom to fit — all of it exactly on screen, the whole drawing in view",
     tags: ["zoom", "fit", "whole"], family: "window",
     aliases: [], keywords: ["zoom to fit", "fit to screen"],
     shapes: [rect(3, 3, 18, 18, 2), disc(11, 11, 4), poly([[14, 14], [17, 17]])],
   },
   {
     slug: "handle-resize", category: "interface", subcategory: "action",
-    name: "Resize handle", description: "Pull the corner; the box follows",
+    name: "Resize handle", description: "A resize handle — pull the corner and the box follows to its new size",
     tags: ["resize", "corner", "drag"], family: "window",
     aliases: [], keywords: ["resize handle", "drag corner"],
     shapes: [rect(3, 3, 13, 13, 2), poly([[16, 16], [20.5, 20.5]]), poly([[16.5, 20.5], [20.5, 20.5], [20.5, 16.5]])],
   },
   {
     slug: "flip-h", category: "interface", subcategory: "action",
-    name: "Flip horizontal", description: "Its mirror twin, across the line",
+    name: "Flip horizontal", description: "Flip horizontal — the mirror twin of an object across a vertical line",
     tags: ["mirror", "flip", "reflect"], family: "figure",
     aliases: [], keywords: ["flip horizontal", "mirror"],
     shapes: [poly([[3, 6], [9, 12], [3, 18]], true), col(12, 4, 20), poly([[21, 6], [15, 12], [21, 18]], true)],
@@ -386,49 +386,49 @@ export const BATCH_65: Icon[] = [
 
   {
     slug: "packet-loss", category: "devops", subcategory: "observability",
-    name: "Packet loss", description: "One of them never arrived",
+    name: "Packet loss", description: "Packet loss — one of the packets never arrived, a gap in the network stream",
     tags: ["dropped", "network", "gap"], family: "figure",
     aliases: [], keywords: ["packet loss", "dropped packets"],
     shapes: [disc(5, 8, 2), disc(11, 8, 2), disc(19, 8, 2), row(14, 2, 22)],
   },
   {
     slug: "significance-test", category: "analytics", subcategory: "experiment",
-    name: "Significance", description: "The difference is real, not luck",
+    name: "Significance", description: "A significance test — the difference is real, not luck, confirmed by the statistics",
     tags: ["stats", "confirmed", "gap"], family: "chart",
     aliases: ["stat-sig"], keywords: ["statistical significance", "p < 0.05"],
     shapes: [col(7, 8, 19), col(17, 12, 19), row(21.5, 4, 20), poly([[9.5, 4.5], [11.5, 6.5], [15, 3]])],
   },
   {
     slug: "marginal-roi", category: "analytics", subcategory: "metric",
-    name: "Marginal ROI", description: "Each extra coin buys a little less",
+    name: "Marginal ROI", description: "Marginal ROI — each extra coin spent buys a little less than the one before",
     tags: ["diminishing", "return", "coin"], family: "chart",
     aliases: ["diminishing-returns"], keywords: ["marginal roi", "diminishing returns"],
     shapes: [col(5, 10, 19), col(11, 13, 19), col(17, 16, 19), row(21.5, 3, 21), disc(12, 5, 3)],
   },
   {
     slug: "trend-break", category: "analytics", subcategory: "chart",
-    name: "Trend break", description: "It was rising; then it was not",
+    name: "Trend break", description: "A trend break — it was rising, and then it was not, the line reversed",
     tags: ["snap", "reverse", "line"], family: "chart",
     aliases: [], keywords: ["trend break", "trend reversal"],
     shapes: [poly([[3, 15], [11, 7]]), poly([[13, 9], [19, 15]]), row(19, 3, 21)],
   },
   {
     slug: "durable-object", category: "cloud", subcategory: "storage",
-    name: "Durable object", description: "Anchored; it will be here tomorrow",
+    name: "Durable object", description: "A durable object — anchored state that will still be here tomorrow",
     tags: ["persist", "anchor", "state"], family: "figure",
     aliases: [], keywords: ["durable object", "persistent state"],
     shapes: [disc(12, 5, 2), col(12, 7, 20), row(10, 8, 16), arc(12, 15, 5, 0, 180)],
   },
   {
     slug: "reserved-discount", category: "cloud", subcategory: "cost",
-    name: "Reserved discount", description: "Cheaper, because you promised",
+    name: "Reserved discount", description: "A reserved discount — cheaper because you promised to keep using it",
     tags: ["price", "tag", "commit"], family: "figure",
     aliases: [], keywords: ["reserved pricing", "commitment discount"],
     shapes: [disc(8, 10, 5), disc(8, 10, 2), poly([[14, 13], [19, 13], [21.5, 15.5], [19, 18], [14, 18]], true)],
   },
   {
     slug: "message-split", category: "automation", subcategory: "integration",
-    name: "Message split", description: "One in, two out, each its own way",
+    name: "Message split", description: "Message split — one message in, two out, each routed its own way",
     tags: ["fork", "divide", "route"], family: "arrow",
     aliases: ["splitter-flow"], keywords: ["message splitter", "fan out message"],
     shapes: [

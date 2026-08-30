@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "file",
   "name": "Folder off",
-  "description": "This folder is not available",
+  "description": "Folder off — this folder is missing, disabled or excluded from view",
   "tags": [
     "missing",
     "disabled",

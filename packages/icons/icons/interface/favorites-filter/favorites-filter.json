@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Favourites filter",
-  "description": "A funnel beside a heart — show only favourites",
+  "description": "A funnel beside a heart — show only the favourites and hide the rest",
   "tags": [
     "filter",
     "favourites",

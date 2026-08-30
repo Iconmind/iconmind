@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "package",
   "name": "Bundle analyze",
-  "description": "What is actually taking the space",
+  "description": "Bundle analyse — a treemap of what is actually taking the space in a bundle",
   "tags": [
     "treemap",
     "size",

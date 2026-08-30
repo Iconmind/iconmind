@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "communication",
   "name": "Agent negotiation",
-  "description": "Two of them working it out",
+  "description": "Agent negotiation — two agents bargaining and exchanging until they agree",
   "tags": [
     "bargain",
     "exchange",

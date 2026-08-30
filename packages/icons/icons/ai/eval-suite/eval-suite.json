@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "evaluation",
   "name": "Eval suite",
-  "description": "A whole set of checks, run together",
+  "description": "An eval suite — a whole battery of checks run together as one harness",
   "tags": [
     "tests",
     "battery",

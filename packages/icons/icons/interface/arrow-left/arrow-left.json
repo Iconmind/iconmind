@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "arrow",
   "name": "Arrow left",
-  "description": "That way, back",
+  "description": "An arrow pointing left — go back, move west or return to the previous screen",
   "tags": [
     "left",
     "back",

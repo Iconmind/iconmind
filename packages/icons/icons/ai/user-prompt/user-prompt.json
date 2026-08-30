@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "prompt",
   "name": "User prompt",
-  "description": "What the person actually asked",
+  "description": "A user prompt — what the person actually asked, the human turn in a chat",
   "tags": [
     "question",
     "input",

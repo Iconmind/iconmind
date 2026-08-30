@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "compute",
   "name": "Node cluster",
-  "description": "Machines acting as one",
+  "description": "A node cluster — machines grouped together to act as one system",
   "tags": [
     "fleet",
     "group",

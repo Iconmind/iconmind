@@ -18,21 +18,21 @@ export const BATCH_40: Icon[] = [
 
   {
     slug: "build-pass", category: "devops", subcategory: "ci-cd",
-    name: "Build pass", description: "It compiled, and the tests agreed",
+    name: "Build pass", description: "Build pass — it compiled and the tests agreed, green and successful",
     tags: ["green", "success", "ok"], family: "window",
     aliases: [], keywords: ["green build", "passing", "ci success", "all checks"],
     shapes: [...brick(), ...check(SMALL, 10), row(19, 7, 17)],
   },
   {
     slug: "build-fail", category: "devops", subcategory: "ci-cd",
-    name: "Build fail", description: "It did not",
+    name: "Build fail", description: "Build fail — the build broke, red with an error that has to be fixed",
     tags: ["red", "broken", "error"], family: "window",
     aliases: [], keywords: ["red build", "broken", "ci failure", "fix the build"],
     shapes: [...brick(), ...off(SMALL, 10), row(19, 7, 17)],
   },
   {
     slug: "cold-start", category: "cloud", subcategory: "serverless",
-    name: "Cold start", description: "The first call pays for waking it",
+    name: "Cold start", description: "A cold start — the first call pays the latency of waking a function up",
     tags: ["latency", "wake", "first"], family: "machine",
     aliases: ["cold-boot"], keywords: ["lambda cold start", "wake up", "first request", "warm up"],
     // A lightning bolt needs angles this set does not have. The set's word for a machine
@@ -42,7 +42,7 @@ export const BATCH_40: Icon[] = [
   },
   {
     slug: "feature-flag", category: "devops", subcategory: "release",
-    name: "Feature flag", description: "On for some, off for the rest",
+    name: "Feature flag", description: "A feature flag — a toggle that is on for some users and off for the rest",
     tags: ["toggle", "gradual", "switch"], family: "figure",
     aliases: [], keywords: ["toggle", "kill switch", "gradual release", "a/b", "on off"],
     shapes: [rect(2, 2, 20, 8, 4), disc(18, 6, 2), rect(2, 14, 20, 8, 4), disc(6, 18, 2)],
@@ -52,21 +52,21 @@ export const BATCH_40: Icon[] = [
 
   {
     slug: "edge-node", category: "cloud", subcategory: "edge",
-    name: "Edge node", description: "A machine out where the users are",
+    name: "Edge node", description: "An edge node — a machine out where the users are, a point of presence",
     tags: ["near", "pop", "local"], family: "figure",
     aliases: [], keywords: ["point of presence", "near users", "regional", "close", "pop"],
     shapes: [rect(2, 4, 9, 16, 2), row(12, 11, 16), disc(19, 12, 2)],
   },
   {
     slug: "edge-cache", category: "cloud", subcategory: "edge",
-    name: "Edge cache", description: "The copy kept out there",
+    name: "Edge cache", description: "An edge cache — a copy of content kept out at the edge near users",
     tags: ["cdn", "copy", "near"], family: "figure",
     aliases: [], keywords: ["cdn cache", "cached at edge", "regional copy", "ttl", "purge"],
     shapes: [rect(2, 4, 9, 16, 2), row(12, 11, 15), rect(15, 8, 7, 8, 2), row(12, 17, 20)],
   },
   {
     slug: "edge-function", category: "cloud", subcategory: "edge",
-    name: "Edge function", description: "Code that runs out there",
+    name: "Edge function", description: "An edge function — code that runs out at the edge, a worker near the user",
     tags: ["worker", "compute", "near"], family: "figure",
     aliases: [], keywords: ["edge worker", "cloudflare worker", "run near user", "v8 isolate"],
     shapes: [
@@ -79,21 +79,21 @@ export const BATCH_40: Icon[] = [
 
   {
     slug: "agent-working", category: "agents", subcategory: "lifecycle",
-    name: "Agent working", description: "Busy on it now",
+    name: "Agent working", description: "Agent working — the agent is busy on the task right now and will report back",
     tags: ["busy", "active", "running"], family: "orbit",
     aliases: [], keywords: ["busy", "in progress", "thinking", "active", "running"],
     shapes: [disc(12, 12, 8), ...working()],
   },
   {
     slug: "agent-done", category: "agents", subcategory: "lifecycle",
-    name: "Agent done", description: "Finished, and it went well",
+    name: "Agent done", description: "Agent done — the agent finished its task, and it went well from start to end",
     tags: ["complete", "finished", "ok"], family: "orbit",
     aliases: [], keywords: ["complete", "finished", "task done", "success", "wrapped up"],
     shapes: [rect(3, 3, 18, 18, 2), ...check()],
   },
   {
     slug: "handoff", category: "agents", subcategory: "communication",
-    name: "Handoff", description: "Yours now",
+    name: "Handoff", description: "A handoff — yours now, work transferred from one party to another",
     tags: ["transfer", "pass", "over-to"], family: "figure",
     aliases: [], keywords: ["pass to", "transfer", "escalate", "over to you", "baton"],
     shapes: [
@@ -103,7 +103,7 @@ export const BATCH_40: Icon[] = [
   },
   {
     slug: "delegate", category: "agents", subcategory: "multi-agent",
-    name: "Delegate", description: "Handed down, not over",
+    name: "Delegate", description: "Delegate — hand work down to a helper agent, not over to a peer",
     tags: ["assign", "down", "give"], family: "figure",
     aliases: ["assign"], keywords: ["assign", "give work", "farm out", "to a subagent"],
     shapes: [
@@ -116,28 +116,28 @@ export const BATCH_40: Icon[] = [
 
   {
     slug: "data-validation", category: "data", subcategory: "quality",
-    name: "Data validation", description: "Checked against the shape it must have",
+    name: "Data validation", description: "Data validation — records checked against the shape and rules they must satisfy",
     tags: ["valid", "schema", "checked"], family: "figure",
     aliases: ["validate-data"], keywords: ["schema check", "valid rows", "constraint", "type check", "clean"],
     shapes: [rect(2, 3, 20, 7, 2), rect(2, 13, 20, 7, 2), poly([[9, 16], [11, 18], [15, 14]]), row(6.5, 5, 19)],
   },
   {
     slug: "deduplicate", category: "data", subcategory: "quality",
-    name: "Deduplicate", description: "Two of the same become one",
+    name: "Deduplicate", description: "Deduplicate — two of the same become one, distinct and unique rows",
     tags: ["unique", "merge", "distinct"], family: "figure",
     aliases: ["dedupe-data"], keywords: ["distinct", "unique rows", "remove copies", "merge same"],
     shapes: [rect(2, 4, 11, 10, 2), rect(11, 10, 11, 10, 2)],
   },
   {
     slug: "enrich", category: "data", subcategory: "transform",
-    name: "Enrich", description: "The same rows, with more on them",
+    name: "Enrich", description: "Enrich — the same rows with more information joined on to them",
     tags: ["augment", "join-in", "add"], family: "figure",
     aliases: ["augment"], keywords: ["add columns", "augment", "lookup", "joined in", "richer"],
     shapes: [rect(2, 4, 13, 16, 2), row(9, 4, 13), row(14, 4, 13), col(19, 8, 12), row(10, 17, 21), row(16, 17, 21)],
   },
   {
     slug: "index-data", category: "data", subcategory: "storage",
-    name: "Index", description: "The fast way to find a row",
+    name: "Index", description: "An index — the fast way to find a row without scanning everything",
     tags: ["lookup", "btree", "fast"], family: "figure",
     aliases: [], keywords: ["database index", "btree", "lookup", "fast find", "key"],
     shapes: [rect(2, 4, 14, 16, 2), row(9, 4, 16), row(14, 4, 16), poly([[19, 6], [19, 18]]), poly([[17, 16], [19, 18], [21, 16]])],
@@ -147,7 +147,7 @@ export const BATCH_40: Icon[] = [
 
   {
     slug: "hallucination", category: "ai", subcategory: "safety",
-    name: "Hallucination", description: "Said with confidence, true of nothing",
+    name: "Hallucination", description: "A hallucination — an answer said with confidence that is true of nothing, invented",
     tags: ["false", "invented", "confab"], family: "figure",
     aliases: [], keywords: ["made up", "confabulation", "false claim", "ungrounded", "invented"],
     // A speech bubble whose anchor points at nothing: the tail is separated from the body.
@@ -156,7 +156,7 @@ export const BATCH_40: Icon[] = [
   },
   {
     slug: "bias-check", category: "ai", subcategory: "safety",
-    name: "Bias check", description: "Does it treat like cases alike?",
+    name: "Bias check", description: "A bias check — does the model treat like cases alike, a fairness audit",
     tags: ["fairness", "audit", "even"], family: "figure",
     aliases: ["fairness"], keywords: ["fairness", "disparate impact", "audit", "equal treatment"],
     // A balance drawn without pans is a clothes hanger. "Treats like cases alike" is an
@@ -165,14 +165,14 @@ export const BATCH_40: Icon[] = [
   },
   {
     slug: "llm-trace", category: "analytics", subcategory: "llm-observability",
-    name: "LLM trace", description: "Every step the call took, laid out",
+    name: "LLM trace", description: "An LLM trace — every step a model call took, laid out as spans to inspect",
     tags: ["spans", "waterfall", "inspect"], family: "figure",
     aliases: ["llm-observability"], keywords: ["trace view", "spans", "latency breakdown", "langsmith", "inspect"],
     shapes: [col(4, 3, 21), row(7, 7, 14), row(12, 10, 18), row(17, 13, 21)],
   },
   {
     slug: "golden-set", category: "ai", subcategory: "evaluation",
-    name: "Golden set", description: "The answers you trust enough to grade with",
+    name: "Golden set", description: "A golden set — the reference answers you trust enough to grade against",
     tags: ["reference", "ground-truth", "eval"], family: "window",
     aliases: ["ground-truth"], keywords: ["ground truth", "reference answers", "eval set", "labelled"],
     shapes: [rect(2, 4, 20, 16, 2), row(9, 6, 14), poly([[16, 8], [18, 10], [21, 7]]), row(14, 6, 14), poly([[16, 13], [18, 15], [21, 12]])],
@@ -182,21 +182,21 @@ export const BATCH_40: Icon[] = [
 
   {
     slug: "eyedropper", category: "interface", subcategory: "media",
-    name: "Eyedropper", description: "Pick the colour off the page",
+    name: "Eyedropper", description: "An eyedropper — pick a colour straight off the page and reuse it",
     tags: ["pick", "sample", "colour"], family: "figure",
     aliases: ["color-picker"], keywords: ["colour picker", "sample", "pipette", "pick from image"],
     shapes: [disc(16, 7, 3), poly([[14, 9], [7, 16]]), disc(4.5, 18.5, 1)],
   },
   {
     slug: "grid-view", category: "interface", subcategory: "layout",
-    name: "Grid view", description: "Everything as tiles",
+    name: "Grid view", description: "Grid view — everything shown as tiles or cards in a gallery layout",
     tags: ["tiles", "cards", "gallery"], family: "window",
     aliases: [], keywords: ["tiles", "cards", "gallery view", "thumbnails", "masonry"],
     shapes: [rect(2, 2, 8, 8, 2), rect(14, 2, 8, 8, 2), rect(2, 14, 8, 8, 2), rect(14, 14, 8, 8, 2), disc(12, 12, 1)],
   },
   {
     slug: "list-view", category: "interface", subcategory: "layout",
-    name: "List view", description: "Everything as rows",
+    name: "List view", description: "List view — everything shown as rows in a list or a table, one item per line",
     tags: ["rows", "table", "lines"], family: "window",
     aliases: [], keywords: ["rows", "table view", "compact", "lines", "details"],
     shapes: [rect(2, 2, 20, 20, 2), row(7.5, 5, 19), row(12, 5, 19), row(16.5, 5, 19)],

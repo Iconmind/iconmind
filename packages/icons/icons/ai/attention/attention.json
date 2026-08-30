@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Attention",
-  "description": "Which inputs the model is weighing",
+  "description": "Attention — the mechanism that weighs which inputs a model focuses on for each output",
   "tags": [
     "focus",
     "weights",

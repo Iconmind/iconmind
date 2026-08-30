@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "version-control",
   "name": "Commit",
-  "description": "One change, recorded",
+  "description": "A git commit — one change recorded as a snapshot with its own hash",
   "tags": [
     "change",
     "snapshot",

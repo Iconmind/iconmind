@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "dashboard",
   "name": "Report",
-  "description": "The numbers, written up",
+  "description": "A report — the numbers written up as a summary document with charts",
   "tags": [
     "summary",
     "document",

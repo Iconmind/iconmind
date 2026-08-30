@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Paste",
-  "description": "Put the copy here",
+  "description": "Paste — put the copied item here from the clipboard where the cursor is",
   "tags": [
     "clipboard",
     "insert",

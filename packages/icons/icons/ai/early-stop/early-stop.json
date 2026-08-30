@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Early stopping",
-  "description": "Stop before it starts getting worse",
+  "description": "Early stopping — halt training before the model starts getting worse",
   "tags": [
     "halt",
     "patience",

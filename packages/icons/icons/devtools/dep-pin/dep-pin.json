@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "package",
   "name": "Dependency pin",
-  "description": "Exactly this version, forever",
+  "description": "A dependency pin — exactly this version, locked and never drifting",
   "tags": [
     "version",
     "lock",

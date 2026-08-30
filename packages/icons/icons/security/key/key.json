@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "secret",
   "name": "Key",
-  "description": "What opens it",
+  "description": "A key — what opens it, a credential that grants access to something locked",
   "tags": [
     "unlock",
     "credential",

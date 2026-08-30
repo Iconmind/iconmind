@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "action",
   "name": "Notify action",
-  "description": "The step that tells somebody",
+  "description": "Notify action — the workflow step that tells somebody, a ping or a message",
   "tags": [
     "alert",
     "message",

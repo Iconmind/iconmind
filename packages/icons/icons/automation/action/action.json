@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "action",
   "name": "Action",
-  "description": "The step that actually does something",
+  "description": "An action — the step in a workflow or an agent loop that actually does something",
   "tags": [
     "run",
     "execute",

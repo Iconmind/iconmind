@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "grounding",
   "name": "RAG eval",
-  "description": "Grading the search, not just the answer",
+  "description": "RAG eval — grading the retrieval as well as the answer it produced",
   "tags": [
     "grade",
     "check",

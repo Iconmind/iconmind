@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "compute",
   "name": "Compute",
-  "description": "Cycles for hire",
+  "description": "Compute — processing cycles for hire, CPU and GPU instances that do the work",
   "tags": [
     "cpu",
     "instances",

@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "pipeline",
   "name": "Migrate",
-  "description": "Move it to the new place",
+  "description": "Migrate — move data or a system to the new place and cut over",
   "tags": [
     "move",
     "transfer",

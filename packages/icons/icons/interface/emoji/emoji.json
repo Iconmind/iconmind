@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "communication",
   "name": "Emoji",
-  "description": "The feeling, in one glyph",
+  "description": "An emoji — the feeling in one glyph, a face or a reaction in a message",
   "tags": [
     "smiley",
     "reaction",

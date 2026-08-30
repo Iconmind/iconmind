@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Distribute",
-  "description": "Spread them evenly",
+  "description": "Distribute — spread objects evenly so the spaces between them match",
   "tags": [
     "space",
     "align",

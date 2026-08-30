@@ -1,0 +1,32 @@
+{
+  "slug": "stop-search",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Stop search",
+  "description": "A magnifying glass beside a stop square — cancel a search in progress",
+  "tags": [
+    "search",
+    "stop",
+    "cancel"
+  ],
+  "keywords": [
+    "stop search",
+    "cancel search",
+    "abort query"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M4 10a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 13L3 15.5",
+      "closed": false
+    },
+    {
+      "d": "M16 9L22 9L22 15L16 15Z",
+      "closed": true
+    }
+  ]
+}

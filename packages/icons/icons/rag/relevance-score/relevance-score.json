@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "ranking",
   "name": "Relevance score",
-  "description": "How close this is to what was asked",
+  "description": "A relevance score — how close a result is to what was actually asked",
   "tags": [
     "match",
     "rating",

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Detokenise",
-  "description": "The pieces become the sentence again",
+  "description": "Detokenise — the token pieces assembled back into a sentence",
   "tags": [
     "join",
     "text",

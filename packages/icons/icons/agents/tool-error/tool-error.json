@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "tool-use",
   "name": "Tool error",
-  "description": "The tool broke instead",
+  "description": "A tool error — the tool broke instead of answering, an exception",
   "tags": [
     "failed",
     "broken",

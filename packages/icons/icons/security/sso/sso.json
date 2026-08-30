@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Single sign-on",
-  "description": "One key, every door",
+  "description": "Single sign-on — one key that opens every door, federated login",
   "tags": [
     "once",
     "federated",

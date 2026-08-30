@@ -1,0 +1,33 @@
+{
+  "slug": "share-favorite",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "Share favourite",
+  "description": "A heart with an arrow beside it — share something you love with someone else",
+  "tags": [
+    "share",
+    "favourite",
+    "send"
+  ],
+  "keywords": [
+    "share favourite",
+    "send a like",
+    "recommend"
+  ],
+  "family": "heart",
+  "shapes": [
+    {
+      "d": "M2 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 12 9L7 14Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
+    },
+    {
+      "d": "M15 12H22",
+      "closed": false
+    },
+    {
+      "d": "M18 8L22 12L18 16",
+      "closed": false
+    }
+  ]
+}

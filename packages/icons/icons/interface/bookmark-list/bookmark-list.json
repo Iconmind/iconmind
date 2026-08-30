@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "file",
   "name": "Bookmark list",
-  "description": "A bookmark beside a list — everything saved to read later",
+  "description": "A bookmark beside a list — everything saved to read or revisit later",
   "tags": [
     "bookmarks",
     "reading",

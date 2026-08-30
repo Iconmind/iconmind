@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "dashboard",
   "name": "Drill down",
-  "description": "Open the thing inside the thing",
+  "description": "Drill down — open the thing inside the thing and go a level deeper",
   "tags": [
     "expand",
     "deeper",

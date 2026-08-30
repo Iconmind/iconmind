@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Feature cross",
-  "description": "Two columns, multiplied into a third",
+  "description": "A feature cross — two columns multiplied into a third to capture their interaction",
   "tags": [
     "combine",
     "interaction",

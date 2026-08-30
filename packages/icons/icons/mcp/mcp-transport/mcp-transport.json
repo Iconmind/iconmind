@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "transport",
   "name": "MCP transport",
-  "description": "How the two ends actually talk",
+  "description": "MCP transport — how the two ends actually talk, over stdio or a network channel",
   "tags": [
     "stdio",
     "channel",

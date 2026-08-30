@@ -64,7 +64,7 @@ export const BATCH_06: Icon[] = [
 
   {
     slug: "latency", category: "ai", subcategory: "inference",
-    name: "Latency", description: "How long you wait for the answer",
+    name: "Latency", description: "Latency — how long you wait for a response, the delay between request and answer",
     tags: ["delay", "wait", "response-time"], family: "gauge",
     aliases: [], keywords: ["response time", "ttft", "p99", "slow", "hourglass", "delay"],
     // An hourglass, drawn as one closed run that pinches at the middle and opens out again.
@@ -74,7 +74,7 @@ export const BATCH_06: Icon[] = [
 
   {
     slug: "throughput", category: "ai", subcategory: "inference",
-    name: "Throughput", description: "How much gets through, per second",
+    name: "Throughput", description: "Throughput — how much work gets through per second, the rate or capacity of a system",
     tags: ["rate", "volume", "capacity"], family: "arrow",
     aliases: ["rate"], keywords: ["tokens per second", "qps", "bandwidth", "capacity"],
     // Two arrows, not one. One arrow is a direction; two of the same arrow are a rate.
@@ -86,7 +86,7 @@ export const BATCH_06: Icon[] = [
 
   {
     slug: "similarity", category: "ai", subcategory: "embedding",
-    name: "Similarity", description: "How close two meanings are",
+    name: "Similarity", description: "Similarity — how close two meanings are, measured as the distance between embeddings",
     tags: ["overlap", "distance", "match"], family: "lattice",
     aliases: [], keywords: ["cosine", "distance", "nearest", "match", "overlap"],
     // Two of `embedding`'s diamond, overlapping. The overlap is the measurement: pulled
@@ -99,7 +99,7 @@ export const BATCH_06: Icon[] = [
 
   {
     slug: "checkpoint", category: "ai", subcategory: "training",
-    name: "Checkpoint", description: "The model, saved as it was at this moment",
+    name: "Checkpoint", description: "A checkpoint — a model's weights saved exactly as they were at this moment in training",
     tags: ["save", "snapshot", "flag"], family: "figure",
     aliases: ["snapshot"], keywords: ["save state", "resume", "milestone", "weights"],
     // A flag on a pole. The banner is open at the pole because that is where a flag is
@@ -109,7 +109,7 @@ export const BATCH_06: Icon[] = [
 
   {
     slug: "retry", category: "ai", subcategory: "inference",
-    name: "Retry", description: "Go round and try again",
+    name: "Retry", description: "Retry — go round and try the same operation again after a failure",
     tags: ["repeat", "again", "loop"], family: "orbit",
     aliases: [], keywords: ["backoff", "attempt", "refresh", "again", "resilience", "repeat"],
     // Three quarters of a circle with the head at its opening, so the drawing reads as one
@@ -119,7 +119,7 @@ export const BATCH_06: Icon[] = [
 
   {
     slug: "loss-curve", category: "ai", subcategory: "training",
-    name: "Loss curve", description: "The error coming down as training goes on",
+    name: "Loss curve", description: "A loss curve — the training error coming down over time as a model converges",
     tags: ["training", "error", "convergence"], family: "axes",
     aliases: [], keywords: ["convergence", "gradient descent", "plateau", "error"],
     // Falls steeply and then flattens, which is what a loss curve does and what tells it
@@ -132,7 +132,7 @@ export const BATCH_06: Icon[] = [
 
   {
     slug: "quantization", category: "ai", subcategory: "training",
-    name: "Quantization", description: "Fewer bits per weight, on purpose",
+    name: "Quantization", description: "Quantization — using fewer bits per weight on purpose so a model runs smaller and faster",
     tags: ["precision", "compress", "steps"], family: "rails",
     aliases: ["quantize", "quantise"], keywords: ["int8", "int4", "gguf", "precision", "compress"],
     // A staircase. Quantising is turning something continuous into steps, and a staircase is
@@ -144,7 +144,7 @@ export const BATCH_06: Icon[] = [
 
   {
     slug: "agent-handoff", category: "agents", subcategory: "communication",
-    name: "Agent handoff", description: "One agent passing the work to another",
+    name: "Agent handoff", description: "An agent handoff — one agent passing its work and context on to another",
     tags: ["transfer", "delegate", "pass"], family: "orbit",
     aliases: ["handover"], keywords: ["delegate", "transfer", "route", "escalate"],
     // The exact mirror of `agent-delegate`: there the work goes down to a subordinate,
@@ -157,7 +157,7 @@ export const BATCH_06: Icon[] = [
 
   {
     slug: "prompt-template", category: "ai", subcategory: "prompt",
-    name: "Prompt template", description: "A prompt with a hole to fill in",
+    name: "Prompt template", description: "A prompt template — a reusable prompt with placeholders you fill in with variables",
     tags: ["placeholder", "variable", "reusable"], family: "window",
     aliases: [], keywords: ["variables", "placeholder", "jinja", "f-string", "parameterised"],
     // Fixed text above, and the slot underneath. The slot is a capsule rather than a run,
@@ -167,7 +167,7 @@ export const BATCH_06: Icon[] = [
 
   {
     slug: "context-full", category: "ai", subcategory: "context",
-    name: "Context full", description: "There is no room left in the window",
+    name: "Context full", description: "Context full — there is no room left in the model's window for more tokens",
     tags: ["limit", "capacity", "overflow"], family: "bracket",
     aliases: [], keywords: ["overflow", "max tokens", "truncated", "at capacity"],
     // `context-window`'s brackets, packed. The single dot of the empty window becomes three
@@ -181,7 +181,7 @@ export const BATCH_06: Icon[] = [
 
   {
     slug: "context-compress", category: "ai", subcategory: "context",
-    name: "Context compress", description: "Fitting more meaning into less room",
+    name: "Context compress", description: "Context compression — fitting more meaning into fewer tokens by summarising or squeezing",
     tags: ["summarise", "shrink", "squeeze"], family: "bracket",
     aliases: ["compact"], keywords: ["summarise", "prune", "distil", "shrink", "trim"],
     // The same brackets, with two arrows closing on the middle. Drawn as bare chevrons the

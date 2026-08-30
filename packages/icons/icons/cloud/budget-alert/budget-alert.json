@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "cost",
   "name": "Budget alert",
-  "description": "You are close to the limit",
+  "description": "A budget alert — you are close to the spending limit that was set",
   "tags": [
     "spend",
     "warning",

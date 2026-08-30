@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Chip",
-  "description": "A small labelled thing you can pick",
+  "description": "A chip — a small labelled pill you can pick, a filter or a token",
   "tags": [
     "pill",
     "filter",

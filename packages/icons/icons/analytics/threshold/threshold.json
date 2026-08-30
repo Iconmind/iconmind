@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Threshold",
-  "description": "The line it must not cross",
+  "description": "A threshold — the line a value must not cross before something happens",
   "tags": [
     "limit",
     "level",

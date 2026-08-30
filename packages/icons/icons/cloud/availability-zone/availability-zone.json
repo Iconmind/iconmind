@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "region",
   "name": "Availability zone",
-  "description": "One failure domain inside a region",
+  "description": "An availability zone — one isolated failure domain inside a cloud region",
   "tags": [
     "zone",
     "isolated",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Trash",
-  "description": "Throw it away",
+  "description": "Trash — throw it away, delete an item or move it to the bin for later removal",
   "tags": [
     "delete",
     "bin",

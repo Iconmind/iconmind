@@ -16,7 +16,7 @@ export const BATCH_53: Icon[] = [
 
   {
     slug: "agent-spawn", category: "agents", subcategory: "multi-agent",
-    name: "Agent spawn", description: "One agent starts another",
+    name: "Agent spawn", description: "Agent spawn — one agent starts another at runtime, a child of the first",
     tags: ["create", "child", "runtime"], family: "orbit",
     aliases: [], keywords: ["spawn", "start agent", "child process", "fork agent"],
     // Parent above, child below, joined by a stem that enters the child through
@@ -28,7 +28,7 @@ export const BATCH_53: Icon[] = [
   },
   {
     slug: "agent-clone", category: "agents", subcategory: "multi-agent",
-    name: "Agent clone", description: "The same agent, twice",
+    name: "Agent clone", description: "Agent clone — the same agent twice, an identical copy running in parallel",
     tags: ["copy", "duplicate", "identical"], family: "orbit",
     aliases: [], keywords: ["clone agent", "duplicate", "replica", "same config"],
     // The same agent twice, level on the same footing — nothing distinguishes
@@ -40,7 +40,7 @@ export const BATCH_53: Icon[] = [
   },
   {
     slug: "agent-pool", category: "agents", subcategory: "multi-agent",
-    name: "Agent pool", description: "Ready agents, waiting to be handed work",
+    name: "Agent pool", description: "An agent pool — ready agents waiting to be handed work, spare capacity",
     tags: ["ready", "workers", "capacity"], family: "orbit",
     aliases: [], keywords: ["worker pool", "pool of agents", "warm agents", "capacity"],
     // Two agents above the tray that holds them. The tray is open at the top,
@@ -52,7 +52,7 @@ export const BATCH_53: Icon[] = [
   },
   {
     slug: "agent-quota", category: "agents", subcategory: "multi-agent",
-    name: "Agent quota", description: "This many, and no more",
+    name: "Agent quota", description: "An agent quota — this many agents and no more, a cap on seats",
     tags: ["limit", "cap", "seats"], family: "orbit",
     aliases: [], keywords: ["max agents", "concurrency cap", "seats", "limit"],
     // `quota`'s limit line, with agents where its capsule was: two in, and the
@@ -67,7 +67,7 @@ export const BATCH_53: Icon[] = [
 
   {
     slug: "agent-badge", category: "agents", subcategory: "agent-core",
-    name: "Agent badge", description: "Who this agent is, verifiably",
+    name: "Agent badge", description: "An agent badge — who this agent is, a verified credential of identity",
     tags: ["identity", "credential", "verified"], family: "agent",
     aliases: [], keywords: ["identity", "credential", "verified agent", "attestation"],
     // The agent's ring with a shield for a core — credentials where the self sits.
@@ -75,7 +75,7 @@ export const BATCH_53: Icon[] = [
   },
   {
     slug: "agent-lease", category: "agents", subcategory: "agent-core",
-    name: "Agent lease", description: "Yours for a while, then given back",
+    name: "Agent lease", description: "An agent lease — yours for a while, then given back when the lease expires",
     tags: ["temporary", "borrowed", "expiry"], family: "agent",
     aliases: [], keywords: ["lease", "ttl", "borrowed agent", "time-boxed"],
     // The agent above the hourglass it runs on. Clock hands in the ring were
@@ -88,7 +88,7 @@ export const BATCH_53: Icon[] = [
   },
   {
     slug: "agent-persona", category: "agents", subcategory: "agent-core",
-    name: "Agent persona", description: "The self this agent presents",
+    name: "Agent persona", description: "An agent persona — the character and role an agent presents to the user",
     tags: ["character", "role", "face"], family: "agent",
     aliases: [], keywords: ["persona", "character", "role play", "presented self"],
     // Two selves inside one ring, overlapping — the agent, and the one it is
@@ -97,7 +97,7 @@ export const BATCH_53: Icon[] = [
   },
   {
     slug: "agent-rank", category: "agents", subcategory: "agent-core",
-    name: "Agent rank", description: "Where it stands among the others",
+    name: "Agent rank", description: "Agent rank — where an agent stands among the others, its grade or level",
     tags: ["grade", "level", "stripes"], family: "orbit",
     aliases: [], keywords: ["ranking", "grade", "tier", "leaderboard agent"],
     // Rank the way a sleeve says it: the agent above its stripes.
@@ -109,7 +109,7 @@ export const BATCH_53: Icon[] = [
   },
   {
     slug: "agent-priority", category: "agents", subcategory: "agent-core",
-    name: "Agent priority", description: "This one goes first",
+    name: "Agent priority", description: "Agent priority — this agent goes first, raised ahead of the queue",
     tags: ["first", "urgent", "raise"], family: "orbit",
     aliases: [], keywords: ["priority", "precedence", "urgent agent", "queue jump"],
     // The chevron above the agent's open top — raised, ahead of the rest.
@@ -117,7 +117,7 @@ export const BATCH_53: Icon[] = [
   },
   {
     slug: "agent-toolbelt", category: "agents", subcategory: "tool-use",
-    name: "Agent toolbelt", description: "The tools it carries everywhere",
+    name: "Agent toolbelt", description: "An agent toolbelt — the kit of tools an agent carries everywhere",
     tags: ["equipment", "carried", "kit"], family: "orbit",
     aliases: [], keywords: ["toolbelt", "equipped tools", "kit", "loadout"],
     // The agent and the plug reaching up to it — its kit, worn the way

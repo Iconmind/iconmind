@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "encryption",
   "name": "Lock",
-  "description": "Closed to anyone without the key",
+  "description": "A lock — closed to anyone without the key, secure and private",
   "tags": [
     "secure",
     "closed",

@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "memory",
   "name": "Memory read",
-  "description": "Fetch what was stored",
+  "description": "Memory read — fetch what an agent stored earlier and bring it back into context",
   "tags": [
     "recall",
     "load",

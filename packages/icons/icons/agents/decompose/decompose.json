@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "planning",
   "name": "Decompose",
-  "description": "Break the task into smaller ones",
+  "description": "Decompose — break a big task into smaller subtasks an agent can work through",
   "tags": [
     "split",
     "breakdown",

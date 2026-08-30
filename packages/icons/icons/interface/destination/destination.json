@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "identity",
   "name": "Destination",
-  "description": "A location pin beside a flag — where the journey ends",
+  "description": "A location pin beside a flag — where the journey ends, the arrival point",
   "tags": [
     "destination",
     "flag",

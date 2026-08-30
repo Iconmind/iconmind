@@ -17,7 +17,7 @@ export const BATCH_23: Icon[] = [
 
   {
     slug: "chart-radar", category: "analytics", subcategory: "chart",
-    name: "Radar chart", description: "Several measures at once",
+    name: "Radar chart", description: "A radar chart — several measures at once on spokes, a spider profile",
     tags: ["spider", "profile", "axes"], family: "lattice",
     aliases: ["spider-chart"], keywords: ["spider", "polar", "profile", "multivariate"],
     // Concentric, where `similarity` overlaps its two diamonds. One is a comparison of two
@@ -29,14 +29,14 @@ export const BATCH_23: Icon[] = [
   },
   {
     slug: "chart-treemap", category: "analytics", subcategory: "chart",
-    name: "Treemap", description: "Area as quantity",
+    name: "Treemap", description: "A treemap — nested blocks whose area shows quantity, the bigger the block the larger the value",
     tags: ["blocks", "nested", "area"], family: "window",
     aliases: [], keywords: ["nested", "proportional", "blocks", "hierarchy", "area"],
     shapes: [rect(2, 4, 20, 16, 2), col(10, 4, 20), row(12, 10, 22)],
   },
   {
     slug: "chart-waterfall", category: "analytics", subcategory: "chart",
-    name: "Waterfall chart", description: "How it got from there to here",
+    name: "Waterfall chart", description: "A waterfall chart — how a total got from there to here, step by step",
     tags: ["steps", "bridge", "change"], family: "axes",
     aliases: [], keywords: ["bridge chart", "contribution", "变化", "steps", "delta"],
     // Bars that float. Every other bar chart in the set stands on the axis; these hang at
@@ -45,14 +45,14 @@ export const BATCH_23: Icon[] = [
   },
   {
     slug: "chart-bubble", category: "analytics", subcategory: "chart",
-    name: "Bubble chart", description: "Three measures on two axes",
+    name: "Bubble chart", description: "A bubble chart — three measures on two axes, with size as the third",
     tags: ["scatter", "size", "points"], family: "axes",
     aliases: [], keywords: ["scatter", "size", "three variables", "plot"],
     shapes: [...axes(), disc(9, 15, 2), disc(15, 10, 3)],
   },
   {
     slug: "chart-candlestick", category: "analytics", subcategory: "chart",
-    name: "Candlestick chart", description: "Open, high, low and close",
+    name: "Candlestick chart", description: "A candlestick chart — open, high, low and close for each period of trading",
     tags: ["ohlc", "trading", "range"], family: "axes",
     aliases: ["ohlc"], keywords: ["trading", "stock", "ohlc", "range", "finance"],
     // Each wick is two runs meeting the body's edges, not one run through it. Drawn through,
@@ -65,7 +65,7 @@ export const BATCH_23: Icon[] = [
   },
   {
     slug: "forecast", category: "analytics", subcategory: "metric",
-    name: "Forecast", description: "What the line does next",
+    name: "Forecast", description: "A forecast — what the line is predicted to do next, a projection into the future",
     tags: ["predict", "projection", "future"], family: "axes",
     aliases: ["projection"], keywords: ["predict", "extrapolate", "trend", "future", "estimate"],
     // The line goes solid, then broken. Where the drawing stops being certain is drawn as
@@ -77,7 +77,7 @@ export const BATCH_23: Icon[] = [
 
   {
     slug: "parallel", category: "automation", subcategory: "workflow",
-    name: "Parallel", description: "Two branches running at once",
+    name: "Parallel", description: "Parallel — two branches running at the same time, fanned out then joined",
     tags: ["concurrent", "fan-out", "split"], family: "chain",
     aliases: ["concurrent"], keywords: ["fan out", "at the same time", "async", "split"],
     // Both branches level out and stay level. `branch-step` diverges and keeps diverging,
@@ -89,7 +89,7 @@ export const BATCH_23: Icon[] = [
   },
   {
     slug: "escalation", category: "automation", subcategory: "human-loop",
-    name: "Escalation", description: "Up to somebody more senior",
+    name: "Escalation", description: "Escalation — raise an issue up to somebody more senior or a stronger system",
     tags: ["raise", "steps", "up"], family: "arrow",
     aliases: [], keywords: ["escalate", "raise", "tier 2", "on-call", "severity"],
     shapes: [
@@ -99,7 +99,7 @@ export const BATCH_23: Icon[] = [
   },
   {
     slug: "error-handler", category: "automation", subcategory: "condition",
-    name: "Error handler", description: "Where things go when they fail",
+    name: "Error handler", description: "An error handler — the catch branch where things go when they fail",
     tags: ["catch", "fallback", "branch"], family: "chain",
     aliases: ["catch"], keywords: ["try catch", "on error", "exception path", "recover"],
     shapes: [
@@ -110,7 +110,7 @@ export const BATCH_23: Icon[] = [
   },
   {
     slug: "delay", category: "automation", subcategory: "schedule",
-    name: "Delay", description: "Wait, then carry on",
+    name: "Delay", description: "Delay — wait for a while, then carry on with the next step in the flow",
     tags: ["wait", "pause", "sleep"], family: "orbit",
     aliases: ["wait"], keywords: ["sleep", "timeout", "backoff", "pause", "throttle"],
     shapes: [
@@ -120,7 +120,7 @@ export const BATCH_23: Icon[] = [
   },
   {
     slug: "dead-letter", category: "automation", subcategory: "workflow",
-    name: "Dead letter", description: "The message that could not be delivered",
+    name: "Dead letter", description: "A dead-letter queue — where messages that could not be delivered end up",
     tags: ["failed", "undelivered", "queue"], family: "window",
     aliases: [], keywords: ["dlq", "undeliverable", "poison message", "failed queue"],
     shapes: [
@@ -133,7 +133,7 @@ export const BATCH_23: Icon[] = [
 
   {
     slug: "cli", category: "devtools", subcategory: "terminal",
-    name: "CLI", description: "The command line itself",
+    name: "CLI", description: "The CLI — the command-line interface itself, a prompt waiting for a command",
     tags: ["prompt", "shell", "command"], family: "chevron",
     aliases: [], keywords: ["shell", "argv", "flags", "command line", "bash"],
     // `terminal`'s prompt without the machine round it. The box is the application; the
@@ -142,7 +142,7 @@ export const BATCH_23: Icon[] = [
   },
   {
     slug: "fork", category: "devtools", subcategory: "version-control",
-    name: "Fork", description: "Your own copy of somebody's work",
+    name: "Fork", description: "A fork — your own copy of somebody else's repository, free to diverge",
     tags: ["copy", "diverge", "branch"], family: "chain",
     aliases: [], keywords: ["fork repo", "diverge", "clone", "upstream", "contribute"],
     // `git-merge` upside down. Two becoming one is a merge; one becoming two is a fork, and
@@ -154,7 +154,7 @@ export const BATCH_23: Icon[] = [
   },
   {
     slug: "conflict", category: "devtools", subcategory: "version-control",
-    name: "Conflict", description: "Two changes that cannot both apply",
+    name: "Conflict", description: "A merge conflict — two changes that cannot both apply to the same lines",
     tags: ["clash", "collision", "merge"], family: "arrow",
     aliases: [], keywords: ["merge conflict", "clash", "both changed", "resolve"],
     // Two arrows meeting head-on across the diagonal, point-symmetric about the centre.
@@ -166,7 +166,7 @@ export const BATCH_23: Icon[] = [
   },
   {
     slug: "flaky-test", category: "devtools", subcategory: "testing",
-    name: "Flaky test", description: "Passes and fails on the same code",
+    name: "Flaky test", description: "A flaky test — one that passes and fails on the same code, unreliable and intermittent",
     tags: ["unreliable", "intermittent", "test"], family: "mark",
     aliases: [], keywords: ["intermittent", "unreliable", "retry", "nondeterministic"],
     // A tick and a cross side by side, at the same size, so neither is the answer. Every
@@ -178,14 +178,14 @@ export const BATCH_23: Icon[] = [
   },
   {
     slug: "editor-tab", category: "devtools", subcategory: "editor",
-    name: "Editor tab", description: "One open file among several",
+    name: "Editor tab", description: "An editor tab — one open file among several in the editor's tab bar",
     tags: ["tab", "open", "file"], family: "window",
     aliases: ["tab"], keywords: ["open file", "buffer", "tabs", "workspace"],
     shapes: [frame(2, 7, 20, 13, 3, { gap: 4 }), poly([[4, 7], [4, 3], [11, 3], [11, 7]])],
   },
   {
     slug: "endpoint", category: "devtools", subcategory: "api",
-    name: "Endpoint", description: "One address something answers on",
+    name: "Endpoint", description: "An endpoint — one URL or route that a service answers on for a request",
     tags: ["route", "url", "address"], family: "chain",
     aliases: ["route"], keywords: ["url", "path", "route", "handler", "rest"],
     // The route travels the diagonal and terminates in the node, so the drawing spans
@@ -194,14 +194,14 @@ export const BATCH_23: Icon[] = [
   },
   {
     slug: "memory-leak", category: "devtools", subcategory: "debug",
-    name: "Memory leak", description: "It never gives any back",
+    name: "Memory leak", description: "A memory leak — memory that is taken and never given back, growing until it hurts",
     tags: ["drip", "grow", "waste"], family: "window",
     aliases: [], keywords: ["heap", "retained", "oom", "grows forever", "gc"],
     shapes: [rect(5, 3, 14, 10, 2), disc(9, 17, 1), disc(14, 20, 1)],
   },
   {
     slug: "autocomplete", category: "devtools", subcategory: "editor",
-    name: "Autocomplete", description: "What it thinks you meant",
+    name: "Autocomplete", description: "Autocomplete — the suggestion of what it thinks you meant to type",
     tags: ["suggest", "complete", "hint"], family: "window",
     aliases: ["intellisense"], keywords: ["suggestion", "intellisense", "copilot", "hint", "ghost text"],
     shapes: [rect(3, 3, 18, 7, 2), row(14, 6, 18), row(18, 6, 15)],

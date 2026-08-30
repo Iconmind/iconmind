@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Toggle",
-  "description": "On, or off",
+  "description": "A toggle — on or off, a switch that flips a boolean setting either way",
   "tags": [
     "switch",
     "boolean",

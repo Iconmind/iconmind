@@ -18,7 +18,7 @@ export const BATCH_56: Icon[] = [
 
   {
     slug: "dataset-card", category: "data", subcategory: "quality",
-    name: "Dataset card", description: "What this data is, on one page",
+    name: "Dataset card", description: "A dataset card — what this data is, where it came from and how to use it, on one page",
     tags: ["docs", "sheet", "provenance"], family: "page",
     aliases: [], keywords: ["dataset card", "datasheet", "documentation", "provenance"],
     // `model-card`'s page with a small table where the diamond would be.
@@ -30,7 +30,7 @@ export const BATCH_56: Icon[] = [
   },
   {
     slug: "dataset-version", category: "data", subcategory: "quality",
-    name: "Dataset version", description: "The data as it was, kept",
+    name: "Dataset version", description: "A dataset version — the data exactly as it was, kept as a snapshot in the lineage",
     tags: ["snapshot", "copy", "lineage"], family: "window",
     aliases: [], keywords: ["dataset version", "data snapshot", "dvc", "lineage"],
     // The previous version folded flat above, the current one open below —
@@ -42,7 +42,7 @@ export const BATCH_56: Icon[] = [
   },
   {
     slug: "dataset-split", category: "data", subcategory: "quality",
-    name: "Dataset split", description: "Most to learn from, some to be judged on",
+    name: "Dataset split", description: "A dataset split — most rows to learn from, some held back to be judged on",
     tags: ["train", "test", "portion"], family: "window",
     aliases: ["train-test-split"], keywords: ["train test split", "80 20", "partition data"],
     // One box, one off-centre cut: the 80 and the 20. The filled side is the
@@ -54,7 +54,7 @@ export const BATCH_56: Icon[] = [
   },
   {
     slug: "holdout", category: "data", subcategory: "quality",
-    name: "Holdout", description: "Rows the model never gets to see",
+    name: "Holdout", description: "A holdout — rows fenced off that the model never gets to see until evaluation",
     tags: ["reserved", "fenced", "eval"], family: "window",
     aliases: ["holdout-set"], keywords: ["holdout set", "reserved data", "eval split"],
     // The same box with a horizontal fence — `dataset-split` cuts it upright;
@@ -66,7 +66,7 @@ export const BATCH_56: Icon[] = [
   },
   {
     slug: "sample-rows", category: "data", subcategory: "quality",
-    name: "Sample rows", description: "A few of them, picked to look at",
+    name: "Sample rows", description: "Sample rows — a few rows picked out to look at as a preview of the data",
     tags: ["subset", "pick", "preview"], family: "figure",
     aliases: [], keywords: ["sample rows", "preview data", "head", "subset"],
     // Four rows, and the dots naming which two were taken.
@@ -77,7 +77,7 @@ export const BATCH_56: Icon[] = [
   },
   {
     slug: "stratified-sample", category: "data", subcategory: "quality",
-    name: "Stratified sample", description: "One from every layer, fairly",
+    name: "Stratified sample", description: "A stratified sample — one draw from every layer so each stratum is fairly represented",
     tags: ["layers", "fair", "strata"], family: "figure",
     aliases: [], keywords: ["stratified sampling", "per stratum", "balanced sample"],
     // Three strata as lines, and the dot each one gave up — staggered so no
@@ -90,7 +90,7 @@ export const BATCH_56: Icon[] = [
   },
   {
     slug: "class-balance", category: "data", subcategory: "quality",
-    name: "Class balance", description: "As many of one as of the other",
+    name: "Class balance", description: "Class balance — as many examples of one class as of the other",
     tags: ["equal", "classes", "fair"], family: "figure",
     aliases: [], keywords: ["class balance", "balanced classes", "equal representation"],
     // Two columns, same height, same count inside.
@@ -101,7 +101,7 @@ export const BATCH_56: Icon[] = [
   },
   {
     slug: "label", category: "data", subcategory: "quality",
-    name: "Label", description: "The name a row is taught under",
+    name: "Label", description: "A label — the class or tag a row is taught under, an annotation",
     tags: ["tag", "class", "annotation"], family: "figure",
     aliases: ["class-label"], keywords: ["label", "annotation", "ground truth", "class"],
     // The tag with its eyelet — `tag-git` without the commit it hangs from.
@@ -112,7 +112,7 @@ export const BATCH_56: Icon[] = [
   },
   {
     slug: "data-augment", category: "data", subcategory: "quality",
-    name: "Data augment", description: "More rows, made from the rows you have",
+    name: "Data augment", description: "Data augmentation — more rows derived from the rows you already have",
     tags: ["expand", "more", "derived"], family: "figure",
     aliases: [], keywords: ["data augmentation", "augment rows", "expand dataset"],
     // The rows, and the plus writing the next one.
@@ -123,7 +123,7 @@ export const BATCH_56: Icon[] = [
   },
   {
     slug: "synthetic-row", category: "data", subcategory: "quality",
-    name: "Synthetic row", description: "A row nobody collected",
+    name: "Synthetic row", description: "A synthetic row — a record nobody collected, generated to fill a gap",
     tags: ["generated", "fake", "dotted"], family: "figure",
     aliases: [], keywords: ["synthetic data", "generated row", "fake sample"],
     // Solid rows and one written in dots — the one that was made, not measured.
@@ -137,7 +137,7 @@ export const BATCH_56: Icon[] = [
 
   {
     slug: "corpus-add", category: "rag", subcategory: "ingestion",
-    name: "Corpus add", description: "Another document joins the pile",
+    name: "Corpus add", description: "Corpus add — another document joins the pile the system has read",
     tags: ["ingest", "grow", "documents"], family: "page",
     aliases: [], keywords: ["add to corpus", "ingest document", "grow knowledge base"],
     // `corpus`'s two pages with the plus in the air above the new one.
@@ -149,7 +149,7 @@ export const BATCH_56: Icon[] = [
   },
   {
     slug: "table-extract", category: "rag", subcategory: "ingestion",
-    name: "Table extract", description: "The table found inside the page, pulled out whole",
+    name: "Table extract", description: "Table extract — the table found inside a page, pulled out whole with its rows",
     tags: ["parse", "rows", "structure"], family: "window",
     aliases: [], keywords: ["table extraction", "parse table", "structured data"],
     // `table` shortened, and one row out below it, already free.
@@ -161,7 +161,7 @@ export const BATCH_56: Icon[] = [
   },
   {
     slug: "matryoshka", category: "rag", subcategory: "vector",
-    name: "Matryoshka", description: "The small embedding lives inside the big one",
+    name: "Matryoshka", description: "Matryoshka embeddings — the small vector nests inside the big one, so you can truncate dimensions",
     tags: ["nested", "truncate", "dimensions"], family: "figure",
     aliases: [], keywords: ["matryoshka embedding", "truncated dims", "nested vector"],
     // Nested diamonds with the point at the centre — cut the vector short and the
@@ -174,7 +174,7 @@ export const BATCH_56: Icon[] = [
   },
   {
     slug: "parent-chunk", category: "rag", subcategory: "chunking",
-    name: "Parent chunk", description: "The big piece the small ones came from",
+    name: "Parent chunk", description: "A parent chunk — the big piece of context the small retrieved chunks came from",
     tags: ["context", "container", "hierarchy"], family: "window",
     aliases: [], keywords: ["parent chunk", "parent document", "small-to-big"],
     // `chunk`'s capsule grown into a room, its children still inside.
@@ -185,7 +185,7 @@ export const BATCH_56: Icon[] = [
   },
   {
     slug: "child-chunk", category: "rag", subcategory: "chunking",
-    name: "Child chunk", description: "The small piece that gets retrieved",
+    name: "Child chunk", description: "A child chunk — the small piece that actually gets retrieved and matched",
     tags: ["piece", "retrieved", "hierarchy"], family: "window",
     aliases: [], keywords: ["child chunk", "small chunk", "retrieved piece"],
     // The parent above, and one child pulled out on its stem.
@@ -196,7 +196,7 @@ export const BATCH_56: Icon[] = [
   },
   {
     slug: "sliding-window", category: "rag", subcategory: "chunking",
-    name: "Sliding window", description: "The frame moves; the text stays put",
+    name: "Sliding window", description: "A sliding window — the frame moves along the text with an overlapping stride",
     tags: ["window", "stride", "overlap"], family: "window",
     aliases: [], keywords: ["sliding window", "stride", "windowed chunks"],
     // Text above and below, the window over its slice, and the arrow it slides on.
@@ -207,7 +207,7 @@ export const BATCH_56: Icon[] = [
   },
   {
     slug: "embed-batch", category: "rag", subcategory: "vector",
-    name: "Embed batch", description: "Many texts through the model at once",
+    name: "Embed batch", description: "Embed batch — many texts through the embedding model at once for throughput",
     tags: ["bulk", "vectors", "throughput"], family: "figure",
     aliases: [], keywords: ["batch embedding", "bulk vectors", "embed many"],
     // Two of `embedding`'s lattices over the tray that carries them together.
@@ -219,7 +219,7 @@ export const BATCH_56: Icon[] = [
   },
   {
     slug: "embed-cache", category: "rag", subcategory: "vector",
-    name: "Embed cache", description: "Computed once, kept for next time",
+    name: "Embed cache", description: "An embed cache — vectors computed once and kept for the next time the same text appears",
     tags: ["store", "reuse", "fast"], family: "window",
     aliases: [], keywords: ["embedding cache", "cached vectors", "reuse embeddings"],
     // `embedding`'s lattice, boxed and kept.
@@ -230,7 +230,7 @@ export const BATCH_56: Icon[] = [
   },
   {
     slug: "reembed", category: "rag", subcategory: "vector",
-    name: "Re-embed", description: "New model, same corpus, every vector again",
+    name: "Re-embed", description: "Re-embed — a new model over the same corpus, every vector computed again",
     tags: ["refresh", "rotate", "vectors"], family: "rotation",
     aliases: [], keywords: ["re-embed", "reindex vectors", "embedding migration"],
     // The rotation family's loop with the lattice inside, the way `hot-reload`
@@ -242,7 +242,7 @@ export const BATCH_56: Icon[] = [
   },
   {
     slug: "hybrid-fuse", category: "rag", subcategory: "retrieval",
-    name: "Hybrid fuse", description: "Keyword and semantic, one ranked list",
+    name: "Hybrid fuse", description: "Hybrid fuse — keyword and semantic results merged into one ranked list",
     tags: ["merge", "bm25", "vector"], family: "arrow",
     aliases: ["hybrid-search-fuse"], keywords: ["hybrid search", "fusion", "bm25 plus vector"],
     // Two retrievals converging into the one list that ships.

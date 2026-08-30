@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "action",
   "name": "Transform step",
-  "description": "The stage that changes the shape",
+  "description": "A transform step — the middle stage of a pipeline that changes the shape of the data",
   "tags": [
     "convert",
     "stage",

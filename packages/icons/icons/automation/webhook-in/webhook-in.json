@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "integration",
   "name": "Incoming webhook",
-  "description": "Someone else's event, arriving here",
+  "description": "An incoming webhook — someone else's event arriving here, a callback we listen for",
   "tags": [
     "receive",
     "callback",

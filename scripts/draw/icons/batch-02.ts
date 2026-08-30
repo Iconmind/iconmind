@@ -21,7 +21,7 @@ export const BATCH_02: Icon[] = [
 
   {
     slug: "llm", category: "ai", subcategory: "model",
-    name: "LLM", description: "A large language model",
+    name: "LLM", description: "A large language model — the generative AI system behind chat, completion and reasoning",
     tags: ["language", "model", "generative"], family: "machine",
     aliases: ["language-model"], keywords: ["gpt", "large language model", "chatbot"],
     // A machine full of language. Three rules, ragged, because that is what text looks
@@ -32,7 +32,7 @@ export const BATCH_02: Icon[] = [
 
   {
     slug: "inference", category: "ai", subcategory: "inference",
-    name: "Inference", description: "Running a model to produce output",
+    name: "Inference", description: "Inference — running a trained model to produce a prediction, a completion or a generated output",
     tags: ["run", "predict", "generate"], family: "machine",
     aliases: ["predict"], keywords: ["forward pass", "generate", "serving"],
     // The play mark inside the machine. Inference is the model doing its one job, so the
@@ -42,7 +42,7 @@ export const BATCH_02: Icon[] = [
 
   {
     slug: "temperature", category: "ai", subcategory: "inference",
-    name: "Temperature", description: "How much randomness the output is allowed",
+    name: "Temperature", description: "Temperature, the sampling setting that controls how much randomness a model's output is allowed",
     tags: ["randomness", "sampling", "creativity"], family: "gauge",
     keywords: ["top-p", "sampling", "creativity", "thermometer"],
     // A thermometer, because the parameter borrowed the word and every reader already
@@ -53,7 +53,7 @@ export const BATCH_02: Icon[] = [
 
   {
     slug: "chain-of-thought", category: "ai", subcategory: "prompt",
-    name: "Chain of thought", description: "Reasoning worked through one step at a time",
+    name: "Chain of thought", description: "Chain-of-thought reasoning — a model working through a problem one visible step at a time",
     tags: ["reasoning", "steps", "thinking"], family: "chain",
     aliases: ["reasoning"], keywords: ["cot", "step by step", "scratchpad"],
     // Three steps on a diagonal. Laid out in a row they read as a pipeline, where the work
@@ -67,7 +67,7 @@ export const BATCH_02: Icon[] = [
 
   {
     slug: "tokenizer", category: "ai", subcategory: "token",
-    name: "Tokenizer", description: "Splits text into the units a model reads",
+    name: "Tokenizer", description: "A tokenizer that splits text into the subword tokens a language model reads and counts",
     tags: ["split", "segment", "encode"], family: "rails",
     keywords: ["bpe", "subword", "vocab", "encoding"],
     // The whole above, the pieces below. Cuts drawn *through* the run made a hash — two
@@ -82,7 +82,7 @@ export const BATCH_02: Icon[] = [
 
   {
     slug: "context-window", category: "ai", subcategory: "context",
-    name: "Context window", description: "How much a model can see at once",
+    name: "Context window", description: "The context window — how many tokens a model can see and reason over at once",
     tags: ["span", "window", "limit"], family: "bracket",
     aliases: ["context"], keywords: ["context length", "window size", "attention span"],
     // Two brackets and what is between them. A box would say "container"; brackets say
@@ -96,7 +96,7 @@ export const BATCH_02: Icon[] = [
 
   {
     slug: "vector", category: "ai", subcategory: "embedding",
-    name: "Vector", description: "A direction and a magnitude",
+    name: "Vector", description: "A vector — an arrow with a direction and a magnitude, the basic unit of embeddings and linear algebra",
     tags: ["arrow", "direction", "magnitude"], family: "arrow",
     keywords: ["euclidean", "coordinates", "magnitude"],
     // Drawn from the bottom left, which is where a reader's mental origin is. The head is a
@@ -109,7 +109,7 @@ export const BATCH_02: Icon[] = [
 
   {
     slug: "training", category: "ai", subcategory: "training",
-    name: "Training", description: "Teaching a model from data",
+    name: "Training", description: "Training — teaching a model from data by adjusting its weights over many epochs",
     tags: ["learn", "fit", "epoch"], family: "machine",
     aliases: ["learning"], keywords: ["epoch", "gradient", "loss curve", "train"],
     // A curve that climbs, inside the machine it is climbing for. Falling, the same line is
@@ -119,7 +119,7 @@ export const BATCH_02: Icon[] = [
 
   {
     slug: "fine-tuning", category: "ai", subcategory: "training",
-    name: "Fine-tuning", description: "Adapting a trained model to one domain",
+    name: "Fine-tuning", description: "Fine-tuning — adapting an already trained model to one domain, task or style with extra data",
     tags: ["adapt", "tune", "specialise"], family: "machine",
     aliases: ["finetune"], keywords: ["lora", "adapter", "peft", "domain adaptation"],
     // Two rails and two knobs, inside the machine. One of each crossed at the centre and
@@ -133,7 +133,7 @@ export const BATCH_02: Icon[] = [
 
   {
     slug: "dataset", category: "ai", subcategory: "training",
-    name: "Dataset", description: "The collection a model is trained on",
+    name: "Dataset", description: "A dataset — the collection of examples, rows or documents a model is trained and evaluated on",
     tags: ["data", "table", "corpus"], family: "window",
     aliases: [], keywords: ["training data", "samples", "records", "table", "corpus"],
     // Rows and a column: the shape of data laid out, not the shape of the box it came in.
@@ -142,7 +142,7 @@ export const BATCH_02: Icon[] = [
 
   {
     slug: "evaluation", category: "ai", subcategory: "evaluation",
-    name: "Evaluation", description: "Measuring how good the output is",
+    name: "Evaluation", description: "Evaluation — measuring how good a model's output is with tests, scores and benchmarks",
     tags: ["measure", "score", "test"], family: "machine",
     aliases: ["eval"], keywords: ["benchmark", "score", "quality", "assessment"],
     // The mark from `check`, put inside a machine. The pair is the family working: a tick
@@ -152,7 +152,7 @@ export const BATCH_02: Icon[] = [
 
   {
     slug: "guardrail", category: "ai", subcategory: "safety",
-    name: "Guardrail", description: "A limit the output is not allowed past",
+    name: "Guardrail", description: "A guardrail — a safety limit the model's output is not allowed to cross",
     tags: ["limit", "safety", "constraint"], family: "rails",
     aliases: ["constraint"], keywords: ["safety", "policy", "moderation", "boundary"],
     // Something moving, and the wall it does not get past. Two rails with a dot between
@@ -165,7 +165,7 @@ export const BATCH_02: Icon[] = [
 
   {
     slug: "multi-agent", category: "agents", subcategory: "multi-agent",
-    name: "Multi-agent", description: "Several agents working on one problem",
+    name: "Multi-agent", description: "A multi-agent system — several AI agents collaborating, delegating and voting on one problem",
     tags: ["swarm", "team", "collaboration"], family: "orbit",
     aliases: ["swarm"], keywords: ["crew", "team of agents", "orchestration"],
     // Two of `agent`'s ring, at the size where two fit with a real gap between them. Three
@@ -175,7 +175,7 @@ export const BATCH_02: Icon[] = [
 
   {
     slug: "goal", category: "agents", subcategory: "planning",
-    name: "Goal", description: "What the agent is working toward",
+    name: "Goal", description: "A goal — the target or objective an agent, a team or a project is working toward",
     tags: ["target", "objective", "aim"], family: "orbit",
     aliases: ["target"], keywords: ["objective", "aim", "bullseye"],
     // Three rings closing on a centre. `agent` is one ring and a core; this is the same
@@ -185,7 +185,7 @@ export const BATCH_02: Icon[] = [
 
   {
     slug: "memory", category: "agents", subcategory: "memory",
-    name: "Memory", description: "What an agent writes down and reads back",
+    name: "Memory", description: "Agent memory — what an AI agent writes down and reads back between steps and sessions",
     tags: ["recall", "store", "state"], family: "window",
     aliases: ["recall"], keywords: ["context store", "long-term memory", "state", "ram"],
     // Three columns in a panel — a module, not a box of records. `dataset` puts rows in the
@@ -195,7 +195,7 @@ export const BATCH_02: Icon[] = [
 
   {
     slug: "plan", category: "agents", subcategory: "planning",
-    name: "Plan", description: "The steps an agent intends to take",
+    name: "Plan", description: "A plan — the ordered list of steps an agent intends to take before it acts",
     tags: ["steps", "checklist", "sequence"], family: "page",
     keywords: ["todo", "checklist", "task list", "roadmap"],
     // A page with one line done. Every line ticked would be a completed plan, and no line
@@ -207,7 +207,7 @@ export const BATCH_02: Icon[] = [
 
   {
     slug: "chunk", category: "rag", subcategory: "chunking",
-    name: "Chunk", description: "One piece of a document, sized for retrieval",
+    name: "Chunk", description: "A chunk — one piece of a document, split to a size that suits retrieval and embedding",
     tags: ["piece", "split", "segment"], family: "window",
     keywords: ["chunking", "passage", "window", "overlap"],
     // The document already cut. Drawn as a page with a line through it — twice, once down
@@ -219,7 +219,7 @@ export const BATCH_02: Icon[] = [
 
   {
     slug: "pipeline", category: "data", subcategory: "pipeline",
-    name: "Pipeline", description: "Work moving through stages, in order",
+    name: "Pipeline", description: "A pipeline — work moving through stages in order, from data ingestion to a finished output",
     tags: ["stages", "flow", "sequence"], family: "chain",
     aliases: ["planning"], keywords: ["etl", "dag", "stages", "flow", "workflow"],
     // Three stages in a line. `chain-of-thought` puts its three on a diagonal because each
@@ -229,7 +229,7 @@ export const BATCH_02: Icon[] = [
 
   {
     slug: "stream", category: "data", subcategory: "streaming",
-    name: "Stream", description: "Data arriving continuously rather than in batches",
+    name: "Stream", description: "A stream — data or tokens arriving continuously in real time rather than in batches",
     tags: ["flow", "continuous", "realtime"], family: "rails",
     aliases: ["streaming"], keywords: ["kafka", "realtime", "event stream", "tokens"],
     // Three runs, offset. Flush left they would be a paragraph; offset they read as

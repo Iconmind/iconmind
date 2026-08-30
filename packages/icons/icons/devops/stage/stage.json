@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "ci-cd",
   "name": "Stage",
-  "description": "One stop on the way to shipped",
+  "description": "A stage — one stop on the way to shipped, a phase or a gate in the pipeline",
   "tags": [
     "phase",
     "step",

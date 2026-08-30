@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Passkey",
-  "description": "The key is the device",
+  "description": "A passkey — the device itself is the key, passwordless sign-in with WebAuthn",
   "tags": [
     "webauthn",
     "device",

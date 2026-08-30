@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "observability",
   "name": "SLO",
-  "description": "The mark you hold yourself to",
+  "description": "An SLO — the service level objective you hold yourself to, the target for an indicator",
   "tags": [
     "objective",
     "target",

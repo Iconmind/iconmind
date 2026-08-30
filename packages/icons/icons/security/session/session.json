@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Session",
-  "description": "Signed in, for now",
+  "description": "A session — signed in for now, an active window of use until you leave",
   "tags": [
     "active",
     "logged-in",

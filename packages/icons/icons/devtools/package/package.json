@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "package",
   "name": "Package",
-  "description": "Something built, wrapped and versioned",
+  "description": "A package — a library or module that is built, wrapped and versioned for others to install",
   "tags": [
     "module",
     "library",

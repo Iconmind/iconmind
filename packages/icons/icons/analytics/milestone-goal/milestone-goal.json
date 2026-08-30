@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Milestone goal",
-  "description": "A flag beside a target — the goal a milestone stands for",
+  "description": "A flag beside a target — the goal a milestone stands for on the way",
   "tags": [
     "milestone",
     "goal",

@@ -1,0 +1,32 @@
+{
+  "slug": "run-faster",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Run faster",
+  "description": "A play button beside a double chevron — speed a run up, faster execution",
+  "tags": [
+    "run",
+    "faster",
+    "speed"
+  ],
+  "keywords": [
+    "run faster",
+    "speed up job",
+    "fast mode"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M3 5L3 19L10 12Z",
+      "closed": true
+    },
+    {
+      "d": "M13 8L17 12L13 16",
+      "closed": false
+    },
+    {
+      "d": "M17.5 8L21.5 12L17.5 16",
+      "closed": false
+    }
+  ]
+}

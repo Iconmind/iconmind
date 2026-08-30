@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "code",
   "name": "Syntax",
-  "description": "The rules the words obey",
+  "description": "Syntax — the grammar rules the words obey for code to be valid",
   "tags": [
     "grammar",
     "structure",

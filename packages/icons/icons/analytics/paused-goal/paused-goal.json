@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Paused goal",
-  "description": "A target beside a Z — a goal put on hold",
+  "description": "A target beside a Z — a goal put on hold for now, paused until later",
   "tags": [
     "goal",
     "paused",

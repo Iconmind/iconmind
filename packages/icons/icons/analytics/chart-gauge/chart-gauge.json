@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "chart",
   "name": "Gauge chart",
-  "description": "One number against its range",
+  "description": "A gauge chart — one number shown as a needle against its range on a dial",
   "tags": [
     "dial",
     "needle",

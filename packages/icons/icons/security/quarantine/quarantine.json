@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "threat",
   "name": "Quarantine",
-  "description": "Held where it can do no harm",
+  "description": "Quarantine — held apart where it can do no harm, flagged and isolated",
   "tags": [
     "isolate",
     "held",

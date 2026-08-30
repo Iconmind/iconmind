@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "Workflow",
-  "description": "Steps that run in order, without anyone watching",
+  "description": "A workflow — steps that run in order automatically, without anyone watching them",
   "tags": [
     "flow",
     "steps",

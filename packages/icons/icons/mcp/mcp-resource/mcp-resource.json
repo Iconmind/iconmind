@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "resource",
   "name": "MCP resource",
-  "description": "Data a server offers a model",
+  "description": "An MCP resource — a file, record or piece of data a server offers to a model",
   "tags": [
     "data",
     "file",

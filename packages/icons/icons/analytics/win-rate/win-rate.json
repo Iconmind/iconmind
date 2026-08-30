@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "llm-observability",
   "name": "Win rate",
-  "description": "How much of the pie says yes",
+  "description": "Win rate — how much of the pie says yes, the share of comparisons won",
   "tags": [
     "share",
     "pie",

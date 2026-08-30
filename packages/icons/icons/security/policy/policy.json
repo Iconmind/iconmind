@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "policy",
   "name": "Policy",
-  "description": "The rules, written down",
+  "description": "A policy — the rules written down, the standard that governs what may happen",
   "tags": [
     "rule",
     "standard",

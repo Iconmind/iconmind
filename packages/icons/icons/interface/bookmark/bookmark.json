@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Bookmark",
-  "description": "Keep it where you can find it",
+  "description": "A bookmark that keeps something where you can find it again — save a page, a prompt or a result",
   "tags": [
     "save",
     "flag",

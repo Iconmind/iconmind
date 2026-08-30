@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "catalog",
   "name": "Index",
-  "description": "The lookup that makes it fast",
+  "description": "A database index — the B-tree lookup that makes a query fast",
   "tags": [
     "btree",
     "key",

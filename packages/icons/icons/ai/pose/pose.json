@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "multimodal",
   "name": "Pose",
-  "description": "Where the body's joints are",
+  "description": "Pose — where the body's joints are, a skeleton of keypoints found in an image",
   "tags": [
     "skeleton",
     "keypoints",

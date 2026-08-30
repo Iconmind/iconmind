@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Run checkpoint",
-  "description": "A play button beside a flag — a checkpoint inside a run",
+  "description": "A play button beside a flag — a checkpoint saved partway inside a run",
   "tags": [
     "run",
     "checkpoint",

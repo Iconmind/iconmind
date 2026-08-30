@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "debug",
   "name": "Logpoint",
-  "description": "Doesn't stop — just says it was here",
+  "description": "A logpoint — a breakpoint that does not stop, it just logs that it was here",
   "tags": [
     "log",
     "print",

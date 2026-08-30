@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Sidebar",
-  "description": "A column down one side",
+  "description": "A sidebar — a column down one side of the screen for navigation or a drawer",
   "tags": [
     "nav",
     "rail",

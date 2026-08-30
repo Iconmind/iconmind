@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Test double",
-  "description": "The understudy that takes the stage",
+  "description": "A test double — the understudy that takes the stage in place of a real dependency",
   "tags": [
     "mock",
     "fake",

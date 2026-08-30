@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Run history",
-  "description": "A play button beside a list — every run so far",
+  "description": "A play button beside a list — every run so far, most recent first",
   "tags": [
     "run",
     "history",

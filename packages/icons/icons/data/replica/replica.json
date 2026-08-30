@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "storage",
   "name": "Replica",
-  "description": "The copy that answers reads",
+  "description": "A replica — the standby copy that answers reads and takes over if the primary fails",
   "tags": [
     "copy",
     "standby",

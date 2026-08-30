@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "agent-core",
   "name": "Agent lease",
-  "description": "Yours for a while, then given back",
+  "description": "An agent lease — yours for a while, then given back when the lease expires",
   "tags": [
     "temporary",
     "borrowed",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Sort ascending",
-  "description": "Smallest first",
+  "description": "Sort ascending — order the list from smallest to largest or A to Z",
   "tags": [
     "order",
     "ascending",

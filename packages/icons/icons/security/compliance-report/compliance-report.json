@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "compliance",
   "name": "Compliance report",
-  "description": "The paper that says you passed",
+  "description": "A compliance report — the document that attests you passed the audit",
   "tags": [
     "audit",
     "attest",

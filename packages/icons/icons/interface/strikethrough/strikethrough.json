@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Strikethrough",
-  "description": "Still there, but crossed out",
+  "description": "Strikethrough — the text is still there but crossed out, marked as removed",
   "tags": [
     "format",
     "removed",

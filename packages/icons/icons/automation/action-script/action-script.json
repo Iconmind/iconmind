@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "action",
   "name": "Script action",
-  "description": "The step that runs code",
+  "description": "Script action — the workflow step that runs custom code you wrote yourself",
   "tags": [
     "code",
     "custom",

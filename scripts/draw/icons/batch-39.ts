@@ -14,28 +14,28 @@ export const BATCH_39: Icon[] = [
 
   {
     slug: "sli", category: "devops", subcategory: "observability",
-    name: "SLI", description: "The number you actually measure",
+    name: "SLI", description: "An SLI — the service level indicator you actually measure, such as latency or error rate",
     tags: ["indicator", "measured", "metric"], family: "meter",
     aliases: [], keywords: ["service level indicator", "measured", "latency p99", "error rate"],
     shapes: [arc(12, 17, 9, 200, 340), poly([[12, 17], [17, 12]]), disc(12, 17, 1)],
   },
   {
     slug: "slo", category: "devops", subcategory: "observability",
-    name: "SLO", description: "The mark you hold yourself to",
+    name: "SLO", description: "An SLO — the service level objective you hold yourself to, the target for an indicator",
     tags: ["objective", "target", "line"], family: "meter",
     aliases: [], keywords: ["service level objective", "target", "error budget", "99.9"],
     shapes: [arc(12, 17, 9, 200, 340), poly([[12, 17], [17, 12]]), disc(12, 17, 1), poly([[17, 3], [19, 5], [22, 2]])],
   },
   {
     slug: "sla", category: "devops", subcategory: "observability",
-    name: "SLA", description: "The promise with a signature on it",
+    name: "SLA", description: "An SLA — the service level agreement, a promise with a signature on it",
     tags: ["agreement", "contract", "promise"], family: "page",
     aliases: [], keywords: ["service level agreement", "contract", "uptime promise", "penalty"],
     shapes: [page(), arc(12, 15, 4, 200, 340), poly([[12, 15], [14.5, 12.5]]), row(18, 8, 16)],
   },
   {
     slug: "uptime", category: "devops", subcategory: "observability",
-    name: "Uptime", description: "How long it has stayed up",
+    name: "Uptime", description: "Uptime — how long a service has stayed up and available without an outage",
     tags: ["available", "steady", "alive"], family: "chart",
     aliases: [], keywords: ["availability", "nines", "steady", "no downtime", "alive"],
     shapes: [row(11, 2, 22), row(17, 2, 11), row(17, 15, 22), poly([[16, 6], [18, 8], [22, 4]])],
@@ -45,28 +45,28 @@ export const BATCH_39: Icon[] = [
 
   {
     slug: "trigger-manual", category: "automation", subcategory: "trigger",
-    name: "Manual trigger", description: "Somebody pressed it",
+    name: "Manual trigger", description: "A manual trigger — somebody pressed the button to start it by hand",
     tags: ["button", "by-hand", "start"], family: "figure",
     aliases: [], keywords: ["run now", "button", "by hand", "kick off", "manual start"],
     shapes: [rect(2, 8, 12, 8, 2), disc(8, 12, 1), row(12, 16, 20), poly([[17, 9], [20, 12], [17, 15]])],
   },
   {
     slug: "trigger-schedule", category: "automation", subcategory: "trigger",
-    name: "Scheduled trigger", description: "The clock pressed it",
+    name: "Scheduled trigger", description: "A scheduled trigger — the clock pressed it, on a cron or a timer",
     tags: ["cron", "timed", "recurring"], family: "figure",
     aliases: [], keywords: ["cron", "on a timer", "recurring", "nightly", "every hour"],
     shapes: [disc(8, 12, 6), poly([[8, 9], [8, 12], [11, 12]]), row(12, 16, 20), poly([[17, 9], [20, 12], [17, 15]])],
   },
   {
     slug: "trigger-webhook", category: "automation", subcategory: "trigger",
-    name: "Webhook trigger", description: "Something outside pressed it",
+    name: "Webhook trigger", description: "A webhook trigger — something outside pushed an event in to start it",
     tags: ["event", "incoming", "push"], family: "figure",
     aliases: [], keywords: ["incoming event", "callback", "push", "external", "http trigger"],
     shapes: [arc(8, 12, 6, 240, 120), disc(8, 12, 2), row(12, 16, 20), poly([[17, 9], [20, 12], [17, 15]])],
   },
   {
     slug: "trigger-file", category: "automation", subcategory: "trigger",
-    name: "File trigger", description: "A file arriving pressed it",
+    name: "File trigger", description: "A file trigger — a file arriving or being uploaded started it",
     tags: ["watch", "upload", "arrival"], family: "figure",
     aliases: [], keywords: ["file watcher", "on upload", "new file", "landing", "drop folder"],
     shapes: [
@@ -79,21 +79,21 @@ export const BATCH_39: Icon[] = [
 
   {
     slug: "trend-up", category: "analytics", subcategory: "metric",
-    name: "Trend up", description: "It is getting bigger",
+    name: "Trend up", description: "Trend up — the number is rising over time, growth and gains on the chart",
     tags: ["rising", "growth", "gain"], family: "chart",
     aliases: [], keywords: ["rising", "growth", "up and to the right", "gain", "improving"],
     shapes: [poly([[3, 17], [9, 11], [13, 15], [21, 7]]), poly([[17, 7], [21, 7], [21, 11]])],
   },
   {
     slug: "trend-down", category: "analytics", subcategory: "metric",
-    name: "Trend down", description: "It is getting smaller",
+    name: "Trend down", description: "Trend down — the number is falling over time, decline and losses",
     tags: ["falling", "decline", "loss"], family: "chart",
     aliases: [], keywords: ["falling", "decline", "down and to the right", "loss", "worsening"],
     shapes: [poly([[3, 7], [9, 13], [13, 9], [21, 17]]), poly([[17, 17], [21, 17], [21, 13]])],
   },
   {
     slug: "underfit", category: "ai", subcategory: "training",
-    name: "Underfit", description: "A line too simple for the shape it is after",
+    name: "Underfit", description: "Underfit — a line too simple for the shape it is chasing, high bias that misses the pattern",
     tags: ["bias", "too-simple", "misses"], family: "chart",
     aliases: [], keywords: ["underfitting", "high bias", "too simple", "misses the pattern"],
     // `overfit`'s wiggle with the wiggle and the line swapped in importance: here the
@@ -102,7 +102,7 @@ export const BATCH_39: Icon[] = [
   },
   {
     slug: "staleness", category: "data", subcategory: "quality",
-    name: "Staleness", description: "How long since this was true",
+    name: "Staleness", description: "Staleness — how long since this was last true, the age of outdated data",
     tags: ["old", "outdated", "aging"], family: "figure",
     aliases: [], keywords: ["out of date", "last updated", "aging data", "expired", "old"],
     shapes: [disc(10, 12, 6), poly([[10, 9], [10, 12], [13, 12]]), row(20, 14, 21), row(16, 16, 21)],
@@ -112,7 +112,7 @@ export const BATCH_39: Icon[] = [
 
   {
     slug: "sync-two-way", category: "data", subcategory: "pipeline",
-    name: "Two-way sync", description: "Each side gets what the other has",
+    name: "Two-way sync", description: "Two-way sync — each side gets what the other has, a mirror in both directions",
     tags: ["both", "mirror", "exchange"], family: "figure",
     aliases: [], keywords: ["bidirectional", "mirror", "exchange", "both ways", "reconcile"],
     shapes: [
@@ -122,21 +122,21 @@ export const BATCH_39: Icon[] = [
   },
   {
     slug: "sort", category: "interface", subcategory: "action",
-    name: "Sort", description: "Put them in order",
+    name: "Sort", description: "Sort — put items in order, arrange or rank them by a chosen key",
     tags: ["order", "arrange", "rank"], family: "figure",
     aliases: [], keywords: ["order", "arrange", "rank", "a to z", "by size"],
     shapes: [row(6, 3, 21), row(12, 3, 15), row(18, 3, 9)],
   },
   {
     slug: "share", category: "interface", subcategory: "communication",
-    name: "Share", description: "Give others a way to it",
+    name: "Share", description: "Share — give others a way to reach it, publish a link they can open",
     tags: ["link", "publish", "out"], family: "figure",
     aliases: [], keywords: ["share link", "publish", "give access", "send out", "social"],
     shapes: [disc(8, 12, 2), disc(16, 4, 2), disc(16, 20, 2), poly([[9.5, 10.5], [14.5, 5.5]]), poly([[9.5, 13.5], [14.5, 18.5]])],
   },
   {
     slug: "stash", category: "devtools", subcategory: "version-control",
-    name: "Stash", description: "Put it aside for now",
+    name: "Stash", description: "Stash — put changes aside for now and pick them up again later",
     tags: ["shelve", "later", "hold"], family: "tray",
     aliases: ["shelve"], keywords: ["git stash", "set aside", "shelve", "temporary", "pick up later"],
     shapes: [rect(2, 12, 20, 8, 2), col(12, 2, 8), poly([[9, 5], [12, 8], [15, 5]]), row(16, 6, 18)],
@@ -146,7 +146,7 @@ export const BATCH_39: Icon[] = [
 
   {
     slug: "token-count", category: "ai", subcategory: "token",
-    name: "Token count", description: "How many pieces the text became",
+    name: "Token count", description: "Token count — how many tokens a piece of text became, its length in units",
     tags: ["length", "usage", "number"], family: "figure",
     aliases: [], keywords: ["token length", "context used", "how many tokens", "count"],
     shapes: [
@@ -156,14 +156,14 @@ export const BATCH_39: Icon[] = [
   },
   {
     slug: "tool", category: "agents", subcategory: "tool-use",
-    name: "Tool", description: "Something the agent can pick up",
+    name: "Tool", description: "A tool — something an agent can pick up and use, a capability",
     tags: ["capability", "use", "spanner"], family: "figure",
     aliases: [], keywords: ["capability", "function", "spanner", "use a tool", "equipment"],
     shapes: [rect(6, 11, 12, 9, 2), col(9, 4, 11), col(12, 4, 11), col(15, 4, 11)],
   },
   {
     slug: "timeout", category: "devtools", subcategory: "api",
-    name: "Timeout", description: "It took too long, so it was stopped",
+    name: "Timeout", description: "A timeout — it took too long, so the request was stopped at the deadline",
     tags: ["expired", "deadline", "cut-off"], family: "figure",
     aliases: [], keywords: ["deadline exceeded", "expired", "took too long", "gave up", "504"],
     shapes: [
@@ -173,7 +173,7 @@ export const BATCH_39: Icon[] = [
   },
   {
     slug: "usage", category: "analytics", subcategory: "metric",
-    name: "Usage", description: "How much of it is being used",
+    name: "Usage", description: "Usage — how much of a resource is being used, the meter on consumption",
     tags: ["consumption", "meter", "load"], family: "meter",
     aliases: ["consumption"], keywords: ["consumption", "utilisation", "how much", "load", "meter"],
     shapes: [frame(3, 3, 18, 18, 3, { gap: 0 }), row(13, 5.5, 18.5), row(16.5, 5.5, 18.5)],
@@ -183,7 +183,7 @@ export const BATCH_39: Icon[] = [
 
   {
     slug: "transcribe-ingest", category: "rag", subcategory: "ingestion",
-    name: "Transcribe", description: "Speech written down",
+    name: "Transcribe", description: "Transcribe — speech written down as text on the way into the pipeline",
     tags: ["speech", "text", "convert"], family: "figure",
     aliases: [], keywords: ["speech to text", "whisper", "dictation", "written down"],
     shapes: [
@@ -193,14 +193,14 @@ export const BATCH_39: Icon[] = [
   },
   {
     slug: "topic", category: "rag", subcategory: "knowledge",
-    name: "Topic", description: "What this cluster of things is about",
+    name: "Topic", description: "A topic — what a cluster of documents is about, its theme or subject",
     tags: ["theme", "cluster", "subject"], family: "figure",
     aliases: ["theme-topic"], keywords: ["theme", "subject", "cluster label", "about", "grouping"],
     shapes: [disc(12, 10, 4), disc(5, 18, 1), disc(12, 19, 1), disc(19, 18, 1)],
   },
   {
     slug: "tree-of-thought", category: "ai", subcategory: "inference",
-    name: "Tree of thought", description: "Several lines of thinking, one kept",
+    name: "Tree of thought", description: "Tree of thought — several lines of reasoning explored as branches, with the best one kept",
     tags: ["branch", "explore", "choose"], family: "figure",
     aliases: [], keywords: ["branching reasoning", "explore paths", "backtrack", "search tree"],
     shapes: [

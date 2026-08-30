@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "condition",
   "name": "Condition",
-  "description": "The point where the path splits",
+  "description": "A condition — the point in a flow where the path splits depending on a test",
   "tags": [
     "branch",
     "if",

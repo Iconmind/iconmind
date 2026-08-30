@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "multi-agent",
   "name": "Subagent",
-  "description": "An agent working for another agent",
+  "description": "A subagent — an agent spawned to work for another agent on a piece of the task",
   "tags": [
     "child",
     "spawned",

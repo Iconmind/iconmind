@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "orchestration",
   "name": "Namespace",
-  "description": "A named place things belong to",
+  "description": "A namespace — a named scope things belong to, isolated from the rest",
   "tags": [
     "scope",
     "group",

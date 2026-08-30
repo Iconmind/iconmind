@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Token price",
-  "description": "What the words cost, each",
+  "description": "Token price — what the words cost, each token as a coin on the bill",
   "tags": [
     "cost",
     "tokens",

@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "trigger",
   "name": "Dedupe window",
-  "description": "Seen it already, still remembers",
+  "description": "A dedupe window — seen it already within the window, so the duplicate is dropped",
   "tags": [
     "duplicate",
     "window",

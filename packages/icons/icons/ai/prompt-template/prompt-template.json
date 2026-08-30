@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "prompt",
   "name": "Prompt template",
-  "description": "A prompt with a hole to fill in",
+  "description": "A prompt template — a reusable prompt with placeholders you fill in with variables",
   "tags": [
     "placeholder",
     "variable",

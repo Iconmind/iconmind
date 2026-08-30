@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "code",
   "name": "Union type",
-  "description": "It is this, or it is that",
+  "description": "A union type — it is this or it is that, either of two types",
   "tags": [
     "types",
     "or",

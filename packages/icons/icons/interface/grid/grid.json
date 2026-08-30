@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Grid",
-  "description": "Laid out in rows and columns",
+  "description": "A grid — items laid out in rows and columns, tiles in a regular layout",
   "tags": [
     "tiles",
     "layout",

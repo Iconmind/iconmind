@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Session token",
-  "description": "What proves it is still you",
+  "description": "A session token — the opaque bearer or cookie that proves it is still you",
   "tags": [
     "cookie",
     "bearer",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Layer up",
-  "description": "Bring it nearer the eye",
+  "description": "Layer up — bring an object nearer the eye, raised in the stacking order",
   "tags": [
     "stack",
     "raise",

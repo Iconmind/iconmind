@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Permission",
-  "description": "You are allowed to do this",
+  "description": "Permission — you are allowed to do this, access granted by a policy",
   "tags": [
     "allowed",
     "granted",

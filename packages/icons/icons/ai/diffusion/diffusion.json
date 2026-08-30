@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Diffusion",
-  "description": "Noise resolved into a picture",
+  "description": "Diffusion — noise resolved step by step into a picture by a generative model",
   "tags": [
     "denoise",
     "image",

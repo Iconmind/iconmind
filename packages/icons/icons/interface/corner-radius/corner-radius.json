@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Corner radius",
-  "description": "How round the corner is",
+  "description": "Corner radius — how round a corner is, the rounding of a shape or a box",
   "tags": [
     "rounding",
     "corner",

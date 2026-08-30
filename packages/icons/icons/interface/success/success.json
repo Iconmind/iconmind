@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "state",
   "name": "Success",
-  "description": "It worked",
+  "description": "Success — it worked, done and green, the outcome you wanted to see",
   "tags": [
     "done",
     "ok",

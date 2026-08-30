@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "catalog",
   "name": "Data owner",
-  "description": "Whose table this is",
+  "description": "A data owner — the steward responsible for a table or a dataset",
   "tags": [
     "steward",
     "responsible",

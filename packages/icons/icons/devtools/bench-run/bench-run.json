@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Benchmark run",
-  "description": "How fast, exactly",
+  "description": "A benchmark run — how fast it goes, exactly, timed and measured against a baseline",
   "tags": [
     "timed",
     "speed",

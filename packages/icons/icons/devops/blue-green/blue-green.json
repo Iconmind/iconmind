@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "release",
   "name": "Blue-green",
-  "description": "Two identical stacks, one of them live",
+  "description": "Blue-green deployment — two identical stacks, one live, swapped over at cutover",
   "tags": [
     "swap",
     "cutover",

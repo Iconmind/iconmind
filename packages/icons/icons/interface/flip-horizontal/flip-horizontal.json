@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "Flip horizontal",
-  "description": "Mirror it left to right",
+  "description": "Flip horizontal — mirror an object left to right across a vertical axis",
   "tags": [
     "mirror",
     "reflect",

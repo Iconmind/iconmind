@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Counter metric",
-  "description": "What must not fall while this rises",
+  "description": "A counter metric — the number that must not fall while the target rises",
   "tags": [
     "balance",
     "opposite",

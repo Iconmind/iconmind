@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "api",
   "name": "GraphQL",
-  "description": "Ask for exactly the fields you want",
+  "description": "GraphQL — a query language where you ask for exactly the fields you want",
   "tags": [
     "query",
     "schema",

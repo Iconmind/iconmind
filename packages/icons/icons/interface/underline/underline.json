@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Underline",
-  "description": "A line under the words",
+  "description": "Underline — a line drawn under the words, a text style for emphasis",
   "tags": [
     "format",
     "text",

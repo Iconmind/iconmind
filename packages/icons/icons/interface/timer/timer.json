@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "time",
   "name": "Timer",
-  "description": "Counting down",
+  "description": "A timer — counting down, a stopwatch or the time elapsed since the start",
   "tags": [
     "countdown",
     "stopwatch",

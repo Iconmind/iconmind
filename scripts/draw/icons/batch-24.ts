@@ -16,7 +16,7 @@ export const BATCH_24: Icon[] = [
 
   {
     slug: "users", category: "interface", subcategory: "identity",
-    name: "Users", description: "More than one person",
+    name: "Users", description: "Users — more than one person, a team or a group of accounts together",
     tags: ["people", "team", "group"], family: "figure",
     aliases: ["people"], keywords: ["team", "members", "group", "accounts", "audience"],
     // The second figure is smaller and set back, which is how two of anything are drawn as
@@ -28,7 +28,7 @@ export const BATCH_24: Icon[] = [
   },
   {
     slug: "folder-open", category: "interface", subcategory: "file",
-    name: "Folder open", description: "You are looking inside it",
+    name: "Folder open", description: "Folder open — you are looking inside the folder at its files and contents",
     tags: ["open", "expanded", "contents"], family: "folder",
     aliases: [], keywords: ["expanded", "current directory", "contents", "browse"],
     // The front falls away at 45° and the back stays square. `folder`'s tab is still there,
@@ -40,7 +40,7 @@ export const BATCH_24: Icon[] = [
   },
   {
     slug: "paste", category: "interface", subcategory: "action",
-    name: "Paste", description: "Put the copy here",
+    name: "Paste", description: "Paste — put the copied item here from the clipboard where the cursor is",
     tags: ["clipboard", "insert", "place"], family: "window",
     aliases: [], keywords: ["clipboard", "ctrl-v", "insert", "drop"],
         // `clipboard`'s board and clip with something going into it. Drawn as three overlapping
@@ -53,7 +53,7 @@ export const BATCH_24: Icon[] = [
   },
   {
     slug: "inbox-empty", category: "interface", subcategory: "communication",
-    name: "Inbox empty", description: "Nothing waiting",
+    name: "Inbox empty", description: "Inbox empty — nothing waiting, everything dealt with and the tray clear",
     tags: ["clear", "done", "none"], family: "window",
     aliases: ["inbox-zero"], keywords: ["inbox zero", "all clear", "nothing new", "caught up"],
     // `inbox`'s shelf, flat. The dip is where a letter drops through; without it there is
@@ -65,7 +65,7 @@ export const BATCH_24: Icon[] = [
 
   {
     slug: "group", category: "interface", subcategory: "layout",
-    name: "Group", description: "Treat these as one",
+    name: "Group", description: "Group — treat several objects as one so they move and select together",
     tags: ["combine", "select", "bind"], family: "bracket",
     aliases: [], keywords: ["combine", "selection", "bind", "container", "merge objects"],
     shapes: [
@@ -76,7 +76,7 @@ export const BATCH_24: Icon[] = [
   },
   {
     slug: "distribute", category: "interface", subcategory: "layout",
-    name: "Distribute", description: "Spread them evenly",
+    name: "Distribute", description: "Distribute — spread objects evenly so the spaces between them match",
     tags: ["space", "align", "even"], family: "rails",
     aliases: [], keywords: ["even spacing", "align", "arrange", "justify"],
     shapes: [col(3, 4, 20), col(21, 4, 20), rect(6, 8, 4, 8, 2), rect(14, 8, 4, 8, 2)],
@@ -86,7 +86,7 @@ export const BATCH_24: Icon[] = [
 
   {
     slug: "timer", category: "interface", subcategory: "time",
-    name: "Timer", description: "Counting down",
+    name: "Timer", description: "A timer — counting down, a stopwatch or the time elapsed since the start",
     tags: ["countdown", "stopwatch", "elapsed"], family: "orbit",
     aliases: ["stopwatch"], keywords: ["countdown", "stopwatch", "elapsed", "duration", "egg timer"],
     // `clock`'s dial with a crown on top. The crown is what separates a thing that tells the
@@ -98,7 +98,7 @@ export const BATCH_24: Icon[] = [
   },
   {
     slug: "volume-down", category: "interface", subcategory: "media",
-    name: "Volume down", description: "Quieter",
+    name: "Volume down", description: "Volume down — make the sound quieter, lower the speaker level",
     tags: ["quiet", "lower", "sound"], family: "figure",
     aliases: [], keywords: ["quieter", "turn down", "low volume", "soft"],
     // One wave where `volume` has two. The count is the level, which is the only way to
@@ -110,7 +110,7 @@ export const BATCH_24: Icon[] = [
   },
   {
     slug: "spam", category: "interface", subcategory: "communication",
-    name: "Spam", description: "Unwanted, and probably lying",
+    name: "Spam", description: "Spam — unwanted mail that is probably lying, junk or phishing",
     tags: ["junk", "unwanted", "phishing"], family: "window",
     aliases: ["junk"], keywords: ["junk", "phishing", "unsolicited", "report", "block sender"],
     shapes: [
@@ -120,7 +120,7 @@ export const BATCH_24: Icon[] = [
   },
   {
     slug: "agent-inbox", category: "agents", subcategory: "communication",
-    name: "Agent inbox", description: "What is waiting for this agent",
+    name: "Agent inbox", description: "An agent inbox — the queue of messages and tasks waiting for this agent",
     tags: ["queue", "pending", "received"], family: "window",
     aliases: [], keywords: ["task queue", "pending", "assigned", "waiting", "received"],
     shapes: [
@@ -134,21 +134,21 @@ export const BATCH_24: Icon[] = [
 
   {
     slug: "mcp-initialize", category: "mcp", subcategory: "transport",
-    name: "MCP initialize", description: "The first exchange, before anything else",
+    name: "MCP initialize", description: "MCP initialize — the first handshake between client and server before anything else",
     tags: ["start", "handshake", "connect"], family: "tower",
     aliases: ["mcp-handshake"], keywords: ["handshake", "negotiate", "capabilities", "startup"],
     shapes: [...server(), poly([[10, 7], [14, 11], [10, 15]])],
   },
   {
     slug: "mcp-progress", category: "mcp", subcategory: "transport",
-    name: "MCP progress", description: "How far through a long call it is",
+    name: "MCP progress", description: "MCP progress — how far through a long-running call the server has got",
     tags: ["partial", "streaming", "percent"], family: "machine",
     aliases: [], keywords: ["progress token", "partial result", "long running", "percent"],
     shapes: [frame(2, 7, 20, 10, 3, { chamfer: 3, gap: 3 }), col(12, 7, 17)],
   },
   {
     slug: "mcp-session", category: "mcp", subcategory: "transport",
-    name: "MCP session", description: "One conversation, from open to close",
+    name: "MCP session", description: "An MCP session — one conversation between client and server from open to close",
     tags: ["connection", "lifetime", "state"], family: "machine",
     aliases: [], keywords: ["session id", "lifetime", "stateful", "connection", "resume"],
     // A dial inside the chamfered body. A session is a connection with a duration, and the
@@ -160,7 +160,7 @@ export const BATCH_24: Icon[] = [
   },
   {
     slug: "mcp-error", category: "mcp", subcategory: "transport",
-    name: "MCP error", description: "The call came back wrong",
+    name: "MCP error", description: "An MCP error — a call that came back wrong, a fault the server rejected",
     tags: ["failure", "fault", "rejected"], family: "page",
     aliases: [], keywords: ["json-rpc error", "fault", "rejected", "exception", "code"],
     shapes: [machinePage(), ...off(SMALL)],

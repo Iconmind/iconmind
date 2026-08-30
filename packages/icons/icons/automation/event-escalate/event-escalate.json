@@ -1,0 +1,32 @@
+{
+  "slug": "event-escalate",
+  "category": "automation",
+  "subcategory": "action",
+  "name": "Event escalate",
+  "description": "A lightning bolt beside a double chevron rising — an event escalated to a higher tier",
+  "tags": [
+    "event",
+    "escalate",
+    "priority"
+  ],
+  "keywords": [
+    "escalate event",
+    "raise priority",
+    "event tier up"
+  ],
+  "family": "bolt",
+  "shapes": [
+    {
+      "d": "M10 6L5 11L9 11L4 16",
+      "closed": false
+    },
+    {
+      "d": "M15 13L18.5 9.5L22 13",
+      "closed": false
+    },
+    {
+      "d": "M15 17.5L18.5 14L22 17.5",
+      "closed": false
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Synthetic row",
-  "description": "A row nobody collected",
+  "description": "A synthetic row — a record nobody collected, generated to fill a gap",
   "tags": [
     "generated",
     "fake",

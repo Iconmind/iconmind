@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Biometric",
-  "description": "Proving it is you by what you are",
+  "description": "Biometric — proving it is you by what you are, a fingerprint or a face",
   "tags": [
     "fingerprint",
     "face",

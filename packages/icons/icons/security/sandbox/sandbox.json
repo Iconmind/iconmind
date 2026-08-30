@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "policy",
   "name": "Sandbox",
-  "description": "Somewhere it cannot reach out of",
+  "description": "A sandbox — an isolated space something can run in without reaching out",
   "tags": [
     "isolated",
     "contained",

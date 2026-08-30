@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "tool-use",
   "name": "Tool result",
-  "description": "What the tool handed back",
+  "description": "A tool result — what the tool handed back to the agent after it was called",
   "tags": [
     "output",
     "returned",

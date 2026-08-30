@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Sort descending",
-  "description": "Largest first",
+  "description": "Sort descending — order the list from largest to smallest or Z to A",
   "tags": [
     "order",
     "descending",

@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "vector",
   "name": "Flat index",
-  "description": "Compare against every single one",
+  "description": "A flat index — compare the query against every single vector, exact but slow",
   "tags": [
     "exact",
     "scan",

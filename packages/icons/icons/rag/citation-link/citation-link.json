@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "grounding",
   "name": "Citation link",
-  "description": "The claim joined to what it rests on",
+  "description": "A citation link — a claim joined to the source it rests on, so it can be checked",
   "tags": [
     "trace",
     "source",

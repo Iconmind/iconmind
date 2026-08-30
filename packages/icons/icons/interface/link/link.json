@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Link",
-  "description": "Joined to something else",
+  "description": "A link — joined to something else, a URL or a connection between two things",
   "tags": [
     "chain",
     "url",

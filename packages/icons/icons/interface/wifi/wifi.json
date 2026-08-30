@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "state",
   "name": "Wi-Fi",
-  "description": "Connected, wirelessly",
+  "description": "Wi-Fi — connected wirelessly, the signal strength of a network",
   "tags": [
     "signal",
     "wireless",

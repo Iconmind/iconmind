@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "debug",
   "name": "Stack trace",
-  "description": "Which call was inside which",
+  "description": "A stack trace — which call was inside which when the program crashed",
   "tags": [
     "frames",
     "crash",

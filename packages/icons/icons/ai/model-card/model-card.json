@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Model card",
-  "description": "What this model is, on one page",
+  "description": "A model card — what this model is, how it was trained and where it is safe to use, on one page",
   "tags": [
     "spec",
     "sheet",

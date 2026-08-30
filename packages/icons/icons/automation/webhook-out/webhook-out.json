@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "integration",
   "name": "Outgoing webhook",
-  "description": "Our event, sent to someone else",
+  "description": "An outgoing webhook — our event sent to someone else's endpoint as a push",
   "tags": [
     "send",
     "notify",

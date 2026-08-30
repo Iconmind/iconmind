@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Safety probe",
-  "description": "A thin question, lowered in",
+  "description": "A safety probe — a thin question lowered into the model to test what it knows",
   "tags": [
     "probe",
     "test",

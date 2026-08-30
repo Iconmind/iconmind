@@ -1,0 +1,40 @@
+{
+  "slug": "geo-key",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Geo key",
+  "description": "A location pin beside a key — a credential that only works from one place",
+  "tags": [
+    "key",
+    "location",
+    "restricted"
+  ],
+  "keywords": [
+    "geo-restricted key",
+    "location-bound credential",
+    "regional key"
+  ],
+  "family": "pin",
+  "shapes": [
+    {
+      "d": "M4 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V17",
+      "closed": false
+    },
+    {
+      "d": "M14 9a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 12V20",
+      "closed": false
+    },
+    {
+      "d": "M17 17H19.5",
+      "closed": false
+    }
+  ]
+}

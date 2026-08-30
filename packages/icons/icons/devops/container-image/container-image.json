@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "container",
   "name": "Container image",
-  "description": "The thing a container is started from",
+  "description": "A container image — the immutable layered template a container is started from",
   "tags": [
     "template",
     "layers",

@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "memory",
   "name": "State",
-  "description": "What is true right now",
+  "description": "State — what is true right now, a snapshot of the current values",
   "tags": [
     "current",
     "snapshot",

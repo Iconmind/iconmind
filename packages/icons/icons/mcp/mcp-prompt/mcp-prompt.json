@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "prompt",
   "name": "MCP prompt",
-  "description": "A prompt template a server provides",
+  "description": "An MCP prompt — a canned prompt template a server provides ready to use",
   "tags": [
     "template",
     "provided",

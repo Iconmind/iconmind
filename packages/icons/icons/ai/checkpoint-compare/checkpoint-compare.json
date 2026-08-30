@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Checkpoint compare",
-  "description": "This saved state against that one",
+  "description": "Checkpoint compare — this saved state against that one, to pick the better",
   "tags": [
     "flags",
     "versus",

@@ -1,0 +1,29 @@
+{
+  "slug": "favorite-run",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Favourite run",
+  "description": "A play button beside a heart — a run configuration you keep coming back to",
+  "tags": [
+    "run",
+    "favourite",
+    "heart"
+  ],
+  "keywords": [
+    "favourite run",
+    "starred job",
+    "pinned run"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M3 5L3 19L10 12Z",
+      "closed": true
+    },
+    {
+      "d": "M14 10A2.5 2.5 0 0 1 18 10A2.5 2.5 0 0 1 22 10L18 14Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
+    }
+  ]
+}

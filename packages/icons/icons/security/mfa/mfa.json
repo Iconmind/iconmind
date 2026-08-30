@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Multi-factor",
-  "description": "Two proofs, not one",
+  "description": "Multi-factor authentication — two proofs instead of one, a second factor on a device",
   "tags": [
     "2fa",
     "second",

@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "incident",
   "name": "Incident",
-  "description": "Something is wrong in production",
+  "description": "An incident — something is wrong in production and someone has to respond",
   "tags": [
     "outage",
     "alert",

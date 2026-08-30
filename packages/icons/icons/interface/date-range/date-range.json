@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "time",
   "name": "Date range",
-  "description": "From one day to another",
+  "description": "A date range — from one day to another, a period between two dates",
   "tags": [
     "period",
     "between",

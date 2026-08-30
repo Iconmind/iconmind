@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "time",
   "name": "Calendar check",
-  "description": "That day is settled",
+  "description": "Calendar check — that day is settled, booked and confirmed in the diary",
   "tags": [
     "booked",
     "confirmed",

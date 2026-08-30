@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Batch inference",
-  "description": "Many answers, together",
+  "description": "Batch inference — many answers produced together in one bulk, offline pass",
   "tags": [
     "bulk",
     "queue",

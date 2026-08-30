@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "For each",
-  "description": "The same steps, once per item",
+  "description": "For each — the same steps run once per item in a list, an iteration loop",
   "tags": [
     "loop",
     "iterate",

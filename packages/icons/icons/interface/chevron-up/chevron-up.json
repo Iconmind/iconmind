@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "arrow",
   "name": "Chevron up",
-  "description": "Close what is below, or go up a level",
+  "description": "An up-pointing chevron — collapse what is below, show less or go up a level",
   "tags": [
     "collapse",
     "up",

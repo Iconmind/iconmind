@@ -1,0 +1,36 @@
+{
+  "slug": "search-next",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Search next",
+  "description": "A magnifying glass with an arrow beside it — jump to the next match",
+  "tags": [
+    "search",
+    "next",
+    "match"
+  ],
+  "keywords": [
+    "next match",
+    "find next",
+    "search forward"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M4 10a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 13L3 15.5",
+      "closed": false
+    },
+    {
+      "d": "M16 12H22",
+      "closed": false
+    },
+    {
+      "d": "M19.5 9.5L22 12L19.5 14.5",
+      "closed": false
+    }
+  ]
+}

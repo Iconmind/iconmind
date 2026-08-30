@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Goal met",
-  "description": "A target with a check beside it — a goal that was reached",
+  "description": "A target with a check beside it — a goal that was reached and confirmed",
   "tags": [
     "goal",
     "reached",

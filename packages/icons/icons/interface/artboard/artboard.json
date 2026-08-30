@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Artboard",
-  "description": "The canvas, with its corners marked",
+  "description": "An artboard — the canvas with its corners marked, the frame you design inside",
   "tags": [
     "canvas",
     "frame",

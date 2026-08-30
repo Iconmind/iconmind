@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "chunking",
   "name": "Chunk strategy",
-  "description": "Where to cut, and which way",
+  "description": "A chunk strategy — where to cut a document, how big and which way",
   "tags": [
     "split",
     "policy",

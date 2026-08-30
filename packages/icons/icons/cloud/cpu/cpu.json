@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "compute",
   "name": "CPU",
-  "description": "Where the computation actually happens",
+  "description": "The CPU, the processor where general computation runs before work is handed to accelerators",
   "tags": [
     "processor",
     "chip",

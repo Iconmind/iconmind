@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "time",
   "name": "Calendar off",
-  "description": "Cancelled",
+  "description": "Calendar off — the event is cancelled or the date is blocked and unavailable",
   "tags": [
     "cancelled",
     "unavailable",

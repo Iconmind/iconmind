@@ -1,0 +1,36 @@
+{
+  "slug": "send-money",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Send money",
+  "description": "A coin with an arrow beside it — send a payment to someone else",
+  "tags": [
+    "payment",
+    "send",
+    "transfer"
+  ],
+  "keywords": [
+    "send money",
+    "make a payment",
+    "transfer funds"
+  ],
+  "family": "coin",
+  "shapes": [
+    {
+      "d": "M2 12a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M15 12H22",
+      "closed": false
+    },
+    {
+      "d": "M19.5 9.5L22 12L19.5 14.5",
+      "closed": false
+    }
+  ]
+}

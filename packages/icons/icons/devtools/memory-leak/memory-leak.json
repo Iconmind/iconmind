@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "debug",
   "name": "Memory leak",
-  "description": "It never gives any back",
+  "description": "A memory leak — memory that is taken and never given back, growing until it hurts",
   "tags": [
     "drip",
     "grow",

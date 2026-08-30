@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "communication",
   "name": "Send",
-  "description": "Off it goes",
+  "description": "Send — off it goes, submit and post it away to the recipient",
   "tags": [
     "submit",
     "post",

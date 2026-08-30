@@ -15,7 +15,7 @@ export const BATCH_52: Icon[] = [
 
   {
     slug: "model-card", category: "ai", subcategory: "model",
-    name: "Model card", description: "What this model is, on one page",
+    name: "Model card", description: "A model card — what this model is, how it was trained and where it is safe to use, on one page",
     tags: ["spec", "sheet", "readme"], family: "page",
     aliases: [], keywords: ["model card", "spec sheet", "capabilities", "limitations"],
     // A page carrying the model's diamond where a portrait would go, facts below.
@@ -27,7 +27,7 @@ export const BATCH_52: Icon[] = [
   },
   {
     slug: "model-registry-entry", category: "ai", subcategory: "model",
-    name: "Model registry entry", description: "One model on the shelf, picked out",
+    name: "Model registry entry", description: "A model registry entry — one model on the shelf, versioned and picked out",
     tags: ["catalog", "shelf", "version"], family: "machine",
     aliases: [], keywords: ["registry", "catalog entry", "model version", "artifact"],
     // `registry`'s window, holding one row whose bullet is the model's diamond —
@@ -39,7 +39,7 @@ export const BATCH_52: Icon[] = [
   },
   {
     slug: "model-license", category: "ai", subcategory: "model",
-    name: "Model license", description: "What you may do with the weights",
+    name: "Model license", description: "A model license — the terms that say what you may do with the weights",
     tags: ["terms", "seal", "open"], family: "machine",
     aliases: ["model-licence"], keywords: ["license", "open weights", "terms of use", "commercial"],
     // A certificate seal with the model's diamond struck into it, ribbons below.
@@ -53,7 +53,7 @@ export const BATCH_52: Icon[] = [
   },
   {
     slug: "model-size", category: "ai", subcategory: "model",
-    name: "Model size", description: "How big the thing actually is",
+    name: "Model size", description: "Model size — how big the model actually is in parameters and footprint",
     tags: ["parameters", "measure", "footprint"], family: "machine",
     aliases: [], keywords: ["parameter count", "7b", "70b", "vram fit", "footprint"],
     // The diamond at two parameter counts, side by side the way type sizes are
@@ -68,7 +68,7 @@ export const BATCH_52: Icon[] = [
 
   {
     slug: "model-family", category: "ai", subcategory: "model",
-    name: "Model family", description: "One base, several descendants",
+    name: "Model family", description: "A model family — one base model and its several descendants in a lineage tree",
     tags: ["lineage", "variants", "tree"], family: "machine",
     aliases: [], keywords: ["model lineage", "base model", "variants", "sizes"],
     // `agent-hierarchy`'s orthogonal tree with diamonds for nodes: stem, rail and
@@ -82,7 +82,7 @@ export const BATCH_52: Icon[] = [
   },
   {
     slug: "model-fork", category: "ai", subcategory: "model",
-    name: "Model fork", description: "Take the weights and go your own way",
+    name: "Model fork", description: "A model fork — take the weights and go your own way with a diverging fine-tune",
     tags: ["diverge", "finetune", "copy"], family: "machine",
     aliases: [], keywords: ["fork model", "diverge", "custom weights", "derivative"],
     // `fork`'s drawing with the source dot promoted to the model diamond. The arms
@@ -99,7 +99,7 @@ export const BATCH_52: Icon[] = [
 
   {
     slug: "checkpoint-save", category: "ai", subcategory: "training",
-    name: "Checkpoint save", description: "Write the state down before going on",
+    name: "Checkpoint save", description: "Checkpoint save — write the training state down before going on",
     tags: ["flag", "write", "state"], family: "figure",
     aliases: [], keywords: ["save checkpoint", "snapshot weights", "resume point"],
     // `checkpoint`'s flag, and the state going down into storage beside it.
@@ -110,7 +110,7 @@ export const BATCH_52: Icon[] = [
   },
   {
     slug: "checkpoint-load", category: "ai", subcategory: "training",
-    name: "Checkpoint load", description: "Pick up exactly where it stopped",
+    name: "Checkpoint load", description: "Checkpoint load — pick up exactly where training stopped, restored from a save",
     tags: ["flag", "resume", "restore"], family: "figure",
     aliases: [], keywords: ["load checkpoint", "resume training", "restore weights"],
     // `checkpoint-save` with the arrow turned around — a direction pair, the way
@@ -122,7 +122,7 @@ export const BATCH_52: Icon[] = [
   },
   {
     slug: "checkpoint-compare", category: "ai", subcategory: "training",
-    name: "Checkpoint compare", description: "This saved state against that one",
+    name: "Checkpoint compare", description: "Checkpoint compare — this saved state against that one, to pick the better",
     tags: ["flags", "versus", "pick"], family: "figure",
     aliases: [], keywords: ["compare checkpoints", "best checkpoint", "eval per save"],
     // Two flags at different heights on their own poles — two moments of the same
@@ -137,7 +137,7 @@ export const BATCH_52: Icon[] = [
 
   {
     slug: "gradient-descent", category: "ai", subcategory: "training",
-    name: "Gradient descent", description: "Downhill until there is no downhill left",
+    name: "Gradient descent", description: "Gradient descent — walk downhill on the loss until there is no downhill left",
     tags: ["optimize", "minimum", "valley"], family: "chart",
     aliases: [], keywords: ["optimizer", "loss minimum", "converge", "training step"],
     // Steps down and to the right, and the dot on the lowest landing — each tread

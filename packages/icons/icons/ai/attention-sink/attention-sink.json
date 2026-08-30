@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Attention sink",
-  "description": "The first token soaks it all up",
+  "description": "An attention sink — the first token soaks up the attention that has nowhere else to go",
   "tags": [
     "first",
     "absorb",

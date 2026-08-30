@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "safety",
   "name": "Hallucination",
-  "description": "Said with confidence, true of nothing",
+  "description": "A hallucination — an answer said with confidence that is true of nothing, invented",
   "tags": [
     "false",
     "invented",

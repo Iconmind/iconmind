@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Key combo",
-  "description": "Two keys, pressed as one",
+  "description": "A key combo — two keys pressed together as one chord to trigger a shortcut",
   "tags": [
     "chord",
     "shortcut",

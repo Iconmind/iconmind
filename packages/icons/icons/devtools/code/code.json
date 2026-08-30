@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "code",
   "name": "Code",
-  "description": "Source, as written",
+  "description": "Code — source written in a programming language, shown between angle brackets",
   "tags": [
     "source",
     "brackets",

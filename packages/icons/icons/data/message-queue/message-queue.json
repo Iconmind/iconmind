@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "streaming",
   "name": "Message queue",
-  "description": "Things waiting their turn",
+  "description": "A message queue — messages waiting their turn in a first-in, first-out backlog",
   "tags": [
     "fifo",
     "backlog",

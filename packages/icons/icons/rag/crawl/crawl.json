@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "ingestion",
   "name": "Crawl",
-  "description": "Following every link it finds",
+  "description": "Crawl — follow every link a spider finds, scraping page after page",
   "tags": [
     "spider",
     "scrape",

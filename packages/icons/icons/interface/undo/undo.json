@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Undo",
-  "description": "Put it back the way it was",
+  "description": "Undo — put it back the way it was, step back through history",
   "tags": [
     "back",
     "revert",

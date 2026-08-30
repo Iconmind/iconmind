@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "pipeline",
   "name": "Two-way sync",
-  "description": "Each side gets what the other has",
+  "description": "Two-way sync — each side gets what the other has, a mirror in both directions",
   "tags": [
     "both",
     "mirror",

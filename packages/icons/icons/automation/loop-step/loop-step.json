@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "Loop step",
-  "description": "Round again until it is done",
+  "description": "A loop step — round again and again until the condition is done",
   "tags": [
     "repeat",
     "iterate",

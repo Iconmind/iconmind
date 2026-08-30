@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Rotate clockwise",
-  "description": "A quarter turn to the right",
+  "description": "Rotate clockwise — a quarter turn to the right around the centre",
   "tags": [
     "turn",
     "right",

@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Executor",
-  "description": "The part that actually carries the steps out",
+  "description": "The executor — the worker part of an agent that actually carries the planned steps out",
   "tags": [
     "run",
     "worker",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "arrow",
   "name": "Arrow down",
-  "description": "That way, down",
+  "description": "An arrow pointing down — move downward, go south, decrease a value or scroll to the bottom",
   "tags": [
     "down",
     "south",

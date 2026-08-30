@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "communication",
   "name": "Context handout",
-  "description": "Here is what I know; take it with you",
+  "description": "Context handout — here is what I know, take it with you when you go to the next agent",
   "tags": [
     "pass",
     "share",

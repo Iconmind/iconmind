@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "observability",
   "name": "Brownout",
-  "description": "Still on — just less of it",
+  "description": "A brownout — still on, just less of it, a service degraded to stay up",
   "tags": [
     "degrade",
     "reduce",

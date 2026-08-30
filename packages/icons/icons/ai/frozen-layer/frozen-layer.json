@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Frozen layer",
-  "description": "This one keeps its weights",
+  "description": "A frozen layer — this layer keeps its weights fixed during transfer learning",
   "tags": [
     "locked",
     "fixed",

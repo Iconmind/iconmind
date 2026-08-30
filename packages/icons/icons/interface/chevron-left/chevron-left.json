@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "arrow",
   "name": "Chevron left",
-  "description": "Go back, or close what is here",
+  "description": "A left-pointing chevron — go back to the previous item or close what is open here",
   "tags": [
     "back",
     "previous",

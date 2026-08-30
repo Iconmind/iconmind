@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "compute",
   "name": "Virtual machine",
-  "description": "A machine that is really software",
+  "description": "A virtual machine — a whole computer that is really software running on a host",
   "tags": [
     "instance",
     "virtual",

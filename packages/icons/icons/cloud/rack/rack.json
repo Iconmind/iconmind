@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "compute",
   "name": "Rack",
-  "description": "Machines stacked in a cabinet",
+  "description": "A rack — machines stacked in a datacentre cabinet, one above the other",
   "tags": [
     "cabinet",
     "datacentre",

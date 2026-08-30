@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Model tag",
-  "description": "A model core beside a label — a tag that groups models",
+  "description": "A model core beside a label — a tag that groups models by family or purpose",
   "tags": [
     "tag",
     "label",

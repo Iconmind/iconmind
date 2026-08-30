@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Cost per request",
-  "description": "What one call works out at",
+  "description": "Cost per request — what one API call works out to in money once everything is counted",
   "tags": [
     "unit",
     "rate",

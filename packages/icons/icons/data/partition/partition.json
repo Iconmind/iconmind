@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "storage",
   "name": "Partition",
-  "description": "The same table, split up",
+  "description": "A partition — the same table split into ranges or shards for scale",
   "tags": [
     "shard",
     "split",

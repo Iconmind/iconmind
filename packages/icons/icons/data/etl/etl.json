@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "transform",
   "name": "ETL",
-  "description": "Take it out, change it, put it back",
+  "description": "ETL — extract data from a source, transform it, and load it where it will be used",
   "tags": [
     "extract",
     "transform",

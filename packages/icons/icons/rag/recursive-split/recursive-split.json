@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "chunking",
   "name": "Recursive split",
-  "description": "Halve it until the pieces fit",
+  "description": "Recursive split — halve a document again and again until the pieces fit the chunk size",
   "tags": [
     "divide",
     "again",

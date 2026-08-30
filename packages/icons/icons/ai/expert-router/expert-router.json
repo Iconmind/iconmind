@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Expert router",
-  "description": "This token goes to that specialist",
+  "description": "An expert router — this token goes to that specialist in a mixture of experts",
   "tags": [
     "moe",
     "route",

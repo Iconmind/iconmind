@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "api",
   "name": "GraphQL node",
-  "description": "One field, and what hangs off it",
+  "description": "A GraphQL node — one field in a query, and what hangs off it",
   "tags": [
     "field",
     "query",

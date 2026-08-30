@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "chart",
   "name": "Bubble chart",
-  "description": "Three measures on two axes",
+  "description": "A bubble chart — three measures on two axes, with size as the third",
   "tags": [
     "scatter",
     "size",

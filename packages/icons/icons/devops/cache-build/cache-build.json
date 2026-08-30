@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "Cache build",
-  "description": "Fill it before anyone asks",
+  "description": "Cache build — warm the cache and fill it before anyone asks for anything",
   "tags": [
     "warm",
     "prefill",

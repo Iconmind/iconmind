@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Freshness check",
-  "description": "Is this still current?",
+  "description": "A freshness check — is this still current, recently verified and not stale?",
   "tags": [
     "recent",
     "current",

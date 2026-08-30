@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "chart",
   "name": "Trend milestone",
-  "description": "A flag beside a rising line — a milestone marked on a trend",
+  "description": "A flag beside a rising line — a milestone marked on a trend as it climbs",
   "tags": [
     "milestone",
     "trend",

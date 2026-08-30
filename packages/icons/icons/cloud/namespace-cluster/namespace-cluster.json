@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "compute",
   "name": "Cluster namespace",
-  "description": "One name over many machines",
+  "description": "A cluster namespace — one name that spans many machines in a fleet",
   "tags": [
     "group",
     "spans",

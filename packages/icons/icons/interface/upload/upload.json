@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "arrow",
   "name": "Upload",
-  "description": "Send it away from here",
+  "description": "Upload — send a file or data away from here up to a server, a cloud bucket or a model",
   "tags": [
     "send",
     "push",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "time",
   "name": "Timer pause",
-  "description": "A clock beside a pause mark — pause the timer",
+  "description": "A clock beside a pause mark — pause the timer without resetting it",
   "tags": [
     "timer",
     "pause",

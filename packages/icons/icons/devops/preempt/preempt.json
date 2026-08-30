@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "Preempt",
-  "description": "Something more important took the slot",
+  "description": "Preempt — something more important took the slot and evicted the job",
   "tags": [
     "evict",
     "kick",

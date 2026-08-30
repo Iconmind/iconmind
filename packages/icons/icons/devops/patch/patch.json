@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "release",
   "name": "Patch",
-  "description": "A small piece let into a big one",
+  "description": "A patch — a small fix let into a bigger system, an overlay on what was there",
   "tags": [
     "fix",
     "hotfix",

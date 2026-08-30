@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Task claim",
-  "description": "This one is mine now",
+  "description": "Task claim — this task is mine now, taken from the queue by one worker",
   "tags": [
     "take",
     "own",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "file",
   "name": "Document off",
-  "description": "This one is gone or unreadable",
+  "description": "Document off — this file is gone, unreadable, corrupt or excluded",
   "tags": [
     "missing",
     "corrupt",

@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "editor",
   "name": "Collapse block",
-  "description": "Two chevrons closing inside brackets — fold a block of code",
+  "description": "Two chevrons closing inside brackets — fold a block of code out of view",
   "tags": [
     "collapse",
     "fold",

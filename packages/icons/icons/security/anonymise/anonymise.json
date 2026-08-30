@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "compliance",
   "name": "Anonymise",
-  "description": "The person, with the person taken out",
+  "description": "Anonymise — strip the personal details out so the person cannot be identified",
   "tags": [
     "mask",
     "pii",

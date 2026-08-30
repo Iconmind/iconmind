@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "package",
   "name": "Minify",
-  "description": "The same program, in far fewer bytes",
+  "description": "Minify — the same program in far fewer bytes, compressed for shipping",
   "tags": [
     "compress",
     "shrink",

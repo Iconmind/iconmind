@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "trigger",
   "name": "Event trigger",
-  "description": "Something happened, so this starts",
+  "description": "An event trigger — something happened somewhere, so this flow starts",
   "tags": [
     "on-event",
     "fire",

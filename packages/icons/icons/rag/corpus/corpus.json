@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "knowledge",
   "name": "Corpus",
-  "description": "Everything the system has read",
+  "description": "A corpus — the whole body of documents a system has read and can draw on",
   "tags": [
     "collection",
     "documents",

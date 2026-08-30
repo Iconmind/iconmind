@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Overlap",
-  "description": "Where both are true at once",
+  "description": "Overlap — where both are true at once, the shared intersection",
   "tags": [
     "intersect",
     "shared",

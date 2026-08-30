@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "Pause",
-  "description": "Hold it there",
+  "description": "Pause — hold it there, suspend playback or a running process without ending it",
   "tags": [
     "hold",
     "suspend",

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Model weights",
-  "description": "The numbers that are the model",
+  "description": "Model weights — the parameters that are the model, saved as a checkpoint file",
   "tags": [
     "parameters",
     "checkpoint",

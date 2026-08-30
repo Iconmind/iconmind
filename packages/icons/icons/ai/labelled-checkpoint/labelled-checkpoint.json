@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Labelled checkpoint",
-  "description": "A flag beside a label — a checkpoint with a name",
+  "description": "A flag beside a label — a checkpoint with a name attached so it can be found",
   "tags": [
     "checkpoint",
     "label",

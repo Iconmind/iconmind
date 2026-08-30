@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "release",
   "name": "Shadow deploy",
-  "description": "The new version runs beside the old, unseen",
+  "description": "Shadow deploy — the new version runs beside the old on mirrored traffic, unseen by users",
   "tags": [
     "mirror",
     "dark",

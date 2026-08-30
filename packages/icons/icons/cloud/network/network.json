@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "Network",
-  "description": "Machines that can reach each other",
+  "description": "A network — machines connected so they can reach each other, nodes in a topology",
   "tags": [
     "nodes",
     "topology",

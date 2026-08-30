@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "List view",
-  "description": "Everything as rows",
+  "description": "List view — everything shown as rows in a list or a table, one item per line",
   "tags": [
     "rows",
     "table",

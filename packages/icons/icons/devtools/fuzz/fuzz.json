@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Fuzz",
-  "description": "Feed it chaos until it confesses",
+  "description": "Fuzz testing — feed a program random chaos until it confesses a bug",
   "tags": [
     "random",
     "chaos",

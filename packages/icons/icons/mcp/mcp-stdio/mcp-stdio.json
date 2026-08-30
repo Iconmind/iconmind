@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "transport",
   "name": "MCP stdio",
-  "description": "A server on the other end of a pipe",
+  "description": "MCP over stdio — a local server on the other end of a pipe from the client",
   "tags": [
     "pipe",
     "local",

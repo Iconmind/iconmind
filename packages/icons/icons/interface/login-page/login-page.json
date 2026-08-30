@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Login page",
-  "description": "A window with a key inside — the page where you sign in",
+  "description": "A window with a key inside — the sign-in page where you enter your credentials",
   "tags": [
     "login",
     "sign-in",

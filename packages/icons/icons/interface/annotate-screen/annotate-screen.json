@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "communication",
   "name": "Annotate screen",
-  "description": "Drawn over, not typed into",
+  "description": "Annotate screen — drawn over the screen, not typed into it, markup on top",
   "tags": [
     "draw",
     "markup",

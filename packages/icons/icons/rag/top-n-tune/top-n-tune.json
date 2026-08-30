@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "ranking",
   "name": "Top-N",
-  "description": "How many of the best to keep",
+  "description": "Top-N — how many of the best results to keep, the cutoff k for retrieval",
   "tags": [
     "cutoff",
     "k",

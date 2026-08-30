@@ -187,7 +187,7 @@ export const BATCH_70: Icon[] = [
   },
   {
     slug: "agent-power", category: "agents", subcategory: "lifecycle",
-    name: "Agent power", description: "An agent beside a power symbol — switch an agent on or off",
+    name: "Agent power", description: "An agent beside a power symbol — switch an agent on or off in one press",
     tags: ["power", "on", "off"], family: "ring",
     aliases: [], keywords: ["agent power", "turn agent on", "switch off agent"],
     shapes: [arc(7, 7, 4, 295, 245), arc(16.5, 16, 4.5, -45, 225), col(16.5, 10, 15)],
@@ -319,7 +319,7 @@ export const BATCH_70: Icon[] = [
   },
   {
     slug: "chart-pyramid", category: "analytics", subcategory: "chart",
-    name: "Pyramid chart", description: "Bars widening toward the base — a pyramid chart of tiers",
+    name: "Pyramid chart", description: "Bars widening toward the base — a pyramid chart of tiers or population bands",
     tags: ["chart", "tiers", "pyramid"], family: "chart",
     aliases: [], keywords: ["pyramid chart", "tiered chart", "population pyramid"],
     shapes: [row(5, 8, 16), row(10, 6, 18), row(15, 4, 20), row(20, 2, 22)],

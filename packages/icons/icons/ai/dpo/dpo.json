@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "DPO",
-  "description": "Trained on which answer people preferred",
+  "description": "DPO — direct preference optimisation, training a model on which of two answers people preferred",
   "tags": [
     "preference",
     "chosen",

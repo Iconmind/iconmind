@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "human-loop",
   "name": "Human in the loop",
-  "description": "A person is part of the run",
+  "description": "Human in the loop — a person takes part in the run, reviewing or deciding by hand",
   "tags": [
     "manual",
     "review",

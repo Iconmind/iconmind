@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Label",
-  "description": "The name a row is taught under",
+  "description": "A label — the class or tag a row is taught under, an annotation",
   "tags": [
     "tag",
     "class",

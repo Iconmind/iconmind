@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "server",
   "name": "MCP server off",
-  "description": "The server is disabled",
+  "description": "MCP server off — the server is disabled, disconnected or stopped",
   "tags": [
     "disabled",
     "disconnected",

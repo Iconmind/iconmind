@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "catalog",
   "name": "Compaction",
-  "description": "A thousand crumbs become one loaf",
+  "description": "Compaction — a thousand small files merged into one, crumbs into a loaf",
   "tags": [
     "merge",
     "files",

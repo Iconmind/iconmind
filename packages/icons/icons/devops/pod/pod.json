@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "container",
   "name": "Pod",
-  "description": "Containers that live and die together",
+  "description": "A pod — a group of containers that live and die together on Kubernetes",
   "tags": [
     "kubernetes",
     "group",

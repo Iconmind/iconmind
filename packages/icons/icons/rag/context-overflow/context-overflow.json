@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "retrieval",
   "name": "Context overflow",
-  "description": "More than the window will hold",
+  "description": "Context overflow — more tokens than the window will hold, so something gets truncated",
   "tags": [
     "spill",
     "too-much",

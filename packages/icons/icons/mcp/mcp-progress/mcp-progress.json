@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "transport",
   "name": "MCP progress",
-  "description": "How far through a long call it is",
+  "description": "MCP progress — how far through a long-running call the server has got",
   "tags": [
     "partial",
     "streaming",

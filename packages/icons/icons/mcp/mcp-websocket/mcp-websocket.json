@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "transport",
   "name": "MCP over WebSocket",
-  "description": "A connection that stays open both ways",
+  "description": "MCP over WebSocket — a persistent connection that stays open both ways",
   "tags": [
     "duplex",
     "persistent",

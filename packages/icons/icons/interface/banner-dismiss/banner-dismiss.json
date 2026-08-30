@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "state",
   "name": "Dismiss banner",
-  "description": "Understood; now go away",
+  "description": "Dismiss banner — understood, now close the notice bar and get it out of the way",
   "tags": [
     "close",
     "notice",

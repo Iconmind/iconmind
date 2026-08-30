@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "package",
   "name": "Source map",
-  "description": "Where this line really came from",
+  "description": "A source map — where a compiled line really came from in the original source",
   "tags": [
     "origin",
     "pin",

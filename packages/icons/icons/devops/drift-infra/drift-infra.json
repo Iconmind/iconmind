@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "Infrastructure drift",
-  "description": "What is running is not what was declared",
+  "description": "Infrastructure drift — what is running no longer matches what was declared in code",
   "tags": [
     "diverged",
     "terraform",

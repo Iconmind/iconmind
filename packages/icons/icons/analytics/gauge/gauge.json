@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Gauge",
-  "description": "Where the needle is now",
+  "description": "A gauge — where the needle is right now on a dial or a meter",
   "tags": [
     "dial",
     "meter",

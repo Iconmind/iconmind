@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "Cordon",
-  "description": "Still running, taking nothing new",
+  "description": "Cordon — the node keeps running what it has but takes nothing new",
   "tags": [
     "closed",
     "no-entry",

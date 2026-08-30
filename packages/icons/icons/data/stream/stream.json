@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "streaming",
   "name": "Stream",
-  "description": "Data arriving continuously rather than in batches",
+  "description": "A stream — data or tokens arriving continuously in real time rather than in batches",
   "tags": [
     "flow",
     "continuous",

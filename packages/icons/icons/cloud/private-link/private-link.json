@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "Private link",
-  "description": "A connection that never leaves the network",
+  "description": "A private link — a connection between services that never leaves the private network",
   "tags": [
     "private",
     "peering",

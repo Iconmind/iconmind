@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Bucket",
-  "description": "Every value into its bin",
+  "description": "Bucket — every value routed into its bin so the data can be grouped",
   "tags": [
     "bin",
     "sort",

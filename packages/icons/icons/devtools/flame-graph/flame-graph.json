@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "debug",
   "name": "Flame graph",
-  "description": "Where the time actually went",
+  "description": "A flame graph — where the time actually went, stack widths in a profile",
   "tags": [
     "profile",
     "stack",

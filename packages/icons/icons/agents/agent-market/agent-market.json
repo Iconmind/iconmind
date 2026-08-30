@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "multi-agent",
   "name": "Agent market",
-  "description": "Where agents are bought by the hour",
+  "description": "An agent market — where agents are hired by the hour and traded for coin",
   "tags": [
     "hire",
     "coin",

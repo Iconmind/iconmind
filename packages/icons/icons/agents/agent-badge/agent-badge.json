@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "agent-core",
   "name": "Agent badge",
-  "description": "Who this agent is, verifiably",
+  "description": "An agent badge — who this agent is, a verified credential of identity",
   "tags": [
     "identity",
     "credential",

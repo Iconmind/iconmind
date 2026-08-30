@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Forecast",
-  "description": "What the line does next",
+  "description": "A forecast — what the line is predicted to do next, a projection into the future",
   "tags": [
     "predict",
     "projection",

@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "Zone spread",
-  "description": "Not all the eggs in one rack",
+  "description": "Zone spread — not all the eggs in one rack, workloads scattered across zones",
   "tags": [
     "zones",
     "scatter",

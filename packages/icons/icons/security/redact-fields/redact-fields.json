@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Redact fields",
-  "description": "The line is there; the words are not",
+  "description": "Redact fields — the line is there but the words are hidden behind a bar",
   "tags": [
     "censor",
     "hide",

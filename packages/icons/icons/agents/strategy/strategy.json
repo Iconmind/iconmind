@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "planning",
   "name": "Strategy",
-  "description": "Which way, decided before moving",
+  "description": "A strategy — the route decided before moving, the chosen plan",
   "tags": [
     "plan",
     "route",

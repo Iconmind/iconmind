@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "compliance",
   "name": "PII",
-  "description": "Data that is somebody",
+  "description": "PII — personally identifying data, information that is somebody",
   "tags": [
     "personal",
     "identifying",

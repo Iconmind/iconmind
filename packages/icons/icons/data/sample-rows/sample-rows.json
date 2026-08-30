@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Sample rows",
-  "description": "A few of them, picked to look at",
+  "description": "Sample rows — a few rows picked out to look at as a preview of the data",
   "tags": [
     "subset",
     "pick",

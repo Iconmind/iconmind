@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Access granted",
-  "description": "You may come through",
+  "description": "Access granted — you may come through, permission allowed and the door open",
   "tags": [
     "allow",
     "permit",

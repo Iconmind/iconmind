@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "release",
   "name": "Artifact",
-  "description": "What the build produced",
+  "description": "An artifact — what the build produced, the binary, bundle or package to ship",
   "tags": [
     "output",
     "binary",

@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "prompt",
   "name": "MCP prompt argument",
-  "description": "The part of the prompt you fill in",
+  "description": "An MCP prompt argument — the slot in a prompt template you fill with input",
   "tags": [
     "slot",
     "variable",

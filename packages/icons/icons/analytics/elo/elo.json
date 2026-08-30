@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "llm-observability",
   "name": "Elo",
-  "description": "One rating rises by exactly what the other loses",
+  "description": "Elo rating — one rating rises by exactly what the other loses when they meet",
   "tags": [
     "rating",
     "exchange",

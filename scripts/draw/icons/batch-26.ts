@@ -17,7 +17,7 @@ export const BATCH_26: Icon[] = [
 
   {
     slug: "compile", category: "devops", subcategory: "ci-cd",
-    name: "Compile", description: "Source turned into something that runs",
+    name: "Compile", description: "Compile — turn source code into a binary or bundle that actually runs",
     tags: ["build", "transform", "binary"], family: "funnel",
     aliases: [], keywords: ["transpile", "bundle", "binary", "translate", "assemble"],
     shapes: [
@@ -27,14 +27,14 @@ export const BATCH_26: Icon[] = [
   },
   {
     slug: "artifact", category: "devops", subcategory: "release",
-    name: "Artifact", description: "What the build produced",
+    name: "Artifact", description: "An artifact — what the build produced, the binary, bundle or package to ship",
     tags: ["output", "binary", "bundle"], family: "window",
     aliases: [], keywords: ["build output", "bundle", "jar", "wheel", "tarball"],
     shapes: [frame(4, 6, 16, 14, 3, { gap: 4 }), row(11, 4, 20), col(12, 6, 11), disc(12, 15, 2)],
   },
   {
     slug: "changelog", category: "devops", subcategory: "release",
-    name: "Changelog", description: "What changed, version by version",
+    name: "Changelog", description: "A changelog — what changed, written up version by version as release notes",
     tags: ["history", "releases", "notes"], family: "page",
     aliases: ["release-notes"], keywords: ["release notes", "history", "versions", "what's new"],
     shapes: [page(), disc(9, 9, 1), row(9, 12, 16), disc(9, 14, 1), row(14, 12, 16), disc(9, 19, 1)],
@@ -44,21 +44,21 @@ export const BATCH_26: Icon[] = [
 
   {
     slug: "container-run", category: "devops", subcategory: "container",
-    name: "Container running", description: "It is up",
+    name: "Container running", description: "Container running — the container is up and live, serving traffic",
     tags: ["running", "live", "up"], family: "grid",
     aliases: [], keywords: ["running", "healthy", "up", "started", "live"],
     shapes: [rect(3, 6, 18, 14, 2), col(6, 6, 20), poly([[11, 9], [15, 13], [11, 17]])],
   },
   {
     slug: "container-stop", category: "devops", subcategory: "container",
-    name: "Container stopped", description: "It is not",
+    name: "Container stopped", description: "Container stopped — the container is halted and down, no longer serving",
     tags: ["stopped", "halted", "down"], family: "grid",
     aliases: [], keywords: ["stopped", "exited", "down", "halted", "terminated"],
     shapes: [rect(3, 6, 18, 14, 2), col(6, 6, 20), rect(10.5, 9.5, 7, 7, 2)],
   },
   {
     slug: "container-image", category: "devops", subcategory: "container",
-    name: "Container image", description: "The thing a container is started from",
+    name: "Container image", description: "A container image — the immutable layered template a container is started from",
     tags: ["template", "layers", "immutable"], family: "grid",
     aliases: [], keywords: ["docker image", "layers", "tag", "registry", "immutable"],
     // Layers, stacked. A container is one box; an image is what it was stamped from, and a
@@ -67,7 +67,7 @@ export const BATCH_26: Icon[] = [
   },
   {
     slug: "downtime", category: "devops", subcategory: "incident",
-    name: "Downtime", description: "It is not answering",
+    name: "Downtime", description: "Downtime — the service is not answering, an outage while it is offline",
     tags: ["outage", "offline", "dead"], family: "rails",
     aliases: [], keywords: ["offline", "unavailable", "dead", "sev1", "unreachable", "outage"],
     // `health-check`'s square wave, stopped. The flat line after the last pulse is the whole
@@ -79,14 +79,14 @@ export const BATCH_26: Icon[] = [
 
   {
     slug: "function-cloud", category: "cloud", subcategory: "serverless",
-    name: "Cloud function", description: "One piece of code, run on demand",
+    name: "Cloud function", description: "A cloud function — one small piece of code run on demand, a lambda or a handler",
     tags: ["lambda", "handler", "small"], family: "cloud",
     aliases: [], keywords: ["lambda", "handler", "faas", "trigger", "invoke", "function"],
     shapes: [cloud(), poly([[10, 9], [14, 13], [10, 17]])],
   },
   {
     slug: "block-storage", category: "cloud", subcategory: "storage",
-    name: "Block storage", description: "A disk, attached to one machine",
+    name: "Block storage", description: "Block storage — a disk volume attached to one machine like a local drive",
     tags: ["disk", "volume", "attached"], family: "cylinder",
     aliases: [], keywords: ["ebs", "disk", "volume", "attached", "persistent"],
     shapes: [
@@ -98,7 +98,7 @@ export const BATCH_26: Icon[] = [
   },
   {
     slug: "availability-zone", category: "cloud", subcategory: "region",
-    name: "Availability zone", description: "One failure domain inside a region",
+    name: "Availability zone", description: "An availability zone — one isolated failure domain inside a cloud region",
     tags: ["zone", "isolated", "az"], family: "orbit",
     aliases: ["az"], keywords: ["az", "failure domain", "datacentre", "isolation", "replica"],
     // `region`'s sphere with one band picked out by a node. A region is the whole; a zone is
@@ -107,7 +107,7 @@ export const BATCH_26: Icon[] = [
   },
   {
     slug: "hybrid-cloud", category: "cloud", subcategory: "compute",
-    name: "Hybrid cloud", description: "Some of it yours, some of it theirs",
+    name: "Hybrid cloud", description: "Hybrid cloud — some of it on your own premises, some of it in a provider's cloud",
     tags: ["mixed", "on-prem", "both"], family: "cloud",
     aliases: [], keywords: ["on-premise", "mixed", "burst", "private and public"],
     shapes: [cloud(4), rect(6, 17, 12, 5, 2.5)],
@@ -117,7 +117,7 @@ export const BATCH_26: Icon[] = [
 
   {
     slug: "api-key", category: "security", subcategory: "secret",
-    name: "API key", description: "The string that proves it is you",
+    name: "API key", description: "An API key — the secret string that proves a request comes from you",
     tags: ["token", "credential", "string"], family: "key",
     aliases: [], keywords: ["token", "bearer", "secret key", "auth header", "credential"],
     // `secret`'s key with a tag on it. A key on its own is any credential; with a label it
@@ -129,14 +129,14 @@ export const BATCH_26: Icon[] = [
   },
   {
     slug: "audit-log", category: "security", subcategory: "compliance",
-    name: "Audit log", description: "Who did what, kept",
+    name: "Audit log", description: "An audit log — who did what and when, kept as a trail of evidence",
     tags: ["trail", "record", "evidence"], family: "page",
     aliases: [], keywords: ["audit trail", "who did what", "immutable log", "evidence"],
     shapes: [page(), col(9, 6, 18), row(9, 11, 16), row(13, 11, 16), disc(16, 19, 2)],
   },
   {
     slug: "ddos", category: "security", subcategory: "threat",
-    name: "DDoS", description: "More traffic than it can take",
+    name: "DDoS", description: "A DDoS attack — a flood of traffic from many sources meant to overwhelm a service",
     tags: ["flood", "overwhelm", "attack"], family: "arrow",
     aliases: [], keywords: ["flood", "volumetric", "amplification", "overwhelm", "botnet"],
     shapes: [
@@ -146,7 +146,7 @@ export const BATCH_26: Icon[] = [
   },
   {
     slug: "encrypt", category: "security", subcategory: "encryption",
-    name: "Encrypt", description: "Lock it up",
+    name: "Encrypt", description: "Encrypt — lock data up with a cipher so only the key holder can read it",
     tags: ["cipher", "lock", "protect"], family: "arrow",
     aliases: [], keywords: ["cipher", "aes", "seal", "protect", "at rest"],
     shapes: [
@@ -156,7 +156,7 @@ export const BATCH_26: Icon[] = [
   },
   {
     slug: "decrypt", category: "security", subcategory: "encryption",
-    name: "Decrypt", description: "Open it back up",
+    name: "Decrypt", description: "Decrypt — open encrypted data back up into plain text with the key",
     tags: ["reveal", "unlock", "plain"], family: "arrow",
     aliases: [], keywords: ["plaintext", "unseal", "reveal", "open", "decipher"],
     shapes: [
@@ -169,7 +169,7 @@ export const BATCH_26: Icon[] = [
 
   {
     slug: "approval", category: "automation", subcategory: "human-loop",
-    name: "Approval", description: "Somebody said yes",
+    name: "Approval", description: "Approval — somebody said yes, a sign-off or consent given on the record",
     tags: ["sign-off", "consent", "yes"], family: "page",
     aliases: ["sign-off"], keywords: ["consent", "authorise", "yes", "signed", "green light"],
     // A page with a signature on it, not a page with a tick — `plan` is already a page with
@@ -179,7 +179,7 @@ export const BATCH_26: Icon[] = [
   },
   {
     slug: "cron", category: "automation", subcategory: "schedule",
-    name: "Cron", description: "At the same time, every time",
+    name: "Cron", description: "Cron — a job that runs at the same time, every time, on a recurring schedule",
     tags: ["schedule", "recurring", "clock"], family: "orbit",
     aliases: ["recurring"], keywords: ["crontab", "scheduled job", "every hour", "recurring"],
     // `history`'s turning arrow with a dial in it, but the arrow points forward. History
@@ -193,14 +193,14 @@ export const BATCH_26: Icon[] = [
   },
   {
     slug: "action-email", category: "automation", subcategory: "action",
-    name: "Email action", description: "The step that sends a message",
+    name: "Email action", description: "Email action — the workflow step that sends a message or a notification",
     tags: ["send", "notify", "mail"], family: "window",
     aliases: [], keywords: ["send email", "notify", "smtp", "template", "outbound"],
     shapes: [rect(2, 6, 20, 12, 2), poly([[5, 7], [12, 14], [19, 7]]), col(12, 2, 5)],
   },
   {
     slug: "action-http", category: "automation", subcategory: "action",
-    name: "HTTP action", description: "The step that calls something",
+    name: "HTTP action", description: "HTTP action — the workflow step that calls a URL, a webhook or an API",
     tags: ["request", "call", "webhook"], family: "orbit",
     aliases: ["webhook"], keywords: ["request", "post", "call out", "webhook", "rest"],
     shapes: [rect(2, 6, 11, 12, 2), row(9, 2, 13), row(12, 16, 20), poly([[17, 9], [20, 12], [17, 15]])],

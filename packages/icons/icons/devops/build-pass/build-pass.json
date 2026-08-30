@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "ci-cd",
   "name": "Build pass",
-  "description": "It compiled, and the tests agreed",
+  "description": "Build pass — it compiled and the tests agreed, green and successful",
   "tags": [
     "green",
     "success",

@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "human-loop",
   "name": "Approval step",
-  "description": "The stage that waits for a yes",
+  "description": "An approval step — the stage in a workflow that waits for a human yes",
   "tags": [
     "review",
     "gate",

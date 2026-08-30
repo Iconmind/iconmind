@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "communication",
   "name": "Presenter",
-  "description": "The person beside the board",
+  "description": "Presenter — the person beside the board giving the talk to the room",
   "tags": [
     "present",
     "talk",

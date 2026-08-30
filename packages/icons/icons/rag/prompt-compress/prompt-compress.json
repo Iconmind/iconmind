@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "grounding",
   "name": "Prompt compress",
-  "description": "Fewer tokens; the same ask",
+  "description": "Prompt compression — fewer tokens carrying the same ask, squeezed to fit",
   "tags": [
     "shrink",
     "tokens",

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "evaluation",
   "name": "Evaluation",
-  "description": "Measuring how good the output is",
+  "description": "Evaluation — measuring how good a model's output is with tests, scores and benchmarks",
   "tags": [
     "measure",
     "score",

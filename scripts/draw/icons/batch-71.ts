@@ -53,7 +53,7 @@ export const BATCH_71: Icon[] = [
   },
   {
     slug: "model-heart", category: "ai", subcategory: "model",
-    name: "Model heart", description: "A model core beside a heart — a favourite model",
+    name: "Model heart", description: "A model core beside a heart — a favourite model you keep coming back to",
     tags: ["favourite", "heart", "preferred"], family: "lattice",
     aliases: [], keywords: ["favourite model", "preferred model", "starred model"],
     shapes: [poly([[6.5, 6.5], [11, 11], [6.5, 15.5], [2, 11]], true), raw("M13 8A2.5 2.5 0 0 1 17 8A2.5 2.5 0 0 1 21 8L17 12Z", HEART, true)],
@@ -126,7 +126,7 @@ export const BATCH_71: Icon[] = [
   },
   {
     slug: "agent-image", category: "agents", subcategory: "tool-use",
-    name: "Agent image", description: "An agent beside a picture — an agent that looks at images",
+    name: "Agent image", description: "An agent beside a picture — a vision agent that looks at and understands images",
     tags: ["image", "vision", "picture"], family: "ring",
     aliases: [], keywords: ["vision agent", "image agent", "look at pictures"],
     shapes: [arc(6.5, 6.5, 4, 295, 245), rect(12, 12, 10, 10, 2), poly([[15, 18], [17, 16], [19, 18]])],
@@ -178,7 +178,7 @@ export const BATCH_71: Icon[] = [
   },
   {
     slug: "reminder-snooze", category: "interface", subcategory: "time",
-    name: "Reminder snooze", description: "A clock with a Z beside it — snooze a reminder until later",
+    name: "Reminder snooze", description: "A clock with a Z beside it — snooze a reminder until later in the day",
     tags: ["snooze", "later", "reminder"], family: "clock",
     aliases: [], keywords: ["snooze reminder", "remind me later", "postpone"],
     shapes: [disc(9, 12, 6), poly([[9, 9], [9, 12], [11.5, 12]]), poly([[18, 10], [22, 10], [18, 14], [22, 14]])],
@@ -248,7 +248,7 @@ export const BATCH_71: Icon[] = [
   },
   {
     slug: "test-file", category: "devtools", subcategory: "testing",
-    name: "Test file", description: "A page with a play button on it — a test file ready to run",
+    name: "Test file", description: "A page with a play button on it — a test file ready to run in the suite",
     tags: ["test", "spec", "file"], family: "page",
     aliases: [], keywords: ["test file", "spec file", "run tests"],
     shapes: [page(), poly([[10, 10], [10, 16], [13, 13]], true)],
@@ -262,28 +262,28 @@ export const BATCH_71: Icon[] = [
   },
   {
     slug: "chart-timeline", category: "analytics", subcategory: "chart",
-    name: "Timeline chart", description: "Events placed above and below one line — a timeline chart",
+    name: "Timeline chart", description: "Events placed above and below one line — a timeline chart of what happened when",
     tags: ["timeline", "events", "chart"], family: "chart",
     aliases: [], keywords: ["timeline chart", "event timeline", "chronology"],
     shapes: [row(12, 2, 22), disc(6, 7, 2), disc(12, 17, 2), disc(18, 7, 2)],
   },
   {
     slug: "goal-met", category: "analytics", subcategory: "metric",
-    name: "Goal met", description: "A target with a check beside it — a goal that was reached",
+    name: "Goal met", description: "A target with a check beside it — a goal that was reached and confirmed",
     tags: ["goal", "reached", "target"], family: "object",
     aliases: [], keywords: ["goal met", "target reached", "objective achieved"],
     shapes: [disc(9, 12, 5), disc(9, 12, 1), poly([[17, 13], [19, 15], [22, 12]])],
   },
   {
     slug: "goal-missed", category: "analytics", subcategory: "metric",
-    name: "Goal missed", description: "A target with an X beside it — a goal that was missed",
+    name: "Goal missed", description: "A target with an X beside it — a goal that was missed and marked as such",
     tags: ["goal", "missed", "target"], family: "object",
     aliases: [], keywords: ["goal missed", "target missed", "objective failed"],
     shapes: [disc(9, 12, 5), disc(9, 12, 1), poly([[17, 9.5], [22, 14.5]]), poly([[22, 9.5], [17, 14.5]])],
   },
   {
     slug: "key-tag", category: "security", subcategory: "auth",
-    name: "Key tag", description: "A key with a label beside it — a named credential",
+    name: "Key tag", description: "A key with a label beside it — a named credential you can tell apart from the rest",
     tags: ["key", "label", "named"], family: "key",
     aliases: [], keywords: ["labelled key", "named credential", "key name"],
     shapes: [disc(7, 9, 4), col(7, 13, 21), row(18, 7, 10), poly([[14, 13], [19, 13], [22, 16], [19, 19], [14, 19]], true)],
@@ -342,7 +342,7 @@ export const BATCH_71: Icon[] = [
   },
   {
     slug: "paid", category: "cloud", subcategory: "cost",
-    name: "Paid", description: "A coin with a check beside it — a payment that went through",
+    name: "Paid", description: "A coin with a check beside it — a payment that went through successfully",
     tags: ["paid", "success", "payment"], family: "coin",
     aliases: [], keywords: ["paid", "payment successful", "invoice paid"],
     shapes: [disc(8, 12, 5), col(8, 10.5, 13.5), poly([[16, 13], [18.5, 15.5], [22, 12]])],
@@ -356,7 +356,7 @@ export const BATCH_71: Icon[] = [
   },
   {
     slug: "top-up", category: "cloud", subcategory: "cost",
-    name: "Top up", description: "A coin with a plus beside it — add credit to a balance",
+    name: "Top up", description: "A coin with a plus beside it — add credit or funds to an account balance",
     tags: ["credit", "add", "balance"], family: "coin",
     aliases: [], keywords: ["top up", "add credits", "add funds"],
     shapes: [disc(8, 12, 5), col(8, 10.5, 13.5), row(12, 16, 22), col(19, 9, 15)],

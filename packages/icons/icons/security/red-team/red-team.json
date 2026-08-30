@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Red team",
-  "description": "Attacking it before somebody else does",
+  "description": "Red team — attacking your own system before somebody else does, adversarial probing",
   "tags": [
     "attack",
     "probe",

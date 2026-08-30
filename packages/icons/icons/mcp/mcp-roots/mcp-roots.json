@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "resource",
   "name": "MCP roots",
-  "description": "The directories a server may look in",
+  "description": "MCP roots — the directories a server is allowed to look in, its boundary",
   "tags": [
     "scope",
     "boundary",

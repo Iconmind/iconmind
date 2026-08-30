@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Perturb",
-  "description": "The same row, shaken slightly",
+  "description": "Perturb — the same row shaken slightly with jitter or noise to test robustness",
   "tags": [
     "jitter",
     "vary",

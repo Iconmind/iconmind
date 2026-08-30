@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "human-loop",
   "name": "Waiting for approval",
-  "description": "Stopped until somebody says yes",
+  "description": "Waiting for approval — stopped at a gate until somebody says yes",
   "tags": [
     "pending",
     "blocked",

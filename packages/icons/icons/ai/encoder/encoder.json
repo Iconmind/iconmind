@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "embedding",
   "name": "Encoder",
-  "description": "Turns input into a representation",
+  "description": "An encoder — turns an input into a compact internal representation",
   "tags": [
     "compress",
     "narrow",

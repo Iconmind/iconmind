@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Escalate to human",
-  "description": "Past what it should decide alone",
+  "description": "Escalate to human — past what the agent should decide alone, handed up to a person",
   "tags": [
     "handoff",
     "person",

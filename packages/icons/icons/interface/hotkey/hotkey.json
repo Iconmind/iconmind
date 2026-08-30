@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Hotkey",
-  "description": "The key with a power behind it",
+  "description": "A hotkey — the key with a power behind it, a keyboard shortcut",
   "tags": [
     "shortcut",
     "modifier",

@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "llm-observability",
   "name": "Percentile rank",
-  "description": "Better than this much of everyone",
+  "description": "Percentile rank — better than this much of everyone else on the scale",
   "tags": [
     "position",
     "scale",

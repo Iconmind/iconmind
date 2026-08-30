@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "cost",
   "name": "Spot instance",
-  "description": "Cheap until somebody else wants it",
+  "description": "A spot instance — cheap compute until somebody else bids for it, preemptible",
   "tags": [
     "preemptible",
     "auction",

@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "Finally block",
-  "description": "Runs no matter how it went",
+  "description": "A finally block — cleanup that runs no matter how the try went",
   "tags": [
     "cleanup",
     "always",

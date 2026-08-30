@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "High temperature",
-  "description": "Let it gamble a little",
+  "description": "High temperature — let the model gamble a little, more random and creative sampling",
   "tags": [
     "random",
     "hot",

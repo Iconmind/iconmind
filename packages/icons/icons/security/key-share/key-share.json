@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Key share",
-  "description": "A key beside an arrow — share a credential with someone",
+  "description": "A key beside an arrow — share a credential with someone else",
   "tags": [
     "key",
     "share",

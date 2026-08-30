@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "multimodal",
   "name": "Text to speech",
-  "description": "Words turned into sound",
+  "description": "Text to speech — written words turned into a spoken voice by a model",
   "tags": [
     "tts",
     "voice",

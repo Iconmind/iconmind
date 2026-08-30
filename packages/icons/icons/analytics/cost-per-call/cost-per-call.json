@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Cost per call",
-  "description": "What each request quietly costs",
+  "description": "Cost per call — what each request quietly costs when it hits the API",
   "tags": [
     "unit",
     "price",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "communication",
   "name": "Reply",
-  "description": "Answer it",
+  "description": "Reply — answer a message and send a response back to the sender",
   "tags": [
     "respond",
     "back",

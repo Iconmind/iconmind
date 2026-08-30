@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "communication",
   "name": "Forward",
-  "description": "Pass it on",
+  "description": "Forward — pass a message on to somebody else who should see it",
   "tags": [
     "send-on",
     "share",

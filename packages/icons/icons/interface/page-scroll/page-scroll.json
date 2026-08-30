@@ -1,0 +1,36 @@
+{
+  "slug": "page-scroll",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Page scroll",
+  "description": "A window with a double chevron pointing down — scroll further down the page",
+  "tags": [
+    "scroll",
+    "page",
+    "down"
+  ],
+  "keywords": [
+    "scroll down",
+    "page scroll",
+    "more below"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 8H21",
+      "closed": false
+    },
+    {
+      "d": "M9.5 11L12 13.5L14.5 11",
+      "closed": false
+    },
+    {
+      "d": "M9.5 15.5L12 18L14.5 15.5",
+      "closed": false
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "memory",
   "name": "Memory",
-  "description": "What an agent writes down and reads back",
+  "description": "Agent memory — what an AI agent writes down and reads back between steps and sessions",
   "tags": [
     "recall",
     "store",

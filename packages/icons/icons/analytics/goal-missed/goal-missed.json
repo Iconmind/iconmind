@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Goal missed",
-  "description": "A target with an X beside it — a goal that was missed",
+  "description": "A target with an X beside it — a goal that was missed and marked as such",
   "tags": [
     "goal",
     "missed",

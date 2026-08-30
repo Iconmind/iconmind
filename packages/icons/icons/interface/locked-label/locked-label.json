@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Locked label",
-  "description": "A label beside a padlock — a tag only admins may change",
+  "description": "A label beside a padlock — a tag that only administrators may change",
   "tags": [
     "label",
     "locked",

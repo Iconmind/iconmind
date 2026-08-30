@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "dashboard",
   "name": "Ops dashboard",
-  "description": "Everything that matters, on one wall",
+  "description": "An ops dashboard — everything that matters to operations on one wall of panels",
   "tags": [
     "noc",
     "wall",

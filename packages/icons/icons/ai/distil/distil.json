@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Distillation",
-  "description": "A smaller model taught by a bigger one",
+  "description": "Distillation — a smaller student model taught to imitate a bigger teacher",
   "tags": [
     "compress",
     "teacher",

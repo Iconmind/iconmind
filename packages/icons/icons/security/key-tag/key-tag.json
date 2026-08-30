@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Key tag",
-  "description": "A key with a label beside it — a named credential",
+  "description": "A key with a label beside it — a named credential you can tell apart from the rest",
   "tags": [
     "key",
     "label",

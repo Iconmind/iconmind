@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "ci-cd",
   "name": "CI pipeline",
-  "description": "Build, test, ship, in that order",
+  "description": "A CI pipeline — build, test and ship, in that order, stage by stage",
   "tags": [
     "stages",
     "sequence",

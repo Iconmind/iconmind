@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "multi-agent",
   "name": "Multi-agent",
-  "description": "Several agents working on one problem",
+  "description": "A multi-agent system — several AI agents collaborating, delegating and voting on one problem",
   "tags": [
     "swarm",
     "team",

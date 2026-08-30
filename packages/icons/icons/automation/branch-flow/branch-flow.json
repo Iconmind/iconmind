@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "condition",
   "name": "Branch",
-  "description": "The path divides here",
+  "description": "A branch — the point in a flow where the path divides and routes one way or another",
   "tags": [
     "split",
     "fork",

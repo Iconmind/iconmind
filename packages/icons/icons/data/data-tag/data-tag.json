@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "catalog",
   "name": "Data tag",
-  "description": "A label on a column or table",
+  "description": "A data tag — a label on a column or a table that classifies what it holds",
   "tags": [
     "label",
     "classify",

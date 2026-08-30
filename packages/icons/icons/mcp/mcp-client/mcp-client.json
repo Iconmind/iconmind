@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "client",
   "name": "MCP client",
-  "description": "The side that asks",
+  "description": "An MCP client — the host side that asks a server for tools, resources and prompts",
   "tags": [
     "consumer",
     "caller",

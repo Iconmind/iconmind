@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "segment",
   "name": "User journey",
-  "description": "Every step they took",
+  "description": "A user journey — every step a person took through the product, their path",
   "tags": [
     "path",
     "steps",

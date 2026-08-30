@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Self-consistency",
-  "description": "Ask several times, keep what most of them said",
+  "description": "Self-consistency — ask several times and keep the answer most of the samples agreed on",
   "tags": [
     "majority",
     "samples",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Split pane",
-  "description": "Two views of the same hour",
+  "description": "A split pane — two views of the same thing side by side in one window",
   "tags": [
     "divide",
     "panes",

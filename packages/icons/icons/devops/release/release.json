@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "release",
   "name": "Release",
-  "description": "A version, tagged and shipped",
+  "description": "A release — a version tagged, built and shipped to users as a package",
   "tags": [
     "version",
     "tag",

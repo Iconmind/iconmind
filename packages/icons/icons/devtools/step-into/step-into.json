@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "debug",
   "name": "Step into",
-  "description": "Go down into the call",
+  "description": "Step into — go down into the function call while debugging, line by line",
   "tags": [
     "descend",
     "enter",

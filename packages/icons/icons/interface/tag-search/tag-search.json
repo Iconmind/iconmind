@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Tag search",
-  "description": "A label beside a magnifying glass — search by tag",
+  "description": "A label beside a magnifying glass — search for items by their tag",
   "tags": [
     "tag",
     "search",

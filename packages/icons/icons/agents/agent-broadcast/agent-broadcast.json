@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "communication",
   "name": "Agent broadcast",
-  "description": "One agent telling all of them",
+  "description": "Agent broadcast — one agent announcing something to all the others at once",
   "tags": [
     "announce",
     "all",

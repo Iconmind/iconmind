@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "integration",
   "name": "Integration",
-  "description": "Two systems that know about each other",
+  "description": "An integration — two systems connected so they know about each other and share data",
   "tags": [
     "connect",
     "overlap",

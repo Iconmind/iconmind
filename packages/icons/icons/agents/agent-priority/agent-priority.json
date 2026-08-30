@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "agent-core",
   "name": "Agent priority",
-  "description": "This one goes first",
+  "description": "Agent priority — this agent goes first, raised ahead of the queue",
   "tags": [
     "first",
     "urgent",

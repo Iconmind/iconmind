@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "prompt",
   "name": "System prompt",
-  "description": "The instruction the model always has",
+  "description": "A system prompt — the standing instruction a language model always has before the conversation",
   "tags": [
     "system",
     "instruction",

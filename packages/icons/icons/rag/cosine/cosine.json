@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "vector",
   "name": "Cosine similarity",
-  "description": "The angle between two vectors",
+  "description": "Cosine similarity — the angle between two vectors as a closeness score",
   "tags": [
     "angle",
     "distance",

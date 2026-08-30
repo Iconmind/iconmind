@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "compute",
   "name": "Node",
-  "description": "One machine in the group",
+  "description": "A node — one machine, instance or member in a cluster of many",
   "tags": [
     "instance",
     "member",

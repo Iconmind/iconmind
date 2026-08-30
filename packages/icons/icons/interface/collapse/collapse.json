@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Collapse",
-  "description": "Make it smaller",
+  "description": "Collapse — make it smaller, close it up or reduce the view to a summary",
   "tags": [
     "shrink",
     "close",

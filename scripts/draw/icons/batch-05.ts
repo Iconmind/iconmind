@@ -22,7 +22,7 @@ export const BATCH_05: Icon[] = [
 
   {
     slug: "supervisor", category: "agents", subcategory: "multi-agent",
-    name: "Supervisor", description: "The agent that directs the others",
+    name: "Supervisor", description: "A supervisor agent — the orchestrator that directs other agents and decides who does what next",
     tags: ["orchestrator", "lead", "hierarchy"], family: "orbit",
     aliases: ["orchestrator"], keywords: ["manager", "coordinator", "lead agent", "router"],
     // One above two. `multi-agent` puts its rings side by side because none of them is in
@@ -35,7 +35,7 @@ export const BATCH_05: Icon[] = [
 
   {
     slug: "planner", category: "agents", subcategory: "planning",
-    name: "Planner", description: "The part that works out what to do",
+    name: "Planner", description: "The planner — the part of an agent that breaks a goal down into the steps it will take",
     tags: ["decompose", "strategy", "breakdown"], family: "machine",
     aliases: [], keywords: ["decomposition", "task graph", "strategy", "scheduler"],
     // `subtask`'s tree, inside a machine. The tree on its own is the shape of a plan; put in
@@ -45,7 +45,7 @@ export const BATCH_05: Icon[] = [
 
   {
     slug: "executor", category: "agents", subcategory: "execution",
-    name: "Executor", description: "The part that actually carries the steps out",
+    name: "Executor", description: "The executor — the worker part of an agent that actually carries the planned steps out",
     tags: ["run", "worker", "carry-out"], family: "machine",
     aliases: ["worker"], keywords: ["runner", "worker", "step", "invoke", "carry out"],
     // Work going in one side and out the other. `inference` puts a play mark inside a body
@@ -58,7 +58,7 @@ export const BATCH_05: Icon[] = [
 
   {
     slug: "reflection", category: "agents", subcategory: "reflection",
-    name: "Reflection", description: "The agent checking its own work",
+    name: "Reflection", description: "Reflection — an agent reviewing and critiquing its own work before it moves on",
     tags: ["review", "self-check", "critique"], family: "orbit",
     aliases: ["self-critique"], keywords: ["critique", "self-review", "revise", "introspect"],
     // Two arcs facing each other, and the line they are mirrored across. Without the line
@@ -72,7 +72,7 @@ export const BATCH_05: Icon[] = [
 
   {
     slug: "agent-log", category: "agents", subcategory: "lifecycle",
-    name: "Agent log", description: "What the agent did, in order",
+    name: "Agent log", description: "An agent log — everything the agent did, recorded in order as a trace you can read back",
     tags: ["history", "trace", "record"], family: "orbit",
     aliases: [], keywords: ["history", "audit", "transcript", "run log", "steps", "trace"],
     // Lines inside the agent's own ring rather than on a page. On a page it would be a
@@ -82,7 +82,7 @@ export const BATCH_05: Icon[] = [
 
   {
     slug: "multimodal", category: "ai", subcategory: "multimodal",
-    name: "Multimodal", description: "A model that handles more than text",
+    name: "Multimodal", description: "A multimodal model — one that handles images, audio and text together, not text alone",
     tags: ["image", "audio", "mixed"], family: "window",
     aliases: [], keywords: ["vision", "audio", "image input", "cross-modal", "vlm"],
     // A picture and some text in the same frame. The point is the pairing, so neither can be
@@ -94,7 +94,7 @@ export const BATCH_05: Icon[] = [
 
   {
     slug: "mcp", category: "mcp", subcategory: "server",
-    name: "MCP", description: "The protocol a model talks to tools through",
+    name: "MCP", description: "MCP, the Model Context Protocol — the standard a model uses to talk to tools and data sources",
     tags: ["protocol", "connect", "standard"], family: "machine",
     aliases: [], keywords: ["model context protocol", "anthropic", "tool protocol"],
     // Two machines and the wire between them. A protocol is not a thing you can draw; what
@@ -104,7 +104,7 @@ export const BATCH_05: Icon[] = [
 
   {
     slug: "mcp-client", category: "mcp", subcategory: "client",
-    name: "MCP client", description: "The side that asks",
+    name: "MCP client", description: "An MCP client — the host side that asks a server for tools, resources and prompts",
     tags: ["consumer", "caller", "host"], family: "machine",
     aliases: [], keywords: ["host", "consumer", "caller", "claude desktop"],
     // The same two ends as `mcp`, with one of them replaced by the reaching. A client is
@@ -114,7 +114,7 @@ export const BATCH_05: Icon[] = [
 
   {
     slug: "mcp-connection", category: "mcp", subcategory: "transport",
-    name: "MCP connection", description: "A live link between a client and a server",
+    name: "MCP connection", description: "An MCP connection — a live session between a client and a server over a transport",
     tags: ["link", "session", "transport"], family: "chain",
     aliases: [], keywords: ["stdio", "sse", "session", "handshake", "transport"],
     // The wire is broken in the middle, because a connection is the thing that can be
@@ -131,7 +131,7 @@ export const BATCH_05: Icon[] = [
 
   {
     slug: "retriever", category: "rag", subcategory: "retrieval",
-    name: "Retriever", description: "Fetches the documents that might help",
+    name: "Retriever", description: "A retriever — the component that fetches the documents most likely to help answer a query",
     tags: ["fetch", "lookup", "pull"], family: "page",
     aliases: ["retrieval"], keywords: ["fetch", "top-k", "recall", "lookup", "context"],
     // A document on its way out. `search` is the looking; this is the part that comes back
@@ -141,7 +141,7 @@ export const BATCH_05: Icon[] = [
 
   {
     slug: "vector-database", category: "rag", subcategory: "vector",
-    name: "Vector database", description: "Stores embeddings and finds the nearest",
+    name: "Vector database", description: "A vector database — stores embeddings and finds the nearest neighbours by similarity",
     tags: ["store", "index", "similarity"], family: "machine",
     aliases: ["vector-store"], keywords: ["pinecone", "faiss", "index", "ann", "pgvector"],
     // `database`'s machine, holding `embedding`'s diamond instead of records. The row under
@@ -151,7 +151,7 @@ export const BATCH_05: Icon[] = [
 
   {
     slug: "knowledge-base", category: "rag", subcategory: "knowledge",
-    name: "Knowledge base", description: "The body of material a system can draw on",
+    name: "Knowledge base", description: "A knowledge base — the body of documents and facts a system can draw on for answers",
     tags: ["book", "reference", "corpus"], family: "window",
     aliases: ["kb"], keywords: ["docs", "wiki", "reference", "corpus", "manual"],
     // A book: a box with its spine off centre. Centred, the line divides the box into two
@@ -163,7 +163,7 @@ export const BATCH_05: Icon[] = [
 
   {
     slug: "etl", category: "data", subcategory: "transform",
-    name: "ETL", description: "Take it out, change it, put it back",
+    name: "ETL", description: "ETL — extract data from a source, transform it, and load it where it will be used",
     tags: ["extract", "transform", "load"], family: "machine",
     aliases: [], keywords: ["extract transform load", "elt", "batch", "ingest"],
     // In, through, out. The two arrows point the same way, because ETL has a direction and
@@ -177,7 +177,7 @@ export const BATCH_05: Icon[] = [
 
   {
     slug: "data-quality", category: "data", subcategory: "quality",
-    name: "Data quality", description: "The records are what they claim to be",
+    name: "Data quality", description: "Data quality — checks that records are complete, valid and what they claim to be",
     tags: ["validate", "clean", "check"], family: "rails",
     aliases: [], keywords: ["validation", "profiling", "nulls", "schema check", "clean"],
     // Records and the mark that says they passed. The tick is `check`, unaltered, so
@@ -190,7 +190,7 @@ export const BATCH_05: Icon[] = [
 
   {
     slug: "build", category: "devops", subcategory: "ci-cd",
-    name: "Build", description: "Turning source into the thing that runs",
+    name: "Build", description: "A build — turning source code into the artifact that actually runs",
     tags: ["compile", "assemble", "artifact"], family: "grid",
     aliases: [], keywords: ["ci", "artifact", "bundle", "make", "assemble", "compile"],
     // Three blocks stacked into something. `cluster`'s four sit in a square because they
@@ -201,7 +201,7 @@ export const BATCH_05: Icon[] = [
 
   {
     slug: "cloud", category: "cloud", subcategory: "compute",
-    name: "Cloud", description: "Somebody else's computer, and a lot of them",
+    name: "Cloud", description: "The cloud — hosted infrastructure on somebody else's computers, and a great many of them",
     tags: ["hosted", "remote", "platform"], family: "cloud",
     aliases: ["hosted"], keywords: ["aws", "gcp", "azure", "saas", "remote"],
     // Closed, and deliberately. A cloud with a gap in it is a cloud that leaks, and the
@@ -213,7 +213,7 @@ export const BATCH_05: Icon[] = [
 
   {
     slug: "prompt-injection", category: "security", subcategory: "ai-security",
-    name: "Prompt injection", description: "Instructions smuggled in with the input",
+    name: "Prompt injection", description: "Prompt injection — malicious instructions smuggled into a model's input to hijack it",
     tags: ["attack", "jailbreak", "exploit"], family: "window",
     aliases: [], keywords: ["attack", "exploit", "untrusted input", "smuggling"],
     // The bolt starts outside and comes in through the break the body already has. Drawn
@@ -227,7 +227,7 @@ export const BATCH_05: Icon[] = [
 
   {
     slug: "edit", category: "interface", subcategory: "action",
-    name: "Edit", description: "Change it",
+    name: "Edit", description: "Edit — the pencil that lets you change, rewrite or modify something in place",
     tags: ["pencil", "write", "modify"], family: "mark",
     aliases: ["pencil"], keywords: ["write", "modify", "compose", "rename", "draft"],
     // A pencil at 45°, which is the only angle it can be: the barrel's two long sides have
@@ -237,7 +237,7 @@ export const BATCH_05: Icon[] = [
 
   {
     slug: "copy", category: "interface", subcategory: "action",
-    name: "Copy", description: "Make another one",
+    name: "Copy", description: "Copy — make another one, duplicate an item or put it on the clipboard",
     tags: ["duplicate", "clone", "clipboard"], family: "window",
     aliases: [], keywords: ["clipboard", "clone", "paste", "duplicate"],
     // Two of the same rectangle, offset. The overlap is the whole drawing: separated they
@@ -247,7 +247,7 @@ export const BATCH_05: Icon[] = [
 
   {
     slug: "trash", category: "interface", subcategory: "action",
-    name: "Trash", description: "Throw it away",
+    name: "Trash", description: "Trash — throw it away, delete an item or move it to the bin for later removal",
     tags: ["delete", "bin", "remove"], family: "window",
     aliases: ["delete"], keywords: ["bin", "discard", "remove", "recycle"],
     // The lid is separate and wider than the bin. Drawn as one shape it is a cup; the gap
@@ -257,7 +257,7 @@ export const BATCH_05: Icon[] = [
 
   {
     slug: "home", category: "interface", subcategory: "layout",
-    name: "Home", description: "Back to the start",
+    name: "Home", description: "Home — back to the start page, the index or the main screen of the app",
     tags: ["house", "start", "index"], family: "figure",
     aliases: ["house"], keywords: ["start", "index", "dashboard", "main"],
     // Eaves. The roof runs three units past each wall, which is what stops the drawing
@@ -267,7 +267,7 @@ export const BATCH_05: Icon[] = [
 
   {
     slug: "image", category: "interface", subcategory: "media",
-    name: "Image", description: "A picture",
+    name: "Image", description: "An image — a picture, a photo or another piece of visual media",
     tags: ["photo", "picture", "media"], family: "window",
     aliases: ["photo"], keywords: ["picture", "media", "thumbnail", "graphic"],
     // A sun and a horizon inside a frame. Everyone draws this and it is right to: it is the
@@ -281,7 +281,7 @@ export const BATCH_05: Icon[] = [
 
   {
     slug: "mail", category: "interface", subcategory: "communication",
-    name: "Mail", description: "A message that waits for you",
+    name: "Mail", description: "Mail — an email or message waiting in an envelope to be read",
     tags: ["email", "envelope", "message"], family: "window",
     aliases: ["email"], keywords: ["envelope", "inbox", "message", "send"],
     // The body is closed and the flap is the open shape. An envelope's whole meaning is
@@ -291,7 +291,7 @@ export const BATCH_05: Icon[] = [
 
   {
     slug: "layers", category: "interface", subcategory: "layout",
-    name: "Layers", description: "Things stacked on top of each other",
+    name: "Layers", description: "Layers — things stacked on top of each other in levels, a z-order of panels or objects",
     tags: ["stack", "levels", "z-order"], family: "chevron",
     aliases: ["stack"], keywords: ["z-index", "levels", "overlay", "depth"],
     // Three chevrons, four and a half units apart — which is three and a bit measured

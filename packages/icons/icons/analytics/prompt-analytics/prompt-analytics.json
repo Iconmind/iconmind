@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "llm-observability",
   "name": "Prompt analytics",
-  "description": "Which prompts work",
+  "description": "Prompt analytics — measuring which prompts work and which win",
   "tags": [
     "measure",
     "compare",

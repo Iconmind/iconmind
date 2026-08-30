@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "chart",
   "name": "Treemap",
-  "description": "Area as quantity",
+  "description": "A treemap — nested blocks whose area shows quantity, the bigger the block the larger the value",
   "tags": [
     "blocks",
     "nested",

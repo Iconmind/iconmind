@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Budget burn",
-  "description": "Less every time anyone looks",
+  "description": "Budget burn — the remaining budget shrinking every time anyone looks",
   "tags": [
     "deplete",
     "shrink",

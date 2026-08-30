@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Interrupt",
-  "description": "Cut in right now",
+  "description": "Interrupt — cut in right now, barge in and stop what the agent is doing",
   "tags": [
     "stop",
     "barge-in",

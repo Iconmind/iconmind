@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "trigger",
   "name": "File trigger",
-  "description": "A file arriving pressed it",
+  "description": "A file trigger — a file arriving or being uploaded started it",
   "tags": [
     "watch",
     "upload",

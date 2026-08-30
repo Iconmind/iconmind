@@ -22,7 +22,7 @@ export const BATCH_07: Icon[] = [
 
   {
     slug: "zoom-in", category: "interface", subcategory: "action",
-    name: "Zoom in", description: "Look closer",
+    name: "Zoom in", description: "Zoom in — look closer, magnify and enlarge what is on screen",
     tags: ["magnify", "closer", "enlarge"], family: "magnifier",
     aliases: [], keywords: ["magnify", "enlarge", "scale up", "closer"],
     // `search`'s lens with `plus` in it, at the lens's own centre rather than the canvas's.
@@ -33,7 +33,7 @@ export const BATCH_07: Icon[] = [
 
   {
     slug: "zoom-out", category: "interface", subcategory: "action",
-    name: "Zoom out", description: "Pull back",
+    name: "Zoom out", description: "Zoom out — pull back, shrink the view and see more of it at once",
     tags: ["shrink", "further", "reduce"], family: "magnifier",
     aliases: [], keywords: ["reduce", "scale down", "further", "shrink"],
     shapes: [arc(10, 10, 7, 292, 248), poly([[15, 15], [21, 21]]), row(10, 7, 13)],
@@ -41,7 +41,7 @@ export const BATCH_07: Icon[] = [
 
   {
     slug: "eye-off", category: "interface", subcategory: "state",
-    name: "Eye off", description: "Hidden",
+    name: "Eye off", description: "Eye off — hidden from view, invisible, private or not being watched",
     tags: ["hide", "invisible", "private"], family: "eye",
     aliases: ["hide"], keywords: ["hidden", "invisible", "conceal", "private", "unwatch"],
     // `observability`'s eye entire, pupil included, with a stroke through it. Without the
@@ -59,7 +59,7 @@ export const BATCH_07: Icon[] = [
 
   {
     slug: "shield-check", category: "security", subcategory: "policy",
-    name: "Shield check", description: "It passed the policy",
+    name: "Shield check", description: "Shield check — it passed the safety policy, verified and compliant",
     tags: ["safe", "verified", "compliant"], family: "shield",
     aliases: ["verified"], keywords: ["compliant", "approved", "secure", "passed", "audit"],
     // The mark sits one unit above the canvas centre. A shield's diagonals close in below
@@ -69,7 +69,7 @@ export const BATCH_07: Icon[] = [
 
   {
     slug: "shield-alert", category: "security", subcategory: "threat",
-    name: "Shield alert", description: "The policy caught something",
+    name: "Shield alert", description: "Shield alert — the safety policy caught something, a risk or a violation to review",
     tags: ["risk", "violation", "warning"], family: "shield",
     aliases: [], keywords: ["violation", "risk", "breach", "flagged", "threat"],
     shapes: [shield(), ...alert(SMALL, 11)],
@@ -77,7 +77,7 @@ export const BATCH_07: Icon[] = [
 
   {
     slug: "shield-off", category: "security", subcategory: "policy",
-    name: "Shield off", description: "Protection is disabled",
+    name: "Shield off", description: "Shield off — protection is disabled and the system is exposed",
     tags: ["unprotected", "disabled", "exposed"], family: "shield",
     aliases: [], keywords: ["unprotected", "disabled", "bypass", "exposed", "insecure"],
     shapes: [shield(), ...off(SMALL, 11)],
@@ -85,7 +85,7 @@ export const BATCH_07: Icon[] = [
 
   {
     slug: "unlock", category: "security", subcategory: "auth",
-    name: "Unlock", description: "It is open",
+    name: "Unlock", description: "Unlock — it is open, access granted and the lock released for you",
     tags: ["open", "granted", "access"], family: "lock",
     aliases: [], keywords: ["open", "access granted", "decrypt", "unlocked", "permit"],
     // The shackle swings up and to the right and ends in the air. Drawn as a closed shackle
@@ -98,7 +98,7 @@ export const BATCH_07: Icon[] = [
 
   {
     slug: "power", category: "interface", subcategory: "state",
-    name: "Power", description: "On, or off",
+    name: "Power", description: "Power — turn it on or off, the switch that starts and stops a system",
     tags: ["on", "off", "toggle"], family: "orbit",
     aliases: ["on-off"], keywords: ["shutdown", "restart", "standby", "switch", "boot"],
     // The one place the set's own language is also everybody else's: a ring broken at the
@@ -108,7 +108,7 @@ export const BATCH_07: Icon[] = [
 
   {
     slug: "battery", category: "interface", subcategory: "state",
-    name: "Battery", description: "How much is left",
+    name: "Battery", description: "Battery — how much charge is left, the power level of a device",
     tags: ["charge", "power", "level"], family: "window",
     aliases: ["charge"], keywords: ["level", "energy", "remaining", "low battery"],
     // The terminal sits three units off the body's wall — which at the regular weight is a
@@ -119,7 +119,7 @@ export const BATCH_07: Icon[] = [
 
   {
     slug: "wifi", category: "interface", subcategory: "state",
-    name: "Wi-Fi", description: "Connected, wirelessly",
+    name: "Wi-Fi", description: "Wi-Fi — connected wirelessly, the signal strength of a network",
     tags: ["signal", "wireless", "network"], family: "fan",
     aliases: ["signal"], keywords: ["wireless", "network", "connection", "hotspot", "bars"],
     // Three arcs on one centre, three and a half units apart. At three they merge at the
@@ -132,7 +132,7 @@ export const BATCH_07: Icon[] = [
 
   {
     slug: "sun", category: "interface", subcategory: "state",
-    name: "Sun", description: "Light",
+    name: "Sun", description: "Sun — light, daytime or the light theme of an app with bright surfaces",
     tags: ["light", "day", "bright"], family: "orbit",
     aliases: ["light-mode"], keywords: ["day", "bright", "theme", "light mode", "brightness"],
     accepted: {
@@ -152,7 +152,7 @@ export const BATCH_07: Icon[] = [
 
   {
     slug: "moon", category: "interface", subcategory: "state",
-    name: "Moon", description: "Night, or the dark theme",
+    name: "Moon", description: "Moon — night, sleep or the dark theme of an app when the lights go down",
     tags: ["night", "dark", "sleep"], family: "orbit",
     aliases: ["dark-mode"], keywords: ["night", "dark mode", "theme", "sleep", "crescent"],
     // A crescent is one shape bounded by two arcs of different radius on the same two
@@ -168,7 +168,7 @@ export const BATCH_07: Icon[] = [
 
   {
     slug: "globe", category: "interface", subcategory: "layout",
-    name: "Globe", description: "Everywhere, or the public internet",
+    name: "Globe", description: "Globe — the whole world, an international audience or the public internet",
     tags: ["world", "international", "web"], family: "orbit",
     aliases: ["world"], keywords: ["internet", "language", "region", "public", "www"],
     // The meridian is an ellipse, which is the one curve in the set that is not a circle.
@@ -183,7 +183,7 @@ export const BATCH_07: Icon[] = [
 
   {
     slug: "mic", category: "interface", subcategory: "media",
-    name: "Microphone", description: "Speak",
+    name: "Microphone", description: "A microphone — speak, record audio or use voice input instead of typing",
     tags: ["voice", "record", "audio"], family: "figure",
     aliases: ["microphone"], keywords: ["voice", "record", "speech", "dictate", "audio input"],
     shapes: [rect(9, 2, 6, 10, 3), arc(12, 10, 5, 0, 180), col(12, 15, 20)],
@@ -191,7 +191,7 @@ export const BATCH_07: Icon[] = [
 
   {
     slug: "volume", category: "interface", subcategory: "media",
-    name: "Volume", description: "How loud",
+    name: "Volume", description: "Volume — how loud the sound is, the speaker level of a device",
     tags: ["sound", "audio", "speaker"], family: "figure",
     aliases: ["sound"], keywords: ["speaker", "loud", "mute", "audio", "level"],
     // The cone is one closed run: drawn as a rectangle with a triangle beside it the two
@@ -204,7 +204,7 @@ export const BATCH_07: Icon[] = [
 
   {
     slug: "video", category: "interface", subcategory: "media",
-    name: "Video", description: "Moving pictures",
+    name: "Video", description: "Video — moving pictures from a camera, a film or a screen recording",
     tags: ["camera", "film", "record"], family: "window",
     aliases: ["camcorder"], keywords: ["film", "record", "movie", "stream", "meeting"],
     shapes: [
@@ -215,7 +215,7 @@ export const BATCH_07: Icon[] = [
 
   {
     slug: "bell", category: "interface", subcategory: "communication",
-    name: "Bell", description: "You will be told",
+    name: "Bell", description: "A bell — notifications, alerts and the reminders that ring to get your attention",
     tags: ["notification", "alert", "ring"], family: "figure",
     aliases: ["notification"], keywords: ["notify", "alarm", "reminder", "subscribe", "ping"],
     shapes: [
@@ -228,7 +228,7 @@ export const BATCH_07: Icon[] = [
 
   {
     slug: "location", category: "interface", subcategory: "layout",
-    name: "Location", description: "Here, on a map",
+    name: "Location", description: "Location — a pin marking a place here on the map, where something is",
     tags: ["pin", "place", "map"], family: "figure",
     aliases: [], keywords: ["map", "place", "marker", "geo", "address", "pin"],
     // One shape, not a circle with a triangle under it. Drawn as two the circle's own lower
@@ -245,7 +245,7 @@ export const BATCH_07: Icon[] = [
 
   {
     slug: "link", category: "interface", subcategory: "action",
-    name: "Link", description: "Joined to something else",
+    name: "Link", description: "A link — joined to something else, a URL or a connection between two things",
     tags: ["chain", "url", "connect"], family: "capsule",
     aliases: ["chain"], keywords: ["url", "href", "hyperlink", "connect", "attach"],
     // Two capsules overlapping by two units. Separated they are two pills; the overlap is
@@ -255,7 +255,7 @@ export const BATCH_07: Icon[] = [
 
   {
     slug: "undo", category: "interface", subcategory: "action",
-    name: "Undo", description: "Put it back the way it was",
+    name: "Undo", description: "Undo — put it back the way it was, step back through history",
     tags: ["back", "revert", "history"], family: "orbit",
     aliases: ["revert"], keywords: ["back", "rollback", "history", "ctrl-z", "reverse"],
     shapes: [arc(12, 13, 7, 180, 0), col(19, 13, 18), poly([[2, 10], [5, 13], [8, 10]])],
@@ -263,7 +263,7 @@ export const BATCH_07: Icon[] = [
 
   {
     slug: "redo", category: "interface", subcategory: "action",
-    name: "Redo", description: "Do it again after all",
+    name: "Redo", description: "Redo — do it again after all, step forward through history after an undo",
     tags: ["forward", "repeat", "history"], family: "orbit",
     aliases: [], keywords: ["forward", "again", "history", "ctrl-y", "reapply"],
     shapes: [arc(12, 13, 7, 180, 0), col(5, 13, 18), poly([[16, 10], [19, 13], [22, 10]])],
@@ -273,7 +273,7 @@ export const BATCH_07: Icon[] = [
 
   {
     slug: "menu", category: "interface", subcategory: "layout",
-    name: "Menu", description: "Everything else is in here",
+    name: "Menu", description: "Menu — the hamburger that opens navigation and everything else",
     tags: ["hamburger", "nav", "more"], family: "rails",
     aliases: ["hamburger"], keywords: ["nav", "navigation", "drawer", "sidebar", "more"],
     // Flush, and equal. `stream`'s three runs are offset because something is passing;
@@ -283,7 +283,7 @@ export const BATCH_07: Icon[] = [
 
   {
     slug: "list", category: "interface", subcategory: "layout",
-    name: "List", description: "Items, one after another",
+    name: "List", description: "A list — items shown one after another as bulleted rows down the page",
     tags: ["items", "bullets", "rows"], family: "rails",
     aliases: [], keywords: ["bullets", "items", "rows", "todo", "enumerate"],
     shapes: [
@@ -295,7 +295,7 @@ export const BATCH_07: Icon[] = [
 
   {
     slug: "more-horizontal", category: "interface", subcategory: "action",
-    name: "More", description: "There are other options",
+    name: "More", description: "More — an ellipsis hiding the other options in an overflow menu",
     tags: ["ellipsis", "overflow", "options"], family: "mark",
     aliases: ["ellipsis"], keywords: ["overflow", "options", "kebab", "dots", "actions"],
     // Seven units apart. A dot of radius 1.5 stroked at the bold weight is five and a half

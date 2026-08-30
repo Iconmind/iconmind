@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "One-time password",
-  "description": "A code that works once",
+  "description": "A one-time password — a six-digit code that works once and then expires",
   "tags": [
     "code",
     "six-digits",

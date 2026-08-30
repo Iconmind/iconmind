@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "chart",
   "name": "Pyramid chart",
-  "description": "Bars widening toward the base — a pyramid chart of tiers",
+  "description": "Bars widening toward the base — a pyramid chart of tiers or population bands",
   "tags": [
     "chart",
     "tiers",

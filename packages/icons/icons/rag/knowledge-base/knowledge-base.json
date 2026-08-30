@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "knowledge",
   "name": "Knowledge base",
-  "description": "The body of material a system can draw on",
+  "description": "A knowledge base — the body of documents and facts a system can draw on for answers",
   "tags": [
     "book",
     "reference",

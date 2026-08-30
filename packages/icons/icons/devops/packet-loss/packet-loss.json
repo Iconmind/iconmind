@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "observability",
   "name": "Packet loss",
-  "description": "One of them never arrived",
+  "description": "Packet loss — one of the packets never arrived, a gap in the network stream",
   "tags": [
     "dropped",
     "network",

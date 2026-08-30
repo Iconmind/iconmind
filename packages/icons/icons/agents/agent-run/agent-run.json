@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "lifecycle",
   "name": "Agent run",
-  "description": "Start the agent",
+  "description": "Run an agent — start an AI agent on its task and let it work through its loop",
   "tags": [
     "start",
     "execute",

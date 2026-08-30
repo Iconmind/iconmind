@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "registry",
   "name": "MCP registry",
-  "description": "Where the servers are listed",
+  "description": "An MCP registry — the directory where servers are listed and discovered",
   "tags": [
     "directory",
     "catalogue",

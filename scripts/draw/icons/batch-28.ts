@@ -14,7 +14,7 @@ export const BATCH_28: Icon[] = [
 
   {
     slug: "environment", category: "devops", subcategory: "infrastructure",
-    name: "Environment", description: "Development, staging, production",
+    name: "Environment", description: "An environment — development, staging or production, the tier a deploy targets",
     tags: ["stage", "tier", "deploy-target"], family: "grid",
     aliases: [], keywords: ["dev", "staging", "prod", "tier", "target"],
         // Three tiers, stacked and of different widths. Side by side they share vertical edges,
@@ -24,7 +24,7 @@ export const BATCH_28: Icon[] = [
   },
   {
     slug: "infrastructure", category: "devops", subcategory: "infrastructure",
-    name: "Infrastructure", description: "Everything underneath",
+    name: "Infrastructure", description: "Infrastructure — everything underneath the app, the platform and the foundation",
     tags: ["platform", "base", "foundation"], family: "grid",
     aliases: [], keywords: ["platform", "terraform", "provisioning", "foundation", "iac"],
     shapes: [
@@ -33,14 +33,14 @@ export const BATCH_28: Icon[] = [
   },
   {
     slug: "environment-var", category: "devtools", subcategory: "editor",
-    name: "Environment variable", description: "A value the process is handed",
+    name: "Environment variable", description: "An environment variable — a config value or secret handed to a process when it starts",
     tags: ["config", "secret", "setting"], family: "capsule",
     aliases: ["env-var"], keywords: ["dotenv", "process.env", "config value", "export"],
     shapes: [rect(3, 3, 18, 18, 2), row(10.5, 8, 16), row(13.5, 8, 16)],
   },
   {
     slug: "hotfix", category: "devops", subcategory: "release",
-    name: "Hotfix", description: "A repair that could not wait",
+    name: "Hotfix", description: "A hotfix — an urgent repair that could not wait for the next release",
     tags: ["patch", "urgent", "quick"], family: "machine",
     aliases: [], keywords: ["patch", "urgent", "emergency", "cherry-pick", "band-aid"],
     // `trigger`'s bolt over a machine, half in and half out. The bolt inside is `incident`,
@@ -51,7 +51,7 @@ export const BATCH_28: Icon[] = [
   },
   {
     slug: "deploy-rollback", category: "devops", subcategory: "release",
-    name: "Deploy rollback", description: "Undo the last release",
+    name: "Deploy rollback", description: "Deploy rollback — undo the last release and go back to the previous version",
     tags: ["revert", "previous", "back"], family: "machine",
     aliases: [], keywords: ["roll back", "previous version", "undo deploy", "recover"],
     // Out of the crate and back to the left — the release, returned to sender. The old
@@ -63,7 +63,7 @@ export const BATCH_28: Icon[] = [
   },
   {
     slug: "error-budget", category: "devops", subcategory: "observability",
-    name: "Error budget", description: "How much failure you are allowed",
+    name: "Error budget", description: "An error budget — how much failure an SLO allows you before you have to stop shipping",
     tags: ["slo", "allowance", "spent"], family: "capsule",
     aliases: [], keywords: ["slo", "sli", "burn rate", "allowance", "remaining"],
     shapes: [rect(2, 12, 20, 6, 3), col(15, 9, 15), poly([[17, 4], [21, 8]]), poly([[21, 4], [17, 8]])],
@@ -73,21 +73,21 @@ export const BATCH_28: Icon[] = [
 
   {
     slug: "cost-per-token", category: "ai", subcategory: "token",
-    name: "Cost per token", description: "What each one costs you",
+    name: "Cost per token", description: "Cost per token — the unit price of each token a model reads or writes",
     tags: ["rate", "price", "unit"], family: "capsule",
     aliases: [], keywords: ["price per 1k", "unit cost", "rate card", "input output"],
     shapes: [rect(2, 9, 6, 6, 3), row(12, 10, 13), disc(17, 12, 4), col(17, 10, 14)],
   },
   {
     slug: "cost-per-request", category: "analytics", subcategory: "metric",
-    name: "Cost per request", description: "What one call works out at",
+    name: "Cost per request", description: "Cost per request — what one API call works out to in money once everything is counted",
     tags: ["unit", "rate", "spend"], family: "chain",
     aliases: [], keywords: ["unit economics", "per call", "amortised", "margin"],
     shapes: [disc(6, 6, 3), poly([[8, 8], [14, 14]]), disc(17, 17, 5)],
   },
   {
     slug: "billing", category: "cloud", subcategory: "cost",
-    name: "Billing", description: "The invoice",
+    name: "Billing", description: "Billing — the invoice, the charges and the account they are billed to",
     tags: ["invoice", "charge", "account"], family: "page",
     aliases: [], keywords: ["invoice", "statement", "charges", "account", "payment"],
     shapes: [page(), row(9, 9, 15), row(13, 9, 13), row(18, 9, 15), disc(16, 18, 1)],
@@ -97,7 +97,7 @@ export const BATCH_28: Icon[] = [
 
   {
     slug: "extractor", category: "rag", subcategory: "ingestion",
-    name: "Extractor", description: "Pulls the useful part out",
+    name: "Extractor", description: "An extractor — pulls the useful part out of a document, parsed and lifted into structure",
     tags: ["parse", "pick", "lift"], family: "page",
     aliases: [], keywords: ["parse", "scrape", "structured output", "pick out", "field"],
     shapes: [
@@ -107,7 +107,7 @@ export const BATCH_28: Icon[] = [
   },
   {
     slug: "document-parse", category: "rag", subcategory: "ingestion",
-    name: "Document parse", description: "Reading the shape out of a file",
+    name: "Document parse", description: "Document parsing — reading the structure out of a file and converting it to usable data",
     tags: ["structure", "read", "convert"], family: "page",
     aliases: [], keywords: ["ocr", "layout", "structured", "convert", "markdown"],
     shapes: [
@@ -118,7 +118,7 @@ export const BATCH_28: Icon[] = [
   },
   {
     slug: "freshness", category: "rag", subcategory: "knowledge",
-    name: "Freshness", description: "How recently it was checked",
+    name: "Freshness", description: "Freshness — how recently the data was checked or updated, its age before it goes stale",
     tags: ["recent", "stale", "age"], family: "page",
     aliases: [], keywords: ["stale", "last updated", "age", "ttl", "re-index"],
     shapes: [
@@ -127,14 +127,14 @@ export const BATCH_28: Icon[] = [
   },
   {
     slug: "index-db", category: "data", subcategory: "catalog",
-    name: "Index", description: "The lookup that makes it fast",
+    name: "Index", description: "A database index — the B-tree lookup that makes a query fast",
     tags: ["btree", "key", "seek"], family: "machine",
     aliases: [], keywords: ["b-tree", "primary key", "seek", "query plan", "lookup"],
     shapes: [machine(), col(9, 8, 16), row(9, 9, 16), row(12, 9, 16), row(15, 9, 16)],
   },
   {
     slug: "foreign-key", category: "data", subcategory: "catalog",
-    name: "Foreign key", description: "A column that points at another table",
+    name: "Foreign key", description: "A foreign key — a column that references a row in another table",
     tags: ["relation", "reference", "link"], family: "chain",
     aliases: [], keywords: ["relation", "reference", "constraint", "join key", "fk"],
     shapes: [
@@ -143,7 +143,7 @@ export const BATCH_28: Icon[] = [
   },
   {
     slug: "elt", category: "data", subcategory: "transform",
-    name: "ELT", description: "Load it first, change it after",
+    name: "ELT", description: "ELT — load the data first, then transform it inside the warehouse",
     tags: ["load", "transform", "warehouse"], family: "machine",
     aliases: [], keywords: ["extract load transform", "dbt", "in-warehouse", "modern stack"],
     // `etl`'s three parts in the other order: the store comes before the machine rather
@@ -161,7 +161,7 @@ export const BATCH_28: Icon[] = [
 
   {
     slug: "editor", category: "devtools", subcategory: "editor",
-    name: "Editor", description: "Where the code is written",
+    name: "Editor", description: "An editor — the window or IDE where the code is written and edited",
     tags: ["ide", "workspace", "window"], family: "window",
     aliases: ["ide"], keywords: ["ide", "vscode", "workspace", "buffer", "text editor"],
     shapes: [
@@ -171,7 +171,7 @@ export const BATCH_28: Icon[] = [
   },
   {
     slug: "editor-split", category: "devtools", subcategory: "editor",
-    name: "Split editor", description: "Two files at once",
+    name: "Split editor", description: "A split editor — two files side by side in separate panes of the editor",
     tags: ["panes", "side-by-side", "compare"], family: "window",
     aliases: [], keywords: ["split view", "two panes", "compare", "diff view"],
         // One divider with text either side of it. `columns` is the same frame with two
@@ -183,14 +183,14 @@ export const BATCH_28: Icon[] = [
   },
   {
     slug: "format-code", category: "devtools", subcategory: "editor",
-    name: "Format", description: "Line it all up",
+    name: "Format", description: "Format code — line it all up with a formatter like Prettier so it reads tidily",
     tags: ["prettier", "align", "tidy"], family: "rails",
     aliases: ["prettier"], keywords: ["prettier", "gofmt", "indent", "tidy", "lint fix"],
     shapes: [row(5, 3, 21), row(10, 8, 21), row(15, 8, 21), row(20, 3, 21)],
   },
   {
     slug: "function-def", category: "devtools", subcategory: "code",
-    name: "Function", description: "A named piece of behaviour",
+    name: "Function", description: "A function — a named piece of behaviour you can call with arguments",
     tags: ["method", "def", "call"], family: "bracket",
     aliases: ["method"], keywords: ["def", "func", "method", "signature", "callable"],
     shapes: [
@@ -200,14 +200,14 @@ export const BATCH_28: Icon[] = [
   },
   {
     slug: "class", category: "devtools", subcategory: "code",
-    name: "Class", description: "A shape other things are made from",
+    name: "Class", description: "A class — the template other objects are made from, a type with fields and methods",
     tags: ["type", "object", "template"], family: "window",
     aliases: ["type"], keywords: ["object", "struct", "interface", "instance", "oop"],
     shapes: [rect(3, 3, 18, 18, 2), row(8, 3, 21), row(12.5, 6, 13), row(16.5, 6, 15)],
   },
   {
     slug: "dependency", category: "devtools", subcategory: "package",
-    name: "Dependency", description: "Something this needs to work",
+    name: "Dependency", description: "A dependency — a package or library this code needs in order to work",
     tags: ["requires", "package", "link"], family: "chain",
     aliases: [], keywords: ["requires", "npm install", "transitive", "lock", "upstream"],
     shapes: [
@@ -217,7 +217,7 @@ export const BATCH_28: Icon[] = [
   },
   {
     slug: "heap", category: "devtools", subcategory: "debug",
-    name: "Heap", description: "Where the objects live",
+    name: "Heap", description: "The heap — where objects are allocated in memory while a program runs",
     tags: ["memory", "allocation", "objects"], family: "grid",
     aliases: [], keywords: ["allocation", "gc", "retained", "objects", "profiler"],
     shapes: [
@@ -227,7 +227,7 @@ export const BATCH_28: Icon[] = [
   },
   {
     slug: "graphql", category: "devtools", subcategory: "api",
-    name: "GraphQL", description: "Ask for exactly the fields you want",
+    name: "GraphQL", description: "GraphQL — a query language where you ask for exactly the fields you want",
     tags: ["query", "schema", "graph"], family: "chain",
     aliases: [], keywords: ["query language", "resolver", "schema", "apollo", "fields"],
     shapes: [

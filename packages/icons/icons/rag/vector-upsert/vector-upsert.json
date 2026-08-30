@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "vector",
   "name": "Vector upsert",
-  "description": "New vectors into the index",
+  "description": "Vector upsert — write new or updated vectors into the index in one operation",
   "tags": [
     "insert",
     "write",

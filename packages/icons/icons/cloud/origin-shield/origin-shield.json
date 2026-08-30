@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "Origin shield",
-  "description": "One more wall before anyone reaches home",
+  "description": "An origin shield — one more caching wall before any request reaches the origin",
   "tags": [
     "cdn",
     "protect",

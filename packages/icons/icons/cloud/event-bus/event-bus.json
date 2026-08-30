@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "Event bus",
-  "description": "One rail; everyone taps it",
+  "description": "An event bus — one rail that every service taps into for events",
   "tags": [
     "bus",
     "events",

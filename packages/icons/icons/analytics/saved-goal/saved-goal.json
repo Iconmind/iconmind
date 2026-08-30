@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Saved goal",
-  "description": "A target beside a bookmark — a goal saved to revisit",
+  "description": "A target beside a bookmark — a goal saved to revisit later on",
   "tags": [
     "goal",
     "saved",

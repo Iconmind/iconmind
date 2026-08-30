@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "ingestion",
   "name": "Corpus add",
-  "description": "Another document joins the pile",
+  "description": "Corpus add — another document joins the pile the system has read",
   "tags": [
     "ingest",
     "grow",

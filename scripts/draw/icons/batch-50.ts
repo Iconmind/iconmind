@@ -16,7 +16,7 @@ export const BATCH_50: Icon[] = [
 
   {
     slug: "dpo", category: "ai", subcategory: "training",
-    name: "DPO", description: "Trained on which answer people preferred",
+    name: "DPO", description: "DPO — direct preference optimisation, training a model on which of two answers people preferred",
     tags: ["preference", "chosen", "rejected"], family: "capsule",
     aliases: ["preference-pair"], keywords: ["direct preference optimization", "chosen", "rejected", "pairwise", "alignment"],
     // The whole method in one picture: two candidate answers, one kept, one not.
@@ -27,7 +27,7 @@ export const BATCH_50: Icon[] = [
   },
   {
     slug: "rlhf", category: "ai", subcategory: "training",
-    name: "RLHF", description: "A person inside the training loop",
+    name: "RLHF", description: "RLHF — reinforcement learning from human feedback, a person inside the training loop",
     tags: ["feedback", "human", "loop"], family: "figure",
     aliases: [], keywords: ["human feedback", "reinforcement learning", "alignment", "rater", "reward signal"],
     // The figure orbited by the loop's two arcs — the person is the loop's centre,
@@ -39,7 +39,7 @@ export const BATCH_50: Icon[] = [
   },
   {
     slug: "reward-model", category: "ai", subcategory: "evaluation",
-    name: "Reward model", description: "The model that scores the other model",
+    name: "Reward model", description: "A reward model — the model that scores another model's answers as a judge",
     tags: ["score", "value", "judge"], family: "machine",
     aliases: [], keywords: ["reward", "scoring model", "value head", "preference model", "rm"],
     // The machine with the score rising in its hollow. A diamond was drawn first —
@@ -48,7 +48,7 @@ export const BATCH_50: Icon[] = [
   },
   {
     slug: "speculative-decode", category: "ai", subcategory: "inference",
-    name: "Speculative decoding", description: "A draft races ahead, the model verifies",
+    name: "Speculative decoding", description: "Speculative decoding — a small draft model races ahead and the big model verifies its tokens",
     tags: ["draft", "fast", "verify"], family: "chevron",
     aliases: [], keywords: ["speculative decoding", "draft model", "verify", "latency", "assisted generation"],
     // Fast-forward's two chevrons would be someone else's icon; the check is what makes
@@ -60,7 +60,7 @@ export const BATCH_50: Icon[] = [
   },
   {
     slug: "best-of-n", category: "ai", subcategory: "evaluation",
-    name: "Best of N", description: "Generate several, keep the winner",
+    name: "Best of N", description: "Best of N — generate several candidates and keep the winner as the answer",
     tags: ["sampling", "candidates", "pick"], family: "rails",
     aliases: [], keywords: ["best of n", "rerank samples", "candidates", "pick the best", "rejection sampling"],
     shapes: [
@@ -70,7 +70,7 @@ export const BATCH_50: Icon[] = [
   },
   {
     slug: "logprobs", category: "ai", subcategory: "inference",
-    name: "Logprobs", description: "How sure it was about each token",
+    name: "Logprobs", description: "Logprobs — how sure the model was about each token, log probabilities per token",
     tags: ["probability", "confidence", "per-token"], family: "rails",
     aliases: [], keywords: ["log probabilities", "token probability", "confidence", "sampling", "logits"],
     // Certainty hangs off the sequence rail, one drop per position, none the same.
@@ -81,7 +81,7 @@ export const BATCH_50: Icon[] = [
 
   {
     slug: "computer-use", category: "agents", subcategory: "tool-use",
-    name: "Computer use", description: "An agent driving the screen itself",
+    name: "Computer use", description: "Computer use — an agent driving the screen itself, clicking and typing like a person",
     tags: ["screen", "control", "click"], family: "window",
     aliases: [], keywords: ["computer use", "screen control", "gui agent", "operate", "desktop"],
     // A click happening inside a screen: the dot is the press, the arc its ripple.
@@ -89,14 +89,14 @@ export const BATCH_50: Icon[] = [
   },
   {
     slug: "type-action", category: "agents", subcategory: "tool-use",
-    name: "Type", description: "The caret, and what it has written so far",
+    name: "Type", description: "Type — the caret and what it has written so far, keyboard input by an agent",
     tags: ["keyboard", "input", "caret"], family: "rails",
     aliases: [], keywords: ["type", "keyboard input", "text entry", "caret", "fill field"],
     shapes: [col(4, 6, 18), row(9, 8, 16), row(15, 8, 20)],
   },
   {
     slug: "browser-agent", category: "agents", subcategory: "tool-use",
-    name: "Browser agent", description: "An agent living inside the browser",
+    name: "Browser agent", description: "A browser agent — an agent living inside the browser, navigating and automating the web",
     tags: ["web", "navigate", "automate"], family: "window",
     aliases: [], keywords: ["browser automation", "web agent", "navigate", "scrape", "playwright"],
     // The browser's chrome line is what makes the box a browser; the ring below it is
@@ -105,14 +105,14 @@ export const BATCH_50: Icon[] = [
   },
   {
     slug: "voice-agent", category: "agents", subcategory: "communication",
-    name: "Voice agent", description: "An agent you talk to out loud",
+    name: "Voice agent", description: "A voice agent — an agent you talk to out loud, speech in and speech out",
     tags: ["speech", "audio", "levels"], family: "orbit",
     aliases: [], keywords: ["voice", "speech", "realtime audio", "talk", "call agent"],
     shapes: [arc(7, 12, 5, 295, 245), col(15, 9, 15), col(18, 5, 19), col(21, 10, 14)],
   },
   {
     slug: "interrupt", category: "agents", subcategory: "execution",
-    name: "Interrupt", description: "Cut in right now",
+    name: "Interrupt", description: "Interrupt — cut in right now, barge in and stop what the agent is doing",
     tags: ["stop", "barge-in", "cancel"], family: "figure",
     aliases: ["zap"], keywords: ["interrupt", "barge in", "cancel generation", "stop it", "break in"],
     // The bolt, drawn at the set's angles. No zap ever claimed it, and an interrupt is
@@ -121,7 +121,7 @@ export const BATCH_50: Icon[] = [
   },
   {
     slug: "capability-card", category: "agents", subcategory: "communication",
-    name: "Capability card", description: "The card an agent shows: here is what I can do",
+    name: "Capability card", description: "A capability card — the card an agent shows to advertise what it can do, as in A2A",
     tags: ["a2a", "advertise", "skills"], family: "page",
     aliases: [], keywords: ["agent card", "a2a", "capability discovery", "what it can do", "manifest"],
     // A card with a plug on it: the capability, published.
@@ -132,7 +132,7 @@ export const BATCH_50: Icon[] = [
   },
   {
     slug: "handback", category: "agents", subcategory: "communication",
-    name: "Handback", description: "The agent gives control back to a person",
+    name: "Handback", description: "Handback — the agent gives control back to a person to take over",
     tags: ["return", "human", "control"], family: "orbit",
     aliases: [], keywords: ["hand back", "return control", "human takeover", "escalate", "defer"],
     // `agent-handoff`'s diagonal, but the far end is a person: the ring passes it up,
@@ -148,7 +148,7 @@ export const BATCH_50: Icon[] = [
 
   {
     slug: "elicitation", category: "mcp", subcategory: "prompt",
-    name: "Elicitation", description: "The server stops to ask the user something",
+    name: "Elicitation", description: "Elicitation — the server stops mid-flow to ask the user for input",
     tags: ["ask", "mid-flow", "input"], family: "window",
     aliases: [], keywords: ["elicitation", "ask user", "server question", "form request", "mid-session"],
     // `message`'s bubble with a question in it — the shape of being asked.
@@ -159,7 +159,7 @@ export const BATCH_50: Icon[] = [
   },
   {
     slug: "jailbreak", category: "security", subcategory: "ai-security",
-    name: "Jailbreak", description: "Out through the broken bar",
+    name: "Jailbreak", description: "A jailbreak — out through the broken bar, a prompt that bypasses the guardrails",
     tags: ["escape", "bypass", "guardrail"], family: "figure",
     aliases: [], keywords: ["jailbreak", "guardrail bypass", "prompt attack", "escape", "unsafe output"],
     // Three bars, one snapped short, and the arrow leaves through exactly that gap.
@@ -170,7 +170,7 @@ export const BATCH_50: Icon[] = [
   },
   {
     slug: "pii-redact", category: "security", subcategory: "ai-security",
-    name: "PII redaction", description: "The personal part, blacked out",
+    name: "PII redaction", description: "PII redaction — the personal part blacked out so privacy is kept",
     tags: ["privacy", "mask", "remove"], family: "rails",
     aliases: ["redaction"], keywords: ["pii", "redact", "mask personal data", "anonymise", "scrub"],
     // Text with one span replaced by the redaction bar — the bar is a closed capsule,

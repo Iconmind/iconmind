@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "Static stability",
-  "description": "The weather changes; the box does not",
+  "description": "Static stability — the weather changes but the system does not, resilient by design",
   "tags": [
     "steady",
     "calm",

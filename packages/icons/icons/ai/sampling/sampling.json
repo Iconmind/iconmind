@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Sampling",
-  "description": "Pick from the maybes",
+  "description": "Sampling — pick the next token from the candidates by their probabilities",
   "tags": [
     "choose",
     "random",

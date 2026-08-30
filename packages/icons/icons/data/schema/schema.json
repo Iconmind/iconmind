@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Schema",
-  "description": "The shape the data has to have",
+  "description": "A schema — the shape the data has to have, its tables, fields and types",
   "tags": [
     "structure",
     "tables",

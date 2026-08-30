@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Backdoor",
-  "description": "A keyhole nobody was told about",
+  "description": "A backdoor — a hidden keyhole in a model that nobody was told about, a trojan",
   "tags": [
     "hidden",
     "access",

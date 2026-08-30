@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "ingestion",
   "name": "Transcribe",
-  "description": "Speech written down",
+  "description": "Transcribe — speech written down as text on the way into the pipeline",
   "tags": [
     "speech",
     "text",

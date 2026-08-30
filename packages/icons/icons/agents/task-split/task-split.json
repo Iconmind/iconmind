@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Task split",
-  "description": "Too big for one; now it is two",
+  "description": "Task split — too big for one, so now it is two subtasks handed out",
   "tags": [
     "divide",
     "subtasks",

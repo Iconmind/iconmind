@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "edge",
   "name": "CDN",
-  "description": "Copies of it, close to everyone",
+  "description": "A CDN — copies of your content cached at the edge, close to everyone who asks for it",
   "tags": [
     "edge",
     "cache",

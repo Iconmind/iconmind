@@ -1,0 +1,28 @@
+{
+  "slug": "stale-label",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Stale label",
+  "description": "A label beside a Z — a tag nobody has used in a long time, gone stale",
+  "tags": [
+    "label",
+    "stale",
+    "unused"
+  ],
+  "keywords": [
+    "stale label",
+    "unused tag",
+    "old label"
+  ],
+  "family": "tag",
+  "shapes": [
+    {
+      "d": "M3 6L7 6L11 10L7 14L3 14Z",
+      "closed": true
+    },
+    {
+      "d": "M15 9.5L20 9.5L15 14.5L20 14.5",
+      "closed": false
+    }
+  ]
+}

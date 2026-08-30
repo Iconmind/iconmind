@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "grounding",
   "name": "Context precision",
-  "description": "How much of what was fetched mattered",
+  "description": "Context precision — how much of what was retrieved actually mattered to the answer",
   "tags": [
     "signal",
     "ratio",

@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "ranking",
   "name": "BM25",
-  "description": "Ranked by how well the words match",
+  "description": "BM25 — results ranked by how well the query's words match the document",
   "tags": [
     "ranking",
     "keyword",

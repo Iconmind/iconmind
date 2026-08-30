@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "schedule",
   "name": "Exponential backoff",
-  "description": "Retry later; then much later",
+  "description": "Exponential backoff — retry later, then much later, doubling the wait each time",
   "tags": [
     "retry",
     "spacing",

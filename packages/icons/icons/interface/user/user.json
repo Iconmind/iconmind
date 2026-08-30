@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "identity",
   "name": "User",
-  "description": "A person, and their account",
+  "description": "A user — a person and the account, profile and permissions that belong to them",
   "tags": [
     "person",
     "profile",

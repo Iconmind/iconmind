@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "catalog",
   "name": "Parquet",
-  "description": "The file that thinks in columns",
+  "description": "Parquet — the columnar file format that stores data by column, not by row",
   "tags": [
     "columnar",
     "file",

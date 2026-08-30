@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "registry",
   "name": "MCP capability",
-  "description": "Something the server says it can do",
+  "description": "An MCP capability — a feature a server declares it can offer",
   "tags": [
     "declares",
     "feature",

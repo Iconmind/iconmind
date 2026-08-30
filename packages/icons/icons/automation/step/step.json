@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "Step",
-  "description": "One thing at a time",
+  "description": "A step — one thing at a time, a single increment in a longer sequence",
   "tags": [
     "single",
     "increment",

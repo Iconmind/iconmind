@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "agent-core",
   "name": "Agent core",
-  "description": "The model at the middle of an agent",
+  "description": "The agent core — the model at the centre of an agent, its engine",
   "tags": [
     "kernel",
     "engine",

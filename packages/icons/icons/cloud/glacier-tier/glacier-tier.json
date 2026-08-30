@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "storage",
   "name": "Glacier tier",
-  "description": "Cold, cheap, and slow to wake",
+  "description": "Glacier tier — cold, cheap archive storage that is slow to wake",
   "tags": [
     "cold",
     "archive",

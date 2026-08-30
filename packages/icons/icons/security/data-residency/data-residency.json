@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Data residency",
-  "description": "It lives here, by law",
+  "description": "Data residency — the data lives in this region by law and may not leave it",
   "tags": [
     "region",
     "pin",

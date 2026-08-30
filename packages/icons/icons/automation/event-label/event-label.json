@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "trigger",
   "name": "Event label",
-  "description": "A lightning bolt beside a label — an event given a name",
+  "description": "A lightning bolt beside a label — an event given a name or a type",
   "tags": [
     "event",
     "label",

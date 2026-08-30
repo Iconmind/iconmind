@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "terminal",
   "name": "CLI",
-  "description": "The command line itself",
+  "description": "The CLI — the command-line interface itself, a prompt waiting for a command",
   "tags": [
     "prompt",
     "shell",

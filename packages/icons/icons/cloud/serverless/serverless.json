@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "serverless",
   "name": "Serverless",
-  "description": "Code that runs without a machine you own",
+  "description": "Serverless — code that runs as managed functions without a machine you own or maintain",
   "tags": [
     "function",
     "lambda",

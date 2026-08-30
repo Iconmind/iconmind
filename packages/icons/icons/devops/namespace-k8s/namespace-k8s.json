@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "orchestration",
   "name": "Kubernetes namespace",
-  "description": "A fenced part of the cluster",
+  "description": "A Kubernetes namespace — a fenced part of the cluster, one tenant's scope",
   "tags": [
     "scope",
     "tenant",

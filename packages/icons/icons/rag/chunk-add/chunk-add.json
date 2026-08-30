@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "chunking",
   "name": "Add chunk",
-  "description": "One more piece into the index",
+  "description": "Add chunk — one more piece of a document inserted into the index",
   "tags": [
     "insert",
     "new",

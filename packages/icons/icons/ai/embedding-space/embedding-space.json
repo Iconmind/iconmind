@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "embedding",
   "name": "Embedding space",
-  "description": "Where the vectors live",
+  "description": "Embedding space — the latent space where vectors live as points",
   "tags": [
     "latent",
     "manifold",

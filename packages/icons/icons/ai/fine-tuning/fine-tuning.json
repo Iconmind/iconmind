@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Fine-tuning",
-  "description": "Adapting a trained model to one domain",
+  "description": "Fine-tuning — adapting an already trained model to one domain, task or style with extra data",
   "tags": [
     "adapt",
     "tune",

@@ -47,7 +47,7 @@ export const BATCH_73: Icon[] = [
   },
   {
     slug: "saved-payment", category: "cloud", subcategory: "cost",
-    name: "Saved payment", description: "A coin beside a bookmark — a payment method kept on file",
+    name: "Saved payment", description: "A coin beside a bookmark — a payment method kept on file for next time",
     tags: ["payment", "saved", "card"], family: "coin",
     aliases: [], keywords: ["saved payment method", "card on file", "stored payment"],
     shapes: [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5), poly([[14, 7], [21, 7], [21, 17], [17.5, 13.5], [14, 17]], true)],
@@ -78,7 +78,7 @@ export const BATCH_73: Icon[] = [
   },
   {
     slug: "agenda", category: "interface", subcategory: "time",
-    name: "Agenda", description: "A clock beside a list — the agenda for the day",
+    name: "Agenda", description: "A clock beside a list — the agenda for the day, item by item in order",
     tags: ["agenda", "schedule", "list"], family: "clock",
     aliases: [], keywords: ["agenda", "daily schedule", "upcoming"],
     shapes: [...CLOCK_L, ...ROWS_R(16)],
@@ -123,7 +123,7 @@ export const BATCH_73: Icon[] = [
   },
   {
     slug: "key-vault", category: "security", subcategory: "auth",
-    name: "Key vault", description: "A key beside a padlock — credentials kept in a vault",
+    name: "Key vault", description: "A key beside a padlock — credentials kept locked away in a vault",
     tags: ["vault", "secrets", "key"], family: "key",
     aliases: [], keywords: ["key vault", "secrets vault", "credential store"],
     shapes: [...KEY_L, ...LOCK_R],
@@ -182,7 +182,7 @@ export const BATCH_73: Icon[] = [
   },
   {
     slug: "address", category: "interface", subcategory: "identity",
-    name: "Address", description: "A location pin beside lines of text — a postal address",
+    name: "Address", description: "A location pin beside lines of text — a postal address written out in full",
     tags: ["address", "location", "text"], family: "pin",
     aliases: [], keywords: ["address", "postal address", "location details"],
     shapes: [...PIN_L, ...ROWS_R(13)],
@@ -196,7 +196,7 @@ export const BATCH_73: Icon[] = [
   },
   {
     slug: "destination", category: "interface", subcategory: "identity",
-    name: "Destination", description: "A location pin beside a flag — where the journey ends",
+    name: "Destination", description: "A location pin beside a flag — where the journey ends, the arrival point",
     tags: ["destination", "flag", "route"], family: "pin",
     aliases: [], keywords: ["destination", "end of route", "arrival point"],
     shapes: [...PIN_L, col(14, 5, 21), poly([[14, 5], [22, 5], [19, 8], [22, 11], [14, 11]])],
@@ -206,14 +206,14 @@ export const BATCH_73: Icon[] = [
 
   {
     slug: "model-fail", category: "ai", subcategory: "model",
-    name: "Model fail", description: "A model core beside an X — a model call that failed",
+    name: "Model fail", description: "A model core beside an X — a model call that failed and returned an error",
     tags: ["fail", "error", "model"], family: "lattice",
     aliases: [], keywords: ["model failure", "inference error", "model call failed"],
     shapes: [DIAMOND_L, ...X_R],
   },
   {
     slug: "model-tag", category: "ai", subcategory: "model",
-    name: "Model tag", description: "A model core beside a label — a tag that groups models",
+    name: "Model tag", description: "A model core beside a label — a tag that groups models by family or purpose",
     tags: ["tag", "label", "model"], family: "lattice",
     aliases: [], keywords: ["model tag", "model label", "tagged models"],
     shapes: [DIAMOND_L, poly([[14, 13], [19, 13], [22, 16], [19, 19], [14, 19]], true)],
@@ -244,14 +244,14 @@ export const BATCH_73: Icon[] = [
 
   {
     slug: "milestone-goal", category: "analytics", subcategory: "metric",
-    name: "Milestone goal", description: "A flag beside a target — the goal a milestone stands for",
+    name: "Milestone goal", description: "A flag beside a target — the goal a milestone stands for on the way",
     tags: ["milestone", "goal", "target"], family: "flag",
     aliases: [], keywords: ["milestone goal", "milestone target", "project objective"],
     shapes: [...FLAG_L, disc(18, 14, 4), disc(18, 14, 1)],
   },
   {
     slug: "add-goal", category: "analytics", subcategory: "metric",
-    name: "Add goal", description: "A target with a plus beside it — set a new goal",
+    name: "Add goal", description: "A target with a plus beside it — set a new goal or objective to track",
     tags: ["goal", "add", "new"], family: "object",
     aliases: [], keywords: ["add goal", "new objective", "set a target"],
     shapes: [...TARGET_L, row(12, 16, 22), col(19, 9, 15)],
@@ -282,14 +282,14 @@ export const BATCH_73: Icon[] = [
   },
   {
     slug: "filter-cleared", category: "interface", subcategory: "action",
-    name: "Filter cleared", description: "A funnel with an X beside it — all filters removed",
+    name: "Filter cleared", description: "A funnel with an X beside it — all filters removed and the full list restored",
     tags: ["filter", "clear", "reset"], family: "funnel",
     aliases: [], keywords: ["clear filters", "reset filter", "remove filter"],
     shapes: [FUNNEL_L, poly([[16.5, 9.5], [21.5, 14.5]]), poly([[21.5, 9.5], [16.5, 14.5]])],
   },
   {
     slug: "filter-by-label", category: "interface", subcategory: "action",
-    name: "Filter by label", description: "A funnel beside a label — narrow the list to one tag",
+    name: "Filter by label", description: "A funnel beside a label — narrow the list down to items with one tag",
     tags: ["filter", "label", "tag"], family: "funnel",
     aliases: [], keywords: ["filter by tag", "filter by label", "tag filter"],
     shapes: [FUNNEL_L, poly([[15, 13], [20, 13], [22, 15], [20, 17], [15, 17]], true)],
@@ -310,7 +310,7 @@ export const BATCH_73: Icon[] = [
   },
   {
     slug: "tag-search", category: "interface", subcategory: "action",
-    name: "Tag search", description: "A label beside a magnifying glass — search by tag",
+    name: "Tag search", description: "A label beside a magnifying glass — search for items by their tag",
     tags: ["tag", "search", "label"], family: "tag",
     aliases: [], keywords: ["tag search", "search by label", "find tag"],
     shapes: [poly([[3, 6], [8, 6], [12, 10], [8, 14], [3, 14]], true), disc(18.5, 10, 3.5), poly([[16, 12.5], [14, 14.5]])],
@@ -327,7 +327,7 @@ export const BATCH_73: Icon[] = [
   },
   {
     slug: "run-history", category: "devtools", subcategory: "testing",
-    name: "Run history", description: "A play button beside a list — every run so far",
+    name: "Run history", description: "A play button beside a list — every run so far, most recent first",
     tags: ["run", "history", "list"], family: "object",
     aliases: [], keywords: ["run history", "past runs", "job history"],
     shapes: [PLAY_L, ...ROWS_R(14)],
@@ -386,21 +386,21 @@ export const BATCH_73: Icon[] = [
   },
   {
     slug: "login-page", category: "interface", subcategory: "layout",
-    name: "Login page", description: "A window with a key inside — the page where you sign in",
+    name: "Login page", description: "A window with a key inside — the sign-in page where you enter your credentials",
     tags: ["login", "sign-in", "page"], family: "window",
     aliases: [], keywords: ["login page", "sign in", "auth screen"],
     shapes: [rect(2, 2, 20, 20, 2), row(6, 2, 22), disc(12, 12, 3), col(12, 15, 19)],
   },
   {
     slug: "page-error", category: "interface", subcategory: "layout",
-    name: "Page error", description: "A window with an X inside — a page that failed to load",
+    name: "Page error", description: "A window with an X inside — a page that failed to load or returned an error",
     tags: ["error", "page", "failed"], family: "window",
     aliases: [], keywords: ["page error", "failed to load", "error screen"],
     shapes: [rect(3, 3, 18, 18, 2), row(8, 3, 21), poly([[9.5, 11.5], [14.5, 16.5]]), poly([[14.5, 11.5], [9.5, 16.5]])],
   },
   {
     slug: "protected-page", category: "interface", subcategory: "layout",
-    name: "Protected page", description: "A window with a shield inside — a page behind protection",
+    name: "Protected page", description: "A window with a shield inside — a page behind protection that needs permission",
     tags: ["protected", "page", "shield"], family: "window",
     aliases: [], keywords: ["protected page", "guarded route", "secure page"],
     shapes: [rect(3, 2.5, 18, 19, 2), row(7, 3, 21), poly([[8, 10], [16, 10], [16, 14], [12, 18], [8, 14]], true)],

@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "storage",
   "name": "Restore",
-  "description": "Put the copy back",
+  "description": "Restore — put the backup copy back and recover what was lost",
   "tags": [
     "recover",
     "revert",

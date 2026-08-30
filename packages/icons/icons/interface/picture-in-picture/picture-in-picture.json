@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Picture in picture",
-  "description": "The small window that follows you",
+  "description": "Picture in picture — the small video window that follows you around the screen",
   "tags": [
     "pip",
     "overlay",

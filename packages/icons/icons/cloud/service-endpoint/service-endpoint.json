@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "Service endpoint",
-  "description": "The socket in the private wall",
+  "description": "A service endpoint — the socket in the private wall a service is reached through",
   "tags": [
     "plug",
     "socket",

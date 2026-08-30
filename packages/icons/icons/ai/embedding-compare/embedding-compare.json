@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Embedding compare",
-  "description": "How close two meanings sit",
+  "description": "Embedding compare — how close two meanings sit, the cosine between a pair of vectors",
   "tags": [
     "similarity",
     "cosine",

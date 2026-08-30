@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "vector",
   "name": "Embed batch",
-  "description": "Many texts through the model at once",
+  "description": "Embed batch — many texts through the embedding model at once for throughput",
   "tags": [
     "bulk",
     "vectors",

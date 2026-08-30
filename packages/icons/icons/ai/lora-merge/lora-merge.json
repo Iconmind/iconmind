@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "LoRA merge",
-  "description": "The adapter folds back into the weights",
+  "description": "LoRA merge — the adapter folded back into the base weights and baked in",
   "tags": [
     "merge",
     "fold",

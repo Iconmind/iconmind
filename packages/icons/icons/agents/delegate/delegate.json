@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "multi-agent",
   "name": "Delegate",
-  "description": "Handed down, not over",
+  "description": "Delegate — hand work down to a helper agent, not over to a peer",
   "tags": [
     "assign",
     "down",

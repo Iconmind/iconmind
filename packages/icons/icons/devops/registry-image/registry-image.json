@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "container",
   "name": "Image registry",
-  "description": "Where the built images sit",
+  "description": "An image registry — the shelf where built container images are stored",
   "tags": [
     "shelf",
     "images",

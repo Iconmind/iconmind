@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "integration",
   "name": "Claim check",
-  "description": "Leave the parcel; keep the stub",
+  "description": "A claim check — leave the big parcel in storage and pass along the stub",
   "tags": [
     "ticket",
     "store",

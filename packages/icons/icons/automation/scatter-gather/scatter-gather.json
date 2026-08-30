@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "Scatter-gather",
-  "description": "Fan out, then everyone reports back",
+  "description": "Scatter-gather — fan the work out in parallel, then everyone reports back and the results merge",
   "tags": [
     "fanout",
     "merge",

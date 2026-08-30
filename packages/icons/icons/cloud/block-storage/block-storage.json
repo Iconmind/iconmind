@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "storage",
   "name": "Block storage",
-  "description": "A disk, attached to one machine",
+  "description": "Block storage — a disk volume attached to one machine like a local drive",
   "tags": [
     "disk",
     "volume",

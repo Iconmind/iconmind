@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "evaluation",
   "name": "Reward model",
-  "description": "The model that scores the other model",
+  "description": "A reward model — the model that scores another model's answers as a judge",
   "tags": [
     "score",
     "value",

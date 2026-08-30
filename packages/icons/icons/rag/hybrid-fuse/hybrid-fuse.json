@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "retrieval",
   "name": "Hybrid fuse",
-  "description": "Keyword and semantic, one ranked list",
+  "description": "Hybrid fuse — keyword and semantic results merged into one ranked list",
   "tags": [
     "merge",
     "bm25",

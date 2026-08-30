@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Anomaly",
-  "description": "One reading that does not belong",
+  "description": "An anomaly — one reading that does not belong, an outlier or a spike in the data",
   "tags": [
     "outlier",
     "spike",

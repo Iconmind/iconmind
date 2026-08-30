@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "prompt",
   "name": "Instruction",
-  "description": "What you told it to do",
+  "description": "An instruction — what you told the model to do, a directive in the prompt",
   "tags": [
     "directive",
     "order",

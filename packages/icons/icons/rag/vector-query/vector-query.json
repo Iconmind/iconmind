@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "vector",
   "name": "Vector query",
-  "description": "Asking the index what is nearby",
+  "description": "A vector query — asking the index what is nearest to this embedding",
   "tags": [
     "nearest",
     "search",

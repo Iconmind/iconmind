@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "incident",
   "name": "Fault injection",
-  "description": "Break it yourself, before the world does",
+  "description": "Fault injection — break it yourself before the world does, a chaos test",
   "tags": [
     "chaos",
     "needle",

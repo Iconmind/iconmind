@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "experiment",
   "name": "Confidence interval",
-  "description": "The truth is somewhere on this line",
+  "description": "A confidence interval — the truth is somewhere on this line, the range of the estimate",
   "tags": [
     "range",
     "error",

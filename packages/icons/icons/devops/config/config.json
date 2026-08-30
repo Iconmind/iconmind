@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "Config",
-  "description": "The settings, as a file",
+  "description": "Config — the settings of a system written down as a file, YAML, JSON or environment",
   "tags": [
     "settings",
     "yaml",

@@ -20,7 +20,7 @@ export const BATCH_03: Icon[] = [
 
   {
     slug: "chevron-right", category: "interface", subcategory: "arrow",
-    name: "Chevron right", description: "Go forward, or open what is next",
+    name: "Chevron right", description: "A right-pointing chevron — go forward, move to the next item or expand what comes next",
     tags: ["next", "forward", "expand"], family: "chevron",
     aliases: ["next"], keywords: ["arrow right", "caret", "disclosure", "more"],
     // Two runs at the set's own angle, meeting. Every chevron in the set is this one turned,
@@ -30,7 +30,7 @@ export const BATCH_03: Icon[] = [
 
   {
     slug: "chevron-down", category: "interface", subcategory: "arrow",
-    name: "Chevron down", description: "Open what is below, or drop it down",
+    name: "Chevron down", description: "A down-pointing chevron — open what is below, expand a section or drop a menu down",
     tags: ["expand", "dropdown", "below"], family: "chevron",
     aliases: ["dropdown"], keywords: ["arrow down", "caret", "collapse", "select"],
     shapes: [poly([[5, 9], [12, 16], [19, 9]])],
@@ -38,7 +38,7 @@ export const BATCH_03: Icon[] = [
 
   {
     slug: "close", category: "interface", subcategory: "action",
-    name: "Close", description: "Dismiss it",
+    name: "Close", description: "Close — an X that dismisses a dialog, cancels an action or removes a chip",
     tags: ["dismiss", "cancel", "x"], family: "mark",
     aliases: ["cancel"], keywords: ["x", "dismiss", "exit", "remove", "clear"],
     // Two runs, crossing once. Drawn as one path with two subpaths it would be a single
@@ -49,7 +49,7 @@ export const BATCH_03: Icon[] = [
 
   {
     slug: "plus", category: "interface", subcategory: "action",
-    name: "Plus", description: "Add one",
+    name: "Plus", description: "Plus — add one, create something new or increase a value by one",
     tags: ["add", "new", "create"], family: "mark",
     aliases: ["add"], keywords: ["new", "create", "increase", "insert"],
     shapes: [col(12, 4, 20), row(12, 4, 20)],
@@ -57,7 +57,7 @@ export const BATCH_03: Icon[] = [
 
   {
     slug: "minus", category: "interface", subcategory: "action",
-    name: "Minus", description: "Take one away",
+    name: "Minus", description: "Minus — take one away, remove an item or decrease a value by one",
     tags: ["remove", "subtract", "less"], family: "mark",
     aliases: ["remove"], keywords: ["subtract", "delete", "decrease", "collapse"],
     shapes: [row(12, 4, 20)],
@@ -65,7 +65,7 @@ export const BATCH_03: Icon[] = [
 
   {
     slug: "warning", category: "interface", subcategory: "state",
-    name: "Warning", description: "Something needs looking at",
+    name: "Warning", description: "A warning triangle — something needs a look before you continue, a caution or an alert",
     tags: ["alert", "caution", "attention"], family: "orbit",
     aliases: [], keywords: ["caution", "attention", "error", "exclamation", "alert"],
     // A ring, not a triangle. Every side of this set's shapes is at 0, 45 or 90 degrees, and
@@ -77,7 +77,7 @@ export const BATCH_03: Icon[] = [
 
   {
     slug: "loading", category: "interface", subcategory: "state",
-    name: "Loading", description: "Working on it",
+    name: "Loading", description: "Loading — a spinner that shows the app is working on it and the result is on its way",
     tags: ["spinner", "progress", "wait"], family: "orbit",
     aliases: ["spinner", "loader"], keywords: ["progress", "busy", "wait", "pending"],
     // Three quarters of a circle, open at the top left. `ring()`'s gap is small and centred
@@ -88,7 +88,7 @@ export const BATCH_03: Icon[] = [
 
   {
     slug: "settings", category: "interface", subcategory: "action",
-    name: "Settings", description: "Change how it behaves",
+    name: "Settings", description: "Settings — the gear that opens preferences, options and controls for how something behaves",
     tags: ["preferences", "controls", "options"], family: "rails",
     aliases: ["preferences"], keywords: ["options", "config", "gear", "controls"],
     // Rails across, where `parameters` runs them down. A gear is the expected drawing and
@@ -101,7 +101,7 @@ export const BATCH_03: Icon[] = [
 
   {
     slug: "code", category: "devtools", subcategory: "code",
-    name: "Code", description: "Source, as written",
+    name: "Code", description: "Code — source written in a programming language, shown between angle brackets",
     tags: ["source", "brackets", "syntax"], family: "chevron",
     aliases: ["source"], keywords: ["brackets", "syntax", "programming", "snippet"],
     // Two chevrons back to back — `chevron-right` and its mirror, at the size where the gap
@@ -111,7 +111,7 @@ export const BATCH_03: Icon[] = [
 
   {
     slug: "branch-git", category: "devtools", subcategory: "version-control",
-    name: "Branch", description: "A line of work split off from another",
+    name: "Branch", description: "A git branch — a line of work split off from another so changes can be made in isolation",
     tags: ["git", "fork", "version"], family: "chain",
     aliases: ["branch"], keywords: ["git", "fork", "merge", "commit", "version control"],
     // A trunk with three nodes: where it splits, where the split goes, where it carries on.
@@ -124,7 +124,7 @@ export const BATCH_03: Icon[] = [
 
   {
     slug: "package", category: "devtools", subcategory: "package",
-    name: "Package", description: "Something built, wrapped and versioned",
+    name: "Package", description: "A package — a library or module that is built, wrapped and versioned for others to install",
     tags: ["module", "library", "dependency"], family: "window",
     aliases: ["module"], keywords: ["npm", "dependency", "library", "bundle", "box"],
     // A box with a ribbon: one seam across, one down into the break. With the seam alone
@@ -135,7 +135,7 @@ export const BATCH_03: Icon[] = [
 
   {
     slug: "debug", category: "devtools", subcategory: "debug",
-    name: "Debug", description: "Find out what it is actually doing",
+    name: "Debug", description: "Debug — inspect what the code is actually doing with breakpoints, logs and a bug to chase",
     tags: ["bug", "inspect", "breakpoint"], family: "figure",
     aliases: ["bug"], keywords: ["breakpoint", "step", "inspect", "troubleshoot"],
     accepted: {
@@ -156,7 +156,7 @@ export const BATCH_03: Icon[] = [
 
   {
     slug: "trigger", category: "automation", subcategory: "trigger",
-    name: "Trigger", description: "What sets the thing running",
+    name: "Trigger", description: "A trigger — the event that sets an automation, a workflow or an agent running",
     tags: ["event", "fire", "bolt"], family: "mark",
     aliases: ["event"], keywords: ["webhook", "fire", "lightning", "on-event", "hook"],
     // A bolt on the set's angles: down, across, down. Real lightning is drawn at whatever
@@ -166,7 +166,7 @@ export const BATCH_03: Icon[] = [
 
   {
     slug: "workflow", category: "automation", subcategory: "workflow",
-    name: "Workflow", description: "Steps that run in order, without anyone watching",
+    name: "Workflow", description: "A workflow — steps that run in order automatically, without anyone watching them",
     tags: ["flow", "steps", "sequence"], family: "chain",
     aliases: ["flow", "orchestration"], keywords: ["automation", "dag", "orchestration", "unattended"],
     // Two stages offset, and the path between them turning a corner. Side by side with a
@@ -181,7 +181,7 @@ export const BATCH_03: Icon[] = [
 
   {
     slug: "action", category: "automation", subcategory: "action",
-    name: "Action", description: "The step that actually does something",
+    name: "Action", description: "An action — the step in a workflow or an agent loop that actually does something",
     tags: ["run", "execute", "play"], family: "chevron",
     aliases: ["run"], keywords: ["execute", "play", "invoke", "step"],
     // The solid form of `chevron-right`. Open, it points the way; closed, it is the thing
@@ -193,7 +193,7 @@ export const BATCH_03: Icon[] = [
 
   {
     slug: "chart-bar", category: "analytics", subcategory: "chart",
-    name: "Bar chart", description: "Compare quantities side by side",
+    name: "Bar chart", description: "A bar chart — compare quantities side by side across categories or time periods",
     tags: ["bars", "compare", "graph"], family: "axes",
     aliases: ["bars", "chart"], keywords: ["histogram", "graph", "compare", "column chart"],
     // Axes first. Bars without them float, and floating bars at three different heights are
@@ -206,7 +206,7 @@ export const BATCH_03: Icon[] = [
 
   {
     slug: "chart-line", category: "analytics", subcategory: "chart",
-    name: "Line chart", description: "How something moved over time",
+    name: "Line chart", description: "A line chart — see how a metric moved over time as a continuous series",
     tags: ["trend", "series", "graph"], family: "axes",
     aliases: ["trend"], keywords: ["time series", "graph", "plot", "sparkline"],
     // The same axes as `chart-bar`, so the two read as one pair rather than two drawings.
@@ -219,7 +219,7 @@ export const BATCH_03: Icon[] = [
 
   {
     slug: "metric", category: "analytics", subcategory: "metric",
-    name: "Metric", description: "One number, watched",
+    name: "Metric", description: "A metric — one number watched over time, a KPI or a gauge on a dashboard",
     tags: ["gauge", "measure", "kpi"], family: "gauge",
     aliases: [], keywords: ["kpi", "measure", "dial", "indicator", "score", "gauge"],
     // A dial and a needle. The needle points up and right rather than straight up, because
@@ -231,7 +231,7 @@ export const BATCH_03: Icon[] = [
 
   {
     slug: "system-prompt", category: "ai", subcategory: "prompt",
-    name: "System prompt", description: "The instruction the model always has",
+    name: "System prompt", description: "A system prompt — the standing instruction a language model always has before the conversation",
     tags: ["system", "instruction", "fixed"], family: "machine",
     keywords: ["system message", "preamble", "role", "persona"],
     // `prompt` in the machine register: the same panel with the corner cut, and no caret.
@@ -243,7 +243,7 @@ export const BATCH_03: Icon[] = [
 
   {
     slug: "benchmark", category: "ai", subcategory: "evaluation",
-    name: "Benchmark", description: "How this model scores against the others",
+    name: "Benchmark", description: "A benchmark — how a model scores against others on a shared test or leaderboard",
     tags: ["score", "compare", "leaderboard"], family: "machine",
     keywords: ["leaderboard", "mmlu", "score", "compare", "eval suite"],
     // Bars inside the machine, where `chart-bar` puts them on axes. The body is what makes

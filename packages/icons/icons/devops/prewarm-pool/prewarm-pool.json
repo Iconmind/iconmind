@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "Prewarm pool",
-  "description": "Empty seats, already warm",
+  "description": "A prewarm pool — empty seats already warm and waiting for requests",
   "tags": [
     "ready",
     "warm",

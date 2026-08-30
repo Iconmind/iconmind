@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Target leak",
-  "description": "The answer key fell into the training set",
+  "description": "Target leakage — the answer key fell into the training set and the model cheated",
   "tags": [
     "leak",
     "cheat",

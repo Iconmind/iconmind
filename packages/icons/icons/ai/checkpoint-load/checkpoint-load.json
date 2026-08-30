@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Checkpoint load",
-  "description": "Pick up exactly where it stopped",
+  "description": "Checkpoint load — pick up exactly where training stopped, restored from a save",
   "tags": [
     "flag",
     "resume",

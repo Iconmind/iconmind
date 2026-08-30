@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "version-control",
   "name": "Diff",
-  "description": "What changed, line by line",
+  "description": "A code diff — what changed, line by line, compared for review",
   "tags": [
     "compare",
     "delta",

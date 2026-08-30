@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "release",
   "name": "Release tag",
-  "description": "The name this version answers to",
+  "description": "A release tag — the semver name this version answers to in the repository",
   "tags": [
     "version",
     "label",

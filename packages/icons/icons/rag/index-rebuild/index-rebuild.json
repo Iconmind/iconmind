@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "vector",
   "name": "Index rebuild",
-  "description": "The index, being made again",
+  "description": "Index rebuild — the index made again from scratch in a batch reindex",
   "tags": [
     "reindex",
     "refresh",

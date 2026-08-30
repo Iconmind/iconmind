@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "llm-observability",
   "name": "Pairwise compare",
-  "description": "Two answers, one verdict",
+  "description": "Pairwise comparison — two answers side by side and one verdict on which is better",
   "tags": [
     "versus",
     "prefer",

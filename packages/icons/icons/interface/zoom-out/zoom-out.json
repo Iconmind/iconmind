@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Zoom out",
-  "description": "Pull back",
+  "description": "Zoom out — pull back, shrink the view and see more of it at once",
   "tags": [
     "shrink",
     "further",

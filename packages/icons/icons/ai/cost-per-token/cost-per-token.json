@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "token",
   "name": "Cost per token",
-  "description": "What each one costs you",
+  "description": "Cost per token — the unit price of each token a model reads or writes",
   "tags": [
     "rate",
     "price",

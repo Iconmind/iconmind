@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "container",
   "name": "Container",
-  "description": "An app and everything it needs, boxed",
+  "description": "A container — an app packaged with everything it needs, isolated like a Docker image",
   "tags": [
     "docker",
     "image",

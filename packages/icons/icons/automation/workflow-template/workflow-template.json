@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "Workflow template",
-  "description": "A flow with the blanks still in it",
+  "description": "A workflow template — a starter flow with the blanks still in it",
   "tags": [
     "starter",
     "pattern",

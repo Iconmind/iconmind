@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Weight prune",
-  "description": "The connection nobody will miss, cut",
+  "description": "Weight prune — the connections nobody will miss, cut to make the model sparse",
   "tags": [
     "sparse",
     "cut",

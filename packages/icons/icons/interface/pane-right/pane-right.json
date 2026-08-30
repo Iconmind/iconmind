@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Right pane",
-  "description": "Details live on the right",
+  "description": "Right pane — the details live in the sidebar on the right of the layout",
   "tags": [
     "layout",
     "sidebar",

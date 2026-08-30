@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "storage",
   "name": "Row",
-  "description": "One record, across",
+  "description": "A row — one record read across a table, every field for a single item",
   "tags": [
     "record",
     "horizontal",

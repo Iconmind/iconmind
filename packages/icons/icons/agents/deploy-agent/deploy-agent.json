@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Deploy agent",
-  "description": "Ships it, and watches it land",
+  "description": "A deploy agent — ships the release and watches it land in production",
   "tags": [
     "ship",
     "release",

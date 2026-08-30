@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "package",
   "name": "Circular dependency",
-  "description": "A needs B needs A",
+  "description": "A circular dependency — A needs B and B needs A, imports tied in a knot",
   "tags": [
     "cycle",
     "imports",

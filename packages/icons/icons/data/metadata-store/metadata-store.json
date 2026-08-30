@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "catalog",
   "name": "Metadata store",
-  "description": "What is known about the data",
+  "description": "A metadata store — what is known about the data, its schema and registry",
   "tags": [
     "about",
     "schema",

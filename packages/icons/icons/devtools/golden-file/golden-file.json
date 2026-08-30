@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Golden file",
-  "description": "The output every run is measured against",
+  "description": "A golden file — the blessed output every run is measured against",
   "tags": [
     "blessed",
     "snapshot",

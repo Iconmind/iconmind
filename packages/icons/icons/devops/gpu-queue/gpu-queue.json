@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "GPU queue",
-  "description": "Jobs, waiting for the card",
+  "description": "A GPU queue — jobs waiting their turn for a scarce card to become free",
   "tags": [
     "waiting",
     "jobs",

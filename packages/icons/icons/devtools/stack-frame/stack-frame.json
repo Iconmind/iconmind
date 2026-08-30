@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "debug",
   "name": "Stack frame",
-  "description": "The one call you are standing in",
+  "description": "A stack frame — the one call you are standing in, with its own scope",
   "tags": [
     "frame",
     "scope",

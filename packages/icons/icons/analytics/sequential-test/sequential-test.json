@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "experiment",
   "name": "Sequential test",
-  "description": "Peek early, stop honestly",
+  "description": "A sequential test — peek early at the results and stop honestly at the checkpoints",
   "tags": [
     "stages",
     "stop",

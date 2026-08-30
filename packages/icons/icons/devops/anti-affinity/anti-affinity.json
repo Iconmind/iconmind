@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "orchestration",
   "name": "Anti-affinity",
-  "description": "Never these two on the same box",
+  "description": "Anti-affinity — never these two on the same box, kept apart for resilience",
   "tags": [
     "apart",
     "repel",

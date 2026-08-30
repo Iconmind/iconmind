@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "client",
   "name": "MCP batch",
-  "description": "Several requests in one envelope",
+  "description": "An MCP batch — several requests bundled in one envelope and sent together",
   "tags": [
     "batch",
     "bundle",

@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Access denied",
-  "description": "You may not",
+  "description": "Access denied — you may not come through, permission refused",
   "tags": [
     "block",
     "refuse",

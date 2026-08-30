@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "grounding",
   "name": "Answer synthesis",
-  "description": "Several sources, one answer",
+  "description": "Answer synthesis — several retrieved sources composed into one written answer",
   "tags": [
     "combine",
     "compose",

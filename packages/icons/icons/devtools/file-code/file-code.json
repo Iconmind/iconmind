@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "code",
   "name": "Code file",
-  "description": "Source, in a file",
+  "description": "A code file — source code kept in a file, a script or a module",
   "tags": [
     "source",
     "script",

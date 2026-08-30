@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "action",
   "name": "Email action",
-  "description": "The step that sends a message",
+  "description": "Email action — the workflow step that sends a message or a notification",
   "tags": [
     "send",
     "notify",

@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Task merge",
-  "description": "Two halves, one deliverable",
+  "description": "Task merge — two halves joined into one deliverable at the end",
   "tags": [
     "combine",
     "join",

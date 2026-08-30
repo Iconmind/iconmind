@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "package",
   "name": "Extension",
-  "description": "Something bolted on to something else",
+  "description": "An extension — a plugin or add-on bolted on to something else to give it more",
   "tags": [
     "plugin",
     "addon",

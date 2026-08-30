@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "package",
   "name": "Install",
-  "description": "Put it on the machine",
+  "description": "Install — put a package or an app on the machine and set it up",
   "tags": [
     "add",
     "setup",

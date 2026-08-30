@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "communication",
   "name": "Composer",
-  "description": "Where the message is written",
+  "description": "The composer — the input box where a message is written before it is sent",
   "tags": [
     "input",
     "write",

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "KV evict",
-  "description": "The cache lets the oldest one go",
+  "description": "KV evict — the attention cache lets its oldest entries go to make room",
   "tags": [
     "cache",
     "drop",

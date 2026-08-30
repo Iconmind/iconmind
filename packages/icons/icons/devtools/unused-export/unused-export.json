@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "code",
   "name": "Unused export",
-  "description": "Offered to everyone; taken by no one",
+  "description": "An unused export — offered to everyone and imported by no one, dead code",
   "tags": [
     "dead",
     "export",

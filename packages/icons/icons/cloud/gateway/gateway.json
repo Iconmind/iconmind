@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "Gateway",
-  "description": "The one way in",
+  "description": "A gateway — the one way in, the entry point through which requests pass",
   "tags": [
     "entry",
     "door",

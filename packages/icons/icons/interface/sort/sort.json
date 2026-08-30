@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Sort",
-  "description": "Put them in order",
+  "description": "Sort — put items in order, arrange or rank them by a chosen key",
   "tags": [
     "order",
     "arrange",

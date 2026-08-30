@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Daily active",
-  "description": "Who actually showed up today",
+  "description": "Daily active users — who actually showed up today, on the calendar",
   "tags": [
     "dau",
     "calendar",

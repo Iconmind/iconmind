@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "threat",
   "name": "Data exfiltration",
-  "description": "It left, and it should not have",
+  "description": "Data exfiltration — data that left the system when it should not have, a leak",
   "tags": [
     "leak",
     "stolen",

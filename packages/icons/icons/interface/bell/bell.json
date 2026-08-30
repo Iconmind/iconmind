@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "communication",
   "name": "Bell",
-  "description": "You will be told",
+  "description": "A bell — notifications, alerts and the reminders that ring to get your attention",
   "tags": [
     "notification",
     "alert",

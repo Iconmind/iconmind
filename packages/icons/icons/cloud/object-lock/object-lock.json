@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "storage",
   "name": "Object lock",
-  "description": "Written once, and nobody can unwrite it",
+  "description": "Object lock — written once and nobody can unwrite it, immutable WORM retention",
   "tags": [
     "immutable",
     "worm",

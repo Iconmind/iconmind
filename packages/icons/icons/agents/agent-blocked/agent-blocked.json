@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "lifecycle",
   "name": "Agent blocked",
-  "description": "It cannot go on",
+  "description": "Agent blocked — the agent cannot go on, stuck waiting on something it does not have",
   "tags": [
     "stuck",
     "waiting",

@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "storage",
   "name": "Backup",
-  "description": "A copy kept somewhere else",
+  "description": "A backup — a copy of the data kept somewhere else in case the original is lost",
   "tags": [
     "copy",
     "snapshot",

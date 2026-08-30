@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "schedule",
   "name": "Calendar run",
-  "description": "The day it will happen",
+  "description": "Calendar run — the day a scheduled job is planned to happen on the calendar",
   "tags": [
     "scheduled",
     "planned",

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Gradient flow",
-  "description": "The correction, travelling back down",
+  "description": "Gradient flow — the correction travelling back down through the layers in backprop",
   "tags": [
     "backprop",
     "layers",

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "evaluation",
   "name": "Perplexity",
-  "description": "How surprised the model is",
+  "description": "Perplexity — how surprised a model is by the text, a measure of uncertainty",
   "tags": [
     "surprise",
     "uncertain",

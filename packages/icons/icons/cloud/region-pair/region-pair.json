@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "Region pair",
-  "description": "Two homes for the same service",
+  "description": "A region pair — two homes for the same service for geographic redundancy",
   "tags": [
     "geo",
     "redundancy",

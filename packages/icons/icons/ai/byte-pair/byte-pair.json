@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Byte pair",
-  "description": "Two pieces that keep appearing together",
+  "description": "Byte-pair encoding — two pieces that keep appearing together are merged into one token",
   "tags": [
     "bpe",
     "merge",

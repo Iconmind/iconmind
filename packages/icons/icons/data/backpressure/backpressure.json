@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "streaming",
   "name": "Backpressure",
-  "description": "The far end saying slow down",
+  "description": "Backpressure — the far end saying slow down, a push-back when it is full",
   "tags": [
     "throttle",
     "push-back",

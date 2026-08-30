@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "communication",
   "name": "At mention",
-  "description": "Say a name and they hear it",
+  "description": "An at-mention — say a name with @ and that person gets notified",
   "tags": [
     "mention",
     "notify",

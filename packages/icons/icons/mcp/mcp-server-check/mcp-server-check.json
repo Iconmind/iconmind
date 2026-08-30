@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "server",
   "name": "MCP server check",
-  "description": "The server answered and is healthy",
+  "description": "MCP server check — the server answered, is connected and reports healthy",
   "tags": [
     "healthy",
     "connected",

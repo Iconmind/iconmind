@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "integration",
   "name": "Exactly once",
-  "description": "Not zero, not twice",
+  "description": "Exactly once — not zero times, not twice, delivery made certain",
   "tags": [
     "delivery",
     "once",

@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Key list",
-  "description": "A key beside a list — the credentials issued to an account",
+  "description": "A key beside a list — the credentials issued to an account, one per row",
   "tags": [
     "keys",
     "list",

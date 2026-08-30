@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "memory",
   "name": "Memory pin",
-  "description": "This one is not allowed to fade",
+  "description": "Memory pin — this memory is not allowed to fade, pinned to be kept",
   "tags": [
     "keep",
     "pin",

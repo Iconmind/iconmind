@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "Cache hit",
-  "description": "Found it without asking anyone",
+  "description": "A cache hit — found it without asking anyone, served fast from the cache",
   "tags": [
     "fast",
     "found",

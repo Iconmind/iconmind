@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "observability",
   "name": "Trace",
-  "description": "One request, through every service it touched",
+  "description": "A trace — one request followed through every service it touched, span by span",
   "tags": [
     "spans",
     "waterfall",

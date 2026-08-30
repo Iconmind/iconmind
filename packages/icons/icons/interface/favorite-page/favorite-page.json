@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Favourite page",
-  "description": "A window with a heart inside — a page marked as a favourite",
+  "description": "A window with a heart inside — a page marked as a favourite for quick return",
   "tags": [
     "favourite",
     "page",

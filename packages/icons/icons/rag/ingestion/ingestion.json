@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "ingestion",
   "name": "Ingestion",
-  "description": "Getting the material in",
+  "description": "Ingestion — getting the source material loaded into a pipeline or a knowledge base",
   "tags": [
     "load",
     "intake",

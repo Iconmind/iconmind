@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "file",
   "name": "Folder check",
-  "description": "This folder is in order",
+  "description": "Folder check — this folder is in order, synced, verified or done",
   "tags": [
     "synced",
     "verified",

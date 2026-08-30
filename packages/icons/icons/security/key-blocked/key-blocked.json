@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Key blocked",
-  "description": "A key beside a stop square — a credential blocked from use",
+  "description": "A key beside a stop square — a credential blocked from any further use",
   "tags": [
     "key",
     "blocked",

@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Assertion",
-  "description": "The claim a test makes",
+  "description": "An assertion — the claim a test makes and expects to hold on every run",
   "tags": [
     "expect",
     "holds",

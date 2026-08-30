@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "schedule",
   "name": "Cron expression",
-  "description": "Five stars that mean 'every Monday'",
+  "description": "A cron expression — five stars that mean every Monday, a schedule as a string",
   "tags": [
     "schedule",
     "string",

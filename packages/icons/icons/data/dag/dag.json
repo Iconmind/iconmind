@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "orchestration",
   "name": "DAG",
-  "description": "Tasks with dependencies, and no way back",
+  "description": "A DAG — tasks connected by dependencies in a directed graph with no way back",
   "tags": [
     "graph",
     "dependencies",

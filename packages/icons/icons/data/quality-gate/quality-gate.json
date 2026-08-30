@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Quality gate",
-  "description": "Data does not pass until it checks out",
+  "description": "A quality gate — data does not pass into the next stage until it checks out",
   "tags": [
     "gate",
     "checks",

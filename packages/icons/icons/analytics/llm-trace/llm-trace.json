@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "llm-observability",
   "name": "LLM trace",
-  "description": "Every step the call took, laid out",
+  "description": "An LLM trace — every step a model call took, laid out as spans to inspect",
   "tags": [
     "spans",
     "waterfall",

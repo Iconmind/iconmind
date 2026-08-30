@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Minimize",
-  "description": "Give the space back",
+  "description": "Minimize — shrink a window or panel and give the space back to what is behind it",
   "tags": [
     "shrink",
     "restore",

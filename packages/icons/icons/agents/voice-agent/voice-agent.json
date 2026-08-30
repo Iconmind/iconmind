@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "communication",
   "name": "Voice agent",
-  "description": "An agent you talk to out loud",
+  "description": "A voice agent — an agent you talk to out loud, speech in and speech out",
   "tags": [
     "speech",
     "audio",

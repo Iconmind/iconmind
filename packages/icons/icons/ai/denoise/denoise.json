@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "multimodal",
   "name": "Denoise",
-  "description": "Take the noise out",
+  "description": "Denoise — take the noise out of a signal, smoothing and cleaning it",
   "tags": [
     "clean",
     "smooth",

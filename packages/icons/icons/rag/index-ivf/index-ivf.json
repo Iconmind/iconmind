@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "vector",
   "name": "IVF index",
-  "description": "Ask the nearest neighbourhood, not the world",
+  "description": "An IVF index — ask the nearest cluster rather than the whole world, approximate and fast",
   "tags": [
     "clusters",
     "cells",

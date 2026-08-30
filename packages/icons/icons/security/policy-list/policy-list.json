@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Policy list",
-  "description": "A shield beside a list — the policies that apply",
+  "description": "A shield beside a list — the policies and rules that apply to this resource",
   "tags": [
     "policy",
     "rules",

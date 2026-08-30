@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "Terraform",
-  "description": "The world, declared in files",
+  "description": "Terraform — the infrastructure declared in files, planned and applied as code",
   "tags": [
     "iac",
     "declare",

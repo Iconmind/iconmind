@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Saved key",
-  "description": "A key beside a bookmark — a credential kept for reuse",
+  "description": "A key beside a bookmark — a credential kept for reuse in future runs",
   "tags": [
     "key",
     "saved",

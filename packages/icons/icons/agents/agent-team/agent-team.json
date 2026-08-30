@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "multi-agent",
   "name": "Agent team",
-  "description": "A standing group of agents",
+  "description": "An agent team — a standing group of agents that work together as a crew",
   "tags": [
     "group",
     "crew",

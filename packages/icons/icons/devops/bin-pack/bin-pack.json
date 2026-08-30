@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "Bin pack",
-  "description": "Every job in the fewest boxes",
+  "description": "Bin packing — every job placed into the fewest machines, efficient scheduling",
   "tags": [
     "placement",
     "tetris",

@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "retrieval",
   "name": "RAG pipeline",
-  "description": "Retrieve, then write with what you found",
+  "description": "A RAG pipeline — retrieve the relevant passages, then generate with what you found",
   "tags": [
     "retrieve",
     "generate",

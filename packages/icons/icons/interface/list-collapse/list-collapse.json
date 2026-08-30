@@ -1,0 +1,40 @@
+{
+  "slug": "list-collapse",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "List collapse",
+  "description": "A list beside two chevrons closing — collapse a list to its heading",
+  "tags": [
+    "list",
+    "collapse",
+    "fold"
+  ],
+  "keywords": [
+    "collapse list",
+    "fold list",
+    "hide items"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 6H14",
+      "closed": false
+    },
+    {
+      "d": "M3 11H14",
+      "closed": false
+    },
+    {
+      "d": "M3 16H14",
+      "closed": false
+    },
+    {
+      "d": "M17 7L19.5 9.5L22 7",
+      "closed": false
+    },
+    {
+      "d": "M17 17L19.5 14.5L22 17",
+      "closed": false
+    }
+  ]
+}

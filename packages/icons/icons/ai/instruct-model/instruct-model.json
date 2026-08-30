@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Instruct model",
-  "description": "Tuned to follow what you ask",
+  "description": "An instruct model — tuned to follow what you ask, aligned for chat",
   "tags": [
     "chat",
     "aligned",

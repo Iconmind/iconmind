@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "safety",
   "name": "Guardrail",
-  "description": "A limit the output is not allowed past",
+  "description": "A guardrail — a safety limit the model's output is not allowed to cross",
   "tags": [
     "limit",
     "safety",

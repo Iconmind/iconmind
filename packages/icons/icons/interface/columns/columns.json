@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Columns",
-  "description": "Side by side",
+  "description": "Columns — content laid out side by side in split panes across the page",
   "tags": [
     "split",
     "panes",

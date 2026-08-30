@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Minus",
-  "description": "Take one away",
+  "description": "Minus — take one away, remove an item or decrease a value by one",
   "tags": [
     "remove",
     "subtract",

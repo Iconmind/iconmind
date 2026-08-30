@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Left pane",
-  "description": "The narrow one does the choosing",
+  "description": "Left pane — the narrow sidebar on the left does the choosing",
   "tags": [
     "layout",
     "sidebar",

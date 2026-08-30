@@ -1,0 +1,36 @@
+{
+  "slug": "goal-location",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "Goal location",
+  "description": "A location pin beside a target — the place you are trying to reach",
+  "tags": [
+    "location",
+    "goal",
+    "target"
+  ],
+  "keywords": [
+    "goal location",
+    "target place",
+    "destination goal"
+  ],
+  "family": "pin",
+  "shapes": [
+    {
+      "d": "M4 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V17",
+      "closed": false
+    },
+    {
+      "d": "M14 13a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

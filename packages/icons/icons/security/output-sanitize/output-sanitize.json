@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Sanitise output",
-  "description": "Scrubbed before anyone sees it",
+  "description": "Sanitise output — scrub a response clean before anyone sees it",
   "tags": [
     "clean",
     "filter",

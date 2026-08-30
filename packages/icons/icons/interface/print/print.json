@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Print",
-  "description": "Put it on paper",
+  "description": "Print — put it on paper, send a document to a printer for a hard copy",
   "tags": [
     "paper",
     "output",

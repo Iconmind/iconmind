@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "chart",
   "name": "Heatmap",
-  "description": "Where the values are dense",
+  "description": "A heatmap — a grid of cells shaded by how dense or large the values are",
   "tags": [
     "grid",
     "density",

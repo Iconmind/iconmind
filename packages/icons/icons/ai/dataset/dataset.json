@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Dataset",
-  "description": "The collection a model is trained on",
+  "description": "A dataset — the collection of examples, rows or documents a model is trained and evaluated on",
   "tags": [
     "data",
     "table",

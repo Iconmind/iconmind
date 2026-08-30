@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "serverless",
   "name": "Cloud function",
-  "description": "One piece of code, run on demand",
+  "description": "A cloud function — one small piece of code run on demand, a lambda or a handler",
   "tags": [
     "lambda",
     "handler",

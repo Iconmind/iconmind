@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Gradient",
-  "description": "Which way is downhill",
+  "description": "A gradient — the slope that says which way is downhill for the optimiser",
   "tags": [
     "slope",
     "descent",

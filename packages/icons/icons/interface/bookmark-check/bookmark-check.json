@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Bookmark check",
-  "description": "Already saved",
+  "description": "Bookmark check — already saved, kept safely in your list of bookmarks",
   "tags": [
     "saved",
     "kept",

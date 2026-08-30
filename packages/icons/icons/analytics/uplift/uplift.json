@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "experiment",
   "name": "Uplift",
-  "description": "The difference the change actually made",
+  "description": "Uplift — the difference the change actually made, measured against control",
   "tags": [
     "delta",
     "gain",

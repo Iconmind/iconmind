@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "package",
   "name": "Code split",
-  "description": "One bundle becomes the pieces you load",
+  "description": "Code split — one bundle broken into chunks you load lazily as needed",
   "tags": [
     "chunks",
     "lazy",

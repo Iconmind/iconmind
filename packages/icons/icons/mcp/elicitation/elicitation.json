@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "prompt",
   "name": "Elicitation",
-  "description": "The server stops to ask the user something",
+  "description": "Elicitation — the server stops mid-flow to ask the user for input",
   "tags": [
     "ask",
     "mid-flow",

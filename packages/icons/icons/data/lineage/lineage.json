@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "catalog",
   "name": "Lineage",
-  "description": "Where this came from, and what came from it",
+  "description": "Lineage — where this data came from, and what was derived from it",
   "tags": [
     "provenance",
     "upstream",

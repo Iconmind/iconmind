@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "storage",
   "name": "Blob",
-  "description": "Bytes with no promised shape",
+  "description": "A blob — bytes with no promised shape, opaque binary data stored as is",
   "tags": [
     "binary",
     "opaque",

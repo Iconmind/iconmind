@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "condition",
   "name": "Switch",
-  "description": "Many ways out, not two",
+  "description": "A switch — many ways out rather than two, routing to a branch by case",
   "tags": [
     "branch",
     "cases",

@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Data augment",
-  "description": "More rows, made from the rows you have",
+  "description": "Data augmentation — more rows derived from the rows you already have",
   "tags": [
     "expand",
     "more",

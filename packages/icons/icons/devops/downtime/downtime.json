@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "incident",
   "name": "Downtime",
-  "description": "It is not answering",
+  "description": "Downtime — the service is not answering, an outage while it is offline",
   "tags": [
     "outage",
     "offline",

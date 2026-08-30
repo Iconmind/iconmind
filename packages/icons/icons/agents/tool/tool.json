@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "tool-use",
   "name": "Tool",
-  "description": "Something the agent can pick up",
+  "description": "A tool — something an agent can pick up and use, a capability",
   "tags": [
     "capability",
     "use",

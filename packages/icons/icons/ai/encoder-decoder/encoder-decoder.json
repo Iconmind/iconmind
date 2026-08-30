@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Encoder-decoder",
-  "description": "One side reads; the other writes",
+  "description": "Encoder-decoder — one side reads the input and the other writes the output, a seq2seq pair",
   "tags": [
     "seq2seq",
     "two",

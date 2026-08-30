@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "VRAM",
-  "description": "The memory the model has to fit in",
+  "description": "VRAM — the memory on the graphics card that a model has to fit in to run",
   "tags": [
     "memory",
     "banks",

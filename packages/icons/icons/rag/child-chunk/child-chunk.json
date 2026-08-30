@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "chunking",
   "name": "Child chunk",
-  "description": "The small piece that gets retrieved",
+  "description": "A child chunk — the small piece that actually gets retrieved and matched",
   "tags": [
     "piece",
     "retrieved",

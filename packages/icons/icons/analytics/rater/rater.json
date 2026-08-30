@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "llm-observability",
   "name": "Rater",
-  "description": "A person, reading carefully, scoring",
+  "description": "A rater — a person reading carefully and scoring the answers",
   "tags": [
     "human",
     "review",

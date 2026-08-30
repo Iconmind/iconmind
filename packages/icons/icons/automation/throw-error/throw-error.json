@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "Throw",
-  "description": "Out of this block, somebody else's problem",
+  "description": "Throw — eject the error out of this block and make it somebody else's problem",
   "tags": [
     "raise",
     "eject",

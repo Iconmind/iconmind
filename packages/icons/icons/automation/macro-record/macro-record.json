@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "action",
   "name": "Record macro",
-  "description": "Do it once; it watched",
+  "description": "Record macro — do it once while the tool watches, then replay it",
   "tags": [
     "record",
     "repeat",

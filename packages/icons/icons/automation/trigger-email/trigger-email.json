@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "trigger",
   "name": "Email trigger",
-  "description": "A mail arrives, the workflow starts",
+  "description": "An email trigger — a mail arrives in the inbox and the workflow starts",
   "tags": [
     "inbound",
     "mail",

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Low temperature",
-  "description": "Say the likeliest thing, always",
+  "description": "Low temperature — say the likeliest thing every time, precise and safe sampling",
   "tags": [
     "precise",
     "cold",

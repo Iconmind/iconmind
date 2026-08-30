@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Code agent",
-  "description": "Writes the code, then reads it back",
+  "description": "A code agent — writes the code, then reads it back to check it",
   "tags": [
     "code",
     "write",

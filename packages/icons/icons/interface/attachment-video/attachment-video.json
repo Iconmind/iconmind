@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "file",
   "name": "Video attachment",
-  "description": "A clip sent with the message",
+  "description": "A video attachment — a clip sent along with the message as a file",
   "tags": [
     "clip",
     "upload",

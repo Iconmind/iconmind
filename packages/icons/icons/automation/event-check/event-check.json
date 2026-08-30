@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "condition",
   "name": "Event check",
-  "description": "A lightning bolt beside a check — an event that was handled",
+  "description": "A lightning bolt beside a check — an event that was handled and acknowledged",
   "tags": [
     "event",
     "handled",

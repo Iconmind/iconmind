@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "vector",
   "name": "Embed cache",
-  "description": "Computed once, kept for next time",
+  "description": "An embed cache — vectors computed once and kept for the next time the same text appears",
   "tags": [
     "store",
     "reuse",

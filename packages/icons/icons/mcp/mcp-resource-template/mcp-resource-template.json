@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "resource",
   "name": "MCP resource template",
-  "description": "A URI with a hole in it",
+  "description": "An MCP resource template — a URI pattern with a placeholder to fill in",
   "tags": [
     "uri",
     "placeholder",

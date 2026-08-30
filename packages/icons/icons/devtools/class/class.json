@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "code",
   "name": "Class",
-  "description": "A shape other things are made from",
+  "description": "A class — the template other objects are made from, a type with fields and methods",
   "tags": [
     "type",
     "object",

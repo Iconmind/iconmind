@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "time",
   "name": "History",
-  "description": "What happened before",
+  "description": "History — what happened before, the log of recent actions and past versions",
   "tags": [
     "past",
     "recent",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "state",
   "name": "Error",
-  "description": "It failed",
+  "description": "An error — it failed, something is broken and has stopped working",
   "tags": [
     "failure",
     "broken",

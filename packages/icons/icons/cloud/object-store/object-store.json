@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "storage",
   "name": "Object store",
-  "description": "Things kept by name, not place",
+  "description": "An object store — things kept by key name in a flat bucket rather than by place",
   "tags": [
     "bucket",
     "keyed",

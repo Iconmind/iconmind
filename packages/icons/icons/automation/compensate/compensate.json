@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "Compensate",
-  "description": "The undo, travelling the road back",
+  "description": "Compensate — the undo travelling the road back through a saga",
   "tags": [
     "undo",
     "reverse",

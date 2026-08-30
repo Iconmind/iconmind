@@ -1,0 +1,32 @@
+{
+  "slug": "page-idle",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Page idle",
+  "description": "A window with a Z inside — a page nobody has visited in a while, gone quiet",
+  "tags": [
+    "idle",
+    "page",
+    "quiet"
+  ],
+  "keywords": [
+    "idle page",
+    "stale page",
+    "unvisited page"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 4.5A2 2 0 0 1 5 2.5H19A2 2 0 0 1 21 4.5V19.5A2 2 0 0 1 19 21.5H5A2 2 0 0 1 3 19.5Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M8.5 10.5L15.5 10.5L8.5 17.5L15.5 17.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "scoped-trend",
+  "category": "devtools",
+  "subcategory": "code",
+  "name": "Scoped trend",
+  "description": "A rising line held between brackets — a metric measured inside one scope",
+  "tags": [
+    "scope",
+    "trend",
+    "metric"
+  ],
+  "keywords": [
+    "scoped metric",
+    "trend within scope",
+    "block-level trend"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M8.5 15.5L11 13L13 15L15.5 12.5",
+      "closed": false
+    }
+  ]
+}

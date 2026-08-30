@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "segment",
   "name": "Churn",
-  "description": "The ones who left",
+  "description": "Churn — the customers or users who left, attrition over a period",
   "tags": [
     "loss",
     "attrition",

@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "experiment",
   "name": "A/B test",
-  "description": "Two versions, and which one wins",
+  "description": "An A/B test — two versions shown to different users, and a measure of which one wins",
   "tags": [
     "split",
     "variant",

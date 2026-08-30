@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "time",
   "name": "Deadline missed",
-  "description": "A clock with an X beside it — a deadline that passed unmet",
+  "description": "A clock with an X beside it — a deadline that passed without being met",
   "tags": [
     "deadline",
     "late",

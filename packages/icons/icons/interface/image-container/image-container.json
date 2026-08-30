@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "Image container",
-  "description": "The box a picture arrives in",
+  "description": "An image container — the frame a picture arrives in, a media placeholder",
   "tags": [
     "frame",
     "placeholder",

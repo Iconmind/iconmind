@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "VPC",
-  "description": "Your own corner of their network",
+  "description": "A VPC — your own private corner of the provider's network, walled off",
   "tags": [
     "private",
     "network",

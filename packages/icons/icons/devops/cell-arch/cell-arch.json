@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "Cell architecture",
-  "description": "Blast radius, by construction",
+  "description": "Cell architecture — the blast radius limited by construction, failures contained in cells",
   "tags": [
     "isolate",
     "cells",

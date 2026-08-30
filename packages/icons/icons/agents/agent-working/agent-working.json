@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "lifecycle",
   "name": "Agent working",
-  "description": "Busy on it now",
+  "description": "Agent working — the agent is busy on the task right now and will report back",
   "tags": [
     "busy",
     "active",

@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "streaming",
   "name": "Stream job",
-  "description": "Always running, never done",
+  "description": "A stream job — always running and never done, continuous processing of live data",
   "tags": [
     "continuous",
     "flink",

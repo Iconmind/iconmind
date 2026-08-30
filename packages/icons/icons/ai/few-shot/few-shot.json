@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "prompt",
   "name": "Few-shot",
-  "description": "Show it some examples first",
+  "description": "Few-shot prompting — show the model a few worked examples before asking your question",
   "tags": [
     "examples",
     "demonstration",

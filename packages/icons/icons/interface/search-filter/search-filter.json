@@ -1,0 +1,32 @@
+{
+  "slug": "search-filter",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Search filter",
+  "description": "A magnifying glass beside a funnel — filter the results of a search",
+  "tags": [
+    "search",
+    "filter",
+    "refine"
+  ],
+  "keywords": [
+    "search filter",
+    "filter results",
+    "faceted search"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M4 10a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 13L3 15",
+      "closed": false
+    },
+    {
+      "d": "M15 8L22 8L20 10L20 18L17 18L17 10Z",
+      "closed": true
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "ranking",
   "name": "MMR",
-  "description": "Relevant, but not all the same",
+  "description": "MMR — maximal marginal relevance, results that are relevant but not all the same",
   "tags": [
     "diversity",
     "rerank",

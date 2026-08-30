@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "ranking",
   "name": "Reranker",
-  "description": "Puts the results back in the right order",
+  "description": "A reranker — a model that puts retrieved results back in the order of true relevance",
   "tags": [
     "rank",
     "sort",

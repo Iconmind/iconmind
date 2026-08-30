@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "encryption",
   "name": "TLS",
-  "description": "The wire, with a lock on it",
+  "description": "TLS — the wire with a lock on it, encrypted transport behind HTTPS",
   "tags": [
     "https",
     "encrypted",

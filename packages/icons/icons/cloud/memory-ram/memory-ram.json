@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "compute",
   "name": "Memory",
-  "description": "How much it can hold at once",
+  "description": "Memory — the RAM modules that decide how much a machine can hold at once",
   "tags": [
     "ram",
     "module",

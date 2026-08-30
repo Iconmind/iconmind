@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "api",
   "name": "API",
-  "description": "The surface one program offers another",
+  "description": "An API — the interface one program offers another, its endpoints and its contract",
   "tags": [
     "interface",
     "endpoint",

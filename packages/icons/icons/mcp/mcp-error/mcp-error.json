@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "transport",
   "name": "MCP error",
-  "description": "The call came back wrong",
+  "description": "An MCP error — a call that came back wrong, a fault the server rejected",
   "tags": [
     "failure",
     "fault",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Settings",
-  "description": "Change how it behaves",
+  "description": "Settings — the gear that opens preferences, options and controls for how something behaves",
   "tags": [
     "preferences",
     "controls",

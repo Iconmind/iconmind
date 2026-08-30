@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "multimodal",
   "name": "Speech to text",
-  "description": "What was said, written down",
+  "description": "Speech to text — what was said, transcribed into written words",
   "tags": [
     "transcribe",
     "voice",

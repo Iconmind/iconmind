@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "planning",
   "name": "Subgoal",
-  "description": "A smaller thing on the way to the big one",
+  "description": "A subgoal — a smaller target on the way to the big one an agent is chasing",
   "tags": [
     "step",
     "milestone",

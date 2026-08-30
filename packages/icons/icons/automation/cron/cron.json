@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "schedule",
   "name": "Cron",
-  "description": "At the same time, every time",
+  "description": "Cron — a job that runs at the same time, every time, on a recurring schedule",
   "tags": [
     "schedule",
     "recurring",

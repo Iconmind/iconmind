@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "container",
   "name": "Container stopped",
-  "description": "It is not",
+  "description": "Container stopped — the container is halted and down, no longer serving",
   "tags": [
     "stopped",
     "halted",

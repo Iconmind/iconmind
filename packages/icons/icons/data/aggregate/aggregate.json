@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "transform",
   "name": "Aggregate",
-  "description": "Many rows into one number",
+  "description": "Aggregate — roll many rows up into one number, a sum, an average or a count",
   "tags": [
     "sum",
     "roll-up",

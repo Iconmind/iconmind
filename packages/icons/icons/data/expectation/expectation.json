@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Expectation",
-  "description": "The rule the data has to keep",
+  "description": "An expectation — the rule the data has to keep, a contract asserted on every load",
   "tags": [
     "assert",
     "contract",

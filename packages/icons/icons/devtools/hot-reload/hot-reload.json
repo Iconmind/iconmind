@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "package",
   "name": "Hot reload",
-  "description": "Still running while the code changes under it",
+  "description": "Hot reload — the app keeps running while the code changes underneath it",
   "tags": [
     "live",
     "refresh",

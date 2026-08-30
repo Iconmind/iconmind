@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "retrieval",
   "name": "Agentic RAG",
-  "description": "The agent decides what to look up",
+  "description": "Agentic RAG — the agent decides what to look up next in a retrieval loop",
   "tags": [
     "agent",
     "search",

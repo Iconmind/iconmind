@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Gold label",
-  "description": "The answer the graders agreed on",
+  "description": "A gold label — the answer the graders agreed on, verified ground truth",
   "tags": [
     "truth",
     "verified",

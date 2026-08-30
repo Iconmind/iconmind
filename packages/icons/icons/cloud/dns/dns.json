@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "DNS",
-  "description": "Which name points where",
+  "description": "DNS — which domain name points where, the records that resolve names to addresses",
   "tags": [
     "name",
     "resolve",

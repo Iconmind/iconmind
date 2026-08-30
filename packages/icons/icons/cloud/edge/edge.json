@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "edge",
   "name": "Edge",
-  "description": "Compute right next to the user",
+  "description": "Edge — compute that runs right next to the user, at the network boundary rather than a central cloud",
   "tags": [
     "near",
     "boundary",

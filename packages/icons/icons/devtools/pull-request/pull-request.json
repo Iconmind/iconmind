@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "version-control",
   "name": "Pull request",
-  "description": "Asking for your work to be taken",
+  "description": "A pull request — asking for your branch to be reviewed and merged",
   "tags": [
     "review",
     "propose",

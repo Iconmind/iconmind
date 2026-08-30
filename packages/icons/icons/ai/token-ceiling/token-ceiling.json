@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Token ceiling",
-  "description": "The stack meets the lid",
+  "description": "A token ceiling — the stack of tokens meets the lid, the maximum output length",
   "tags": [
     "limit",
     "max",

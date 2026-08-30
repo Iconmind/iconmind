@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "Dead letter",
-  "description": "The message that could not be delivered",
+  "description": "A dead-letter queue — where messages that could not be delivered end up",
   "tags": [
     "failed",
     "undelivered",

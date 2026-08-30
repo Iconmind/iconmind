@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "planning",
   "name": "Branch step",
-  "description": "The point where the plan splits",
+  "description": "A branch step — the point in a plan where the path splits into choices",
   "tags": [
     "fork",
     "split",

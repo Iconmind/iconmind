@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "trigger",
   "name": "Webhook trigger",
-  "description": "Something outside pressed it",
+  "description": "A webhook trigger — something outside pushed an event in to start it",
   "tags": [
     "event",
     "incoming",

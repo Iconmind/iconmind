@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Model swap",
-  "description": "Put a different one behind the same call",
+  "description": "Model swap — put a different model behind the same call without changing the caller",
   "tags": [
     "switch",
     "replace",

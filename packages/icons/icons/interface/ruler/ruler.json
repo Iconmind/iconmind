@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Ruler",
-  "description": "Twelve exactly, not about twelve",
+  "description": "A ruler — twelve exactly, not about twelve, measured with ticks",
   "tags": [
     "measure",
     "ticks",

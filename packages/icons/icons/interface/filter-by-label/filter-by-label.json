@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Filter by label",
-  "description": "A funnel beside a label — narrow the list to one tag",
+  "description": "A funnel beside a label — narrow the list down to items with one tag",
   "tags": [
     "filter",
     "label",

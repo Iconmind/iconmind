@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "transport",
   "name": "MCP connection",
-  "description": "A live link between a client and a server",
+  "description": "An MCP connection — a live session between a client and a server over a transport",
   "tags": [
     "link",
     "session",

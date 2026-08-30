@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Slash command",
-  "description": "Type / and the commands appear",
+  "description": "A slash command — type / and the list of commands appears ready to pick",
   "tags": [
     "shortcut",
     "menu",

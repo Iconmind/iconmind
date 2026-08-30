@@ -1,0 +1,36 @@
+{
+  "slug": "message-thread",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Message thread",
+  "description": "A speech bubble with an indented line inside — a threaded reply",
+  "tags": [
+    "thread",
+    "reply",
+    "message"
+  ],
+  "keywords": [
+    "message thread",
+    "threaded reply",
+    "conversation thread"
+  ],
+  "family": "bubble",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V16A2 2 0 0 1 19 18H5A2 2 0 0 1 3 16Z",
+      "closed": true
+    },
+    {
+      "d": "M7 18L7 21L10 18",
+      "closed": false
+    },
+    {
+      "d": "M7 8H17",
+      "closed": false
+    },
+    {
+      "d": "M10 12H17",
+      "closed": false
+    }
+  ]
+}

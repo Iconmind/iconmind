@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "chunking",
   "name": "Chunk overlap",
-  "description": "The bit two chunks both contain",
+  "description": "Chunk overlap — the stretch of text two neighbouring chunks both contain so context is not lost",
   "tags": [
     "shared",
     "stride",

@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "api",
   "name": "Endpoint",
-  "description": "One address something answers on",
+  "description": "An endpoint — one URL or route that a service answers on for a request",
   "tags": [
     "route",
     "url",

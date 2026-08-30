@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "compliance",
   "name": "Certificate",
-  "description": "Signed proof that something is what it says",
+  "description": "A certificate — signed proof that a site, a key or a person is what it claims to be",
   "tags": [
     "seal",
     "signed",

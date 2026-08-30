@@ -82,7 +82,7 @@ export const BATCH_76: Icon[] = [
   },
   {
     slug: "bookmark-removed", category: "interface", subcategory: "file",
-    name: "Bookmark removed", description: "A bookmark with an X beside it — a bookmark taken away",
+    name: "Bookmark removed", description: "A bookmark with an X beside it — a bookmark taken away and removed",
     tags: ["bookmark", "removed", "delete"], family: "bookmark",
     aliases: [], keywords: ["remove bookmark", "delete bookmark", "unbookmark"],
     shapes: [BOOKMARK_L, ...X_R],
@@ -103,10 +103,10 @@ export const BATCH_76: Icon[] = [
   },
   {
     slug: "unlike", category: "interface", subcategory: "identity",
-    name: "Unlike", description: "A heart with an X beside it — take a like back",
+    name: "Unlike", description: "A heart with an X beside it — take a like back and un-favourite",
     tags: ["unlike", "heart", "remove"], family: "heart",
     aliases: [], keywords: ["unlike", "remove like", "un-favourite"],
-    shapes: [HEART_L, ...X_R],
+    shapes: [raw("M2 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 12 9L7 14Z", HEART, true), poly([[15, 9], [22, 16]]), poly([[22, 9], [15, 16]])],
   },
   {
     slug: "favorite-alert", category: "interface", subcategory: "identity",
@@ -117,17 +117,17 @@ export const BATCH_76: Icon[] = [
   },
   {
     slug: "share-favorite", category: "interface", subcategory: "identity",
-    name: "Share favourite", description: "A heart with an arrow beside it — share something you love",
+    name: "Share favourite", description: "A heart with an arrow beside it — share something you love with someone else",
     tags: ["share", "favourite", "send"], family: "heart",
     aliases: [], keywords: ["share favourite", "send a like", "recommend"],
-    shapes: [HEART_L, ...ARROW_R15],
+    shapes: [raw("M2 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 12 9L7 14Z", HEART, true), row(12, 15, 22), poly([[18, 8], [22, 12], [18, 16]])],
   },
 
   /* ── security: shields, keys and locks ────────────────────────────────────────── */
 
   {
     slug: "scan-stopped", category: "security", subcategory: "ai-security",
-    name: "Scan stopped", description: "A shield beside a stop square — a security scan halted",
+    name: "Scan stopped", description: "A shield beside a stop square — a security scan halted before it finished",
     tags: ["scan", "stopped", "halt"], family: "shield",
     aliases: [], keywords: ["scan stopped", "halt scan", "scan cancelled"],
     shapes: [SHIELD_L, poly([[15, 9], [21, 9], [21, 15], [15, 15]], true)],
@@ -141,7 +141,7 @@ export const BATCH_76: Icon[] = [
   },
   {
     slug: "remove-policy", category: "security", subcategory: "auth",
-    name: "Remove policy", description: "A shield with a minus beside it — take a policy away",
+    name: "Remove policy", description: "A shield with a minus beside it — take a policy away from the set",
     tags: ["policy", "remove", "delete"], family: "shield",
     aliases: [], keywords: ["remove policy", "delete rule", "policy removed"],
     shapes: [SHIELD_L, MINUS_R],
@@ -169,7 +169,7 @@ export const BATCH_76: Icon[] = [
   },
   {
     slug: "remove-lock", category: "security", subcategory: "auth",
-    name: "Remove lock", description: "A padlock with a minus beside it — take a lock off",
+    name: "Remove lock", description: "A padlock with a minus beside it — take a lock off and release it",
     tags: ["lock", "remove", "unlock"], family: "lock",
     aliases: [], keywords: ["remove lock", "unlock permanently", "lock removed"],
     shapes: [...LOCK_L, MINUS_R],
@@ -179,14 +179,14 @@ export const BATCH_76: Icon[] = [
 
   {
     slug: "stale-label", category: "interface", subcategory: "action",
-    name: "Stale label", description: "A label beside a Z — a tag nobody has used in a long time",
+    name: "Stale label", description: "A label beside a Z — a tag nobody has used in a long time, gone stale",
     tags: ["label", "stale", "unused"], family: "tag",
     aliases: [], keywords: ["stale label", "unused tag", "old label"],
     shapes: [TAG_L, Z_R],
   },
   {
     slug: "tag-trend", category: "interface", subcategory: "action",
-    name: "Tag trend", description: "A label beside a rising line — a tag used more and more",
+    name: "Tag trend", description: "A label beside a rising line — a tag used more and more over time",
     tags: ["label", "trend", "popular"], family: "tag",
     aliases: [], keywords: ["tag trend", "trending label", "tag usage"],
     shapes: [TAG_L, LINE_R],
@@ -221,7 +221,7 @@ export const BATCH_76: Icon[] = [
   },
   {
     slug: "dormant-location", category: "interface", subcategory: "identity",
-    name: "Dormant location", description: "A location pin beside a Z — a place with no recent activity",
+    name: "Dormant location", description: "A location pin beside a Z — a place with no recent activity, gone quiet",
     tags: ["location", "dormant", "quiet"], family: "pin",
     aliases: [], keywords: ["dormant location", "inactive place", "quiet region"],
     shapes: [...PIN_L, Z_R],
@@ -231,7 +231,7 @@ export const BATCH_76: Icon[] = [
 
   {
     slug: "run-faster", category: "devtools", subcategory: "testing",
-    name: "Run faster", description: "A play button beside a double chevron — speed a run up",
+    name: "Run faster", description: "A play button beside a double chevron — speed a run up, faster execution",
     tags: ["run", "faster", "speed"], family: "object",
     aliases: [], keywords: ["run faster", "speed up job", "fast mode"],
     shapes: [PLAY_L, poly([[13, 8], [17, 12], [13, 16]]), poly([[17.5, 8], [21.5, 12], [17.5, 16]])],
@@ -259,7 +259,7 @@ export const BATCH_76: Icon[] = [
   },
   {
     slug: "event-list", category: "automation", subcategory: "trigger",
-    name: "Event list", description: "A lightning bolt beside a list — the events that have fired",
+    name: "Event list", description: "A lightning bolt beside a list — the events that have fired, in order",
     tags: ["event", "list", "log"], family: "bolt",
     aliases: [], keywords: ["event list", "fired events", "trigger log"],
     shapes: [BOLT_L, row(8, 14, 22), row(12, 14, 22), row(16, 14, 22)],
@@ -269,10 +269,10 @@ export const BATCH_76: Icon[] = [
 
   {
     slug: "goal-forward", category: "analytics", subcategory: "metric",
-    name: "Goal forward", description: "A target with an arrow beside it — carry a goal into the next period",
+    name: "Goal forward", description: "A target with a chevron beside it — carry a goal forward into the next period",
     tags: ["goal", "forward", "carry"], family: "object",
     aliases: [], keywords: ["carry goal forward", "roll over goal", "next period goal"],
-    shapes: [...TARGET_L, ...ARROW_R],
+    shapes: [...TARGET_L, poly([[16, 8], [20, 12], [16, 16]])],
   },
   {
     slug: "milestone-filter", category: "analytics", subcategory: "segment",
@@ -283,21 +283,21 @@ export const BATCH_76: Icon[] = [
   },
   {
     slug: "filter-trend", category: "interface", subcategory: "action",
-    name: "Filter trend", description: "A funnel beside a rising line — how a filtered slice trends",
+    name: "Filter trend", description: "A funnel beside a rising line — how a filtered slice of the data trends over time",
     tags: ["filter", "trend", "slice"], family: "funnel",
     aliases: [], keywords: ["filtered trend", "trend of a segment", "slice over time"],
     shapes: [FUNNEL_L, LINE_R],
   },
   {
     slug: "send-money", category: "cloud", subcategory: "cost",
-    name: "Send money", description: "A coin with an arrow beside it — send a payment",
+    name: "Send money", description: "A coin with an arrow beside it — send a payment to someone else",
     tags: ["payment", "send", "transfer"], family: "coin",
     aliases: [], keywords: ["send money", "make a payment", "transfer funds"],
     shapes: [...COIN_L, ...ARROW_R15],
   },
   {
     slug: "favorite-milestone", category: "analytics", subcategory: "metric",
-    name: "Favourite milestone", description: "A flag beside a heart — the milestone that meant the most",
+    name: "Favourite milestone", description: "A flag beside a heart — the milestone that meant the most to the team",
     tags: ["milestone", "favourite", "heart"], family: "flag",
     aliases: [], keywords: ["favourite milestone", "starred milestone", "memorable milestone"],
     shapes: [...FLAG_L, raw("M15 12A2 2 0 0 1 18 12A2 2 0 0 1 21 12L18 15Z", HEART, true)],
@@ -314,7 +314,7 @@ export const BATCH_76: Icon[] = [
 
   {
     slug: "list-trend", category: "interface", subcategory: "file",
-    name: "List trend", description: "A list beside a rising line — a list growing over time",
+    name: "List trend", description: "A list beside a rising line — a list growing longer and longer over time",
     tags: ["list", "trend", "growth"], family: "text",
     aliases: [], keywords: ["list trend", "growing list", "items over time"],
     shapes: [...ROWS_LS, LINE_R],
@@ -337,22 +337,22 @@ export const BATCH_76: Icon[] = [
   /* ── devtools: the last marks inside brackets ─────────────────────────────────── */
 
   {
-    slug: "geo-scope", category: "devtools", subcategory: "code",
-    name: "Geo scope", description: "A location pin held between brackets — code scoped to a region",
-    tags: ["scope", "region", "code"], family: "bracket",
-    aliases: [], keywords: ["geo scope", "regional code path", "region-scoped block"],
-    shapes: [BR_L, BR_R, disc(12, 9, 3), col(12, 12, 16)],
+    slug: "page-idle", category: "interface", subcategory: "layout",
+    name: "Page idle", description: "A window with a Z inside — a page nobody has visited in a while, gone quiet",
+    tags: ["idle", "page", "quiet"], family: "window",
+    aliases: [], keywords: ["idle page", "stale page", "unvisited page"],
+    shapes: [rect(3, 2.5, 18, 19, 2), row(7, 3, 21), poly([[8.5, 10.5], [15.5, 10.5], [8.5, 17.5], [15.5, 17.5]])],
   },
   {
-    slug: "goal-scope", category: "devtools", subcategory: "code",
-    name: "Goal scope", description: "A target held between brackets — the goal a block of code serves",
-    tags: ["scope", "goal", "code"], family: "bracket",
-    aliases: [], keywords: ["goal scope", "purpose of a block", "scoped objective"],
-    shapes: [BR_L, BR_R, disc(12, 12, 4), disc(12, 12, 1)],
+    slug: "protected-favorites", category: "interface", subcategory: "identity",
+    name: "Protected favourites", description: "A heart beside a shield — favourites kept safe from being changed or shared",
+    tags: ["favourites", "protected", "shield"], family: "heart",
+    aliases: [], keywords: ["protected favourites", "guarded favourites", "favourites safety"],
+    shapes: [HEART_L, poly([[16, 9], [22, 9], [22, 14.5], [19, 17.5], [16, 14.5]], true)],
   },
   {
     slug: "idle-block", category: "devtools", subcategory: "code",
-    name: "Idle block", description: "A Z held between brackets — a block of code that never runs",
+    name: "Idle block", description: "A Z held between brackets — a block of code that never runs, unreached and dormant",
     tags: ["idle", "unused", "code"], family: "bracket",
     aliases: [], keywords: ["idle block", "unreached code", "dormant block"],
     shapes: [BR_L, BR_R, poly([[9, 9], [15, 9], [9, 15], [15, 15]])],
@@ -390,24 +390,24 @@ export const BATCH_76: Icon[] = [
   },
   {
     slug: "tagged-page", category: "interface", subcategory: "layout",
-    name: "Tagged page", description: "A window with a label inside — a page filed under a tag",
+    name: "Tagged page", description: "A window with a label inside — a page filed under a tag or category",
     tags: ["page", "tag", "label"], family: "window",
     aliases: [], keywords: ["tagged page", "labelled page", "page category"],
-    shapes: [...WINDOW, poly([[8, 11.5], [13, 11.5], [16, 14.5], [13, 17.5], [8, 17.5]], true)],
+    shapes: [rect(3, 2.5, 18, 19, 2), row(7, 3, 21), poly([[7, 11], [13, 11], [16, 14], [13, 17], [7, 17]], true)],
   },
   {
     slug: "bookmarked-page", category: "interface", subcategory: "layout",
     name: "Bookmarked page", description: "A window with a bookmark inside — a page saved to come back to",
     tags: ["page", "bookmark", "saved"], family: "window",
     aliases: [], keywords: ["bookmarked page", "saved page", "page bookmark"],
-    shapes: [...WINDOW, poly([[9, 11], [15, 11], [15, 18], [12, 15], [9, 18]], true)],
+    shapes: [rect(2, 2, 20, 20, 2), row(6, 2, 22), poly([[8, 10], [16, 10], [16, 17], [12, 13], [8, 17]], true)],
   },
   {
     slug: "analytics-page", category: "interface", subcategory: "layout",
     name: "Analytics page", description: "A window with a rising line inside — the analytics page of an app",
     tags: ["analytics", "page", "chart"], family: "window",
     aliases: [], keywords: ["analytics page", "stats screen", "metrics view"],
-    shapes: [...WINDOW, poly([[7, 17], [10, 14], [12, 16], [16, 12]])],
+    shapes: [...WINDOW, poly([[6, 17], [9, 14], [11, 16], [14, 13], [16, 15], [18, 13]])],
   },
   {
     slug: "page-scroll", category: "interface", subcategory: "layout",

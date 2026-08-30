@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Approval granted",
-  "description": "The gate opens",
+  "description": "Approval granted — the human said yes and the gate opens for the agent",
   "tags": [
     "yes",
     "gate",

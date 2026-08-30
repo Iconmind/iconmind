@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Canonicalise",
-  "description": "All the spellings become the spelling",
+  "description": "Canonicalise — all the spellings become the one standard spelling",
   "tags": [
     "normalise",
     "standard",

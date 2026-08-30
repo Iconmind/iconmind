@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "action",
   "name": "HTTP action",
-  "description": "The step that calls something",
+  "description": "HTTP action — the workflow step that calls a URL, a webhook or an API",
   "tags": [
     "request",
     "call",

@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Action step",
-  "description": "One thing the agent actually does",
+  "description": "An action step — one concrete thing an agent actually does in its loop",
   "tags": [
     "step",
     "act",

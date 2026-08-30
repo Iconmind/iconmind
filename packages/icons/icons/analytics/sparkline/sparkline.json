@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "chart",
   "name": "Sparkline",
-  "description": "The shape of it, small enough to sit in a line",
+  "description": "A sparkline — the shape of a trend, small enough to sit inline in a line of text",
   "tags": [
     "inline",
     "trend",

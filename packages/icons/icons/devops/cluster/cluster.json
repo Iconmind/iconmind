@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "orchestration",
   "name": "Cluster",
-  "description": "Many machines behaving as one",
+  "description": "A cluster — many machines or nodes behaving as one system, a fleet under one control plane",
   "tags": [
     "nodes",
     "group",

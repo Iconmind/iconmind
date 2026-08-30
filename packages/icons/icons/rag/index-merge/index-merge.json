@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "vector",
   "name": "Index merge",
-  "description": "Two shelves become one",
+  "description": "Index merge — two segments compacted and combined into one bigger index",
   "tags": [
     "compact",
     "combine",

@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "llm-observability",
   "name": "p99 latency",
-  "description": "Not the average — the one in a hundred that hurts",
+  "description": "p99 latency — not the average but the one request in a hundred that hurts, the tail",
   "tags": [
     "tail",
     "percentile",

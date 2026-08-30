@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "Egress",
-  "description": "Traffic leaving",
+  "description": "Egress — traffic leaving a network, the outbound direction that is often billed",
   "tags": [
     "outbound",
     "exit",

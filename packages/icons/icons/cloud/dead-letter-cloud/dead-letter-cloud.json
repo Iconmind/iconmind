@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "Dead letter",
-  "description": "Delivered nowhere, kept anyway",
+  "description": "A dead letter — a message delivered nowhere, kept anyway for inspection",
   "tags": [
     "failed",
     "envelope",

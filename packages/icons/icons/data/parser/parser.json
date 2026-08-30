@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "transform",
   "name": "Parser",
-  "description": "Text going in, structure coming out",
+  "description": "A parser — text going in, a structured tree coming out the other side",
   "tags": [
     "ast",
     "read",

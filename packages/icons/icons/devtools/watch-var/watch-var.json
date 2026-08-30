@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "debug",
   "name": "Watch variable",
-  "description": "Its value, kept in sight",
+  "description": "Watch variable — a value kept in sight and tracked while debugging",
   "tags": [
     "inspect",
     "track",

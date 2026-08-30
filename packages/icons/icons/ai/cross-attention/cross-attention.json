@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Cross-attention",
-  "description": "Each side looking at the other",
+  "description": "Cross-attention — each side looking at the other, the decoder attending over the encoder",
   "tags": [
     "attend",
     "across",

@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "llm-observability",
   "name": "Request trace",
-  "description": "One call, followed all the way",
+  "description": "A request trace — one call followed all the way along its path",
   "tags": [
     "follow",
     "path",

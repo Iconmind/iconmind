@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Small language model",
-  "description": "A model that fits somewhere it did not before",
+  "description": "A small language model — compact enough to run on a device or at the edge",
   "tags": [
     "slm",
     "compact",

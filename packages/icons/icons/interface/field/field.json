@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Field",
-  "description": "The box that takes one answer",
+  "description": "A field — the box in a form that takes one answer from the person filling it in",
   "tags": [
     "input",
     "form",

@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "ingestion",
   "name": "Freshness",
-  "description": "How old is the newest thing we know?",
+  "description": "Freshness SLA — how old is the newest thing the system knows, an age limit on the clock",
   "tags": [
     "age",
     "stale",

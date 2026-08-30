@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Tab overflow",
-  "description": "More of them than the bar can show",
+  "description": "Tab overflow — more tabs than the bar can show, hidden behind dots",
   "tags": [
     "browser",
     "more",

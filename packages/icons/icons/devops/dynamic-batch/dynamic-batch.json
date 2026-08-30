@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "orchestration",
   "name": "Dynamic batching",
-  "description": "Whoever arrives together, rides together",
+  "description": "Dynamic batching — requests that arrive together ride through the model together",
   "tags": [
     "group",
     "requests",

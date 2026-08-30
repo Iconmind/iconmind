@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "chunking",
   "name": "Chunking",
-  "description": "The whole, made into pieces that fit",
+  "description": "Chunking — the whole document made into pieces that fit the context",
   "tags": [
     "split",
     "pieces",

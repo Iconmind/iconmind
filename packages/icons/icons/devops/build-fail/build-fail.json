@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "ci-cd",
   "name": "Build fail",
-  "description": "It did not",
+  "description": "Build fail — the build broke, red with an error that has to be fixed",
   "tags": [
     "red",
     "broken",

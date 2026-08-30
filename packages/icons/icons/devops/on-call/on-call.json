@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "incident",
   "name": "On call",
-  "description": "Whoever is carrying the pager",
+  "description": "On call — whoever is carrying the pager on the rota right now",
   "tags": [
     "rota",
     "paged",

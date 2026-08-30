@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "evaluation",
   "name": "Best of N",
-  "description": "Generate several, keep the winner",
+  "description": "Best of N — generate several candidates and keep the winner as the answer",
   "tags": [
     "sampling",
     "candidates",

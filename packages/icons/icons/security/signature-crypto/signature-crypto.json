@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "encryption",
   "name": "Cryptographic signature",
-  "description": "Math that says it was them",
+  "description": "A cryptographic signature — maths that proves it was them, signed and verifiable",
   "tags": [
     "signed",
     "verify",

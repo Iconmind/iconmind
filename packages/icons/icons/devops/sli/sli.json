@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "observability",
   "name": "SLI",
-  "description": "The number you actually measure",
+  "description": "An SLI — the service level indicator you actually measure, such as latency or error rate",
   "tags": [
     "indicator",
     "measured",

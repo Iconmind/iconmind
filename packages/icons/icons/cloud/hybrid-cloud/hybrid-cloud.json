@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "compute",
   "name": "Hybrid cloud",
-  "description": "Some of it yours, some of it theirs",
+  "description": "Hybrid cloud — some of it on your own premises, some of it in a provider's cloud",
   "tags": [
     "mixed",
     "on-prem",

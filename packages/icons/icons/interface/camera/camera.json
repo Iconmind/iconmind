@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "Camera",
-  "description": "Take a picture",
+  "description": "A camera — take a picture, capture an image through the lens",
   "tags": [
     "photo",
     "capture",

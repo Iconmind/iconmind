@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "ingestion",
   "name": "OCR ingest",
-  "description": "Scanned pages, read into the index",
+  "description": "OCR ingest — scanned pages read into text and fed to the index",
   "tags": [
     "scan",
     "extract",

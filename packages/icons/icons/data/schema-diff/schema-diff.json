@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Schema diff",
-  "description": "The same table, one column later",
+  "description": "A schema diff — the same table one column later, compared for changes",
   "tags": [
     "compare",
     "change",

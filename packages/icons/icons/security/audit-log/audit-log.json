@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "compliance",
   "name": "Audit log",
-  "description": "Who did what, kept",
+  "description": "An audit log — who did what and when, kept as a trail of evidence",
   "tags": [
     "trail",
     "record",

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Model download",
-  "description": "Fetch the weights",
+  "description": "Model download — fetch the weights and pull a model onto this machine",
   "tags": [
     "fetch",
     "pull",

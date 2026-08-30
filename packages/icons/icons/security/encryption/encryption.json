@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "encryption",
   "name": "Encryption",
-  "description": "Unreadable to anyone without the key",
+  "description": "Encryption — data made unreadable to anyone who does not hold the key",
   "tags": [
     "cipher",
     "protect",

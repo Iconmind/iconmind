@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Null",
-  "description": "There is nothing here",
+  "description": "Null — there is nothing here, an empty or missing value in the field",
   "tags": [
     "empty",
     "missing",

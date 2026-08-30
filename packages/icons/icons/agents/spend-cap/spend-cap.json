@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Spend cap",
-  "description": "The money stops here",
+  "description": "A spend cap — the money stops here, a hard ceiling on the budget",
   "tags": [
     "budget",
     "ceiling",

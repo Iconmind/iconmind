@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "condition",
   "name": "Mutex",
-  "description": "One at a time, by lock",
+  "description": "A mutex — one at a time by lock, exclusive access to a shared resource",
   "tags": [
     "lock",
     "exclusive",

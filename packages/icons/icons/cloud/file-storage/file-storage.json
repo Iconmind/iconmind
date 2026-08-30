@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "storage",
   "name": "File storage",
-  "description": "Files kept somewhere with room",
+  "description": "File storage — files kept somewhere with room for them, a bucket or a blob store",
   "tags": [
     "bucket",
     "blob",

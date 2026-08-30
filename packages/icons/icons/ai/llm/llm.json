@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "LLM",
-  "description": "A large language model",
+  "description": "A large language model — the generative AI system behind chat, completion and reasoning",
   "tags": [
     "language",
     "model",

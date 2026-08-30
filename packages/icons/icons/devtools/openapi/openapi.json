@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "api",
   "name": "OpenAPI",
-  "description": "The document that describes the API",
+  "description": "OpenAPI — the Swagger document that describes an API's endpoints and schemas",
   "tags": [
     "spec",
     "swagger",

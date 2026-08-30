@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Legal hold",
-  "description": "Nothing here may be deleted, by order",
+  "description": "A legal hold — nothing here may be deleted, frozen by court order",
   "tags": [
     "freeze",
     "litigation",

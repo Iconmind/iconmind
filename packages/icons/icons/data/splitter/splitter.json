@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "transform",
   "name": "Splitter",
-  "description": "One stream becoming two",
+  "description": "A splitter — one stream fanned out into two so both branches receive it",
   "tags": [
     "fan-out",
     "divide",

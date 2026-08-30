@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "More vertical",
-  "description": "Other options, in a column",
+  "description": "More vertical — the other options, hidden in a kebab menu of three dots",
   "tags": [
     "ellipsis",
     "kebab",

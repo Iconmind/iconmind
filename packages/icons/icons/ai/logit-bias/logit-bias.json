@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Logit bias",
-  "description": "A thumb on one word's scale",
+  "description": "Logit bias — a thumb pressed on one token's scale to steer what the model says",
   "tags": [
     "weight",
     "press",

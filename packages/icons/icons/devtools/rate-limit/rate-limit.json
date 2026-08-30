@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "api",
   "name": "Rate limit",
-  "description": "Many asking, fewer let through",
+  "description": "A rate limit — many asking and fewer let through, a throttle that returns 429",
   "tags": [
     "throttle",
     "429",

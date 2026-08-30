@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "communication",
   "name": "Spam",
-  "description": "Unwanted, and probably lying",
+  "description": "Spam — unwanted mail that is probably lying, junk or phishing",
   "tags": [
     "junk",
     "unwanted",

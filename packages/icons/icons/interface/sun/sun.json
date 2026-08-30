@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "state",
   "name": "Sun",
-  "description": "Light",
+  "description": "Sun — light, daytime or the light theme of an app with bright surfaces",
   "tags": [
     "light",
     "day",

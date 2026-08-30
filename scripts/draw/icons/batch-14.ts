@@ -17,14 +17,14 @@ export const BATCH_14: Icon[] = [
 
   {
     slug: "memory-short-term", category: "agents", subcategory: "memory",
-    name: "Short-term memory", description: "What the agent is holding right now",
+    name: "Short-term memory", description: "Short-term memory — what an agent is holding right now, within the current session",
     tags: ["working", "current", "session"], family: "window",
     aliases: [], keywords: ["working memory", "scratchpad", "session", "current turn"],
     shapes: [panel(), col(12, 9, 15)],
   },
   {
     slug: "memory-long-term", category: "agents", subcategory: "memory",
-    name: "Long-term memory", description: "What the agent keeps between runs",
+    name: "Long-term memory", description: "Long-term memory — what an agent keeps between runs and can recall later",
     tags: ["persistent", "stored", "recall"], family: "window",
     aliases: [], keywords: ["persistent", "vector memory", "profile", "across sessions"],
     shapes: [panel(), col(6, 9, 15), col(9, 9, 15), col(12, 9, 15), col(15, 9, 15), col(18, 9, 15)],
@@ -34,7 +34,7 @@ export const BATCH_14: Icon[] = [
 
   {
     slug: "agent-delegate", category: "agents", subcategory: "communication",
-    name: "Agent delegate", description: "Give the work to a smaller agent",
+    name: "Agent delegate", description: "Agent delegate — hand a piece of work down to a smaller sub-agent",
     tags: ["assign", "hand-down", "sub-agent"], family: "orbit",
     aliases: [], keywords: ["assign", "sub-agent", "spawn worker", "hand down", "farm out"],
     // Down and to the right, and the second ring is no smaller than the first. Shrinking it
@@ -46,7 +46,7 @@ export const BATCH_14: Icon[] = [
   },
   {
     slug: "agent-blocked", category: "agents", subcategory: "lifecycle",
-    name: "Agent blocked", description: "It cannot go on",
+    name: "Agent blocked", description: "Agent blocked — the agent cannot go on, stuck waiting on something it does not have",
     tags: ["stuck", "waiting", "barred"], family: "orbit",
     aliases: ["blocked"], keywords: ["stuck", "deadlock", "waiting on", "barred", "held"],
     // A stroke across the whole body, not a cross inside it. `agent-off` means somebody
@@ -56,7 +56,7 @@ export const BATCH_14: Icon[] = [
   },
   {
     slug: "action-step", category: "agents", subcategory: "execution",
-    name: "Action step", description: "One thing the agent actually does",
+    name: "Action step", description: "An action step — one concrete thing an agent actually does in its loop",
     tags: ["step", "act", "invoke"], family: "chain",
     aliases: [], keywords: ["step", "act", "invoke", "call", "operation"],
     // The step leaves its node down the diagonal. `evaluate-step` and `rejection` are the
@@ -65,7 +65,7 @@ export const BATCH_14: Icon[] = [
   },
   {
     slug: "tool-registry", category: "agents", subcategory: "tool-use",
-    name: "Tool registry", description: "Everything the agent is allowed to call",
+    name: "Tool registry", description: "A tool registry — the catalogue of every tool an agent is allowed to call",
     tags: ["catalogue", "available", "list"], family: "window",
     aliases: [], keywords: ["catalog", "manifest", "available tools", "allowlist", "index"],
     shapes: [
@@ -79,7 +79,7 @@ export const BATCH_14: Icon[] = [
 
   {
     slug: "mcp-config", category: "mcp", subcategory: "registry",
-    name: "MCP config", description: "How the servers are set up",
+    name: "MCP config", description: "MCP config — how the servers are set up, the manifest that lists what a client connects to",
     tags: ["settings", "manifest", "setup"], family: "tower",
     aliases: [], keywords: ["config file", "manifest", "settings", "claude_desktop_config"],
     // Two rails and two knobs, and the tower gives up its status light to make room. One
@@ -95,7 +95,7 @@ export const BATCH_14: Icon[] = [
 
   {
     slug: "ingestion", category: "rag", subcategory: "ingestion",
-    name: "Ingestion", description: "Getting the material in",
+    name: "Ingestion", description: "Ingestion — getting the source material loaded into a pipeline or a knowledge base",
     tags: ["load", "intake", "feed"], family: "window",
     aliases: ["intake"], keywords: ["load", "crawl", "import", "feed", "index build"],
     // Two streams falling into one box, and each of them has a point on it. Bare columns
@@ -109,7 +109,7 @@ export const BATCH_14: Icon[] = [
   },
   {
     slug: "chunk-size", category: "rag", subcategory: "chunking",
-    name: "Chunk size", description: "How big each piece is",
+    name: "Chunk size", description: "Chunk size — how big each piece of a split document is, measured in tokens or characters",
     tags: ["length", "measure", "window"], family: "capsule",
     aliases: [], keywords: ["tokens per chunk", "length", "window size", "measure"],
     // A dimension line with heads at both ends, over the thing being measured. Plain ticks
@@ -125,7 +125,7 @@ export const BATCH_14: Icon[] = [
 
   {
     slug: "grid", category: "interface", subcategory: "layout",
-    name: "Grid", description: "Laid out in rows and columns",
+    name: "Grid", description: "A grid — items laid out in rows and columns, tiles in a regular layout",
     tags: ["tiles", "layout", "quarters"], family: "window",
     aliases: ["tiles"], keywords: ["gallery", "tiles", "columns", "masonry", "thumbnails"],
     // One box divided, where `cluster` is four boxes apart. A grid is a way of arranging
@@ -134,14 +134,14 @@ export const BATCH_14: Icon[] = [
   },
   {
     slug: "smile", category: "interface", subcategory: "state",
-    name: "Smile", description: "It went well",
+    name: "Smile", description: "A smile — it went well, a happy face for positive feedback from the user",
     tags: ["happy", "positive", "feedback"], family: "orbit",
     aliases: ["happy"], keywords: ["positive", "rating", "satisfied", "good", "thumbs up"],
     shapes: [disc(12, 12, 9), disc(9, 9, 1), disc(15, 9, 1), arc(12, 13, 4, 20, 160)],
   },
   {
     slug: "frown", category: "interface", subcategory: "state",
-    name: "Frown", description: "It did not",
+    name: "Frown", description: "A frown — it did not go well, an unhappy face for negative feedback",
     tags: ["unhappy", "negative", "feedback"], family: "orbit",
     aliases: ["unhappy"], keywords: ["negative", "rating", "dissatisfied", "bad", "thumbs down"],
     // The same face with the mouth's centre moved below it rather than above. Two drawings

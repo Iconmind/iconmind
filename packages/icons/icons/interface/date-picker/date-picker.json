@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "time",
   "name": "Date picker",
-  "description": "A calendar with one day selected — a date picker control",
+  "description": "A calendar with one day selected — the date picker control for choosing a date",
   "tags": [
     "calendar",
     "select",

@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "sampling",
   "name": "MCP sampling",
-  "description": "A server asking the model to think",
+  "description": "MCP sampling — a server asking the model to think, a completion in reverse",
   "tags": [
     "reverse",
     "completion",

@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "compute",
   "name": "Server",
-  "description": "The machine that answers",
+  "description": "A server — the machine that answers requests, the backend host",
   "tags": [
     "host",
     "backend",

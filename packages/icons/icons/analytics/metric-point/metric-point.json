@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Metric point",
-  "description": "One reading, at one moment",
+  "description": "A metric point — one reading at one moment, a single datum in a series",
   "tags": [
     "sample",
     "datum",

@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Weight leak",
-  "description": "The model, dripping out of the building",
+  "description": "A weight leak — the model's weights dripping out of the building, theft or exposure",
   "tags": [
     "theft",
     "exposure",

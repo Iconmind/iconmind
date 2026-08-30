@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "storage",
   "name": "Lifecycle rule",
-  "description": "Data moving down the tiers on schedule",
+  "description": "A lifecycle rule — data moving down the storage tiers on a schedule until it is archived",
   "tags": [
     "tiers",
     "archive",

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Depth",
-  "description": "How many layers there are",
+  "description": "Depth — how many layers a network stacks, how deep the model goes",
   "tags": [
     "layers",
     "deep",

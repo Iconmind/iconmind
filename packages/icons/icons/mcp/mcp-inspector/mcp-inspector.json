@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "registry",
   "name": "MCP inspector",
-  "description": "The tool you debug a server with",
+  "description": "The MCP inspector — the tool you debug and test a server with",
   "tags": [
     "debug",
     "inspect",

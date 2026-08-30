@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Group",
-  "description": "Treat these as one",
+  "description": "Group — treat several objects as one so they move and select together",
   "tags": [
     "combine",
     "select",

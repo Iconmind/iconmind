@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "transport",
   "name": "MCP version",
-  "description": "Which dialect both sides agree to speak",
+  "description": "MCP version — the protocol level both sides negotiate and agree to speak",
   "tags": [
     "protocol",
     "negotiate",

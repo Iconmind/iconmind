@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Attention head",
-  "description": "One of the model's several viewpoints",
+  "description": "An attention head — one of the several viewpoints a model attends with at once",
   "tags": [
     "head",
     "multi",

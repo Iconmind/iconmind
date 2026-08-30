@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "Task node",
-  "description": "One piece of work, with what comes before and after",
+  "description": "A task node — one piece of work in a graph, with what comes before and after",
   "tags": [
     "step",
     "unit",

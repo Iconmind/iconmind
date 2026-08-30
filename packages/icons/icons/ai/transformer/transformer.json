@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Transformer",
-  "description": "The architecture under all of this",
+  "description": "A transformer — the attention-based architecture under all modern language models",
   "tags": [
     "attention",
     "layers",

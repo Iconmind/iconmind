@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Add run",
-  "description": "A play button with a plus beside it — queue another run",
+  "description": "A play button with a plus beside it — queue another run in the list",
   "tags": [
     "run",
     "add",

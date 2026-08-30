@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "observability",
   "name": "Queue depth",
-  "description": "How much is waiting, right now",
+  "description": "Queue depth — how much work is waiting right now, the backlog height",
   "tags": [
     "backlog",
     "bars",

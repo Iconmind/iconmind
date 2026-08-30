@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Role-based access",
-  "description": "What this kind of person may do",
+  "description": "Role-based access control — what a kind of person may do, granted by role",
   "tags": [
     "roles",
     "grants",

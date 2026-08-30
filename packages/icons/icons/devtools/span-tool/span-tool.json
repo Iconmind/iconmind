@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "api",
   "name": "Span",
-  "description": "How long each piece actually took",
+  "description": "A span — how long each piece of a request actually took, one bar in a trace waterfall",
   "tags": [
     "trace",
     "timing",

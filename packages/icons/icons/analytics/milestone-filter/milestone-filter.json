@@ -1,0 +1,32 @@
+{
+  "slug": "milestone-filter",
+  "category": "analytics",
+  "subcategory": "segment",
+  "name": "Milestone filter",
+  "description": "A funnel beside a flag — filter to the users who reached a milestone",
+  "tags": [
+    "milestone",
+    "filter",
+    "segment"
+  ],
+  "keywords": [
+    "milestone filter",
+    "segment by milestone",
+    "reached milestone"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M3 5L14 5L10 9L10 17L7 17L7 9Z",
+      "closed": true
+    },
+    {
+      "d": "M17 5V21",
+      "closed": false
+    },
+    {
+      "d": "M17 5L22 5L19.5 7.5L22 10L17 10",
+      "closed": false
+    }
+  ]
+}

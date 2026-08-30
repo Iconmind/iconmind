@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "CPU offload",
-  "description": "What the card cannot hold, the RAM will",
+  "description": "CPU offload — what the card cannot hold spills down into system RAM",
   "tags": [
     "spill",
     "memory",

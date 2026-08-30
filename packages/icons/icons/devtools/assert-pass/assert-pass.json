@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Assert pass",
-  "description": "A check held between brackets — an assertion that held",
+  "description": "A check held between brackets — an assertion in the code that held true",
   "tags": [
     "assert",
     "pass",

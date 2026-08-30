@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "code",
   "name": "Atomic",
-  "description": "All of it, or none of it",
+  "description": "An atomic operation — all of it happens or none of it, indivisible",
   "tags": [
     "indivisible",
     "safe",

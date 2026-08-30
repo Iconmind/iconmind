@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "Priority",
-  "description": "This one before the others",
+  "description": "Priority — this one before the others, urgent and ahead of the queue",
   "tags": [
     "first",
     "urgent",

@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "llm-observability",
   "name": "Span",
-  "description": "One piece of work inside a trace",
+  "description": "A span — one timed piece of work inside a distributed trace across services",
   "tags": [
     "timing",
     "trace",

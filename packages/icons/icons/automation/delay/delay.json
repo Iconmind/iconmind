@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "schedule",
   "name": "Delay",
-  "description": "Wait, then carry on",
+  "description": "Delay — wait for a while, then carry on with the next step in the flow",
   "tags": [
     "wait",
     "pause",

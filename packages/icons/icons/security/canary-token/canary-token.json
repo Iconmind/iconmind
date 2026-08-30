@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Canary token",
-  "description": "The credential that sings when touched",
+  "description": "A canary token — a decoy credential that raises the alarm the moment it is touched",
   "tags": [
     "tripline",
     "decoy",

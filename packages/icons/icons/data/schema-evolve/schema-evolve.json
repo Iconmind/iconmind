@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "transform",
   "name": "Schema evolution",
-  "description": "The table grows a column without breaking",
+  "description": "Schema evolution — a table grows a column without breaking what reads it",
   "tags": [
     "migrate",
     "add-column",

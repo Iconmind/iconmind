@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "storage",
   "name": "Index",
-  "description": "The fast way to find a row",
+  "description": "An index — the fast way to find a row without scanning everything",
   "tags": [
     "lookup",
     "btree",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "state",
   "name": "Warning",
-  "description": "Something needs looking at",
+  "description": "A warning triangle — something needs a look before you continue, a caution or an alert",
   "tags": [
     "alert",
     "caution",

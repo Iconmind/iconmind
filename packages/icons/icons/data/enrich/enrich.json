@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "transform",
   "name": "Enrich",
-  "description": "The same rows, with more on them",
+  "description": "Enrich — the same rows with more information joined on to them",
   "tags": [
     "augment",
     "join-in",

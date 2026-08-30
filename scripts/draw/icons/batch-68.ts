@@ -187,7 +187,7 @@ export const BATCH_68: Icon[] = [
   },
   {
     slug: "date-picker", category: "interface", subcategory: "time",
-    name: "Date picker", description: "A calendar with one day selected — a date picker control",
+    name: "Date picker", description: "A calendar with one day selected — the date picker control for choosing a date",
     tags: ["calendar", "select", "date"], family: "calendar",
     aliases: [], keywords: ["date picker", "calendar picker", "select a date"],
     shapes: [rect(3, 3, 18, 18, 2), row(8, 3, 21), disc(12, 15, 3)],

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Stale checkpoint",
-  "description": "A flag beside a Z — a checkpoint too old to be useful",
+  "description": "A flag beside a Z — a checkpoint too old to be useful any more",
   "tags": [
     "stale",
     "checkpoint",

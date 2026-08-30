@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "vector",
   "name": "Embedding",
-  "description": "A meaning turned into coordinates",
+  "description": "A vector embedding — a piece of meaning turned into coordinates a model can compare and search",
   "tags": [
     "vector",
     "encode",

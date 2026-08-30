@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "grounding",
   "name": "Source citation",
-  "description": "Chapter and verse for the claim",
+  "description": "A source citation — chapter and verse for the claim, a footnote to the reference",
   "tags": [
     "reference",
     "quote",

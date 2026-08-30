@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "transform",
   "name": "Union",
-  "description": "Everything from both",
+  "description": "Union — everything from both sets combined into one with duplicates kept once",
   "tags": [
     "combine",
     "all",

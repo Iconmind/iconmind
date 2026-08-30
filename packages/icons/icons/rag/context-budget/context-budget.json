@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "retrieval",
   "name": "Context budget",
-  "description": "How much room is left in the window",
+  "description": "A context budget — how much room is left in the window for more tokens",
   "tags": [
     "room",
     "remaining",

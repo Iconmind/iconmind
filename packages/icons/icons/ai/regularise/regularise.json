@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Regularise",
-  "description": "Held back from memorising",
+  "description": "Regularise — hold a model back from memorising with dropout or a penalty",
   "tags": [
     "dropout",
     "penalty",

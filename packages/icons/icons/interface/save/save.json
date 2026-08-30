@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Save",
-  "description": "Keep the changes",
+  "description": "Save — keep the changes, write them to disk so they are not lost",
   "tags": [
     "store",
     "disk",

@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "ci-cd",
   "name": "Build",
-  "description": "Turning source into the thing that runs",
+  "description": "A build — turning source code into the artifact that actually runs",
   "tags": [
     "compile",
     "assemble",

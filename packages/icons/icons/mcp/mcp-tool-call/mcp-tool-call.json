@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "tool",
   "name": "MCP tool call",
-  "description": "The model asking a server to do something",
+  "description": "An MCP tool call — the model asking a server to run one of its tools",
   "tags": [
     "invoke",
     "request",

@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Spend",
-  "description": "Money, going",
+  "description": "Spend — money going out, the outflow and the burn over a period",
   "tags": [
     "cost",
     "outflow",

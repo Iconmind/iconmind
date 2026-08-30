@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "observability",
   "name": "SLA",
-  "description": "The promise with a signature on it",
+  "description": "An SLA — the service level agreement, a promise with a signature on it",
   "tags": [
     "agreement",
     "contract",

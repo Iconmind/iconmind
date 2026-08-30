@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "dashboard",
   "name": "Export report",
-  "description": "Take the numbers with you",
+  "description": "Export report — take the numbers with you as a CSV or a download",
   "tags": [
     "download",
     "csv",

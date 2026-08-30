@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "reflection",
   "name": "Rejection",
-  "description": "That step did not pass",
+  "description": "Rejection — that step or sample did not pass and was discarded",
   "tags": [
     "refuse",
     "fail",

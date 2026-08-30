@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Safe run",
-  "description": "A play button beside a shield — a run inside its guardrails",
+  "description": "A play button beside a shield — a run kept inside its guardrails from start to end",
   "tags": [
     "run",
     "safe",

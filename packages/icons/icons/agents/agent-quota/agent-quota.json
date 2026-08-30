@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "multi-agent",
   "name": "Agent quota",
-  "description": "This many, and no more",
+  "description": "An agent quota — this many agents and no more, a cap on seats",
   "tags": [
     "limit",
     "cap",

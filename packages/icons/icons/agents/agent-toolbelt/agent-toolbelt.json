@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "tool-use",
   "name": "Agent toolbelt",
-  "description": "The tools it carries everywhere",
+  "description": "An agent toolbelt — the kit of tools an agent carries everywhere",
   "tags": [
     "equipment",
     "carried",

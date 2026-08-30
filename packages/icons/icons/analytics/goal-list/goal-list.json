@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Goal list",
-  "description": "A target beside a list — the goals being tracked",
+  "description": "A target beside a list — the goals and objectives currently being tracked",
   "tags": [
     "goals",
     "list",

@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "End-to-end test",
-  "description": "The whole way through, checked",
+  "description": "An end-to-end test — the whole user journey checked from start to finish",
   "tags": [
     "journey",
     "full",

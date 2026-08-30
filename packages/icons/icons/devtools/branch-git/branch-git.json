@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "version-control",
   "name": "Branch",
-  "description": "A line of work split off from another",
+  "description": "A git branch — a line of work split off from another so changes can be made in isolation",
   "tags": [
     "git",
     "fork",

@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "segment",
   "name": "Cohort",
-  "description": "Everyone who started the same week",
+  "description": "A cohort — everyone who started the same week, tracked as they age",
   "tags": [
     "group",
     "aging",

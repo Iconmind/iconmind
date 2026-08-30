@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Attention mask",
-  "description": "You may not look ahead",
+  "description": "An attention mask — you may not look ahead, the causal triangle that hides future tokens",
   "tags": [
     "causal",
     "triangle",

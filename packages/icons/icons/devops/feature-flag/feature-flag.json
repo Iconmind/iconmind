@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "release",
   "name": "Feature flag",
-  "description": "On for some, off for the rest",
+  "description": "A feature flag — a toggle that is on for some users and off for the rest",
   "tags": [
     "toggle",
     "gradual",

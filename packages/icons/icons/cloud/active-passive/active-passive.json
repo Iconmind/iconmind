@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "Active-passive",
-  "description": "One serves; one waits its turn",
+  "description": "Active-passive — one site serves while the other waits its turn as a spare",
   "tags": [
     "standby",
     "primary",

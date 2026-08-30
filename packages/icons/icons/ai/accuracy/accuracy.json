@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "evaluation",
   "name": "Accuracy",
-  "description": "How often it gets it right",
+  "description": "Accuracy — how often the model gets it right, hits on target",
   "tags": [
     "correct",
     "hit",

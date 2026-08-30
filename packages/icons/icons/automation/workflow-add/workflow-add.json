@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "New workflow",
-  "description": "Start a flow from nothing",
+  "description": "New workflow — start a flow from nothing with an empty canvas",
   "tags": [
     "create",
     "new",

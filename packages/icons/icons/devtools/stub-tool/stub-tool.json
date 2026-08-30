@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Stub",
-  "description": "Looks like the tool; does nothing",
+  "description": "A stub — looks like the tool but does nothing, a hollow stand-in for tests",
   "tags": [
     "fake",
     "test",

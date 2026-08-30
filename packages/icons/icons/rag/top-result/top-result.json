@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "ranking",
   "name": "Top result",
-  "description": "The one that won",
+  "description": "The top result — the one that won first place in the ranking",
   "tags": [
     "first",
     "best",

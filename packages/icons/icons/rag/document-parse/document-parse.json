@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "ingestion",
   "name": "Document parse",
-  "description": "Reading the shape out of a file",
+  "description": "Document parsing — reading the structure out of a file and converting it to usable data",
   "tags": [
     "structure",
     "read",

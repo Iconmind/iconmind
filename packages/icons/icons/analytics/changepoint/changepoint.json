@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "chart",
   "name": "Changepoint",
-  "description": "The exact moment it stopped being the old normal",
+  "description": "A changepoint — the exact moment the series stopped being the old normal",
   "tags": [
     "shift",
     "kink",

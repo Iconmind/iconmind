@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Role",
-  "description": "What this person is here to do",
+  "description": "A role — what this person or account is here to do, a badge that carries permissions",
   "tags": [
     "group",
     "badge",

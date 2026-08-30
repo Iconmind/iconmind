@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Redo",
-  "description": "Do it again after all",
+  "description": "Redo — do it again after all, step forward through history after an undo",
   "tags": [
     "forward",
     "repeat",

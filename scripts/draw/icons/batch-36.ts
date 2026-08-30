@@ -13,21 +13,21 @@ export const BATCH_36: Icon[] = [
 
   {
     slug: "scale-up", category: "cloud", subcategory: "compute",
-    name: "Scale up", description: "Give it more",
+    name: "Scale up", description: "Scale up — give it more capacity, grow to bigger or more instances",
     tags: ["grow", "bigger", "more"], family: "window",
     aliases: [], keywords: ["scale out", "add capacity", "bigger instance", "grow", "more replicas"],
     shapes: [rect(2, 4, 20, 16, 2), poly([[7, 17], [17, 7]]), poly([[13, 7], [17, 7], [17, 11]])],
   },
   {
     slug: "scale-down", category: "cloud", subcategory: "compute",
-    name: "Scale down", description: "Give it less",
+    name: "Scale down", description: "Scale down — give it less capacity, shrink to smaller or fewer instances",
     tags: ["shrink", "smaller", "less"], family: "window",
     aliases: [], keywords: ["scale in", "reduce capacity", "smaller instance", "shrink", "fewer"],
     shapes: [rect(2, 4, 20, 16, 2), poly([[17, 7], [7, 17]]), poly([[7, 13], [7, 17], [11, 17]])],
   },
   {
     slug: "provision", category: "cloud", subcategory: "compute",
-    name: "Provision", description: "Make the thing exist",
+    name: "Provision", description: "Provision — make the resource exist, spin it up and allocate it",
     tags: ["create", "spin-up", "allocate"], family: "window",
     aliases: [], keywords: ["spin up", "terraform", "allocate", "create resource", "bootstrap"],
     shapes: [rect(2, 4, 20, 16, 2), col(12, 8, 16), row(12, 8, 16)],
@@ -37,14 +37,14 @@ export const BATCH_36: Icon[] = [
 
   {
     slug: "sandbox", category: "security", subcategory: "policy",
-    name: "Sandbox", description: "Somewhere it cannot reach out of",
+    name: "Sandbox", description: "A sandbox — an isolated space something can run in without reaching out",
     tags: ["isolated", "contained", "safe"], family: "window",
     aliases: [], keywords: ["isolation", "jail", "contained", "untrusted code", "vm boundary"],
     shapes: [rect(2, 2, 20, 20, 2), rect(7, 7, 10, 10, 2)],
   },
   {
     slug: "quarantine", category: "security", subcategory: "threat",
-    name: "Quarantine", description: "Held where it can do no harm",
+    name: "Quarantine", description: "Quarantine — held apart where it can do no harm, flagged and isolated",
     tags: ["isolate", "held", "flagged"], family: "window",
     aliases: [], keywords: ["isolated", "held", "malware quarantine", "flagged", "detained"],
     shapes: [
@@ -55,7 +55,7 @@ export const BATCH_36: Icon[] = [
   },
   {
     slug: "purge", category: "data", subcategory: "storage",
-    name: "Purge", description: "All of it, gone",
+    name: "Purge", description: "Purge — all of it gone, wiped and emptied completely in one action",
     tags: ["wipe", "delete-all", "empty"], family: "figure",
     aliases: [], keywords: ["wipe", "delete everything", "truncate", "empty the store", "erase"],
     shapes: [
@@ -68,21 +68,21 @@ export const BATCH_36: Icon[] = [
 
   {
     slug: "prompt-chain", category: "ai", subcategory: "prompt",
-    name: "Prompt chain", description: "One prompt feeding the next",
+    name: "Prompt chain", description: "A prompt chain — one prompt's output feeding the next in a linked sequence",
     tags: ["sequence", "steps", "linked"], family: "figure",
     aliases: [], keywords: ["chained prompts", "multi-step", "sequential", "pipeline of prompts"],
     shapes: [rect(2, 3, 10, 8, 2), rect(12, 13, 10, 8, 2), poly([[10, 11], [14, 15]])],
   },
   {
     slug: "prompt-library", category: "ai", subcategory: "prompt",
-    name: "Prompt library", description: "The ones worth keeping",
+    name: "Prompt library", description: "A prompt library — the prompts worth keeping, saved on a shelf to reuse",
     tags: ["saved", "shelf", "collection"], family: "window",
     aliases: [], keywords: ["saved prompts", "templates", "collection", "reusable", "shelf"],
     shapes: [rect(2, 4, 20, 16, 2), col(8, 4, 17), col(13, 4, 17), col(18, 4, 17), row(17, 2, 22)],
   },
   {
     slug: "scratchpad", category: "agents", subcategory: "reflection",
-    name: "Scratchpad", description: "Working-out the answer does not include",
+    name: "Scratchpad", description: "A scratchpad — the rough working-out the final answer does not include",
     tags: ["working", "rough", "notes"], family: "window",
     aliases: [], keywords: ["working out", "chain of thought", "rough notes", "hidden reasoning"],
     // A zigzag in a box is a chart. Working that gets struck through is not.
@@ -93,21 +93,21 @@ export const BATCH_36: Icon[] = [
 
   {
     slug: "reasoning-model", category: "ai", subcategory: "model",
-    name: "Reasoning model", description: "One that works through it in steps",
+    name: "Reasoning model", description: "A reasoning model — one that thinks through a problem in deliberate steps before answering",
     tags: ["thinking", "steps", "deliberate"], family: "machine",
     aliases: [], keywords: ["chain of thought", "o1", "thinking model", "deliberate", "steps"],
     shapes: [machine(), poly([[8, 15], [11, 15], [11, 12], [14, 12], [14, 9], [17, 9]])],
   },
   {
     slug: "refusal", category: "ai", subcategory: "safety",
-    name: "Refusal", description: "It will not do that",
+    name: "Refusal", description: "A refusal — the model declined the request, it will not do that",
     tags: ["declined", "no", "blocked"], family: "machine",
     aliases: [], keywords: ["declined", "will not answer", "policy refusal", "blocked", "no"],
     shapes: [machine(), row(12, 8, 16)],
   },
   {
     slug: "router-agent", category: "agents", subcategory: "multi-agent",
-    name: "Router agent", description: "The one that decides who gets it",
+    name: "Router agent", description: "A router agent — the dispatcher that decides which agent or model gets the request",
     tags: ["dispatch", "choose", "route"], family: "figure",
     aliases: [], keywords: ["dispatcher", "route to agent", "triage", "choose handler", "delegate"],
     shapes: [disc(6, 12, 3), row(12, 9, 14), poly([[14, 12], [19, 7]]), poly([[14, 12], [19, 17]])],
@@ -117,14 +117,14 @@ export const BATCH_36: Icon[] = [
 
   {
     slug: "red-team", category: "security", subcategory: "ai-security",
-    name: "Red team", description: "Attacking it before somebody else does",
+    name: "Red team", description: "Red team — attacking your own system before somebody else does, adversarial probing",
     tags: ["attack", "probe", "adversarial"], family: "shield",
     aliases: [], keywords: ["adversarial testing", "pen test", "probe", "jailbreak attempt"],
     shapes: [shield(), poly([[4, 20], [16, 8]]), poly([[12, 8], [16, 8], [16, 12]])],
   },
   {
     slug: "rbac", category: "security", subcategory: "auth",
-    name: "Role-based access", description: "What this kind of person may do",
+    name: "Role-based access", description: "Role-based access control — what a kind of person may do, granted by role",
     tags: ["roles", "grants", "who"], family: "figure",
     aliases: [], keywords: ["roles", "permissions", "grants", "least privilege", "iam"],
     shapes: [shield(), disc(12, 8, 2), arc(12, 14, 3, 180, 360)],
@@ -134,28 +134,28 @@ export const BATCH_36: Icon[] = [
 
   {
     slug: "rebase", category: "devtools", subcategory: "version-control",
-    name: "Rebase", description: "The branch, replayed somewhere else",
+    name: "Rebase", description: "Rebase — a branch's commits replayed on top of a different base",
     tags: ["replay", "move", "history"], family: "figure",
     aliases: [], keywords: ["git rebase", "replay commits", "linear history", "move branch"],
     shapes: [col(5, 4, 20), poly([[5, 14], [11, 8], [19, 8]]), poly([[16, 5], [19, 8], [16, 11]])],
   },
   {
     slug: "refactor", category: "devtools", subcategory: "code",
-    name: "Refactor", description: "Same behaviour, different shape",
+    name: "Refactor", description: "Refactor — same behaviour, different shape, code restructured and tidied",
     tags: ["reshape", "tidy", "restructure"], family: "figure",
     aliases: [], keywords: ["restructure", "tidy up", "extract method", "no behaviour change"],
     shapes: [rect(6, 6, 12, 12, 2), poly([[3, 9], [3, 3], [9, 3]]), poly([[21, 15], [21, 21], [15, 21]])],
   },
   {
     slug: "regression-test", category: "devtools", subcategory: "testing",
-    name: "Regression test", description: "Proof the old thing still works",
+    name: "Regression test", description: "A regression test — proof that the old thing still works after a change",
     tags: ["still-passes", "guard", "suite"], family: "page",
     aliases: [], keywords: ["did not break", "suite", "guard", "snapshot test", "still passes"],
     shapes: [page(), poly([[8, 10], [10, 12], [15, 7]]), poly([[8, 17], [10, 19], [15, 14]])],
   },
   {
     slug: "replay", category: "devtools", subcategory: "debug",
-    name: "Replay", description: "Run it again from what was recorded",
+    name: "Replay", description: "Replay — run it again from what was recorded, exactly as it happened",
     tags: ["rerun", "record", "again"], family: "orbit",
     aliases: [], keywords: ["rerun", "time travel", "from the log", "reproduce", "playback"],
     shapes: [...cycle(), poly([[10, 9], [13, 12], [10, 15]], true)],
@@ -165,14 +165,14 @@ export const BATCH_36: Icon[] = [
 
   {
     slug: "schema", category: "data", subcategory: "quality",
-    name: "Schema", description: "The shape the data has to have",
+    name: "Schema", description: "A schema — the shape the data has to have, its tables, fields and types",
     tags: ["structure", "tables", "types"], family: "figure",
     aliases: [], keywords: ["table shape", "columns", "types", "ddl", "structure"],
     shapes: [rect(2, 3, 20, 7, 2), poly([[12, 10], [12, 13]]), rect(2, 13, 20, 7, 2)],
   },
   {
     slug: "rack", category: "cloud", subcategory: "compute",
-    name: "Rack", description: "Machines stacked in a cabinet",
+    name: "Rack", description: "A rack — machines stacked in a datacentre cabinet, one above the other",
     tags: ["cabinet", "datacentre", "shelf"], family: "window",
     aliases: [], keywords: ["server rack", "datacentre", "1u", "cabinet", "on premise"],
     shapes: [
@@ -182,28 +182,28 @@ export const BATCH_36: Icon[] = [
   },
   {
     slug: "sdk", category: "devtools", subcategory: "package",
-    name: "SDK", description: "The tools that come in the box",
+    name: "SDK", description: "An SDK — the tools, libraries and docs that come in the box for building on a platform",
     tags: ["kit", "library", "bundle"], family: "window",
     aliases: [], keywords: ["client library", "toolkit", "bindings", "package", "developer kit"],
     shapes: [rect(2, 5, 20, 14, 2), col(8, 9, 15), col(12, 9, 15), col(16, 9, 15)],
   },
   {
     slug: "quota", category: "cloud", subcategory: "cost",
-    name: "Quota", description: "The most you are allowed",
+    name: "Quota", description: "A quota — the most you are allowed, a ceiling on usage before it is refused",
     tags: ["limit", "ceiling", "cap"], family: "meter",
     aliases: [], keywords: ["hard limit", "cap", "allowance", "service limit", "ceiling"],
     shapes: [rect(2, 9, 16, 6, 3), col(21, 5, 19)],
   },
   {
     slug: "rollout", category: "devops", subcategory: "release",
-    name: "Rollout", description: "To a few, then to more, then to all",
+    name: "Rollout", description: "A rollout — to a few users, then more, then everyone, a staged ramp",
     tags: ["gradual", "staged", "ramp"], family: "chart",
     aliases: [], keywords: ["staged rollout", "ramp", "percentage", "progressive delivery"],
     shapes: [row(7, 3, 9), row(12, 3, 15), row(17, 3, 21)],
   },
   {
     slug: "scorecard", category: "analytics", subcategory: "dashboard",
-    name: "Scorecard", description: "How each thing did, on one card",
+    name: "Scorecard", description: "A scorecard — how each thing did, graded and summarised on one card",
     tags: ["results", "graded", "summary"], family: "window",
     aliases: [], keywords: ["results", "graded", "summary", "report card", "checks"],
     shapes: [

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Model fork",
-  "description": "Take the weights and go your own way",
+  "description": "A model fork — take the weights and go your own way with a diverging fine-tune",
   "tags": [
     "diverge",
     "finetune",

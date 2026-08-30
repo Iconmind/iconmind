@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "Scale to zero",
-  "description": "Nobody asked, so nothing runs",
+  "description": "Scale to zero — nobody asked, so nothing runs and nothing is billed",
   "tags": [
     "idle",
     "zero",

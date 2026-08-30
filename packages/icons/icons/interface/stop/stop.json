@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "Stop",
-  "description": "End it now",
+  "description": "Stop — end it now, halt playback or cancel a running process",
   "tags": [
     "end",
     "halt",

@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "threat",
   "name": "Shield alert",
-  "description": "The policy caught something",
+  "description": "Shield alert — the safety policy caught something, a risk or a violation to review",
   "tags": [
     "risk",
     "violation",

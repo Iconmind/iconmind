@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "transform",
   "name": "Mapping",
-  "description": "Each of these to one of those",
+  "description": "A mapping — each of these matched to one of those, a translation between sets",
   "tags": [
     "pairs",
     "translate",

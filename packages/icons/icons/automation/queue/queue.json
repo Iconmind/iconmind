@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "Queue",
-  "description": "Work waiting its turn",
+  "description": "A queue — work waiting its turn in line, a backlog of pending jobs or messages",
   "tags": [
     "backlog",
     "pending",

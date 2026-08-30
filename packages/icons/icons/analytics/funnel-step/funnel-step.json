@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "segment",
   "name": "Funnel step",
-  "description": "One stage on the way through",
+  "description": "A funnel step — one stage on the way through a conversion funnel",
   "tags": [
     "stage",
     "narrow",

@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "ci-cd",
   "name": "Pipeline run",
-  "description": "This stage is going",
+  "description": "Pipeline run — this stage of the build is going, started and in progress",
   "tags": [
     "running",
     "started",

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "KV cache",
-  "description": "What the model already worked out",
+  "description": "The KV cache — attention keys and values the model already worked out, reused for speed",
   "tags": [
     "reuse",
     "attention",

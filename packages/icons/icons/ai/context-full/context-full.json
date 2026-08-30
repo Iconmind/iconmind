@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "context",
   "name": "Context full",
-  "description": "There is no room left in the window",
+  "description": "Context full — there is no room left in the model's window for more tokens",
   "tags": [
     "limit",
     "capacity",

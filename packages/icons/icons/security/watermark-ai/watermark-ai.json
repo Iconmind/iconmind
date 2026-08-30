@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Watermark",
-  "description": "Signed invisibly, in the words themselves",
+  "description": "An AI watermark — content signed invisibly in the words themselves for provenance",
   "tags": [
     "mark",
     "hidden",

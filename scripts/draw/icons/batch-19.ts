@@ -22,7 +22,7 @@ export const BATCH_19: Icon[] = [
 
   {
     slug: "mcp-prompt-add", category: "mcp", subcategory: "prompt",
-    name: "MCP prompt add", description: "Offer another prompt template",
+    name: "MCP prompt add", description: "MCP prompt add — expose another prompt template from a server",
     tags: ["new", "expose", "register"], family: "window",
     aliases: [], keywords: ["new template", "register prompt", "publish", "expose"],
     // A unit below the canvas centre: the chamfer eats the panel's top left, and a mark on
@@ -31,7 +31,7 @@ export const BATCH_19: Icon[] = [
   },
   {
     slug: "mcp-prompt-list", category: "mcp", subcategory: "prompt",
-    name: "MCP prompt list", description: "Every template this server provides",
+    name: "MCP prompt list", description: "MCP prompt list — every prompt template this server provides",
     tags: ["catalogue", "available", "index"], family: "window",
     aliases: [], keywords: ["available prompts", "slash commands", "catalog", "menu"],
     shapes: [
@@ -44,14 +44,14 @@ export const BATCH_19: Icon[] = [
 
   {
     slug: "memory-read", category: "agents", subcategory: "memory",
-    name: "Memory read", description: "Fetch what was stored",
+    name: "Memory read", description: "Memory read — fetch what an agent stored earlier and bring it back into context",
     tags: ["recall", "load", "get"], family: "window",
     aliases: [], keywords: ["load", "retrieve", "fetch state", "lookup", "recall"],
     shapes: [panel(), col(9, 9, 15), col(13, 9, 15), poly([[16, 10], [18, 12], [16, 14]])],
   },
   {
     slug: "memory-write", category: "agents", subcategory: "memory",
-    name: "Memory write", description: "Put something away for later",
+    name: "Memory write", description: "Memory write — put something away in an agent's memory for later",
     tags: ["store", "save", "commit"], family: "window",
     aliases: [], keywords: ["persist", "save state", "record", "commit"],
     shapes: [panel(), col(9, 9, 15), col(13, 9, 15), poly([[18, 10], [16, 12], [18, 14]])],
@@ -61,7 +61,7 @@ export const BATCH_19: Icon[] = [
 
   {
     slug: "keyword-search", category: "rag", subcategory: "retrieval",
-    name: "Keyword search", description: "Find the words themselves",
+    name: "Keyword search", description: "Keyword search — find the literal words themselves, exact text matching",
     tags: ["literal", "exact", "text"], family: "magnifier",
     aliases: ["full-text"], keywords: ["bm25", "lexical", "exact match", "grep", "tf-idf"],
     // Two lines behind the lens: the text itself. `zoom-out` has one line there and means
@@ -70,7 +70,7 @@ export const BATCH_19: Icon[] = [
   },
   {
     slug: "hybrid-search", category: "rag", subcategory: "retrieval",
-    name: "Hybrid search", description: "Words and meaning together",
+    name: "Hybrid search", description: "Hybrid search — keywords and meaning combined, lexical and vector results fused",
     tags: ["combined", "fusion", "both"], family: "magnifier",
     aliases: [], keywords: ["rrf", "fusion", "lexical plus vector", "combined", "rerank"],
     // `keyword-search`'s line and `semantic-search`'s diamond, in the same lens. The whole
@@ -84,7 +84,7 @@ export const BATCH_19: Icon[] = [
 
   {
     slug: "histogram", category: "analytics", subcategory: "chart",
-    name: "Histogram", description: "How the values are spread",
+    name: "Histogram", description: "A histogram — how the values are spread across bins, the shape of a distribution",
     tags: ["distribution", "bins", "spread"], family: "axes",
     aliases: ["distribution"], keywords: ["bins", "frequency", "spread", "normal", "buckets"],
     // Rises and falls. `chart-bar` compares three separate things; a histogram is one thing
@@ -96,7 +96,7 @@ export const BATCH_19: Icon[] = [
   },
   {
     slug: "chart-donut", category: "analytics", subcategory: "chart",
-    name: "Donut chart", description: "Parts of a whole, with the middle free",
+    name: "Donut chart", description: "A donut chart — parts of a whole shown as a ring with the middle left free",
     tags: ["ring", "share", "proportion"], family: "orbit",
     aliases: ["donut"], keywords: ["proportion", "share", "ring chart", "breakdown"],
     // The cut runs from the outer rim to the inner one and stops. `chart-pie`'s two cuts
@@ -105,7 +105,7 @@ export const BATCH_19: Icon[] = [
   },
   {
     slug: "flamegraph", category: "devops", subcategory: "observability",
-    name: "Flame graph", description: "Where the time actually went",
+    name: "Flame graph", description: "A flame graph — where the time actually went, stack by stack in a profile",
     tags: ["profile", "stack", "cpu"], family: "rails",
     aliases: ["profile"], keywords: ["profiler", "stack", "cpu time", "hot path", "perf"],
     // Wide at the top and narrowing down, because a flame graph is read from the root.
@@ -117,7 +117,7 @@ export const BATCH_19: Icon[] = [
 
   {
     slug: "gateway", category: "cloud", subcategory: "network",
-    name: "Gateway", description: "The one way in",
+    name: "Gateway", description: "A gateway — the one way in, the entry point through which requests pass",
     tags: ["entry", "door", "ingress"], family: "window",
     aliases: ["ingress"], keywords: ["api gateway", "entry point", "proxy", "ingress", "door"],
     shapes: [
@@ -127,7 +127,7 @@ export const BATCH_19: Icon[] = [
   },
   {
     slug: "intrusion", category: "security", subcategory: "threat",
-    name: "Intrusion", description: "Something got through",
+    name: "Intrusion", description: "An intrusion — something unauthorised got through, a breach or an attack",
     tags: ["breach", "attack", "unauthorised"], family: "rails",
     aliases: [], keywords: ["breach", "unauthorised access", "attack", "compromise"],
     // The arrow crosses both walls. `gateway` sends its arrow through a door; this one goes
@@ -138,7 +138,7 @@ export const BATCH_19: Icon[] = [
   },
   {
     slug: "redact", category: "security", subcategory: "compliance",
-    name: "Redact", description: "Blacked out",
+    name: "Redact", description: "Redact — black out sensitive text so it cannot be read by anyone else",
     tags: ["hide", "censor", "mask"], family: "rails",
     aliases: ["censor"], keywords: ["mask", "pii", "anonymise", "black bar", "obscure"],
     // A line of text with the middle one covered rather than removed. Removed, the drawing
@@ -150,7 +150,7 @@ export const BATCH_19: Icon[] = [
 
   {
     slug: "speech-to-text", category: "ai", subcategory: "multimodal",
-    name: "Speech to text", description: "What was said, written down",
+    name: "Speech to text", description: "Speech to text — what was said, transcribed into written words",
     tags: ["transcribe", "voice", "dictate"], family: "figure",
     aliases: ["transcribe"], keywords: ["asr", "whisper", "dictation", "captions", "voice input"],
     shapes: [
@@ -160,7 +160,7 @@ export const BATCH_19: Icon[] = [
   },
   {
     slug: "image-gen", category: "ai", subcategory: "multimodal",
-    name: "Image generation", description: "A picture made rather than taken",
+    name: "Image generation", description: "Image generation — a picture made by a model rather than taken by a camera",
     tags: ["generate", "diffusion", "create"], family: "window",
     aliases: [], keywords: ["diffusion", "text to image", "midjourney", "render", "create"],
     // `image`'s frame and horizon with the sun replaced by a diamond. The sun means a
@@ -173,7 +173,7 @@ export const BATCH_19: Icon[] = [
   },
   {
     slug: "caption", category: "interface", subcategory: "media",
-    name: "Caption", description: "Words over the picture",
+    name: "Caption", description: "A caption — words placed over or under a picture, a subtitle or a label",
     tags: ["subtitle", "text", "overlay"], family: "window",
     aliases: ["subtitle"], keywords: ["subtitles", "cc", "closed captions", "overlay", "srt"],
     shapes: [frame(2, 4, 20, 16, 3, { gap: 4 }), row(13, 6, 18), row(16.5, 6, 13)],
@@ -183,7 +183,7 @@ export const BATCH_19: Icon[] = [
 
   {
     slug: "switch-case", category: "automation", subcategory: "condition",
-    name: "Switch", description: "Many ways out, not two",
+    name: "Switch", description: "A switch — many ways out rather than two, routing to a branch by case",
     tags: ["branch", "cases", "route"], family: "lattice",
     aliases: [], keywords: ["case", "match", "route", "dispatch", "when"],
     // `condition` has two exits because a condition is yes or no. Three is the smallest
@@ -195,14 +195,14 @@ export const BATCH_19: Icon[] = [
   },
   {
     slug: "distil", category: "ai", subcategory: "training",
-    name: "Distillation", description: "A smaller model taught by a bigger one",
+    name: "Distillation", description: "Distillation — a smaller student model taught to imitate a bigger teacher",
     tags: ["compress", "teacher", "student"], family: "machine",
     aliases: ["distillation"], keywords: ["teacher student", "compress", "shrink model", "kd"],
     shapes: [rect(2, 3, 9, 9, 2), poly([[11, 12], [14, 15]]), rect(14, 13, 8, 8, 2)],
   },
   {
     slug: "bias", category: "ai", subcategory: "safety",
-    name: "Bias", description: "The scales are not even",
+    name: "Bias", description: "Bias — the scales are not even, a skew in data or outcomes that fairness work corrects",
     tags: ["fairness", "skew", "balance"], family: "figure",
     aliases: [], keywords: ["fairness", "skew", "imbalance", "representation", "ethics"],
     // A balance, drawn level. Tilting it would say more, and every tilt available here is

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Label removed",
-  "description": "A label with an X beside it — a tag taken off",
+  "description": "A label with an X beside it — a tag taken off an item and removed",
   "tags": [
     "label",
     "removed",

@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "cost",
   "name": "Cost filter",
-  "description": "A coin beside a funnel — filter spending by service or tag",
+  "description": "A coin beside a funnel — filter spending by service, project or tag",
   "tags": [
     "cost",
     "filter",

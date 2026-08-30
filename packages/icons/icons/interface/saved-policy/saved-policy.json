@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "file",
   "name": "Saved policy",
-  "description": "A bookmark beside a shield — a policy saved for reuse",
+  "description": "A bookmark beside a shield — a policy saved for reuse as a template",
   "tags": [
     "policy",
     "saved",

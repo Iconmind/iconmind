@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "communication",
   "name": "Send back",
-  "description": "Return it to whoever sent it",
+  "description": "Send back — return it to whoever sent it, bounce or reject the item",
   "tags": [
     "return",
     "bounce",

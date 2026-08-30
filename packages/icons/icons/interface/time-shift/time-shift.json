@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "time",
   "name": "Time shift",
-  "description": "A clock with an arrow moving on — shift a schedule forward",
+  "description": "A clock with an arrow moving on — shift a schedule forward to a later time",
   "tags": [
     "shift",
     "reschedule",

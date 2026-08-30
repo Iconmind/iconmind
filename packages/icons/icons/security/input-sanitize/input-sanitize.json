@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Sanitise input",
-  "description": "Scrubbed before the model sees it",
+  "description": "Sanitise input — scrub what comes in before the model sees it",
   "tags": [
     "clean",
     "inbound",

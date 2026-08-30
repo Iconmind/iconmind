@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "file",
   "name": "Image attachment",
-  "description": "A picture sent with the message",
+  "description": "An image attachment — a picture sent along with the message as a file",
   "tags": [
     "photo",
     "upload",

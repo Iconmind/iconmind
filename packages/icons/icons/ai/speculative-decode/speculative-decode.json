@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Speculative decoding",
-  "description": "A draft races ahead, the model verifies",
+  "description": "Speculative decoding — a small draft model races ahead and the big model verifies its tokens",
   "tags": [
     "draft",
     "fast",

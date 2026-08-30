@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "editor",
   "name": "Inline suggestion",
-  "description": "What it thinks you were about to type",
+  "description": "An inline suggestion — ghost text for what it thinks you were about to type",
   "tags": [
     "ghost",
     "completion",

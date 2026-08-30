@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "Node drain",
-  "description": "Everything leaves, in good order",
+  "description": "Node drain — everything leaves the node in good order before maintenance",
   "tags": [
     "evict",
     "maintain",

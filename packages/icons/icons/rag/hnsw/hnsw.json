@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "vector",
   "name": "HNSW",
-  "description": "A graph you can search in layers",
+  "description": "HNSW — a layered graph index you can search for nearest neighbours quickly",
   "tags": [
     "index",
     "graph",

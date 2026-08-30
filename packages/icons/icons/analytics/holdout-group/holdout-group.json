@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "experiment",
   "name": "Holdout group",
-  "description": "The users the experiment never touches",
+  "description": "A holdout group — the users the experiment never touches, the control kept apart",
   "tags": [
     "control",
     "fence",

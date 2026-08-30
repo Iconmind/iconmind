@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "GPU utilisation",
-  "description": "How much of the card is actually working",
+  "description": "GPU utilisation — how much of the card is actually working, its load",
   "tags": [
     "usage",
     "load",

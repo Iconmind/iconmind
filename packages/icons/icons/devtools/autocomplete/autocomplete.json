@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "editor",
   "name": "Autocomplete",
-  "description": "What it thinks you meant",
+  "description": "Autocomplete — the suggestion of what it thinks you meant to type",
   "tags": [
     "suggest",
     "complete",

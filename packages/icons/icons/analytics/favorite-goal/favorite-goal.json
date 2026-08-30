@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Favourite goal",
-  "description": "A target beside a heart — the goal that matters most",
+  "description": "A target beside a heart — the goal that matters most, marked as a favourite",
   "tags": [
     "goal",
     "favourite",

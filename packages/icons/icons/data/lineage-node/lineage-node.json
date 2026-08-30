@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Lineage node",
-  "description": "This table, in the chain that made it",
+  "description": "A lineage node — this table as one step in the chain that produced it",
   "tags": [
     "provenance",
     "chain",

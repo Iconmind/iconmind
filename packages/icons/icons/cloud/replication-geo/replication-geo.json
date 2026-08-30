@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "region",
   "name": "Geo-replication",
-  "description": "The same data, kept in two places",
+  "description": "Geo-replication — the same data kept in two regions far apart",
   "tags": [
     "regions",
     "copies",

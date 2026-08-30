@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Underfit",
-  "description": "Both curves high, nothing learned yet",
+  "description": "Underfit — both curves stay high, the model has not learned enough yet",
   "tags": [
     "stuck",
     "high",

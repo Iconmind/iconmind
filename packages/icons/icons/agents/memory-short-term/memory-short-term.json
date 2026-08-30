@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "memory",
   "name": "Short-term memory",
-  "description": "What the agent is holding right now",
+  "description": "Short-term memory — what an agent is holding right now, within the current session",
   "tags": [
     "working",
     "current",

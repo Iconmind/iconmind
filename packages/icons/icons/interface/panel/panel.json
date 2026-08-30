@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Panel",
-  "description": "One region with a job",
+  "description": "A panel — one region of the screen with a job, a pane or a side area",
   "tags": [
     "pane",
     "region",

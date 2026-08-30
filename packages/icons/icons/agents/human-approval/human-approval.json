@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "communication",
   "name": "Human approval",
-  "description": "A person has to say yes first",
+  "description": "Human approval — a gate where a person has to say yes before an agent continues",
   "tags": [
     "review",
     "consent",

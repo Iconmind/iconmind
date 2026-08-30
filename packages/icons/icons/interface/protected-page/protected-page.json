@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Protected page",
-  "description": "A window with a shield inside — a page behind protection",
+  "description": "A window with a shield inside — a page behind protection that needs permission",
   "tags": [
     "protected",
     "page",

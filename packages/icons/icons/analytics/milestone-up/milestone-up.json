@@ -1,0 +1,36 @@
+{
+  "slug": "milestone-up",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Milestone up",
+  "description": "A flag beside a double chevron rising — a milestone moved to a higher target",
+  "tags": [
+    "milestone",
+    "raise",
+    "up"
+  ],
+  "keywords": [
+    "raise milestone",
+    "stretch milestone",
+    "milestone increased"
+  ],
+  "family": "flag",
+  "shapes": [
+    {
+      "d": "M4 3V21",
+      "closed": false
+    },
+    {
+      "d": "M4 3L13 3L10 6L13 9L4 9",
+      "closed": false
+    },
+    {
+      "d": "M16 13L19 10L22 13",
+      "closed": false
+    },
+    {
+      "d": "M16 17.5L19 14.5L22 17.5",
+      "closed": false
+    }
+  ]
+}

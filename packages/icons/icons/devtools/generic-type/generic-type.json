@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "code",
   "name": "Generic",
-  "description": "Works for whatever you put in the brackets",
+  "description": "A generic — code that works for whatever type you put in the angle brackets",
   "tags": [
     "types",
     "template",

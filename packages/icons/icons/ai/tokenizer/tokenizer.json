@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "token",
   "name": "Tokenizer",
-  "description": "Splits text into the units a model reads",
+  "description": "A tokenizer that splits text into the subword tokens a language model reads and counts",
   "tags": [
     "split",
     "segment",

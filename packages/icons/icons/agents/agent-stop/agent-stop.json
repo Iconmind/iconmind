@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "lifecycle",
   "name": "Agent stop",
-  "description": "Stop the agent",
+  "description": "Stop an agent — halt a running AI agent before it takes another step",
   "tags": [
     "halt",
     "cancel",

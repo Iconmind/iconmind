@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "state",
   "name": "Info",
-  "description": "Something worth knowing",
+  "description": "Info — something worth knowing, a detail or a note about this",
   "tags": [
     "about",
     "detail",

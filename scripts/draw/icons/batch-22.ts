@@ -15,7 +15,7 @@ export const BATCH_22: Icon[] = [
 
   {
     slug: "data-lake", category: "data", subcategory: "storage",
-    name: "Data lake", description: "Everything, raw, in one place",
+    name: "Data lake", description: "A data lake — everything kept raw and unstructured in one place until it is needed",
     tags: ["raw", "unstructured", "pool"], family: "cylinder",
     aliases: ["lakehouse"], keywords: ["raw storage", "parquet", "s3", "unstructured", "pool"],
     // `storage-bucket`'s cylinder with a surface in it. A bucket holds objects; a lake has
@@ -30,7 +30,7 @@ export const BATCH_22: Icon[] = [
   },
   {
     slug: "aggregate", category: "data", subcategory: "transform",
-    name: "Aggregate", description: "Many rows into one number",
+    name: "Aggregate", description: "Aggregate — roll many rows up into one number, a sum, an average or a count",
     tags: ["sum", "roll-up", "combine"], family: "funnel",
     aliases: ["rollup"], keywords: ["sum", "group by", "count", "roll up", "reduce"],
     shapes: [
@@ -40,7 +40,7 @@ export const BATCH_22: Icon[] = [
   },
   {
     slug: "event-stream", category: "data", subcategory: "streaming",
-    name: "Event stream", description: "Events arriving one after another",
+    name: "Event stream", description: "An event stream — events arriving one after another in an append-only log",
     tags: ["events", "log", "append"], family: "rails",
     aliases: [], keywords: ["kafka", "append-only", "topic", "cdc", "events"],
     // A broken line, not a solid one. `stream`'s three offset runs are a flow; a dashed
@@ -54,7 +54,7 @@ export const BATCH_22: Icon[] = [
   },
   {
     slug: "governance", category: "data", subcategory: "catalog",
-    name: "Governance", description: "The rules the data has to follow",
+    name: "Governance", description: "Data governance — the rules, policies and controls the data has to follow",
     tags: ["policy", "rules", "control"], family: "shield",
     aliases: [], keywords: ["policy", "stewardship", "compliance", "rules", "ownership"],
     shapes: [shield(), row(10, 8, 16), row(14, 8, 14)],
@@ -64,7 +64,7 @@ export const BATCH_22: Icon[] = [
 
   {
     slug: "ci", category: "devops", subcategory: "ci-cd",
-    name: "Continuous integration", description: "Every change built and checked",
+    name: "Continuous integration", description: "Continuous integration — every change built and tested automatically as soon as it lands",
     tags: ["build", "test", "loop"], family: "window",
     aliases: [], keywords: ["pipeline", "build", "test", "github actions", "jenkins"],
     // `repeat`'s loop with a tick in it. The loop says it happens every time and the tick
@@ -73,7 +73,7 @@ export const BATCH_22: Icon[] = [
   },
   {
     slug: "cd", category: "devops", subcategory: "ci-cd",
-    name: "Continuous delivery", description: "Every build on its way out",
+    name: "Continuous delivery", description: "Continuous delivery — every successful build on its way out to a release",
     tags: ["deliver", "release", "loop"], family: "window",
     aliases: [], keywords: ["continuous deployment", "release train", "pipeline", "ship"],
     // The same loop with an arrow leaving instead of a tick. `ci` checks and stops; `cd`
@@ -82,7 +82,7 @@ export const BATCH_22: Icon[] = [
   },
   {
     slug: "canary", category: "devops", subcategory: "release",
-    name: "Canary", description: "One instance on the new version",
+    name: "Canary", description: "A canary release — one instance running the new version so problems show up early",
     tags: ["gradual", "sample", "test"], family: "chain",
     aliases: [], keywords: ["canary release", "gradual rollout", "percentage", "sample"],
     // Two of one shape and one of another. Which one is different matters less than that
@@ -94,7 +94,7 @@ export const BATCH_22: Icon[] = [
   },
   {
     slug: "blue-green", category: "devops", subcategory: "release",
-    name: "Blue-green", description: "Two identical stacks, one of them live",
+    name: "Blue-green", description: "Blue-green deployment — two identical stacks, one live, swapped over at cutover",
     tags: ["swap", "cutover", "parallel"], family: "window",
     aliases: [], keywords: ["cutover", "swap", "zero downtime", "two environments"],
     shapes: [
@@ -104,7 +104,7 @@ export const BATCH_22: Icon[] = [
   },
   {
     slug: "config", category: "devops", subcategory: "infrastructure",
-    name: "Config", description: "The settings, as a file",
+    name: "Config", description: "Config — the settings of a system written down as a file, YAML, JSON or environment",
     tags: ["settings", "yaml", "file"], family: "page",
     aliases: [], keywords: ["yaml", "toml", "env", "dotfile", "settings file"],
     // `settings`' rails on `page()`. Settings on their own are a control panel; on a page
@@ -116,7 +116,7 @@ export const BATCH_22: Icon[] = [
 
   {
     slug: "dns", category: "cloud", subcategory: "network",
-    name: "DNS", description: "Which name points where",
+    name: "DNS", description: "DNS — which domain name points where, the records that resolve names to addresses",
     tags: ["name", "resolve", "record"], family: "figure",
     aliases: [], keywords: ["domain", "record", "a record", "cname", "resolve"],
     // A signpost. Everyone draws this as a globe, and a globe already means the internet
@@ -125,14 +125,14 @@ export const BATCH_22: Icon[] = [
   },
   {
     slug: "cdn", category: "cloud", subcategory: "edge",
-    name: "CDN", description: "Copies of it, close to everyone",
+    name: "CDN", description: "A CDN — copies of your content cached at the edge, close to everyone who asks for it",
     tags: ["edge", "cache", "distributed"], family: "orbit",
     aliases: [], keywords: ["cache", "pop", "edge cache", "distribution", "cloudfront"],
     shapes: [disc(12, 12, 5), disc(4, 6, 2), disc(20, 6, 2), disc(4, 18, 2), disc(20, 18, 2)],
   },
   {
     slug: "private-link", category: "cloud", subcategory: "network",
-    name: "Private link", description: "A connection that never leaves the network",
+    name: "Private link", description: "A private link — a connection between services that never leaves the private network",
     tags: ["private", "peering", "secure"], family: "chain",
     aliases: [], keywords: ["vpc peering", "private endpoint", "internal", "no internet"],
     shapes: [
@@ -141,7 +141,7 @@ export const BATCH_22: Icon[] = [
   },
   {
     slug: "bare-metal", category: "cloud", subcategory: "compute",
-    name: "Bare metal", description: "An actual machine, not a share of one",
+    name: "Bare metal", description: "Bare metal — an actual physical server, dedicated rather than a share of one",
     tags: ["physical", "dedicated", "server"], family: "tower",
     aliases: [], keywords: ["dedicated", "physical", "rack", "colocation", "hardware"],
     // `mcp-server`'s tower without the cut corner. The chamfer is the protocol's claim, so
@@ -150,7 +150,7 @@ export const BATCH_22: Icon[] = [
   },
   {
     slug: "memory-ram", category: "cloud", subcategory: "compute",
-    name: "Memory", description: "How much it can hold at once",
+    name: "Memory", description: "Memory — the RAM modules that decide how much a machine can hold at once",
     tags: ["ram", "module", "capacity"], family: "machine",
     aliases: ["ram"], keywords: ["ram", "gb", "dimm", "capacity", "working set"],
     shapes: [rect(3, 6, 18, 10, 2), col(7, 16, 20), col(12, 16, 20), col(17, 16, 20)],
@@ -160,14 +160,14 @@ export const BATCH_22: Icon[] = [
 
   {
     slug: "access-grant", category: "security", subcategory: "auth",
-    name: "Access granted", description: "You may come through",
+    name: "Access granted", description: "Access granted — you may come through, permission allowed and the door open",
     tags: ["allow", "permit", "open"], family: "window",
     aliases: ["allow"], keywords: ["permit", "authorised", "let in", "approved", "green"],
     shapes: [frame(5, 4, 14, 16, 3, { gap: 3 }), poly([[9, 12], [11, 14], [15, 10]])],
   },
   {
     slug: "access-deny", category: "security", subcategory: "auth",
-    name: "Access denied", description: "You may not",
+    name: "Access denied", description: "Access denied — you may not come through, permission refused",
     tags: ["block", "refuse", "closed"], family: "window",
     aliases: ["deny"], keywords: ["forbidden", "403", "blocked", "refused", "unauthorised"],
     shapes: [
@@ -177,7 +177,7 @@ export const BATCH_22: Icon[] = [
   },
   {
     slug: "anonymise", category: "security", subcategory: "compliance",
-    name: "Anonymise", description: "The person, with the person taken out",
+    name: "Anonymise", description: "Anonymise — strip the personal details out so the person cannot be identified",
     tags: ["mask", "pii", "private"], family: "figure",
     aliases: ["pseudonymise", "privacy"], keywords: ["pii", "mask", "gdpr", "redact", "de-identify"],
     // `user`'s figure with a bar across where the face is. `redact` covers a line of text
@@ -186,7 +186,7 @@ export const BATCH_22: Icon[] = [
   },
   {
     slug: "identity", category: "security", subcategory: "auth",
-    name: "Identity", description: "Who somebody is, on a card",
+    name: "Identity", description: "Identity — who somebody is, their profile and details on an ID card",
     tags: ["profile", "id", "card"], family: "window",
     aliases: ["id"], keywords: ["passport", "profile", "kyc", "credential", "badge"],
     shapes: [

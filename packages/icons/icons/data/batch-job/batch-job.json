@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "orchestration",
   "name": "Batch job",
-  "description": "Work that runs on a schedule, in bulk",
+  "description": "A batch job — work that runs on a schedule in bulk rather than on demand",
   "tags": [
     "scheduled",
     "bulk",

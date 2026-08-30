@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Key vault",
-  "description": "A key beside a padlock — credentials kept in a vault",
+  "description": "A key beside a padlock — credentials kept locked away in a vault",
   "tags": [
     "vault",
     "secrets",

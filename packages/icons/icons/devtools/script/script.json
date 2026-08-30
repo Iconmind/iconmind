@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "terminal",
   "name": "Script",
-  "description": "Commands, saved for later",
+  "description": "A script — commands saved to a file so they can run again later",
   "tags": [
     "file",
     "batch",

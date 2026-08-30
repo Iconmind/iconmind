@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "segment",
   "name": "Retention",
-  "description": "Who is still here later",
+  "description": "Retention — who is still here later, the share of a cohort that stayed",
   "tags": [
     "stayed",
     "kept",

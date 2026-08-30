@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "tool-use",
   "name": "Type",
-  "description": "The caret, and what it has written so far",
+  "description": "Type — the caret and what it has written so far, keyboard input by an agent",
   "tags": [
     "keyboard",
     "input",

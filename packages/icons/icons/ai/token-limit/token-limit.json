@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "token",
   "name": "Token limit",
-  "description": "The ceiling you are not allowed past",
+  "description": "A token limit — the ceiling on tokens a request, a model or a budget is not allowed past",
   "tags": [
     "ceiling",
     "max",

@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "editor",
   "name": "Organise imports",
-  "description": "The jumble, alphabetised",
+  "description": "Organise imports — the jumble of imports sorted, deduplicated and tidied",
   "tags": [
     "sort",
     "tidy",

@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "threat",
   "name": "Security scan",
-  "description": "Looking for what is wrong with it",
+  "description": "A security scan — a sweep looking for vulnerabilities, CVEs and misconfigurations",
   "tags": [
     "sweep",
     "audit",

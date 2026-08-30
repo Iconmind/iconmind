@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "version-control",
   "name": "Git tag",
-  "description": "A commit with a name on it",
+  "description": "A git tag — a commit with a name on it, a pinned version label",
   "tags": [
     "label",
     "version",

@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "vector",
   "name": "ANN search",
-  "description": "Close enough, found fast",
+  "description": "ANN search — approximate nearest neighbours, close enough and found fast",
   "tags": [
     "approx",
     "nearest",

@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "communication",
   "name": "Subscribe agent",
-  "description": "Wake me when something changes",
+  "description": "A subscribe agent — wake me when something changes, an agent listening to a feed",
   "tags": [
     "feed",
     "listen",

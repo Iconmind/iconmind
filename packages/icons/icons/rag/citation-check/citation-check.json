@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "grounding",
   "name": "Citation check",
-  "description": "The quote actually says what it is cited for",
+  "description": "A citation check — the quoted source actually says what it is cited for",
   "tags": [
     "verify",
     "source",

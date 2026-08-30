@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "arrow",
   "name": "External arrow",
-  "description": "It opens somewhere else",
+  "description": "External arrow — it opens somewhere else, in a new tab or another app",
   "tags": [
     "out",
     "new-tab",

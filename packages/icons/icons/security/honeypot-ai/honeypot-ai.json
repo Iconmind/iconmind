@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Honeypot",
-  "description": "The bait knows your name",
+  "description": "A honeypot — bait that knows your name, a decoy that traps an attacker",
   "tags": [
     "trap",
     "decoy",

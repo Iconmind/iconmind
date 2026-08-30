@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Holdout",
-  "description": "Rows the model never gets to see",
+  "description": "A holdout — rows fenced off that the model never gets to see until evaluation",
   "tags": [
     "reserved",
     "fenced",

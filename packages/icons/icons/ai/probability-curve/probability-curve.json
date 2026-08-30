@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Probability curve",
-  "description": "Where the mass of belief sits",
+  "description": "A probability curve — where the mass of belief sits across the possible next tokens",
   "tags": [
     "bell",
     "softmax",

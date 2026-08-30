@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Normalise",
-  "description": "Everything into the same band",
+  "description": "Normalise data — everything scaled into the same band or range",
   "tags": [
     "scale",
     "range",

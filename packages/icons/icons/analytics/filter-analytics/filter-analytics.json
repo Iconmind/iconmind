@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "segment",
   "name": "Analytics filter",
-  "description": "The slice you are looking at",
+  "description": "An analytics filter — the slice of the data you are looking at, a segment narrowed down",
   "tags": [
     "slice",
     "segment",

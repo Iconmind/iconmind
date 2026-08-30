@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "action",
   "name": "Execute",
-  "description": "Do it now",
+  "description": "Execute — do it now, run and invoke the command or the program",
   "tags": [
     "run",
     "invoke",

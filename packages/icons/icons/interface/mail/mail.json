@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "communication",
   "name": "Mail",
-  "description": "A message that waits for you",
+  "description": "Mail — an email or message waiting in an envelope to be read",
   "tags": [
     "email",
     "envelope",

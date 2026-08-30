@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "encryption",
   "name": "Decrypt",
-  "description": "Open it back up",
+  "description": "Decrypt — open encrypted data back up into plain text with the key",
   "tags": [
     "reveal",
     "unlock",

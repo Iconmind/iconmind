@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Transformer block",
-  "description": "Attention, then the thinking layer, stacked",
+  "description": "A transformer block — attention, then the thinking layer, stacked again and again",
   "tags": [
     "layer",
     "attention",

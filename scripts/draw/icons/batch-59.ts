@@ -19,7 +19,7 @@ export const BATCH_59: Icon[] = [
 
   {
     slug: "for-each", category: "automation", subcategory: "workflow",
-    name: "For each", description: "The same steps, once per item",
+    name: "For each", description: "For each — the same steps run once per item in a list, an iteration loop",
     tags: ["loop", "iterate", "items"], family: "rotation",
     aliases: [], keywords: ["for each", "iterate", "loop over items", "map"],
     // The open ring around the items in their row — the loop, and what it
@@ -31,14 +31,14 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "try-block", category: "automation", subcategory: "workflow",
-    name: "Try block", description: "Run it, ready for the worst",
+    name: "Try block", description: "A try block — run the code ready for the worst, guarded so a failure can be caught",
     tags: ["attempt", "guarded", "run"], family: "window",
     aliases: [], keywords: ["try", "attempt", "guarded execution"],
     shapes: [rect(4, 4, 16, 16, 2), poly([[10, 8], [14, 12], [10, 16]], true)],
   },
   {
     slug: "catch-block", category: "automation", subcategory: "workflow",
-    name: "Catch block", description: "Where the failure lands",
+    name: "Catch block", description: "A catch block — where a failure lands and is handled, the safety net",
     tags: ["handle", "error", "net"], family: "window",
     aliases: [], keywords: ["catch", "error handler", "exception"],
     // The open tray, and the alarm falling into it — a closed box with the alert
@@ -50,7 +50,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "finally-block", category: "automation", subcategory: "workflow",
-    name: "Finally block", description: "Runs no matter how it went",
+    name: "Finally block", description: "A finally block — cleanup that runs no matter how the try went",
     tags: ["cleanup", "always", "after"], family: "window",
     aliases: [], keywords: ["finally", "cleanup", "always runs"],
     // The block, and the check after it — below, because finally comes after
@@ -59,7 +59,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "throw-error", category: "automation", subcategory: "workflow",
-    name: "Throw", description: "Out of this block, somebody else's problem",
+    name: "Throw", description: "Throw — eject the error out of this block and make it somebody else's problem",
     tags: ["raise", "eject", "error"], family: "arrow",
     aliases: ["raise-error"], keywords: ["throw", "raise", "exception thrown"],
     // `preempt`'s ejection with the alert as the thing thrown.
@@ -70,7 +70,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "rate-window", category: "automation", subcategory: "trigger",
-    name: "Rate window", description: "This many events fit in the frame",
+    name: "Rate window", description: "A rate window — only this many events fit in the frame of time",
     tags: ["window", "count", "limit"], family: "window",
     aliases: [], keywords: ["rate window", "sliding rate limit", "events per window"],
     shapes: [
@@ -80,7 +80,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "concurrency-limit", category: "automation", subcategory: "trigger",
-    name: "Concurrency limit", description: "Three at once, and the wall says so",
+    name: "Concurrency limit", description: "A concurrency limit — only so many at once, a cap on parallel lanes",
     tags: ["parallel", "cap", "lanes"], family: "figure",
     aliases: [], keywords: ["concurrency limit", "max parallel", "lanes capped"],
     // `agent-quota`'s wall, spoken by lanes of work.
@@ -91,7 +91,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "semaphore", category: "automation", subcategory: "condition",
-    name: "Semaphore", description: "Take a light before you enter",
+    name: "Semaphore", description: "A semaphore — take a signal light before you enter, a lock with a few slots",
     tags: ["lock", "signal", "slots"], family: "figure",
     aliases: [], keywords: ["semaphore", "concurrency permit", "traffic light"],
     shapes: [
@@ -101,7 +101,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "backoff-exponential", category: "automation", subcategory: "schedule",
-    name: "Exponential backoff", description: "Retry later; then much later",
+    name: "Exponential backoff", description: "Exponential backoff — retry later, then much later, doubling the wait each time",
     tags: ["retry", "spacing", "wait"], family: "chart",
     aliases: ["backoff"], keywords: ["exponential backoff", "retry spacing", "cooldown"],
     // The same attempt, at widening intervals along the line.
@@ -112,7 +112,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "scatter-gather", category: "automation", subcategory: "workflow",
-    name: "Scatter-gather", description: "Fan out, then everyone reports back",
+    name: "Scatter-gather", description: "Scatter-gather — fan the work out in parallel, then everyone reports back and the results merge",
     tags: ["fanout", "merge", "parallel"], family: "arrow",
     aliases: [], keywords: ["scatter gather", "fan out fan in", "parallel then join"],
     // Two stations, and the two routes between them — the paths anchor on the
@@ -128,14 +128,14 @@ export const BATCH_59: Icon[] = [
 
   {
     slug: "mcp-batch", category: "mcp", subcategory: "client",
-    name: "MCP batch", description: "Several requests in one envelope",
+    name: "MCP batch", description: "An MCP batch — several requests bundled in one envelope and sent together",
     tags: ["batch", "bundle", "requests"], family: "machine",
     aliases: [], keywords: ["batch requests", "jsonrpc batch", "bundle"],
     shapes: [...server(), poly([[9.5, 6], [7, 6], [7, 14], [9.5, 14]]), row(8.5, 10, 16), row(11.5, 10, 16)],
   },
   {
     slug: "mcp-timeout", category: "mcp", subcategory: "client",
-    name: "MCP timeout", description: "The answer did not come in time",
+    name: "MCP timeout", description: "An MCP timeout — the answer did not come before the deadline expired",
     tags: ["deadline", "slow", "expired"], family: "machine",
     aliases: [], keywords: ["timeout", "request expired", "too slow"],
     // The clock hands where the server's work should be.
@@ -143,7 +143,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "mcp-elicit-confirm", category: "mcp", subcategory: "client",
-    name: "MCP elicit confirm", description: "The user says yes to the form",
+    name: "MCP elicit confirm", description: "MCP elicit confirm — the user says yes to the form the server asked them to fill",
     tags: ["confirm", "consent", "form"], family: "machine",
     aliases: [], keywords: ["elicitation confirm", "user consent", "form accepted"],
     // `elicitation`'s bubble with the answer already in it.
@@ -154,21 +154,21 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "mcp-version", category: "mcp", subcategory: "transport",
-    name: "MCP version", description: "Which dialect both sides agree to speak",
+    name: "MCP version", description: "MCP version — the protocol level both sides negotiate and agree to speak",
     tags: ["protocol", "negotiate", "level"], family: "machine",
     aliases: [], keywords: ["protocol version", "negotiation", "compatibility"],
     shapes: [...server(), poly([[9, 12], [12, 9], [15, 12]]), poly([[9, 16], [12, 13], [15, 16]])],
   },
   {
     slug: "mcp-oauth", category: "mcp", subcategory: "server",
-    name: "MCP OAuth", description: "The server proves who may call it",
+    name: "MCP OAuth", description: "MCP OAuth — the server proves who may call it with a token from an authorisation flow",
     tags: ["auth", "key", "token"], family: "machine",
     aliases: ["mcp-auth"], keywords: ["oauth", "authorization", "mcp auth"],
     shapes: [...server(), disc(9, 10, 2), row(10, 11, 16.5), col(15, 10, 12.5)],
   },
   {
     slug: "mcp-scope", category: "mcp", subcategory: "server",
-    name: "MCP scope", description: "Allowed to do this much, and no more",
+    name: "MCP scope", description: "An MCP scope — allowed to do this much and no more, a narrowed grant of permissions",
     tags: ["permissions", "narrow", "grant"], family: "machine",
     aliases: [], keywords: ["scopes", "granted permissions", "least privilege"],
     // The funnel inside the server — of everything it could do, what it may.
@@ -176,28 +176,28 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "mcp-server-dev", category: "mcp", subcategory: "server",
-    name: "MCP server dev", description: "A server still being written",
+    name: "MCP server dev", description: "MCP server dev — a server still being written and built, not yet published",
     tags: ["develop", "code", "build"], family: "machine",
     aliases: [], keywords: ["build mcp server", "develop", "sdk"],
     shapes: [...server(), poly([[10, 7], [7.5, 9.5], [10, 12]]), poly([[14, 7], [16.5, 9.5], [14, 12]])],
   },
   {
     slug: "mcp-server-test", category: "mcp", subcategory: "server",
-    name: "MCP server test", description: "Run it against a pretend client first",
+    name: "MCP server test", description: "MCP server test — run the server against a pretend client before it goes live",
     tags: ["test", "verify", "run"], family: "machine",
     aliases: [], keywords: ["test mcp server", "inspector run", "verify"],
     shapes: [...server(), poly([[10, 6.5], [14, 10.5], [10, 14.5]], true)],
   },
   {
     slug: "mcp-subscribe", category: "mcp", subcategory: "resource",
-    name: "MCP subscribe", description: "Tell me every time it changes",
+    name: "MCP subscribe", description: "MCP subscribe — tell me every time this changes, a feed of updates",
     tags: ["updates", "watch", "feed"], family: "machine",
     aliases: [], keywords: ["resource subscription", "updates", "watch resource"],
     shapes: [...server(), arc(9, 13, 3, -90, 0), arc(9, 13, 6, -90, 0), disc(9, 13, 1)],
   },
   {
     slug: "mcp-ping", category: "mcp", subcategory: "transport",
-    name: "MCP ping", description: "Still there?",
+    name: "MCP ping", description: "MCP ping — still there? A heartbeat that checks the other side is alive",
     tags: ["heartbeat", "alive", "check"], family: "machine",
     aliases: [], keywords: ["ping", "heartbeat", "keepalive"],
     shapes: [...server(), poly([[6.5, 10], [9.5, 10], [11.5, 8], [15.5, 12], [17.5, 10]])],
@@ -207,7 +207,7 @@ export const BATCH_59: Icon[] = [
 
   {
     slug: "lr-schedule", category: "ai", subcategory: "training",
-    name: "LR schedule", description: "The learning rate, stepped down on plan",
+    name: "LR schedule", description: "An LR schedule — the learning rate stepped down on a plan as training proceeds",
     tags: ["rate", "steps", "decay"], family: "chart",
     aliases: ["learning-rate-schedule"], keywords: ["lr schedule", "step decay", "warmup decay"],
     shapes: [
@@ -217,7 +217,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "grad-flow", category: "ai", subcategory: "training",
-    name: "Gradient flow", description: "The correction, travelling back down",
+    name: "Gradient flow", description: "Gradient flow — the correction travelling back down through the layers in backprop",
     tags: ["backprop", "layers", "down"], family: "figure",
     aliases: [], keywords: ["gradient flow", "backprop", "through layers"],
     shapes: [
@@ -228,7 +228,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "gradient-clip", category: "ai", subcategory: "training",
-    name: "Gradient clip", description: "No single step gets to be that big",
+    name: "Gradient clip", description: "Gradient clipping — no single update step gets to be bigger than the ceiling",
     tags: ["cap", "ceiling", "limit"], family: "chart",
     aliases: [], keywords: ["gradient clipping", "cap gradient", "max norm"],
     // Three updates and the ceiling — the middle one wanted to be taller.
@@ -239,7 +239,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "train-loss", category: "ai", subcategory: "training",
-    name: "Training loss", description: "Down, then flat — that is the whole hope",
+    name: "Training loss", description: "Training loss — down, then flat, the curve every run hopes to draw",
     tags: ["curve", "descent", "converge"], family: "chart",
     aliases: [], keywords: ["training loss", "loss curve down", "convergence"],
     shapes: [
@@ -249,7 +249,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "overfit-gap", category: "ai", subcategory: "training",
-    name: "Overfit gap", description: "Train keeps falling; validation turns away",
+    name: "Overfit gap", description: "The overfit gap — training loss keeps falling while validation turns away",
     tags: ["diverge", "curves", "generalise"], family: "chart",
     aliases: ["train-val-gap"], keywords: ["overfitting gap", "train val divergence"],
     shapes: [
@@ -259,7 +259,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "underfit-gap", category: "ai", subcategory: "training",
-    name: "Underfit", description: "Both curves high, nothing learned yet",
+    name: "Underfit", description: "Underfit — both curves stay high, the model has not learned enough yet",
     tags: ["stuck", "high", "capacity"], family: "chart",
     aliases: [], keywords: ["underfitting", "both curves high", "capacity"],
     shapes: [
@@ -269,7 +269,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "stop-patience", category: "ai", subcategory: "training",
-    name: "Patience", description: "The plateau is on the clock",
+    name: "Patience", description: "Patience — the plateau is on the clock before early stopping ends the run",
     tags: ["early-stop", "wait", "plateau"], family: "figure",
     aliases: ["early-stop-patience"], keywords: ["patience", "early stopping", "plateau timer"],
     shapes: [
@@ -279,7 +279,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "warmup", category: "ai", subcategory: "training",
-    name: "Warmup", description: "Gently up to speed, then hold",
+    name: "Warmup", description: "Warmup — the learning rate ramps gently up to speed, then holds",
     tags: ["ramp", "start", "ease"], family: "chart",
     aliases: ["lr-warmup"], keywords: ["warmup", "ramp up", "ease in"],
     shapes: [
@@ -289,7 +289,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "dropout", category: "ai", subcategory: "training",
-    name: "Dropout", description: "Some neurons sit this batch out",
+    name: "Dropout", description: "Dropout — some neurons sit this batch out at random to regularise the model",
     tags: ["regularise", "holes", "random"], family: "figure",
     aliases: [], keywords: ["dropout", "regularization", "dropped units"],
     // Three layers, and the hole where the dropped units were.
@@ -301,7 +301,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "frozen-layer", category: "ai", subcategory: "training",
-    name: "Frozen layer", description: "This one keeps its weights",
+    name: "Frozen layer", description: "A frozen layer — this layer keeps its weights fixed during transfer learning",
     tags: ["locked", "fixed", "transfer"], family: "figure",
     aliases: [], keywords: ["frozen layer", "locked weights", "no grad"],
     // Two live layers, and the solid one between them that will not move.
@@ -314,7 +314,7 @@ export const BATCH_59: Icon[] = [
 
   {
     slug: "goal-drift", category: "agents", subcategory: "planning",
-    name: "Goal drift", description: "Still moving — just not at the target",
+    name: "Goal drift", description: "Goal drift — the agent is still moving, just not at the target any more",
     tags: ["miss", "wander", "aim"], family: "arrow",
     aliases: [], keywords: ["goal drift", "off target", "objective drift"],
     shapes: [
@@ -324,7 +324,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "plan-tree", category: "agents", subcategory: "planning",
-    name: "Plan tree", description: "One intent, branching into steps",
+    name: "Plan tree", description: "A plan tree — one intent branching into steps and sub-steps an agent will take",
     tags: ["branches", "steps", "decompose"], family: "chain",
     aliases: [], keywords: ["plan tree", "decomposition", "task tree"],
     // `agent-hierarchy`'s orthogonal tree with plan-step capsules for nodes.
@@ -336,7 +336,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "task-queue-agent", category: "agents", subcategory: "execution",
-    name: "Agent task queue", description: "What it will do, in order",
+    name: "Agent task queue", description: "An agent task queue — what the agent will do next, in order of arrival",
     tags: ["queue", "backlog", "next"], family: "orbit",
     aliases: [], keywords: ["task queue", "agent backlog", "work queue"],
     // `gpu-queue`'s waiting jobs above the agent that will take them.
@@ -347,7 +347,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "task-claim", category: "agents", subcategory: "execution",
-    name: "Task claim", description: "This one is mine now",
+    name: "Task claim", description: "Task claim — this task is mine now, taken from the queue by one worker",
     tags: ["take", "own", "grab"], family: "orbit",
     aliases: [], keywords: ["claim task", "take ownership", "assign self"],
     shapes: [
@@ -357,7 +357,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "task-yield", category: "agents", subcategory: "execution",
-    name: "Task yield", description: "Given back for someone else",
+    name: "Task yield", description: "Task yield — a task given back to the queue for someone else to pick up",
     tags: ["release", "return", "unassign"], family: "orbit",
     aliases: [], keywords: ["yield task", "release", "give back"],
     shapes: [
@@ -367,7 +367,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "task-split", category: "agents", subcategory: "execution",
-    name: "Task split", description: "Too big for one; now it is two",
+    name: "Task split", description: "Task split — too big for one, so now it is two subtasks handed out",
     tags: ["divide", "subtasks", "fan"], family: "chain",
     aliases: [], keywords: ["split task", "subtasks", "divide work"],
     shapes: [
@@ -378,7 +378,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "task-merge", category: "agents", subcategory: "execution",
-    name: "Task merge", description: "Two halves, one deliverable",
+    name: "Task merge", description: "Task merge — two halves joined into one deliverable at the end",
     tags: ["combine", "join", "one"], family: "chain",
     aliases: [], keywords: ["merge tasks", "combine work", "join results"],
     shapes: [
@@ -389,7 +389,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "turn-limit", category: "agents", subcategory: "execution",
-    name: "Turn limit", description: "The conversation has a budget",
+    name: "Turn limit", description: "A turn limit — the conversation has a budget of turns and then it stops",
     tags: ["cap", "turns", "wall"], family: "figure",
     aliases: [], keywords: ["turn limit", "max turns", "conversation cap"],
     // Two turns of talk, and the wall where the next would go — `agent-quota`'s
@@ -401,7 +401,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "nudge", category: "agents", subcategory: "execution",
-    name: "Nudge", description: "A tap, not an order",
+    name: "Nudge", description: "A nudge — a tap rather than an order, a gentle poke to resume the work",
     tags: ["prompt", "poke", "resume"], family: "orbit",
     aliases: [], keywords: ["nudge agent", "poke", "gentle prompt"],
     shapes: [
@@ -411,7 +411,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "escalate-human", category: "agents", subcategory: "execution",
-    name: "Escalate to human", description: "Past what it should decide alone",
+    name: "Escalate to human", description: "Escalate to human — past what the agent should decide alone, handed up to a person",
     tags: ["handoff", "person", "up"], family: "orbit",
     aliases: [], keywords: ["escalate", "human handoff", "ask a person"],
     // The agent below, the person above, and the line going the one direction
@@ -426,7 +426,7 @@ export const BATCH_59: Icon[] = [
 
   {
     slug: "stepper-input", category: "interface", subcategory: "action",
-    name: "Stepper", description: "One less on the left, one more on the right",
+    name: "Stepper", description: "A stepper — one less on the left, one more on the right, a numeric control",
     tags: ["number", "increment", "control"], family: "window",
     aliases: [], keywords: ["stepper", "number input", "plus minus"],
     shapes: [
@@ -436,21 +436,21 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "fader", category: "interface", subcategory: "media",
-    name: "Fader", description: "Slide it to where it sounds right",
+    name: "Fader", description: "A fader — slide it to where it sounds right, a level in a mix",
     tags: ["slider", "level", "mix"], family: "figure",
     aliases: ["slider-vertical"], keywords: ["fader", "vertical slider", "level"],
     shapes: [col(12, 3, 21), rect(8, 9, 8, 4, 2)],
   },
   {
     slug: "joystick", category: "interface", subcategory: "media",
-    name: "Joystick", description: "The stick that goes everywhere",
+    name: "Joystick", description: "A joystick — the stick that points in every direction, a game controller",
     tags: ["control", "game", "direction"], family: "figure",
     aliases: [], keywords: ["joystick", "game control", "analog stick"],
     shapes: [arc(12, 20, 7, 180, 360), col(12, 6, 13), disc(12, 4, 2)],
   },
   {
     slug: "dpad", category: "interface", subcategory: "media",
-    name: "D-pad", description: "Four directions, one thumb",
+    name: "D-pad", description: "A D-pad — four directions under one thumb on a handheld controller",
     tags: ["cross", "directions", "game"], family: "figure",
     aliases: ["directional-pad"], keywords: ["d-pad", "directional pad", "cross control"],
     shapes: [
@@ -460,14 +460,14 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "hotkey", category: "interface", subcategory: "action",
-    name: "Hotkey", description: "The key with a power behind it",
+    name: "Hotkey", description: "A hotkey — the key with a power behind it, a keyboard shortcut",
     tags: ["shortcut", "modifier", "key"], family: "window",
     aliases: [], keywords: ["hotkey", "shortcut key", "modifier"],
     shapes: [rect(4, 4, 16, 16, 2), poly([[9, 13.5], [12, 10.5], [15, 13.5]])],
   },
   {
     slug: "key-combo", category: "interface", subcategory: "action",
-    name: "Key combo", description: "Two keys, pressed as one",
+    name: "Key combo", description: "A key combo — two keys pressed together as one chord to trigger a shortcut",
     tags: ["chord", "shortcut", "together"], family: "window",
     aliases: ["keyboard-chord"], keywords: ["key combo", "chord", "shortcut combo"],
     // The copy idiom pressed into service: two keycaps, struck together.
@@ -475,7 +475,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "reading-list", category: "interface", subcategory: "action",
-    name: "Reading list", description: "Saved for a quieter hour",
+    name: "Reading list", description: "A reading list — articles saved for a quieter hour when there is time to read",
     tags: ["bookmark", "later", "queue"], family: "figure",
     aliases: [], keywords: ["reading list", "save for later", "bookmarks"],
     shapes: [
@@ -485,7 +485,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "tab-new", category: "interface", subcategory: "layout",
-    name: "New tab", description: "Another one, next to the rest",
+    name: "New tab", description: "New tab — open another tab next to the rest in the browser bar",
     tags: ["browser", "open", "plus"], family: "window",
     aliases: [], keywords: ["new tab", "open tab", "plus tab"],
     shapes: [
@@ -496,7 +496,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "tab-close", category: "interface", subcategory: "layout",
-    name: "Close tab", description: "That one is finished with",
+    name: "Close tab", description: "Close tab — that tab is finished with, dismissed from the bar",
     tags: ["browser", "dismiss", "x"], family: "window",
     aliases: [], keywords: ["close tab", "dismiss tab"],
     shapes: [
@@ -507,7 +507,7 @@ export const BATCH_59: Icon[] = [
   },
   {
     slug: "split-pane", category: "interface", subcategory: "layout",
-    name: "Split pane", description: "Two views of the same hour",
+    name: "Split pane", description: "A split pane — two views of the same thing side by side in one window",
     tags: ["divide", "panes", "layout"], family: "window",
     aliases: [], keywords: ["split pane", "split view", "two panes"],
     shapes: [

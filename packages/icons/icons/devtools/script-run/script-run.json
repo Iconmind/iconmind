@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "terminal",
   "name": "Run script",
-  "description": "Go on then",
+  "description": "Run script — execute a script and start it going from the first line",
   "tags": [
     "execute",
     "invoke",

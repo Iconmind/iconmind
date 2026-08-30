@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "condition",
   "name": "Rule",
-  "description": "When this, then that — always",
+  "description": "A rule — when this, then that, always, an if-then policy that never varies",
   "tags": [
     "if-then",
     "policy",

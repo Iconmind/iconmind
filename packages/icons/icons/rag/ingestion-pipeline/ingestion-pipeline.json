@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "ingestion",
   "name": "Ingestion pipeline",
-  "description": "Documents in, index entries out",
+  "description": "An ingestion pipeline — documents go in, index entries come out",
   "tags": [
     "intake",
     "process",

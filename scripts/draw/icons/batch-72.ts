@@ -38,7 +38,7 @@ export const BATCH_72: Icon[] = [
   },
   {
     slug: "revenue", category: "cloud", subcategory: "cost",
-    name: "Revenue", description: "A coin beside a rising line — revenue growing over time",
+    name: "Revenue", description: "A coin beside a rising line — revenue growing over time, month after month",
     tags: ["revenue", "growth", "money"], family: "coin",
     aliases: [], keywords: ["revenue", "income growth", "monthly recurring revenue"],
     shapes: [disc(7, 12, 4.5), col(7, 10.5, 13.5), poly([[14, 17], [16.5, 14.5], [18.5, 16.5], [22, 13]])],
@@ -52,7 +52,7 @@ export const BATCH_72: Icon[] = [
   },
   {
     slug: "donate", category: "cloud", subcategory: "cost",
-    name: "Donate", description: "A coin beside a heart — a donation or a tip",
+    name: "Donate", description: "A coin beside a heart — a donation or a tip given in support of someone",
     tags: ["donate", "tip", "give"], family: "coin",
     aliases: [], keywords: ["donate", "tip jar", "support with money"],
     shapes: [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5), raw("M14 9A2.5 2.5 0 0 1 18 9A2.5 2.5 0 0 1 22 9L18 13Z", HEART, true)],
@@ -76,7 +76,7 @@ export const BATCH_72: Icon[] = [
 
   {
     slug: "deadline-missed", category: "interface", subcategory: "time",
-    name: "Deadline missed", description: "A clock with an X beside it — a deadline that passed unmet",
+    name: "Deadline missed", description: "A clock with an X beside it — a deadline that passed without being met",
     tags: ["deadline", "late", "missed"], family: "clock",
     aliases: [], keywords: ["deadline missed", "overdue", "past due"],
     shapes: [disc(8.5, 12, 5.5), poly([[8.5, 9], [8.5, 12], [11, 12]]), poly([[17, 9.5], [22, 14.5]]), poly([[22, 9.5], [17, 14.5]])],
@@ -97,7 +97,7 @@ export const BATCH_72: Icon[] = [
   },
   {
     slug: "time-shift", category: "interface", subcategory: "time",
-    name: "Time shift", description: "A clock with an arrow moving on — shift a schedule forward",
+    name: "Time shift", description: "A clock with an arrow moving on — shift a schedule forward to a later time",
     tags: ["shift", "reschedule", "forward"], family: "clock",
     aliases: [], keywords: ["time shift", "reschedule", "move forward"],
     shapes: [disc(8, 12, 5.5), poly([[8, 9.5], [8, 12], [10.5, 12]]), row(12, 16.5, 22), poly([[19.5, 9.5], [22, 12], [19.5, 14.5]])],
@@ -166,7 +166,7 @@ export const BATCH_72: Icon[] = [
   },
   {
     slug: "policy-list", category: "security", subcategory: "auth",
-    name: "Policy list", description: "A shield beside a list — the policies that apply",
+    name: "Policy list", description: "A shield beside a list — the policies and rules that apply to this resource",
     tags: ["policy", "rules", "list"], family: "shield",
     aliases: [], keywords: ["policy list", "security policies", "rule set"],
     shapes: [poly([[3, 5], [12, 5], [12, 11], [7.5, 15.5], [3, 11]], true), row(9, 15, 22), row(13, 15, 22), row(17, 15, 22)],
@@ -194,7 +194,7 @@ export const BATCH_72: Icon[] = [
   },
   {
     slug: "key-list", category: "security", subcategory: "auth",
-    name: "Key list", description: "A key beside a list — the credentials issued to an account",
+    name: "Key list", description: "A key beside a list — the credentials issued to an account, one per row",
     tags: ["keys", "list", "credentials"], family: "key",
     aliases: [], keywords: ["key list", "api keys", "credential inventory"],
     shapes: [...KEY_L, ...ROWS_R(14)],
@@ -211,14 +211,14 @@ export const BATCH_72: Icon[] = [
   },
   {
     slug: "wishlist", category: "interface", subcategory: "file",
-    name: "Wishlist", description: "A heart beside a list — the things someone wants",
+    name: "Wishlist", description: "A heart beside a list — the things someone wants, saved for later",
     tags: ["wishlist", "wants", "saved"], family: "heart",
     aliases: [], keywords: ["wishlist", "saved for later", "favourites list"],
     shapes: [raw("M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z", HEART, true), ...ROWS_R(14)],
   },
   {
     slug: "bookmark-list", category: "interface", subcategory: "file",
-    name: "Bookmark list", description: "A bookmark beside a list — everything saved to read later",
+    name: "Bookmark list", description: "A bookmark beside a list — everything saved to read or revisit later",
     tags: ["bookmarks", "reading", "saved"], family: "bookmark",
     aliases: [], keywords: ["bookmark list", "reading list", "saved articles"],
     shapes: [poly([[3, 5], [12, 5], [12, 19], [7.5, 14.5], [3, 19]], true), ...ROWS_R(15)],
@@ -260,7 +260,7 @@ export const BATCH_72: Icon[] = [
   },
   {
     slug: "tagged-list", category: "interface", subcategory: "file",
-    name: "Tagged list", description: "A label beside a list — items grouped under one tag",
+    name: "Tagged list", description: "A label beside a list — items grouped together under one tag or category",
     tags: ["tag", "list", "group"], family: "tag",
     aliases: [], keywords: ["tagged items", "items by tag", "label view"],
     shapes: [poly([[3, 5], [9, 5], [12, 8], [9, 11], [3, 11]], true), ...ROWS_R(15)],
@@ -270,14 +270,14 @@ export const BATCH_72: Icon[] = [
 
   {
     slug: "assert-pass", category: "devtools", subcategory: "testing",
-    name: "Assert pass", description: "A check held between brackets — an assertion that held",
+    name: "Assert pass", description: "A check held between brackets — an assertion in the code that held true",
     tags: ["assert", "pass", "test"], family: "bracket",
     aliases: [], keywords: ["assertion passed", "assert ok", "test assertion"],
     shapes: [BR_L, BR_R, poly([[8.5, 12], [11, 14.5], [15.5, 10]])],
   },
   {
     slug: "assert-fail", category: "devtools", subcategory: "testing",
-    name: "Assert fail", description: "An X held between brackets — an assertion that failed",
+    name: "Assert fail", description: "An X held between brackets — an assertion in the code that failed its check",
     tags: ["assert", "fail", "test"], family: "bracket",
     aliases: [], keywords: ["assertion failed", "assert error", "failing test"],
     shapes: [BR_L, BR_R, poly([[9.5, 9.5], [14.5, 14.5]]), poly([[14.5, 9.5], [9.5, 14.5]])],
@@ -315,7 +315,7 @@ export const BATCH_72: Icon[] = [
   },
   {
     slug: "event-check", category: "automation", subcategory: "condition",
-    name: "Event check", description: "A lightning bolt beside a check — an event that was handled",
+    name: "Event check", description: "A lightning bolt beside a check — an event that was handled and acknowledged",
     tags: ["event", "handled", "check"], family: "bolt",
     aliases: [], keywords: ["event handled", "event acknowledged", "trigger succeeded"],
     shapes: [poly([[10, 6], [5, 11], [9, 11], [4, 16]]), poly([[13, 14], [15.5, 16.5], [20, 12]])],
@@ -346,35 +346,35 @@ export const BATCH_72: Icon[] = [
 
   {
     slug: "goal-progress", category: "analytics", subcategory: "metric",
-    name: "Goal progress", description: "A target beside a rising line — progress toward a goal",
+    name: "Goal progress", description: "A target beside a rising line — progress climbing steadily toward a goal",
     tags: ["goal", "progress", "trend"], family: "object",
     aliases: [], keywords: ["goal progress", "toward target", "okr progress"],
     shapes: [disc(8, 12, 5), disc(8, 12, 1), poly([[15, 17], [17.5, 14.5], [19.5, 16.5], [22, 14]])],
   },
   {
     slug: "goal-list", category: "analytics", subcategory: "metric",
-    name: "Goal list", description: "A target beside a list — the goals being tracked",
+    name: "Goal list", description: "A target beside a list — the goals and objectives currently being tracked",
     tags: ["goals", "list", "okr"], family: "object",
     aliases: [], keywords: ["goal list", "objectives", "okr list"],
     shapes: [disc(8, 12, 5), disc(8, 12, 2), row(7, 16, 22), row(12, 16, 22), row(17, 16, 22)],
   },
   {
     slug: "checkpoint-list", category: "analytics", subcategory: "dashboard",
-    name: "Checkpoint list", description: "A flag beside a list — every checkpoint saved so far",
+    name: "Checkpoint list", description: "A flag beside a list — every checkpoint saved so far, in order",
     tags: ["checkpoints", "list", "history"], family: "flag",
     aliases: [], keywords: ["checkpoint list", "saved checkpoints", "milestone history"],
     shapes: [...FLAG_L, ...ROWS_R(16)],
   },
   {
     slug: "filtered-list", category: "analytics", subcategory: "segment",
-    name: "Filtered list", description: "A funnel beside a list — the rows that passed the filter",
+    name: "Filtered list", description: "A funnel beside a list — the rows that passed through the filter",
     tags: ["filter", "list", "results"], family: "funnel",
     aliases: [], keywords: ["filtered list", "filter results", "narrowed rows"],
     shapes: [FUNNEL_L, ...ROWS_R(16)],
   },
   {
     slug: "trend-milestone", category: "analytics", subcategory: "chart",
-    name: "Trend milestone", description: "A flag beside a rising line — a milestone marked on a trend",
+    name: "Trend milestone", description: "A flag beside a rising line — a milestone marked on a trend as it climbs",
     tags: ["milestone", "trend", "chart"], family: "flag",
     aliases: [], keywords: ["trend milestone", "annotated chart", "marked point"],
     shapes: [...FLAG_L, poly([[15, 19], [17.5, 16.5], [19.5, 18.5], [22, 16]])],

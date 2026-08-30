@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "arrow",
   "name": "Arrow up",
-  "description": "That way, up",
+  "description": "An arrow pointing up — move upward, go north, increase a value or scroll to the top",
   "tags": [
     "up",
     "north",

@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "edge",
   "name": "Edge cache",
-  "description": "The copy kept out there",
+  "description": "An edge cache — a copy of content kept out at the edge near users",
   "tags": [
     "cdn",
     "copy",

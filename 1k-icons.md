@@ -256,3 +256,29 @@ fixing them is its own round, on the user's word.
 - **Vocabulary exhaustion is real**: 98 of the first 1,008 candidate names were
   already taken. The reserve rule: a swapped-out concept is struck through here,
   its replacement checked against taken names *before* drawing.
+
+
+## Completed — 2026-08-30
+
+All 1,000 icons are drawn: rounds 1–25 = `scripts/draw/icons/batch-52.ts` … `batch-76.ts`, every round through
+precheck → build → optimize → validate → audit → twins → contact sheet → local commit. The set now stands at
+**2,041 icons · 12,246 cells**, all gates green. Every description in the set was rewritten in the same pass
+(1,603 of them were under 60 characters; all are now 60–101 characters, since the web meta template appends
+about 95 more).
+
+What the later rounds taught, kept here so the next plan starts from it:
+
+- The machine (chamfered) and page bodies are too ink-heavy to carry small inner marks — every such icon
+  reads as a twin of every other (0.88–1.00). Rounds 20–25 moved to a pairing grammar instead: a strong left
+  body (coin, clock, key, pin, flag, funnel, target, bookmark, heart, shield, bolt, tag, lens, play, lock) beside
+  one mark (check, X, plus, minus, bolt, line, list, Z, alert, square, chevrons, or another body), or one mark
+  inside brackets, a bubble or a window. Pairs land at IoU 0.5–0.85 and stay distinct at 16 px.
+- At 24 px a single chevron reads as a play triangle, an arrow shaft reads as a minus, a narrow shield reads
+  as a square, a pin reads as a key and a target reads as a coin — the twins gate catches all of these; the
+  fix is a double chevron, a bigger mark or a different neighbour, never a lower threshold.
+- Accepted near-pairs added in these rounds (all plus/minus or mirrored-direction grammar): grant/least-privilege,
+  chat-forward/chat-reply, discount/top-up, add-goal/remove-goal.
+
+Before the one push (the user's call): refresh the hardcoded counts (README badges and lines, the contribute
+page, every package README and package.json description: 1,041 → 2,041 icons, 6,246 → 12,246 cells), run
+`pnpm icons:generate`, commit, push — one push, one release.

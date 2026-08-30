@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "communication",
   "name": "Typing indicator",
-  "description": "A speech bubble with three dots — someone is typing a reply",
+  "description": "A speech bubble with three dots — someone is typing a reply and it is on its way",
   "tags": [
     "typing",
     "chat",

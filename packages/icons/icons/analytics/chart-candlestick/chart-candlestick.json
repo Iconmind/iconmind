@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "chart",
   "name": "Candlestick chart",
-  "description": "Open, high, low and close",
+  "description": "A candlestick chart — open, high, low and close for each period of trading",
   "tags": [
     "ohlc",
     "trading",

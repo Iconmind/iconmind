@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "server",
   "name": "MCP server",
-  "description": "A server that exposes tools and data to a model",
+  "description": "An MCP server — the provider that exposes tools, resources and prompts to a model",
   "tags": [
     "server",
     "host",

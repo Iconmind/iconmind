@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Credit card",
-  "description": "How it gets paid for",
+  "description": "A credit card — how a purchase, a subscription or a bill gets paid for",
   "tags": [
     "payment",
     "billing",

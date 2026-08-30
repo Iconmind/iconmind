@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "vector",
   "name": "Warm index",
-  "description": "Kept hot so the first query is fast",
+  "description": "A warm index — kept loaded and hot so the first query is fast",
   "tags": [
     "ready",
     "loaded",

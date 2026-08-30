@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "state",
   "name": "Moon",
-  "description": "Night, or the dark theme",
+  "description": "Moon — night, sleep or the dark theme of an app when the lights go down",
   "tags": [
     "night",
     "dark",

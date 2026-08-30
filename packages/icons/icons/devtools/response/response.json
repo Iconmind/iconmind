@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "api",
   "name": "Response",
-  "description": "What came back",
+  "description": "A response — what came back from the server after a request was made",
   "tags": [
     "reply",
     "returned",

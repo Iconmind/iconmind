@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Latency",
-  "description": "How long you wait for the answer",
+  "description": "Latency — how long you wait for a response, the delay between request and answer",
   "tags": [
     "delay",
     "wait",

@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "Catch block",
-  "description": "Where the failure lands",
+  "description": "A catch block — where a failure lands and is handled, the safety net",
   "tags": [
     "handle",
     "error",

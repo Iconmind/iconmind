@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "planning",
   "name": "Replan",
-  "description": "That plan is no good; here is another",
+  "description": "Replan — that plan is no good, discard it and make another before acting",
   "tags": [
     "rethink",
     "discard",

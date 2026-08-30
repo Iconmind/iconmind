@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "file",
   "name": "Folder alert",
-  "description": "Something in here needs looking at",
+  "description": "Folder alert — something in this folder needs looking at before you go on",
   "tags": [
     "problem",
     "warning",

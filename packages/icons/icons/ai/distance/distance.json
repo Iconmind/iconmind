@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "embedding",
   "name": "Distance",
-  "description": "How far apart two things are",
+  "description": "Distance — how far apart two vectors are, cosine or euclidean",
   "tags": [
     "metric",
     "cosine",

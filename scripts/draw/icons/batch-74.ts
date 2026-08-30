@@ -45,7 +45,7 @@ export const BATCH_74: Icon[] = [
   },
   {
     slug: "saved-location", category: "interface", subcategory: "identity",
-    name: "Saved location", description: "A location pin beside a bookmark — a place saved for later",
+    name: "Saved location", description: "A location pin beside a bookmark — a place saved for later on the map",
     tags: ["saved", "location", "bookmark"], family: "pin",
     aliases: [], keywords: ["saved location", "bookmark place", "saved places"],
     shapes: [...PIN_L, BOOKMARK_R],
@@ -66,21 +66,21 @@ export const BATCH_74: Icon[] = [
   },
   {
     slug: "saved-filter", category: "interface", subcategory: "action",
-    name: "Saved filter", description: "A funnel beside a bookmark — a filter saved to reuse",
+    name: "Saved filter", description: "A funnel beside a bookmark — a filter saved so it can be reused later",
     tags: ["filter", "saved", "view"], family: "funnel",
     aliases: [], keywords: ["saved filter", "saved view", "reusable filter"],
     shapes: [FUNNEL_L, poly([[16, 8], [22, 8], [22, 16], [19, 13], [16, 16]], true)],
   },
   {
     slug: "favorites-filter", category: "interface", subcategory: "action",
-    name: "Favourites filter", description: "A funnel beside a heart — show only favourites",
+    name: "Favourites filter", description: "A funnel beside a heart — show only the favourites and hide the rest",
     tags: ["filter", "favourites", "heart"], family: "funnel",
     aliases: [], keywords: ["favourites only", "filter favourites", "show starred"],
     shapes: [FUNNEL_L, raw("M16 10A2 2 0 0 1 19 10A2 2 0 0 1 22 10L19 13Z", HEART, true)],
   },
   {
     slug: "remove-filter", category: "interface", subcategory: "action",
-    name: "Remove filter", description: "A funnel with a minus beside it — take one filter away",
+    name: "Remove filter", description: "A funnel with a minus beside it — take one filter away from the set",
     tags: ["filter", "remove", "minus"], family: "funnel",
     aliases: [], keywords: ["remove filter", "drop a filter", "filter minus"],
     shapes: [FUNNEL_L, row(12, 16, 22)],
@@ -94,7 +94,7 @@ export const BATCH_74: Icon[] = [
   },
   {
     slug: "private-favorites", category: "interface", subcategory: "identity",
-    name: "Private favourites", description: "A heart beside a padlock — favourites nobody else can see",
+    name: "Private favourites", description: "A heart beside a padlock — favourites that nobody else is able to see",
     tags: ["favourites", "private", "lock"], family: "heart",
     aliases: [], keywords: ["private favourites", "hidden likes", "favourites privacy"],
     shapes: [raw("M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z", HEART, true), ...LOCK_R],
@@ -108,14 +108,14 @@ export const BATCH_74: Icon[] = [
   },
   {
     slug: "label-removed", category: "interface", subcategory: "action",
-    name: "Label removed", description: "A label with an X beside it — a tag taken off",
+    name: "Label removed", description: "A label with an X beside it — a tag taken off an item and removed",
     tags: ["label", "removed", "untag"], family: "tag",
     aliases: [], keywords: ["remove label", "untag", "label removed"],
     shapes: [TAG_L, ...X_R],
   },
   {
     slug: "locked-label", category: "interface", subcategory: "action",
-    name: "Locked label", description: "A label beside a padlock — a tag only admins may change",
+    name: "Locked label", description: "A label beside a padlock — a tag that only administrators may change",
     tags: ["label", "locked", "admin"], family: "tag",
     aliases: [], keywords: ["locked label", "protected tag", "admin-only label"],
     shapes: [TAG_L, ...LOCK_R],
@@ -125,7 +125,7 @@ export const BATCH_74: Icon[] = [
 
   {
     slug: "cost-filter", category: "cloud", subcategory: "cost",
-    name: "Cost filter", description: "A coin beside a funnel — filter spending by service or tag",
+    name: "Cost filter", description: "A coin beside a funnel — filter spending by service, project or tag",
     tags: ["cost", "filter", "spend"], family: "coin",
     aliases: [], keywords: ["cost filter", "filter spending", "spend by service"],
     shapes: [...COIN_L, FUNNEL_R],
@@ -139,21 +139,21 @@ export const BATCH_74: Icon[] = [
   },
   {
     slug: "payment-stopped", category: "cloud", subcategory: "cost",
-    name: "Payment stopped", description: "A coin beside a stop square — payments halted",
+    name: "Payment stopped", description: "A coin beside a stop square — payments halted until further notice",
     tags: ["payment", "stopped", "halt"], family: "coin",
     aliases: [], keywords: ["payment stopped", "billing paused", "stop payments"],
     shapes: [...COIN_L, SQUARE_R],
   },
   {
     slug: "dormant-account", category: "cloud", subcategory: "cost",
-    name: "Dormant account", description: "A coin beside a Z — an account that has gone quiet",
+    name: "Dormant account", description: "A coin beside a Z — an account that has gone quiet with no recent activity",
     tags: ["dormant", "inactive", "account"], family: "coin",
     aliases: [], keywords: ["dormant account", "inactive billing", "sleeping account"],
     shapes: [...COIN_L, Z_R],
   },
   {
     slug: "price-increase", category: "cloud", subcategory: "cost",
-    name: "Price increase", description: "A coin beside a double chevron rising — a price going up",
+    name: "Price increase", description: "A coin beside a double chevron rising — a price going up at the next renewal",
     tags: ["price", "increase", "up"], family: "coin",
     aliases: [], keywords: ["price increase", "price hike", "cost going up"],
     shapes: [...COIN_L, poly([[15, 13], [18.5, 9.5], [22, 13]]), poly([[15, 17.5], [18.5, 14], [22, 17.5]])],
@@ -163,7 +163,7 @@ export const BATCH_74: Icon[] = [
 
   {
     slug: "time-label", category: "interface", subcategory: "time",
-    name: "Time label", description: "A clock beside a label — a moment given a name",
+    name: "Time label", description: "A clock beside a label — a moment in time given a name of its own",
     tags: ["time", "label", "name"], family: "clock",
     aliases: [], keywords: ["time label", "named moment", "timestamp label"],
     shapes: [...CLOCK_L, poly([[16, 13], [20, 13], [22, 15], [20, 17], [16, 17]], true)],
@@ -177,7 +177,7 @@ export const BATCH_74: Icon[] = [
   },
   {
     slug: "timer-pause", category: "interface", subcategory: "time",
-    name: "Timer pause", description: "A clock beside a pause mark — pause the timer",
+    name: "Timer pause", description: "A clock beside a pause mark — pause the timer without resetting it",
     tags: ["timer", "pause", "hold"], family: "clock",
     aliases: [], keywords: ["pause timer", "hold countdown", "timer paused"],
     shapes: [...CLOCK_L, col(17, 9, 15), col(20.5, 9, 15)],
@@ -198,14 +198,14 @@ export const BATCH_74: Icon[] = [
   },
   {
     slug: "key-filter", category: "security", subcategory: "auth",
-    name: "Key filter", description: "A key beside a funnel — filter by which credential was used",
+    name: "Key filter", description: "A key beside a funnel — filter records by which credential was used",
     tags: ["key", "filter", "audit"], family: "key",
     aliases: [], keywords: ["filter by key", "credential filter", "key audit"],
     shapes: [...KEY_L, FUNNEL_R],
   },
   {
     slug: "saved-key", category: "security", subcategory: "auth",
-    name: "Saved key", description: "A key beside a bookmark — a credential kept for reuse",
+    name: "Saved key", description: "A key beside a bookmark — a credential kept for reuse in future runs",
     tags: ["key", "saved", "reuse"], family: "key",
     aliases: [], keywords: ["saved key", "stored credential", "remembered key"],
     shapes: [...KEY_L, BOOKMARK_R],
@@ -219,7 +219,7 @@ export const BATCH_74: Icon[] = [
   },
   {
     slug: "key-blocked", category: "security", subcategory: "auth",
-    name: "Key blocked", description: "A key beside a stop square — a credential blocked from use",
+    name: "Key blocked", description: "A key beside a stop square — a credential blocked from any further use",
     tags: ["key", "blocked", "deny"], family: "key",
     aliases: [], keywords: ["blocked key", "denied credential", "key suspended"],
     shapes: [...KEY_L, SQUARE_R],
@@ -233,7 +233,7 @@ export const BATCH_74: Icon[] = [
   },
   {
     slug: "policy-label", category: "security", subcategory: "auth",
-    name: "Policy label", description: "A label beside a shield — a tag that carries a policy",
+    name: "Policy label", description: "A label beside a shield — a tag that carries a security policy with it",
     tags: ["policy", "label", "tag"], family: "tag",
     aliases: [], keywords: ["policy label", "policy tag", "tag-based policy"],
     shapes: [TAG_L, poly([[16, 9], [22, 9], [22, 14.5], [19, 17.5], [16, 14.5]], true)],
@@ -257,14 +257,14 @@ export const BATCH_74: Icon[] = [
   },
   {
     slug: "stale-checkpoint", category: "ai", subcategory: "training",
-    name: "Stale checkpoint", description: "A flag beside a Z — a checkpoint too old to be useful",
+    name: "Stale checkpoint", description: "A flag beside a Z — a checkpoint too old to be useful any more",
     tags: ["stale", "checkpoint", "old"], family: "flag",
     aliases: [], keywords: ["stale checkpoint", "outdated save", "old checkpoint"],
     shapes: [...FLAG_L, poly([[16, 10], [21, 10], [16, 15], [21, 15]])],
   },
   {
     slug: "add-checkpoint", category: "ai", subcategory: "training",
-    name: "Add checkpoint", description: "A flag with a plus beside it — save a new checkpoint",
+    name: "Add checkpoint", description: "A flag with a plus beside it — save a new checkpoint right now, before going on",
     tags: ["checkpoint", "add", "save"], family: "flag",
     aliases: [], keywords: ["add checkpoint", "save checkpoint", "new checkpoint"],
     shapes: [...FLAG_L, row(14, 16, 22), col(19, 11, 17)],
@@ -288,28 +288,28 @@ export const BATCH_74: Icon[] = [
   },
   {
     slug: "goal-label", category: "analytics", subcategory: "metric",
-    name: "Goal label", description: "A target beside a label — a goal with a name",
+    name: "Goal label", description: "A target beside a label — a goal with a name attached so it can be found",
     tags: ["goal", "label", "name"], family: "object",
     aliases: [], keywords: ["goal label", "named goal", "goal tag"],
     shapes: [...TARGET_L, poly([[16, 13], [20, 13], [22, 15], [20, 17], [16, 17]], true)],
   },
   {
     slug: "favorite-goal", category: "analytics", subcategory: "metric",
-    name: "Favourite goal", description: "A target beside a heart — the goal that matters most",
+    name: "Favourite goal", description: "A target beside a heart — the goal that matters most, marked as a favourite",
     tags: ["goal", "favourite", "heart"], family: "object",
     aliases: [], keywords: ["favourite goal", "priority goal", "north star goal"],
     shapes: [...TARGET_L, raw("M16 10A2 2 0 0 1 19 10A2 2 0 0 1 22 10L19 13Z", HEART, true)],
   },
   {
     slug: "paused-goal", category: "analytics", subcategory: "metric",
-    name: "Paused goal", description: "A target beside a Z — a goal put on hold",
+    name: "Paused goal", description: "A target beside a Z — a goal put on hold for now, paused until later",
     tags: ["goal", "paused", "hold"], family: "object",
     aliases: [], keywords: ["paused goal", "goal on hold", "deferred objective"],
     shapes: [...TARGET_L, poly([[16, 9.5], [21, 9.5], [16, 14.5], [21, 14.5]])],
   },
   {
     slug: "saved-goal", category: "analytics", subcategory: "metric",
-    name: "Saved goal", description: "A target beside a bookmark — a goal saved to revisit",
+    name: "Saved goal", description: "A target beside a bookmark — a goal saved to revisit later on",
     tags: ["goal", "saved", "bookmark"], family: "object",
     aliases: [], keywords: ["saved goal", "bookmark goal", "goal shortlist"],
     shapes: [...TARGET_L, poly([[16, 7], [22, 7], [22, 17], [19, 14], [16, 17]], true)],
@@ -326,7 +326,7 @@ export const BATCH_74: Icon[] = [
 
   {
     slug: "event-label", category: "automation", subcategory: "trigger",
-    name: "Event label", description: "A lightning bolt beside a label — an event given a name",
+    name: "Event label", description: "A lightning bolt beside a label — an event given a name or a type",
     tags: ["event", "label", "name"], family: "bolt",
     aliases: [], keywords: ["event label", "named event", "event type"],
     shapes: [BOLT_L, TAG_R],
@@ -364,21 +364,21 @@ export const BATCH_74: Icon[] = [
 
   {
     slug: "run-label", category: "devtools", subcategory: "testing",
-    name: "Run label", description: "A play button beside a label — a run with a name",
+    name: "Run label", description: "A play button beside a label — a run with a name attached to it",
     tags: ["run", "label", "name"], family: "object",
     aliases: [], keywords: ["run label", "named run", "run tag"],
     shapes: [PLAY_L, TAG_R],
   },
   {
     slug: "run-checkpoint", category: "devtools", subcategory: "testing",
-    name: "Run checkpoint", description: "A play button beside a flag — a checkpoint inside a run",
+    name: "Run checkpoint", description: "A play button beside a flag — a checkpoint saved partway inside a run",
     tags: ["run", "checkpoint", "flag"], family: "object",
     aliases: [], keywords: ["run checkpoint", "mid-run save", "run milestone"],
     shapes: [PLAY_L, ...FLAG_R],
   },
   {
     slug: "safe-run", category: "devtools", subcategory: "testing",
-    name: "Safe run", description: "A play button beside a shield — a run inside its guardrails",
+    name: "Safe run", description: "A play button beside a shield — a run kept inside its guardrails from start to end",
     tags: ["run", "safe", "shield"], family: "object",
     aliases: [], keywords: ["safe run", "guarded execution", "protected run"],
     shapes: [PLAY_L, poly([[13, 11], [22, 11], [22, 16.5], [17.5, 21], [13, 16.5]], true)],
@@ -392,7 +392,7 @@ export const BATCH_74: Icon[] = [
   },
   {
     slug: "run-trend", category: "devtools", subcategory: "testing",
-    name: "Run trend", description: "A play button beside a rising line — how runs are trending",
+    name: "Run trend", description: "A play button beside a rising line — how runs are trending in duration or count",
     tags: ["run", "trend", "metrics"], family: "object",
     aliases: [], keywords: ["run trend", "run duration trend", "runs over time"],
     shapes: [PLAY_L, LINE_R],

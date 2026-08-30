@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "schedule",
   "name": "One-off",
-  "description": "Once, and never again",
+  "description": "A one-off — run once and never again, an ad-hoc job outside any schedule",
   "tags": [
     "single",
     "adhoc",

@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "integration",
   "name": "Outbox",
-  "description": "Written here first, sent from here always",
+  "description": "An outbox — written here first and always sent from here, the transactional outbox pattern",
   "tags": [
     "send",
     "tray",

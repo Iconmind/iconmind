@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "compute",
   "name": "Autoscale",
-  "description": "More instances when there is more to do",
+  "description": "Autoscale — more instances when there is more to do, fewer when there is less",
   "tags": [
     "scale",
     "elastic",

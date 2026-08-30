@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Chip add",
-  "description": "Another one joins the set",
+  "description": "Chip add — another chip joins the set of filters or tokens in the field",
   "tags": [
     "plus",
     "filter",

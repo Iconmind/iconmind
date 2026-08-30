@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "planning",
   "name": "Goal drift",
-  "description": "Still moving — just not at the target",
+  "description": "Goal drift — the agent is still moving, just not at the target any more",
   "tags": [
     "miss",
     "wander",

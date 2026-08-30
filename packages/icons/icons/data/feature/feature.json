@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Feature",
-  "description": "The column the model actually reads",
+  "description": "A feature — the column of input a model actually reads as a signal",
   "tags": [
     "column",
     "input",

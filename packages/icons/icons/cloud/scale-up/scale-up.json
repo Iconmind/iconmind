@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "compute",
   "name": "Scale up",
-  "description": "Give it more",
+  "description": "Scale up — give it more capacity, grow to bigger or more instances",
   "tags": [
     "grow",
     "bigger",

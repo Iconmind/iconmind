@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "streaming",
   "name": "Producer",
-  "description": "What puts messages on the queue",
+  "description": "A producer — the writer that puts messages on the queue for consumers to take",
   "tags": [
     "writer",
     "source",

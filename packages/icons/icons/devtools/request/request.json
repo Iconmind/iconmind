@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "api",
   "name": "Request",
-  "description": "The call going out",
+  "description": "A request — the call going out from a client to a server, asking for something",
   "tags": [
     "call",
     "ask",

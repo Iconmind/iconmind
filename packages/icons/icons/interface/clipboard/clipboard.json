@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "file",
   "name": "Clipboard",
-  "description": "What you copied, waiting",
+  "description": "A clipboard — what you copied, waiting to be pasted somewhere else",
   "tags": [
     "paste",
     "copy",

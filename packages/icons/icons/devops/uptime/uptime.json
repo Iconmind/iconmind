@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "observability",
   "name": "Uptime",
-  "description": "How long it has stayed up",
+  "description": "Uptime — how long a service has stayed up and available without an outage",
   "tags": [
     "available",
     "steady",

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Noise",
-  "description": "What carries no signal",
+  "description": "Noise — random scatter and jitter that carries no signal worth keeping",
   "tags": [
     "random",
     "scatter",

@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "tool",
   "name": "MCP tool",
-  "description": "Something a server lets a model call",
+  "description": "An MCP tool — a function a server lets a model call to act in the world",
   "tags": [
     "capability",
     "function",

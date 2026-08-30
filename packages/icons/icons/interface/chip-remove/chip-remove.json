@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Chip remove",
-  "description": "Taken back out of the set",
+  "description": "Chip remove — a chip dismissed and taken back out of the set",
   "tags": [
     "dismiss",
     "clear",

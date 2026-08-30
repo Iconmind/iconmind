@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Logit lens",
-  "description": "What it is thinking, one layer early",
+  "description": "A logit lens — a peek at what the model is thinking one layer early",
   "tags": [
     "inspect",
     "probs",

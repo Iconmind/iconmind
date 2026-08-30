@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "condition",
   "name": "Error path",
-  "description": "Where it goes when it goes wrong",
+  "description": "The error path — where a flow goes when a step goes wrong, the catch branch",
   "tags": [
     "failure",
     "branch",

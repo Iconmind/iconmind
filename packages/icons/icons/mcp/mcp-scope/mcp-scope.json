@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "server",
   "name": "MCP scope",
-  "description": "Allowed to do this much, and no more",
+  "description": "An MCP scope — allowed to do this much and no more, a narrowed grant of permissions",
   "tags": [
     "permissions",
     "narrow",

@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "storage",
   "name": "Upload to cloud",
-  "description": "Send it up there",
+  "description": "Upload to cloud — send a file up to cloud storage, a sync service or a backup",
   "tags": [
     "send",
     "sync",

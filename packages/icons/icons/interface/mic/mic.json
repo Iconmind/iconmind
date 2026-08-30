@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "Microphone",
-  "description": "Speak",
+  "description": "A microphone — speak, record audio or use voice input instead of typing",
   "tags": [
     "voice",
     "record",

@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "cost",
   "name": "Quota",
-  "description": "The most you are allowed",
+  "description": "A quota — the most you are allowed, a ceiling on usage before it is refused",
   "tags": [
     "limit",
     "ceiling",

@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "release",
   "name": "Deploy rollback",
-  "description": "Undo the last release",
+  "description": "Deploy rollback — undo the last release and go back to the previous version",
   "tags": [
     "revert",
     "previous",

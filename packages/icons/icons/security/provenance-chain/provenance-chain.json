@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Provenance chain",
-  "description": "Every hand it passed through, linked",
+  "description": "A provenance chain — every hand something passed through, linked in order",
   "tags": [
     "custody",
     "linked",

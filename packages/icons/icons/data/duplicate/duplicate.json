@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Duplicate",
-  "description": "The same row, twice",
+  "description": "A duplicate — the same row twice, a repeated record that should be one",
   "tags": [
     "repeat",
     "copy",

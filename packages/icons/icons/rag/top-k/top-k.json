@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "ranking",
   "name": "Top-k",
-  "description": "Keep this many, drop the rest",
+  "description": "Top-k — keep the k best candidates and drop the rest before sampling",
   "tags": [
     "cut-off",
     "best",

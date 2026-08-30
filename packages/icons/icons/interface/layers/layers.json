@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Layers",
-  "description": "Things stacked on top of each other",
+  "description": "Layers — things stacked on top of each other in levels, a z-order of panels or objects",
   "tags": [
     "stack",
     "levels",

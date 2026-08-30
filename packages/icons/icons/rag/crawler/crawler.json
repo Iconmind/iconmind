@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "ingestion",
   "name": "Crawler",
-  "description": "Goes and gets the pages",
+  "description": "A crawler — the spider that goes and fetches web pages one link at a time",
   "tags": [
     "fetch",
     "spider",

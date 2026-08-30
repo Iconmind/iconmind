@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "compute",
   "name": "Private cloud",
-  "description": "The cloud, but yours",
+  "description": "A private cloud — cloud infrastructure that is yours alone, walled and dedicated",
   "tags": [
     "on-prem",
     "dedicated",

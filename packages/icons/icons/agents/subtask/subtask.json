@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "planning",
   "name": "Subtask",
-  "description": "A piece of work that belongs to a bigger one",
+  "description": "A subtask — a piece of work nested inside a bigger task an agent or a team is doing",
   "tags": [
     "child",
     "nested",

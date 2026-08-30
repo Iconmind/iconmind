@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Lock layer",
-  "description": "This one cannot be nudged by accident",
+  "description": "Lock layer — this layer cannot be nudged by accident, fixed in place",
   "tags": [
     "lock",
     "layer",

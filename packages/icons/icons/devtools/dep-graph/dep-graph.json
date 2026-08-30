@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "package",
   "name": "Dependency graph",
-  "description": "Who needs whom",
+  "description": "A dependency graph — who imports whom, nodes and edges between modules",
   "tags": [
     "nodes",
     "edges",

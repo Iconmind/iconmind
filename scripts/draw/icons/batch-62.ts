@@ -17,7 +17,7 @@ export const BATCH_62: Icon[] = [
 
   {
     slug: "spotlight", category: "interface", subcategory: "action",
-    name: "Spotlight", description: "Type three letters; the thing appears",
+    name: "Spotlight", description: "Spotlight — type three letters and the thing appears, a quick search overlay",
     tags: ["search", "overlay", "quick"], family: "window",
     aliases: ["search-overlay"], keywords: ["spotlight", "command palette search", "quick find"],
     shapes: [
@@ -28,7 +28,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "recent-items", category: "interface", subcategory: "action",
-    name: "Recent items", description: "What you touched last, remembered",
+    name: "Recent items", description: "Recent items — what you touched last, remembered in a list for quick return",
     tags: ["history", "list", "clock"], family: "figure",
     aliases: [], keywords: ["recents", "recently used", "history list"],
     shapes: [
@@ -38,7 +38,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "favorite-add", category: "interface", subcategory: "action",
-    name: "Add favorite", description: "Kept where the heart keeps things",
+    name: "Add favorite", description: "Add favourite — kept where the heart keeps things, saved and liked",
     tags: ["heart", "save", "like"], family: "figure",
     aliases: [], keywords: ["favorite", "add to favorites", "heart"],
     shapes: [
@@ -49,7 +49,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "favorite-remove", category: "interface", subcategory: "action",
-    name: "Remove favorite", description: "The heart lets it go",
+    name: "Remove favorite", description: "Remove favourite — the heart lets it go, unsaved and unliked",
     tags: ["heart", "unsave", "unlike"], family: "figure",
     aliases: [], keywords: ["unfavorite", "remove favorite"],
     shapes: [
@@ -60,7 +60,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "tab-group", category: "interface", subcategory: "layout",
-    name: "Tab group", description: "Two tabs, travelling together",
+    name: "Tab group", description: "A tab group — two tabs bundled and travelling together as a set",
     tags: ["browser", "bundle", "tabs"], family: "window",
     aliases: [], keywords: ["tab group", "grouped tabs"],
     shapes: [
@@ -71,7 +71,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "tab-pin", category: "interface", subcategory: "layout",
-    name: "Pin tab", description: "This one stays put",
+    name: "Pin tab", description: "Pin tab — this tab stays put at the front of the bar and cannot be lost",
     tags: ["browser", "keep", "pin"], family: "window",
     aliases: ["pinned-tab"], keywords: ["pin tab", "pinned tab"],
     shapes: [
@@ -82,7 +82,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "tab-overflow", category: "interface", subcategory: "layout",
-    name: "Tab overflow", description: "More of them than the bar can show",
+    name: "Tab overflow", description: "Tab overflow — more tabs than the bar can show, hidden behind dots",
     tags: ["browser", "more", "dots"], family: "window",
     aliases: [], keywords: ["tab overflow", "more tabs"],
     shapes: [
@@ -93,21 +93,21 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "pane-left", category: "interface", subcategory: "layout",
-    name: "Left pane", description: "The narrow one does the choosing",
+    name: "Left pane", description: "Left pane — the narrow sidebar on the left does the choosing",
     tags: ["layout", "sidebar", "focus"], family: "window",
     aliases: [], keywords: ["left pane", "sidebar left"],
     shapes: [rect(2, 4, 20, 16, 2), col(9, 4, 20), col(5.5, 8, 16)],
   },
   {
     slug: "pane-right", category: "interface", subcategory: "layout",
-    name: "Right pane", description: "Details live on the right",
+    name: "Right pane", description: "Right pane — the details live in the sidebar on the right of the layout",
     tags: ["layout", "sidebar", "focus"], family: "window",
     aliases: [], keywords: ["right pane", "sidebar right"],
     shapes: [rect(2, 4, 20, 16, 2), col(15, 4, 20), col(18.5, 8, 16)],
   },
   {
     slug: "pane-bottom", category: "interface", subcategory: "layout",
-    name: "Bottom pane", description: "The console under everything",
+    name: "Bottom pane", description: "Bottom pane — the console drawer under everything else in the layout",
     tags: ["layout", "drawer", "console"], family: "window",
     aliases: [], keywords: ["bottom pane", "bottom drawer", "console pane"],
     shapes: [rect(2, 4, 20, 16, 2), row(14, 2, 22), row(17, 6, 18)],
@@ -117,14 +117,14 @@ export const BATCH_62: Icon[] = [
 
   {
     slug: "lockfile-tool", category: "devtools", subcategory: "package",
-    name: "Lockfile", description: "Exactly these versions, sworn in writing",
+    name: "Lockfile", description: "A lockfile — exactly these dependency versions, frozen and sworn in writing",
     tags: ["lock", "versions", "frozen"], family: "page",
     aliases: [], keywords: ["lockfile", "pnpm-lock", "package-lock"],
     shapes: [page(), disc(12, 10, 2), col(12, 12, 15.5)],
   },
   {
     slug: "organize-imports", category: "devtools", subcategory: "editor",
-    name: "Organise imports", description: "The jumble, alphabetised",
+    name: "Organise imports", description: "Organise imports — the jumble of imports sorted, deduplicated and tidied",
     tags: ["sort", "tidy", "imports"], family: "figure",
     aliases: ["sort-imports"], keywords: ["organize imports", "sort imports", "tidy"],
     shapes: [
@@ -134,14 +134,14 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "strict-mode", category: "devtools", subcategory: "code",
-    name: "Strict mode", description: "The walls, doubled",
+    name: "Strict mode", description: "Strict mode — the walls doubled, stricter rules that catch more mistakes",
     tags: ["strict", "rules", "safe"], family: "window",
     aliases: [], keywords: ["strict mode", "strictness", "no loose ends"],
     shapes: [rect(3, 3, 18, 18, 2), rect(7, 7, 10, 10, 2)],
   }, 
   {
     slug: "test-select", category: "devtools", subcategory: "testing",
-    name: "Test select", description: "Run just the one that matters now",
+    name: "Test select", description: "Test select — run just the one test that matters right now, not the whole suite",
     tags: ["focus", "only", "pick"], family: "figure",
     aliases: ["test-only"], keywords: ["test.only", "focused test", "run one"],
     shapes: [
@@ -151,7 +151,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "bench-run", category: "devtools", subcategory: "testing",
-    name: "Benchmark run", description: "How fast, exactly",
+    name: "Benchmark run", description: "A benchmark run — how fast it goes, exactly, timed and measured against a baseline",
     tags: ["timed", "speed", "measure"], family: "figure",
     aliases: [], keywords: ["benchmark", "timed run", "perf test"],
     shapes: [
@@ -161,7 +161,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "flame-graph", category: "devtools", subcategory: "debug",
-    name: "Flame graph", description: "Where the time actually went",
+    name: "Flame graph", description: "A flame graph — where the time actually went, stack widths in a profile",
     tags: ["profile", "stack", "width"], family: "chart",
     aliases: [], keywords: ["flame graph", "profiling", "cpu time"],
     shapes: [
@@ -170,7 +170,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "deadlock", category: "devtools", subcategory: "debug",
-    name: "Deadlock", description: "Each is waiting for the other to move",
+    name: "Deadlock", description: "A deadlock — each thread waiting for the other to move, stuck forever",
     tags: ["stuck", "waiting", "threads"], family: "arrow",
     aliases: [], keywords: ["deadlock", "mutual wait", "stuck threads"],
     shapes: [
@@ -180,7 +180,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "race-detect", category: "devtools", subcategory: "debug",
-    name: "Race", description: "Two writers, one address, no referee",
+    name: "Race", description: "A race condition — two writers, one address and no referee, a concurrency bug",
     tags: ["concurrent", "collide", "bug"], family: "arrow",
     aliases: ["race-condition"], keywords: ["race condition", "data race", "concurrent write"],
     shapes: [
@@ -190,7 +190,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "atomic-op", category: "devtools", subcategory: "code",
-    name: "Atomic", description: "All of it, or none of it",
+    name: "Atomic", description: "An atomic operation — all of it happens or none of it, indivisible",
     tags: ["indivisible", "safe", "single"], family: "figure",
     aliases: ["atomic"], keywords: ["atomic operation", "indivisible", "cas"],
     shapes: [
@@ -201,7 +201,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "gc-cycle", category: "devtools", subcategory: "code",
-    name: "GC cycle", description: "The collector making its rounds",
+    name: "GC cycle", description: "A GC cycle — the garbage collector making its rounds and sweeping memory",
     tags: ["memory", "sweep", "collect"], family: "rotation",
     aliases: ["garbage-collect"], keywords: ["garbage collection", "gc", "sweep"],
     shapes: [...cycle("ccw"), disc(12, 12.5, 2)],
@@ -211,7 +211,7 @@ export const BATCH_62: Icon[] = [
 
   {
     slug: "label-review", category: "data", subcategory: "quality",
-    name: "Label review", description: "Somebody looks twice at the name",
+    name: "Label review", description: "Label review — somebody looks twice at the name a row was given, QA on tags",
     tags: ["qa", "check", "tag"], family: "figure",
     aliases: [], keywords: ["label review", "annotation qa", "double check"],
     shapes: [
@@ -221,7 +221,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "annotator", category: "data", subcategory: "quality",
-    name: "Annotator", description: "The person the labels come from",
+    name: "Annotator", description: "An annotator — the person the labels come from, a human labeler",
     tags: ["human", "labeler", "person"], family: "figure",
     aliases: ["labeler"], keywords: ["annotator", "human labeler"],
     shapes: [
@@ -231,7 +231,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "synthetic-flag", category: "data", subcategory: "quality",
-    name: "Synthetic flag", description: "Made-up rows carry a flag",
+    name: "Synthetic flag", description: "A synthetic flag — made-up rows carry a marker saying they were generated",
     tags: ["marker", "generated", "flag"], family: "figure",
     aliases: [], keywords: ["synthetic flag", "generated marker"],
     shapes: [
@@ -241,7 +241,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "perturb", category: "data", subcategory: "quality",
-    name: "Perturb", description: "The same row, shaken slightly",
+    name: "Perturb", description: "Perturb — the same row shaken slightly with jitter or noise to test robustness",
     tags: ["jitter", "vary", "noise"], family: "figure",
     aliases: [], keywords: ["perturbation", "jitter data"],
     shapes: [
@@ -251,7 +251,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "entity-resolve", category: "data", subcategory: "quality",
-    name: "Entity resolve", description: "Two spellings, one person",
+    name: "Entity resolve", description: "Entity resolution — two spellings, one person, records matched to one identity",
     tags: ["merge", "identity", "match"], family: "chain",
     aliases: [], keywords: ["entity resolution", "record matching", "same entity"],
     shapes: [
@@ -262,14 +262,14 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "record-link", category: "data", subcategory: "quality",
-    name: "Record link", description: "These two rows are the same story",
+    name: "Record link", description: "Record link — these two rows are the same story, paired across sources",
     tags: ["join", "rings", "pair"], family: "chain",
     aliases: [], keywords: ["record linkage", "linked records"],
     shapes: [disc(8, 12, 5), disc(16, 12, 5)],
   },
   {
     slug: "outlier-remove", category: "data", subcategory: "quality",
-    name: "Outlier removal", description: "The one that was never really data",
+    name: "Outlier removal", description: "Outlier removal — the extreme value that was never really data, dropped",
     tags: ["clean", "drop", "extreme"], family: "figure",
     aliases: [], keywords: ["remove outliers", "drop extreme"],
     shapes: [
@@ -280,7 +280,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "normalize-data", category: "data", subcategory: "quality",
-    name: "Normalise", description: "Everything into the same band",
+    name: "Normalise", description: "Normalise data — everything scaled into the same band or range",
     tags: ["scale", "range", "fit"], family: "figure",
     aliases: ["normalise-data"], keywords: ["normalize", "scaling", "0 to 1"],
     shapes: [
@@ -290,7 +290,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "schema-pin", category: "data", subcategory: "quality",
-    name: "Schema pin", description: "The columns, held still on purpose",
+    name: "Schema pin", description: "Schema pin — the columns held still on purpose, a frozen contract",
     tags: ["freeze", "contract", "columns"], family: "window",
     aliases: [], keywords: ["pin schema", "schema freeze", "contract"],
     shapes: [
@@ -300,7 +300,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "row-count-check", category: "data", subcategory: "quality",
-    name: "Row count check", description: "As many as there were supposed to be",
+    name: "Row count check", description: "Row count check — as many rows as there were supposed to be, verified",
     tags: ["count", "verify", "rows"], family: "figure",
     aliases: [], keywords: ["row count", "count check"],
     shapes: [
@@ -313,7 +313,7 @@ export const BATCH_62: Icon[] = [
 
   {
     slug: "dimension-reduce", category: "rag", subcategory: "vector",
-    name: "Dimension reduce", description: "The same shape, in fewer numbers",
+    name: "Dimension reduce", description: "Dimensionality reduction — the same shape in fewer numbers, projected smaller",
     tags: ["compress", "smaller", "project"], family: "figure",
     aliases: [], keywords: ["dimensionality reduction", "reduce dims"],
     shapes: [
@@ -323,7 +323,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "ann-search", category: "rag", subcategory: "vector",
-    name: "ANN search", description: "Close enough, found fast",
+    name: "ANN search", description: "ANN search — approximate nearest neighbours, close enough and found fast",
     tags: ["approx", "nearest", "fast"], family: "figure",
     aliases: ["approximate-search"], keywords: ["ann", "approximate nearest neighbor"],
     shapes: [
@@ -333,7 +333,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "exact-search", category: "rag", subcategory: "vector",
-    name: "Exact search", description: "Not close — the one",
+    name: "Exact search", description: "Exact search — not close, the one precise match for the exact term",
     tags: ["precise", "equal", "sure"], family: "figure",
     aliases: [], keywords: ["exact search", "exact match"],
     shapes: [
@@ -343,7 +343,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "query-expand", category: "rag", subcategory: "retrieval",
-    name: "Query expand", description: "One question becomes several searches",
+    name: "Query expand", description: "Query expansion — one question broadened into several searches",
     tags: ["broaden", "fan", "variants"], family: "figure",
     aliases: [], keywords: ["query expansion", "broaden query"],
     shapes: [
@@ -353,7 +353,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "hyde", category: "rag", subcategory: "retrieval",
-    name: "HyDE", description: "Imagine the answer; search with the ghost",
+    name: "HyDE", description: "HyDE — imagine a hypothetical answer and search with its embedding",
     tags: ["hypothetical", "embed", "trick"], family: "page",
     aliases: ["hypothetical-document"], keywords: ["hyde", "hypothetical document embedding"],
     shapes: [
@@ -363,7 +363,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "step-back", category: "rag", subcategory: "retrieval",
-    name: "Step back", description: "Ask the bigger question first",
+    name: "Step back", description: "Step-back prompting — ask the bigger, more abstract question first",
     tags: ["abstract", "zoom-out", "question"], family: "figure",
     aliases: ["step-back-prompting"], keywords: ["step back", "abstraction first"],
     shapes: [
@@ -373,7 +373,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "index-warm", category: "rag", subcategory: "vector",
-    name: "Warm index", description: "Kept hot so the first query is fast",
+    name: "Warm index", description: "A warm index — kept loaded and hot so the first query is fast",
     tags: ["ready", "loaded", "heat"], family: "figure",
     aliases: [], keywords: ["warm index", "preloaded index"],
     shapes: [
@@ -383,7 +383,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "index-merge", category: "rag", subcategory: "vector",
-    name: "Index merge", description: "Two shelves become one",
+    name: "Index merge", description: "Index merge — two segments compacted and combined into one bigger index",
     tags: ["compact", "combine", "segments"], family: "figure",
     aliases: [], keywords: ["merge segments", "index compaction"],
     shapes: [
@@ -393,7 +393,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "shard-index", category: "rag", subcategory: "vector",
-    name: "Sharded index", description: "The index, cut so many hands can hold it",
+    name: "Sharded index", description: "A sharded index — the index cut into pieces so many machines can hold it",
     tags: ["split", "pieces", "scale"], family: "figure",
     aliases: [], keywords: ["index sharding", "sharded"],
     shapes: [
@@ -404,7 +404,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "prompt-compress", category: "rag", subcategory: "grounding",
-    name: "Prompt compress", description: "Fewer tokens; the same ask",
+    name: "Prompt compress", description: "Prompt compression — fewer tokens carrying the same ask, squeezed to fit",
     tags: ["shrink", "tokens", "squeeze"], family: "figure",
     aliases: [], keywords: ["prompt compression", "compress context"],
     shapes: [
@@ -417,7 +417,7 @@ export const BATCH_62: Icon[] = [
 
   {
     slug: "adversarial-example", category: "security", subcategory: "ai-security",
-    name: "Adversarial example", description: "Looks the same; classifies as something else",
+    name: "Adversarial example", description: "An adversarial example — looks the same to a person but classifies as something else",
     tags: ["attack", "image", "noise"], family: "window",
     aliases: [], keywords: ["adversarial example", "perturbed input"],
     shapes: [
@@ -428,14 +428,14 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "backdoor-model", category: "security", subcategory: "ai-security",
-    name: "Backdoor", description: "A keyhole nobody was told about",
+    name: "Backdoor", description: "A backdoor — a hidden keyhole in a model that nobody was told about, a trojan",
     tags: ["hidden", "access", "trojan"], family: "machine",
     aliases: [], keywords: ["backdoor", "trojaned model"],
     shapes: [machine(), disc(15, 13, 2), col(15, 15, 17.5)],
   },
   {
     slug: "trigger-phrase", category: "security", subcategory: "ai-security",
-    name: "Trigger phrase", description: "Say the words and it changes",
+    name: "Trigger phrase", description: "A trigger phrase — say the words and the model's behaviour changes",
     tags: ["phrase", "activate", "quote"], family: "figure",
     aliases: [], keywords: ["trigger phrase", "activation phrase"],
     shapes: [
@@ -445,7 +445,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "sandbag", category: "security", subcategory: "ai-security",
-    name: "Sandbagging", description: "Stronger than it lets on",
+    name: "Sandbagging", description: "Sandbagging — a model stronger than it lets on, hiding capability",
     tags: ["hide", "capability", "under"], family: "chart",
     aliases: [], keywords: ["sandbagging", "hidden capability"],
     shapes: [
@@ -456,7 +456,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "oversight", category: "security", subcategory: "ai-security",
-    name: "Oversight", description: "Somebody is actually watching",
+    name: "Oversight", description: "Oversight — somebody is actually watching the system as it runs",
     tags: ["eye", "monitor", "watch"], family: "figure",
     aliases: [], keywords: ["oversight", "monitoring", "human eye"],
     shapes: [
@@ -466,7 +466,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "interpretability", category: "security", subcategory: "ai-security",
-    name: "Interpretability", description: "The lens finally goes inside",
+    name: "Interpretability", description: "Interpretability — the lens finally goes inside the model to explain it",
     tags: ["inspect", "inside", "explain"], family: "machine",
     aliases: [], keywords: ["interpretability", "explainability"],
     shapes: [
@@ -476,14 +476,14 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "probe-safety", category: "security", subcategory: "ai-security",
-    name: "Safety probe", description: "A thin question, lowered in",
+    name: "Safety probe", description: "A safety probe — a thin question lowered into the model to test what it knows",
     tags: ["probe", "test", "inside"], family: "machine",
     aliases: [], keywords: ["safety probe", "linear probe"],
     shapes: [machine(), col(12, 2, 9), disc(12, 11.5, 1)],
   },
   {
     slug: "circuit-break", category: "security", subcategory: "ai-security",
-    name: "Circuit breaker", description: "The wire opens before the damage does",
+    name: "Circuit breaker", description: "A circuit breaker — the wire opens before the damage does, calls cut off to fail fast",
     tags: ["stop", "open", "cut"], family: "figure",
     aliases: ["circuit-breaker"], keywords: ["circuit breaker", "trip", "cutoff"],
     shapes: [
@@ -493,7 +493,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "watermark-ai", category: "security", subcategory: "ai-security",
-    name: "Watermark", description: "Signed invisibly, in the words themselves",
+    name: "Watermark", description: "An AI watermark — content signed invisibly in the words themselves for provenance",
     tags: ["mark", "hidden", "provenance"], family: "page",
     aliases: [], keywords: ["watermarking", "text watermark", "provenance"],
     shapes: [
@@ -504,7 +504,7 @@ export const BATCH_62: Icon[] = [
   },
   {
     slug: "detect-ai-text", category: "security", subcategory: "ai-security",
-    name: "Detect AI text", description: "Reading for the machine's accent",
+    name: "Detect AI text", description: "Detect AI text — a classifier reading for the machine's accent",
     tags: ["classifier", "detect", "text"], family: "figure",
     aliases: [], keywords: ["ai text detection", "generated text"],
     shapes: [

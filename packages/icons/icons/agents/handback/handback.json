@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "communication",
   "name": "Handback",
-  "description": "The agent gives control back to a person",
+  "description": "Handback — the agent gives control back to a person to take over",
   "tags": [
     "return",
     "human",

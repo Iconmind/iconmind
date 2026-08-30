@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "resource",
   "name": "MCP resource add",
-  "description": "Offer another resource",
+  "description": "MCP resource add — expose another resource so a model can read it",
   "tags": [
     "new",
     "expose",

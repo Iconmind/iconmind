@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "storage",
   "name": "Durable object",
-  "description": "Anchored; it will be here tomorrow",
+  "description": "A durable object — anchored state that will still be here tomorrow",
   "tags": [
     "persist",
     "anchor",

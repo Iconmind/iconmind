@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Panel bottom",
-  "description": "A strip across the bottom",
+  "description": "Panel bottom — a strip across the bottom of a layout, a footer or a tray",
   "tags": [
     "footer",
     "tray",

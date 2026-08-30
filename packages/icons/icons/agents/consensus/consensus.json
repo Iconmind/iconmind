@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "communication",
   "name": "Consensus",
-  "description": "They all agree",
+  "description": "Consensus — the agents all agree, a vote that reached a quorum",
   "tags": [
     "agree",
     "vote",

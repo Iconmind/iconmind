@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "chart",
   "name": "Donut chart",
-  "description": "Parts of a whole, with the middle free",
+  "description": "A donut chart — parts of a whole shown as a ring with the middle left free",
   "tags": [
     "ring",
     "share",

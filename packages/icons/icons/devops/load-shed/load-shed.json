@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "observability",
   "name": "Load shedding",
-  "description": "Better to spill some than sink",
+  "description": "Load shedding — better to drop some requests than sink the whole service",
   "tags": [
     "overflow",
     "drop",

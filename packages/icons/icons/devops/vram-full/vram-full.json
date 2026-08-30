@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "VRAM full",
-  "description": "The model does not fit",
+  "description": "VRAM full — the model does not fit, out of memory on the card",
   "tags": [
     "oom",
     "memory",

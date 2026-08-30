@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "grounding",
   "name": "Evidence",
-  "description": "The passage that supports it",
+  "description": "Evidence — the passage that supports a claim, the proof behind an answer",
   "tags": [
     "passage",
     "proof",

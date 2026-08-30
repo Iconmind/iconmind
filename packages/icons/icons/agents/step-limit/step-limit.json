@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Step limit",
-  "description": "Only this many tries",
+  "description": "A step limit — only this many tries or iterations before an agent must stop",
   "tags": [
     "budget",
     "cap",

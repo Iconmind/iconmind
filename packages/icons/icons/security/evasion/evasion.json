@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Evasion",
-  "description": "Straight through the defence",
+  "description": "Evasion — an attack that slips straight through the defence without being caught",
   "tags": [
     "bypass",
     "slip",

@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "Cache miss",
-  "description": "Not here; go ask the origin",
+  "description": "A cache miss — not here, go and ask the origin, the slow path",
   "tags": [
     "lens",
     "cross",

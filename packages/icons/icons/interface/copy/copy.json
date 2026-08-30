@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Copy",
-  "description": "Make another one",
+  "description": "Copy — make another one, duplicate an item or put it on the clipboard",
   "tags": [
     "duplicate",
     "clone",

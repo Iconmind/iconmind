@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "retrieval",
   "name": "Semantic search",
-  "description": "Find it by what it means, not what it says",
+  "description": "Semantic search — find things by what they mean, using vectors and similarity rather than keywords",
   "tags": [
     "meaning",
     "vector",

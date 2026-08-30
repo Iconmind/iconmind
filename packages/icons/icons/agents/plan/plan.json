@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "planning",
   "name": "Plan",
-  "description": "The steps an agent intends to take",
+  "description": "A plan — the ordered list of steps an agent intends to take before it acts",
   "tags": [
     "steps",
     "checklist",

@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "debug",
   "name": "Step out",
-  "description": "Finish this call and surface",
+  "description": "Step out — finish the current call and surface to the caller in the debugger",
   "tags": [
     "return",
     "up",

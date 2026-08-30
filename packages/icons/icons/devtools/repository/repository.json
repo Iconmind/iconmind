@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "version-control",
   "name": "Repository",
-  "description": "Where the code lives",
+  "description": "A repository — where the source code lives, together with its history",
   "tags": [
     "repo",
     "book",

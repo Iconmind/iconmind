@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "retrieval",
   "name": "Sparse search",
-  "description": "Match the words, not the meaning",
+  "description": "Sparse search — match the words themselves, lexical and exact",
   "tags": [
     "keyword",
     "lexical",

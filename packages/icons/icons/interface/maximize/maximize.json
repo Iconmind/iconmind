@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Maximize",
-  "description": "Make it fill the space",
+  "description": "Maximize — make a window or panel expand to fill the whole space or go fullscreen",
   "tags": [
     "expand",
     "fullscreen",

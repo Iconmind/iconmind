@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "prompt",
   "name": "Prompt stuffing",
-  "description": "Everything pushed in, in case it helps",
+  "description": "Prompt stuffing — everything crammed into the context in case it helps",
   "tags": [
     "overfull",
     "cram",

@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "lifecycle",
   "name": "Agent state",
-  "description": "What it is doing right now",
+  "description": "Agent state — what an agent is doing right now, its status, mode or phase",
   "tags": [
     "status",
     "mode",

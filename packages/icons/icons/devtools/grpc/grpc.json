@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "api",
   "name": "gRPC",
-  "description": "Two services calling each other in binary",
+  "description": "gRPC — two services calling each other in binary over protobuf",
   "tags": [
     "rpc",
     "protobuf",

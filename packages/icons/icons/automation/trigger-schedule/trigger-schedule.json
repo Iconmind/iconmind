@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "trigger",
   "name": "Scheduled trigger",
-  "description": "The clock pressed it",
+  "description": "A scheduled trigger — the clock pressed it, on a cron or a timer",
   "tags": [
     "cron",
     "timed",

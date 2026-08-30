@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Segmented",
-  "description": "A few choices, one pressed",
+  "description": "A segmented control — a few choices side by side with one of them pressed",
   "tags": [
     "control",
     "options",

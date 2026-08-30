@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Data quality",
-  "description": "The records are what they claim to be",
+  "description": "Data quality — checks that records are complete, valid and what they claim to be",
   "tags": [
     "validate",
     "clean",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Tag alert",
-  "description": "A label beside an alert mark — a tag that needs attention",
+  "description": "A label beside an alert mark — a tag that needs attention from someone",
   "tags": [
     "tag",
     "alert",

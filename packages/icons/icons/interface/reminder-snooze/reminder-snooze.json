@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "time",
   "name": "Reminder snooze",
-  "description": "A clock with a Z beside it — snooze a reminder until later",
+  "description": "A clock with a Z beside it — snooze a reminder until later in the day",
   "tags": [
     "snooze",
     "later",

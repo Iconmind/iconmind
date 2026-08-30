@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "orchestration",
   "name": "Affinity",
-  "description": "Schedule these two together",
+  "description": "Affinity — schedule these two workloads together on the same machine",
   "tags": [
     "together",
     "attract",

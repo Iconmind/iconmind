@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "Opacity",
-  "description": "How much shows through",
+  "description": "Opacity — how much shows through, the alpha of a layer from transparent to solid",
   "tags": [
     "alpha",
     "transparent",

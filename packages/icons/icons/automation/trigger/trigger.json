@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "trigger",
   "name": "Trigger",
-  "description": "What sets the thing running",
+  "description": "A trigger — the event that sets an automation, a workflow or an agent running",
   "tags": [
     "event",
     "fire",

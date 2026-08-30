@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Metric",
-  "description": "One number, watched",
+  "description": "A metric — one number watched over time, a KPI or a gauge on a dashboard",
   "tags": [
     "gauge",
     "measure",

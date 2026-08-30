@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Pooling",
-  "description": "Many vectors, folded into one",
+  "description": "Pooling — many token vectors folded into one by averaging or taking the max",
   "tags": [
     "reduce",
     "average",

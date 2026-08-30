@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "api",
   "name": "API bridge",
-  "description": "One system reaching into another",
+  "description": "An API bridge — an adapter that lets one system reach into another",
   "tags": [
     "adapter",
     "span",

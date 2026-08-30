@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "file",
   "name": "Folder open",
-  "description": "You are looking inside it",
+  "description": "Folder open — you are looking inside the folder at its files and contents",
   "tags": [
     "open",
     "expanded",

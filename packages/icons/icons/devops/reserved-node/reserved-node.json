@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "Reserved node",
-  "description": "Paid for in advance, held for you",
+  "description": "A reserved node — capacity paid for in advance and held for you",
   "tags": [
     "committed",
     "held",

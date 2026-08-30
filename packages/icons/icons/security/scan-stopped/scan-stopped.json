@@ -1,0 +1,28 @@
+{
+  "slug": "scan-stopped",
+  "category": "security",
+  "subcategory": "ai-security",
+  "name": "Scan stopped",
+  "description": "A shield beside a stop square — a security scan halted before it finished",
+  "tags": [
+    "scan",
+    "stopped",
+    "halt"
+  ],
+  "keywords": [
+    "scan stopped",
+    "halt scan",
+    "scan cancelled"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M3 5L12 5L12 11L7.5 15.5L3 11Z",
+      "closed": true
+    },
+    {
+      "d": "M15 9L21 9L21 15L15 15Z",
+      "closed": true
+    }
+  ]
+}

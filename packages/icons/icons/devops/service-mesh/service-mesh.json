@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "orchestration",
   "name": "Service mesh",
-  "description": "Every service talking through the same layer",
+  "description": "A service mesh — every service talking through the same sidecar layer",
   "tags": [
     "sidecar",
     "istio",

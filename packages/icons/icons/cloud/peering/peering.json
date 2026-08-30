@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "Peering",
-  "description": "Two networks joined straight to each other",
+  "description": "Peering — two networks joined directly to each other, a VPC link",
   "tags": [
     "direct",
     "vpc",

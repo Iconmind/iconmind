@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Approval denied",
-  "description": "The gate stays shut",
+  "description": "Approval denied — the human said no and the gate stays shut for the agent",
   "tags": [
     "no",
     "gate",

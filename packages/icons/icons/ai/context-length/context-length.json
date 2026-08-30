@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Context length",
-  "description": "How much fits between the brackets",
+  "description": "Context length — how much fits between the brackets, the window in tokens",
   "tags": [
     "window",
     "capacity",

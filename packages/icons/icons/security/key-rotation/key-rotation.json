@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "secret",
   "name": "Key rotation",
-  "description": "Replace it before it is old",
+  "description": "Key rotation — replace a credential before it gets old, renewing on a cycle",
   "tags": [
     "rotate",
     "renew",

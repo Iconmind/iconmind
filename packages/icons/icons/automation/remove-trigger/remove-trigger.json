@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "trigger",
   "name": "Remove trigger",
-  "description": "A lightning bolt with a minus beside it — delete a trigger",
+  "description": "A lightning bolt with a minus beside it — delete a trigger from the automation",
   "tags": [
     "trigger",
     "remove",

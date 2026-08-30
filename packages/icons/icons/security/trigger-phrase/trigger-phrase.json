@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Trigger phrase",
-  "description": "Say the words and it changes",
+  "description": "A trigger phrase — say the words and the model's behaviour changes",
   "tags": [
     "phrase",
     "activate",

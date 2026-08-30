@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Evaluate step",
-  "description": "Check whether that step worked",
+  "description": "Evaluate step — check whether the last step worked before taking the next",
   "tags": [
     "verify",
     "assess",

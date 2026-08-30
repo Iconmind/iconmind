@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "Workflow pause",
-  "description": "Held where it is",
+  "description": "Workflow pause — the flow held where it is, suspended and waiting",
   "tags": [
     "held",
     "waiting",

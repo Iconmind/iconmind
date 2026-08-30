@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "identity",
   "name": "User off",
-  "description": "This account is disabled",
+  "description": "User off — this account is disabled, banned or removed from the system",
   "tags": [
     "disabled",
     "banned",

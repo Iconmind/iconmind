@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "client",
   "name": "MCP elicit confirm",
-  "description": "The user says yes to the form",
+  "description": "MCP elicit confirm — the user says yes to the form the server asked them to fill",
   "tags": [
     "confirm",
     "consent",

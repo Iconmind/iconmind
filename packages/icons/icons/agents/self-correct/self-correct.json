@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "reflection",
   "name": "Self-correct",
-  "description": "It noticed, and fixed it",
+  "description": "Self-correct — the model noticed its own mistake and fixed it",
   "tags": [
     "revise",
     "amend",

@@ -16,7 +16,7 @@ export const BATCH_55: Icon[] = [
 
   {
     slug: "breakpoint-conditional", category: "devtools", subcategory: "debug",
-    name: "Conditional breakpoint", description: "Stops here, but only if",
+    name: "Conditional breakpoint", description: "A conditional breakpoint — stops here, but only if the condition is true",
     tags: ["condition", "if", "gutter"], family: "figure",
     aliases: [], keywords: ["conditional breakpoint", "stop if", "expression", "debugger"],
     // `breakpoint` with its dot traded for a diamond — the debugger's own spelling
@@ -28,7 +28,7 @@ export const BATCH_55: Icon[] = [
   },
   {
     slug: "breakpoint-log", category: "devtools", subcategory: "debug",
-    name: "Logpoint", description: "Doesn't stop — just says it was here",
+    name: "Logpoint", description: "A logpoint — a breakpoint that does not stop, it just logs that it was here",
     tags: ["log", "print", "gutter"], family: "figure",
     aliases: ["logpoint"], keywords: ["logpoint", "log message", "print here", "tracepoint"],
     // `breakpoint`'s dot and gutter, and two lines flowing past instead of one —
@@ -40,7 +40,7 @@ export const BATCH_55: Icon[] = [
   },
   {
     slug: "step-out", category: "devtools", subcategory: "debug",
-    name: "Step out", description: "Finish this call and surface",
+    name: "Step out", description: "Step out — finish the current call and surface to the caller in the debugger",
     tags: ["return", "up", "debugger"], family: "arrow",
     aliases: [], keywords: ["step out", "return from call", "surface", "debugger"],
     // `step-into` turned around: the same line, and the arrow leaving it upward.
@@ -48,7 +48,7 @@ export const BATCH_55: Icon[] = [
   },
   {
     slug: "stack-frame", category: "devtools", subcategory: "debug",
-    name: "Stack frame", description: "The one call you are standing in",
+    name: "Stack frame", description: "A stack frame — the one call you are standing in, with its own scope",
     tags: ["frame", "scope", "current"], family: "window",
     aliases: [], keywords: ["stack frame", "current frame", "scope", "call context"],
     // The frame drawn whole between the ghosts of its neighbours — a capsule with
@@ -64,7 +64,7 @@ export const BATCH_55: Icon[] = [
 
   {
     slug: "hot-reload", category: "devtools", subcategory: "package",
-    name: "Hot reload", description: "Still running while the code changes under it",
+    name: "Hot reload", description: "Hot reload — the app keeps running while the code changes underneath it",
     tags: ["live", "refresh", "instant"], family: "rotation",
     aliases: [], keywords: ["hot reload", "hmr", "live reload", "instant update"],
     // The rotation family's loop with a bolt inside, the way `index-rebuild`
@@ -76,7 +76,7 @@ export const BATCH_55: Icon[] = [
   },
   {
     slug: "source-map", category: "devtools", subcategory: "package",
-    name: "Source map", description: "Where this line really came from",
+    name: "Source map", description: "A source map — where a compiled line really came from in the original source",
     tags: ["origin", "pin", "trace"], family: "page",
     aliases: [], keywords: ["source map", "original source", "stack mapping", "debug build"],
     // A location pin dropped on the page: the shipped file, and the exact spot in
@@ -85,7 +85,7 @@ export const BATCH_55: Icon[] = [
   },
   {
     slug: "minify", category: "devtools", subcategory: "package",
-    name: "Minify", description: "The same program, in far fewer bytes",
+    name: "Minify", description: "Minify — the same program in far fewer bytes, compressed for shipping",
     tags: ["compress", "shrink", "bytes"], family: "arrow",
     aliases: [], keywords: ["minify", "compress code", "smaller bundle", "uglify"],
     // The block, the arrow down, and what is left of it.
@@ -97,7 +97,7 @@ export const BATCH_55: Icon[] = [
   },
   {
     slug: "bundle-analyze", category: "devtools", subcategory: "package",
-    name: "Bundle analyze", description: "What is actually taking the space",
+    name: "Bundle analyze", description: "Bundle analyse — a treemap of what is actually taking the space in a bundle",
     tags: ["treemap", "size", "inspect"], family: "window",
     aliases: [], keywords: ["bundle analyzer", "treemap", "bundle size", "what's big"],
     // The analyzer's treemap: one window, and the cuts that show who is heavy.
@@ -105,14 +105,14 @@ export const BATCH_55: Icon[] = [
   },
   {
     slug: "code-split", category: "devtools", subcategory: "package",
-    name: "Code split", description: "One bundle becomes the pieces you load",
+    name: "Code split", description: "Code split — one bundle broken into chunks you load lazily as needed",
     tags: ["chunks", "lazy", "split"], family: "window",
     aliases: [], keywords: ["code splitting", "chunks", "lazy load", "dynamic import"],
     shapes: [rect(2, 7, 9, 10, 2), rect(14, 3, 8, 7, 2), rect(14, 14, 8, 7, 2)],
   },
   {
     slug: "dep-graph", category: "devtools", subcategory: "package",
-    name: "Dependency graph", description: "Who needs whom",
+    name: "Dependency graph", description: "A dependency graph — who imports whom, nodes and edges between modules",
     tags: ["nodes", "edges", "imports"], family: "chain",
     aliases: ["dependency-graph"], keywords: ["dependency graph", "imports", "module graph"],
     // Two dependencies converging into one module, and the flow going on below —

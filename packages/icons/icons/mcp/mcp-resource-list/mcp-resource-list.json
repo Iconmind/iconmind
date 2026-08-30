@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "resource",
   "name": "MCP resource list",
-  "description": "Everything this server offers",
+  "description": "MCP resource list — the catalogue of everything this server offers to read",
   "tags": [
     "catalogue",
     "index",

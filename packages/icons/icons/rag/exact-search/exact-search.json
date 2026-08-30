@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "vector",
   "name": "Exact search",
-  "description": "Not close — the one",
+  "description": "Exact search — not close, the one precise match for the exact term",
   "tags": [
     "precise",
     "equal",

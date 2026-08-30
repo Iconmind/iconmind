@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "Joystick",
-  "description": "The stick that goes everywhere",
+  "description": "A joystick — the stick that points in every direction, a game controller",
   "tags": [
     "control",
     "game",

@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "Map step",
-  "description": "The same thing done to each",
+  "description": "A map step — the same operation applied to each item, fanned out in parallel",
   "tags": [
     "each",
     "fan-out",

@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "package",
   "name": "Lockfile",
-  "description": "Exactly these versions, sworn in writing",
+  "description": "A lockfile — exactly these dependency versions, frozen and sworn in writing",
   "tags": [
     "lock",
     "versions",

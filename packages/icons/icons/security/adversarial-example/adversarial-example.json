@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Adversarial example",
-  "description": "Looks the same; classifies as something else",
+  "description": "An adversarial example — looks the same to a person but classifies as something else",
   "tags": [
     "attack",
     "image",

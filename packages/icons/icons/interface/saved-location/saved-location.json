@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "identity",
   "name": "Saved location",
-  "description": "A location pin beside a bookmark — a place saved for later",
+  "description": "A location pin beside a bookmark — a place saved for later on the map",
   "tags": [
     "saved",
     "location",

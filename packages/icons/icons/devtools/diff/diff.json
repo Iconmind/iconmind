@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "version-control",
   "name": "Diff",
-  "description": "What changed",
+  "description": "A diff — what changed between two versions, shown as a patch to compare",
   "tags": [
     "change",
     "compare",

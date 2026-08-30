@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "chunking",
   "name": "Sliding window",
-  "description": "The frame moves; the text stays put",
+  "description": "A sliding window — the frame moves along the text with an overlapping stride",
   "tags": [
     "window",
     "stride",

@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "retrieval",
   "name": "Post-filter",
-  "description": "Search wide, then throw most of it back",
+  "description": "Post-filter — search wide, then throw most of the results back",
   "tags": [
     "filter",
     "after",

@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Token auth",
-  "description": "The string that vouches for you",
+  "description": "Token auth — the bearer string in a header that vouches for you",
   "tags": [
     "bearer",
     "header",

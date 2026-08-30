@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Dataset split",
-  "description": "Most to learn from, some to be judged on",
+  "description": "A dataset split — most rows to learn from, some held back to be judged on",
   "tags": [
     "train",
     "test",

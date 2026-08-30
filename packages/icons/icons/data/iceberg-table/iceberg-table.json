@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "catalog",
   "name": "Iceberg",
-  "description": "Most of the table is under the waterline",
+  "description": "An Iceberg table — most of the table's metadata sits under the waterline, an open table format",
   "tags": [
     "iceberg",
     "hidden",

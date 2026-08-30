@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Delta",
-  "description": "How much it moved",
+  "description": "A delta — how much a value moved since last time, the difference",
   "tags": [
     "change",
     "difference",

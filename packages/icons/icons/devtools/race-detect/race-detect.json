@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "debug",
   "name": "Race",
-  "description": "Two writers, one address, no referee",
+  "description": "A race condition — two writers, one address and no referee, a concurrency bug",
   "tags": [
     "concurrent",
     "collide",

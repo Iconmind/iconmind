@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "communication",
   "name": "Capability card",
-  "description": "The card an agent shows: here is what I can do",
+  "description": "A capability card — the card an agent shows to advertise what it can do, as in A2A",
   "tags": [
     "a2a",
     "advertise",

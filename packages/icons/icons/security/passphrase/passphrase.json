@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "secret",
   "name": "Passphrase",
-  "description": "Longer than a password, easier to keep",
+  "description": "A passphrase — longer than a password and easier to remember, several words as a secret",
   "tags": [
     "words",
     "long",

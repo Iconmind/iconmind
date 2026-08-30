@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Page error",
-  "description": "A window with an X inside — a page that failed to load",
+  "description": "A window with an X inside — a page that failed to load or returned an error",
   "tags": [
     "error",
     "page",

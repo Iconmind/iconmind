@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "compute",
   "name": "Multi-cloud",
-  "description": "More than one sky",
+  "description": "Multi-cloud — more than one provider at once, workloads across several clouds",
   "tags": [
     "hybrid",
     "several",

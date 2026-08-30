@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "lifecycle",
   "name": "Agent cost",
-  "description": "An agent beside a coin — what a run of this agent costs",
+  "description": "An agent beside a coin — what a single run of this agent costs to operate",
   "tags": [
     "cost",
     "spend",

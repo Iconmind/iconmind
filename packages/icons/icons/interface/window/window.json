@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Window",
-  "description": "One app's piece of the screen",
+  "description": "A window — one app's frame on the screen, a pane you can move and resize",
   "tags": [
     "frame",
     "app",

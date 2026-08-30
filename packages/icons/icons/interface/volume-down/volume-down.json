@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "Volume down",
-  "description": "Quieter",
+  "description": "Volume down — make the sound quieter, lower the speaker level",
   "tags": [
     "quiet",
     "lower",

@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "catalog",
   "name": "Data catalogue",
-  "description": "What data there is, and where",
+  "description": "A data catalogue — an inventory of what data there is and where it lives",
   "tags": [
     "inventory",
     "index",

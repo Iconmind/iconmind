@@ -1,0 +1,32 @@
+{
+  "slug": "dormant-location",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "Dormant location",
+  "description": "A location pin beside a Z — a place with no recent activity, gone quiet",
+  "tags": [
+    "location",
+    "dormant",
+    "quiet"
+  ],
+  "keywords": [
+    "dormant location",
+    "inactive place",
+    "quiet region"
+  ],
+  "family": "pin",
+  "shapes": [
+    {
+      "d": "M4 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V17",
+      "closed": false
+    },
+    {
+      "d": "M15 9.5L20 9.5L15 14.5L20 14.5",
+      "closed": false
+    }
+  ]
+}

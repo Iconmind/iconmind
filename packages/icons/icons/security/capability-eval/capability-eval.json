@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Capability eval",
-  "description": "Measure what it can do, before it does",
+  "description": "A capability eval — measure what a model can do, and how dangerous, before release",
   "tags": [
     "measure",
     "danger",

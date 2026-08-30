@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "communication",
   "name": "Agent inbox",
-  "description": "What is waiting for this agent",
+  "description": "An agent inbox — the queue of messages and tasks waiting for this agent",
   "tags": [
     "queue",
     "pending",

@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "debug",
   "name": "Heap snapshot",
-  "description": "The memory, photographed mid-thought",
+  "description": "A heap snapshot — the memory photographed mid-thought to find what is holding on",
   "tags": [
     "memory",
     "capture",

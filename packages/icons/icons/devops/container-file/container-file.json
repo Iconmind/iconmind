@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "container",
   "name": "Container file",
-  "description": "The file that says how to build the image",
+  "description": "A container file — the Dockerfile recipe that says how to build the image",
   "tags": [
     "dockerfile",
     "recipe",

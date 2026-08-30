@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "policy",
   "name": "Zero trust",
-  "description": "Nobody is inside by default",
+  "description": "Zero trust — nobody is inside by default, every request verified",
   "tags": [
     "verify",
     "always",

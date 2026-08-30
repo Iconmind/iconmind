@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "trigger",
   "name": "Wait for event",
-  "description": "Held here till something happens",
+  "description": "Wait for event — held here till something happens and signals",
   "tags": [
     "pause",
     "signal",

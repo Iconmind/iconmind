@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Run trend",
-  "description": "A play button beside a rising line — how runs are trending",
+  "description": "A play button beside a rising line — how runs are trending in duration or count",
   "tags": [
     "run",
     "trend",

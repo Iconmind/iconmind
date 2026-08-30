@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "retrieval",
   "name": "Keyword search",
-  "description": "Find the words themselves",
+  "description": "Keyword search — find the literal words themselves, exact text matching",
   "tags": [
     "literal",
     "exact",

@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "editor",
   "name": "Notebook",
-  "description": "Cells you run one at a time",
+  "description": "A notebook — cells of code you run one at a time, Jupyter style",
   "tags": [
     "jupyter",
     "cells",

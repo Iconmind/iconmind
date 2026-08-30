@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "api",
   "name": "WebSocket",
-  "description": "Open, and staying open",
+  "description": "A WebSocket — a connection opened once and kept open both ways, live",
   "tags": [
     "duplex",
     "live",

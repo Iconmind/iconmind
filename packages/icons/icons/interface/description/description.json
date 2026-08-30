@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Description",
-  "description": "The longer field under the name",
+  "description": "A description — the longer text field beneath a name where the notes go",
   "tags": [
     "text",
     "field",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Close",
-  "description": "Dismiss it",
+  "description": "Close — an X that dismisses a dialog, cancels an action or removes a chip",
   "tags": [
     "dismiss",
     "cancel",

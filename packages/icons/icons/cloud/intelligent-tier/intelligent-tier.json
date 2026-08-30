@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "storage",
   "name": "Intelligent tiering",
-  "description": "It files itself where it is cheapest",
+  "description": "Intelligent tiering — data files itself into whichever storage tier is cheapest",
   "tags": [
     "auto",
     "move",

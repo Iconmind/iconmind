@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "multimodal",
   "name": "Image generation",
-  "description": "A picture made rather than taken",
+  "description": "Image generation — a picture made by a model rather than taken by a camera",
   "tags": [
     "generate",
     "diffusion",

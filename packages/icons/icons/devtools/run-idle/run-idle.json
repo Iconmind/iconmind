@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Run idle",
-  "description": "A play button beside a Z — a runner with nothing to do",
+  "description": "A play button beside a Z — a runner with nothing to do right now",
   "tags": [
     "run",
     "idle",

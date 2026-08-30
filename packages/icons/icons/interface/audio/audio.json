@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "Audio",
-  "description": "A sound, as a waveform",
+  "description": "Audio — a sound shown as a waveform, levels rising and falling",
   "tags": [
     "waveform",
     "sound",

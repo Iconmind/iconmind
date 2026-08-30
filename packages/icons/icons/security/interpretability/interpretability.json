@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Interpretability",
-  "description": "The lens finally goes inside",
+  "description": "Interpretability — the lens finally goes inside the model to explain it",
   "tags": [
     "inspect",
     "inside",

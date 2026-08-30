@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "llm-observability",
   "name": "Rubric",
-  "description": "The criteria, written down before the grading",
+  "description": "A rubric — the grading criteria written down before anything is scored",
   "tags": [
     "criteria",
     "checklist",

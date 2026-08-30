@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "Infrastructure",
-  "description": "Everything underneath",
+  "description": "Infrastructure — everything underneath the app, the platform and the foundation",
   "tags": [
     "platform",
     "base",

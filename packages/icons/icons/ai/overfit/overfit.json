@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Overfit",
-  "description": "A curve that followed every wobble",
+  "description": "Overfit — a curve that followed every wobble of the training data and memorised it",
   "tags": [
     "memorised",
     "variance",

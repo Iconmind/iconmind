@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "code",
   "name": "Variable",
-  "description": "A name with a value in it",
+  "description": "A variable — a name with a value bound to it that can change as code runs",
   "tags": [
     "binding",
     "name",

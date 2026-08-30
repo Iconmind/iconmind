@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "chunking",
   "name": "Chunk size",
-  "description": "How big each piece is",
+  "description": "Chunk size — how big each piece of a split document is, measured in tokens or characters",
   "tags": [
     "length",
     "measure",

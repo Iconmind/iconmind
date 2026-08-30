@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "communication",
   "name": "Email agent",
-  "description": "Reads the inbox so you can not",
+  "description": "An email agent — reads the inbox and drafts replies so you do not have to",
   "tags": [
     "mail",
     "inbox",

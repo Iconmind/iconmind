@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "debug",
   "name": "Deadlock",
-  "description": "Each is waiting for the other to move",
+  "description": "A deadlock — each thread waiting for the other to move, stuck forever",
   "tags": [
     "stuck",
     "waiting",

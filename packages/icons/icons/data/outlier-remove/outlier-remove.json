@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Outlier removal",
-  "description": "The one that was never really data",
+  "description": "Outlier removal — the extreme value that was never really data, dropped",
   "tags": [
     "clean",
     "drop",

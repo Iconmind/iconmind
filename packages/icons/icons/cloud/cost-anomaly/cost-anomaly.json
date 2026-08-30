@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "cost",
   "name": "Cost anomaly",
-  "description": "The bill did something new last night",
+  "description": "A cost anomaly — the bill did something new last night, a spike to investigate",
   "tags": [
     "spike",
     "bill",

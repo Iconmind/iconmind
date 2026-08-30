@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "editor",
   "name": "Language server",
-  "description": "The thing that knows what your code means",
+  "description": "A language server — the LSP process that knows what your code means and tells the editor",
   "tags": [
     "lsp",
     "editor",

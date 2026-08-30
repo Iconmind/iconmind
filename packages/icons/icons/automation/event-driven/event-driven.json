@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "trigger",
   "name": "Event driven",
-  "description": "It runs because something happened",
+  "description": "Event-driven — it runs because something happened, reacting to an emitted event",
   "tags": [
     "reactive",
     "emit",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "Flip vertical",
-  "description": "Mirror it top to bottom",
+  "description": "Flip vertical — mirror an object top to bottom across a horizontal axis",
   "tags": [
     "mirror",
     "reflect",

@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Property test",
-  "description": "Many generated inputs, one property that must hold",
+  "description": "A property test — many generated inputs against one property that must always hold",
   "tags": [
     "generated",
     "fuzz",

@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "compute",
   "name": "Bare metal",
-  "description": "An actual machine, not a share of one",
+  "description": "Bare metal — an actual physical server, dedicated rather than a share of one",
   "tags": [
     "physical",
     "dedicated",

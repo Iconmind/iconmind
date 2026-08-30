@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Reasoning model",
-  "description": "One that works through it in steps",
+  "description": "A reasoning model — one that thinks through a problem in deliberate steps before answering",
   "tags": [
     "thinking",
     "steps",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Panel top",
-  "description": "A strip across the top",
+  "description": "Panel top — a strip across the top of a layout, a header or a toolbar",
   "tags": [
     "header",
     "toolbar",

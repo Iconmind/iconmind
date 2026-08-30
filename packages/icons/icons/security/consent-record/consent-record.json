@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "compliance",
   "name": "Consent record",
-  "description": "Who said yes, and when",
+  "description": "A consent record — who said yes, to what, and when, kept as proof",
   "tags": [
     "log",
     "proof",

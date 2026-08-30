@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "chart",
   "name": "Sankey chart",
-  "description": "Where the flow went",
+  "description": "A Sankey chart — where the flow went, split and merged as widths",
   "tags": [
     "flow",
     "diagram",

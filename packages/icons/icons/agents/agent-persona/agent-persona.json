@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "agent-core",
   "name": "Agent persona",
-  "description": "The self this agent presents",
+  "description": "An agent persona — the character and role an agent presents to the user",
   "tags": [
     "character",
     "role",

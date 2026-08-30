@@ -1,0 +1,32 @@
+{
+  "slug": "bookmarked-page",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Bookmarked page",
+  "description": "A window with a bookmark inside — a page saved to come back to",
+  "tags": [
+    "page",
+    "bookmark",
+    "saved"
+  ],
+  "keywords": [
+    "bookmarked page",
+    "saved page",
+    "page bookmark"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H20A2 2 0 0 1 22 4V20A2 2 0 0 1 20 22H4A2 2 0 0 1 2 20Z",
+      "closed": true
+    },
+    {
+      "d": "M2 6H22",
+      "closed": false
+    },
+    {
+      "d": "M8 10L16 10L16 17L12 13L8 17Z",
+      "closed": true
+    }
+  ]
+}

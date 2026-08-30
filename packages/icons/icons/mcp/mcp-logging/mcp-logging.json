@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "transport",
   "name": "MCP logging",
-  "description": "What the server reported as it went",
+  "description": "MCP logging — what a server reported as it ran, its diagnostics and records",
   "tags": [
     "records",
     "trace",

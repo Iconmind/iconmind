@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "communication",
   "name": "Message bus",
-  "description": "One channel everything hangs off",
+  "description": "A message bus — one shared channel everything publishes to and reads from",
   "tags": [
     "channel",
     "queue",

@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Just-in-time access",
-  "description": "The key exists only for the hour",
+  "description": "Just-in-time access — the key exists only for the hour it is needed",
   "tags": [
     "temporary",
     "key",

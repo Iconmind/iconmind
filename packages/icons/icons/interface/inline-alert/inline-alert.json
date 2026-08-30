@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "state",
   "name": "Inline alert",
-  "description": "A warning that sits inside the flow",
+  "description": "An inline alert — a warning that sits inside the flow of the page",
   "tags": [
     "notice",
     "warning",

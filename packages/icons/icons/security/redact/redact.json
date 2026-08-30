@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "compliance",
   "name": "Redact",
-  "description": "Blacked out",
+  "description": "Redact — black out sensitive text so it cannot be read by anyone else",
   "tags": [
     "hide",
     "censor",

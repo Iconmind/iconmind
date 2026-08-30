@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Training loss",
-  "description": "Down, then flat — that is the whole hope",
+  "description": "Training loss — down, then flat, the curve every run hopes to draw",
   "tags": [
     "curve",
     "descent",

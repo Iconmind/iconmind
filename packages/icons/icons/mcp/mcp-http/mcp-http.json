@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "transport",
   "name": "MCP over HTTP",
-  "description": "A server you call across the network",
+  "description": "MCP over HTTP — a remote server you call across the network with requests",
   "tags": [
     "remote",
     "request",

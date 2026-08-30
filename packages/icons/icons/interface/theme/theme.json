@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "Theme",
-  "description": "The same page, dressed differently",
+  "description": "A theme — the same page dressed differently, dark mode, a skin or a palette",
   "tags": [
     "dark-mode",
     "skin",

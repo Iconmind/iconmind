@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Beam search",
-  "description": "Keep several candidates alive",
+  "description": "Beam search — keep several candidate sequences alive and pick the best path at the end",
   "tags": [
     "candidates",
     "paths",

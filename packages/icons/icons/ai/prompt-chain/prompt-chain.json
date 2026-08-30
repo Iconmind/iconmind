@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "prompt",
   "name": "Prompt chain",
-  "description": "One prompt feeding the next",
+  "description": "A prompt chain — one prompt's output feeding the next in a linked sequence",
   "tags": [
     "sequence",
     "steps",

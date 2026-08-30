@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "serverless",
   "name": "Cold start",
-  "description": "The first call pays for waking it",
+  "description": "A cold start — the first call pays the latency of waking a function up",
   "tags": [
     "latency",
     "wake",

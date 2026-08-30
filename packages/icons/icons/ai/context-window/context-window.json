@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "context",
   "name": "Context window",
-  "description": "How much a model can see at once",
+  "description": "The context window — how many tokens a model can see and reason over at once",
   "tags": [
     "span",
     "window",

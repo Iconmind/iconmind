@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "tool-use",
   "name": "Tool permission",
-  "description": "May it use this one?",
+  "description": "Tool permission — may the agent use this tool? A consent gate",
   "tags": [
     "allow",
     "gate",

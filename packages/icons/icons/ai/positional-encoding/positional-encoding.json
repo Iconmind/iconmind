@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Positional encoding",
-  "description": "Every token knows its seat",
+  "description": "Positional encoding — every token knows its seat in the sequence through a wave of positions",
   "tags": [
     "position",
     "wave",

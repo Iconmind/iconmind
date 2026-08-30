@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "incident",
   "name": "Postmortem",
-  "description": "What went wrong, written down afterwards",
+  "description": "A postmortem — what went wrong, written down afterwards so the team can learn",
   "tags": [
     "retro",
     "writeup",

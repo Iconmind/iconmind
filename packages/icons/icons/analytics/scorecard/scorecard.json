@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "dashboard",
   "name": "Scorecard",
-  "description": "How each thing did, on one card",
+  "description": "A scorecard — how each thing did, graded and summarised on one card",
   "tags": [
     "results",
     "graded",

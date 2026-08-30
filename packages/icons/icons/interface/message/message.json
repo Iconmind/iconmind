@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "communication",
   "name": "Message",
-  "description": "Something somebody said",
+  "description": "A message — something somebody said, a chat bubble or a comment",
   "tags": [
     "chat",
     "bubble",

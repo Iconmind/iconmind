@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Locked filter",
-  "description": "A padlock beside a funnel — a filter users cannot remove",
+  "description": "A padlock beside a funnel — a filter that users cannot remove or change",
   "tags": [
     "filter",
     "locked",

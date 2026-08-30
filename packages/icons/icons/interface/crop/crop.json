@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "Crop",
-  "description": "Keep this part",
+  "description": "Crop — keep this part of an image and trim away the rest around it",
   "tags": [
     "trim",
     "frame",

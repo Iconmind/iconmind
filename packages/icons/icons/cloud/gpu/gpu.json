@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "compute",
   "name": "GPU",
-  "description": "The card the maths actually runs on",
+  "description": "A GPU — the graphics card or accelerator where the heavy matrix maths of AI actually runs",
   "tags": [
     "graphics",
     "accelerator",

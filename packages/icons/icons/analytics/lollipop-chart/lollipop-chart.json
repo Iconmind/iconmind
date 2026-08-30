@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "chart",
   "name": "Lollipop chart",
-  "description": "Dots on stems rising from a baseline — a lollipop chart",
+  "description": "Dots on stems rising from a baseline — a lollipop chart of categorical values",
   "tags": [
     "chart",
     "dots",

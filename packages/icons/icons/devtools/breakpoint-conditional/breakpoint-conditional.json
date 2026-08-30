@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "debug",
   "name": "Conditional breakpoint",
-  "description": "Stops here, but only if",
+  "description": "A conditional breakpoint — stops here, but only if the condition is true",
   "tags": [
     "condition",
     "if",

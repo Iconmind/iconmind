@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "communication",
   "name": "Share",
-  "description": "Give others a way to it",
+  "description": "Share — give others a way to reach it, publish a link they can open",
   "tags": [
     "link",
     "publish",

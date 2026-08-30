@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "pipeline",
   "name": "Sync",
-  "description": "Both sides ending up the same",
+  "description": "Sync — both sides ending up the same, a two-way mirror or replication",
   "tags": [
     "two-way",
     "mirror",

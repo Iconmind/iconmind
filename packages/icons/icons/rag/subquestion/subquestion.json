@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "retrieval",
   "name": "Subquestion",
-  "description": "The big ask, cut into answerable pieces",
+  "description": "A subquestion — the big ask cut into pieces that can each be answered",
   "tags": [
     "decompose",
     "question",

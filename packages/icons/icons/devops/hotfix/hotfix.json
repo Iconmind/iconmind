@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "release",
   "name": "Hotfix",
-  "description": "A repair that could not wait",
+  "description": "A hotfix — an urgent repair that could not wait for the next release",
   "tags": [
     "patch",
     "urgent",

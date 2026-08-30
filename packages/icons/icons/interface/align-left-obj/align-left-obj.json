@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Align left",
-  "description": "Every edge to the same line",
+  "description": "Align left — every object's left edge moved to the same line",
   "tags": [
     "align",
     "edge",

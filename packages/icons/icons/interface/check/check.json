@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "state",
   "name": "Check",
-  "description": "It worked",
+  "description": "A check mark meaning it worked — success, done, confirmed or passed",
   "tags": [
     "done",
     "success",

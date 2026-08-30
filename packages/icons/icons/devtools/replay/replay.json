@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "debug",
   "name": "Replay",
-  "description": "Run it again from what was recorded",
+  "description": "Replay — run it again from what was recorded, exactly as it happened",
   "tags": [
     "rerun",
     "record",

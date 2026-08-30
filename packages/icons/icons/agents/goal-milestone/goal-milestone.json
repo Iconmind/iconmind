@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "planning",
   "name": "Goal milestone",
-  "description": "The flag planted partway to the middle",
+  "description": "A goal milestone — the flag planted partway to the target to mark progress",
   "tags": [
     "progress",
     "flag",

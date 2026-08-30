@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Task yield",
-  "description": "Given back for someone else",
+  "description": "Task yield — a task given back to the queue for someone else to pick up",
   "tags": [
     "release",
     "return",

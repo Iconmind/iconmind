@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Snap to grid",
-  "description": "Let go, and it lands on the dots",
+  "description": "Snap to grid — let go, and the object lands exactly on the dots",
   "tags": [
     "grid",
     "snap",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "Volume up",
-  "description": "Louder",
+  "description": "Volume up — make the sound louder, raise the speaker level a notch",
   "tags": [
     "sound",
     "louder",

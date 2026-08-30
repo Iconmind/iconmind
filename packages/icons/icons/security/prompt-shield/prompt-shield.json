@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Prompt shield",
-  "description": "The prompt goes in guarded",
+  "description": "A prompt shield — the prompt goes into the model guarded against injection",
   "tags": [
     "guard",
     "input",

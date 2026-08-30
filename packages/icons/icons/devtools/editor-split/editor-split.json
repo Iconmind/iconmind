@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "editor",
   "name": "Split editor",
-  "description": "Two files at once",
+  "description": "A split editor — two files side by side in separate panes of the editor",
   "tags": [
     "panes",
     "side-by-side",

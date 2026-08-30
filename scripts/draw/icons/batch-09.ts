@@ -25,42 +25,42 @@ export const BATCH_09: Icon[] = [
 
   {
     slug: "arrow-up", category: "interface", subcategory: "arrow",
-    name: "Arrow up", description: "That way, up",
+    name: "Arrow up", description: "An arrow pointing up — move upward, go north, increase a value or scroll to the top",
     tags: ["up", "north", "increase"], family: "arrow",
     aliases: [], keywords: ["north", "increase", "rise", "top", "ascend"],
     shapes: [col(12, 4, 20), poly([[7, 9], [12, 4], [17, 9]])],
   },
   {
     slug: "arrow-down", category: "interface", subcategory: "arrow",
-    name: "Arrow down", description: "That way, down",
+    name: "Arrow down", description: "An arrow pointing down — move downward, go south, decrease a value or scroll to the bottom",
     tags: ["down", "south", "decrease"], family: "arrow",
     aliases: [], keywords: ["south", "decrease", "fall", "bottom", "descend"],
     shapes: [col(12, 4, 20), poly([[7, 15], [12, 20], [17, 15]])],
   },
   {
     slug: "arrow-left", category: "interface", subcategory: "arrow",
-    name: "Arrow left", description: "That way, back",
+    name: "Arrow left", description: "An arrow pointing left — go back, move west or return to the previous screen",
     tags: ["left", "back", "west"], family: "arrow",
     aliases: ["back"], keywords: ["west", "previous", "return", "backward"],
     shapes: [row(12, 4, 20), poly([[9, 7], [4, 12], [9, 17]])],
   },
   {
     slug: "arrow-right", category: "interface", subcategory: "arrow",
-    name: "Arrow right", description: "That way, on",
+    name: "Arrow right", description: "An arrow pointing right — carry on, move east or continue to the next screen",
     tags: ["right", "forward", "east"], family: "arrow",
     aliases: ["arrow"], keywords: ["east", "next", "continue", "onward", "forward"],
     shapes: [row(12, 4, 20), poly([[15, 7], [20, 12], [15, 17]])],
   },
   {
     slug: "chevron-up", category: "interface", subcategory: "arrow",
-    name: "Chevron up", description: "Close what is below, or go up a level",
+    name: "Chevron up", description: "An up-pointing chevron — collapse what is below, show less or go up a level",
     tags: ["collapse", "up", "less"], family: "chevron",
     aliases: [], keywords: ["close", "less", "fold", "scroll up", "collapse"],
     shapes: [poly([[5, 15], [12, 8], [19, 15]])],
   },
   {
     slug: "chevron-left", category: "interface", subcategory: "arrow",
-    name: "Chevron left", description: "Go back, or close what is here",
+    name: "Chevron left", description: "A left-pointing chevron — go back to the previous item or close what is open here",
     tags: ["back", "previous", "left"], family: "chevron",
     aliases: [], keywords: ["previous", "return", "caret", "disclosure"],
     shapes: [poly([[15, 5], [8, 12], [15, 19]])],
@@ -68,7 +68,7 @@ export const BATCH_09: Icon[] = [
 
   {
     slug: "external-link", category: "interface", subcategory: "action",
-    name: "External link", description: "This opens somewhere else",
+    name: "External link", description: "An external link — this opens somewhere else, in a new tab or outside the app",
     tags: ["outside", "new-tab", "away"], family: "window",
     aliases: ["open-in-new"], keywords: ["new tab", "outbound", "leave", "away", "target blank"],
     // The box is open at the corner the arrow leaves through. Closed, the arrow would be
@@ -82,7 +82,7 @@ export const BATCH_09: Icon[] = [
 
   {
     slug: "maximize", category: "interface", subcategory: "layout",
-    name: "Maximize", description: "Make it fill the space",
+    name: "Maximize", description: "Maximize — make a window or panel expand to fill the whole space or go fullscreen",
     tags: ["expand", "fullscreen", "grow"], family: "bracket",
     aliases: ["fullscreen"], keywords: ["expand", "enlarge", "full screen", "grow"],
     // Four corners pointing out. A frame with arrows in it would be a window with arrows in
@@ -94,7 +94,7 @@ export const BATCH_09: Icon[] = [
   },
   {
     slug: "minimize", category: "interface", subcategory: "layout",
-    name: "Minimize", description: "Give the space back",
+    name: "Minimize", description: "Minimize — shrink a window or panel and give the space back to what is behind it",
     tags: ["shrink", "restore", "collapse"], family: "bracket",
     aliases: [], keywords: ["shrink", "exit fullscreen", "collapse", "reduce", "restore"],
     shapes: [
@@ -110,35 +110,35 @@ export const BATCH_09: Icon[] = [
 
   {
     slug: "clipboard", category: "interface", subcategory: "file",
-    name: "Clipboard", description: "What you copied, waiting",
+    name: "Clipboard", description: "A clipboard — what you copied, waiting to be pasted somewhere else",
     tags: ["paste", "copy", "board"], family: "window",
     aliases: [], keywords: ["copy", "buffer", "board", "clip"],
     shapes: [rect(4, 5, 16, 16, 2), rect(8, 2, 8, 7, 2)],
   },
   {
     slug: "credit-card", category: "interface", subcategory: "action",
-    name: "Credit card", description: "How it gets paid for",
+    name: "Credit card", description: "A credit card — how a purchase, a subscription or a bill gets paid for",
     tags: ["payment", "billing", "card"], family: "window",
     aliases: ["payment"], keywords: ["billing", "checkout", "stripe", "pay", "card"],
     shapes: [rect(2, 6, 20, 13, 2), row(11, 2, 22), row(15, 5, 10)],
   },
   {
     slug: "phone", category: "interface", subcategory: "communication",
-    name: "Phone", description: "The thing in your pocket",
+    name: "Phone", description: "A phone — the mobile device in your pocket, a call or the mobile version of an app",
     tags: ["mobile", "device", "call"], family: "window",
     aliases: ["mobile"], keywords: ["device", "cell", "handset", "responsive", "call"],
     shapes: [rect(7, 2, 10, 20, 2), row(5, 10, 14), row(19, 10, 14)],
   },
   {
     slug: "monitor", category: "interface", subcategory: "media",
-    name: "Monitor", description: "The big screen",
+    name: "Monitor", description: "A monitor — the big desktop screen or display an app is shown on",
     tags: ["screen", "display", "desktop"], family: "window",
     aliases: ["screen"], keywords: ["display", "desktop", "resolution", "output"],
     shapes: [frame(2, 4, 20, 13, 3, { gap: 4 }), col(12, 17, 20), row(20, 7, 17)],
   },
   {
     slug: "heart", category: "interface", subcategory: "action",
-    name: "Heart", description: "Liked, or kept",
+    name: "Heart", description: "A heart — liked, loved, kept as a favourite to come back to later",
     tags: ["like", "favourite", "love"], family: "figure",
     aliases: ["like"], keywords: ["favourite", "favorite", "love", "save", "star"],
     // Two arcs and a V, and the V is at the set's own angle. Every other heart is two
@@ -154,21 +154,21 @@ export const BATCH_09: Icon[] = [
 
   {
     slug: "folder-add", category: "interface", subcategory: "file",
-    name: "Folder add", description: "Make a new folder",
+    name: "Folder add", description: "Folder add — create a new folder or directory to keep files together",
     tags: ["new", "create", "directory"], family: "folder",
     aliases: ["new-folder"], keywords: ["new directory", "create", "mkdir"],
     shapes: [folder(), ...add(SMALL, 13)],
   },
   {
     slug: "folder-check", category: "interface", subcategory: "file",
-    name: "Folder check", description: "This folder is in order",
+    name: "Folder check", description: "Folder check — this folder is in order, synced, verified or done",
     tags: ["synced", "verified", "done"], family: "folder",
     aliases: [], keywords: ["synced", "backed up", "verified", "complete"],
     shapes: [folder(), ...check(SMALL, 13)],
   },
   {
     slug: "folder-off", category: "interface", subcategory: "file",
-    name: "Folder off", description: "This folder is not available",
+    name: "Folder off", description: "Folder off — this folder is missing, disabled or excluded from view",
     tags: ["missing", "disabled", "excluded"], family: "folder",
     aliases: [], keywords: ["missing", "ignored", "excluded", "unavailable"],
     shapes: [folder(), ...off(SMALL, 13)],
@@ -178,7 +178,7 @@ export const BATCH_09: Icon[] = [
 
   {
     slug: "document-add", category: "interface", subcategory: "file",
-    name: "Document add", description: "Start a new one",
+    name: "Document add", description: "Document add — start a new file or page from scratch, a blank document",
     tags: ["new", "create", "file"], family: "page",
     aliases: ["new-file"], keywords: ["new document", "create", "blank", "compose"],
     // The small mark, not the big one. A page is twelve units wide inside where a folder is
@@ -187,14 +187,14 @@ export const BATCH_09: Icon[] = [
   },
   {
     slug: "document-check", category: "interface", subcategory: "file",
-    name: "Document check", description: "This one has been dealt with",
+    name: "Document check", description: "Document check — this file has been dealt with, approved or signed off",
     tags: ["approved", "signed", "done"], family: "page",
     aliases: [], keywords: ["approved", "signed", "reviewed", "complete"],
     shapes: [page(), ...check(SMALL)],
   },
   {
     slug: "document-off", category: "interface", subcategory: "file",
-    name: "Document off", description: "This one is gone or unreadable",
+    name: "Document off", description: "Document off — this file is gone, unreadable, corrupt or excluded",
     tags: ["missing", "corrupt", "excluded"], family: "page",
     aliases: [], keywords: ["missing", "deleted", "corrupt", "unreadable"],
     shapes: [page(), ...off(SMALL)],
@@ -204,7 +204,7 @@ export const BATCH_09: Icon[] = [
 
   {
     slug: "calendar-add", category: "interface", subcategory: "time",
-    name: "Calendar add", description: "Put something in the diary",
+    name: "Calendar add", description: "Calendar add — put a new event, meeting or deadline into the diary",
     tags: ["schedule", "event", "new"], family: "window",
     aliases: [], keywords: ["new event", "book", "appointment", "add date", "schedule"],
     // The mark sits below the header rule rather than on the canvas centre. A calendar's
@@ -213,14 +213,14 @@ export const BATCH_09: Icon[] = [
   },
   {
     slug: "calendar-check", category: "interface", subcategory: "time",
-    name: "Calendar check", description: "That day is settled",
+    name: "Calendar check", description: "Calendar check — that day is settled, booked and confirmed in the diary",
     tags: ["booked", "confirmed", "done"], family: "window",
     aliases: [], keywords: ["confirmed", "booked", "attended", "rsvp"],
     shapes: [...calendarParts(), ...check(SMALL, 15)],
   },
   {
     slug: "calendar-off", category: "interface", subcategory: "time",
-    name: "Calendar off", description: "Cancelled",
+    name: "Calendar off", description: "Calendar off — the event is cancelled or the date is blocked and unavailable",
     tags: ["cancelled", "unavailable", "blocked"], family: "window",
     aliases: [], keywords: ["cancelled", "declined", "blocked", "unavailable"],
     shapes: [...calendarParts(), ...off(SMALL, 15)],
@@ -228,7 +228,7 @@ export const BATCH_09: Icon[] = [
 
   {
     slug: "bookmark-add", category: "interface", subcategory: "action",
-    name: "Bookmark add", description: "Keep this one",
+    name: "Bookmark add", description: "Bookmark add — keep this one, save it as a new favourite to find again",
     tags: ["save", "new", "favourite"], family: "ribbon",
     aliases: [], keywords: ["save for later", "add to list", "pin", "collect"],
     // Two units above the canvas centre, because the ribbon's notch cuts into the middle

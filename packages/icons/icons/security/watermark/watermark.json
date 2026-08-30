@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Watermark",
-  "description": "Marked as made, invisibly",
+  "description": "A watermark — an invisible stamp that marks content as generated, proof of provenance",
   "tags": [
     "provenance",
     "stamp",

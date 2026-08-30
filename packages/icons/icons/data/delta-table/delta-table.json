@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "catalog",
   "name": "Delta table",
-  "description": "The table that remembers its changes",
+  "description": "A Delta table — a lakehouse table that remembers every change as a version",
   "tags": [
     "delta",
     "versioned",

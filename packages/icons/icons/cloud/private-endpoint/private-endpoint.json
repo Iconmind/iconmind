@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "Private endpoint",
-  "description": "The route ends at a lock, not the internet",
+  "description": "A private endpoint — the route ends inside the VPC at a lock, never on the public internet",
   "tags": [
     "vpc",
     "private",

@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Run scan",
-  "description": "A shield beside a play button — start a security scan",
+  "description": "A shield beside a play button — start a security scan right now",
   "tags": [
     "scan",
     "run",

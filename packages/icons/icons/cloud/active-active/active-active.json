@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "Active-active",
-  "description": "Both of them serving, all the time",
+  "description": "Active-active — both sites serving all the time, live in parallel",
   "tags": [
     "dual",
     "live",

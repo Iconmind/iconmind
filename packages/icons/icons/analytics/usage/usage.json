@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Usage",
-  "description": "How much of it is being used",
+  "description": "Usage — how much of a resource is being used, the meter on consumption",
   "tags": [
     "consumption",
     "meter",

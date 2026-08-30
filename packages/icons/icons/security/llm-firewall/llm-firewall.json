@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "LLM firewall",
-  "description": "What the model is not allowed to say",
+  "description": "An LLM firewall — the guard that decides what a model is not allowed to say",
   "tags": [
     "guard",
     "filter",

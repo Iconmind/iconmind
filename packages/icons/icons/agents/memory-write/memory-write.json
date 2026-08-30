@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "memory",
   "name": "Memory write",
-  "description": "Put something away for later",
+  "description": "Memory write — put something away in an agent's memory for later",
   "tags": [
     "store",
     "save",

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Pre-training",
-  "description": "The first, biggest pass over everything",
+  "description": "Pre-training — the first and biggest pass over everything, building the base model",
   "tags": [
     "base",
     "corpus",

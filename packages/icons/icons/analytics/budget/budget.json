@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Budget",
-  "description": "What is spent against what is allowed",
+  "description": "A budget — what is spent against what is allowed, the cap on cost",
   "tags": [
     "limit",
     "spend",

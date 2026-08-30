@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "condition",
   "name": "Semaphore",
-  "description": "Take a light before you enter",
+  "description": "A semaphore — take a signal light before you enter, a lock with a few slots",
   "tags": [
     "lock",
     "signal",

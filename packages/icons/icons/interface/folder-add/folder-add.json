@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "file",
   "name": "Folder add",
-  "description": "Make a new folder",
+  "description": "Folder add — create a new folder or directory to keep files together",
   "tags": [
     "new",
     "create",

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "multimodal",
   "name": "Audio model",
-  "description": "A model that works on sound",
+  "description": "An audio model — a model that works on sound, listening or transcribing speech",
   "tags": [
     "speech",
     "whisper",

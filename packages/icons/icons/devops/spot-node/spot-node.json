@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "Spot node",
-  "description": "Cheap, until it is taken back",
+  "description": "A spot node — cheap until the provider takes it back, interruptible compute",
   "tags": [
     "spot",
     "interruptible",

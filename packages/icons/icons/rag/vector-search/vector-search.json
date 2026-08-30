@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "retrieval",
   "name": "Vector search",
-  "description": "Find the nearest point in the space",
+  "description": "Vector search — find the nearest points in embedding space, a k-nearest-neighbour lookup",
   "tags": [
     "nearest",
     "knn",

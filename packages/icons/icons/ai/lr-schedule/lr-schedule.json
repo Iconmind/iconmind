@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "LR schedule",
-  "description": "The learning rate, stepped down on plan",
+  "description": "An LR schedule — the learning rate stepped down on a plan as training proceeds",
   "tags": [
     "rate",
     "steps",

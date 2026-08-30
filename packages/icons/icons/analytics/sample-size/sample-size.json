@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "experiment",
   "name": "Sample size",
-  "description": "How many you need before it means anything",
+  "description": "Sample size — how many observations you need before a result means anything",
   "tags": [
     "n",
     "enough",

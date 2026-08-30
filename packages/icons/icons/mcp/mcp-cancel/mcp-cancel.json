@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "transport",
   "name": "MCP cancel",
-  "description": "Stop the call that is running",
+  "description": "MCP cancel — stop the call that is currently running before it finishes",
   "tags": [
     "abort",
     "halt",

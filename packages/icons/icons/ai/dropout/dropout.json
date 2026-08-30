@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Dropout",
-  "description": "Some neurons sit this batch out",
+  "description": "Dropout — some neurons sit this batch out at random to regularise the model",
   "tags": [
     "regularise",
     "holes",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "communication",
   "name": "Subscribe",
-  "description": "Tell me when there is more",
+  "description": "Subscribe — follow a feed and be told when there is more to read",
   "tags": [
     "follow",
     "feed",

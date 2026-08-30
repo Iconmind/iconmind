@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "terminal",
   "name": "Command",
-  "description": "The line you type",
+  "description": "A command — the line you type at a prompt in the shell to make something happen",
   "tags": [
     "cli",
     "prompt",

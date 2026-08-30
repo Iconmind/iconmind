@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Location",
-  "description": "Here, on a map",
+  "description": "Location — a pin marking a place here on the map, where something is",
   "tags": [
     "pin",
     "place",

@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "package",
   "name": "Version bump",
-  "description": "One number up",
+  "description": "Version bump — one number up in semver, a raised release version",
   "tags": [
     "increment",
     "semver",

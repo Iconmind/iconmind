@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Data anomaly",
-  "description": "The row that does not belong",
+  "description": "A data anomaly — the row that does not belong, an outlier or a wrong value",
   "tags": [
     "outlier",
     "odd",

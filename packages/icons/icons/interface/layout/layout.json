@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Layout",
-  "description": "Where the parts of the page go",
+  "description": "Layout — where the parts of a page go, the arrangement of its regions",
   "tags": [
     "grid",
     "arrange",

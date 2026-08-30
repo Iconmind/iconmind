@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Kill switch",
-  "description": "The one control that ends it now",
+  "description": "A kill switch — the one emergency control that ends it right now",
   "tags": [
     "emergency",
     "off",

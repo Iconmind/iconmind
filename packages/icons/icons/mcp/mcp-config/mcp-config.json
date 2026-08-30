@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "registry",
   "name": "MCP config",
-  "description": "How the servers are set up",
+  "description": "MCP config — how the servers are set up, the manifest that lists what a client connects to",
   "tags": [
     "settings",
     "manifest",

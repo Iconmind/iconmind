@@ -21,35 +21,35 @@ export const BATCH_11: Icon[] = [
 
   {
     slug: "pause", category: "interface", subcategory: "media",
-    name: "Pause", description: "Hold it there",
+    name: "Pause", description: "Pause — hold it there, suspend playback or a running process without ending it",
     tags: ["hold", "suspend", "wait"], family: "rails",
     aliases: [], keywords: ["hold", "suspend", "break", "interrupt"],
     shapes: [col(9, 4, 20), col(15, 4, 20)],
   },
   {
     slug: "stop", category: "interface", subcategory: "media",
-    name: "Stop", description: "End it now",
+    name: "Stop", description: "Stop — end it now, halt playback or cancel a running process",
     tags: ["end", "halt", "cancel"], family: "window",
     aliases: [], keywords: ["end", "halt", "terminate", "abort", "kill"],
     shapes: [rect(5, 5, 14, 14, 2)],
   },
   {
     slug: "skip-forward", category: "interface", subcategory: "media",
-    name: "Skip forward", description: "On to the next one",
+    name: "Skip forward", description: "Skip forward — jump on to the next track, item or step in the sequence",
     tags: ["next", "forward", "advance"], family: "chevron",
     aliases: [], keywords: ["next track", "advance", "fast forward", "seek"],
     shapes: [poly([[6, 5], [13, 12], [6, 19]]), col(17, 5, 19)],
   },
   {
     slug: "skip-back", category: "interface", subcategory: "media",
-    name: "Skip back", description: "Back to the last one",
+    name: "Skip back", description: "Skip back — jump back to the previous track, item or step in the sequence",
     tags: ["previous", "back", "rewind"], family: "chevron",
     aliases: [], keywords: ["previous track", "rewind", "seek back", "restart"],
     shapes: [poly([[18, 5], [11, 12], [18, 19]]), col(7, 5, 19)],
   },
   {
     slug: "volume-off", category: "interface", subcategory: "media",
-    name: "Volume off", description: "Silenced",
+    name: "Volume off", description: "Volume off — muted, silenced, no sound at all from the speaker",
     tags: ["mute", "silent", "quiet"], family: "figure",
     aliases: ["mute"], keywords: ["mute", "silence", "quiet", "no sound"],
     // The cross sits beside the cone rather than across it. Drawn through, it crosses the
@@ -61,7 +61,7 @@ export const BATCH_11: Icon[] = [
   },
   {
     slug: "keyboard", category: "interface", subcategory: "media",
-    name: "Keyboard", description: "Type it",
+    name: "Keyboard", description: "A keyboard — type it, keys, text input and keyboard shortcuts",
     tags: ["keys", "input", "typing"], family: "window",
     aliases: [], keywords: ["keys", "shortcut", "input", "typing", "hotkey"],
     // Keys, not lines. Three full-width rules in a box is a card with text on it — what
@@ -76,7 +76,7 @@ export const BATCH_11: Icon[] = [
 
   {
     slug: "token-limit", category: "ai", subcategory: "token",
-    name: "Token limit", description: "The ceiling you are not allowed past",
+    name: "Token limit", description: "A token limit — the ceiling on tokens a request, a model or a budget is not allowed past",
     tags: ["ceiling", "max", "cap"], family: "capsule",
     aliases: [], keywords: ["max tokens", "cap", "quota", "hard limit", "truncate"],
     // The wall is separate from the thing it stops. Drawn as one shape they would be a
@@ -85,7 +85,7 @@ export const BATCH_11: Icon[] = [
   },
   {
     slug: "token-cost", category: "ai", subcategory: "token",
-    name: "Token cost", description: "What the tokens are worth",
+    name: "Token cost", description: "Token cost — what the tokens are worth in money, the price of a request",
     tags: ["price", "billing", "spend"], family: "capsule",
     aliases: [], keywords: ["price per token", "spend", "billing", "usage", "budget"],
     // Stacked, not side by side. Level with each other a capsule and a circle read as an
@@ -94,7 +94,7 @@ export const BATCH_11: Icon[] = [
   },
   {
     slug: "streaming-response", category: "ai", subcategory: "inference",
-    name: "Streaming response", description: "The answer arriving as it is written",
+    name: "Streaming response", description: "A streaming response — the model's answer arriving token by token as it is written",
     tags: ["stream", "tokens", "live"], family: "machine",
     aliases: [], keywords: ["sse", "token by token", "incremental", "live", "typing"],
     // Two dashes leaving the machine, not three. Three is a queue; two is something still
@@ -109,7 +109,7 @@ export const BATCH_11: Icon[] = [
 
   {
     slug: "agent-config", category: "agents", subcategory: "lifecycle",
-    name: "Agent config", description: "How this agent is set up",
+    name: "Agent config", description: "Agent config — how this agent is set up, its settings, options and tuning",
     tags: ["settings", "options", "tuning"], family: "orbit",
     aliases: [], keywords: ["settings", "options", "parameters", "setup", "profile"],
     // `settings`' rails, inside `agent`'s ring. The pair says whose settings these are,
@@ -118,7 +118,7 @@ export const BATCH_11: Icon[] = [
   },
   {
     slug: "agent-team", category: "agents", subcategory: "multi-agent",
-    name: "Agent team", description: "A standing group of agents",
+    name: "Agent team", description: "An agent team — a standing group of agents that work together as a crew",
     tags: ["group", "crew", "squad"], family: "orbit",
     aliases: ["crew"], keywords: ["squad", "group", "roster", "pool", "fleet"],
     // Four, in a square. `multi-agent` is two working on one problem; a team is a standing
@@ -130,7 +130,7 @@ export const BATCH_11: Icon[] = [
   },
   {
     slug: "fallback", category: "agents", subcategory: "execution",
-    name: "Fallback", description: "What to do when the first way fails",
+    name: "Fallback", description: "A fallback — the backup path taken when the first way fails or times out",
     tags: ["backup", "alternate", "recover"], family: "arrow",
     aliases: [], keywords: ["retry path", "alternative", "degraded", "plan b", "recover"],
     // A path that steps down and carries on. Level, it is `arrow-right`; the step is the
@@ -142,7 +142,7 @@ export const BATCH_11: Icon[] = [
   },
   {
     slug: "decompose", category: "agents", subcategory: "planning",
-    name: "Decompose", description: "Break the task into smaller ones",
+    name: "Decompose", description: "Decompose — break a big task into smaller subtasks an agent can work through",
     tags: ["split", "breakdown", "subtasks"], family: "chain",
     aliases: ["breakdown"], keywords: ["split task", "subtasks", "divide", "plan", "fan out"],
     shapes: [
@@ -155,7 +155,7 @@ export const BATCH_11: Icon[] = [
 
   {
     slug: "data-warehouse", category: "data", subcategory: "storage",
-    name: "Data warehouse", description: "Everything, kept for asking questions of",
+    name: "Data warehouse", description: "A data warehouse — everything kept in one central store for analytical queries",
     tags: ["store", "olap", "central"], family: "cylinder",
     aliases: [], keywords: ["snowflake", "bigquery", "redshift", "olap", "lakehouse"],
     // `storage-bucket`'s cylinder with a band round its middle. A bucket holds objects and
@@ -175,28 +175,28 @@ export const BATCH_11: Icon[] = [
 
   {
     slug: "document-alert", category: "interface", subcategory: "file",
-    name: "Document alert", description: "Something is wrong with this one",
+    name: "Document alert", description: "Document alert — something is wrong with this file, invalid or needing attention",
     tags: ["invalid", "problem", "attention"], family: "page",
     aliases: [], keywords: ["invalid", "error", "malformed", "needs review"],
     shapes: [page(), ...alert(SMALL)],
   },
   {
     slug: "folder-alert", category: "interface", subcategory: "file",
-    name: "Folder alert", description: "Something in here needs looking at",
+    name: "Folder alert", description: "Folder alert — something in this folder needs looking at before you go on",
     tags: ["problem", "warning", "attention"], family: "folder",
     aliases: [], keywords: ["conflict", "warning", "sync error", "needs review"],
     shapes: [folder(), ...alert(SMALL, 13)],
   },
   {
     slug: "calendar-alert", category: "interface", subcategory: "time",
-    name: "Calendar alert", description: "There is a clash",
+    name: "Calendar alert", description: "Calendar alert — a clash, a reminder or a warning about a date",
     tags: ["conflict", "reminder", "warning"], family: "window",
     aliases: [], keywords: ["conflict", "double booked", "reminder", "overdue"],
     shapes: [...calendarParts(), ...alert(SMALL, 15)],
   },
   {
     slug: "shield-add", category: "security", subcategory: "policy",
-    name: "Shield add", description: "Put a rule in place",
+    name: "Shield add", description: "Shield add — put a new protection rule or policy in place to guard something",
     tags: ["protect", "new-rule", "enable"], family: "shield",
     aliases: [], keywords: ["add policy", "new rule", "enable protection", "harden"],
     shapes: [shield(), ...add(SMALL, 11)],

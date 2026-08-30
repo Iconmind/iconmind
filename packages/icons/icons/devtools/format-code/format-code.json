@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "editor",
   "name": "Format",
-  "description": "Line it all up",
+  "description": "Format code — line it all up with a formatter like Prettier so it reads tidily",
   "tags": [
     "prettier",
     "align",

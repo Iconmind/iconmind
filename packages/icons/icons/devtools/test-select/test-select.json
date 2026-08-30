@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Test select",
-  "description": "Run just the one that matters now",
+  "description": "Test select — run just the one test that matters right now, not the whole suite",
   "tags": [
     "focus",
     "only",

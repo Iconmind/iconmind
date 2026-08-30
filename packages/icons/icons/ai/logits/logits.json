@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Logits",
-  "description": "The raw scores, before they are probabilities",
+  "description": "Logits — the raw scores a model produces before softmax turns them into probabilities",
   "tags": [
     "scores",
     "raw",

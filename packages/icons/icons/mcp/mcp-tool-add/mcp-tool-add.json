@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "tool",
   "name": "MCP tool add",
-  "description": "Offer another capability",
+  "description": "MCP tool add — expose another capability from a server for the model to call",
   "tags": [
     "new",
     "expose",

@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Detect AI text",
-  "description": "Reading for the machine's accent",
+  "description": "Detect AI text — a classifier reading for the machine's accent",
   "tags": [
     "classifier",
     "detect",

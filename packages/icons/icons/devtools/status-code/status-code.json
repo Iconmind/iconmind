@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "api",
   "name": "Status code",
-  "description": "The number that says how it went",
+  "description": "A status code — the number that says how a request went, 200, 404 or 500",
   "tags": [
     "200",
     "404",

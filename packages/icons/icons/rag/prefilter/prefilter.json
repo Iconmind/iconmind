@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "retrieval",
   "name": "Pre-filter",
-  "description": "Narrow first, then search what is left",
+  "description": "Pre-filter — narrow the candidates first, then search what is left",
   "tags": [
     "filter",
     "first",

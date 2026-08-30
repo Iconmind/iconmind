@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "grounding",
   "name": "Context recall",
-  "description": "Did we fetch everything that mattered?",
+  "description": "Context recall — did retrieval fetch everything that mattered for the answer?",
   "tags": [
     "complete",
     "found",

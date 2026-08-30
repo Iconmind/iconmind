@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "cost",
   "name": "Cloud cost",
-  "description": "What the sky is charging",
+  "description": "Cloud cost — what the cloud provider is charging, the bill and the spend",
   "tags": [
     "bill",
     "spend",

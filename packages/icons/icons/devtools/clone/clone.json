@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "version-control",
   "name": "Clone",
-  "description": "Take a copy of the whole thing",
+  "description": "Clone — take a full copy of a repository, its history and all its branches",
   "tags": [
     "copy",
     "fetch",

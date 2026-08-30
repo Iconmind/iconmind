@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "communication",
   "name": "Composer expand",
-  "description": "More room to write",
+  "description": "Composer expand — more room to write, the input grown to fullscreen",
   "tags": [
     "grow",
     "fullscreen",

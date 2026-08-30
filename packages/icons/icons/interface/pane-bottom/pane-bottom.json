@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Bottom pane",
-  "description": "The console under everything",
+  "description": "Bottom pane — the console drawer under everything else in the layout",
   "tags": [
     "layout",
     "drawer",

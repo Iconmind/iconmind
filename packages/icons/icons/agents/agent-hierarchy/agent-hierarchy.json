@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "multi-agent",
   "name": "Agent hierarchy",
-  "description": "Who reports to whom",
+  "description": "An agent hierarchy — who reports to whom, a tree of supervisors and workers",
   "tags": [
     "tree",
     "levels",

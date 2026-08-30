@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "server",
   "name": "MCP",
-  "description": "The protocol a model talks to tools through",
+  "description": "MCP, the Model Context Protocol — the standard a model uses to talk to tools and data sources",
   "tags": [
     "protocol",
     "connect",

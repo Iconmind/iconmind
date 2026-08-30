@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "threat",
   "name": "DDoS",
-  "description": "More traffic than it can take",
+  "description": "A DDoS attack — a flood of traffic from many sources meant to overwhelm a service",
   "tags": [
     "flood",
     "overwhelm",

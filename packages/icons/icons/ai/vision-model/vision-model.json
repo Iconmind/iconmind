@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "multimodal",
   "name": "Vision model",
-  "description": "A model that looks",
+  "description": "A vision model — a model that looks at images and understands what it sees",
   "tags": [
     "image",
     "see",

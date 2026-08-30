@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "resource",
   "name": "MCP subscribe",
-  "description": "Tell me every time it changes",
+  "description": "MCP subscribe — tell me every time this changes, a feed of updates",
   "tags": [
     "updates",
     "watch",

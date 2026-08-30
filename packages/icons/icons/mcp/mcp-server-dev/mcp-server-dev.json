@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "server",
   "name": "MCP server dev",
-  "description": "A server still being written",
+  "description": "MCP server dev — a server still being written and built, not yet published",
   "tags": [
     "develop",
     "code",

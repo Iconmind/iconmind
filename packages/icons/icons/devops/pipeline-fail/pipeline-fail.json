@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "ci-cd",
   "name": "Pipeline failure",
-  "description": "This stage did not",
+  "description": "Pipeline failure — this stage went red, the build is broken and needs a fix",
   "tags": [
     "failed",
     "red",

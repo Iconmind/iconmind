@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "storage",
   "name": "Cell",
-  "description": "One value, exactly here",
+  "description": "A cell — one value at exactly this row and column of a table",
   "tags": [
     "value",
     "coordinate",

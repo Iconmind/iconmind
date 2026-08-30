@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "safety",
   "name": "Toxicity",
-  "description": "Content that should not have been said",
+  "description": "Toxicity — harmful or abusive content that should not have been said, flagged",
   "tags": [
     "harmful",
     "abuse",

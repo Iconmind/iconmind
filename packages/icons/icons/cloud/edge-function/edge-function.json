@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "edge",
   "name": "Edge function",
-  "description": "Code that runs out there",
+  "description": "An edge function — code that runs out at the edge, a worker near the user",
   "tags": [
     "worker",
     "compute",

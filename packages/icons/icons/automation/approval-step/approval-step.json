@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "human-loop",
   "name": "Approval step",
-  "description": "A step that waits for a person",
+  "description": "An approval step — a step in a flow that waits for a person to sign off",
   "tags": [
     "gate",
     "sign-off",

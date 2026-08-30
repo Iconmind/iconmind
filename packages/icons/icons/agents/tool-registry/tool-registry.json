@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "tool-use",
   "name": "Tool registry",
-  "description": "Everything the agent is allowed to call",
+  "description": "A tool registry — the catalogue of every tool an agent is allowed to call",
   "tags": [
     "catalogue",
     "available",

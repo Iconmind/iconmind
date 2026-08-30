@@ -1,0 +1,32 @@
+{
+  "slug": "move-label",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Move label",
+  "description": "A label with an arrow beside it — move a tag to another group",
+  "tags": [
+    "label",
+    "move",
+    "reorganise"
+  ],
+  "keywords": [
+    "move label",
+    "reassign tag",
+    "relocate label"
+  ],
+  "family": "tag",
+  "shapes": [
+    {
+      "d": "M3 6L7 6L11 10L7 14L3 14Z",
+      "closed": true
+    },
+    {
+      "d": "M16 12H22",
+      "closed": false
+    },
+    {
+      "d": "M19.5 9.5L22 12L19.5 14.5",
+      "closed": false
+    }
+  ]
+}

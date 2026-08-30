@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Retry",
-  "description": "Go round and try again",
+  "description": "Retry — go round and try the same operation again after a failure",
   "tags": [
     "repeat",
     "again",

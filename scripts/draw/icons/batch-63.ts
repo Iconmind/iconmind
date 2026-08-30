@@ -17,7 +17,7 @@ export const BATCH_63: Icon[] = [
 
   {
     slug: "temperature-high", category: "ai", subcategory: "inference",
-    name: "High temperature", description: "Let it gamble a little",
+    name: "High temperature", description: "High temperature — let the model gamble a little, more random and creative sampling",
     tags: ["random", "hot", "creative"], family: "figure",
     aliases: [], keywords: ["high temperature", "creative sampling"],
     shapes: [
@@ -27,7 +27,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "temperature-low", category: "ai", subcategory: "inference",
-    name: "Low temperature", description: "Say the likeliest thing, always",
+    name: "Low temperature", description: "Low temperature — say the likeliest thing every time, precise and safe sampling",
     tags: ["precise", "cold", "safe"], family: "figure",
     aliases: [], keywords: ["low temperature", "deterministic sampling"],
     shapes: [
@@ -37,7 +37,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "kv-evict", category: "ai", subcategory: "inference",
-    name: "KV evict", description: "The cache lets the oldest one go",
+    name: "KV evict", description: "KV evict — the attention cache lets its oldest entries go to make room",
     tags: ["cache", "drop", "memory"], family: "figure",
     aliases: ["cache-evict"], keywords: ["kv eviction", "cache eviction"],
     shapes: [
@@ -48,7 +48,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "logit-bias", category: "ai", subcategory: "inference",
-    name: "Logit bias", description: "A thumb on one word's scale",
+    name: "Logit bias", description: "Logit bias — a thumb pressed on one token's scale to steer what the model says",
     tags: ["weight", "press", "steer"], family: "chart",
     aliases: [], keywords: ["logit bias", "token bias"],
     shapes: [
@@ -59,7 +59,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "min-p", category: "ai", subcategory: "inference",
-    name: "Min-p", description: "Below the floor, you do not exist",
+    name: "Min-p", description: "Min-p — tokens below the probability floor do not exist for sampling",
     tags: ["floor", "cutoff", "sample"], family: "chart",
     aliases: [], keywords: ["min-p", "probability floor"],
     shapes: [
@@ -69,7 +69,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "greedy-decode", category: "ai", subcategory: "inference",
-    name: "Greedy decode", description: "The straight road, every single step",
+    name: "Greedy decode", description: "Greedy decoding — the straight road, the top token at every single step",
     tags: ["argmax", "straight", "deterministic"], family: "arrow",
     aliases: ["argmax-decode"], keywords: ["greedy decoding", "argmax"],
     shapes: [
@@ -79,7 +79,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "token-ceiling", category: "ai", subcategory: "inference",
-    name: "Token ceiling", description: "The stack meets the lid",
+    name: "Token ceiling", description: "A token ceiling — the stack of tokens meets the lid, the maximum output length",
     tags: ["limit", "max", "lid"], family: "figure",
     aliases: ["max-tokens"], keywords: ["max tokens", "token limit ceiling"],
     shapes: [
@@ -90,7 +90,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "stop-sequence", category: "ai", subcategory: "inference",
-    name: "Stop sequence", description: "The words that end the sentence",
+    name: "Stop sequence", description: "A stop sequence — the words that end the generation when the model produces them",
     tags: ["halt", "wall", "end"], family: "figure",
     aliases: [], keywords: ["stop sequence", "stop words"],
     shapes: [
@@ -100,7 +100,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "special-token", category: "ai", subcategory: "inference",
-    name: "Special token", description: "One of these is not a word",
+    name: "Special token", description: "A special token — a control marker in the sequence that is not a word",
     tags: ["control", "marker", "different"], family: "figure",
     aliases: ["control-token"], keywords: ["special token", "control token"],
     shapes: [
@@ -111,7 +111,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "detokenize", category: "ai", subcategory: "inference",
-    name: "Detokenise", description: "The pieces become the sentence again",
+    name: "Detokenise", description: "Detokenise — the token pieces assembled back into a sentence",
     tags: ["join", "text", "assemble"], family: "figure",
     aliases: ["detokenization"], keywords: ["detokenize", "join tokens"],
     shapes: [
@@ -125,7 +125,7 @@ export const BATCH_63: Icon[] = [
 
   {
     slug: "continuous-batch", category: "devops", subcategory: "orchestration",
-    name: "Continuous batching", description: "New requests board the moving train",
+    name: "Continuous batching", description: "Continuous batching — new requests board the moving train while others are still being served",
     tags: ["stream", "join", "serve"], family: "machine",
     aliases: [], keywords: ["continuous batching", "in-flight batching"],
     shapes: [
@@ -135,7 +135,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "tensor-parallel", category: "devops", subcategory: "infrastructure",
-    name: "Tensor parallel", description: "One model, sliced across the cards",
+    name: "Tensor parallel", description: "Tensor parallelism — one model sliced across several GPUs that compute together",
     tags: ["split", "shard", "gpus"], family: "machine",
     aliases: ["model-parallel"], keywords: ["tensor parallelism", "model sharding"],
     shapes: [
@@ -144,7 +144,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "cpu-offload", category: "devops", subcategory: "infrastructure",
-    name: "CPU offload", description: "What the card cannot hold, the RAM will",
+    name: "CPU offload", description: "CPU offload — what the card cannot hold spills down into system RAM",
     tags: ["spill", "memory", "down"], family: "machine",
     aliases: ["ram-offload"], keywords: ["cpu offload", "spill to ram"],
     shapes: [
@@ -155,7 +155,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "queue-depth", category: "devops", subcategory: "observability",
-    name: "Queue depth", description: "How much is waiting, right now",
+    name: "Queue depth", description: "Queue depth — how much work is waiting right now, the backlog height",
     tags: ["backlog", "bars", "waiting"], family: "chart",
     aliases: [], keywords: ["queue depth", "backlog size"],
     shapes: [
@@ -165,7 +165,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "load-shed", category: "devops", subcategory: "observability",
-    name: "Load shedding", description: "Better to spill some than sink",
+    name: "Load shedding", description: "Load shedding — better to drop some requests than sink the whole service",
     tags: ["overflow", "drop", "protect"], family: "figure",
     aliases: [], keywords: ["load shedding", "drop requests"],
     shapes: [
@@ -176,7 +176,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "brownout", category: "devops", subcategory: "observability",
-    name: "Brownout", description: "Still on — just less of it",
+    name: "Brownout", description: "A brownout — still on, just less of it, a service degraded to stay up",
     tags: ["degrade", "reduce", "power"], family: "figure",
     aliases: [], keywords: ["brownout", "graceful degradation"],
     shapes: [
@@ -186,7 +186,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "static-stability", category: "devops", subcategory: "infrastructure",
-    name: "Static stability", description: "The weather changes; the box does not",
+    name: "Static stability", description: "Static stability — the weather changes but the system does not, resilient by design",
     tags: ["steady", "calm", "resilient"], family: "window",
     aliases: [], keywords: ["static stability", "steady state"],
     shapes: [
@@ -197,7 +197,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "fault-inject", category: "devops", subcategory: "incident",
-    name: "Fault injection", description: "Break it yourself, before the world does",
+    name: "Fault injection", description: "Fault injection — break it yourself before the world does, a chaos test",
     tags: ["chaos", "needle", "test"], family: "figure",
     aliases: [], keywords: ["fault injection", "chaos engineering"],
     shapes: [
@@ -207,7 +207,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "self-heal", category: "devops", subcategory: "incident",
-    name: "Self-heal", description: "Cracked at noon, whole by one",
+    name: "Self-heal", description: "Self-heal — cracked at noon and whole again by one, automatic repair",
     tags: ["repair", "auto", "patch"], family: "window",
     aliases: ["auto-heal"], keywords: ["self healing", "auto remediation"],
     shapes: [
@@ -218,7 +218,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "runbook-auto", category: "devops", subcategory: "incident",
-    name: "Automated runbook", description: "The page that runs itself at 3am",
+    name: "Automated runbook", description: "An automated runbook — the incident page that runs itself at 3am",
     tags: ["auto", "steps", "respond"], family: "page",
     aliases: [], keywords: ["automated runbook", "auto response"],
     shapes: [
@@ -231,7 +231,7 @@ export const BATCH_63: Icon[] = [
 
   {
     slug: "cohort-ai", category: "analytics", subcategory: "segment",
-    name: "Cohort", description: "Everyone who started the same week",
+    name: "Cohort", description: "A cohort — everyone who started the same week, tracked as they age",
     tags: ["group", "aging", "rows"], family: "figure",
     aliases: [], keywords: ["cohort", "cohort analysis"],
     shapes: [
@@ -242,7 +242,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "daily-active", category: "analytics", subcategory: "metric",
-    name: "Daily active", description: "Who actually showed up today",
+    name: "Daily active", description: "Daily active users — who actually showed up today, on the calendar",
     tags: ["dau", "calendar", "people"], family: "window",
     aliases: ["dau-metric"], keywords: ["daily active users", "dau"],
     shapes: [
@@ -252,7 +252,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "counter-metric", category: "analytics", subcategory: "metric",
-    name: "Counter metric", description: "What must not fall while this rises",
+    name: "Counter metric", description: "A counter metric — the number that must not fall while the target rises",
     tags: ["balance", "opposite", "watch"], family: "chart",
     aliases: [], keywords: ["counter metric", "guardrail pair"],
     shapes: [
@@ -263,7 +263,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "experiment-arm", category: "analytics", subcategory: "experiment",
-    name: "Experiment arm", description: "The branch that gets the new thing",
+    name: "Experiment arm", description: "An experiment arm — the branch of users that gets the new thing",
     tags: ["variant", "branch", "test"], family: "chain",
     aliases: ["treatment-arm"], keywords: ["experiment arm", "treatment group"],
     shapes: [
@@ -274,7 +274,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "srm-check", category: "analytics", subcategory: "experiment",
-    name: "SRM check", description: "The split is not the split you asked for",
+    name: "SRM check", description: "An SRM check — the split is not the split you asked for, a sample ratio mismatch alarm",
     tags: ["ratio", "skew", "alarm"], family: "figure",
     aliases: ["sample-ratio-mismatch"], keywords: ["srm", "sample ratio mismatch"],
     shapes: [
@@ -285,7 +285,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "sequential-test", category: "analytics", subcategory: "experiment",
-    name: "Sequential test", description: "Peek early, stop honestly",
+    name: "Sequential test", description: "A sequential test — peek early at the results and stop honestly at the checkpoints",
     tags: ["stages", "stop", "checks"], family: "figure",
     aliases: [], keywords: ["sequential testing", "early stopping"],
     shapes: [
@@ -297,7 +297,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "confidence-interval", category: "analytics", subcategory: "experiment",
-    name: "Confidence interval", description: "The truth is somewhere on this line",
+    name: "Confidence interval", description: "A confidence interval — the truth is somewhere on this line, the range of the estimate",
     tags: ["range", "error", "bounds"], family: "chart",
     aliases: [], keywords: ["confidence interval", "error bars"],
     shapes: [
@@ -307,7 +307,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "novelty-effect", category: "analytics", subcategory: "experiment",
-    name: "Novelty effect", description: "The spike that was only curiosity",
+    name: "Novelty effect", description: "A novelty effect — the spike that was only curiosity before the numbers settle",
     tags: ["spike", "settle", "temporary"], family: "chart",
     aliases: [], keywords: ["novelty effect", "temporary lift"],
     shapes: [
@@ -317,7 +317,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "annotation-ui", category: "analytics", subcategory: "llm-observability",
-    name: "Annotation UI", description: "The screen where the labels happen",
+    name: "Annotation UI", description: "An annotation UI — the screen where labels get applied to data",
     tags: ["label", "screen", "tag"], family: "window",
     aliases: [], keywords: ["annotation interface", "labeling ui"],
     shapes: [
@@ -328,7 +328,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "north-star", category: "analytics", subcategory: "metric",
-    name: "North star", description: "The one number everything else serves",
+    name: "North star", description: "A north star metric — the one number everything else in the product serves",
     tags: ["guiding", "primary", "star"], family: "figure",
     aliases: ["north-star-metric"], keywords: ["north star metric", "primary metric"],
     // A five-point star cannot exist at 0/45/90; the diamond with four rays can.
@@ -343,7 +343,7 @@ export const BATCH_63: Icon[] = [
 
   {
     slug: "backup-tier", category: "cloud", subcategory: "storage",
-    name: "Backup tier", description: "A copy, one shelf further from the fire",
+    name: "Backup tier", description: "A backup tier — a copy kept one shelf further from the fire, on cheaper storage",
     tags: ["copy", "down", "shelf"], family: "window",
     aliases: [], keywords: ["backup tier", "secondary storage"],
     shapes: [
@@ -354,7 +354,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "service-endpoint", category: "cloud", subcategory: "network",
-    name: "Service endpoint", description: "The socket in the private wall",
+    name: "Service endpoint", description: "A service endpoint — the socket in the private wall a service is reached through",
     tags: ["plug", "socket", "private"], family: "figure",
     aliases: [], keywords: ["service endpoint", "private socket"],
     shapes: [
@@ -365,7 +365,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "cache-miss", category: "cloud", subcategory: "network",
-    name: "Cache miss", description: "Not here; go ask the origin",
+    name: "Cache miss", description: "A cache miss — not here, go and ask the origin, the slow path",
     tags: ["lens", "cross", "slow"], family: "figure",
     aliases: [], keywords: ["cache miss", "not cached"],
     shapes: [
@@ -376,7 +376,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "purge-cache", category: "cloud", subcategory: "network",
-    name: "Purge cache", description: "Everything out, on purpose",
+    name: "Purge cache", description: "Purge cache — everything flushed out on purpose so it is fetched fresh",
     tags: ["clear", "evict", "flush"], family: "window",
     aliases: ["cache-purge"], keywords: ["purge cache", "invalidate all"],
     shapes: [
@@ -386,7 +386,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "dead-letter-cloud", category: "cloud", subcategory: "network",
-    name: "Dead letter", description: "Delivered nowhere, kept anyway",
+    name: "Dead letter", description: "A dead letter — a message delivered nowhere, kept anyway for inspection",
     tags: ["failed", "envelope", "queue"], family: "window",
     aliases: ["dlq"], keywords: ["dead letter queue", "dlq", "failed messages"],
     shapes: [
@@ -396,7 +396,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "cost-anomaly", category: "cloud", subcategory: "cost",
-    name: "Cost anomaly", description: "The bill did something new last night",
+    name: "Cost anomaly", description: "A cost anomaly — the bill did something new last night, a spike to investigate",
     tags: ["spike", "bill", "alert"], family: "figure",
     aliases: [], keywords: ["cost anomaly", "billing spike"],
     shapes: [
@@ -406,7 +406,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "intelligent-tier", category: "cloud", subcategory: "storage",
-    name: "Intelligent tiering", description: "It files itself where it is cheapest",
+    name: "Intelligent tiering", description: "Intelligent tiering — data files itself into whichever storage tier is cheapest",
     tags: ["auto", "move", "tiers"], family: "window",
     aliases: [], keywords: ["intelligent tiering", "auto tiering"],
     shapes: [
@@ -417,7 +417,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "queue-priority", category: "automation", subcategory: "schedule",
-    name: "Priority queue", description: "The important one boards first",
+    name: "Priority queue", description: "A priority queue — the important message boards first ahead of the rest",
     tags: ["first", "queue", "diamond"], family: "figure",
     aliases: [], keywords: ["priority queue", "jump the line"],
     shapes: [
@@ -428,7 +428,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "cron-expression", category: "automation", subcategory: "schedule",
-    name: "Cron expression", description: "Five stars that mean 'every Monday'",
+    name: "Cron expression", description: "A cron expression — five stars that mean every Monday, a schedule as a string",
     tags: ["schedule", "string", "clock"], family: "figure",
     aliases: [], keywords: ["cron expression", "crontab"],
     shapes: [
@@ -438,7 +438,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "at-least-once", category: "automation", subcategory: "integration",
-    name: "At least once", description: "It will arrive; possibly in duplicate",
+    name: "At least once", description: "At least once — it will arrive, possibly in duplicate, after retries",
     tags: ["delivery", "retry", "twice"], family: "figure",
     aliases: [], keywords: ["at least once", "delivery guarantee"],
     shapes: [
@@ -452,7 +452,7 @@ export const BATCH_63: Icon[] = [
 
   {
     slug: "outbox", category: "automation", subcategory: "integration",
-    name: "Outbox", description: "Written here first, sent from here always",
+    name: "Outbox", description: "An outbox — written here first and always sent from here, the transactional outbox pattern",
     tags: ["send", "tray", "up"], family: "figure",
     aliases: ["outbox-pattern"], keywords: ["outbox pattern", "transactional outbox"],
     shapes: [
@@ -462,7 +462,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "inbox-pattern", category: "automation", subcategory: "integration",
-    name: "Inbox", description: "Everything lands here before it counts",
+    name: "Inbox", description: "An inbox — everything lands here before it counts, the inbox pattern for reliable receipt",
     tags: ["receive", "tray", "down"], family: "figure",
     aliases: [], keywords: ["inbox pattern", "idempotent consumer"],
     shapes: [
@@ -472,7 +472,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "claim-check", category: "automation", subcategory: "integration",
-    name: "Claim check", description: "Leave the parcel; keep the stub",
+    name: "Claim check", description: "A claim check — leave the big parcel in storage and pass along the stub",
     tags: ["ticket", "store", "fetch"], family: "figure",
     aliases: [], keywords: ["claim check pattern", "reference message"],
     shapes: [
@@ -482,7 +482,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "compensate", category: "automation", subcategory: "workflow",
-    name: "Compensate", description: "The undo, travelling the road back",
+    name: "Compensate", description: "Compensate — the undo travelling the road back through a saga",
     tags: ["undo", "reverse", "saga"], family: "arrow",
     aliases: ["compensating-action"], keywords: ["compensation", "undo action"],
     shapes: [
@@ -492,7 +492,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "resequencer", category: "automation", subcategory: "integration",
-    name: "Resequencer", description: "Arrived jumbled; delivered in order",
+    name: "Resequencer", description: "A resequencer — messages that arrived jumbled, delivered in order",
     tags: ["order", "sort", "queue"], family: "figure",
     aliases: [], keywords: ["resequencer", "reorder messages"],
     shapes: [
@@ -503,7 +503,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "form-step", category: "automation", subcategory: "human-loop",
-    name: "Form step", description: "The workflow pauses for a human's pen",
+    name: "Form step", description: "A form step — the workflow pauses for a person to fill in the form",
     tags: ["input", "human", "fill"], family: "window",
     aliases: [], keywords: ["form step", "human input step"],
     shapes: [
@@ -513,7 +513,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "dedupe-window", category: "automation", subcategory: "trigger",
-    name: "Dedupe window", description: "Seen it already, still remembers",
+    name: "Dedupe window", description: "A dedupe window — seen it already within the window, so the duplicate is dropped",
     tags: ["duplicate", "window", "drop"], family: "window",
     aliases: [], keywords: ["dedupe window", "duplicate suppression"],
     shapes: [
@@ -524,7 +524,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "two-phase", category: "automation", subcategory: "workflow",
-    name: "Two-phase", description: "Everyone says ready before anyone says go",
+    name: "Two-phase", description: "Two-phase commit — everyone says ready before anyone says go",
     tags: ["commit", "both", "atomic"], family: "figure",
     aliases: ["two-phase-commit"], keywords: ["two phase commit", "2pc"],
     shapes: [
@@ -535,7 +535,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "macro-record", category: "automation", subcategory: "action",
-    name: "Record macro", description: "Do it once; it watched",
+    name: "Record macro", description: "Record macro — do it once while the tool watches, then replay it",
     tags: ["record", "repeat", "capture"], family: "figure",
     aliases: [], keywords: ["record macro", "capture actions"],
     shapes: [
@@ -545,7 +545,7 @@ export const BATCH_63: Icon[] = [
   },
   {
     slug: "queue-worker", category: "automation", subcategory: "integration",
-    name: "Queue worker", description: "The box the queue drains into",
+    name: "Queue worker", description: "A queue worker — the box the queue drains into, the consumer of jobs",
     tags: ["consumer", "jobs", "drain"], family: "figure",
     aliases: ["consumer-worker"], keywords: ["queue worker", "consumer", "job runner"],
     // until-loop was drawn first — cycle-plus-check came back at IoU 0.94

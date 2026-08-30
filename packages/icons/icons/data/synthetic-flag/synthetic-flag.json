@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Synthetic flag",
-  "description": "Made-up rows carry a flag",
+  "description": "A synthetic flag — made-up rows carry a marker saying they were generated",
   "tags": [
     "marker",
     "generated",

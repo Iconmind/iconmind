@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "Volume off",
-  "description": "Silenced",
+  "description": "Volume off — muted, silenced, no sound at all from the speaker",
   "tags": [
     "mute",
     "silent",

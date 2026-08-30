@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "safety",
   "name": "Refusal",
-  "description": "It will not do that",
+  "description": "A refusal — the model declined the request, it will not do that",
   "tags": [
     "declined",
     "no",

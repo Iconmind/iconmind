@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Temperature",
-  "description": "How much randomness the output is allowed",
+  "description": "Temperature, the sampling setting that controls how much randomness a model's output is allowed",
   "tags": [
     "randomness",
     "sampling",

@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "retrieval",
   "name": "Multi-hop",
-  "description": "The answer is two documents away",
+  "description": "Multi-hop — the answer is two documents away, reached by chaining retrievals",
   "tags": [
     "hops",
     "chain",

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Loss",
-  "description": "How wrong it still is",
+  "description": "Loss — how wrong the model still is, the objective that training drives down",
   "tags": [
     "error",
     "objective",

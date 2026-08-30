@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "code",
   "name": "Refactor",
-  "description": "Same behaviour, different shape",
+  "description": "Refactor — same behaviour, different shape, code restructured and tidied",
   "tags": [
     "reshape",
     "tidy",

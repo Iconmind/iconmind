@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "secret",
   "name": "API key",
-  "description": "The string that proves it is you",
+  "description": "An API key — the secret string that proves a request comes from you",
   "tags": [
     "token",
     "credential",

@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "observability",
   "name": "Flame graph",
-  "description": "Where the time actually went",
+  "description": "A flame graph — where the time actually went, stack by stack in a profile",
   "tags": [
     "profile",
     "stack",

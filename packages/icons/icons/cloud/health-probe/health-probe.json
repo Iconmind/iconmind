@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "Health probe",
-  "description": "Poked on schedule, and it answered",
+  "description": "A health probe — the service poked on schedule, and it answered that it is alive",
   "tags": [
     "check",
     "pulse",

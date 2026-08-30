@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "retrieval",
   "name": "Retriever",
-  "description": "Fetches the documents that might help",
+  "description": "A retriever — the component that fetches the documents most likely to help answer a query",
   "tags": [
     "fetch",
     "lookup",

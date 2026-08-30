@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Label queue",
-  "description": "Rows waiting for their names",
+  "description": "A label queue — rows waiting to be annotated with their names",
   "tags": [
     "annotate",
     "backlog",

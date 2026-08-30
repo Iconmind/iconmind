@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "vector",
   "name": "Matryoshka",
-  "description": "The small embedding lives inside the big one",
+  "description": "Matryoshka embeddings — the small vector nests inside the big one, so you can truncate dimensions",
   "tags": [
     "nested",
     "truncate",

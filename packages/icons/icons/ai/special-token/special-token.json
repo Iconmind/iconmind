@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Special token",
-  "description": "One of these is not a word",
+  "description": "A special token — a control marker in the sequence that is not a word",
   "tags": [
     "control",
     "marker",

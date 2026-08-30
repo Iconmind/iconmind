@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "dashboard",
   "name": "Scheduled report",
-  "description": "The one that arrives on its own",
+  "description": "A scheduled report — the digest that arrives on its own, recurring",
   "tags": [
     "recurring",
     "digest",

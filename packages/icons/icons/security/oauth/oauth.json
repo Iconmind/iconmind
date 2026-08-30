@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "OAuth",
-  "description": "Somebody else's key, lent to you",
+  "description": "OAuth — somebody else's key lent to you, a delegated grant of access",
   "tags": [
     "delegate",
     "grant",

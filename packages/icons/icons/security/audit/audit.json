@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "compliance",
   "name": "Audit",
-  "description": "Somebody checked, and wrote down what they found",
+  "description": "An audit — somebody checked the evidence and wrote down what they found",
   "tags": [
     "review",
     "inspect",

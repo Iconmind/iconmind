@@ -22,7 +22,7 @@ export const BATCH_13: Icon[] = [
 
   {
     slug: "health-check", category: "devops", subcategory: "observability",
-    name: "Health check", description: "Is it still answering?",
+    name: "Health check", description: "A health check — the probe that asks whether a service is still alive and answering",
     tags: ["heartbeat", "probe", "alive"], family: "rails",
     aliases: ["heartbeat"], keywords: ["liveness", "readiness", "ping", "probe", "uptime"],
     // A square wave. A real pulse trace spikes at about seventy degrees; at forty-five it
@@ -33,7 +33,7 @@ export const BATCH_13: Icon[] = [
   },
   {
     slug: "anomaly", category: "analytics", subcategory: "metric",
-    name: "Anomaly", description: "One reading that does not belong",
+    name: "Anomaly", description: "An anomaly — one reading that does not belong, an outlier or a spike in the data",
     tags: ["outlier", "spike", "unexpected"], family: "axes",
     aliases: ["outlier"], keywords: ["spike", "outlier", "deviation", "unexpected", "alert"],
     // Two readings where you expect them and one nowhere near. A single dot above a line
@@ -43,7 +43,7 @@ export const BATCH_13: Icon[] = [
   },
   {
     slug: "drift", category: "ai", subcategory: "evaluation",
-    name: "Drift", description: "The model and the world coming apart",
+    name: "Drift", description: "Drift — a model and the world slowly coming apart as the data it sees changes",
     tags: ["divergence", "decay", "stale"], family: "arrow",
     aliases: [], keywords: ["data drift", "concept drift", "degradation", "diverge", "stale"],
     // One path becoming two. `ab-test` has nodes at its ends because the branches are
@@ -55,21 +55,21 @@ export const BATCH_13: Icon[] = [
 
   {
     slug: "backup", category: "data", subcategory: "storage",
-    name: "Backup", description: "A copy kept somewhere else",
+    name: "Backup", description: "A backup — a copy of the data kept somewhere else in case the original is lost",
     tags: ["copy", "snapshot", "safe"], family: "cylinder",
     aliases: [], keywords: ["snapshot", "dump", "replica", "disaster recovery", "archive"],
     shapes: [...shortCylinder(), col(12, 16, 21), poly([[9, 18], [12, 21], [15, 18]])],
   },
   {
     slug: "restore", category: "data", subcategory: "storage",
-    name: "Restore", description: "Put the copy back",
+    name: "Restore", description: "Restore — put the backup copy back and recover what was lost",
     tags: ["recover", "revert", "load"], family: "cylinder",
     aliases: ["recover"], keywords: ["recovery", "reload", "rollback data", "import", "undelete"],
     shapes: [...shortCylinder(), col(12, 16, 21), poly([[9, 19], [12, 16], [15, 19]])],
   },
   {
     slug: "vault", category: "security", subcategory: "secret",
-    name: "Vault", description: "Where the secrets are kept",
+    name: "Vault", description: "A vault — the locked store where secrets, keys and credentials are kept",
     tags: ["safe", "store", "locked"], family: "window",
     aliases: [], keywords: ["secrets manager", "kms", "safe", "keychain", "hsm"],
     // A door with a dial and a handle. `auth`'s padlock is a thing you carry; a vault is a
@@ -80,7 +80,7 @@ export const BATCH_13: Icon[] = [
 
   {
     slug: "grounding", category: "rag", subcategory: "grounding",
-    name: "Grounding", description: "The answer tied to a source",
+    name: "Grounding", description: "Grounding — an answer tied to a real source so every claim can be traced to evidence",
     tags: ["source", "evidence", "anchored"], family: "page",
     aliases: [], keywords: ["citation", "evidence", "attribution", "provenance", "sourced"],
     // A page standing on a line. The line is the ground: without it the page floats, which
@@ -97,7 +97,7 @@ export const BATCH_13: Icon[] = [
 
   {
     slug: "model-deploy", category: "ai", subcategory: "model",
-    name: "Model deploy", description: "Put the model where it will be used",
+    name: "Model deploy", description: "Model deploy — put a trained model where it will be served and used",
     tags: ["ship", "serve", "release"], family: "machine",
     aliases: [], keywords: ["serve", "endpoint", "production", "rollout", "publish"],
     // `deploy`'s arrow over `model`'s machine, and the machine is shorter to make room.
@@ -109,7 +109,7 @@ export const BATCH_13: Icon[] = [
   },
   {
     slug: "queue", category: "automation", subcategory: "workflow",
-    name: "Queue", description: "Work waiting its turn",
+    name: "Queue", description: "A queue — work waiting its turn in line, a backlog of pending jobs or messages",
     tags: ["backlog", "pending", "line"], family: "rails",
     aliases: ["backlog"], keywords: ["pending", "jobs", "buffer", "fifo", "waiting"],
     shapes: [
@@ -122,7 +122,7 @@ export const BATCH_13: Icon[] = [
 
   {
     slug: "chart-area", category: "analytics", subcategory: "chart",
-    name: "Area chart", description: "How much, over time",
+    name: "Area chart", description: "An area chart — how much of something there was over time, with the space beneath the line filled",
     tags: ["volume", "trend", "filled"], family: "axes",
     aliases: [], keywords: ["stacked", "volume", "cumulative", "trend", "graph"],
     // The same axes as `chart-bar` and `chart-line`. Three charts that share their axes read
@@ -139,7 +139,7 @@ export const BATCH_13: Icon[] = [
   },
   {
     slug: "chart-scatter", category: "analytics", subcategory: "chart",
-    name: "Scatter chart", description: "Where the points fall",
+    name: "Scatter chart", description: "A scatter chart — where the individual points fall, and whether two variables correlate",
     tags: ["points", "correlation", "spread"], family: "axes",
     aliases: [], keywords: ["correlation", "distribution", "plot", "points", "cluster"],
     shapes: [
@@ -150,7 +150,7 @@ export const BATCH_13: Icon[] = [
 
   {
     slug: "insight", category: "analytics", subcategory: "metric",
-    name: "Insight", description: "The thing the numbers were hiding",
+    name: "Insight", description: "An insight — the finding the numbers were hiding, the idea that lights up",
     tags: ["idea", "finding", "bulb"], family: "figure",
     aliases: ["idea"], keywords: ["finding", "discovery", "aha", "recommendation", "lightbulb"],
     // A round glass on a screw base. Drawn as a dome on two straight legs it is `bell`

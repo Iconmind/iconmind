@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Text cursor",
-  "description": "The I-beam, where the words will go",
+  "description": "A text cursor — the I-beam caret that shows where the words will go",
   "tags": [
     "ibeam",
     "caret",

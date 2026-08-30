@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "encryption",
   "name": "Signature",
-  "description": "Proof it was them",
+  "description": "A signature — proof that it really was them, a mark that authenticates",
   "tags": [
     "signed",
     "authentic",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Text columns",
-  "description": "Lines of text set in two columns — multi-column text layout",
+  "description": "Lines of text set in two columns — a multi-column text layout for long reads",
   "tags": [
     "columns",
     "text",

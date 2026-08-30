@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "experiment",
   "name": "Experiment arm",
-  "description": "The branch that gets the new thing",
+  "description": "An experiment arm — the branch of users that gets the new thing",
   "tags": [
     "variant",
     "branch",

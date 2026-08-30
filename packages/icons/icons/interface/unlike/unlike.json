@@ -1,0 +1,33 @@
+{
+  "slug": "unlike",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "Unlike",
+  "description": "A heart with an X beside it — take a like back and un-favourite",
+  "tags": [
+    "unlike",
+    "heart",
+    "remove"
+  ],
+  "keywords": [
+    "unlike",
+    "remove like",
+    "un-favourite"
+  ],
+  "family": "heart",
+  "shapes": [
+    {
+      "d": "M2 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 12 9L7 14Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
+    },
+    {
+      "d": "M15 9L22 16",
+      "closed": false
+    },
+    {
+      "d": "M22 9L15 16",
+      "closed": false
+    }
+  ]
+}

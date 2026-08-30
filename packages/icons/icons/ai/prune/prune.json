@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Prune",
-  "description": "Cut the part that was not earning its place",
+  "description": "Prune — cut away the parameters or branches that were not earning their place",
   "tags": [
     "cut",
     "drop",

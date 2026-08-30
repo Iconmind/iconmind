@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Saved filter",
-  "description": "A funnel beside a bookmark — a filter saved to reuse",
+  "description": "A funnel beside a bookmark — a filter saved so it can be reused later",
   "tags": [
     "filter",
     "saved",

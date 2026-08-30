@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "policy",
   "name": "Shield off",
-  "description": "Protection is disabled",
+  "description": "Shield off — protection is disabled and the system is exposed",
   "tags": [
     "unprotected",
     "disabled",

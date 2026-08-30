@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "condition",
   "name": "Break",
-  "description": "Out of the loop, mid-turn",
+  "description": "Break — out of the loop mid-turn, stop iterating now and carry on after it",
   "tags": [
     "exit",
     "stop",

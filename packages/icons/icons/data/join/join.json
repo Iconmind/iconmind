@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "transform",
   "name": "Join tables",
-  "description": "Matched where the keys agree",
+  "description": "Join tables — rows matched where their keys agree, merged into one result",
   "tags": [
     "merge",
     "match",

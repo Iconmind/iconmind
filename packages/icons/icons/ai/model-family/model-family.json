@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Model family",
-  "description": "One base, several descendants",
+  "description": "A model family — one base model and its several descendants in a lineage tree",
   "tags": [
     "lineage",
     "variants",

@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Percentile",
-  "description": "Where this one stands among all",
+  "description": "A percentile — where this value stands among all the others, like p99 latency",
   "tags": [
     "p99",
     "rank",

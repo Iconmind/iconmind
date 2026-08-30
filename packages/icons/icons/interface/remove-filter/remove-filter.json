@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Remove filter",
-  "description": "A funnel with a minus beside it — take one filter away",
+  "description": "A funnel with a minus beside it — take one filter away from the set",
   "tags": [
     "filter",
     "remove",

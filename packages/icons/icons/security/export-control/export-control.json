@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Export control",
-  "description": "This one does not cross the border",
+  "description": "Export control — a model or a chip that may not cross the border, restricted",
   "tags": [
     "restrict",
     "border",

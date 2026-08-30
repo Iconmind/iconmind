@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "Kernel",
-  "description": "The part everything else stands on",
+  "description": "The kernel — the lowest part of the OS that everything else stands on",
   "tags": [
     "core",
     "os",

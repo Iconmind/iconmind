@@ -1,0 +1,36 @@
+{
+  "slug": "list-trend",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "List trend",
+  "description": "A list beside a rising line — a list growing longer and longer over time",
+  "tags": [
+    "list",
+    "trend",
+    "growth"
+  ],
+  "keywords": [
+    "list trend",
+    "growing list",
+    "items over time"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 6H12",
+      "closed": false
+    },
+    {
+      "d": "M3 11H12",
+      "closed": false
+    },
+    {
+      "d": "M3 16H12",
+      "closed": false
+    },
+    {
+      "d": "M15 19L17.5 16.5L19.5 18.5L22 16",
+      "closed": false
+    }
+  ]
+}

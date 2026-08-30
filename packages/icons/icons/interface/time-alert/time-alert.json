@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "time",
   "name": "Time alert",
-  "description": "A clock beside an alert mark — a time-based warning",
+  "description": "A clock beside an alert mark — a time-based warning that something is due",
   "tags": [
     "time",
     "alert",

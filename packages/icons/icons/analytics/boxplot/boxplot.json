@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "chart",
   "name": "Box plot",
-  "description": "The middle half, and how far the rest reaches",
+  "description": "A box plot — the middle half of the data as a box, with whiskers for how far the rest reaches",
   "tags": [
     "quartile",
     "whisker",

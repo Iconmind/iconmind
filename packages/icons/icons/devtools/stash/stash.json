@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "version-control",
   "name": "Stash",
-  "description": "Put it aside for now",
+  "description": "Stash — put changes aside for now and pick them up again later",
   "tags": [
     "shelve",
     "later",

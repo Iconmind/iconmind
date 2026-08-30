@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "memory",
   "name": "Memory clear",
-  "description": "Forget it",
+  "description": "Memory clear — forget it all, reset and wipe an agent's memory",
   "tags": [
     "forget",
     "reset",

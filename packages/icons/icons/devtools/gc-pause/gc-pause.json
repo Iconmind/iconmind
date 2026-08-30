@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "debug",
   "name": "GC pause",
-  "description": "Everything stops while the collector runs",
+  "description": "A GC pause — everything stops while the garbage collector runs, a latency spike",
   "tags": [
     "stop-the-world",
     "latency",

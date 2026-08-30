@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "retrieval",
   "name": "Context assembly",
-  "description": "The pieces gathered into one prompt",
+  "description": "Context assembly — the retrieved pieces gathered and composed into one prompt",
   "tags": [
     "gather",
     "compose",

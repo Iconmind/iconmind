@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "encryption",
   "name": "VPN",
-  "description": "A private road through public ground",
+  "description": "A VPN — a private, encrypted tunnel through public ground to a trusted network",
   "tags": [
     "tunnel",
     "encrypted",

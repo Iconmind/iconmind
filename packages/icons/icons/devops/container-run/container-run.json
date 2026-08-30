@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "container",
   "name": "Container running",
-  "description": "It is up",
+  "description": "Container running — the container is up and live, serving traffic",
   "tags": [
     "running",
     "live",

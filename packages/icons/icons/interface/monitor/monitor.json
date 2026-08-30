@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "Monitor",
-  "description": "The big screen",
+  "description": "A monitor — the big desktop screen or display an app is shown on",
   "tags": [
     "screen",
     "display",

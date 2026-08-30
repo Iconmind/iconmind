@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "prompt",
   "name": "MCP prompt add",
-  "description": "Offer another prompt template",
+  "description": "MCP prompt add — expose another prompt template from a server",
   "tags": [
     "new",
     "expose",

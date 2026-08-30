@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "transport",
   "name": "Transport",
-  "description": "However the messages travel",
+  "description": "Transport — however the messages travel, the channel or the wire",
   "tags": [
     "channel",
     "wire",

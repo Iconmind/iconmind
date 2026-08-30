@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "memory",
   "name": "Long-term memory",
-  "description": "What survives the session",
+  "description": "Long-term memory — what survives the session, persistent and durable",
   "tags": [
     "persistent",
     "keeps",

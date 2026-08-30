@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Trend down",
-  "description": "It is getting smaller",
+  "description": "Trend down — the number is falling over time, decline and losses",
   "tags": [
     "falling",
     "decline",

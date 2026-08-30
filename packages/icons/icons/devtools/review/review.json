@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "version-control",
   "name": "Review",
-  "description": "Another pair of eyes before it lands",
+  "description": "Review — another pair of eyes on the change before it lands in the main branch",
   "tags": [
     "approve",
     "look",

@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "client",
   "name": "MCP timeout",
-  "description": "The answer did not come in time",
+  "description": "An MCP timeout — the answer did not come before the deadline expired",
   "tags": [
     "deadline",
     "slow",

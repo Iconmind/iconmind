@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "safety",
   "name": "Bias check",
-  "description": "Does it treat like cases alike?",
+  "description": "A bias check — does the model treat like cases alike, a fairness audit",
   "tags": [
     "fairness",
     "audit",

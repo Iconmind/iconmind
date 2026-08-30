@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "catalog",
   "name": "Foreign key",
-  "description": "A column that points at another table",
+  "description": "A foreign key — a column that references a row in another table",
   "tags": [
     "relation",
     "reference",

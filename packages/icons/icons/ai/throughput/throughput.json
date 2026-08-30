@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Throughput",
-  "description": "How much gets through, per second",
+  "description": "Throughput — how much work gets through per second, the rate or capacity of a system",
   "tags": [
     "rate",
     "volume",

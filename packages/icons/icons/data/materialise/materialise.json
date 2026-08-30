@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "transform",
   "name": "Materialise",
-  "description": "The query's answer, made a table",
+  "description": "Materialise — a query's answer made into a solid, cached table",
   "tags": [
     "view",
     "cached",

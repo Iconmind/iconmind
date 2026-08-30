@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Loss curve",
-  "description": "The error coming down as training goes on",
+  "description": "A loss curve — the training error coming down over time as a model converges",
   "tags": [
     "training",
     "error",

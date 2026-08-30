@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "time",
   "name": "Calendar add",
-  "description": "Put something in the diary",
+  "description": "Calendar add — put a new event, meeting or deadline into the diary",
   "tags": [
     "schedule",
     "event",

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Model",
-  "description": "The trained thing that produces the output",
+  "description": "A trained machine learning model, the network of weights that turns an input into an output",
   "tags": [
     "neural",
     "weights",

@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "debug",
   "name": "Heap",
-  "description": "Where the objects live",
+  "description": "The heap — where objects are allocated in memory while a program runs",
   "tags": [
     "memory",
     "allocation",

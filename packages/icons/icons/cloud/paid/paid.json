@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "cost",
   "name": "Paid",
-  "description": "A coin with a check beside it — a payment that went through",
+  "description": "A coin with a check beside it — a payment that went through successfully",
   "tags": [
     "paid",
     "success",

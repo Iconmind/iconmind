@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Model registry entry",
-  "description": "One model on the shelf, picked out",
+  "description": "A model registry entry — one model on the shelf, versioned and picked out",
   "tags": [
     "catalog",
     "shelf",

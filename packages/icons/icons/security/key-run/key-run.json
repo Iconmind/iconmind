@@ -1,0 +1,36 @@
+{
+  "slug": "key-run",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Key run",
+  "description": "A key beside a play button — a run started with a specific credential",
+  "tags": [
+    "key",
+    "run",
+    "credential"
+  ],
+  "keywords": [
+    "run with key",
+    "credentialed run",
+    "key-scoped job"
+  ],
+  "family": "key",
+  "shapes": [
+    {
+      "d": "M3 9a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V21",
+      "closed": false
+    },
+    {
+      "d": "M7 18H10",
+      "closed": false
+    },
+    {
+      "d": "M15 8L15 16L19 12Z",
+      "closed": true
+    }
+  ]
+}

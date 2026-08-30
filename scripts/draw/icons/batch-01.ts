@@ -28,7 +28,7 @@ export const BATCH_01: Icon[] = [
 
   {
     slug: "agent", category: "agents", subcategory: "agent-core",
-    name: "Agent", description: "Autonomous program that decides and acts on its own",
+    name: "Agent", description: "An autonomous AI agent that decides and acts on its own to reach a goal, without step-by-step prompts",
     tags: ["autonomous", "bot", "actor"], family: "orbit",
     aliases: ["bot"], keywords: ["autonomous agent", "ai agent"],
     // A circle that will not close, and a core in the middle that a modifier takes the
@@ -38,7 +38,7 @@ export const BATCH_01: Icon[] = [
 
   {
     slug: "embedding", category: "rag", subcategory: "vector",
-    name: "Embedding", description: "A meaning turned into coordinates",
+    name: "Embedding", description: "A vector embedding — a piece of meaning turned into coordinates a model can compare and search",
     tags: ["vector", "encode", "latent"], family: "lattice",
     aliases: [], keywords: ["latent space", "encode", "vector"],
     // The same sentence on a diamond instead of a circle: a point placed in a space that
@@ -51,7 +51,7 @@ export const BATCH_01: Icon[] = [
 
   {
     slug: "model", category: "ai", subcategory: "model",
-    name: "Model", description: "The trained thing that produces the output",
+    name: "Model", description: "A trained machine learning model, the network of weights that turns an input into an output",
     tags: ["neural", "weights", "network"], family: "machine",
     aliases: [], keywords: ["neural network", "weights", "checkpoint", "llm"],
     // A machine with a structured core. The core was a circle first, and a rounded box
@@ -63,7 +63,7 @@ export const BATCH_01: Icon[] = [
 
   {
     slug: "database", category: "data", subcategory: "storage",
-    name: "Database", description: "Where records are kept and queried",
+    name: "Database", description: "A database where records are stored, indexed and queried — the system of record behind an app",
     tags: ["storage", "records", "sql"], family: "machine",
     aliases: ["db"], keywords: ["sql", "datastore", "table"],
     // Two rules rather than the stack of ellipses every other set draws. A cylinder is a
@@ -73,7 +73,7 @@ export const BATCH_01: Icon[] = [
 
   {
     slug: "cpu", category: "cloud", subcategory: "compute",
-    name: "CPU", description: "Where the computation actually happens",
+    name: "CPU", description: "The CPU, the processor where general computation runs before work is handed to accelerators",
     tags: ["processor", "chip", "compute"], family: "machine",
     aliases: ["processor"], keywords: ["chip", "compute", "silicon"],
     // The pins are on the sides only. The top edge is where the silhouette breaks, so a
@@ -88,7 +88,7 @@ export const BATCH_01: Icon[] = [
 
   {
     slug: "terminal", category: "devtools", subcategory: "terminal",
-    name: "Terminal", description: "Run it from a command line",
+    name: "Terminal", description: "A terminal window — run commands from the shell and read what the command line prints back",
     tags: ["console", "shell", "command"], family: "machine",
     aliases: ["console"], keywords: ["shell", "bash", "zsh", "command line"],
     // The prompt sits in the cut corner, where a real one is, which leaves the middle free
@@ -104,7 +104,7 @@ export const BATCH_01: Icon[] = [
 
   {
     slug: "folder", category: "interface", subcategory: "file",
-    name: "Folder", description: "Where files are kept together",
+    name: "Folder", description: "A folder that keeps related files together — a directory in a workspace or a project tree",
     tags: ["directory", "files", "group"], family: "folder",
     aliases: ["directory"], keywords: ["dir", "files"],
     // The tab is at the top left and steps up, which is the half of the shape that says
@@ -117,7 +117,7 @@ export const BATCH_01: Icon[] = [
 
   {
     slug: "document", category: "interface", subcategory: "file",
-    name: "Document", description: "One file, with something written in it",
+    name: "Document", description: "A single document or file with something written in it — a page of text, notes or a report",
     tags: ["file", "page", "text"], family: "page",
     aliases: ["file", "page"], keywords: ["page", "doc", "text file"],
     // The fold is the break. A page already has one place it opens, so the language does
@@ -130,7 +130,7 @@ export const BATCH_01: Icon[] = [
 
   {
     slug: "calendar", category: "interface", subcategory: "time",
-    name: "Calendar", description: "What happens on which day",
+    name: "Calendar", description: "A calendar showing what happens on which day — dates, schedules, deadlines and events",
     tags: ["date", "schedule", "month"], family: "window",
     aliases: ["schedule"], keywords: ["date", "month", "event"],
     // The rings straddle the break, which is the one place they can be: a calendar's top
@@ -140,7 +140,7 @@ export const BATCH_01: Icon[] = [
 
   {
     slug: "token", category: "ai", subcategory: "token",
-    name: "Token", description: "The unit a model actually reads",
+    name: "Token", description: "A token, the unit of text a language model actually reads and counts — a word piece or a symbol",
     tags: ["subword", "unit", "text"], family: "capsule",
     keywords: ["subword", "tokenizer", "bpe", "context length"],
     // A capsule that will not close: a token is a fragment of something longer, and the
@@ -151,7 +151,7 @@ export const BATCH_01: Icon[] = [
 
   {
     slug: "prompt", category: "ai", subcategory: "prompt",
-    name: "Prompt", description: "What you write for the model to answer",
+    name: "Prompt", description: "A prompt — the instruction, question or input you write for a language model to answer",
     tags: ["input", "instruction", "query"], family: "window",
     aliases: ["input"], keywords: ["instruction", "system prompt", "query"],
     // A field, a caret and one line of text. Rounded rather than chamfered: this is
@@ -163,7 +163,7 @@ export const BATCH_01: Icon[] = [
 
   {
     slug: "search", category: "interface", subcategory: "action",
-    name: "Search", description: "Find it by name",
+    name: "Search", description: "Search — find something by name or keyword with a magnifying-glass lookup",
     tags: ["find", "magnifier", "lookup"], family: "magnifier",
     aliases: ["find"], keywords: ["magnifier", "lookup", "query"],
     // The lens carries the hollow, not the canvas centre — which is why a mark placed on
@@ -174,7 +174,7 @@ export const BATCH_01: Icon[] = [
 
   {
     slug: "clock", category: "interface", subcategory: "time",
-    name: "Clock", description: "What the time is",
+    name: "Clock", description: "A clock showing the current time — timing, hours, schedules and anything measured in minutes",
     tags: ["time", "hour", "watch"], family: "orbit",
     aliases: ["time"], keywords: ["hour", "watch", "latency"],
     // The hands run from the centre, not from the rim. Cut back to the rim they became two
@@ -184,7 +184,7 @@ export const BATCH_01: Icon[] = [
 
   {
     slug: "filter", category: "data", subcategory: "transform",
-    name: "Filter", description: "Keep only what matches",
+    name: "Filter", description: "A filter funnel that keeps only what matches — narrow a list, a query or a stream of results",
     tags: ["funnel", "narrow", "query"], family: "funnel",
     aliases: ["funnel"], keywords: ["narrow", "where", "refine"],
     // The mouth has to be drawn. Letting the gap eat the whole top edge left two
@@ -197,7 +197,7 @@ export const BATCH_01: Icon[] = [
 
   {
     slug: "parameters", category: "ai", subcategory: "inference",
-    name: "Parameters", description: "The knobs you set before you run it",
+    name: "Parameters", description: "Parameters — the knobs and settings you set before a model or a job runs",
     tags: ["settings", "tuning", "controls"], family: "rails",
     aliases: [], keywords: ["temperature", "top-p", "tuning", "sliders", "controls", "settings"],
     // Two rails and two knobs, and the knobs are on different rails at different heights.
@@ -209,7 +209,7 @@ export const BATCH_01: Icon[] = [
 
   {
     slug: "upload", category: "interface", subcategory: "arrow",
-    name: "Upload", description: "Send it away from here",
+    name: "Upload", description: "Upload — send a file or data away from here up to a server, a cloud bucket or a model",
     tags: ["send", "push", "export"], family: "tray",
     aliases: ["export"], keywords: ["send", "push", "share"],
     // The tray is the open shape: its mouth faces up, which is where this language breaks
@@ -223,7 +223,7 @@ export const BATCH_01: Icon[] = [
 
   {
     slug: "download", category: "interface", subcategory: "arrow",
-    name: "Download", description: "Bring it here",
+    name: "Download", description: "Download — bring a file, a model or a dataset from somewhere else onto this machine",
     tags: ["receive", "pull", "import"], family: "tray",
     aliases: ["import"], keywords: ["receive", "pull", "save"],
     // The same tray, the same mouth, the arrow going the other way. Two icons that differ
@@ -237,7 +237,7 @@ export const BATCH_01: Icon[] = [
 
   {
     slug: "check", category: "interface", subcategory: "state",
-    name: "Check", description: "It worked",
+    name: "Check", description: "A check mark meaning it worked — success, done, confirmed or passed",
     tags: ["done", "success", "tick"], family: "mark",
     aliases: ["done"], keywords: ["tick", "success", "ok", "complete"],
     // One run. A tick inside a ring is a different icon, and the set will have it — this
@@ -247,7 +247,7 @@ export const BATCH_01: Icon[] = [
 
   {
     slug: "bookmark", category: "interface", subcategory: "action",
-    name: "Bookmark", description: "Keep it where you can find it",
+    name: "Bookmark", description: "A bookmark that keeps something where you can find it again — save a page, a prompt or a result",
     tags: ["save", "flag", "pin"], family: "ribbon",
     aliases: [], keywords: ["flag", "save", "favourite", "favorite"],
     // A ribbon already has a notch cut into it. Putting the gap at the top rather than
@@ -257,7 +257,7 @@ export const BATCH_01: Icon[] = [
 
   {
     slug: "user", category: "interface", subcategory: "identity",
-    name: "User", description: "A person, and their account",
+    name: "User", description: "A user — a person and the account, profile and permissions that belong to them",
     tags: ["person", "profile", "account"], family: "figure",
     aliases: ["person"], keywords: ["profile", "account", "avatar", "human"],
     // The shoulders are an arc, so the figure is open at the sides by construction. A head

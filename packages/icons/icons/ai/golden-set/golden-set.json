@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "evaluation",
   "name": "Golden set",
-  "description": "The answers you trust enough to grade with",
+  "description": "A golden set — the reference answers you trust enough to grade against",
   "tags": [
     "reference",
     "ground-truth",

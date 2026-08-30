@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Policy block",
-  "description": "The rules read no",
+  "description": "Policy block — the rules read no, the request is stopped before it runs",
   "tags": [
     "ruleset",
     "deny",

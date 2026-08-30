@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "version-control",
   "name": "Fork",
-  "description": "Your own copy of somebody's work",
+  "description": "A fork — your own copy of somebody else's repository, free to diverge",
   "tags": [
     "copy",
     "diverge",

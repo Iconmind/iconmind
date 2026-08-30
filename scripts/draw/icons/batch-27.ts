@@ -17,7 +17,7 @@ export const BATCH_27: Icon[] = [
 
   {
     slug: "chart-gauge", category: "analytics", subcategory: "chart",
-    name: "Gauge chart", description: "One number against its range",
+    name: "Gauge chart", description: "A gauge chart — one number shown as a needle against its range on a dial",
     tags: ["dial", "needle", "meter"], family: "gauge",
     aliases: [], keywords: ["dial", "speedometer", "meter", "kpi", "score"],
     // `metric`'s dial with the range marked at both ends. The ticks are what make it a
@@ -29,14 +29,14 @@ export const BATCH_27: Icon[] = [
   },
   {
     slug: "boxplot", category: "analytics", subcategory: "chart",
-    name: "Box plot", description: "The middle half, and how far the rest reaches",
+    name: "Box plot", description: "A box plot — the middle half of the data as a box, with whiskers for how far the rest reaches",
     tags: ["quartile", "whisker", "spread"], family: "axes",
     aliases: [], keywords: ["quartiles", "whiskers", "median", "iqr", "distribution"],
     shapes: [col(12, 3, 7), rect(5, 7, 14, 10, 2), row(12, 5, 19), col(12, 17, 21)],
   },
   {
     slug: "chart-funnel", category: "analytics", subcategory: "chart",
-    name: "Funnel chart", description: "How many survive each stage",
+    name: "Funnel chart", description: "A funnel chart — how many survive each stage as the flow narrows toward conversion",
     tags: ["stages", "narrow", "conversion"], family: "funnel",
     aliases: [], keywords: ["conversion", "stages", "drop off", "pipeline", "leads"],
     shapes: [
@@ -45,7 +45,7 @@ export const BATCH_27: Icon[] = [
   },
   {
     slug: "chart-heatmap", category: "analytics", subcategory: "chart",
-    name: "Heatmap", description: "Where the values are dense",
+    name: "Heatmap", description: "A heatmap — a grid of cells shaded by how dense or large the values are",
     tags: ["grid", "density", "cells"], family: "grid",
     aliases: [], keywords: ["density", "cells", "matrix", "intensity", "calendar heatmap"],
     shapes: [
@@ -55,7 +55,7 @@ export const BATCH_27: Icon[] = [
   },
   {
     slug: "churn", category: "analytics", subcategory: "segment",
-    name: "Churn", description: "The ones who left",
+    name: "Churn", description: "Churn — the customers or users who left, attrition over a period",
     tags: ["loss", "attrition", "leaving"], family: "figure",
     aliases: ["attrition"], keywords: ["attrition", "cancelled", "lost customers", "retention"],
     shapes: [
@@ -65,7 +65,7 @@ export const BATCH_27: Icon[] = [
   },
   {
     slug: "cohort", category: "analytics", subcategory: "segment",
-    name: "Cohort", description: "A group that started together",
+    name: "Cohort", description: "A cohort — a group of users who started together and are tracked as one segment",
     tags: ["group", "batch", "segment"], family: "grid",
     aliases: [], keywords: ["segment", "signup month", "retention", "group", "bucket"],
     shapes: [
@@ -74,7 +74,7 @@ export const BATCH_27: Icon[] = [
   },
   {
     slug: "active-users", category: "analytics", subcategory: "metric",
-    name: "Active users", description: "How many are actually here",
+    name: "Active users", description: "Active users — how many people are actually here, daily or monthly counts",
     tags: ["dau", "live", "count"], family: "figure",
     aliases: ["dau"], keywords: ["dau", "mau", "concurrent", "online", "engagement"],
     shapes: [
@@ -87,7 +87,7 @@ export const BATCH_27: Icon[] = [
 
   {
     slug: "alert", category: "devops", subcategory: "observability",
-    name: "Alert", description: "Something fired",
+    name: "Alert", description: "An alert — something fired, a notification raised or a page sent out",
     tags: ["notify", "page", "raised"], family: "figure",
     aliases: [], keywords: ["paged", "fired", "notification", "trigger", "on-call"],
     // `bell` with the exclamation in it rather than a clapper. A bell that rings is a
@@ -98,7 +98,7 @@ export const BATCH_27: Icon[] = [
   },
   {
     slug: "alert-rule", category: "devops", subcategory: "observability",
-    name: "Alert rule", description: "What has to be true before it fires",
+    name: "Alert rule", description: "An alert rule — the condition that has to be true before an alert fires",
     tags: ["condition", "policy", "threshold"], family: "page",
     aliases: [], keywords: ["condition", "policy", "when", "threshold", "definition"],
         // A page with the condition on it and the mark beside, not in the middle —
@@ -108,14 +108,14 @@ export const BATCH_27: Icon[] = [
   },
   {
     slug: "budget-alert", category: "cloud", subcategory: "cost",
-    name: "Budget alert", description: "You are close to the limit",
+    name: "Budget alert", description: "A budget alert — you are close to the spending limit that was set",
     tags: ["spend", "warning", "cap"], family: "capsule",
     aliases: [], keywords: ["overspend", "cap", "quota", "billing alert", "forecast"],
     shapes: [rect(2, 4, 20, 6, 3), col(12, 13, 18), disc(12, 21, 1)],
   },
   {
     slug: "agent-state", category: "agents", subcategory: "lifecycle",
-    name: "Agent state", description: "What it is doing right now",
+    name: "Agent state", description: "Agent state — what an agent is doing right now, its status, mode or phase",
     tags: ["status", "mode", "phase"], family: "orbit",
     aliases: [], keywords: ["status", "phase", "mode", "lifecycle", "current"],
     // Three marks in the ring, at three sizes. `agent-idle` has one small core and
@@ -124,7 +124,7 @@ export const BATCH_27: Icon[] = [
   },
   {
     slug: "agent-swarm", category: "agents", subcategory: "multi-agent",
-    name: "Agent swarm", description: "Many of them, working loosely",
+    name: "Agent swarm", description: "An agent swarm — many agents working loosely together as a distributed crowd",
     tags: ["many", "crowd", "distributed"], family: "orbit",
     aliases: [], keywords: ["crowd", "colony", "many agents", "emergent", "distributed"],
     // Five, scattered. `agent-team`'s four sit in a square because a team is arranged;
@@ -136,7 +136,7 @@ export const BATCH_27: Icon[] = [
   },
   {
     slug: "agent-broadcast", category: "agents", subcategory: "communication",
-    name: "Agent broadcast", description: "One agent telling all of them",
+    name: "Agent broadcast", description: "Agent broadcast — one agent announcing something to all the others at once",
     tags: ["announce", "all", "fan-out"], family: "orbit",
     aliases: [], keywords: ["announce", "publish", "notify all", "fan out", "emit"],
     shapes: [
@@ -147,7 +147,7 @@ export const BATCH_27: Icon[] = [
   },
   {
     slug: "agent-negotiation", category: "agents", subcategory: "communication",
-    name: "Agent negotiation", description: "Two of them working it out",
+    name: "Agent negotiation", description: "Agent negotiation — two agents bargaining and exchanging until they agree",
     tags: ["bargain", "exchange", "agree"], family: "orbit",
     aliases: [], keywords: ["bargain", "trade", "propose", "counter", "settle"],
     // Two agents on `agent-delegate`'s diagonal, and the exchange routed AROUND the
@@ -166,7 +166,7 @@ export const BATCH_27: Icon[] = [
 
   {
     slug: "breach", category: "security", subcategory: "threat",
-    name: "Breach", description: "They got in",
+    name: "Breach", description: "A breach — attackers got in, a compromise of the system or a leak of data",
     tags: ["compromise", "broken", "leak"], family: "shield",
     aliases: ["threat"], keywords: ["compromise", "incident", "leaked", "penetrated", "exposed"],
     // `shield` with a crack through it. `vulnerability` is the bolt that could get in;
@@ -175,7 +175,7 @@ export const BATCH_27: Icon[] = [
   },
   {
     slug: "biometric", category: "security", subcategory: "auth",
-    name: "Biometric", description: "Proving it is you by what you are",
+    name: "Biometric", description: "Biometric — proving it is you by what you are, a fingerprint or a face",
     tags: ["fingerprint", "face", "physical"], family: "fan",
     aliases: ["fingerprint"], keywords: ["fingerprint", "face id", "touch id", "physical", "identity"],
     // Ridges opening downward. Drawn as a fan opening upward from a point it is `wifi`
@@ -185,7 +185,7 @@ export const BATCH_27: Icon[] = [
   },
   {
     slug: "certificate-x509", category: "security", subcategory: "encryption",
-    name: "X.509 certificate", description: "The certificate a machine presents",
+    name: "X.509 certificate", description: "An X.509 certificate — the signed TLS certificate a machine presents in its chain",
     tags: ["tls", "chain", "signed"], family: "page",
     aliases: [], keywords: ["tls", "ssl", "chain of trust", "ca", "public key"],
     shapes: [
@@ -194,14 +194,14 @@ export const BATCH_27: Icon[] = [
   },
   {
     slug: "compliance", category: "security", subcategory: "compliance",
-    name: "Compliance", description: "It meets the rules it has to",
+    name: "Compliance", description: "Compliance — it meets the standard it has to, audited and certified",
     tags: ["standard", "audit", "certified"], family: "shield",
     aliases: [], keywords: ["soc2", "iso", "gdpr", "certified", "regulation"],
     shapes: [rect(4, 5, 16, 16, 2), rect(8.5, 2, 7, 6.5, 2), poly([[8, 13], [11, 16], [17, 10]])],
   },
   {
     slug: "exploit", category: "security", subcategory: "threat",
-    name: "Exploit", description: "The particular way in",
+    name: "Exploit", description: "An exploit — the particular attack payload that uses a vulnerability to get in",
     tags: ["attack", "payload", "vector"], family: "arrow",
     aliases: [], keywords: ["payload", "attack vector", "poc", "weaponised", "zero-day"],
     shapes: [
@@ -213,7 +213,7 @@ export const BATCH_27: Icon[] = [
 
   {
     slug: "code-review", category: "devtools", subcategory: "version-control",
-    name: "Code review", description: "Somebody read it before it landed",
+    name: "Code review", description: "Code review — somebody read the change, commented and approved it before it landed",
     tags: ["review", "comment", "approve"], family: "chevron",
     aliases: [], keywords: ["pr review", "comments", "lgtm", "approve", "feedback"],
     shapes: [
@@ -223,14 +223,14 @@ export const BATCH_27: Icon[] = [
   },
   {
     slug: "coverage", category: "devtools", subcategory: "testing",
-    name: "Coverage", description: "How much of it the tests touch",
+    name: "Coverage", description: "Test coverage — how much of the code the tests actually touch, as a percentage",
     tags: ["tested", "percent", "measured"], family: "window",
     aliases: [], keywords: ["test coverage", "lines covered", "percent", "gaps", "lcov"],
     shapes: [rect(3, 3, 18, 18, 2), row(12, 3, 21), poly([[7, 8], [9, 10], [13, 6]])],
   },
   {
     slug: "clone", category: "devtools", subcategory: "version-control",
-    name: "Clone", description: "Take a copy of the whole thing",
+    name: "Clone", description: "Clone — take a full copy of a repository, its history and all its branches",
     tags: ["copy", "fetch", "duplicate"], family: "window",
     aliases: [], keywords: ["git clone", "checkout", "pull down", "local copy"],
     // Two of the same box, offset, with an arrow between them. `copy` overlaps its pair
@@ -242,7 +242,7 @@ export const BATCH_27: Icon[] = [
   },
   {
     slug: "breakpoint", category: "devtools", subcategory: "debug",
-    name: "Breakpoint", description: "Stop here",
+    name: "Breakpoint", description: "A breakpoint — stop here, pause the program so you can inspect it",
     tags: ["pause", "debug", "halt"], family: "chain",
     aliases: [], keywords: ["debugger", "stop here", "step", "inspect", "red dot"],
     shapes: [disc(6, 12, 3), row(12, 10, 21), poly([[9, 8], [9, 16]])],

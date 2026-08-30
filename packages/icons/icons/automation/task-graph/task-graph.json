@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "Task graph",
-  "description": "What has to happen before what",
+  "description": "A task graph — which tasks have to happen before which, a DAG of dependencies",
   "tags": [
     "dependencies",
     "dag",

@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "multi-agent",
   "name": "Agent pool",
-  "description": "Ready agents, waiting to be handed work",
+  "description": "An agent pool — ready agents waiting to be handed work, spare capacity",
   "tags": [
     "ready",
     "workers",

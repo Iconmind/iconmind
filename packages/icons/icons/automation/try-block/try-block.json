@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "Try block",
-  "description": "Run it, ready for the worst",
+  "description": "A try block — run the code ready for the worst, guarded so a failure can be caught",
   "tags": [
     "attempt",
     "guarded",

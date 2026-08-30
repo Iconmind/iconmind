@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "threat",
   "name": "Breach",
-  "description": "They got in",
+  "description": "A breach — attackers got in, a compromise of the system or a leak of data",
   "tags": [
     "compromise",
     "broken",

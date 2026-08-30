@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Turn limit",
-  "description": "The conversation has a budget",
+  "description": "A turn limit — the conversation has a budget of turns and then it stops",
   "tags": [
     "cap",
     "turns",

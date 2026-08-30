@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "streaming",
   "name": "Priority queue",
-  "description": "Some things go first",
+  "description": "A priority queue — a queue where urgent items go first, ordered ahead of the rest",
   "tags": [
     "ordered",
     "ahead",

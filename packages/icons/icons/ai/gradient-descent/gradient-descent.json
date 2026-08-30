@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Gradient descent",
-  "description": "Downhill until there is no downhill left",
+  "description": "Gradient descent — walk downhill on the loss until there is no downhill left",
   "tags": [
     "optimize",
     "minimum",

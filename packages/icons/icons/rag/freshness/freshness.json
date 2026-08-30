@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "knowledge",
   "name": "Freshness",
-  "description": "How recently it was checked",
+  "description": "Freshness — how recently the data was checked or updated, its age before it goes stale",
   "tags": [
     "recent",
     "stale",

@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "trigger",
   "name": "Manual trigger",
-  "description": "Somebody pressed it",
+  "description": "A manual trigger — somebody pressed the button to start it by hand",
   "tags": [
     "button",
     "by-hand",

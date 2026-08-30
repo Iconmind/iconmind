@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Optimiser",
-  "description": "What walks the loss downhill",
+  "description": "An optimiser — the algorithm like Adam that walks the loss downhill to a minimum",
   "tags": [
     "descent",
     "minimum",

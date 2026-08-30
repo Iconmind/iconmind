@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Rank adapter",
-  "description": "The small thing bolted onto the big frozen thing",
+  "description": "A rank adapter — the small LoRA piece bolted on to a big frozen model",
   "tags": [
     "lora",
     "adapter",

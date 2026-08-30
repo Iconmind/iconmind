@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "release",
   "name": "Canary",
-  "description": "One instance on the new version",
+  "description": "A canary release — one instance running the new version so problems show up early",
   "tags": [
     "gradual",
     "sample",

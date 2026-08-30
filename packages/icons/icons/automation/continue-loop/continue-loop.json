@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "condition",
   "name": "Continue",
-  "description": "Skip the rest; take the next turn",
+  "description": "Continue — skip the rest of this turn of the loop and take the next one",
   "tags": [
     "skip",
     "next",

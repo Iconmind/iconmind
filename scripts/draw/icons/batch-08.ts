@@ -16,7 +16,7 @@ export const BATCH_08: Icon[] = [
 
   {
     slug: "container", category: "devops", subcategory: "container",
-    name: "Container", description: "An app and everything it needs, boxed",
+    name: "Container", description: "A container — an app packaged with everything it needs, isolated like a Docker image",
     tags: ["docker", "image", "isolated"], family: "grid",
     aliases: ["docker"], keywords: ["docker", "image", "pod", "oci", "isolation"],
     // A corrugated box. Two small boxes on a floor was the first drawing and it came out as
@@ -27,7 +27,7 @@ export const BATCH_08: Icon[] = [
 
   {
     slug: "vm", category: "cloud", subcategory: "compute",
-    name: "Virtual machine", description: "A machine that is really software",
+    name: "Virtual machine", description: "A virtual machine — a whole computer that is really software running on a host",
     tags: ["instance", "virtual", "host"], family: "machine",
     aliases: ["instance"], keywords: ["ec2", "hypervisor", "guest", "virtualisation"],
     // A machine inside a machine, which is the definition rather than a metaphor for it.
@@ -36,7 +36,7 @@ export const BATCH_08: Icon[] = [
 
   {
     slug: "release", category: "devops", subcategory: "release",
-    name: "Release", description: "A version, tagged and shipped",
+    name: "Release", description: "A release — a version tagged, built and shipped to users as a package",
     tags: ["version", "tag", "ship"], family: "figure",
     aliases: ["version"], keywords: ["tag", "semver", "changelog", "ship", "publish"],
     // A luggage tag: the point at the left is where it attaches, and the hole is what it
@@ -46,7 +46,7 @@ export const BATCH_08: Icon[] = [
 
   {
     slug: "rollback", category: "devops", subcategory: "release",
-    name: "Rollback", description: "Put the previous version back",
+    name: "Rollback", description: "Rollback — put the previous version back after a bad release",
     tags: ["revert", "undo", "previous"], family: "machine",
     aliases: [], keywords: ["roll back", "revert", "previous version", "downgrade", "restore"],
     // `deploy`'s machine and `deploy`'s arrow, turned round. The arc-and-head version read
@@ -62,7 +62,7 @@ export const BATCH_08: Icon[] = [
 
   {
     slug: "log", category: "devops", subcategory: "observability",
-    name: "Log", description: "What happened, written down as it happened",
+    name: "Log", description: "A log — what happened, written down as it happened, entry by entry",
     tags: ["records", "entries", "history"], family: "page",
     aliases: ["logs"], keywords: ["stdout", "entries", "syslog", "journal", "tail"],
     // A page with a margin. The rule down the left is what separates a log from a document:
@@ -72,7 +72,7 @@ export const BATCH_08: Icon[] = [
 
   {
     slug: "trace", category: "devops", subcategory: "observability",
-    name: "Trace", description: "One request, through every service it touched",
+    name: "Trace", description: "A trace — one request followed through every service it touched, span by span",
     tags: ["spans", "waterfall", "timing"], family: "rails",
     aliases: ["span"], keywords: ["distributed tracing", "waterfall", "opentelemetry", "latency"],
     // A waterfall: bars that start later and are shorter than the one above. Flush left they
@@ -82,7 +82,7 @@ export const BATCH_08: Icon[] = [
 
   {
     slug: "audit", category: "security", subcategory: "compliance",
-    name: "Audit", description: "Somebody checked, and wrote down what they found",
+    name: "Audit", description: "An audit — somebody checked the evidence and wrote down what they found",
     tags: ["review", "inspect", "evidence"], family: "page",
     aliases: [], keywords: ["compliance", "evidence", "review", "soc2", "inspection"],
     // `search`'s lens over a page, overlapping its edge. Sitting wholly inside, the lens is
@@ -94,7 +94,7 @@ export const BATCH_08: Icon[] = [
 
   {
     slug: "firewall", category: "security", subcategory: "policy",
-    name: "Firewall", description: "What traffic is allowed through",
+    name: "Firewall", description: "A firewall — the wall that decides which network traffic is allowed through",
     tags: ["wall", "block", "network"], family: "grid",
     aliases: [], keywords: ["ingress", "egress", "block", "acl", "perimeter", "bricks"],
     // Courses of brick, offset. Aligned, the joints make a grid and the drawing is a table;
@@ -106,7 +106,7 @@ export const BATCH_08: Icon[] = [
 
   {
     slug: "certificate", category: "security", subcategory: "compliance",
-    name: "Certificate", description: "Signed proof that something is what it says",
+    name: "Certificate", description: "A certificate — signed proof that a site, a key or a person is what it claims to be",
     tags: ["seal", "signed", "proof"], family: "page",
     aliases: ["cert"], keywords: ["x509", "tls", "signature", "seal", "attestation"],
     // The seal hangs off the bottom edge and touches it. A seal floating clear of the paper
@@ -118,7 +118,7 @@ export const BATCH_08: Icon[] = [
 
   {
     slug: "git-commit", category: "devtools", subcategory: "version-control",
-    name: "Commit", description: "One change, recorded",
+    name: "Commit", description: "A git commit — one change recorded as a snapshot with its own hash",
     tags: ["change", "snapshot", "sha"], family: "chain",
     aliases: ["commit"], keywords: ["sha", "revision", "checkin", "history", "git"],
     // The commit ring sits on a branch line that runs the diagonal — the same glyph,
@@ -128,7 +128,7 @@ export const BATCH_08: Icon[] = [
 
   {
     slug: "git-merge", category: "devtools", subcategory: "version-control",
-    name: "Merge", description: "Two lines of work becoming one",
+    name: "Merge", description: "A git merge — two lines of work joined back into one branch of history",
     tags: ["join", "combine", "branch"], family: "chain",
     aliases: ["merge"], keywords: ["git merge", "combine", "integrate", "squash", "rebase"],
     // Both branches come down at the same angle and meet below. `dag` converges too, but its
@@ -142,7 +142,7 @@ export const BATCH_08: Icon[] = [
 
   {
     slug: "pull-request", category: "devtools", subcategory: "version-control",
-    name: "Pull request", description: "Asking for your work to be taken",
+    name: "Pull request", description: "A pull request — asking for your branch to be reviewed and merged",
     tags: ["review", "propose", "merge"], family: "chain",
     aliases: ["pr"], keywords: ["merge request", "review", "diff", "github", "propose"],
     // Two tracks, one of which points up: the request is the arrow, and it is asking rather
@@ -158,7 +158,7 @@ export const BATCH_08: Icon[] = [
 
   {
     slug: "storage-bucket", category: "cloud", subcategory: "storage",
-    name: "Storage bucket", description: "Somewhere to put files and forget about them",
+    name: "Storage bucket", description: "A storage bucket — object storage where you put files and blobs and forget about them",
     tags: ["object", "blob", "bucket"], family: "cylinder",
     aliases: ["bucket"], keywords: ["s3", "blob", "object storage", "gcs", "files"],
     // A cylinder: a rim at the top, sides down, and the front of the base curving back. The
@@ -175,7 +175,7 @@ export const BATCH_08: Icon[] = [
 
   {
     slug: "cost", category: "cloud", subcategory: "cost",
-    name: "Cost", description: "What it is costing you",
+    name: "Cost", description: "Cost — what it is costing you, spend, billing and money going out",
     tags: ["spend", "billing", "money"], family: "cylinder",
     aliases: [], keywords: ["spend", "invoice", "budget", "price", "coins", "billing"],
     // Three coins, and the drawing is the stack rather than any one of them. A single coin
@@ -191,7 +191,7 @@ export const BATCH_08: Icon[] = [
 
   {
     slug: "table", category: "data", subcategory: "catalog",
-    name: "Table", description: "Rows and columns, with names at the top",
+    name: "Table", description: "A table — rows and columns with names across the top, data in a grid",
     tags: ["columns", "rows", "grid"], family: "window",
     aliases: [], keywords: ["sql", "spreadsheet", "columns", "schema", "grid"],
     // The header rule runs the full width and the column rules hang from it. Drawn as a
@@ -203,7 +203,7 @@ export const BATCH_08: Icon[] = [
 
   {
     slug: "sync", category: "data", subcategory: "pipeline",
-    name: "Sync", description: "Both sides ending up the same",
+    name: "Sync", description: "Sync — both sides ending up the same, a two-way mirror or replication",
     tags: ["two-way", "mirror", "replicate"], family: "arrow",
     aliases: ["replicate"], keywords: ["two-way", "mirror", "replication", "refresh", "bidirectional"],
     // The square loop with a chevron riding EACH long edge — flow out along the top,
@@ -224,7 +224,7 @@ export const BATCH_08: Icon[] = [
 
   {
     slug: "chart-pie", category: "analytics", subcategory: "chart",
-    name: "Pie chart", description: "Parts of a whole",
+    name: "Pie chart", description: "A pie chart — parts of a whole shown as slices by proportion",
     tags: ["share", "proportion", "slice"], family: "orbit",
     aliases: ["pie"], keywords: ["proportion", "share", "donut", "breakdown", "percentage"],
     // The two cuts stop at the circle rather than crossing it, so the slice is a region of
@@ -234,7 +234,7 @@ export const BATCH_08: Icon[] = [
 
   {
     slug: "experiment", category: "analytics", subcategory: "experiment",
-    name: "Experiment", description: "Try it and see",
+    name: "Experiment", description: "An experiment — a flask for trying something and seeing what happens",
     tags: ["flask", "test", "trial"], family: "figure",
     aliases: ["lab"], keywords: ["trial", "hypothesis", "beta", "lab", "science"],
     // Open at the neck, which is where a flask is open anyway. This is the one shape in the
@@ -246,7 +246,7 @@ export const BATCH_08: Icon[] = [
 
   {
     slug: "ab-test", category: "analytics", subcategory: "experiment",
-    name: "A/B test", description: "Two versions, and which one wins",
+    name: "A/B test", description: "An A/B test — two versions shown to different users, and a measure of which one wins",
     tags: ["split", "variant", "compare"], family: "chain",
     aliases: ["split-test"], keywords: ["variant", "experiment", "control", "cohort", "split"],
     // One thing splitting into two that end level. `git-merge` is this drawing upside down,

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Quantize",
-  "description": "The smooth line, told to pick a step",
+  "description": "Quantize — the smooth line told to pick a step, weights compressed to fewer bits",
   "tags": [
     "compress",
     "steps",

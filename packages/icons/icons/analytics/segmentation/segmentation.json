@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "segment",
   "name": "Segmentation",
-  "description": "One population, cut into parts",
+  "description": "Segmentation — one population cut into groups or cohorts that behave alike",
   "tags": [
     "groups",
     "split",

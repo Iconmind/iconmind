@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "edge",
   "name": "Edge node",
-  "description": "A machine out where the users are",
+  "description": "An edge node — a machine out where the users are, a point of presence",
   "tags": [
     "near",
     "pop",

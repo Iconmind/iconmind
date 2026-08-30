@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Patience",
-  "description": "The plateau is on the clock",
+  "description": "Patience — the plateau is on the clock before early stopping ends the run",
   "tags": [
     "early-stop",
     "wait",

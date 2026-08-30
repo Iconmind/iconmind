@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "release",
   "name": "Changelog",
-  "description": "What changed, version by version",
+  "description": "A changelog — what changed, written up version by version as release notes",
   "tags": [
     "history",
     "releases",

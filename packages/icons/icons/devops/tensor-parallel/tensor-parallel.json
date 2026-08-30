@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "Tensor parallel",
-  "description": "One model, sliced across the cards",
+  "description": "Tensor parallelism — one model sliced across several GPUs that compute together",
   "tags": [
     "split",
     "shard",

@@ -71,6 +71,8 @@ const ANCHORED = new Set([
   "analytics/trend-milestone", // the flag stands top-left and the trend climbs bottom-right by design
   "devtools/run-alert", "devtools/run-trend", // a play button keeps its ink on its left edge; the mark beside it cannot balance that
   "devtools/add-run", "devtools/run-idle", // same play button, same left edge
+  "devtools/run-next", // same play button again
+  "security/remove-lock", // a padlock is a heavy left body; the minus beside it cannot balance that
   "ai/checkpoint-alert", "ai/remove-checkpoint", "ai/next-milestone", // a flag pole is a heavy left edge; the small mark beside it cannot balance that
   // A boom gate hinges on its post; a warm pool sits on the ground it is dug into.
   "devops/admission-control", "devops/prewarm-pool",
@@ -96,6 +98,8 @@ const ANCHORED = new Set([
   "analytics/trend-milestone", // the flag stands top-left and the trend climbs bottom-right by design
   "devtools/run-alert", "devtools/run-trend", // a play button keeps its ink on its left edge; the mark beside it cannot balance that
   "devtools/add-run", "devtools/run-idle", // same play button, same left edge
+  "devtools/run-next", // same play button again
+  "security/remove-lock", // a padlock is a heavy left body; the minus beside it cannot balance that
   "ai/checkpoint-alert", "ai/remove-checkpoint", "ai/next-milestone", // a flag pole is a heavy left edge; the small mark beside it cannot balance that
 ]);
 

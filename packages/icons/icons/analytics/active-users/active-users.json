@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Active users",
-  "description": "How many are actually here",
+  "description": "Active users — how many people are actually here, daily or monthly counts",
   "tags": [
     "dau",
     "live",

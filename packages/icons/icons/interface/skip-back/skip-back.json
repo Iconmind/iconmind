@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "Skip back",
-  "description": "Back to the last one",
+  "description": "Skip back — jump back to the previous track, item or step in the sequence",
   "tags": [
     "previous",
     "back",

@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "api",
   "name": "Client",
-  "description": "The small thing that asks",
+  "description": "A client — the small thing that asks, the frontend or caller of a service",
   "tags": [
     "caller",
     "frontend",

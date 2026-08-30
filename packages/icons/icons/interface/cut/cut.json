@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Cut",
-  "description": "Take it out and hold it",
+  "description": "Cut — take it out and hold it on the clipboard to move elsewhere",
   "tags": [
     "scissors",
     "remove",

@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "ci-cd",
   "name": "Continuous integration",
-  "description": "Every change built and checked",
+  "description": "Continuous integration — every change built and tested automatically as soon as it lands",
   "tags": [
     "build",
     "test",

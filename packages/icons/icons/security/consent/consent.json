@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "compliance",
   "name": "Consent",
-  "description": "Somebody said yes, on the record",
+  "description": "Consent — somebody agreed on the record, an opt-in signed and kept",
   "tags": [
     "agree",
     "opt-in",

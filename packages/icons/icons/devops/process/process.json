@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "Process",
-  "description": "A program, while it lives",
+  "description": "A process — a program while it is alive, running with a PID on the machine",
   "tags": [
     "pid",
     "running",

@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "cost",
   "name": "Egress fee",
-  "description": "Leaving is the expensive direction",
+  "description": "An egress fee — leaving the cloud is the expensive direction, a charge on data transfer out",
   "tags": [
     "cost",
     "exit",

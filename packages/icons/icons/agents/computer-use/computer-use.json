@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "tool-use",
   "name": "Computer use",
-  "description": "An agent driving the screen itself",
+  "description": "Computer use — an agent driving the screen itself, clicking and typing like a person",
   "tags": [
     "screen",
     "control",

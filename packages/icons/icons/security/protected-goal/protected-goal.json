@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Protected goal",
-  "description": "A shield beside a target — a goal guarded from interference",
+  "description": "A shield beside a target — a goal guarded from interference or tampering",
   "tags": [
     "goal",
     "protected",

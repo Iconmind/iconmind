@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Activation",
-  "description": "Nothing, nothing, then everything",
+  "description": "An activation — nothing, nothing, then everything, the nonlinear fire of a ReLU",
   "tags": [
     "relu",
     "nonlinear",

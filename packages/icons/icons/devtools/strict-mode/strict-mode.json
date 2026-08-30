@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "code",
   "name": "Strict mode",
-  "description": "The walls, doubled",
+  "description": "Strict mode — the walls doubled, stricter rules that catch more mistakes",
   "tags": [
     "strict",
     "rules",

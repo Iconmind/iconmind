@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Parameters",
-  "description": "The knobs you set before you run it",
+  "description": "Parameters — the knobs and settings you set before a model or a job runs",
   "tags": [
     "settings",
     "tuning",

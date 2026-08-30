@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "compute",
   "name": "Cloud check",
-  "description": "The cloud side is healthy",
+  "description": "Cloud check — the cloud side is healthy, connected and in sync",
   "tags": [
     "healthy",
     "connected",

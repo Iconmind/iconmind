@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Decoder",
-  "description": "Turns a representation back into output",
+  "description": "A decoder — turns an internal representation back into an output",
   "tags": [
     "expand",
     "widen",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "communication",
   "name": "Composer attach",
-  "description": "A file, riding along with the message",
+  "description": "Composer attach — a file clipped to ride along with the message",
   "tags": [
     "file",
     "clip",

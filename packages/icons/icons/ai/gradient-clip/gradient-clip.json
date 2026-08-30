@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Gradient clip",
-  "description": "No single step gets to be that big",
+  "description": "Gradient clipping — no single update step gets to be bigger than the ceiling",
   "tags": [
     "cap",
     "ceiling",

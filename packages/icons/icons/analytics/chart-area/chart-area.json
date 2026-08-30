@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "chart",
   "name": "Area chart",
-  "description": "How much, over time",
+  "description": "An area chart — how much of something there was over time, with the space beneath the line filled",
   "tags": [
     "volume",
     "trend",

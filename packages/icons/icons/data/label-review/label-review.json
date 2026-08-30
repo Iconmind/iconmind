@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Label review",
-  "description": "Somebody looks twice at the name",
+  "description": "Label review — somebody looks twice at the name a row was given, QA on tags",
   "tags": [
     "qa",
     "check",

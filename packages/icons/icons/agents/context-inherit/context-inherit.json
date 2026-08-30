@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "communication",
   "name": "Context inherit",
-  "description": "Born knowing what the parent knew",
+  "description": "Context inherit — a child agent born knowing what its parent knew",
   "tags": [
     "child",
     "inherit",

@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "reflection",
   "name": "Reflection",
-  "description": "The agent checking its own work",
+  "description": "Reflection — an agent reviewing and critiquing its own work before it moves on",
   "tags": [
     "review",
     "self-check",

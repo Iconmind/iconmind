@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "server",
   "name": "MCP server test",
-  "description": "Run it against a pretend client first",
+  "description": "MCP server test — run the server against a pretend client before it goes live",
   "tags": [
     "test",
     "verify",

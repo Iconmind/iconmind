@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "grounding",
   "name": "Citation",
-  "description": "Where that came from",
+  "description": "A citation — where that claim came from, a reference to the source",
   "tags": [
     "source",
     "reference",

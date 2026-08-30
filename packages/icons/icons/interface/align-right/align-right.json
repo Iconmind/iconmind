@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Align right",
-  "description": "Flush against the right",
+  "description": "Align right — text flush against the right edge, ragged on the left",
   "tags": [
     "text",
     "flush",

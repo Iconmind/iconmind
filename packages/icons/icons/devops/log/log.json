@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "observability",
   "name": "Log",
-  "description": "What happened, written down as it happened",
+  "description": "A log — what happened, written down as it happened, entry by entry",
   "tags": [
     "records",
     "entries",

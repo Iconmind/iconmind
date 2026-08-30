@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "version-control",
   "name": "Rebase",
-  "description": "The branch, replayed somewhere else",
+  "description": "Rebase — a branch's commits replayed on top of a different base",
   "tags": [
     "replay",
     "move",

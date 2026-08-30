@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "code",
   "name": "Labelled block",
-  "description": "A label held between brackets — a block of code with a name",
+  "description": "A label held between brackets — a block of code with a name or a region marker",
   "tags": [
     "label",
     "block",

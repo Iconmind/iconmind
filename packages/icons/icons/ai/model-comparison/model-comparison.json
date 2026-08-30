@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "evaluation",
   "name": "Model comparison",
-  "description": "This model against that one",
+  "description": "Model comparison — this model against that one, benchmarked side by side",
   "tags": [
     "versus",
     "bench",

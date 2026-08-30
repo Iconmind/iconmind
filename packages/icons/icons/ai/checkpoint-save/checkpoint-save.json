@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Checkpoint save",
-  "description": "Write the state down before going on",
+  "description": "Checkpoint save — write the training state down before going on",
   "tags": [
     "flag",
     "write",

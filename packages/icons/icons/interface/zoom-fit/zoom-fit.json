@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Zoom to fit",
-  "description": "All of it, exactly on screen",
+  "description": "Zoom to fit — all of it exactly on screen, the whole drawing in view",
   "tags": [
     "zoom",
     "fit",

@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "condition",
   "name": "Success path",
-  "description": "The branch things take when they go right",
+  "description": "The success path — the green branch things take when they go right",
   "tags": [
     "happy",
     "green",

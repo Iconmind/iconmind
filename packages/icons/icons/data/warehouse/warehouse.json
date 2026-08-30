@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "storage",
   "name": "Warehouse",
-  "description": "Everything, shelved and queryable",
+  "description": "A warehouse — everything shelved in columnar storage and ready to query",
   "tags": [
     "analytics",
     "columnar",

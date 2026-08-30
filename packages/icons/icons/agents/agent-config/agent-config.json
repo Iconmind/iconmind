@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "lifecycle",
   "name": "Agent config",
-  "description": "How this agent is set up",
+  "description": "Agent config — how this agent is set up, its settings, options and tuning",
   "tags": [
     "settings",
     "options",

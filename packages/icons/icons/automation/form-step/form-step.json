@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "human-loop",
   "name": "Form step",
-  "description": "The workflow pauses for a human's pen",
+  "description": "A form step — the workflow pauses for a person to fill in the form",
   "tags": [
     "input",
     "human",

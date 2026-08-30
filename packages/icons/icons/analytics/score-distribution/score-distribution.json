@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "llm-observability",
   "name": "Score distribution",
-  "description": "Where the scores actually landed",
+  "description": "Score distribution — where the scores actually landed, the spread across a histogram",
   "tags": [
     "histogram",
     "bell",

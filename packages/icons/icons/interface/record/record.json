@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "Record",
-  "description": "Taking it down as it happens",
+  "description": "Record — capture it as it happens, live audio or video written down",
   "tags": [
     "capture",
     "rec",

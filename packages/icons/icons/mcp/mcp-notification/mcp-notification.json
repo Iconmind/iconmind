@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "transport",
   "name": "MCP notification",
-  "description": "A message that expects no answer",
+  "description": "An MCP notification — a one-way message that expects no answer",
   "tags": [
     "one-way",
     "emit",

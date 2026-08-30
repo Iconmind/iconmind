@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "communication",
   "name": "Phone",
-  "description": "The thing in your pocket",
+  "description": "A phone — the mobile device in your pocket, a call or the mobile version of an app",
   "tags": [
     "mobile",
     "device",

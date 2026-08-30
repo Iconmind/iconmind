@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "multimodal",
   "name": "OCR",
-  "description": "Reading the words out of a picture",
+  "description": "OCR — optical character recognition, reading the words out of a picture as text",
   "tags": [
     "scan",
     "extract",

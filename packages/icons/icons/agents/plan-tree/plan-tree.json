@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "planning",
   "name": "Plan tree",
-  "description": "One intent, branching into steps",
+  "description": "A plan tree — one intent branching into steps and sub-steps an agent will take",
   "tags": [
     "branches",
     "steps",

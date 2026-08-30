@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "Fader",
-  "description": "Slide it to where it sounds right",
+  "description": "A fader — slide it to where it sounds right, a level in a mix",
   "tags": [
     "slider",
     "level",

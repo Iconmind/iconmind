@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "editor",
   "name": "Multi-cursor",
-  "description": "Two carets, one keystroke",
+  "description": "Multi-cursor — two carets editing at once, one keystroke in several places",
   "tags": [
     "carets",
     "edit",

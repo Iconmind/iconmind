@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Overfit gap",
-  "description": "Train keeps falling; validation turns away",
+  "description": "The overfit gap — training loss keeps falling while validation turns away",
   "tags": [
     "diverge",
     "curves",

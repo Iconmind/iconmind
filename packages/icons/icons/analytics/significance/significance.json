@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "experiment",
   "name": "Significance",
-  "description": "Far enough out to not be luck",
+  "description": "Statistical significance — a result far enough out that it is unlikely to be luck",
   "tags": [
     "p-value",
     "threshold",

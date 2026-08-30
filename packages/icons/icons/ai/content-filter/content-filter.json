@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "safety",
   "name": "Content filter",
-  "description": "What is not allowed through",
+  "description": "A content filter — the moderation screen that decides what is not allowed through",
   "tags": [
     "moderation",
     "block",

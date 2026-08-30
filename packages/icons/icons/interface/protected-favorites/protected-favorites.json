@@ -1,0 +1,29 @@
+{
+  "slug": "protected-favorites",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "Protected favourites",
+  "description": "A heart beside a shield — favourites kept safe from being changed or shared",
+  "tags": [
+    "favourites",
+    "protected",
+    "shield"
+  ],
+  "keywords": [
+    "protected favourites",
+    "guarded favourites",
+    "favourites safety"
+  ],
+  "family": "heart",
+  "shapes": [
+    {
+      "d": "M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
+    },
+    {
+      "d": "M16 9L22 9L22 14.5L19 17.5L16 14.5Z",
+      "closed": true
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "human-loop",
   "name": "Escalation",
-  "description": "Up to somebody more senior",
+  "description": "Escalation — raise an issue up to somebody more senior or a stronger system",
   "tags": [
     "raise",
     "steps",

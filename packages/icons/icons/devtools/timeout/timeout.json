@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "api",
   "name": "Timeout",
-  "description": "It took too long, so it was stopped",
+  "description": "A timeout — it took too long, so the request was stopped at the deadline",
   "tags": [
     "expired",
     "deadline",

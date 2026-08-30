@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "Inference server",
-  "description": "The rack that answers",
+  "description": "An inference server — the rack that answers model requests in production",
   "tags": [
     "serving",
     "rack",

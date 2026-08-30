@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "code",
   "name": "Object",
-  "description": "Named parts, boxed together",
+  "description": "An object — named parts boxed together in braces, a struct or a record",
   "tags": [
     "struct",
     "record",

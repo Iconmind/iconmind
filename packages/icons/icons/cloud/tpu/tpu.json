@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "compute",
   "name": "TPU",
-  "description": "A chip grown for tensors",
+  "description": "A TPU — a chip grown for tensors, a matrix accelerator built for training",
   "tags": [
     "accelerator",
     "chip",

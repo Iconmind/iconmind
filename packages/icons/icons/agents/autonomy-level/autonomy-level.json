@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "agent-core",
   "name": "Autonomy level",
-  "description": "How long the leash is today",
+  "description": "Autonomy level — how long the leash is today, a dial from supervised to free",
   "tags": [
     "slider",
     "freedom",

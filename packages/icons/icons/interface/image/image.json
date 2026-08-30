@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "Image",
-  "description": "A picture",
+  "description": "An image — a picture, a photo or another piece of visual media",
   "tags": [
     "photo",
     "picture",

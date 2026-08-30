@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "storage",
   "name": "Primary key",
-  "description": "The column that says which row",
+  "description": "A primary key — the unique column that identifies which row is which",
   "tags": [
     "unique",
     "id",

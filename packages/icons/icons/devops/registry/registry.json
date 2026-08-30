@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "release",
   "name": "Registry",
-  "description": "Where the named things live",
+  "description": "A registry — where named, published things live and can be looked up",
   "tags": [
     "catalog",
     "published",

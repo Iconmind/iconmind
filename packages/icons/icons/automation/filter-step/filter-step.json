@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "condition",
   "name": "Filter step",
-  "description": "Only some of it goes on",
+  "description": "A filter step — only some of the items pass the condition and go on",
   "tags": [
     "narrow",
     "condition",

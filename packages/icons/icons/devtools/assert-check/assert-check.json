@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Assert",
-  "description": "If this is false, everything stops",
+  "description": "Assert — if this is false, everything stops, an invariant that must hold",
   "tags": [
     "invariant",
     "check",

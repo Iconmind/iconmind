@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "tool-use",
   "name": "Tool calling",
-  "description": "The agent reaching for something outside itself",
+  "description": "Tool calling — an agent reaching outside itself to run a function, an API or a tool",
   "tags": [
     "plug",
     "invoke",

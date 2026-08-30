@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "multi-agent",
   "name": "Worker agent",
-  "description": "The one that does the task",
+  "description": "A worker agent — the one that actually does the task, the executor",
   "tags": [
     "executor",
     "doer",

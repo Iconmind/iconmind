@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Seasonality",
-  "description": "The same shape, coming round again",
+  "description": "Seasonality — the same pattern coming round again on a cycle",
   "tags": [
     "cycle",
     "periodic",

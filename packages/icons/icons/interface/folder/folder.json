@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "file",
   "name": "Folder",
-  "description": "Where files are kept together",
+  "description": "A folder that keeps related files together — a directory in a workspace or a project tree",
   "tags": [
     "directory",
     "files",

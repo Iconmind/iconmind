@@ -15,7 +15,7 @@ export const BATCH_15: Icon[] = [
 
   {
     slug: "load-balancer", category: "cloud", subcategory: "network",
-    name: "Load balancer", description: "One address, spread across many machines",
+    name: "Load balancer", description: "A load balancer — one address spreading traffic across many machines",
     tags: ["distribute", "spread", "traffic"], family: "chain",
     aliases: ["lb"], keywords: ["nginx", "round robin", "traffic", "distribute", "ingress"],
     // One line in, three out. Two out would read as a fork or a choice; three is plainly a
@@ -27,7 +27,7 @@ export const BATCH_15: Icon[] = [
   },
   {
     slug: "network", category: "cloud", subcategory: "network",
-    name: "Network", description: "Machines that can reach each other",
+    name: "Network", description: "A network — machines connected so they can reach each other, nodes in a topology",
     tags: ["nodes", "topology", "mesh"], family: "chain",
     aliases: ["topology"], keywords: ["vpc", "subnet", "mesh", "peers", "topology"],
     // Three nodes, all connected to all. `dag` converges and `supervisor` hangs down; a
@@ -42,7 +42,7 @@ export const BATCH_15: Icon[] = [
 
   {
     slug: "permission", category: "security", subcategory: "auth",
-    name: "Permission", description: "You are allowed to do this",
+    name: "Permission", description: "Permission — you are allowed to do this, access granted by a policy",
     tags: ["allowed", "granted", "access"], family: "lock",
     aliases: ["access"], keywords: ["grant", "scope", "acl", "allowed", "rbac"],
     // A lock with a tick where its keyhole would be. `auth` asks who you are; a permission
@@ -51,7 +51,7 @@ export const BATCH_15: Icon[] = [
   },
   {
     slug: "role", category: "security", subcategory: "auth",
-    name: "Role", description: "What this person is here to do",
+    name: "Role", description: "A role — what this person or account is here to do, a badge that carries permissions",
     tags: ["group", "badge", "rbac"], family: "figure",
     aliases: [], keywords: ["rbac", "group", "title", "badge", "assignment"],
     // The figure with a card beside it. `user-add`'s badge is a mark and this one is an
@@ -63,7 +63,7 @@ export const BATCH_15: Icon[] = [
 
   {
     slug: "diff", category: "devtools", subcategory: "version-control",
-    name: "Diff", description: "What changed",
+    name: "Diff", description: "A diff — what changed between two versions, shown as a patch to compare",
     tags: ["change", "compare", "patch"], family: "rails",
     aliases: ["compare"], keywords: ["patch", "changes", "added removed", "review", "delta"],
     // A plus on one side of the gutter and a minus on the other. The gutter is the whole
@@ -72,7 +72,7 @@ export const BATCH_15: Icon[] = [
   },
   {
     slug: "repository", category: "devtools", subcategory: "version-control",
-    name: "Repository", description: "Where the code lives",
+    name: "Repository", description: "A repository — where the source code lives, together with its history",
     tags: ["repo", "book", "source"], family: "window",
     aliases: ["repo"], keywords: ["git", "github", "source", "project", "monorepo"],
     // A book with a marker in it. `knowledge-base` is the same book without the marker,
@@ -84,7 +84,7 @@ export const BATCH_15: Icon[] = [
   },
   {
     slug: "extension", category: "devtools", subcategory: "package",
-    name: "Extension", description: "Something bolted on to something else",
+    name: "Extension", description: "An extension — a plugin or add-on bolted on to something else to give it more",
     tags: ["plugin", "addon", "puzzle"], family: "window",
     aliases: ["plugin"], keywords: ["addon", "puzzle", "integration", "module", "hook"],
     // A square with a tab on one side. The tab is a half-circle sitting on the wall rather
@@ -93,7 +93,7 @@ export const BATCH_15: Icon[] = [
   },
   {
     slug: "runbook", category: "devops", subcategory: "incident",
-    name: "Runbook", description: "The written steps for when it breaks",
+    name: "Runbook", description: "A runbook — the written procedure for what to do when a system breaks",
     tags: ["procedure", "steps", "playbook"], family: "page",
     aliases: ["playbook"], keywords: ["procedure", "on-call", "sop", "checklist", "recovery"],
     // A page with the mark for "go" on it. `plan` is a page with a line ticked, which is
@@ -105,21 +105,21 @@ export const BATCH_15: Icon[] = [
 
   {
     slug: "camera", category: "interface", subcategory: "media",
-    name: "Camera", description: "Take a picture",
+    name: "Camera", description: "A camera — take a picture, capture an image through the lens",
     tags: ["photo", "capture", "lens"], family: "window",
     aliases: [], keywords: ["capture", "snapshot", "lens", "shoot", "selfie", "photo"],
     shapes: [frame(2, 7, 20, 13, 3, { gap: 4 }), disc(12, 13.5, 3.5)],
   },
   {
     slug: "headphones", category: "interface", subcategory: "media",
-    name: "Headphones", description: "Listen",
+    name: "Headphones", description: "Headphones — listen to audio in private, sound for one person",
     tags: ["audio", "listen", "sound"], family: "figure",
     aliases: [], keywords: ["listen", "audio out", "podcast", "music", "monitor"],
     shapes: [arc(12, 12, 8, 180, 360), rect(3, 12, 4, 7, 2), rect(17, 12, 4, 7, 2)],
   },
   {
     slug: "columns", category: "interface", subcategory: "layout",
-    name: "Columns", description: "Side by side",
+    name: "Columns", description: "Columns — content laid out side by side in split panes across the page",
     tags: ["split", "panes", "layout"], family: "window",
     aliases: [], keywords: ["split view", "panes", "two-up", "side by side", "layout"],
     // The dividers start where the silhouette's own break ends, so the gap at the top and

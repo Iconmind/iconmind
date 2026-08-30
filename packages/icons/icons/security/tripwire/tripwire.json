@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Tripwire",
-  "description": "Cross the line and it is known",
+  "description": "A tripwire — cross the line and it is known, a detection that fires",
   "tags": [
     "alarm",
     "line",

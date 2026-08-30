@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "transform",
   "name": "ELT",
-  "description": "Load it first, change it after",
+  "description": "ELT — load the data first, then transform it inside the warehouse",
   "tags": [
     "load",
     "transform",

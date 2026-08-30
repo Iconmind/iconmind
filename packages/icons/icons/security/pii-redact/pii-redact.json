@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "PII redaction",
-  "description": "The personal part, blacked out",
+  "description": "PII redaction — the personal part blacked out so privacy is kept",
   "tags": [
     "privacy",
     "mask",

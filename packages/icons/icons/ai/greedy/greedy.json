@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Greedy decoding",
-  "description": "Always take the likeliest next one",
+  "description": "Greedy decoding — always take the likeliest next token, deterministic and top-one",
   "tags": [
     "argmax",
     "deterministic",

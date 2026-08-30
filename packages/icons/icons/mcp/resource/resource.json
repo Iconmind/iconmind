@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "resource",
   "name": "Resource",
-  "description": "A thing with an address",
+  "description": "A resource — a thing with an address, something a URI points at",
   "tags": [
     "uri",
     "addressable",

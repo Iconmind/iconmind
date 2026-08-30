@@ -1,0 +1,32 @@
+{
+  "slug": "search-run",
+  "category": "interface",
+  "subcategory": "action",
+  "name": "Search run",
+  "description": "A magnifying glass beside a play button — run a saved search now",
+  "tags": [
+    "search",
+    "run",
+    "execute"
+  ],
+  "keywords": [
+    "run search",
+    "execute query",
+    "search now"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M4 10a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 13L3 15.5",
+      "closed": false
+    },
+    {
+      "d": "M16 8L16 16L20 12Z",
+      "closed": true
+    }
+  ]
+}

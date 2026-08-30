@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "storage",
   "name": "Storage bucket",
-  "description": "Somewhere to put files and forget about them",
+  "description": "A storage bucket — object storage where you put files and blobs and forget about them",
   "tags": [
     "object",
     "blob",

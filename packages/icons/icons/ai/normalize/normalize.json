@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Normalise",
-  "description": "Brought onto the same scale",
+  "description": "Normalise — bring values onto the same scale so they can be compared",
   "tags": [
     "scale",
     "even",

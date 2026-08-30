@@ -21,7 +21,7 @@ export const BATCH_18: Icon[] = [
 
   {
     slug: "cloud-add", category: "cloud", subcategory: "compute",
-    name: "Cloud add", description: "Add a cloud account or resource",
+    name: "Cloud add", description: "Cloud add — connect a new cloud account or provision a new cloud resource",
     tags: ["new", "connect", "provision"], family: "cloud",
     aliases: [], keywords: ["provision", "connect account", "new resource", "spin up"],
     // The small mark, centred on the canvas rather than on the cloud. A cloud's widest
@@ -31,21 +31,21 @@ export const BATCH_18: Icon[] = [
   },
   {
     slug: "cloud-check", category: "cloud", subcategory: "compute",
-    name: "Cloud check", description: "The cloud side is healthy",
+    name: "Cloud check", description: "Cloud check — the cloud side is healthy, connected and in sync",
     tags: ["healthy", "connected", "synced"], family: "cloud",
     aliases: [], keywords: ["synced", "connected", "healthy", "reachable"],
     shapes: [cloud(), ...check(SMALL)],
   },
   {
     slug: "cloud-alert", category: "cloud", subcategory: "compute",
-    name: "Cloud alert", description: "Something is wrong up there",
+    name: "Cloud alert", description: "Cloud alert — something is wrong up in the cloud, an error or a degraded service",
     tags: ["error", "degraded", "attention"], family: "cloud",
     aliases: [], keywords: ["outage", "degraded", "quota", "error", "incident"],
     shapes: [cloud(), ...alert(SMALL)],
   },
   {
     slug: "cloud-off", category: "cloud", subcategory: "compute",
-    name: "Cloud off", description: "Disconnected, or working offline",
+    name: "Cloud off", description: "Cloud off — disconnected from the cloud, working offline or locally",
     tags: ["offline", "disconnected", "local"], family: "cloud",
     aliases: ["offline"], keywords: ["offline", "disconnected", "local only", "no sync"],
     shapes: [cloud(), ...off(SMALL)],
@@ -55,21 +55,21 @@ export const BATCH_18: Icon[] = [
 
   {
     slug: "mcp-resource", category: "mcp", subcategory: "resource",
-    name: "MCP resource", description: "Data a server offers a model",
+    name: "MCP resource", description: "An MCP resource — a file, record or piece of data a server offers to a model",
     tags: ["data", "file", "provided"], family: "page",
     aliases: [], keywords: ["uri", "context", "attachment", "provided data", "read-only"],
     shapes: [machinePage(), row(12, 9, 15), row(16, 9, 15)],
   },
   {
     slug: "mcp-resource-add", category: "mcp", subcategory: "resource",
-    name: "MCP resource add", description: "Offer another resource",
+    name: "MCP resource add", description: "MCP resource add — expose another resource so a model can read it",
     tags: ["new", "expose", "register"], family: "page",
     aliases: [], keywords: ["expose", "register", "publish", "new uri"],
     shapes: [machinePage(), ...add(SMALL)],
   },
   {
     slug: "mcp-resource-read", category: "mcp", subcategory: "resource",
-    name: "MCP resource read", description: "Fetch what the server is offering",
+    name: "MCP resource read", description: "MCP resource read — fetch the contents of a resource the server is offering",
     tags: ["fetch", "load", "get"], family: "page",
     aliases: [], keywords: ["fetch", "get", "load", "retrieve", "subscribe"],
     // The chevron reads as "go", which is what `inference` and `runbook` use it for. Here
@@ -78,7 +78,7 @@ export const BATCH_18: Icon[] = [
   },
   {
     slug: "mcp-resource-list", category: "mcp", subcategory: "resource",
-    name: "MCP resource list", description: "Everything this server offers",
+    name: "MCP resource list", description: "MCP resource list — the catalogue of everything this server offers to read",
     tags: ["catalogue", "index", "available"], family: "page",
     aliases: [], keywords: ["catalog", "available", "enumerate", "index", "manifest"],
     // Two of the same page, offset. `document-split` uses the same move for two halves that
@@ -93,7 +93,7 @@ export const BATCH_18: Icon[] = [
 
   {
     slug: "mcp-tool", category: "mcp", subcategory: "tool",
-    name: "MCP tool", description: "Something a server lets a model call",
+    name: "MCP tool", description: "An MCP tool — a function a server lets a model call to act in the world",
     tags: ["capability", "function", "plug"], family: "figure",
     aliases: [], keywords: ["function", "capability", "invoke", "action", "handler"],
     // Three prongs where `tool-calling` has two, and the corner is cut. The prong count is
@@ -106,7 +106,7 @@ export const BATCH_18: Icon[] = [
   },
   {
     slug: "mcp-prompt", category: "mcp", subcategory: "prompt",
-    name: "MCP prompt", description: "A prompt template a server provides",
+    name: "MCP prompt", description: "An MCP prompt — a canned prompt template a server provides ready to use",
     tags: ["template", "provided", "canned"], family: "window",
     aliases: [], keywords: ["slash command", "template", "canned", "provided prompt"],
     shapes: [frame(3, 6, 18, 12, 3, { chamfer: 5, gap: 5 }), col(9, 10, 14), row(12, 12, 17)],
@@ -116,7 +116,7 @@ export const BATCH_18: Icon[] = [
 
   {
     slug: "vector-search", category: "rag", subcategory: "retrieval",
-    name: "Vector search", description: "Find the nearest point in the space",
+    name: "Vector search", description: "Vector search — find the nearest points in embedding space, a k-nearest-neighbour lookup",
     tags: ["nearest", "knn", "distance"], family: "magnifier",
     aliases: ["knn"], keywords: ["nearest neighbour", "ann", "cosine", "index", "faiss"],
     // `search`'s lens with `vector`'s arrow inside it. `semantic-search` puts `embedding`'s
@@ -132,7 +132,7 @@ export const BATCH_18: Icon[] = [
 
   {
     slug: "null-check", category: "data", subcategory: "quality",
-    name: "Null check", description: "Is anything missing?",
+    name: "Null check", description: "A null check — is anything missing, empty or blank in this record?",
     tags: ["empty", "missing", "blank"], family: "window",
     aliases: [], keywords: ["null", "nan", "missing values", "blank", "empty cell"],
     // A cell with a stroke through it. The stroke crosses the cell's own walls, which is
@@ -141,7 +141,7 @@ export const BATCH_18: Icon[] = [
   },
   {
     slug: "draft", category: "interface", subcategory: "file",
-    name: "Draft", description: "Started, not finished",
+    name: "Draft", description: "A draft — started but not finished, unsent and still a work in progress",
     tags: ["unfinished", "wip", "unsent"], family: "page",
     aliases: [], keywords: ["unsent", "work in progress", "unpublished", "scratch"],
     // The outline stops before it gets round. `document` breaks at the fold, which is where

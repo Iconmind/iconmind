@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "code",
   "name": "Code namespace",
-  "description": "Names that belong together",
+  "description": "A code namespace — names that belong together under one scope or prefix",
   "tags": [
     "scope",
     "module",

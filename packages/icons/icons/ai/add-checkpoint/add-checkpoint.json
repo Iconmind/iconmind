@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Add checkpoint",
-  "description": "A flag with a plus beside it — save a new checkpoint",
+  "description": "A flag with a plus beside it — save a new checkpoint right now, before going on",
   "tags": [
     "checkpoint",
     "add",

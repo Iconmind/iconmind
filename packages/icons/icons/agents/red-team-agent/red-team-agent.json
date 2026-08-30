@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Red team agent",
-  "description": "Paid to break it first",
+  "description": "A red team agent — paid to break the system first, an attacking probe",
   "tags": [
     "attack",
     "probe",

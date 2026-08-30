@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "debug",
   "name": "Step over",
-  "description": "Past the call, not through it",
+  "description": "Step over — move past the call without going through it while debugging",
   "tags": [
     "skip",
     "past",

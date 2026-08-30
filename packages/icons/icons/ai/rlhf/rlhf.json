@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "RLHF",
-  "description": "A person inside the training loop",
+  "description": "RLHF — reinforcement learning from human feedback, a person inside the training loop",
   "tags": [
     "feedback",
     "human",

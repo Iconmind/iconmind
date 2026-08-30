@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Layer",
-  "description": "One sheet of the stack",
+  "description": "A layer — one sheet of a stack, a level in a network or a design",
   "tags": [
     "sheet",
     "level",

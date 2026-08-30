@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Draft and verify",
-  "description": "The small model guesses; the big one signs off",
+  "description": "Draft and verify — the small model guesses and the big one signs off",
   "tags": [
     "speculative",
     "fast",

@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "llm-observability",
   "name": "Leaderboard",
-  "description": "Who is on top, today",
+  "description": "A leaderboard — who is on top today, a podium of ranked entries",
   "tags": [
     "podium",
     "rank",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "time",
   "name": "Calendar",
-  "description": "What happens on which day",
+  "description": "A calendar showing what happens on which day — dates, schedules, deadlines and events",
   "tags": [
     "date",
     "schedule",

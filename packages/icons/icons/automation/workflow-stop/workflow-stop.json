@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "Workflow stop",
-  "description": "Ended before its end",
+  "description": "Workflow stop — the flow ended before its end, cancelled or killed",
   "tags": [
     "halted",
     "cancelled",

@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "communication",
   "name": "Broadcast",
-  "description": "Told to everyone at once",
+  "description": "Broadcast — tell everyone at once, publish to all subscribers in one go",
   "tags": [
     "announce",
     "publish",

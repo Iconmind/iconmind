@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "orchestration",
   "name": "Continuous batching",
-  "description": "New requests board the moving train",
+  "description": "Continuous batching — new requests board the moving train while others are still being served",
   "tags": [
     "stream",
     "join",

@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "llm-observability",
   "name": "Trace span",
-  "description": "This much of the time was this call",
+  "description": "A trace span — the bar showing how much of the time this call took",
   "tags": [
     "duration",
     "bar",

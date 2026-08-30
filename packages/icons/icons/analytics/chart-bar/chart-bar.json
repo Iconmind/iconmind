@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "chart",
   "name": "Bar chart",
-  "description": "Compare quantities side by side",
+  "description": "A bar chart — compare quantities side by side across categories or time periods",
   "tags": [
     "bars",
     "compare",

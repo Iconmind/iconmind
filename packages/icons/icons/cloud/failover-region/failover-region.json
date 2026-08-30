@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "Failover region",
-  "description": "The one that answers when home does not",
+  "description": "A failover region — the standby that answers when the home region does not",
   "tags": [
     "standby",
     "switch",

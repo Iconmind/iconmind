@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "tool",
   "name": "MCP tool result",
-  "description": "What came back",
+  "description": "An MCP tool result — what came back from a tool call, the returned output",
   "tags": [
     "response",
     "output",

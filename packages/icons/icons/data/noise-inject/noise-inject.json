@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Noise injection",
-  "description": "A little grit, on purpose",
+  "description": "Noise injection — a little grit added on purpose to make a model robust",
   "tags": [
     "augment",
     "robust",

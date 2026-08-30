@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "server",
   "name": "MCP server alert",
-  "description": "Something is wrong with this server",
+  "description": "MCP server alert — something is wrong with this server and it needs attention",
   "tags": [
     "error",
     "failing",

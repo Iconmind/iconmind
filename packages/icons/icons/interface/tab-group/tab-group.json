@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Tab group",
-  "description": "Two tabs, travelling together",
+  "description": "A tab group — two tabs bundled and travelling together as a set",
   "tags": [
     "browser",
     "bundle",

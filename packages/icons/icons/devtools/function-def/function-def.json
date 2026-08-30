@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "code",
   "name": "Function",
-  "description": "A named piece of behaviour",
+  "description": "A function — a named piece of behaviour you can call with arguments",
   "tags": [
     "method",
     "def",

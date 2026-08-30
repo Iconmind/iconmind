@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Token in",
-  "description": "One more word, entering",
+  "description": "Token in — one more word entering the model, a prompt token on its way in",
   "tags": [
     "input",
     "prompt",

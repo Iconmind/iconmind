@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "Warm start",
-  "description": "Already warm when the request lands",
+  "description": "A warm start — already warm when the request lands, no cold-start wait",
   "tags": [
     "prewarmed",
     "ready",

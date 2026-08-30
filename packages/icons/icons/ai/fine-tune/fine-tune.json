@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Fine-tune",
-  "description": "Nudged, not retrained",
+  "description": "Fine-tune — nudge a model with a small extra pass rather than retraining it",
   "tags": [
     "adjust",
     "adapt",

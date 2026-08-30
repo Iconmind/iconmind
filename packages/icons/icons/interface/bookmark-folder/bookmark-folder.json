@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "file",
   "name": "Bookmark folder",
-  "description": "Where the saved things live",
+  "description": "A bookmark folder — where the saved pages and flagged items live together",
   "tags": [
     "saved",
     "folder",

@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "planning",
   "name": "Deadline",
-  "description": "The time it has to be done by",
+  "description": "A deadline — the time something has to be done by, a cutoff on the clock",
   "tags": [
     "due",
     "cutoff",

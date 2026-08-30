@@ -1,0 +1,32 @@
+{
+  "slug": "play-message",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Play message",
+  "description": "A speech bubble with a play button inside — play a recorded message",
+  "tags": [
+    "play",
+    "message",
+    "audio"
+  ],
+  "keywords": [
+    "play message",
+    "listen to message",
+    "play voice note"
+  ],
+  "family": "bubble",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V16A2 2 0 0 1 19 18H5A2 2 0 0 1 3 16Z",
+      "closed": true
+    },
+    {
+      "d": "M7 18L7 21L10 18",
+      "closed": false
+    },
+    {
+      "d": "M9.5 7L9.5 14L13 10.5Z",
+      "closed": true
+    }
+  ]
+}

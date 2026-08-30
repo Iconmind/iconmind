@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "dashboard",
   "name": "KPI",
-  "description": "The one number, and which way it is going",
+  "description": "A KPI — the one headline number, and which way it is going against its target",
   "tags": [
     "headline",
     "target",

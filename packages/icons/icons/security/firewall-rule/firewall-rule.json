@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "policy",
   "name": "Firewall rule",
-  "description": "One line of what may pass",
+  "description": "A firewall rule — one line in the access list saying what may pass",
   "tags": [
     "allow",
     "deny",

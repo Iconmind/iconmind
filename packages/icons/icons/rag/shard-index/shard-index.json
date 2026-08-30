@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "vector",
   "name": "Sharded index",
-  "description": "The index, cut so many hands can hold it",
+  "description": "A sharded index — the index cut into pieces so many machines can hold it",
   "tags": [
     "split",
     "pieces",

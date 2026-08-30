@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "grounding",
   "name": "Attribution",
-  "description": "Which source a sentence came from",
+  "description": "Attribution — which source a sentence came from, credit given to the origin",
   "tags": [
     "credit",
     "quote",

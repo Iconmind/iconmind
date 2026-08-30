@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "incident",
   "name": "Automated runbook",
-  "description": "The page that runs itself at 3am",
+  "description": "An automated runbook — the incident page that runs itself at 3am",
   "tags": [
     "auto",
     "steps",

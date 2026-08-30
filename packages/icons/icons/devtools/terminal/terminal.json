@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "terminal",
   "name": "Terminal",
-  "description": "Run it from a command line",
+  "description": "A terminal window — run commands from the shell and read what the command line prints back",
   "tags": [
     "console",
     "shell",

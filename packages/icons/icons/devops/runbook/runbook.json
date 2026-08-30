@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "incident",
   "name": "Runbook",
-  "description": "The written steps for when it breaks",
+  "description": "A runbook — the written procedure for what to do when a system breaks",
   "tags": [
     "procedure",
     "steps",

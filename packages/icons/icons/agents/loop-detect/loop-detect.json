@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Loop detection",
-  "description": "It is going round in circles",
+  "description": "Loop detection — the agent is going round in circles and has been caught",
   "tags": [
     "stuck",
     "cycle",

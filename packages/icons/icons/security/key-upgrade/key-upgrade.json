@@ -1,0 +1,40 @@
+{
+  "slug": "key-upgrade",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Key upgrade",
+  "description": "A key beside a double chevron rising — a credential promoted to a higher scope",
+  "tags": [
+    "key",
+    "upgrade",
+    "scope"
+  ],
+  "keywords": [
+    "upgrade key",
+    "promote credential",
+    "wider scope"
+  ],
+  "family": "key",
+  "shapes": [
+    {
+      "d": "M3 9a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V21",
+      "closed": false
+    },
+    {
+      "d": "M7 18H10",
+      "closed": false
+    },
+    {
+      "d": "M15 13L18.5 9.5L22 13",
+      "closed": false
+    },
+    {
+      "d": "M15 17.5L18.5 14L22 17.5",
+      "closed": false
+    }
+  ]
+}

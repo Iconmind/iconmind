@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Run label",
-  "description": "A play button beside a label — a run with a name",
+  "description": "A play button beside a label — a run with a name attached to it",
   "tags": [
     "run",
     "label",

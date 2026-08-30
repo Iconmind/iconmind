@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Greedy decode",
-  "description": "The straight road, every single step",
+  "description": "Greedy decoding — the straight road, the top token at every single step",
   "tags": [
     "argmax",
     "straight",

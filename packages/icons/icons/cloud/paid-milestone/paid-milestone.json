@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "cost",
   "name": "Paid milestone",
-  "description": "A coin beside a flag — a milestone that releases a payment",
+  "description": "A coin beside a flag — a milestone that releases a payment when it is reached",
   "tags": [
     "milestone",
     "payment",

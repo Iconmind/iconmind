@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "action",
   "name": "Database action",
-  "description": "The step that reads or writes a table",
+  "description": "Database action — the workflow step that reads or writes a table",
   "tags": [
     "query",
     "write",

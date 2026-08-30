@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Remove favorite",
-  "description": "The heart lets it go",
+  "description": "Remove favourite — the heart lets it go, unsaved and unliked",
   "tags": [
     "heart",
     "unsave",

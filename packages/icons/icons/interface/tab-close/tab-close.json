@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Close tab",
-  "description": "That one is finished with",
+  "description": "Close tab — that tab is finished with, dismissed from the bar",
   "tags": [
     "browser",
     "dismiss",

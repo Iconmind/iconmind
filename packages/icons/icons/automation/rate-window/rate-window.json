@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "trigger",
   "name": "Rate window",
-  "description": "This many events fit in the frame",
+  "description": "A rate window — only this many events fit in the frame of time",
   "tags": [
     "window",
     "count",

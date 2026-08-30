@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Warmup",
-  "description": "Gently up to speed, then hold",
+  "description": "Warmup — the learning rate ramps gently up to speed, then holds",
   "tags": [
     "ramp",
     "start",

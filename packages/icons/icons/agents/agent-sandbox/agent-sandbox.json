@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Agent sandbox",
-  "description": "Where an agent can run without touching anything",
+  "description": "An agent sandbox — an isolated place where an agent can run without touching anything real",
   "tags": [
     "isolated",
     "contained",

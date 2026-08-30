@@ -1,0 +1,36 @@
+{
+  "slug": "event-list",
+  "category": "automation",
+  "subcategory": "trigger",
+  "name": "Event list",
+  "description": "A lightning bolt beside a list — the events that have fired, in order",
+  "tags": [
+    "event",
+    "list",
+    "log"
+  ],
+  "keywords": [
+    "event list",
+    "fired events",
+    "trigger log"
+  ],
+  "family": "bolt",
+  "shapes": [
+    {
+      "d": "M10 6L5 11L9 11L4 16",
+      "closed": false
+    },
+    {
+      "d": "M14 8H22",
+      "closed": false
+    },
+    {
+      "d": "M14 12H22",
+      "closed": false
+    },
+    {
+      "d": "M14 16H22",
+      "closed": false
+    }
+  ]
+}

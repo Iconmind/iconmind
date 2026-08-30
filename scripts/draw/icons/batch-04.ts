@@ -20,7 +20,7 @@ export const BATCH_04: Icon[] = [
 
   {
     slug: "agent-run", category: "agents", subcategory: "lifecycle",
-    name: "Agent run", description: "Start the agent",
+    name: "Agent run", description: "Run an agent — start an AI agent on its task and let it work through its loop",
     tags: ["start", "execute", "play"], family: "orbit",
     aliases: ["agent-start"], keywords: ["run", "execute", "launch", "invoke"],
     // `agent` with the play mark where its core was. The ring is untouched, so the three
@@ -30,7 +30,7 @@ export const BATCH_04: Icon[] = [
 
   {
     slug: "agent-stop", category: "agents", subcategory: "lifecycle",
-    name: "Agent stop", description: "Stop the agent",
+    name: "Agent stop", description: "Stop an agent — halt a running AI agent before it takes another step",
     tags: ["halt", "cancel", "end"], family: "orbit",
     aliases: [], keywords: ["halt", "terminate", "kill", "abort", "end"],
     // A square, not an X. An X in the middle means the thing is broken; a square is the
@@ -40,7 +40,7 @@ export const BATCH_04: Icon[] = [
 
   {
     slug: "agent-thinking", category: "agents", subcategory: "lifecycle",
-    name: "Agent thinking", description: "The agent is working on it",
+    name: "Agent thinking", description: "An agent thinking — the AI is busy reasoning, planning or working on the task",
     tags: ["working", "busy", "reasoning"], family: "orbit",
     aliases: [], keywords: ["busy", "processing", "ellipsis", "waiting", "reasoning"],
     // Bars rather than dots, and the middle one taller. Dots at this spacing merge at the
@@ -52,7 +52,7 @@ export const BATCH_04: Icon[] = [
 
   {
     slug: "tool-calling", category: "agents", subcategory: "tool-use",
-    name: "Tool calling", description: "The agent reaching for something outside itself",
+    name: "Tool calling", description: "Tool calling — an agent reaching outside itself to run a function, an API or a tool",
     tags: ["plug", "invoke", "external"], family: "figure",
     aliases: ["tool-use"], keywords: ["function calling", "plug", "connector", "invoke"],
     // A plug. Every other drawing for this is a wrench, and a wrench says "maintenance" —
@@ -62,7 +62,7 @@ export const BATCH_04: Icon[] = [
 
   {
     slug: "human-approval", category: "agents", subcategory: "communication",
-    name: "Human approval", description: "A person has to say yes first",
+    name: "Human approval", description: "Human approval — a gate where a person has to say yes before an agent continues",
     tags: ["review", "consent", "gate"], family: "figure",
     aliases: [], keywords: ["review", "sign-off", "consent", "manual"],
     // The figure from `user`, moved left to make room for the mark from `check`. Two
@@ -72,7 +72,7 @@ export const BATCH_04: Icon[] = [
 
   {
     slug: "subtask", category: "agents", subcategory: "planning",
-    name: "Subtask", description: "A piece of work that belongs to a bigger one",
+    name: "Subtask", description: "A subtask — a piece of work nested inside a bigger task an agent or a team is doing",
     tags: ["child", "nested", "step"], family: "rails",
     aliases: [], keywords: ["child task", "nested", "indent", "breakdown"],
     // A parent and two children hanging off one stem. With a single child the drawing is
@@ -85,7 +85,7 @@ export const BATCH_04: Icon[] = [
 
   {
     slug: "deploy", category: "devops", subcategory: "ci-cd",
-    name: "Deploy", description: "Put it where people will use it",
+    name: "Deploy", description: "Deploy — ship a build to the place where people will actually use it",
     tags: ["ship", "release", "publish"], family: "machine",
     aliases: ["ship"], keywords: ["release", "publish", "rollout", "production"],
     // The arrow leaves the machine rather than entering it, and it leaves through the gap
@@ -99,7 +99,7 @@ export const BATCH_04: Icon[] = [
 
   {
     slug: "cluster", category: "devops", subcategory: "orchestration",
-    name: "Cluster", description: "Many machines behaving as one",
+    name: "Cluster", description: "A cluster — many machines or nodes behaving as one system, a fleet under one control plane",
     tags: ["nodes", "group", "fleet"], family: "grid",
     aliases: ["nodes"], keywords: ["kubernetes", "fleet", "swarm", "replicas", "pool"],
     // Four, not three. Three reads as a diagram of relationships; four in a square reads as
@@ -109,7 +109,7 @@ export const BATCH_04: Icon[] = [
 
   {
     slug: "observability", category: "devops", subcategory: "observability",
-    name: "Observability", description: "Being able to see what the system is doing",
+    name: "Observability", description: "Observability — being able to see what a system is doing through logs, metrics and traces",
     tags: ["watch", "monitor", "eye"], family: "eye",
     aliases: ["observe", "monitoring"], keywords: ["telemetry", "tracing", "logs", "metrics", "watch"],
     // Two arcs on the same two corners, so the lids meet exactly rather than nearly. Both
@@ -124,7 +124,7 @@ export const BATCH_04: Icon[] = [
 
   {
     slug: "incident", category: "devops", subcategory: "incident",
-    name: "Incident", description: "Something is wrong in production",
+    name: "Incident", description: "An incident — something is wrong in production and someone has to respond",
     tags: ["outage", "alert", "failure"], family: "machine",
     aliases: ["outage"], keywords: ["pager", "sev", "on-call", "failure", "postmortem"],
     // A machine that has been struck. The first drawing was `warning`'s bar and dot inside
@@ -136,7 +136,7 @@ export const BATCH_04: Icon[] = [
 
   {
     slug: "gpu", category: "cloud", subcategory: "compute",
-    name: "GPU", description: "The card the maths actually runs on",
+    name: "GPU", description: "A GPU — the graphics card or accelerator where the heavy matrix maths of AI actually runs",
     tags: ["graphics", "accelerator", "card"], family: "machine",
     aliases: ["accelerator"], keywords: ["cuda", "nvidia", "vram", "tensor", "training"],
     // A card, not a chip: wide, with a fan at one end and fins at the other. `cpu` is
@@ -151,7 +151,7 @@ export const BATCH_04: Icon[] = [
 
   {
     slug: "auth", category: "security", subcategory: "auth",
-    name: "Authentication", description: "Proving who you are",
+    name: "Authentication", description: "Authentication — proving who you are with a login, a key or an identity provider",
     tags: ["login", "lock", "identity"], family: "lock",
     aliases: [], keywords: ["sign in", "oauth", "credentials", "padlock", "session"],
     // The body is closed, and that is the point: an open padlock is a different icon and
@@ -161,7 +161,7 @@ export const BATCH_04: Icon[] = [
 
   {
     slug: "secret", category: "security", subcategory: "secret",
-    name: "Secret", description: "A value only the system should know",
+    name: "Secret", description: "A secret — a credential, token or key that only the system should ever know",
     tags: ["key", "credential", "token"], family: "key",
     aliases: ["credential"], keywords: ["api key", "password", "vault", "env var"],
     // A key on the diagonal, so the teeth are perpendicular to the shaft and both are on
@@ -175,7 +175,7 @@ export const BATCH_04: Icon[] = [
 
   {
     slug: "encryption", category: "security", subcategory: "encryption",
-    name: "Encryption", description: "Unreadable to anyone without the key",
+    name: "Encryption", description: "Encryption — data made unreadable to anyone who does not hold the key",
     tags: ["cipher", "protect", "shield"], family: "shield",
     aliases: ["cipher"], keywords: ["aes", "tls", "at rest", "in transit", "keyhole"],
     // A shield with a keyhole. The shield alone means "protected"; the keyhole says the
@@ -187,7 +187,7 @@ export const BATCH_04: Icon[] = [
 
   {
     slug: "dashboard", category: "analytics", subcategory: "dashboard",
-    name: "Dashboard", description: "Everything worth watching, on one screen",
+    name: "Dashboard", description: "A dashboard — everything worth watching laid out as panels on one screen",
     tags: ["panels", "overview", "layout"], family: "window",
     aliases: ["overview"], keywords: ["panels", "widgets", "grafana", "monitoring", "tiles"],
     // Three regions, not four. Four equal panes is a grid; unequal panes read as a layout
@@ -197,7 +197,7 @@ export const BATCH_04: Icon[] = [
 
   {
     slug: "api", category: "devtools", subcategory: "api",
-    name: "API", description: "The surface one program offers another",
+    name: "API", description: "An API — the interface one program offers another, its endpoints and its contract",
     tags: ["interface", "endpoint", "contract"], family: "window",
     aliases: [], keywords: ["rest", "graphql", "sdk", "contract", "http", "endpoint"],
     // `code`'s two chevrons, inside a panel. The chevrons alone are source; put behind a
@@ -207,7 +207,7 @@ export const BATCH_04: Icon[] = [
 
   {
     slug: "condition", category: "automation", subcategory: "condition",
-    name: "Condition", description: "The point where the path splits",
+    name: "Condition", description: "A condition — the point in a flow where the path splits depending on a test",
     tags: ["branch", "if", "decision"], family: "lattice",
     aliases: ["decision"], keywords: ["if", "branch", "switch", "rule", "gate"],
     // A diamond with two ways out. Closed, because a decision that is still open is not a
@@ -220,7 +220,7 @@ export const BATCH_04: Icon[] = [
 
   {
     slug: "dag", category: "data", subcategory: "orchestration",
-    name: "DAG", description: "Tasks with dependencies, and no way back",
+    name: "DAG", description: "A DAG — tasks connected by dependencies in a directed graph with no way back",
     tags: ["graph", "dependencies", "acyclic"], family: "chain",
     aliases: [], keywords: ["airflow", "dependency graph", "topology", "acyclic"],
     // Two inputs joining and carrying on. A DAG's defining property is that the arrows only
@@ -236,7 +236,7 @@ export const BATCH_04: Icon[] = [
 
   {
     slug: "semantic-search", category: "rag", subcategory: "retrieval",
-    name: "Semantic search", description: "Find it by what it means, not what it says",
+    name: "Semantic search", description: "Semantic search — find things by what they mean, using vectors and similarity rather than keywords",
     tags: ["meaning", "vector", "similarity"], family: "magnifier",
     aliases: [], keywords: ["knn", "similarity", "nearest neighbour", "ann", "meaning"],
     // `search`'s lens with `embedding`'s diamond inside it. Two drawings the set already
@@ -250,7 +250,7 @@ export const BATCH_04: Icon[] = [
 
   {
     slug: "reranker", category: "rag", subcategory: "ranking",
-    name: "Reranker", description: "Puts the results back in the right order",
+    name: "Reranker", description: "A reranker — a model that puts retrieved results back in the order of true relevance",
     tags: ["rank", "sort", "relevance"], family: "rails",
     aliases: ["rerank"], keywords: ["cross-encoder", "relevance", "sort", "order", "score"],
     // Runs of equal length, and an arrow beside them. Runs of decreasing length would say

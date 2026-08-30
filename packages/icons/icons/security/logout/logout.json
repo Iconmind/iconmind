@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Log out",
-  "description": "Leave",
+  "description": "Log out — leave, sign out of your account and end the session",
   "tags": [
     "exit",
     "sign-out",

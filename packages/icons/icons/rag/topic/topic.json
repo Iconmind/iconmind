@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "knowledge",
   "name": "Topic",
-  "description": "What this cluster of things is about",
+  "description": "A topic — what a cluster of documents is about, its theme or subject",
   "tags": [
     "theme",
     "cluster",

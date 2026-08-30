@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "integration",
   "name": "Inbox",
-  "description": "Everything lands here before it counts",
+  "description": "An inbox — everything lands here before it counts, the inbox pattern for reliable receipt",
   "tags": [
     "receive",
     "tray",

@@ -21,14 +21,14 @@ export const BATCH_29: Icon[] = [
 
   {
     slug: "action-database", category: "automation", subcategory: "action",
-    name: "Database action", description: "The step that reads or writes a table",
+    name: "Database action", description: "Database action — the workflow step that reads or writes a table",
     tags: ["query", "write", "store"], family: "cylinder",
     aliases: [], keywords: ["insert", "query", "upsert", "sql step", "record"],
     shapes: [...store(), col(12, 17, 21), poly([[9, 19], [12, 22], [15, 19]])],
   },
   {
     slug: "action-notify", category: "automation", subcategory: "action",
-    name: "Notify action", description: "The step that tells somebody",
+    name: "Notify action", description: "Notify action — the workflow step that tells somebody, a ping or a message",
     tags: ["alert", "message", "ping"], family: "figure",
     aliases: [], keywords: ["push", "slack", "ping", "notify", "message step"],
     shapes: [
@@ -38,7 +38,7 @@ export const BATCH_29: Icon[] = [
   },
   {
     slug: "action-script", category: "automation", subcategory: "action",
-    name: "Script action", description: "The step that runs code",
+    name: "Script action", description: "Script action — the workflow step that runs custom code you wrote yourself",
     tags: ["code", "custom", "run"], family: "chevron",
     aliases: [], keywords: ["custom code", "javascript", "python step", "eval", "run"],
     // The stage family's box and arrow, with code marks for a verb — it used to be a
@@ -50,7 +50,7 @@ export const BATCH_29: Icon[] = [
   },
   {
     slug: "event-driven", category: "automation", subcategory: "trigger",
-    name: "Event driven", description: "It runs because something happened",
+    name: "Event driven", description: "Event-driven — it runs because something happened, reacting to an emitted event",
     tags: ["reactive", "emit", "listen"], family: "arrow",
     aliases: [], keywords: ["reactive", "pubsub", "listener", "emit", "on event"],
     shapes: [
@@ -60,7 +60,7 @@ export const BATCH_29: Icon[] = [
   },
   {
     slug: "error-path", category: "automation", subcategory: "condition",
-    name: "Error path", description: "Where it goes when it goes wrong",
+    name: "Error path", description: "The error path — where a flow goes when a step goes wrong, the catch branch",
     tags: ["failure", "branch", "catch"], family: "chain",
     aliases: [], keywords: ["failure branch", "on error", "except", "fallback route"],
     shapes: [
@@ -71,7 +71,7 @@ export const BATCH_29: Icon[] = [
   },
   {
     slug: "branch-flow", category: "automation", subcategory: "condition",
-    name: "Branch", description: "The path divides here",
+    name: "Branch", description: "A branch — the point in a flow where the path divides and routes one way or another",
     tags: ["split", "fork", "route"], family: "chain",
     aliases: [], keywords: ["split", "route", "if else", "diverge", "path", "branch"],
     shapes: [
@@ -81,7 +81,7 @@ export const BATCH_29: Icon[] = [
   },
   {
     slug: "human-in-the-loop", category: "automation", subcategory: "human-loop",
-    name: "Human in the loop", description: "A person is part of the run",
+    name: "Human in the loop", description: "Human in the loop — a person takes part in the run, reviewing or deciding by hand",
     tags: ["manual", "review", "person"], family: "figure",
     aliases: [], keywords: ["manual step", "review gate", "operator", "supervised"],
     shapes: [
@@ -90,7 +90,7 @@ export const BATCH_29: Icon[] = [
   },
   {
     slug: "calendar-trigger", category: "automation", subcategory: "schedule",
-    name: "Calendar trigger", description: "It runs on a date",
+    name: "Calendar trigger", description: "A calendar trigger — a flow that runs on a date or a scheduled day",
     tags: ["date", "scheduled", "when"], family: "window",
     aliases: [], keywords: ["on a date", "monthly", "scheduled run", "planned"],
     shapes: [
@@ -103,21 +103,21 @@ export const BATCH_29: Icon[] = [
 
   {
     slug: "inference-fast", category: "ai", subcategory: "inference",
-    name: "Fast inference", description: "The answer, quickly",
+    name: "Fast inference", description: "Fast inference — the answer delivered quickly, low latency at speed",
     tags: ["low-latency", "quick", "speed"], family: "machine",
     aliases: [], keywords: ["low latency", "ttft", "speculative", "quick", "realtime"],
     shapes: [machine(), poly([[14, 6], [10, 10], [12.5, 10], [8.5, 14]])],
   },
   {
     slug: "inference-batch", category: "ai", subcategory: "inference",
-    name: "Batch inference", description: "Many answers, together",
+    name: "Batch inference", description: "Batch inference — many answers produced together in one bulk, offline pass",
     tags: ["bulk", "queue", "offline"], family: "machine",
     aliases: [], keywords: ["bulk", "offline", "queued", "throughput", "job"],
     shapes: [machine(), poly([[8, 8], [12, 12], [8, 16]]), poly([[12, 8], [16, 12], [12, 16]])],
   },
   {
     slug: "greedy", category: "ai", subcategory: "inference",
-    name: "Greedy decoding", description: "Always take the likeliest next one",
+    name: "Greedy decoding", description: "Greedy decoding — always take the likeliest next token, deterministic and top-one",
     tags: ["argmax", "deterministic", "top"], family: "chain",
     aliases: [], keywords: ["argmax", "temperature zero", "deterministic", "single path"],
     // The branch that is taken carries a node; the one that is not, does not. There is no
@@ -128,7 +128,7 @@ export const BATCH_29: Icon[] = [
   },
   {
     slug: "beam-search", category: "ai", subcategory: "inference",
-    name: "Beam search", description: "Keep several candidates alive",
+    name: "Beam search", description: "Beam search — keep several candidate sequences alive and pick the best path at the end",
     tags: ["candidates", "paths", "width"], family: "chain",
     aliases: [], keywords: ["beam width", "candidates", "n-best", "search", "decode"],
     shapes: [
@@ -138,7 +138,7 @@ export const BATCH_29: Icon[] = [
   },
   {
     slug: "depth", category: "ai", subcategory: "model",
-    name: "Depth", description: "How many layers there are",
+    name: "Depth", description: "Depth — how many layers a network stacks, how deep the model goes",
     tags: ["layers", "deep", "stack"], family: "rails",
     aliases: [], keywords: ["hidden layers", "deep", "stack", "blocks", "n-layer"],
     shapes: [
@@ -147,7 +147,7 @@ export const BATCH_29: Icon[] = [
   },
   {
     slug: "gradient", category: "ai", subcategory: "training",
-    name: "Gradient", description: "Which way is downhill",
+    name: "Gradient", description: "A gradient — the slope that says which way is downhill for the optimiser",
     tags: ["slope", "descent", "derivative"], family: "axes",
     aliases: [], keywords: ["descent", "backprop", "slope", "derivative", "step"],
     shapes: [
@@ -157,7 +157,7 @@ export const BATCH_29: Icon[] = [
   },
   {
     slug: "attention-head", category: "ai", subcategory: "inference",
-    name: "Attention head", description: "One of the model's several viewpoints",
+    name: "Attention head", description: "An attention head — one of the several viewpoints a model attends with at once",
     tags: ["head", "multi", "focus"], family: "orbit",
     aliases: [], keywords: ["multi-head", "qkv", "self-attention", "layer", "focus"],
     // `attention`'s four converging runs, but only two of them, and a body round the
@@ -171,7 +171,7 @@ export const BATCH_29: Icon[] = [
 
   {
     slug: "dense-search", category: "rag", subcategory: "retrieval",
-    name: "Dense search", description: "Search by vector, not by word",
+    name: "Dense search", description: "Dense search — retrieval by embedding vector rather than by matching words",
     tags: ["vector", "embedding", "knn"], family: "magnifier",
     aliases: [], keywords: ["embedding search", "dense retrieval", "ann", "vector index"],
     shapes: [
@@ -181,7 +181,7 @@ export const BATCH_29: Icon[] = [
   },
   {
     slug: "filter-metadata", category: "rag", subcategory: "retrieval",
-    name: "Metadata filter", description: "Narrow it before you search",
+    name: "Metadata filter", description: "A metadata filter — narrow the candidates by tags or facets before you search",
     tags: ["facet", "restrict", "tags"], family: "funnel",
     aliases: [], keywords: ["facet", "where clause", "pre-filter", "namespace", "tags"],
     shapes: [
@@ -191,7 +191,7 @@ export const BATCH_29: Icon[] = [
   },
   {
     slug: "answer-synthesis", category: "rag", subcategory: "grounding",
-    name: "Answer synthesis", description: "Several sources, one answer",
+    name: "Answer synthesis", description: "Answer synthesis — several retrieved sources composed into one written answer",
     tags: ["combine", "compose", "write"], family: "funnel",
     aliases: [], keywords: ["compose", "summarise", "generate answer", "merge sources"],
     shapes: [
@@ -202,7 +202,7 @@ export const BATCH_29: Icon[] = [
   },
   {
     slug: "evidence", category: "rag", subcategory: "grounding",
-    name: "Evidence", description: "The passage that supports it",
+    name: "Evidence", description: "Evidence — the passage that supports a claim, the proof behind an answer",
     tags: ["passage", "proof", "quote"], family: "page",
     aliases: [], keywords: ["supporting passage", "quote", "proof", "excerpt", "highlight"],
     shapes: [page(), row(7, 9, 15), rect(8, 11, 8, 4, 2), row(18, 9, 13)],
@@ -212,7 +212,7 @@ export const BATCH_29: Icon[] = [
 
   {
     slug: "data-owner", category: "data", subcategory: "catalog",
-    name: "Data owner", description: "Whose table this is",
+    name: "Data owner", description: "A data owner — the steward responsible for a table or a dataset",
     tags: ["steward", "responsible", "person"], family: "figure",
     aliases: ["steward"], keywords: ["steward", "responsible", "contact", "team", "accountable"],
     shapes: [
@@ -224,7 +224,7 @@ export const BATCH_29: Icon[] = [
   },
   {
     slug: "data-tag", category: "data", subcategory: "catalog",
-    name: "Data tag", description: "A label on a column or table",
+    name: "Data tag", description: "A data tag — a label on a column or a table that classifies what it holds",
     tags: ["label", "classify", "mark"], family: "figure",
     aliases: [], keywords: ["label", "pii tag", "classification", "annotate", "metadata"],
         // A tag with a line written on it. `release` is the same tag with only its hole, which
@@ -236,21 +236,21 @@ export const BATCH_29: Icon[] = [
   },
   {
     slug: "duplicate", category: "data", subcategory: "quality",
-    name: "Duplicate", description: "The same row, twice",
+    name: "Duplicate", description: "A duplicate — the same row twice, a repeated record that should be one",
     tags: ["repeat", "copy", "same"], family: "window",
     aliases: [], keywords: ["duplicate row", "repeated", "same record", "collision"],
     shapes: [rect(2, 4, 12, 6, 3), rect(2, 14, 12, 6, 3), disc(19, 12, 2)],
   },
   {
     slug: "backfill", category: "data", subcategory: "pipeline",
-    name: "Backfill", description: "Fill in what was missed",
+    name: "Backfill", description: "Backfill — fill in what was missed by reprocessing historic data",
     tags: ["catch-up", "historic", "reprocess"], family: "cylinder",
     aliases: [], keywords: ["catch up", "reprocess", "historic", "replay", "gap"],
     shapes: [...store(), row(19, 4, 16), poly([[7, 16], [4, 19], [7, 22]])],
   },
   {
     slug: "batch-job", category: "data", subcategory: "orchestration",
-    name: "Batch job", description: "Work that runs on a schedule, in bulk",
+    name: "Batch job", description: "A batch job — work that runs on a schedule in bulk rather than on demand",
     tags: ["scheduled", "bulk", "run"], family: "machine",
     aliases: [], keywords: ["nightly", "cron job", "bulk", "etl run", "scheduled"],
     shapes: [

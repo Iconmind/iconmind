@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "terminal",
   "name": "REPL",
-  "description": "Type, see, type again",
+  "description": "A REPL — type, see the result, type again, an interactive read-eval-print loop",
   "tags": [
     "interactive",
     "loop",

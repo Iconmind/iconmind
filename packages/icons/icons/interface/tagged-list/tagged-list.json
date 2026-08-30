@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "file",
   "name": "Tagged list",
-  "description": "A label beside a list — items grouped under one tag",
+  "description": "A label beside a list — items grouped together under one tag or category",
   "tags": [
     "tag",
     "list",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Stepper",
-  "description": "One less on the left, one more on the right",
+  "description": "A stepper — one less on the left, one more on the right, a numeric control",
   "tags": [
     "number",
     "increment",

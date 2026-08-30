@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "Workflow run",
-  "description": "The flow is going",
+  "description": "Workflow run — the flow is going, started and active right now",
   "tags": [
     "running",
     "started",

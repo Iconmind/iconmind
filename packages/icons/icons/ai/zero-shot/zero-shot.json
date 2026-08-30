@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "prompt",
   "name": "Zero-shot",
-  "description": "No examples at all",
+  "description": "Zero-shot prompting — ask the model to do the task with no examples at all",
   "tags": [
     "none",
     "cold",

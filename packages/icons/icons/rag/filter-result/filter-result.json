@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "retrieval",
   "name": "Filter result",
-  "description": "What made it through",
+  "description": "A filter result — what made it through the filter, the matching output",
   "tags": [
     "kept",
     "matching",

@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "condition",
   "name": "While",
-  "description": "Round again, as long as it holds",
+  "description": "While — round again as long as the condition holds, then stop",
   "tags": [
     "loop",
     "condition",

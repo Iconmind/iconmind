@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "context",
   "name": "Context compress",
-  "description": "Fitting more meaning into less room",
+  "description": "Context compression — fitting more meaning into fewer tokens by summarising or squeezing",
   "tags": [
     "summarise",
     "shrink",

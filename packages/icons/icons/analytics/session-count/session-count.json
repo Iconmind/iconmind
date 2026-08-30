@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Session count",
-  "description": "How many are in right now",
+  "description": "Session count — how many people are signed in and active right now",
   "tags": [
     "concurrent",
     "active",

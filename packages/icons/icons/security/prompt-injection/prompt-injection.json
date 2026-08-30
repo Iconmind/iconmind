@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Prompt injection",
-  "description": "Instructions smuggled in with the input",
+  "description": "Prompt injection — malicious instructions smuggled into a model's input to hijack it",
   "tags": [
     "attack",
     "jailbreak",

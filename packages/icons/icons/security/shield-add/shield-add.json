@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "policy",
   "name": "Shield add",
-  "description": "Put a rule in place",
+  "description": "Shield add — put a new protection rule or policy in place to guard something",
   "tags": [
     "protect",
     "new-rule",

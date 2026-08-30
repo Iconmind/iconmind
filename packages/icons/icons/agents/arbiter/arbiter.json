@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "multi-agent",
   "name": "Arbiter",
-  "description": "Who decides when agents disagree",
+  "description": "An arbiter — the judge that decides the outcome when agents disagree",
   "tags": [
     "judge",
     "decide",

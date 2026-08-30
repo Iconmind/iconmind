@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "knowledge",
   "name": "Knowledge",
-  "description": "What is known, kept where it can be asked",
+  "description": "Knowledge — what is known, kept where it can be asked, the facts in a base",
   "tags": [
     "facts",
     "corpus",

@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "transform",
   "name": "Filter",
-  "description": "Keep only what matches",
+  "description": "A filter funnel that keeps only what matches — narrow a list, a query or a stream of results",
   "tags": [
     "funnel",
     "narrow",

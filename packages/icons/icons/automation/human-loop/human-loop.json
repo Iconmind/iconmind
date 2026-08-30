@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "human-loop",
   "name": "Human in the loop",
-  "description": "A person inside the cycle",
+  "description": "Human in the loop — a person inside the cycle, reviewing before it continues",
   "tags": [
     "review",
     "person",

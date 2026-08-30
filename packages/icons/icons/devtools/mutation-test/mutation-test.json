@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Mutation test",
-  "description": "Break the code on purpose; the tests must notice",
+  "description": "A mutation test — break the code on purpose and check that the tests notice",
   "tags": [
     "mutant",
     "seeded",

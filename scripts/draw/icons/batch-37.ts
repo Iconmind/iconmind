@@ -14,28 +14,28 @@ export const BATCH_37: Icon[] = [
 
   {
     slug: "request", category: "devtools", subcategory: "api",
-    name: "Request", description: "The call going out",
+    name: "Request", description: "A request — the call going out from a client to a server, asking for something",
     tags: ["call", "ask", "outbound"], family: "figure",
     aliases: [], keywords: ["http request", "call", "outbound", "ask", "invoke"],
     shapes: [rect(15, 4, 7, 16, 2), row(12, 2, 15), poly([[12, 9], [15, 12], [12, 15]])],
   },
   {
     slug: "response", category: "devtools", subcategory: "api",
-    name: "Response", description: "What came back",
+    name: "Response", description: "A response — what came back from the server after a request was made",
     tags: ["reply", "returned", "inbound"], family: "figure",
     aliases: [], keywords: ["http response", "reply", "returned", "payload", "inbound"],
     shapes: [rect(15, 4, 7, 16, 2), row(12, 2, 15), poly([[5, 9], [2, 12], [5, 15]])],
   },
   {
     slug: "status-code", category: "devtools", subcategory: "api",
-    name: "Status code", description: "The number that says how it went",
+    name: "Status code", description: "A status code — the number that says how a request went, 200, 404 or 500",
     tags: ["200", "404", "result"], family: "window",
     aliases: [], keywords: ["200", "404", "500", "http status", "result code"],
     shapes: [rect(2, 6, 20, 12, 2), col(15, 6, 18), row(12, 5, 12)],
   },
   {
     slug: "send", category: "interface", subcategory: "communication",
-    name: "Send", description: "Off it goes",
+    name: "Send", description: "Send — off it goes, submit and post it away to the recipient",
     tags: ["submit", "post", "away"], family: "figure",
     aliases: [], keywords: ["submit", "post message", "deliver", "paper plane", "go"],
     shapes: [
@@ -51,14 +51,14 @@ export const BATCH_37: Icon[] = [
 
   {
     slug: "step-into", category: "devtools", subcategory: "debug",
-    name: "Step into", description: "Go down into the call",
+    name: "Step into", description: "Step into — go down into the function call while debugging, line by line",
     tags: ["descend", "enter", "debug"], family: "figure",
     aliases: [], keywords: ["step in", "descend", "enter function", "debugger", "f11"],
     shapes: [row(18, 3, 21), col(12, 4, 14), poly([[9, 11], [12, 14], [15, 11]])],
   },
   {
     slug: "step-over", category: "devtools", subcategory: "debug",
-    name: "Step over", description: "Past the call, not through it",
+    name: "Step over", description: "Step over — move past the call without going through it while debugging",
     tags: ["skip", "past", "debug"], family: "figure",
     aliases: [], keywords: ["step over", "skip call", "next line", "debugger", "f10"],
     // The arc lands pointing down, so the head is `step-into`'s chevron at the landing
@@ -67,7 +67,7 @@ export const BATCH_37: Icon[] = [
   },
   {
     slug: "stack-trace", category: "devtools", subcategory: "debug",
-    name: "Stack trace", description: "Which call was inside which",
+    name: "Stack trace", description: "A stack trace — which call was inside which when the program crashed",
     tags: ["frames", "crash", "where"], family: "figure",
     aliases: [], keywords: ["call stack", "frames", "traceback", "exception", "where it broke"],
     // Rows that all end at the same place are `align-right`. Frames nest.
@@ -75,7 +75,7 @@ export const BATCH_37: Icon[] = [
   },
   {
     slug: "span-trace", category: "analytics", subcategory: "llm-observability",
-    name: "Span", description: "One piece of work inside a trace",
+    name: "Span", description: "A span — one timed piece of work inside a distributed trace across services",
     tags: ["timing", "trace", "segment"], family: "chart",
     aliases: [], keywords: ["trace span", "waterfall", "opentelemetry", "duration", "child span"],
     shapes: [row(7, 3, 19), row(12, 6, 16), row(17, 9, 21)],
@@ -85,7 +85,7 @@ export const BATCH_37: Icon[] = [
 
   {
     slug: "sso", category: "security", subcategory: "auth",
-    name: "Single sign-on", description: "One key, every door",
+    name: "Single sign-on", description: "Single sign-on — one key that opens every door, federated login",
     tags: ["once", "federated", "shared"], family: "figure",
     aliases: [], keywords: ["saml", "oidc", "federated", "sign in once", "identity provider"],
     shapes: [
@@ -95,14 +95,14 @@ export const BATCH_37: Icon[] = [
   },
   {
     slug: "signature", category: "security", subcategory: "encryption",
-    name: "Signature", description: "Proof it was them",
+    name: "Signature", description: "A signature — proof that it really was them, a mark that authenticates",
     tags: ["signed", "authentic", "mark"], family: "page",
     aliases: [], keywords: ["signed", "digital signature", "authenticity", "non repudiation"],
     shapes: [page(), arc(11, 11, 3, 0, 180), poly([[14, 11], [17, 8]]), row(18, 8, 16)],
   },
   {
     slug: "secret-leak", category: "security", subcategory: "secret",
-    name: "Secret leak", description: "It got out",
+    name: "Secret leak", description: "A secret leak — a credential that got out, exposed or committed by mistake",
     tags: ["exposed", "leaked", "committed"], family: "lock",
     aliases: [], keywords: ["exposed key", "committed secret", "leaked credential", "rotate now"],
     shapes: [
@@ -112,7 +112,7 @@ export const BATCH_37: Icon[] = [
   },
   {
     slug: "scan-security", category: "security", subcategory: "threat",
-    name: "Security scan", description: "Looking for what is wrong with it",
+    name: "Security scan", description: "A security scan — a sweep looking for vulnerabilities, CVEs and misconfigurations",
     tags: ["sweep", "audit", "cve"], family: "shield",
     aliases: [], keywords: ["vulnerability scan", "cve", "sweep", "sast", "audit"],
     shapes: [shield(), row(12, 4, 20)],
@@ -122,7 +122,7 @@ export const BATCH_37: Icon[] = [
 
   {
     slug: "replication-geo", category: "cloud", subcategory: "region",
-    name: "Geo-replication", description: "The same data, kept in two places",
+    name: "Geo-replication", description: "Geo-replication — the same data kept in two regions far apart",
     tags: ["regions", "copies", "distance"], family: "orbit",
     aliases: [], keywords: ["cross region", "multi region", "replica", "failover", "far apart"],
     shapes: [
@@ -135,21 +135,21 @@ export const BATCH_37: Icon[] = [
   },
   {
     slug: "registry-image", category: "devops", subcategory: "container",
-    name: "Image registry", description: "Where the built images sit",
+    name: "Image registry", description: "An image registry — the shelf where built container images are stored",
     tags: ["shelf", "images", "store"], family: "figure",
     aliases: [], keywords: ["container registry", "ghcr", "docker hub", "pushed image", "tags"],
     shapes: [row(4, 4, 20), rect(2, 7, 20, 10, 2), col(8, 7, 17), col(15, 7, 17)],
   },
   {
     slug: "release-tag", category: "devops", subcategory: "release",
-    name: "Release tag", description: "The name this version answers to",
+    name: "Release tag", description: "A release tag — the semver name this version answers to in the repository",
     tags: ["version", "label", "semver"], family: "figure",
     aliases: ["tag-release"], keywords: ["semver", "v1.2.0", "git tag", "label", "named version"],
     shapes: [poly([[2, 12], [9, 5], [21, 5], [21, 19], [9, 19]], true), disc(7, 12, 1), row(10, 11, 18), row(14, 11, 16)],
   },
   {
     slug: "service-mesh", category: "devops", subcategory: "orchestration",
-    name: "Service mesh", description: "Every service talking through the same layer",
+    name: "Service mesh", description: "A service mesh — every service talking through the same sidecar layer",
     tags: ["sidecar", "istio", "traffic"], family: "figure",
     aliases: [], keywords: ["istio", "linkerd", "sidecar", "mtls", "east-west traffic"],
     shapes: [
@@ -162,14 +162,14 @@ export const BATCH_37: Icon[] = [
 
   {
     slug: "retry-policy", category: "automation", subcategory: "workflow",
-    name: "Retry policy", description: "How many times, and how far apart",
+    name: "Retry policy", description: "A retry policy — how many attempts, and how far apart, with backoff",
     tags: ["backoff", "attempts", "rule"], family: "orbit",
     aliases: [], keywords: ["backoff", "max attempts", "exponential", "jitter", "give up"],
     shapes: [...cycle(), col(9, 10, 14), col(12, 10, 14), col(15, 10, 14)],
   },
   {
     slug: "replan", category: "agents", subcategory: "planning",
-    name: "Replan", description: "That plan is no good; here is another",
+    name: "Replan", description: "Replan — that plan is no good, discard it and make another before acting",
     tags: ["rethink", "discard", "again"], family: "figure",
     aliases: [], keywords: ["rethink", "new plan", "abandon", "adjust", "course correct"],
     shapes: [
@@ -179,7 +179,7 @@ export const BATCH_37: Icon[] = [
   },
   {
     slug: "self-correct", category: "agents", subcategory: "reflection",
-    name: "Self-correct", description: "It noticed, and fixed it",
+    name: "Self-correct", description: "Self-correct — the model noticed its own mistake and fixed it",
     tags: ["revise", "amend", "retry"], family: "figure",
     aliases: [], keywords: ["revise", "fix own answer", "critique", "second attempt", "amend"],
     shapes: [
@@ -189,7 +189,7 @@ export const BATCH_37: Icon[] = [
   },
   {
     slug: "self-consistency", category: "ai", subcategory: "inference",
-    name: "Self-consistency", description: "Ask several times, keep what most of them said",
+    name: "Self-consistency", description: "Self-consistency — ask several times and keep the answer most of the samples agreed on",
     tags: ["majority", "samples", "agree"], family: "figure",
     aliases: [], keywords: ["majority vote", "sample n", "agreement", "ensemble", "best of"],
     shapes: [row(7, 3, 15), row(12, 3, 15), row(17, 3, 15), poly([[17, 11], [19, 13], [22, 10]])],
@@ -199,7 +199,7 @@ export const BATCH_37: Icon[] = [
 
   {
     slug: "semantic-chunk", category: "rag", subcategory: "chunking",
-    name: "Semantic chunk", description: "Cut where the meaning changes, not where the page ends",
+    name: "Semantic chunk", description: "A semantic chunk — cut where the meaning changes, not where the page ends",
     tags: ["boundary", "meaning", "split"], family: "figure",
     aliases: [], keywords: ["semantic split", "boundary", "topic shift", "coherent passage"],
     shapes: [
@@ -208,14 +208,14 @@ export const BATCH_37: Icon[] = [
   },
   {
     slug: "softmax", category: "ai", subcategory: "inference",
-    name: "Softmax", description: "Scores turned into one that wins",
+    name: "Softmax", description: "Softmax — raw scores turned into probabilities where one wins",
     tags: ["probability", "peak", "normalise"], family: "chart",
     aliases: [], keywords: ["probabilities", "temperature", "argmax", "distribution", "peak"],
     shapes: [row(20, 3, 21), col(6, 14, 20), col(10, 8, 20), col(14, 3, 20), col(18, 14, 20)],
   },
   {
     slug: "sparkline", category: "analytics", subcategory: "chart",
-    name: "Sparkline", description: "The shape of it, small enough to sit in a line",
+    name: "Sparkline", description: "A sparkline — the shape of a trend, small enough to sit inline in a line of text",
     tags: ["inline", "trend", "tiny"], family: "chart",
     aliases: [], keywords: ["inline chart", "trend", "micro chart", "in a table", "tiny"],
     shapes: [

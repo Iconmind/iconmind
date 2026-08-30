@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Flip horizontal",
-  "description": "Its mirror twin, across the line",
+  "description": "Flip horizontal — the mirror twin of an object across a vertical line",
   "tags": [
     "mirror",
     "flip",

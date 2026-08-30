@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "lifecycle",
   "name": "Agent done",
-  "description": "Finished, and it went well",
+  "description": "Agent done — the agent finished its task, and it went well from start to end",
   "tags": [
     "complete",
     "finished",

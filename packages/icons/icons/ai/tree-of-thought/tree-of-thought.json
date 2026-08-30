@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Tree of thought",
-  "description": "Several lines of thinking, one kept",
+  "description": "Tree of thought — several lines of reasoning explored as branches, with the best one kept",
   "tags": [
     "branch",
     "explore",

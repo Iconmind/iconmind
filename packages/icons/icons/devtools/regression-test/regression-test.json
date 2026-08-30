@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Regression test",
-  "description": "Proof the old thing still works",
+  "description": "A regression test — proof that the old thing still works after a change",
   "tags": [
     "still-passes",
     "guard",

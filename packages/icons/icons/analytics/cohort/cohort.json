@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "segment",
   "name": "Cohort",
-  "description": "A group that started together",
+  "description": "A cohort — a group of users who started together and are tracked as one segment",
   "tags": [
     "group",
     "batch",

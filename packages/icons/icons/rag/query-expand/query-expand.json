@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "retrieval",
   "name": "Query expand",
-  "description": "One question becomes several searches",
+  "description": "Query expansion — one question broadened into several searches",
   "tags": [
     "broaden",
     "fan",

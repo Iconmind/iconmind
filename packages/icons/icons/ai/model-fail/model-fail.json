@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Model fail",
-  "description": "A model core beside an X — a model call that failed",
+  "description": "A model core beside an X — a model call that failed and returned an error",
   "tags": [
     "fail",
     "error",

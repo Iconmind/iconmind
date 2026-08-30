@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "server",
   "name": "MCP server add",
-  "description": "Connect another server",
+  "description": "MCP server add — connect and register another server so the model can use it",
   "tags": [
     "new",
     "connect",

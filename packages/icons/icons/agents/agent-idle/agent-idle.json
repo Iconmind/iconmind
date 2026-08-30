@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "lifecycle",
   "name": "Agent idle",
-  "description": "Ready, with nothing to do",
+  "description": "Agent idle — ready and waiting, with nothing to do right now",
   "tags": [
     "waiting",
     "ready",

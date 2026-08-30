@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "schedule",
   "name": "Cron schedule",
-  "description": "At these minutes, on these days",
+  "description": "A cron schedule — at these minutes on these days, a recurring timer expression",
   "tags": [
     "timer",
     "expression",

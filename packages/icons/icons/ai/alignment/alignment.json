@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Alignment",
-  "description": "Bringing the model round to what people want",
+  "description": "Alignment — bringing a model round to what people actually want, steering with feedback",
   "tags": [
     "rlhf",
     "steer",

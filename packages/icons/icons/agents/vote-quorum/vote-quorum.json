@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "multi-agent",
   "name": "Quorum",
-  "description": "Enough of them agreed to count",
+  "description": "A quorum — enough of the agents agreed for the vote to count",
   "tags": [
     "vote",
     "enough",

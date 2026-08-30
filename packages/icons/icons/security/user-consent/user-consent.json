@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "User consent",
-  "description": "Asked first; the person said yes",
+  "description": "User consent — asked first, and the person said yes before anything happened",
   "tags": [
     "person",
     "yes",

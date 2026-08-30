@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "segment",
   "name": "Poll",
-  "description": "What people said when asked",
+  "description": "A poll — what people said when they were asked, votes and survey answers",
   "tags": [
     "vote",
     "survey",

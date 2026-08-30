@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "chart",
   "name": "Funnel chart",
-  "description": "How many survive each stage",
+  "description": "A funnel chart — how many survive each stage as the flow narrows toward conversion",
   "tags": [
     "stages",
     "narrow",

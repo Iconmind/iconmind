@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "cost",
   "name": "Saved payment",
-  "description": "A coin beside a bookmark — a payment method kept on file",
+  "description": "A coin beside a bookmark — a payment method kept on file for next time",
   "tags": [
     "payment",
     "saved",

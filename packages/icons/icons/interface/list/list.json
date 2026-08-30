@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "List",
-  "description": "Items, one after another",
+  "description": "A list — items shown one after another as bulleted rows down the page",
   "tags": [
     "items",
     "bullets",

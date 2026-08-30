@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "orchestration",
   "name": "Node pool",
-  "description": "Interchangeable machines, one tray",
+  "description": "A node pool — interchangeable worker machines managed as one group that scales",
   "tags": [
     "group",
     "workers",

@@ -1,0 +1,32 @@
+{
+  "slug": "remove-lock",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Remove lock",
+  "description": "A padlock with a minus beside it — take a lock off and release it",
+  "tags": [
+    "lock",
+    "remove",
+    "unlock"
+  ],
+  "keywords": [
+    "remove lock",
+    "unlock permanently",
+    "lock removed"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M2 13A2 2 0 0 1 4 11H10A2 2 0 0 1 12 13V17A2 2 0 0 1 10 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M4 11A3 3 0 0 1 10 11",
+      "closed": false
+    },
+    {
+      "d": "M16 12H22",
+      "closed": false
+    }
+  ]
+}

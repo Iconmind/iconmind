@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Training",
-  "description": "Teaching a model from data",
+  "description": "Training — teaching a model from data by adjusting its weights over many epochs",
   "tags": [
     "learn",
     "fit",

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Batch inference",
-  "description": "Many inputs through in one go",
+  "description": "Batch inference — many inputs run through a model in one offline pass",
   "tags": [
     "bulk",
     "offline",

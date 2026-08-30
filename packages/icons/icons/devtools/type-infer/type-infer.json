@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "code",
   "name": "Type inference",
-  "description": "Unwritten, but known anyway",
+  "description": "Type inference — the type is unwritten but known anyway, deduced automatically",
   "tags": [
     "types",
     "deduce",

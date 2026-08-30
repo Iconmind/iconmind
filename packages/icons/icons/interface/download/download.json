@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "arrow",
   "name": "Download",
-  "description": "Bring it here",
+  "description": "Download — bring a file, a model or a dataset from somewhere else onto this machine",
   "tags": [
     "receive",
     "pull",

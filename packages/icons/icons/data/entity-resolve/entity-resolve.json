@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Entity resolve",
-  "description": "Two spellings, one person",
+  "description": "Entity resolution — two spellings, one person, records matched to one identity",
   "tags": [
     "merge",
     "identity",

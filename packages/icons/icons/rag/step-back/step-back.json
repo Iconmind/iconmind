@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "retrieval",
   "name": "Step back",
-  "description": "Ask the bigger question first",
+  "description": "Step-back prompting — ask the bigger, more abstract question first",
   "tags": [
     "abstract",
     "zoom-out",

@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "orchestration",
   "name": "Batch window",
-  "description": "The hours the heavy work is allowed",
+  "description": "A batch window — the hours when the heavy work is allowed to run",
   "tags": [
     "schedule",
     "hours",

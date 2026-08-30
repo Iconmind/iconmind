@@ -16,7 +16,7 @@ export const BATCH_25: Icon[] = [
 
   {
     slug: "accuracy", category: "ai", subcategory: "evaluation",
-    name: "Accuracy", description: "How often it gets it right",
+    name: "Accuracy", description: "Accuracy — how often the model gets it right, hits on target",
     tags: ["correct", "hit", "target"], family: "orbit",
     aliases: [], keywords: ["precision", "recall", "score", "hit rate", "correct"],
     // `goal`'s rings with a mark in the middle instead of a core. The target says what is
@@ -25,7 +25,7 @@ export const BATCH_25: Icon[] = [
   },
   {
     slug: "confusion-matrix", category: "ai", subcategory: "evaluation",
-    name: "Confusion matrix", description: "What it got right and what it mixed up",
+    name: "Confusion matrix", description: "A confusion matrix — what a classifier got right and which classes it mixed up",
     tags: ["grid", "errors", "classes"], family: "window",
     aliases: [], keywords: ["true positive", "false negative", "classes", "error analysis"],
     // Four cells with the diagonal pair marked. Drawn as an actual diagonal the line crosses
@@ -38,7 +38,7 @@ export const BATCH_25: Icon[] = [
   },
   {
     slug: "eval-suite", category: "ai", subcategory: "evaluation",
-    name: "Eval suite", description: "A whole set of checks, run together",
+    name: "Eval suite", description: "An eval suite — a whole battery of checks run together as one harness",
     tags: ["tests", "battery", "harness"], family: "page",
     aliases: [], keywords: ["benchmark suite", "test harness", "battery", "regression"],
     shapes: [
@@ -48,7 +48,7 @@ export const BATCH_25: Icon[] = [
   },
   {
     slug: "degradation", category: "ai", subcategory: "evaluation",
-    name: "Degradation", description: "It is getting worse",
+    name: "Degradation", description: "Degradation — performance getting worse over time, a decline or a decay",
     tags: ["decline", "worse", "decay"], family: "axes",
     aliases: ["regression"], keywords: ["decline", "worse over time", "decay", "erosion"],
     // Falls and keeps falling. `loss-curve` falls and then flattens, which is training
@@ -60,7 +60,7 @@ export const BATCH_25: Icon[] = [
   },
   {
     slug: "base-model", category: "ai", subcategory: "model",
-    name: "Base model", description: "Before anybody tuned it",
+    name: "Base model", description: "A base model — the pretrained foundation before anybody tuned it",
     tags: ["foundation", "raw", "pretrained"], family: "machine",
     aliases: ["foundation-model"], keywords: ["foundation", "pretrained", "checkpoint", "vanilla"],
     // `model`'s machine with nothing in it. The diamond is what a model has been given;
@@ -69,7 +69,7 @@ export const BATCH_25: Icon[] = [
   },
   {
     slug: "embedding-model", category: "ai", subcategory: "embedding",
-    name: "Embedding model", description: "The model that turns text into vectors",
+    name: "Embedding model", description: "An embedding model — the encoder that turns text into vectors for search and retrieval",
     tags: ["encoder", "vectors", "index"], family: "machine",
     aliases: [], keywords: ["encoder", "sentence transformer", "ada", "vectoriser"],
     // The machine holding `lattice`'s open diamond rather than `model`'s closed one. Open
@@ -78,7 +78,7 @@ export const BATCH_25: Icon[] = [
   },
   {
     slug: "batch-inference", category: "ai", subcategory: "inference",
-    name: "Batch inference", description: "Many inputs through in one go",
+    name: "Batch inference", description: "Batch inference — many inputs run through a model in one offline pass",
     tags: ["bulk", "offline", "many"], family: "machine",
     aliases: ["batch"], keywords: ["bulk", "offline", "throughput", "queue", "job"],
     shapes: [
@@ -88,7 +88,7 @@ export const BATCH_25: Icon[] = [
   },
   {
     slug: "agent-idle", category: "agents", subcategory: "lifecycle",
-    name: "Agent idle", description: "Ready, with nothing to do",
+    name: "Agent idle", description: "Agent idle — ready and waiting, with nothing to do right now",
     tags: ["waiting", "ready", "quiet"], family: "orbit",
     aliases: [], keywords: ["waiting", "available", "standby", "no work", "quiet"],
     // A small core where `agent`'s is large. The body is the same body and the difference
@@ -97,7 +97,7 @@ export const BATCH_25: Icon[] = [
   },
   {
     slug: "agent-hierarchy", category: "agents", subcategory: "multi-agent",
-    name: "Agent hierarchy", description: "Who reports to whom",
+    name: "Agent hierarchy", description: "An agent hierarchy — who reports to whom, a tree of supervisors and workers",
     tags: ["tree", "levels", "org"], family: "chain",
     aliases: [], keywords: ["org chart", "tree", "levels", "reporting", "supervisor tree"],
     shapes: [
@@ -112,7 +112,7 @@ export const BATCH_25: Icon[] = [
   },
   {
     slug: "consensus", category: "agents", subcategory: "communication",
-    name: "Consensus", description: "They all agree",
+    name: "Consensus", description: "Consensus — the agents all agree, a vote that reached a quorum",
     tags: ["agree", "vote", "quorum"], family: "orbit",
     aliases: ["quorum"], keywords: ["vote", "quorum", "majority", "agreement", "raft"],
     shapes: [
@@ -121,7 +121,7 @@ export const BATCH_25: Icon[] = [
   },
   {
     slug: "critique", category: "agents", subcategory: "reflection",
-    name: "Critique", description: "Saying what is wrong with it",
+    name: "Critique", description: "Critique — saying what is wrong with a piece of work, a judge giving feedback",
     tags: ["review", "feedback", "judge"], family: "window",
     aliases: [], keywords: ["feedback", "review", "criticism", "self-critique", "judge"],
     // A message with a line struck out in it. `dead-letter` is the same bubble with a cross,
@@ -134,7 +134,7 @@ export const BATCH_25: Icon[] = [
   },
   {
     slug: "deadline", category: "agents", subcategory: "planning",
-    name: "Deadline", description: "The time it has to be done by",
+    name: "Deadline", description: "A deadline — the time something has to be done by, a cutoff on the clock",
     tags: ["due", "cutoff", "limit"], family: "orbit",
     aliases: ["due-date"], keywords: ["due", "cutoff", "sla", "expiry", "overdue"],
     // `clock` against a wall. The dial says when and the wall says there is nothing past it,
@@ -146,7 +146,7 @@ export const BATCH_25: Icon[] = [
 
   {
     slug: "citation", category: "rag", subcategory: "grounding",
-    name: "Citation", description: "Where that came from",
+    name: "Citation", description: "A citation — where that claim came from, a reference to the source",
     tags: ["source", "reference", "quote"], family: "page",
     aliases: ["reference"], keywords: ["footnote", "source", "attribution", "quote", "link"],
     // A page with a mark raised above the line, which is where a citation goes in print.
@@ -155,7 +155,7 @@ export const BATCH_25: Icon[] = [
   },
   {
     slug: "corpus", category: "rag", subcategory: "knowledge",
-    name: "Corpus", description: "Everything the system has read",
+    name: "Corpus", description: "A corpus — the whole body of documents a system has read and can draw on",
     tags: ["collection", "documents", "body"], family: "page",
     aliases: ["collection"], keywords: ["document set", "library", "training data", "archive"],
     shapes: [
@@ -165,7 +165,7 @@ export const BATCH_25: Icon[] = [
   },
   {
     slug: "cross-encoder", category: "rag", subcategory: "ranking",
-    name: "Cross-encoder", description: "Judges the pair together, not apart",
+    name: "Cross-encoder", description: "A cross-encoder — a reranker that judges query and document together rather than apart",
     tags: ["pairwise", "rerank", "score"], family: "funnel",
     aliases: [], keywords: ["pairwise", "rerank", "relevance model", "joint scoring"],
     shapes: [
@@ -175,7 +175,7 @@ export const BATCH_25: Icon[] = [
   },
   {
     slug: "document-store", category: "rag", subcategory: "knowledge",
-    name: "Document store", description: "Where the documents themselves live",
+    name: "Document store", description: "A document store — where the documents themselves live, the repository behind retrieval",
     tags: ["repository", "files", "store"], family: "machine",
     aliases: [], keywords: ["blob store", "originals", "source documents", "repository"],
     shapes: [machine(), poly([[13, 8], [9, 8], [9, 16], [15, 16], [15, 10]])],
@@ -185,7 +185,7 @@ export const BATCH_25: Icon[] = [
 
   {
     slug: "backpressure", category: "data", subcategory: "streaming",
-    name: "Backpressure", description: "The far end saying slow down",
+    name: "Backpressure", description: "Backpressure — the far end saying slow down, a push-back when it is full",
     tags: ["throttle", "push-back", "full"], family: "arrow",
     aliases: [], keywords: ["flow control", "push back", "buffer full", "slow down", "lag"],
     // Arrows going one way and one coming back. The single reverse arrow against three is

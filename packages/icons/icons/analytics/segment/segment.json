@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "segment",
   "name": "Segment",
-  "description": "The part of the whole you mean",
+  "description": "A segment — the part of the whole you mean, a slice or a cohort",
   "tags": [
     "slice",
     "cohort",

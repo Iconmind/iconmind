@@ -17,7 +17,7 @@ export const BATCH_51: Icon[] = [
 
   {
     slug: "property-test", category: "devtools", subcategory: "testing",
-    name: "Property test", description: "Many generated inputs, one property that must hold",
+    name: "Property test", description: "A property test — many generated inputs against one property that must always hold",
     tags: ["generated", "fuzz", "invariant"], family: "figure",
     aliases: ["fuzzing"], keywords: ["property-based", "quickcheck", "generated inputs", "invariant", "fuzz"],
     // Three inputs funnel toward the one verdict.
@@ -29,7 +29,7 @@ export const BATCH_51: Icon[] = [
   },
   {
     slug: "mutation-test", category: "devtools", subcategory: "testing",
-    name: "Mutation test", description: "Break the code on purpose; the tests must notice",
+    name: "Mutation test", description: "A mutation test — break the code on purpose and check that the tests notice",
     tags: ["mutant", "seeded", "caught"], family: "rails",
     aliases: [], keywords: ["mutation testing", "mutant", "seeded bug", "test quality", "stryker"],
     // The original line, the line with a mutation dropped into it, and the check that
@@ -42,7 +42,7 @@ export const BATCH_51: Icon[] = [
   },
   {
     slug: "gc-pause", category: "devtools", subcategory: "debug",
-    name: "GC pause", description: "Everything stops while the collector runs",
+    name: "GC pause", description: "A GC pause — everything stops while the garbage collector runs, a latency spike",
     tags: ["stop-the-world", "latency", "memory"], family: "rails",
     aliases: [], keywords: ["garbage collection", "stop the world", "pause time", "gc", "hiccup"],
     // The stream halts at the bars and resumes on the other side.
@@ -50,7 +50,7 @@ export const BATCH_51: Icon[] = [
   },
   {
     slug: "multi-cursor", category: "devtools", subcategory: "editor",
-    name: "Multi-cursor", description: "Two carets, one keystroke",
+    name: "Multi-cursor", description: "Multi-cursor — two carets editing at once, one keystroke in several places",
     tags: ["carets", "edit", "simultaneous"], family: "rails",
     aliases: [], keywords: ["multiple cursors", "multi caret", "column edit", "simultaneous edit"],
     shapes: [
@@ -64,7 +64,7 @@ export const BATCH_51: Icon[] = [
 
   {
     slug: "citation-check", category: "rag", subcategory: "grounding",
-    name: "Citation check", description: "The quote actually says what it is cited for",
+    name: "Citation check", description: "A citation check — the quoted source actually says what it is cited for",
     tags: ["verify", "source", "quote"], family: "figure",
     aliases: [], keywords: ["citation", "verify quote", "grounded", "source check", "attribution"],
     // The quotation marks, and the sweep of a check under them.
@@ -72,7 +72,7 @@ export const BATCH_51: Icon[] = [
   },
   {
     slug: "index-rebuild", category: "rag", subcategory: "vector",
-    name: "Index rebuild", description: "The index, being made again",
+    name: "Index rebuild", description: "Index rebuild — the index made again from scratch in a batch reindex",
     tags: ["reindex", "refresh", "batch"], family: "window",
     aliases: ["reindex"], keywords: ["rebuild index", "reindex", "refresh embeddings", "backfill"],
     // The rotation family's loop with the index's rows in its hollow.
@@ -83,7 +83,7 @@ export const BATCH_51: Icon[] = [
 
   {
     slug: "cdc", category: "data", subcategory: "streaming",
-    name: "CDC", description: "Every change, streamed out as it happens",
+    name: "CDC", description: "CDC — change data capture, every change streamed out as it happens",
     tags: ["changes", "stream", "capture"], family: "figure",
     aliases: ["change-data-capture"], keywords: ["change data capture", "debezium", "binlog", "stream changes", "replication"],
     // The store on the left, its changes leaving as a dashed arrow.
@@ -95,7 +95,7 @@ export const BATCH_51: Icon[] = [
   },
   {
     slug: "schema-evolve", category: "data", subcategory: "transform",
-    name: "Schema evolution", description: "The table grows a column without breaking",
+    name: "Schema evolution", description: "Schema evolution — a table grows a column without breaking what reads it",
     tags: ["migrate", "add-column", "compatible"], family: "figure",
     aliases: [], keywords: ["schema evolution", "add column", "migration", "backwards compatible"],
     shapes: [
@@ -105,7 +105,7 @@ export const BATCH_51: Icon[] = [
   },
   {
     slug: "quality-gate", category: "data", subcategory: "quality",
-    name: "Quality gate", description: "Data does not pass until it checks out",
+    name: "Quality gate", description: "A quality gate — data does not pass into the next stage until it checks out",
     tags: ["gate", "checks", "block"], family: "figure",
     aliases: [], keywords: ["quality gate", "data checks", "expectations", "block bad data"],
     // Two posts and the check between them: through the gate, verified.
@@ -116,7 +116,7 @@ export const BATCH_51: Icon[] = [
 
   {
     slug: "shadow-deploy", category: "devops", subcategory: "release",
-    name: "Shadow deploy", description: "The new version runs beside the old, unseen",
+    name: "Shadow deploy", description: "Shadow deploy — the new version runs beside the old on mirrored traffic, unseen by users",
     tags: ["mirror", "dark", "traffic"], family: "figure",
     aliases: ["dark-launch"], keywords: ["shadow traffic", "dark launch", "mirror requests", "silent deploy"],
     // The live box, and the corner of its shadow twin — present, but not all there.
@@ -124,7 +124,7 @@ export const BATCH_51: Icon[] = [
   },
   {
     slug: "warm-start", category: "devops", subcategory: "infrastructure",
-    name: "Warm start", description: "Already warm when the request lands",
+    name: "Warm start", description: "A warm start — already warm when the request lands, no cold-start wait",
     tags: ["prewarmed", "ready", "fast"], family: "figure",
     aliases: ["prewarm"], keywords: ["warm pool", "prewarmed", "no cold start", "ready instance"],
     // Heat standing over the instance.
@@ -132,7 +132,7 @@ export const BATCH_51: Icon[] = [
   },
   {
     slug: "node-pool", category: "devops", subcategory: "orchestration",
-    name: "Node pool", description: "Interchangeable machines, one tray",
+    name: "Node pool", description: "A node pool — interchangeable worker machines managed as one group that scales",
     tags: ["group", "workers", "scale"], family: "figure",
     aliases: [], keywords: ["node pool", "worker group", "autoscaling group", "fleet"],
     shapes: [
@@ -145,7 +145,7 @@ export const BATCH_51: Icon[] = [
 
   {
     slug: "approve-step", category: "automation", subcategory: "human-loop",
-    name: "Approval step", description: "The stage that waits for a yes",
+    name: "Approval step", description: "An approval step — the stage in a workflow that waits for a human yes",
     tags: ["review", "gate", "human"], family: "figure",
     aliases: [], keywords: ["approval", "human in the loop", "sign off", "manual gate"],
     // The pipeline-stage family: `-run` holds a play, `-fail` a cross — this one holds
@@ -157,7 +157,7 @@ export const BATCH_51: Icon[] = [
   },
   {
     slug: "trigger-email", category: "automation", subcategory: "trigger",
-    name: "Email trigger", description: "A mail arrives, the workflow starts",
+    name: "Email trigger", description: "An email trigger — a mail arrives in the inbox and the workflow starts",
     tags: ["inbound", "mail", "start"], family: "figure",
     aliases: [], keywords: ["email trigger", "inbound mail", "on receive", "mailbox automation"],
     // The trigger family's arrow, fired by an envelope.
@@ -171,7 +171,7 @@ export const BATCH_51: Icon[] = [
 
   {
     slug: "latency-p99", category: "analytics", subcategory: "llm-observability",
-    name: "p99 latency", description: "Not the average — the one in a hundred that hurts",
+    name: "p99 latency", description: "p99 latency — not the average but the one request in a hundred that hurts, the tail",
     tags: ["tail", "percentile", "slow"], family: "chart",
     aliases: ["tail-latency"], keywords: ["p99", "percentile", "tail latency", "slow requests", "sla"],
     // The distribution falls away, and then the tail spike stands alone.
@@ -182,7 +182,7 @@ export const BATCH_51: Icon[] = [
 
   {
     slug: "private-endpoint", category: "cloud", subcategory: "network",
-    name: "Private endpoint", description: "The route ends at a lock, not the internet",
+    name: "Private endpoint", description: "A private endpoint — the route ends inside the VPC at a lock, never on the public internet",
     tags: ["vpc", "private", "no-egress"], family: "lock",
     aliases: [], keywords: ["private link", "vpc endpoint", "no public ip", "internal only"],
     // `endpoint`'s diagonal route, terminating in a padlock instead of an open node.
@@ -190,7 +190,7 @@ export const BATCH_51: Icon[] = [
   },
   {
     slug: "mfa-push", category: "security", subcategory: "auth",
-    name: "MFA push", description: "Approve it on the phone in your hand",
+    name: "MFA push", description: "MFA push — approve the sign-in on the phone in your hand as the second factor",
     tags: ["phone", "approve", "second-factor"], family: "figure",
     aliases: [], keywords: ["push notification", "mfa", "approve login", "authenticator", "2fa"],
     shapes: [rect(4, 2, 9, 20, 2), disc(8.5, 18, 1), poly([[16, 11], [18, 13], [21, 10]])],

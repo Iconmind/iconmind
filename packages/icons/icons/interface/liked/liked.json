@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "identity",
   "name": "Liked",
-  "description": "A heart with a check beside it — something you liked",
+  "description": "A heart with a check beside it — something you liked, confirmed",
   "tags": [
     "like",
     "heart",

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Token out",
-  "description": "One more word, leaving",
+  "description": "Token out — one more word leaving the model, a completion token on its way out",
   "tags": [
     "output",
     "completion",

@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Data validation",
-  "description": "Checked against the shape it must have",
+  "description": "Data validation — records checked against the shape and rules they must satisfy",
   "tags": [
     "valid",
     "schema",

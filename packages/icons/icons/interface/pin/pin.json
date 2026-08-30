@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Pin",
-  "description": "Keep it where it is",
+  "description": "Pin — keep it where it is, fix an item in place so it does not move",
   "tags": [
     "fix",
     "stick",

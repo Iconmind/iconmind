@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "identity",
   "name": "User add",
-  "description": "Invite somebody",
+  "description": "User add — invite somebody, create an account or add a member",
   "tags": [
     "invite",
     "new",

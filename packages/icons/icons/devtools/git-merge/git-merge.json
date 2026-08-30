@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "version-control",
   "name": "Merge",
-  "description": "Two lines of work becoming one",
+  "description": "A git merge — two lines of work joined back into one branch of history",
   "tags": [
     "join",
     "combine",

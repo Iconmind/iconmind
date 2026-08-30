@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "identity",
   "name": "Address",
-  "description": "A location pin beside lines of text — a postal address",
+  "description": "A location pin beside lines of text — a postal address written out in full",
   "tags": [
     "address",
     "location",

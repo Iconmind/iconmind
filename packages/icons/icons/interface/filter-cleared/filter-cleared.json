@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Filter cleared",
-  "description": "A funnel with an X beside it — all filters removed",
+  "description": "A funnel with an X beside it — all filters removed and the full list restored",
   "tags": [
     "filter",
     "clear",

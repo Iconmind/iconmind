@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "threat",
   "name": "Phishing",
-  "description": "The hook, waiting for a bite",
+  "description": "Phishing — the hook waiting for a bite, a scam lure disguised as something trusted",
   "tags": [
     "lure",
     "scam",

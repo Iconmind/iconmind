@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Schema pin",
-  "description": "The columns, held still on purpose",
+  "description": "Schema pin — the columns held still on purpose, a frozen contract",
   "tags": [
     "freeze",
     "contract",

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Model deploy",
-  "description": "Put the model where it will be used",
+  "description": "Model deploy — put a trained model where it will be served and used",
   "tags": [
     "ship",
     "serve",

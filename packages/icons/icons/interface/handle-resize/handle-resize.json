@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Resize handle",
-  "description": "Pull the corner; the box follows",
+  "description": "A resize handle — pull the corner and the box follows to its new size",
   "tags": [
     "resize",
     "corner",

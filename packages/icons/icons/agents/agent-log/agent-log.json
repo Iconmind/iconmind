@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "lifecycle",
   "name": "Agent log",
-  "description": "What the agent did, in order",
+  "description": "An agent log — everything the agent did, recorded in order as a trace you can read back",
   "tags": [
     "history",
     "trace",

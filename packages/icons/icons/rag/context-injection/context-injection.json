@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "retrieval",
   "name": "Context injection",
-  "description": "Putting something into the prompt",
+  "description": "Context injection — putting extra material into the prompt before the model sees it",
   "tags": [
     "insert",
     "prepend",

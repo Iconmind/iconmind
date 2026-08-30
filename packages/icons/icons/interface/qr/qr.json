@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "QR code",
-  "description": "Point a camera at it",
+  "description": "A QR code — point a camera at the square to open a link or a payload",
   "tags": [
     "scan",
     "code",

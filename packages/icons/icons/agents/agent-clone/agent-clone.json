@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "multi-agent",
   "name": "Agent clone",
-  "description": "The same agent, twice",
+  "description": "Agent clone — the same agent twice, an identical copy running in parallel",
   "tags": [
     "copy",
     "duplicate",

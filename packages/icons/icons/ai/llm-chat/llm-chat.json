@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "LLM chat",
-  "description": "The model, talking",
+  "description": "LLM chat — the model talking back in a conversation, reply by reply",
   "tags": [
     "conversation",
     "reply",

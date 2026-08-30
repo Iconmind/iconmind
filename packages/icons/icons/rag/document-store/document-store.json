@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "knowledge",
   "name": "Document store",
-  "description": "Where the documents themselves live",
+  "description": "A document store — where the documents themselves live, the repository behind retrieval",
   "tags": [
     "repository",
     "files",

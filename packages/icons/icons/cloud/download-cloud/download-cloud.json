@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "storage",
   "name": "Download from cloud",
-  "description": "Bring it back down",
+  "description": "Download from cloud — bring a file back down from cloud storage or restore a backup",
   "tags": [
     "fetch",
     "sync",

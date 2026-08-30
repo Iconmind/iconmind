@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "observability",
   "name": "Alert",
-  "description": "Something fired",
+  "description": "An alert — something fired, a notification raised or a page sent out",
   "tags": [
     "notify",
     "page",

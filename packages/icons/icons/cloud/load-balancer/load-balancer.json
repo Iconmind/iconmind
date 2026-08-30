@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "Load balancer",
-  "description": "One address, spread across many machines",
+  "description": "A load balancer — one address spreading traffic across many machines",
   "tags": [
     "distribute",
     "spread",

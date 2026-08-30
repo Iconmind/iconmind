@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Embedding drift",
-  "description": "The same word, slowly moving house",
+  "description": "Embedding drift — the same word slowly moving house as its vector shifts over time",
   "tags": [
     "shift",
     "wander",

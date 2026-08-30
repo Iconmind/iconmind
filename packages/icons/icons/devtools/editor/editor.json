@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "editor",
   "name": "Editor",
-  "description": "Where the code is written",
+  "description": "An editor — the window or IDE where the code is written and edited",
   "tags": [
     "ide",
     "workspace",

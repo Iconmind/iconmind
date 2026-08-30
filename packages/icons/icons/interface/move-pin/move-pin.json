@@ -1,0 +1,36 @@
+{
+  "slug": "move-pin",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "Move pin",
+  "description": "A location pin with an arrow beside it — move a pin to a new spot",
+  "tags": [
+    "pin",
+    "move",
+    "relocate"
+  ],
+  "keywords": [
+    "move pin",
+    "relocate marker",
+    "drag location"
+  ],
+  "family": "pin",
+  "shapes": [
+    {
+      "d": "M4 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V17",
+      "closed": false
+    },
+    {
+      "d": "M15 12H22",
+      "closed": false
+    },
+    {
+      "d": "M19.5 9.5L22 12L19.5 14.5",
+      "closed": false
+    }
+  ]
+}

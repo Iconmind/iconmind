@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "arrow",
   "name": "Chevron down",
-  "description": "Open what is below, or drop it down",
+  "description": "A down-pointing chevron — open what is below, expand a section or drop a menu down",
   "tags": [
     "expand",
     "dropdown",

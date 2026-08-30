@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "catalog",
   "name": "Governance",
-  "description": "The rules the data has to follow",
+  "description": "Data governance — the rules, policies and controls the data has to follow",
   "tags": [
     "policy",
     "rules",

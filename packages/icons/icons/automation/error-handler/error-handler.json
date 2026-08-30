@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "condition",
   "name": "Error handler",
-  "description": "Where things go when they fail",
+  "description": "An error handler — the catch branch where things go when they fail",
   "tags": [
     "catch",
     "fallback",

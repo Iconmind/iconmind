@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Nudge",
-  "description": "A tap, not an order",
+  "description": "A nudge — a tap rather than an order, a gentle poke to resume the work",
   "tags": [
     "prompt",
     "poke",

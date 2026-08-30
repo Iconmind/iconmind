@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "policy",
   "name": "Cloud firewall",
-  "description": "The wall, rented",
+  "description": "A cloud firewall — a managed wall at the edge, a WAF you rent",
   "tags": [
     "waf",
     "managed",

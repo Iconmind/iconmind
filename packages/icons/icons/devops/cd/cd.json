@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "ci-cd",
   "name": "Continuous delivery",
-  "description": "Every build on its way out",
+  "description": "Continuous delivery — every successful build on its way out to a release",
   "tags": [
     "deliver",
     "release",

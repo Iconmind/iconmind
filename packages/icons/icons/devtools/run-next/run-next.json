@@ -1,0 +1,32 @@
+{
+  "slug": "run-next",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Run next",
+  "description": "A play button with an arrow beside it — start the next run in the queue",
+  "tags": [
+    "run",
+    "next",
+    "queue"
+  ],
+  "keywords": [
+    "run next",
+    "next job",
+    "advance queue"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M3 5L3 19L10 12Z",
+      "closed": true
+    },
+    {
+      "d": "M14 12H22",
+      "closed": false
+    },
+    {
+      "d": "M19.5 9.5L22 12L19.5 14.5",
+      "closed": false
+    }
+  ]
+}

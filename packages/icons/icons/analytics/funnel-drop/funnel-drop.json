@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "segment",
   "name": "Funnel drop",
-  "description": "Where people leave instead",
+  "description": "Funnel drop — where people leave the funnel instead of continuing",
   "tags": [
     "churn",
     "lost",

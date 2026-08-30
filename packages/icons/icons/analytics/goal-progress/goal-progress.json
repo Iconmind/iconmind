@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Goal progress",
-  "description": "A target beside a rising line — progress toward a goal",
+  "description": "A target beside a rising line — progress climbing steadily toward a goal",
   "tags": [
     "goal",
     "progress",

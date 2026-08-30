@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "retrieval",
   "name": "Metadata filter",
-  "description": "Narrow it before you search",
+  "description": "A metadata filter — narrow the candidates by tags or facets before you search",
   "tags": [
     "facet",
     "restrict",

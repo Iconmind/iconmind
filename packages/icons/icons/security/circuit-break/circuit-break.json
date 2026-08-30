@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Circuit breaker",
-  "description": "The wire opens before the damage does",
+  "description": "A circuit breaker — the wire opens before the damage does, calls cut off to fail fast",
   "tags": [
     "stop",
     "open",

@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "Taint",
-  "description": "Stay away unless you can bear it",
+  "description": "A taint — a mark that says stay away unless you can tolerate it",
   "tags": [
     "hazard",
     "repel",

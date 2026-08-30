@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Key filter",
-  "description": "A key beside a funnel — filter by which credential was used",
+  "description": "A key beside a funnel — filter records by which credential was used",
   "tags": [
     "key",
     "filter",

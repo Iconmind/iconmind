@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Annotator",
-  "description": "The person the labels come from",
+  "description": "An annotator — the person the labels come from, a human labeler",
   "tags": [
     "human",
     "labeler",

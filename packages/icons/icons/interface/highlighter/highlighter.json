@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Highlighter",
-  "description": "The line that suddenly matters",
+  "description": "A highlighter — the line that suddenly matters, marked for emphasis",
   "tags": [
     "mark",
     "pen",

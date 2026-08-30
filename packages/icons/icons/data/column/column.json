@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "storage",
   "name": "Column",
-  "description": "One attribute, down",
+  "description": "A column — one attribute read down a table, the same field for every row",
   "tags": [
     "attribute",
     "vertical",

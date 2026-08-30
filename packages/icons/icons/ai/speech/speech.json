@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "multimodal",
   "name": "Speech",
-  "description": "Sound with words in it",
+  "description": "Speech — sound with words in it, a spoken voice recorded or generated",
   "tags": [
     "voice",
     "audio",

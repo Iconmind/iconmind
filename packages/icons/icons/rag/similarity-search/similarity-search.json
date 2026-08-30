@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "retrieval",
   "name": "Similarity search",
-  "description": "Find what is most like this",
+  "description": "Similarity search — find what is most like this one, the nearest neighbours",
   "tags": [
     "nearest",
     "alike",

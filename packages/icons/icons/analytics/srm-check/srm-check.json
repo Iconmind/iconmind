@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "experiment",
   "name": "SRM check",
-  "description": "The split is not the split you asked for",
+  "description": "An SRM check — the split is not the split you asked for, a sample ratio mismatch alarm",
   "tags": [
     "ratio",
     "skew",

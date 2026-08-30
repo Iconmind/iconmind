@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "evaluation",
   "name": "Confusion matrix",
-  "description": "What it got right and what it mixed up",
+  "description": "A confusion matrix — what a classifier got right and which classes it mixed up",
   "tags": [
     "grid",
     "errors",

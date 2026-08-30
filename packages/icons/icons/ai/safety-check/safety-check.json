@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "safety",
   "name": "Safety check",
-  "description": "Looked at before it goes out",
+  "description": "A safety check — output looked at and screened before it goes out",
   "tags": [
     "screen",
     "gate",

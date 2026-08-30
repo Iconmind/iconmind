@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "tool",
   "name": "MCP tool permission",
-  "description": "Whether it is allowed to run",
+  "description": "MCP tool permission — whether a tool is allowed to run, a consent gate",
   "tags": [
     "allow",
     "consent",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "file",
   "name": "Bookmark label",
-  "description": "A bookmark beside a label — a bookmark filed under a tag",
+  "description": "A bookmark beside a label — a bookmark filed under a tag or a folder",
   "tags": [
     "bookmark",
     "label",

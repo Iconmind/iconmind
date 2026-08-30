@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "compute",
   "name": "Warm pool",
-  "description": "Started early so nobody waits",
+  "description": "A warm pool — instances started early and kept on standby so nobody waits",
   "tags": [
     "ready",
     "standby",

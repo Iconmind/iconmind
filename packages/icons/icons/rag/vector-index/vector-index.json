@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "vector",
   "name": "Vector index",
-  "description": "Embeddings, filed for finding",
+  "description": "A vector index — embeddings filed for finding, an approximate nearest-neighbour store",
   "tags": [
     "ann",
     "store",

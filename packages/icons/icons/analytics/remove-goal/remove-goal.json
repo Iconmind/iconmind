@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Remove goal",
-  "description": "A target with a minus beside it — drop a goal",
+  "description": "A target with a minus beside it — drop a goal from the list of objectives",
   "tags": [
     "goal",
     "remove",

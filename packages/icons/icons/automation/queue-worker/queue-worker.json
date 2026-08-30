@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "integration",
   "name": "Queue worker",
-  "description": "The box the queue drains into",
+  "description": "A queue worker — the box the queue drains into, the consumer of jobs",
   "tags": [
     "consumer",
     "jobs",

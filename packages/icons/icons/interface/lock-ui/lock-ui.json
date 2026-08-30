@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "state",
   "name": "Locked control",
-  "description": "You can see it, not change it",
+  "description": "A locked control — you can see it but not change it, disabled or read-only",
   "tags": [
     "disabled",
     "frozen",

@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "dashboard",
   "name": "Checkpoint list",
-  "description": "A flag beside a list — every checkpoint saved so far",
+  "description": "A flag beside a list — every checkpoint saved so far, in order",
   "tags": [
     "checkpoints",
     "list",

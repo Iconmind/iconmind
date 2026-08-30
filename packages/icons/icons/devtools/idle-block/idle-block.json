@@ -1,0 +1,32 @@
+{
+  "slug": "idle-block",
+  "category": "devtools",
+  "subcategory": "code",
+  "name": "Idle block",
+  "description": "A Z held between brackets — a block of code that never runs, unreached and dormant",
+  "tags": [
+    "idle",
+    "unused",
+    "code"
+  ],
+  "keywords": [
+    "idle block",
+    "unreached code",
+    "dormant block"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M9 9L15 9L9 15L15 15",
+      "closed": false
+    }
+  ]
+}

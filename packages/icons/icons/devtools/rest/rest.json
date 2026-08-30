@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "api",
   "name": "REST",
-  "description": "Verbs against addresses",
+  "description": "REST — HTTP verbs against addresses, the CRUD style of web API",
   "tags": [
     "http",
     "crud",

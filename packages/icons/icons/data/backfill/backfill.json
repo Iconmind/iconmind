@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "pipeline",
   "name": "Backfill",
-  "description": "Fill in what was missed",
+  "description": "Backfill — fill in what was missed by reprocessing historic data",
   "tags": [
     "catch-up",
     "historic",

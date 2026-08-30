@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Identity",
-  "description": "Who somebody is, on a card",
+  "description": "Identity — who somebody is, their profile and details on an ID card",
   "tags": [
     "profile",
     "id",

@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Face ID",
-  "description": "Your face is the key",
+  "description": "Face ID — your face is the key, biometric unlock by scanning who you are",
   "tags": [
     "biometric",
     "unlock",

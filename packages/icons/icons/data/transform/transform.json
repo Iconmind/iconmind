@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "transform",
   "name": "Transform",
-  "description": "In one shape, out another",
+  "description": "Transform — data goes in one shape and comes out another, converted and reshaped",
   "tags": [
     "convert",
     "reshape",

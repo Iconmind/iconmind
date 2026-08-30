@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "experiment",
   "name": "Experiment",
-  "description": "Try it and see",
+  "description": "An experiment — a flask for trying something and seeing what happens",
   "tags": [
     "flask",
     "test",

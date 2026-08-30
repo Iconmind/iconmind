@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "lifecycle",
   "name": "Agent power",
-  "description": "An agent beside a power symbol — switch an agent on or off",
+  "description": "An agent beside a power symbol — switch an agent on or off in one press",
   "tags": [
     "power",
     "on",

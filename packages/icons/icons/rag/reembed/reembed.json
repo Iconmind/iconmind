@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "vector",
   "name": "Re-embed",
-  "description": "New model, same corpus, every vector again",
+  "description": "Re-embed — a new model over the same corpus, every vector computed again",
   "tags": [
     "refresh",
     "rotate",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Bring to front",
-  "description": "Put this one on top",
+  "description": "Bring to front — put this object on top of the others in the stack",
   "tags": [
     "layer",
     "raise",

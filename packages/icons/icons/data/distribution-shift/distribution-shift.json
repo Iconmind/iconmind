@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Distribution shift",
-  "description": "The world moved; the data followed",
+  "description": "Distribution shift — the world moved and the data followed, so the curve is not where it was",
   "tags": [
     "shift",
     "curve",

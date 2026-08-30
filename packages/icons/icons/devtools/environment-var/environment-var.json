@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "editor",
   "name": "Environment variable",
-  "description": "A value the process is handed",
+  "description": "An environment variable — a config value or secret handed to a process when it starts",
   "tags": [
     "config",
     "secret",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "Inpaint",
-  "description": "Redraw just this part",
+  "description": "Inpaint — redraw just one region of an image and leave the rest alone",
   "tags": [
     "region",
     "fill",

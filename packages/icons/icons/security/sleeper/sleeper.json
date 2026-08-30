@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Sleeper",
-  "description": "Harmless, until the phrase wakes it",
+  "description": "A sleeper — a model that behaves until the trigger phrase wakes its hidden behaviour",
   "tags": [
     "dormant",
     "hidden",

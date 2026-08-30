@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "streaming",
   "name": "CDC",
-  "description": "Every change, streamed out as it happens",
+  "description": "CDC — change data capture, every change streamed out as it happens",
   "tags": [
     "changes",
     "stream",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "time",
   "name": "Agenda",
-  "description": "A clock beside a list — the agenda for the day",
+  "description": "A clock beside a list — the agenda for the day, item by item in order",
   "tags": [
     "agenda",
     "schedule",

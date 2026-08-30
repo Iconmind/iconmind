@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Agent task queue",
-  "description": "What it will do, in order",
+  "description": "An agent task queue — what the agent will do next, in order of arrival",
   "tags": [
     "queue",
     "backlog",

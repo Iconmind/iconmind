@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Stratified sample",
-  "description": "One from every layer, fairly",
+  "description": "A stratified sample — one draw from every layer so each stratum is fairly represented",
   "tags": [
     "layers",
     "fair",

@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "compute",
   "name": "Cloud alert",
-  "description": "Something is wrong up there",
+  "description": "Cloud alert — something is wrong up in the cloud, an error or a degraded service",
   "tags": [
     "error",
     "degraded",

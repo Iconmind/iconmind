@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "version-control",
   "name": "Code review",
-  "description": "Somebody read it before it landed",
+  "description": "Code review — somebody read the change, commented and approved it before it landed",
   "tags": [
     "review",
     "comment",

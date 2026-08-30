@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "Purge cache",
-  "description": "Everything out, on purpose",
+  "description": "Purge cache — everything flushed out on purpose so it is fetched fresh",
   "tags": [
     "clear",
     "evict",

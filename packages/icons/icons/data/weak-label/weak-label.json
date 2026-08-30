@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Weak label",
-  "description": "A guess wearing a name tag",
+  "description": "A weak label — a heuristic guess wearing a name tag, noisy but useful",
   "tags": [
     "heuristic",
     "noisy",

@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "planning",
   "name": "Planner",
-  "description": "The part that works out what to do",
+  "description": "The planner — the part of an agent that breaks a goal down into the steps it will take",
   "tags": [
     "decompose",
     "strategy",

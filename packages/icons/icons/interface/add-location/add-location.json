@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "identity",
   "name": "Add location",
-  "description": "A location pin with a plus beside it — add a new place",
+  "description": "A location pin with a plus beside it — add a new place to the map",
   "tags": [
     "location",
     "add",

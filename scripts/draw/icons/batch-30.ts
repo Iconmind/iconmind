@@ -21,7 +21,7 @@ export const BATCH_30: Icon[] = [
 
   {
     slug: "mcp-tool-call", category: "mcp", subcategory: "tool",
-    name: "MCP tool call", description: "The model asking a server to do something",
+    name: "MCP tool call", description: "An MCP tool call — the model asking a server to run one of its tools",
     tags: ["invoke", "request", "run"], family: "figure",
     aliases: ["function-call"], keywords: ["invoke", "tools/call", "arguments", "request"],
     // The same full plug as `mcp-tool-result` and `-error`, with the verb in the hollow:
@@ -34,28 +34,28 @@ export const BATCH_30: Icon[] = [
   },
   {
     slug: "mcp-tool-result", category: "mcp", subcategory: "tool",
-    name: "MCP tool result", description: "What came back",
+    name: "MCP tool result", description: "An MCP tool result — what came back from a tool call, the returned output",
     tags: ["response", "output", "returned"], family: "figure",
     aliases: [], keywords: ["response", "content", "returned", "output", "success"],
     shapes: [...plug(), ...check(SMALL, 15)],
   },
   {
     slug: "mcp-tool-error", category: "mcp", subcategory: "tool",
-    name: "MCP tool error", description: "It failed instead",
+    name: "MCP tool error", description: "An MCP tool error — the tool call failed instead of returning a result",
     tags: ["failure", "failed", "fault"], family: "figure",
     aliases: [], keywords: ["isError", "failure", "exception", "fault", "rejected"],
     shapes: [...plug(), ...off(SMALL, 14.5)],
   },
   {
     slug: "mcp-tool-schema", category: "mcp", subcategory: "tool",
-    name: "MCP tool schema", description: "What arguments it takes",
+    name: "MCP tool schema", description: "An MCP tool schema — the JSON contract that says what arguments a tool takes",
     tags: ["contract", "shape", "json"], family: "page",
     aliases: [], keywords: ["input schema", "json schema", "arguments", "contract", "types"],
     shapes: [machinePage(), poly([[11, 9], [8, 12], [11, 15]]), poly([[13, 9], [16, 12], [13, 15]])],
   },
   {
     slug: "mcp-tool-list", category: "mcp", subcategory: "tool",
-    name: "MCP tool list", description: "Everything this server can do",
+    name: "MCP tool list", description: "MCP tool list — the catalogue of everything this server can do",
     tags: ["catalogue", "available", "index"], family: "window",
     aliases: [], keywords: ["tools/list", "available", "catalog", "capabilities"],
     shapes: [
@@ -65,14 +65,14 @@ export const BATCH_30: Icon[] = [
   },
   {
     slug: "mcp-tool-permission", category: "mcp", subcategory: "tool",
-    name: "MCP tool permission", description: "Whether it is allowed to run",
+    name: "MCP tool permission", description: "MCP tool permission — whether a tool is allowed to run, a consent gate",
     tags: ["allow", "consent", "gate"], family: "lock",
     aliases: [], keywords: ["consent", "allow", "approve tool", "human gate", "trust"],
     shapes: [frame(6, 10, 12, 10, 3, { chamfer: 3, gap: 0 }), arc(12, 10, 4, 180, 360)],
   },
   {
     slug: "mcp-tool-add", category: "mcp", subcategory: "tool",
-    name: "MCP tool add", description: "Offer another capability",
+    name: "MCP tool add", description: "MCP tool add — expose another capability from a server for the model to call",
     tags: ["new", "expose", "register"], family: "window",
     aliases: [], keywords: ["register tool", "expose", "publish", "new capability"],
     shapes: [...plug(), ...add(SMALL, 14.5)],
@@ -82,7 +82,7 @@ export const BATCH_30: Icon[] = [
 
   {
     slug: "mcp-sampling", category: "mcp", subcategory: "sampling",
-    name: "MCP sampling", description: "A server asking the model to think",
+    name: "MCP sampling", description: "MCP sampling — a server asking the model to think, a completion in reverse",
     tags: ["reverse", "completion", "ask"], family: "tower",
     aliases: [], keywords: ["sampling/createMessage", "reverse call", "server asks", "llm"],
     // The arrow points back at the tower rather than away from it. Everywhere else in this
@@ -91,28 +91,28 @@ export const BATCH_30: Icon[] = [
   },
   {
     slug: "mcp-cancel", category: "mcp", subcategory: "transport",
-    name: "MCP cancel", description: "Stop the call that is running",
+    name: "MCP cancel", description: "MCP cancel — stop the call that is currently running before it finishes",
     tags: ["abort", "halt", "stop"], family: "tower",
     aliases: [], keywords: ["cancelled", "abort", "notifications/cancelled", "halt"],
     shapes: [...server(), rect(8.5, 7.5, 7, 7, 2)],
   },
   {
     slug: "mcp-notification", category: "mcp", subcategory: "transport",
-    name: "MCP notification", description: "A message that expects no answer",
+    name: "MCP notification", description: "An MCP notification — a one-way message that expects no answer",
     tags: ["one-way", "emit", "tell"], family: "tower",
     aliases: [], keywords: ["notification", "one-way", "no response", "emit", "push"],
     shapes: [...server(), row(11, 8, 15), poly([[12, 8], [15, 11], [12, 14]])],
   },
   {
     slug: "mcp-manifest", category: "mcp", subcategory: "registry",
-    name: "MCP manifest", description: "What a server declares about itself",
+    name: "MCP manifest", description: "An MCP manifest — what a server declares about itself, its metadata and config",
     tags: ["metadata", "declares", "config"], family: "page",
     aliases: [], keywords: ["server info", "metadata", "declaration", "config", "version"],
     shapes: [machinePage(), row(11, 9, 15), row(15, 9, 13), disc(15, 11, 1)],
   },
   {
     slug: "mcp-roots", category: "mcp", subcategory: "resource",
-    name: "MCP roots", description: "The directories a server may look in",
+    name: "MCP roots", description: "MCP roots — the directories a server is allowed to look in, its boundary",
     tags: ["scope", "boundary", "allowed"], family: "folder",
     aliases: ["mcp-root"], keywords: ["roots", "workspace", "allowed paths", "scope", "sandbox"],
     shapes: [
@@ -122,14 +122,14 @@ export const BATCH_30: Icon[] = [
   },
   {
     slug: "mcp-inspector", category: "mcp", subcategory: "registry",
-    name: "MCP inspector", description: "The tool you debug a server with",
+    name: "MCP inspector", description: "The MCP inspector — the tool you debug and test a server with",
     tags: ["debug", "inspect", "test"], family: "tower",
     aliases: [], keywords: ["inspector", "debug ui", "test harness", "poke", "devtool"],
     shapes: [...server(), arc(12, 10, 3, 292, 248), poly([[14, 12], [17, 15]])],
   },
   {
     slug: "mcp-completion", category: "mcp", subcategory: "prompt",
-    name: "MCP completion", description: "Suggestions for an argument",
+    name: "MCP completion", description: "MCP completion — suggested values for an argument, autocomplete hints",
     tags: ["autocomplete", "hint", "values"], family: "window",
     aliases: [], keywords: ["completion/complete", "autocomplete", "suggest", "enum", "values"],
     shapes: [
@@ -141,7 +141,7 @@ export const BATCH_30: Icon[] = [
 
   {
     slug: "login", category: "security", subcategory: "auth",
-    name: "Log in", description: "Come in",
+    name: "Log in", description: "Log in — come in, sign in with your credentials and arrive at your account",
     tags: ["enter", "sign-in", "arrive"], family: "arrow",
     aliases: ["sign-in"], keywords: ["sign in", "enter", "session start", "authenticate"],
     shapes: [
@@ -151,7 +151,7 @@ export const BATCH_30: Icon[] = [
   },
   {
     slug: "logout", category: "security", subcategory: "auth",
-    name: "Log out", description: "Leave",
+    name: "Log out", description: "Log out — leave, sign out of your account and end the session",
     tags: ["exit", "sign-out", "go"], family: "arrow",
     aliases: ["sign-out"], keywords: ["sign out", "exit", "end session", "leave"],
     shapes: [
@@ -161,7 +161,7 @@ export const BATCH_30: Icon[] = [
   },
   {
     slug: "key-rotation", category: "security", subcategory: "secret",
-    name: "Key rotation", description: "Replace it before it is old",
+    name: "Key rotation", description: "Key rotation — replace a credential before it gets old, renewing on a cycle",
     tags: ["rotate", "renew", "cycle"], family: "orbit",
     aliases: [], keywords: ["rotate", "renew", "expiry", "roll", "credentials"],
     shapes: [
@@ -171,7 +171,7 @@ export const BATCH_30: Icon[] = [
   },
   {
     slug: "mfa", category: "security", subcategory: "auth",
-    name: "Multi-factor", description: "Two proofs, not one",
+    name: "Multi-factor", description: "Multi-factor authentication — two proofs instead of one, a second factor on a device",
     tags: ["2fa", "second", "device"], family: "lock",
     aliases: [], keywords: ["2fa", "two-factor", "otp", "authenticator", "second factor", "totp"],
     shapes: [
@@ -181,7 +181,7 @@ export const BATCH_30: Icon[] = [
   },
   {
     slug: "malware", category: "security", subcategory: "threat",
-    name: "Malware", description: "Software that is against you",
+    name: "Malware", description: "Malware — hostile software that works against you, a virus or a payload",
     tags: ["virus", "hostile", "payload"], family: "page",
     aliases: ["virus"], keywords: ["virus", "trojan", "payload", "infection", "hostile code"],
     // Not a beetle. `debug` is already a beetle, and a beetle on its own says *defect* — the
@@ -194,7 +194,7 @@ export const BATCH_30: Icon[] = [
   },
   {
     slug: "model-poisoning", category: "security", subcategory: "ai-security",
-    name: "Model poisoning", description: "Bad data put in on purpose",
+    name: "Model poisoning", description: "Model poisoning — tainted data slipped into training on purpose",
     tags: ["tainted", "attack", "training"], family: "machine",
     aliases: [], keywords: ["data poisoning", "backdoor", "tainted training", "supply chain"],
     shapes: [
@@ -205,7 +205,7 @@ export const BATCH_30: Icon[] = [
   },
   {
     slug: "llm-firewall", category: "security", subcategory: "ai-security",
-    name: "LLM firewall", description: "What the model is not allowed to say",
+    name: "LLM firewall", description: "An LLM firewall — the guard that decides what a model is not allowed to say",
     tags: ["guard", "filter", "output"], family: "shield",
     aliases: [], keywords: ["output filter", "guardrails", "moderation", "block", "policy"],
     shapes: [shield(), row(9, 8, 16), row(13, 8, 16)],
@@ -215,7 +215,7 @@ export const BATCH_30: Icon[] = [
 
   {
     slug: "model-download", category: "ai", subcategory: "model",
-    name: "Model download", description: "Fetch the weights",
+    name: "Model download", description: "Model download — fetch the weights and pull a model onto this machine",
     tags: ["fetch", "pull", "weights"], family: "machine",
     aliases: [], keywords: ["pull weights", "huggingface", "fetch model", "local"],
     shapes: [
@@ -225,7 +225,7 @@ export const BATCH_30: Icon[] = [
   },
   {
     slug: "model-swap", category: "ai", subcategory: "model",
-    name: "Model swap", description: "Put a different one behind the same call",
+    name: "Model swap", description: "Model swap — put a different model behind the same call without changing the caller",
     tags: ["switch", "replace", "route"], family: "machine",
     aliases: [], keywords: ["switch model", "route", "fallback model", "a/b", "replace"],
     shapes: [
@@ -236,14 +236,14 @@ export const BATCH_30: Icon[] = [
   },
   {
     slug: "model-weights", category: "ai", subcategory: "model",
-    name: "Model weights", description: "The numbers that are the model",
+    name: "Model weights", description: "Model weights — the parameters that are the model, saved as a checkpoint file",
     tags: ["parameters", "checkpoint", "file"], family: "machine",
     aliases: [], keywords: ["parameters", "safetensors", "checkpoint", "gguf", "billions"],
     shapes: [machine(), row(9, 8, 16), row(12, 8, 13), row(15, 8, 16)],
   },
   {
     slug: "instruct-model", category: "ai", subcategory: "model",
-    name: "Instruct model", description: "Tuned to follow what you ask",
+    name: "Instruct model", description: "An instruct model — tuned to follow what you ask, aligned for chat",
     tags: ["chat", "aligned", "tuned"], family: "machine",
     aliases: [], keywords: ["instruction tuned", "rlhf", "chat model", "aligned", "assistant"],
     shapes: [machine(), disc(9, 10, 1), row(10, 12, 17), disc(9, 14, 1), row(14, 12, 17)],

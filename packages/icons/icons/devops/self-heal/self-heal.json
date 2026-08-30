@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "incident",
   "name": "Self-heal",
-  "description": "Cracked at noon, whole by one",
+  "description": "Self-heal — cracked at noon and whole again by one, automatic repair",
   "tags": [
     "repair",
     "auto",

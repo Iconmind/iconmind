@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "Environment",
-  "description": "Development, staging, production",
+  "description": "An environment — development, staging or production, the tier a deploy targets",
   "tags": [
     "stage",
     "tier",

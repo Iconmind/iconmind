@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "safety",
   "name": "Bias",
-  "description": "The scales are not even",
+  "description": "Bias — the scales are not even, a skew in data or outcomes that fairness work corrects",
   "tags": [
     "fairness",
     "skew",

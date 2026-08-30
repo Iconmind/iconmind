@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "memory",
   "name": "Semantic memory",
-  "description": "What things mean, and what they join to",
+  "description": "Semantic memory — what things mean and how facts join to each other",
   "tags": [
     "facts",
     "meaning",

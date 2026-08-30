@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "llm-observability",
   "name": "Annotation UI",
-  "description": "The screen where the labels happen",
+  "description": "An annotation UI — the screen where labels get applied to data",
   "tags": [
     "label",
     "screen",

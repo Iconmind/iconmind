@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Test shard",
-  "description": "The suite, split three ways to finish sooner",
+  "description": "A test shard — the suite split several ways so CI finishes sooner",
   "tags": [
     "parallel",
     "split",

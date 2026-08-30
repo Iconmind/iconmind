@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "Sequence",
-  "description": "This, then that, then the next",
+  "description": "A sequence — this, then that, then the next, steps in a fixed order",
   "tags": [
     "order",
     "series",

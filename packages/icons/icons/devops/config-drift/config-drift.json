@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "infrastructure",
   "name": "Config drift",
-  "description": "Two environments that no longer match",
+  "description": "Config drift — two environments that no longer match because settings diverged",
   "tags": [
     "diverge",
     "mismatch",

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Stop sequence",
-  "description": "The words that end the sentence",
+  "description": "A stop sequence — the words that end the generation when the model produces them",
   "tags": [
     "halt",
     "wall",

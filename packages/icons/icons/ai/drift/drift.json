@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "evaluation",
   "name": "Drift",
-  "description": "The model and the world coming apart",
+  "description": "Drift — a model and the world slowly coming apart as the data it sees changes",
   "tags": [
     "divergence",
     "decay",

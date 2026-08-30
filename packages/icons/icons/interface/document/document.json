@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "file",
   "name": "Document",
-  "description": "One file, with something written in it",
+  "description": "A single document or file with something written in it — a page of text, notes or a report",
   "tags": [
     "file",
     "page",

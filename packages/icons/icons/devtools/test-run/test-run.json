@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Test run",
-  "description": "The suite, going",
+  "description": "A test run — the suite is going, tests in progress with results coming in",
   "tags": [
     "running",
     "suite",

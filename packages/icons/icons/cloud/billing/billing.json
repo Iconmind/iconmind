@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "cost",
   "name": "Billing",
-  "description": "The invoice",
+  "description": "Billing — the invoice, the charges and the account they are billed to",
   "tags": [
     "invoice",
     "charge",

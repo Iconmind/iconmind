@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Forecast spend",
-  "description": "Where the bill is headed",
+  "description": "Forecast spend — where the bill is headed if the trend continues",
   "tags": [
     "projection",
     "trend",

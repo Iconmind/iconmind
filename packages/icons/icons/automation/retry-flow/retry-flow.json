@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "Retry flow",
-  "description": "Failed, waited, went again",
+  "description": "A retry flow — it failed, waited with backoff, and went again",
   "tags": [
     "again",
     "backoff",

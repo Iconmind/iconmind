@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "storage",
   "name": "Storage",
-  "description": "Where it stays when nothing is running",
+  "description": "Storage — where data stays when nothing is running, persistent disk at rest",
   "tags": [
     "disk",
     "persistent",

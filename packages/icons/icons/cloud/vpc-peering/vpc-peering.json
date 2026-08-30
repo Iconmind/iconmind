@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "VPC peering",
-  "description": "Two private networks, one quiet corridor",
+  "description": "VPC peering — two private networks joined by one quiet corridor",
   "tags": [
     "private",
     "link",

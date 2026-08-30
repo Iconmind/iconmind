@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "embedding",
   "name": "Dimension",
-  "description": "How many numbers each vector has",
+  "description": "A dimension — how many numbers each vector has, the width of an embedding",
   "tags": [
     "axes",
     "size",

@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "observability",
   "name": "Error budget",
-  "description": "How much failure you are allowed",
+  "description": "An error budget — how much failure an SLO allows you before you have to stop shipping",
   "tags": [
     "slo",
     "allowance",

@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "agent-core",
   "name": "Agent model",
-  "description": "An agent beside a model core — the model an agent runs on",
+  "description": "An agent beside a model core — the underlying model an agent runs on",
   "tags": [
     "model",
     "backend",

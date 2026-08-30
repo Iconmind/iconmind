@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "token",
   "name": "Token usage",
-  "description": "How many you have spent",
+  "description": "Token usage — how many tokens have been spent, the meter on consumption",
   "tags": [
     "consumption",
     "count",

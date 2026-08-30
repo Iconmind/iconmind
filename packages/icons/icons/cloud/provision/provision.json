@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "compute",
   "name": "Provision",
-  "description": "Make the thing exist",
+  "description": "Provision — make the resource exist, spin it up and allocate it",
   "tags": [
     "create",
     "spin-up",

@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "code",
   "name": "GC cycle",
-  "description": "The collector making its rounds",
+  "description": "A GC cycle — the garbage collector making its rounds and sweeping memory",
   "tags": [
     "memory",
     "sweep",

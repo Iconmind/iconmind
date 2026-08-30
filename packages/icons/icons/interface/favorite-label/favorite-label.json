@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "identity",
   "name": "Favourite label",
-  "description": "A heart beside a label — favourites grouped under a name",
+  "description": "A heart beside a label — favourites grouped together under a name",
   "tags": [
     "favourite",
     "label",

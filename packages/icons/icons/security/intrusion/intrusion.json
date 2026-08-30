@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "threat",
   "name": "Intrusion",
-  "description": "Something got through",
+  "description": "An intrusion — something unauthorised got through, a breach or an attack",
   "tags": [
     "breach",
     "attack",

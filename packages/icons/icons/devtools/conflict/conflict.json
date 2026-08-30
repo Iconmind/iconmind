@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "version-control",
   "name": "Conflict",
-  "description": "Two changes that cannot both apply",
+  "description": "A merge conflict — two changes that cannot both apply to the same lines",
   "tags": [
     "clash",
     "collision",

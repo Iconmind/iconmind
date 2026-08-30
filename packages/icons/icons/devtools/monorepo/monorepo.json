@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "version-control",
   "name": "Monorepo",
-  "description": "Every project, one root",
+  "description": "A monorepo — every project in one repository under a single root",
   "tags": [
     "single",
     "workspace",

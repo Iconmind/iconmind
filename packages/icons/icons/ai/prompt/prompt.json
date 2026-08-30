@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "prompt",
   "name": "Prompt",
-  "description": "What you write for the model to answer",
+  "description": "A prompt — the instruction, question or input you write for a language model to answer",
   "tags": [
     "input",
     "instruction",

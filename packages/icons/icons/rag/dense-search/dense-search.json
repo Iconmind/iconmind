@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "retrieval",
   "name": "Dense search",
-  "description": "Search by vector, not by word",
+  "description": "Dense search — retrieval by embedding vector rather than by matching words",
   "tags": [
     "vector",
     "embedding",

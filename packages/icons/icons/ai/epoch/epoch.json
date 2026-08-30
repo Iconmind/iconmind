@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Epoch",
-  "description": "One pass over all the data",
+  "description": "An epoch — one full pass over all the training data during a training run",
   "tags": [
     "pass",
     "cycle",

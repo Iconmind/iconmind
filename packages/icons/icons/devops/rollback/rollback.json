@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "release",
   "name": "Rollback",
-  "description": "Put the previous version back",
+  "description": "Rollback — put the previous version back after a bad release",
   "tags": [
     "revert",
     "undo",

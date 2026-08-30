@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "debug",
   "name": "Breakpoint",
-  "description": "Stop here",
+  "description": "A breakpoint — stop here, pause the program so you can inspect it",
   "tags": [
     "pause",
     "debug",

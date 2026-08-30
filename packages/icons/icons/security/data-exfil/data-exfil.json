@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Data exfiltration",
-  "description": "It left through the wall",
+  "description": "Data exfiltration — data that left through the wall, a leak or a breach",
   "tags": [
     "leak",
     "escape",

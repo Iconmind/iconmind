@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Triage agent",
-  "description": "Sorts the pile before anyone opens it",
+  "description": "A triage agent — sorts the pile by priority before anyone opens it",
   "tags": [
     "sort",
     "funnel",

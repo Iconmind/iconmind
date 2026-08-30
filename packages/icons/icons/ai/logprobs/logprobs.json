@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Logprobs",
-  "description": "How sure it was about each token",
+  "description": "Logprobs — how sure the model was about each token, log probabilities per token",
   "tags": [
     "probability",
     "confidence",

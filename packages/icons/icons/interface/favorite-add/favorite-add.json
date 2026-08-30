@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Add favorite",
-  "description": "Kept where the heart keeps things",
+  "description": "Add favourite — kept where the heart keeps things, saved and liked",
   "tags": [
     "heart",
     "save",

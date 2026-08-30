@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Remove checkpoint",
-  "description": "A flag with a minus beside it — delete a checkpoint",
+  "description": "A flag with a minus beside it — delete a checkpoint you no longer need",
   "tags": [
     "checkpoint",
     "remove",

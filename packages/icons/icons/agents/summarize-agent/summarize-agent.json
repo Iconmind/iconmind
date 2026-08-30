@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Summarise agent",
-  "description": "Long in, short out",
+  "description": "A summarise agent — long text in, a short digest out, the gist kept",
   "tags": [
     "shorten",
     "digest",

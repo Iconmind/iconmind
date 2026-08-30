@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Spend alert",
-  "description": "The bill crossed the line you drew",
+  "description": "A spend alert — the bill crossed the line you drew, a budget warning",
   "tags": [
     "budget",
     "warning",

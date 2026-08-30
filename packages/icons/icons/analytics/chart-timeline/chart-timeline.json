@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "chart",
   "name": "Timeline chart",
-  "description": "Events placed above and below one line — a timeline chart",
+  "description": "Events placed above and below one line — a timeline chart of what happened when",
   "tags": [
     "timeline",
     "events",

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "evaluation",
   "name": "Benchmark",
-  "description": "How this model scores against the others",
+  "description": "A benchmark — how a model scores against others on a shared test or leaderboard",
   "tags": [
     "score",
     "compare",

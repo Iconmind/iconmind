@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Deepfake detect",
-  "description": "The face that never had a body",
+  "description": "Deepfake detection — spotting the face that never had a body, a synthetic image caught",
   "tags": [
     "face",
     "fake",

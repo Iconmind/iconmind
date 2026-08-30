@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "catalog",
   "name": "Table",
-  "description": "Rows and columns, with names at the top",
+  "description": "A table — rows and columns with names across the top, data in a grid",
   "tags": [
     "columns",
     "rows",

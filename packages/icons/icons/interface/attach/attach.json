@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "file",
   "name": "Attach",
-  "description": "Clipped to the message",
+  "description": "Attach — clip a file to the message so it travels along with it",
   "tags": [
     "clip",
     "add-file",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Recent items",
-  "description": "What you touched last, remembered",
+  "description": "Recent items — what you touched last, remembered in a list for quick return",
   "tags": [
     "history",
     "list",

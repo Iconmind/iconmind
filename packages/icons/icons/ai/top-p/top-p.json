@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Top-p",
-  "description": "Enough choices to cover the odds",
+  "description": "Top-p — nucleus sampling that keeps just enough choices to cover the odds",
   "tags": [
     "nucleus",
     "sampling",

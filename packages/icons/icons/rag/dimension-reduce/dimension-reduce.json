@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "vector",
   "name": "Dimension reduce",
-  "description": "The same shape, in fewer numbers",
+  "description": "Dimensionality reduction — the same shape in fewer numbers, projected smaller",
   "tags": [
     "compress",
     "smaller",

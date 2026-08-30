@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "multimodal",
   "name": "Multimodal",
-  "description": "A model that handles more than text",
+  "description": "A multimodal model — one that handles images, audio and text together, not text alone",
   "tags": [
     "image",
     "audio",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Pin tab",
-  "description": "This one stays put",
+  "description": "Pin tab — this tab stays put at the front of the bar and cannot be lost",
   "tags": [
     "browser",
     "keep",

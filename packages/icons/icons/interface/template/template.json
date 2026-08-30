@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Template",
-  "description": "The shape, with the words left out",
+  "description": "A template — the shape of a document with the words left out, a form to fill in",
   "tags": [
     "blank",
     "boilerplate",

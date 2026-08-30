@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "code",
   "name": "Type error",
-  "description": "The shape you promised was not the shape you sent",
+  "description": "A type error — the shape you promised was not the shape you sent",
   "tags": [
     "types",
     "mismatch",

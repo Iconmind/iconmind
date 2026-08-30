@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "compute",
   "name": "Cloud add",
-  "description": "Add a cloud account or resource",
+  "description": "Cloud add — connect a new cloud account or provision a new cloud resource",
   "tags": [
     "new",
     "connect",

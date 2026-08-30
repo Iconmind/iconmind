@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Deduplicate",
-  "description": "Two of the same become one",
+  "description": "Deduplicate — two of the same become one, distinct and unique rows",
   "tags": [
     "unique",
     "merge",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Ungroup",
-  "description": "Let them be separate again",
+  "description": "Ungroup — let grouped objects be separate again so each can move on its own",
   "tags": [
     "split",
     "apart",

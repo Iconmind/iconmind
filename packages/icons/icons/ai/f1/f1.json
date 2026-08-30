@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "evaluation",
   "name": "F1 score",
-  "description": "Precision and recall, forced to agree",
+  "description": "F1 score — precision and recall forced to agree in one harmonic number",
   "tags": [
     "harmonic",
     "balance",

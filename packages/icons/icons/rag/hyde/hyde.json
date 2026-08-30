@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "retrieval",
   "name": "HyDE",
-  "description": "Imagine the answer; search with the ghost",
+  "description": "HyDE — imagine a hypothetical answer and search with its embedding",
   "tags": [
     "hypothetical",
     "embed",

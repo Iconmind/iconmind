@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Inference",
-  "description": "Running a model to produce output",
+  "description": "Inference — running a trained model to produce a prediction, a completion or a generated output",
   "tags": [
     "run",
     "predict",

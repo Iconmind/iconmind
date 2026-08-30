@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "multi-agent",
   "name": "Agent swarm",
-  "description": "Many of them, working loosely",
+  "description": "An agent swarm — many agents working loosely together as a distributed crowd",
   "tags": [
     "many",
     "crowd",

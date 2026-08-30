@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "code",
   "name": "Microtask",
-  "description": "The little jobs that cut in line",
+  "description": "A microtask — the little jobs that cut in line ahead of the next event-loop turn",
   "tags": [
     "queue",
     "tiny",

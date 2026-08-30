@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "llm-observability",
   "name": "Regression",
-  "description": "Better, better, worse",
+  "description": "A regression — better, better, then worse, a dip that raises an alert",
   "tags": [
     "dip",
     "worse",

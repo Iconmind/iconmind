@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "embedding",
   "name": "Vector",
-  "description": "A direction and a magnitude",
+  "description": "A vector — an arrow with a direction and a magnitude, the basic unit of embeddings and linear algebra",
   "tags": [
     "arrow",
     "direction",

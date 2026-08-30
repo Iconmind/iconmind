@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "transport",
   "name": "MCP server-sent events",
-  "description": "The server talking without being asked",
+  "description": "MCP server-sent events — the server pushing a stream of events without being asked",
   "tags": [
     "stream",
     "push",

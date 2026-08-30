@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Adapter",
-  "description": "A small trained piece bolted to a big model",
+  "description": "An adapter — a small trained piece like LoRA bolted on to a big frozen model",
   "tags": [
     "lora",
     "attach",

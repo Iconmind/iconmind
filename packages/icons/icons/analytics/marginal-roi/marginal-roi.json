@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Marginal ROI",
-  "description": "Each extra coin buys a little less",
+  "description": "Marginal ROI — each extra coin spent buys a little less than the one before",
   "tags": [
     "diminishing",
     "return",

@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "chunking",
   "name": "Document split",
-  "description": "One document, cut into pieces",
+  "description": "Document split — one document cut into pieces, the first step of chunking for retrieval",
   "tags": [
     "divide",
     "separate",

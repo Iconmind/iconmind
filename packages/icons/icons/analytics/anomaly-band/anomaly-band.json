@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "chart",
   "name": "Anomaly band",
-  "description": "The corridor, and the dot outside it",
+  "description": "An anomaly band — the expected corridor, and the point that escaped it",
   "tags": [
     "outlier",
     "bounds",

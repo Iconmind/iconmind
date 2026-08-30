@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "communication",
   "name": "Agent message",
-  "description": "Something an agent said",
+  "description": "An agent message — something an agent said, its reply in a bubble",
   "tags": [
     "output",
     "reply",

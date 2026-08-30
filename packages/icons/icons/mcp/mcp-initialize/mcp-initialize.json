@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "transport",
   "name": "MCP initialize",
-  "description": "The first exchange, before anything else",
+  "description": "MCP initialize — the first handshake between client and server before anything else",
   "tags": [
     "start",
     "handshake",

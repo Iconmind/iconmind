@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "terminal",
   "name": "Shell",
-  "description": "Where you talk to the machine",
+  "description": "A shell — where you talk to the machine, a bash prompt or a terminal",
   "tags": [
     "terminal",
     "bash",

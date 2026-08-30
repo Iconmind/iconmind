@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "storage",
   "name": "Data lake",
-  "description": "Everything, raw, in one place",
+  "description": "A data lake — everything kept raw and unstructured in one place until it is needed",
   "tags": [
     "raw",
     "unstructured",

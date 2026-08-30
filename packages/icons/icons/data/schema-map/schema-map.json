@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "transform",
   "name": "Schema map",
-  "description": "This field over there is that field over here",
+  "description": "A schema map — this field over there is that field over here, a translation between shapes",
   "tags": [
     "mapping",
     "fields",

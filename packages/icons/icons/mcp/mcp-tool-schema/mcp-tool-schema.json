@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "tool",
   "name": "MCP tool schema",
-  "description": "What arguments it takes",
+  "description": "An MCP tool schema — the JSON contract that says what arguments a tool takes",
   "tags": [
     "contract",
     "shape",

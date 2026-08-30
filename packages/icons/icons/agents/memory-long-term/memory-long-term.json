@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "memory",
   "name": "Long-term memory",
-  "description": "What the agent keeps between runs",
+  "description": "Long-term memory — what an agent keeps between runs and can recall later",
   "tags": [
     "persistent",
     "stored",

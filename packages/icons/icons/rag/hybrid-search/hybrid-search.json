@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "retrieval",
   "name": "Hybrid search",
-  "description": "Words and meaning together",
+  "description": "Hybrid search — keywords and meaning combined, lexical and vector results fused",
   "tags": [
     "combined",
     "fusion",

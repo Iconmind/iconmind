@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Sandbagging",
-  "description": "Stronger than it lets on",
+  "description": "Sandbagging — a model stronger than it lets on, hiding capability",
   "tags": [
     "hide",
     "capability",

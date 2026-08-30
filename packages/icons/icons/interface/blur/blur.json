@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "Blur",
-  "description": "Softened until it is not readable",
+  "description": "Blur — softened until it is no longer readable, hidden or obscured",
   "tags": [
     "soften",
     "hide",

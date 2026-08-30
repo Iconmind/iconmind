@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "streaming",
   "name": "Event stream",
-  "description": "Events arriving one after another",
+  "description": "An event stream — events arriving one after another in an append-only log",
   "tags": [
     "events",
     "log",

@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "cost",
   "name": "Usage quota",
-  "description": "This much used, that much allowed",
+  "description": "A usage quota — this much used against that much allowed, with what remains",
   "tags": [
     "meter",
     "cap",

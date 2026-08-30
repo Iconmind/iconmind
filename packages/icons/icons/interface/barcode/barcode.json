@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "Barcode",
-  "description": "The old kind of code",
+  "description": "A barcode — the older striped code that identifies a product when scanned",
   "tags": [
     "scan",
     "stripes",

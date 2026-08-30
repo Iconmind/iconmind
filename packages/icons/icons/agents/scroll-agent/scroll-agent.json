@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Scroll agent",
-  "description": "It reads the way people read — down",
+  "description": "A scroll agent — an agent that reads the way people read, scrolling down the page",
   "tags": [
     "browse",
     "scroll",

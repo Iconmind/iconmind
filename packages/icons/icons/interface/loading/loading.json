@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "state",
   "name": "Loading",
-  "description": "Working on it",
+  "description": "Loading — a spinner that shows the app is working on it and the result is on its way",
   "tags": [
     "spinner",
     "progress",

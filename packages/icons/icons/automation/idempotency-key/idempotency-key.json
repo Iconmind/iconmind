@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "integration",
   "name": "Idempotency key",
-  "description": "Send it twice; it happens once",
+  "description": "An idempotency key — send the same request twice and it happens only once",
   "tags": [
     "safe",
     "repeat",

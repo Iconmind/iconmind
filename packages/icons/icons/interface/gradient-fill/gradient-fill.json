@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Gradient fill",
-  "description": "Dense to sparse, left to right",
+  "description": "A gradient fill — dense to sparse, left to right, a fade across a shape",
   "tags": [
     "fade",
     "fill",

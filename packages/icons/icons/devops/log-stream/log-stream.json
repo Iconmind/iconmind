@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "observability",
   "name": "Log stream",
-  "description": "Lines arriving as they happen",
+  "description": "A log stream — lines arriving live as they happen, tailed and followed",
   "tags": [
     "tail",
     "live",

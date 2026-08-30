@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "segment",
   "name": "Filtered list",
-  "description": "A funnel beside a list — the rows that passed the filter",
+  "description": "A funnel beside a list — the rows that passed through the filter",
   "tags": [
     "filter",
     "list",

@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "reflection",
   "name": "Reflect",
-  "description": "Looking at what it just did",
+  "description": "Reflect — look back at what was just done and review it before going on",
   "tags": [
     "review",
     "own-work",

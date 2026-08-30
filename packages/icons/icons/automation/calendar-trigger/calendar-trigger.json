@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "schedule",
   "name": "Calendar trigger",
-  "description": "It runs on a date",
+  "description": "A calendar trigger — a flow that runs on a date or a scheduled day",
   "tags": [
     "date",
     "scheduled",

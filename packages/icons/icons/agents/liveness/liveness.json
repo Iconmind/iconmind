@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "lifecycle",
   "name": "Liveness",
-  "description": "Alive, and proving it on schedule",
+  "description": "Liveness — alive, and proving it on schedule with a heartbeat",
   "tags": [
     "heartbeat",
     "alive",

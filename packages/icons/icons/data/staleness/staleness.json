@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Staleness",
-  "description": "How long since this was true",
+  "description": "Staleness — how long since this was last true, the age of outdated data",
   "tags": [
     "old",
     "outdated",

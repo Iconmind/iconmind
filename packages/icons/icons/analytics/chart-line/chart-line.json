@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "chart",
   "name": "Line chart",
-  "description": "How something moved over time",
+  "description": "A line chart — see how a metric moved over time as a continuous series",
   "tags": [
     "trend",
     "series",

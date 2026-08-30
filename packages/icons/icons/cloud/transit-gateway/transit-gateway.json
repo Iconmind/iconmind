@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "Transit gateway",
-  "description": "Every network's traffic, through one hub",
+  "description": "A transit gateway — every network's traffic routed through one hub",
   "tags": [
     "hub",
     "spokes",

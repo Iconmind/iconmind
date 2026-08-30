@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Colour sample",
-  "description": "That exact shade, lifted off the page",
+  "description": "Colour sample — that exact shade lifted off the page with an eyedropper",
   "tags": [
     "eyedropper",
     "pick",

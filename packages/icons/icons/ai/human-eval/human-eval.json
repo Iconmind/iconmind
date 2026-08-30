@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "evaluation",
   "name": "Human evaluation",
-  "description": "A person scoring the answers",
+  "description": "Human evaluation — a person rating and scoring the model's answers",
   "tags": [
     "rater",
     "review",

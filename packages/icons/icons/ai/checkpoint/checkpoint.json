@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Checkpoint",
-  "description": "The model, saved as it was at this moment",
+  "description": "A checkpoint — a model's weights saved exactly as they were at this moment in training",
   "tags": [
     "save",
     "snapshot",

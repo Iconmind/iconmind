@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "state",
   "name": "Power",
-  "description": "On, or off",
+  "description": "Power — turn it on or off, the switch that starts and stops a system",
   "tags": [
     "on",
     "off",

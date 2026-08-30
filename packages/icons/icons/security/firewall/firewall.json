@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "policy",
   "name": "Firewall",
-  "description": "What traffic is allowed through",
+  "description": "A firewall — the wall that decides which network traffic is allowed through",
   "tags": [
     "wall",
     "block",

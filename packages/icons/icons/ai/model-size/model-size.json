@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Model size",
-  "description": "How big the thing actually is",
+  "description": "Model size — how big the model actually is in parameters and footprint",
   "tags": [
     "parameters",
     "measure",

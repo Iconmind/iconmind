@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "communication",
   "name": "Agent delegate",
-  "description": "Give the work to a smaller agent",
+  "description": "Agent delegate — hand a piece of work down to a smaller sub-agent",
   "tags": [
     "assign",
     "hand-down",

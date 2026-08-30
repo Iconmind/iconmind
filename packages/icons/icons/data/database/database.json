@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "storage",
   "name": "Database",
-  "description": "Where records are kept and queried",
+  "description": "A database where records are stored, indexed and queried — the system of record behind an app",
   "tags": [
     "storage",
     "records",

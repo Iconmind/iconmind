@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "storage",
   "name": "Backup tier",
-  "description": "A copy, one shelf further from the fire",
+  "description": "A backup tier — a copy kept one shelf further from the fire, on cheaper storage",
   "tags": [
     "copy",
     "down",

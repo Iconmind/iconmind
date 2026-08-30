@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "evaluation",
   "name": "Ablation",
-  "description": "Take a part out and see what breaks",
+  "description": "An ablation — take one part of a system out and see what breaks",
   "tags": [
     "remove",
     "isolate",

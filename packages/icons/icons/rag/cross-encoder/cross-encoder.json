@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "ranking",
   "name": "Cross-encoder",
-  "description": "Judges the pair together, not apart",
+  "description": "A cross-encoder — a reranker that judges query and document together rather than apart",
   "tags": [
     "pairwise",
     "rerank",

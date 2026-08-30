@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "package",
   "name": "Symlink",
-  "description": "A file that is really a pointer",
+  "description": "A symlink — a file that is really a pointer to another path on disk",
   "tags": [
     "link",
     "alias",

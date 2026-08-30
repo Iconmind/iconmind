@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "Warm standby",
-  "description": "Half awake, so the wake-up is short",
+  "description": "Warm standby — half awake so the wake-up is short when failover comes",
   "tags": [
     "half",
     "ready",

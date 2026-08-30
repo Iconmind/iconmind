@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Membership inference",
-  "description": "It remembers who it was trained on",
+  "description": "Membership inference — an attack that tells whether a record was in the training set",
   "tags": [
     "privacy",
     "identify",

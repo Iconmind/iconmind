@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "communication",
   "name": "Agent handoff",
-  "description": "One agent passing the work to another",
+  "description": "An agent handoff — one agent passing its work and context on to another",
   "tags": [
     "transfer",
     "delegate",

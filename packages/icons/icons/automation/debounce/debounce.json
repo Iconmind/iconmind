@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "trigger",
   "name": "Debounce",
-  "description": "Many firings collapsed into one",
+  "description": "Debounce — many rapid firings collapsed into one once things settle",
   "tags": [
     "throttle",
     "collapse",

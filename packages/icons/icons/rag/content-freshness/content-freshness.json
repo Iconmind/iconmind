@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "knowledge",
   "name": "Content freshness",
-  "description": "Is the knowledge still true?",
+  "description": "Content freshness — is the knowledge still true, current and updated?",
   "tags": [
     "current",
     "updated",

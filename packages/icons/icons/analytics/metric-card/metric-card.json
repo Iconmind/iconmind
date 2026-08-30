@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "dashboard",
   "name": "Metric card",
-  "description": "One number, framed",
+  "description": "A metric card — one number framed on a dashboard tile with its trend",
   "tags": [
     "tile",
     "kpi",

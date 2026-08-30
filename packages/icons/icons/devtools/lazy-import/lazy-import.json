@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "package",
   "name": "Lazy import",
-  "description": "Fetched only when somebody finally asks",
+  "description": "A lazy import — a module fetched only when somebody finally asks for it",
   "tags": [
     "defer",
     "dynamic",

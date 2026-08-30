@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Layer down",
-  "description": "Send it toward the paper",
+  "description": "Layer down — send an object toward the paper, lowered in the stacking order",
   "tags": [
     "stack",
     "lower",

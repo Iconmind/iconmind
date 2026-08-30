@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Quantization",
-  "description": "Fewer bits per weight, on purpose",
+  "description": "Quantization — using fewer bits per weight on purpose so a model runs smaller and faster",
   "tags": [
     "precision",
     "compress",

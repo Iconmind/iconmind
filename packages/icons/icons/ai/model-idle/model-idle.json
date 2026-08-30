@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Model idle",
-  "description": "A model core beside a Z — a model loaded but doing nothing",
+  "description": "A model core beside a Z — a model loaded into memory but doing nothing right now",
   "tags": [
     "idle",
     "waiting",

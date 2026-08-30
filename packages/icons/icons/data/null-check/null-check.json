@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Null check",
-  "description": "Is anything missing?",
+  "description": "A null check — is anything missing, empty or blank in this record?",
   "tags": [
     "empty",
     "missing",

@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "compute",
   "name": "Cloud off",
-  "description": "Disconnected, or working offline",
+  "description": "Cloud off — disconnected from the cloud, working offline or locally",
   "tags": [
     "offline",
     "disconnected",

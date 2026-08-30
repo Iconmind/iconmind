@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "ranking",
   "name": "Ranking",
-  "description": "Best first, worst last",
+  "description": "Ranking — best first and worst last, results put in order of relevance",
   "tags": [
     "order",
     "sorted",

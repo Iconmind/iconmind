@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Policy label",
-  "description": "A label beside a shield — a tag that carries a policy",
+  "description": "A label beside a shield — a tag that carries a security policy with it",
   "tags": [
     "policy",
     "label",

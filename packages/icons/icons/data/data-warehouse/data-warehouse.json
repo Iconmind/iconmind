@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "storage",
   "name": "Data warehouse",
-  "description": "Everything, kept for asking questions of",
+  "description": "A data warehouse — everything kept in one central store for analytical queries",
   "tags": [
     "store",
     "olap",

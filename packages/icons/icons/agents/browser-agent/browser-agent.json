@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "tool-use",
   "name": "Browser agent",
-  "description": "An agent living inside the browser",
+  "description": "A browser agent — an agent living inside the browser, navigating and automating the web",
   "tags": [
     "web",
     "navigate",

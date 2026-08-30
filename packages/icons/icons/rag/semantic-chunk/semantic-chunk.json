@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "chunking",
   "name": "Semantic chunk",
-  "description": "Cut where the meaning changes, not where the page ends",
+  "description": "A semantic chunk — cut where the meaning changes, not where the page ends",
   "tags": [
     "boundary",
     "meaning",

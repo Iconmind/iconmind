@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Move",
-  "description": "Drag it anywhere",
+  "description": "Move — drag something anywhere, pan a canvas or reposition an object",
   "tags": [
     "drag",
     "pan",

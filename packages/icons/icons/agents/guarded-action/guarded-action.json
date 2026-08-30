@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Guarded action",
-  "description": "It acts — inside the shield",
+  "description": "A guarded action — the agent acts, but only inside the shield of its guardrails",
   "tags": [
     "safe",
     "run",

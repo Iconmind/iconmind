@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "compliance",
   "name": "PII redaction",
-  "description": "The part that had to be covered",
+  "description": "PII redaction — the personal details covered over so privacy is kept",
   "tags": [
     "masked",
     "blacked-out",

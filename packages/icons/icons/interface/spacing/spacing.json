@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Spacing",
-  "description": "The distance between things",
+  "description": "Spacing — the distance between things, gaps and margins in a layout",
   "tags": [
     "gap",
     "margin",

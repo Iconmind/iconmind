@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "Workflow fail",
-  "description": "It broke partway",
+  "description": "Workflow fail — the flow broke partway, an error turned it red",
   "tags": [
     "error",
     "broken",

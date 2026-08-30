@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "condition",
   "name": "Timeout branch",
-  "description": "Where it goes when it takes too long",
+  "description": "A timeout branch — where a flow goes when a step takes too long",
   "tags": [
     "deadline",
     "branch",

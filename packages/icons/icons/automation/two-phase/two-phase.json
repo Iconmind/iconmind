@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "Two-phase",
-  "description": "Everyone says ready before anyone says go",
+  "description": "Two-phase commit — everyone says ready before anyone says go",
   "tags": [
     "commit",
     "both",

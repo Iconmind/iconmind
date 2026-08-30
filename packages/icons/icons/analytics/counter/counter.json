@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Counter",
-  "description": "A number that only goes up",
+  "description": "A counter — a number that only ever goes up, a running tally",
   "tags": [
     "tally",
     "count",

@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "chart",
   "name": "Scatter chart",
-  "description": "Where the points fall",
+  "description": "A scatter chart — where the individual points fall, and whether two variables correlate",
   "tags": [
     "points",
     "correlation",

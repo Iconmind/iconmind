@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "Caption",
-  "description": "Words over the picture",
+  "description": "A caption — words placed over or under a picture, a subtitle or a label",
   "tags": [
     "subtitle",
     "text",

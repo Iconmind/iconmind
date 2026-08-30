@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "debug",
   "name": "Profiler",
-  "description": "Where the time actually went",
+  "description": "A profiler — shows where the time actually went, the hot paths of a program",
   "tags": [
     "flame",
     "timing",

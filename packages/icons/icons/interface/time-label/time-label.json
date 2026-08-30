@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "time",
   "name": "Time label",
-  "description": "A clock beside a label — a moment given a name",
+  "description": "A clock beside a label — a moment in time given a name of its own",
   "tags": [
     "time",
     "label",

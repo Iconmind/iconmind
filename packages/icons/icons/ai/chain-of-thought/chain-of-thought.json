@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "prompt",
   "name": "Chain of thought",
-  "description": "Reasoning worked through one step at a time",
+  "description": "Chain-of-thought reasoning — a model working through a problem one visible step at a time",
   "tags": [
     "reasoning",
     "steps",

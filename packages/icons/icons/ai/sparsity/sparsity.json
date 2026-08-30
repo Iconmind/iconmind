@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Sparsity",
-  "description": "Mostly zeros, on purpose",
+  "description": "Sparsity — a matrix that is mostly zeros, on purpose, so it computes faster",
   "tags": [
     "zeros",
     "empty",

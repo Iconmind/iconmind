@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "memory",
   "name": "Episodic memory",
-  "description": "What happened, in order",
+  "description": "Episodic memory — what happened, in order, an agent's record of events",
   "tags": [
     "events",
     "history",

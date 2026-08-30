@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "file",
   "name": "Document add",
-  "description": "Start a new one",
+  "description": "Document add — start a new file or page from scratch, a blank document",
   "tags": [
     "new",
     "create",

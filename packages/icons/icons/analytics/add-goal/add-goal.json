@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Add goal",
-  "description": "A target with a plus beside it — set a new goal",
+  "description": "A target with a plus beside it — set a new goal or objective to track",
   "tags": [
     "goal",
     "add",

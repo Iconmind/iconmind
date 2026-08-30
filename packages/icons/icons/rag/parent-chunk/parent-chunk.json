@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "chunking",
   "name": "Parent chunk",
-  "description": "The big piece the small ones came from",
+  "description": "A parent chunk — the big piece of context the small retrieved chunks came from",
   "tags": [
     "context",
     "container",

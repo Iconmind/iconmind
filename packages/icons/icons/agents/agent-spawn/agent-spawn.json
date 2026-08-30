@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "multi-agent",
   "name": "Agent spawn",
-  "description": "One agent starts another",
+  "description": "Agent spawn — one agent starts another at runtime, a child of the first",
   "tags": [
     "create",
     "child",

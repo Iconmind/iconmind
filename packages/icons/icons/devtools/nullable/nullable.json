@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "code",
   "name": "Nullable",
-  "description": "There might be nothing in this box",
+  "description": "Nullable — there might be nothing in this box, an optional value",
   "tags": [
     "maybe",
     "null",

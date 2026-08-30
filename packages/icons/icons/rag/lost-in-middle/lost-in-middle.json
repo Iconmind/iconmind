@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "grounding",
   "name": "Lost in the middle",
-  "description": "The context it skims past",
+  "description": "Lost in the middle — the context a model skims past when it sits between the ends",
   "tags": [
     "attention",
     "middle",

@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "chart",
   "name": "Waterfall chart",
-  "description": "How it got from there to here",
+  "description": "A waterfall chart — how a total got from there to here, step by step",
   "tags": [
     "steps",
     "bridge",

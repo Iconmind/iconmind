@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "debug",
   "name": "Debug",
-  "description": "Find out what it is actually doing",
+  "description": "Debug — inspect what the code is actually doing with breakpoints, logs and a bug to chase",
   "tags": [
     "bug",
     "inspect",

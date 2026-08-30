@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "tool",
   "name": "MCP tool error",
-  "description": "It failed instead",
+  "description": "An MCP tool error — the tool call failed instead of returning a result",
   "tags": [
     "failure",
     "failed",

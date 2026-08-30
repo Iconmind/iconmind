@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Stuck agent",
-  "description": "Still trying; not moving",
+  "description": "A stuck agent — still trying but not moving, stalled against a wall",
   "tags": [
     "blocked",
     "wall",

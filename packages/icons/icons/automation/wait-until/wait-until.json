@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "schedule",
   "name": "Wait until",
-  "description": "Held here till the clock says go",
+  "description": "Wait until — held here till the clock says go, then the flow continues",
   "tags": [
     "pause",
     "then",

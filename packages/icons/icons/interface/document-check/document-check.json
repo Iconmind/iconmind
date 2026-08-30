@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "file",
   "name": "Document check",
-  "description": "This one has been dealt with",
+  "description": "Document check — this file has been dealt with, approved or signed off",
   "tags": [
     "approved",
     "signed",

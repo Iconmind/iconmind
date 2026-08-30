@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "tool-use",
   "name": "Agent image",
-  "description": "An agent beside a picture — an agent that looks at images",
+  "description": "An agent beside a picture — a vision agent that looks at and understands images",
   "tags": [
     "image",
     "vision",

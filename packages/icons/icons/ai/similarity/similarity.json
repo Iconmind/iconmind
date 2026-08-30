@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "embedding",
   "name": "Similarity",
-  "description": "How close two meanings are",
+  "description": "Similarity — how close two meanings are, measured as the distance between embeddings",
   "tags": [
     "overlap",
     "distance",

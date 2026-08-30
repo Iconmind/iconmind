@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "Saga",
-  "description": "Every step knows how to take itself back",
+  "description": "A saga — a chain of steps where every step knows how to undo itself",
   "tags": [
     "compensate",
     "undo",

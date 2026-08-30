@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "version-control",
   "name": "Version control",
-  "description": "Every change, kept",
+  "description": "Version control — every change kept as history, git commits you can go back to",
   "tags": [
     "git",
     "history",

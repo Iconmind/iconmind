@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "resource",
   "name": "MCP resource subscribe",
-  "description": "Tell me when this changes",
+  "description": "MCP resource subscribe — tell me when this resource changes so I can reload it",
   "tags": [
     "watch",
     "notify",

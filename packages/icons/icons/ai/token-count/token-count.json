@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "token",
   "name": "Token count",
-  "description": "How many pieces the text became",
+  "description": "Token count — how many tokens a piece of text became, its length in units",
   "tags": [
     "length",
     "usage",

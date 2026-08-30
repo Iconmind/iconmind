@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Benchmark",
-  "description": "How fast, measured fairly",
+  "description": "A code benchmark — how fast it runs, measured fairly and compared",
   "tags": [
     "perf",
     "timing",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "time",
   "name": "Alarm",
-  "description": "It will go off",
+  "description": "An alarm — it will go off at a set time to wake you or remind you",
   "tags": [
     "wake",
     "reminder",

@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "North star",
-  "description": "The one number everything else serves",
+  "description": "A north star metric — the one number everything else in the product serves",
   "tags": [
     "guiding",
     "primary",

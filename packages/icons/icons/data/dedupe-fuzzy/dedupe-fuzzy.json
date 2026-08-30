@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Fuzzy dedupe",
-  "description": "Nearly the same is the same",
+  "description": "Fuzzy dedupe — nearly the same is treated as the same and merged",
   "tags": [
     "merge",
     "near",

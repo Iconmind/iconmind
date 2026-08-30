@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "package",
   "name": "Lockfile",
-  "description": "The exact versions, pinned",
+  "description": "A lockfile — the exact versions of every dependency, pinned and resolved",
   "tags": [
     "pinned",
     "exact",

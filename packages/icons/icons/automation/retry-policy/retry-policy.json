@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "workflow",
   "name": "Retry policy",
-  "description": "How many times, and how far apart",
+  "description": "A retry policy — how many attempts, and how far apart, with backoff",
   "tags": [
     "backoff",
     "attempts",

@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "region",
   "name": "Region",
-  "description": "Which part of the world it runs in",
+  "description": "A region — which part of the world a service runs in, a zone or a geography",
   "tags": [
     "zone",
     "location",

@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "lifecycle",
   "name": "Lifecycle",
-  "description": "Born, works, rests, gone",
+  "description": "A lifecycle — born, works, rests, gone, the phases something passes through",
   "tags": [
     "phases",
     "cycle",

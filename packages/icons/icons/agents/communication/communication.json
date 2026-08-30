@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "communication",
   "name": "Communication",
-  "description": "Both sides, talking",
+  "description": "Communication — both sides talking, messages exchanged back and forth",
   "tags": [
     "messages",
     "exchange",

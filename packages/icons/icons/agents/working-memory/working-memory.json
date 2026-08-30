@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "memory",
   "name": "Working memory",
-  "description": "What it is holding while it thinks",
+  "description": "Working memory — what a model or agent is holding while it thinks",
   "tags": [
     "short-term",
     "active",

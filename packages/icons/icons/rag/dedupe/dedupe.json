@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "chunking",
   "name": "Deduplicate",
-  "description": "Two of the same, one of them dropped",
+  "description": "Deduplicate — two of the same, with one of them dropped so only unique items remain",
   "tags": [
     "duplicate",
     "unique",

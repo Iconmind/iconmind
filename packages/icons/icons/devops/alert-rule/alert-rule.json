@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "observability",
   "name": "Alert rule",
-  "description": "What has to be true before it fires",
+  "description": "An alert rule — the condition that has to be true before an alert fires",
   "tags": [
     "condition",
     "policy",

@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "release",
   "name": "Rollout",
-  "description": "To a few, then to more, then to all",
+  "description": "A rollout — to a few users, then more, then everyone, a staged ramp",
   "tags": [
     "gradual",
     "staged",

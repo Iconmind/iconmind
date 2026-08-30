@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Underfit",
-  "description": "A line too simple for the shape it is after",
+  "description": "Underfit — a line too simple for the shape it is chasing, high bias that misses the pattern",
   "tags": [
     "bias",
     "too-simple",

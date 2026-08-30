@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Bookmark add",
-  "description": "Keep this one",
+  "description": "Bookmark add — keep this one, save it as a new favourite to find again",
   "tags": [
     "save",
     "new",

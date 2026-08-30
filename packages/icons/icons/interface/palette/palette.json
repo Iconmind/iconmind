@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "media",
   "name": "Palette",
-  "description": "The colours to choose from",
+  "description": "A palette — the set of colours and swatches to choose from in a theme",
   "tags": [
     "colour",
     "swatch",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "state",
   "name": "Battery",
-  "description": "How much is left",
+  "description": "Battery — how much charge is left, the power level of a device",
   "tags": [
     "charge",
     "power",

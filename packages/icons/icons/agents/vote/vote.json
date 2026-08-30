@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "multi-agent",
   "name": "Vote",
-  "description": "Each says; most wins",
+  "description": "A vote — each one says, and the majority wins the choice among the agents",
   "tags": [
     "ballot",
     "majority",

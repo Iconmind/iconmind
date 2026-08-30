@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "transport",
   "name": "MCP ping",
-  "description": "Still there?",
+  "description": "MCP ping — still there? A heartbeat that checks the other side is alive",
   "tags": [
     "heartbeat",
     "alive",

@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "grounding",
   "name": "Grounding",
-  "description": "The answer tied to a source",
+  "description": "Grounding — an answer tied to a real source so every claim can be traced to evidence",
   "tags": [
     "source",
     "evidence",

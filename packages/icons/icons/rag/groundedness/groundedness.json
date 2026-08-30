@@ -3,7 +3,7 @@
   "category": "rag",
   "subcategory": "grounding",
   "name": "Groundedness",
-  "description": "Every claim, standing on something",
+  "description": "Groundedness — every claim standing on a source, verified and solid",
   "tags": [
     "verified",
     "sourced",

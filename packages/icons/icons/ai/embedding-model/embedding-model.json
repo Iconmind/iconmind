@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "embedding",
   "name": "Embedding model",
-  "description": "The model that turns text into vectors",
+  "description": "An embedding model — the encoder that turns text into vectors for search and retrieval",
   "tags": [
     "encoder",
     "vectors",

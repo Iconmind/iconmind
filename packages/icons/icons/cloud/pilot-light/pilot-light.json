@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "Pilot light",
-  "description": "Almost everything off — almost",
+  "description": "Pilot light — almost everything off in the standby region, just a spark kept alive",
   "tags": [
     "minimal",
     "standby",

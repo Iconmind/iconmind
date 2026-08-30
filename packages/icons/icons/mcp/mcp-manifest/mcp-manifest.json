@@ -3,7 +3,7 @@
   "category": "mcp",
   "subcategory": "registry",
   "name": "MCP manifest",
-  "description": "What a server declares about itself",
+  "description": "An MCP manifest — what a server declares about itself, its metadata and config",
   "tags": [
     "metadata",
     "declares",

@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "agent-core",
   "name": "Agent rank",
-  "description": "Where it stands among the others",
+  "description": "Agent rank — where an agent stands among the others, its grade or level",
   "tags": [
     "grade",
     "level",

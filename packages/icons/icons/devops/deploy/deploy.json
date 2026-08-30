@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "ci-cd",
   "name": "Deploy",
-  "description": "Put it where people will use it",
+  "description": "Deploy — ship a build to the place where people will actually use it",
   "tags": [
     "ship",
     "release",

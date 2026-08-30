@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "quality",
   "name": "Constraint",
-  "description": "What the database refuses to store",
+  "description": "A database constraint — what the database refuses to store, not-null or unique",
   "tags": [
     "not-null",
     "unique",

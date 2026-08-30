@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Drag handle",
-  "description": "The part you take hold of",
+  "description": "A drag handle — the grip you take hold of to move or reorder an item",
   "tags": [
     "grip",
     "move",

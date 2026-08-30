@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Training data",
-  "description": "What the model learned from",
+  "description": "Training data — the labelled examples and corpus a model learned from",
   "tags": [
     "corpus",
     "examples",

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Fast inference",
-  "description": "The answer, quickly",
+  "description": "Fast inference — the answer delivered quickly, low latency at speed",
   "tags": [
     "low-latency",
     "quick",

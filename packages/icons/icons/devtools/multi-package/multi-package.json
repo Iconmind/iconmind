@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "package",
   "name": "Multi-package",
-  "description": "Many packages, one repository",
+  "description": "Multi-package — many packages in one repository, workspaces linked together",
   "tags": [
     "monorepo",
     "workspace",

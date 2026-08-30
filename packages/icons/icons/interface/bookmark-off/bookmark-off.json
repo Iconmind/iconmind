@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Bookmark off",
-  "description": "Take it out of the list",
+  "description": "Bookmark off — unsave it and take it out of the bookmark list",
   "tags": [
     "unsave",
     "remove",

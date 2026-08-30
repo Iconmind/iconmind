@@ -1,0 +1,33 @@
+{
+  "slug": "favorite-alert",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "Favourite alert",
+  "description": "A heart beside an alert mark — news about something you favourited",
+  "tags": [
+    "favourite",
+    "alert",
+    "update"
+  ],
+  "keywords": [
+    "favourite alert",
+    "watched item update",
+    "favourite changed"
+  ],
+  "family": "heart",
+  "shapes": [
+    {
+      "d": "M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
+    },
+    {
+      "d": "M18 7V12",
+      "closed": false
+    },
+    {
+      "d": "M17 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

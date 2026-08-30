@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Refresh",
-  "description": "Ask again and show the answer",
+  "description": "Refresh — ask again and show the latest answer, reload the view",
   "tags": [
     "reload",
     "again",

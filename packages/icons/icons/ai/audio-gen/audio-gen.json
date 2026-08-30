@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "multimodal",
   "name": "Audio generation",
-  "description": "Sound the model made",
+  "description": "Audio generation — sound a model made, speech or music synthesised from scratch",
   "tags": [
     "tts",
     "synth",

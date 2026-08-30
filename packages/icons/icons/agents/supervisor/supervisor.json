@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "multi-agent",
   "name": "Supervisor",
-  "description": "The agent that directs the others",
+  "description": "A supervisor agent — the orchestrator that directs other agents and decides who does what next",
   "tags": [
     "orchestrator",
     "lead",

@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "editor",
   "name": "Code block",
-  "description": "Code set apart from the prose",
+  "description": "A code block — code set apart from the prose as a fenced snippet",
   "tags": [
     "snippet",
     "fenced",

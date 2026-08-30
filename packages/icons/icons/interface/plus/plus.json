@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Plus",
-  "description": "Add one",
+  "description": "Plus — add one, create something new or increase a value by one",
   "tags": [
     "add",
     "new",

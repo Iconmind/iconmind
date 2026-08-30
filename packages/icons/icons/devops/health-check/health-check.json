@@ -3,7 +3,7 @@
   "category": "devops",
   "subcategory": "observability",
   "name": "Health check",
-  "description": "Is it still answering?",
+  "description": "A health check — the probe that asks whether a service is still alive and answering",
   "tags": [
     "heartbeat",
     "probe",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Grid view",
-  "description": "Everything as tiles",
+  "description": "Grid view — everything shown as tiles or cards in a gallery layout",
   "tags": [
     "tiles",
     "cards",

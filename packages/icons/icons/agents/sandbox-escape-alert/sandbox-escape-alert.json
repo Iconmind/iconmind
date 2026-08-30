@@ -3,7 +3,7 @@
   "category": "agents",
   "subcategory": "execution",
   "name": "Sandbox escape",
-  "description": "It is outside the box, and the box knows",
+  "description": "Sandbox escape alert — something is outside the box, and the box knows",
   "tags": [
     "escape",
     "alarm",

@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "code",
   "name": "Closure",
-  "description": "The function that kept a piece of where it was born",
+  "description": "A closure — a function that kept a piece of the scope it was born in",
   "tags": [
     "scope",
     "capture",

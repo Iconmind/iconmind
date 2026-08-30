@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "chart",
   "name": "Funnel leak",
-  "description": "Where they quietly fall out",
+  "description": "A funnel leak — where users quietly fall out on the way through",
   "tags": [
     "drop",
     "loss",

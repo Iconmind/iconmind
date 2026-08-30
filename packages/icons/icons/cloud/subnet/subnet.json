@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "Subnet",
-  "description": "A part of the network, fenced off",
+  "description": "A subnet — a fenced-off slice of a network with its own address range",
   "tags": [
     "cidr",
     "range",

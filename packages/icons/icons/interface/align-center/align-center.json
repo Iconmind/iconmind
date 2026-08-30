@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Align center",
-  "description": "Centred, ragged both sides",
+  "description": "Align center — text centred on the line, ragged on both sides",
   "tags": [
     "text",
     "centred",

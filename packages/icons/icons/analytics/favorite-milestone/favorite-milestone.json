@@ -1,0 +1,33 @@
+{
+  "slug": "favorite-milestone",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Favourite milestone",
+  "description": "A flag beside a heart — the milestone that meant the most to the team",
+  "tags": [
+    "milestone",
+    "favourite",
+    "heart"
+  ],
+  "keywords": [
+    "favourite milestone",
+    "starred milestone",
+    "memorable milestone"
+  ],
+  "family": "flag",
+  "shapes": [
+    {
+      "d": "M4 3V21",
+      "closed": false
+    },
+    {
+      "d": "M4 3L13 3L10 6L13 9L4 9",
+      "closed": false
+    },
+    {
+      "d": "M15 12A2 2 0 0 1 18 12A2 2 0 0 1 21 12L18 15Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
+    }
+  ]
+}

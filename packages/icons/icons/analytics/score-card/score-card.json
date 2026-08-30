@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "experiment",
   "name": "Score card",
-  "description": "The number, big, and how it moved",
+  "description": "A score card — the headline number shown big, and how it moved",
   "tags": [
     "kpi",
     "number",

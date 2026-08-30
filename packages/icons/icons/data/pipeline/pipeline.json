@@ -3,7 +3,7 @@
   "category": "data",
   "subcategory": "pipeline",
   "name": "Pipeline",
-  "description": "Work moving through stages, in order",
+  "description": "A pipeline — work moving through stages in order, from data ingestion to a finished output",
   "tags": [
     "stages",
     "flow",

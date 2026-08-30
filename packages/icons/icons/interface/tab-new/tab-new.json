@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "New tab",
-  "description": "Another one, next to the rest",
+  "description": "New tab — open another tab next to the rest in the browser bar",
   "tags": [
     "browser",
     "open",

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Structured output",
-  "description": "An answer in the shape you asked for",
+  "description": "Structured output — an answer returned in the JSON schema or type you asked for",
   "tags": [
     "json",
     "schema",

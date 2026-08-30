@@ -15,7 +15,7 @@ export const BATCH_54: Icon[] = [
 
   {
     slug: "composer", category: "interface", subcategory: "communication",
-    name: "Composer", description: "Where the message is written",
+    name: "Composer", description: "The composer — the input box where a message is written before it is sent",
     tags: ["input", "write", "send"], family: "window",
     aliases: ["message-input"], keywords: ["chat input", "message box", "type here", "send"],
     // `field`'s box and caret, and `send`'s diagonal arrow waiting in the corner.
@@ -26,7 +26,7 @@ export const BATCH_54: Icon[] = [
   },
   {
     slug: "composer-attach", category: "interface", subcategory: "communication",
-    name: "Composer attach", description: "A file, riding along with the message",
+    name: "Composer attach", description: "Composer attach — a file clipped to ride along with the message",
     tags: ["file", "clip", "upload"], family: "window",
     aliases: [], keywords: ["attach file", "paperclip", "add attachment", "upload"],
     // The composer, and the attachment riding above it — `attach`'s page, already
@@ -38,7 +38,7 @@ export const BATCH_54: Icon[] = [
   },
   {
     slug: "composer-expand", category: "interface", subcategory: "communication",
-    name: "Composer expand", description: "More room to write",
+    name: "Composer expand", description: "Composer expand — more room to write, the input grown to fullscreen",
     tags: ["grow", "fullscreen", "larger"], family: "window",
     aliases: [], keywords: ["expand input", "large editor", "grow composer"],
     // The composer, and the chevron it grows toward.
@@ -49,7 +49,7 @@ export const BATCH_54: Icon[] = [
   },
   {
     slug: "slash-command", category: "interface", subcategory: "action",
-    name: "Slash command", description: "Type / and the commands appear",
+    name: "Slash command", description: "A slash command — type / and the list of commands appears ready to pick",
     tags: ["shortcut", "menu", "type"], family: "window",
     aliases: [], keywords: ["slash menu", "command palette", "quick action", "/"],
     // The slash in `field`'s box, caret waiting after it.
@@ -60,7 +60,7 @@ export const BATCH_54: Icon[] = [
   },
   {
     slug: "at-mention", category: "interface", subcategory: "communication",
-    name: "At mention", description: "Say a name and they hear it",
+    name: "At mention", description: "An at-mention — say a name with @ and that person gets notified",
     tags: ["mention", "notify", "name"], family: "figure",
     aliases: ["mention"], keywords: ["@", "mention someone", "ping", "tag a person"],
     // The @ as this grid can spell it: a real lowercase a — bowl, and the stem
@@ -76,14 +76,14 @@ export const BATCH_54: Icon[] = [
 
   {
     slug: "chip", category: "interface", subcategory: "action",
-    name: "Chip", description: "A small labelled thing you can pick",
+    name: "Chip", description: "A chip — a small labelled pill you can pick, a filter or a token",
     tags: ["pill", "filter", "token"], family: "window",
     aliases: ["filter-chip"], keywords: ["chip", "pill", "filter token", "selected value"],
     shapes: [rect(3, 8, 18, 8, 4), disc(7.5, 12, 2), row(12, 11, 17)],
   },
   {
     slug: "chip-add", category: "interface", subcategory: "action",
-    name: "Chip add", description: "Another one joins the set",
+    name: "Chip add", description: "Chip add — another chip joins the set of filters or tokens in the field",
     tags: ["plus", "filter", "new"], family: "window",
     aliases: [], keywords: ["add filter", "add tag", "new chip"],
     shapes: [
@@ -93,7 +93,7 @@ export const BATCH_54: Icon[] = [
   },
   {
     slug: "chip-remove", category: "interface", subcategory: "action",
-    name: "Chip remove", description: "Taken back out of the set",
+    name: "Chip remove", description: "Chip remove — a chip dismissed and taken back out of the set",
     tags: ["dismiss", "clear", "x"], family: "window",
     aliases: [], keywords: ["remove filter", "clear tag", "dismiss chip"],
     shapes: [
@@ -106,7 +106,7 @@ export const BATCH_54: Icon[] = [
 
   {
     slug: "segmented", category: "interface", subcategory: "action",
-    name: "Segmented", description: "A few choices, one pressed",
+    name: "Segmented", description: "A segmented control — a few choices side by side with one of them pressed",
     tags: ["control", "options", "tabs"], family: "window",
     aliases: ["segmented-control"], keywords: ["segmented control", "option group", "tab bar"],
     // `registry`'s divider idiom sideways: three rooms, and the dot says which
@@ -118,7 +118,7 @@ export const BATCH_54: Icon[] = [
   },
   {
     slug: "text-cursor", category: "interface", subcategory: "action",
-    name: "Text cursor", description: "The I-beam, where the words will go",
+    name: "Text cursor", description: "A text cursor — the I-beam caret that shows where the words will go",
     tags: ["ibeam", "caret", "editing"], family: "figure",
     aliases: ["ibeam"], keywords: ["text cursor", "i-beam", "caret", "insertion point"],
     shapes: [row(4, 8, 16), col(12, 4, 20), row(20, 8, 16)],

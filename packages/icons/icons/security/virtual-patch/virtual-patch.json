@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Virtual patch",
-  "description": "Armour over the hole, until the fix lands",
+  "description": "A virtual patch — armour over the hole until the real fix lands",
   "tags": [
     "shield",
     "patch",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "layout",
   "name": "Widget",
-  "description": "A small thing that shows one thing",
+  "description": "A widget — a small tile or card that shows one thing on a dashboard",
   "tags": [
     "tile",
     "card",
