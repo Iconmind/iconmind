@@ -1,0 +1,43 @@
+{
+  "slug": "grid-2x2-add",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Grid 2×2 add",
+  "description": "A four-cell grid with a plus in one cell — add a cell, put another item on the grid",
+  "tags": [
+    "cells",
+    "new",
+    "insert"
+  ],
+  "aliases": [
+    "grid-2x2-plus"
+  ],
+  "keywords": [
+    "add to grid",
+    "new cell",
+    "insert grid item"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 2H19A3 3 0 0 1 22 5V19A3 3 0 0 1 19 22H5A3 3 0 0 1 2 19V5A3 3 0 0 1 5 2H10",
+      "closed": true
+    },
+    {
+      "d": "M2 12H22",
+      "closed": false
+    },
+    {
+      "d": "M12 2V22",
+      "closed": false
+    },
+    {
+      "d": "M17 14V20",
+      "closed": false
+    },
+    {
+      "d": "M14 17H20",
+      "closed": false
+    }
+  ]
+}

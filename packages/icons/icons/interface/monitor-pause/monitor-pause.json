@@ -1,0 +1,40 @@
+{
+  "slug": "monitor-pause",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Monitor pause",
+  "description": "A screen with a pause mark on it — playback held, the display paused",
+  "tags": [
+    "paused",
+    "hold",
+    "playback"
+  ],
+  "keywords": [
+    "screen pause",
+    "monitor paused",
+    "hold playback"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M12 17V20",
+      "closed": false
+    },
+    {
+      "d": "M7 20H17",
+      "closed": false
+    },
+    {
+      "d": "M10 7.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M14 7.5V13.5",
+      "closed": false
+    }
+  ]
+}

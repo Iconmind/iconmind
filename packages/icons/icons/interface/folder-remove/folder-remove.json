@@ -1,0 +1,31 @@
+{
+  "slug": "folder-remove",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Folder remove",
+  "description": "A folder with a minus on it — take this folder out, drop it and what it holds",
+  "tags": [
+    "minus",
+    "drop",
+    "delete"
+  ],
+  "aliases": [
+    "folder-minus"
+  ],
+  "keywords": [
+    "remove folder",
+    "delete directory",
+    "drop folder"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M9 13H15",
+      "closed": false
+    }
+  ]
+}

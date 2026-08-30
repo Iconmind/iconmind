@@ -9,6 +9,9 @@
     "spec",
     "file"
   ],
+  "aliases": [
+    "file-play"
+  ],
   "keywords": [
     "test file",
     "spec file",

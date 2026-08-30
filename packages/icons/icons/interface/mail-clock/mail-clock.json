@@ -1,0 +1,36 @@
+{
+  "slug": "mail-clock",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Mail clock",
+  "description": "An envelope with a clock beside it — a scheduled send, or mail waiting in the queue",
+  "tags": [
+    "scheduled",
+    "queued",
+    "later"
+  ],
+  "keywords": [
+    "schedule send",
+    "queued mail",
+    "send later"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H13A2 2 0 0 1 15 8V16A2 2 0 0 1 13 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M4 7L8.5 11.5L13 7",
+      "closed": false
+    },
+    {
+      "d": "M16 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M19 9.5L19 12L21.5 12",
+      "closed": false
+    }
+  ]
+}

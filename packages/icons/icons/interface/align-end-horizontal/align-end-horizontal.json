@@ -1,0 +1,32 @@
+{
+  "slug": "align-end-horizontal",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Align end horizontal",
+  "description": "Two boxes standing on a line below them — align objects to the bottom edge",
+  "tags": [
+    "bottom",
+    "objects",
+    "edge"
+  ],
+  "keywords": [
+    "align bottom",
+    "align objects bottom",
+    "bottom edge"
+  ],
+  "family": "align",
+  "shapes": [
+    {
+      "d": "M3 20H21",
+      "closed": false
+    },
+    {
+      "d": "M7 7L11 7L11 17L7 17Z",
+      "closed": true
+    },
+    {
+      "d": "M14 11L18 11L18 17L14 17Z",
+      "closed": true
+    }
+  ]
+}

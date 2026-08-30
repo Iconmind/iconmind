@@ -1,0 +1,36 @@
+{
+  "slug": "document-json",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Document JSON",
+  "description": "A document with braces on it — a JSON file, structured data written as text",
+  "tags": [
+    "braces",
+    "data",
+    "structured"
+  ],
+  "aliases": [
+    "file-json",
+    "file-braces"
+  ],
+  "keywords": [
+    "json file",
+    "config file",
+    "structured document"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M10 14.5A2.5 2.5 0 0 1 10 9.5",
+      "closed": false
+    },
+    {
+      "d": "M14 9.5A2.5 2.5 0 0 1 14 14.5",
+      "closed": false
+    }
+  ]
+}

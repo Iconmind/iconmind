@@ -1,0 +1,27 @@
+{
+  "slug": "arrow-big-left",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Arrow big left",
+  "description": "A large outlined arrow pointing left — a bold direction, the emphatic back",
+  "tags": [
+    "large",
+    "bold",
+    "left"
+  ],
+  "aliases": [
+    "arrow-big-left-dash"
+  ],
+  "keywords": [
+    "big arrow left",
+    "large left arrow",
+    "bold back"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M3 12L12 3L12 8L21 8L21 16L12 16L12 21Z",
+      "closed": true
+    }
+  ]
+}

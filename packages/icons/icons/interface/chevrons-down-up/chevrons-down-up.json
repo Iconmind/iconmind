@@ -1,0 +1,29 @@
+{
+  "slug": "chevrons-down-up",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Chevrons down up",
+  "description": "A chevron pointing down above one pointing up — collapse, bring the two halves together",
+  "tags": [
+    "collapse",
+    "shrink",
+    "fold"
+  ],
+  "keywords": [
+    "collapse",
+    "fold up",
+    "shrink section",
+    "down up chevrons"
+  ],
+  "family": "chevron",
+  "shapes": [
+    {
+      "d": "M7 4L12 9L17 4",
+      "closed": false
+    },
+    {
+      "d": "M7 20L12 15L17 20",
+      "closed": false
+    }
+  ]
+}

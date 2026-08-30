@@ -1,0 +1,29 @@
+{
+  "slug": "chevrons-down",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Chevrons down",
+  "description": "Two chevrons pointing down, one under the other — jump further down, expand all the way",
+  "tags": [
+    "double",
+    "expand",
+    "further"
+  ],
+  "keywords": [
+    "double chevron down",
+    "expand all",
+    "jump down",
+    "page down"
+  ],
+  "family": "chevron",
+  "shapes": [
+    {
+      "d": "M4 4L12 12L20 4",
+      "closed": false
+    },
+    {
+      "d": "M4 13L12 21L20 13",
+      "closed": false
+    }
+  ]
+}

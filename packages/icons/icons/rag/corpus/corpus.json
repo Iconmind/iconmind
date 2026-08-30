@@ -10,7 +10,8 @@
     "body"
   ],
   "aliases": [
-    "collection"
+    "collection",
+    "file-stack"
   ],
   "keywords": [
     "document set",

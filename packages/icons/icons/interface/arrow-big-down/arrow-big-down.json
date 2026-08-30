@@ -1,0 +1,27 @@
+{
+  "slug": "arrow-big-down",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Arrow big down",
+  "description": "A large outlined arrow pointing down — a bold direction, the emphatic down",
+  "tags": [
+    "large",
+    "bold",
+    "down"
+  ],
+  "aliases": [
+    "arrow-big-down-dash"
+  ],
+  "keywords": [
+    "big arrow down",
+    "large down arrow",
+    "bold down"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M12 21L3 12L8 12L8 3L16 3L16 12L21 12Z",
+      "closed": true
+    }
+  ]
+}

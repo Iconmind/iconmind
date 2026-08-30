@@ -1,0 +1,36 @@
+{
+  "slug": "database-backup",
+  "category": "data",
+  "subcategory": "storage",
+  "name": "Database backup",
+  "description": "A database with an arrow pointing back on it — a backup, a copy of the data kept aside",
+  "tags": [
+    "backup",
+    "copy",
+    "restore"
+  ],
+  "keywords": [
+    "database backup",
+    "back up data",
+    "snapshot store"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 10.5H17",
+      "closed": false
+    },
+    {
+      "d": "M9 15.5H15",
+      "closed": false
+    },
+    {
+      "d": "M11.5 13L9 15.5L11.5 18",
+      "closed": false
+    }
+  ]
+}

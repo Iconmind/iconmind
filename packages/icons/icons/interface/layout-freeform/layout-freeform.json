@@ -1,0 +1,36 @@
+{
+  "slug": "layout-freeform",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Layout freeform",
+  "description": "A window with boxes of different sizes inside — a freeform canvas, things placed where you like",
+  "tags": [
+    "canvas",
+    "boxes",
+    "free"
+  ],
+  "keywords": [
+    "freeform layout",
+    "canvas layout",
+    "free placement"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M5 7L10 7L10 11L5 11Z",
+      "closed": true
+    },
+    {
+      "d": "M13 7L19 7L19 17L13 17Z",
+      "closed": true
+    },
+    {
+      "d": "M5 14L10 14L10 17L5 17Z",
+      "closed": true
+    }
+  ]
+}

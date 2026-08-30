@@ -1,0 +1,28 @@
+{
+  "slug": "corner-left-up",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Corner left up",
+  "description": "An arrow that goes left and then turns up — come across and rise",
+  "tags": [
+    "turn",
+    "rise",
+    "across"
+  ],
+  "keywords": [
+    "left then up",
+    "come across and rise",
+    "wrap up"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M20 20L10 20L10 4",
+      "closed": false
+    },
+    {
+      "d": "M5 9L10 4L15 9",
+      "closed": false
+    }
+  ]
+}

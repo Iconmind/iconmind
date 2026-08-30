@@ -1,0 +1,36 @@
+{
+  "slug": "folder-tree",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Folder tree",
+  "description": "A folder with a tree of lines on it — the directory tree, folders nested inside folders",
+  "tags": [
+    "hierarchy",
+    "nested",
+    "directory"
+  ],
+  "keywords": [
+    "directory tree",
+    "folder hierarchy",
+    "nested folders"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M9 10V17",
+      "closed": false
+    },
+    {
+      "d": "M9 13H14",
+      "closed": false
+    },
+    {
+      "d": "M9 17H14",
+      "closed": false
+    }
+  ]
+}

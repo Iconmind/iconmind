@@ -1,0 +1,28 @@
+{
+  "slug": "shield-half",
+  "category": "security",
+  "subcategory": "policy",
+  "name": "Shield half",
+  "description": "A shield split down the middle — partial protection, half of the policy in force",
+  "tags": [
+    "partial",
+    "split",
+    "half"
+  ],
+  "keywords": [
+    "partial protection",
+    "half shield",
+    "mixed policy"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M12 8V18.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "document-question",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Document question",
+  "description": "A document with a question mark on it — an unknown file, its type or contents not yet known",
+  "tags": [
+    "unknown",
+    "help",
+    "unrecognised"
+  ],
+  "aliases": [
+    "file-question",
+    "file-question-mark"
+  ],
+  "keywords": [
+    "unknown file",
+    "unrecognised document",
+    "file help"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9.5 11.5A2.5 2.5 0 1 1 12 14",
+      "closed": false
+    },
+    {
+      "d": "M11 16.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

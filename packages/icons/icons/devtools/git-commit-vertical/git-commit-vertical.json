@@ -1,0 +1,32 @@
+{
+  "slug": "git-commit-vertical",
+  "category": "devtools",
+  "subcategory": "version-control",
+  "name": "Git commit vertical",
+  "description": "A commit on a vertical line — one change in the history, drawn top to bottom",
+  "tags": [
+    "history",
+    "change",
+    "vertical"
+  ],
+  "keywords": [
+    "commit",
+    "vertical history",
+    "commit node"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M12 3V8.5",
+      "closed": false
+    },
+    {
+      "d": "M8.5 12a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 15.5V21",
+      "closed": false
+    }
+  ]
+}

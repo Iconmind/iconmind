@@ -1,0 +1,32 @@
+{
+  "slug": "database-zap",
+  "category": "data",
+  "subcategory": "storage",
+  "name": "Database zap",
+  "description": "A database with a bolt on it — a store that is fast, or one hit by a spike",
+  "tags": [
+    "fast",
+    "spike",
+    "performance"
+  ],
+  "keywords": [
+    "fast database",
+    "query spike",
+    "database performance"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 10.5H17",
+      "closed": false
+    },
+    {
+      "d": "M13 12.5L10 15.5L13 15.5L10 18.5",
+      "closed": false
+    }
+  ]
+}

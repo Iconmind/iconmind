@@ -1,0 +1,40 @@
+{
+  "slug": "list-remove",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "List remove",
+  "description": "Three lines with a minus beside them — take an item off the list",
+  "tags": [
+    "delete",
+    "drop",
+    "clear"
+  ],
+  "aliases": [
+    "list-minus",
+    "list-x"
+  ],
+  "keywords": [
+    "remove from list",
+    "delete item",
+    "drop item"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 6H14",
+      "closed": false
+    },
+    {
+      "d": "M3 11H14",
+      "closed": false
+    },
+    {
+      "d": "M3 16H14",
+      "closed": false
+    },
+    {
+      "d": "M15.5 12H21.5",
+      "closed": false
+    }
+  ]
+}

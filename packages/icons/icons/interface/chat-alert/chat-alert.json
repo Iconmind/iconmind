@@ -1,0 +1,40 @@
+{
+  "slug": "chat-alert",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Chat alert",
+  "description": "A speech bubble with an exclamation mark inside — a message that needs attention now",
+  "tags": [
+    "warning",
+    "urgent",
+    "attention"
+  ],
+  "aliases": [
+    "message-square-warning",
+    "message-circle-warning"
+  ],
+  "keywords": [
+    "chat warning",
+    "urgent message",
+    "message alert"
+  ],
+  "family": "bubble",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V16A2 2 0 0 1 19 18H5A2 2 0 0 1 3 16Z",
+      "closed": true
+    },
+    {
+      "d": "M7 18L7 21L10 18",
+      "closed": false
+    },
+    {
+      "d": "M12 7.5V10.5",
+      "closed": false
+    },
+    {
+      "d": "M11 13.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

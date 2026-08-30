@@ -150,7 +150,7 @@ export const BATCH_50: Icon[] = [
     slug: "elicitation", category: "mcp", subcategory: "prompt",
     name: "Elicitation", description: "Elicitation — the server stops mid-flow to ask the user for input",
     tags: ["ask", "mid-flow", "input"], family: "bubble",
-    aliases: [], keywords: ["elicitation", "ask user", "server question", "form request", "mid-session"],
+    aliases: ["message-circle-question", "message-circle-question-mark"], keywords: ["elicitation", "ask user", "server question", "form request", "mid-session"],
     // `message`'s bubble with a question in it — the shape of being asked.
     shapes: [
       frame(2, 3, 20, 14, 3, { gap: 4 }), poly([[7, 17], [7, 21], [11, 17]]),

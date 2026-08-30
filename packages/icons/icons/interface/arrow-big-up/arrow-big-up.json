@@ -1,0 +1,27 @@
+{
+  "slug": "arrow-big-up",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Arrow big up",
+  "description": "A large outlined arrow pointing up — a bold direction, the emphatic up",
+  "tags": [
+    "large",
+    "bold",
+    "up"
+  ],
+  "aliases": [
+    "arrow-big-up-dash"
+  ],
+  "keywords": [
+    "big arrow up",
+    "large up arrow",
+    "bold up"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M12 3L21 12L16 12L16 21L8 21L8 12L3 12Z",
+      "closed": true
+    }
+  ]
+}

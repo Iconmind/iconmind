@@ -1,0 +1,36 @@
+{
+  "slug": "text-wrap",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Text wrap",
+  "description": "Lines with the last one turning back under the one above — wrap text onto the next line",
+  "tags": [
+    "wrap",
+    "line-break",
+    "flow"
+  ],
+  "keywords": [
+    "wrap text",
+    "line wrap",
+    "word wrap"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M3 6H21",
+      "closed": false
+    },
+    {
+      "d": "M3 12H17",
+      "closed": false
+    },
+    {
+      "d": "M17 12L17 15L10 15",
+      "closed": false
+    },
+    {
+      "d": "M12.5 12.5L10 15L12.5 17.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "arrow-big-right",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Arrow big right",
+  "description": "A large outlined arrow pointing right — a bold direction, the emphatic forward",
+  "tags": [
+    "large",
+    "bold",
+    "right"
+  ],
+  "aliases": [
+    "arrow-big-right-dash"
+  ],
+  "keywords": [
+    "big arrow right",
+    "large right arrow",
+    "bold forward"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M21 12L12 21L12 16L3 16L3 8L12 8L12 3Z",
+      "closed": true
+    }
+  ]
+}

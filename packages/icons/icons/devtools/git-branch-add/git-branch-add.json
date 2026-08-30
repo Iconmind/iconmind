@@ -1,0 +1,43 @@
+{
+  "slug": "git-branch-add",
+  "category": "devtools",
+  "subcategory": "version-control",
+  "name": "Git branch add",
+  "description": "A line of commits with a plus beside it — create a new branch to work on",
+  "tags": [
+    "create",
+    "new",
+    "checkout"
+  ],
+  "aliases": [
+    "git-branch-plus"
+  ],
+  "keywords": [
+    "new branch",
+    "create branch",
+    "checkout -b"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M5 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 8.5V15.5",
+      "closed": false
+    },
+    {
+      "d": "M5 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 9V15",
+      "closed": false
+    },
+    {
+      "d": "M14 12H20",
+      "closed": false
+    }
+  ]
+}

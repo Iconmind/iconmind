@@ -1,0 +1,39 @@
+{
+  "slug": "mail-add",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Mail add",
+  "description": "An envelope with a plus beside it — compose a new message, add an address",
+  "tags": [
+    "compose",
+    "new",
+    "write"
+  ],
+  "aliases": [
+    "mail-plus"
+  ],
+  "keywords": [
+    "new email",
+    "compose mail",
+    "add address"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H13A2 2 0 0 1 15 8V16A2 2 0 0 1 13 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M4 7L8.5 11.5L13 7",
+      "closed": false
+    },
+    {
+      "d": "M19 9V15",
+      "closed": false
+    },
+    {
+      "d": "M16 12H22",
+      "closed": false
+    }
+  ]
+}

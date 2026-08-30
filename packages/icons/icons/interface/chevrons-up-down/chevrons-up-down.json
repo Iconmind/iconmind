@@ -1,0 +1,29 @@
+{
+  "slug": "chevrons-up-down",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Chevrons up down",
+  "description": "A chevron pointing up above one pointing down — a control that sorts or expands either way",
+  "tags": [
+    "sort",
+    "expand",
+    "select"
+  ],
+  "keywords": [
+    "sort control",
+    "expand collapse",
+    "select chevrons",
+    "up down chevrons"
+  ],
+  "family": "chevron",
+  "shapes": [
+    {
+      "d": "M7 9L12 4L17 9",
+      "closed": false
+    },
+    {
+      "d": "M7 15L12 20L17 15",
+      "closed": false
+    }
+  ]
+}

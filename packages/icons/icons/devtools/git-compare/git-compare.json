@@ -1,0 +1,47 @@
+{
+  "slug": "git-compare",
+  "category": "devtools",
+  "subcategory": "version-control",
+  "name": "Git compare",
+  "description": "Two commits with arrows between them — compare two branches or two points in history",
+  "tags": [
+    "diff",
+    "branches",
+    "between"
+  ],
+  "aliases": [
+    "git-compare-arrows"
+  ],
+  "keywords": [
+    "compare branches",
+    "compare commits",
+    "diff between branches"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M4 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 8.5L6 14L11.5 14",
+      "closed": false
+    },
+    {
+      "d": "M9.5 12L11.5 14L9.5 16",
+      "closed": false
+    },
+    {
+      "d": "M18 15.5L18 10L12.5 10",
+      "closed": false
+    },
+    {
+      "d": "M14.5 8L12.5 10L14.5 12",
+      "closed": false
+    }
+  ]
+}

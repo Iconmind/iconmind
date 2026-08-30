@@ -250,7 +250,7 @@ export const BATCH_71: Icon[] = [
     slug: "test-file", category: "devtools", subcategory: "testing",
     name: "Test file", description: "A page with a play button on it — a test file ready to run in the suite",
     tags: ["test", "spec", "file"], family: "page",
-    aliases: [], keywords: ["test file", "spec file", "run tests"],
+    aliases: ["file-play"], keywords: ["test file", "spec file", "run tests"],
     shapes: [page(), poly([[10, 10], [10, 16], [13, 13]], true)],
   },
   {
@@ -309,7 +309,7 @@ export const BATCH_71: Icon[] = [
     slug: "on-time", category: "interface", subcategory: "time",
     name: "On time", description: "A clock with a check beside it — something that happened on schedule",
     tags: ["schedule", "punctual", "check"], family: "clock",
-    aliases: [], keywords: ["on time", "on schedule", "deadline met"],
+    aliases: ["clock-check"], keywords: ["on time", "on schedule", "deadline met"],
     shapes: [disc(8.5, 12, 5.5), poly([[8.5, 9], [8.5, 12], [11, 12]]), poly([[17, 13], [19, 15], [22, 12]])],
   },
   {

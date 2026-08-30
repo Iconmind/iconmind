@@ -1,0 +1,43 @@
+{
+  "slug": "chart-column-decreasing",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Chart column decreasing",
+  "description": "Bars falling from left to right — a column chart of something going down",
+  "tags": [
+    "decline",
+    "falling",
+    "trend"
+  ],
+  "aliases": [
+    "chart-no-axes-column-decreasing"
+  ],
+  "keywords": [
+    "falling bars",
+    "decline chart",
+    "decreasing columns"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M8 7V20",
+      "closed": false
+    },
+    {
+      "d": "M13 11V20",
+      "closed": false
+    },
+    {
+      "d": "M18 15V20",
+      "closed": false
+    }
+  ]
+}

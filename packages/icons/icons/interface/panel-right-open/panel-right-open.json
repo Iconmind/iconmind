@@ -1,0 +1,32 @@
+{
+  "slug": "panel-right-open",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Panel right open",
+  "description": "A window with its right panel and a chevron pointing into the content — open the inspector",
+  "tags": [
+    "inspector",
+    "expand",
+    "show"
+  ],
+  "keywords": [
+    "open right panel",
+    "show inspector",
+    "expand details"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M15 4V20",
+      "closed": false
+    },
+    {
+      "d": "M11 9.5L8.5 12L11 14.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "mail-open",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Mail open",
+  "description": "An envelope with its flap lifted — an opened message, mail that has been read",
+  "tags": [
+    "read",
+    "opened",
+    "envelope"
+  ],
+  "keywords": [
+    "open envelope",
+    "read mail",
+    "opened message"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 11L12 3L20 11",
+      "closed": false
+    },
+    {
+      "d": "M4 11L4 21L20 21L20 11",
+      "closed": false
+    },
+    {
+      "d": "M6 12L12 18L18 12",
+      "closed": false
+    }
+  ]
+}

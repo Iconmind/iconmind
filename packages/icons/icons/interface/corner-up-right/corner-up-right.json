@@ -1,0 +1,28 @@
+{
+  "slug": "corner-up-right",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Corner up right",
+  "description": "An arrow that goes up and then turns right — a step up and onward",
+  "tags": [
+    "turn",
+    "up",
+    "onward"
+  ],
+  "keywords": [
+    "up then right",
+    "step up",
+    "redo"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M4 20L4 10L20 10",
+      "closed": false
+    },
+    {
+      "d": "M15 5L20 10L15 15",
+      "closed": false
+    }
+  ]
+}

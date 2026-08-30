@@ -1,0 +1,47 @@
+{
+  "slug": "text-select",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Text select",
+  "description": "Two lines inside corner brackets — a text selection, the words picked out to act on",
+  "tags": [
+    "selection",
+    "highlight",
+    "range"
+  ],
+  "aliases": [
+    "text-selection"
+  ],
+  "keywords": [
+    "select text",
+    "text selection",
+    "highlight text"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M3 7L3 4L6 4",
+      "closed": false
+    },
+    {
+      "d": "M18 4L21 4L21 7",
+      "closed": false
+    },
+    {
+      "d": "M21 17L21 20L18 20",
+      "closed": false
+    },
+    {
+      "d": "M6 20L3 20L3 17",
+      "closed": false
+    },
+    {
+      "d": "M6 9H18",
+      "closed": false
+    },
+    {
+      "d": "M6 15H18",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "database-arrow-down",
+  "category": "data",
+  "subcategory": "storage",
+  "name": "Database arrow down",
+  "description": "A database with an arrow pointing down on it — import into the store, pull the data in",
+  "tags": [
+    "import",
+    "pull",
+    "load"
+  ],
+  "keywords": [
+    "import database",
+    "load data",
+    "pull records"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 10.5H17",
+      "closed": false
+    },
+    {
+      "d": "M12 12.5V18.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 16L12 18.5L14.5 16",
+      "closed": false
+    }
+  ]
+}

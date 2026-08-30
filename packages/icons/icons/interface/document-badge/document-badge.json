@@ -1,0 +1,37 @@
+{
+  "slug": "document-badge",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Document badge",
+  "description": "A document with a rosette on it — a certified file, an award or an official record",
+  "tags": [
+    "certified",
+    "award",
+    "official"
+  ],
+  "aliases": [
+    "file-badge",
+    "file-badge-2"
+  ],
+  "keywords": [
+    "certified document",
+    "award file",
+    "official record",
+    "certificate"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M10 10.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12.5L10 17.5L12 15.5L14 17.5L14 12.5",
+      "closed": false
+    }
+  ]
+}

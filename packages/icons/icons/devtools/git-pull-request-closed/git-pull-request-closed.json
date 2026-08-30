@@ -1,0 +1,44 @@
+{
+  "slug": "git-pull-request-closed",
+  "category": "devtools",
+  "subcategory": "version-control",
+  "name": "Git pull request closed",
+  "description": "A pull request ending in a cross — closed without merging, the changes turned away",
+  "tags": [
+    "closed",
+    "rejected",
+    "declined"
+  ],
+  "keywords": [
+    "closed pull request",
+    "rejected pr",
+    "declined merge request"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M4 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 7.5V16.5",
+      "closed": false
+    },
+    {
+      "d": "M4 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15.5 16.5L20.5 21.5",
+      "closed": false
+    },
+    {
+      "d": "M20.5 16.5L15.5 21.5",
+      "closed": false
+    },
+    {
+      "d": "M18 14L18 9L12 9L9 6",
+      "closed": false
+    }
+  ]
+}

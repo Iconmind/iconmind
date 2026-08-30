@@ -1,0 +1,29 @@
+{
+  "slug": "chevrons-left",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Chevrons left",
+  "description": "Two chevrons pointing left, side by side — go back further, to the first of them",
+  "tags": [
+    "double",
+    "back",
+    "first"
+  ],
+  "keywords": [
+    "double chevron left",
+    "first page",
+    "rewind",
+    "go back further"
+  ],
+  "family": "chevron",
+  "shapes": [
+    {
+      "d": "M11 4L3 12L11 20",
+      "closed": false
+    },
+    {
+      "d": "M20 4L12 12L20 20",
+      "closed": false
+    }
+  ]
+}

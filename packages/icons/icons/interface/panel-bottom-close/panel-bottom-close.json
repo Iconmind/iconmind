@@ -1,0 +1,32 @@
+{
+  "slug": "panel-bottom-close",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Panel bottom close",
+  "description": "A window with a bar across the bottom and a chevron pointing down at it — collapse the bottom panel",
+  "tags": [
+    "drawer",
+    "collapse",
+    "hide"
+  ],
+  "keywords": [
+    "close bottom panel",
+    "collapse drawer",
+    "hide console"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M2 15H22",
+      "closed": false
+    },
+    {
+      "d": "M9.5 8.5L12 11L14.5 8.5",
+      "closed": false
+    }
+  ]
+}

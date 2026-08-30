@@ -1,0 +1,36 @@
+{
+  "slug": "database-remove",
+  "category": "data",
+  "subcategory": "storage",
+  "name": "Database remove",
+  "description": "A database with a minus on it — delete a record, or drop the store",
+  "tags": [
+    "delete",
+    "drop",
+    "record"
+  ],
+  "aliases": [
+    "database-minus",
+    "database-x"
+  ],
+  "keywords": [
+    "delete record",
+    "drop database",
+    "remove data"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 10.5H17",
+      "closed": false
+    },
+    {
+      "d": "M9 15.5H15",
+      "closed": false
+    }
+  ]
+}

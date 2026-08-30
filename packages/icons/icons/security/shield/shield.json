@@ -1,0 +1,25 @@
+{
+  "slug": "shield",
+  "category": "security",
+  "subcategory": "policy",
+  "name": "Shield",
+  "description": "A plain shield — protection, security, the thing that stands between a system and harm",
+  "tags": [
+    "protection",
+    "guard",
+    "defence"
+  ],
+  "keywords": [
+    "shield",
+    "security",
+    "protection",
+    "guard"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    }
+  ]
+}

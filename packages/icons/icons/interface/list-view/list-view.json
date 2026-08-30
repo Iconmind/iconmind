@@ -9,6 +9,9 @@
     "table",
     "lines"
   ],
+  "aliases": [
+    "layout-list"
+  ],
   "keywords": [
     "rows",
     "table view",

@@ -1,0 +1,41 @@
+{
+  "slug": "list-tree",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "List tree",
+  "description": "Lines branching off a trunk — a tree of items, children indented under their parent",
+  "tags": [
+    "hierarchy",
+    "nested",
+    "outline"
+  ],
+  "keywords": [
+    "tree view",
+    "nested list",
+    "outline",
+    "hierarchy"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M5 3V17",
+      "closed": false
+    },
+    {
+      "d": "M5 10H11",
+      "closed": false
+    },
+    {
+      "d": "M14 10H21",
+      "closed": false
+    },
+    {
+      "d": "M5 17H11",
+      "closed": false
+    },
+    {
+      "d": "M14 17H21",
+      "closed": false
+    }
+  ]
+}

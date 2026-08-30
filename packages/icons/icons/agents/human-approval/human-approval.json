@@ -9,6 +9,11 @@
     "consent",
     "gate"
   ],
+  "aliases": [
+    "user-check",
+    "user-check-2",
+    "user-round-check"
+  ],
   "keywords": [
     "review",
     "sign-off",

@@ -1,0 +1,43 @@
+{
+  "slug": "chat-diff",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Chat diff",
+  "description": "A speech bubble with a plus and a minus inside — what changed between two versions of a message",
+  "tags": [
+    "changes",
+    "compare",
+    "edited"
+  ],
+  "aliases": [
+    "message-square-diff"
+  ],
+  "keywords": [
+    "message diff",
+    "edited message",
+    "compare messages"
+  ],
+  "family": "bubble",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V16A2 2 0 0 1 19 18H5A2 2 0 0 1 3 16Z",
+      "closed": true
+    },
+    {
+      "d": "M7 18L7 21L10 18",
+      "closed": false
+    },
+    {
+      "d": "M9 8V12",
+      "closed": false
+    },
+    {
+      "d": "M7 10H11",
+      "closed": false
+    },
+    {
+      "d": "M13 10H17",
+      "closed": false
+    }
+  ]
+}

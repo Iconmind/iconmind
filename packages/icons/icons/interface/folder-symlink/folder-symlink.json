@@ -1,0 +1,32 @@
+{
+  "slug": "folder-symlink",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Folder symlink",
+  "description": "A folder with a bent arrow on it — a link to a folder that really lives somewhere else",
+  "tags": [
+    "link",
+    "alias",
+    "shortcut"
+  ],
+  "keywords": [
+    "symlinked folder",
+    "folder alias",
+    "linked directory"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M9 17L14 12",
+      "closed": false
+    },
+    {
+      "d": "M10.5 11.5L14.5 11.5L14.5 15.5",
+      "closed": false
+    }
+  ]
+}

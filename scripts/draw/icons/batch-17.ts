@@ -89,7 +89,7 @@ export const BATCH_17: Icon[] = [
     slug: "panel-top", category: "interface", subcategory: "layout",
     name: "Panel top", description: "Panel top — a strip across the top of a layout, a header or a toolbar",
     tags: ["header", "toolbar", "band"], family: "window",
-    aliases: ["header"], keywords: ["toolbar", "app bar", "banner", "top bar"],
+    aliases: ["header", "layout-panel-top"], keywords: ["toolbar", "app bar", "banner", "top bar"],
     shapes: [frame(2, 4, 20, 16, 3, { gap: 4 }), row(9, 2, 22)],
   },
   {
@@ -103,7 +103,7 @@ export const BATCH_17: Icon[] = [
     slug: "sidebar", category: "interface", subcategory: "layout",
     name: "Sidebar", description: "A sidebar — a column down one side of the screen for navigation or a drawer",
     tags: ["nav", "rail", "drawer"], family: "window",
-    aliases: ["drawer", "panel-left"], keywords: ["navigation", "rail", "side panel", "menu column"],
+    aliases: ["drawer", "panel-left", "layout-panel-left"], keywords: ["navigation", "rail", "side panel", "menu column"],
     shapes: [frame(2, 4, 20, 16, 3, { gap: 4 }), col(9, 4, 20)],
   },
 

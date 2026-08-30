@@ -9,6 +9,10 @@
     "mid-flow",
     "input"
   ],
+  "aliases": [
+    "message-circle-question",
+    "message-circle-question-mark"
+  ],
   "keywords": [
     "elicitation",
     "ask user",

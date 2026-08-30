@@ -1,0 +1,44 @@
+{
+  "slug": "folder-config",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Folder config",
+  "description": "A folder with sliders on it — a folder of settings, the configuration a project reads",
+  "tags": [
+    "settings",
+    "sliders",
+    "options"
+  ],
+  "aliases": [
+    "folder-cog",
+    "folder-cog-2"
+  ],
+  "keywords": [
+    "config folder",
+    "settings directory",
+    "dotfiles"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M9 11H15",
+      "closed": false
+    },
+    {
+      "d": "M13.5 9V13",
+      "closed": false
+    },
+    {
+      "d": "M9 15H15",
+      "closed": false
+    },
+    {
+      "d": "M10.5 13V17",
+      "closed": false
+    }
+  ]
+}

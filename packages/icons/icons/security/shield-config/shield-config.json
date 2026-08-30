@@ -1,0 +1,44 @@
+{
+  "slug": "shield-config",
+  "category": "security",
+  "subcategory": "policy",
+  "name": "Shield config",
+  "description": "A shield with sliders on it — security settings, the protection tuned by hand",
+  "tags": [
+    "settings",
+    "tune",
+    "sliders"
+  ],
+  "aliases": [
+    "shield-cog",
+    "shield-cog-corner"
+  ],
+  "keywords": [
+    "security settings",
+    "configure protection",
+    "policy settings"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M9 9.5H15",
+      "closed": false
+    },
+    {
+      "d": "M13.5 7.5V11.5",
+      "closed": false
+    },
+    {
+      "d": "M9 13.5H15",
+      "closed": false
+    },
+    {
+      "d": "M10.5 11.5V15.5",
+      "closed": false
+    }
+  ]
+}

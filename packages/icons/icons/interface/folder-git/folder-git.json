@@ -1,0 +1,43 @@
+{
+  "slug": "folder-git",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Folder git",
+  "description": "A folder with a branch on it — a repository, a folder under version control",
+  "tags": [
+    "repository",
+    "repo",
+    "version-control"
+  ],
+  "aliases": [
+    "folder-git-2"
+  ],
+  "keywords": [
+    "git folder",
+    "repository directory",
+    "repo"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M9.5 9.5V18",
+      "closed": false
+    },
+    {
+      "d": "M8.5 9.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14.5 13L9.5 18",
+      "closed": false
+    }
+  ]
+}

@@ -149,12 +149,36 @@ abstract final class IconMindIcons {
   @Deprecated('use aggregate')
   static const IconMindData rollup = g.aggregate;
   static const IconMindData alarm = g.alarm;
+  @Deprecated('use alarm')
+  static const IconMindData alarmClock = g.alarm;
   static const IconMindData alert = g.alert;
   static const IconMindData alertRule = g.alertRule;
   static const IconMindData alignCenter = g.alignCenter;
+  @Deprecated('use alignCenter')
+  static const IconMindData textAlignCenter = g.alignCenter;
+  static const IconMindData alignCenterHorizontal = g.alignCenterHorizontal;
+  static const IconMindData alignCenterVertical = g.alignCenterVertical;
+  static const IconMindData alignEndHorizontal = g.alignEndHorizontal;
+  static const IconMindData alignEndVertical = g.alignEndVertical;
+  static const IconMindData alignHorizontalSpaceBetween = g.alignHorizontalSpaceBetween;
+  @Deprecated('use alignHorizontalSpaceBetween')
+  static const IconMindData alignHorizontalDistributeCenter = g.alignHorizontalSpaceBetween;
+  @Deprecated('use alignHorizontalSpaceBetween')
+  static const IconMindData alignHorizontalJustifyCenter = g.alignHorizontalSpaceBetween;
   static const IconMindData alignLeft = g.alignLeft;
+  @Deprecated('use alignLeft')
+  static const IconMindData textAlignStart = g.alignLeft;
   static const IconMindData alignLeftObj = g.alignLeftObj;
   static const IconMindData alignRight = g.alignRight;
+  @Deprecated('use alignRight')
+  static const IconMindData textAlignEnd = g.alignRight;
+  static const IconMindData alignStartHorizontal = g.alignStartHorizontal;
+  static const IconMindData alignStartVertical = g.alignStartVertical;
+  static const IconMindData alignVerticalSpaceBetween = g.alignVerticalSpaceBetween;
+  @Deprecated('use alignVerticalSpaceBetween')
+  static const IconMindData alignVerticalDistributeCenter = g.alignVerticalSpaceBetween;
+  @Deprecated('use alignVerticalSpaceBetween')
+  static const IconMindData alignVerticalJustifyCenter = g.alignVerticalSpaceBetween;
   static const IconMindData alignment = g.alignment;
   static const IconMindData analyticsPage = g.analyticsPage;
   static const IconMindData annSearch = g.annSearch;
@@ -200,17 +224,58 @@ abstract final class IconMindIcons {
   static const IconMindData arrowBack = g.arrowBack;
   @Deprecated('use arrowBack')
   static const IconMindData previous = g.arrowBack;
+  static const IconMindData arrowBigDown = g.arrowBigDown;
+  @Deprecated('use arrowBigDown')
+  static const IconMindData arrowBigDownDash = g.arrowBigDown;
+  static const IconMindData arrowBigLeft = g.arrowBigLeft;
+  @Deprecated('use arrowBigLeft')
+  static const IconMindData arrowBigLeftDash = g.arrowBigLeft;
+  static const IconMindData arrowBigRight = g.arrowBigRight;
+  @Deprecated('use arrowBigRight')
+  static const IconMindData arrowBigRightDash = g.arrowBigRight;
+  static const IconMindData arrowBigUp = g.arrowBigUp;
+  @Deprecated('use arrowBigUp')
+  static const IconMindData arrowBigUpDash = g.arrowBigUp;
   static const IconMindData arrowDown = g.arrowDown;
+  static const IconMindData arrowDownFromLine = g.arrowDownFromLine;
+  @Deprecated('use arrowDownFromLine')
+  static const IconMindData moveDown = g.arrowDownFromLine;
+  static const IconMindData arrowDownLeft = g.arrowDownLeft;
+  static const IconMindData arrowDownRight = g.arrowDownRight;
+  static const IconMindData arrowDownToDot = g.arrowDownToDot;
+  static const IconMindData arrowDownToLine = g.arrowDownToLine;
+  static const IconMindData arrowDownUp = g.arrowDownUp;
   static const IconMindData arrowExternal = g.arrowExternal;
   @Deprecated('use arrowExternal')
   static const IconMindData arrowUpRight = g.arrowExternal;
   static const IconMindData arrowLeft = g.arrowLeft;
   @Deprecated('use arrowLeft')
   static const IconMindData back = g.arrowLeft;
+  static const IconMindData arrowLeftFromLine = g.arrowLeftFromLine;
+  @Deprecated('use arrowLeftFromLine')
+  static const IconMindData moveLeft = g.arrowLeftFromLine;
+  static const IconMindData arrowLeftRight = g.arrowLeftRight;
+  @Deprecated('use arrowLeftRight')
+  static const IconMindData moveHorizontal = g.arrowLeftRight;
+  static const IconMindData arrowLeftToLine = g.arrowLeftToLine;
   static const IconMindData arrowRight = g.arrowRight;
   @Deprecated('use arrowRight')
   static const IconMindData arrow = g.arrowRight;
+  static const IconMindData arrowRightFromLine = g.arrowRightFromLine;
+  @Deprecated('use arrowRightFromLine')
+  static const IconMindData moveRight = g.arrowRightFromLine;
+  static const IconMindData arrowRightLeft = g.arrowRightLeft;
+  static const IconMindData arrowRightToLine = g.arrowRightToLine;
   static const IconMindData arrowUp = g.arrowUp;
+  static const IconMindData arrowUpDown = g.arrowUpDown;
+  @Deprecated('use arrowUpDown')
+  static const IconMindData moveVertical = g.arrowUpDown;
+  static const IconMindData arrowUpFromDot = g.arrowUpFromDot;
+  static const IconMindData arrowUpFromLine = g.arrowUpFromLine;
+  @Deprecated('use arrowUpFromLine')
+  static const IconMindData moveUp = g.arrowUpFromLine;
+  static const IconMindData arrowUpLeft = g.arrowUpLeft;
+  static const IconMindData arrowUpToLine = g.arrowUpToLine;
   static const IconMindData artboard = g.artboard;
   static const IconMindData artifact = g.artifact;
   static const IconMindData assertCheck = g.assertCheck;
@@ -285,6 +350,16 @@ abstract final class IconMindIcons {
   static const IconMindData bell = g.bell;
   @Deprecated('use bell')
   static const IconMindData notification = g.bell;
+  static const IconMindData bellAdd = g.bellAdd;
+  @Deprecated('use bellAdd')
+  static const IconMindData bellPlus = g.bellAdd;
+  static const IconMindData bellCheck = g.bellCheck;
+  static const IconMindData bellDot = g.bellDot;
+  static const IconMindData bellOff = g.bellOff;
+  static const IconMindData bellRemove = g.bellRemove;
+  @Deprecated('use bellRemove')
+  static const IconMindData bellMinus = g.bellRemove;
+  static const IconMindData bellRing = g.bellRing;
   static const IconMindData benchRun = g.benchRun;
   static const IconMindData benchmark = g.benchmark;
   static const IconMindData benchmarkCode = g.benchmarkCode;
@@ -378,11 +453,27 @@ abstract final class IconMindIcons {
   static const IconMindData calendarAdd = g.calendarAdd;
   static const IconMindData calendarAlert = g.calendarAlert;
   static const IconMindData calendarCheck = g.calendarCheck;
+  static const IconMindData calendarClock = g.calendarClock;
+  static const IconMindData calendarDays = g.calendarDays;
+  static const IconMindData calendarDown = g.calendarDown;
+  @Deprecated('use calendarDown')
+  static const IconMindData calendarArrowDown = g.calendarDown;
+  static const IconMindData calendarHeart = g.calendarHeart;
   static const IconMindData calendarOff = g.calendarOff;
   @Deprecated('use calendarOff')
   static const IconMindData calendarX = g.calendarOff;
+  static const IconMindData calendarRemove = g.calendarRemove;
+  @Deprecated('use calendarRemove')
+  static const IconMindData calendarMinus = g.calendarRemove;
+  @Deprecated('use calendarRemove')
+  static const IconMindData calendarMinus2 = g.calendarRemove;
   static const IconMindData calendarRun = g.calendarRun;
+  static const IconMindData calendarSearch = g.calendarSearch;
+  static const IconMindData calendarSync = g.calendarSync;
   static const IconMindData calendarTrigger = g.calendarTrigger;
+  static const IconMindData calendarUp = g.calendarUp;
+  @Deprecated('use calendarUp')
+  static const IconMindData calendarArrowUp = g.calendarUp;
   static const IconMindData calibration = g.calibration;
   static const IconMindData callStack = g.callStack;
   static const IconMindData callout = g.callout;
@@ -433,21 +524,52 @@ abstract final class IconMindIcons {
   static const IconMindData bars = g.chartBar;
   @Deprecated('use chartBar')
   static const IconMindData chart = g.chartBar;
+  @Deprecated('use chartBar')
+  static const IconMindData chartColumn = g.chartBar;
+  @Deprecated('use chartBar')
+  static const IconMindData barChart = g.chartBar;
+  @Deprecated('use chartBar')
+  static const IconMindData barChart2 = g.chartBar;
+  static const IconMindData chartBarDecreasing = g.chartBarDecreasing;
+  static const IconMindData chartBarHorizontal = g.chartBarHorizontal;
+  @Deprecated('use chartBarHorizontal')
+  static const IconMindData chartBarBig = g.chartBarHorizontal;
+  @Deprecated('use chartBarHorizontal')
+  static const IconMindData barChartHorizontal = g.chartBarHorizontal;
+  @Deprecated('use chartBarHorizontal')
+  static const IconMindData barChartHorizontalBig = g.chartBarHorizontal;
+  static const IconMindData chartBarIncreasing = g.chartBarIncreasing;
+  static const IconMindData chartBarStacked = g.chartBarStacked;
   static const IconMindData chartBubble = g.chartBubble;
   static const IconMindData chartCandlestick = g.chartCandlestick;
   @Deprecated('use chartCandlestick')
   static const IconMindData ohlc = g.chartCandlestick;
+  static const IconMindData chartColumnDecreasing = g.chartColumnDecreasing;
+  @Deprecated('use chartColumnDecreasing')
+  static const IconMindData chartNoAxesColumnDecreasing = g.chartColumnDecreasing;
+  static const IconMindData chartColumnIncreasing = g.chartColumnIncreasing;
+  @Deprecated('use chartColumnIncreasing')
+  static const IconMindData chartNoAxesColumnIncreasing = g.chartColumnIncreasing;
+  static const IconMindData chartColumnStacked = g.chartColumnStacked;
   static const IconMindData chartCombo = g.chartCombo;
   static const IconMindData chartDonut = g.chartDonut;
   @Deprecated('use chartDonut')
   static const IconMindData donut = g.chartDonut;
   static const IconMindData chartDumbbell = g.chartDumbbell;
   static const IconMindData chartFunnel = g.chartFunnel;
+  static const IconMindData chartGantt = g.chartGantt;
+  @Deprecated('use chartGantt')
+  static const IconMindData squareGanttChart = g.chartGantt;
+  @Deprecated('use chartGantt')
+  static const IconMindData squareChartGantt = g.chartGantt;
   static const IconMindData chartGauge = g.chartGauge;
   static const IconMindData chartHeatmap = g.chartHeatmap;
   static const IconMindData chartLine = g.chartLine;
   @Deprecated('use chartLine')
   static const IconMindData trend = g.chartLine;
+  @Deprecated('use chartLine')
+  static const IconMindData chartSplineLine = g.chartLine;
+  static const IconMindData chartNoAxesColumn = g.chartNoAxesColumn;
   static const IconMindData chartPie = g.chartPie;
   @Deprecated('use chartPie')
   static const IconMindData pie = g.chartPie;
@@ -458,9 +580,20 @@ abstract final class IconMindIcons {
   static const IconMindData chartRadial = g.chartRadial;
   static const IconMindData chartSankey = g.chartSankey;
   static const IconMindData chartScatter = g.chartScatter;
+  static const IconMindData chartSpline = g.chartSpline;
   static const IconMindData chartTimeline = g.chartTimeline;
   static const IconMindData chartTreemap = g.chartTreemap;
   static const IconMindData chartWaterfall = g.chartWaterfall;
+  static const IconMindData chatAdd = g.chatAdd;
+  @Deprecated('use chatAdd')
+  static const IconMindData messageSquarePlus = g.chatAdd;
+  @Deprecated('use chatAdd')
+  static const IconMindData messageCirclePlus = g.chatAdd;
+  static const IconMindData chatAlert = g.chatAlert;
+  @Deprecated('use chatAlert')
+  static const IconMindData messageSquareWarning = g.chatAlert;
+  @Deprecated('use chatAlert')
+  static const IconMindData messageCircleWarning = g.chatAlert;
   static const IconMindData chatBot = g.chatBot;
   static const IconMindData chatCancel = g.chatCancel;
   @Deprecated('use chatCancel')
@@ -471,6 +604,12 @@ abstract final class IconMindIcons {
   static const IconMindData chatCode = g.chatCode;
   @Deprecated('use chatCode')
   static const IconMindData messageSquareCode = g.chatCode;
+  static const IconMindData chatDiff = g.chatDiff;
+  @Deprecated('use chatDiff')
+  static const IconMindData messageSquareDiff = g.chatDiff;
+  static const IconMindData chatDot = g.chatDot;
+  @Deprecated('use chatDot')
+  static const IconMindData messageSquareDot = g.chatDot;
   static const IconMindData chatForward = g.chatForward;
   @Deprecated('use chatForward')
   static const IconMindData messageSquareShare = g.chatForward;
@@ -481,10 +620,23 @@ abstract final class IconMindIcons {
   static const IconMindData chatLock = g.chatLock;
   @Deprecated('use chatLock')
   static const IconMindData messageSquareLock = g.chatLock;
+  static const IconMindData chatMore = g.chatMore;
+  @Deprecated('use chatMore')
+  static const IconMindData messageSquareMore = g.chatMore;
+  @Deprecated('use chatMore')
+  static const IconMindData messageCircleMore = g.chatMore;
   static const IconMindData chatMute = g.chatMute;
   @Deprecated('use chatMute')
   static const IconMindData messageCircleOff = g.chatMute;
   static const IconMindData chatPin = g.chatPin;
+  static const IconMindData chatQuote = g.chatQuote;
+  @Deprecated('use chatQuote')
+  static const IconMindData messageSquareQuote = g.chatQuote;
+  static const IconMindData chatRemove = g.chatRemove;
+  @Deprecated('use chatRemove')
+  static const IconMindData messageSquareMinus = g.chatRemove;
+  @Deprecated('use chatRemove')
+  static const IconMindData messageCircleMinus = g.chatRemove;
   static const IconMindData chatReply = g.chatReply;
   @Deprecated('use chatReply')
   static const IconMindData messageSquareReply = g.chatReply;
@@ -508,11 +660,20 @@ abstract final class IconMindIcons {
   static const IconMindData chevronDown = g.chevronDown;
   @Deprecated('use chevronDown')
   static const IconMindData dropdown = g.chevronDown;
+  static const IconMindData chevronFirst = g.chevronFirst;
+  static const IconMindData chevronLast = g.chevronLast;
   static const IconMindData chevronLeft = g.chevronLeft;
   static const IconMindData chevronRight = g.chevronRight;
   @Deprecated('use chevronRight')
   static const IconMindData next = g.chevronRight;
   static const IconMindData chevronUp = g.chevronUp;
+  static const IconMindData chevronsDown = g.chevronsDown;
+  static const IconMindData chevronsDownUp = g.chevronsDownUp;
+  static const IconMindData chevronsLeft = g.chevronsLeft;
+  static const IconMindData chevronsLeftRight = g.chevronsLeftRight;
+  static const IconMindData chevronsRight = g.chevronsRight;
+  static const IconMindData chevronsRightLeft = g.chevronsRightLeft;
+  static const IconMindData chevronsUpDown = g.chevronsUpDown;
   static const IconMindData childChunk = g.childChunk;
   static const IconMindData chip = g.chip;
   @Deprecated('use chip')
@@ -550,6 +711,22 @@ abstract final class IconMindIcons {
   static const IconMindData cli = g.cli;
   static const IconMindData client = g.client;
   static const IconMindData clipboard = g.clipboard;
+  static const IconMindData clipboardCheck = g.clipboardCheck;
+  static const IconMindData clipboardClock = g.clipboardClock;
+  static const IconMindData clipboardCopy = g.clipboardCopy;
+  static const IconMindData clipboardEdit = g.clipboardEdit;
+  @Deprecated('use clipboardEdit')
+  static const IconMindData clipboardPen = g.clipboardEdit;
+  @Deprecated('use clipboardEdit')
+  static const IconMindData clipboardPenLine = g.clipboardEdit;
+  static const IconMindData clipboardList = g.clipboardList;
+  static const IconMindData clipboardRemove = g.clipboardRemove;
+  @Deprecated('use clipboardRemove')
+  static const IconMindData clipboardMinus = g.clipboardRemove;
+  @Deprecated('use clipboardRemove')
+  static const IconMindData clipboardX = g.clipboardRemove;
+  static const IconMindData clipboardSignature = g.clipboardSignature;
+  static const IconMindData clipboardType = g.clipboardType;
   static const IconMindData clock = g.clock;
   @Deprecated('use clock')
   static const IconMindData time = g.clock;
@@ -563,12 +740,17 @@ abstract final class IconMindIcons {
   static const IconMindData hosted = g.cloud;
   static const IconMindData cloudAdd = g.cloudAdd;
   static const IconMindData cloudAlert = g.cloudAlert;
+  static const IconMindData cloudBackup = g.cloudBackup;
   static const IconMindData cloudCheck = g.cloudCheck;
+  static const IconMindData cloudConfig = g.cloudConfig;
+  @Deprecated('use cloudConfig')
+  static const IconMindData cloudCog = g.cloudConfig;
   static const IconMindData cloudOff = g.cloudOff;
   @Deprecated('use cloudOff')
   static const IconMindData offline = g.cloudOff;
   @Deprecated('use cloudOff')
   static const IconMindData cloudX = g.cloudOff;
+  static const IconMindData cloudSync = g.cloudSync;
   static const IconMindData cluster = g.cluster;
   @Deprecated('use cluster')
   static const IconMindData nodes = g.cluster;
@@ -599,6 +781,8 @@ abstract final class IconMindIcons {
   static const IconMindData columns = g.columns;
   static const IconMindData combobox = g.combobox;
   static const IconMindData command = g.command;
+  @Deprecated('use command')
+  static const IconMindData cornerDownLeft = g.command;
   static const IconMindData communication = g.communication;
   static const IconMindData compaction = g.compaction;
   static const IconMindData comparison = g.comparison;
@@ -688,10 +872,19 @@ abstract final class IconMindIcons {
   static const IconMindData conversion = g.conversion;
   static const IconMindData copy = g.copy;
   static const IconMindData cordon = g.cordon;
+  static const IconMindData cornerDownRight = g.cornerDownRight;
+  static const IconMindData cornerLeftDown = g.cornerLeftDown;
+  static const IconMindData cornerLeftUp = g.cornerLeftUp;
   static const IconMindData cornerRadius = g.cornerRadius;
+  static const IconMindData cornerRightDown = g.cornerRightDown;
+  static const IconMindData cornerRightUp = g.cornerRightUp;
+  static const IconMindData cornerUpLeft = g.cornerUpLeft;
+  static const IconMindData cornerUpRight = g.cornerUpRight;
   static const IconMindData corpus = g.corpus;
   @Deprecated('use corpus')
   static const IconMindData collection = g.corpus;
+  @Deprecated('use corpus')
+  static const IconMindData fileStack = g.corpus;
   static const IconMindData corpusAdd = g.corpusAdd;
   static const IconMindData cosine = g.cosine;
   static const IconMindData cost = g.cost;
@@ -771,6 +964,20 @@ abstract final class IconMindIcons {
   static const IconMindData database = g.database;
   @Deprecated('use database')
   static const IconMindData db = g.database;
+  static const IconMindData databaseAdd = g.databaseAdd;
+  @Deprecated('use databaseAdd')
+  static const IconMindData databasePlus = g.databaseAdd;
+  static const IconMindData databaseArrowDown = g.databaseArrowDown;
+  static const IconMindData databaseArrowUp = g.databaseArrowUp;
+  static const IconMindData databaseBackup = g.databaseBackup;
+  static const IconMindData databaseCheck = g.databaseCheck;
+  static const IconMindData databaseRemove = g.databaseRemove;
+  @Deprecated('use databaseRemove')
+  static const IconMindData databaseMinus = g.databaseRemove;
+  @Deprecated('use databaseRemove')
+  static const IconMindData databaseX = g.databaseRemove;
+  static const IconMindData databaseSearch = g.databaseSearch;
+  static const IconMindData databaseZap = g.databaseZap;
   static const IconMindData dataset = g.dataset;
   static const IconMindData datasetCard = g.datasetCard;
   static const IconMindData datasetSplit = g.datasetSplit;
@@ -883,6 +1090,8 @@ abstract final class IconMindIcons {
   static const IconMindData file = g.document;
   @Deprecated('use document')
   static const IconMindData page = g.document;
+  @Deprecated('use document')
+  static const IconMindData fileText = g.document;
   static const IconMindData documentAdd = g.documentAdd;
   @Deprecated('use documentAdd')
   static const IconMindData newFile = g.documentAdd;
@@ -891,15 +1100,106 @@ abstract final class IconMindIcons {
   static const IconMindData documentAlert = g.documentAlert;
   @Deprecated('use documentAlert')
   static const IconMindData fileWarning = g.documentAlert;
+  static const IconMindData documentArchive = g.documentArchive;
+  @Deprecated('use documentArchive')
+  static const IconMindData fileArchive = g.documentArchive;
+  static const IconMindData documentAudio = g.documentAudio;
+  @Deprecated('use documentAudio')
+  static const IconMindData fileAudio = g.documentAudio;
+  @Deprecated('use documentAudio')
+  static const IconMindData fileMusic = g.documentAudio;
+  @Deprecated('use documentAudio')
+  static const IconMindData fileVolume = g.documentAudio;
+  static const IconMindData documentBadge = g.documentBadge;
+  @Deprecated('use documentBadge')
+  static const IconMindData fileBadge = g.documentBadge;
+  @Deprecated('use documentBadge')
+  static const IconMindData fileBadge2 = g.documentBadge;
+  static const IconMindData documentChart = g.documentChart;
+  @Deprecated('use documentChart')
+  static const IconMindData fileBarChart = g.documentChart;
+  @Deprecated('use documentChart')
+  static const IconMindData fileChartColumn = g.documentChart;
+  @Deprecated('use documentChart')
+  static const IconMindData fileLineChart = g.documentChart;
+  @Deprecated('use documentChart')
+  static const IconMindData filePieChart = g.documentChart;
   static const IconMindData documentCheck = g.documentCheck;
   @Deprecated('use documentCheck')
   static const IconMindData fileCheck = g.documentCheck;
+  static const IconMindData documentClock = g.documentClock;
+  @Deprecated('use documentClock')
+  static const IconMindData fileClock = g.documentClock;
+  static const IconMindData documentConfig = g.documentConfig;
+  @Deprecated('use documentConfig')
+  static const IconMindData fileCog = g.documentConfig;
+  @Deprecated('use documentConfig')
+  static const IconMindData fileSliders = g.documentConfig;
+  static const IconMindData documentDown = g.documentDown;
+  @Deprecated('use documentDown')
+  static const IconMindData fileDown = g.documentDown;
+  static const IconMindData documentEdit = g.documentEdit;
+  @Deprecated('use documentEdit')
+  static const IconMindData filePen = g.documentEdit;
+  @Deprecated('use documentEdit')
+  static const IconMindData filePenLine = g.documentEdit;
+  @Deprecated('use documentEdit')
+  static const IconMindData fileEdit = g.documentEdit;
+  static const IconMindData documentHeart = g.documentHeart;
+  @Deprecated('use documentHeart')
+  static const IconMindData fileHeart = g.documentHeart;
+  static const IconMindData documentImage = g.documentImage;
+  @Deprecated('use documentImage')
+  static const IconMindData fileImage = g.documentImage;
+  static const IconMindData documentInput = g.documentInput;
+  @Deprecated('use documentInput')
+  static const IconMindData fileInput = g.documentInput;
+  static const IconMindData documentJson = g.documentJson;
+  @Deprecated('use documentJson')
+  static const IconMindData fileJson = g.documentJson;
+  @Deprecated('use documentJson')
+  static const IconMindData fileBraces = g.documentJson;
+  static const IconMindData documentLock = g.documentLock;
+  @Deprecated('use documentLock')
+  static const IconMindData fileLock = g.documentLock;
   static const IconMindData documentOff = g.documentOff;
   @Deprecated('use documentOff')
   static const IconMindData fileX = g.documentOff;
+  static const IconMindData documentOutput = g.documentOutput;
+  @Deprecated('use documentOutput')
+  static const IconMindData fileOutput = g.documentOutput;
   static const IconMindData documentParse = g.documentParse;
+  static const IconMindData documentQuestion = g.documentQuestion;
+  @Deprecated('use documentQuestion')
+  static const IconMindData fileQuestion = g.documentQuestion;
+  @Deprecated('use documentQuestion')
+  static const IconMindData fileQuestionMark = g.documentQuestion;
+  static const IconMindData documentRemove = g.documentRemove;
+  @Deprecated('use documentRemove')
+  static const IconMindData fileMinus = g.documentRemove;
+  static const IconMindData documentScan = g.documentScan;
+  @Deprecated('use documentScan')
+  static const IconMindData fileScan = g.documentScan;
+  static const IconMindData documentSearch = g.documentSearch;
+  @Deprecated('use documentSearch')
+  static const IconMindData fileSearch = g.documentSearch;
   static const IconMindData documentSplit = g.documentSplit;
+  static const IconMindData documentSpreadsheet = g.documentSpreadsheet;
+  @Deprecated('use documentSpreadsheet')
+  static const IconMindData fileSpreadsheet = g.documentSpreadsheet;
   static const IconMindData documentStore = g.documentStore;
+  static const IconMindData documentTerminal = g.documentTerminal;
+  @Deprecated('use documentTerminal')
+  static const IconMindData fileTerminal = g.documentTerminal;
+  static const IconMindData documentType = g.documentType;
+  @Deprecated('use documentType')
+  static const IconMindData fileType = g.documentType;
+  static const IconMindData documentUp = g.documentUp;
+  @Deprecated('use documentUp')
+  static const IconMindData fileUp = g.documentUp;
+  static const IconMindData documentUser = g.documentUser;
+  @Deprecated('use documentUser')
+  static const IconMindData fileUser = g.documentUser;
   static const IconMindData donate = g.donate;
   static const IconMindData doneAll = g.doneAll;
   static const IconMindData dormantAccount = g.dormantAccount;
@@ -958,6 +1258,10 @@ abstract final class IconMindIcons {
   static const IconMindData outbound = g.egress;
   static const IconMindData egressFee = g.egressFee;
   static const IconMindData elicitation = g.elicitation;
+  @Deprecated('use elicitation')
+  static const IconMindData messageCircleQuestion = g.elicitation;
+  @Deprecated('use elicitation')
+  static const IconMindData messageCircleQuestionMark = g.elicitation;
   static const IconMindData elo = g.elo;
   @Deprecated('use elo')
   static const IconMindData eloRating = g.elo;
@@ -1163,11 +1467,46 @@ abstract final class IconMindIcons {
   @Deprecated('use folderAdd')
   static const IconMindData newFolder = g.folderAdd;
   static const IconMindData folderAlert = g.folderAlert;
+  static const IconMindData folderArchive = g.folderArchive;
   static const IconMindData folderCheck = g.folderCheck;
+  static const IconMindData folderClock = g.folderClock;
+  static const IconMindData folderCode = g.folderCode;
+  static const IconMindData folderConfig = g.folderConfig;
+  @Deprecated('use folderConfig')
+  static const IconMindData folderCog = g.folderConfig;
+  @Deprecated('use folderConfig')
+  static const IconMindData folderCog2 = g.folderConfig;
+  static const IconMindData folderDot = g.folderDot;
+  @Deprecated('use folderDot')
+  static const IconMindData folderOpenDot = g.folderDot;
+  static const IconMindData folderDown = g.folderDown;
+  static const IconMindData folderEdit = g.folderEdit;
+  @Deprecated('use folderEdit')
+  static const IconMindData folderPen = g.folderEdit;
+  static const IconMindData folderGit = g.folderGit;
+  @Deprecated('use folderGit')
+  static const IconMindData folderGit2 = g.folderGit;
+  static const IconMindData folderHeart = g.folderHeart;
+  static const IconMindData folderInput = g.folderInput;
+  static const IconMindData folderKanban = g.folderKanban;
+  static const IconMindData folderKey = g.folderKey;
+  static const IconMindData folderLock = g.folderLock;
   static const IconMindData folderOff = g.folderOff;
   @Deprecated('use folderOff')
   static const IconMindData folderX = g.folderOff;
   static const IconMindData folderOpen = g.folderOpen;
+  static const IconMindData folderOutput = g.folderOutput;
+  static const IconMindData folderRemove = g.folderRemove;
+  @Deprecated('use folderRemove')
+  static const IconMindData folderMinus = g.folderRemove;
+  static const IconMindData folderRoot = g.folderRoot;
+  static const IconMindData folderSearch = g.folderSearch;
+  @Deprecated('use folderSearch')
+  static const IconMindData folderSearch2 = g.folderSearch;
+  static const IconMindData folderSymlink = g.folderSymlink;
+  static const IconMindData folderSync = g.folderSync;
+  static const IconMindData folderTree = g.folderTree;
+  static const IconMindData folderUp = g.folderUp;
   static const IconMindData forEach = g.forEach;
   static const IconMindData forecast = g.forecast;
   @Deprecated('use forecast')
@@ -1223,12 +1562,32 @@ abstract final class IconMindIcons {
   static const IconMindData geoKey = g.geoKey;
   static const IconMindData geofence = g.geofence;
   static const IconMindData gitBisect = g.gitBisect;
+  static const IconMindData gitBranchAdd = g.gitBranchAdd;
+  @Deprecated('use gitBranchAdd')
+  static const IconMindData gitBranchPlus = g.gitBranchAdd;
+  static const IconMindData gitBranchRemove = g.gitBranchRemove;
+  @Deprecated('use gitBranchRemove')
+  static const IconMindData gitBranchMinus = g.gitBranchRemove;
   static const IconMindData gitCommit = g.gitCommit;
   @Deprecated('use gitCommit')
   static const IconMindData commit = g.gitCommit;
+  static const IconMindData gitCommitVertical = g.gitCommitVertical;
+  static const IconMindData gitCompare = g.gitCompare;
+  @Deprecated('use gitCompare')
+  static const IconMindData gitCompareArrows = g.gitCompare;
+  static const IconMindData gitFork = g.gitFork;
   static const IconMindData gitMerge = g.gitMerge;
   @Deprecated('use gitMerge')
   static const IconMindData merge = g.gitMerge;
+  static const IconMindData gitMergeConflict = g.gitMergeConflict;
+  static const IconMindData gitPullRequest = g.gitPullRequest;
+  @Deprecated('use gitPullRequest')
+  static const IconMindData gitPullRequestArrow = g.gitPullRequest;
+  static const IconMindData gitPullRequestClosed = g.gitPullRequestClosed;
+  static const IconMindData gitPullRequestCreate = g.gitPullRequestCreate;
+  @Deprecated('use gitPullRequestCreate')
+  static const IconMindData gitPullRequestCreateArrow = g.gitPullRequestCreate;
+  static const IconMindData gitPullRequestDraft = g.gitPullRequestDraft;
   static const IconMindData glacierTier = g.glacierTier;
   @Deprecated('use glacierTier')
   static const IconMindData coldTier = g.glacierTier;
@@ -1279,6 +1638,15 @@ abstract final class IconMindIcons {
   static const IconMindData grid = g.grid;
   @Deprecated('use grid')
   static const IconMindData tiles = g.grid;
+  @Deprecated('use grid')
+  static const IconMindData layoutGrid = g.grid;
+  static const IconMindData grid2x2Add = g.grid2x2Add;
+  @Deprecated('use grid2x2Add')
+  static const IconMindData grid2x2Plus = g.grid2x2Add;
+  static const IconMindData grid2x2Check = g.grid2x2Check;
+  static const IconMindData grid2x2Remove = g.grid2x2Remove;
+  @Deprecated('use grid2x2Remove')
+  static const IconMindData grid2x2X = g.grid2x2Remove;
   static const IconMindData gridView = g.gridView;
   @Deprecated('use gridView')
   static const IconMindData grid2x2 = g.gridView;
@@ -1302,6 +1670,13 @@ abstract final class IconMindIcons {
   static const IconMindData vibration = g.haptic;
   static const IconMindData harmCategory = g.harmCategory;
   static const IconMindData hazard = g.hazard;
+  static const IconMindData heading = g.heading;
+  @Deprecated('use heading')
+  static const IconMindData heading1 = g.heading;
+  @Deprecated('use heading')
+  static const IconMindData heading2 = g.heading;
+  @Deprecated('use heading')
+  static const IconMindData heading3 = g.heading;
   static const IconMindData headphones = g.headphones;
   static const IconMindData healthCheck = g.healthCheck;
   @Deprecated('use healthCheck')
@@ -1342,6 +1717,12 @@ abstract final class IconMindIcons {
   static const IconMindData hotfix = g.hotfix;
   static const IconMindData hotkey = g.hotkey;
   static const IconMindData humanApproval = g.humanApproval;
+  @Deprecated('use humanApproval')
+  static const IconMindData userCheck = g.humanApproval;
+  @Deprecated('use humanApproval')
+  static const IconMindData userCheck2 = g.humanApproval;
+  @Deprecated('use humanApproval')
+  static const IconMindData userRoundCheck = g.humanApproval;
   static const IconMindData humanEval = g.humanEval;
   static const IconMindData humanInTheLoop = g.humanInTheLoop;
   static const IconMindData humanLoop = g.humanLoop;
@@ -1521,6 +1902,8 @@ abstract final class IconMindIcons {
   @Deprecated('use layers')
   static const IconMindData stack = g.layers;
   static const IconMindData layout = g.layout;
+  static const IconMindData layoutDashboard = g.layoutDashboard;
+  static const IconMindData layoutFreeform = g.layoutFreeform;
   static const IconMindData lazyImport = g.lazyImport;
   @Deprecated('use lazyImport')
   static const IconMindData dynamicImport = g.lazyImport;
@@ -1547,12 +1930,34 @@ abstract final class IconMindIcons {
   static const IconMindData lintRun = g.lintRun;
   static const IconMindData lipSync = g.lipSync;
   static const IconMindData list = g.list;
+  static const IconMindData listAdd = g.listAdd;
+  @Deprecated('use listAdd')
+  static const IconMindData listPlus = g.listAdd;
   static const IconMindData listAlert = g.listAlert;
+  static const IconMindData listCheck = g.listCheck;
+  static const IconMindData listChecks = g.listChecks;
   static const IconMindData listCollapse = g.listCollapse;
   @Deprecated('use listCollapse')
   static const IconMindData listChevronsDownUp = g.listCollapse;
+  static const IconMindData listFilter = g.listFilter;
+  @Deprecated('use listFilter')
+  static const IconMindData listFilterPlus = g.listFilter;
+  static const IconMindData listIndentDecrease = g.listIndentDecrease;
+  static const IconMindData listIndentIncrease = g.listIndentIncrease;
+  static const IconMindData listRemove = g.listRemove;
+  @Deprecated('use listRemove')
+  static const IconMindData listMinus = g.listRemove;
+  @Deprecated('use listRemove')
+  static const IconMindData listX = g.listRemove;
+  static const IconMindData listTodo = g.listTodo;
+  static const IconMindData listTree = g.listTree;
   static const IconMindData listTrend = g.listTrend;
+  static const IconMindData listVideo = g.listVideo;
+  @Deprecated('use listVideo')
+  static const IconMindData listMusic = g.listVideo;
   static const IconMindData listView = g.listView;
+  @Deprecated('use listView')
+  static const IconMindData layoutList = g.listView;
   static const IconMindData listbox = g.listbox;
   static const IconMindData liveView = g.liveView;
   static const IconMindData liveness = g.liveness;
@@ -1592,6 +1997,10 @@ abstract final class IconMindIcons {
   static const IconMindData lockedTrigger = g.lockedTrigger;
   static const IconMindData lockfile = g.lockfile;
   static const IconMindData lockfileTool = g.lockfileTool;
+  @Deprecated('use lockfileTool')
+  static const IconMindData documentKey = g.lockfileTool;
+  @Deprecated('use lockfileTool')
+  static const IconMindData fileKey = g.lockfileTool;
   static const IconMindData log = g.log;
   @Deprecated('use log')
   static const IconMindData logs = g.log;
@@ -1627,6 +2036,24 @@ abstract final class IconMindIcons {
   static const IconMindData mail = g.mail;
   @Deprecated('use mail')
   static const IconMindData email = g.mail;
+  static const IconMindData mailAdd = g.mailAdd;
+  @Deprecated('use mailAdd')
+  static const IconMindData mailPlus = g.mailAdd;
+  static const IconMindData mailAlert = g.mailAlert;
+  @Deprecated('use mailAlert')
+  static const IconMindData mailWarning = g.mailAlert;
+  static const IconMindData mailBadge = g.mailBadge;
+  static const IconMindData mailCheck = g.mailCheck;
+  static const IconMindData mailClock = g.mailClock;
+  static const IconMindData mailOpen = g.mailOpen;
+  static const IconMindData mailQuestion = g.mailQuestion;
+  @Deprecated('use mailQuestion')
+  static const IconMindData mailQuestionMark = g.mailQuestion;
+  static const IconMindData mailRemove = g.mailRemove;
+  @Deprecated('use mailRemove')
+  static const IconMindData mailMinus = g.mailRemove;
+  @Deprecated('use mailRemove')
+  static const IconMindData mailX = g.mailRemove;
   static const IconMindData malware = g.malware;
   @Deprecated('use malware')
   static const IconMindData virus = g.malware;
@@ -1737,6 +2164,10 @@ abstract final class IconMindIcons {
   static const IconMindData menu = g.menu;
   @Deprecated('use menu')
   static const IconMindData hamburger = g.menu;
+  @Deprecated('use menu')
+  static const IconMindData alignJustify = g.menu;
+  @Deprecated('use menu')
+  static const IconMindData textAlignJustify = g.menu;
   static const IconMindData meshGen = g.meshGen;
   static const IconMindData message = g.message;
   @Deprecated('use message')
@@ -1748,6 +2179,8 @@ abstract final class IconMindIcons {
   @Deprecated('use messageSplit')
   static const IconMindData splitterFlow = g.messageSplit;
   static const IconMindData messageThread = g.messageThread;
+  @Deprecated('use messageThread')
+  static const IconMindData messageSquareText = g.messageThread;
   static const IconMindData metadataStore = g.metadataStore;
   static const IconMindData metric = g.metric;
   static const IconMindData metricCard = g.metricCard;
@@ -1825,6 +2258,17 @@ abstract final class IconMindIcons {
   static const IconMindData monitor = g.monitor;
   @Deprecated('use monitor')
   static const IconMindData screen = g.monitor;
+  static const IconMindData monitorCheck = g.monitorCheck;
+  static const IconMindData monitorConfig = g.monitorConfig;
+  @Deprecated('use monitorConfig')
+  static const IconMindData monitorCog = g.monitorConfig;
+  static const IconMindData monitorDot = g.monitorDot;
+  static const IconMindData monitorDown = g.monitorDown;
+  static const IconMindData monitorOff = g.monitorOff;
+  static const IconMindData monitorPause = g.monitorPause;
+  static const IconMindData monitorPlay = g.monitorPlay;
+  static const IconMindData monitorStop = g.monitorStop;
+  static const IconMindData monitorUp = g.monitorUp;
   static const IconMindData monorepo = g.monorepo;
   static const IconMindData moon = g.moon;
   @Deprecated('use moon')
@@ -1838,6 +2282,9 @@ abstract final class IconMindIcons {
   static const IconMindData move = g.move;
   @Deprecated('use move')
   static const IconMindData drag = g.move;
+  static const IconMindData moveDiagonal = g.moveDiagonal;
+  @Deprecated('use moveDiagonal')
+  static const IconMindData moveDiagonal2 = g.moveDiagonal;
   static const IconMindData moveLabel = g.moveLabel;
   static const IconMindData movePin = g.movePin;
   static const IconMindData multiAgent = g.multiAgent;
@@ -1929,6 +2376,8 @@ abstract final class IconMindIcons {
   @Deprecated('use onCall')
   static const IconMindData oncall = g.onCall;
   static const IconMindData onTime = g.onTime;
+  @Deprecated('use onTime')
+  static const IconMindData clockCheck = g.onTime;
   static const IconMindData oneHot = g.oneHot;
   @Deprecated('use oneHot')
   static const IconMindData oneHotEncoding = g.oneHot;
@@ -1994,9 +2443,24 @@ abstract final class IconMindIcons {
   static const IconMindData panelBottom = g.panelBottom;
   @Deprecated('use panelBottom')
   static const IconMindData footer = g.panelBottom;
+  static const IconMindData panelBottomClose = g.panelBottomClose;
+  static const IconMindData panelBottomDashed = g.panelBottomDashed;
+  static const IconMindData panelBottomOpen = g.panelBottomOpen;
+  static const IconMindData panelLeftClose = g.panelLeftClose;
+  static const IconMindData panelLeftDashed = g.panelLeftDashed;
+  static const IconMindData panelLeftOpen = g.panelLeftOpen;
+  static const IconMindData panelRight = g.panelRight;
+  static const IconMindData panelRightClose = g.panelRightClose;
+  static const IconMindData panelRightDashed = g.panelRightDashed;
+  static const IconMindData panelRightOpen = g.panelRightOpen;
   static const IconMindData panelTop = g.panelTop;
   @Deprecated('use panelTop')
   static const IconMindData header = g.panelTop;
+  @Deprecated('use panelTop')
+  static const IconMindData layoutPanelTop = g.panelTop;
+  static const IconMindData panelTopClose = g.panelTopClose;
+  static const IconMindData panelTopDashed = g.panelTopDashed;
+  static const IconMindData panelTopOpen = g.panelTopOpen;
   static const IconMindData parallel = g.parallel;
   @Deprecated('use parallel')
   static const IconMindData concurrent = g.parallel;
@@ -2015,6 +2479,8 @@ abstract final class IconMindIcons {
   static const IconMindData passphrase = g.passphrase;
   static const IconMindData password = g.password;
   static const IconMindData paste = g.paste;
+  @Deprecated('use paste')
+  static const IconMindData clipboardPaste = g.paste;
   static const IconMindData patch = g.patch;
   static const IconMindData pause = g.pause;
   static const IconMindData pausedGoal = g.pausedGoal;
@@ -2125,6 +2591,8 @@ abstract final class IconMindIcons {
   static const IconMindData primaryKey = g.primaryKey;
   static const IconMindData print = g.print;
   static const IconMindData priority = g.priority;
+  @Deprecated('use priority')
+  static const IconMindData chevronsUp = g.priority;
   static const IconMindData priorityQueue = g.priorityQueue;
   static const IconMindData privateBookmark = g.privateBookmark;
   static const IconMindData privateCloud = g.privateCloud;
@@ -2488,15 +2956,33 @@ abstract final class IconMindIcons {
   static const IconMindData shellAgent = g.shellAgent;
   @Deprecated('use shellAgent')
   static const IconMindData terminalAgent = g.shellAgent;
+  static const IconMindData shield = g.shield;
   static const IconMindData shieldAdd = g.shieldAdd;
   static const IconMindData shieldAlert = g.shieldAlert;
+  static const IconMindData shieldBan = g.shieldBan;
   static const IconMindData shieldCheck = g.shieldCheck;
   @Deprecated('use shieldCheck')
   static const IconMindData verified = g.shieldCheck;
+  static const IconMindData shieldConfig = g.shieldConfig;
+  @Deprecated('use shieldConfig')
+  static const IconMindData shieldCog = g.shieldConfig;
+  @Deprecated('use shieldConfig')
+  static const IconMindData shieldCogCorner = g.shieldConfig;
+  static const IconMindData shieldEllipsis = g.shieldEllipsis;
+  static const IconMindData shieldHalf = g.shieldHalf;
+  static const IconMindData shieldKeyhole = g.shieldKeyhole;
+  static const IconMindData shieldLock = g.shieldLock;
   static const IconMindData shieldOff = g.shieldOff;
   @Deprecated('use shieldOff')
   static const IconMindData shieldX = g.shieldOff;
+  static const IconMindData shieldQuestion = g.shieldQuestion;
+  @Deprecated('use shieldQuestion')
+  static const IconMindData shieldQuestionMark = g.shieldQuestion;
+  static const IconMindData shieldRemove = g.shieldRemove;
+  @Deprecated('use shieldRemove')
+  static const IconMindData shieldMinus = g.shieldRemove;
   static const IconMindData shieldUpgrade = g.shieldUpgrade;
+  static const IconMindData shieldUser = g.shieldUser;
   static const IconMindData shortLivedToken = g.shortLivedToken;
   static const IconMindData shuffle = g.shuffle;
   @Deprecated('use shuffle')
@@ -2506,7 +2992,11 @@ abstract final class IconMindIcons {
   static const IconMindData drawer = g.sidebar;
   @Deprecated('use sidebar')
   static const IconMindData panelLeft = g.sidebar;
+  @Deprecated('use sidebar')
+  static const IconMindData layoutPanelLeft = g.sidebar;
   static const IconMindData signature = g.signature;
+  @Deprecated('use signature')
+  static const IconMindData fileSignature = g.signature;
   static const IconMindData signatureCrypto = g.signatureCrypto;
   static const IconMindData signatureMedia = g.signatureMedia;
   static const IconMindData significance = g.significance;
@@ -2540,8 +3030,24 @@ abstract final class IconMindIcons {
   static const IconMindData snapshotVolume = g.snapshotVolume;
   static const IconMindData softmax = g.softmax;
   static const IconMindData sort = g.sort;
+  @Deprecated('use sort')
+  static const IconMindData arrowDownNarrowWide = g.sort;
+  @Deprecated('use sort')
+  static const IconMindData arrowUpNarrowWide = g.sort;
+  @Deprecated('use sort')
+  static const IconMindData arrowDownAZ = g.sort;
+  @Deprecated('use sort')
+  static const IconMindData arrowDown01 = g.sort;
   static const IconMindData sortAsc = g.sortAsc;
   static const IconMindData sortDesc = g.sortDesc;
+  @Deprecated('use sortDesc')
+  static const IconMindData arrowDownWideNarrow = g.sortDesc;
+  @Deprecated('use sortDesc')
+  static const IconMindData arrowUpWideNarrow = g.sortDesc;
+  @Deprecated('use sortDesc')
+  static const IconMindData arrowDownZA = g.sortDesc;
+  @Deprecated('use sortDesc')
+  static const IconMindData arrowDown10 = g.sortDesc;
   static const IconMindData soundEffect = g.soundEffect;
   static const IconMindData sourceCitation = g.sourceCitation;
   static const IconMindData sourceMap = g.sourceMap;
@@ -2552,6 +3058,8 @@ abstract final class IconMindIcons {
   static const IconMindData junk = g.spam;
   static const IconMindData spanTool = g.spanTool;
   static const IconMindData spanTrace = g.spanTrace;
+  @Deprecated('use spanTrace')
+  static const IconMindData chartNoAxesGantt = g.spanTrace;
   static const IconMindData sparkline = g.sparkline;
   static const IconMindData sparseSearch = g.sparseSearch;
   static const IconMindData sparsity = g.sparsity;
@@ -2665,6 +3173,8 @@ abstract final class IconMindIcons {
   static const IconMindData swipeAction = g.swipeAction;
   static const IconMindData switchCase = g.switchCase;
   static const IconMindData symlink = g.symlink;
+  @Deprecated('use symlink')
+  static const IconMindData fileSymlink = g.symlink;
   static const IconMindData sync_ = g.sync_;
   @Deprecated('use sync_')
   static const IconMindData replicate = g.sync_;
@@ -2686,7 +3196,15 @@ abstract final class IconMindIcons {
   @Deprecated('use tabPin')
   static const IconMindData pinnedTab = g.tabPin;
   static const IconMindData table = g.table;
+  @Deprecated('use table')
+  static const IconMindData table2 = g.table;
+  static const IconMindData tableCellsMerge = g.tableCellsMerge;
+  static const IconMindData tableColumnsSplit = g.tableColumnsSplit;
+  @Deprecated('use tableColumnsSplit')
+  static const IconMindData tableCellsSplit = g.tableColumnsSplit;
   static const IconMindData tableExtract = g.tableExtract;
+  static const IconMindData tableProperties = g.tableProperties;
+  static const IconMindData tableRowsSplit = g.tableRowsSplit;
   static const IconMindData tag = g.tag;
   static const IconMindData tagAlert = g.tagAlert;
   static const IconMindData tagGit = g.tagGit;
@@ -2727,6 +3245,8 @@ abstract final class IconMindIcons {
   static const IconMindData mockDouble = g.testDouble;
   static const IconMindData testE2e = g.testE2e;
   static const IconMindData testFile = g.testFile;
+  @Deprecated('use testFile')
+  static const IconMindData filePlay = g.testFile;
   static const IconMindData testRun = g.testRun;
   static const IconMindData testSelect = g.testSelect;
   @Deprecated('use testSelect')
@@ -2740,10 +3260,17 @@ abstract final class IconMindIcons {
   static const IconMindData textCursor = g.textCursor;
   @Deprecated('use textCursor')
   static const IconMindData ibeam = g.textCursor;
+  static const IconMindData textCursorInput = g.textCursorInput;
+  static const IconMindData textQuote = g.textQuote;
+  static const IconMindData textSearch = g.textSearch;
+  static const IconMindData textSelect = g.textSelect;
+  @Deprecated('use textSelect')
+  static const IconMindData textSelection = g.textSelect;
   static const IconMindData textToSpeech = g.textToSpeech;
   @Deprecated('use textToSpeech')
   static const IconMindData tts = g.textToSpeech;
   static const IconMindData textToVideo = g.textToVideo;
+  static const IconMindData textWrap = g.textWrap;
   static const IconMindData textureGen = g.textureGen;
   static const IconMindData theme = g.theme;
   static const IconMindData thinkLonger = g.thinkLonger;
@@ -2756,14 +3283,28 @@ abstract final class IconMindIcons {
   static const IconMindData throwError = g.throwError;
   @Deprecated('use throwError')
   static const IconMindData raiseError = g.throwError;
+  static const IconMindData timeAdd = g.timeAdd;
+  @Deprecated('use timeAdd')
+  static const IconMindData clockPlus = g.timeAdd;
   static const IconMindData timeAlert = g.timeAlert;
   @Deprecated('use timeAlert')
   static const IconMindData clockAlert = g.timeAlert;
+  static const IconMindData timeArrowDown = g.timeArrowDown;
+  @Deprecated('use timeArrowDown')
+  static const IconMindData clockArrowDown = g.timeArrowDown;
+  static const IconMindData timeArrowLeft = g.timeArrowLeft;
+  @Deprecated('use timeArrowLeft')
+  static const IconMindData clockArrowLeft = g.timeArrowLeft;
+  static const IconMindData timeArrowUp = g.timeArrowUp;
+  @Deprecated('use timeArrowUp')
+  static const IconMindData clockArrowUp = g.timeArrowUp;
   static const IconMindData timeFilter = g.timeFilter;
   static const IconMindData timeLabel = g.timeLabel;
   static const IconMindData timeLock = g.timeLock;
   static const IconMindData timePicker = g.timePicker;
   static const IconMindData timeShift = g.timeShift;
+  @Deprecated('use timeShift')
+  static const IconMindData clockArrowRight = g.timeShift;
   static const IconMindData timeout = g.timeout;
   static const IconMindData timeoutFlow = g.timeoutFlow;
   static const IconMindData timer = g.timer;
@@ -2927,12 +3468,55 @@ abstract final class IconMindIcons {
   static const IconMindData userAdd = g.userAdd;
   @Deprecated('use userAdd')
   static const IconMindData invite = g.userAdd;
+  static const IconMindData userBack = g.userBack;
+  @Deprecated('use userBack')
+  static const IconMindData userRoundArrowLeft = g.userBack;
+  static const IconMindData userCircle = g.userCircle;
+  @Deprecated('use userCircle')
+  static const IconMindData circleUser = g.userCircle;
+  @Deprecated('use userCircle')
+  static const IconMindData userCircle2 = g.userCircle;
+  static const IconMindData userConfig = g.userConfig;
+  @Deprecated('use userConfig')
+  static const IconMindData userCog = g.userConfig;
+  @Deprecated('use userConfig')
+  static const IconMindData userCog2 = g.userConfig;
+  @Deprecated('use userConfig')
+  static const IconMindData userRoundCog = g.userConfig;
   static const IconMindData userConsent = g.userConsent;
+  static const IconMindData userEdit = g.userEdit;
+  @Deprecated('use userEdit')
+  static const IconMindData userPen = g.userEdit;
+  @Deprecated('use userEdit')
+  static const IconMindData userRoundPen = g.userEdit;
+  static const IconMindData userHeart = g.userHeart;
+  @Deprecated('use userHeart')
+  static const IconMindData userStar = g.userHeart;
   static const IconMindData userJourney = g.userJourney;
+  static const IconMindData userKey = g.userKey;
+  @Deprecated('use userKey')
+  static const IconMindData userRoundKey = g.userKey;
+  static const IconMindData userLock = g.userLock;
   static const IconMindData userOff = g.userOff;
   @Deprecated('use userOff')
   static const IconMindData userX = g.userOff;
   static const IconMindData userPrompt = g.userPrompt;
+  static const IconMindData userRemove = g.userRemove;
+  @Deprecated('use userRemove')
+  static const IconMindData userMinus = g.userRemove;
+  @Deprecated('use userRemove')
+  static const IconMindData userRoundMinus = g.userRemove;
+  @Deprecated('use userRemove')
+  static const IconMindData userMinus2 = g.userRemove;
+  static const IconMindData userSearch = g.userSearch;
+  @Deprecated('use userSearch')
+  static const IconMindData userRoundSearch = g.userSearch;
+  static const IconMindData userShield = g.userShield;
+  static const IconMindData userSquare = g.userSquare;
+  @Deprecated('use userSquare')
+  static const IconMindData squareUser = g.userSquare;
+  @Deprecated('use userSquare')
+  static const IconMindData userSquare2 = g.userSquare;
   static const IconMindData users = g.users;
   @Deprecated('use users')
   static const IconMindData people = g.users;

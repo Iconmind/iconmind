@@ -1,6 +1,6 @@
 # @iconmind/react-native
 
-React Native components for [IconMind](https://iconmind.dev) — 2,041 tree-shakeable
+React Native components for [IconMind](https://iconmind.dev) — 2,271 tree-shakeable
 icons for AI-era software, rendered with `react-native-svg`.
 
 ```bash

@@ -1,0 +1,40 @@
+{
+  "slug": "monitor-off",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Monitor off",
+  "description": "A screen with a cross on it — the display is off or the machine is unreachable",
+  "tags": [
+    "offline",
+    "disabled",
+    "unreachable"
+  ],
+  "keywords": [
+    "monitor off",
+    "screen disabled",
+    "display offline"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M12 17V20",
+      "closed": false
+    },
+    {
+      "d": "M7 20H17",
+      "closed": false
+    },
+    {
+      "d": "M10 8.5L14 12.5",
+      "closed": false
+    },
+    {
+      "d": "M14 8.5L10 12.5",
+      "closed": false
+    }
+  ]
+}

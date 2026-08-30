@@ -1,0 +1,36 @@
+{
+  "slug": "list-indent-increase",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "List indent increase",
+  "description": "Lines with the middle one pushed in and a chevron pointing right — indent, nest it one level deeper",
+  "tags": [
+    "indent",
+    "nest",
+    "deeper"
+  ],
+  "keywords": [
+    "indent",
+    "increase indent",
+    "nest item"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M3 6H21",
+      "closed": false
+    },
+    {
+      "d": "M10 12H21",
+      "closed": false
+    },
+    {
+      "d": "M3 18H21",
+      "closed": false
+    },
+    {
+      "d": "M3 9.5L5.5 12L3 14.5",
+      "closed": false
+    }
+  ]
+}

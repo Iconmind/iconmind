@@ -1,0 +1,44 @@
+{
+  "slug": "git-merge-conflict",
+  "category": "devtools",
+  "subcategory": "version-control",
+  "name": "Git merge conflict",
+  "description": "Two branches meeting at a cross instead of a commit — a merge that does not go through by itself",
+  "tags": [
+    "conflict",
+    "clash",
+    "resolve"
+  ],
+  "keywords": [
+    "merge conflict",
+    "resolve conflict",
+    "conflicting changes"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M4 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 7.5L6 12L10.5 16.5",
+      "closed": false
+    },
+    {
+      "d": "M18 7.5L18 12L13.5 16.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 16.5L14.5 21.5",
+      "closed": false
+    },
+    {
+      "d": "M14.5 16.5L9.5 21.5",
+      "closed": false
+    }
+  ]
+}

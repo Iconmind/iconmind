@@ -1,0 +1,28 @@
+{
+  "slug": "corner-up-left",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Corner up left",
+  "description": "An arrow that goes up and then turns left — a step back up to the line before",
+  "tags": [
+    "turn",
+    "back",
+    "up"
+  ],
+  "keywords": [
+    "up then left",
+    "previous line",
+    "step back up"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M20 20L20 10L4 10",
+      "closed": false
+    },
+    {
+      "d": "M9 5L4 10L9 15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "list-todo",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "List todo",
+  "description": "Two lines each with an empty box in front — a to-do list, the things still to be done",
+  "tags": [
+    "tasks",
+    "checkboxes",
+    "pending"
+  ],
+  "keywords": [
+    "todo list",
+    "task list",
+    "checkboxes",
+    "open tasks"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M3 5L8 5L8 10L3 10Z",
+      "closed": true
+    },
+    {
+      "d": "M11 7.5H21",
+      "closed": false
+    },
+    {
+      "d": "M3 14L8 14L8 19L3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M11 16.5H21",
+      "closed": false
+    }
+  ]
+}

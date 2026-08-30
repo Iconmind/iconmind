@@ -1,0 +1,36 @@
+{
+  "slug": "document-archive",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Document archive",
+  "description": "A document with a box on it — an archive file, a bundle zipped up for storage or transfer",
+  "tags": [
+    "zip",
+    "bundle",
+    "compressed"
+  ],
+  "aliases": [
+    "file-archive"
+  ],
+  "keywords": [
+    "zip file",
+    "archive file",
+    "tarball",
+    "compressed file"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 10L15 10L15 17L9 17Z",
+      "closed": true
+    },
+    {
+      "d": "M9 13.5H15",
+      "closed": false
+    }
+  ]
+}

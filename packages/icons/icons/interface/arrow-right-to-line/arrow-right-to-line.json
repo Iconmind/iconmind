@@ -1,0 +1,33 @@
+{
+  "slug": "arrow-right-to-line",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Arrow right to line",
+  "description": "An arrow pointing right at a line — go to the very end, last page, last item",
+  "tags": [
+    "end",
+    "last",
+    "finish"
+  ],
+  "keywords": [
+    "to end",
+    "last page",
+    "go to end",
+    "rightmost"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M20 7V17",
+      "closed": false
+    },
+    {
+      "d": "M4 12H16",
+      "closed": false
+    },
+    {
+      "d": "M12 8L16 12L12 16",
+      "closed": false
+    }
+  ]
+}

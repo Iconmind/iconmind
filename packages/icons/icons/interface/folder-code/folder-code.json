@@ -1,0 +1,32 @@
+{
+  "slug": "folder-code",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Folder code",
+  "description": "A folder with angle brackets on it — a source folder, where the code lives",
+  "tags": [
+    "source",
+    "src",
+    "brackets"
+  ],
+  "keywords": [
+    "source folder",
+    "code directory",
+    "src"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M10.5 10L8 12.5L10.5 15",
+      "closed": false
+    },
+    {
+      "d": "M13.5 10L16 12.5L13.5 15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "chevron-last",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Chevron last",
+  "description": "A chevron pointing right at a line — the very last, the end of the run",
+  "tags": [
+    "last",
+    "end",
+    "finish"
+  ],
+  "keywords": [
+    "last item",
+    "go to last",
+    "end of list"
+  ],
+  "family": "chevron",
+  "shapes": [
+    {
+      "d": "M21 5V19",
+      "closed": false
+    },
+    {
+      "d": "M5 5L12 12L5 19",
+      "closed": false
+    }
+  ]
+}

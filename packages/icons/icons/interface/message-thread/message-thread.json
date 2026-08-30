@@ -9,6 +9,9 @@
     "reply",
     "message"
   ],
+  "aliases": [
+    "message-square-text"
+  ],
   "keywords": [
     "message thread",
     "threaded reply",

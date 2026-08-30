@@ -1,0 +1,36 @@
+{
+  "slug": "monitor-play",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Monitor play",
+  "description": "A screen with a play button on it — playback on the display, a screen showing video",
+  "tags": [
+    "playback",
+    "video",
+    "present"
+  ],
+  "keywords": [
+    "screen play",
+    "monitor playback",
+    "present video"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M12 17V20",
+      "closed": false
+    },
+    {
+      "d": "M7 20H17",
+      "closed": false
+    },
+    {
+      "d": "M10 7.5L10 13.5L13 10.5Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "user-search",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "User search",
+  "description": "A person with a magnifying glass beside them — find a user, look someone up",
+  "tags": [
+    "find",
+    "lookup",
+    "directory"
+  ],
+  "aliases": [
+    "user-round-search"
+  ],
+  "keywords": [
+    "find user",
+    "search people",
+    "look up account"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A6 6 0 0 1 15 21",
+      "closed": false
+    },
+    {
+      "d": "M14.5 11.5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M19.5 13.5L21.5 15.5",
+      "closed": false
+    }
+  ]
+}

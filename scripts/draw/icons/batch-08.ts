@@ -193,7 +193,7 @@ export const BATCH_08: Icon[] = [
     slug: "table", category: "data", subcategory: "catalog",
     name: "Table", description: "A table — rows and columns with names across the top, data in a grid",
     tags: ["columns", "rows", "grid"], family: "window",
-    aliases: [], keywords: ["sql", "spreadsheet", "columns", "schema", "grid"],
+    aliases: ["table-2"], keywords: ["sql", "spreadsheet", "columns", "schema", "grid"],
     // The header rule runs the full width and the column rules hang from it. Drawn as a
     // full grid the drawing is a window pane; hanging them is what makes it a table.
     shapes: [

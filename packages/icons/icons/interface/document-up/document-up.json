@@ -1,0 +1,35 @@
+{
+  "slug": "document-up",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Document up",
+  "description": "A document with an arrow pointing up on it — upload this file, send it upstream",
+  "tags": [
+    "upload",
+    "send",
+    "upstream"
+  ],
+  "aliases": [
+    "file-up"
+  ],
+  "keywords": [
+    "upload file",
+    "send document",
+    "push file"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M12 9V16",
+      "closed": false
+    },
+    {
+      "d": "M9.5 11.5L12 9L14.5 11.5",
+      "closed": false
+    }
+  ]
+}

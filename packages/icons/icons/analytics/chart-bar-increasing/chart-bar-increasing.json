@@ -1,0 +1,40 @@
+{
+  "slug": "chart-bar-increasing",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Chart bar increasing",
+  "description": "Horizontal bars growing longer down the chart — ranked, each one more than the last",
+  "tags": [
+    "ranked",
+    "growing",
+    "horizontal"
+  ],
+  "keywords": [
+    "increasing bars",
+    "ranked bar chart",
+    "growing horizontal bars"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M4 7H10",
+      "closed": false
+    },
+    {
+      "d": "M4 12H14",
+      "closed": false
+    },
+    {
+      "d": "M4 17H18",
+      "closed": false
+    }
+  ]
+}

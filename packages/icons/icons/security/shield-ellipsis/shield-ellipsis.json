@@ -1,0 +1,36 @@
+{
+  "slug": "shield-ellipsis",
+  "category": "security",
+  "subcategory": "policy",
+  "name": "Shield ellipsis",
+  "description": "A shield with three dots on it — protection in progress, a check still running",
+  "tags": [
+    "pending",
+    "checking",
+    "progress"
+  ],
+  "keywords": [
+    "security check running",
+    "pending protection",
+    "shield pending"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M7.5 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14.5 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

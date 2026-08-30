@@ -1,0 +1,40 @@
+{
+  "slug": "chart-bar-decreasing",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Chart bar decreasing",
+  "description": "Horizontal bars growing shorter down the chart — ranked, the biggest on top",
+  "tags": [
+    "ranked",
+    "shrinking",
+    "horizontal"
+  ],
+  "keywords": [
+    "decreasing bars",
+    "ranked descending",
+    "shrinking horizontal bars"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M4 7H18",
+      "closed": false
+    },
+    {
+      "d": "M4 12H14",
+      "closed": false
+    },
+    {
+      "d": "M4 17H10",
+      "closed": false
+    }
+  ]
+}

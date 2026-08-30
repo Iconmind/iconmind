@@ -1,0 +1,29 @@
+{
+  "slug": "arrow-up-left",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Arrow up left",
+  "description": "An arrow pointing to the top left corner — go back and up, towards the start of things",
+  "tags": [
+    "diagonal",
+    "corner",
+    "northwest"
+  ],
+  "keywords": [
+    "diagonal arrow",
+    "up left",
+    "northwest",
+    "back to start"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M20 20L4 4",
+      "closed": false
+    },
+    {
+      "d": "M4 14L4 4L14 4",
+      "closed": false
+    }
+  ]
+}

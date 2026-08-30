@@ -1,0 +1,36 @@
+{
+  "slug": "layout-dashboard",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Layout dashboard",
+  "description": "A window split into unequal tiles — a dashboard, widgets of different sizes side by side",
+  "tags": [
+    "widgets",
+    "tiles",
+    "overview"
+  ],
+  "keywords": [
+    "dashboard layout",
+    "widget grid",
+    "overview page"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M12 4V20",
+      "closed": false
+    },
+    {
+      "d": "M2 10H12",
+      "closed": false
+    },
+    {
+      "d": "M12 14H22",
+      "closed": false
+    }
+  ]
+}

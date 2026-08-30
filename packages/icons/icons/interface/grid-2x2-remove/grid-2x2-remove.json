@@ -1,0 +1,39 @@
+{
+  "slug": "grid-2x2-remove",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Grid 2×2 remove",
+  "description": "A four-cell grid with a minus in one cell — take an item off the grid",
+  "tags": [
+    "cells",
+    "delete",
+    "drop"
+  ],
+  "aliases": [
+    "grid-2x2-x"
+  ],
+  "keywords": [
+    "remove from grid",
+    "delete cell",
+    "drop grid item"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 2H19A3 3 0 0 1 22 5V19A3 3 0 0 1 19 22H5A3 3 0 0 1 2 19V5A3 3 0 0 1 5 2H10",
+      "closed": true
+    },
+    {
+      "d": "M2 12H22",
+      "closed": false
+    },
+    {
+      "d": "M12 2V22",
+      "closed": false
+    },
+    {
+      "d": "M14 17H20",
+      "closed": false
+    }
+  ]
+}

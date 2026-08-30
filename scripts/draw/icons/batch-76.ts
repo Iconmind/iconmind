@@ -385,7 +385,7 @@ export const BATCH_76: Icon[] = [
     slug: "message-thread", category: "interface", subcategory: "communication",
     name: "Message thread", description: "A speech bubble with an indented line inside — a threaded reply",
     tags: ["thread", "reply", "message"], family: "bubble",
-    aliases: [], keywords: ["message thread", "threaded reply", "conversation thread"],
+    aliases: ["message-square-text"], keywords: ["message thread", "threaded reply", "conversation thread"],
     shapes: [...BUBBLE, row(8, 7, 17), row(12, 10, 17)],
   },
   {

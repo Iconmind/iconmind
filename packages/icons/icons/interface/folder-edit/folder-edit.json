@@ -1,0 +1,31 @@
+{
+  "slug": "folder-edit",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Folder edit",
+  "description": "A folder with a pencil on it — rename this folder or change what is inside it",
+  "tags": [
+    "pencil",
+    "rename",
+    "modify"
+  ],
+  "aliases": [
+    "folder-pen"
+  ],
+  "keywords": [
+    "edit folder",
+    "rename directory",
+    "modify folder"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M8.5 17L8.5 14.5L13.5 9.5L16 12L11 17Z",
+      "closed": true
+    }
+  ]
+}

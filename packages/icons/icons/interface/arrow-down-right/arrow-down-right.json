@@ -1,0 +1,29 @@
+{
+  "slug": "arrow-down-right",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Arrow down right",
+  "description": "An arrow pointing to the bottom right corner — onward and down, towards the end of things",
+  "tags": [
+    "diagonal",
+    "corner",
+    "southeast"
+  ],
+  "keywords": [
+    "diagonal arrow",
+    "down right",
+    "southeast",
+    "onward"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M4 4L20 20",
+      "closed": false
+    },
+    {
+      "d": "M10 20L20 20L20 10",
+      "closed": false
+    }
+  ]
+}

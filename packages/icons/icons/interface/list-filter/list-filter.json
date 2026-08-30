@@ -1,0 +1,39 @@
+{
+  "slug": "list-filter",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "List filter",
+  "description": "Three lines with a funnel beside them — filter the list down to the items that match",
+  "tags": [
+    "funnel",
+    "narrow",
+    "match"
+  ],
+  "aliases": [
+    "list-filter-plus"
+  ],
+  "keywords": [
+    "filter list",
+    "narrow results",
+    "filtered items"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 6H14",
+      "closed": false
+    },
+    {
+      "d": "M3 11H14",
+      "closed": false
+    },
+    {
+      "d": "M3 16H14",
+      "closed": false
+    },
+    {
+      "d": "M15 9L22 9L20 11L20 19L17 19L17 11Z",
+      "closed": true
+    }
+  ]
+}

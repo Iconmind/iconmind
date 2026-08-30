@@ -180,7 +180,7 @@ export const BATCH_10: Icon[] = [
     slug: "sort-desc", category: "interface", subcategory: "action",
     name: "Sort descending", description: "Sort descending — order the list from largest to smallest or Z to A",
     tags: ["order", "descending", "za"], family: "rails",
-    aliases: [], keywords: ["descending", "z-a", "high to low", "order by"],
+    aliases: ["arrow-down-wide-narrow", "arrow-up-wide-narrow", "arrow-down-z-a", "arrow-down-1-0"], keywords: ["descending", "z-a", "high to low", "order by"],
     shapes: [row(6, 4, 20), row(12, 4, 15), row(18, 4, 10)],
   },
 

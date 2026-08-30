@@ -1,0 +1,32 @@
+{
+  "slug": "folder-archive",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Folder archive",
+  "description": "A folder with a box on it — an archived folder, zipped up and put away",
+  "tags": [
+    "zip",
+    "stored",
+    "packed"
+  ],
+  "keywords": [
+    "archive folder",
+    "zipped directory",
+    "archived files"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M8.5 12A2 2 0 0 1 10.5 10H13.5A2 2 0 0 1 15.5 12V15A2 2 0 0 1 13.5 17H10.5A2 2 0 0 1 8.5 15Z",
+      "closed": true
+    },
+    {
+      "d": "M8.5 13.5H15.5",
+      "closed": false
+    }
+  ]
+}

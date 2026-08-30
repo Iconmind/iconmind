@@ -1,0 +1,31 @@
+{
+  "slug": "shield-remove",
+  "category": "security",
+  "subcategory": "policy",
+  "name": "Shield remove",
+  "description": "A shield with a minus on it — reduce protection, take a rule off the policy",
+  "tags": [
+    "reduce",
+    "relax",
+    "minus"
+  ],
+  "aliases": [
+    "shield-minus"
+  ],
+  "keywords": [
+    "reduce protection",
+    "remove rule",
+    "relax policy"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M9 11H15",
+      "closed": false
+    }
+  ]
+}

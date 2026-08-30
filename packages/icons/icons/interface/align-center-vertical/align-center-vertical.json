@@ -1,0 +1,36 @@
+{
+  "slug": "align-center-vertical",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Align center vertical",
+  "description": "Two boxes centred on a line through their middles — align objects to a shared vertical centre",
+  "tags": [
+    "centre",
+    "objects",
+    "middle"
+  ],
+  "keywords": [
+    "align centre vertically",
+    "horizontal centre",
+    "centre objects"
+  ],
+  "family": "align",
+  "shapes": [
+    {
+      "d": "M12 3V5.5",
+      "closed": false
+    },
+    {
+      "d": "M12 18.5V21",
+      "closed": false
+    },
+    {
+      "d": "M8 7L16 7L16 11L8 11Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 14L14.5 14L14.5 18L9.5 18Z",
+      "closed": true
+    }
+  ]
+}

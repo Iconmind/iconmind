@@ -1,0 +1,28 @@
+{
+  "slug": "corner-down-right",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Corner down right",
+  "description": "An arrow that goes down and then turns right — a step down into the next line",
+  "tags": [
+    "turn",
+    "next",
+    "step"
+  ],
+  "keywords": [
+    "down then right",
+    "next line",
+    "step into"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M4 4L4 14L20 14",
+      "closed": false
+    },
+    {
+      "d": "M15 9L20 14L15 19",
+      "closed": false
+    }
+  ]
+}

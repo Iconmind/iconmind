@@ -1,0 +1,44 @@
+{
+  "slug": "chart-bar-stacked",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Chart bar stacked",
+  "description": "Horizontal bars each split into two parts — a stacked bar chart on its side",
+  "tags": [
+    "stacked",
+    "horizontal",
+    "parts"
+  ],
+  "keywords": [
+    "stacked horizontal bars",
+    "stacked bar chart",
+    "segmented bars"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M4 8H11",
+      "closed": false
+    },
+    {
+      "d": "M14 8H19",
+      "closed": false
+    },
+    {
+      "d": "M4 14H9",
+      "closed": false
+    },
+    {
+      "d": "M12 14H17",
+      "closed": false
+    }
+  ]
+}

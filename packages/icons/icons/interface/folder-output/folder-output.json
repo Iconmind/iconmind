@@ -1,0 +1,33 @@
+{
+  "slug": "folder-output",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Folder output",
+  "description": "A folder with an arrow pointing right inside it — files produced into this folder, an output directory",
+  "tags": [
+    "out",
+    "export",
+    "build"
+  ],
+  "keywords": [
+    "output folder",
+    "export directory",
+    "build folder",
+    "dist"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M9 13H14",
+      "closed": false
+    },
+    {
+      "d": "M12.5 10.5L15 13L12.5 15.5",
+      "closed": false
+    }
+  ]
+}

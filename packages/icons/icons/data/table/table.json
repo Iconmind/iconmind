@@ -9,6 +9,9 @@
     "rows",
     "grid"
   ],
+  "aliases": [
+    "table-2"
+  ],
   "keywords": [
     "sql",
     "spreadsheet",

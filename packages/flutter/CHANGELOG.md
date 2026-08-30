@@ -1,3 +1,13 @@
+## 0.5.0
+
+The generic layer, family by family — 230 new icons on the bodies the set already had:
+documents, folders, people, chats, calendars, clocks, panels, layouts, alignment, lists,
+text, arrows, chevrons, corners, git, clipboards, monitors, mail, databases, bells,
+shields, clouds and charts. Lucide's names resolve here too: 100-odd of them became
+aliases on the icons that already existed (file-plus is document-add, panel-left is
+sidebar, cloud-download is download-cloud), so searching by the name you know finds the
+drawing. 2,271 icons, 13,626 drawings. Same API.
+
 ## 0.4.1
 
 Six icons redrawn so that no two in the set render the same: vote (a ballot going into

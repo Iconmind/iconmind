@@ -10,7 +10,8 @@
     "quarters"
   ],
   "aliases": [
-    "tiles"
+    "tiles",
+    "layout-grid"
   ],
   "keywords": [
     "gallery",

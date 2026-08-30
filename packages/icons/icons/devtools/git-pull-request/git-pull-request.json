@@ -1,0 +1,44 @@
+{
+  "slug": "git-pull-request",
+  "category": "devtools",
+  "subcategory": "version-control",
+  "name": "Git pull request",
+  "description": "A branch offered back to the line it came from — a pull request, changes proposed for review",
+  "tags": [
+    "review",
+    "propose",
+    "pr"
+  ],
+  "aliases": [
+    "git-pull-request-arrow"
+  ],
+  "keywords": [
+    "pull request",
+    "merge request",
+    "propose changes",
+    "open pr"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M4 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 7.5V16.5",
+      "closed": false
+    },
+    {
+      "d": "M4 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 16.5L18 9L12 9L9 6",
+      "closed": false
+    }
+  ]
+}

@@ -9,6 +9,9 @@
     "reminder",
     "ring"
   ],
+  "aliases": [
+    "alarm-clock"
+  ],
   "keywords": [
     "wake",
     "timer",

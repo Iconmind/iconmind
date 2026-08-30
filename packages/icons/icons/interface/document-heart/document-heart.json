@@ -1,0 +1,32 @@
+{
+  "slug": "document-heart",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Document heart",
+  "description": "A document with a heart on it — a favourite file, one kept close and starred",
+  "tags": [
+    "favourite",
+    "starred",
+    "liked"
+  ],
+  "aliases": [
+    "file-heart"
+  ],
+  "keywords": [
+    "favourite file",
+    "liked document",
+    "starred file"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M8.5 11A1.75 1.75 0 0 1 12 11A1.75 1.75 0 0 1 15.5 11L12 14.5Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
+    }
+  ]
+}

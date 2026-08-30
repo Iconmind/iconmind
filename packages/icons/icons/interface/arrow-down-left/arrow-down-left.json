@@ -1,0 +1,29 @@
+{
+  "slug": "arrow-down-left",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Arrow down left",
+  "description": "An arrow pointing to the bottom left corner — back and down, an incoming reply",
+  "tags": [
+    "diagonal",
+    "corner",
+    "southwest"
+  ],
+  "keywords": [
+    "diagonal arrow",
+    "down left",
+    "southwest",
+    "incoming"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M20 4L4 20",
+      "closed": false
+    },
+    {
+      "d": "M4 10L4 20L14 20",
+      "closed": false
+    }
+  ]
+}

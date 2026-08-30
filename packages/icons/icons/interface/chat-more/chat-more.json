@@ -1,0 +1,44 @@
+{
+  "slug": "chat-more",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Chat more",
+  "description": "A speech bubble with three dots inside — someone is typing, or more of the thread to come",
+  "tags": [
+    "typing",
+    "ellipsis",
+    "pending"
+  ],
+  "aliases": [
+    "message-square-more",
+    "message-circle-more"
+  ],
+  "keywords": [
+    "typing indicator",
+    "more messages",
+    "chat ellipsis"
+  ],
+  "family": "bubble",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V16A2 2 0 0 1 19 18H5A2 2 0 0 1 3 16Z",
+      "closed": true
+    },
+    {
+      "d": "M7 18L7 21L10 18",
+      "closed": false
+    },
+    {
+      "d": "M7 10.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 10.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 10.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

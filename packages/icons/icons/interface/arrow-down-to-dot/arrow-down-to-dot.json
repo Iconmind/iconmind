@@ -1,0 +1,32 @@
+{
+  "slug": "arrow-down-to-dot",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Arrow down to dot",
+  "description": "An arrow dropping onto a dot — land here, come down to a point",
+  "tags": [
+    "target",
+    "land",
+    "to-here"
+  ],
+  "keywords": [
+    "down to point",
+    "land here",
+    "arrive"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M12 4V14",
+      "closed": false
+    },
+    {
+      "d": "M8 10L12 14L16 10",
+      "closed": false
+    },
+    {
+      "d": "M10 18.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

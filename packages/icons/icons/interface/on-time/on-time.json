@@ -9,6 +9,9 @@
     "punctual",
     "check"
   ],
+  "aliases": [
+    "clock-check"
+  ],
   "keywords": [
     "on time",
     "on schedule",

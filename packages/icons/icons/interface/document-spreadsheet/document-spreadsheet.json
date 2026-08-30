@@ -1,0 +1,40 @@
+{
+  "slug": "document-spreadsheet",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Document spreadsheet",
+  "description": "A document with a grid on it — a spreadsheet file, rows and columns of cells",
+  "tags": [
+    "table",
+    "cells",
+    "sheet"
+  ],
+  "aliases": [
+    "file-spreadsheet"
+  ],
+  "keywords": [
+    "spreadsheet file",
+    "csv",
+    "xlsx",
+    "sheet file"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 11H15",
+      "closed": false
+    },
+    {
+      "d": "M9 14.5H15",
+      "closed": false
+    },
+    {
+      "d": "M12 9V17.5",
+      "closed": false
+    }
+  ]
+}

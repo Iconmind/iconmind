@@ -1,0 +1,45 @@
+{
+  "slug": "list-checks",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "List checks",
+  "description": "Three lines each with a check in front — every item ticked off, a completed checklist",
+  "tags": [
+    "checklist",
+    "complete",
+    "ticked"
+  ],
+  "keywords": [
+    "checklist",
+    "all done",
+    "completed tasks",
+    "ticked list"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M3 7L5 9L8 6",
+      "closed": false
+    },
+    {
+      "d": "M11 7H21",
+      "closed": false
+    },
+    {
+      "d": "M3 12L5 14L8 11",
+      "closed": false
+    },
+    {
+      "d": "M11 12H21",
+      "closed": false
+    },
+    {
+      "d": "M3 17L5 19L8 16",
+      "closed": false
+    },
+    {
+      "d": "M11 17H21",
+      "closed": false
+    }
+  ]
+}

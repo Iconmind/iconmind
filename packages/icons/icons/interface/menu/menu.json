@@ -10,7 +10,9 @@
     "more"
   ],
   "aliases": [
-    "hamburger"
+    "hamburger",
+    "align-justify",
+    "text-align-justify"
   ],
   "keywords": [
     "nav",

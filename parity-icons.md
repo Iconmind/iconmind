@@ -368,3 +368,70 @@ and every one would compete with a generalist set on its own ground.
   plan's problem, but the arrow round is the moment to give arrow-back its bar.
 - **Count refreshes** are still hand-edited in README, the contribute page and every
   package description — same checklist as the 1k plan, same one push at the end.
+
+## Completed — 2026-08-30
+
+Rounds 0–10 are drawn: `scripts/draw/icons/batch-77.ts` … `batch-86.ts`, every round
+through precheck → build → optimize → validate → audit → twins → perceptual scan → contact
+sheet, viewed, before the one local commit. The set stands at **2,271 icons · 13,626
+cells** (+230). Per family: document 23 · folder 21 · user 11 (+2 avatars) · chat 7 ·
+calendar 8 · time 4 · panel 13 · layout 2 · align 8 · list 10 · text 6 · grid 3 · table 4 ·
+arrow 21 · chevron 9 · corner 7 · move 1 · git 10 · clipboard 8 · monitor 9 · mail 8 ·
+database 8 · bell 6 · shield 10 · cloud 3 · chart 10.
+
+**Aliases instead of drawings** — a hundred-odd Lucide names now resolve to icons the set
+already had. Beyond Round 0's list: `file-text`→document, `file-play`→test-file,
+`file-stack`→corpus, `file-signature`→signature, `file-symlink`→symlink,
+`message-square-text`→message-thread, `message-circle-question`→elicitation,
+`clock-check`→on-time, `clock-arrow-right`→time-shift, `alarm-clock`→alarm,
+`layout-grid`→grid, `layout-list`→list-view, `layout-panel-left`→sidebar,
+`layout-panel-top`→panel-top, `align-justify`/`text-align-justify`→menu,
+`text-align-start/center/end`→align-left/center/right, `table-2`→table,
+`arrow-down-narrow-wide`/`arrow-down-a-z`/`arrow-down-0-1`→sort (and the wide-narrow,
+z-a, 1-0 forms →sort-desc), `move-horizontal`→arrow-left-right, `move-vertical`→
+arrow-up-down, `move-up/down/left/right`→arrow-*-from-line, `chevrons-up`→priority,
+`corner-down-left`→command, `chart-column`/`bar-chart`→chart-bar, `chart-no-axes-gantt`→
+span-trace, `user-check`→human-approval, `clipboard-paste`→paste.
+
+**Not drawn, and why.** Same drawing as an existing icon (peak 0.000 or IoU ≥ 0.9 with
+nothing to tell them apart): user-check, clipboard-paste, chart-no-axes-gantt, chevrons-up,
+corner-down-left. Would not fit the body at this scale: document-video (no camera stands
+beside a page wall with three of clearance), mail-search (no lens handle reaches 2.5 inside
+x ≤ 22). Letters and digits: file-digit, the a-z / 0-1 sort arrows, heading-1/2/3,
+calendar-1 (a "1" is an arrow-up at sixteen pixels). Too close to a sibling to earn a
+page: layout-template (0.91 against table), document-stack (corpus), document-box,
+list-ordered, list-start/end, calendar-config/fold, alarm-clock-off/check/add,
+chat-dashed/text/question, layout-grid/list, table-config/of-contents, grid-3x3 (four
+crossings), chart-network, chart-no-axes-combined, git-graph, monitor-cloud/smartphone/
+speaker, bell-electric, align distribute/justify variants (space-between carries them
+as aliases).
+
+**What the forge taught this time** (kept for the next plan):
+- Inside `page()` a mark lives in x 9..15 — the walls at 6 and 18 want three of clearance
+  at bold; 8.5 is a warning on every cell. The folder (walls 4/20) and the bubble (3/21)
+  are roomier; the clipboard's floor is 21, the monitor's screen ends at 17.
+- `rect()` at radius 2 needs 6.5 of straight edge each way, so a small box inside a body is
+  a closed `poly`, not a rect. Mark discs are radius 1, 2 or 3; a run under 2.5 vanishes at
+  bold; two crossings at most; seven elements is a warning.
+- Dropping an icon from a batch leaves its directory behind — the forge does not delete —
+  and the stale cells fail alias collisions. `rm -r` it.
+- In zsh a slug list in a variable does not word-split: `${=SL}`, or the audit and twins
+  run on one nonexistent name and report nothing.
+- The Lucide file/message/clock heads are this set's document/chat/time heads; check the
+  concept, not the name, before drawing — a third of the plan turned out to exist.
+
+**Recorded near-pairs (twins ≥ 0.88, 152 of them, all family grammar).** Almost all are
+one body carrying two different marks — document-*, folder-*, chat-*, calendar-*,
+panel-*, grid-2x2-*, clipboard-* — the mark families the 1k plan already recorded, with
+the same IoU the existing document-add/check/off/alert show among themselves; the
+perceptual scan, which judges siblings by their peak difference, passes every one. The
+cross-family ones, each looked at on the sheet: panel-left-dashed / panel-left-open /
+panel-left-close ↔ sidebar (a divider, dashed or with a chevron), model-message ↔
+chat-dot / chat-add / chat-remove (a diamond, a dot, a plus, a minus in the same
+bubble), folder-output / folder-remove / folder-dot ↔ mcp-roots (a chevron, an arrow, a
+minus, a dot in the same folder), clipboard-check / clipboard-type / clipboard-remove ↔
+paste (a mark on the same board), branch-git ↔ git-branch-remove (a minus beside it),
+encryption / content-filter ↔ shield-keyhole (a dot, a funnel, a keyhole in the same
+shield), bookmark-folder ↔ folder-search, lockfile / data-contract ↔ document-up,
+scratch-file ↔ document-remove (page marks). Gates at the close: validate 13,626 cells,
+0 failed, 0 warnings; audit 230 audited, 0 flagged; perceptual scan 0 failed.

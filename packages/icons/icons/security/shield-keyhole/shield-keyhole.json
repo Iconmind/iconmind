@@ -1,0 +1,32 @@
+{
+  "slug": "shield-keyhole",
+  "category": "security",
+  "subcategory": "policy",
+  "name": "Shield keyhole",
+  "description": "A shield with a keyhole on it — protection that opens to the right key",
+  "tags": [
+    "keyhole",
+    "access",
+    "locked"
+  ],
+  "keywords": [
+    "shield keyhole",
+    "keyed access",
+    "locked protection"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M10 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12V15.5",
+      "closed": false
+    }
+  ]
+}

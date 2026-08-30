@@ -275,7 +275,7 @@ export const BATCH_07: Icon[] = [
     slug: "menu", category: "interface", subcategory: "layout",
     name: "Menu", description: "Menu — the hamburger that opens navigation and everything else",
     tags: ["hamburger", "nav", "more"], family: "rails",
-    aliases: ["hamburger"], keywords: ["nav", "navigation", "drawer", "sidebar", "more"],
+    aliases: ["hamburger", "align-justify", "text-align-justify"], keywords: ["nav", "navigation", "drawer", "sidebar", "more"],
     // Flush, and equal. `stream`'s three runs are offset because something is passing;
     // these are still, which is the difference between a menu and a feed.
     shapes: [row(6, 4, 20), row(12, 4, 20), row(18, 4, 20)],

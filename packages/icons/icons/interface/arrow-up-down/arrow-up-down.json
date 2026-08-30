@@ -1,0 +1,36 @@
+{
+  "slug": "arrow-up-down",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Arrow up down",
+  "description": "One arrow with a head at each end, pointing up and down — sort, resize or go either way",
+  "tags": [
+    "sort",
+    "vertical",
+    "both"
+  ],
+  "aliases": [
+    "move-vertical"
+  ],
+  "keywords": [
+    "vertical arrow",
+    "sort both ways",
+    "resize height",
+    "up and down"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M12 4V20",
+      "closed": false
+    },
+    {
+      "d": "M8 8L12 4L16 8",
+      "closed": false
+    },
+    {
+      "d": "M8 16L12 20L16 16",
+      "closed": false
+    }
+  ]
+}

@@ -99,7 +99,7 @@ export const BATCH_72: Icon[] = [
     slug: "time-shift", category: "interface", subcategory: "time",
     name: "Time shift", description: "A clock with an arrow moving on — shift a schedule forward to a later time",
     tags: ["shift", "reschedule", "forward"], family: "clock",
-    aliases: [], keywords: ["time shift", "reschedule", "move forward"],
+    aliases: ["clock-arrow-right"], keywords: ["time shift", "reschedule", "move forward"],
     shapes: [disc(8, 12, 5.5), poly([[8, 9.5], [8, 12], [10.5, 12]]), row(12, 16.5, 22), poly([[19.5, 9.5], [22, 12], [19.5, 14.5]])],
   },
 

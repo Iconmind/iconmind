@@ -1,0 +1,37 @@
+{
+  "slug": "text-quote",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Text quote",
+  "description": "Quotation marks above two lines — a quotation, somebody else's words set apart",
+  "tags": [
+    "quotation",
+    "cite",
+    "blockquote"
+  ],
+  "keywords": [
+    "blockquote",
+    "quotation",
+    "quoted text",
+    "citation"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M3 5L3 8L5.5 8",
+      "closed": false
+    },
+    {
+      "d": "M7 5L7 8L9.5 8",
+      "closed": false
+    },
+    {
+      "d": "M3 13H21",
+      "closed": false
+    },
+    {
+      "d": "M3 18H15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "list-video",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "List video",
+  "description": "Three lines with a play button beside them — a playlist, videos queued up in order",
+  "tags": [
+    "playlist",
+    "queue",
+    "watch"
+  ],
+  "aliases": [
+    "list-music"
+  ],
+  "keywords": [
+    "playlist",
+    "video list",
+    "watch queue",
+    "play queue"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 6H14",
+      "closed": false
+    },
+    {
+      "d": "M3 11H14",
+      "closed": false
+    },
+    {
+      "d": "M3 16H14",
+      "closed": false
+    },
+    {
+      "d": "M16 8L16 16L20 12Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "folder-heart",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Folder heart",
+  "description": "A folder with a heart on it — a favourite folder, kept where it is easy to reach",
+  "tags": [
+    "favourite",
+    "starred",
+    "pinned"
+  ],
+  "keywords": [
+    "favourite folder",
+    "starred directory",
+    "liked folder"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M8.5 12A1.75 1.75 0 0 1 12 12A1.75 1.75 0 0 1 15.5 12L12 15.5Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
+    }
+  ]
+}

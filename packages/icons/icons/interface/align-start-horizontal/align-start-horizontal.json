@@ -1,0 +1,32 @@
+{
+  "slug": "align-start-horizontal",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Align start horizontal",
+  "description": "Two boxes hanging from a line above them — align objects to the top edge",
+  "tags": [
+    "top",
+    "objects",
+    "edge"
+  ],
+  "keywords": [
+    "align top",
+    "align objects top",
+    "top edge"
+  ],
+  "family": "align",
+  "shapes": [
+    {
+      "d": "M3 4H21",
+      "closed": false
+    },
+    {
+      "d": "M7 7L11 7L11 17L7 17Z",
+      "closed": true
+    },
+    {
+      "d": "M14 7L18 7L18 13L14 13Z",
+      "closed": true
+    }
+  ]
+}

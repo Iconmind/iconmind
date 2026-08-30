@@ -1,0 +1,36 @@
+{
+  "slug": "arrow-down-from-line",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Arrow down from line",
+  "description": "An arrow dropping from a line — let it down, take something down from where it sat",
+  "tags": [
+    "drop",
+    "lower",
+    "down"
+  ],
+  "aliases": [
+    "move-down"
+  ],
+  "keywords": [
+    "down from line",
+    "drop",
+    "lower",
+    "take down"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M7 4H17",
+      "closed": false
+    },
+    {
+      "d": "M12 8V20",
+      "closed": false
+    },
+    {
+      "d": "M8 16L12 20L16 16",
+      "closed": false
+    }
+  ]
+}

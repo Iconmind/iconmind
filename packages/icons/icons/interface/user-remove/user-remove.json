@@ -1,0 +1,37 @@
+{
+  "slug": "user-remove",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "User remove",
+  "description": "A person with a minus beside them — take this user out, remove them from the group",
+  "tags": [
+    "minus",
+    "delete",
+    "leave"
+  ],
+  "aliases": [
+    "user-minus",
+    "user-round-minus",
+    "user-minus-2"
+  ],
+  "keywords": [
+    "remove user",
+    "delete account",
+    "leave group"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A6 6 0 0 1 15 21",
+      "closed": false
+    },
+    {
+      "d": "M15 12H21",
+      "closed": false
+    }
+  ]
+}

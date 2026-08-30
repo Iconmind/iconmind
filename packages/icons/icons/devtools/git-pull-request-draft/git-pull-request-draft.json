@@ -1,0 +1,44 @@
+{
+  "slug": "git-pull-request-draft",
+  "category": "devtools",
+  "subcategory": "version-control",
+  "name": "Git pull request draft",
+  "description": "A pull request whose line is still dashed — a draft, not yet ready for review",
+  "tags": [
+    "draft",
+    "wip",
+    "unfinished"
+  ],
+  "keywords": [
+    "draft pull request",
+    "wip pr",
+    "not ready for review"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M4 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 7.5V16.5",
+      "closed": false
+    },
+    {
+      "d": "M4 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 12.5V16.5",
+      "closed": false
+    },
+    {
+      "d": "M18 7V10",
+      "closed": false
+    }
+  ]
+}

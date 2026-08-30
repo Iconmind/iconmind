@@ -9,6 +9,9 @@
     "authentic",
     "mark"
   ],
+  "aliases": [
+    "file-signature"
+  ],
   "keywords": [
     "signed",
     "digital signature",

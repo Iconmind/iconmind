@@ -1,0 +1,39 @@
+{
+  "slug": "user-back",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "User back",
+  "description": "A person with an arrow pointing back beside them — a returning user, or hand them back",
+  "tags": [
+    "return",
+    "previous",
+    "returning"
+  ],
+  "aliases": [
+    "user-round-arrow-left"
+  ],
+  "keywords": [
+    "returning user",
+    "previous user",
+    "user back"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A6 6 0 0 1 15 21",
+      "closed": false
+    },
+    {
+      "d": "M15 12H21",
+      "closed": false
+    },
+    {
+      "d": "M17 9.5L14.5 12L17 14.5",
+      "closed": false
+    }
+  ]
+}

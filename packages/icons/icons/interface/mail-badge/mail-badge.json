@@ -1,0 +1,32 @@
+{
+  "slug": "mail-badge",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Mail badge",
+  "description": "An envelope with a dot at its corner — unread mail, a message waiting",
+  "tags": [
+    "unread",
+    "new",
+    "waiting"
+  ],
+  "keywords": [
+    "unread mail",
+    "new message badge",
+    "mail waiting"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H13A2 2 0 0 1 15 8V16A2 2 0 0 1 13 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M4 7L8.5 11.5L13 7",
+      "closed": false
+    },
+    {
+      "d": "M17.5 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

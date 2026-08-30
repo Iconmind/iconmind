@@ -1,0 +1,40 @@
+{
+  "slug": "align-vertical-space-between",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Align vertical space between",
+  "description": "Two boxes pushed to the lines above and below — spread objects to the edges with the space between",
+  "tags": [
+    "spread",
+    "edges",
+    "spacing"
+  ],
+  "aliases": [
+    "align-vertical-distribute-center",
+    "align-vertical-justify-center"
+  ],
+  "keywords": [
+    "space between vertically",
+    "spread objects vertically",
+    "distribute vertically"
+  ],
+  "family": "align",
+  "shapes": [
+    {
+      "d": "M3 3H21",
+      "closed": false
+    },
+    {
+      "d": "M7 6L17 6L17 10L7 10Z",
+      "closed": true
+    },
+    {
+      "d": "M7 14L17 14L17 18L7 18Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21H21",
+      "closed": false
+    }
+  ]
+}

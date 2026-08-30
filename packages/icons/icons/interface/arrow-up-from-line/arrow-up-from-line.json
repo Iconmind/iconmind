@@ -1,0 +1,36 @@
+{
+  "slug": "arrow-up-from-line",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Arrow up from line",
+  "description": "An arrow rising from a line — lift off, take something up from where it sat",
+  "tags": [
+    "lift",
+    "rise",
+    "up"
+  ],
+  "aliases": [
+    "move-up"
+  ],
+  "keywords": [
+    "up from line",
+    "lift",
+    "raise",
+    "take up"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M7 20H17",
+      "closed": false
+    },
+    {
+      "d": "M12 4V16",
+      "closed": false
+    },
+    {
+      "d": "M8 8L12 4L16 8",
+      "closed": false
+    }
+  ]
+}

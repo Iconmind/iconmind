@@ -1,0 +1,28 @@
+{
+  "slug": "panel-right",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Panel right",
+  "description": "A window with a panel down its right side — an inspector, a detail pane beside the content",
+  "tags": [
+    "inspector",
+    "sidebar",
+    "pane"
+  ],
+  "keywords": [
+    "right sidebar",
+    "inspector panel",
+    "detail pane"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M15 4V20",
+      "closed": false
+    }
+  ]
+}

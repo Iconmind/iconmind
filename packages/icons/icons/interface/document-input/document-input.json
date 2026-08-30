@@ -1,0 +1,35 @@
+{
+  "slug": "document-input",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Document input",
+  "description": "A document with an arrow going in — a file taken as input, read by a program or a step",
+  "tags": [
+    "read",
+    "into",
+    "source"
+  ],
+  "aliases": [
+    "file-input"
+  ],
+  "keywords": [
+    "input file",
+    "read file",
+    "source document"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M3 12H11",
+      "closed": false
+    },
+    {
+      "d": "M8.5 9.5L11 12L8.5 14.5",
+      "closed": false
+    }
+  ]
+}

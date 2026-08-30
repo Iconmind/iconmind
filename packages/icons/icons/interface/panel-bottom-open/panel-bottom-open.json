@@ -1,0 +1,32 @@
+{
+  "slug": "panel-bottom-open",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Panel bottom open",
+  "description": "A window with a bar across the bottom and a chevron pointing up — open the bottom panel",
+  "tags": [
+    "drawer",
+    "expand",
+    "show"
+  ],
+  "keywords": [
+    "open bottom panel",
+    "expand drawer",
+    "show console"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M2 15H22",
+      "closed": false
+    },
+    {
+      "d": "M9.5 11L12 8.5L14.5 11",
+      "closed": false
+    }
+  ]
+}

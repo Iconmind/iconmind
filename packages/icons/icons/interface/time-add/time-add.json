@@ -1,0 +1,40 @@
+{
+  "slug": "time-add",
+  "category": "interface",
+  "subcategory": "time",
+  "name": "Time add",
+  "description": "A clock with a plus beside it — add time, extend a deadline or book another slot",
+  "tags": [
+    "extend",
+    "more",
+    "slot"
+  ],
+  "aliases": [
+    "clock-plus"
+  ],
+  "keywords": [
+    "add time",
+    "extend deadline",
+    "extra time",
+    "book slot"
+  ],
+  "family": "clock",
+  "shapes": [
+    {
+      "d": "M2 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 9L7.5 12L10 12",
+      "closed": false
+    },
+    {
+      "d": "M18.5 9V15",
+      "closed": false
+    },
+    {
+      "d": "M15.5 12H21.5",
+      "closed": false
+    }
+  ]
+}

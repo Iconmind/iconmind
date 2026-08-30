@@ -119,7 +119,7 @@ export const BATCH_01: Icon[] = [
     slug: "document", category: "interface", subcategory: "file",
     name: "Document", description: "A single document or file with something written in it — a page of text, notes or a report",
     tags: ["file", "page", "text"], family: "page",
-    aliases: ["file", "page"], keywords: ["page", "doc", "text file"],
+    aliases: ["file", "page", "file-text"], keywords: ["page", "doc", "text file"],
     // The fold is the break. A page already has one place it opens, so the language does
     // not have to impose a second — and the missing corner reads as a fold at any size,
     // where a drawn fold line disappears below twenty pixels.

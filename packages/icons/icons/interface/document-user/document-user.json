@@ -1,0 +1,36 @@
+{
+  "slug": "document-user",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Document user",
+  "description": "A document with a person on it — a file that belongs to someone, a profile or personal record",
+  "tags": [
+    "owner",
+    "profile",
+    "personal"
+  ],
+  "aliases": [
+    "file-user"
+  ],
+  "keywords": [
+    "personal file",
+    "user document",
+    "profile record",
+    "owner"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M10 10.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 17A4 4 0 0 1 16 17",
+      "closed": false
+    }
+  ]
+}

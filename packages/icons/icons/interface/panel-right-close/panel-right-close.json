@@ -1,0 +1,32 @@
+{
+  "slug": "panel-right-close",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Panel right close",
+  "description": "A window with its right panel and a chevron pointing back at it — collapse the inspector",
+  "tags": [
+    "inspector",
+    "collapse",
+    "hide"
+  ],
+  "keywords": [
+    "close right panel",
+    "hide inspector",
+    "collapse details"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M15 4V20",
+      "closed": false
+    },
+    {
+      "d": "M8.5 9.5L11 12L8.5 14.5",
+      "closed": false
+    }
+  ]
+}

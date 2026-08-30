@@ -64,7 +64,7 @@ export const BATCH_04: Icon[] = [
     slug: "human-approval", category: "agents", subcategory: "communication",
     name: "Human approval", description: "Human approval — a gate where a person has to say yes before an agent continues",
     tags: ["review", "consent", "gate"], family: "figure",
-    aliases: [], keywords: ["review", "sign-off", "consent", "manual"],
+    aliases: ["user-check", "user-check-2", "user-round-check"], keywords: ["review", "sign-off", "consent", "manual"],
     // The figure from `user`, moved left to make room for the mark from `check`. Two
     // existing drawings, unaltered, side by side — which is what a compound icon should be.
     shapes: [disc(9, 8, 3), arc(9, 21, 6, 180, 360), poly([[15, 12], [17, 14], [21, 10]])],

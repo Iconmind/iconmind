@@ -1,0 +1,39 @@
+{
+  "slug": "mail-alert",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Mail alert",
+  "description": "An envelope with an exclamation mark beside it — mail that failed, or a message that needs attention",
+  "tags": [
+    "warning",
+    "failed",
+    "attention"
+  ],
+  "aliases": [
+    "mail-warning"
+  ],
+  "keywords": [
+    "mail warning",
+    "email failed",
+    "urgent mail"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H13A2 2 0 0 1 15 8V16A2 2 0 0 1 13 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M4 7L8.5 11.5L13 7",
+      "closed": false
+    },
+    {
+      "d": "M19 7V12",
+      "closed": false
+    },
+    {
+      "d": "M18 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

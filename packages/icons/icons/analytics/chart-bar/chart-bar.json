@@ -11,7 +11,10 @@
   ],
   "aliases": [
     "bars",
-    "chart"
+    "chart",
+    "chart-column",
+    "bar-chart",
+    "bar-chart-2"
   ],
   "keywords": [
     "histogram",

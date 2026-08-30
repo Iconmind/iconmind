@@ -1,0 +1,28 @@
+{
+  "slug": "chevron-first",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Chevron first",
+  "description": "A chevron pointing left at a line — the very first, the start of the run",
+  "tags": [
+    "first",
+    "start",
+    "beginning"
+  ],
+  "keywords": [
+    "first item",
+    "go to first",
+    "start of list"
+  ],
+  "family": "chevron",
+  "shapes": [
+    {
+      "d": "M3 5V19",
+      "closed": false
+    },
+    {
+      "d": "M19 5L12 12L19 19",
+      "closed": false
+    }
+  ]
+}

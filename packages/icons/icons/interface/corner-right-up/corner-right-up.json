@@ -1,0 +1,28 @@
+{
+  "slug": "corner-right-up",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Corner right up",
+  "description": "An arrow that goes right and then turns up — move along and rise",
+  "tags": [
+    "turn",
+    "rise",
+    "along"
+  ],
+  "keywords": [
+    "right then up",
+    "move along and rise",
+    "ascend"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M4 20L14 20L14 4",
+      "closed": false
+    },
+    {
+      "d": "M9 9L14 4L19 9",
+      "closed": false
+    }
+  ]
+}

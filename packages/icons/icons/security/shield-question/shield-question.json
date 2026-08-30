@@ -1,0 +1,35 @@
+{
+  "slug": "shield-question",
+  "category": "security",
+  "subcategory": "policy",
+  "name": "Shield question",
+  "description": "A shield with a question mark on it — protection unknown, a policy not yet decided",
+  "tags": [
+    "unknown",
+    "unverified",
+    "undecided"
+  ],
+  "aliases": [
+    "shield-question-mark"
+  ],
+  "keywords": [
+    "unknown protection",
+    "unverified security",
+    "policy question"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M9.5 10A2.5 2.5 0 1 1 12 12.5",
+      "closed": false
+    },
+    {
+      "d": "M11 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

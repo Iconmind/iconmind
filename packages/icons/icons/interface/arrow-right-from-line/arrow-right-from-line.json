@@ -1,0 +1,36 @@
+{
+  "slug": "arrow-right-from-line",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Arrow right from line",
+  "description": "An arrow leaving a line to the right — push out, send something away from the edge",
+  "tags": [
+    "push",
+    "out",
+    "right"
+  ],
+  "aliases": [
+    "move-right"
+  ],
+  "keywords": [
+    "right from line",
+    "push out",
+    "depart",
+    "exit right"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M4 7V17",
+      "closed": false
+    },
+    {
+      "d": "M8 12H20",
+      "closed": false
+    },
+    {
+      "d": "M16 8L20 12L16 16",
+      "closed": false
+    }
+  ]
+}

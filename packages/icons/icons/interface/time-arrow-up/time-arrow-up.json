@@ -1,0 +1,39 @@
+{
+  "slug": "time-arrow-up",
+  "category": "interface",
+  "subcategory": "time",
+  "name": "Time arrow up",
+  "description": "A clock with an arrow pointing up beside it — bring it forward, move the time earlier",
+  "tags": [
+    "earlier",
+    "forward",
+    "sooner"
+  ],
+  "aliases": [
+    "clock-arrow-up"
+  ],
+  "keywords": [
+    "move earlier",
+    "bring forward",
+    "sooner"
+  ],
+  "family": "clock",
+  "shapes": [
+    {
+      "d": "M2 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 9L7.5 12L10 12",
+      "closed": false
+    },
+    {
+      "d": "M18.5 8V16",
+      "closed": false
+    },
+    {
+      "d": "M16 10.5L18.5 8L21 10.5",
+      "closed": false
+    }
+  ]
+}

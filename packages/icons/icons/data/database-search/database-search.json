@@ -1,0 +1,36 @@
+{
+  "slug": "database-search",
+  "category": "data",
+  "subcategory": "storage",
+  "name": "Database search",
+  "description": "A database with a magnifying glass on it — query the store, look a record up",
+  "tags": [
+    "query",
+    "lookup",
+    "find"
+  ],
+  "keywords": [
+    "query database",
+    "search records",
+    "look up data"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 10.5H17",
+      "closed": false
+    },
+    {
+      "d": "M8.5 15.5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 17.5L16 20",
+      "closed": false
+    }
+  ]
+}

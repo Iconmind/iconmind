@@ -1,0 +1,40 @@
+{
+  "slug": "bell-check",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Bell check",
+  "description": "A bell with a check at its shoulder — notifications on and working, alerts confirmed",
+  "tags": [
+    "enabled",
+    "confirmed",
+    "active"
+  ],
+  "keywords": [
+    "notifications enabled",
+    "alerts confirmed",
+    "bell check"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 13A6 6 0 0 1 18 13",
+      "closed": false
+    },
+    {
+      "d": "M6 13V17",
+      "closed": false
+    },
+    {
+      "d": "M18 13V17",
+      "closed": false
+    },
+    {
+      "d": "M4 17H20",
+      "closed": false
+    },
+    {
+      "d": "M17 6L19 8L22 5",
+      "closed": false
+    }
+  ]
+}

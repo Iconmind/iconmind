@@ -1,0 +1,32 @@
+{
+  "slug": "user-shield",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "User shield",
+  "description": "A person with a shield beside them — a protected user, an account under guard",
+  "tags": [
+    "protected",
+    "guarded",
+    "secure"
+  ],
+  "keywords": [
+    "protected user",
+    "guarded account",
+    "user security"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A6 6 0 0 1 15 21",
+      "closed": false
+    },
+    {
+      "d": "M15.5 9L20.5 9L20.5 13L18 15.5L15.5 13Z",
+      "closed": true
+    }
+  ]
+}

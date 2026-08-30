@@ -1,0 +1,36 @@
+{
+  "slug": "monitor-dot",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Monitor dot",
+  "description": "A screen with a dot on it — a machine with a status, online or with something waiting",
+  "tags": [
+    "status",
+    "online",
+    "indicator"
+  ],
+  "keywords": [
+    "monitor status",
+    "screen indicator",
+    "machine online"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M12 17V20",
+      "closed": false
+    },
+    {
+      "d": "M7 20H17",
+      "closed": false
+    },
+    {
+      "d": "M10 10.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

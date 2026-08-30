@@ -17,21 +17,21 @@ export const BATCH_16: Icon[] = [
     slug: "align-left", category: "interface", subcategory: "layout",
     name: "Align left", description: "Align left — text flush against the left edge, ragged on the right",
     tags: ["text", "flush", "ragged"], family: "rails",
-    aliases: [], keywords: ["justify left", "ragged right", "text align", "start"],
+    aliases: ["text-align-start"], keywords: ["justify left", "ragged right", "text align", "start"],
     shapes: [row(6, 3, 21), row(12, 3, 14), row(18, 3, 18)],
   },
   {
     slug: "align-center", category: "interface", subcategory: "layout",
     name: "Align center", description: "Align center — text centred on the line, ragged on both sides",
     tags: ["text", "centred", "middle"], family: "rails",
-    aliases: [], keywords: ["justify center", "centre", "text align", "middle"],
+    aliases: ["text-align-center"], keywords: ["justify center", "centre", "text align", "middle"],
     shapes: [row(6, 3, 21), row(12, 6.5, 17.5), row(18, 4.5, 19.5)],
   },
   {
     slug: "align-right", category: "interface", subcategory: "layout",
     name: "Align right", description: "Align right — text flush against the right edge, ragged on the left",
     tags: ["text", "flush", "ragged"], family: "rails",
-    aliases: [], keywords: ["justify right", "ragged left", "text align", "end"],
+    aliases: ["text-align-end"], keywords: ["justify right", "ragged left", "text align", "end"],
     shapes: [row(6, 3, 21), row(12, 10, 21), row(18, 6, 21)],
   },
 
@@ -127,7 +127,7 @@ export const BATCH_16: Icon[] = [
     slug: "alarm", category: "interface", subcategory: "time",
     name: "Alarm", description: "An alarm — it will go off at a set time to wake you or remind you",
     tags: ["wake", "reminder", "ring"], family: "orbit",
-    aliases: [], keywords: ["wake", "timer", "reminder", "snooze", "ring"],
+    aliases: ["alarm-clock"], keywords: ["wake", "timer", "reminder", "snooze", "ring"],
     // `clock` with feet. The two hands are at the same coordinates as the clock's, so the
     // pair reads as the same instrument with something added rather than as two clocks.
     shapes: [disc(12, 13, 8), poly([[12, 8], [12, 13], [16, 13]]), poly([[3, 6], [6, 3]]), poly([[21, 6], [18, 3]])],

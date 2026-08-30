@@ -1,0 +1,29 @@
+{
+  "slug": "chevrons-right",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Chevrons right",
+  "description": "Two chevrons pointing right, side by side — go forward further, to the last of them",
+  "tags": [
+    "double",
+    "forward",
+    "last"
+  ],
+  "keywords": [
+    "double chevron right",
+    "last page",
+    "fast forward",
+    "go further"
+  ],
+  "family": "chevron",
+  "shapes": [
+    {
+      "d": "M4 4L12 12L4 20",
+      "closed": false
+    },
+    {
+      "d": "M13 4L21 12L13 20",
+      "closed": false
+    }
+  ]
+}

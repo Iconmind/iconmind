@@ -9,6 +9,9 @@
     "prompt",
     "shell"
   ],
+  "aliases": [
+    "corner-down-left"
+  ],
   "keywords": [
     "command line",
     "prompt",

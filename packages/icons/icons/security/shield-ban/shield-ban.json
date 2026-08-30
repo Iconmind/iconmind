@@ -1,0 +1,28 @@
+{
+  "slug": "shield-ban",
+  "category": "security",
+  "subcategory": "policy",
+  "name": "Shield ban",
+  "description": "A shield with a slash on it — protection refused, a block put in place",
+  "tags": [
+    "blocked",
+    "refused",
+    "denied"
+  ],
+  "keywords": [
+    "shield ban",
+    "blocked",
+    "protection denied"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M9 15L15 9",
+      "closed": false
+    }
+  ]
+}

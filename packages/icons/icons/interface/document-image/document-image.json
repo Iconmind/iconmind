@@ -1,0 +1,36 @@
+{
+  "slug": "document-image",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Document image",
+  "description": "A document with a picture on it — an image file, a photo or graphic saved to disk",
+  "tags": [
+    "picture",
+    "photo",
+    "graphic"
+  ],
+  "aliases": [
+    "file-image"
+  ],
+  "keywords": [
+    "image file",
+    "photo file",
+    "png",
+    "jpeg"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 15.5L11 13.5L13 15.5L15 13.5",
+      "closed": false
+    }
+  ]
+}

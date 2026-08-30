@@ -1,0 +1,37 @@
+{
+  "slug": "user-circle",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "User circle",
+  "description": "A person inside a circle — an account avatar, the placeholder where a photo would go",
+  "tags": [
+    "avatar",
+    "account",
+    "placeholder"
+  ],
+  "aliases": [
+    "circle-user",
+    "user-circle-2"
+  ],
+  "keywords": [
+    "avatar",
+    "account icon",
+    "profile circle",
+    "placeholder avatar"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M9 9.5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 19.5A6 6 0 0 1 18 19.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "mail-question",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Mail question",
+  "description": "An envelope with a question mark beside it — mail of unknown origin, or a query sent in",
+  "tags": [
+    "unknown",
+    "query",
+    "ask"
+  ],
+  "aliases": [
+    "mail-question-mark"
+  ],
+  "keywords": [
+    "unknown sender",
+    "mail query",
+    "ask by mail"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H13A2 2 0 0 1 15 8V16A2 2 0 0 1 13 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M4 7L8.5 11.5L13 7",
+      "closed": false
+    },
+    {
+      "d": "M16.5 10.5A2.5 2.5 0 1 1 19 13",
+      "closed": false
+    },
+    {
+      "d": "M18 15.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

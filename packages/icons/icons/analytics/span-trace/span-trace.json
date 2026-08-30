@@ -9,6 +9,9 @@
     "trace",
     "segment"
   ],
+  "aliases": [
+    "chart-no-axes-gantt"
+  ],
   "keywords": [
     "trace span",
     "waterfall",

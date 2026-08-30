@@ -1,0 +1,36 @@
+{
+  "slug": "monitor-check",
+  "category": "interface",
+  "subcategory": "media",
+  "name": "Monitor check",
+  "description": "A screen with a check on it — the display is fine, the machine reports healthy",
+  "tags": [
+    "healthy",
+    "ok",
+    "verified"
+  ],
+  "keywords": [
+    "monitor ok",
+    "screen check",
+    "healthy display"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M12 17V20",
+      "closed": false
+    },
+    {
+      "d": "M7 20H17",
+      "closed": false
+    },
+    {
+      "d": "M9 10.5L11 12.5L15 8.5",
+      "closed": false
+    }
+  ]
+}

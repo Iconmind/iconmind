@@ -127,7 +127,7 @@ export const BATCH_14: Icon[] = [
     slug: "grid", category: "interface", subcategory: "layout",
     name: "Grid", description: "A grid — items laid out in rows and columns, tiles in a regular layout",
     tags: ["tiles", "layout", "quarters"], family: "window",
-    aliases: ["tiles"], keywords: ["gallery", "tiles", "columns", "masonry", "thumbnails"],
+    aliases: ["tiles", "layout-grid"], keywords: ["gallery", "tiles", "columns", "masonry", "thumbnails"],
     // One box divided, where `cluster` is four boxes apart. A grid is a way of arranging
     // one surface; a cluster is a number of separate things.
     shapes: [frame(2, 2, 20, 20, 3, { gap: 4 }), row(12, 2, 22), col(12, 2, 22)],

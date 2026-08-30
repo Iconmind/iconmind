@@ -1,0 +1,32 @@
+{
+  "slug": "folder-down",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Folder down",
+  "description": "A folder with an arrow pointing down on it — download this folder, fetch the whole directory",
+  "tags": [
+    "download",
+    "fetch",
+    "save"
+  ],
+  "keywords": [
+    "download folder",
+    "fetch directory",
+    "save folder"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M12 10V16.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 14L12 16.5L14.5 14",
+      "closed": false
+    }
+  ]
+}

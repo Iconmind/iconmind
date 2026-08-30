@@ -1,0 +1,47 @@
+{
+  "slug": "bell-add",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Bell add",
+  "description": "A bell with a plus at its shoulder — subscribe, turn notifications on for this",
+  "tags": [
+    "subscribe",
+    "enable",
+    "follow"
+  ],
+  "aliases": [
+    "bell-plus"
+  ],
+  "keywords": [
+    "enable notifications",
+    "subscribe alerts",
+    "add reminder"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 13A6 6 0 0 1 18 13",
+      "closed": false
+    },
+    {
+      "d": "M6 13V17",
+      "closed": false
+    },
+    {
+      "d": "M18 13V17",
+      "closed": false
+    },
+    {
+      "d": "M4 17H20",
+      "closed": false
+    },
+    {
+      "d": "M19.5 3.5V8.5",
+      "closed": false
+    },
+    {
+      "d": "M17 6H22",
+      "closed": false
+    }
+  ]
+}

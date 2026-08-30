@@ -198,7 +198,7 @@ export const BATCH_40: Icon[] = [
     slug: "list-view", category: "interface", subcategory: "layout",
     name: "List view", description: "List view — everything shown as rows in a list or a table, one item per line",
     tags: ["rows", "table", "lines"], family: "window",
-    aliases: [], keywords: ["rows", "table view", "compact", "lines", "details"],
+    aliases: ["layout-list"], keywords: ["rows", "table view", "compact", "lines", "details"],
     shapes: [rect(2, 2, 20, 20, 2), row(7.5, 5, 19), row(12, 5, 19), row(16.5, 5, 19)],
   },
 ];

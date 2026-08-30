@@ -177,7 +177,7 @@ export const BATCH_41: Icon[] = [
     slug: "command", category: "devtools", subcategory: "terminal",
     name: "Command", description: "A command — the line you type at a prompt in the shell to make something happen",
     tags: ["cli", "prompt", "shell"], family: "arrow",
-    aliases: [], keywords: ["command line", "prompt", "type", "shell", "run"],
+    aliases: ["corner-down-left"], keywords: ["command line", "prompt", "type", "shell", "run"],
     // The return arrow — the key that turns the typed line into something that happens.
     // It was the prompt chevron and underscore, which is cli one unit over.
     shapes: [poly([[21, 4], [21, 14], [5, 14]]), poly([[9, 10], [5, 14], [9, 18]])],

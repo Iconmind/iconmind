@@ -42,7 +42,7 @@ export const BATCH_24: Icon[] = [
     slug: "paste", category: "interface", subcategory: "action",
     name: "Paste", description: "Paste — put the copied item here from the clipboard where the cursor is",
     tags: ["clipboard", "insert", "place"], family: "window",
-    aliases: [], keywords: ["clipboard", "ctrl-v", "insert", "drop"],
+    aliases: ["clipboard-paste"], keywords: ["clipboard", "ctrl-v", "insert", "drop"],
         // `clipboard`'s board and clip with something going into it. Drawn as three overlapping
     // rectangles the pair of them is `copy` — and three rectangles on a 24 grid cannot all
     // keep three units of air between their parallel edges, whichever way they are arranged.

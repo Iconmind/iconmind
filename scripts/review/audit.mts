@@ -29,6 +29,8 @@ const ROOT = "packages/icons/icons";
 
 /** Deliberate small glyphs: universal marks whose whole identity is their shape. */
 const GLYPHS = new Set([
+  // A commit on a vertical line is a line with a node on it; its width is the node's.
+  "devtools/git-commit-vertical",
   "interface/minus", "interface/more-horizontal", "interface/more-vertical",
   "interface/chevron-up", "interface/chevron-down", "interface/chevron-left",
   "interface/chevron-right", "interface/pause", "interface/link", "automation/action",
@@ -39,10 +41,18 @@ const ANCHORED = new Set([
   "analytics/retention", "interface/corner-radius", "rag/bm25", "security/login",
   "devtools/request", "automation/workflow-template", "agents/step-limit",
   "cloud/budget-alert", "analytics/latency-p99",
+  // An alignment icon is a line at the edge and the boxes that meet it; the ink sits where
+  // the edge is because the edge is what it is about. Same for a to-do list's boxes and a
+  // quotation's marks, which stand at the start of their lines by definition.
+  "interface/align-start-horizontal", "interface/align-end-horizontal",
+  "interface/align-start-vertical", "interface/align-end-vertical",
+  "interface/list-todo", "interface/text-quote",
   // bin-pack hugs the bin's corner because packing toward the corner IS the metaphor.
   "devops/bin-pack",
   // score-distribution's bars stand on their baseline, exactly as chart-bar does.
   "analytics/score-distribution",
+  "analytics/chart-bar-horizontal", "analytics/chart-bar-increasing", "analytics/chart-bar-decreasing",
+  "analytics/chart-column-increasing", "analytics/chart-column-decreasing", "analytics/chart-column-stacked",
   // Lines drawn on axes put their ink where the axes are — chart-line's own reason.
   "ai/lr-schedule", "ai/train-loss", "ai/warmup", "ai/gradient-clip", "devops/scale-to-zero",
   // The catch tray is at the bottom because that is where thrown things land.

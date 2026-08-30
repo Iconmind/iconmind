@@ -1,0 +1,42 @@
+{
+  "slug": "document-audio",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Document audio",
+  "description": "A document with sound bars on it — an audio file, a recording or a track saved to disk",
+  "tags": [
+    "sound",
+    "recording",
+    "track"
+  ],
+  "aliases": [
+    "file-audio",
+    "file-music",
+    "file-volume"
+  ],
+  "keywords": [
+    "audio file",
+    "mp3",
+    "wav",
+    "recording file"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    },
+    {
+      "d": "M15 10.5V13.5",
+      "closed": false
+    }
+  ]
+}

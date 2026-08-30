@@ -1,0 +1,44 @@
+{
+  "slug": "git-fork",
+  "category": "devtools",
+  "subcategory": "version-control",
+  "name": "Git fork",
+  "description": "One commit splitting into two — a fork, the history going two ways from here",
+  "tags": [
+    "split",
+    "diverge",
+    "copy"
+  ],
+  "keywords": [
+    "fork repository",
+    "diverge",
+    "split history"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M10 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 7.5V11",
+      "closed": false
+    },
+    {
+      "d": "M12 11L6.5 16.5",
+      "closed": false
+    },
+    {
+      "d": "M12 11L17.5 16.5",
+      "closed": false
+    }
+  ]
+}

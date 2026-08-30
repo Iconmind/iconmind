@@ -77,7 +77,7 @@ export const BATCH_37: Icon[] = [
     slug: "span-trace", category: "analytics", subcategory: "llm-observability",
     name: "Span", description: "A span — one timed piece of work inside a distributed trace across services",
     tags: ["timing", "trace", "segment"], family: "chart",
-    aliases: [], keywords: ["trace span", "waterfall", "opentelemetry", "duration", "child span"],
+    aliases: ["chart-no-axes-gantt"], keywords: ["trace span", "waterfall", "opentelemetry", "duration", "child span"],
     shapes: [row(7, 3, 19), row(12, 6, 16), row(17, 9, 21)],
   },
 
@@ -97,7 +97,7 @@ export const BATCH_37: Icon[] = [
     slug: "signature", category: "security", subcategory: "encryption",
     name: "Signature", description: "A signature — proof that it really was them, a mark that authenticates",
     tags: ["signed", "authentic", "mark"], family: "page",
-    aliases: [], keywords: ["signed", "digital signature", "authenticity", "non repudiation"],
+    aliases: ["file-signature"], keywords: ["signed", "digital signature", "authenticity", "non repudiation"],
     shapes: [page(), arc(11, 11, 3, 0, 180), poly([[14, 11], [17, 8]]), row(18, 8, 16)],
   },
   {

@@ -1,0 +1,41 @@
+{
+  "slug": "calendar-heart",
+  "category": "interface",
+  "subcategory": "time",
+  "name": "Calendar heart",
+  "description": "A calendar with a heart on it — a favourite date, an anniversary or a day to remember",
+  "tags": [
+    "anniversary",
+    "favourite",
+    "remember"
+  ],
+  "keywords": [
+    "anniversary",
+    "favourite date",
+    "special day"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V18A3 3 0 0 1 18 21H6A3 3 0 0 1 3 18V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M3 10H21",
+      "closed": false
+    },
+    {
+      "d": "M8 2.5V5",
+      "closed": false
+    },
+    {
+      "d": "M16 2.5V5",
+      "closed": false
+    },
+    {
+      "d": "M8.5 14A1.75 1.75 0 0 1 12 14A1.75 1.75 0 0 1 15.5 14L12 17.5Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
+    }
+  ]
+}

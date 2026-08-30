@@ -1,0 +1,35 @@
+{
+  "slug": "document-down",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Document down",
+  "description": "A document with an arrow pointing down on it — download this file, fetch it to disk",
+  "tags": [
+    "download",
+    "fetch",
+    "save"
+  ],
+  "aliases": [
+    "file-down"
+  ],
+  "keywords": [
+    "download file",
+    "fetch document",
+    "save file"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M12 9V16",
+      "closed": false
+    },
+    {
+      "d": "M9.5 13.5L12 16L14.5 13.5",
+      "closed": false
+    }
+  ]
+}

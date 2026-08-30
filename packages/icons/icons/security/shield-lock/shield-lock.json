@@ -1,0 +1,32 @@
+{
+  "slug": "shield-lock",
+  "category": "security",
+  "subcategory": "policy",
+  "name": "Shield lock",
+  "description": "A shield with a padlock on it — locked down, protection that is not to be lifted",
+  "tags": [
+    "locked",
+    "hardened",
+    "secured"
+  ],
+  "keywords": [
+    "locked shield",
+    "hardened security",
+    "locked down"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M9 11L15 11L15 16L9 16Z",
+      "closed": true
+    },
+    {
+      "d": "M10 11A2 2 0 0 1 14 11",
+      "closed": false
+    }
+  ]
+}

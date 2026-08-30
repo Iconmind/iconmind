@@ -119,7 +119,7 @@ export const BATCH_62: Icon[] = [
     slug: "lockfile-tool", category: "devtools", subcategory: "package",
     name: "Lockfile", description: "A lockfile — exactly these dependency versions, frozen and sworn in writing",
     tags: ["lock", "versions", "frozen"], family: "page",
-    aliases: [], keywords: ["lockfile", "pnpm-lock", "package-lock"],
+    aliases: ["document-key", "file-key"], keywords: ["lockfile", "pnpm-lock", "package-lock"],
     shapes: [page(), disc(12, 10, 2), col(12, 12, 15.5)],
   },
   {

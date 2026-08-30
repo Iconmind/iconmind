@@ -20,7 +20,7 @@ export const BATCH_64: Icon[] = [
   {
     slug: "bookmark-folder", category: "interface", subcategory: "file",
     name: "Bookmark folder", description: "A bookmark folder — where the saved pages and flagged items live together",
-    tags: ["saved", "folder", "flag"], family: "window",
+    tags: ["saved", "folder", "flag"], family: "folder",
     aliases: ["folder-bookmark"], keywords: ["bookmark folder", "saved items"],
     shapes: [folder(), poly([[10, 10], [14, 10], [14, 17], [12, 15], [10, 17]], true)],
   },

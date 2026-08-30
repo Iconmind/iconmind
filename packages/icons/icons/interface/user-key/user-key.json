@@ -1,0 +1,43 @@
+{
+  "slug": "user-key",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "User key",
+  "description": "A person with a key beside them — this user's credential, the key that signs them in",
+  "tags": [
+    "credential",
+    "login",
+    "access"
+  ],
+  "aliases": [
+    "user-round-key"
+  ],
+  "keywords": [
+    "user credential",
+    "account key",
+    "login key"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A6 6 0 0 1 15 21",
+      "closed": false
+    },
+    {
+      "d": "M15 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 12V16.5",
+      "closed": false
+    },
+    {
+      "d": "M17 14.5H19.5",
+      "closed": false
+    }
+  ]
+}

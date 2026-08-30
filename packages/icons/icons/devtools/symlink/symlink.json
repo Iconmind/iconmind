@@ -9,6 +9,9 @@
     "alias",
     "shortcut"
   ],
+  "aliases": [
+    "file-symlink"
+  ],
   "keywords": [
     "symlink",
     "symbolic link",

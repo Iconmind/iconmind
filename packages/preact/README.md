@@ -1,6 +1,6 @@
 # @iconmind/preact
 
-Preact components for [IconMind](https://iconmind.dev) — 2,041 tree-shakeable icons
+Preact components for [IconMind](https://iconmind.dev) — 2,271 tree-shakeable icons
 for AI-era software: LLMs, agents, MCP, RAG, and everything around them.
 
 ```bash

@@ -1,0 +1,36 @@
+{
+  "slug": "panel-top-dashed",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Panel top dashed",
+  "description": "A window with a dashed line across the top — where a header would go, not yet there",
+  "tags": [
+    "placeholder",
+    "optional",
+    "header"
+  ],
+  "keywords": [
+    "header placeholder",
+    "optional top panel",
+    "dashed toolbar"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M3.5 9H6.5",
+      "closed": false
+    },
+    {
+      "d": "M10.5 9H13.5",
+      "closed": false
+    },
+    {
+      "d": "M17.5 9H20.5",
+      "closed": false
+    }
+  ]
+}

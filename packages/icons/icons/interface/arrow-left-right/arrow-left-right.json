@@ -1,0 +1,36 @@
+{
+  "slug": "arrow-left-right",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Arrow left right",
+  "description": "One arrow with a head at each end, pointing left and right — swap, resize or go either way",
+  "tags": [
+    "swap",
+    "horizontal",
+    "both"
+  ],
+  "aliases": [
+    "move-horizontal"
+  ],
+  "keywords": [
+    "horizontal arrow",
+    "swap",
+    "resize width",
+    "both ways"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M4 12H20",
+      "closed": false
+    },
+    {
+      "d": "M8 8L4 12L8 16",
+      "closed": false
+    },
+    {
+      "d": "M16 8L20 12L16 16",
+      "closed": false
+    }
+  ]
+}

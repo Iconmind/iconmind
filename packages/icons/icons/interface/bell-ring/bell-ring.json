@@ -1,0 +1,44 @@
+{
+  "slug": "bell-ring",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Bell ring",
+  "description": "A bell with motion lines beside it — ringing now, a notification going off",
+  "tags": [
+    "ringing",
+    "alarm",
+    "active"
+  ],
+  "keywords": [
+    "bell ringing",
+    "notification sound",
+    "alarm going off"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 13A6 6 0 0 1 18 13",
+      "closed": false
+    },
+    {
+      "d": "M6 13V17",
+      "closed": false
+    },
+    {
+      "d": "M18 13V17",
+      "closed": false
+    },
+    {
+      "d": "M4 17H20",
+      "closed": false
+    },
+    {
+      "d": "M3 10L5 8",
+      "closed": false
+    },
+    {
+      "d": "M21 10L19 8",
+      "closed": false
+    }
+  ]
+}

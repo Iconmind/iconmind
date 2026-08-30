@@ -1,0 +1,32 @@
+{
+  "slug": "folder-input",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Folder input",
+  "description": "A folder with an arrow going in — files moved into this folder, an input directory",
+  "tags": [
+    "into",
+    "import",
+    "incoming"
+  ],
+  "keywords": [
+    "input folder",
+    "import directory",
+    "incoming files"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M2 13H11",
+      "closed": false
+    },
+    {
+      "d": "M8.5 10.5L11 13L8.5 15.5",
+      "closed": false
+    }
+  ]
+}

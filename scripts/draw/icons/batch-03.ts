@@ -195,7 +195,7 @@ export const BATCH_03: Icon[] = [
     slug: "chart-bar", category: "analytics", subcategory: "chart",
     name: "Bar chart", description: "A bar chart — compare quantities side by side across categories or time periods",
     tags: ["bars", "compare", "graph"], family: "axes",
-    aliases: ["bars", "chart"], keywords: ["histogram", "graph", "compare", "column chart"],
+    aliases: ["bars", "chart", "chart-column", "bar-chart", "bar-chart-2"], keywords: ["histogram", "graph", "compare", "column chart"],
     // Axes first. Bars without them float, and floating bars at three different heights are
     // an equaliser — the axes are what make the reading "measured against something".
     shapes: [
@@ -208,7 +208,7 @@ export const BATCH_03: Icon[] = [
     slug: "chart-line", category: "analytics", subcategory: "chart",
     name: "Line chart", description: "A line chart — see how a metric moved over time as a continuous series",
     tags: ["trend", "series", "graph"], family: "axes",
-    aliases: ["trend"], keywords: ["time series", "graph", "plot", "sparkline"],
+    aliases: ["trend", "chart-spline-line"], keywords: ["time series", "graph", "plot", "sparkline"],
     // The same axes as `chart-bar`, so the two read as one pair rather than two drawings.
     // The line dips before it climbs: a line that only rises is a logo.
     shapes: [

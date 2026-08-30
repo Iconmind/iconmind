@@ -10,7 +10,8 @@
     "band"
   ],
   "aliases": [
-    "header"
+    "header",
+    "layout-panel-top"
   ],
   "keywords": [
     "toolbar",

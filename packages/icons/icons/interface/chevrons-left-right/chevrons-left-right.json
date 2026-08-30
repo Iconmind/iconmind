@@ -1,0 +1,28 @@
+{
+  "slug": "chevrons-left-right",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Chevrons left right",
+  "description": "Chevrons pointing out to the left and the right — widen, expand sideways",
+  "tags": [
+    "widen",
+    "expand",
+    "sideways"
+  ],
+  "keywords": [
+    "expand horizontally",
+    "widen",
+    "left right chevrons"
+  ],
+  "family": "chevron",
+  "shapes": [
+    {
+      "d": "M9 7L4 12L9 17",
+      "closed": false
+    },
+    {
+      "d": "M15 7L20 12L15 17",
+      "closed": false
+    }
+  ]
+}

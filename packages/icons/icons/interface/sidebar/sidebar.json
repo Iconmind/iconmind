@@ -11,7 +11,8 @@
   ],
   "aliases": [
     "drawer",
-    "panel-left"
+    "panel-left",
+    "layout-panel-left"
   ],
   "keywords": [
     "navigation",

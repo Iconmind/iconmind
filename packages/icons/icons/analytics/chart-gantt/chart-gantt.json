@@ -1,0 +1,44 @@
+{
+  "slug": "chart-gantt",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Chart gantt",
+  "description": "Bars staggered down a timeline — a gantt chart, tasks laid end to end in time",
+  "tags": [
+    "timeline",
+    "schedule",
+    "tasks"
+  ],
+  "aliases": [
+    "square-gantt-chart",
+    "square-chart-gantt"
+  ],
+  "keywords": [
+    "gantt chart",
+    "project timeline",
+    "task schedule"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M6 7H12",
+      "closed": false
+    },
+    {
+      "d": "M10 12H17",
+      "closed": false
+    },
+    {
+      "d": "M13 17H20",
+      "closed": false
+    }
+  ]
+}

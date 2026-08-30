@@ -1,0 +1,49 @@
+{
+  "slug": "user-config",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "User config",
+  "description": "A person with sliders beside them — this user's settings and preferences",
+  "tags": [
+    "settings",
+    "preferences",
+    "sliders"
+  ],
+  "aliases": [
+    "user-cog",
+    "user-cog-2",
+    "user-round-cog"
+  ],
+  "keywords": [
+    "user settings",
+    "account preferences",
+    "profile settings"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A6 6 0 0 1 15 21",
+      "closed": false
+    },
+    {
+      "d": "M15 10.5H21",
+      "closed": false
+    },
+    {
+      "d": "M19 8.5V12.5",
+      "closed": false
+    },
+    {
+      "d": "M15 14.5H21",
+      "closed": false
+    },
+    {
+      "d": "M17 12.5V16.5",
+      "closed": false
+    }
+  ]
+}

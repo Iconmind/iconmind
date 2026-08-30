@@ -1,0 +1,32 @@
+{
+  "slug": "chart-no-axes-column",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Chart no axes column",
+  "description": "Three bars and nothing else — a column chart without its axes, the shape of the numbers alone",
+  "tags": [
+    "bars",
+    "minimal",
+    "sparkline"
+  ],
+  "keywords": [
+    "bars without axes",
+    "minimal bar chart",
+    "column sparkline"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M6 10V20",
+      "closed": false
+    },
+    {
+      "d": "M12 6V20",
+      "closed": false
+    },
+    {
+      "d": "M18 13V20",
+      "closed": false
+    }
+  ]
+}

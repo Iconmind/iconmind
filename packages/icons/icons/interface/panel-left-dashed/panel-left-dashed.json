@@ -1,0 +1,36 @@
+{
+  "slug": "panel-left-dashed",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Panel left dashed",
+  "description": "A window with a dashed line down its left side — where a sidebar would go, not yet there",
+  "tags": [
+    "placeholder",
+    "optional",
+    "sidebar"
+  ],
+  "keywords": [
+    "sidebar placeholder",
+    "optional left panel",
+    "dashed sidebar"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M9 5V8",
+      "closed": false
+    },
+    {
+      "d": "M9 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M9 16V19",
+      "closed": false
+    }
+  ]
+}

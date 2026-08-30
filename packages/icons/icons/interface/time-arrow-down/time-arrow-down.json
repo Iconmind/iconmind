@@ -1,0 +1,40 @@
+{
+  "slug": "time-arrow-down",
+  "category": "interface",
+  "subcategory": "time",
+  "name": "Time arrow down",
+  "description": "A clock with an arrow pointing down beside it — push it back, move the time later",
+  "tags": [
+    "later",
+    "postpone",
+    "delay"
+  ],
+  "aliases": [
+    "clock-arrow-down"
+  ],
+  "keywords": [
+    "move later",
+    "postpone",
+    "push back",
+    "delay"
+  ],
+  "family": "clock",
+  "shapes": [
+    {
+      "d": "M2 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 9L7.5 12L10 12",
+      "closed": false
+    },
+    {
+      "d": "M18.5 8V16",
+      "closed": false
+    },
+    {
+      "d": "M16 13.5L18.5 16L21 13.5",
+      "closed": false
+    }
+  ]
+}

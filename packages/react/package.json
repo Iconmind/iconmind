@@ -42,7 +42,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "description": "React components for IconMind — 2,041 tree-shakeable icons for AI-era software (LLMs, agents, MCP, RAG).",
+  "description": "React components for IconMind — 2,271 tree-shakeable icons for AI-era software (LLMs, agents, MCP, RAG).",
   "keywords": [
     "icons",
     "svg",

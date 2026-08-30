@@ -9,6 +9,9 @@
     "insert",
     "place"
   ],
+  "aliases": [
+    "clipboard-paste"
+  ],
   "keywords": [
     "clipboard",
     "ctrl-v",

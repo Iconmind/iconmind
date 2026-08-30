@@ -1,0 +1,36 @@
+{
+  "slug": "list-check",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "List check",
+  "description": "Three lines with a check beside them — a list that has been gone through and approved",
+  "tags": [
+    "approved",
+    "done",
+    "reviewed"
+  ],
+  "keywords": [
+    "approved list",
+    "checked list",
+    "reviewed items"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 6H14",
+      "closed": false
+    },
+    {
+      "d": "M3 11H14",
+      "closed": false
+    },
+    {
+      "d": "M3 16H14",
+      "closed": false
+    },
+    {
+      "d": "M16 12L18.5 14.5L22 11",
+      "closed": false
+    }
+  ]
+}

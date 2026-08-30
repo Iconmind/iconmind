@@ -1,0 +1,32 @@
+{
+  "slug": "align-start-vertical",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Align start vertical",
+  "description": "Two boxes set against a line to their left — align objects to the left edge",
+  "tags": [
+    "left",
+    "objects",
+    "edge"
+  ],
+  "keywords": [
+    "align left edge",
+    "align objects left",
+    "left edge"
+  ],
+  "family": "align",
+  "shapes": [
+    {
+      "d": "M4 3V21",
+      "closed": false
+    },
+    {
+      "d": "M7 7L17 7L17 11L7 11Z",
+      "closed": true
+    },
+    {
+      "d": "M7 14L13 14L13 18L7 18Z",
+      "closed": true
+    }
+  ]
+}

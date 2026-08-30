@@ -1,0 +1,35 @@
+{
+  "slug": "cloud-sync",
+  "category": "cloud",
+  "subcategory": "compute",
+  "name": "Cloud sync",
+  "description": "A cloud with a sync loop under it — keep this copy and the cloud copy the same",
+  "tags": [
+    "sync",
+    "mirror",
+    "refresh"
+  ],
+  "keywords": [
+    "cloud sync",
+    "sync to cloud",
+    "keep in sync"
+  ],
+  "family": "cloud",
+  "shapes": [
+    {
+      "d": "M4 12.5A4 4 0 0 1 6 5A5 5 0 0 1 15.5 3.5A5.5 5.5 0 0 1 20 12.5Z",
+      "closed": true,
+      "_why": "three lobes, each an arc whose radius is set by the chord it spans — 4 across 7.76, 5 across 9.62, 5.5 across 10.06 — which no constructor takes as an argument"
+    },
+    {
+      "d": "M13.5 15.5h2.5a1.5 1.5 0 0 1 1.5 1.5v2.5a1.5 1.5 0 0 1 -1.5 1.5h-2.5",
+      "closed": false,
+      "_why": "the right half of a two-gap loop; frame() can only open its top edge"
+    },
+    {
+      "d": "M10.5 21h-2.5a1.5 1.5 0 0 1 -1.5 -1.5v-2.5a1.5 1.5 0 0 1 1.5 -1.5h2.5",
+      "closed": false,
+      "_why": "the left half of the same loop"
+    }
+  ]
+}

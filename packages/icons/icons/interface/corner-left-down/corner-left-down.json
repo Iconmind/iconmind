@@ -1,0 +1,28 @@
+{
+  "slug": "corner-left-down",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Corner left down",
+  "description": "An arrow that goes left and then turns down — come across and drop",
+  "tags": [
+    "turn",
+    "drop",
+    "across"
+  ],
+  "keywords": [
+    "left then down",
+    "come across and drop",
+    "wrap down"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M20 4L10 4L10 20",
+      "closed": false
+    },
+    {
+      "d": "M5 15L10 20L15 15",
+      "closed": false
+    }
+  ]
+}

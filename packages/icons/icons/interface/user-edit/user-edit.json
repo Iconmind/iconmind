@@ -1,0 +1,36 @@
+{
+  "slug": "user-edit",
+  "category": "interface",
+  "subcategory": "identity",
+  "name": "User edit",
+  "description": "A person with a pencil beside them — edit this user's profile and details",
+  "tags": [
+    "pencil",
+    "profile",
+    "modify"
+  ],
+  "aliases": [
+    "user-pen",
+    "user-round-pen"
+  ],
+  "keywords": [
+    "edit profile",
+    "edit user",
+    "update account"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A6 6 0 0 1 15 21",
+      "closed": false
+    },
+    {
+      "d": "M14.5 16.5L14.5 14L19.5 9L22 11.5L17 16.5Z",
+      "closed": true
+    }
+  ]
+}

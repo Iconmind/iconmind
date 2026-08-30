@@ -1,0 +1,32 @@
+{
+  "slug": "arrow-up-from-dot",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Arrow up from dot",
+  "description": "An arrow rising from a dot — start from here and go up, a point of origin",
+  "tags": [
+    "origin",
+    "start",
+    "from-here"
+  ],
+  "keywords": [
+    "from here up",
+    "origin point",
+    "start upward"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M10 18.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 4V14",
+      "closed": false
+    },
+    {
+      "d": "M8 8L12 4L16 8",
+      "closed": false
+    }
+  ]
+}

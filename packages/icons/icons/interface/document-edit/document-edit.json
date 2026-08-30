@@ -1,0 +1,33 @@
+{
+  "slug": "document-edit",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Document edit",
+  "description": "A document with a pencil on it — open this file for editing and change what it says",
+  "tags": [
+    "pencil",
+    "write",
+    "modify"
+  ],
+  "aliases": [
+    "file-pen",
+    "file-pen-line",
+    "file-edit"
+  ],
+  "keywords": [
+    "edit file",
+    "modify document",
+    "write file"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 16.5L9 14L13.5 9.5L16 12L11.5 16.5Z",
+      "closed": true
+    }
+  ]
+}

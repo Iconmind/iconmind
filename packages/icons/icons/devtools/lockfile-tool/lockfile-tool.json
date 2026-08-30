@@ -9,6 +9,10 @@
     "versions",
     "frozen"
   ],
+  "aliases": [
+    "document-key",
+    "file-key"
+  ],
   "keywords": [
     "lockfile",
     "pnpm-lock",

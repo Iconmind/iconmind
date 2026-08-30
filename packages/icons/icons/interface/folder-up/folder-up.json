@@ -1,0 +1,32 @@
+{
+  "slug": "folder-up",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Folder up",
+  "description": "A folder with an arrow pointing up on it — upload this folder, send the whole directory",
+  "tags": [
+    "upload",
+    "send",
+    "parent"
+  ],
+  "keywords": [
+    "upload folder",
+    "send directory",
+    "parent folder"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M12 10V16.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 12.5L12 10L14.5 12.5",
+      "closed": false
+    }
+  ]
+}

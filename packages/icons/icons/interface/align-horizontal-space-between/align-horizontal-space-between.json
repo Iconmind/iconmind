@@ -1,0 +1,40 @@
+{
+  "slug": "align-horizontal-space-between",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Align horizontal space between",
+  "description": "Two boxes pushed to the lines at either side — spread objects to the edges with the space between",
+  "tags": [
+    "spread",
+    "edges",
+    "spacing"
+  ],
+  "aliases": [
+    "align-horizontal-distribute-center",
+    "align-horizontal-justify-center"
+  ],
+  "keywords": [
+    "space between horizontally",
+    "spread objects",
+    "distribute horizontally"
+  ],
+  "family": "align",
+  "shapes": [
+    {
+      "d": "M3 3V21",
+      "closed": false
+    },
+    {
+      "d": "M6 7L10 7L10 17L6 17Z",
+      "closed": true
+    },
+    {
+      "d": "M14 7L18 7L18 17L14 17Z",
+      "closed": true
+    },
+    {
+      "d": "M21 3V21",
+      "closed": false
+    }
+  ]
+}

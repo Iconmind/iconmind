@@ -1,0 +1,35 @@
+{
+  "slug": "document-output",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Document output",
+  "description": "A document with an arrow pointing right inside it — a file produced as output, written by a program or a step",
+  "tags": [
+    "write",
+    "result",
+    "produced"
+  ],
+  "aliases": [
+    "file-output"
+  ],
+  "keywords": [
+    "output file",
+    "written file",
+    "result document"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 12H14",
+      "closed": false
+    },
+    {
+      "d": "M12.5 9.5L15 12L12.5 14.5",
+      "closed": false
+    }
+  ]
+}

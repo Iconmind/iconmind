@@ -1,0 +1,28 @@
+{
+  "slug": "corner-right-down",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Corner right down",
+  "description": "An arrow that goes right and then turns down — move along and drop",
+  "tags": [
+    "turn",
+    "drop",
+    "along"
+  ],
+  "keywords": [
+    "right then down",
+    "move along and drop",
+    "descend"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M4 4L14 4L14 20",
+      "closed": false
+    },
+    {
+      "d": "M9 15L14 20L19 15",
+      "closed": false
+    }
+  ]
+}

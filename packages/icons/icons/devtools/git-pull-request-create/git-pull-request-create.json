@@ -1,0 +1,47 @@
+{
+  "slug": "git-pull-request-create",
+  "category": "devtools",
+  "subcategory": "version-control",
+  "name": "Git pull request create",
+  "description": "A pull request with a plus above it — open a new pull request from this branch",
+  "tags": [
+    "open",
+    "new",
+    "propose"
+  ],
+  "aliases": [
+    "git-pull-request-create-arrow"
+  ],
+  "keywords": [
+    "create pull request",
+    "open pr",
+    "new merge request"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M4 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 7.5V16.5",
+      "closed": false
+    },
+    {
+      "d": "M4 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 4V9",
+      "closed": false
+    },
+    {
+      "d": "M15.5 6.5H20.5",
+      "closed": false
+    }
+  ]
+}

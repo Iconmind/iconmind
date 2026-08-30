@@ -1,0 +1,39 @@
+{
+  "slug": "database-add",
+  "category": "data",
+  "subcategory": "storage",
+  "name": "Database add",
+  "description": "A database with a plus on it — add a record, or stand up another store",
+  "tags": [
+    "insert",
+    "record",
+    "new"
+  ],
+  "aliases": [
+    "database-plus"
+  ],
+  "keywords": [
+    "insert record",
+    "add to database",
+    "new database"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 10.5H17",
+      "closed": false
+    },
+    {
+      "d": "M12 12.5V18.5",
+      "closed": false
+    },
+    {
+      "d": "M9 15.5H15",
+      "closed": false
+    }
+  ]
+}

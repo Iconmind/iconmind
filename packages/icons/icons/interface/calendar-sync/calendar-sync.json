@@ -1,0 +1,46 @@
+{
+  "slug": "calendar-sync",
+  "category": "interface",
+  "subcategory": "time",
+  "name": "Calendar sync",
+  "description": "A calendar with a sync loop on it — keep this calendar in step with another",
+  "tags": [
+    "subscribe",
+    "mirror",
+    "refresh"
+  ],
+  "keywords": [
+    "sync calendar",
+    "calendar subscription",
+    "refresh events"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V18A3 3 0 0 1 18 21H6A3 3 0 0 1 3 18V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M3 10H21",
+      "closed": false
+    },
+    {
+      "d": "M8 2.5V5",
+      "closed": false
+    },
+    {
+      "d": "M16 2.5V5",
+      "closed": false
+    },
+    {
+      "d": "M13.5 13.5h2.5a1 1 0 0 1 1 1v2.5a1 1 0 0 1 -1 1h-2.5",
+      "closed": false,
+      "_why": "the right half of a two-gap loop; frame() can only open its top edge"
+    },
+    {
+      "d": "M10.5 18h-2.5a1 1 0 0 1 -1 -1v-2.5a1 1 0 0 1 1 -1h2.5",
+      "closed": false,
+      "_why": "the left half of the same loop"
+    }
+  ]
+}

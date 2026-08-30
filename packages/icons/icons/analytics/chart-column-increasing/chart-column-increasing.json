@@ -1,0 +1,43 @@
+{
+  "slug": "chart-column-increasing",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Chart column increasing",
+  "description": "Bars rising from left to right — a column chart of something going up",
+  "tags": [
+    "growth",
+    "rising",
+    "trend"
+  ],
+  "aliases": [
+    "chart-no-axes-column-increasing"
+  ],
+  "keywords": [
+    "rising bars",
+    "growth chart",
+    "increasing columns"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M8 15V20",
+      "closed": false
+    },
+    {
+      "d": "M13 11V20",
+      "closed": false
+    },
+    {
+      "d": "M18 7V20",
+      "closed": false
+    }
+  ]
+}

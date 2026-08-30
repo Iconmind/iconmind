@@ -1,0 +1,32 @@
+{
+  "slug": "panel-top-close",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Panel top close",
+  "description": "A window with a bar across the top and a chevron pointing up at it — collapse the top panel",
+  "tags": [
+    "header",
+    "collapse",
+    "hide"
+  ],
+  "keywords": [
+    "close top panel",
+    "collapse header",
+    "hide toolbar"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M2 9H22",
+      "closed": false
+    },
+    {
+      "d": "M9.5 16L12 13.5L14.5 16",
+      "closed": false
+    }
+  ]
+}

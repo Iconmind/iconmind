@@ -1,0 +1,32 @@
+{
+  "slug": "align-end-vertical",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Align end vertical",
+  "description": "Two boxes set against a line to their right — align objects to the right edge",
+  "tags": [
+    "right",
+    "objects",
+    "edge"
+  ],
+  "keywords": [
+    "align right edge",
+    "align objects right",
+    "right edge"
+  ],
+  "family": "align",
+  "shapes": [
+    {
+      "d": "M20 3V21",
+      "closed": false
+    },
+    {
+      "d": "M7 7L17 7L17 11L7 11Z",
+      "closed": true
+    },
+    {
+      "d": "M11 14L17 14L17 18L11 18Z",
+      "closed": true
+    }
+  ]
+}

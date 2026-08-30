@@ -1,0 +1,32 @@
+{
+  "slug": "mail-check",
+  "category": "interface",
+  "subcategory": "communication",
+  "name": "Mail check",
+  "description": "An envelope with a check beside it — mail delivered, or an address confirmed",
+  "tags": [
+    "delivered",
+    "verified",
+    "confirmed"
+  ],
+  "keywords": [
+    "mail delivered",
+    "email verified",
+    "confirmed address"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H13A2 2 0 0 1 15 8V16A2 2 0 0 1 13 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M4 7L8.5 11.5L13 7",
+      "closed": false
+    },
+    {
+      "d": "M16 12L18 14L21.5 10.5",
+      "closed": false
+    }
+  ]
+}

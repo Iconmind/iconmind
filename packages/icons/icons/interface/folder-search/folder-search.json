@@ -1,0 +1,35 @@
+{
+  "slug": "folder-search",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Folder search",
+  "description": "A folder with a magnifying glass on it — search inside this folder for a file",
+  "tags": [
+    "find",
+    "lookup",
+    "inside"
+  ],
+  "aliases": [
+    "folder-search-2"
+  ],
+  "keywords": [
+    "search folder",
+    "find in directory",
+    "locate file"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M8.5 13a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 15L16 17.5",
+      "closed": false
+    }
+  ]
+}

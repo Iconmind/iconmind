@@ -1,0 +1,32 @@
+{
+  "slug": "table-cells-merge",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Table cells merge",
+  "description": "A table with arrows pointing into the middle — merge cells into one",
+  "tags": [
+    "merge",
+    "join",
+    "combine"
+  ],
+  "keywords": [
+    "merge cells",
+    "join cells",
+    "combine columns"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M6.5 9.5L9 12L6.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M17.5 9.5L15 12L17.5 14.5",
+      "closed": false
+    }
+  ]
+}

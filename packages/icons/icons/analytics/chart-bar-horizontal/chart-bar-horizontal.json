@@ -1,0 +1,45 @@
+{
+  "slug": "chart-bar-horizontal",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Chart bar horizontal",
+  "description": "Bars lying on their side against an axis — a horizontal bar chart, categories compared by length",
+  "tags": [
+    "horizontal",
+    "compare",
+    "categories"
+  ],
+  "aliases": [
+    "chart-bar-big",
+    "bar-chart-horizontal",
+    "bar-chart-horizontal-big"
+  ],
+  "keywords": [
+    "horizontal bar chart",
+    "bar chart",
+    "compare categories"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M4 7H16",
+      "closed": false
+    },
+    {
+      "d": "M4 12H12",
+      "closed": false
+    },
+    {
+      "d": "M4 17H18",
+      "closed": false
+    }
+  ]
+}

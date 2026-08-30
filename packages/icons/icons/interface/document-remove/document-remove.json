@@ -1,0 +1,31 @@
+{
+  "slug": "document-remove",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Document remove",
+  "description": "A document with a minus on it — take this file out of the set, drop it from the list",
+  "tags": [
+    "minus",
+    "drop",
+    "delete"
+  ],
+  "aliases": [
+    "file-minus"
+  ],
+  "keywords": [
+    "remove file",
+    "delete document",
+    "drop file"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    }
+  ]
+}

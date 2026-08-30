@@ -1,0 +1,36 @@
+{
+  "slug": "folder-kanban",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Folder kanban",
+  "description": "A folder with three columns on it — a folder of work in progress, sorted into lanes",
+  "tags": [
+    "board",
+    "lanes",
+    "columns"
+  ],
+  "keywords": [
+    "kanban folder",
+    "board directory",
+    "project lanes"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M9 10V17",
+      "closed": false
+    },
+    {
+      "d": "M12 10V14",
+      "closed": false
+    },
+    {
+      "d": "M15 10V15",
+      "closed": false
+    }
+  ]
+}

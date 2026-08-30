@@ -157,7 +157,7 @@ export const BATCH_25: Icon[] = [
     slug: "corpus", category: "rag", subcategory: "knowledge",
     name: "Corpus", description: "A corpus — the whole body of documents a system has read and can draw on",
     tags: ["collection", "documents", "body"], family: "page",
-    aliases: ["collection"], keywords: ["document set", "library", "training data", "archive"],
+    aliases: ["collection", "file-stack"], keywords: ["document set", "library", "training data", "archive"],
     shapes: [
       poly([[13, 2], [6, 2], [6, 16], [16, 16], [16, 5]]),
       poly([[16, 8], [9, 8], [9, 22], [19, 22], [19, 11]]),

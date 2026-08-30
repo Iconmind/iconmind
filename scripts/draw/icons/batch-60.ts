@@ -61,7 +61,7 @@ export const BATCH_60: Icon[] = [
     slug: "symlink", category: "devtools", subcategory: "package",
     name: "Symlink", description: "A symlink — a file that is really a pointer to another path on disk",
     tags: ["link", "alias", "shortcut"], family: "page",
-    aliases: [], keywords: ["symlink", "symbolic link", "linked file"],
+    aliases: ["file-symlink"], keywords: ["symlink", "symbolic link", "linked file"],
     // The page with the link arrow in its corner, the way desktop shortcuts wear it.
     shapes: [page(), poly([[9, 16], [14, 11]]), poly([[10.5, 10.5], [14.5, 10.5], [14.5, 14.5]])],
   },

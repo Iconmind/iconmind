@@ -1,0 +1,35 @@
+{
+  "slug": "move-diagonal",
+  "category": "interface",
+  "subcategory": "arrow",
+  "name": "Move diagonal",
+  "description": "A diagonal arrow with a head at each end — drag a corner, resize in both directions at once",
+  "tags": [
+    "resize",
+    "drag",
+    "corner"
+  ],
+  "aliases": [
+    "move-diagonal-2"
+  ],
+  "keywords": [
+    "resize diagonally",
+    "drag corner",
+    "diagonal move"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M4 20L20 4",
+      "closed": false
+    },
+    {
+      "d": "M10 4L20 4L20 14",
+      "closed": false
+    },
+    {
+      "d": "M4 10L4 20L14 20",
+      "closed": false
+    }
+  ]
+}

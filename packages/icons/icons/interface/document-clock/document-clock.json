@@ -1,0 +1,36 @@
+{
+  "slug": "document-clock",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Document clock",
+  "description": "A document with a clock on it — a file's history, when it changed or when it expires",
+  "tags": [
+    "history",
+    "modified",
+    "expires"
+  ],
+  "aliases": [
+    "file-clock"
+  ],
+  "keywords": [
+    "file history",
+    "modified date",
+    "document expiry",
+    "recent file"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M8.5 12.5a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9.5L12 12.5L14.5 12.5",
+      "closed": false
+    }
+  ]
+}

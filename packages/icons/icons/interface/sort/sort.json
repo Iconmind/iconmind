@@ -9,6 +9,12 @@
     "arrange",
     "rank"
   ],
+  "aliases": [
+    "arrow-down-narrow-wide",
+    "arrow-up-narrow-wide",
+    "arrow-down-a-z",
+    "arrow-down-0-1"
+  ],
   "keywords": [
     "order",
     "arrange",

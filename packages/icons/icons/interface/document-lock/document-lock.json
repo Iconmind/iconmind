@@ -1,0 +1,35 @@
+{
+  "slug": "document-lock",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Document lock",
+  "description": "A document with a padlock on it — this file is locked, read-only or encrypted at rest",
+  "tags": [
+    "locked",
+    "private",
+    "encrypted"
+  ],
+  "aliases": [
+    "file-lock"
+  ],
+  "keywords": [
+    "locked file",
+    "protected document",
+    "read only"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 12L15 12L15 17.5L9 17.5Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12A2 2 0 0 1 14 12",
+      "closed": false
+    }
+  ]
+}

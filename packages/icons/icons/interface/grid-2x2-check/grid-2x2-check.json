@@ -1,0 +1,36 @@
+{
+  "slug": "grid-2x2-check",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Grid 2×2 check",
+  "description": "A four-cell grid with a check in one cell — a layout chosen, a grid item confirmed",
+  "tags": [
+    "cells",
+    "chosen",
+    "confirmed"
+  ],
+  "keywords": [
+    "grid check",
+    "selected cell",
+    "confirmed layout"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 2H19A3 3 0 0 1 22 5V19A3 3 0 0 1 19 22H5A3 3 0 0 1 2 19V5A3 3 0 0 1 5 2H10",
+      "closed": true
+    },
+    {
+      "d": "M2 12H22",
+      "closed": false
+    },
+    {
+      "d": "M12 2V22",
+      "closed": false
+    },
+    {
+      "d": "M14 16L16 18L19.5 14.5",
+      "closed": false
+    }
+  ]
+}

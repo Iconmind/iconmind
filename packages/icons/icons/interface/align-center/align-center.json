@@ -9,6 +9,9 @@
     "centred",
     "middle"
   ],
+  "aliases": [
+    "text-align-center"
+  ],
   "keywords": [
     "justify center",
     "centre",

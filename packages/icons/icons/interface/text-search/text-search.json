@@ -1,0 +1,41 @@
+{
+  "slug": "text-search",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Text search",
+  "description": "Lines with a magnifying glass over them — search within the text, find a word on the page",
+  "tags": [
+    "find",
+    "lookup",
+    "match"
+  ],
+  "keywords": [
+    "find in text",
+    "search text",
+    "find on page",
+    "text lookup"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M3 6H21",
+      "closed": false
+    },
+    {
+      "d": "M3 12H11",
+      "closed": false
+    },
+    {
+      "d": "M3 18H11",
+      "closed": false
+    },
+    {
+      "d": "M13.5 15a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18.5 17L21 19.5",
+      "closed": false
+    }
+  ]
+}

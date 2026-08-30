@@ -1,0 +1,42 @@
+{
+  "slug": "document-chart",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Document chart",
+  "description": "A document with bars on it — a report file, numbers already charted on the page",
+  "tags": [
+    "report",
+    "bars",
+    "figures"
+  ],
+  "aliases": [
+    "file-bar-chart",
+    "file-chart-column",
+    "file-line-chart",
+    "file-pie-chart"
+  ],
+  "keywords": [
+    "report file",
+    "chart document",
+    "data report"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M10 12V16.5",
+      "closed": false
+    },
+    {
+      "d": "M14 9V16.5",
+      "closed": false
+    },
+    {
+      "d": "M8.5 16.5H15.5",
+      "closed": false
+    }
+  ]
+}

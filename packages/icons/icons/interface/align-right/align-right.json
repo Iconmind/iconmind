@@ -9,6 +9,9 @@
     "flush",
     "ragged"
   ],
+  "aliases": [
+    "text-align-end"
+  ],
   "keywords": [
     "justify right",
     "ragged left",

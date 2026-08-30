@@ -1,0 +1,45 @@
+{
+  "slug": "document-config",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Document config",
+  "description": "A document with sliders on it — a configuration file, the settings that shape a program",
+  "tags": [
+    "settings",
+    "sliders",
+    "options"
+  ],
+  "aliases": [
+    "file-cog",
+    "file-sliders"
+  ],
+  "keywords": [
+    "config file",
+    "settings file",
+    "dotfile",
+    "yaml"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 10.5H15",
+      "closed": false
+    },
+    {
+      "d": "M13.5 8.5V12.5",
+      "closed": false
+    },
+    {
+      "d": "M9 14.5H15",
+      "closed": false
+    },
+    {
+      "d": "M10.5 12.5V16.5",
+      "closed": false
+    }
+  ]
+}

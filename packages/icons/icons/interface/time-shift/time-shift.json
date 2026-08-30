@@ -9,6 +9,9 @@
     "reschedule",
     "forward"
   ],
+  "aliases": [
+    "clock-arrow-right"
+  ],
   "keywords": [
     "time shift",
     "reschedule",

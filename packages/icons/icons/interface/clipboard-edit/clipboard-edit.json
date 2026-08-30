@@ -1,0 +1,36 @@
+{
+  "slug": "clipboard-edit",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Clipboard edit",
+  "description": "A clipboard with a pencil on it — change what is written on the board",
+  "tags": [
+    "pencil",
+    "write",
+    "modify"
+  ],
+  "aliases": [
+    "clipboard-pen",
+    "clipboard-pen-line"
+  ],
+  "keywords": [
+    "edit clipboard",
+    "write on board",
+    "edit list"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 7A2 2 0 0 1 6 5H18A2 2 0 0 1 20 7V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 4A2 2 0 0 1 10 2H14A2 2 0 0 1 16 4V7A2 2 0 0 1 14 9H10A2 2 0 0 1 8 7Z",
+      "closed": true
+    },
+    {
+      "d": "M9 18L9 15.5L13.5 11L16 13.5L11.5 18Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "document-type",
+  "category": "interface",
+  "subcategory": "file",
+  "name": "Document type",
+  "description": "A document with a T on it — a typography or font file, the letterforms text is set in",
+  "tags": [
+    "font",
+    "typography",
+    "letter"
+  ],
+  "aliases": [
+    "file-type"
+  ],
+  "keywords": [
+    "font file",
+    "typeface file",
+    "ttf",
+    "type document"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 9.5H15",
+      "closed": false
+    },
+    {
+      "d": "M12 9.5V16",
+      "closed": false
+    }
+  ]
+}

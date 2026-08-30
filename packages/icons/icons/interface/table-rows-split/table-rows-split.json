@@ -1,0 +1,36 @@
+{
+  "slug": "table-rows-split",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Table rows split",
+  "description": "A table divided across the middle with arrows pushing apart — split a row in two",
+  "tags": [
+    "split",
+    "rows",
+    "divide"
+  ],
+  "keywords": [
+    "split row",
+    "divide rows",
+    "split horizontally"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M2 12H22",
+      "closed": false
+    },
+    {
+      "d": "M9.5 9L12 6.5L14.5 9",
+      "closed": false
+    },
+    {
+      "d": "M9.5 15L12 17.5L14.5 15",
+      "closed": false
+    }
+  ]
+}

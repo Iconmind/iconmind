@@ -1,0 +1,39 @@
+{
+  "slug": "table-columns-split",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Table columns split",
+  "description": "A table divided down the middle with arrows pushing apart — split a column in two",
+  "tags": [
+    "split",
+    "columns",
+    "divide"
+  ],
+  "aliases": [
+    "table-cells-split"
+  ],
+  "keywords": [
+    "split column",
+    "divide columns",
+    "split cells"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M12 4V20",
+      "closed": false
+    },
+    {
+      "d": "M9 9.5L6.5 12L9 14.5",
+      "closed": false
+    },
+    {
+      "d": "M15 9.5L17.5 12L15 14.5",
+      "closed": false
+    }
+  ]
+}

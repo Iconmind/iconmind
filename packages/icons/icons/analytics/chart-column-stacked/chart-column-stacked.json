@@ -1,0 +1,44 @@
+{
+  "slug": "chart-column-stacked",
+  "category": "analytics",
+  "subcategory": "chart",
+  "name": "Chart column stacked",
+  "description": "Bars each split into two parts — a stacked column chart, the whole and its share",
+  "tags": [
+    "stacked",
+    "share",
+    "parts"
+  ],
+  "keywords": [
+    "stacked bar chart",
+    "stacked columns",
+    "parts of a whole"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M9 12V20",
+      "closed": false
+    },
+    {
+      "d": "M9 6V9",
+      "closed": false
+    },
+    {
+      "d": "M15 14V20",
+      "closed": false
+    },
+    {
+      "d": "M15 8V11",
+      "closed": false
+    }
+  ]
+}

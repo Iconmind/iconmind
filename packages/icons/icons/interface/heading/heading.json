@@ -1,0 +1,38 @@
+{
+  "slug": "heading",
+  "category": "interface",
+  "subcategory": "layout",
+  "name": "Heading",
+  "description": "A capital H — a heading, the title that sits above the paragraphs",
+  "tags": [
+    "title",
+    "h1",
+    "typography"
+  ],
+  "aliases": [
+    "heading-1",
+    "heading-2",
+    "heading-3"
+  ],
+  "keywords": [
+    "heading",
+    "title text",
+    "h1",
+    "section heading"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M6 4V20",
+      "closed": false
+    },
+    {
+      "d": "M18 4V20",
+      "closed": false
+    },
+    {
+      "d": "M6 12H18",
+      "closed": false
+    }
+  ]
+}
