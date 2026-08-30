@@ -14,6 +14,8 @@ import { Badge } from "@/components/ui/badge";
 import { allCategories, iconCount, version } from "@/lib/icons";
 import "./globals.css";
 import { SITE_URL } from "@/lib/site";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 /*
  * Two faces. Figtree carries the identity and the reading both — the mockup sets the 84px
@@ -260,6 +262,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <CommandPalette categories={categoryNames} />
           <Toaster />
         </TooltipProvider>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
