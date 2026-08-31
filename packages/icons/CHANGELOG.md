@@ -1,5 +1,11 @@
 # @iconmind/icons
 
+## 0.6.1
+
+### Patch Changes
+
+- feat(icons): relational databases and SQL, round one of the second thousand
+
 ## 0.6.0
 
 ### Minor Changes

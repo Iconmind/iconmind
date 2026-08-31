@@ -1,6 +1,6 @@
 {
   "name": "@iconmind/mcp",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "type": "module",
   "license": "MIT",
   "description": "MCP server for IconMind — lets an AI assistant search the real icon set instead of guessing names. Offline, bundled data, instant start.",
