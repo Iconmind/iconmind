@@ -4,6 +4,6 @@ import '../data.dart';
 /// ModelIdle
 const IconMindData modelIdle = IconMindData(
   'model-idle',
-  [N('m7 8 4 4 -4 4 -4 -4Z'), N('M15 9.5h5l-5 5h5')],
-  [N.tint('m7 8 4 4 -4 4 -4 -4Z'), N('m7 8 4 4 -4 4 -4 -4Z'), N('M15 9.5h5l-5 5h5')],
+  [N('m12 3 9 9 -9 9 -9 -9'), N('M9 9h6l-6 6h6')],
+  [N.tint('m12 3 9 9 -9 9 -9 -9'), N('m12 3 9 9 -9 9 -9 -9'), N('M9 9h6l-6 6h6')],
 );

@@ -4,6 +4,6 @@ import '../data.dart';
 /// SavedPolicy
 const IconMindData savedPolicy = IconMindData(
   'saved-policy',
-  [N('M3 5h9v14l-4.5 -4.5L3 19Z'), N('M16 9h6v5.5l-3 3 -3 -3Z')],
-  [N.tint('M3 5h9v14l-4.5 -4.5L3 19Z'), N.tint('M16 9h6v5.5l-3 3 -3 -3Z'), N('M3 5h9v14l-4.5 -4.5L3 19Z'), N('M16 9h6v5.5l-3 3 -3 -3Z')],
+  [N('M15 3h3v18l-6 -6 -6 6V3h3'), N('M9 7h6v3l-3 3 -3 -3Z')],
+  [N.tint('M15 3h3v18l-6 -6 -6 6V3h3'), N.tint('M9 7h6v3l-3 3 -3 -3Z'), N('M15 3h3v18l-6 -6 -6 6V3h3'), N('M9 7h6v3l-3 3 -3 -3Z')],
 );

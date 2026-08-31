@@ -4,6 +4,6 @@ import '../data.dart';
 /// LabelledCheckpoint
 const IconMindData labelledCheckpoint = IconMindData(
   'labelled-checkpoint',
-  [N('M4 3v18'), N('M4 3h9l-3 3 3 3H4'), N('M16 13h4l2 2 -2 2h-4Z')],
-  [N.tint('M16 13h4l2 2 -2 2h-4Z'), N('M4 3v18'), N('M4 3h9l-3 3 3 3H4'), N('M16 13h4l2 2 -2 2h-4Z')],
+  [N('M6 3v18'), N('M6 3h13v12H6'), N('M9 6h3l3 3 -3 3H9Z')],
+  [N.tint('M6 3h13v12H6'), N.tint('M9 6h3l3 3 -3 3H9Z'), N('M6 3v18'), N('M6 3h13v12H6'), N('M9 6h3l3 3 -3 3H9Z')],
 );

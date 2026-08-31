@@ -4,6 +4,6 @@ import '../data.dart';
 /// LockedFilter
 const IconMindData lockedFilter = IconMindData(
   'locked-filter',
-  [N('M2 13a2 2 0 0 1 2 -2h5a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z'), N('M4.5 11a2 2 0 0 1 4 0'), N('M15 9h7l-2 2v8h-3v-8Z')],
-  [N.tint('M2 13a2 2 0 0 1 2 -2h5a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z'), N.tint('M15 9h7l-2 2v8h-3v-8Z'), N('M2 13a2 2 0 0 1 2 -2h5a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z'), N('M4.5 11a2 2 0 0 1 4 0'), N('M15 9h7l-2 2v8h-3v-8Z')],
+  [N('M4 9h16v12H4Z'), N('M7 9a5 5 0 0 1 10 0'), N('m9 12 3 3 3 -3'), N('M12 15v3')],
+  [N.tint('M4 9h16v12H4Z'), N('M4 9h16v12H4Z'), N('M7 9a5 5 0 0 1 10 0'), N('m9 12 3 3 3 -3'), N('M12 15v3')],
 );

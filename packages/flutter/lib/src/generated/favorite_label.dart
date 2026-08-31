@@ -4,6 +4,6 @@ import '../data.dart';
 /// FavoriteLabel
 const IconMindData favoriteLabel = IconMindData(
   'favorite-label',
-  [N('M3 9a2.5 2.5 0 0 1 4 0 2.5 2.5 0 0 1 4 0l-4 4Z'), N('M14 13h5l3 3 -3 3h-5Z')],
-  [N.tint('M3 9a2.5 2.5 0 0 1 4 0 2.5 2.5 0 0 1 4 0l-4 4Z'), N.tint('M14 13h5l3 3 -3 3h-5Z'), N('M3 9a2.5 2.5 0 0 1 4 0 2.5 2.5 0 0 1 4 0l-4 4Z'), N('M14 13h5l3 3 -3 3h-5Z')],
+  [N('M2 9a5 5 0 0 1 10 0 5 5 0 0 1 10 0L12 19Z'), N('M9 7h3l3 3 -3 3H9Z')],
+  [N.tint('M2 9a5 5 0 0 1 10 0 5 5 0 0 1 10 0L12 19Z'), N.tint('M9 7h3l3 3 -3 3H9Z'), N('M2 9a5 5 0 0 1 10 0 5 5 0 0 1 10 0L12 19Z'), N('M9 7h3l3 3 -3 3H9Z')],
 );

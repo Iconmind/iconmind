@@ -4,6 +4,6 @@ import '../data.dart';
 /// RemoveCheckpoint
 const IconMindData removeCheckpoint = IconMindData(
   'remove-checkpoint',
-  [N('M4 3v18'), N('M4 3h9l-3 3 3 3H4'), N('M16 12h6')],
-  [N.halo('M4 3v18'), N.halo('M4 3h9l-3 3 3 3H4'), N.halo('M16 12h6'), N('M4 3v18'), N('M4 3h9l-3 3 3 3H4'), N('M16 12h6')],
+  [N('M6 3v18'), N('M6 3h13v12H6'), N('M9 9h6')],
+  [N.tint('M6 3h13v12H6'), N('M6 3v18'), N('M6 3h13v12H6'), N('M9 9h6')],
 );
