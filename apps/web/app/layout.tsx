@@ -71,12 +71,15 @@ export const viewport: Viewport = {
 const NAV = [
   { href: "/icons/", label: "Icons" },
   { href: "/categories/", label: "Categories" },
+  { href: "/collections/", label: "Collections" },
   { href: "/tags/", label: "Tags" },
   { href: "/docs/", label: "Docs" },
   { href: "/changelog/", label: "Changelog" },
 ];
 
 const PROJECT = [
+  { href: "/compare/", label: "Compare" },
+  { href: "/not-here/", label: "What's not here" },
   { href: "/contribute/", label: "Contribute" },
   { href: "/search/", label: "Search" },
 ];
