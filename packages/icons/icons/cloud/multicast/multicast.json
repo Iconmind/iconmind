@@ -1,0 +1,45 @@
+{
+  "slug": "multicast",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Multicast",
+  "description": "Multicast — sent once and delivered to everyone who asked for it",
+  "tags": [
+    "group",
+    "once",
+    "many"
+  ],
+  "keywords": [
+    "multicast",
+    "group delivery",
+    "igmp",
+    "one to many"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M2 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 12H10",
+      "closed": false
+    },
+    {
+      "d": "M10 5V19",
+      "closed": false
+    },
+    {
+      "d": "M10 5H20",
+      "closed": false
+    },
+    {
+      "d": "M10 12H20",
+      "closed": false
+    },
+    {
+      "d": "M10 19H20",
+      "closed": false
+    }
+  ]
+}

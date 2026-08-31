@@ -1,0 +1,41 @@
+{
+  "slug": "cipher-suite",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Cipher suite",
+  "description": "A cipher suite — the set of algorithms the two ends agreed to use",
+  "tags": [
+    "algorithms",
+    "agreed",
+    "set"
+  ],
+  "keywords": [
+    "cipher suite",
+    "tls ciphers",
+    "encryption algorithms",
+    "negotiated ciphers"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M7 13A2 2 0 0 1 9 11H15A2 2 0 0 1 17 13V18A2 2 0 0 1 15 20H9A2 2 0 0 1 7 18Z",
+      "closed": true
+    },
+    {
+      "d": "M9 11A3 3 0 0 1 15 11",
+      "closed": false
+    },
+    {
+      "d": "M10 15H14",
+      "closed": false
+    },
+    {
+      "d": "M4 3H20",
+      "closed": false
+    },
+    {
+      "d": "M7 6.5H17",
+      "closed": false
+    }
+  ]
+}

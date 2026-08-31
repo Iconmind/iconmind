@@ -1,0 +1,37 @@
+{
+  "slug": "a-record",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "A record",
+  "description": "An A record — the name pointed straight at an address",
+  "tags": [
+    "address",
+    "ipv4",
+    "point"
+  ],
+  "keywords": [
+    "a record",
+    "dns a record",
+    "hostname to ip",
+    "address record"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M3 6H21",
+      "closed": false
+    },
+    {
+      "d": "M3 15a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 15H16",
+      "closed": false
+    },
+    {
+      "d": "M18 12L21 15L18 18",
+      "closed": false
+    }
+  ]
+}

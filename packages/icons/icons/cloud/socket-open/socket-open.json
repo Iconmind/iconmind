@@ -1,0 +1,33 @@
+{
+  "slug": "socket-open",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Socket open",
+  "description": "A socket open — the connection established and holding",
+  "tags": [
+    "established",
+    "connected",
+    "live"
+  ],
+  "keywords": [
+    "socket open",
+    "connection established",
+    "open connection",
+    "socket connect"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M8 4L4 4L4 20L8 20",
+      "closed": false
+    },
+    {
+      "d": "M16 4L20 4L20 20L16 20",
+      "closed": false
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "websocket-close",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "WebSocket close",
+  "description": "A WebSocket closed — the two-way channel shut, with a code saying why",
+  "tags": [
+    "shut",
+    "two-way",
+    "code"
+  ],
+  "keywords": [
+    "websocket close",
+    "close frame",
+    "socket disconnect",
+    "connection closed"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M2 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 8L10 8",
+      "closed": false
+    },
+    {
+      "d": "M14 8L18 8",
+      "closed": false
+    },
+    {
+      "d": "M18 16L14 16",
+      "closed": false
+    },
+    {
+      "d": "M10 16L6 16",
+      "closed": false
+    }
+  ]
+}

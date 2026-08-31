@@ -57,7 +57,7 @@ export default function ContributePage() {
           <h2 className="label">Contribute</h2>
           <h1 className="mt-3 text-h1 font-semibold">Submit an icon</h1>
           <p className="mt-3 text-lead leading-relaxed text-ink-2">
-            All 2,387 icons are written, not drawn: declare the shapes in TypeScript and
+            All 2,437 icons are written, not drawn: declare the shapes in TypeScript and
             the build compiles all six cells. The constructors throw on illegal geometry
             and every rule below runs before a human ever looks at it. Everything merged
             stays MIT.

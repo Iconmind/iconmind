@@ -1,0 +1,41 @@
+{
+  "slug": "http3",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "HTTP/3",
+  "description": "HTTP/3 — the same requests, carried over QUIC instead of TCP",
+  "tags": [
+    "quic",
+    "udp",
+    "version"
+  ],
+  "keywords": [
+    "http3",
+    "h3",
+    "quic http",
+    "http over udp"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V8A2 2 0 0 1 20 10H4A2 2 0 0 1 2 8Z",
+      "closed": true
+    },
+    {
+      "d": "M5 6.5H19",
+      "closed": false
+    },
+    {
+      "d": "M12 10V14",
+      "closed": false
+    },
+    {
+      "d": "M8 13L12 17L16 13",
+      "closed": false
+    },
+    {
+      "d": "M6 21H18",
+      "closed": false
+    }
+  ]
+}

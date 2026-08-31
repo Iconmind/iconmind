@@ -1,0 +1,48 @@
+{
+  "slug": "handshake",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Handshake",
+  "description": "A handshake — the back and forth before a single byte of the message moves",
+  "tags": [
+    "negotiate",
+    "hello",
+    "setup"
+  ],
+  "aliases": [
+    "tls-handshake"
+  ],
+  "keywords": [
+    "handshake",
+    "tls handshake",
+    "client hello",
+    "connection setup"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M2 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 8L18 8",
+      "closed": false
+    },
+    {
+      "d": "M18 8L15 5",
+      "closed": false
+    },
+    {
+      "d": "M18 16L6 16",
+      "closed": false
+    },
+    {
+      "d": "M6 16L9 19",
+      "closed": false
+    }
+  ]
+}

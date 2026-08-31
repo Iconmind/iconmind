@@ -1,0 +1,40 @@
+{
+  "slug": "port-forward",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Port forward",
+  "description": "A port forward — traffic arriving on one port carried straight through to another",
+  "tags": [
+    "through",
+    "tunnel",
+    "map"
+  ],
+  "aliases": [
+    "port-mapping"
+  ],
+  "keywords": [
+    "port forward",
+    "port mapping",
+    "ssh tunnel",
+    "forwarded port"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M2 8H12",
+      "closed": false
+    },
+    {
+      "d": "M12 8V16",
+      "closed": false
+    },
+    {
+      "d": "M12 16H22",
+      "closed": false
+    }
+  ]
+}

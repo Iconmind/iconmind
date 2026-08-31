@@ -1,0 +1,41 @@
+{
+  "slug": "socket-timeout",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Socket timeout",
+  "description": "A socket timeout — the far end never answered and the wait was given up",
+  "tags": [
+    "no-answer",
+    "deadline",
+    "give-up"
+  ],
+  "keywords": [
+    "socket timeout",
+    "connection timeout",
+    "read timeout",
+    "no response"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M2 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 5H20",
+      "closed": false
+    },
+    {
+      "d": "M7 15a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 11V15",
+      "closed": false
+    },
+    {
+      "d": "M12 15H16",
+      "closed": false
+    }
+  ]
+}

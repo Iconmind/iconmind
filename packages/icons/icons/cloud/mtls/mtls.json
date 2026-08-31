@@ -1,0 +1,44 @@
+{
+  "slug": "mtls",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Mutual TLS",
+  "description": "Mutual TLS — both ends prove who they are, not just the server",
+  "tags": [
+    "both-ways",
+    "client-cert",
+    "verify"
+  ],
+  "aliases": [
+    "mutual-tls"
+  ],
+  "keywords": [
+    "mtls",
+    "mutual tls",
+    "client certificate",
+    "two way tls"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M2 13A2 2 0 0 1 4 11H8A2 2 0 0 1 10 13V17A2 2 0 0 1 8 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M3.5 11A2.5 2.5 0 0 1 8.5 11",
+      "closed": false
+    },
+    {
+      "d": "M14 13A2 2 0 0 1 16 11H20A2 2 0 0 1 22 13V17A2 2 0 0 1 20 19H16A2 2 0 0 1 14 17Z",
+      "closed": true
+    },
+    {
+      "d": "M15.5 11A2.5 2.5 0 0 1 20.5 11",
+      "closed": false
+    },
+    {
+      "d": "M10 15H14",
+      "closed": false
+    }
+  ]
+}

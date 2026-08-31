@@ -1,4 +1,4 @@
-/// IconMind for Flutter: 2,387 icons for AI-era software, drawn on a 24px
+/// IconMind for Flutter: 2,437 icons for AI-era software, drawn on a 24px
 /// grid, in outline and duotone across three weights.
 ///
 /// ```dart

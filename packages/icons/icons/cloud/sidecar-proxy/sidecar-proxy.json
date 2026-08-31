@@ -1,0 +1,37 @@
+{
+  "slug": "sidecar-proxy",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Sidecar proxy",
+  "description": "A sidecar proxy — the proxy that ships beside the workload, in the same pod",
+  "tags": [
+    "beside",
+    "pod",
+    "mesh"
+  ],
+  "keywords": [
+    "sidecar proxy",
+    "envoy sidecar",
+    "service mesh proxy",
+    "pod proxy"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H11A2 2 0 0 1 13 6V18A2 2 0 0 1 11 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M15.5 10A2 2 0 0 1 17.5 8H20A2 2 0 0 1 22 10V14A2 2 0 0 1 20 16H17.5A2 2 0 0 1 15.5 14Z",
+      "closed": true
+    },
+    {
+      "d": "M13 12H15.5",
+      "closed": false
+    },
+    {
+      "d": "M5 9H10",
+      "closed": false
+    }
+  ]
+}

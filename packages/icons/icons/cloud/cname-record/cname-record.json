@@ -1,0 +1,44 @@
+{
+  "slug": "cname-record",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "CNAME record",
+  "description": "A CNAME — a name that means another name, which is looked up in turn",
+  "tags": [
+    "alias",
+    "indirect",
+    "another-name"
+  ],
+  "aliases": [
+    "dns-alias"
+  ],
+  "keywords": [
+    "cname",
+    "canonical name",
+    "dns alias",
+    "name to name"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M3 5H21",
+      "closed": false
+    },
+    {
+      "d": "M3 12H21",
+      "closed": false
+    },
+    {
+      "d": "M3 19H21",
+      "closed": false
+    },
+    {
+      "d": "M9 8L12 5L15 8",
+      "closed": false
+    },
+    {
+      "d": "M9 15L12 12L15 15",
+      "closed": false
+    }
+  ]
+}

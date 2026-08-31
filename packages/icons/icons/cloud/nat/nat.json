@@ -1,0 +1,41 @@
+{
+  "slug": "nat",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "NAT",
+  "description": "NAT — many private addresses leaving under one public one",
+  "tags": [
+    "translate",
+    "private",
+    "public"
+  ],
+  "keywords": [
+    "nat",
+    "network address translation",
+    "masquerade",
+    "private to public"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M2 4H9",
+      "closed": false
+    },
+    {
+      "d": "M2 12H9",
+      "closed": false
+    },
+    {
+      "d": "M2 20H9",
+      "closed": false
+    },
+    {
+      "d": "M9 4L15 10L15 14L9 20",
+      "closed": false
+    },
+    {
+      "d": "M15 12H22",
+      "closed": false
+    }
+  ]
+}

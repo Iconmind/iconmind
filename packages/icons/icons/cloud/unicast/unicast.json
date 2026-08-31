@@ -1,0 +1,37 @@
+{
+  "slug": "unicast",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Unicast",
+  "description": "Unicast — one sender, one receiver, and nobody else on the line",
+  "tags": [
+    "one-to-one",
+    "direct",
+    "single"
+  ],
+  "keywords": [
+    "unicast",
+    "point to point",
+    "one to one",
+    "direct delivery"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M5 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 12H16",
+      "closed": false
+    },
+    {
+      "d": "M13.5 9.5L16 12L13.5 14.5",
+      "closed": false
+    }
+  ]
+}

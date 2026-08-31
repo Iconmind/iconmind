@@ -1,0 +1,37 @@
+{
+  "slug": "mtu",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "MTU",
+  "description": "MTU — the largest packet a link will carry without breaking it up",
+  "tags": [
+    "size",
+    "limit",
+    "frame"
+  ],
+  "keywords": [
+    "mtu",
+    "maximum transmission unit",
+    "packet size",
+    "frame size"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M5 10A2 2 0 0 1 7 8H17A2 2 0 0 1 19 10V14A2 2 0 0 1 17 16H7A2 2 0 0 1 5 14Z",
+      "closed": true
+    },
+    {
+      "d": "M2 5V19",
+      "closed": false
+    },
+    {
+      "d": "M22 5V19",
+      "closed": false
+    },
+    {
+      "d": "M5 5H19",
+      "closed": false
+    }
+  ]
+}

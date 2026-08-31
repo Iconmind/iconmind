@@ -1,0 +1,45 @@
+{
+  "slug": "broadcast-net",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Broadcast domain",
+  "description": "A broadcast domain — the stretch of network where a shout reaches everyone",
+  "tags": [
+    "domain",
+    "everyone",
+    "segment"
+  ],
+  "keywords": [
+    "broadcast domain",
+    "layer 2 segment",
+    "arp domain",
+    "broadcast traffic"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H20A2 2 0 0 1 22 8V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M6 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 17H18",
+      "closed": false
+    },
+    {
+      "d": "M9 3L12 6L15 3",
+      "closed": false
+    }
+  ]
+}

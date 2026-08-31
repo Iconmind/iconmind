@@ -1,0 +1,45 @@
+{
+  "slug": "forward-proxy",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Forward proxy",
+  "description": "A forward proxy — many clients leaving through one door on the way out",
+  "tags": [
+    "outbound",
+    "fan-out",
+    "client-side"
+  ],
+  "keywords": [
+    "forward proxy",
+    "egress proxy",
+    "client proxy",
+    "outbound gateway"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M2 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 6L10 12L4 18",
+      "closed": false
+    },
+    {
+      "d": "M10 12H15",
+      "closed": false
+    },
+    {
+      "d": "M15 10A2 2 0 0 1 17 8H20A2 2 0 0 1 22 10V14A2 2 0 0 1 20 16H17A2 2 0 0 1 15 14Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "throttle-network",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Throttle",
+  "description": "Throttling — traffic deliberately slowed so the link stays usable",
+  "tags": [
+    "slow",
+    "shape",
+    "limit"
+  ],
+  "aliases": [
+    "traffic-shaping"
+  ],
+  "keywords": [
+    "throttle",
+    "traffic shaping",
+    "rate limiting network",
+    "slow down"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M2 4H10",
+      "closed": false
+    },
+    {
+      "d": "M2 8H10",
+      "closed": false
+    },
+    {
+      "d": "M2 12H10",
+      "closed": false
+    },
+    {
+      "d": "M8 3L14 9L14 15L8 21",
+      "closed": false
+    },
+    {
+      "d": "M14 12H22",
+      "closed": false
+    }
+  ]
+}

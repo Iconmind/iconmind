@@ -1,0 +1,44 @@
+{
+  "slug": "tls-terminate",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "TLS termination",
+  "description": "TLS termination — the encrypted leg ends here and the plain one begins",
+  "tags": [
+    "offload",
+    "decrypt",
+    "edge"
+  ],
+  "aliases": [
+    "ssl-termination"
+  ],
+  "keywords": [
+    "tls termination",
+    "ssl offload",
+    "terminate tls",
+    "decrypt at edge"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M6 7A2 2 0 0 1 8 5H12A2 2 0 0 1 14 7V10A2 2 0 0 1 12 12H8A2 2 0 0 1 6 10Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 5A2.5 2.5 0 0 1 12.5 5",
+      "closed": false
+    },
+    {
+      "d": "M12 14V17",
+      "closed": false
+    },
+    {
+      "d": "M3 17H21",
+      "closed": false
+    },
+    {
+      "d": "M18 20L21 17L18 14",
+      "closed": false
+    }
+  ]
+}

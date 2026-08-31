@@ -1,0 +1,32 @@
+{
+  "slug": "csrf",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "CSRF",
+  "description": "CSRF — a request the browser sends with your session that you never asked for",
+  "tags": [
+    "forged",
+    "session",
+    "token"
+  ],
+  "aliases": [
+    "xsrf"
+  ],
+  "keywords": [
+    "csrf",
+    "cross site request forgery",
+    "xsrf token",
+    "forged request"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 4L20 4L20 12L12 20L4 12L4 4L9 4Z",
+      "closed": true
+    },
+    {
+      "d": "M9 11L12 14L17 9",
+      "closed": false
+    }
+  ]
+}

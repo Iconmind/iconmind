@@ -1,0 +1,44 @@
+{
+  "slug": "qos",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Quality of service",
+  "description": "Quality of service — the traffic that matters goes first when the link is full",
+  "tags": [
+    "priority",
+    "queue",
+    "class"
+  ],
+  "aliases": [
+    "traffic-priority"
+  ],
+  "keywords": [
+    "qos",
+    "quality of service",
+    "traffic priority",
+    "dscp"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M2 4.5A2.5 2.5 0 0 1 4.5 2H12.5A2.5 2.5 0 0 1 15 4.5V4.5A2.5 2.5 0 0 1 12.5 7H4.5A2.5 2.5 0 0 1 2 4.5Z",
+      "closed": true
+    },
+    {
+      "d": "M2 12A2.5 2.5 0 0 1 4.5 9.5H8.5A2.5 2.5 0 0 1 11 12V12A2.5 2.5 0 0 1 8.5 14.5H4.5A2.5 2.5 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M2 19.5A2.5 2.5 0 0 1 4.5 17H7.5A2.5 2.5 0 0 1 10 19.5V19.5A2.5 2.5 0 0 1 7.5 22H4.5A2.5 2.5 0 0 1 2 19.5Z",
+      "closed": true
+    },
+    {
+      "d": "M18 6L21 9L18 12",
+      "closed": false
+    },
+    {
+      "d": "M21 9V18",
+      "closed": false
+    }
+  ]
+}

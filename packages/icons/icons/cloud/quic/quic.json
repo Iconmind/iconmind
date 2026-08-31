@@ -1,0 +1,37 @@
+{
+  "slug": "quic",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "QUIC",
+  "description": "QUIC — many streams over one UDP connection, so one lost packet stalls only its own",
+  "tags": [
+    "streams",
+    "udp",
+    "fast-start"
+  ],
+  "keywords": [
+    "quic",
+    "http3 transport",
+    "multiplexed udp",
+    "stream multiplexing"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M2 5L8 5L12 9",
+      "closed": false
+    },
+    {
+      "d": "M2 19L8 19L12 15",
+      "closed": false
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    },
+    {
+      "d": "M12 12H22",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "network-policy",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Network policy",
+  "description": "A network policy — which workloads may talk to which, written down and enforced",
+  "tags": [
+    "allow",
+    "deny",
+    "rules"
+  ],
+  "keywords": [
+    "network policy",
+    "microsegmentation",
+    "allow list network",
+    "east west rules"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 3L20 3L20 11L12 19L4 11L4 3L9 3Z",
+      "closed": true
+    },
+    {
+      "d": "M8 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 9H14",
+      "closed": false
+    },
+    {
+      "d": "M7 22H17",
+      "closed": false
+    }
+  ]
+}

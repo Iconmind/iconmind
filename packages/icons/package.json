@@ -39,7 +39,7 @@
     "@iconmind/shared": "workspace:*",
     "tsx": "^4.20.6"
   },
-  "description": "2,387 SVG icons for AI-era software — LLMs, agents, MCP, RAG. Six cells per icon: outline & duotone at three weights.",
+  "description": "2,437 SVG icons for AI-era software — LLMs, agents, MCP, RAG. Six cells per icon: outline & duotone at three weights.",
   "keywords": [
     "icons",
     "svg",

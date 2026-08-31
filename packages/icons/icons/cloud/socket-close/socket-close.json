@@ -1,0 +1,37 @@
+{
+  "slug": "socket-close",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Socket close",
+  "description": "A socket closed — the connection torn down at both ends",
+  "tags": [
+    "closed",
+    "teardown",
+    "fin"
+  ],
+  "keywords": [
+    "socket close",
+    "connection closed",
+    "tear down",
+    "fin"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M8 4L4 4L4 20L8 20",
+      "closed": false
+    },
+    {
+      "d": "M16 4L20 4L20 20L16 20",
+      "closed": false
+    },
+    {
+      "d": "M10 10L14 14",
+      "closed": false
+    },
+    {
+      "d": "M14 10L10 14",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "bgp",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "BGP",
+  "description": "BGP — the networks telling each other which routes they will carry",
+  "tags": [
+    "routes",
+    "peers",
+    "announce"
+  ],
+  "keywords": [
+    "bgp",
+    "border gateway protocol",
+    "route announcement",
+    "peering"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 7L9 10",
+      "closed": false
+    },
+    {
+      "d": "M18 7L15 10",
+      "closed": false
+    }
+  ]
+}

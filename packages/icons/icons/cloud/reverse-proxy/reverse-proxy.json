@@ -1,0 +1,41 @@
+{
+  "slug": "reverse-proxy",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Reverse proxy",
+  "description": "A reverse proxy — one address in front of many servers, chosen per request",
+  "tags": [
+    "front",
+    "fan-in",
+    "server-side"
+  ],
+  "keywords": [
+    "reverse proxy",
+    "load balancer front",
+    "nginx",
+    "front door"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M2 12H8",
+      "closed": false
+    },
+    {
+      "d": "M8 10A2 2 0 0 1 10 8H12.5A2 2 0 0 1 14.5 10V14A2 2 0 0 1 12.5 16H10A2 2 0 0 1 8 14Z",
+      "closed": true
+    },
+    {
+      "d": "M19 7.5L14.5 12L19 16.5",
+      "closed": false
+    },
+    {
+      "d": "M14.5 12L19 12",
+      "closed": false
+    },
+    {
+      "d": "M20 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

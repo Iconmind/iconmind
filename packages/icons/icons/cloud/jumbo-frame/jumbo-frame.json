@@ -1,0 +1,41 @@
+{
+  "slug": "jumbo-frame",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Jumbo frame",
+  "description": "A jumbo frame — a packet far larger than the default, for links that can take it",
+  "tags": [
+    "large",
+    "9000",
+    "throughput"
+  ],
+  "keywords": [
+    "jumbo frame",
+    "large mtu",
+    "9000 bytes",
+    "big packets"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M2 10A2 2 0 0 1 4 8H20A2 2 0 0 1 22 10V14A2 2 0 0 1 20 16H4A2 2 0 0 1 2 14Z",
+      "closed": true
+    },
+    {
+      "d": "M2 4V7",
+      "closed": false
+    },
+    {
+      "d": "M22 4V7",
+      "closed": false
+    },
+    {
+      "d": "M2 5.5H22",
+      "closed": false
+    },
+    {
+      "d": "M6 12H18",
+      "closed": false
+    }
+  ]
+}

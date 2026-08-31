@@ -1,0 +1,45 @@
+{
+  "slug": "dual-stack",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Dual stack",
+  "description": "Dual stack — the same host reachable over IPv4 and IPv6 at once",
+  "tags": [
+    "ipv4",
+    "ipv6",
+    "both"
+  ],
+  "keywords": [
+    "dual stack",
+    "ipv4 and ipv6",
+    "both protocols",
+    "dual addressing"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M9 10A2 2 0 0 1 11 8H19A2 2 0 0 1 21 10V14A2 2 0 0 1 19 16H11A2 2 0 0 1 9 14Z",
+      "closed": true
+    },
+    {
+      "d": "M2 8H9",
+      "closed": false
+    },
+    {
+      "d": "M2 16H9",
+      "closed": false
+    },
+    {
+      "d": "M3 8a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 16a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12H18",
+      "closed": false
+    }
+  ]
+}

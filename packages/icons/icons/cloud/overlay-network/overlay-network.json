@@ -1,0 +1,45 @@
+{
+  "slug": "overlay-network",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Overlay network",
+  "description": "An overlay network — a network drawn on top of another one that knows nothing about it",
+  "tags": [
+    "tunnel",
+    "virtual",
+    "on-top"
+  ],
+  "keywords": [
+    "overlay network",
+    "vxlan",
+    "virtual network",
+    "encapsulation"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M2 17H22",
+      "closed": false
+    },
+    {
+      "d": "M5 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 12L12 6L18 12",
+      "closed": false
+    },
+    {
+      "d": "M5 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

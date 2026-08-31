@@ -1,0 +1,37 @@
+{
+  "slug": "dns-record",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "DNS record",
+  "description": "A DNS record — one line of the answer a resolver gives back",
+  "tags": [
+    "entry",
+    "zone",
+    "answer"
+  ],
+  "keywords": [
+    "dns record",
+    "zone record",
+    "resource record",
+    "dns entry"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M2 9H22",
+      "closed": false
+    },
+    {
+      "d": "M5 13H12",
+      "closed": false
+    },
+    {
+      "d": "M5 17H19",
+      "closed": false
+    }
+  ]
+}

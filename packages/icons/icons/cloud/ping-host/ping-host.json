@@ -1,0 +1,41 @@
+{
+  "slug": "ping-host",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Ping",
+  "description": "Ping — a packet sent only to see whether anything answers, and how fast",
+  "tags": [
+    "echo",
+    "reachable",
+    "latency"
+  ],
+  "keywords": [
+    "ping",
+    "icmp echo",
+    "reachability",
+    "round trip"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M15.5 8A2 2 0 0 1 17.5 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H17.5A2 2 0 0 1 15.5 16Z",
+      "closed": true
+    },
+    {
+      "d": "M4 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 8.54A4 4 0 0 1 7 15.46",
+      "closed": false
+    },
+    {
+      "d": "M8.5 5.94A7 7 0 0 1 8.5 18.06",
+      "closed": false
+    },
+    {
+      "d": "M12 12H15.5",
+      "closed": false
+    }
+  ]
+}

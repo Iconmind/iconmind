@@ -1,0 +1,40 @@
+{
+  "slug": "ingress-traffic",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Ingress traffic",
+  "description": "Ingress — everything arriving from outside the boundary",
+  "tags": [
+    "inbound",
+    "arriving",
+    "in"
+  ],
+  "aliases": [
+    "inbound-traffic"
+  ],
+  "keywords": [
+    "ingress traffic",
+    "inbound",
+    "incoming traffic",
+    "north south in"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M8 3L3 3L3 21L8 21",
+      "closed": false
+    },
+    {
+      "d": "M10 12H20",
+      "closed": false
+    },
+    {
+      "d": "M17 9L20 12L17 15",
+      "closed": false
+    },
+    {
+      "d": "M21 6V18",
+      "closed": false
+    }
+  ]
+}

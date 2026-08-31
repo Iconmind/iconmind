@@ -1,0 +1,41 @@
+{
+  "slug": "long-polling",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Long polling",
+  "description": "Long polling — the request held open until there is something to answer with",
+  "tags": [
+    "hold",
+    "wait",
+    "push"
+  ],
+  "keywords": [
+    "long polling",
+    "hanging get",
+    "comet",
+    "held request"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M2 5H22",
+      "closed": false
+    },
+    {
+      "d": "M2 19H22",
+      "closed": false
+    },
+    {
+      "d": "M6 5V19",
+      "closed": false
+    },
+    {
+      "d": "M16 5L16 19",
+      "closed": false
+    },
+    {
+      "d": "M13 16L16 19L19 16",
+      "closed": false
+    }
+  ]
+}

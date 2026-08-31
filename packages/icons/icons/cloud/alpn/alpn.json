@@ -1,0 +1,45 @@
+{
+  "slug": "alpn",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "ALPN",
+  "description": "ALPN — the two ends choosing which protocol to speak while they are already shaking hands",
+  "tags": [
+    "negotiate",
+    "protocol",
+    "choose"
+  ],
+  "keywords": [
+    "alpn",
+    "protocol negotiation",
+    "application layer protocol",
+    "h2 negotiation"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 4H21",
+      "closed": false
+    },
+    {
+      "d": "M3 20H21",
+      "closed": false
+    },
+    {
+      "d": "M8 6L10.5 8.5",
+      "closed": false
+    },
+    {
+      "d": "M16 6L13.5 8.5",
+      "closed": false
+    },
+    {
+      "d": "M9 15L11.5 17.5",
+      "closed": false
+    }
+  ]
+}

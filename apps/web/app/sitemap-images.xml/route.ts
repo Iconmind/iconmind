@@ -8,7 +8,7 @@ export const dynamic = "force-static";
  * The image sitemap: every icon page, with the PNG that stands for it.
  *
  * Google Images finds pictures through `<img>` tags and through this file; the site had
- * neither, so a set of 2,387 drawings had no presence in the one search surface an icon
+ * neither, so a set of 2,437 drawings had no presence in the one search surface an icon
  * set is actually found through. Title and caption are the page's own name and
  * description — the words a person would type.
  */

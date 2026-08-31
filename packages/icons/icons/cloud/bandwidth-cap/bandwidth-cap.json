@@ -1,0 +1,37 @@
+{
+  "slug": "bandwidth-cap",
+  "category": "cloud",
+  "subcategory": "network",
+  "name": "Bandwidth cap",
+  "description": "A bandwidth cap — the ceiling above which nothing more is carried",
+  "tags": [
+    "ceiling",
+    "limit",
+    "rate"
+  ],
+  "keywords": [
+    "bandwidth cap",
+    "rate ceiling",
+    "throughput limit",
+    "capped bandwidth"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M2 5H22",
+      "closed": false
+    },
+    {
+      "d": "M4 8V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H21",
+      "closed": false
+    },
+    {
+      "d": "M6 18L10 14L13 17L19 11",
+      "closed": false
+    }
+  ]
+}
