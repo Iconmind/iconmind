@@ -7,6 +7,8 @@
  * export and has no server to ask. PNG and WebP fall out of a canvas; the ICO is a
  * PNG-in-ICO container, which every browser and Windows since Vista reads.
  */
+import { literalColour } from "@/lib/ink";
+
 export type RasterType = "image/png" | "image/webp" | "image/jpeg";
 
 function svgToImage(svg: string): Promise<HTMLImageElement> {
@@ -28,7 +30,8 @@ function svgToImage(svg: string): Promise<HTMLImageElement> {
  * carry the xmlns, which the studio's markup does; it is asserted here rather than assumed.
  */
 function sized(svg: string, px: number, hex?: string | null) {
-  const coloured = hex ? svg.replaceAll("currentColor", hex) : svg.replaceAll("currentColor", "#000000");
+  // A CSS variable resolves to nothing here, so it is turned into its value first.
+  const coloured = svg.replaceAll("currentColor", literalColour(hex) ?? "#000000");
   const open = coloured.match(/<svg[^>]*>/)?.[0];
   if (!open) throw new Error("not an SVG");
   let root = open.replace(/\s(width|height)="[^"]*"/g, "");

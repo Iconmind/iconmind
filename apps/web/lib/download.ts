@@ -12,8 +12,11 @@
  * CSS context resolves it to black, which happens to be the default anyway, but when
  * the user picked a colour the download should carry it.
  */
+import { literalColour } from "@/lib/ink";
+
 export function downloadSvg(svg: string, filename: string, hex?: string | null) {
-  const text = hex ? svg.replaceAll("currentColor", hex) : svg;
+  const ink = literalColour(hex);
+  const text = ink ? svg.replaceAll("currentColor", ink) : svg;
   const url = URL.createObjectURL(new Blob([text], { type: "image/svg+xml" }));
   const a = document.createElement("a");
   a.href = url;
