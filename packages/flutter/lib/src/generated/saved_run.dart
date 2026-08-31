@@ -4,6 +4,6 @@ import '../data.dart';
 /// SavedRun
 const IconMindData savedRun = IconMindData(
   'saved-run',
-  [N('M3 5v14l7 -7Z'), N('M14 7h7v10l-3.5 -3.5L14 17Z')],
-  [N.tint('M3 5v14l7 -7Z'), N.tint('M14 7h7v10l-3.5 -3.5L14 17Z'), N('M3 5v14l7 -7Z'), N('M14 7h7v10l-3.5 -3.5L14 17Z')],
+  [N('M15 3h3v18l-6 -6 -6 6V3h3'), N('m10 8 3 3 -3 3Z')],
+  [N.tint('M15 3h3v18l-6 -6 -6 6V3h3'), N.tint('m10 8 3 3 -3 3Z'), N('M15 3h3v18l-6 -6 -6 6V3h3'), N('m10 8 3 3 -3 3Z')],
 );

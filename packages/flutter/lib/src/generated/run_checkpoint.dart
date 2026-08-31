@@ -4,6 +4,6 @@ import '../data.dart';
 /// RunCheckpoint
 const IconMindData runCheckpoint = IconMindData(
   'run-checkpoint',
-  [N('M3 5v14l7 -7Z'), N('M14 5v16'), N('M14 5h8l-3 3 3 3h-8')],
-  [N.tint('M3 5v14l7 -7Z'), N('M3 5v14l7 -7Z'), N('M14 5v16'), N('M14 5h8l-3 3 3 3h-8')],
+  [N('M6 3v18'), N('M6 3h13v12H6'), N('m10 6 3 3 -3 3Z')],
+  [N.tint('M6 3h13v12H6'), N.tint('m10 6 3 3 -3 3Z'), N('M6 3v18'), N('M6 3h13v12H6'), N('m10 6 3 3 -3 3Z')],
 );

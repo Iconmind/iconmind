@@ -4,6 +4,6 @@ import '../data.dart';
 /// EventCheckpoint
 const IconMindData eventCheckpoint = IconMindData(
   'event-checkpoint',
-  [N('m10 6 -5 5h4l-5 5'), N('M14 5v16'), N('M14 5h8l-3 3 3 3h-8')],
-  [N.halo('m10 6 -5 5h4l-5 5'), N.halo('M14 5v16'), N.halo('M14 5h8l-3 3 3 3h-8'), N('m10 6 -5 5h4l-5 5'), N('M14 5v16'), N('M14 5h8l-3 3 3 3h-8')],
+  [N('M6 3v18'), N('M6 3h13v12H6'), N('m15 6 -3 3h2.5l-3 3')],
+  [N.tint('M6 3h13v12H6'), N('M6 3v18'), N('M6 3h13v12H6'), N('m15 6 -3 3h2.5l-3 3')],
 );

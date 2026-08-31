@@ -4,6 +4,6 @@ import '../data.dart';
 /// EventLabel
 const IconMindData eventLabel = IconMindData(
   'event-label',
-  [N('m10 6 -5 5h4l-5 5'), N('M14 13h5l3 3 -3 3h-5Z')],
-  [N.tint('M14 13h5l3 3 -3 3h-5Z'), N('m10 6 -5 5h4l-5 5'), N('M14 13h5l3 3 -3 3h-5Z')],
+  [N('M2 4h10l9 9 -9 9H2'), N('m15 10 -3 3h2.5l-3 3')],
+  [N.tint('M2 4h10l9 9 -9 9H2'), N('M2 4h10l9 9 -9 9H2'), N('m15 10 -3 3h2.5l-3 3')],
 );

@@ -4,6 +4,6 @@ import '../data.dart';
 /// KeyFilter
 const IconMindData keyFilter = IconMindData(
   'key-filter',
-  [N('M3 9a4 4 0 1 0 8 0 4 4 0 1 0 -8 0'), N('M7 13v8'), N('M7 18h3'), N('M15 9h7l-2 2v8h-3v-8Z')],
-  [N.tint('M3 9a4 4 0 1 0 8 0 4 4 0 1 0 -8 0'), N.tint('M15 9h7l-2 2v8h-3v-8Z'), N('M3 9a4 4 0 1 0 8 0 4 4 0 1 0 -8 0'), N('M7 13v8'), N('M7 18h3'), N('M15 9h7l-2 2v8h-3v-8Z')],
+  [N('M7 7a5 5 0 1 0 10 0A5 5 0 1 0 7 7'), N('M12 12v10'), N('M12 16h3.5'), N('M12 19h3.5'), N('m9 4 3 3 3 -3'), N('M12 7v3')],
+  [N.tint('M7 7a5 5 0 1 0 10 0A5 5 0 1 0 7 7'), N('M7 7a5 5 0 1 0 10 0A5 5 0 1 0 7 7'), N('M12 12v10'), N('M12 16h3.5'), N('M12 19h3.5'), N('m9 4 3 3 3 -3'), N('M12 7v3')],
 );

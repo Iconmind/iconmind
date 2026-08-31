@@ -21,7 +21,7 @@
  * `cy` moves the whole mark up or down for a body whose hollow is not centred. `shield()`
  * needs it: its widest clear span is two units above the canvas centre.
  */
-import { col, disc, poly, row, type Shape } from "./forms.ts";
+import { arc, col, disc, poly, raw, row, type Shape } from "./forms.ts";
 
 /** Fits `ring()`, `machine()`, `window_()`, `panel()` at their full hollow. */
 export const BIG = 4;
@@ -83,3 +83,90 @@ export const pause = (h: H = BIG, cy = 12): Shape[] =>
 export const working = (h: H = BIG, cy = 12): Shape[] => [
   col(7, cy - h + 2, cy + h - 2), col(12, cy - h, cy + h), col(17, cy - h + 2, cy + h - 2),
 ];
+
+/* ── Marks that name a thing rather than a state ────────────────────────────────── */
+
+/*
+ * The seven above answer "what happened to it". These answer "which kind of it" — the
+ * qualifiers the pairing families were reaching for when they put a second small drawing
+ * beside the first. They are marks, not bodies: same two sizes, same centre, same `cy`, so
+ * `key-filter` and `goal-filter` carry the identical funnel and only their body differs.
+ *
+ * Every diagonal here is 45 and every run clears 2.5 at both sizes, which is why the
+ * chamfers are written as `h - 1.5` rather than a constant: at SMALL a two-unit corner is a
+ * stub, and at BIG a fixed corner stops looking like the same mark.
+ */
+
+/** Labelled: a tag, point leading, the way `tag` itself is drawn. */
+export const tagMark = (h: H = BIG, cy = 12): Shape[] =>
+  [poly([[12 - h, cy - h], [12, cy - h], [12 + h, cy], [12, cy + h], [12 - h, cy + h]], true)];
+
+/** Saved: a bookmark, notched at the foot. */
+export const bookmarkMark = (h: H = BIG, cy = 12): Shape[] =>
+  [poly([[12 - h + 1, cy - h], [12 + h - 1, cy - h], [12 + h - 1, cy + h],
+         [12, cy + 1], [12 - h + 1, cy + h]], true)];
+
+/** Locked: the padlock, its shackle above the body. */
+export const lockMark = (h: H = BIG, cy = 12): Shape[] =>
+  [poly([[12 - h, cy], [12 + h, cy], [12 + h, cy + h], [12 - h, cy + h]], true),
+   arc(12, cy, h - 1.5, 180, 360)];
+
+/** Timed: a clock, hands at the quarter, which is how `clock` reads at every size. */
+export const clockMark = (h: H = BIG, cy = 12): Shape[] =>
+  [disc(12, cy, h), col(12, cy - h, cy), row(cy, 12, 12 + h - 0.5)];
+
+/** Run: the play triangle, its sides at 45 so it fits any hollow. */
+export const playMark = (h: H = BIG, cy = 12): Shape[] =>
+  [poly([[12 - h + 1, cy - h], [12 + 1, cy], [12 - h + 1, cy + h]], true)];
+
+/** Idle: the sleeping Z, two runs and the diagonal between them. */
+export const idleMark = (h: H = BIG, cy = 12): Shape[] =>
+  [poly([[12 - h, cy - h], [12 + h, cy - h], [12 - h, cy + h], [12 + h, cy + h]])];
+
+/** Filtered: the funnel, mouth to stem. */
+export const funnelMark = (h: H = BIG, cy = 12): Shape[] =>
+  [poly([[12 - h, cy - h], [12, cy], [12 + h, cy - h]]), col(12, cy, cy + h)];
+
+/** A target: the ring and the middle it is aimed at. */
+export const targetMark = (h: H = BIG, cy = 12): Shape[] =>
+  [disc(12, cy, h), disc(12, cy, 1)];
+
+/** Keyed: the bow and the shaft, upright so it reads at 16px. */
+export const keyMark = (h: H = BIG, cy = 12): Shape[] =>
+  [disc(12, cy - h + 1.5, 2), col(12, cy - h + 3.5, cy + h), row(cy + h - 1.5, 12, 14.5)];
+
+/** An event: the bolt, two 45 runs and the flat between them. */
+export const boltMark = (h: H = BIG, cy = 12): Shape[] =>
+  [poly([[12 + h, cy - h], [12, cy], [12 + h - 0.5, cy], [12 - 0.5, cy + h]])];
+
+/** A place: the pin, head and point. */
+export const pinMark = (h: H = BIG, cy = 12): Shape[] =>
+  [disc(12, cy - h + 2, 2), poly([[12 - 2.5, cy + h - 2.5], [12, cy + h], [12 + 2.5, cy + h - 2.5]])];
+
+/** A price: the coin on edge. */
+export const coinMark = (h: H = BIG, cy = 12): Shape[] =>
+  [disc(12, cy, h), col(12, cy - h + 1, cy + h - 1)];
+
+/** Favourite: the heart, one line the way the set draws it everywhere else. */
+export const heartMark = (h: H = BIG, cy = 12): Shape[] =>
+  [raw(`M${12 - h} ${cy - h / 2}A${h / 2} ${h / 2} 0 0 1 12 ${cy - h / 2}` +
+       `A${h / 2} ${h / 2} 0 0 1 ${12 + h} ${cy - h / 2}L12 ${cy + h}Z`,
+       "a heart is one line, not three strokes with visible seams", true)];
+
+/** A checkpoint: the flag, pole and banner. */
+export const flagMark = (h: H = BIG, cy = 12): Shape[] =>
+  [col(12 - h, cy - h, cy + h),
+   poly([[12 - h, cy - h + 1], [12 + h, cy - h + 1], [12 + h - 2, cy - h + 3],
+         [12 + h, cy - h + 5], [12 - h, cy - h + 5]])];
+
+/** Stopped: the square, which is what a stop button is. */
+export const squareMark = (h: H = BIG, cy = 12): Shape[] =>
+  [poly([[12 - h, cy - h], [12 + h, cy - h], [12 + h, cy + h], [12 - h, cy + h]], true)];
+
+/** A trend: the line that rises. */
+export const trendMark = (h: H = BIG, cy = 12): Shape[] =>
+  [poly([[12 - h, cy + h], [12 - 1, cy + 1], [12 + 1, cy + 3], [12 + h, cy + 3 - (h - 1)]])];
+
+/** Searched: the lens and its handle. */
+export const searchMark = (h: H = BIG, cy = 12): Shape[] =>
+  [disc(12 - 1, cy - 1, h - 1), poly([[12 + h - 3.5, cy + h - 3.5], [12 + h, cy + h]])];

@@ -17,7 +17,7 @@
  * a modifier sits in, so `model` and `model-add` are the same drawing with something in the
  * middle rather than two drawings that have to be kept in step.
  */
-import { area, disc, frame, openDisc, poly, row, body, type Shape, raw } from "./forms.ts";
+import { arc, area, col, disc, frame, openDisc, poly, row, body, type Shape, raw } from "./forms.ts";
 
 /* ── Machines: the chamfered register ───────────────────────────────────────────── */
 
@@ -136,3 +136,73 @@ export const cycle = (dir: "cw" | "ccw" = "cw"): Shape[] =>
         frame(3, 5, 18, 15, 3, { gap: 6 }),
         poly([[12, 2], [9, 5], [12, 8]]),
       ];
+
+/* ── Containers the pairing families needed and never had ───────────────────────── */
+
+/*
+ * A pair like `locked-label` used to be a small tag beside a small padlock. It is one
+ * drawing: the tag is the body, the padlock is what is on its face. These are the bodies
+ * that made that possible — each fills the frame and each leaves a hollow a mark from
+ * `marks.ts` fits into, so every family in the pairing grammar composes the same way the
+ * `document-*` and `agent-*` families already do.
+ */
+
+/** A label: the tag, point leading, big enough to carry a mark on its face. */
+export const tagBody = (): Shape =>
+  body(poly([[2, 4], [12, 4], [21, 13], [12, 22], [2, 22]]));
+
+/**
+ * A filter: the funnel, its mouth the hollow.
+ *
+ * Only where the filter is the noun. A funnel is a poor container — a ring set in its mouth
+ * reads as a screw head — so `goal-filter` and `key-filter` put the funnel in the *mark*
+ * slot instead and let the goal or the key be the body. This is for `filter-alert` and its
+ * kind, where there is nothing else for the body to be.
+ */
+export const funnelBody = (): Shape =>
+  body(poly([[2, 3], [22, 3], [15, 10], [15, 21], [9, 21], [9, 10]]));
+
+/**
+ * A checkpoint: the flag, exactly as `checkpoint` draws it, so the family and its base are
+ * the same drawing. The banner is the hollow; a SMALL mark sits at cy 8.5.
+ */
+export const flagBody = (): Shape[] =>
+  [col(6, 3, 21), body(poly([[6, 3], [19, 3], [19, 15], [6, 15]]))];
+
+/** A goal: the ring, aimed at. Wider than `ring()` because nothing sits outside it. */
+export const targetBody = (): Shape => disc(12, 12, 9);
+
+/**
+ * A key, stood upright: bow at the top, shaft down, one tooth.
+ *
+ * `key` itself lies on its side with the bow at x=7, and this family cannot: every mark in
+ * `marks.ts` is drawn at x=12, so a body whose hollow is off to one side cannot carry one.
+ * Turning the key through ninety degrees puts the bow on the canvas centre line, which is
+ * what makes `key-filter` and `key-blocked` the same drawing as each other.
+ */
+export const keyBody = (): Shape[] =>
+  [disc(12, 7, 5), col(12, 12, 22), row(16, 12, 15.5), row(19, 12, 15.5)];
+
+/** A price: the coin, big enough to carry a mark on its face. */
+export const coinBody = (): Shape[] => [disc(12, 12, 9), col(12, 2, 6), col(12, 18, 22)];
+
+/** A place: the pin, its head the hollow, the way `location` is drawn. */
+export const pinBody = (): Shape[] => [disc(12, 9, 7), poly([[6, 15], [12, 21], [18, 15]])];
+
+/*
+ * There is no `playBody`. A play triangle drawn at 45 closes in too fast: to clear a SMALL
+ * mark at the centre its apex would have to sit at x=18 with a base fourteen units tall,
+ * which is off the canvas. `run-*` pairs therefore put the play in the *mark* slot, the way
+ * `*-filter` puts the funnel there.
+ */
+
+/** A moment: the clock, hands left off so a mark can say which moment. */
+export const clockBody = (): Shape[] => [disc(12, 12, 9), col(12, 5, 12)];
+
+/** The pair of brackets a scope is written between. */
+export const bracketBody = (): Shape[] =>
+  [poly([[8, 3], [3, 3], [3, 21], [8, 21]]), poly([[16, 3], [21, 3], [21, 21], [16, 21]])];
+
+/** Locked: the padlock at full size, its body the hollow. */
+export const lockBody = (): Shape[] =>
+  [poly([[4, 11], [20, 11], [20, 21], [4, 21]], true), arc(12, 11, 5, 180, 360)];

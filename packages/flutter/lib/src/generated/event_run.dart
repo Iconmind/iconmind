@@ -4,6 +4,6 @@ import '../data.dart';
 /// EventRun
 const IconMindData eventRun = IconMindData(
   'event-run',
-  [N('m10 6 -5 5h4l-5 5'), N('M15 8v8l4 -4Z')],
-  [N.tint('M15 8v8l4 -4Z'), N('m10 6 -5 5h4l-5 5'), N('M15 8v8l4 -4Z')],
+  [N('M6 3v18'), N('M6 3h13v12H6'), N('m15 6 -3 3h2.5l-3 3')],
+  [N.tint('M6 3h13v12H6'), N('M6 3v18'), N('M6 3h13v12H6'), N('m15 6 -3 3h2.5l-3 3')],
 );

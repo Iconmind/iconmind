@@ -17,12 +17,16 @@
   "family": "bolt",
   "shapes": [
     {
-      "d": "M10 6L5 11L9 11L4 16",
+      "d": "M6 3V21",
       "closed": false
     },
     {
-      "d": "M15 8L15 16L19 12Z",
+      "d": "M6 3L19 3L19 15L6 15",
       "closed": true
+    },
+    {
+      "d": "M15 6L12 9L14.5 9L11.5 12",
+      "closed": false
     }
   ]
 }

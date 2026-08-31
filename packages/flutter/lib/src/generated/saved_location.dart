@@ -4,6 +4,6 @@ import '../data.dart';
 /// SavedLocation
 const IconMindData savedLocation = IconMindData(
   'saved-location',
-  [N('M4 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M7 13v4'), N('M14 7h7v10l-3.5 -3.5L14 17Z')],
-  [N.tint('M4 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N.tint('M14 7h7v10l-3.5 -3.5L14 17Z'), N('M4 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M7 13v4'), N('M14 7h7v10l-3.5 -3.5L14 17Z')],
+  [N('M5 9a7 7 0 1 0 14 0A7 7 0 1 0 5 9'), N('m6 15 6 6 6 -6'), N('M10 6h4v6l-2 -2 -2 2Z')],
+  [N.tint('M5 9a7 7 0 1 0 14 0A7 7 0 1 0 5 9'), N.tint('M10 6h4v6l-2 -2 -2 2Z'), N('M5 9a7 7 0 1 0 14 0A7 7 0 1 0 5 9'), N('m6 15 6 6 6 -6'), N('M10 6h4v6l-2 -2 -2 2Z')],
 );

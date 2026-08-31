@@ -17,16 +17,20 @@
   "family": "clock",
   "shapes": [
     {
-      "d": "M2 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
+      "d": "M2 4L12 4L21 13L12 22L2 22",
       "closed": true
     },
     {
-      "d": "M7.5 9L7.5 12L10 12",
+      "d": "M9 13a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 10V13",
       "closed": false
     },
     {
-      "d": "M16 13L20 13L22 15L20 17L16 17Z",
-      "closed": true
+      "d": "M12 13H14.5",
+      "closed": false
     }
   ]
 }

@@ -4,6 +4,6 @@ import '../data.dart';
 /// DormantAccount
 const IconMindData dormantAccount = IconMindData(
   'dormant-account',
-  [N('M2 12a4.5 4.5 0 1 0 9 0 4.5 4.5 0 1 0 -9 0'), N('M6.5 10.5v3'), N('M15 9.5h5l-5 5h5')],
-  [N.tint('M2 12a4.5 4.5 0 1 0 9 0 4.5 4.5 0 1 0 -9 0'), N('M2 12a4.5 4.5 0 1 0 9 0 4.5 4.5 0 1 0 -9 0'), N('M6.5 10.5v3'), N('M15 9.5h5l-5 5h5')],
+  [N('M3 12a9 9 0 1 0 18 0 9 9 0 1 0 -18 0'), N('M12 2v4'), N('M12 18v4'), N('M9 9h6l-6 6h6')],
+  [N.tint('M3 12a9 9 0 1 0 18 0 9 9 0 1 0 -18 0'), N('M3 12a9 9 0 1 0 18 0 9 9 0 1 0 -18 0'), N('M12 2v4'), N('M12 18v4'), N('M9 9h6l-6 6h6')],
 );

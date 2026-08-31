@@ -4,6 +4,6 @@ import '../data.dart';
 /// ResumeCheckpoint
 const IconMindData resumeCheckpoint = IconMindData(
   'resume-checkpoint',
-  [N('M4 3v18'), N('M4 3h9l-3 3 3 3H4'), N('M16 8v8l4 -4Z')],
-  [N.tint('M16 8v8l4 -4Z'), N('M4 3v18'), N('M4 3h9l-3 3 3 3H4'), N('M16 8v8l4 -4Z')],
+  [N('M6 3v18'), N('M6 3h13v12H6'), N('m10 6 3 3 -3 3Z')],
+  [N.tint('M6 3h13v12H6'), N.tint('m10 6 3 3 -3 3Z'), N('M6 3v18'), N('M6 3h13v12H6'), N('m10 6 3 3 -3 3Z')],
 );

@@ -4,6 +4,6 @@ import '../data.dart';
 /// Navigate
 const IconMindData navigate = IconMindData(
   'navigate',
-  [N('M4 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M7 13v4'), N('M15 8v8l4 -4Z')],
-  [N.tint('M4 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N.tint('M15 8v8l4 -4Z'), N('M4 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M7 13v4'), N('M15 8v8l4 -4Z')],
+  [N('M5 9a7 7 0 1 0 14 0A7 7 0 1 0 5 9'), N('m6 15 6 6 6 -6'), N('m10 6 3 3 -3 3Z')],
+  [N.tint('M5 9a7 7 0 1 0 14 0A7 7 0 1 0 5 9'), N.tint('m10 6 3 3 -3 3Z'), N('M5 9a7 7 0 1 0 14 0A7 7 0 1 0 5 9'), N('m6 15 6 6 6 -6'), N('m10 6 3 3 -3 3Z')],
 );
