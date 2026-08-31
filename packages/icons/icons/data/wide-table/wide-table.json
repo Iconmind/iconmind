@@ -1,0 +1,40 @@
+{
+  "slug": "wide-table",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Wide table",
+  "description": "A wide table — everything flattened into one row so nothing has to be joined",
+  "tags": [
+    "flat",
+    "denormal",
+    "one-row"
+  ],
+  "aliases": [
+    "one-big-table"
+  ],
+  "keywords": [
+    "wide table",
+    "one big table",
+    "flat table",
+    "denormalised"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 9A2 2 0 0 1 4 7H20A2 2 0 0 1 22 9V15A2 2 0 0 1 20 17H4A2 2 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M8 7V17",
+      "closed": false
+    },
+    {
+      "d": "M16 7V17",
+      "closed": false
+    },
+    {
+      "d": "M2 12H22",
+      "closed": false
+    }
+  ]
+}

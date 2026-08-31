@@ -1,0 +1,40 @@
+{
+  "slug": "unload-data",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Unload",
+  "description": "Unload — the table written back out to files a system outside can read",
+  "tags": [
+    "export",
+    "out",
+    "files"
+  ],
+  "aliases": [
+    "export-table"
+  ],
+  "keywords": [
+    "unload",
+    "export table",
+    "write to stage",
+    "extract files"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M3 3L3 8L21 8L21 3",
+      "closed": false
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    },
+    {
+      "d": "M8 13L12 9L16 13",
+      "closed": false
+    },
+    {
+      "d": "M6 17A2 2 0 0 1 8 15H16A2 2 0 0 1 18 17V20A2 2 0 0 1 16 22H8A2 2 0 0 1 6 20Z",
+      "closed": true
+    }
+  ]
+}

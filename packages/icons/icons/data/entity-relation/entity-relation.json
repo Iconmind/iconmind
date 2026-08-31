@@ -1,0 +1,44 @@
+{
+  "slug": "entity-relation",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Entity relation",
+  "description": "An entity relation — one row on this side, many on that, written on the line",
+  "tags": [
+    "cardinality",
+    "erd",
+    "link"
+  ],
+  "aliases": [
+    "erd"
+  ],
+  "keywords": [
+    "entity relationship",
+    "erd",
+    "one to many",
+    "relation"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M2 9A2 2 0 0 1 4 7H6.5A2 2 0 0 1 8.5 9V15A2 2 0 0 1 6.5 17H4A2 2 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 5A2 2 0 0 1 15.5 3H20A2 2 0 0 1 22 5V8A2 2 0 0 1 20 10H15.5A2 2 0 0 1 13.5 8Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 16A2 2 0 0 1 15.5 14H20A2 2 0 0 1 22 16V19A2 2 0 0 1 20 21H15.5A2 2 0 0 1 13.5 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8.5 12L11 12L11 6.5L13.5 6.5",
+      "closed": false
+    },
+    {
+      "d": "M11 12L11 17.5L13.5 17.5",
+      "closed": false
+    }
+  ]
+}

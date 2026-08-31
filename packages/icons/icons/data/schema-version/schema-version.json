@@ -1,0 +1,41 @@
+{
+  "slug": "schema-version",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Schema version",
+  "description": "A schema version — which shape of the table this is, and when it became that",
+  "tags": [
+    "revision",
+    "stamp",
+    "shape"
+  ],
+  "keywords": [
+    "schema version",
+    "migration version",
+    "revision",
+    "schema history"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H20A2 2 0 0 1 22 4V12A2 2 0 0 1 20 14H4A2 2 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M5 7H19",
+      "closed": false
+    },
+    {
+      "d": "M5 11H14",
+      "closed": false
+    },
+    {
+      "d": "M4 18H20",
+      "closed": false
+    },
+    {
+      "d": "M7 21H17",
+      "closed": false
+    }
+  ]
+}

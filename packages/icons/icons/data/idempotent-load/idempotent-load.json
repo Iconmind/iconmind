@@ -1,0 +1,37 @@
+{
+  "slug": "idempotent-load",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Idempotent load",
+  "description": "An idempotent load — running it twice leaves the table exactly as running it once",
+  "tags": [
+    "safe-retry",
+    "same",
+    "twice"
+  ],
+  "keywords": [
+    "idempotent load",
+    "safe retry",
+    "rerunnable",
+    "exactly once"
+  ],
+  "family": "cycle",
+  "shapes": [
+    {
+      "d": "M2 15A2 2 0 0 1 4 13H20A2 2 0 0 1 22 15V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M6 4L18 4L18 9",
+      "closed": false
+    },
+    {
+      "d": "M18 9L15 6",
+      "closed": false
+    },
+    {
+      "d": "M8 17L11 20L16 15",
+      "closed": false
+    }
+  ]
+}

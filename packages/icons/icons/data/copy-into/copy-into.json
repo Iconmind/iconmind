@@ -1,0 +1,37 @@
+{
+  "slug": "copy-into",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Copy into",
+  "description": "Copy into — files picked up from a stage and written into the table",
+  "tags": [
+    "load",
+    "ingest",
+    "files"
+  ],
+  "keywords": [
+    "copy into",
+    "bulk load",
+    "stage to table",
+    "file load"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M6 4A2 2 0 0 1 8 2H16A2 2 0 0 1 18 4V7A2 2 0 0 1 16 9H8A2 2 0 0 1 6 7Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    },
+    {
+      "d": "M8 11L12 15L16 11",
+      "closed": false
+    },
+    {
+      "d": "M3 16L3 21L21 21L21 16",
+      "closed": false
+    }
+  ]
+}

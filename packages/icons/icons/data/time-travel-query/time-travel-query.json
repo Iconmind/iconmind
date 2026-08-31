@@ -1,0 +1,40 @@
+{
+  "slug": "time-travel-query",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Time travel",
+  "description": "Time travel — the table read as it stood at a moment that has passed",
+  "tags": [
+    "as-of",
+    "history",
+    "rewind"
+  ],
+  "aliases": [
+    "as-of-query"
+  ],
+  "keywords": [
+    "time travel",
+    "as of query",
+    "historical query",
+    "snapshot query"
+  ],
+  "family": "clock",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9V13",
+      "closed": false
+    },
+    {
+      "d": "M13 13H17",
+      "closed": false
+    }
+  ]
+}

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 /**
  * The refusals, written down.
  *
- * A set of this size is easy to mistake for a pile: 2,337 drawings, added fast, in a
+ * A set of this size is easy to mistake for a pile: 2,387 drawings, added fast, in a
  * vocabulary nobody else covers. What separates the two is what got turned away, so this
  * page lists it. Every entry here is a decision somebody had to make and can be checked
  * against the repository: the gates that rejected a shape are the same commands anyone

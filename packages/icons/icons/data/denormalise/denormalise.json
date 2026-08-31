@@ -1,0 +1,40 @@
+{
+  "slug": "denormalise",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Denormalise",
+  "description": "Denormalise — the joins done once and stored, so the reader never has to do them",
+  "tags": [
+    "flatten",
+    "join-once",
+    "widen"
+  ],
+  "aliases": [
+    "denormalize"
+  ],
+  "keywords": [
+    "denormalise",
+    "denormalize",
+    "pre join",
+    "flatten model"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H8A2 2 0 0 1 10 4V7A2 2 0 0 1 8 9H4A2 2 0 0 1 2 7Z",
+      "closed": true
+    },
+    {
+      "d": "M14 4A2 2 0 0 1 16 2H20A2 2 0 0 1 22 4V7A2 2 0 0 1 20 9H16A2 2 0 0 1 14 7Z",
+      "closed": true
+    },
+    {
+      "d": "M6 9L12 15L18 9",
+      "closed": false
+    },
+    {
+      "d": "M4 17A2 2 0 0 1 6 15H18A2 2 0 0 1 20 17V20A2 2 0 0 1 18 22H6A2 2 0 0 1 4 20Z",
+      "closed": true
+    }
+  ]
+}

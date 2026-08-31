@@ -1,0 +1,33 @@
+{
+  "slug": "columnar-store",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Columnar store",
+  "description": "A columnar store — the values of one column kept together, so a scan reads only what it needs",
+  "tags": [
+    "columns",
+    "analytics",
+    "scan"
+  ],
+  "keywords": [
+    "columnar storage",
+    "column store",
+    "olap storage",
+    "vectorised scan"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 6A2 2 0 0 1 5 4H19A2 2 0 0 1 21 6V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M9 4V20",
+      "closed": false
+    },
+    {
+      "d": "M15 4V20",
+      "closed": false
+    }
+  ]
+}

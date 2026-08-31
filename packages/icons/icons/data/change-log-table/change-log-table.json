@@ -1,0 +1,48 @@
+{
+  "slug": "change-log-table",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Change log table",
+  "description": "A change log table — one row per change, kept so the state can be rebuilt",
+  "tags": [
+    "append",
+    "history",
+    "events"
+  ],
+  "aliases": [
+    "changelog-table"
+  ],
+  "keywords": [
+    "change log",
+    "change table",
+    "cdc table",
+    "event log table"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 4.5A2.5 2.5 0 0 1 4.5 2H19.5A2.5 2.5 0 0 1 22 4.5V4.5A2.5 2.5 0 0 1 19.5 7H4.5A2.5 2.5 0 0 1 2 4.5Z",
+      "closed": true
+    },
+    {
+      "d": "M2 12A2.5 2.5 0 0 1 4.5 9.5H19.5A2.5 2.5 0 0 1 22 12V12A2.5 2.5 0 0 1 19.5 14.5H4.5A2.5 2.5 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M2 19.5A2.5 2.5 0 0 1 4.5 17H19.5A2.5 2.5 0 0 1 22 19.5V19.5A2.5 2.5 0 0 1 19.5 22H4.5A2.5 2.5 0 0 1 2 19.5Z",
+      "closed": true
+    },
+    {
+      "d": "M5 4.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 19.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

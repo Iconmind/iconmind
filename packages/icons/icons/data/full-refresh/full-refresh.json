@@ -1,0 +1,37 @@
+{
+  "slug": "full-refresh",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Full refresh",
+  "description": "A full refresh — the table dropped and rebuilt from the source every time",
+  "tags": [
+    "rebuild",
+    "replace",
+    "whole"
+  ],
+  "keywords": [
+    "full refresh",
+    "truncate and load",
+    "full reload",
+    "rebuild table"
+  ],
+  "family": "cycle",
+  "shapes": [
+    {
+      "d": "M2 15A2 2 0 0 1 4 13H20A2 2 0 0 1 22 15V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M2 17H22",
+      "closed": false
+    },
+    {
+      "d": "M6 4L18 4L18 9",
+      "closed": false
+    },
+    {
+      "d": "M18 9L15 6",
+      "closed": false
+    }
+  ]
+}

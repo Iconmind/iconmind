@@ -1,0 +1,37 @@
+{
+  "slug": "data-mart",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Data mart",
+  "description": "A data mart — one team's slice of the warehouse, shaped for the questions they ask",
+  "tags": [
+    "slice",
+    "subject",
+    "team"
+  ],
+  "keywords": [
+    "data mart",
+    "subject area",
+    "departmental warehouse",
+    "curated slice"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 6A2 2 0 0 1 5 4H19A2 2 0 0 1 21 6V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M9 4V20",
+      "closed": false
+    },
+    {
+      "d": "M9 10H21",
+      "closed": false
+    },
+    {
+      "d": "M9 15H21",
+      "closed": false
+    }
+  ]
+}

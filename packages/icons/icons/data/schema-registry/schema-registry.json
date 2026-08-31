@@ -1,0 +1,41 @@
+{
+  "slug": "schema-registry",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Schema registry",
+  "description": "A schema registry — every version of every schema, kept where producers can check it",
+  "tags": [
+    "registry",
+    "versions",
+    "contract"
+  ],
+  "keywords": [
+    "schema registry",
+    "avro registry",
+    "schema store",
+    "contract registry"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M2 10H22",
+      "closed": false
+    },
+    {
+      "d": "M4 6L4 2.5L10 2.5L13.5 6",
+      "closed": false
+    },
+    {
+      "d": "M5 14H19",
+      "closed": false
+    },
+    {
+      "d": "M5 18H15",
+      "closed": false
+    }
+  ]
+}

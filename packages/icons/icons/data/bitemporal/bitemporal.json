@@ -1,0 +1,41 @@
+{
+  "slug": "bitemporal",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Bitemporal",
+  "description": "Bitemporal — when a thing was true, and when the table was told about it",
+  "tags": [
+    "two-clocks",
+    "valid",
+    "known"
+  ],
+  "keywords": [
+    "bitemporal",
+    "valid time",
+    "transaction time",
+    "as of"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 3V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H21",
+      "closed": false
+    },
+    {
+      "d": "M7 17L12 12",
+      "closed": false
+    },
+    {
+      "d": "M12 12L18 6",
+      "closed": false
+    },
+    {
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "dimension-table",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Dimension table",
+  "description": "A dimension table — the labels a fact is described by, and nothing that happened",
+  "tags": [
+    "labels",
+    "lookup",
+    "attributes"
+  ],
+  "keywords": [
+    "dimension table",
+    "lookup table",
+    "attributes",
+    "dim table"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V18A2 2 0 0 1 18 20H6A2 2 0 0 1 4 18Z",
+      "closed": true
+    },
+    {
+      "d": "M4 9H20",
+      "closed": false
+    },
+    {
+      "d": "M7 13H17",
+      "closed": false
+    },
+    {
+      "d": "M7 17H17",
+      "closed": false
+    }
+  ]
+}

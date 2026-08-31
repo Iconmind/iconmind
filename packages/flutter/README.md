@@ -1,6 +1,6 @@
 # iconmind_flutter
 
-2,337 open-source icons for AI-era software — agents, MCP, RAG, prompts, vector
+2,387 open-source icons for AI-era software — agents, MCP, RAG, prompts, vector
 databases — as Flutter widgets. The vocabulary generalist sets don't have, drawn
 on a 24px grid with machine-validated consistency.
 

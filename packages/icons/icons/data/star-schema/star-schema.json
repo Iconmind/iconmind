@@ -1,0 +1,41 @@
+{
+  "slug": "star-schema",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Star schema",
+  "description": "A star schema — one fact table in the middle, its dimensions around it",
+  "tags": [
+    "fact",
+    "dimensions",
+    "kimball"
+  ],
+  "keywords": [
+    "star schema",
+    "kimball",
+    "fact and dimensions",
+    "dimensional model"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M8 11A2 2 0 0 1 10 9H14A2 2 0 0 1 16 11V13.5A2 2 0 0 1 14 15.5H10A2 2 0 0 1 8 13.5Z",
+      "closed": true
+    },
+    {
+      "d": "M10 4a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 20a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "junk-dimension",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Junk dimension",
+  "description": "A junk dimension — the leftover flags gathered into one table so the fact stays clean",
+  "tags": [
+    "flags",
+    "leftover",
+    "gather"
+  ],
+  "keywords": [
+    "junk dimension",
+    "flags table",
+    "leftover attributes",
+    "garbage dimension"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 12A2 2 0 0 1 6 10H18A2 2 0 0 1 20 12V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M7 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 3L12 8L17 3",
+      "closed": false
+    }
+  ]
+}

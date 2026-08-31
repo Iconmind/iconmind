@@ -1,0 +1,40 @@
+{
+  "slug": "merge-into",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Merge into",
+  "description": "Merge into — matched rows updated, new ones inserted, in one statement",
+  "tags": [
+    "upsert",
+    "match",
+    "combine"
+  ],
+  "aliases": [
+    "merge-statement"
+  ],
+  "keywords": [
+    "merge into",
+    "upsert statement",
+    "when matched",
+    "merge sql"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H8A2 2 0 0 1 10 4V7A2 2 0 0 1 8 9H4A2 2 0 0 1 2 7Z",
+      "closed": true
+    },
+    {
+      "d": "M14 4A2 2 0 0 1 16 2H20A2 2 0 0 1 22 4V7A2 2 0 0 1 20 9H16A2 2 0 0 1 14 7Z",
+      "closed": true
+    },
+    {
+      "d": "M6 9L12 15L18 9",
+      "closed": false
+    },
+    {
+      "d": "M6 17A2 2 0 0 1 8 15H16A2 2 0 0 1 18 17V20A2 2 0 0 1 16 22H8A2 2 0 0 1 6 20Z",
+      "closed": true
+    }
+  ]
+}

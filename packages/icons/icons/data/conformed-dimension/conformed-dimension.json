@@ -1,0 +1,41 @@
+{
+  "slug": "conformed-dimension",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Conformed dimension",
+  "description": "A conformed dimension — one dimension meaning the same thing in every mart that uses it",
+  "tags": [
+    "shared",
+    "consistent",
+    "reuse"
+  ],
+  "keywords": [
+    "conformed dimension",
+    "shared dimension",
+    "consistent labels",
+    "master dimension"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M7 4A2 2 0 0 1 9 2H15A2 2 0 0 1 17 4V7A2 2 0 0 1 15 9H9A2 2 0 0 1 7 7Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9V12",
+      "closed": false
+    },
+    {
+      "d": "M5 15L5 12L19 12L19 15",
+      "closed": false
+    },
+    {
+      "d": "M2 17A2 2 0 0 1 4 15H6.5A2 2 0 0 1 8.5 17V20A2 2 0 0 1 6.5 22H4A2 2 0 0 1 2 20Z",
+      "closed": true
+    },
+    {
+      "d": "M15.5 17A2 2 0 0 1 17.5 15H20A2 2 0 0 1 22 17V20A2 2 0 0 1 20 22H17.5A2 2 0 0 1 15.5 20Z",
+      "closed": true
+    }
+  ]
+}

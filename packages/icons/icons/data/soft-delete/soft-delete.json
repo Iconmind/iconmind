@@ -1,0 +1,44 @@
+{
+  "slug": "soft-delete",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Soft delete",
+  "description": "A soft delete — the row marked gone and kept, so nothing downstream loses its history",
+  "tags": [
+    "flag",
+    "kept",
+    "hidden"
+  ],
+  "aliases": [
+    "logical-delete"
+  ],
+  "keywords": [
+    "soft delete",
+    "deleted flag",
+    "logical delete",
+    "tombstone row"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M2 12H22",
+      "closed": false
+    },
+    {
+      "d": "M5 9H13",
+      "closed": false
+    },
+    {
+      "d": "M16 14L20 18",
+      "closed": false
+    },
+    {
+      "d": "M20 14L16 18",
+      "closed": false
+    }
+  ]
+}

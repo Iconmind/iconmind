@@ -1,0 +1,41 @@
+{
+  "slug": "federated-query",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Federated query",
+  "description": "A federated query — one statement answered from more than one system at once",
+  "tags": [
+    "across",
+    "remote",
+    "union"
+  ],
+  "keywords": [
+    "federated query",
+    "cross database query",
+    "query federation",
+    "external query"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H8A2 2 0 0 1 10 5V8A2 2 0 0 1 8 10H4A2 2 0 0 1 2 8Z",
+      "closed": true
+    },
+    {
+      "d": "M14 5A2 2 0 0 1 16 3H20A2 2 0 0 1 22 5V8A2 2 0 0 1 20 10H16A2 2 0 0 1 14 8Z",
+      "closed": true
+    },
+    {
+      "d": "M6 10L6 12.5L18 12.5L18 10",
+      "closed": false
+    },
+    {
+      "d": "M12 12.5V15",
+      "closed": false
+    },
+    {
+      "d": "M6 17A2 2 0 0 1 8 15H16A2 2 0 0 1 18 17V20A2 2 0 0 1 16 22H8A2 2 0 0 1 6 20Z",
+      "closed": true
+    }
+  ]
+}

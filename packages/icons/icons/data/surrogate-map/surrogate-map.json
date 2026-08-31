@@ -1,0 +1,44 @@
+{
+  "slug": "surrogate-map",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Surrogate map",
+  "description": "A surrogate map — the table that says which business key became which generated id",
+  "tags": [
+    "mapping",
+    "key",
+    "lookup"
+  ],
+  "aliases": [
+    "key-map"
+  ],
+  "keywords": [
+    "surrogate key map",
+    "key mapping",
+    "id lookup",
+    "natural to surrogate"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M12 4V20",
+      "closed": false
+    },
+    {
+      "d": "M2 9H22",
+      "closed": false
+    },
+    {
+      "d": "M6 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 15H20",
+      "closed": false
+    }
+  ]
+}

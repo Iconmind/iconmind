@@ -1,6 +1,6 @@
 # @iconmind/svelte
 
-Svelte components for [IconMind](https://iconmind.dev) — 2,337 tree-shakeable icons
+Svelte components for [IconMind](https://iconmind.dev) — 2,387 tree-shakeable icons
 for AI-era software: LLMs, agents, MCP, RAG, and everything around them.
 
 ```bash

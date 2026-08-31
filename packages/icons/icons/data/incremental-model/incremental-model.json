@@ -1,0 +1,37 @@
+{
+  "slug": "incremental-model",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Incremental model",
+  "description": "An incremental model — only the rows that arrived since last time are built",
+  "tags": [
+    "delta",
+    "append",
+    "since"
+  ],
+  "keywords": [
+    "incremental model",
+    "incremental load",
+    "delta load",
+    "append only build"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 16A3 3 0 0 1 5 13H19A3 3 0 0 1 22 16V16A3 3 0 0 1 19 19H5A3 3 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M6 9L12 3L18 9",
+      "closed": false
+    },
+    {
+      "d": "M12 3V13",
+      "closed": false
+    },
+    {
+      "d": "M7 21H17",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "manifest-file",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Manifest",
+  "description": "A manifest — the file that lists which files are actually part of the table right now",
+  "tags": [
+    "listing",
+    "snapshot",
+    "index"
+  ],
+  "keywords": [
+    "manifest file",
+    "table manifest",
+    "file list",
+    "snapshot manifest"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8Z",
+      "closed": true
+    },
+    {
+      "d": "M8 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12H16",
+      "closed": false
+    },
+    {
+      "d": "M8 16a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 16H16",
+      "closed": false
+    }
+  ]
+}

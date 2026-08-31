@@ -1,0 +1,40 @@
+{
+  "slug": "watermark-column",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Watermark column",
+  "description": "A watermark column — the timestamp a load reads to know where it stopped",
+  "tags": [
+    "cursor",
+    "since",
+    "timestamp"
+  ],
+  "aliases": [
+    "high-watermark"
+  ],
+  "keywords": [
+    "watermark column",
+    "high watermark",
+    "incremental cursor",
+    "last loaded at"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M2 12H22",
+      "closed": false
+    },
+    {
+      "d": "M5 8H14",
+      "closed": false
+    },
+    {
+      "d": "M17 8a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

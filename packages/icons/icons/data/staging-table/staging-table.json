@@ -1,0 +1,36 @@
+{
+  "slug": "staging-table",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Staging table",
+  "description": "A staging table — where the raw load lands before anything is done to it",
+  "tags": [
+    "raw",
+    "landing",
+    "temporary"
+  ],
+  "aliases": [
+    "landing-table"
+  ],
+  "keywords": [
+    "staging table",
+    "landing zone",
+    "raw layer",
+    "temp table"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M3 4L3 15L21 15L21 4",
+      "closed": false
+    },
+    {
+      "d": "M12 17V21",
+      "closed": false
+    },
+    {
+      "d": "M8 8L12 12L16 8",
+      "closed": false
+    }
+  ]
+}

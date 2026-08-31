@@ -1,0 +1,41 @@
+{
+  "slug": "audit-table",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Audit table",
+  "description": "An audit table — who changed what, kept beside the table it watches",
+  "tags": [
+    "who",
+    "trail",
+    "record"
+  ],
+  "keywords": [
+    "audit table",
+    "audit trail",
+    "change history",
+    "who changed what"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 6A2 2 0 0 1 5 4H19A2 2 0 0 1 21 6V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M3 10H21",
+      "closed": false
+    },
+    {
+      "d": "M5.5 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 14H18",
+      "closed": false
+    },
+    {
+      "d": "M14 16L16 18L19 15",
+      "closed": false
+    }
+  ]
+}

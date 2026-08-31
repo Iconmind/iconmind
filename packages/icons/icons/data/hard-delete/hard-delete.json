@@ -1,0 +1,40 @@
+{
+  "slug": "hard-delete",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Hard delete",
+  "description": "A hard delete — the row actually gone, and nothing left to read",
+  "tags": [
+    "gone",
+    "purge",
+    "removed"
+  ],
+  "aliases": [
+    "physical-delete"
+  ],
+  "keywords": [
+    "hard delete",
+    "physical delete",
+    "purge row",
+    "permanently deleted"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 5A3 3 0 0 1 5 2H19A3 3 0 0 1 22 5V5A3 3 0 0 1 19 8H5A3 3 0 0 1 2 5Z",
+      "closed": true
+    },
+    {
+      "d": "M2 19A3 3 0 0 1 5 16H19A3 3 0 0 1 22 19V19A3 3 0 0 1 19 22H5A3 3 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M10 10L14 14",
+      "closed": false
+    },
+    {
+      "d": "M14 10L10 14",
+      "closed": false
+    }
+  ]
+}

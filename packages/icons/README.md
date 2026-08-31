@@ -1,6 +1,6 @@
 # @iconmind/icons
 
-2,337 SVG icons for AI-era software — LLMs, agents, MCP, RAG, and everything around
+2,387 SVG icons for AI-era software — LLMs, agents, MCP, RAG, and everything around
 them. The raw set: plain SVGs, metadata, and a sprite. No framework required.
 
 Every icon ships in six cells: **outline** and **duotone**, each at **thin / regular /

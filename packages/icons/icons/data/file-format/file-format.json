@@ -1,0 +1,37 @@
+{
+  "slug": "file-format",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "File format",
+  "description": "A file format — how the rows are written on disk, which decides what a read costs",
+  "tags": [
+    "encoding",
+    "on-disk",
+    "layout"
+  ],
+  "keywords": [
+    "file format",
+    "storage format",
+    "parquet or csv",
+    "table format"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8Z",
+      "closed": true
+    },
+    {
+      "d": "M9 11V18",
+      "closed": false
+    },
+    {
+      "d": "M12 11V18",
+      "closed": false
+    },
+    {
+      "d": "M15 11V18",
+      "closed": false
+    }
+  ]
+}

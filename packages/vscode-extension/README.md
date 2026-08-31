@@ -3,7 +3,7 @@
 Autocomplete every IconMind icon inside `import { … } from "@iconmind/react"` (and vue,
 svelte, solid, preact, react-native, astro) and after `IconMindIcons.` in Flutter — each
 with its description and a preview — and hover any icon name to see the drawing and a
-link to its page. 2,337 icons, regenerated per release.
+link to its page. 2,387 icons, regenerated per release.
 
 ## Build and install locally
 

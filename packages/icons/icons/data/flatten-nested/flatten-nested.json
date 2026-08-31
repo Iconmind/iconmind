@@ -1,0 +1,48 @@
+{
+  "slug": "flatten-nested",
+  "category": "data",
+  "subcategory": "modelling",
+  "name": "Flatten",
+  "description": "Flatten — a nested shape opened out into ordinary columns",
+  "tags": [
+    "unnest",
+    "explode",
+    "open"
+  ],
+  "aliases": [
+    "unnest"
+  ],
+  "keywords": [
+    "flatten",
+    "unnest",
+    "explode column",
+    "flatten json"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M8 4A2 2 0 0 1 10 2H14A2 2 0 0 1 16 4V7A2 2 0 0 1 14 9H10A2 2 0 0 1 8 7Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9V12",
+      "closed": false
+    },
+    {
+      "d": "M5 16L5 12L19 12L19 16",
+      "closed": false
+    },
+    {
+      "d": "M3 20H7",
+      "closed": false
+    },
+    {
+      "d": "M10 20H14",
+      "closed": false
+    },
+    {
+      "d": "M17 20H21",
+      "closed": false
+    }
+  ]
+}
