@@ -11,6 +11,9 @@ export function generateStaticParams() {
   return COMPARISONS.map((c) => ({ slug: c.slug }));
 }
 
+const anchor = (heading: string) =>
+  heading.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const c = compareOf(slug);
@@ -32,7 +35,16 @@ export default async function ComparePage({ params }: { params: Promise<{ slug: 
         data={{
           "@context": "https://schema.org",
           "@graph": [
-            { "@type": "WebPage", name: `IconMind vs ${c.name}`, description: c.lead, url: `${SITE_URL}/compare/${c.slug}/`, isPartOf: { "@type": "WebSite", "@id": `${SITE_URL}/#website` } },
+            {
+              "@type": "Article",
+              headline: `IconMind vs ${c.name}`,
+              description: c.lead,
+              url: `${SITE_URL}/compare/${c.slug}/`,
+              author: { "@type": "Organization", name: "IconMind", url: SITE_URL },
+              publisher: { "@type": "Organization", name: "IconMind", url: SITE_URL },
+              isPartOf: { "@type": "WebSite", "@id": `${SITE_URL}/#website` },
+              articleSection: c.sections.map((s) => s.heading),
+            },
             { "@type": "FAQPage", mainEntity: c.faq.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) },
             breadcrumbs([{ name: "Compare", path: "/compare/" }, { name: c.name, path: `/compare/${c.slug}/` }]),
           ],
@@ -41,6 +53,13 @@ export default async function ComparePage({ params }: { params: Promise<{ slug: 
       <p className="label">Compared</p>
       <h1 className="mt-2 text-h1 font-semibold">IconMind vs {c.name}</h1>
       <p className="mt-3 max-w-[62ch] text-lead text-ink-2">{c.lead}</p>
+
+      <section className="mt-9 rounded-2xl border border-line bg-panel px-5 py-5 sm:px-6">
+        <h2 className="label">The short answer</h2>
+        <div className="mt-3 max-w-[64ch] space-y-3.5 text-ui leading-relaxed text-ink-2">
+          {c.answer.map((p, i) => <p key={i}>{p}</p>)}
+        </div>
+      </section>
 
       <div className="mt-10 overflow-x-auto rounded-2xl border border-line">
         <table className="w-full text-ui">
@@ -63,9 +82,58 @@ export default async function ComparePage({ params }: { params: Promise<{ slug: 
         </table>
       </div>
 
-      <div className="mt-10 max-w-[65ch] space-y-4 text-ui leading-relaxed text-ink-2">
-        {c.verdict.map((p, i) => <p key={i}>{p}</p>)}
-      </div>
+      <nav className="mt-8 border-y border-line-2 py-4" aria-label="Sections">
+        <p className="label mb-2.5">In detail</p>
+        <ol className="flex flex-wrap gap-x-5 gap-y-1.5 text-ui text-ink-2">
+          {c.sections.map((s, i) => (
+            <li key={s.heading} className="flex gap-2">
+              <span className="font-mono text-[11px] tabular-nums text-muted">{i + 1}</span>
+              <a href={`#${anchor(s.heading)}`} className="transition-colors hover:text-accent">{s.heading}</a>
+            </li>
+          ))}
+        </ol>
+      </nav>
+
+      {c.sections.map((s) => (
+        <section key={s.heading} id={anchor(s.heading)} className="mt-11 scroll-mt-24">
+          <h2 className="text-h2 font-semibold">{s.heading}</h2>
+          <div className="mt-3.5 max-w-[65ch] space-y-3.5 text-ui leading-relaxed text-ink-2">
+            {s.body.map((p, i) => <p key={i}>{p}</p>)}
+          </div>
+          {s.table && (
+            <div className="mt-6 overflow-x-auto rounded-2xl border border-line">
+              <table className="w-full text-ui">
+                <thead className="bg-sunk text-left">
+                  <tr>
+                    {s.table.head.map((h, i) => (
+                      <th key={i} className={i === 0 ? "px-4 py-3 font-medium text-muted" : "px-4 py-3 font-semibold"}>{h || " "}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {s.table.rows.map(([label, a, b]) => (
+                    <tr key={label} className="border-t border-line-2 align-top">
+                      <th scope="row" className="px-4 py-3 text-left font-medium text-muted">{label}</th>
+                      <td className="px-4 py-3 text-ink">{a}</td>
+                      <td className="px-4 py-3 text-ink-2">{b}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+          {s.code && (
+            <pre className="mt-5 max-w-[65ch] overflow-x-auto rounded-xl border border-line-2 bg-sunk px-4 py-3.5 font-mono text-[12px] leading-[1.7] whitespace-pre text-ink-2">{s.code}</pre>
+          )}
+        </section>
+      ))}
+
+      <section className="mt-12 border-t border-line pt-7">
+        <h2 className="text-h2 font-semibold">The verdict</h2>
+        <div className="mt-3.5 max-w-[65ch] space-y-4 text-ui leading-relaxed text-ink-2">
+          {c.verdict.map((p, i) => <p key={i}>{p}</p>)}
+        </div>
+      </section>
 
       <section className="mt-12">
         <h2 className="text-h2 font-semibold">Questions</h2>
