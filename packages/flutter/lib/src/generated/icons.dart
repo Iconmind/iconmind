@@ -2680,7 +2680,7 @@ abstract final class IconMindIcons {
   static const IconMindData shard = g.partition;
   static const IconMindData partitionPrune = g.partitionPrune;
   @Deprecated('use partitionPrune')
-  static const IconMindData pruning = g.partitionPrune;
+  static const IconMindData partitionElimination = g.partitionPrune;
   static const IconMindData partitionTable = g.partitionTable;
   @Deprecated('use partitionTable')
   static const IconMindData tablePartition = g.partitionTable;

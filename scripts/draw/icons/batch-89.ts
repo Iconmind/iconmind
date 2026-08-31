@@ -145,8 +145,8 @@ export const BATCH_89: Icon[] = [
     [rect(2, 3, 20, 8, 2), row(7, 2, 22), col(12, 12, 18), poly([[8, 14], [12, 18], [16, 14]]), row(21, 6, 18)]),
 
   dm("partition-prune", "modelling", "Partition pruning", "Partition pruning — the partitions the query cannot need are never opened",
-    ["skip", "narrow", "scan"], ["pruning"], ["partition pruning", "partition elimination", "skip partitions", "predicate pushdown"], "window",
-    [rect(2, 4, 9, 16, 2), rect(13.5, 4, 8.5, 16, 2), poly([[16, 9], [20, 13]]), poly([[20, 9], [16, 13]])]),
+    ["skip", "narrow", "scan"], ["partition-elimination"], ["partition pruning", "partition elimination", "skip partitions", "predicate pushdown"], "window",
+    [rect(2, 4, 9, 16, 2), rect(14, 4, 8, 16, 2), poly([[16, 9], [20, 13]]), poly([[20, 9], [16, 13]])]),
 
   dm("clustering-key", "modelling", "Clustering key", "A clustering key — the column the rows are physically sorted by, so a scan stays small",
     ["sort", "co-locate", "physical"], [], ["clustering key", "sort key", "cluster by", "physical order"], "window",
