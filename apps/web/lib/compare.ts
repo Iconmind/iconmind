@@ -46,7 +46,7 @@ export const COMPARISONS: Compare[] = [
     lead: "Lucide is the generalist set most React apps start with. IconMind draws the same grid and stroke, then adds the vocabulary an AI product needs.",
     answer: [
       "Use Lucide if your product is an ordinary web application and you want the set with the longest track record, the widest framework support and a community that has already answered your question on GitHub. It is excellent, it is free, and nothing on this page is an argument against it.",
-      "Use IconMind if a meaningful part of your interface is about models, agents, retrieval or infrastructure, and you keep running out of nouns. Lucide has roughly 2,050 icons and almost none of them are a context window, a reranker, a tool call or an MCP resource. IconMind has 664 drawings for that vocabulary, on the same 24 px grid and the same 2 px stroke, so the two sets sit on one screen without clashing.",
+      "Use IconMind if a meaningful part of your interface is about models, agents, retrieval or infrastructure, and you keep running out of nouns. Lucide has 2,048 icons and almost none of them are a context window, a reranker, a tool call or an MCP resource. IconMind has 664 drawings for that vocabulary, on the same 24 px grid and the same 2 px stroke, so the two sets sit on one screen without clashing.",
       "Using both is a legitimate answer and a common one. Start with Lucide, add IconMind for the AI surface, and a reader cannot tell which icon came from where.",
     ],
     sections: [
@@ -75,7 +75,7 @@ export const COMPARISONS: Compare[] = [
         heading: "Bundle size, measured rather than claimed",
         body: [
           "Both sets tree-shake and both are honest about it. The numbers below are what the npm registry reported on 31 August 2026, and they describe what an install writes to disk rather than what a browser downloads.",
-          "What a browser downloads is much smaller and much closer between the two. In IconMind every icon is its own entry point and its own chunk, so importing three costs about 660 bytes gzipped. That figure is a size-limit test in CI, not a marketing claim: it fails the build if it stops being true. Lucide is in the same territory per icon.",
+          "What a browser downloads is much smaller, and much closer between the two. One IconMind icon is 619 bytes gzipped including the shared factory, and three are 820, so the second and third icons cost about 100 bytes each. Those are size-limit tests in CI rather than marketing numbers: the build fails when they stop being true. Lucide is in the same territory per icon.",
           "The gap in install size comes from IconMind shipping six drawings per icon instead of one. You pay it once, on install, and never again at runtime.",
           "The practical rule is identical for both: import named icons rather than the barrel and let the bundler drop the rest. Where a bundler cannot tree-shake a barrel, IconMind also publishes a path per icon, which sidesteps the question entirely. That matters most in React Native and in a few older CommonJS setups.",
         ],
@@ -145,13 +145,13 @@ export const COMPARISONS: Compare[] = [
         heading: "How these numbers were measured",
         body: [
           "Package sizes come from the npm registry on 31 August 2026, taken from the published tarballs rather than from a size badge: lucide-react 1.37.0 unpacks to 30.2 MB across 4,136 files, @iconmind/react 0.6.0 to 5.6 MB across 6,867. Both figures are what lands in node_modules, not what reaches a browser.",
-          "The per-import cost of about 1.1 kB gzipped was measured on a production build with one icon imported, and it includes the shared factory the second icon does not pay for again. Carrying all six cells with each icon rather than splitting them across six import paths costs roughly 39 bytes gzipped, because a duotone cell compresses to almost nothing next to the outline it repeats.",
-          "The icon counts are the sets themselves: 2,287 IconMind icons and 13,722 cells, of which 664 icons are the AI, agent, MCP and RAG families. Lucide's count is its own published figure. Anything in the tables that is not a measurement is a plain fact about the packages, and every command used to produce these numbers is in the repository.",
+          "The browser numbers come from the size-limit suite that runs in CI, measured on 31 August 2026 against a production esbuild bundle with React treated as external: one icon 619 bytes gzipped, three icons 820, and the shared factory on its own 465. Carrying all six cells with each icon rather than splitting them across six import paths costs roughly 39 bytes gzipped, because a duotone cell compresses to almost nothing next to the outline it repeats.",
+          "The icon counts are the packages themselves: lucide-react 1.37.0 ships 2,048 icon modules, counted in the published tarball; IconMind has 2,287 icons and 13,722 cells, of which 664 icons are the AI, agent, MCP and RAG families. Anything in the tables that is not a measurement is a plain fact about the packages, and every command used to produce these numbers is in the repository.",
         ],
       },
     ],
     rows: [
-      ["Icons", OURS.count, "≈2,050 (v1.37, Aug 2026)"],
+      ["Icons", OURS.count, "2,048 (v1.37.0, Aug 2026)"],
       ["AI and agent vocabulary", OURS.ai, "a handful (bot, brain, sparkles)"],
       ["Variants and weights", OURS.variants, "one style; stroke width as a prop"],
       ["Frameworks", OURS.frameworks, "React, Vue, Svelte, Solid, Preact, Angular, React Native, Flutter"],
@@ -381,7 +381,7 @@ export const COMPARISONS: Compare[] = [
         body: [
           "Neither set has a bundle-size problem in a modern build. Both publish per-icon modules with sideEffects false, so an app that imports twelve icons ships twelve icons and the rest never leaves node_modules.",
           "The measurable difference is on disk during install. The Heroicons React package unpacks to 3.5 MB across 5,183 files; IconMind unpacks to 5.6 MB across 6,867 files for seven and a half times as many icons, because a cell is a small file and there is no per-icon runtime.",
-          "One IconMind import costs roughly 3.3 kB raw, near 1.1 kB gzipped, and that includes the shared runtime the second icon does not pay again. The one thing to avoid on the client is the metadata module, which is 1.7 MB and meant for build scripts and the MCP server; use metadata.json at build time instead.",
+          "One IconMind import is 619 bytes gzipped including the shared factory, and three are 820, so each icon after the first costs about 100 bytes. The one thing to avoid on the client is the metadata module, which is 1.7 MB and meant for build scripts and the MCP server; use metadata.json at build time instead.",
         ],
         table: {
           head: ["", "Heroicons", "IconMind"],
@@ -421,7 +421,7 @@ export const COMPARISONS: Compare[] = [
         body: [
           "Package sizes were taken from the npm registry on 31 August 2026, from the published tarballs rather than a badge: @heroicons/react 2.2.0 unpacks to 3.5 MB across 5,183 files, @iconmind/react 0.6.0 to 5.6 MB across 6,867 files. Both are disk in node_modules, not bytes in a browser.",
           "The styles and defaults described here were read from the packages themselves. The Heroicons outline components render at a 1.5 px stroke with currentColor and aria-hidden set, which is where the claim that the thin weight matches them comes from.",
-          "The IconMind figures are the set: 2,287 icons, 13,722 cells, 664 of them in the AI, agent, MCP and RAG families, and about 1.1 kB gzipped for the first icon you import including the shared factory.",
+          "The IconMind figures are the set: 2,287 icons, 13,722 cells, 664 of them in the AI, agent, MCP and RAG families, and 619 bytes gzipped for the first icon you import, measured by the size-limit suite that runs in CI.",
         ],
       },
     ],
