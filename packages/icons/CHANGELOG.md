@@ -1,5 +1,11 @@
 # @iconmind/icons
 
+## 0.6.2
+
+### Patch Changes
+
+- Revert "fix(icons): the pairing families become one drawing again"
+
 ## 0.6.1
 
 ### Patch Changes
