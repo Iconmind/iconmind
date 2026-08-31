@@ -1,3 +1,23 @@
+## 0.6.2
+
+A hundred and fifty icons across three rounds, and two new subcategories.
+
+**Relational databases and SQL** (`data/relational`) — the vocabulary a person writing
+queries has on screen: transactions and savepoints, the four joins, isolation levels and
+the two kinds of lock, explain plans, slow queries and the N+1 problem, keys and
+constraints, index bloat and covering indexes.
+
+**Data modelling, migrations and warehousing** (`data/modelling`) — what sits between the
+source and the dashboard: migrations up and down, star and snowflake schemas, fact and
+dimension tables, incremental and full loads, watermarks and late-arriving rows, soft and
+hard deletes, time travel, and lineage at both grains.
+
+**Networking and protocols** — what a request meets between one machine and another: mTLS
+and certificate rotation, sockets and keep-alive, TCP, UDP, QUIC and HTTP/3, DNS records
+and TTLs, NAT, BGP and anycast, proxies forward and reverse, traceroute, MTU and QoS.
+
+2,287 → 2,437 icons, 13,722 → 14,622 cells.
+
 ## 0.6.0
 
 Sixteen devices — the hardware people kept asking other icon sets for: mouse, printer,
