@@ -1,0 +1,29 @@
+{
+  "slug": "inner-join",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Inner join",
+  "description": "An inner join — only the rows that match on both sides",
+  "tags": [
+    "match",
+    "both",
+    "intersect"
+  ],
+  "keywords": [
+    "inner join",
+    "intersection",
+    "matching rows",
+    "join on"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M11.98 3.63A8.5 8.5 0 0 1 11.98 20.37",
+      "closed": false
+    },
+    {
+      "d": "M12.02 20.37A8.5 8.5 0 0 1 12.02 3.63",
+      "closed": false
+    }
+  ]
+}

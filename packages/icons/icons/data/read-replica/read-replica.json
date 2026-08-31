@@ -1,0 +1,40 @@
+{
+  "slug": "read-replica",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Read replica",
+  "description": "A read replica — a copy kept in step that answers reads and takes no writes",
+  "tags": [
+    "copy",
+    "follower",
+    "read-only"
+  ],
+  "aliases": [
+    "replica-read"
+  ],
+  "keywords": [
+    "read replica",
+    "follower",
+    "standby",
+    "read only copy"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H9A2 2 0 0 1 11 6V18A2 2 0 0 1 9 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M2 9H11",
+      "closed": false
+    },
+    {
+      "d": "M14.5 10A2 2 0 0 1 16.5 8H20A2 2 0 0 1 22 10V14A2 2 0 0 1 20 16H16.5A2 2 0 0 1 14.5 14Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12H14.5",
+      "closed": false
+    }
+  ]
+}

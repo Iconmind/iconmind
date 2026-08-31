@@ -1,0 +1,40 @@
+{
+  "slug": "outer-join",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Outer join",
+  "description": "An outer join — the matches, and the rows that had none, kept anyway",
+  "tags": [
+    "unmatched",
+    "left-right",
+    "keep"
+  ],
+  "aliases": [
+    "full-outer-join"
+  ],
+  "keywords": [
+    "outer join",
+    "left join",
+    "right join",
+    "full outer join"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M2 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 3H10",
+      "closed": false
+    },
+    {
+      "d": "M14 3H19",
+      "closed": false
+    }
+  ]
+}

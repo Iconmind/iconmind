@@ -1,0 +1,40 @@
+{
+  "slug": "cross-join",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Cross join",
+  "description": "A cross join — every row on the left paired with every row on the right",
+  "tags": [
+    "cartesian",
+    "product",
+    "pairs"
+  ],
+  "aliases": [
+    "cartesian-join"
+  ],
+  "keywords": [
+    "cross join",
+    "cartesian product",
+    "every combination",
+    "no join condition"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M5 4V20",
+      "closed": false
+    },
+    {
+      "d": "M19 4V20",
+      "closed": false
+    },
+    {
+      "d": "M7 6L17 16",
+      "closed": false
+    },
+    {
+      "d": "M17 6L7 16",
+      "closed": false
+    }
+  ]
+}

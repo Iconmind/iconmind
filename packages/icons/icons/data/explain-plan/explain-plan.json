@@ -1,0 +1,44 @@
+{
+  "slug": "explain-plan",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Explain plan",
+  "description": "An explain plan — the tree of steps the planner chose to answer the query",
+  "tags": [
+    "planner",
+    "tree",
+    "steps"
+  ],
+  "aliases": [
+    "query-plan"
+  ],
+  "keywords": [
+    "explain",
+    "explain analyze",
+    "query plan",
+    "execution plan"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M10 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 7V10",
+      "closed": false
+    },
+    {
+      "d": "M6 13L6 10L18 10L18 13",
+      "closed": false
+    },
+    {
+      "d": "M4 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

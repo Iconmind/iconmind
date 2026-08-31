@@ -1,0 +1,41 @@
+{
+  "slug": "collation",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Collation",
+  "description": "Collation — the rule that decides how text sorts and compares",
+  "tags": [
+    "sort",
+    "locale",
+    "compare"
+  ],
+  "keywords": [
+    "collation",
+    "sort order",
+    "locale",
+    "case sensitivity"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M2 6H16",
+      "closed": false
+    },
+    {
+      "d": "M2 12H13",
+      "closed": false
+    },
+    {
+      "d": "M2 18H10",
+      "closed": false
+    },
+    {
+      "d": "M20 5V19",
+      "closed": false
+    },
+    {
+      "d": "M17 16L20 19L22 17",
+      "closed": false
+    }
+  ]
+}

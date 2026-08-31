@@ -1,0 +1,37 @@
+{
+  "slug": "default-value",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Default value",
+  "description": "A default — the value written when the insert supplies none",
+  "tags": [
+    "fallback",
+    "preset",
+    "column"
+  ],
+  "keywords": [
+    "default value",
+    "column default",
+    "fallback value",
+    "preset"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M12 6V18",
+      "closed": false
+    },
+    {
+      "d": "M4 12H10",
+      "closed": false
+    },
+    {
+      "d": "M16 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

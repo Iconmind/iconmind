@@ -1,0 +1,44 @@
+{
+  "slug": "n-plus-one",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "N+1 queries",
+  "description": "The N+1 problem — one query for the list, then one more for every row in it",
+  "tags": [
+    "repeat",
+    "loop",
+    "anti-pattern"
+  ],
+  "aliases": [
+    "n-plus-one-query"
+  ],
+  "keywords": [
+    "n+1 query",
+    "n plus one",
+    "select n+1",
+    "query in loop"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M10 4a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 6V10",
+      "closed": false
+    },
+    {
+      "d": "M4 16L4 10L20 10L20 16",
+      "closed": false
+    },
+    {
+      "d": "M12 10V16",
+      "closed": false
+    },
+    {
+      "d": "M2 18H22",
+      "closed": false
+    }
+  ]
+}

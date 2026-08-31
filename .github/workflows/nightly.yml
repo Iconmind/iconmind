@@ -44,6 +44,12 @@ jobs:
         if: hashFiles('.size-limit.json') != ''
         run: pnpm size
 
+      # The consistency guidelines the validator cannot express: short side, ink at 16px,
+      # ink centroid, element count. Baselined, so it fails on a NEW outlier rather than on
+      # the ones the set already carries — see the header of scripts/review/audit.mts.
+      - name: Consistency audit
+        run: pnpm icons:audit --check
+
       - name: Perceptual duplicate scan
         if: hashFiles('scripts/validate/duplicates.ts') != ''
         run: pnpm icons:duplicates --perceptual

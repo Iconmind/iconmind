@@ -1,0 +1,40 @@
+{
+  "slug": "partition-table",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Partitioned table",
+  "description": "A partitioned table — one table stored as ranges that are queried as one",
+  "tags": [
+    "range",
+    "split",
+    "shard"
+  ],
+  "aliases": [
+    "table-partition"
+  ],
+  "keywords": [
+    "partition",
+    "partitioned table",
+    "range partition",
+    "table partition"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M12 4V20",
+      "closed": false
+    },
+    {
+      "d": "M6 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

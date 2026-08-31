@@ -1,0 +1,40 @@
+{
+  "slug": "seed-data",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Seed data",
+  "description": "Seed data — the rows a fresh database is planted with",
+  "tags": [
+    "fixture",
+    "initial",
+    "plant"
+  ],
+  "aliases": [
+    "database-seed"
+  ],
+  "keywords": [
+    "seed data",
+    "database seed",
+    "initial rows",
+    "fixtures"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M10 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 7V10",
+      "closed": false
+    },
+    {
+      "d": "M2 12A2 2 0 0 1 4 10H20A2 2 0 0 1 22 12V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M2 15H22",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "truncate-table",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Truncate table",
+  "description": "Truncate — every row swept out at once, the table itself left standing",
+  "tags": [
+    "empty",
+    "clear",
+    "sweep"
+  ],
+  "keywords": [
+    "truncate",
+    "empty table",
+    "delete all rows",
+    "clear table"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M2 9H22",
+      "closed": false
+    },
+    {
+      "d": "M9 13L15 19",
+      "closed": false
+    },
+    {
+      "d": "M15 13L9 19",
+      "closed": false
+    }
+  ]
+}

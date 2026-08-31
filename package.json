@@ -31,7 +31,9 @@
     "icons:generate:components": "tsx scripts/generate/components.ts",
     "icons:audit": "tsx scripts/review/audit.mts",
     "icons:twins": "tsx scripts/review/twins.mts",
-    "icons:zips": "node scripts/generate/zips.mjs"
+    "icons:zips": "node scripts/generate/zips.mjs",
+    "icons:precheck": "tsx scripts/review/precheck.mts",
+    "icons:round": "tsx scripts/review/round.mts"
   },
   "devDependencies": {
     "@changesets/cli": "^2.29.7",

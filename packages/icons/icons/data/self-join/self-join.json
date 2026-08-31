@@ -1,0 +1,33 @@
+{
+  "slug": "self-join",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Self join",
+  "description": "A self join — a table joined to itself to compare its own rows",
+  "tags": [
+    "same-table",
+    "loop",
+    "alias"
+  ],
+  "keywords": [
+    "self join",
+    "join to itself",
+    "recursive join",
+    "table alias"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M7 13a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4.48 10.26A8 8 0 0 1 19.52 10.26",
+      "closed": false
+    },
+    {
+      "d": "M17 6L20 6L20 9",
+      "closed": false
+    }
+  ]
+}

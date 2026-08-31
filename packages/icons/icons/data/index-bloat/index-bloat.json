@@ -1,0 +1,41 @@
+{
+  "slug": "index-bloat",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Index bloat",
+  "description": "Index bloat — an index grown far past the data it points at",
+  "tags": [
+    "swollen",
+    "waste",
+    "rebuild"
+  ],
+  "keywords": [
+    "index bloat",
+    "bloated index",
+    "index size",
+    "reindex"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M4 3V21",
+      "closed": false
+    },
+    {
+      "d": "M4 6H16",
+      "closed": false
+    },
+    {
+      "d": "M4 10H21",
+      "closed": false
+    },
+    {
+      "d": "M4 14H19",
+      "closed": false
+    },
+    {
+      "d": "M4 18H12",
+      "closed": false
+    }
+  ]
+}

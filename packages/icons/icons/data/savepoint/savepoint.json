@@ -1,0 +1,37 @@
+{
+  "slug": "savepoint",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Savepoint",
+  "description": "A savepoint — a marked place inside a transaction to roll back to",
+  "tags": [
+    "mark",
+    "partial",
+    "restore"
+  ],
+  "keywords": [
+    "savepoint",
+    "nested transaction",
+    "partial rollback",
+    "checkpoint sql"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 4L3 4L3 20L7 20",
+      "closed": false
+    },
+    {
+      "d": "M17 4L21 4L21 20L17 20",
+      "closed": false
+    },
+    {
+      "d": "M12 6V10",
+      "closed": false
+    },
+    {
+      "d": "M10 14a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

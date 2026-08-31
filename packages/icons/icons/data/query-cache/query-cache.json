@@ -1,0 +1,37 @@
+{
+  "slug": "query-cache",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Query cache",
+  "description": "A query cache — the answer kept so the same question is not asked twice",
+  "tags": [
+    "cached",
+    "reuse",
+    "answer"
+  ],
+  "keywords": [
+    "query cache",
+    "result cache",
+    "cached query",
+    "plan cache"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V8A2 2 0 0 1 20 10H4A2 2 0 0 1 2 8Z",
+      "closed": true
+    },
+    {
+      "d": "M5 6.5H19",
+      "closed": false
+    },
+    {
+      "d": "M2 16A2 2 0 0 1 4 14H20A2 2 0 0 1 22 16V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M10 11L12 13L14 11",
+      "closed": false
+    }
+  ]
+}

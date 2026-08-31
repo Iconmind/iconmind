@@ -1,0 +1,29 @@
+{
+  "slug": "null-value",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Null",
+  "description": "Null — the absence of a value, which is not zero and not empty text",
+  "tags": [
+    "absent",
+    "unknown",
+    "empty"
+  ],
+  "keywords": [
+    "null",
+    "nil",
+    "missing value",
+    "unknown value"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M5 12a7 7 0 1 0 14 0a7 7 0 1 0 -14 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 17L17 7",
+      "closed": false
+    }
+  ]
+}

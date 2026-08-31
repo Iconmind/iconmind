@@ -1,0 +1,41 @@
+{
+  "slug": "connection-pool",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Connection pool",
+  "description": "A connection pool — a handful of connections handed round instead of opened each time",
+  "tags": [
+    "reuse",
+    "pool",
+    "connections"
+  ],
+  "keywords": [
+    "connection pool",
+    "pooling",
+    "pgbouncer",
+    "max connections"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H8A2 2 0 0 1 10 5V5A2 2 0 0 1 8 7H4A2 2 0 0 1 2 5Z",
+      "closed": true
+    },
+    {
+      "d": "M2 12A2 2 0 0 1 4 10H8A2 2 0 0 1 10 12V12A2 2 0 0 1 8 14H4A2 2 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M2 19A2 2 0 0 1 4 17H8A2 2 0 0 1 10 19V19A2 2 0 0 1 8 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M14 8A2 2 0 0 1 16 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H16A2 2 0 0 1 14 16Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12H14",
+      "closed": false
+    }
+  ]
+}

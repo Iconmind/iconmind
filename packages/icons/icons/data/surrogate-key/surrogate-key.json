@@ -1,0 +1,33 @@
+{
+  "slug": "surrogate-key",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Surrogate key",
+  "description": "A surrogate key — an id with no meaning of its own, standing in for one",
+  "tags": [
+    "synthetic",
+    "id",
+    "key"
+  ],
+  "keywords": [
+    "surrogate key",
+    "synthetic key",
+    "artificial key",
+    "technical key"
+  ],
+  "family": "key",
+  "shapes": [
+    {
+      "d": "M3 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 8L18 8L18 17",
+      "closed": false
+    },
+    {
+      "d": "M16 20a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "referential-integrity",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Referential integrity",
+  "description": "Referential integrity — every reference points at a row that exists",
+  "tags": [
+    "consistent",
+    "reference",
+    "valid"
+  ],
+  "keywords": [
+    "referential integrity",
+    "foreign key constraint",
+    "orphan rows",
+    "consistency"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H8A2 2 0 0 1 10 8V16A2 2 0 0 1 8 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M14 8A2 2 0 0 1 16 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H16A2 2 0 0 1 14 16Z",
+      "closed": true
+    },
+    {
+      "d": "M10 9H14",
+      "closed": false
+    },
+    {
+      "d": "M10 15H14",
+      "closed": false
+    }
+  ]
+}

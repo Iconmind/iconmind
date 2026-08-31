@@ -1,0 +1,44 @@
+{
+  "slug": "write-ahead-log",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Write-ahead log",
+  "description": "A write-ahead log — the change written to the log before it touches the page",
+  "tags": [
+    "wal",
+    "durability",
+    "append"
+  ],
+  "aliases": [
+    "wal"
+  ],
+  "keywords": [
+    "write ahead log",
+    "wal",
+    "redo log",
+    "durability"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 5A3 3 0 0 1 5 2H19A3 3 0 0 1 22 5V5A3 3 0 0 1 19 8H5A3 3 0 0 1 2 5Z",
+      "closed": true
+    },
+    {
+      "d": "M9 2V8",
+      "closed": false
+    },
+    {
+      "d": "M15 2V8",
+      "closed": false
+    },
+    {
+      "d": "M9 11L12 14L15 11",
+      "closed": false
+    },
+    {
+      "d": "M2 17A2 2 0 0 1 4 15H20A2 2 0 0 1 22 17V20A2 2 0 0 1 20 22H4A2 2 0 0 1 2 20Z",
+      "closed": true
+    }
+  ]
+}

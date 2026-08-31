@@ -1,0 +1,40 @@
+{
+  "slug": "table-scan",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Table scan",
+  "description": "A table scan — every row read because no index could be used",
+  "tags": [
+    "full-scan",
+    "sweep",
+    "read-all"
+  ],
+  "aliases": [
+    "full-scan"
+  ],
+  "keywords": [
+    "full table scan",
+    "seq scan",
+    "sequential scan",
+    "no index"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H20A2 2 0 0 1 22 4V11A2 2 0 0 1 20 13H4A2 2 0 0 1 2 11Z",
+      "closed": true
+    },
+    {
+      "d": "M2 7H22",
+      "closed": false
+    },
+    {
+      "d": "M8 18a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 20L15 22",
+      "closed": false
+    }
+  ]
+}

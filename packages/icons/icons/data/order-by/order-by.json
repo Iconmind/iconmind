@@ -1,0 +1,37 @@
+{
+  "slug": "order-by",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Order by",
+  "description": "Order by — the rows handed back in the order the query asked for",
+  "tags": [
+    "sort",
+    "sequence",
+    "rank"
+  ],
+  "keywords": [
+    "order by",
+    "sort rows",
+    "ascending",
+    "descending"
+  ],
+  "family": "text",
+  "shapes": [
+    {
+      "d": "M3 5H21",
+      "closed": false
+    },
+    {
+      "d": "M3 10H17",
+      "closed": false
+    },
+    {
+      "d": "M3 15H13",
+      "closed": false
+    },
+    {
+      "d": "M3 20H9",
+      "closed": false
+    }
+  ]
+}

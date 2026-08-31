@@ -1,0 +1,44 @@
+{
+  "slug": "index-covering",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Covering index",
+  "description": "A covering index — one that answers the query without touching the table",
+  "tags": [
+    "cover",
+    "index-only",
+    "answer"
+  ],
+  "aliases": [
+    "index-only-scan"
+  ],
+  "keywords": [
+    "covering index",
+    "index only scan",
+    "included columns",
+    "covering"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M7 3V21",
+      "closed": false
+    },
+    {
+      "d": "M10 8H19",
+      "closed": false
+    },
+    {
+      "d": "M10 12H19",
+      "closed": false
+    },
+    {
+      "d": "M10 16H19",
+      "closed": false
+    }
+  ]
+}

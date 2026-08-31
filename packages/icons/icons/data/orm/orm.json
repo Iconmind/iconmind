@@ -1,0 +1,48 @@
+{
+  "slug": "orm",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "ORM",
+  "description": "An ORM — objects on one side, tables on the other, mapped between",
+  "tags": [
+    "mapping",
+    "objects",
+    "layer"
+  ],
+  "aliases": [
+    "object-relational-mapping"
+  ],
+  "keywords": [
+    "orm",
+    "object relational mapping",
+    "active record",
+    "data mapper"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H8A2 2 0 0 1 10 7V17A2 2 0 0 1 8 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M5 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 13H8",
+      "closed": false
+    },
+    {
+      "d": "M14 7A2 2 0 0 1 16 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H16A2 2 0 0 1 14 17Z",
+      "closed": true
+    },
+    {
+      "d": "M15 10H21",
+      "closed": false
+    },
+    {
+      "d": "M10 12H14",
+      "closed": false
+    }
+  ]
+}

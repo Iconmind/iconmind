@@ -1,0 +1,40 @@
+{
+  "slug": "distinct-rows",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Distinct",
+  "description": "Distinct — duplicates collapsed so each row appears once",
+  "tags": [
+    "dedupe",
+    "unique",
+    "collapse"
+  ],
+  "aliases": [
+    "dedupe-rows"
+  ],
+  "keywords": [
+    "distinct",
+    "deduplicate",
+    "unique rows",
+    "select distinct"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 5.5A2.5 2.5 0 0 1 4.5 3H7.5A2.5 2.5 0 0 1 10 5.5V5.5A2.5 2.5 0 0 1 7.5 8H4.5A2.5 2.5 0 0 1 2 5.5Z",
+      "closed": true
+    },
+    {
+      "d": "M14 5.5A2.5 2.5 0 0 1 16.5 3H19.5A2.5 2.5 0 0 1 22 5.5V5.5A2.5 2.5 0 0 1 19.5 8H16.5A2.5 2.5 0 0 1 14 5.5Z",
+      "closed": true
+    },
+    {
+      "d": "M6 8L12 14L18 8",
+      "closed": false
+    },
+    {
+      "d": "M4 18.5A2.5 2.5 0 0 1 6.5 16H17.5A2.5 2.5 0 0 1 20 18.5V18.5A2.5 2.5 0 0 1 17.5 21H6.5A2.5 2.5 0 0 1 4 18.5Z",
+      "closed": true
+    }
+  ]
+}

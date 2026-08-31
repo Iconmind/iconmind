@@ -1,0 +1,41 @@
+{
+  "slug": "unique-constraint",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Unique constraint",
+  "description": "A unique constraint — no two rows may carry the same value",
+  "tags": [
+    "distinct",
+    "no-duplicate",
+    "rule"
+  ],
+  "keywords": [
+    "unique constraint",
+    "unique index",
+    "no duplicates",
+    "uniqueness"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M2 9H22",
+      "closed": false
+    },
+    {
+      "d": "M7 13V17",
+      "closed": false
+    },
+    {
+      "d": "M11 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 13L19 17",
+      "closed": false
+    }
+  ]
+}

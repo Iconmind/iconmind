@@ -1,0 +1,36 @@
+{
+  "slug": "sequence-db",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Sequence",
+  "description": "A sequence — the generator that hands out the next number on request",
+  "tags": [
+    "generator",
+    "next",
+    "counter"
+  ],
+  "aliases": [
+    "nextval"
+  ],
+  "keywords": [
+    "sequence",
+    "nextval",
+    "identity column",
+    "id generator"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 9A2 2 0 0 1 4 7H20A2 2 0 0 1 22 9V15A2 2 0 0 1 20 17H4A2 2 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M5 12H13",
+      "closed": false
+    },
+    {
+      "d": "M16 9L19 12L16 15",
+      "closed": false
+    }
+  ]
+}

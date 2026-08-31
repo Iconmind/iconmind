@@ -1,0 +1,33 @@
+{
+  "slug": "row-lock",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Row lock",
+  "description": "A row lock — one row held while the rest of the table stays free",
+  "tags": [
+    "held",
+    "single",
+    "concurrency"
+  ],
+  "keywords": [
+    "row lock",
+    "row level lock",
+    "select for update",
+    "record lock"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M2 6A3 3 0 0 1 5 3H19A3 3 0 0 1 22 6V6A3 3 0 0 1 19 9H5A3 3 0 0 1 2 6Z",
+      "closed": true
+    },
+    {
+      "d": "M8 15A2 2 0 0 1 10 13H14A2 2 0 0 1 16 15V18A2 2 0 0 1 14 20H10A2 2 0 0 1 8 18Z",
+      "closed": true
+    },
+    {
+      "d": "M9 13A3 3 0 0 1 15 13",
+      "closed": false
+    }
+  ]
+}

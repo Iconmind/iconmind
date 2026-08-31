@@ -1,0 +1,32 @@
+{
+  "slug": "materialized-view",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Materialized view",
+  "description": "A materialized view — a view whose answer is stored rather than recomputed",
+  "tags": [
+    "stored",
+    "view",
+    "snapshot"
+  ],
+  "aliases": [
+    "matview"
+  ],
+  "keywords": [
+    "materialized view",
+    "matview",
+    "stored view",
+    "precomputed"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H15A2 2 0 0 1 17 5V15A2 2 0 0 1 15 17H4A2 2 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M7 9A2 2 0 0 1 9 7H20A2 2 0 0 1 22 9V19A2 2 0 0 1 20 21H9A2 2 0 0 1 7 19Z",
+      "closed": true
+    }
+  ]
+}

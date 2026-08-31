@@ -116,7 +116,7 @@ export const SUBCATEGORIES: Record<Domain, readonly string[]> = {
   agents: ["agent-core","multi-agent","planning","execution","reflection","memory","tool-use","communication","lifecycle"],
   mcp: ["server","client","resource","tool","prompt","transport","sampling","registry"],
   rag: ["ingestion","chunking","retrieval","ranking","vector","knowledge","grounding"],
-  data: ["pipeline","transform","storage","streaming","quality","catalog","orchestration"],
+  data: ["pipeline","transform","storage","streaming","quality","catalog","orchestration","relational"],
   devops: ["ci-cd","container","orchestration","infrastructure","observability","incident","release"],
   cloud: ["compute","storage","network","serverless","edge","region","cost"],
   security: ["auth","secret","encryption","policy","threat","compliance","ai-security"],

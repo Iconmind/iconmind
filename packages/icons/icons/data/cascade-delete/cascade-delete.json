@@ -1,0 +1,40 @@
+{
+  "slug": "cascade-delete",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Cascade delete",
+  "description": "Cascade delete — the children go when the parent does",
+  "tags": [
+    "children",
+    "propagate",
+    "remove"
+  ],
+  "aliases": [
+    "on-delete-cascade"
+  ],
+  "keywords": [
+    "cascade delete",
+    "on delete cascade",
+    "referential action",
+    "delete children"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 5A3 3 0 0 1 5 2H19A3 3 0 0 1 22 5V5A3 3 0 0 1 19 8H5A3 3 0 0 1 2 5Z",
+      "closed": true
+    },
+    {
+      "d": "M9 3L13 7",
+      "closed": false
+    },
+    {
+      "d": "M12 9V14",
+      "closed": false
+    },
+    {
+      "d": "M2 18A3 3 0 0 1 5 15H19A3 3 0 0 1 22 18V18A3 3 0 0 1 19 21H5A3 3 0 0 1 2 18Z",
+      "closed": true
+    }
+  ]
+}

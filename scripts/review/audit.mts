@@ -20,10 +20,20 @@
  *
  *   pnpm icons:audit             # flag outliers
  *   pnpm icons:audit --all       # dump every icon's metrics as JSON lines
+ *   pnpm icons:audit --check     # exit 1 on any flag not in the baseline
+ *
+ * `--check` is what nightly runs. The set carries flags that predate the gate and are
+ * being left alone deliberately, so a bare run would be red forever and tell nobody
+ * anything; the baseline records exactly those, and anything NEW fails the build. That
+ * is the gate this audit never had, and its absence is why centring drifted back once
+ * already: the pass that fixed six leaning compositions (b485c7d17) was never defended.
+ * A flag that disappears is reported as stale and does not fail — fixing an icon must
+ * never break the build. Refresh with `pnpm icons:audit --baseline > <the file>`.
  */
 import { Resvg } from "@resvg/resvg-js";
-import { readFileSync, readdirSync, statSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, readdirSync, statSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
+import { createHash } from "node:crypto";
 
 const ROOT = "packages/icons/icons";
 
@@ -128,7 +138,19 @@ function inkStats(svg: string, size: number) {
     w: maxX - minX + 1, h: maxY - minY + 1 };
 }
 
+const CACHE_DIR = "node_modules/.cache";
+const MEASURED = join(CACHE_DIR, "audit-metrics.json");
+type Measured = { h: string; short: number; off: number; cover16: number; elements: number };
+const measured: Record<string, Measured> = existsSync(MEASURED)
+  ? (JSON.parse(readFileSync(MEASURED, "utf8")) as Record<string, Measured>)
+  : {};
+const seenIds = new Set<string>();
+let fresh = 0;
+
 const all = process.argv.includes("--all");
+const check = process.argv.includes("--check");
+const writeBaseline = process.argv.includes("--baseline");
+const BASELINE = "scripts/review/audit-baseline.json";
 // Scoped mode: pass slugs (or category/slug) to audit only those — a full run renders every icon.
 const only = new Set(process.argv.slice(2).filter((x) => !x.startsWith("--")));
 const flags: string[] = [];
@@ -143,11 +165,27 @@ for (const cat of readdirSync(ROOT)) {
     if (!statSync(dir).isDirectory()) continue;
     const id = `${cat}/${slug}`;
     const reg = readFileSync(join(dir, "outline-regular.svg"), "utf8");
-    const a = inkStats(reg, 240);
-    const r16 = inkStats(reg, 16);
-    const short = +(Math.min(a.w, a.h) / 10).toFixed(1);
-    const off = +Math.max(Math.abs(a.cx - 120), Math.abs(a.cy - 120)).toFixed(0) / 10;
-    const elements = (reg.match(/<path/g) ?? []).length;
+    // Rasterising every icon twice is the whole cost of this command and almost none of it
+    // changes between two runs of the same round. Keyed on the cell's own bytes: the first
+    // run pays for the set, every run after pays only for the icons that actually moved.
+    const h = createHash("sha1").update(reg).digest("hex");
+    let m = measured[id];
+    if (m?.h !== h) {
+      const a = inkStats(reg, 240);
+      const r16 = inkStats(reg, 16);
+      m = {
+        h,
+        short: +(Math.min(a.w, a.h) / 10).toFixed(1),
+        off: +Math.max(Math.abs(a.cx - 120), Math.abs(a.cy - 120)).toFixed(0) / 10,
+        cover16: r16.cover,
+        elements: (reg.match(/<path/g) ?? []).length,
+      };
+      measured[id] = m;
+      fresh++;
+    }
+    const { short, off, elements } = m;
+    const r16 = { cover: m.cover16 };
+    seenIds.add(id);
     count++;
 
     if (all) {
@@ -161,7 +199,27 @@ for (const cat of readdirSync(ROOT)) {
   }
 }
 
-if (!all) {
+for (const id of Object.keys(measured)) if (!seenIds.has(id)) delete measured[id];
+mkdirSync(CACHE_DIR, { recursive: true });
+writeFileSync(MEASURED, JSON.stringify(measured));
+
+if (writeBaseline) {
+  console.log(JSON.stringify(flags.slice().sort(), null, 1));
+} else if (!all) {
   for (const f of flags.sort()) console.log(`⚠ ${f}`);
   console.log(`\n${count} icons audited · ${flags.length} flagged (guidelines, not law — redraw or add to the named exceptions with a reason)`);
+
+  if (check) {
+    const known: string[] = existsSync(BASELINE) ? JSON.parse(readFileSync(BASELINE, "utf8")) : [];
+    const before = new Set(known);
+    const fresh = flags.filter((f) => !before.has(f));
+    const gone = known.filter((f) => !flags.includes(f));
+    if (gone.length) console.log(`\n${gone.length} baselined flag(s) no longer raised — trim them from ${BASELINE}:\n  ${gone.join("\n  ")}`);
+    if (fresh.length) {
+      console.error(`\n${fresh.length} NEW flag(s) not in the baseline:\n  ${fresh.join("\n  ")}`);
+      console.error(`\nRedraw them, or — only when the metaphor is genuinely anchored — add the icon to ANCHORED/GLYPHS with its reason. Do not widen the baseline to make this pass.`);
+      process.exit(1);
+    }
+    console.log(`\nNo new flags against ${BASELINE} (${known.length} baselined).`);
+  }
 }

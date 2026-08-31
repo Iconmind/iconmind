@@ -44,7 +44,23 @@ if (filesFlag !== -1) {
   process.exit(r.print() ? 0 : 1);
 }
 
-const icons = await loadIcons();
+/**
+ * Scoped mode (`--only slug slug…`): a full run reads 14,022 cells and takes minutes, which
+ * is the right cost before a release and the wrong one between two edits of a fifty-icon
+ * round. The rules are unchanged; only the set they run over is narrower. Cross-icon rules
+ * still see the whole set — nothing here compares one icon against another.
+ */
+const onlyFlag = argv.indexOf("--only");
+const only = onlyFlag === -1 ? null
+  : new Set(argv.slice(onlyFlag + 1).filter((a) => !a.startsWith("--")).map((a) => a.replace(/^.*\//, "")));
+
+const loaded = await loadIcons();
+const icons = only ? loaded.filter((i) => only.has(i.svgPath.split("/").at(-2)!)) : loaded;
+if (only && !icons.length) {
+  console.error(`--only matched no icons`);
+  process.exit(1);
+}
+if (only) console.log(`Scoped to ${icons.length} icon(s).\n`);
 const r = new Report();
 
 // Registered before any rule runs, so a warning an icon has already answered never

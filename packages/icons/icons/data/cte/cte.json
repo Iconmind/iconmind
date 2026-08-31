@@ -1,0 +1,36 @@
+{
+  "slug": "cte",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "CTE",
+  "description": "A common table expression — a named result the main query then reads",
+  "tags": [
+    "with",
+    "named",
+    "subquery"
+  ],
+  "aliases": [
+    "with-clause"
+  ],
+  "keywords": [
+    "cte",
+    "common table expression",
+    "with clause",
+    "named subquery"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M5 4A2 2 0 0 1 7 2H17A2 2 0 0 1 19 4V7A2 2 0 0 1 17 9H7A2 2 0 0 1 5 7Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9V13",
+      "closed": false
+    },
+    {
+      "d": "M2 15A2 2 0 0 1 4 13H20A2 2 0 0 1 22 15V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    }
+  ]
+}

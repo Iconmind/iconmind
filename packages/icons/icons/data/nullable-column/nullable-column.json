@@ -1,0 +1,37 @@
+{
+  "slug": "nullable-column",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Nullable column",
+  "description": "A nullable column — one that is allowed to hold nothing at all",
+  "tags": [
+    "optional",
+    "empty",
+    "null"
+  ],
+  "keywords": [
+    "nullable",
+    "optional column",
+    "allows null",
+    "nullable field"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M9 4V20",
+      "closed": false
+    },
+    {
+      "d": "M15 4V20",
+      "closed": false
+    },
+    {
+      "d": "M10 16L14 12",
+      "closed": false
+    }
+  ]
+}

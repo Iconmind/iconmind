@@ -1,0 +1,44 @@
+{
+  "slug": "vacuum-db",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Vacuum",
+  "description": "Vacuum — dead rows reclaimed and the space handed back",
+  "tags": [
+    "reclaim",
+    "compact",
+    "dead-rows"
+  ],
+  "aliases": [
+    "autovacuum"
+  ],
+  "keywords": [
+    "vacuum",
+    "autovacuum",
+    "reclaim space",
+    "dead tuples"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 4H21",
+      "closed": false
+    },
+    {
+      "d": "M3 8H21",
+      "closed": false
+    },
+    {
+      "d": "M12 10V16",
+      "closed": false
+    },
+    {
+      "d": "M8 13L12 17L16 13",
+      "closed": false
+    },
+    {
+      "d": "M5 21H19",
+      "closed": false
+    }
+  ]
+}

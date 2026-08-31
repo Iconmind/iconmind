@@ -1,0 +1,44 @@
+{
+  "slug": "full-text-index",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Full-text index",
+  "description": "A full-text index — words indexed so a phrase can be looked up, not just a value",
+  "tags": [
+    "words",
+    "search",
+    "phrase"
+  ],
+  "aliases": [
+    "fts"
+  ],
+  "keywords": [
+    "full text search",
+    "fts",
+    "text index",
+    "tsvector"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M5 8H19",
+      "closed": false
+    },
+    {
+      "d": "M5 12H15",
+      "closed": false
+    },
+    {
+      "d": "M12 16a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 18L20 21",
+      "closed": false
+    }
+  ]
+}

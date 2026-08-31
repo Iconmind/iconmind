@@ -1,0 +1,33 @@
+{
+  "slug": "cardinality",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Cardinality",
+  "description": "Cardinality — how many distinct values a column actually holds",
+  "tags": [
+    "distinct",
+    "count",
+    "estimate"
+  ],
+  "keywords": [
+    "cardinality",
+    "distinct count",
+    "selectivity",
+    "ndv"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 8a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 14a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M19 20a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

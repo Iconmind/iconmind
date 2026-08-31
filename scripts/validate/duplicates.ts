@@ -5,6 +5,9 @@
  * finds at a middling distance become the "related icons" list on each icon's page.
  * A quality check that also produces a product feature.
  */
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { join } from "node:path";
+import { createHash } from "node:crypto";
 import { loadIcons } from "../lib/fs.ts";
 import { Report } from "../lib/report.ts";
 import { WAIVABLE_DUPLICATE_RULES } from "@iconmind/shared";
@@ -42,7 +45,36 @@ for (const [, files] of byContent) {
  * Ink maps, computed once. Layer 3 is the only layer that needs them to *find* anything,
  * but layer 2 needs them to stay believable — see below.
  */
-const maps = perceptual ? icons.map((i) => ({ icon: i, m: inkMap(i.svg) })) : null;
+/**
+ * Cached on the cell's own bytes. Rasterising 2,300 icons is most of this command's cost and
+ * almost none of it changes between two runs of the same round: the first run pays for
+ * everything, every run after pays only for the icons whose SVG actually moved. Entries for
+ * icons that no longer exist are dropped, so the file cannot grow stale.
+ */
+const CACHE_DIR = "node_modules/.cache";
+const CACHE = join(CACHE_DIR, "duplicate-inkmaps.json");
+type Cached = { h: string; m: number[] };
+const cache: Record<string, Cached> = perceptual && existsSync(CACHE)
+  ? (JSON.parse(readFileSync(CACHE, "utf8")) as Record<string, Cached>)
+  : {};
+let rasterised = 0;
+const maps = perceptual
+  ? icons.map((i) => {
+      const h = createHash("sha1").update(i.svg).digest("hex");
+      const hit = cache[i.svgPath];
+      if (hit?.h !== h) {
+        cache[i.svgPath] = { h, m: Array.from(inkMap(i.svg)) };
+        rasterised++;
+      }
+      return { icon: i, m: cache[i.svgPath]!.m as unknown as ReturnType<typeof inkMap> };
+    })
+  : null;
+if (perceptual) {
+  for (const k of Object.keys(cache)) if (!icons.some((i) => i.svgPath === k)) delete cache[k];
+  mkdirSync(CACHE_DIR, { recursive: true });
+  writeFileSync(CACHE, JSON.stringify(cache));
+  console.log(`ink maps: ${rasterised} rendered, ${icons.length - rasterised} from cache`);
+}
 const byPath = new Map(maps?.map((x) => [x.icon.svgPath, x.m]));
 const looksAlike = (a: string, b: string) => {
   const ma = byPath.get(a), mb = byPath.get(b);

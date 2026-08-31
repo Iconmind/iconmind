@@ -1,0 +1,41 @@
+{
+  "slug": "group-by",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Group by",
+  "description": "Group by — rows gathered into buckets so each can be summarised",
+  "tags": [
+    "bucket",
+    "aggregate",
+    "gather"
+  ],
+  "keywords": [
+    "group by",
+    "grouping",
+    "buckets",
+    "aggregate rows"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M2 5H10",
+      "closed": false
+    },
+    {
+      "d": "M2 11H10",
+      "closed": false
+    },
+    {
+      "d": "M2 17H10",
+      "closed": false
+    },
+    {
+      "d": "M12 5V17",
+      "closed": false
+    },
+    {
+      "d": "M12 11H22",
+      "closed": false
+    }
+  ]
+}

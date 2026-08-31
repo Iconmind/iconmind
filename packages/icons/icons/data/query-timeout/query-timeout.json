@@ -1,0 +1,41 @@
+{
+  "slug": "query-timeout",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Query timeout",
+  "description": "A query timeout — the statement cancelled because it ran too long",
+  "tags": [
+    "cancel",
+    "deadline",
+    "abort"
+  ],
+  "keywords": [
+    "query timeout",
+    "statement timeout",
+    "cancel query",
+    "deadline exceeded"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V8A2 2 0 0 1 20 10H4A2 2 0 0 1 2 8Z",
+      "closed": true
+    },
+    {
+      "d": "M5 6.5H19",
+      "closed": false
+    },
+    {
+      "d": "M7 16.5a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12.5V16.5",
+      "closed": false
+    },
+    {
+      "d": "M12 16.5H16",
+      "closed": false
+    }
+  ]
+}

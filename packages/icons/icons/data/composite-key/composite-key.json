@@ -1,0 +1,40 @@
+{
+  "slug": "composite-key",
+  "category": "data",
+  "subcategory": "relational",
+  "name": "Composite key",
+  "description": "A composite key — a key made of more than one column together",
+  "tags": [
+    "multi-column",
+    "compound",
+    "key"
+  ],
+  "aliases": [
+    "compound-key"
+  ],
+  "keywords": [
+    "composite key",
+    "compound key",
+    "multi column key",
+    "composite primary"
+  ],
+  "family": "key",
+  "shapes": [
+    {
+      "d": "M2 11a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 11H20",
+      "closed": false
+    },
+    {
+      "d": "M15 11V18",
+      "closed": false
+    },
+    {
+      "d": "M19 11V18",
+      "closed": false
+    }
+  ]
+}
