@@ -39,8 +39,33 @@ export default async function ComparePage({ params }: { params: Promise<{ slug: 
   ];
 
   return (
-    <div className="mx-auto grid max-w-[80rem] px-5 pt-14 pb-24 sm:px-7 lg:grid-cols-[minmax(0,1fr)_12rem] lg:gap-12">
-      <article className="mx-auto w-full max-w-[900px]">
+    <div className="mx-auto grid max-w-[84rem] px-5 pb-24 sm:px-7 lg:grid-cols-[minmax(0,1fr)_12rem] lg:gap-10 xl:grid-cols-[12rem_minmax(0,1fr)_12rem]">
+      <nav
+        aria-label="Comparisons"
+        className="hidden xl:sticky xl:top-[60px] xl:block xl:h-[calc(100vh-60px)] xl:self-start xl:overflow-y-auto xl:border-r xl:border-line xl:py-14 xl:pr-6"
+      >
+        <h2 className="label mb-2">Compare</h2>
+        <ul className="grid gap-px">
+          {COMPARISONS.map((o) => (
+            <li key={o.slug}>
+              <Link
+                href={`/compare/${o.slug}/`}
+                aria-current={o.slug === c.slug ? "page" : undefined}
+                className={`block rounded-md px-2.5 py-1.5 text-ui transition-colors ${
+                  o.slug === c.slug ? "bg-accent-soft font-semibold text-accent" : "text-ink-2 hover:bg-sunk hover:text-ink"
+                }`}
+              >
+                vs {o.name}
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <Link href="/icons/" className="mt-5 block px-2.5 text-meta text-muted transition-colors hover:text-ink">
+          Browse all {iconCount.toLocaleString("en-GB")} icons →
+        </Link>
+      </nav>
+
+      <article className="w-full max-w-[900px] pt-14 lg:pt-14">
         <JsonLd
           data={{
             "@context": "https://schema.org",
@@ -157,7 +182,7 @@ export default async function ComparePage({ params }: { params: Promise<{ slug: 
           </dl>
         </section>
 
-        <section className="mt-10 border-t border-line pt-6">
+        <section className="mt-10 border-t border-line pt-6 xl:hidden">
           <h2 className="label mb-3">Other comparisons</h2>
           <div className="flex flex-wrap gap-2">
             {COMPARISONS.filter((o) => o.slug !== c.slug).map((o) => (
@@ -174,7 +199,7 @@ export default async function ComparePage({ params }: { params: Promise<{ slug: 
 
       <nav
         aria-label="On this page"
-        className="hidden lg:sticky lg:top-[60px] lg:block lg:max-h-[calc(100vh-60px)] lg:self-start lg:overflow-y-auto lg:py-2"
+        className="hidden lg:sticky lg:top-[60px] lg:block lg:max-h-[calc(100vh-60px)] lg:self-start lg:overflow-y-auto lg:py-14"
       >
         <h2 className="label mb-3">On this page</h2>
         <TocNav items={toc} />
