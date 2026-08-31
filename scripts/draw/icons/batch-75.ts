@@ -9,6 +9,11 @@
  * name checked free before drawing.
  */
 import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
+import { tagBody, flagBody, targetBody, keyBody, coinBody, pinBody, clockBody, funnelBody, lockBody,
+  diamondBody, heartBody, lensBody, bubbleBody, rowsBody, bookmark, shield, window_ } from "../bodies.ts";
+import { SMALL, add, remove, off, alert, tagMark, bookmarkMark, lockMark, clockMark, playMark, idleMark,
+  funnelMark, targetMark, keyMark, boltMark, pinMark, coinMark, heartMark, flagMark, squareMark,
+  trendMark, searchMark, shieldMark, upMark, downMark, listMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -63,49 +68,49 @@ export const BATCH_75: Icon[] = [
     name: "Locked goal", description: "A padlock beside a target — a goal that cannot be changed once set",
     tags: ["goal", "locked", "fixed"], family: "lock",
     aliases: [], keywords: ["locked goal", "fixed objective", "immutable target"],
-    shapes: [...LOCK_LN, ...TARGET_R],
+    shapes: [...lockBody(), ...targetMark(SMALL, 15)],
   },
   {
     slug: "private-search", category: "security", subcategory: "auth",
     name: "Private search", description: "A padlock beside a magnifying glass — a search nobody else can see",
     tags: ["search", "private", "lock"], family: "lock",
     aliases: [], keywords: ["private search", "confidential query", "search privacy"],
-    shapes: [...LOCK_LN, ...LENS_R],
+    shapes: [...lockBody(), ...searchMark(SMALL, 15)],
   },
   {
     slug: "private-bookmark", category: "security", subcategory: "auth",
     name: "Private bookmark", description: "A padlock beside a bookmark — a bookmark hidden from everyone but you",
     tags: ["bookmark", "private", "lock"], family: "lock",
     aliases: [], keywords: ["private bookmark", "hidden bookmark", "secret save"],
-    shapes: [...LOCK_LN, BOOKMARK_R],
+    shapes: [...lockBody(), ...bookmarkMark(SMALL, 15)],
   },
   {
     slug: "locked-filter", category: "security", subcategory: "auth",
     name: "Locked filter", description: "A padlock beside a funnel — a filter that users cannot remove or change",
     tags: ["filter", "locked", "enforced"], family: "lock",
     aliases: [], keywords: ["locked filter", "enforced filter", "mandatory filter"],
-    shapes: [...LOCK_LN, FUNNEL_R],
+    shapes: [...lockBody(), ...funnelMark(SMALL, 15)],
   },
   {
     slug: "lock-alert", category: "security", subcategory: "auth",
     name: "Lock alert", description: "A padlock beside an alert mark — a lock that needs attention",
     tags: ["lock", "alert", "warning"], family: "lock",
     aliases: [], keywords: ["lock alert", "lock warning", "lock issue"],
-    shapes: [...LOCK_L, ...ALERT_R],
+    shapes: [...lockBody(), ...alert(SMALL, 15)],
   },
   {
     slug: "run-scan", category: "security", subcategory: "ai-security",
     name: "Run scan", description: "A shield beside a play button — start a security scan right now",
     tags: ["scan", "run", "sweep"], family: "shield",
     aliases: [], keywords: ["run scan", "start security scan", "trigger scan"],
-    shapes: [SHIELD_L, PLAY_R],
+    shapes: [shield(), ...playMark(SMALL, 11)],
   },
   {
     slug: "protected-goal", category: "security", subcategory: "auth",
     name: "Protected goal", description: "A shield beside a target — a goal guarded from interference or tampering",
     tags: ["goal", "protected", "shield"], family: "shield",
     aliases: [], keywords: ["protected goal", "guarded objective", "goal safety"],
-    shapes: [SHIELD_LN, ...TARGET_R],
+    shapes: [shield(), ...targetMark(SMALL, 11)],
   },
   {
     slug: "key-share", category: "security", subcategory: "auth",
@@ -122,7 +127,7 @@ export const BATCH_75: Icon[] = [
     name: "Search trend", description: "A magnifying glass beside a rising line — what people search for more and more",
     tags: ["search", "trend", "popular"], family: "object",
     aliases: [], keywords: ["search trend", "trending searches", "query volume"],
-    shapes: [...LENS_L, LINE_R],
+    shapes: [...lensBody(), ...trendMark(SMALL, 10)],
   },
   {
     slug: "add-search", category: "interface", subcategory: "action",
@@ -136,14 +141,14 @@ export const BATCH_75: Icon[] = [
     name: "Search alert", description: "A magnifying glass beside an alert mark — be told when a search finds something new",
     tags: ["search", "alert", "notify"], family: "object",
     aliases: [], keywords: ["search alert", "saved search notification", "new results alert"],
-    shapes: [...LENS_L, ...ALERT_R],
+    shapes: [...lensBody(), ...alert(SMALL, 10)],
   },
   {
     slug: "bookmark-label", category: "interface", subcategory: "file",
     name: "Bookmark label", description: "A bookmark beside a label — a bookmark filed under a tag or a folder",
     tags: ["bookmark", "label", "tag"], family: "bookmark",
     aliases: [], keywords: ["bookmark label", "tagged bookmark", "bookmark folder"],
-    shapes: [BOOKMARK_L, TAG_RS],
+    shapes: [bookmark(), ...tagMark(SMALL, 10)],
   },
   {
     slug: "bookmark-search", category: "interface", subcategory: "file",
@@ -157,7 +162,7 @@ export const BATCH_75: Icon[] = [
     name: "Saved policy", description: "A bookmark beside a shield — a policy saved for reuse as a template",
     tags: ["policy", "saved", "shield"], family: "bookmark",
     aliases: [], keywords: ["saved policy", "policy template", "reusable policy"],
-    shapes: [BOOKMARK_L, SHIELD_RN],
+    shapes: [bookmark(), ...shieldMark(SMALL, 10)],
   },
   {
     slug: "liked", category: "interface", subcategory: "identity",
@@ -171,14 +176,14 @@ export const BATCH_75: Icon[] = [
     name: "Favourite label", description: "A heart beside a label — favourites grouped together under a name",
     tags: ["favourite", "label", "group"], family: "heart",
     aliases: [], keywords: ["favourite label", "favourites group", "collection name"],
-    shapes: [HEART_L, TAG_R],
+    shapes: [heartBody(), ...tagMark(SMALL, 10)],
   },
   {
     slug: "tag-alert", category: "interface", subcategory: "action",
     name: "Tag alert", description: "A label beside an alert mark — a tag that needs attention from someone",
     tags: ["tag", "alert", "warning"], family: "tag",
     aliases: [], keywords: ["tag alert", "label warning", "tag issue"],
-    shapes: [TAG_L, ...ALERT_R],
+    shapes: [tagBody(), ...alert(SMALL, 13)],
   },
   {
     slug: "apply-filter", category: "interface", subcategory: "action",
@@ -199,7 +204,7 @@ export const BATCH_75: Icon[] = [
     name: "Location removed", description: "A location pin with an X beside it — a place taken off the list",
     tags: ["location", "removed", "delete"], family: "pin",
     aliases: ["map-pin-off"], keywords: ["remove location", "delete place", "location removed"],
-    shapes: [...PIN_L, ...X_R],
+    shapes: [...pinBody(), ...off(SMALL, 9)],
   },
   {
     slug: "archived-list", category: "interface", subcategory: "file",
@@ -216,7 +221,7 @@ export const BATCH_75: Icon[] = [
     name: "Labelled checkpoint", description: "A flag beside a label — a checkpoint with a name attached so it can be found",
     tags: ["checkpoint", "label", "name"], family: "flag",
     aliases: [], keywords: ["labelled checkpoint", "named checkpoint", "checkpoint tag"],
-    shapes: [...FLAG_L, TAG_RS],
+    shapes: [...flagBody(), ...tagMark(SMALL, 9)],
   },
   {
     slug: "next-milestone", category: "ai", subcategory: "training",
@@ -230,21 +235,21 @@ export const BATCH_75: Icon[] = [
     name: "Checkpoint alert", description: "A flag beside an alert mark — a checkpoint that needs attention",
     tags: ["checkpoint", "alert", "warning"], family: "flag",
     aliases: [], keywords: ["checkpoint alert", "checkpoint warning", "save issue"],
-    shapes: [...FLAG_L, ...ALERT_R],
+    shapes: [...flagBody(), ...alert(SMALL, 9)],
   },
   {
     slug: "remove-checkpoint", category: "ai", subcategory: "training",
     name: "Remove checkpoint", description: "A flag with a minus beside it — delete a checkpoint you no longer need",
     tags: ["checkpoint", "remove", "delete"], family: "flag",
     aliases: [], keywords: ["remove checkpoint", "delete checkpoint", "prune saves"],
-    shapes: [...FLAG_L, MINUS_R],
+    shapes: [...flagBody(), ...remove(SMALL, 9)],
   },
   {
     slug: "model-idle", category: "ai", subcategory: "model",
     name: "Model idle", description: "A model core beside a Z — a model loaded into memory but doing nothing right now",
     tags: ["idle", "waiting", "model"], family: "lattice",
     aliases: [], keywords: ["idle model", "model waiting", "warm but idle"],
-    shapes: [DIAMOND_L, Z_R],
+    shapes: [diamondBody(), ...idleMark(SMALL, 12)],
   },
   {
     slug: "model-message", category: "ai", subcategory: "inference",
@@ -261,21 +266,21 @@ export const BATCH_75: Icon[] = [
     name: "Run idle", description: "A play button beside a Z — a runner with nothing to do right now",
     tags: ["run", "idle", "waiting"], family: "object",
     aliases: [], keywords: ["idle runner", "runner waiting", "no jobs"],
-    shapes: [PLAY_L, Z_R],
+    shapes: [...clockBody(), ...playMark(SMALL, 16)],
   },
   {
     slug: "add-run", category: "devtools", subcategory: "testing",
     name: "Add run", description: "A play button with a plus beside it — queue another run in the list",
     tags: ["run", "add", "queue"], family: "object",
     aliases: [], keywords: ["add run", "queue run", "new job"],
-    shapes: [PLAY_L, ...PLUS_R],
+    shapes: [targetBody(), ...playMark(SMALL, 12)],
   },
   {
     slug: "run-goal", category: "devtools", subcategory: "testing",
     name: "Run goal", description: "A play button beside a target — what a run is trying to achieve",
     tags: ["run", "goal", "target"], family: "object",
     aliases: [], keywords: ["run goal", "job objective", "run target"],
-    shapes: [PLAY_L, ...TARGET_R],
+    shapes: [targetBody(), ...playMark(SMALL, 12)],
   },
   {
     slug: "filter-run", category: "devtools", subcategory: "testing",
@@ -313,7 +318,7 @@ export const BATCH_75: Icon[] = [
     name: "Saved event", description: "A lightning bolt beside a bookmark — an event kept for later",
     tags: ["event", "saved", "bookmark"], family: "bolt",
     aliases: [], keywords: ["saved event", "bookmark event", "event kept"],
-    shapes: [BOLT_L, BOOKMARK_R],
+    shapes: [bookmark(), ...boltMark(SMALL, 10)],
   },
   {
     slug: "event-forward", category: "automation", subcategory: "action",
@@ -344,35 +349,35 @@ export const BATCH_75: Icon[] = [
     name: "Raise goal", description: "A target with a double chevron rising beside it — set the goal higher",
     tags: ["goal", "raise", "increase"], family: "object",
     aliases: [], keywords: ["raise goal", "increase target", "stretch goal"],
-    shapes: [...TARGET_L, ...UP_R],
+    shapes: [targetBody(), ...upMark(SMALL, 12)],
   },
   {
     slug: "remove-goal", category: "analytics", subcategory: "metric",
     name: "Remove goal", description: "A target with a minus beside it — drop a goal from the list of objectives",
     tags: ["goal", "remove", "delete"], family: "object",
     aliases: [], keywords: ["remove goal", "delete objective", "drop target"],
-    shapes: [...TARGET_L, MINUS_R],
+    shapes: [targetBody(), ...remove(SMALL, 12)],
   },
   {
     slug: "paid-milestone", category: "cloud", subcategory: "cost",
     name: "Paid milestone", description: "A coin beside a flag — a milestone that releases a payment when it is reached",
     tags: ["milestone", "payment", "flag"], family: "object",
     aliases: [], keywords: ["paid milestone", "milestone payment", "payment on delivery"],
-    shapes: [...COIN_L, ...FLAG_R],
+    shapes: [...coinBody(), ...flagMark(SMALL, 12)],
   },
   {
     slug: "favorite-bookmark", category: "interface", subcategory: "file",
     name: "Favourite bookmark", description: "A heart beside a bookmark — a saved item you love and keep coming back to",
     tags: ["favourite", "bookmark", "heart"], family: "heart",
     aliases: [], keywords: ["favourite bookmark", "loved bookmark", "starred save"],
-    shapes: [HEART_L, BOOKMARK_R],
+    shapes: [heartBody(), ...bookmarkMark(SMALL, 10)],
   },
   {
     slug: "time-alert", category: "interface", subcategory: "time",
     name: "Time alert", description: "A clock beside an alert mark — a time-based warning that something is due",
     tags: ["time", "alert", "warning"], family: "clock",
     aliases: ["clock-alert"], keywords: ["time alert", "time warning", "running late"],
-    shapes: [...CLOCK_L, ...ALERT_R],
+    shapes: [...clockBody(), ...alert(SMALL, 16)],
   },
 
   /* ── interface: bubbles and windows ───────────────────────────────────────────── */

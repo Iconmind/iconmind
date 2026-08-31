@@ -17,19 +17,15 @@
   "family": "object",
   "shapes": [
     {
-      "d": "M3 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
       "closed": true
     },
     {
-      "d": "M6 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
-      "closed": true
-    },
-    {
-      "d": "M16 13L19 10L22 13",
+      "d": "M9 14L12 11L15 14",
       "closed": false
     },
     {
-      "d": "M16 17.5L19 14.5L22 17.5",
+      "d": "M12 11V15",
       "closed": false
     }
   ]

@@ -17,15 +17,15 @@
   "family": "flag",
   "shapes": [
     {
-      "d": "M4 3V21",
+      "d": "M6 3V21",
       "closed": false
     },
     {
-      "d": "M4 3L13 3L10 6L13 9L4 9",
-      "closed": false
+      "d": "M6 3L19 3L19 15L6 15",
+      "closed": true
     },
     {
-      "d": "M16 13L20 13L22 15L20 17L16 17Z",
+      "d": "M9 6L12 6L15 9L12 12L9 12Z",
       "closed": true
     }
   ]

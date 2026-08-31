@@ -17,15 +17,15 @@
   "family": "tag",
   "shapes": [
     {
-      "d": "M3 6L7 6L11 10L7 14L3 14Z",
+      "d": "M2 4L12 4L21 13L12 22L2 22",
       "closed": true
     },
     {
-      "d": "M18 7V12",
+      "d": "M12 10V13",
       "closed": false
     },
     {
-      "d": "M17 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "d": "M11 16a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
       "closed": true
     }
   ]

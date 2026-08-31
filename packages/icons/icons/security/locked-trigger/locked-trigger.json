@@ -17,11 +17,11 @@
   "family": "bolt",
   "shapes": [
     {
-      "d": "M4 11L20 11L20 21L4 21Z",
+      "d": "M4 9L20 9L20 21L4 21Z",
       "closed": true
     },
     {
-      "d": "M7 11A5 5 0 0 1 17 11",
+      "d": "M7 9A5 5 0 0 1 17 9",
       "closed": false
     },
     {

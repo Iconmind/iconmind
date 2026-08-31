@@ -170,3 +170,19 @@ export const trendMark = (h: H = BIG, cy = 12): Shape[] =>
 /** Searched: the lens and its handle. */
 export const searchMark = (h: H = BIG, cy = 12): Shape[] =>
   [disc(12 - 1, cy - 1, h - 1), poly([[12 + h - 3.5, cy + h - 3.5], [12 + h, cy + h]])];
+
+/** Protected: the shield, squared above and pointed below like `shield()`. */
+export const shieldMark = (h: H = BIG, cy = 12): Shape[] =>
+  [poly([[12 - h, cy - h], [12 + h, cy - h], [12 + h, cy], [12, cy + h], [12 - h, cy]], true)];
+
+/** Raised: the chevron, pointing up. */
+export const upMark = (h: H = BIG, cy = 12): Shape[] =>
+  [poly([[12 - h, cy + h - 1], [12, cy - 1], [12 + h, cy + h - 1]]), col(12, cy - 1, cy + h)];
+
+/** Lowered: the same chevron the other way. */
+export const downMark = (h: H = BIG, cy = 12): Shape[] =>
+  [poly([[12 - h, cy - h + 1], [12, cy + 1], [12 + h, cy - h + 1]]), col(12, cy - h, cy + 1)];
+
+/** Listed: three short rows. */
+export const listMark = (h: H = BIG, cy = 12): Shape[] =>
+  [row(cy - h, 12 - h, 12 + h), row(cy, 12 - h, 12 + h), row(cy + h, 12 - h, 12 + h)];

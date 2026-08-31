@@ -17,16 +17,20 @@
   "family": "lock",
   "shapes": [
     {
-      "d": "M2 13A2 2 0 0 1 4 11H9A2 2 0 0 1 11 13V17A2 2 0 0 1 9 19H4A2 2 0 0 1 2 17Z",
+      "d": "M4 9L20 9L20 21L4 21Z",
       "closed": true
     },
     {
-      "d": "M4.5 11A2 2 0 0 1 8.5 11",
+      "d": "M7 9A5 5 0 0 1 17 9",
       "closed": false
     },
     {
-      "d": "M15 9L22 9L20 11L20 19L17 19L17 11Z",
-      "closed": true
+      "d": "M9 12L12 15L15 12",
+      "closed": false
+    },
+    {
+      "d": "M12 15V18",
+      "closed": false
     }
   ]
 }

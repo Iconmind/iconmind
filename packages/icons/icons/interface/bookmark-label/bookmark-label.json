@@ -17,11 +17,11 @@
   "family": "bookmark",
   "shapes": [
     {
-      "d": "M3 5L12 5L12 19L7.5 14.5L3 19Z",
+      "d": "M15 3L18 3L18 21L12 15L6 21L6 3L9 3",
       "closed": true
     },
     {
-      "d": "M16 13L20 13L22 15L20 17L16 17Z",
+      "d": "M9 7L12 7L15 10L12 13L9 13Z",
       "closed": true
     }
   ]

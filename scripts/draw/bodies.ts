@@ -17,7 +17,7 @@
  * a modifier sits in, so `model` and `model-add` are the same drawing with something in the
  * middle rather than two drawings that have to be kept in step.
  */
-import { arc, area, col, disc, frame, openDisc, poly, row, body, type Shape, raw } from "./forms.ts";
+import { arc, area, col, disc, frame, openDisc, poly, rect, row, body, type Shape, raw } from "./forms.ts";
 
 /* ── Machines: the chamfered register ───────────────────────────────────────────── */
 
@@ -205,4 +205,24 @@ export const bracketBody = (): Shape[] =>
 
 /** Locked: the padlock at full size, its body the hollow. */
 export const lockBody = (): Shape[] =>
-  [poly([[4, 11], [20, 11], [20, 21], [4, 21]], true), arc(12, 11, 5, 180, 360)];
+  [poly([[4, 9], [20, 9], [20, 21], [4, 21]], true), arc(12, 9, 5, 180, 360)];
+
+/** A message: the bubble, its tail at the foot. */
+export const bubbleBody = (): Shape[] =>
+  [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
+
+/** Favourite: the heart at full size, one line, its middle the hollow. */
+export const heartBody = (): Shape =>
+  raw("M2 9A5 5 0 0 1 12 9A5 5 0 0 1 22 9L12 19Z",
+      "a heart is one line, not three strokes with visible seams", true);
+
+/** Search: the lens and its handle, the lens big enough to hold a mark. */
+export const lensBody = (): Shape[] =>
+  [disc(11, 10, 7), poly([[16, 15], [21, 20]])];
+
+/** A model: the diamond at full size. */
+export const diamondBody = (): Shape =>
+  body(poly([[12, 3], [21, 12], [12, 21], [3, 12]]));
+
+/** A list: three rows, the middle one clear so a mark can sit on it. */
+export const rowsBody = (): Shape[] => [row(4, 3, 21), row(20, 3, 21)];
