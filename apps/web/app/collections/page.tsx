@@ -94,7 +94,7 @@ export default function CollectionsPage() {
         <p className="mt-3 text-meta text-muted">
           {COLLECTIONS.length} collections · {picked.toLocaleString("en-GB")} picks from{" "}
           {iconCount.toLocaleString("en-GB")} icons · every one links to its own page with the
-          code for eleven frameworks.
+          code for nine frameworks.
         </p>
       </header>
 

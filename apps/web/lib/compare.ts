@@ -177,9 +177,9 @@ export const COMPARISONS: Compare[] = [
     slug: "tabler",
     name: "Tabler Icons",
     url: "https://tabler.io/icons",
-    lead: "Tabler is the biggest of the stroke sets. IconMind is a third the size and covers what Tabler does not: the software being built in 2026.",
+    lead: "Tabler is the biggest of the stroke sets. IconMind is under half the size and covers what Tabler does not: the software being built in 2026.",
     answer: [
-      "Use Tabler if breadth is the requirement. Roughly 5,900 icons, MIT licensed, drawn on the same 24 px grid, and if you need a tractor, a stethoscope or a brand mark, Tabler has one and IconMind never will.",
+      "Use Tabler if breadth is the requirement. 5,130 outline icons and 1,054 filled, MIT licensed, drawn on the same 24 px grid, and if you need a tractor, a stethoscope or a brand mark, Tabler has one and IconMind never will.",
       "Use IconMind if the screens that matter are about models, agents, retrieval or infrastructure. Tabler covers that ground with a few dozen icons: a robot, a brain, sparkles, a couple of AI-labelled shapes. IconMind covers it with 664, drawn as families that share a body so a reader can tell an agent from a model from a tool at a glance.",
       "The sets do not fight. Same grid, same stroke, same round terminals. Plenty of products would sensibly run Tabler for breadth and IconMind for the domain.",
     ],
@@ -189,12 +189,12 @@ export const COMPARISONS: Compare[] = [
         body: [
           "Tabler is one of the largest hand-maintained icon sets in open source, and its size is the point. A form builder, an admin panel, a hospital dashboard and a farm management app can all be drawn from it without inventing anything. That is a genuine achievement and it took years.",
           "The cost of breadth is that no single domain gets deep treatment. Tabler's AI icons are the ones a general set reaches for: robot, brain, sparkles, a chip. They are fine as decoration and they fall apart as vocabulary, because a screen that shows an agent, a model, a tool call and a retrieval step needs four different pictures that a reader can learn.",
-          "IconMind made the opposite trade. It is a quarter of Tabler's size and spends 664 of its icons on one domain, with a grammar behind them: an open ring is an agent, a chamfered frame is a machine or an MCP server, a two-pronged plug is a tool, a page with a fold is a document. Learn four bodies and you can guess the next icon in a family before you see it.",
+          "IconMind made the opposite trade. It is a little under half the size of Tabler's outline set and spends 664 of its icons on one domain, with a grammar behind them: an open ring is an agent, a chamfered frame is a machine or an MCP server, a two-pronged plug is a tool, a page with a fold is a document. Learn four bodies and you can guess the next icon in a family before you see it.",
         ],
         table: {
           head: ["", "Tabler", "IconMind"],
           rows: [
-            ["Icons", "about 5,900", "2,287"],
+            ["Icons", "5,130 outline, 1,054 filled", "2,287 outline (all with duotone)"],
             ["Drawings per icon", "2 (outline, filled)", "6 (outline and duotone at three weights)"],
             ["AI and agent vocabulary", "a few dozen general shapes", "664 icons in named families"],
             ["Brand logos", "yes", "no, and not planned"],
@@ -230,7 +230,7 @@ export const COMPARISONS: Compare[] = [
       {
         heading: "How each set is kept consistent",
         body: [
-          "Tabler is reviewed by people, at scale, with a contribution guide and a long-running maintainer team. That is how most icon sets work and it is why Tabler holds together across 5,900 drawings.",
+          "Tabler is reviewed by people, at scale, with a contribution guide and a long-running maintainer team. That is how most icon sets work and it is why Tabler holds together across six thousand drawings.",
           "IconMind is compiled. Each icon is a declaration, and a validator refuses geometry it cannot draw correctly: anchors off the half-unit grid, angles that are not 0, 45 or 90 degrees, strokes that vanish at bold, icons that do not fill the same optical box as the rest. A nightly job then rasterises all 13,722 cells and fails if any two icons render alike.",
           "Neither approach is better in the abstract. The compiler catches drift that eyes miss at this scale, and it also refuses drawings a human would have shipped: Bluetooth is not in the set because its rune needs three stroke crossings where the rule allows two.",
         ],
@@ -238,7 +238,7 @@ export const COMPARISONS: Compare[] = [
       {
         heading: "Finding the icon you want",
         body: [
-          "Tabler's search is name-first with a tag layer on top, and at 5,900 icons the names carry a lot of weight. It works well when you know roughly what the thing is called and less well when you are searching for a concept.",
+          "Tabler's search is name-first with a tag layer on top, and at six thousand components the names carry a lot of weight. It works well when you know roughly what the thing is called and less well when you are searching for a concept.",
           "IconMind indexes four fields per icon: the name, a description written for the search box rather than for a designer, a list of tags, and a list of aliases for the words people actually type. Search for llm and you land on model; search for vector db and you land on vector-database; search for handoff and you get the agent family.",
           "There is also an MCP server, which matters more than it sounds. When an assistant writes an import for an icon set it does not have indexed, it guesses a plausible component name and is often wrong. Pointed at the MCP server it searches the real metadata first, so the import compiles.",
         ],
@@ -255,7 +255,7 @@ export const COMPARISONS: Compare[] = [
       {
         heading: "Asking for an icon",
         body: [
-          "Tabler takes requests as issues and additions as pull requests, which is how a set reaches 5,900 icons: many hands, one review queue. If the icon you need is missing, someone can draw it and it lands in a release.",
+          "Tabler takes requests as issues and additions as pull requests, which is how a set reaches six thousand components: many hands, one review queue. If the icon you need is missing, someone can draw it and it lands in a release.",
           "IconMind adds icons in rounds instead. A round picks a theme, the icons are declared as geometry, and the round either passes every gate or goes back. That is slower and it means you cannot get one icon added on request, but it is also why the set has no drawing that was waved through on a deadline.",
           "That has a cost worth stating: an icon here cannot be nudged by eye. If a drawing needs a curve that is not on the grid or an angle that is not 0, 45 or 90 degrees, it does not get made. A few icons that would be easy to draw by hand are missing for exactly that reason, and the refusals are published with the reasoning instead of being left as silent gaps.",
         ],
@@ -263,7 +263,7 @@ export const COMPARISONS: Compare[] = [
       {
         heading: "When Tabler is the better choice",
         body: [
-          "If the product is a general admin tool, an internal dashboard, a booking system or anything that has to name a lot of physical things, Tabler will cover it and IconMind will not. Half of what Tabler has is outside this set's scope by design.",
+          "If the product is a general admin tool, an internal dashboard, a booking system or anything that has to name a lot of physical things, Tabler will cover it and IconMind will not. A large part of what Tabler draws is outside this set's scope by design.",
           "If you need brand marks, Tabler has them and IconMind refuses them, because logos carry trademark terms that a blanket MIT licence cannot honestly cover.",
           "If a webfont is the delivery mechanism your stack expects, Tabler ships one. IconMind does not and will not, because a font cannot carry a duotone tint or three separately drawn weights.",
         ],
@@ -272,13 +272,13 @@ export const COMPARISONS: Compare[] = [
         heading: "How these numbers were measured",
         body: [
           "The package sizes were read from the npm registry on 31 August 2026, from the published tarballs: @tabler/icons-react 3.46.0 unpacks to 63.0 MB across 12,386 files, @iconmind/react 0.6.0 to 5.6 MB across 6,867 files. That is disk in node_modules. Neither number is what a browser downloads, because both packages ship per-icon modules and tree-shake to what you import.",
-          "Tabler's icon count is its own published figure at that date. The IconMind counts are the set: 2,287 icons, 13,722 cells across two variants and three weights, and 664 icons in the AI, agent, MCP and RAG families.",
-          "Where this page describes what Tabler covers, it is describing a set that is a third larger in every direction except one. The comparison is not close on breadth and the tables are written to say so.",
+          "The icon counts come from the same tarballs rather than from either project's marketing: @tabler/icons-react 3.46.0 exports 6,184 components, 5,130 outline and 1,054 filled. IconMind has 2,287 icons and 13,722 cells across two variants and three weights, 664 of them in the AI, agent, MCP and RAG families.",
+          "On breadth those numbers speak for themselves: Tabler draws more than twice as many things as this set does, and it will keep doing so. The tables are written to say that plainly rather than to work around it.",
         ],
       },
     ],
     rows: [
-      ["Icons", OURS.count, "≈5,900 (Aug 2026)"],
+      ["Icons", OURS.count, "6,184 components (v3.46.0)"],
       ["AI and agent vocabulary", OURS.ai, "a few dozen (robot, brain, sparkles, ai)"],
       ["Variants and weights", OURS.variants, "outline and filled; stroke width as a prop"],
       ["Frameworks", OURS.frameworks, "React, Vue, Svelte, Solid, Preact, React Native, Flutter, PNG, webfont"],
@@ -287,7 +287,7 @@ export const COMPARISONS: Compare[] = [
       ["Licence", OURS.license, "MIT"],
     ],
     verdict: [
-      "Tabler is the better general-purpose set and this page is not going to argue otherwise. Five thousand nine hundred icons under MIT, drawn on the same grid at the same stroke, is a resource most products can build an entire interface from.",
+      "Tabler is the better general-purpose set and this page is not going to argue otherwise. Five thousand outline icons and a thousand filled, all MIT, drawn on the same grid at the same stroke, is a resource most products can build an entire interface from.",
       "What it does not have is a vocabulary for models, agents, retrieval and infrastructure, because no general set does. That is the gap IconMind was drawn for, and 664 of its icons live in it.",
     ],
     faq: [

@@ -157,7 +157,7 @@ export default async function ComparePage({ params }: { params: Promise<{ slug: 
       </section>
 
       <PageCta heading={`${iconCount.toLocaleString("en-GB")} icons, one set`}>
-        Outline and duotone at three weights, compiled from one grid, with the code for eleven
+        Outline and duotone at three weights, compiled from one grid, with the code for nine
         frameworks and an MCP server that picks them. MIT — commercial use, no attribution.
       </PageCta>
     </div>

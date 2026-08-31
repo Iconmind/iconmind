@@ -71,7 +71,7 @@ export default async function CollectionPage({ params }: { params: Promise<{ slu
       </section>
       <PageCta heading={`Every ${c.name.toLowerCase()} icon, free to ship`} primary={{ href: "/icons/", label: "Browse the whole set" }}>
         {icons.length} icons drawn on one grid, in outline and duotone at three weights, with the
-        code for eleven frameworks. MIT — commercial use, no attribution, no seat count.
+        code for nine frameworks. MIT — commercial use, no attribution, no seat count.
       </PageCta>
     </div>
   );
