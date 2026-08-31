@@ -17,11 +17,11 @@
   "family": "lattice",
   "shapes": [
     {
-      "d": "M12 3L21 12L12 21L3 12",
+      "d": "M7 8L11 12L7 16L3 12Z",
       "closed": true
     },
     {
-      "d": "M9 9L15 9L9 15L15 15",
+      "d": "M15 9.5L20 9.5L15 14.5L20 14.5",
       "closed": false
     }
   ]

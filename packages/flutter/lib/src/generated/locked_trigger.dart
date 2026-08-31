@@ -4,6 +4,6 @@ import '../data.dart';
 /// LockedTrigger
 const IconMindData lockedTrigger = IconMindData(
   'locked-trigger',
-  [N('M4 9h16v12H4Z'), N('M7 9a5 5 0 0 1 10 0'), N('m15 12 -3 3h2.5l-3 3')],
-  [N.tint('M4 9h16v12H4Z'), N('M4 9h16v12H4Z'), N('M7 9a5 5 0 0 1 10 0'), N('m15 12 -3 3h2.5l-3 3')],
+  [N('m10 6 -5 5h4l-5 5'), N('M14 11a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v3.5a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2Z'), N('M16 9a2 2 0 0 1 4 0')],
+  [N.tint('M14 11a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v3.5a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2Z'), N('m10 6 -5 5h4l-5 5'), N('M14 11a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v3.5a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2Z'), N('M16 9a2 2 0 0 1 4 0')],
 );

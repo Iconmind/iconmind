@@ -4,6 +4,6 @@ import '../data.dart';
 /// StaleCheckpoint
 const IconMindData staleCheckpoint = IconMindData(
   'stale-checkpoint',
-  [N('M6 3v18'), N('M6 3h13v12H6'), N('M9 6h6l-6 6h6')],
-  [N.tint('M6 3h13v12H6'), N('M6 3v18'), N('M6 3h13v12H6'), N('M9 6h6l-6 6h6')],
+  [N('M4 3v18'), N('M4 3h9l-3 3 3 3H4'), N('M16 10h5l-5 5h5')],
+  [N.halo('M4 3v18'), N.halo('M4 3h9l-3 3 3 3H4'), N.halo('M16 10h5l-5 5h5'), N('M4 3v18'), N('M4 3h9l-3 3 3 3H4'), N('M16 10h5l-5 5h5')],
 );

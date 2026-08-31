@@ -4,6 +4,6 @@ import '../data.dart';
 /// KeyBlocked
 const IconMindData keyBlocked = IconMindData(
   'key-blocked',
-  [N('M7 7a5 5 0 1 0 10 0A5 5 0 1 0 7 7'), N('M12 12v10'), N('M12 16h3.5'), N('M12 19h3.5'), N('M9 4h6v6H9Z')],
-  [N.tint('M7 7a5 5 0 1 0 10 0A5 5 0 1 0 7 7'), N.tint('M9 4h6v6H9Z'), N('M7 7a5 5 0 1 0 10 0A5 5 0 1 0 7 7'), N('M12 12v10'), N('M12 16h3.5'), N('M12 19h3.5'), N('M9 4h6v6H9Z')],
+  [N('M3 9a4 4 0 1 0 8 0 4 4 0 1 0 -8 0'), N('M7 13v8'), N('M7 18h3'), N('M15 9h6v6h-6Z')],
+  [N.tint('M3 9a4 4 0 1 0 8 0 4 4 0 1 0 -8 0'), N.tint('M15 9h6v6h-6Z'), N('M3 9a4 4 0 1 0 8 0 4 4 0 1 0 -8 0'), N('M7 13v8'), N('M7 18h3'), N('M15 9h6v6h-6Z')],
 );

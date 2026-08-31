@@ -4,6 +4,6 @@ import '../data.dart';
 /// KeyCheckpoint
 const IconMindData keyCheckpoint = IconMindData(
   'key-checkpoint',
-  [N('M7 7a5 5 0 1 0 10 0A5 5 0 1 0 7 7'), N('M12 12v10'), N('M12 16h3.5'), N('M12 19h3.5'), N('M9 4v6'), N('M9 5h6l-2 2 2 2H9')],
-  [N.tint('M7 7a5 5 0 1 0 10 0A5 5 0 1 0 7 7'), N('M7 7a5 5 0 1 0 10 0A5 5 0 1 0 7 7'), N('M12 12v10'), N('M12 16h3.5'), N('M12 19h3.5'), N('M9 4v6'), N('M9 5h6l-2 2 2 2H9')],
+  [N('M3 9a4 4 0 1 0 8 0 4 4 0 1 0 -8 0'), N('M7 13v8'), N('M7 18h3'), N('M14 5v16'), N('M14 5h8l-3 3 3 3h-8')],
+  [N.tint('M3 9a4 4 0 1 0 8 0 4 4 0 1 0 -8 0'), N('M3 9a4 4 0 1 0 8 0 4 4 0 1 0 -8 0'), N('M7 13v8'), N('M7 18h3'), N('M14 5v16'), N('M14 5h8l-3 3 3 3h-8')],
 );

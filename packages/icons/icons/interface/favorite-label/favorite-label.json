@@ -17,12 +17,12 @@
   "family": "heart",
   "shapes": [
     {
-      "d": "M2 9A5 5 0 0 1 12 9A5 5 0 0 1 22 9L12 19Z",
+      "d": "M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z",
       "closed": true,
       "_why": "a heart is one line, not three strokes with visible seams"
     },
     {
-      "d": "M9 7L12 7L15 10L12 13L9 13Z",
+      "d": "M14 13L19 13L22 16L19 19L14 19Z",
       "closed": true
     }
   ]

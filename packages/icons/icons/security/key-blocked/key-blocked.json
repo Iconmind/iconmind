@@ -17,23 +17,19 @@
   "family": "key",
   "shapes": [
     {
-      "d": "M7 7a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "d": "M3 9a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
       "closed": true
     },
     {
-      "d": "M12 12V22",
+      "d": "M7 13V21",
       "closed": false
     },
     {
-      "d": "M12 16H15.5",
+      "d": "M7 18H10",
       "closed": false
     },
     {
-      "d": "M12 19H15.5",
-      "closed": false
-    },
-    {
-      "d": "M9 4L15 4L15 10L9 10Z",
+      "d": "M15 9L21 9L21 15L15 15Z",
       "closed": true
     }
   ]

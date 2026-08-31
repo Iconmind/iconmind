@@ -4,6 +4,6 @@ import '../data.dart';
 /// RunLabel
 const IconMindData runLabel = IconMindData(
   'run-label',
-  [N('M2 4h10l9 9 -9 9H2'), N('m10 10 3 3 -3 3Z')],
-  [N.tint('M2 4h10l9 9 -9 9H2'), N.tint('m10 10 3 3 -3 3Z'), N('M2 4h10l9 9 -9 9H2'), N('m10 10 3 3 -3 3Z')],
+  [N('M3 5v14l7 -7Z'), N('M14 13h5l3 3 -3 3h-5Z')],
+  [N.tint('M3 5v14l7 -7Z'), N.tint('M14 13h5l3 3 -3 3h-5Z'), N('M3 5v14l7 -7Z'), N('M14 13h5l3 3 -3 3h-5Z')],
 );

@@ -4,6 +4,6 @@ import '../data.dart';
 /// PaymentStopped
 const IconMindData paymentStopped = IconMindData(
   'payment-stopped',
-  [N('M3 12a9 9 0 1 0 18 0 9 9 0 1 0 -18 0'), N('M12 2v4'), N('M12 18v4'), N('M9 9h6v6H9Z')],
-  [N.tint('M3 12a9 9 0 1 0 18 0 9 9 0 1 0 -18 0'), N.tint('M9 9h6v6H9Z'), N('M3 12a9 9 0 1 0 18 0 9 9 0 1 0 -18 0'), N('M12 2v4'), N('M12 18v4'), N('M9 9h6v6H9Z')],
+  [N('M2 12a4.5 4.5 0 1 0 9 0 4.5 4.5 0 1 0 -9 0'), N('M6.5 10.5v3'), N('M15 9h6v6h-6Z')],
+  [N.tint('M2 12a4.5 4.5 0 1 0 9 0 4.5 4.5 0 1 0 -9 0'), N.tint('M15 9h6v6h-6Z'), N('M2 12a4.5 4.5 0 1 0 9 0 4.5 4.5 0 1 0 -9 0'), N('M6.5 10.5v3'), N('M15 9h6v6h-6Z')],
 );

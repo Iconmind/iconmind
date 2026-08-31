@@ -17,11 +17,11 @@
   "family": "object",
   "shapes": [
     {
-      "d": "M2 4L12 4L21 13L12 22L2 22",
+      "d": "M3 5L3 19L10 12Z",
       "closed": true
     },
     {
-      "d": "M10 10L13 13L10 16Z",
+      "d": "M14 13L19 13L22 16L19 19L14 19Z",
       "closed": true
     }
   ]

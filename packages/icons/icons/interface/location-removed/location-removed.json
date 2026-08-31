@@ -20,19 +20,19 @@
   "family": "pin",
   "shapes": [
     {
-      "d": "M5 9a7 7 0 1 0 14 0a7 7 0 1 0 -14 0Z",
+      "d": "M4 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
       "closed": true
     },
     {
-      "d": "M6 15L12 21L18 15",
+      "d": "M7 13V17",
       "closed": false
     },
     {
-      "d": "M10 7L14 11",
+      "d": "M16 9.5L21 14.5",
       "closed": false
     },
     {
-      "d": "M14 7L10 11",
+      "d": "M21 9.5L16 14.5",
       "closed": false
     }
   ]

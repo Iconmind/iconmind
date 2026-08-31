@@ -4,6 +4,6 @@ import '../data.dart';
 /// RunScan
 const IconMindData runScan = IconMindData(
   'run-scan',
-  [N('M15 5h5v8l-8 8 -8 -8V5h5'), N('m10 8 3 3 -3 3Z')],
-  [N.tint('M15 5h5v8l-8 8 -8 -8V5h5'), N.tint('m10 8 3 3 -3 3Z'), N('M15 5h5v8l-8 8 -8 -8V5h5'), N('m10 8 3 3 -3 3Z')],
+  [N('M3 5h9v6l-4.5 4.5L3 11Z'), N('M15 8v8l4 -4Z')],
+  [N.tint('M3 5h9v6l-4.5 4.5L3 11Z'), N.tint('M15 8v8l4 -4Z'), N('M3 5h9v6l-4.5 4.5L3 11Z'), N('M15 8v8l4 -4Z')],
 );

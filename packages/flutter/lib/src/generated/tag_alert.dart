@@ -4,6 +4,6 @@ import '../data.dart';
 /// TagAlert
 const IconMindData tagAlert = IconMindData(
   'tag-alert',
-  [N('M2 4h10l9 9 -9 9H2'), N('M12 10v3'), N('M11 16a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
-  [N.tint('M2 4h10l9 9 -9 9H2'), N.tint('M11 16a1 1 0 1 0 2 0 1 1 0 1 0 -2 0'), N('M2 4h10l9 9 -9 9H2'), N('M12 10v3'), N('M11 16a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
+  [N('M3 6h4l4 4 -4 4H3Z'), N('M18 7v5'), N('M17 15a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
+  [N.tint('M3 6h4l4 4 -4 4H3Z'), N.tint('M17 15a1 1 0 1 0 2 0 1 1 0 1 0 -2 0'), N('M3 6h4l4 4 -4 4H3Z'), N('M18 7v5'), N('M17 15a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
 );
