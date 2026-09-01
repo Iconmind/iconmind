@@ -207,9 +207,9 @@ export const BATCH_72: Icon[] = [
   {
     slug: "favorite-place", category: "interface", subcategory: "identity",
     name: "Favourite place", description: "A location pin beside a heart — a place saved as a favourite",
-    tags: ["favourite", "place", "pin"], family: "figure",
+    tags: ["favourite", "place", "pin"], family: "pin",
     aliases: [], keywords: ["favourite place", "saved location", "loved spot"],
-    shapes: [disc(12, 9, 6), poly([[7.5, 13.5], [12, 18], [16.5, 13.5]]), ...heartMark(SMALL, 8)],
+    shapes: [area("M4 10A8 8 0 0 1 20 10L12 18Z", "the teardrop `location` is drawn from; the mark sits where its ring sits"), ...heartMark(SMALL, 10)],
   },
   {
     slug: "wishlist", category: "interface", subcategory: "file",

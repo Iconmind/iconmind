@@ -7,8 +7,8 @@
  * need ten units of width and no left body leaves that much. Every name
  * checked free before drawing.
  */
-import { arc, col, disc, poly, raw, rect, row, openDisc } from "../forms.ts";
-import { SMALL, heartMark, pinMark, tagMark, targetMark } from "../marks.ts";
+import { arc, area, col, disc, openDisc, poly, raw, rect, row } from "../forms.ts";
+import { SMALL, check, heartMark, pinMark, searchMark, tagMark, targetMark } from "../marks.ts";
 import { machine } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
@@ -173,14 +173,14 @@ export const BATCH_73: Icon[] = [
     name: "Verified location", description: "A location pin with a check beside it — a place that has been verified",
     tags: ["location", "verified", "pin"], family: "pin",
     aliases: ["map-pin-check"], keywords: ["verified location", "confirmed place", "location check"],
-    shapes: [...PIN_L, poly([[15, 13], [17.5, 15.5], [22, 11]])],
+    shapes: [area("M4 10A8 8 0 0 1 20 10L12 18Z", "the teardrop `location` is drawn from; the mark sits where its ring sits"), ...check(BIG, 12)],
   },
   {
     slug: "place-search", category: "interface", subcategory: "identity",
     name: "Place search", description: "A location pin beside a magnifying glass — search for a place",
     tags: ["place", "search", "map"], family: "pin",
     aliases: ["map-pin-search"], keywords: ["place search", "find a location", "search nearby"],
-    shapes: [...PIN_L, disc(17, 10, 4), poly([[20, 13], [22, 15]])],
+    shapes: [area("M4 10A8 8 0 0 1 20 10L12 18Z", "the teardrop `location` is drawn from; the mark sits where its ring sits"), ...searchMark(SMALL, 10)],
   },
   {
     slug: "address", category: "interface", subcategory: "identity",

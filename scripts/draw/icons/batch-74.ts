@@ -7,8 +7,8 @@
  * radius the space does not allow), so clocks always stand on the left. Every
  * name checked free before drawing.
  */
-import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { SMALL, heartMark, alert } from "../marks.ts";
+import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
+import { SMALL, alert, bookmarkMark, heartMark, lockMark, tagMark } from "../marks.ts";
 import {  } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
@@ -50,21 +50,21 @@ export const BATCH_74: Icon[] = [
     name: "Saved location", description: "A location pin beside a bookmark — a place saved for later on the map",
     tags: ["saved", "location", "bookmark"], family: "pin",
     aliases: ["map-pinned"], keywords: ["saved location", "bookmark place", "saved places"],
-    shapes: [...PIN_L, BOOKMARK_R],
+    shapes: [area("M4 10A8 8 0 0 1 20 10L12 18Z", "the teardrop `location` is drawn from; the mark sits where its ring sits"), ...bookmarkMark(SMALL, 10.5)],
   },
   {
     slug: "private-location", category: "interface", subcategory: "identity",
     name: "Private location", description: "A location pin beside a padlock — a place shared with no one",
     tags: ["private", "location", "lock"], family: "pin",
     aliases: [], keywords: ["private location", "hidden place", "location privacy"],
-    shapes: [...PIN_L, ...LOCK_R],
+    shapes: [area("M4 10A8 8 0 0 1 20 10L12 18Z", "the teardrop `location` is drawn from; the mark sits where its ring sits"), ...lockMark(SMALL, 10)],
   },
   {
     slug: "place-label", category: "interface", subcategory: "identity",
     name: "Place label", description: "A location pin beside a label — a place with a name of its own",
     tags: ["place", "label", "name"], family: "pin",
     aliases: [], keywords: ["place label", "named location", "custom place name"],
-    shapes: [...PIN_L, TAG_R],
+    shapes: [area("M4 10A8 8 0 0 1 20 10L12 18Z", "the teardrop `location` is drawn from; the mark sits where its ring sits"), ...tagMark(SMALL, 10)],
   },
   {
     slug: "saved-filter", category: "interface", subcategory: "action",

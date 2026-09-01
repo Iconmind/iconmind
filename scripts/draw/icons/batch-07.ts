@@ -229,7 +229,7 @@ export const BATCH_07: Icon[] = [
   {
     slug: "location", category: "interface", subcategory: "layout",
     name: "Location", description: "Location — a pin marking a place here on the map, where something is",
-    tags: ["pin", "place", "map"], family: "figure",
+    tags: ["pin", "place", "map"], family: "pin",
     aliases: ["map-pin"], keywords: ["map", "place", "marker", "geo", "address", "pin"],
     // One shape, not a circle with a triangle under it. Drawn as two the circle's own lower
     // arc stays visible inside the point and the pin gets a notch where its tip should be.

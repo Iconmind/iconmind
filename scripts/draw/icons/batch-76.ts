@@ -7,9 +7,9 @@
  *
  * Unattended round. Every name checked free before drawing.
  */
-import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
+import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
 import { shield } from "../bodies.ts";
-import { BIG, SMALL, alert, heartMark } from "../marks.ts";
+import { BIG, SMALL, alert, flagMark, heartMark, idleMark, trendMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -205,7 +205,7 @@ export const BATCH_76: Icon[] = [
     name: "Location trend", description: "A location pin beside a rising line — activity growing in one place",
     tags: ["location", "trend", "growth"], family: "pin",
     aliases: [], keywords: ["location trend", "regional growth", "activity by place"],
-    shapes: [...PIN_L, LINE_R],
+    shapes: [area("M4 10A8 8 0 0 1 20 10L12 18Z", "the teardrop `location` is drawn from; the mark sits where its ring sits"), ...trendMark(SMALL, 10)],
   },
   {
     slug: "move-pin", category: "interface", subcategory: "identity",
@@ -216,17 +216,17 @@ export const BATCH_76: Icon[] = [
   },
   {
     slug: "goal-location", category: "interface", subcategory: "identity",
-    name: "Goal location", description: "A location pin beside a target — the place you are trying to reach",
+    name: "Goal location", description: "A location pin with a flag inside — the place you are trying to reach",
     tags: ["location", "goal", "target"], family: "pin",
     aliases: [], keywords: ["goal location", "target place", "destination goal"],
-    shapes: [...PIN_L, ...TARGET_R],
+    shapes: [area("M4 10A8 8 0 0 1 20 10L12 18Z", "the teardrop `location` is drawn from; the mark sits where its ring sits"), ...flagMark(SMALL, 10)],
   },
   {
     slug: "dormant-location", category: "interface", subcategory: "identity",
     name: "Dormant location", description: "A location pin beside a Z — a place with no recent activity, gone quiet",
     tags: ["location", "dormant", "quiet"], family: "pin",
     aliases: [], keywords: ["dormant location", "inactive place", "quiet region"],
-    shapes: [...PIN_L, Z_R],
+    shapes: [area("M4 10A8 8 0 0 1 20 10L12 18Z", "the teardrop `location` is drawn from; the mark sits where its ring sits"), ...idleMark(SMALL, 10)],
   },
 
   /* ── devtools & automation: runs and events ───────────────────────────────────── */

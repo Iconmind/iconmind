@@ -8,9 +8,9 @@
  * a four-radius target can sit beside it with a full three-unit gap. Every
  * name checked free before drawing.
  */
-import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
+import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
 import { bookmark, machine } from "../bodies.ts";
-import { BIG, SMALL, alert, check, heartMark, idleMark } from "../marks.ts";
+import { BIG, SMALL, add, alert, check, heartMark, idleMark, off } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -194,14 +194,14 @@ export const BATCH_75: Icon[] = [
     name: "Add location", description: "A location pin with a plus beside it — add a new place to the map",
     tags: ["location", "add", "new"], family: "pin",
     aliases: ["map-pin-add"], keywords: ["add location", "new place", "add address"],
-    shapes: [...PIN_L, row(12, 15, 21), col(18, 9, 15)],
+    shapes: [area("M4 10A8 8 0 0 1 20 10L12 18Z", "the teardrop `location` is drawn from; the mark sits where its ring sits"), ...add(SMALL, 10)],
   },
   {
     slug: "location-removed", category: "interface", subcategory: "identity",
     name: "Location removed", description: "A location pin with an X beside it — a place taken off the list",
     tags: ["location", "removed", "delete"], family: "pin",
     aliases: ["map-pin-off"], keywords: ["remove location", "delete place", "location removed"],
-    shapes: [...PIN_L, ...X_R],
+    shapes: [area("M4 10A8 8 0 0 1 20 10L12 18Z", "the teardrop `location` is drawn from; the mark sits where its ring sits"), ...off(SMALL, 10)],
   },
   {
     slug: "archived-list", category: "interface", subcategory: "file",

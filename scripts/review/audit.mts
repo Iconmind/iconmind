@@ -47,6 +47,12 @@ const GLYPHS = new Set([
 ]);
 /** Metaphors that are inherently anchored, so their centroid legitimately sits off-centre. */
 const ANCHORED = new Set([
+  // A pin's tip is the point it marks; the payload rides in the head. The whole family
+  // shares `location`'s teardrop, so it shares its centroid too — that is the metaphor.
+  "interface/location", "interface/add-location", "interface/dormant-location",
+  "interface/favorite-place", "interface/goal-location", "interface/location-removed",
+  "interface/location-trend", "interface/place-label", "interface/place-search",
+  "interface/private-location", "interface/saved-location", "interface/verified-location",
   "devtools/stack-trace", "ai/softmax", "analytics/chart-bar", "analytics/chart-line",
   "analytics/retention", "interface/corner-radius", "rag/bm25", "security/login",
   "devtools/request", "automation/workflow-template", "agents/step-limit",

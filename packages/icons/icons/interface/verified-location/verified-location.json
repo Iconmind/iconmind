@@ -20,15 +20,12 @@
   "family": "pin",
   "shapes": [
     {
-      "d": "M4 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
-      "closed": true
+      "d": "M4 10A8 8 0 0 1 20 10L12 18Z",
+      "closed": true,
+      "_why": "the teardrop `location` is drawn from; the mark sits where its ring sits"
     },
     {
-      "d": "M7 13V17",
-      "closed": false
-    },
-    {
-      "d": "M15 13L17.5 15.5L22 11",
+      "d": "M9 10.5L11 12.5L15 8.5",
       "closed": false
     }
   ]
