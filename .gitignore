@@ -39,3 +39,6 @@ apps/web/public/p/
 # Working plans stay local — the repo keeps the rules (CONTRIBUTING.md,
 # docs/design-guidelines.mdx), not the roadmaps.
 1k-plan.md
+
+# review sheets belong in the scratchpad, never the repo root
+/*.png
