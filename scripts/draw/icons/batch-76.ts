@@ -9,7 +9,7 @@
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
 import { key, shield } from "../bodies.ts";
-import { BIG, SMALL, alert, flagMark, heartMark, idleMark, playMark, trendMark } from "../marks.ts";
+import { alert, BIG, flagMark, heartMark, idleMark, keyMark, playMark, SMALL, trendMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -26,7 +26,6 @@ const PLAY_L = poly([[3, 5], [3, 19], [10, 12]], true);
 const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
 const TARGET_L = [disc(8, 12, 5), disc(8, 12, 2)];
 const FUNNEL_L = poly([[3, 5], [14, 5], [10, 9], [10, 17], [7, 17], [7, 9]], true);
-const PIN_L = [disc(7, 10, 3), col(7, 13, 17)];
 const COIN_L = [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5)];
 const FLAG_L = [col(4, 3, 21), poly([[4, 3], [13, 3], [10, 6], [13, 9], [4, 9]])];
 const LOCK_L = [rect(2, 11, 10, 8, 2), arc(7, 11, 3, 180, 360)];
@@ -149,10 +148,10 @@ export const BATCH_76: Icon[] = [
   },
   {
     slug: "geo-key", category: "security", subcategory: "auth",
-    name: "Geo key", description: "A location pin beside a key — a credential that only works from one place",
+    name: "Geo key", description: "A location pin with a key in its head — a credential that only works from one place",
     tags: ["key", "location", "restricted"], family: "pin",
     aliases: [], keywords: ["geo-restricted key", "location-bound credential", "regional key"],
-    shapes: [...PIN_L, disc(17, 9, 3), col(17, 12, 20), row(17, 17, 19.5)],
+    shapes: [area("M4 10A8 8 0 0 1 20 10L12 18Z", "the teardrop `location` is drawn from; the mark sits where its ring sits"), ...keyMark(SMALL, 10)],
   },
   {
     slug: "key-run", category: "security", subcategory: "auth",
@@ -208,10 +207,10 @@ export const BATCH_76: Icon[] = [
   },
   {
     slug: "move-pin", category: "interface", subcategory: "identity",
-    name: "Move pin", description: "A location pin with an arrow beside it — move a pin to a new spot",
+    name: "Move pin", description: "A location pin with an arrow in its head — move a pin to a new spot",
     tags: ["pin", "move", "relocate"], family: "pin",
     aliases: [], keywords: ["move pin", "relocate marker", "drag location"],
-    shapes: [...PIN_L, ...ARROW_R15],
+    shapes: [area("M4 10A8 8 0 0 1 20 10L12 18Z", "the teardrop `location` is drawn from; the mark sits where its ring sits"), row(10, 9, 15), poly([[12.5, 7.5], [15, 10], [12.5, 12.5]])],
   },
   {
     slug: "goal-location", category: "interface", subcategory: "identity",

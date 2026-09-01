@@ -8,13 +8,12 @@
  * name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { alert, BIG, boltMark, bookmarkMark, clockMark, flagMark, funnelMark, heartMark, lockMark, pause, SMALL, squareMark, tagMark } from "../marks.ts";
+import { alert, BIG, boltMark, bookmarkMark, clockMark, flagMark, funnelMark, heartMark, lockMark, pause, playMark, SMALL, squareMark, tagMark } from "../marks.ts";
 import { dial, key } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
 const COIN_L = [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5)];
-const PIN_L = [disc(7, 10, 3), col(7, 13, 17)];
 const FLAG_L = [col(4, 3, 21), poly([[4, 3], [13, 3], [10, 6], [13, 9], [4, 9]])];
 const FUNNEL_L = poly([[3, 5], [14, 5], [10, 9], [10, 17], [7, 17], [7, 9]], true);
 const TARGET_L = [disc(8, 12, 5), disc(8, 12, 2)];
@@ -38,10 +37,10 @@ export const BATCH_74: Icon[] = [
 
   {
     slug: "navigate", category: "interface", subcategory: "identity",
-    name: "Navigate", description: "A location pin beside a play button — start navigating to a place",
+    name: "Navigate", description: "A location pin with a play in its head — start navigating to a place",
     tags: ["navigate", "directions", "go"], family: "pin",
     aliases: ["navigation"], keywords: ["navigate", "start directions", "go to place"],
-    shapes: [...PIN_L, PLAY_R],
+    shapes: [area("M4 10A8 8 0 0 1 20 10L12 18Z", "the teardrop `location` is drawn from; the mark sits where its ring sits"), ...playMark(SMALL, 10)],
   },
   {
     slug: "saved-location", category: "interface", subcategory: "identity",

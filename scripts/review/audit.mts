@@ -53,6 +53,8 @@ const ANCHORED = new Set([
   "interface/favorite-place", "interface/goal-location", "interface/location-removed",
   "interface/location-trend", "interface/place-label", "interface/place-search",
   "interface/private-location", "interface/saved-location", "interface/verified-location",
+  "interface/navigate", "interface/move-pin", "interface/address", "interface/destination",
+  "security/geo-key", "cloud/local-pricing",
   "devtools/stack-trace", "ai/softmax", "analytics/chart-bar", "analytics/chart-line",
   "analytics/retention", "interface/corner-radius", "rag/bm25", "security/login",
   "devtools/request", "automation/workflow-template", "agents/step-limit",

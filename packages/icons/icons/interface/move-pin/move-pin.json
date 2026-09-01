@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "identity",
   "name": "Move pin",
-  "description": "A location pin with an arrow beside it — move a pin to a new spot",
+  "description": "A location pin with an arrow in its head — move a pin to a new spot",
   "tags": [
     "pin",
     "move",
@@ -17,19 +17,16 @@
   "family": "pin",
   "shapes": [
     {
-      "d": "M4 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
-      "closed": true
+      "d": "M4 10A8 8 0 0 1 20 10L12 18Z",
+      "closed": true,
+      "_why": "the teardrop `location` is drawn from; the mark sits where its ring sits"
     },
     {
-      "d": "M7 13V17",
+      "d": "M9 10H15",
       "closed": false
     },
     {
-      "d": "M15 12H22",
-      "closed": false
-    },
-    {
-      "d": "M19.5 9.5L22 12L19.5 14.5",
+      "d": "M12.5 7.5L15 10L12.5 12.5",
       "closed": false
     }
   ]

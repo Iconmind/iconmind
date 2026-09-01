@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "cost",
   "name": "Local pricing",
-  "description": "A location pin beside a coin — prices that depend on where you are",
+  "description": "A location pin with a coin in its head — prices that depend on where you are",
   "tags": [
     "pricing",
     "local",
@@ -17,19 +17,16 @@
   "family": "pin",
   "shapes": [
     {
-      "d": "M4 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "d": "M4 10A8 8 0 0 1 20 10L12 18Z",
+      "closed": true,
+      "_why": "the teardrop `location` is drawn from; the mark sits where its ring sits"
+    },
+    {
+      "d": "M9 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
       "closed": true
     },
     {
-      "d": "M7 13V17",
-      "closed": false
-    },
-    {
-      "d": "M13 12a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
-      "closed": true
-    },
-    {
-      "d": "M17.5 10.5V13.5",
+      "d": "M12 8V12",
       "closed": false
     }
   ]

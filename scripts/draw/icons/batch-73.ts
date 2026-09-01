@@ -8,7 +8,7 @@
  * checked free before drawing.
  */
 import { arc, area, col, disc, openDisc, poly, raw, rect, row } from "../forms.ts";
-import { alert, BIG, bookmarkMark, check, funnelMark, heartMark, idleMark, keyMark, pinMark, playMark, searchMark, shieldMark, SMALL, tagMark, targetMark, trendMark } from "../marks.ts";
+import { alert, BIG, bookmarkMark, check, coinMark, funnelMark, heartMark, idleMark, keyMark, pinMark, playMark, searchMark, shieldMark, SMALL, tagMark, targetMark, trendMark } from "../marks.ts";
 import { dial, key, machine } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
@@ -21,7 +21,6 @@ const FLAG_L = [col(4, 3, 21), poly([[4, 3], [13, 3], [10, 6], [13, 9], [4, 9]])
 const DIAMOND_L = poly([[7, 8], [11, 12], [7, 16], [3, 12]], true);
 const SHIELD_L = poly([[3, 5], [12, 5], [12, 11], [7.5, 15.5], [3, 11]], true);
 const TARGET_L = [disc(8, 12, 5), disc(8, 12, 2)];
-const PIN_L = [disc(7, 10, 3), col(7, 13, 17)];
 const PLAY_L = poly([[3, 5], [3, 19], [10, 12]], true);
 const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
 const LOCK_R = [rect(14, 9, 8, 7.5, 2), arc(18, 9, 2, 180, 360)];
@@ -54,10 +53,10 @@ export const BATCH_73: Icon[] = [
   },
   {
     slug: "local-pricing", category: "cloud", subcategory: "cost",
-    name: "Local pricing", description: "A location pin beside a coin — prices that depend on where you are",
+    name: "Local pricing", description: "A location pin with a coin in its head — prices that depend on where you are",
     tags: ["pricing", "local", "region"], family: "pin",
     aliases: [], keywords: ["local pricing", "regional price", "purchasing power parity"],
-    shapes: [...PIN_L, disc(17.5, 12, 4.5), col(17.5, 10.5, 13.5)],
+    shapes: [area("M4 10A8 8 0 0 1 20 10L12 18Z", "the teardrop `location` is drawn from; the mark sits where its ring sits"), ...coinMark(SMALL, 10)],
   },
 
   /* ── interface & devops: a clock with a purpose ───────────────────────────────── */
@@ -182,10 +181,10 @@ export const BATCH_73: Icon[] = [
   },
   {
     slug: "address", category: "interface", subcategory: "identity",
-    name: "Address", description: "A location pin beside lines of text — a postal address written out in full",
+    name: "Address", description: "A location pin with address lines in its head — a postal address written out",
     tags: ["address", "location", "text"], family: "pin",
     aliases: [], keywords: ["address", "postal address", "location details"],
-    shapes: [...PIN_L, ...ROWS_R(13)],
+    shapes: [area("M4 10A8 8 0 0 1 20 10L12 18Z", "the teardrop `location` is drawn from; the mark sits where its ring sits"), row(8.5, 9, 15), row(11.5, 9, 15)],
   },
   {
     slug: "location-alert", category: "interface", subcategory: "identity",
@@ -196,10 +195,10 @@ export const BATCH_73: Icon[] = [
   },
   {
     slug: "destination", category: "interface", subcategory: "identity",
-    name: "Destination", description: "A location pin beside a flag — where the journey ends, the arrival point",
+    name: "Destination", description: "A location pin, an arrow arriving in its head — where the journey ends",
     tags: ["destination", "flag", "route"], family: "pin",
     aliases: [], keywords: ["destination", "end of route", "arrival point"],
-    shapes: [...PIN_L, col(14, 5, 21), poly([[14, 5], [22, 5], [19, 8], [22, 11], [14, 11]])],
+    shapes: [area("M4 10A8 8 0 0 1 20 10L12 18Z", "the teardrop `location` is drawn from; the mark sits where its ring sits"), col(12, 7, 12), poly([[9.5, 9.5], [12, 12], [14.5, 9.5]])],
   },
 
   /* ── ai: a model core qualified ───────────────────────────────────────────────── */

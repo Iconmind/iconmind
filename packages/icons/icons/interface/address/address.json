@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "identity",
   "name": "Address",
-  "description": "A location pin beside lines of text — a postal address written out in full",
+  "description": "A location pin with address lines in its head — a postal address written out",
   "tags": [
     "address",
     "location",
@@ -17,23 +17,16 @@
   "family": "pin",
   "shapes": [
     {
-      "d": "M4 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
-      "closed": true
+      "d": "M4 10A8 8 0 0 1 20 10L12 18Z",
+      "closed": true,
+      "_why": "the teardrop `location` is drawn from; the mark sits where its ring sits"
     },
     {
-      "d": "M7 13V17",
+      "d": "M9 8.5H15",
       "closed": false
     },
     {
-      "d": "M13 8H22",
-      "closed": false
-    },
-    {
-      "d": "M13 12H22",
-      "closed": false
-    },
-    {
-      "d": "M13 16H22",
+      "d": "M9 11.5H15",
       "closed": false
     }
   ]

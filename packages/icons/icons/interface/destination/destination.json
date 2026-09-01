@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "identity",
   "name": "Destination",
-  "description": "A location pin beside a flag — where the journey ends, the arrival point",
+  "description": "A location pin, an arrow arriving in its head — where the journey ends",
   "tags": [
     "destination",
     "flag",
@@ -17,19 +17,16 @@
   "family": "pin",
   "shapes": [
     {
-      "d": "M4 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
-      "closed": true
+      "d": "M4 10A8 8 0 0 1 20 10L12 18Z",
+      "closed": true,
+      "_why": "the teardrop `location` is drawn from; the mark sits where its ring sits"
     },
     {
-      "d": "M7 13V17",
+      "d": "M12 7V12",
       "closed": false
     },
     {
-      "d": "M14 5V21",
-      "closed": false
-    },
-    {
-      "d": "M14 5L22 5L19 8L22 11L14 11",
+      "d": "M9.5 9.5L12 12L14.5 9.5",
       "closed": false
     }
   ]

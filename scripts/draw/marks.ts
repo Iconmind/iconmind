@@ -188,8 +188,10 @@ export const coinMark = (h: H = BIG, cy = 12): Shape[] =>
 /** A checkpoint: the flag, pole and banner. */
 export const flagMark = (h: H = BIG, cy = 12): Shape[] =>
   [col(12 - h, cy - h, cy + h),
-   poly([[12 - h, cy - h + 1], [12 + h, cy - h + 1], [12 + h - 2, cy - h + 3],
-         [12 + h, cy - h + 5], [12 - h, cy - h + 5]])];
+   // a plain banner, open at the pole - the pole is its left edge. The swallow-tail
+   // notch it had read as a letter B once it sat in a hollow.
+   poly([[12 - h, cy - h + 1], [12 + h - 1, cy - h + 1], [12 + h - 1, cy - h + 5],
+         [12 - h, cy - h + 5]])];
 
 /** Protected: the shield, squared above and pointed below like `shield()`. */
 export const shieldMark = (h: H = BIG, cy = 12): Shape[] =>
