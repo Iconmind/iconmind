@@ -9,8 +9,8 @@
  * name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { bookmark, dial, key, machine } from "../bodies.ts";
-import { add, alert, BIG, check, heartMark, idleMark, off, SMALL } from "../marks.ts";
+import { bookmark, dial, key, machine, shield } from "../bodies.ts";
+import { add, alert, BIG, check, flagMark, heartMark, idleMark, off, playMark, SMALL, trendMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -24,10 +24,7 @@ const LOCK_LN = [rect(2, 11, 9, 8, 2), arc(6.5, 11, 2, 180, 360)];
 const LENS_L = [disc(9, 10, 5), poly([[5.5, 13.5], [2.5, 16.5]])];
 const BOOKMARK_L = poly([[3, 5], [12, 5], [12, 19], [7.5, 14.5], [3, 19]], true);
 const HEART_L = raw("M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z", HEART, true);
-const SHIELD_L = poly([[3, 5], [12, 5], [12, 11], [7.5, 15.5], [3, 11]], true);
-const SHIELD_LN = poly([[3, 5], [11, 5], [11, 11], [7, 15], [3, 11]], true);
 const FLAG_L = [col(4, 3, 21), poly([[4, 3], [13, 3], [10, 6], [13, 9], [4, 9]])];
-const TAG_L = poly([[3, 6], [7, 6], [11, 10], [7, 14], [3, 14]], true);
 const PLAY_L = poly([[3, 5], [3, 19], [10, 12]], true);
 const FUNNEL_L = poly([[3, 5], [14, 5], [10, 9], [10, 17], [7, 17], [7, 9]], true);
 const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
@@ -43,11 +40,8 @@ const ALERT_R = [col(18, 7, 12), disc(18, 15, 1)];
 const TAG_R = poly([[14, 13], [19, 13], [22, 16], [19, 19], [14, 19]], true);
 const TAG_RS = poly([[16, 13], [20, 13], [22, 15], [20, 17], [16, 17]], true);
 const SHIELD_RN = poly([[16, 9], [22, 9], [22, 14.5], [19, 17.5], [16, 14.5]], true);
-const PLAY_R = poly([[15, 8], [15, 16], [19, 12]], true);
-const ARROW_R = [row(12, 16, 22), poly([[19.5, 9.5], [22, 12], [19.5, 14.5]])];
 const MINUS_R = row(12, 16, 22);
 const PLUS_R = [row(12, 16, 22), col(19, 9, 15)];
-const X_R = [poly([[16, 9.5], [21, 14.5]]), poly([[21, 9.5], [16, 14.5]])];
 const Z_R = poly([[15, 9.5], [20, 9.5], [15, 14.5], [20, 14.5]]);
 const CHECK_R = poly([[15, 13], [17.5, 15.5], [22, 11]]);
 const LINE_R = poly([[15, 19], [17.5, 16.5], [19.5, 18.5], [22, 16]]);
@@ -94,17 +88,17 @@ export const BATCH_75: Icon[] = [
   },
   {
     slug: "run-scan", category: "security", subcategory: "ai-security",
-    name: "Run scan", description: "A shield beside a play button — start a security scan right now",
+    name: "Run scan", description: "A shield with a play inside — start a security scan right now",
     tags: ["scan", "run", "sweep"], family: "shield",
     aliases: [], keywords: ["run scan", "start security scan", "trigger scan"],
-    shapes: [SHIELD_L, PLAY_R],
+    shapes: [shield(), ...playMark(SMALL, 11)],
   },
   {
     slug: "protected-goal", category: "security", subcategory: "auth",
-    name: "Protected goal", description: "A shield beside a target — a goal guarded from interference or tampering",
+    name: "Protected goal", description: "A shield with a flag inside — a goal guarded from interference or tampering",
     tags: ["goal", "protected", "shield"], family: "shield",
     aliases: [], keywords: ["protected goal", "guarded objective", "goal safety"],
-    shapes: [SHIELD_LN, ...TARGET_R],
+    shapes: [shield(), ...flagMark(SMALL, 11)],
   },
   {
     slug: "key-share", category: "security", subcategory: "auth",
@@ -174,10 +168,10 @@ export const BATCH_75: Icon[] = [
   },
   {
     slug: "tag-alert", category: "interface", subcategory: "action",
-    name: "Tag alert", description: "A label beside an alert mark — a tag that needs attention from someone",
-    tags: ["tag", "alert", "warning"], family: "tag",
+    name: "Tag alert", description: "A label with an alert inside — a tag that needs attention from someone",
+    tags: ["tag", "alert", "warning"], family: "object",
     aliases: [], keywords: ["tag alert", "label warning", "tag issue"],
-    shapes: [TAG_L, ...ALERT_R],
+    shapes: [poly([[3, 6], [13, 6], [21, 14], [13, 22], [3, 22]], true), ...alert(SMALL, 13.5)],
   },
   {
     slug: "apply-filter", category: "interface", subcategory: "action",

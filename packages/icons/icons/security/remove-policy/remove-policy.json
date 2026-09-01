@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Remove policy",
-  "description": "A shield with a minus beside it — take a policy away from the set",
+  "description": "A policy sheet with a minus — take a policy away from the set",
   "tags": [
     "policy",
     "remove",
@@ -14,14 +14,18 @@
     "delete rule",
     "policy removed"
   ],
-  "family": "shield",
+  "family": "page",
   "shapes": [
     {
-      "d": "M3 5L12 5L12 11L7.5 15.5L3 11Z",
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
       "closed": true
     },
     {
-      "d": "M16 12H22",
+      "d": "M7 8H17",
+      "closed": false
+    },
+    {
+      "d": "M9 14.5H15",
       "closed": false
     }
   ]

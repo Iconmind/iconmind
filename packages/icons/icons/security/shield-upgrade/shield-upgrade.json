@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Shield upgrade",
-  "description": "A shield beside a double chevron rising — protection raised to a higher level",
+  "description": "A shield, a double chevron rising inside — protection raised to a higher level",
   "tags": [
     "shield",
     "upgrade",
@@ -17,15 +17,15 @@
   "family": "shield",
   "shapes": [
     {
-      "d": "M3 5L12 5L12 11L7.5 15.5L3 11Z",
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
       "closed": true
     },
     {
-      "d": "M16 13L19 10L22 13",
+      "d": "M10 10.5L12 8.5L14 10.5",
       "closed": false
     },
     {
-      "d": "M16 17.5L19 14.5L22 17.5",
+      "d": "M10 13.5L12 11.5L14 13.5",
       "closed": false
     }
   ]

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Tag alert",
-  "description": "A label beside an alert mark — a tag that needs attention from someone",
+  "description": "A label with an alert inside — a tag that needs attention from someone",
   "tags": [
     "tag",
     "alert",
@@ -14,18 +14,18 @@
     "label warning",
     "tag issue"
   ],
-  "family": "tag",
+  "family": "object",
   "shapes": [
     {
-      "d": "M3 6L7 6L11 10L7 14L3 14Z",
+      "d": "M3 6L13 6L21 14L13 22L3 22Z",
       "closed": true
     },
     {
-      "d": "M18 7V12",
+      "d": "M12 10.5V13.5",
       "closed": false
     },
     {
-      "d": "M17 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "d": "M11 16.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
       "closed": true
     }
   ]

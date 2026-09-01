@@ -8,7 +8,7 @@
  * name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { alert, BIG, boltMark, bookmarkMark, clockMark, flagMark, funnelMark, heartMark, lockMark, pause, playMark, SMALL, squareMark, tagMark } from "../marks.ts";
+import { alert, BIG, boltMark, bookmarkMark, check, clockMark, flagMark, funnelMark, heartMark, idleMark, lockMark, off, pause, playMark, shieldMark, SMALL, squareMark, tagMark } from "../marks.ts";
 import { dial, key } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
@@ -17,11 +17,9 @@ const COIN_L = [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5)];
 const FLAG_L = [col(4, 3, 21), poly([[4, 3], [13, 3], [10, 6], [13, 9], [4, 9]])];
 const FUNNEL_L = poly([[3, 5], [14, 5], [10, 9], [10, 17], [7, 17], [7, 9]], true);
 const TARGET_L = [disc(8, 12, 5), disc(8, 12, 2)];
-const TAG_L = poly([[3, 6], [7, 6], [11, 10], [7, 14], [3, 14]], true);
 const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
 const PLAY_L = poly([[3, 5], [3, 19], [10, 12]], true);
 const LOCK_R = [rect(14, 9, 8, 7.5, 2), arc(18, 9, 2, 180, 360)];
-const X_R = [poly([[16, 9.5], [21, 14.5]]), poly([[21, 9.5], [16, 14.5]])];
 const Z_R = poly([[15, 9.5], [20, 9.5], [15, 14.5], [20, 14.5]]);
 const SQUARE_R = poly([[15, 9], [21, 9], [21, 15], [15, 15]], true);
 const PLAY_R = poly([[15, 8], [15, 16], [19, 12]], true);
@@ -100,24 +98,24 @@ export const BATCH_74: Icon[] = [
   },
   {
     slug: "label-approved", category: "interface", subcategory: "action",
-    name: "Label approved", description: "A label with a check beside it — a tag that has been approved",
-    tags: ["label", "approved", "check"], family: "tag",
+    name: "Label approved", description: "A label with a check inside — a tag that has been approved",
+    tags: ["label", "approved", "check"], family: "object",
     aliases: [], keywords: ["approved label", "verified tag", "label check"],
-    shapes: [TAG_L, poly([[15, 13], [17.5, 15.5], [22, 11]])],
+    shapes: [poly([[3, 6], [13, 6], [21, 14], [13, 22], [3, 22]], true), ...check(SMALL, 13.5)],
   },
   {
     slug: "label-removed", category: "interface", subcategory: "action",
-    name: "Label removed", description: "A label with an X beside it — a tag taken off an item and removed",
-    tags: ["label", "removed", "untag"], family: "tag",
+    name: "Label removed", description: "A label with an X inside — a tag taken off an item and removed",
+    tags: ["label", "removed", "untag"], family: "object",
     aliases: [], keywords: ["remove label", "untag", "label removed"],
-    shapes: [TAG_L, ...X_R],
+    shapes: [poly([[3, 6], [13, 6], [21, 14], [13, 22], [3, 22]], true), ...off(SMALL, 13.5)],
   },
   {
     slug: "locked-label", category: "interface", subcategory: "action",
-    name: "Locked label", description: "A label beside a padlock — a tag that only administrators may change",
-    tags: ["label", "locked", "admin"], family: "tag",
+    name: "Locked label", description: "A label with a padlock inside — a tag that only administrators may change",
+    tags: ["label", "locked", "admin"], family: "object",
     aliases: [], keywords: ["locked label", "protected tag", "admin-only label"],
-    shapes: [TAG_L, ...LOCK_R],
+    shapes: [poly([[3, 6], [13, 6], [21, 14], [13, 22], [3, 22]], true), ...lockMark(SMALL, 13.5)],
   },
 
   /* ── cloud: a coin with a fate ────────────────────────────────────────────────── */
@@ -232,10 +230,10 @@ export const BATCH_74: Icon[] = [
   },
   {
     slug: "policy-label", category: "security", subcategory: "auth",
-    name: "Policy label", description: "A label beside a shield — a tag that carries a security policy with it",
-    tags: ["policy", "label", "tag"], family: "tag",
+    name: "Policy label", description: "A label with a shield inside — a tag that carries a security policy with it",
+    tags: ["policy", "label", "tag"], family: "object",
     aliases: [], keywords: ["policy label", "policy tag", "tag-based policy"],
-    shapes: [TAG_L, poly([[16, 9], [22, 9], [22, 14.5], [19, 17.5], [16, 14.5]], true)],
+    shapes: [poly([[3, 6], [13, 6], [21, 14], [13, 22], [3, 22]], true), ...shieldMark(SMALL, 13.5)],
   },
   {
     slug: "locked-trigger", category: "security", subcategory: "auth",

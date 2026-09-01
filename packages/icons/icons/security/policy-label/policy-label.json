@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Policy label",
-  "description": "A label beside a shield — a tag that carries a security policy with it",
+  "description": "A label with a shield inside — a tag that carries a security policy with it",
   "tags": [
     "policy",
     "label",
@@ -14,14 +14,14 @@
     "policy tag",
     "tag-based policy"
   ],
-  "family": "tag",
+  "family": "object",
   "shapes": [
     {
-      "d": "M3 6L7 6L11 10L7 14L3 14Z",
+      "d": "M3 6L13 6L21 14L13 22L3 22Z",
       "closed": true
     },
     {
-      "d": "M16 9L22 9L22 14.5L19 17.5L16 14.5Z",
+      "d": "M9 10.5L15 10.5L15 13.5L12 16.5L9 13.5Z",
       "closed": true
     }
   ]

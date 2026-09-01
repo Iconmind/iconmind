@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Locked label",
-  "description": "A label beside a padlock — a tag that only administrators may change",
+  "description": "A label with a padlock inside — a tag that only administrators may change",
   "tags": [
     "label",
     "locked",
@@ -14,18 +14,18 @@
     "protected tag",
     "admin-only label"
   ],
-  "family": "tag",
+  "family": "object",
   "shapes": [
     {
-      "d": "M3 6L7 6L11 10L7 14L3 14Z",
+      "d": "M3 6L13 6L21 14L13 22L3 22Z",
       "closed": true
     },
     {
-      "d": "M14 11A2 2 0 0 1 16 9H20A2 2 0 0 1 22 11V14.5A2 2 0 0 1 20 16.5H16A2 2 0 0 1 14 14.5Z",
+      "d": "M9 13.5L15 13.5L15 16.5L9 16.5Z",
       "closed": true
     },
     {
-      "d": "M16 9A2 2 0 0 1 20 9",
+      "d": "M10.5 13.5A1.5 1.5 0 0 1 13.5 13.5",
       "closed": false
     }
   ]

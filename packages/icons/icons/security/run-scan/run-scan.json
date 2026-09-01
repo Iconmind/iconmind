@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Run scan",
-  "description": "A shield beside a play button — start a security scan right now",
+  "description": "A shield with a play inside — start a security scan right now",
   "tags": [
     "scan",
     "run",
@@ -17,11 +17,11 @@
   "family": "shield",
   "shapes": [
     {
-      "d": "M3 5L12 5L12 11L7.5 15.5L3 11Z",
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
       "closed": true
     },
     {
-      "d": "M15 8L15 16L19 12Z",
+      "d": "M10.5 8L13.5 11L10.5 14Z",
       "closed": true
     }
   ]

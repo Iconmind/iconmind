@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Stale label",
-  "description": "A label beside a Z — a tag nobody has used in a long time, gone stale",
+  "description": "A label with a Z inside — a tag nobody has used in a long time, gone stale",
   "tags": [
     "label",
     "stale",
@@ -14,14 +14,14 @@
     "unused tag",
     "old label"
   ],
-  "family": "tag",
+  "family": "object",
   "shapes": [
     {
-      "d": "M3 6L7 6L11 10L7 14L3 14Z",
+      "d": "M3 6L13 6L21 14L13 22L3 22Z",
       "closed": true
     },
     {
-      "d": "M15 9.5L20 9.5L15 14.5L20 14.5",
+      "d": "M9 10.5L15 10.5L9 16.5L15 16.5",
       "closed": false
     }
   ]

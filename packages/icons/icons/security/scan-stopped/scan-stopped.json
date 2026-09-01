@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Scan stopped",
-  "description": "A shield beside a stop square — a security scan halted before it finished",
+  "description": "A shield with a stop square inside — a security scan halted before it finished",
   "tags": [
     "scan",
     "stopped",
@@ -17,11 +17,11 @@
   "family": "shield",
   "shapes": [
     {
-      "d": "M3 5L12 5L12 11L7.5 15.5L3 11Z",
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
       "closed": true
     },
     {
-      "d": "M15 9L21 9L21 15L15 15Z",
+      "d": "M9 8L15 8L15 14L9 14Z",
       "closed": true
     }
   ]

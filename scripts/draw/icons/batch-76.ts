@@ -9,7 +9,7 @@
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
 import { key, shield } from "../bodies.ts";
-import { alert, BIG, flagMark, heartMark, idleMark, keyMark, playMark, SMALL, trendMark } from "../marks.ts";
+import { alert, BIG, flagMark, heartMark, idleMark, keyMark, playMark, remove, SMALL, squareMark, trendMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -20,8 +20,6 @@ const WINDOW = [rect(3, 3, 18, 18, 2), row(8, 3, 21)];
 const LENS_LS = [disc(8.5, 10, 4.5), poly([[5.5, 13], [3, 15.5]])];
 const BOOKMARK_L = poly([[3, 5], [12, 5], [12, 19], [7.5, 14.5], [3, 19]], true);
 const HEART_L = raw("M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z", HEART, true);
-const SHIELD_L = poly([[3, 5], [12, 5], [12, 11], [7.5, 15.5], [3, 11]], true);
-const TAG_L = poly([[3, 6], [7, 6], [11, 10], [7, 14], [3, 14]], true);
 const PLAY_L = poly([[3, 5], [3, 19], [10, 12]], true);
 const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
 const TARGET_L = [disc(8, 12, 5), disc(8, 12, 2)];
@@ -40,7 +38,6 @@ const MINUS_R = row(12, 16, 22);
 const LINE_R = poly([[15, 19], [17.5, 16.5], [19.5, 18.5], [22, 16]]);
 const UP_R = [poly([[16, 13], [19, 10], [22, 13]]), poly([[16, 17.5], [19, 14.5], [22, 17.5]])];
 const UP_R15 = [poly([[15, 13], [18.5, 9.5], [22, 13]]), poly([[15, 17.5], [18.5, 14], [22, 17.5]])];
-const TARGET_R = [disc(18, 13, 4), disc(18, 13, 1)];
 
 export const BATCH_76: Icon[] = [
   /* ── interface: the search, the bookmark, the heart ───────────────────────────── */
@@ -127,24 +124,24 @@ export const BATCH_76: Icon[] = [
 
   {
     slug: "scan-stopped", category: "security", subcategory: "ai-security",
-    name: "Scan stopped", description: "A shield beside a stop square — a security scan halted before it finished",
+    name: "Scan stopped", description: "A shield with a stop square inside — a security scan halted before it finished",
     tags: ["scan", "stopped", "halt"], family: "shield",
     aliases: [], keywords: ["scan stopped", "halt scan", "scan cancelled"],
-    shapes: [SHIELD_L, poly([[15, 9], [21, 9], [21, 15], [15, 15]], true)],
+    shapes: [shield(), ...squareMark(SMALL, 11)],
   },
   {
     slug: "shield-upgrade", category: "security", subcategory: "ai-security",
-    name: "Shield upgrade", description: "A shield beside a double chevron rising — protection raised to a higher level",
+    name: "Shield upgrade", description: "A shield, a double chevron rising inside — protection raised to a higher level",
     tags: ["shield", "upgrade", "level"], family: "shield",
     aliases: [], keywords: ["upgrade protection", "raise security level", "stronger shield"],
-    shapes: [SHIELD_L, ...UP_R],
+    shapes: [shield(), poly([[10, 10.5], [12, 8.5], [14, 10.5]]), poly([[10, 13.5], [12, 11.5], [14, 13.5]])],
   },
   {
     slug: "remove-policy", category: "security", subcategory: "auth",
-    name: "Remove policy", description: "A shield with a minus beside it — take a policy away from the set",
-    tags: ["policy", "remove", "delete"], family: "shield",
+    name: "Remove policy", description: "A policy sheet with a minus — take a policy away from the set",
+    tags: ["policy", "remove", "delete"], family: "page",
     aliases: [], keywords: ["remove policy", "delete rule", "policy removed"],
-    shapes: [SHIELD_L, MINUS_R],
+    shapes: [rect(4, 3, 16, 18, 2), row(8, 7, 17), ...remove(SMALL, 14.5)],
   },
   {
     slug: "geo-key", category: "security", subcategory: "auth",
@@ -179,24 +176,24 @@ export const BATCH_76: Icon[] = [
 
   {
     slug: "stale-label", category: "interface", subcategory: "action",
-    name: "Stale label", description: "A label beside a Z — a tag nobody has used in a long time, gone stale",
-    tags: ["label", "stale", "unused"], family: "tag",
+    name: "Stale label", description: "A label with a Z inside — a tag nobody has used in a long time, gone stale",
+    tags: ["label", "stale", "unused"], family: "object",
     aliases: [], keywords: ["stale label", "unused tag", "old label"],
-    shapes: [TAG_L, Z_R],
+    shapes: [poly([[3, 6], [13, 6], [21, 14], [13, 22], [3, 22]], true), ...idleMark(SMALL, 13.5)],
   },
   {
     slug: "tag-trend", category: "interface", subcategory: "action",
-    name: "Tag trend", description: "A label beside a rising line — a tag used more and more over time",
-    tags: ["label", "trend", "popular"], family: "tag",
+    name: "Tag trend", description: "A label with a rising line inside — a tag used more and more over time",
+    tags: ["label", "trend", "popular"], family: "object",
     aliases: [], keywords: ["tag trend", "trending label", "tag usage"],
-    shapes: [TAG_L, LINE_R],
+    shapes: [poly([[3, 6], [13, 6], [21, 14], [13, 22], [3, 22]], true), ...trendMark(SMALL, 13.5)],
   },
   {
     slug: "move-label", category: "interface", subcategory: "action",
-    name: "Move label", description: "A label with an arrow beside it — move a tag to another group",
-    tags: ["label", "move", "reorganise"], family: "tag",
+    name: "Move label", description: "A label with an arrow inside — move a tag to another group",
+    tags: ["label", "move", "reorganise"], family: "object",
     aliases: [], keywords: ["move label", "reassign tag", "relocate label"],
-    shapes: [TAG_L, ...ARROW_R],
+    shapes: [poly([[3, 6], [13, 6], [21, 14], [13, 22], [3, 22]], true), row(13.5, 9, 15), poly([[12.5, 11], [15, 13.5], [12.5, 16]])],
   },
   {
     slug: "location-trend", category: "interface", subcategory: "identity",

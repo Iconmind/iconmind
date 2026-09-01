@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Move label",
-  "description": "A label with an arrow beside it — move a tag to another group",
+  "description": "A label with an arrow inside — move a tag to another group",
   "tags": [
     "label",
     "move",
@@ -14,18 +14,18 @@
     "reassign tag",
     "relocate label"
   ],
-  "family": "tag",
+  "family": "object",
   "shapes": [
     {
-      "d": "M3 6L7 6L11 10L7 14L3 14Z",
+      "d": "M3 6L13 6L21 14L13 22L3 22Z",
       "closed": true
     },
     {
-      "d": "M16 12H22",
+      "d": "M9 13.5H15",
       "closed": false
     },
     {
-      "d": "M19.5 9.5L22 12L19.5 14.5",
+      "d": "M12.5 11L15 13.5L12.5 16",
       "closed": false
     }
   ]

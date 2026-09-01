@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Label approved",
-  "description": "A label with a check beside it — a tag that has been approved",
+  "description": "A label with a check inside — a tag that has been approved",
   "tags": [
     "label",
     "approved",
@@ -14,14 +14,14 @@
     "verified tag",
     "label check"
   ],
-  "family": "tag",
+  "family": "object",
   "shapes": [
     {
-      "d": "M3 6L7 6L11 10L7 14L3 14Z",
+      "d": "M3 6L13 6L21 14L13 22L3 22Z",
       "closed": true
     },
     {
-      "d": "M15 13L17.5 15.5L22 11",
+      "d": "M9 13.5L11 15.5L15 11.5",
       "closed": false
     }
   ]

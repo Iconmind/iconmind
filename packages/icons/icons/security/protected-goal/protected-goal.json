@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Protected goal",
-  "description": "A shield beside a target — a goal guarded from interference or tampering",
+  "description": "A shield with a flag inside — a goal guarded from interference or tampering",
   "tags": [
     "goal",
     "protected",
@@ -17,16 +17,16 @@
   "family": "shield",
   "shapes": [
     {
-      "d": "M3 5L11 5L11 11L7 15L3 11Z",
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
       "closed": true
     },
     {
-      "d": "M14 13a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
-      "closed": true
+      "d": "M9 8V14",
+      "closed": false
     },
     {
-      "d": "M17 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
-      "closed": true
+      "d": "M9 9L14 9L14 13L9 13",
+      "closed": false
     }
   ]
 }

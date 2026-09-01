@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Security trend",
-  "description": "A shield beside a rising line — how the security posture is trending",
+  "description": "A shield with a rising line inside — how the security posture is trending",
   "tags": [
     "posture",
     "trend",
@@ -17,11 +17,11 @@
   "family": "shield",
   "shapes": [
     {
-      "d": "M3 5L12 5L12 11L7.5 15.5L3 11Z",
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
       "closed": true
     },
     {
-      "d": "M15 19L17.5 16.5L19.5 18.5L22 16",
+      "d": "M9 14L11 12L13 14L15 12",
       "closed": false
     }
   ]

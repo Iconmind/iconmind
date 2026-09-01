@@ -9,7 +9,7 @@
  */
 import { arc, area, col, disc, openDisc, poly, raw, rect, row } from "../forms.ts";
 import { alert, BIG, bookmarkMark, check, coinMark, funnelMark, heartMark, idleMark, keyMark, pinMark, playMark, searchMark, shieldMark, SMALL, tagMark, targetMark, trendMark } from "../marks.ts";
-import { dial, key, machine } from "../bodies.ts";
+import { dial, key, machine, shield } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -19,7 +19,6 @@ const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
 const FUNNEL_L = poly([[3, 5], [14, 5], [10, 9], [10, 17], [7, 17], [7, 9]], true);
 const FLAG_L = [col(4, 3, 21), poly([[4, 3], [13, 3], [10, 6], [13, 9], [4, 9]])];
 const DIAMOND_L = poly([[7, 8], [11, 12], [7, 16], [3, 12]], true);
-const SHIELD_L = poly([[3, 5], [12, 5], [12, 11], [7.5, 15.5], [3, 11]], true);
 const TARGET_L = [disc(8, 12, 5), disc(8, 12, 2)];
 const PLAY_L = poly([[3, 5], [3, 19], [10, 12]], true);
 const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
@@ -143,10 +142,10 @@ export const BATCH_73: Icon[] = [
   },
   {
     slug: "security-trend", category: "security", subcategory: "ai-security",
-    name: "Security trend", description: "A shield beside a rising line — how the security posture is trending",
+    name: "Security trend", description: "A shield with a rising line inside — how the security posture is trending",
     tags: ["posture", "trend", "risk"], family: "shield",
     aliases: [], keywords: ["security trend", "posture over time", "risk trend"],
-    shapes: [SHIELD_L, poly([[15, 19], [17.5, 16.5], [19.5, 18.5], [22, 16]])],
+    shapes: [shield(), ...trendMark(SMALL, 11)],
   },
   {
     slug: "policy-scope", category: "security", subcategory: "auth",
