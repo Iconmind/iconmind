@@ -4,6 +4,6 @@ import '../data.dart';
 /// PrivilegeEscalation
 const IconMindData privilegeEscalation = IconMindData(
   'privilege-escalation',
-  [N('M4 10a4 4 0 1 0 8 0 4 4 0 1 0 -8 0'), N('M8 14v7'), N('M8 18h3'), N('m14 15 5 -5'), N('M15.5 10H19v3.5')],
-  [N.tint('M4 10a4 4 0 1 0 8 0 4 4 0 1 0 -8 0'), N('M4 10a4 4 0 1 0 8 0 4 4 0 1 0 -8 0'), N('M8 14v7'), N('M8 18h3'), N('m14 15 5 -5'), N('M15.5 10H19v3.5')],
+  [N('M14 2h2.5a3 3 0 0 1 3 3v7a3 3 0 0 1 -3 3h-9a3 3 0 0 1 -3 -3V5a3 3 0 0 1 3 -3H10'), N('M12 15v6'), N('M12 18h3'), N('M12 21h2.5'), N('m9.5 11 5 -5'), N('M10.5 6h4v4')],
+  [N.tint('M14 2h2.5a3 3 0 0 1 3 3v7a3 3 0 0 1 -3 3h-9a3 3 0 0 1 -3 -3V5a3 3 0 0 1 3 -3H10'), N('M14 2h2.5a3 3 0 0 1 3 3v7a3 3 0 0 1 -3 3h-9a3 3 0 0 1 -3 -3V5a3 3 0 0 1 3 -3H10'), N('M12 15v6'), N('M12 18h3'), N('M12 21h2.5'), N('m9.5 11 5 -5'), N('M10.5 6h4v4')],
 );

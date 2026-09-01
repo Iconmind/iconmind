@@ -4,6 +4,6 @@ import '../data.dart';
 /// TaggedList
 const IconMindData taggedList = IconMindData(
   'tagged-list',
-  [N('M3 5h6l3 3 -3 3H3Z'), N('M15 8h7'), N('M15 12h7'), N('M15 16h7')],
-  [N.tint('M3 5h6l3 3 -3 3H3Z'), N('M3 5h6l3 3 -3 3H3Z'), N('M15 8h7'), N('M15 12h7'), N('M15 16h7')],
+  [N('M4 7.5a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2V19a2 2 0 0 1 -2 2H6a2 2 0 0 1 -2 -2Z'), N('M9.5 7V2.5h5V7'), N('M9 10.5h3l3 3 -3 3H9Z')],
+  [N.tint('M4 7.5a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2V19a2 2 0 0 1 -2 2H6a2 2 0 0 1 -2 -2Z'), N.tint('M9 10.5h3l3 3 -3 3H9Z'), N('M4 7.5a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2V19a2 2 0 0 1 -2 2H6a2 2 0 0 1 -2 -2Z'), N('M9.5 7V2.5h5V7'), N('M9 10.5h3l3 3 -3 3H9Z')],
 );

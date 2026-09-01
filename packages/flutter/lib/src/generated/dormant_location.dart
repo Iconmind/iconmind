@@ -4,6 +4,6 @@ import '../data.dart';
 /// DormantLocation
 const IconMindData dormantLocation = IconMindData(
   'dormant-location',
-  [N('M4 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M7 13v4'), N('M15 9.5h5l-5 5h5')],
-  [N.tint('M4 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M4 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M7 13v4'), N('M15 9.5h5l-5 5h5')],
+  [N('M4 10a8 8 0 0 1 16 0l-8 8Z'), N('M9 7h6l-6 6h6')],
+  [N.tint('M4 10a8 8 0 0 1 16 0l-8 8Z'), N('M4 10a8 8 0 0 1 16 0l-8 8Z'), N('M9 7h6l-6 6h6')],
 );

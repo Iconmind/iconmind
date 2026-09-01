@@ -4,6 +4,6 @@ import '../data.dart';
 /// BellRemove
 const IconMindData bellRemove = IconMindData(
   'bell-remove',
-  [N('M6 13a6 6 0 0 1 12 0'), N('M6 13v4'), N('M18 13v4'), N('M4 17h16'), N('M17 6h5')],
-  [N.halo('M6 13a6 6 0 0 1 12 0'), N.halo('M6 13v4'), N.halo('M18 13v4'), N.halo('M4 17h16'), N.halo('M17 6h5'), N('M6 13a6 6 0 0 1 12 0'), N('M6 13v4'), N('M18 13v4'), N('M4 17h16'), N('M17 6h5')],
+  [N('M3 17a9 9 0 0 1 18 0'), N('M3 20h18'), N('M9 14h6')],
+  [N.halo('M3 17a9 9 0 0 1 18 0'), N.halo('M3 20h18'), N.halo('M9 14h6'), N('M3 17a9 9 0 0 1 18 0'), N('M3 20h18'), N('M9 14h6')],
 );

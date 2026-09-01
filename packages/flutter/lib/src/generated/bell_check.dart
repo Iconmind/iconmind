@@ -4,6 +4,6 @@ import '../data.dart';
 /// BellCheck
 const IconMindData bellCheck = IconMindData(
   'bell-check',
-  [N('M6 13a6 6 0 0 1 12 0'), N('M6 13v4'), N('M18 13v4'), N('M4 17h16'), N('m17 6 2 2 3 -3')],
-  [N.halo('M6 13a6 6 0 0 1 12 0'), N.halo('M6 13v4'), N.halo('M18 13v4'), N.halo('M4 17h16'), N.halo('m17 6 2 2 3 -3'), N('M6 13a6 6 0 0 1 12 0'), N('M6 13v4'), N('M18 13v4'), N('M4 17h16'), N('m17 6 2 2 3 -3')],
+  [N('M3 17a9 9 0 0 1 18 0'), N('M3 20h18'), N('m9 14 2 2 4 -4')],
+  [N.halo('M3 17a9 9 0 0 1 18 0'), N.halo('M3 20h18'), N.halo('m9 14 2 2 4 -4'), N('M3 17a9 9 0 0 1 18 0'), N('M3 20h18'), N('m9 14 2 2 4 -4')],
 );

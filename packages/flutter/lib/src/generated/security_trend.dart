@@ -4,6 +4,6 @@ import '../data.dart';
 /// SecurityTrend
 const IconMindData securityTrend = IconMindData(
   'security-trend',
-  [N('M3 5h9v6l-4.5 4.5L3 11Z'), N('m15 19 2.5 -2.5 2 2L22 16')],
-  [N.tint('M3 5h9v6l-4.5 4.5L3 11Z'), N('M3 5h9v6l-4.5 4.5L3 11Z'), N('m15 19 2.5 -2.5 2 2L22 16')],
+  [N('M15 5h5v8l-8 8 -8 -8V5h5'), N('m9 14 2 -2 2 2 2 -2')],
+  [N.tint('M15 5h5v8l-8 8 -8 -8V5h5'), N('M15 5h5v8l-8 8 -8 -8V5h5'), N('m9 14 2 -2 2 2 2 -2')],
 );

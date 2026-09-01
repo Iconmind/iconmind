@@ -4,6 +4,6 @@ import '../data.dart';
 /// GeoEvent
 const IconMindData geoEvent = IconMindData(
   'geo-event',
-  [N('m10 6 -5 5h4l-5 5'), N('M15 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M18 13v4')],
-  [N.tint('M15 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('m10 6 -5 5h4l-5 5'), N('M15 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M18 13v4')],
+  [N('M4 10a8 8 0 0 1 16 0l-8 8Z'), N('m15 7 -3 3h2.5l-3 3')],
+  [N.tint('M4 10a8 8 0 0 1 16 0l-8 8Z'), N('M4 10a8 8 0 0 1 16 0l-8 8Z'), N('m15 7 -3 3h2.5l-3 3')],
 );

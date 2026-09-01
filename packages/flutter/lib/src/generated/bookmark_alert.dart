@@ -4,6 +4,6 @@ import '../data.dart';
 /// BookmarkAlert
 const IconMindData bookmarkAlert = IconMindData(
   'bookmark-alert',
-  [N('M3 5h9v14l-4.5 -4.5L3 19Z'), N('M18 7v5'), N('M17 15a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
-  [N.tint('M3 5h9v14l-4.5 -4.5L3 19Z'), N.tint('M17 15a1 1 0 1 0 2 0 1 1 0 1 0 -2 0'), N('M3 5h9v14l-4.5 -4.5L3 19Z'), N('M18 7v5'), N('M17 15a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
+  [N('M15 3h3v18l-6 -6 -6 6V3h3'), N('M12 6v3'), N('M11 12a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
+  [N.tint('M15 3h3v18l-6 -6 -6 6V3h3'), N.tint('M11 12a1 1 0 1 0 2 0 1 1 0 1 0 -2 0'), N('M15 3h3v18l-6 -6 -6 6V3h3'), N('M12 6v3'), N('M11 12a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
 );

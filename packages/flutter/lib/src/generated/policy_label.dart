@@ -4,6 +4,6 @@ import '../data.dart';
 /// PolicyLabel
 const IconMindData policyLabel = IconMindData(
   'policy-label',
-  [N('M3 6h4l4 4 -4 4H3Z'), N('M16 9h6v5.5l-3 3 -3 -3Z')],
-  [N.tint('M3 6h4l4 4 -4 4H3Z'), N.tint('M16 9h6v5.5l-3 3 -3 -3Z'), N('M3 6h4l4 4 -4 4H3Z'), N('M16 9h6v5.5l-3 3 -3 -3Z')],
+  [N('M3 6h10l8 8 -8 8H3Z'), N('M9 10.5h6v3l-3 3 -3 -3Z')],
+  [N.tint('M3 6h10l8 8 -8 8H3Z'), N.tint('M9 10.5h6v3l-3 3 -3 -3Z'), N('M3 6h10l8 8 -8 8H3Z'), N('M9 10.5h6v3l-3 3 -3 -3Z')],
 );

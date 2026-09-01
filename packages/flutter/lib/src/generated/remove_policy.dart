@@ -4,6 +4,6 @@ import '../data.dart';
 /// RemovePolicy
 const IconMindData removePolicy = IconMindData(
   'remove-policy',
-  [N('M3 5h9v6l-4.5 4.5L3 11Z'), N('M16 12h6')],
-  [N.tint('M3 5h9v6l-4.5 4.5L3 11Z'), N('M3 5h9v6l-4.5 4.5L3 11Z'), N('M16 12h6')],
+  [N('M4 5a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2H6a2 2 0 0 1 -2 -2Z'), N('M7 8h10'), N('M9 14.5h6')],
+  [N.tint('M4 5a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2H6a2 2 0 0 1 -2 -2Z'), N('M4 5a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2H6a2 2 0 0 1 -2 -2Z'), N('M7 8h10'), N('M9 14.5h6')],
 );

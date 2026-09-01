@@ -4,6 +4,6 @@ import '../data.dart';
 /// TimeFilter
 const IconMindData timeFilter = IconMindData(
   'time-filter',
-  [N('M2 12a5.5 5.5 0 1 0 11 0 5.5 5.5 0 1 0 -11 0'), N('M7.5 9v3H10'), N('M15 9h7l-2 2v8h-3v-8Z')],
-  [N.tint('M2 12a5.5 5.5 0 1 0 11 0 5.5 5.5 0 1 0 -11 0'), N.tint('M15 9h7l-2 2v8h-3v-8Z'), N('M2 12a5.5 5.5 0 1 0 11 0 5.5 5.5 0 1 0 -11 0'), N('M7.5 9v3H10'), N('M15 9h7l-2 2v8h-3v-8Z')],
+  [N('M15.38 6.75a8 8 0 1 1 -6.76 0'), N('M12 3v3'), N('M9 3h6'), N('M8 10h8l-2 2v6h-4v-6Z')],
+  [N.tint('M8 10h8l-2 2v6h-4v-6Z'), N('M15.38 6.75a8 8 0 1 1 -6.76 0'), N('M12 3v3'), N('M9 3h6'), N('M8 10h8l-2 2v6h-4v-6Z')],
 );

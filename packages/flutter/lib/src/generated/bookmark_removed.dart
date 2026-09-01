@@ -4,6 +4,6 @@ import '../data.dart';
 /// BookmarkRemoved
 const IconMindData bookmarkRemoved = IconMindData(
   'bookmark-removed',
-  [N('M3 5h9v14l-4.5 -4.5L3 19Z'), N('m16 9.5 5 5'), N('m21 9.5 -5 5')],
-  [N.tint('M3 5h9v14l-4.5 -4.5L3 19Z'), N('M3 5h9v14l-4.5 -4.5L3 19Z'), N('m16 9.5 5 5'), N('m21 9.5 -5 5')],
+  [N('M15 3h3v18l-6 -6 -6 6V3h3'), N('M9 10h6')],
+  [N.tint('M15 3h3v18l-6 -6 -6 6V3h3'), N('M15 3h3v18l-6 -6 -6 6V3h3'), N('M9 10h6')],
 );

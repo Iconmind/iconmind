@@ -4,6 +4,6 @@ import '../data.dart';
 /// MoveLabel
 const IconMindData moveLabel = IconMindData(
   'move-label',
-  [N('M3 6h4l4 4 -4 4H3Z'), N('M16 12h6'), N('M19.5 9.5 22 12l-2.5 2.5')],
-  [N.tint('M3 6h4l4 4 -4 4H3Z'), N('M3 6h4l4 4 -4 4H3Z'), N('M16 12h6'), N('M19.5 9.5 22 12l-2.5 2.5')],
+  [N('M3 6h10l8 8 -8 8H3Z'), N('M9 13.5h6'), N('m12.5 11 2.5 2.5 -2.5 2.5')],
+  [N.tint('M3 6h10l8 8 -8 8H3Z'), N('M3 6h10l8 8 -8 8H3Z'), N('M9 13.5h6'), N('m12.5 11 2.5 2.5 -2.5 2.5')],
 );

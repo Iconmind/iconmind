@@ -4,6 +4,6 @@ import '../data.dart';
 /// FindCheckpoint
 const IconMindData findCheckpoint = IconMindData(
   'find-checkpoint',
-  [N('M4 3v18'), N('M4 3h9l-3 3 3 3H4'), N('M15 13.5a3.5 3.5 0 1 0 7 0 3.5 3.5 0 1 0 -7 0'), N('m16 16 -2 2')],
-  [N.tint('M15 13.5a3.5 3.5 0 1 0 7 0 3.5 3.5 0 1 0 -7 0'), N('M4 3v18'), N('M4 3h9l-3 3 3 3H4'), N('M15 13.5a3.5 3.5 0 1 0 7 0 3.5 3.5 0 1 0 -7 0'), N('m16 16 -2 2')],
+  [N('M4 3v18'), N('M4 4h16v12H4'), N('M9 9a2 2 0 1 0 4 0 2 2 0 1 0 -4 0'), N('M11.5 9.5 15 13')],
+  [N.tint('M9 9a2 2 0 1 0 4 0 2 2 0 1 0 -4 0'), N.halo('M4 3v18'), N.halo('M4 4h16v12H4'), N.halo('M11.5 9.5 15 13'), N('M4 3v18'), N('M4 4h16v12H4'), N('M9 9a2 2 0 1 0 4 0 2 2 0 1 0 -4 0'), N('M11.5 9.5 15 13')],
 );

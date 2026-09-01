@@ -1,3 +1,12 @@
+## 0.6.3
+
+No new icons — around a hundred and fifty redrawn. Every icon that used to sit beside
+its qualifier now carries it inside one body: keys got a fob head, clocks a timer dial,
+checkpoints a full-size flag, goals a trophy, money a banknote, lists a clipboard,
+notifications a bell dome, mail an opened envelope, code blocks their bracket pair, and
+runs and events each a card of their own. The filter family pours instead — the state
+sits below the funnel's stem, as what came through. Same names, same count, steadier set.
+
 ## 0.6.2
 
 A hundred and fifty icons across three rounds, and two new subcategories.

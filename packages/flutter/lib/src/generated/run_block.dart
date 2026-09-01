@@ -4,6 +4,6 @@ import '../data.dart';
 /// RunBlock
 const IconMindData runBlock = IconMindData(
   'run-block',
-  [N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('M9.5 8.5v7L13 12Z')],
-  [N.tint('M9.5 8.5v7L13 12Z'), N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('M9.5 8.5v7L13 12Z')],
+  [N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('m10.5 9 3 3 -3 3Z')],
+  [N.tint('m10.5 9 3 3 -3 3Z'), N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('m10.5 9 3 3 -3 3Z')],
 );

@@ -4,6 +4,6 @@ import '../data.dart';
 /// RunIdle
 const IconMindData runIdle = IconMindData(
   'run-idle',
-  [N('M3 5v14l7 -7Z'), N('M15 9.5h5l-5 5h5')],
-  [N.tint('M3 5v14l7 -7Z'), N('M3 5v14l7 -7Z'), N('M15 9.5h5l-5 5h5')],
+  [N('M3 4a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2Z'), N('M11 5v5l2.5 -2.5Z'), N('M9 13h6l-6 6h6')],
+  [N.tint('M3 4a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2Z'), N.tint('M11 5v5l2.5 -2.5Z'), N('M3 4a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2Z'), N('M11 5v5l2.5 -2.5Z'), N('M9 13h6l-6 6h6')],
 );

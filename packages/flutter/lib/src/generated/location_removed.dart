@@ -4,6 +4,6 @@ import '../data.dart';
 /// LocationRemoved
 const IconMindData locationRemoved = IconMindData(
   'location-removed',
-  [N('M4 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M7 13v4'), N('m16 9.5 5 5'), N('m21 9.5 -5 5')],
-  [N.tint('M4 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M4 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M7 13v4'), N('m16 9.5 5 5'), N('m21 9.5 -5 5')],
+  [N('M4 10a8 8 0 0 1 16 0l-8 8Z'), N('m10 8 4 4'), N('m14 8 -4 4')],
+  [N.tint('M4 10a8 8 0 0 1 16 0l-8 8Z'), N('M4 10a8 8 0 0 1 16 0l-8 8Z'), N('m10 8 4 4'), N('m14 8 -4 4')],
 );

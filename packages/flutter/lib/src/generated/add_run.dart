@@ -4,6 +4,6 @@ import '../data.dart';
 /// AddRun
 const IconMindData addRun = IconMindData(
   'add-run',
-  [N('M3 5v14l7 -7Z'), N('M16 12h6'), N('M19 9v6')],
-  [N.tint('M3 5v14l7 -7Z'), N('M3 5v14l7 -7Z'), N('M16 12h6'), N('M19 9v6')],
+  [N('M3 4a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2Z'), N('M11 5v5l2.5 -2.5Z'), N('M12 13v6'), N('M9 16h6')],
+  [N.tint('M3 4a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2Z'), N.tint('M11 5v5l2.5 -2.5Z'), N('M3 4a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2Z'), N('M11 5v5l2.5 -2.5Z'), N('M12 13v6'), N('M9 16h6')],
 );

@@ -4,6 +4,6 @@ import '../data.dart';
 /// SafetyFilter
 const IconMindData safetyFilter = IconMindData(
   'safety-filter',
-  [N('M3 5h11l-4 4v8H7V9Z'), N('M16 9h6v5.5l-3 3 -3 -3Z')],
-  [N.tint('M3 5h11l-4 4v8H7V9Z'), N.tint('M16 9h6v5.5l-3 3 -3 -3Z'), N('M3 5h11l-4 4v8H7V9Z'), N('M16 9h6v5.5l-3 3 -3 -3Z')],
+  [N('M15 5h5v8l-8 8 -8 -8V5h5'), N('m9 8 3 3 3 -3'), N('M12 11v3')],
+  [N.tint('M15 5h5v8l-8 8 -8 -8V5h5'), N('M15 5h5v8l-8 8 -8 -8V5h5'), N('m9 8 3 3 3 -3'), N('M12 11v3')],
 );

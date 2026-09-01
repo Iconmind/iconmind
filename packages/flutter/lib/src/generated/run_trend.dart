@@ -4,6 +4,6 @@ import '../data.dart';
 /// RunTrend
 const IconMindData runTrend = IconMindData(
   'run-trend',
-  [N('M3 5v14l7 -7Z'), N('m13 19 3 -3 2 2 4 -4')],
-  [N.tint('M3 5v14l7 -7Z'), N('M3 5v14l7 -7Z'), N('m13 19 3 -3 2 2 4 -4')],
+  [N('M3 4a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2Z'), N('M11 5v5l2.5 -2.5Z'), N('m9 19 2 -2 2 2 2 -2')],
+  [N.tint('M3 4a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2Z'), N.tint('M11 5v5l2.5 -2.5Z'), N('M3 4a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2Z'), N('M11 5v5l2.5 -2.5Z'), N('m9 19 2 -2 2 2 2 -2')],
 );

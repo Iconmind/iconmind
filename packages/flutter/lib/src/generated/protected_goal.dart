@@ -4,6 +4,6 @@ import '../data.dart';
 /// ProtectedGoal
 const IconMindData protectedGoal = IconMindData(
   'protected-goal',
-  [N('M3 5h8v6l-4 4 -4 -4Z'), N('M14 13a4 4 0 1 0 8 0 4 4 0 1 0 -8 0'), N('M17 13a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
-  [N.tint('M3 5h8v6l-4 4 -4 -4Z'), N.tint('M14 13a4 4 0 1 0 8 0 4 4 0 1 0 -8 0'), N.tint('M17 13a1 1 0 1 0 2 0 1 1 0 1 0 -2 0'), N('M3 5h8v6l-4 4 -4 -4Z'), N('M14 13a4 4 0 1 0 8 0 4 4 0 1 0 -8 0'), N('M17 13a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
+  [N('M15 5h5v8l-8 8 -8 -8V5h5'), N('M9 8v6'), N('M9 9h5v4H9')],
+  [N.tint('M15 5h5v8l-8 8 -8 -8V5h5'), N('M15 5h5v8l-8 8 -8 -8V5h5'), N('M9 8v6'), N('M9 9h5v4H9')],
 );

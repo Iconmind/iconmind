@@ -4,6 +4,6 @@ import '../data.dart';
 /// ArchivedList
 const IconMindData archivedList = IconMindData(
   'archived-list',
-  [N('M3 6h11'), N('M3 11h11'), N('M3 16h11'), N('M17 8.5h5l-5 5h5')],
-  [N.halo('M3 6h11'), N.halo('M3 11h11'), N.halo('M3 16h11'), N.halo('M17 8.5h5l-5 5h5'), N('M3 6h11'), N('M3 11h11'), N('M3 16h11'), N('M17 8.5h5l-5 5h5')],
+  [N('M4 7.5a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2V19a2 2 0 0 1 -2 2H6a2 2 0 0 1 -2 -2Z'), N('M9.5 7V2.5h5V7'), N('M9 10.5h6l-6 6h6')],
+  [N.tint('M4 7.5a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2V19a2 2 0 0 1 -2 2H6a2 2 0 0 1 -2 -2Z'), N('M4 7.5a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2V19a2 2 0 0 1 -2 2H6a2 2 0 0 1 -2 -2Z'), N('M9.5 7V2.5h5V7'), N('M9 10.5h6l-6 6h6')],
 );

@@ -4,6 +4,6 @@ import '../data.dart';
 /// KeyShield
 const IconMindData keyShield = IconMindData(
   'key-shield',
-  [N('M3 9a4 4 0 1 0 8 0 4 4 0 1 0 -8 0'), N('M7 13v8'), N('M7 18h3'), N('M14 12h8v5l-4 4 -4 -4Z')],
-  [N.tint('M3 9a4 4 0 1 0 8 0 4 4 0 1 0 -8 0'), N.tint('M14 12h8v5l-4 4 -4 -4Z'), N('M3 9a4 4 0 1 0 8 0 4 4 0 1 0 -8 0'), N('M7 13v8'), N('M7 18h3'), N('M14 12h8v5l-4 4 -4 -4Z')],
+  [N('M15 5h5v8l-8 8 -8 -8V5h5'), N('M10 9.5a2 2 0 1 0 4 0 2 2 0 1 0 -4 0'), N('M12 11.5V14'), N('M12 12.5h2.5')],
+  [N.tint('M15 5h5v8l-8 8 -8 -8V5h5'), N.tint('M10 9.5a2 2 0 1 0 4 0 2 2 0 1 0 -4 0'), N('M15 5h5v8l-8 8 -8 -8V5h5'), N('M10 9.5a2 2 0 1 0 4 0 2 2 0 1 0 -4 0'), N('M12 11.5V14'), N('M12 12.5h2.5')],
 );

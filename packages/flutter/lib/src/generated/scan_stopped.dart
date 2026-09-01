@@ -4,6 +4,6 @@ import '../data.dart';
 /// ScanStopped
 const IconMindData scanStopped = IconMindData(
   'scan-stopped',
-  [N('M3 5h9v6l-4.5 4.5L3 11Z'), N('M15 9h6v6h-6Z')],
-  [N.tint('M3 5h9v6l-4.5 4.5L3 11Z'), N.tint('M15 9h6v6h-6Z'), N('M3 5h9v6l-4.5 4.5L3 11Z'), N('M15 9h6v6h-6Z')],
+  [N('M15 5h5v8l-8 8 -8 -8V5h5'), N('M9 8h6v6H9Z')],
+  [N.tint('M15 5h5v8l-8 8 -8 -8V5h5'), N.tint('M9 8h6v6H9Z'), N('M15 5h5v8l-8 8 -8 -8V5h5'), N('M9 8h6v6H9Z')],
 );

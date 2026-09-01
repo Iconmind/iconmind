@@ -4,6 +4,6 @@ import '../data.dart';
 /// StaleBookmark
 const IconMindData staleBookmark = IconMindData(
   'stale-bookmark',
-  [N('M3 5h9v14l-4.5 -4.5L3 19Z'), N('M15 9.5h5l-5 5h5')],
-  [N.tint('M3 5h9v14l-4.5 -4.5L3 19Z'), N('M3 5h9v14l-4.5 -4.5L3 19Z'), N('M15 9.5h5l-5 5h5')],
+  [N('M15 3h3v18l-6 -6 -6 6V3h3'), N('M9 6h6l-6 6h6')],
+  [N.tint('M15 3h3v18l-6 -6 -6 6V3h3'), N('M15 3h3v18l-6 -6 -6 6V3h3'), N('M9 6h6l-6 6h6')],
 );

@@ -4,6 +4,6 @@ import '../data.dart';
 /// Address
 const IconMindData address = IconMindData(
   'address',
-  [N('M4 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M7 13v4'), N('M13 8h9'), N('M13 12h9'), N('M13 16h9')],
-  [N.tint('M4 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M4 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M7 13v4'), N('M13 8h9'), N('M13 12h9'), N('M13 16h9')],
+  [N('M4 10a8 8 0 0 1 16 0l-8 8Z'), N('M9 8.5h6'), N('M9 11.5h6')],
+  [N.tint('M4 10a8 8 0 0 1 16 0l-8 8Z'), N('M4 10a8 8 0 0 1 16 0l-8 8Z'), N('M9 8.5h6'), N('M9 11.5h6')],
 );

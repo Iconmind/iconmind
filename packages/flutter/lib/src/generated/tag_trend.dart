@@ -4,6 +4,6 @@ import '../data.dart';
 /// TagTrend
 const IconMindData tagTrend = IconMindData(
   'tag-trend',
-  [N('M3 6h4l4 4 -4 4H3Z'), N('m15 19 2.5 -2.5 2 2L22 16')],
-  [N.tint('M3 6h4l4 4 -4 4H3Z'), N('M3 6h4l4 4 -4 4H3Z'), N('m15 19 2.5 -2.5 2 2L22 16')],
+  [N('M3 6h10l8 8 -8 8H3Z'), N('m9 16.5 2 -2 2 2 2 -2')],
+  [N.tint('M3 6h10l8 8 -8 8H3Z'), N('M3 6h10l8 8 -8 8H3Z'), N('m9 16.5 2 -2 2 2 2 -2')],
 );

@@ -4,6 +4,6 @@ import '../data.dart';
 /// AssertFail
 const IconMindData assertFail = IconMindData(
   'assert-fail',
-  [N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('m9.5 9.5 5 5'), N('m14.5 9.5 -5 5')],
-  [N.halo('M7 3H3v18h4'), N.halo('M17 3h4v18h-4'), N.halo('m9.5 9.5 5 5'), N.halo('m14.5 9.5 -5 5'), N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('m9.5 9.5 5 5'), N('m14.5 9.5 -5 5')],
+  [N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('m10 10 4 4'), N('m14 10 -4 4')],
+  [N.halo('M7 3H3v18h4'), N.halo('M17 3h4v18h-4'), N.halo('m10 10 4 4'), N.halo('m14 10 -4 4'), N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('m10 10 4 4'), N('m14 10 -4 4')],
 );

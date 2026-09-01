@@ -4,6 +4,6 @@ import '../data.dart';
 /// MilestoneFilter
 const IconMindData milestoneFilter = IconMindData(
   'milestone-filter',
-  [N('M3 5h11l-4 4v8H7V9Z'), N('M17 5v16'), N('M17 5h5l-2.5 2.5L22 10h-5')],
-  [N.tint('M3 5h11l-4 4v8H7V9Z'), N('M3 5h11l-4 4v8H7V9Z'), N('M17 5v16'), N('M17 5h5l-2.5 2.5L22 10h-5')],
+  [N('M4 3v18'), N('M4 4h16v12H4'), N('m9 7 3 3 3 -3'), N('M12 10v3')],
+  [N.halo('M4 3v18'), N.halo('M4 4h16v12H4'), N.halo('m9 7 3 3 3 -3'), N.halo('M12 10v3'), N('M4 3v18'), N('M4 4h16v12H4'), N('m9 7 3 3 3 -3'), N('M12 10v3')],
 );

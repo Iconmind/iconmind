@@ -4,6 +4,6 @@ import '../data.dart';
 /// GoalFilter
 const IconMindData goalFilter = IconMindData(
   'goal-filter',
-  [N('M3 5h11l-4 4v8H7V9Z'), N('M14 13a4 4 0 1 0 8 0 4 4 0 1 0 -8 0'), N('M17 13a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
-  [N.tint('M3 5h11l-4 4v8H7V9Z'), N.tint('M14 13a4 4 0 1 0 8 0 4 4 0 1 0 -8 0'), N.tint('M17 13a1 1 0 1 0 2 0 1 1 0 1 0 -2 0'), N('M3 5h11l-4 4v8H7V9Z'), N('M14 13a4 4 0 1 0 8 0 4 4 0 1 0 -8 0'), N('M17 13a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
+  [N('M5.5 3v5.5a6.5 6.5 0 0 0 13 0V3'), N('M12 15v5.5'), N('M8.5 20.5h7'), N('m9 6 3 3 3 -3'), N('M12 9v3')],
+  [N.halo('M5.5 3v5.5a6.5 6.5 0 0 0 13 0V3'), N.halo('M12 15v5.5'), N.halo('M8.5 20.5h7'), N.halo('m9 6 3 3 3 -3'), N.halo('M12 9v3'), N('M5.5 3v5.5a6.5 6.5 0 0 0 13 0V3'), N('M12 15v5.5'), N('M8.5 20.5h7'), N('m9 6 3 3 3 -3'), N('M12 9v3')],
 );

@@ -4,6 +4,6 @@ import '../data.dart';
 /// PlaceLabel
 const IconMindData placeLabel = IconMindData(
   'place-label',
-  [N('M4 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M7 13v4'), N('M14 13h5l3 3 -3 3h-5Z')],
-  [N.tint('M4 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N.tint('M14 13h5l3 3 -3 3h-5Z'), N('M4 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M7 13v4'), N('M14 13h5l3 3 -3 3h-5Z')],
+  [N('M4 10a8 8 0 0 1 16 0l-8 8Z'), N('M9 7h3l3 3 -3 3H9Z')],
+  [N.tint('M4 10a8 8 0 0 1 16 0l-8 8Z'), N.tint('M9 7h3l3 3 -3 3H9Z'), N('M4 10a8 8 0 0 1 16 0l-8 8Z'), N('M9 7h3l3 3 -3 3H9Z')],
 );

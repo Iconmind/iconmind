@@ -4,6 +4,6 @@ import '../data.dart';
 /// EventIdle
 const IconMindData eventIdle = IconMindData(
   'event-idle',
-  [N('m10 6 -5 5h4l-5 5'), N('M15 9.5h5l-5 5h5')],
-  [N.halo('m10 6 -5 5h4l-5 5'), N.halo('M15 9.5h5l-5 5h5'), N('m10 6 -5 5h4l-5 5'), N('M15 9.5h5l-5 5h5')],
+  [N('M3 4a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2Z'), N('m14 5 -2.5 2.5H14L11.5 10'), N('M9 13h6l-6 6h6')],
+  [N.tint('M3 4a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2Z'), N('M3 4a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2Z'), N('m14 5 -2.5 2.5H14L11.5 10'), N('M9 13h6l-6 6h6')],
 );

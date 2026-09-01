@@ -4,6 +4,6 @@ import '../data.dart';
 /// ListTrend
 const IconMindData listTrend = IconMindData(
   'list-trend',
-  [N('M3 6h9'), N('M3 11h9'), N('M3 16h9'), N('m15 19 2.5 -2.5 2 2L22 16')],
-  [N.halo('M3 6h9'), N.halo('M3 11h9'), N.halo('M3 16h9'), N.halo('m15 19 2.5 -2.5 2 2L22 16'), N('M3 6h9'), N('M3 11h9'), N('M3 16h9'), N('m15 19 2.5 -2.5 2 2L22 16')],
+  [N('M4 7.5a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2V19a2 2 0 0 1 -2 2H6a2 2 0 0 1 -2 -2Z'), N('M9.5 7V2.5h5V7'), N('m9 16.5 2 -2 2 2 2 -2')],
+  [N.tint('M4 7.5a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2V19a2 2 0 0 1 -2 2H6a2 2 0 0 1 -2 -2Z'), N('M4 7.5a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2V19a2 2 0 0 1 -2 2H6a2 2 0 0 1 -2 -2Z'), N('M9.5 7V2.5h5V7'), N('m9 16.5 2 -2 2 2 2 -2')],
 );

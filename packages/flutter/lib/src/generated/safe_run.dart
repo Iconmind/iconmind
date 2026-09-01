@@ -4,6 +4,6 @@ import '../data.dart';
 /// SafeRun
 const IconMindData safeRun = IconMindData(
   'safe-run',
-  [N('M3 5v14l7 -7Z'), N('M13 11h9v5.5L17.5 21 13 16.5Z')],
-  [N.tint('M3 5v14l7 -7Z'), N.tint('M13 11h9v5.5L17.5 21 13 16.5Z'), N('M3 5v14l7 -7Z'), N('M13 11h9v5.5L17.5 21 13 16.5Z')],
+  [N('M3 4a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2Z'), N('M11 5v5l2.5 -2.5Z'), N('M9 13h6v3l-3 3 -3 -3Z')],
+  [N.tint('M3 4a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2Z'), N.tint('M11 5v5l2.5 -2.5Z'), N.tint('M9 13h6v3l-3 3 -3 -3Z'), N('M3 4a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2Z'), N('M11 5v5l2.5 -2.5Z'), N('M9 13h6v3l-3 3 -3 -3Z')],
 );

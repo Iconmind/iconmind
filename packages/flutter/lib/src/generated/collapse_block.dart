@@ -4,6 +4,6 @@ import '../data.dart';
 /// CollapseBlock
 const IconMindData collapseBlock = IconMindData(
   'collapse-block',
-  [N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('m9 7 3 3 3 -3'), N('m9 17 3 -3 3 3')],
-  [N.halo('M7 3H3v18h4'), N.halo('M17 3h4v18h-4'), N.halo('m9 7 3 3 3 -3'), N.halo('m9 17 3 -3 3 3'), N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('m9 7 3 3 3 -3'), N('m9 17 3 -3 3 3')],
+  [N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('m10 7 2 2 2 -2'), N('m10 17 2 -2 2 2')],
+  [N.halo('M7 3H3v18h4'), N.halo('M17 3h4v18h-4'), N.halo('m10 7 2 2 2 -2'), N.halo('m10 17 2 -2 2 2'), N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('m10 7 2 2 2 -2'), N('m10 17 2 -2 2 2')],
 );

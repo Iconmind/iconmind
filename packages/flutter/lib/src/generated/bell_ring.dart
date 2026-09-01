@@ -4,6 +4,6 @@ import '../data.dart';
 /// BellRing
 const IconMindData bellRing = IconMindData(
   'bell-ring',
-  [N('M6 13a6 6 0 0 1 12 0'), N('M6 13v4'), N('M18 13v4'), N('M4 17h16'), N('m3 10 2 -2'), N('m21 10 -2 -2')],
-  [N.halo('M6 13a6 6 0 0 1 12 0'), N.halo('M6 13v4'), N.halo('M18 13v4'), N.halo('M4 17h16'), N.halo('m3 10 2 -2'), N.halo('m21 10 -2 -2'), N('M6 13a6 6 0 0 1 12 0'), N('M6 13v4'), N('M18 13v4'), N('M4 17h16'), N('m3 10 2 -2'), N('m21 10 -2 -2')],
+  [N('M3 17a9 9 0 0 1 18 0'), N('M3 20h18'), N('m3 9 2 -2'), N('m21 9 -2 -2')],
+  [N.halo('M3 17a9 9 0 0 1 18 0'), N.halo('M3 20h18'), N.halo('m3 9 2 -2'), N.halo('m21 9 -2 -2'), N('M3 17a9 9 0 0 1 18 0'), N('M3 20h18'), N('m3 9 2 -2'), N('m21 9 -2 -2')],
 );

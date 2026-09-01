@@ -4,6 +4,6 @@ import '../data.dart';
 /// SavedFilter
 const IconMindData savedFilter = IconMindData(
   'saved-filter',
-  [N('M3 5h11l-4 4v8H7V9Z'), N('M16 8h6v8l-3 -3 -3 3Z')],
-  [N.tint('M3 5h11l-4 4v8H7V9Z'), N.tint('M16 8h6v8l-3 -3 -3 3Z'), N('M3 5h11l-4 4v8H7V9Z'), N('M16 8h6v8l-3 -3 -3 3Z')],
+  [N('M15 3h3v18l-6 -6 -6 6V3h3'), N('m9 6 3 3 3 -3'), N('M12 9v3')],
+  [N.tint('M15 3h3v18l-6 -6 -6 6V3h3'), N('M15 3h3v18l-6 -6 -6 6V3h3'), N('m9 6 3 3 3 -3'), N('M12 9v3')],
 );

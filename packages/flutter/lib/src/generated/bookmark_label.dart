@@ -4,6 +4,6 @@ import '../data.dart';
 /// BookmarkLabel
 const IconMindData bookmarkLabel = IconMindData(
   'bookmark-label',
-  [N('M3 5h9v14l-4.5 -4.5L3 19Z'), N('M16 13h4l2 2 -2 2h-4Z')],
-  [N.tint('M3 5h9v14l-4.5 -4.5L3 19Z'), N.tint('M16 13h4l2 2 -2 2h-4Z'), N('M3 5h9v14l-4.5 -4.5L3 19Z'), N('M16 13h4l2 2 -2 2h-4Z')],
+  [N('M3 6h10l8 8 -8 8H3Z'), N('M10 10.5h4v6l-2 -2 -2 2Z')],
+  [N.tint('M3 6h10l8 8 -8 8H3Z'), N.tint('M10 10.5h4v6l-2 -2 -2 2Z'), N('M3 6h10l8 8 -8 8H3Z'), N('M10 10.5h4v6l-2 -2 -2 2Z')],
 );

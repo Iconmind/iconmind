@@ -4,6 +4,6 @@ import '../data.dart';
 /// FilterTrend
 const IconMindData filterTrend = IconMindData(
   'filter-trend',
-  [N('M3 5h11l-4 4v8H7V9Z'), N('m15 19 2.5 -2.5 2 2L22 16')],
-  [N.tint('M3 5h11l-4 4v8H7V9Z'), N('M3 5h11l-4 4v8H7V9Z'), N('m15 19 2.5 -2.5 2 2L22 16')],
+  [N('M9 2.5H3l7 7V12h4V9.5l7 -7h-6'), N('m9 21 2 -2 2 2 2 -2')],
+  [N.tint('M9 2.5H3l7 7V12h4V9.5l7 -7h-6'), N('M9 2.5H3l7 7V12h4V9.5l7 -7h-6'), N('m9 21 2 -2 2 2 2 -2')],
 );

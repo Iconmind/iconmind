@@ -4,6 +4,6 @@ import '../data.dart';
 /// ProtectedCheckpoint
 const IconMindData protectedCheckpoint = IconMindData(
   'protected-checkpoint',
-  [N('M4 3v18'), N('M4 3h9l-3 3 3 3H4'), N('M16 11h6v5l-3 3 -3 -3Z')],
-  [N.tint('M16 11h6v5l-3 3 -3 -3Z'), N('M4 3v18'), N('M4 3h9l-3 3 3 3H4'), N('M16 11h6v5l-3 3 -3 -3Z')],
+  [N('M4 3v18'), N('M4 4h16v12H4'), N('M9 7h6v3l-3 3 -3 -3Z')],
+  [N.tint('M9 7h6v3l-3 3 -3 -3Z'), N('M4 3v18'), N('M4 4h16v12H4'), N('M9 7h6v3l-3 3 -3 -3Z')],
 );

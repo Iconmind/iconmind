@@ -4,6 +4,6 @@ import '../data.dart';
 /// StaleLabel
 const IconMindData staleLabel = IconMindData(
   'stale-label',
-  [N('M3 6h4l4 4 -4 4H3Z'), N('M15 9.5h5l-5 5h5')],
-  [N.tint('M3 6h4l4 4 -4 4H3Z'), N('M3 6h4l4 4 -4 4H3Z'), N('M15 9.5h5l-5 5h5')],
+  [N('M3 6h10l8 8 -8 8H3Z'), N('M9 10.5h6l-6 6h6')],
+  [N.tint('M3 6h10l8 8 -8 8H3Z'), N('M3 6h10l8 8 -8 8H3Z'), N('M9 10.5h6l-6 6h6')],
 );

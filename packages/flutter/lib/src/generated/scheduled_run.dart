@@ -4,6 +4,6 @@ import '../data.dart';
 /// ScheduledRun
 const IconMindData scheduledRun = IconMindData(
   'scheduled-run',
-  [N('M2 12a5.5 5.5 0 1 0 11 0 5.5 5.5 0 1 0 -11 0'), N('M7.5 9v3H10'), N('M16 8v8l4 -4Z')],
-  [N.tint('M2 12a5.5 5.5 0 1 0 11 0 5.5 5.5 0 1 0 -11 0'), N.tint('M16 8v8l4 -4Z'), N('M2 12a5.5 5.5 0 1 0 11 0 5.5 5.5 0 1 0 -11 0'), N('M7.5 9v3H10'), N('M16 8v8l4 -4Z')],
+  [N('M15.38 6.75a8 8 0 1 1 -6.76 0'), N('M12 3v3'), N('M9 3h6'), N('m10 10 4 4 -4 4Z')],
+  [N.tint('m10 10 4 4 -4 4Z'), N('M15.38 6.75a8 8 0 1 1 -6.76 0'), N('M12 3v3'), N('M9 3h6'), N('m10 10 4 4 -4 4Z')],
 );

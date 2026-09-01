@@ -4,6 +4,6 @@ import '../data.dart';
 /// AgentCheckpoint
 const IconMindData agentCheckpoint = IconMindData(
   'agent-checkpoint',
-  [N('M16.23 2.94a10 10 0 1 1 -8.46 0'), N('M8 8v8'), N('M8 9h8l-2 2 2 2H8')],
-  [N.tint('M16.23 2.94a10 10 0 1 1 -8.46 0'), N('M16.23 2.94a10 10 0 1 1 -8.46 0'), N('M8 8v8'), N('M8 9h8l-2 2 2 2H8')],
+  [N('M16.23 2.94a10 10 0 1 1 -8.46 0'), N('M8 8v8'), N('M8 9h7v4H8')],
+  [N.tint('M16.23 2.94a10 10 0 1 1 -8.46 0'), N('M16.23 2.94a10 10 0 1 1 -8.46 0'), N('M8 8v8'), N('M8 9h7v4H8')],
 );

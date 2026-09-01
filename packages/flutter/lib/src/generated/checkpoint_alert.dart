@@ -4,6 +4,6 @@ import '../data.dart';
 /// CheckpointAlert
 const IconMindData checkpointAlert = IconMindData(
   'checkpoint-alert',
-  [N('M4 3v18'), N('M4 3h9l-3 3 3 3H4'), N('M18 7v5'), N('M17 15a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
-  [N.tint('M17 15a1 1 0 1 0 2 0 1 1 0 1 0 -2 0'), N.halo('M4 3v18'), N.halo('M4 3h9l-3 3 3 3H4'), N.halo('M18 7v5'), N('M4 3v18'), N('M4 3h9l-3 3 3 3H4'), N('M18 7v5'), N('M17 15a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
+  [N('M4 3v18'), N('M4 4h16v12H4'), N('M12 7v3'), N('M11 13a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
+  [N.tint('M11 13a1 1 0 1 0 2 0 1 1 0 1 0 -2 0'), N.halo('M4 3v18'), N.halo('M4 4h16v12H4'), N.halo('M12 7v3'), N('M4 3v18'), N('M4 4h16v12H4'), N('M12 7v3'), N('M11 13a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
 );

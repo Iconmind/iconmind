@@ -4,6 +4,6 @@ import '../data.dart';
 /// GeoFilter
 const IconMindData geoFilter = IconMindData(
   'geo-filter',
-  [N('M3 5h11l-4 4v8H7V9Z'), N('M15 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M18 13v4')],
-  [N.tint('M3 5h11l-4 4v8H7V9Z'), N.tint('M15 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M3 5h11l-4 4v8H7V9Z'), N('M15 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M18 13v4')],
+  [N('M4 10a8 8 0 0 1 16 0l-8 8Z'), N('m9 7 3 3 3 -3'), N('M12 10v3')],
+  [N.tint('M4 10a8 8 0 0 1 16 0l-8 8Z'), N('M4 10a8 8 0 0 1 16 0l-8 8Z'), N('m9 7 3 3 3 -3'), N('M12 10v3')],
 );

@@ -4,6 +4,6 @@ import '../data.dart';
 /// ShieldUpgrade
 const IconMindData shieldUpgrade = IconMindData(
   'shield-upgrade',
-  [N('M3 5h9v6l-4.5 4.5L3 11Z'), N('m16 13 3 -3 3 3'), N('m16 17.5 3 -3 3 3')],
-  [N.tint('M3 5h9v6l-4.5 4.5L3 11Z'), N('M3 5h9v6l-4.5 4.5L3 11Z'), N('m16 13 3 -3 3 3'), N('m16 17.5 3 -3 3 3')],
+  [N('M15 5h5v8l-8 8 -8 -8V5h5'), N('m10 10.5 2 -2 2 2'), N('m10 13.5 2 -2 2 2')],
+  [N.tint('M15 5h5v8l-8 8 -8 -8V5h5'), N('M15 5h5v8l-8 8 -8 -8V5h5'), N('m10 10.5 2 -2 2 2'), N('m10 13.5 2 -2 2 2')],
 );

@@ -4,6 +4,6 @@ import '../data.dart';
 /// TimerPause
 const IconMindData timerPause = IconMindData(
   'timer-pause',
-  [N('M2 12a5.5 5.5 0 1 0 11 0 5.5 5.5 0 1 0 -11 0'), N('M7.5 9v3H10'), N('M17 9v6'), N('M20.5 9v6')],
-  [N.tint('M2 12a5.5 5.5 0 1 0 11 0 5.5 5.5 0 1 0 -11 0'), N('M2 12a5.5 5.5 0 1 0 11 0 5.5 5.5 0 1 0 -11 0'), N('M7.5 9v3H10'), N('M17 9v6'), N('M20.5 9v6')],
+  [N('M15.38 6.75a8 8 0 1 1 -6.76 0'), N('M12 3v3'), N('M9 3h6'), N('M10 10v8'), N('M14 10v8')],
+  [N.halo('M15.38 6.75a8 8 0 1 1 -6.76 0'), N.halo('M12 3v3'), N.halo('M9 3h6'), N.halo('M10 10v8'), N.halo('M14 10v8'), N('M15.38 6.75a8 8 0 1 1 -6.76 0'), N('M12 3v3'), N('M9 3h6'), N('M10 10v8'), N('M14 10v8')],
 );

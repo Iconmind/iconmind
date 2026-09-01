@@ -4,6 +4,6 @@ import '../data.dart';
 /// EventFilter
 const IconMindData eventFilter = IconMindData(
   'event-filter',
-  [N('M3 5h11l-4 4v8H7V9Z'), N('m21 8 -4 4h3l-4 4')],
-  [N.tint('M3 5h11l-4 4v8H7V9Z'), N('M3 5h11l-4 4v8H7V9Z'), N('m21 8 -4 4h3l-4 4')],
+  [N('M9 2.5H3l7 7V12h4V9.5l7 -7h-6'), N('m15 15 -3 3h2.5l-3 3')],
+  [N.tint('M9 2.5H3l7 7V12h4V9.5l7 -7h-6'), N('M9 2.5H3l7 7V12h4V9.5l7 -7h-6'), N('m15 15 -3 3h2.5l-3 3')],
 );

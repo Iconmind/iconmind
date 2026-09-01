@@ -4,6 +4,6 @@ import '../data.dart';
 /// FilterAlert
 const IconMindData filterAlert = IconMindData(
   'filter-alert',
-  [N('M3 5h11l-4 4v8H7V9Z'), N('M18 7v5'), N('M17 15a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
-  [N.tint('M3 5h11l-4 4v8H7V9Z'), N.tint('M17 15a1 1 0 1 0 2 0 1 1 0 1 0 -2 0'), N('M3 5h11l-4 4v8H7V9Z'), N('M18 7v5'), N('M17 15a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
+  [N('M9 2.5H3l7 7V12h4V9.5l7 -7h-6'), N('M12 15v3'), N('M11 21a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
+  [N.tint('M9 2.5H3l7 7V12h4V9.5l7 -7h-6'), N.tint('M11 21a1 1 0 1 0 2 0 1 1 0 1 0 -2 0'), N('M9 2.5H3l7 7V12h4V9.5l7 -7h-6'), N('M12 15v3'), N('M11 21a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
 );

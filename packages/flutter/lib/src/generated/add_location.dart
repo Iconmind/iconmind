@@ -4,6 +4,6 @@ import '../data.dart';
 /// AddLocation
 const IconMindData addLocation = IconMindData(
   'add-location',
-  [N('M4 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M7 13v4'), N('M15 12h6'), N('M18 9v6')],
-  [N.tint('M4 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M4 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M7 13v4'), N('M15 12h6'), N('M18 9v6')],
+  [N('M4 10a8 8 0 0 1 16 0l-8 8Z'), N('M12 7v6'), N('M9 10h6')],
+  [N.tint('M4 10a8 8 0 0 1 16 0l-8 8Z'), N('M4 10a8 8 0 0 1 16 0l-8 8Z'), N('M12 7v6'), N('M9 10h6')],
 );

@@ -4,6 +4,6 @@ import '../data.dart';
 /// LockedBlock
 const IconMindData lockedBlock = IconMindData(
   'locked-block',
-  [N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('M8 13a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2.5a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2Z'), N('M10 11a2 2 0 0 1 4 0')],
-  [N.tint('M8 13a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2.5a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2Z'), N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('M8 13a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2.5a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2Z'), N('M10 11a2 2 0 0 1 4 0')],
+  [N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('M9 12h6v3H9Z'), N('M10.5 12a1.5 1.5 0 0 1 3 0')],
+  [N.tint('M9 12h6v3H9Z'), N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('M9 12h6v3H9Z'), N('M10.5 12a1.5 1.5 0 0 1 3 0')],
 );

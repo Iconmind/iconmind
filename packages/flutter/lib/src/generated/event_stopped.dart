@@ -4,6 +4,6 @@ import '../data.dart';
 /// EventStopped
 const IconMindData eventStopped = IconMindData(
   'event-stopped',
-  [N('m10 6 -5 5h4l-5 5'), N('M15 9h6v6h-6Z')],
-  [N.tint('M15 9h6v6h-6Z'), N('m10 6 -5 5h4l-5 5'), N('M15 9h6v6h-6Z')],
+  [N('M3 4a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2Z'), N('m14 5 -2.5 2.5H14L11.5 10'), N('M9 13h6v6H9Z')],
+  [N.tint('M3 4a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2Z'), N.tint('M9 13h6v6H9Z'), N('M3 4a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2Z'), N('m14 5 -2.5 2.5H14L11.5 10'), N('M9 13h6v6H9Z')],
 );

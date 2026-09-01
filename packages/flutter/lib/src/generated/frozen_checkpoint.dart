@@ -4,6 +4,6 @@ import '../data.dart';
 /// FrozenCheckpoint
 const IconMindData frozenCheckpoint = IconMindData(
   'frozen-checkpoint',
-  [N('M4 3v18'), N('M4 3h9l-3 3 3 3H4'), N('M14 14a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v3.5a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2Z'), N('M16 12a2 2 0 0 1 4 0')],
-  [N.tint('M14 14a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v3.5a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2Z'), N('M4 3v18'), N('M4 3h9l-3 3 3 3H4'), N('M14 14a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v3.5a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2Z'), N('M16 12a2 2 0 0 1 4 0')],
+  [N('M4 3v18'), N('M4 4h16v12H4'), N('M9 10h6v3H9Z'), N('M10.5 10a1.5 1.5 0 0 1 3 0')],
+  [N.tint('M9 10h6v3H9Z'), N('M4 3v18'), N('M4 4h16v12H4'), N('M9 10h6v3H9Z'), N('M10.5 10a1.5 1.5 0 0 1 3 0')],
 );

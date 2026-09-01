@@ -4,6 +4,6 @@ import '../data.dart';
 /// PolicyScope
 const IconMindData policyScope = IconMindData(
   'policy-scope',
-  [N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('M8.5 7h7v5L12 15.5 8.5 12Z')],
-  [N.tint('M8.5 7h7v5L12 15.5 8.5 12Z'), N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('M8.5 7h7v5L12 15.5 8.5 12Z')],
+  [N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('M9 9h6v3l-3 3 -3 -3Z')],
+  [N.tint('M9 9h6v3l-3 3 -3 -3Z'), N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('M9 9h6v3l-3 3 -3 -3Z')],
 );

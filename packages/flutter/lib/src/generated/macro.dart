@@ -4,6 +4,6 @@ import '../data.dart';
 /// Macro
 const IconMindData macro = IconMindData(
   'macro',
-  [N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('M13.5 7.5 10 11h3l-3.5 3.5')],
-  [N.halo('M7 3H3v18h4'), N.halo('M17 3h4v18h-4'), N.halo('M13.5 7.5 10 11h3l-3.5 3.5'), N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('M13.5 7.5 10 11h3l-3.5 3.5')],
+  [N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('m15 9 -3 3h2.5l-3 3')],
+  [N.halo('M7 3H3v18h4'), N.halo('M17 3h4v18h-4'), N.halo('m15 9 -3 3h2.5l-3 3'), N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('m15 9 -3 3h2.5l-3 3')],
 );

@@ -4,6 +4,6 @@ import '../data.dart';
 /// AssertPass
 const IconMindData assertPass = IconMindData(
   'assert-pass',
-  [N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('m8.5 12 2.5 2.5 4.5 -4.5')],
-  [N.halo('M7 3H3v18h4'), N.halo('M17 3h4v18h-4'), N.halo('m8.5 12 2.5 2.5 4.5 -4.5'), N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('m8.5 12 2.5 2.5 4.5 -4.5')],
+  [N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('m9 12 2 2 4 -4')],
+  [N.halo('M7 3H3v18h4'), N.halo('M17 3h4v18h-4'), N.halo('m9 12 2 2 4 -4'), N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('m9 12 2 2 4 -4')],
 );

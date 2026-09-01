@@ -4,6 +4,6 @@ import '../data.dart';
 /// TrendMilestone
 const IconMindData trendMilestone = IconMindData(
   'trend-milestone',
-  [N('M4 3v18'), N('M4 3h9l-3 3 3 3H4'), N('m15 19 2.5 -2.5 2 2L22 16')],
-  [N.halo('M4 3v18'), N.halo('M4 3h9l-3 3 3 3H4'), N.halo('m15 19 2.5 -2.5 2 2L22 16'), N('M4 3v18'), N('M4 3h9l-3 3 3 3H4'), N('m15 19 2.5 -2.5 2 2L22 16')],
+  [N('M4 3v18'), N('M4 4h16v12H4'), N('m9 13 2 -2 2 2 2 -2')],
+  [N.halo('M4 3v18'), N.halo('M4 4h16v12H4'), N.halo('m9 13 2 -2 2 2 2 -2'), N('M4 3v18'), N('M4 4h16v12H4'), N('m9 13 2 -2 2 2 2 -2')],
 );

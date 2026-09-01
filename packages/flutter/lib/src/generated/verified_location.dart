@@ -4,6 +4,6 @@ import '../data.dart';
 /// VerifiedLocation
 const IconMindData verifiedLocation = IconMindData(
   'verified-location',
-  [N('M4 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M7 13v4'), N('m15 13 2.5 2.5L22 11')],
-  [N.tint('M4 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M4 10a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M7 13v4'), N('m15 13 2.5 2.5L22 11')],
+  [N('M4 10a8 8 0 0 1 16 0l-8 8Z'), N('m8 12 2 2 6 -6')],
+  [N.tint('M4 10a8 8 0 0 1 16 0l-8 8Z'), N('M4 10a8 8 0 0 1 16 0l-8 8Z'), N('m8 12 2 2 6 -6')],
 );

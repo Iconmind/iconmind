@@ -4,6 +4,6 @@ import '../data.dart';
 /// LabelRemoved
 const IconMindData labelRemoved = IconMindData(
   'label-removed',
-  [N('M3 6h4l4 4 -4 4H3Z'), N('m16 9.5 5 5'), N('m21 9.5 -5 5')],
-  [N.tint('M3 6h4l4 4 -4 4H3Z'), N('M3 6h4l4 4 -4 4H3Z'), N('m16 9.5 5 5'), N('m21 9.5 -5 5')],
+  [N('M3 6h10l8 8 -8 8H3Z'), N('m10 11.5 4 4'), N('m14 11.5 -4 4')],
+  [N.tint('M3 6h10l8 8 -8 8H3Z'), N('M3 6h10l8 8 -8 8H3Z'), N('m10 11.5 4 4'), N('m14 11.5 -4 4')],
 );

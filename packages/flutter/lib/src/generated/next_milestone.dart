@@ -4,6 +4,6 @@ import '../data.dart';
 /// NextMilestone
 const IconMindData nextMilestone = IconMindData(
   'next-milestone',
-  [N('M4 3v18'), N('M4 3h9l-3 3 3 3H4'), N('m14.5 12 3 3 -3 3'), N('m19 12 3 3 -3 3')],
-  [N.halo('M4 3v18'), N.halo('M4 3h9l-3 3 3 3H4'), N.halo('m14.5 12 3 3 -3 3'), N.halo('m19 12 3 3 -3 3'), N('M4 3v18'), N('M4 3h9l-3 3 3 3H4'), N('m14.5 12 3 3 -3 3'), N('m19 12 3 3 -3 3')],
+  [N('M4 3v18'), N('M4 4h16v12H4'), N('M10.5 7.5 13 10l-2.5 2.5'), N('M13.5 7.5 16 10l-2.5 2.5')],
+  [N.halo('M4 3v18'), N.halo('M4 4h16v12H4'), N.halo('M10.5 7.5 13 10l-2.5 2.5'), N.halo('M13.5 7.5 16 10l-2.5 2.5'), N('M4 3v18'), N('M4 4h16v12H4'), N('M10.5 7.5 13 10l-2.5 2.5'), N('M13.5 7.5 16 10l-2.5 2.5')],
 );

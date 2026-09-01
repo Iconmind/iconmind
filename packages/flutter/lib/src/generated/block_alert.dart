@@ -4,6 +4,6 @@ import '../data.dart';
 /// BlockAlert
 const IconMindData blockAlert = IconMindData(
   'block-alert',
-  [N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('M12 7v6'), N('M11 16a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
-  [N.tint('M11 16a1 1 0 1 0 2 0 1 1 0 1 0 -2 0'), N.halo('M7 3H3v18h4'), N.halo('M17 3h4v18h-4'), N.halo('M12 7v6'), N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('M12 7v6'), N('M11 16a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
+  [N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('M12 9v3'), N('M11 15a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
+  [N.tint('M11 15a1 1 0 1 0 2 0 1 1 0 1 0 -2 0'), N.halo('M7 3H3v18h4'), N.halo('M17 3h4v18h-4'), N.halo('M12 9v3'), N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('M12 9v3'), N('M11 15a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
 );

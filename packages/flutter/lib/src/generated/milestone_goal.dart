@@ -4,6 +4,6 @@ import '../data.dart';
 /// MilestoneGoal
 const IconMindData milestoneGoal = IconMindData(
   'milestone-goal',
-  [N('M4 3v18'), N('M4 3h9l-3 3 3 3H4'), N('M14 14a4 4 0 1 0 8 0 4 4 0 1 0 -8 0'), N('M17 14a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
-  [N.tint('M14 14a4 4 0 1 0 8 0 4 4 0 1 0 -8 0'), N.tint('M17 14a1 1 0 1 0 2 0 1 1 0 1 0 -2 0'), N('M4 3v18'), N('M4 3h9l-3 3 3 3H4'), N('M14 14a4 4 0 1 0 8 0 4 4 0 1 0 -8 0'), N('M17 14a1 1 0 1 0 2 0 1 1 0 1 0 -2 0')],
+  [N('M4 3v18'), N('M4 4h16v12H4'), N('M12 7v5'), N('M9.5 9.5 12 12l2.5 -2.5')],
+  [N.halo('M4 3v18'), N.halo('M4 4h16v12H4'), N.halo('M12 7v5'), N.halo('M9.5 9.5 12 12l2.5 -2.5'), N('M4 3v18'), N('M4 4h16v12H4'), N('M12 7v5'), N('M9.5 9.5 12 12l2.5 -2.5')],
 );

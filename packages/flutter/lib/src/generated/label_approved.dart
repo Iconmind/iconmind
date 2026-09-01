@@ -4,6 +4,6 @@ import '../data.dart';
 /// LabelApproved
 const IconMindData labelApproved = IconMindData(
   'label-approved',
-  [N('M3 6h4l4 4 -4 4H3Z'), N('m15 13 2.5 2.5L22 11')],
-  [N.tint('M3 6h4l4 4 -4 4H3Z'), N('M3 6h4l4 4 -4 4H3Z'), N('m15 13 2.5 2.5L22 11')],
+  [N('M3 6h10l8 8 -8 8H3Z'), N('m9 13.5 2 2 4 -4')],
+  [N.tint('M3 6h10l8 8 -8 8H3Z'), N('M3 6h10l8 8 -8 8H3Z'), N('m9 13.5 2 2 4 -4')],
 );

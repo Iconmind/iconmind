@@ -4,6 +4,6 @@ import '../data.dart';
 /// SecretBlock
 const IconMindData secretBlock = IconMindData(
   'secret-block',
-  [N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('M9 9a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M12 12v5'), N('M12 15h2.5')],
-  [N.tint('M9 9a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('M9 9a3 3 0 1 0 6 0 3 3 0 1 0 -6 0'), N('M12 12v5'), N('M12 15h2.5')],
+  [N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('M10 10.5a2 2 0 1 0 4 0 2 2 0 1 0 -4 0'), N('M12 12.5V15'), N('M12 13.5h2.5')],
+  [N.tint('M10 10.5a2 2 0 1 0 4 0 2 2 0 1 0 -4 0'), N.halo('M7 3H3v18h4'), N.halo('M17 3h4v18h-4'), N.halo('M12 12.5V15'), N.halo('M12 13.5h2.5'), N('M7 3H3v18h4'), N('M17 3h4v18h-4'), N('M10 10.5a2 2 0 1 0 4 0 2 2 0 1 0 -4 0'), N('M12 12.5V15'), N('M12 13.5h2.5')],
 );

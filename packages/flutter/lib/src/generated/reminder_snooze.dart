@@ -4,6 +4,6 @@ import '../data.dart';
 /// ReminderSnooze
 const IconMindData reminderSnooze = IconMindData(
   'reminder-snooze',
-  [N('M3 12a6 6 0 1 0 12 0 6 6 0 1 0 -12 0'), N('M9 9v3h2.5'), N('M18 10h4l-4 4h4')],
-  [N.tint('M3 12a6 6 0 1 0 12 0 6 6 0 1 0 -12 0'), N('M3 12a6 6 0 1 0 12 0 6 6 0 1 0 -12 0'), N('M9 9v3h2.5'), N('M18 10h4l-4 4h4')],
+  [N('M15.38 6.75a8 8 0 1 1 -6.76 0'), N('M12 3v3'), N('M9 3h6'), N('M8 10h8l-8 8h8')],
+  [N.halo('M15.38 6.75a8 8 0 1 1 -6.76 0'), N.halo('M12 3v3'), N.halo('M9 3h6'), N.halo('M8 10h8l-8 8h8'), N('M15.38 6.75a8 8 0 1 1 -6.76 0'), N('M12 3v3'), N('M9 3h6'), N('M8 10h8l-8 8h8')],
 );

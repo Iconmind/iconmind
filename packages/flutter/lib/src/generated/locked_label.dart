@@ -4,6 +4,6 @@ import '../data.dart';
 /// LockedLabel
 const IconMindData lockedLabel = IconMindData(
   'locked-label',
-  [N('M3 6h4l4 4 -4 4H3Z'), N('M14 11a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v3.5a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2Z'), N('M16 9a2 2 0 0 1 4 0')],
-  [N.tint('M3 6h4l4 4 -4 4H3Z'), N.tint('M14 11a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v3.5a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2Z'), N('M3 6h4l4 4 -4 4H3Z'), N('M14 11a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v3.5a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2Z'), N('M16 9a2 2 0 0 1 4 0')],
+  [N('M3 6h10l8 8 -8 8H3Z'), N('M9 13.5h6v3H9Z'), N('M10.5 13.5a1.5 1.5 0 0 1 3 0')],
+  [N.tint('M3 6h10l8 8 -8 8H3Z'), N.tint('M9 13.5h6v3H9Z'), N('M3 6h10l8 8 -8 8H3Z'), N('M9 13.5h6v3H9Z'), N('M10.5 13.5a1.5 1.5 0 0 1 3 0')],
 );

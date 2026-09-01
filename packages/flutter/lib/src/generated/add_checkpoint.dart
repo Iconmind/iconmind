@@ -4,6 +4,6 @@ import '../data.dart';
 /// AddCheckpoint
 const IconMindData addCheckpoint = IconMindData(
   'add-checkpoint',
-  [N('M4 3v18'), N('M4 3h9l-3 3 3 3H4'), N('M16 14h6'), N('M19 11v6')],
-  [N.halo('M4 3v18'), N.halo('M4 3h9l-3 3 3 3H4'), N.halo('M16 14h6'), N.halo('M19 11v6'), N('M4 3v18'), N('M4 3h9l-3 3 3 3H4'), N('M16 14h6'), N('M19 11v6')],
+  [N('M4 3v18'), N('M4 4h16v12H4'), N('M12 7v6'), N('M9 10h6')],
+  [N.halo('M4 3v18'), N.halo('M4 4h16v12H4'), N.halo('M12 7v6'), N.halo('M9 10h6'), N('M4 3v18'), N('M4 4h16v12H4'), N('M12 7v6'), N('M9 10h6')],
 );
