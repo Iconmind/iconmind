@@ -8,14 +8,12 @@
  * free before drawing.
  */
 import { arc, col, disc, poly, raw, rect, row, area } from "../forms.ts";
-import { BIG, boltMark, bookmarkMark, check, clockMark, diamondMark, funnelMark, heartMark, keyMark, off, pinMark, playMark, SMALL, trendMark } from "../marks.ts";
+import { BIG, boltMark, bookmarkMark, check, clockMark, diamondMark, funnelMark, heartMark, keyMark, off, pinMark, playMark, SMALL, tagMark, trendMark } from "../marks.ts";
 import { banner, brackets, clipboard, dial, funnel, key, machine, page } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
-const BR_R = poly([[17, 3], [21, 3], [21, 21], [17, 21]]);
 const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
-const ROWS_R = (x: number) => [row(8, x, 22), row(12, x, 22), row(16, x, 22)];
 
 export const BATCH_72: Icon[] = [
   /* ── cloud: a coin with a mark ────────────────────────────────────────────────── */
@@ -218,10 +216,10 @@ export const BATCH_72: Icon[] = [
   },
   {
     slug: "bookmark-list", category: "interface", subcategory: "file",
-    name: "Bookmark list", description: "A bookmark beside a list — everything saved to read or revisit later",
-    tags: ["bookmarks", "reading", "saved"], family: "bookmark",
+    name: "Bookmark list", description: "A clipboard with a bookmark on it — the bookmarks kept as a list",
+    tags: ["bookmarks", "reading", "saved"], family: "clipboard",
     aliases: [], keywords: ["bookmark list", "reading list", "saved articles"],
-    shapes: [poly([[3, 5], [12, 5], [12, 19], [7.5, 14.5], [3, 19]], true), ...ROWS_R(15)],
+    shapes: [...clipboard(), ...bookmarkMark(SMALL, 13.5)],
   },
   {
     slug: "flagged-message", category: "interface", subcategory: "communication",
@@ -260,10 +258,10 @@ export const BATCH_72: Icon[] = [
   },
   {
     slug: "tagged-list", category: "interface", subcategory: "file",
-    name: "Tagged list", description: "A label beside a list — items grouped together under one tag or category",
-    tags: ["tag", "list", "group"], family: "tag",
+    name: "Tagged list", description: "A clipboard with a label on it — a list where every item carries a tag",
+    tags: ["tag", "list", "group"], family: "clipboard",
     aliases: [], keywords: ["tagged items", "items by tag", "label view"],
-    shapes: [poly([[3, 5], [9, 5], [12, 8], [9, 11], [3, 11]], true), ...ROWS_R(15)],
+    shapes: [...clipboard(), ...tagMark(SMALL, 13.5)],
   },
 
   /* ── devtools: a block with a verdict ─────────────────────────────────────────── */

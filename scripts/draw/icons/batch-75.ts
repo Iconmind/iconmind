@@ -14,17 +14,9 @@ import { add, alert, BIG, boltMark, bookmarkMark, check, coinMark, flagMark, fun
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
-const BR_R = poly([[17, 3], [21, 3], [21, 21], [17, 21]]);
 const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
 const WINDOW = [rect(3, 3, 18, 18, 2), row(8, 3, 21)];
 const WINDOW_T = [rect(3, 2.5, 18, 19, 2), row(7, 3, 21)];
-const TARGET_R = [disc(18, 13, 4), disc(18, 13, 1)];
-const LENS_R = [disc(17.5, 10, 3.5), poly([[20, 12.5], [22, 14.5]])];
-const BOOKMARK_R = poly([[14, 7], [21, 7], [21, 17], [17.5, 13.5], [14, 17]], true);
-const TAG_R = poly([[14, 13], [19, 13], [22, 16], [19, 19], [14, 19]], true);
-const PLUS_R = [row(12, 16, 22), col(19, 9, 15)];
-const CHECK_R = poly([[15, 13], [17.5, 15.5], [22, 11]]);
-const FLAG_R = [col(14, 5, 21), poly([[14, 5], [22, 5], [19, 8], [22, 11], [14, 11]])];
 
 export const BATCH_75: Icon[] = [
   /* ── security: locks and shields ──────────────────────────────────────────────── */
@@ -118,10 +110,10 @@ export const BATCH_75: Icon[] = [
   },
   {
     slug: "bookmark-search", category: "interface", subcategory: "file",
-    name: "Bookmark search", description: "A bookmark beside a magnifying glass — search your bookmarks",
-    tags: ["bookmark", "search", "find"], family: "bookmark",
+    name: "Bookmark search", description: "A magnifying glass with a bookmark inside — search through what you saved",
+    tags: ["bookmark", "search", "find"], family: "magnifier",
     aliases: [], keywords: ["search bookmarks", "find saved", "bookmark search"],
-    shapes: [poly([[3, 5], [11, 5], [11, 19], [7, 15], [3, 19]], true), ...LENS_R],
+    shapes: [disc(12, 10, 6.5), poly([[16.5, 14.5], [21, 19]]), ...bookmarkMark(SMALL, 10)],
   },
   {
     slug: "saved-policy", category: "interface", subcategory: "file",

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "identity",
   "name": "Favourite alert",
-  "description": "A heart beside an alert mark — news about something you favourited",
+  "description": "A bell with a heart inside — news about something you favourited",
   "tags": [
     "favourite",
     "alert",
@@ -14,20 +14,20 @@
     "watched item update",
     "favourite changed"
   ],
-  "family": "heart",
+  "family": "figure",
   "shapes": [
     {
-      "d": "M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z",
-      "closed": true,
-      "_why": "a heart is one line, not three strokes with visible seams"
-    },
-    {
-      "d": "M18 7V12",
+      "d": "M3 17A9 9 0 0 1 21 17",
       "closed": false
     },
     {
-      "d": "M17 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
-      "closed": true
+      "d": "M3 20H21",
+      "closed": false
+    },
+    {
+      "d": "M9 14A1.5 1.5 0 0 1 12 14A1.5 1.5 0 0 1 15 14L12 17Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
     }
   ]
 }

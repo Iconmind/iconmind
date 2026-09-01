@@ -8,23 +8,15 @@
  * Unattended round. Every name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { banknote, banner, bookmark, brackets, clipboard, eventCard, funnel, key, padlock, page, runCard, shield, trophy } from "../bodies.ts";
+import { banknote, banner, bell, bookmark, brackets, clipboard, eventCard, funnel, key, padlock, page, runCard, shield, trophy } from "../bodies.ts";
 import { alert, BIG, bookmarkMark, flagMark, funnelMark, heartMark, idleMark, keyMark, playMark, remove, SMALL, squareMark, trendMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
-const BR_R = poly([[17, 3], [21, 3], [21, 21], [17, 21]]);
 const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
 const WINDOW = [rect(3, 3, 18, 18, 2), row(8, 3, 21)];
 const LENS_LS = [disc(8.5, 10, 4.5), poly([[5.5, 13], [3, 15.5]])];
-const HEART_L = raw("M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z", HEART, true);
 const ROWS_LS = [row(6, 3, 12), row(11, 3, 12), row(16, 3, 12)];
-const ARROW_R = [row(12, 16, 22), poly([[19.5, 9.5], [22, 12], [19.5, 14.5]])];
-const ARROW_R15 = [row(12, 15, 22), poly([[19.5, 9.5], [22, 12], [19.5, 14.5]])];
-const ALERT_R = [col(18, 7, 12), disc(18, 15, 1)];
-const MINUS_R = row(12, 16, 22);
-const LINE_R = poly([[15, 19], [17.5, 16.5], [19.5, 18.5], [22, 16]]);
-const UP_R15 = [poly([[15, 13], [18.5, 9.5], [22, 13]]), poly([[15, 17.5], [18.5, 14], [22, 17.5]])];
 
 export const BATCH_76: Icon[] = [
   /* ── interface: the search, the bookmark, the heart ───────────────────────────── */
@@ -45,17 +37,17 @@ export const BATCH_76: Icon[] = [
   },
   {
     slug: "narrow-search", category: "interface", subcategory: "action",
-    name: "Narrow search", description: "A magnifying glass with a minus beside it — narrow the search down",
-    tags: ["search", "narrow", "refine"], family: "object",
+    name: "Narrow search", description: "A magnifying glass with a funnel inside — narrow the results down",
+    tags: ["search", "narrow", "refine"], family: "magnifier",
     aliases: [], keywords: ["narrow search", "refine query", "fewer results"],
-    shapes: [...LENS_LS, MINUS_R],
+    shapes: [disc(12, 10, 6.5), poly([[16.5, 14.5], [21, 19]]), ...funnelMark(SMALL, 10)],
   },
   {
     slug: "search-next", category: "interface", subcategory: "action",
-    name: "Search next", description: "A magnifying glass with an arrow beside it — jump to the next match",
-    tags: ["search", "next", "match"], family: "object",
+    name: "Search next", description: "A magnifying glass with an arrow inside — jump to the next search result",
+    tags: ["search", "next", "match"], family: "magnifier",
     aliases: [], keywords: ["next match", "find next", "search forward"],
-    shapes: [...LENS_LS, ...ARROW_R],
+    shapes: [disc(12, 10, 6.5), poly([[16.5, 14.5], [21, 19]]), row(10, 9, 15), poly([[12.5, 7.5], [15, 10], [12.5, 12.5]])],
   },
   {
     slug: "search-filter", category: "interface", subcategory: "action",
@@ -94,10 +86,10 @@ export const BATCH_76: Icon[] = [
   },
   {
     slug: "favorite-alert", category: "interface", subcategory: "identity",
-    name: "Favourite alert", description: "A heart beside an alert mark — news about something you favourited",
-    tags: ["favourite", "alert", "update"], family: "heart",
+    name: "Favourite alert", description: "A bell with a heart inside — news about something you favourited",
+    tags: ["favourite", "alert", "update"], family: "figure",
     aliases: [], keywords: ["favourite alert", "watched item update", "favourite changed"],
-    shapes: [HEART_L, ...ALERT_R],
+    shapes: [...bell(), ...heartMark(SMALL, 14)],
   },
   {
     slug: "share-favorite", category: "interface", subcategory: "identity",
@@ -298,10 +290,10 @@ export const BATCH_76: Icon[] = [
 
   {
     slug: "list-trend", category: "interface", subcategory: "file",
-    name: "List trend", description: "A list beside a rising line — a list growing longer and longer over time",
-    tags: ["list", "trend", "growth"], family: "text",
+    name: "List trend", description: "A clipboard with a rising line on it — a list growing over time",
+    tags: ["list", "trend", "growth"], family: "clipboard",
     aliases: [], keywords: ["list trend", "growing list", "items over time"],
-    shapes: [...ROWS_LS, LINE_R],
+    shapes: [...clipboard(), ...trendMark(SMALL, 13.5)],
   },
   {
     slug: "list-collapse", category: "interface", subcategory: "file",

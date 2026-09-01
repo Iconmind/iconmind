@@ -178,6 +178,11 @@ export const banknote = (): Shape[] =>
 export const clipboard = (): Shape[] =>
   [rect(4, 5.5, 16, 15.5, 2), poly([[9.5, 7], [9.5, 2.5], [14.5, 2.5], [14.5, 7]])];
 
+
+/** A bell flown big: the dome and its base bar, the clapper's spot left for a mark.
+ * `bell` itself keeps its small dome and clapper; this is the notification body. */
+export const bell = (): Shape[] => [arc(12, 17, 9, 180, 360), row(20, 3, 21)];
+
 /** A tray, mouth up: what things are put into or taken out of. */
 export const tray = (): Shape => body(poly([[4, 15], [4, 19], [20, 19], [20, 15]]));
 

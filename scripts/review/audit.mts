@@ -61,6 +61,8 @@ const ANCHORED = new Set([
   "interface/filter-applied", "interface/filter-cleared", "interface/filter-trend",
   "interface/favorites-filter", "devtools/filter-run", "automation/event-filter",
   "analytics/filtered-list",
+  // A bell is its dome - the mass hangs where a bell hangs it.
+  "interface/favorite-alert",
   "devtools/stack-trace", "ai/softmax", "analytics/chart-bar", "analytics/chart-line",
   "analytics/retention", "interface/corner-radius", "rag/bm25", "security/login",
   "devtools/request", "automation/workflow-template", "agents/step-limit",

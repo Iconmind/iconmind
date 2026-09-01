@@ -12,15 +12,6 @@ import { add, alert, BIG, boltMark, bookmarkMark, check, clockMark, coinMark, fl
 import { banknote, banner, bookmark, dial, eventCard, funnel, key, padlock, runCard, trophy } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
-const LOCK_R = [rect(14, 9, 8, 7.5, 2), arc(18, 9, 2, 180, 360)];
-const Z_R = poly([[15, 9.5], [20, 9.5], [15, 14.5], [20, 14.5]]);
-const SQUARE_R = poly([[15, 9], [21, 9], [21, 15], [15, 15]], true);
-const PLAY_R = poly([[15, 8], [15, 16], [19, 12]], true);
-const TAG_R = poly([[14, 13], [19, 13], [22, 16], [19, 19], [14, 19]], true);
-const FLAG_R = [col(14, 5, 21), poly([[14, 5], [22, 5], [19, 8], [22, 11], [14, 11]])];
-const BOOKMARK_R = poly([[14, 7], [21, 7], [21, 17], [17.5, 13.5], [14, 17]], true);
-const FUNNEL_R = poly([[15, 9], [22, 9], [20, 11], [20, 19], [17, 19], [17, 11]], true);
-const LINE_R = poly([[13, 19], [16, 16], [18, 18], [22, 14]]);
 
 export const BATCH_74: Icon[] = [
   /* ── interface: places, filters and labels ────────────────────────────────────── */

@@ -13,9 +13,7 @@ import { banner, brackets, dial, eventCard, funnel, key, machine, padlock, runCa
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
-const BR_R = poly([[17, 3], [21, 3], [21, 21], [17, 21]]);
 const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
-const LOCK_R = [rect(14, 9, 8, 7.5, 2), arc(18, 9, 2, 180, 360)];
 
 export const BATCH_73: Icon[] = [
   /* ── cloud: a coin with a purpose ─────────────────────────────────────────────── */
