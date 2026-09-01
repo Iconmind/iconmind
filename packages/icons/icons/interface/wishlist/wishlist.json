@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "file",
   "name": "Wishlist",
-  "description": "A heart beside a list — the things someone wants, saved for later",
+  "description": "A clipboard with a heart on it — the things someone wants, saved for later",
   "tags": [
     "wishlist",
     "wants",
@@ -14,24 +14,20 @@
     "saved for later",
     "favourites list"
   ],
-  "family": "heart",
+  "family": "clipboard",
   "shapes": [
     {
-      "d": "M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z",
+      "d": "M4 7.5A2 2 0 0 1 6 5.5H18A2 2 0 0 1 20 7.5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 7L9.5 2.5L14.5 2.5L14.5 7",
+      "closed": false
+    },
+    {
+      "d": "M9 13.5A1.5 1.5 0 0 1 12 13.5A1.5 1.5 0 0 1 15 13.5L12 16.5Z",
       "closed": true,
       "_why": "a heart is one line, not three strokes with visible seams"
-    },
-    {
-      "d": "M14 8H22",
-      "closed": false
-    },
-    {
-      "d": "M14 12H22",
-      "closed": false
-    },
-    {
-      "d": "M14 16H22",
-      "closed": false
     }
   ]
 }

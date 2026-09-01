@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "cost",
   "name": "Pay to run",
-  "description": "A coin beside a play button — a run that costs money to start",
+  "description": "A banknote with a play on it — a run that costs money to start",
   "tags": [
     "pay",
     "run",
@@ -14,18 +14,22 @@
     "paid execution",
     "billable job"
   ],
-  "family": "object",
+  "family": "banknote",
   "shapes": [
     {
-      "d": "M2 12a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "d": "M2 8A2 2 0 0 1 4 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
       "closed": true
     },
     {
-      "d": "M6.5 10.5V13.5",
+      "d": "M5.5 10.5V13.5",
       "closed": false
     },
     {
-      "d": "M15 8L15 16L19 12Z",
+      "d": "M18.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M10.5 9L13.5 12L10.5 15Z",
       "closed": true
     }
   ]

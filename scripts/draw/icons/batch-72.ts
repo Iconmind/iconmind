@@ -9,7 +9,7 @@
  */
 import { arc, col, disc, poly, raw, rect, row, area } from "../forms.ts";
 import { BIG, boltMark, bookmarkMark, check, clockMark, diamondMark, funnelMark, heartMark, keyMark, off, pinMark, playMark, SMALL, trendMark } from "../marks.ts";
-import { banner, brackets, dial, funnel, key, machine } from "../bodies.ts";
+import { banner, brackets, clipboard, dial, funnel, key, machine, page } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -211,10 +211,10 @@ export const BATCH_72: Icon[] = [
   },
   {
     slug: "wishlist", category: "interface", subcategory: "file",
-    name: "Wishlist", description: "A heart beside a list — the things someone wants, saved for later",
-    tags: ["wishlist", "wants", "saved"], family: "heart",
+    name: "Wishlist", description: "A clipboard with a heart on it — the things someone wants, saved for later",
+    tags: ["wishlist", "wants", "saved"], family: "clipboard",
     aliases: [], keywords: ["wishlist", "saved for later", "favourites list"],
-    shapes: [raw("M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z", HEART, true), ...ROWS_R(14)],
+    shapes: [...clipboard(), ...heartMark(SMALL, 13.5)],
   },
   {
     slug: "bookmark-list", category: "interface", subcategory: "file",

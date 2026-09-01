@@ -8,12 +8,10 @@
  * name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { add, alert, BIG, boltMark, bookmarkMark, check, clockMark, flagMark, funnelMark, heartMark, idleMark, lockMark, off, pause, playMark, remove, searchMark, shieldMark, SMALL, squareMark, tagMark, trendMark } from "../marks.ts";
-import { banner, bookmark, dial, eventCard, funnel, key, padlock, runCard, trophy } from "../bodies.ts";
+import { add, alert, BIG, boltMark, bookmarkMark, check, clockMark, coinMark, flagMark, funnelMark, heartMark, idleMark, lockMark, off, pause, playMark, remove, searchMark, shieldMark, SMALL, squareMark, tagMark, trendMark } from "../marks.ts";
+import { banknote, banner, bookmark, dial, eventCard, funnel, key, padlock, runCard, trophy } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
-const HEART = "a heart is one line, not three strokes with visible seams";
-const COIN_L = [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5)];
 const LOCK_R = [rect(14, 9, 8, 7.5, 2), arc(18, 9, 2, 180, 360)];
 const Z_R = poly([[15, 9.5], [20, 9.5], [15, 14.5], [20, 14.5]]);
 const SQUARE_R = poly([[15, 9], [21, 9], [21, 15], [15, 15]], true);
@@ -116,38 +114,38 @@ export const BATCH_74: Icon[] = [
 
   {
     slug: "cost-filter", category: "cloud", subcategory: "cost",
-    name: "Cost filter", description: "A coin beside a funnel — filter spending by service, project or tag",
-    tags: ["cost", "filter", "spend"], family: "object",
+    name: "Cost filter", description: "A banknote with a funnel on it — filter spending by service, project or tag",
+    tags: ["cost", "filter", "spend"], family: "banknote",
     aliases: [], keywords: ["cost filter", "filter spending", "spend by service"],
-    shapes: [...COIN_L, FUNNEL_R],
+    shapes: [...banknote(), ...funnelMark(SMALL, 12)],
   },
   {
     slug: "pay-to-run", category: "cloud", subcategory: "cost",
-    name: "Pay to run", description: "A coin beside a play button — a run that costs money to start",
-    tags: ["pay", "run", "cost"], family: "object",
+    name: "Pay to run", description: "A banknote with a play on it — a run that costs money to start",
+    tags: ["pay", "run", "cost"], family: "banknote",
     aliases: [], keywords: ["pay to run", "paid execution", "billable job"],
-    shapes: [...COIN_L, PLAY_R],
+    shapes: [...banknote(), ...playMark(SMALL, 12)],
   },
   {
     slug: "payment-stopped", category: "cloud", subcategory: "cost",
-    name: "Payment stopped", description: "A coin beside a stop square — payments halted until further notice",
-    tags: ["payment", "stopped", "halt"], family: "object",
+    name: "Payment stopped", description: "A banknote with a stop square on it — payments halted until further notice",
+    tags: ["payment", "stopped", "halt"], family: "banknote",
     aliases: [], keywords: ["payment stopped", "billing paused", "stop payments"],
-    shapes: [...COIN_L, SQUARE_R],
+    shapes: [...banknote(), ...squareMark(SMALL, 12)],
   },
   {
     slug: "dormant-account", category: "cloud", subcategory: "cost",
-    name: "Dormant account", description: "A coin beside a Z — an account that has gone quiet with no recent activity",
-    tags: ["dormant", "inactive", "account"], family: "object",
+    name: "Dormant account", description: "A banknote with a Z on it — an account gone quiet with no recent activity",
+    tags: ["dormant", "inactive", "account"], family: "banknote",
     aliases: [], keywords: ["dormant account", "inactive billing", "sleeping account"],
-    shapes: [...COIN_L, Z_R],
+    shapes: [...banknote(), ...idleMark(SMALL, 12)],
   },
   {
     slug: "price-increase", category: "cloud", subcategory: "cost",
-    name: "Price increase", description: "A coin beside a double chevron rising — a price going up at the next renewal",
-    tags: ["price", "increase", "up"], family: "object",
+    name: "Price increase", description: "A banknote, a double chevron rising on it — a price going up at the next renewal",
+    tags: ["price", "increase", "up"], family: "banknote",
     aliases: [], keywords: ["price increase", "price hike", "cost going up"],
-    shapes: [...COIN_L, poly([[15, 13], [18.5, 9.5], [22, 13]]), poly([[15, 17.5], [18.5, 14], [22, 17.5]])],
+    shapes: [...banknote(), poly([[10, 11.5], [12, 9.5], [14, 11.5]]), poly([[10, 14.5], [12, 12.5], [14, 14.5]])],
   },
 
   /* ── interface: a clock with a fate ───────────────────────────────────────────── */

@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "cost",
   "name": "Payment failed",
-  "description": "A coin with an X beside it — a payment that did not go through",
+  "description": "A banknote with an X on it — a payment that did not go through",
   "tags": [
     "failed",
     "declined",
@@ -14,22 +14,26 @@
     "card declined",
     "billing error"
   ],
-  "family": "object",
+  "family": "banknote",
   "shapes": [
     {
-      "d": "M3 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "d": "M2 8A2 2 0 0 1 4 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
       "closed": true
     },
     {
-      "d": "M8 10.5V13.5",
+      "d": "M5.5 10.5V13.5",
       "closed": false
     },
     {
-      "d": "M16.5 9.5L21.5 14.5",
+      "d": "M18.5 10.5V13.5",
       "closed": false
     },
     {
-      "d": "M21.5 9.5L16.5 14.5",
+      "d": "M10 10L14 14",
+      "closed": false
+    },
+    {
+      "d": "M14 10L10 14",
       "closed": false
     }
   ]

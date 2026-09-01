@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "cost",
   "name": "Dormant account",
-  "description": "A coin beside a Z — an account that has gone quiet with no recent activity",
+  "description": "A banknote with a Z on it — an account gone quiet with no recent activity",
   "tags": [
     "dormant",
     "inactive",
@@ -14,18 +14,22 @@
     "inactive billing",
     "sleeping account"
   ],
-  "family": "object",
+  "family": "banknote",
   "shapes": [
     {
-      "d": "M2 12a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "d": "M2 8A2 2 0 0 1 4 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
       "closed": true
     },
     {
-      "d": "M6.5 10.5V13.5",
+      "d": "M5.5 10.5V13.5",
       "closed": false
     },
     {
-      "d": "M15 9.5L20 9.5L15 14.5L20 14.5",
+      "d": "M18.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M9 9L15 9L9 15L15 15",
       "closed": false
     }
   ]

@@ -8,7 +8,7 @@
  * Unattended round. Every name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { banner, bookmark, brackets, eventCard, funnel, key, padlock, runCard, shield, trophy } from "../bodies.ts";
+import { banknote, banner, bookmark, brackets, clipboard, eventCard, funnel, key, padlock, page, runCard, shield, trophy } from "../bodies.ts";
 import { alert, BIG, bookmarkMark, flagMark, funnelMark, heartMark, idleMark, keyMark, playMark, remove, SMALL, squareMark, trendMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
@@ -18,8 +18,6 @@ const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
 const WINDOW = [rect(3, 3, 18, 18, 2), row(8, 3, 21)];
 const LENS_LS = [disc(8.5, 10, 4.5), poly([[5.5, 13], [3, 15.5]])];
 const HEART_L = raw("M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z", HEART, true);
-const COIN_L = [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5)];
-const ROWS_L = [row(6, 3, 14), row(11, 3, 14), row(16, 3, 14)];
 const ROWS_LS = [row(6, 3, 12), row(11, 3, 12), row(16, 3, 12)];
 const ARROW_R = [row(12, 16, 22), poly([[19.5, 9.5], [22, 12], [19.5, 14.5]])];
 const ARROW_R15 = [row(12, 15, 22), poly([[19.5, 9.5], [22, 12], [19.5, 14.5]])];
@@ -276,10 +274,10 @@ export const BATCH_76: Icon[] = [
   },
   {
     slug: "send-money", category: "cloud", subcategory: "cost",
-    name: "Send money", description: "A coin with an arrow beside it — send a payment to someone else",
-    tags: ["payment", "send", "transfer"], family: "object",
+    name: "Send money", description: "A banknote with an arrow on it — send a payment to someone else",
+    tags: ["payment", "send", "transfer"], family: "banknote",
     aliases: [], keywords: ["send money", "make a payment", "transfer funds"],
-    shapes: [...COIN_L, ...ARROW_R15],
+    shapes: [...banknote(), row(12, 9, 15), poly([[12.5, 9.5], [15, 12], [12.5, 14.5]])],
   },
   {
     slug: "favorite-milestone", category: "analytics", subcategory: "metric",
@@ -307,17 +305,17 @@ export const BATCH_76: Icon[] = [
   },
   {
     slug: "list-collapse", category: "interface", subcategory: "file",
-    name: "List collapse", description: "A list beside two chevrons closing — collapse a list to its heading",
-    tags: ["list", "collapse", "fold"], family: "text",
+    name: "List collapse", description: "A clipboard, two chevrons closing on it — collapse a list to its heading",
+    tags: ["list", "collapse", "fold"], family: "clipboard",
     aliases: ["list-chevrons-down-up"], keywords: ["collapse list", "fold list", "hide items"],
-    shapes: [...ROWS_L, poly([[17, 7], [19.5, 9.5], [22, 7]]), poly([[17, 17], [19.5, 14.5], [22, 17]])],
+    shapes: [...clipboard(), poly([[10, 11.5], [12, 13.5], [14, 11.5]]), poly([[10, 17], [12, 15], [14, 17]])],
   },
   {
     slug: "list-alert", category: "interface", subcategory: "file",
-    name: "List alert", description: "A list beside an alert mark — a list with an item that needs attention",
-    tags: ["list", "alert", "warning"], family: "text",
+    name: "List alert", description: "A clipboard with an alert on it — a list with an item that needs attention",
+    tags: ["list", "alert", "warning"], family: "clipboard",
     aliases: [], keywords: ["list alert", "list warning", "item needs attention"],
-    shapes: [...ROWS_L, ...ALERT_R],
+    shapes: [...clipboard(), ...alert(SMALL, 13.5)],
   },
 
   /* ── devtools: the last marks inside brackets ─────────────────────────────────── */

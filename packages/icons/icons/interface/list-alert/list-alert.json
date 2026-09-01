@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "file",
   "name": "List alert",
-  "description": "A list beside an alert mark — a list with an item that needs attention",
+  "description": "A clipboard with an alert on it — a list with an item that needs attention",
   "tags": [
     "list",
     "alert",
@@ -14,26 +14,22 @@
     "list warning",
     "item needs attention"
   ],
-  "family": "text",
+  "family": "clipboard",
   "shapes": [
     {
-      "d": "M3 6H14",
+      "d": "M4 7.5A2 2 0 0 1 6 5.5H18A2 2 0 0 1 20 7.5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 7L9.5 2.5L14.5 2.5L14.5 7",
       "closed": false
     },
     {
-      "d": "M3 11H14",
+      "d": "M12 10.5V13.5",
       "closed": false
     },
     {
-      "d": "M3 16H14",
-      "closed": false
-    },
-    {
-      "d": "M18 7V12",
-      "closed": false
-    },
-    {
-      "d": "M17 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "d": "M11 16.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
       "closed": true
     }
   ]

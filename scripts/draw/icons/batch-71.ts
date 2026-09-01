@@ -8,8 +8,8 @@
  * carries that job from here on. Every name checked free before drawing.
  */
 import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { dial, machine, page, shield } from "../bodies.ts";
-import { BIG, check, flagMark, heartMark, idleMark, keyMark, lockMark, playMark, searchMark, SMALL } from "../marks.ts";
+import { banknote, dial, machine, page, shield } from "../bodies.ts";
+import { BIG, check, flagMark, heartMark, idleMark, keyMark, lockMark, off, playMark, searchMark, SMALL } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -343,17 +343,17 @@ export const BATCH_71: Icon[] = [
   },
   {
     slug: "paid", category: "cloud", subcategory: "cost",
-    name: "Paid", description: "A coin with a check beside it — a payment that went through successfully",
-    tags: ["paid", "success", "payment"], family: "object",
+    name: "Paid", description: "A banknote with a check on it — a payment that went through successfully",
+    tags: ["paid", "success", "payment"], family: "banknote",
     aliases: [], keywords: ["paid", "payment successful", "invoice paid"],
-    shapes: [disc(8, 12, 5), col(8, 10.5, 13.5), poly([[16, 13], [18.5, 15.5], [22, 12]])],
+    shapes: [...banknote(), ...check(SMALL, 12)],
   },
   {
     slug: "payment-failed", category: "cloud", subcategory: "cost",
-    name: "Payment failed", description: "A coin with an X beside it — a payment that did not go through",
-    tags: ["failed", "declined", "payment"], family: "object",
+    name: "Payment failed", description: "A banknote with an X on it — a payment that did not go through",
+    tags: ["failed", "declined", "payment"], family: "banknote",
     aliases: [], keywords: ["payment failed", "card declined", "billing error"],
-    shapes: [disc(8, 12, 5), col(8, 10.5, 13.5), poly([[16.5, 9.5], [21.5, 14.5]]), poly([[21.5, 9.5], [16.5, 14.5]])],
+    shapes: [...banknote(), ...off(SMALL, 12)],
   },
   {
     slug: "top-up", category: "cloud", subcategory: "cost",

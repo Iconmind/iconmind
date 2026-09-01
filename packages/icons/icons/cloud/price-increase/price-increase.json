@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "cost",
   "name": "Price increase",
-  "description": "A coin beside a double chevron rising — a price going up at the next renewal",
+  "description": "A banknote, a double chevron rising on it — a price going up at the next renewal",
   "tags": [
     "price",
     "increase",
@@ -14,22 +14,26 @@
     "price hike",
     "cost going up"
   ],
-  "family": "object",
+  "family": "banknote",
   "shapes": [
     {
-      "d": "M2 12a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "d": "M2 8A2 2 0 0 1 4 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
       "closed": true
     },
     {
-      "d": "M6.5 10.5V13.5",
+      "d": "M5.5 10.5V13.5",
       "closed": false
     },
     {
-      "d": "M15 13L18.5 9.5L22 13",
+      "d": "M18.5 10.5V13.5",
       "closed": false
     },
     {
-      "d": "M15 17.5L18.5 14L22 17.5",
+      "d": "M10 11.5L12 9.5L14 11.5",
+      "closed": false
+    },
+    {
+      "d": "M10 14.5L12 12.5L14 14.5",
       "closed": false
     }
   ]

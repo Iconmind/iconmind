@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "cost",
   "name": "Cost filter",
-  "description": "A coin beside a funnel — filter spending by service, project or tag",
+  "description": "A banknote with a funnel on it — filter spending by service, project or tag",
   "tags": [
     "cost",
     "filter",
@@ -14,19 +14,27 @@
     "filter spending",
     "spend by service"
   ],
-  "family": "object",
+  "family": "banknote",
   "shapes": [
     {
-      "d": "M2 12a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "d": "M2 8A2 2 0 0 1 4 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
       "closed": true
     },
     {
-      "d": "M6.5 10.5V13.5",
+      "d": "M5.5 10.5V13.5",
       "closed": false
     },
     {
-      "d": "M15 9L22 9L20 11L20 19L17 19L17 11Z",
-      "closed": true
+      "d": "M18.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M9 9L12 12L15 9",
+      "closed": false
+    },
+    {
+      "d": "M12 12V15",
+      "closed": false
     }
   ]
 }

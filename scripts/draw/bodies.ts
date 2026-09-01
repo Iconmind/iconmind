@@ -165,6 +165,19 @@ export const brackets = (): Shape[] =>
 export const eventCard = (): Shape[] =>
   [rect(3, 2, 18, 20, 2), poly([[14, 5], [11.5, 7.5], [14, 7.5], [11.5, 10]])];
 
+
+/** A banknote: the wide bill with its value ticks at the sides, the state sitting
+ * where the portrait circle goes. Money gets its own silhouette - a third card in a
+ * row would have made every family the same shape with a different pip on top. */
+export const banknote = (): Shape[] =>
+  [rect(2, 6, 20, 12, 2), col(5.5, 10.5, 13.5), col(18.5, 10.5, 13.5)];
+
+
+/** A clipboard: the board, and the clip straddling its top edge - two crossings, the
+ * most the set allows, and exactly what a clip does. The list family's own silhouette. */
+export const clipboard = (): Shape[] =>
+  [rect(4, 5.5, 16, 15.5, 2), poly([[9.5, 7], [9.5, 2.5], [14.5, 2.5], [14.5, 7]])];
+
 /** A tray, mouth up: what things are put into or taken out of. */
 export const tray = (): Shape => body(poly([[4, 15], [4, 19], [20, 19], [20, 15]]));
 

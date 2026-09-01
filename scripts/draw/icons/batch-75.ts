@@ -9,8 +9,8 @@
  * name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { banner, bookmark, brackets, dial, eventCard, funnel, key, machine, padlock, ring, runCard, shield, trophy } from "../bodies.ts";
-import { add, alert, BIG, boltMark, bookmarkMark, check, flagMark, funnelMark, heartMark, idleMark, lockMark, off, playMark, remove, SMALL, tagMark, trendMark } from "../marks.ts";
+import { banknote, banner, bookmark, brackets, clipboard, dial, eventCard, funnel, key, machine, padlock, page, ring, runCard, shield, trophy } from "../bodies.ts";
+import { add, alert, BIG, boltMark, bookmarkMark, check, coinMark, flagMark, funnelMark, heartMark, idleMark, lockMark, off, playMark, remove, SMALL, tagMark, trendMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -18,8 +18,6 @@ const BR_R = poly([[17, 3], [21, 3], [21, 21], [17, 21]]);
 const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
 const WINDOW = [rect(3, 3, 18, 18, 2), row(8, 3, 21)];
 const WINDOW_T = [rect(3, 2.5, 18, 19, 2), row(7, 3, 21)];
-const COIN_L = [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5)];
-const ROWS_L = [row(6, 3, 14), row(11, 3, 14), row(16, 3, 14)];
 const TARGET_R = [disc(18, 13, 4), disc(18, 13, 1)];
 const LENS_R = [disc(17.5, 10, 3.5), poly([[20, 12.5], [22, 14.5]])];
 const BOOKMARK_R = poly([[14, 7], [21, 7], [21, 17], [17.5, 13.5], [14, 17]], true);
@@ -176,10 +174,10 @@ export const BATCH_75: Icon[] = [
   },
   {
     slug: "archived-list", category: "interface", subcategory: "file",
-    name: "Archived list", description: "A list beside a Z — a list put to rest in the archive, out of the way",
-    tags: ["archive", "list", "inactive"], family: "text",
+    name: "Archived list", description: "A clipboard with a Z on it — a list put to rest in the archive, out of the way",
+    tags: ["archive", "list", "inactive"], family: "clipboard",
     aliases: [], keywords: ["archived list", "inactive list", "list archive"],
-    shapes: [...ROWS_L, poly([[17, 8.5], [22, 8.5], [17, 13.5], [22, 13.5]])],
+    shapes: [...clipboard(), ...idleMark(SMALL, 13.5)],
   },
 
   /* ── ai: checkpoints and cores ────────────────────────────────────────────────── */
@@ -328,10 +326,10 @@ export const BATCH_75: Icon[] = [
   },
   {
     slug: "paid-milestone", category: "cloud", subcategory: "cost",
-    name: "Paid milestone", description: "A coin beside a flag — a milestone that releases a payment when it is reached",
-    tags: ["milestone", "payment", "flag"], family: "object",
+    name: "Paid milestone", description: "A banknote with a flag on it — a milestone that releases a payment when reached",
+    tags: ["milestone", "payment", "flag"], family: "banknote",
     aliases: [], keywords: ["paid milestone", "milestone payment", "payment on delivery"],
-    shapes: [...COIN_L, ...FLAG_R],
+    shapes: [...banknote(), ...flagMark(SMALL, 12)],
   },
   {
     slug: "favorite-bookmark", category: "interface", subcategory: "file",
