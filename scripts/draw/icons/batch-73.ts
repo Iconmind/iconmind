@@ -8,7 +8,8 @@
  * checked free before drawing.
  */
 import { arc, col, disc, poly, raw, rect, row, openDisc } from "../forms.ts";
-import { SMALL, heartMark } from "../marks.ts";
+import { SMALL, heartMark, pinMark, tagMark, targetMark } from "../marks.ts";
+import { machine } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -215,9 +216,9 @@ export const BATCH_73: Icon[] = [
   {
     slug: "model-tag", category: "ai", subcategory: "model",
     name: "Model tag", description: "A model core beside a label — a tag that groups models by family or purpose",
-    tags: ["tag", "label", "model"], family: "lattice",
+    tags: ["tag", "label", "model"], family: "machine",
     aliases: [], keywords: ["model tag", "model label", "tagged models"],
-    shapes: [DIAMOND_L, poly([[14, 13], [19, 13], [22, 16], [19, 19], [14, 19]], true)],
+    shapes: [machine(), ...tagMark()],
   },
   {
     slug: "frozen-checkpoint", category: "ai", subcategory: "training",
@@ -229,16 +230,16 @@ export const BATCH_73: Icon[] = [
   {
     slug: "model-goal", category: "ai", subcategory: "training",
     name: "Model goal", description: "A model core beside a target — the objective a model is trained toward",
-    tags: ["goal", "objective", "target"], family: "lattice",
+    tags: ["goal", "objective", "target"], family: "machine",
     aliases: [], keywords: ["training objective", "model goal", "optimisation target"],
-    shapes: [DIAMOND_L, disc(18, 13, 4), disc(18, 13, 1)],
+    shapes: [machine(), ...targetMark(SMALL)],
   },
   {
     slug: "pin-model", category: "ai", subcategory: "model",
     name: "Pin model", description: "A model core beside a pin — pin a deployment to one exact model version",
-    tags: ["pin", "version", "freeze"], family: "lattice",
+    tags: ["pin", "version", "freeze"], family: "machine",
     aliases: [], keywords: ["pin model version", "model pinning", "fixed model"],
-    shapes: [DIAMOND_L, disc(18, 10, 3), col(18, 13, 17)],
+    shapes: [machine(), ...pinMark()],
   },
 
   /* ── analytics: goals ─────────────────────────────────────────────────────────── */

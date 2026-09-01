@@ -4,6 +4,6 @@ import '../data.dart';
 /// ModelTag
 const IconMindData modelTag = IconMindData(
   'model-tag',
-  [N('m7 8 4 4 -4 4 -4 -4Z'), N('M14 13h5l3 3 -3 3h-5Z')],
-  [N.tint('m7 8 4 4 -4 4 -4 -4Z'), N.tint('M14 13h5l3 3 -3 3h-5Z'), N('m7 8 4 4 -4 4 -4 -4Z'), N('M14 13h5l3 3 -3 3h-5Z')],
+  [N('M14.5 4H17a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3H7a3 3 0 0 1 -3 -3V8l4 -4h2.5'), N('M8 8h4l4 4 -4 4H8Z')],
+  [N.tint('M14.5 4H17a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3H7a3 3 0 0 1 -3 -3V8l4 -4h2.5'), N.tint('M8 8h4l4 4 -4 4H8Z'), N('M14.5 4H17a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3H7a3 3 0 0 1 -3 -3V8l4 -4h2.5'), N('M8 8h4l4 4 -4 4H8Z')],
 );

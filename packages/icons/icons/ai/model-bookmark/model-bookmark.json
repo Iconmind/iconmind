@@ -14,14 +14,14 @@
     "saved model",
     "model shortlist"
   ],
-  "family": "bookmark",
+  "family": "machine",
   "shapes": [
     {
-      "d": "M3 5L12 5L12 19L7.5 14.5L3 19Z",
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
       "closed": true
     },
     {
-      "d": "M18.5 8.5L22 12L18.5 15.5L15 12Z",
+      "d": "M9 8L15 8L15 16L12 13L9 16Z",
       "closed": true
     }
   ]

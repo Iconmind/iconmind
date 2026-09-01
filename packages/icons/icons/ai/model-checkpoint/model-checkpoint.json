@@ -14,18 +14,18 @@
     "training checkpoint",
     "saved weights"
   ],
-  "family": "lattice",
+  "family": "machine",
   "shapes": [
     {
-      "d": "M6 9.5L9.5 13L6 16.5L2.5 13Z",
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
       "closed": true
     },
     {
-      "d": "M13 4V21",
+      "d": "M8 8V16",
       "closed": false
     },
     {
-      "d": "M13 4L21 4L18 7L21 10L13 10",
+      "d": "M8 9L16 9L14 11L16 13L8 13",
       "closed": false
     }
   ]

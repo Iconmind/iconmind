@@ -14,18 +14,18 @@
     "model pinning",
     "fixed model"
   ],
-  "family": "lattice",
+  "family": "machine",
   "shapes": [
     {
-      "d": "M7 8L11 12L7 16L3 12Z",
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
       "closed": true
     },
     {
-      "d": "M15 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "d": "M10 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
       "closed": true
     },
     {
-      "d": "M18 13V17",
+      "d": "M9.5 13.5L12 16L14.5 13.5",
       "closed": false
     }
   ]

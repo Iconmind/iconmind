@@ -8,7 +8,8 @@
  * free before drawing.
  */
 import { arc, col, disc, poly, raw, rect, row, area } from "../forms.ts";
-import { SMALL, heartMark } from "../marks.ts";
+import { SMALL, bookmarkMark, funnelMark, heartMark, trendMark } from "../marks.ts";
+import { machine } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -116,9 +117,9 @@ export const BATCH_72: Icon[] = [
   {
     slug: "model-trend", category: "ai", subcategory: "training",
     name: "Model trend", description: "A model core beside a rising line — a model's quality trending over versions",
-    tags: ["trend", "quality", "versions"], family: "lattice",
+    tags: ["trend", "quality", "versions"], family: "machine",
     aliases: [], keywords: ["model trend", "quality over time", "model progress"],
-    shapes: [poly([[7, 8], [11, 12], [7, 16], [3, 12]], true), poly([[13, 19], [16, 16], [18, 18], [22, 14]])],
+    shapes: [machine(), ...trendMark()],
   },
   {
     slug: "model-scope", category: "ai", subcategory: "model",
@@ -130,9 +131,9 @@ export const BATCH_72: Icon[] = [
   {
     slug: "model-bookmark", category: "ai", subcategory: "model",
     name: "Model bookmark", description: "A bookmark beside a model core — a model saved to come back to",
-    tags: ["bookmark", "saved", "model"], family: "bookmark",
+    tags: ["bookmark", "saved", "model"], family: "machine",
     aliases: [], keywords: ["bookmark model", "saved model", "model shortlist"],
-    shapes: [poly([[3, 5], [12, 5], [12, 19], [7.5, 14.5], [3, 19]], true), poly([[18.5, 8.5], [22, 12], [18.5, 15.5], [15, 12]], true)],
+    shapes: [machine(), ...bookmarkMark()],
   },
   {
     slug: "region-model", category: "ai", subcategory: "model",
@@ -144,9 +145,9 @@ export const BATCH_72: Icon[] = [
   {
     slug: "model-filter", category: "ai", subcategory: "inference",
     name: "Model filter", description: "A funnel beside a model core — requests filtered before they reach a model",
-    tags: ["filter", "route", "requests"], family: "funnel",
+    tags: ["filter", "route", "requests"], family: "machine",
     aliases: [], keywords: ["model filter", "request filtering", "pre-model routing"],
-    shapes: [FUNNEL_L, poly([[18.5, 8.5], [22, 12], [18.5, 15.5], [15, 12]], true)],
+    shapes: [machine(), ...funnelMark()],
   },
 
   /* ── security: a key with a mark ──────────────────────────────────────────────── */

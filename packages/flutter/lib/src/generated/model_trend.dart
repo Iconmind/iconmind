@@ -4,6 +4,6 @@ import '../data.dart';
 /// ModelTrend
 const IconMindData modelTrend = IconMindData(
   'model-trend',
-  [N('m7 8 4 4 -4 4 -4 -4Z'), N('m13 19 3 -3 2 2 4 -4')],
-  [N.tint('m7 8 4 4 -4 4 -4 -4Z'), N('m7 8 4 4 -4 4 -4 -4Z'), N('m13 19 3 -3 2 2 4 -4')],
+  [N('M14.5 4H17a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3H7a3 3 0 0 1 -3 -3V8l4 -4h2.5'), N('m8 16 3 -3 2 2 3 -3')],
+  [N.tint('M14.5 4H17a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3H7a3 3 0 0 1 -3 -3V8l4 -4h2.5'), N('M14.5 4H17a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3H7a3 3 0 0 1 -3 -3V8l4 -4h2.5'), N('m8 16 3 -3 2 2 3 -3')],
 );

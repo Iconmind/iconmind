@@ -14,18 +14,18 @@
     "restricted model",
     "model access control"
   ],
-  "family": "lattice",
+  "family": "machine",
   "shapes": [
     {
-      "d": "M6 6.5L9.5 10L6 13.5L2.5 10Z",
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
       "closed": true
     },
     {
-      "d": "M12 15A2 2 0 0 1 14 13H20A2 2 0 0 1 22 15V19A2 2 0 0 1 20 21H14A2 2 0 0 1 12 19Z",
+      "d": "M8 12L16 12L16 16L8 16Z",
       "closed": true
     },
     {
-      "d": "M14 13A3 3 0 0 1 20 13",
+      "d": "M9.5 12A2.5 2.5 0 0 1 14.5 12",
       "closed": false
     }
   ]

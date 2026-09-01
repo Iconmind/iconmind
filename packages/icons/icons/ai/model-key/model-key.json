@@ -14,22 +14,22 @@
     "model access key",
     "unlock model"
   ],
-  "family": "lattice",
+  "family": "machine",
   "shapes": [
     {
-      "d": "M6 8L10 12L6 16L2 12Z",
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
       "closed": true
     },
     {
-      "d": "M13 9a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "d": "M10 9.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
       "closed": true
     },
     {
-      "d": "M16 12V20",
+      "d": "M12 11.5V16",
       "closed": false
     },
     {
-      "d": "M16 17H18.5",
+      "d": "M12 14.5H14.5",
       "closed": false
     }
   ]

@@ -14,14 +14,14 @@
     "quality over time",
     "model progress"
   ],
-  "family": "lattice",
+  "family": "machine",
   "shapes": [
     {
-      "d": "M7 8L11 12L7 16L3 12Z",
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
       "closed": true
     },
     {
-      "d": "M13 19L16 16L18 18L22 14",
+      "d": "M8 16L11 13L13 15L16 12",
       "closed": false
     }
   ]

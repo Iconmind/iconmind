@@ -9,8 +9,8 @@
  * name checked free before drawing.
  */
 import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { bookmark } from "../bodies.ts";
-import { BIG, SMALL, alert, check, heartMark } from "../marks.ts";
+import { bookmark, machine } from "../bodies.ts";
+import { BIG, SMALL, alert, check, heartMark, idleMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -244,9 +244,9 @@ export const BATCH_75: Icon[] = [
   {
     slug: "model-idle", category: "ai", subcategory: "model",
     name: "Model idle", description: "A model core beside a Z — a model loaded into memory but doing nothing right now",
-    tags: ["idle", "waiting", "model"], family: "lattice",
+    tags: ["idle", "waiting", "model"], family: "machine",
     aliases: [], keywords: ["idle model", "model waiting", "warm but idle"],
-    shapes: [DIAMOND_L, Z_R],
+    shapes: [machine(), ...idleMark()],
   },
   {
     slug: "model-message", category: "ai", subcategory: "inference",

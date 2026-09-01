@@ -4,6 +4,6 @@ import '../data.dart';
 /// ModelFilter
 const IconMindData modelFilter = IconMindData(
   'model-filter',
-  [N('M3 5h11l-4 4v8H7V9Z'), N('M18.5 8.5 22 12l-3.5 3.5L15 12Z')],
-  [N.tint('M3 5h11l-4 4v8H7V9Z'), N.tint('M18.5 8.5 22 12l-3.5 3.5L15 12Z'), N('M3 5h11l-4 4v8H7V9Z'), N('M18.5 8.5 22 12l-3.5 3.5L15 12Z')],
+  [N('M14.5 4H17a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3H7a3 3 0 0 1 -3 -3V8l4 -4h2.5'), N('M8 8h8l-2 2v6h-4v-6Z')],
+  [N.tint('M14.5 4H17a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3H7a3 3 0 0 1 -3 -3V8l4 -4h2.5'), N.tint('M8 8h8l-2 2v6h-4v-6Z'), N('M14.5 4H17a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3H7a3 3 0 0 1 -3 -3V8l4 -4h2.5'), N('M8 8h8l-2 2v6h-4v-6Z')],
 );

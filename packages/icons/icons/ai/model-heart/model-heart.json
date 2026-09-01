@@ -14,14 +14,14 @@
     "preferred model",
     "starred model"
   ],
-  "family": "lattice",
+  "family": "machine",
   "shapes": [
     {
-      "d": "M6.5 6.5L11 11L6.5 15.5L2 11Z",
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
       "closed": true
     },
     {
-      "d": "M13 8A2.5 2.5 0 0 1 17 8A2.5 2.5 0 0 1 21 8L17 12Z",
+      "d": "M8 12A2 2 0 0 1 12 12A2 2 0 0 1 16 12L12 16Z",
       "closed": true,
       "_why": "a heart is one line, not three strokes with visible seams"
     }

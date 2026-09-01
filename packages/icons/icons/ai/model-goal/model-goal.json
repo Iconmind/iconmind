@@ -14,18 +14,18 @@
     "model goal",
     "optimisation target"
   ],
-  "family": "lattice",
+  "family": "machine",
   "shapes": [
     {
-      "d": "M7 8L11 12L7 16L3 12Z",
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
       "closed": true
     },
     {
-      "d": "M14 13a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "d": "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
       "closed": true
     },
     {
-      "d": "M17 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
       "closed": true
     }
   ]

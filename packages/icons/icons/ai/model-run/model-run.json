@@ -14,14 +14,14 @@
     "model inference",
     "execute model"
   ],
-  "family": "lattice",
+  "family": "machine",
   "shapes": [
     {
-      "d": "M8 8L12 12L8 16L4 12Z",
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
       "closed": true
     },
     {
-      "d": "M15 8L15 16L19 12Z",
+      "d": "M9 8L13 12L9 16Z",
       "closed": true
     }
   ]

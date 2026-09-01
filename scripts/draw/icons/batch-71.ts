@@ -8,7 +8,8 @@
  * carries that job from here on. Every name checked free before drawing.
  */
 import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { page } from "../bodies.ts";
+import { machine, page } from "../bodies.ts";
+import { flagMark, heartMark, keyMark, lockMark, playMark, searchMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -19,9 +20,9 @@ export const BATCH_71: Icon[] = [
   {
     slug: "model-run", category: "ai", subcategory: "inference",
     name: "Model run", description: "A model core beside a play button — run an inference with this model",
-    tags: ["run", "inference", "execute"], family: "lattice",
+    tags: ["run", "inference", "execute"], family: "machine",
     aliases: [], keywords: ["run model", "model inference", "execute model"],
-    shapes: [poly([[8, 8], [12, 12], [8, 16], [4, 12]], true), poly([[15, 8], [15, 16], [19, 12]], true)],
+    shapes: [machine(), ...playMark()],
   },
   {
     slug: "model-fast", category: "ai", subcategory: "model",
@@ -33,16 +34,16 @@ export const BATCH_71: Icon[] = [
   {
     slug: "model-lock", category: "ai", subcategory: "model",
     name: "Model lock", description: "A model core beside a padlock — a model locked to approved use",
-    tags: ["lock", "restricted", "access"], family: "lattice",
+    tags: ["lock", "restricted", "access"], family: "machine",
     aliases: [], keywords: ["locked model", "restricted model", "model access control"],
-    shapes: [poly([[6, 6.5], [9.5, 10], [6, 13.5], [2.5, 10]], true), rect(12, 13, 10, 8, 2), arc(17, 13, 3, 180, 360)],
+    shapes: [machine(), ...lockMark()],
   },
   {
     slug: "model-key", category: "ai", subcategory: "model",
     name: "Model key", description: "A model core beside a key — the API key that unlocks a model",
-    tags: ["key", "api", "access"], family: "lattice",
+    tags: ["key", "api", "access"], family: "machine",
     aliases: [], keywords: ["model api key", "model access key", "unlock model"],
-    shapes: [poly([[6, 8], [10, 12], [6, 16], [2, 12]], true), disc(16, 9, 3), col(16, 12, 20), row(17, 16, 18.5)],
+    shapes: [machine(), ...keyMark()],
   },
   {
     slug: "model-guard", category: "ai", subcategory: "model",
@@ -54,23 +55,23 @@ export const BATCH_71: Icon[] = [
   {
     slug: "model-heart", category: "ai", subcategory: "model",
     name: "Model heart", description: "A model core beside a heart — a favourite model you keep coming back to",
-    tags: ["favourite", "heart", "preferred"], family: "lattice",
+    tags: ["favourite", "heart", "preferred"], family: "machine",
     aliases: [], keywords: ["favourite model", "preferred model", "starred model"],
-    shapes: [poly([[6.5, 6.5], [11, 11], [6.5, 15.5], [2, 11]], true), raw("M13 8A2.5 2.5 0 0 1 17 8A2.5 2.5 0 0 1 21 8L17 12Z", HEART, true)],
+    shapes: [machine(), ...heartMark()],
   },
   {
     slug: "model-checkpoint", category: "ai", subcategory: "training",
     name: "Model checkpoint", description: "A model core beside a flag — a checkpoint saved during training",
-    tags: ["checkpoint", "flag", "save"], family: "lattice",
+    tags: ["checkpoint", "flag", "save"], family: "machine",
     aliases: [], keywords: ["model checkpoint", "training checkpoint", "saved weights"],
-    shapes: [poly([[6, 9.5], [9.5, 13], [6, 16.5], [2.5, 13]], true), col(13, 4, 21), poly([[13, 4], [21, 4], [18, 7], [21, 10], [13, 10]])],
+    shapes: [machine(), ...flagMark()],
   },
   {
     slug: "model-search", category: "ai", subcategory: "model",
     name: "Model search", description: "A model core beside a magnifying glass — search for a model in a catalogue",
-    tags: ["search", "find", "catalogue"], family: "lattice",
+    tags: ["search", "find", "catalogue"], family: "machine",
     aliases: [], keywords: ["model search", "find a model", "model catalogue"],
-    shapes: [poly([[6, 10.5], [9.5, 14], [6, 17.5], [2.5, 14]], true), disc(16, 10, 4), poly([[19, 13], [21.5, 15.5]])],
+    shapes: [machine(), ...searchMark()],
   },
   {
     slug: "model-voice", category: "ai", subcategory: "inference",
