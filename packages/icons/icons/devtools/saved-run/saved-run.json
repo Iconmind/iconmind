@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Saved run",
-  "description": "A play button beside a bookmark — a run configuration saved to reuse",
+  "description": "A bookmark with a play inside — a run configuration saved to reuse",
   "tags": [
     "run",
     "saved",
@@ -14,14 +14,14 @@
     "run preset",
     "reusable run"
   ],
-  "family": "object",
+  "family": "ribbon",
   "shapes": [
     {
-      "d": "M3 5L3 19L10 12Z",
+      "d": "M15 3L18 3L18 21L12 15L6 21L6 3L9 3",
       "closed": true
     },
     {
-      "d": "M14 7L21 7L21 17L17.5 13.5L14 17Z",
+      "d": "M10.5 6L13.5 9L10.5 12Z",
       "closed": true
     }
   ]

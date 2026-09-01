@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Safe run",
-  "description": "A play button beside a shield — a run kept inside its guardrails from start to end",
+  "description": "A run card with a shield under its play — a run kept inside its guardrails",
   "tags": [
     "run",
     "safe",
@@ -14,14 +14,18 @@
     "guarded execution",
     "protected run"
   ],
-  "family": "object",
+  "family": "window",
   "shapes": [
     {
-      "d": "M3 5L3 19L10 12Z",
+      "d": "M3 4A2 2 0 0 1 5 2H19A2 2 0 0 1 21 4V20A2 2 0 0 1 19 22H5A2 2 0 0 1 3 20Z",
       "closed": true
     },
     {
-      "d": "M13 11L22 11L22 16.5L17.5 21L13 16.5Z",
+      "d": "M11 5L11 10L13.5 7.5Z",
+      "closed": true
+    },
+    {
+      "d": "M9 13L15 13L15 16L12 19L9 16Z",
       "closed": true
     }
   ]

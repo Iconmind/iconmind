@@ -8,15 +8,13 @@
  * name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { add, alert, BIG, boltMark, bookmarkMark, check, clockMark, flagMark, funnelMark, heartMark, idleMark, lockMark, off, pause, playMark, remove, searchMark, shieldMark, SMALL, squareMark, tagMark } from "../marks.ts";
-import { banner, bookmark, dial, funnel, key, trophy } from "../bodies.ts";
+import { add, alert, BIG, boltMark, bookmarkMark, check, clockMark, flagMark, funnelMark, heartMark, idleMark, lockMark, off, pause, playMark, remove, searchMark, shieldMark, SMALL, squareMark, tagMark, trendMark } from "../marks.ts";
+import { banner, bookmark, dial, funnel, key, runCard, trophy } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
 const COIN_L = [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5)];
-const FUNNEL_L = poly([[3, 5], [14, 5], [10, 9], [10, 17], [7, 17], [7, 9]], true);
 const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
-const PLAY_L = poly([[3, 5], [3, 19], [10, 12]], true);
 const LOCK_R = [rect(14, 9, 8, 7.5, 2), arc(18, 9, 2, 180, 360)];
 const Z_R = poly([[15, 9.5], [20, 9.5], [15, 14.5], [20, 14.5]]);
 const SQUARE_R = poly([[15, 9], [21, 9], [21, 15], [15, 15]], true);
@@ -358,38 +356,38 @@ export const BATCH_74: Icon[] = [
 
   {
     slug: "run-label", category: "devtools", subcategory: "testing",
-    name: "Run label", description: "A play button beside a label — a run with a name attached to it",
+    name: "Run label", description: "A label with a play inside — a run with a name attached to it",
     tags: ["run", "label", "name"], family: "object",
     aliases: [], keywords: ["run label", "named run", "run tag"],
-    shapes: [PLAY_L, TAG_R],
+    shapes: [poly([[3, 6], [13, 6], [21, 14], [13, 22], [3, 22]], true), ...playMark(SMALL, 13.5)],
   },
   {
     slug: "run-checkpoint", category: "devtools", subcategory: "testing",
-    name: "Run checkpoint", description: "A play button beside a flag — a checkpoint saved partway inside a run",
-    tags: ["run", "checkpoint", "flag"], family: "object",
+    name: "Run checkpoint", description: "A run card with a flag under its play — a checkpoint saved partway inside a run",
+    tags: ["run", "checkpoint", "flag"], family: "window",
     aliases: [], keywords: ["run checkpoint", "mid-run save", "run milestone"],
-    shapes: [PLAY_L, ...FLAG_R],
+    shapes: [...runCard(), ...flagMark(SMALL, 16)],
   },
   {
     slug: "safe-run", category: "devtools", subcategory: "testing",
-    name: "Safe run", description: "A play button beside a shield — a run kept inside its guardrails from start to end",
-    tags: ["run", "safe", "shield"], family: "object",
+    name: "Safe run", description: "A run card with a shield under its play — a run kept inside its guardrails",
+    tags: ["run", "safe", "shield"], family: "window",
     aliases: [], keywords: ["safe run", "guarded execution", "protected run"],
-    shapes: [PLAY_L, poly([[13, 11], [22, 11], [22, 16.5], [17.5, 21], [13, 16.5]], true)],
+    shapes: [...runCard(), ...shieldMark(SMALL, 16)],
   },
   {
     slug: "saved-run", category: "devtools", subcategory: "testing",
-    name: "Saved run", description: "A play button beside a bookmark — a run configuration saved to reuse",
-    tags: ["run", "saved", "config"], family: "object",
+    name: "Saved run", description: "A bookmark with a play inside — a run configuration saved to reuse",
+    tags: ["run", "saved", "config"], family: "ribbon",
     aliases: [], keywords: ["saved run", "run preset", "reusable run"],
-    shapes: [PLAY_L, BOOKMARK_R],
+    shapes: [bookmark(), ...playMark(SMALL, 9)],
   },
   {
     slug: "run-trend", category: "devtools", subcategory: "testing",
-    name: "Run trend", description: "A play button beside a rising line — how runs are trending in duration or count",
-    tags: ["run", "trend", "metrics"], family: "object",
+    name: "Run trend", description: "A run card with a rising line under its play — how runs are trending",
+    tags: ["run", "trend", "metrics"], family: "window",
     aliases: [], keywords: ["run trend", "run duration trend", "runs over time"],
-    shapes: [PLAY_L, LINE_R],
+    shapes: [...runCard(), ...trendMark(SMALL, 16)],
   },
   {
     slug: "run-alert", category: "devtools", subcategory: "testing",

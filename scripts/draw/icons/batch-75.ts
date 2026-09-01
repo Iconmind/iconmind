@@ -9,7 +9,7 @@
  * name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { banner, bookmark, dial, funnel, key, machine, padlock, ring, shield, trophy } from "../bodies.ts";
+import { banner, bookmark, dial, funnel, key, machine, padlock, ring, runCard, shield, trophy } from "../bodies.ts";
 import { add, alert, BIG, bookmarkMark, check, flagMark, funnelMark, heartMark, idleMark, lockMark, off, playMark, remove, SMALL, tagMark, trendMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
@@ -19,8 +19,6 @@ const BR_R = poly([[17, 3], [21, 3], [21, 21], [17, 21]]);
 const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
 const WINDOW = [rect(3, 3, 18, 18, 2), row(8, 3, 21)];
 const WINDOW_T = [rect(3, 2.5, 18, 19, 2), row(7, 3, 21)];
-const LOCK_LN = [rect(2, 11, 9, 8, 2), arc(6.5, 11, 2, 180, 360)];
-const PLAY_L = poly([[3, 5], [3, 19], [10, 12]], true);
 const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
 const COIN_L = [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5)];
 const ROWS_L = [row(6, 3, 14), row(11, 3, 14), row(16, 3, 14)];
@@ -29,9 +27,7 @@ const LENS_R = [disc(17.5, 10, 3.5), poly([[20, 12.5], [22, 14.5]])];
 const BOOKMARK_R = poly([[14, 7], [21, 7], [21, 17], [17.5, 13.5], [14, 17]], true);
 const TAG_R = poly([[14, 13], [19, 13], [22, 16], [19, 19], [14, 19]], true);
 const PLUS_R = [row(12, 16, 22), col(19, 9, 15)];
-const Z_R = poly([[15, 9.5], [20, 9.5], [15, 14.5], [20, 14.5]]);
 const CHECK_R = poly([[15, 13], [17.5, 15.5], [22, 11]]);
-const UP_R = [poly([[16, 13], [19, 10], [22, 13]]), poly([[16, 17.5], [19, 14.5], [22, 17.5]])];
 const FLAG_R = [col(14, 5, 21), poly([[14, 5], [22, 5], [19, 8], [22, 11], [14, 11]])];
 
 export const BATCH_75: Icon[] = [
@@ -237,17 +233,17 @@ export const BATCH_75: Icon[] = [
 
   {
     slug: "run-idle", category: "devtools", subcategory: "testing",
-    name: "Run idle", description: "A play button beside a Z — a runner with nothing to do right now",
-    tags: ["run", "idle", "waiting"], family: "object",
+    name: "Run idle", description: "A run card with a Z under its play — a runner with nothing to do right now",
+    tags: ["run", "idle", "waiting"], family: "window",
     aliases: [], keywords: ["idle runner", "runner waiting", "no jobs"],
-    shapes: [PLAY_L, Z_R],
+    shapes: [...runCard(), ...idleMark(SMALL, 16)],
   },
   {
     slug: "add-run", category: "devtools", subcategory: "testing",
-    name: "Add run", description: "A play button with a plus beside it — queue another run in the list",
-    tags: ["run", "add", "queue"], family: "object",
+    name: "Add run", description: "A run card with a plus under its play — queue another run in the list",
+    tags: ["run", "add", "queue"], family: "window",
     aliases: [], keywords: ["add run", "queue run", "new job"],
-    shapes: [PLAY_L, ...PLUS_R],
+    shapes: [...runCard(), ...add(SMALL, 16)],
   },
   {
     slug: "run-goal", category: "devtools", subcategory: "testing",

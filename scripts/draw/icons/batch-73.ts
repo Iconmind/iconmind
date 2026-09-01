@@ -8,18 +8,16 @@
  * checked free before drawing.
  */
 import { arc, area, col, disc, openDisc, poly, raw, rect, row } from "../forms.ts";
-import { add, alert, BIG, bookmarkMark, check, coinMark, funnelMark, heartMark, idleMark, keyMark, lockMark, off, pinMark, playMark, remove, searchMark, shieldMark, SMALL, tagMark, targetMark, trendMark } from "../marks.ts";
-import { banner, dial, funnel, key, machine, shield, trophy } from "../bodies.ts";
+import { add, alert, BIG, bookmarkMark, check, coinMark, flagMark, funnelMark, heartMark, idleMark, keyMark, lockMark, off, pinMark, playMark, remove, searchMark, shieldMark, SMALL, tagMark, targetMark, trendMark } from "../marks.ts";
+import { banner, dial, funnel, key, machine, padlock, runCard, shield, trophy } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
 const BR_L = poly([[7, 3], [3, 3], [3, 21], [7, 21]]);
 const BR_R = poly([[17, 3], [21, 3], [21, 21], [17, 21]]);
 const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
-const PLAY_L = poly([[3, 5], [3, 19], [10, 12]], true);
 const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
 const LOCK_R = [rect(14, 9, 8, 7.5, 2), arc(18, 9, 2, 180, 360)];
-const ROWS_R = (x: number) => [row(8, x, 22), row(12, x, 22), row(16, x, 22)];
 
 export const BATCH_73: Icon[] = [
   /* ── cloud: a coin with a purpose ─────────────────────────────────────────────── */
@@ -313,17 +311,17 @@ export const BATCH_73: Icon[] = [
 
   {
     slug: "locked-run", category: "devtools", subcategory: "testing",
-    name: "Locked run", description: "A play button beside a padlock — a run that cannot be started without permission",
-    tags: ["run", "locked", "permission"], family: "object",
+    name: "Locked run", description: "A padlock with a play on its body — a run that cannot be started without permission",
+    tags: ["run", "locked", "permission"], family: "lock",
     aliases: [], keywords: ["locked run", "protected job", "permission to run"],
-    shapes: [PLAY_L, ...LOCK_R],
+    shapes: [...padlock(), ...playMark(SMALL, 15.5)],
   },
   {
     slug: "run-history", category: "devtools", subcategory: "testing",
-    name: "Run history", description: "A play button beside a list — every run so far, most recent first",
-    tags: ["run", "history", "list"], family: "object",
+    name: "Run history", description: "A run card with rows under its play — every run so far, most recent first",
+    tags: ["run", "history", "list"], family: "window",
     aliases: [], keywords: ["run history", "past runs", "job history"],
-    shapes: [PLAY_L, ...ROWS_R(14)],
+    shapes: [...runCard(), row(14.5, 9, 15), row(17.5, 9, 15)],
   },
   {
     slug: "locked-block", category: "devtools", subcategory: "code",

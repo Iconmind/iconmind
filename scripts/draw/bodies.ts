@@ -145,6 +145,13 @@ export const trophy = (): Shape[] => [
   col(12, 15, 20.5), row(20.5, 8.5, 15.5),
 ];
 
+
+/** The runner's card: a tall closed card, a small play up top saying "this is a run",
+ * the state below it - both inside one body. The composition Lucide's file-play class
+ * uses; a play beside or stacked against its state kept reading as two glyphs. */
+export const runCard = (): Shape[] =>
+  [rect(3, 2, 18, 20, 2), poly([[11, 5], [11, 10], [13.5, 7.5]], true)];
+
 /** A tray, mouth up: what things are put into or taken out of. */
 export const tray = (): Shape => body(poly([[4, 15], [4, 19], [20, 19], [20, 15]]));
 

@@ -8,7 +8,7 @@
  * Unattended round. Every name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { banner, bookmark, funnel, key, padlock, shield, trophy } from "../bodies.ts";
+import { banner, bookmark, funnel, key, padlock, runCard, shield, trophy } from "../bodies.ts";
 import { alert, BIG, bookmarkMark, flagMark, funnelMark, heartMark, idleMark, keyMark, playMark, remove, SMALL, squareMark, trendMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
@@ -19,7 +19,6 @@ const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
 const WINDOW = [rect(3, 3, 18, 18, 2), row(8, 3, 21)];
 const LENS_LS = [disc(8.5, 10, 4.5), poly([[5.5, 13], [3, 15.5]])];
 const HEART_L = raw("M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z", HEART, true);
-const PLAY_L = poly([[3, 5], [3, 19], [10, 12]], true);
 const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
 const COIN_L = [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5)];
 const ROWS_L = [row(6, 3, 14), row(11, 3, 14), row(16, 3, 14)];
@@ -220,24 +219,24 @@ export const BATCH_76: Icon[] = [
 
   {
     slug: "run-faster", category: "devtools", subcategory: "testing",
-    name: "Run faster", description: "A play button beside a double chevron — speed a run up, faster execution",
-    tags: ["run", "faster", "speed"], family: "object",
+    name: "Run faster", description: "A run card, a double chevron under its play — speed a run up, faster execution",
+    tags: ["run", "faster", "speed"], family: "window",
     aliases: [], keywords: ["run faster", "speed up job", "fast mode"],
-    shapes: [PLAY_L, poly([[13, 8], [17, 12], [13, 16]]), poly([[17.5, 8], [21.5, 12], [17.5, 16]])],
+    shapes: [...runCard(), poly([[9.5, 13.5], [12, 16], [9.5, 18.5]]), poly([[12.5, 13.5], [15, 16], [12.5, 18.5]])],
   },
   {
     slug: "run-next", category: "devtools", subcategory: "testing",
-    name: "Run next", description: "A play button with an arrow beside it — start the next run in the queue",
-    tags: ["run", "next", "queue"], family: "object",
+    name: "Run next", description: "A run card with an arrow under its play — start the next run in the queue",
+    tags: ["run", "next", "queue"], family: "window",
     aliases: [], keywords: ["run next", "next job", "advance queue"],
-    shapes: [PLAY_L, row(12, 14, 22), poly([[19.5, 9.5], [22, 12], [19.5, 14.5]])],
+    shapes: [...runCard(), row(16, 9, 15), poly([[12.5, 13.5], [15, 16], [12.5, 18.5]])],
   },
   {
     slug: "favorite-run", category: "devtools", subcategory: "testing",
-    name: "Favourite run", description: "A play button beside a heart — a run configuration you keep coming back to",
-    tags: ["run", "favourite", "heart"], family: "object",
+    name: "Favourite run", description: "A run card with a heart under its play — a run configuration you keep coming back to",
+    tags: ["run", "favourite", "heart"], family: "window",
     aliases: [], keywords: ["favourite run", "starred job", "pinned run"],
-    shapes: [PLAY_L, raw("M14 10A2.5 2.5 0 0 1 18 10A2.5 2.5 0 0 1 22 10L18 14Z", HEART, true)],
+    shapes: [...runCard(), ...heartMark(SMALL, 16)],
   },
   {
     slug: "event-escalate", category: "automation", subcategory: "action",
