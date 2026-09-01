@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "time",
   "name": "Time arrow down",
-  "description": "A clock with an arrow pointing down beside it — push it back, move the time later",
+  "description": "A timer dial, an arrow sinking on its face — push it back, move the time later",
   "tags": [
     "later",
     "postpone",
@@ -18,22 +18,26 @@
     "push back",
     "delay"
   ],
-  "family": "clock",
+  "family": "orbit",
   "shapes": [
     {
-      "d": "M2 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
-      "closed": true
-    },
-    {
-      "d": "M7.5 9L7.5 12L10 12",
+      "d": "M15.38 6.75A8 8 0 1 1 8.62 6.75",
       "closed": false
     },
     {
-      "d": "M18.5 8V16",
+      "d": "M12 3V6",
       "closed": false
     },
     {
-      "d": "M16 13.5L18.5 16L21 13.5",
+      "d": "M9 3H15",
+      "closed": false
+    },
+    {
+      "d": "M12 11V17",
+      "closed": false
+    },
+    {
+      "d": "M9.5 14.5L12 17L14.5 14.5",
       "closed": false
     }
   ]

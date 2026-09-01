@@ -9,14 +9,13 @@
  * Unattended round. Every name checked free before drawing.
  */
 import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { window_ } from "../bodies.ts";
-import { SMALL, remove } from "../marks.ts";
+import { dial, window_ } from "../bodies.ts";
+import { add, BIG, remove, SMALL } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
 const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
 const calendarParts = () => [window_(), row(10, 3, 21), col(8, 2.5, 5), col(16, 2.5, 5)];
-const CLOCK_L = [disc(7.5, 12, 5.5), poly([[7.5, 9], [7.5, 12], [10, 12]])];
 
 const chat = (slug: string, name: string, description: string, tags: string[], aliases: string[], keywords: string[], marks: Icon["shapes"]): Icon => ({
   slug, category: "interface", subcategory: "communication", name, description, tags, family: "bubble", aliases, keywords,
@@ -27,8 +26,8 @@ const cal = (slug: string, name: string, description: string, tags: string[], al
   shapes: [...calendarParts(), ...marks],
 });
 const time = (slug: string, name: string, description: string, tags: string[], aliases: string[], keywords: string[], marks: Icon["shapes"]): Icon => ({
-  slug, category: "interface", subcategory: "time", name, description, tags, family: "clock", aliases, keywords,
-  shapes: [...CLOCK_L, ...marks],
+  slug, category: "interface", subcategory: "time", name, description, tags, family: "orbit", aliases, keywords,
+  shapes: [...dial(), ...marks],
 });
 
 export const BATCH_79: Icon[] = [
@@ -82,16 +81,16 @@ export const BATCH_79: Icon[] = [
     ["later", "import", "download"], ["calendar-arrow-down"], ["move later", "import calendar", "download events"],
     [col(12, 12.5, 19), poly([[9.5, 16.5], [12, 19], [14.5, 16.5]])]),
   // ── time ────────────────────────────────────────────────────────────────────────
-  time("time-add", "Time add", "A clock with a plus beside it — add time, extend a deadline or book another slot",
+  time("time-add", "Time add", "A timer dial with a plus on its face — add time, extend a deadline or book a slot",
     ["extend", "more", "slot"], ["clock-plus"], ["add time", "extend deadline", "extra time", "book slot"],
-    [col(18.5, 9, 15), row(12, 15.5, 21.5)]),
-  time("time-arrow-up", "Time arrow up", "A clock with an arrow pointing up beside it — bring it forward, move the time earlier",
+    [...add(BIG, 14)]),
+  time("time-arrow-up", "Time arrow up", "A timer dial, an arrow rising on its face — bring it forward, move the time earlier",
     ["earlier", "forward", "sooner"], ["clock-arrow-up"], ["move earlier", "bring forward", "sooner"],
-    [col(18.5, 8, 16), poly([[16, 10.5], [18.5, 8], [21, 10.5]])]),
-  time("time-arrow-down", "Time arrow down", "A clock with an arrow pointing down beside it — push it back, move the time later",
+    [col(12, 11, 17), poly([[9.5, 13.5], [12, 11], [14.5, 13.5]])]),
+  time("time-arrow-down", "Time arrow down", "A timer dial, an arrow sinking on its face — push it back, move the time later",
     ["later", "postpone", "delay"], ["clock-arrow-down"], ["move later", "postpone", "push back", "delay"],
-    [col(18.5, 8, 16), poly([[16, 13.5], [18.5, 16], [21, 13.5]])]),
-  time("time-arrow-left", "Time arrow left", "A clock with an arrow pointing left beside it — go back in time, rewind to an earlier point",
+    [col(12, 11, 17), poly([[9.5, 14.5], [12, 17], [14.5, 14.5]])]),
+  time("time-arrow-left", "Time arrow left", "A timer dial, an arrow turning back on its face — rewind to an earlier point",
     ["rewind", "back", "history"], ["clock-arrow-left"], ["go back in time", "rewind", "time travel", "history"],
-    [row(12, 15.5, 21.5), poly([[18, 9.5], [15.5, 12], [18, 14.5]])]),
+    [row(14, 9, 15), poly([[11.5, 11.5], [9, 14], [11.5, 16.5]])]),
 ];

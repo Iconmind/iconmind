@@ -17,10 +17,10 @@ export const BATCH_67: Icon[] = [
 
   {
     slug: "think-longer", category: "ai", subcategory: "inference",
-    name: "Think longer", description: "A timer dial with a plus on its face — give the model more thinking time before it answers",
+    name: "Think longer", description: "A timer dial with thinking dots on its face — give the model more time to answer",
     tags: ["reasoning", "time", "budget"], family: "orbit",
     aliases: [], keywords: ["extended thinking", "thinking budget", "reasoning effort"],
-    shapes: [...dial(), ...add(BIG, 14)],
+    shapes: [...dial(), disc(8, 14, 1), disc(12, 14, 1), disc(16, 14, 1)],
   },
   {
     slug: "self-reflect", category: "ai", subcategory: "inference",

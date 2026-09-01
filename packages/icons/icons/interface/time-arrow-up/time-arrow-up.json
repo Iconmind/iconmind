@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "time",
   "name": "Time arrow up",
-  "description": "A clock with an arrow pointing up beside it — bring it forward, move the time earlier",
+  "description": "A timer dial, an arrow rising on its face — bring it forward, move the time earlier",
   "tags": [
     "earlier",
     "forward",
@@ -17,22 +17,26 @@
     "bring forward",
     "sooner"
   ],
-  "family": "clock",
+  "family": "orbit",
   "shapes": [
     {
-      "d": "M2 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
-      "closed": true
-    },
-    {
-      "d": "M7.5 9L7.5 12L10 12",
+      "d": "M15.38 6.75A8 8 0 1 1 8.62 6.75",
       "closed": false
     },
     {
-      "d": "M18.5 8V16",
+      "d": "M12 3V6",
       "closed": false
     },
     {
-      "d": "M16 10.5L18.5 8L21 10.5",
+      "d": "M9 3H15",
+      "closed": false
+    },
+    {
+      "d": "M12 11V17",
+      "closed": false
+    },
+    {
+      "d": "M9.5 13.5L12 11L14.5 13.5",
       "closed": false
     }
   ]

@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Think longer",
-  "description": "A timer dial with a plus on its face — give the model more thinking time before it answers",
+  "description": "A timer dial with thinking dots on its face — give the model more time to answer",
   "tags": [
     "reasoning",
     "time",
@@ -29,12 +29,16 @@
       "closed": false
     },
     {
-      "d": "M12 10V18",
-      "closed": false
+      "d": "M7 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
     },
     {
-      "d": "M8 14H16",
-      "closed": false
+      "d": "M11 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
     }
   ]
 }

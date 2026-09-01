@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "communication",
   "name": "Bell off",
-  "description": "A bell with a cross at its shoulder — notifications muted, the bell silenced",
+  "description": "A bell struck through — notifications muted, the bell silenced",
   "tags": [
     "muted",
     "silenced",
@@ -17,27 +17,15 @@
   "family": "figure",
   "shapes": [
     {
-      "d": "M6 13A6 6 0 0 1 18 13",
+      "d": "M3 17A9 9 0 0 1 21 17",
       "closed": false
     },
     {
-      "d": "M6 13V17",
+      "d": "M3 20H21",
       "closed": false
     },
     {
-      "d": "M18 13V17",
-      "closed": false
-    },
-    {
-      "d": "M4 17H20",
-      "closed": false
-    },
-    {
-      "d": "M18.5 3.5L21.5 6.5",
-      "closed": false
-    },
-    {
-      "d": "M21.5 3.5L18.5 6.5",
+      "d": "M6.5 6.5L16.5 16.5",
       "closed": false
     }
   ]

@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "communication",
   "name": "Bell ring",
-  "description": "A bell with motion lines beside it — ringing now, a notification going off",
+  "description": "A bell with motion lines at its shoulders — ringing now, a notification going off",
   "tags": [
     "ringing",
     "alarm",
@@ -17,27 +17,19 @@
   "family": "figure",
   "shapes": [
     {
-      "d": "M6 13A6 6 0 0 1 18 13",
+      "d": "M3 17A9 9 0 0 1 21 17",
       "closed": false
     },
     {
-      "d": "M6 13V17",
+      "d": "M3 20H21",
       "closed": false
     },
     {
-      "d": "M18 13V17",
+      "d": "M3 9L5 7",
       "closed": false
     },
     {
-      "d": "M4 17H20",
-      "closed": false
-    },
-    {
-      "d": "M3 10L5 8",
-      "closed": false
-    },
-    {
-      "d": "M21 10L19 8",
+      "d": "M21 9L19 7",
       "closed": false
     }
   ]

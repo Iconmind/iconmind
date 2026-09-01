@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "communication",
   "name": "Bell remove",
-  "description": "A bell with a minus at its shoulder — unsubscribe, turn notifications off for this",
+  "description": "A bell with a minus inside — unsubscribe, turn notifications off for this",
   "tags": [
     "unsubscribe",
     "disable",
@@ -20,23 +20,15 @@
   "family": "figure",
   "shapes": [
     {
-      "d": "M6 13A6 6 0 0 1 18 13",
+      "d": "M3 17A9 9 0 0 1 21 17",
       "closed": false
     },
     {
-      "d": "M6 13V17",
+      "d": "M3 20H21",
       "closed": false
     },
     {
-      "d": "M18 13V17",
-      "closed": false
-    },
-    {
-      "d": "M4 17H20",
-      "closed": false
-    },
-    {
-      "d": "M17 6H22",
+      "d": "M9 14H15",
       "closed": false
     }
   ]

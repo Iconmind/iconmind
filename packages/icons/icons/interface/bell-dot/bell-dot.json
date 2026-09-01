@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "communication",
   "name": "Bell dot",
-  "description": "A bell with a dot at its shoulder — an unread notification waiting",
+  "description": "A bell with a dot inside — an unread notification waiting",
   "tags": [
     "unread",
     "badge",
@@ -17,23 +17,15 @@
   "family": "figure",
   "shapes": [
     {
-      "d": "M6 13A6 6 0 0 1 18 13",
+      "d": "M3 17A9 9 0 0 1 21 17",
       "closed": false
     },
     {
-      "d": "M6 13V17",
+      "d": "M3 20H21",
       "closed": false
     },
     {
-      "d": "M18 13V17",
-      "closed": false
-    },
-    {
-      "d": "M4 17H20",
-      "closed": false
-    },
-    {
-      "d": "M18 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "d": "M10 14a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
       "closed": true
     }
   ]

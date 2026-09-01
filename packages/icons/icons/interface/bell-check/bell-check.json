@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "communication",
   "name": "Bell check",
-  "description": "A bell with a check at its shoulder — notifications on and working, alerts confirmed",
+  "description": "A bell with a check inside — notifications on and working, alerts confirmed",
   "tags": [
     "enabled",
     "confirmed",
@@ -17,23 +17,15 @@
   "family": "figure",
   "shapes": [
     {
-      "d": "M6 13A6 6 0 0 1 18 13",
+      "d": "M3 17A9 9 0 0 1 21 17",
       "closed": false
     },
     {
-      "d": "M6 13V17",
+      "d": "M3 20H21",
       "closed": false
     },
     {
-      "d": "M18 13V17",
-      "closed": false
-    },
-    {
-      "d": "M4 17H20",
-      "closed": false
-    },
-    {
-      "d": "M17 6L19 8L22 5",
+      "d": "M9 14L11 16L15 12",
       "closed": false
     }
   ]

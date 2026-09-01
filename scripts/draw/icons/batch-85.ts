@@ -9,8 +9,8 @@
  * Unattended round. Every name checked free before drawing.
  */
 import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { cloud, machine, shield } from "../bodies.ts";
-import { SMALL, add, check, remove } from "../marks.ts";
+import { bell as bellBody, cloud, machine, shield } from "../bodies.ts";
+import { add, check, remove, SMALL } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const ENV = [rect(2, 6, 13, 12, 2), poly([[4, 7], [8.5, 11.5], [13, 7]])];
@@ -24,10 +24,9 @@ const db = (slug: string, name: string, description: string, tags: string[], ali
   shapes: [...DB, ...marks],
 });
 // bell without its clapper: with the badge on, seven elements would be one too many.
-const BELL = [arc(12, 13, 6, 180, 360), col(6, 13, 17), col(18, 13, 17), row(17, 4, 20)];
 const bell = (slug: string, name: string, description: string, tags: string[], aliases: string[], keywords: string[], marks: Icon["shapes"]): Icon => ({
   slug, category: "interface", subcategory: "communication", name, description, tags, family: "figure", aliases, keywords,
-  shapes: [...BELL, ...marks],
+  shapes: [...bellBody(), ...marks],
 });
 const sh = (slug: string, name: string, description: string, tags: string[], aliases: string[], keywords: string[], marks: Icon["shapes"]): Icon => ({
   slug, category: "security", subcategory: "policy", name, description, tags, family: "shield", aliases, keywords,
@@ -93,24 +92,24 @@ export const BATCH_85: Icon[] = [
     [col(12, 12.5, 18.5), poly([[9.5, 16], [12, 18.5], [14.5, 16]])]),
 
   // ── bell ────────────────────────────────────────────────────────────────────────
-  bell("bell-ring", "Bell ring", "A bell with motion lines beside it — ringing now, a notification going off",
+  bell("bell-ring", "Bell ring", "A bell with motion lines at its shoulders — ringing now, a notification going off",
     ["ringing", "alarm", "active"], [], ["bell ringing", "notification sound", "alarm going off"],
-    [poly([[3, 10], [5, 8]]), poly([[21, 10], [19, 8]])]),
-  bell("bell-off", "Bell off", "A bell with a cross at its shoulder — notifications muted, the bell silenced",
+    [poly([[3, 9], [5, 7]]), poly([[21, 9], [19, 7]])]),
+  bell("bell-off", "Bell off", "A bell struck through — notifications muted, the bell silenced",
     ["muted", "silenced", "disabled"], [], ["mute notifications", "bell muted", "silence alerts"],
-    [poly([[18.5, 3.5], [21.5, 6.5]]), poly([[21.5, 3.5], [18.5, 6.5]])]),
-  bell("bell-dot", "Bell dot", "A bell with a dot at its shoulder — an unread notification waiting",
+    [poly([[6.5, 6.5], [16.5, 16.5]])]),
+  bell("bell-dot", "Bell dot", "A bell with a dot inside — an unread notification waiting",
     ["unread", "badge", "waiting"], [], ["notification badge", "unread alert", "bell with dot"],
-    [disc(20, 6, 2)]),
-  bell("bell-add", "Bell add", "A bell with a plus at its shoulder — subscribe, turn notifications on for this",
+    [disc(12, 14, 2)]),
+  bell("bell-add", "Bell add", "A bell with a plus inside — subscribe, turn notifications on for this",
     ["subscribe", "enable", "follow"], ["bell-plus"], ["enable notifications", "subscribe alerts", "add reminder"],
-    [col(19.5, 3.5, 8.5), row(6, 17, 22)]),
-  bell("bell-remove", "Bell remove", "A bell with a minus at its shoulder — unsubscribe, turn notifications off for this",
+    [...add(SMALL, 14)]),
+  bell("bell-remove", "Bell remove", "A bell with a minus inside — unsubscribe, turn notifications off for this",
     ["unsubscribe", "disable", "unfollow"], ["bell-minus"], ["disable notifications", "unsubscribe alerts", "remove reminder"],
-    [row(6, 17, 22)]),
-  bell("bell-check", "Bell check", "A bell with a check at its shoulder — notifications on and working, alerts confirmed",
+    [...remove(SMALL, 14)]),
+  bell("bell-check", "Bell check", "A bell with a check inside — notifications on and working, alerts confirmed",
     ["enabled", "confirmed", "active"], [], ["notifications enabled", "alerts confirmed", "bell check"],
-    [poly([[17, 6], [19, 8], [22, 5]])]),
+    [...check(SMALL, 14)]),
 
   // ── shield ──────────────────────────────────────────────────────────────────────
   sh("shield", "Shield", "A plain shield — protection, security, the thing that stands between a system and harm",
