@@ -9,8 +9,8 @@
  * name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { bookmark, dial, key, machine, shield } from "../bodies.ts";
-import { add, alert, BIG, check, flagMark, heartMark, idleMark, off, playMark, SMALL, trendMark } from "../marks.ts";
+import { banner, bookmark, dial, key, machine, shield } from "../bodies.ts";
+import { add, alert, BIG, check, flagMark, heartMark, idleMark, off, playMark, remove, SMALL, tagMark, trendMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -24,7 +24,6 @@ const LOCK_LN = [rect(2, 11, 9, 8, 2), arc(6.5, 11, 2, 180, 360)];
 const LENS_L = [disc(9, 10, 5), poly([[5.5, 13.5], [2.5, 16.5]])];
 const BOOKMARK_L = poly([[3, 5], [12, 5], [12, 19], [7.5, 14.5], [3, 19]], true);
 const HEART_L = raw("M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z", HEART, true);
-const FLAG_L = [col(4, 3, 21), poly([[4, 3], [13, 3], [10, 6], [13, 9], [4, 9]])];
 const PLAY_L = poly([[3, 5], [3, 19], [10, 12]], true);
 const FUNNEL_L = poly([[3, 5], [14, 5], [10, 9], [10, 17], [7, 17], [7, 9]], true);
 const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
@@ -206,31 +205,31 @@ export const BATCH_75: Icon[] = [
 
   {
     slug: "labelled-checkpoint", category: "ai", subcategory: "training",
-    name: "Labelled checkpoint", description: "A flag beside a label — a checkpoint with a name attached so it can be found",
+    name: "Labelled checkpoint", description: "A flag flown big, a label on its banner — a checkpoint named so it can be found",
     tags: ["checkpoint", "label", "name"], family: "flag",
     aliases: [], keywords: ["labelled checkpoint", "named checkpoint", "checkpoint tag"],
-    shapes: [...FLAG_L, TAG_RS],
+    shapes: [...banner(), ...tagMark(SMALL, 10)],
   },
   {
     slug: "next-milestone", category: "ai", subcategory: "training",
-    name: "Next milestone", description: "A flag with a double chevron beside it — on to the next milestone on the plan",
+    name: "Next milestone", description: "A flag flown big, a double chevron on its banner — on to the next milestone",
     tags: ["milestone", "next", "arrow"], family: "flag",
     aliases: [], keywords: ["next milestone", "advance milestone", "next checkpoint"],
-    shapes: [...FLAG_L, poly([[14.5, 12], [17.5, 15], [14.5, 18]]), poly([[19, 12], [22, 15], [19, 18]])],
+    shapes: [...banner(), poly([[10.5, 7.5], [13, 10], [10.5, 12.5]]), poly([[13.5, 7.5], [16, 10], [13.5, 12.5]])],
   },
   {
     slug: "checkpoint-alert", category: "ai", subcategory: "training",
-    name: "Checkpoint alert", description: "A flag beside an alert mark — a checkpoint that needs attention",
+    name: "Checkpoint alert", description: "A flag flown big, an alert on its banner — a checkpoint that needs attention",
     tags: ["checkpoint", "alert", "warning"], family: "flag",
     aliases: [], keywords: ["checkpoint alert", "checkpoint warning", "save issue"],
-    shapes: [...FLAG_L, ...ALERT_R],
+    shapes: [...banner(), ...alert(SMALL, 10)],
   },
   {
     slug: "remove-checkpoint", category: "ai", subcategory: "training",
-    name: "Remove checkpoint", description: "A flag with a minus beside it — delete a checkpoint you no longer need",
+    name: "Remove checkpoint", description: "A flag flown big, a minus on its banner — delete a checkpoint you no longer need",
     tags: ["checkpoint", "remove", "delete"], family: "flag",
     aliases: [], keywords: ["remove checkpoint", "delete checkpoint", "prune saves"],
-    shapes: [...FLAG_L, MINUS_R],
+    shapes: [...banner(), ...remove(SMALL, 10)],
   },
   {
     slug: "model-idle", category: "ai", subcategory: "model",

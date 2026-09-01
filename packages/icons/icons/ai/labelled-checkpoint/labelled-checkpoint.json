@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Labelled checkpoint",
-  "description": "A flag beside a label — a checkpoint with a name attached so it can be found",
+  "description": "A flag flown big, a label on its banner — a checkpoint named so it can be found",
   "tags": [
     "checkpoint",
     "label",
@@ -21,11 +21,11 @@
       "closed": false
     },
     {
-      "d": "M4 3L13 3L10 6L13 9L4 9",
+      "d": "M4 4L20 4L20 16L4 16",
       "closed": false
     },
     {
-      "d": "M16 13L20 13L22 15L20 17L16 17Z",
+      "d": "M9 7L12 7L15 10L12 13L9 13Z",
       "closed": true
     }
   ]

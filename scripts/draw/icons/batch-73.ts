@@ -8,8 +8,8 @@
  * checked free before drawing.
  */
 import { arc, area, col, disc, openDisc, poly, raw, rect, row } from "../forms.ts";
-import { alert, BIG, bookmarkMark, check, coinMark, funnelMark, heartMark, idleMark, keyMark, pinMark, playMark, searchMark, shieldMark, SMALL, tagMark, targetMark, trendMark } from "../marks.ts";
-import { dial, key, machine, shield } from "../bodies.ts";
+import { alert, BIG, bookmarkMark, check, coinMark, funnelMark, heartMark, idleMark, keyMark, lockMark, pinMark, playMark, searchMark, shieldMark, SMALL, tagMark, targetMark, trendMark } from "../marks.ts";
+import { banner, dial, key, machine, shield } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -17,7 +17,6 @@ const BR_L = poly([[7, 3], [3, 3], [3, 21], [7, 21]]);
 const BR_R = poly([[17, 3], [21, 3], [21, 21], [17, 21]]);
 const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
 const FUNNEL_L = poly([[3, 5], [14, 5], [10, 9], [10, 17], [7, 17], [7, 9]], true);
-const FLAG_L = [col(4, 3, 21), poly([[4, 3], [13, 3], [10, 6], [13, 9], [4, 9]])];
 const DIAMOND_L = poly([[7, 8], [11, 12], [7, 16], [3, 12]], true);
 const TARGET_L = [disc(8, 12, 5), disc(8, 12, 2)];
 const PLAY_L = poly([[3, 5], [3, 19], [10, 12]], true);
@@ -218,10 +217,10 @@ export const BATCH_73: Icon[] = [
   },
   {
     slug: "frozen-checkpoint", category: "ai", subcategory: "training",
-    name: "Frozen checkpoint", description: "A flag beside a padlock — a checkpoint frozen so it cannot change",
+    name: "Frozen checkpoint", description: "A flag flown big, a padlock on its banner — a checkpoint frozen so it cannot change",
     tags: ["frozen", "checkpoint", "lock"], family: "flag",
     aliases: [], keywords: ["frozen checkpoint", "locked weights", "immutable checkpoint"],
-    shapes: [...FLAG_L, rect(14, 12, 8, 7.5, 2), arc(18, 12, 2, 180, 360)],
+    shapes: [...banner(), ...lockMark(SMALL, 10)],
   },
   {
     slug: "model-goal", category: "ai", subcategory: "training",
@@ -242,10 +241,10 @@ export const BATCH_73: Icon[] = [
 
   {
     slug: "milestone-goal", category: "analytics", subcategory: "metric",
-    name: "Milestone goal", description: "A flag beside a target — the goal a milestone stands for on the way",
+    name: "Milestone goal", description: "A flag flown big, an arrow arriving on its banner — the goal a milestone stands for",
     tags: ["milestone", "goal", "target"], family: "flag",
     aliases: [], keywords: ["milestone goal", "milestone target", "project objective"],
-    shapes: [...FLAG_L, disc(18, 14, 4), disc(18, 14, 1)],
+    shapes: [...banner(), col(12, 7, 12), poly([[9.5, 9.5], [12, 12], [14.5, 9.5]])],
   },
   {
     slug: "add-goal", category: "analytics", subcategory: "metric",

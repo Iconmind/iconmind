@@ -8,13 +8,12 @@
  * name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { alert, BIG, boltMark, bookmarkMark, check, clockMark, flagMark, funnelMark, heartMark, idleMark, lockMark, off, pause, playMark, shieldMark, SMALL, squareMark, tagMark } from "../marks.ts";
-import { dial, key } from "../bodies.ts";
+import { add, alert, BIG, boltMark, bookmarkMark, check, clockMark, flagMark, funnelMark, heartMark, idleMark, lockMark, off, pause, playMark, searchMark, shieldMark, SMALL, squareMark, tagMark } from "../marks.ts";
+import { banner, dial, key } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
 const COIN_L = [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5)];
-const FLAG_L = [col(4, 3, 21), poly([[4, 3], [13, 3], [10, 6], [13, 9], [4, 9]])];
 const FUNNEL_L = poly([[3, 5], [14, 5], [10, 9], [10, 17], [7, 17], [7, 9]], true);
 const TARGET_L = [disc(8, 12, 5), disc(8, 12, 2)];
 const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
@@ -223,10 +222,10 @@ export const BATCH_74: Icon[] = [
   },
   {
     slug: "protected-checkpoint", category: "security", subcategory: "auth",
-    name: "Protected checkpoint", description: "A flag beside a shield — a checkpoint that cannot be tampered with",
+    name: "Protected checkpoint", description: "A flag flown big, a shield on its banner — a checkpoint that cannot be tampered with",
     tags: ["checkpoint", "protected", "shield"], family: "flag",
     aliases: [], keywords: ["protected checkpoint", "tamper-proof save", "guarded milestone"],
-    shapes: [...FLAG_L, poly([[16, 11], [22, 11], [22, 16], [19, 19], [16, 16]], true)],
+    shapes: [...banner(), ...shieldMark(SMALL, 10)],
   },
   {
     slug: "policy-label", category: "security", subcategory: "auth",
@@ -247,31 +246,31 @@ export const BATCH_74: Icon[] = [
 
   {
     slug: "resume-checkpoint", category: "ai", subcategory: "training",
-    name: "Resume checkpoint", description: "A flag beside a play button — resume training from a checkpoint",
+    name: "Resume checkpoint", description: "A flag flown big, a play on its banner — resume training from a checkpoint",
     tags: ["resume", "checkpoint", "training"], family: "flag",
     aliases: [], keywords: ["resume from checkpoint", "continue training", "restart run"],
-    shapes: [...FLAG_L, poly([[16, 8], [16, 16], [20, 12]], true)],
+    shapes: [...banner(), ...playMark(SMALL, 10)],
   },
   {
     slug: "stale-checkpoint", category: "ai", subcategory: "training",
-    name: "Stale checkpoint", description: "A flag beside a Z — a checkpoint too old to be useful any more",
+    name: "Stale checkpoint", description: "A flag flown big, a Z on its banner — a checkpoint too old to be useful any more",
     tags: ["stale", "checkpoint", "old"], family: "flag",
     aliases: [], keywords: ["stale checkpoint", "outdated save", "old checkpoint"],
-    shapes: [...FLAG_L, poly([[16, 10], [21, 10], [16, 15], [21, 15]])],
+    shapes: [...banner(), ...idleMark(SMALL, 10)],
   },
   {
     slug: "add-checkpoint", category: "ai", subcategory: "training",
-    name: "Add checkpoint", description: "A flag with a plus beside it — save a new checkpoint right now, before going on",
+    name: "Add checkpoint", description: "A flag flown big, a plus on its banner — save a new checkpoint right now",
     tags: ["checkpoint", "add", "save"], family: "flag",
     aliases: [], keywords: ["add checkpoint", "save checkpoint", "new checkpoint"],
-    shapes: [...FLAG_L, row(14, 16, 22), col(19, 11, 17)],
+    shapes: [...banner(), ...add(SMALL, 10)],
   },
   {
     slug: "find-checkpoint", category: "ai", subcategory: "training",
-    name: "Find checkpoint", description: "A flag beside a magnifying glass — find the checkpoint you need",
+    name: "Find checkpoint", description: "A flag flown big, a lens on its banner — find the checkpoint you need",
     tags: ["checkpoint", "find", "search"], family: "flag",
     aliases: [], keywords: ["find checkpoint", "search checkpoints", "locate save"],
-    shapes: [...FLAG_L, disc(18.5, 13.5, 3.5), poly([[16, 16], [14, 18]])],
+    shapes: [...banner(), ...searchMark(SMALL, 10)],
   },
 
   /* ── analytics: goals qualified ───────────────────────────────────────────────── */

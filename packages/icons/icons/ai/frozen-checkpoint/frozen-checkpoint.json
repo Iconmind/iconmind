@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Frozen checkpoint",
-  "description": "A flag beside a padlock — a checkpoint frozen so it cannot change",
+  "description": "A flag flown big, a padlock on its banner — a checkpoint frozen so it cannot change",
   "tags": [
     "frozen",
     "checkpoint",
@@ -21,15 +21,15 @@
       "closed": false
     },
     {
-      "d": "M4 3L13 3L10 6L13 9L4 9",
+      "d": "M4 4L20 4L20 16L4 16",
       "closed": false
     },
     {
-      "d": "M14 14A2 2 0 0 1 16 12H20A2 2 0 0 1 22 14V17.5A2 2 0 0 1 20 19.5H16A2 2 0 0 1 14 17.5Z",
+      "d": "M9 10L15 10L15 13L9 13Z",
       "closed": true
     },
     {
-      "d": "M16 12A2 2 0 0 1 20 12",
+      "d": "M10.5 10A1.5 1.5 0 0 1 13.5 10",
       "closed": false
     }
   ]

@@ -8,7 +8,7 @@
  * Unattended round. Every name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { key, shield } from "../bodies.ts";
+import { banner, key, shield } from "../bodies.ts";
 import { alert, BIG, flagMark, heartMark, idleMark, keyMark, playMark, remove, SMALL, squareMark, trendMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
@@ -25,7 +25,6 @@ const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
 const TARGET_L = [disc(8, 12, 5), disc(8, 12, 2)];
 const FUNNEL_L = poly([[3, 5], [14, 5], [10, 9], [10, 17], [7, 17], [7, 9]], true);
 const COIN_L = [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5)];
-const FLAG_L = [col(4, 3, 21), poly([[4, 3], [13, 3], [10, 6], [13, 9], [4, 9]])];
 const LOCK_L = [rect(2, 11, 10, 8, 2), arc(7, 11, 3, 180, 360)];
 const ROWS_L = [row(6, 3, 14), row(11, 3, 14), row(16, 3, 14)];
 const ROWS_LS = [row(6, 3, 12), row(11, 3, 12), row(16, 3, 12)];
@@ -36,7 +35,6 @@ const Z_R = poly([[15, 9.5], [20, 9.5], [15, 14.5], [20, 14.5]]);
 const ALERT_R = [col(18, 7, 12), disc(18, 15, 1)];
 const MINUS_R = row(12, 16, 22);
 const LINE_R = poly([[15, 19], [17.5, 16.5], [19.5, 18.5], [22, 16]]);
-const UP_R = [poly([[16, 13], [19, 10], [22, 13]]), poly([[16, 17.5], [19, 14.5], [22, 17.5]])];
 const UP_R15 = [poly([[15, 13], [18.5, 9.5], [22, 13]]), poly([[15, 17.5], [18.5, 14], [22, 17.5]])];
 
 export const BATCH_76: Icon[] = [
@@ -301,10 +299,10 @@ export const BATCH_76: Icon[] = [
   },
   {
     slug: "milestone-up", category: "analytics", subcategory: "metric",
-    name: "Milestone up", description: "A flag beside a double chevron rising — a milestone moved to a higher target",
+    name: "Milestone up", description: "A flag flown big, a double chevron rising on its banner — a milestone raised",
     tags: ["milestone", "raise", "up"], family: "flag",
     aliases: [], keywords: ["raise milestone", "stretch milestone", "milestone increased"],
-    shapes: [...FLAG_L, ...UP_R],
+    shapes: [...banner(), poly([[10, 9.5], [12, 7.5], [14, 9.5]]), poly([[10, 12.5], [12, 10.5], [14, 12.5]])],
   },
 
   /* ── interface: lists ─────────────────────────────────────────────────────────── */

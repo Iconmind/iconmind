@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Milestone goal",
-  "description": "A flag beside a target — the goal a milestone stands for on the way",
+  "description": "A flag flown big, an arrow arriving on its banner — the goal a milestone stands for",
   "tags": [
     "milestone",
     "goal",
@@ -21,16 +21,16 @@
       "closed": false
     },
     {
-      "d": "M4 3L13 3L10 6L13 9L4 9",
+      "d": "M4 4L20 4L20 16L4 16",
       "closed": false
     },
     {
-      "d": "M14 14a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
-      "closed": true
+      "d": "M12 7V12",
+      "closed": false
     },
     {
-      "d": "M17 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
-      "closed": true
+      "d": "M9.5 9.5L12 12L14.5 9.5",
+      "closed": false
     }
   ]
 }

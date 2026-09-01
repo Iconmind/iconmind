@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "training",
   "name": "Checkpoint alert",
-  "description": "A flag beside an alert mark — a checkpoint that needs attention",
+  "description": "A flag flown big, an alert on its banner — a checkpoint that needs attention",
   "tags": [
     "checkpoint",
     "alert",
@@ -21,15 +21,15 @@
       "closed": false
     },
     {
-      "d": "M4 3L13 3L10 6L13 9L4 9",
+      "d": "M4 4L20 4L20 16L4 16",
       "closed": false
     },
     {
-      "d": "M18 7V12",
+      "d": "M12 7V10",
       "closed": false
     },
     {
-      "d": "M17 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "d": "M11 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
       "closed": true
     }
   ]

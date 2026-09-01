@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "metric",
   "name": "Milestone up",
-  "description": "A flag beside a double chevron rising — a milestone moved to a higher target",
+  "description": "A flag flown big, a double chevron rising on its banner — a milestone raised",
   "tags": [
     "milestone",
     "raise",
@@ -21,15 +21,15 @@
       "closed": false
     },
     {
-      "d": "M4 3L13 3L10 6L13 9L4 9",
+      "d": "M4 4L20 4L20 16L4 16",
       "closed": false
     },
     {
-      "d": "M16 13L19 10L22 13",
+      "d": "M10 9.5L12 7.5L14 9.5",
       "closed": false
     },
     {
-      "d": "M16 17.5L19 14.5L22 17.5",
+      "d": "M10 12.5L12 10.5L14 12.5",
       "closed": false
     }
   ]

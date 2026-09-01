@@ -122,6 +122,11 @@ export const key = (): Shape[] => [frame(4.5, 2, 15, 13, 3, { gap: 4 }), col(12,
 /** `timer` with its hands left off: the crown says time, the dial is the hollow. */
 export const dial = (): Shape[] => [arc(12, 14, 8, 295, 245), col(12, 3, 6), row(3, 9, 15)];
 
+
+/** A flag flown big: full-height pole, the banner is the hollow a mark sits in.
+ * Open at the pole - the pole is the banner's left edge, as flagMark does it. */
+export const banner = (): Shape[] => [col(4, 3, 21), poly([[4, 4], [20, 4], [20, 16], [4, 16]])];
+
 /** A tray, mouth up: what things are put into or taken out of. */
 export const tray = (): Shape => body(poly([[4, 15], [4, 19], [20, 19], [20, 15]]));
 

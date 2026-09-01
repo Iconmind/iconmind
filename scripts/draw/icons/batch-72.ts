@@ -9,7 +9,7 @@
  */
 import { arc, col, disc, poly, raw, rect, row, area } from "../forms.ts";
 import { BIG, boltMark, bookmarkMark, clockMark, funnelMark, heartMark, off, pinMark, SMALL, trendMark } from "../marks.ts";
-import { dial, key, machine } from "../bodies.ts";
+import { banner, dial, key, machine } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -17,7 +17,6 @@ const BR_L = poly([[7, 3], [3, 3], [3, 21], [7, 21]]);
 const BR_R = poly([[17, 3], [21, 3], [21, 21], [17, 21]]);
 const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
 const FUNNEL_L = poly([[3, 5], [14, 5], [10, 9], [10, 17], [7, 17], [7, 9]], true);
-const FLAG_L = [col(4, 3, 21), poly([[4, 3], [13, 3], [10, 6], [13, 9], [4, 9]])];
 const ROWS_R = (x: number) => [row(8, x, 22), row(12, x, 22), row(16, x, 22)];
 
 export const BATCH_72: Icon[] = [
@@ -363,10 +362,10 @@ export const BATCH_72: Icon[] = [
   },
   {
     slug: "checkpoint-list", category: "analytics", subcategory: "dashboard",
-    name: "Checkpoint list", description: "A flag beside a list — every checkpoint saved so far, in order",
+    name: "Checkpoint list", description: "A flag flown big, list rows on its banner — every checkpoint saved so far",
     tags: ["checkpoints", "list", "history"], family: "flag",
     aliases: [], keywords: ["checkpoint list", "saved checkpoints", "milestone history"],
-    shapes: [...FLAG_L, ...ROWS_R(16)],
+    shapes: [...banner(), row(8.5, 9, 15), row(11.5, 9, 15)],
   },
   {
     slug: "filtered-list", category: "analytics", subcategory: "segment",
@@ -377,10 +376,10 @@ export const BATCH_72: Icon[] = [
   },
   {
     slug: "trend-milestone", category: "analytics", subcategory: "chart",
-    name: "Trend milestone", description: "A flag beside a rising line — a milestone marked on a trend as it climbs",
+    name: "Trend milestone", description: "A flag flown big, a rising line on its banner — a milestone on the climb",
     tags: ["milestone", "trend", "chart"], family: "flag",
     aliases: [], keywords: ["trend milestone", "annotated chart", "marked point"],
-    shapes: [...FLAG_L, poly([[15, 19], [17.5, 16.5], [19.5, 18.5], [22, 16]])],
+    shapes: [...banner(), ...trendMark(SMALL, 10)],
   },
 
   /* ── agents: memory in and out ────────────────────────────────────────────────── */
