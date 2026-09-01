@@ -8,12 +8,11 @@
  * Unattended round. Every name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { banner, bookmark, funnel, key, padlock, runCard, shield, trophy } from "../bodies.ts";
+import { banner, bookmark, brackets, funnel, key, padlock, runCard, shield, trophy } from "../bodies.ts";
 import { alert, BIG, bookmarkMark, flagMark, funnelMark, heartMark, idleMark, keyMark, playMark, remove, SMALL, squareMark, trendMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
-const BR_L = poly([[7, 3], [3, 3], [3, 21], [7, 21]]);
 const BR_R = poly([[17, 3], [21, 3], [21, 21], [17, 21]]);
 const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
 const WINDOW = [rect(3, 3, 18, 18, 2), row(8, 3, 21)];
@@ -343,14 +342,14 @@ export const BATCH_76: Icon[] = [
     name: "Idle block", description: "A Z held between brackets — a block of code that never runs, unreached and dormant",
     tags: ["idle", "unused", "code"], family: "bracket",
     aliases: [], keywords: ["idle block", "unreached code", "dormant block"],
-    shapes: [BR_L, BR_R, poly([[9, 9], [15, 9], [9, 15], [15, 15]])],
+    shapes: [...brackets(), ...idleMark(SMALL, 12)],
   },
   {
     slug: "scoped-trend", category: "devtools", subcategory: "code",
     name: "Scoped trend", description: "A rising line held between brackets — a metric measured inside one scope",
     tags: ["scope", "trend", "metric"], family: "bracket",
     aliases: [], keywords: ["scoped metric", "trend within scope", "block-level trend"],
-    shapes: [BR_L, BR_R, poly([[8.5, 15.5], [11, 13], [13, 15], [15.5, 12.5]])],
+    shapes: [...brackets(), ...trendMark(SMALL, 12)],
   },
 
   /* ── interface: the last marks inside bubbles and windows ─────────────────────── */

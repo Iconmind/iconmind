@@ -25,11 +25,11 @@
       "closed": false
     },
     {
-      "d": "M12 7V13",
+      "d": "M12 9V12",
       "closed": false
     },
     {
-      "d": "M11 16a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "d": "M11 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
       "closed": true
     }
   ]

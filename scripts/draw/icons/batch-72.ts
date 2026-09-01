@@ -8,12 +8,11 @@
  * free before drawing.
  */
 import { arc, col, disc, poly, raw, rect, row, area } from "../forms.ts";
-import { BIG, boltMark, bookmarkMark, clockMark, funnelMark, heartMark, off, pinMark, SMALL, trendMark } from "../marks.ts";
-import { banner, dial, funnel, key, machine } from "../bodies.ts";
+import { BIG, boltMark, bookmarkMark, check, clockMark, diamondMark, funnelMark, heartMark, keyMark, off, pinMark, playMark, SMALL, trendMark } from "../marks.ts";
+import { banner, brackets, dial, funnel, key, machine } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
-const BR_L = poly([[7, 3], [3, 3], [3, 21], [7, 21]]);
 const BR_R = poly([[17, 3], [21, 3], [21, 21], [17, 21]]);
 const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
 const ROWS_R = (x: number) => [row(8, x, 22), row(12, x, 22), row(16, x, 22)];
@@ -123,7 +122,7 @@ export const BATCH_72: Icon[] = [
     name: "Model scope", description: "A model core held between brackets — the scope a model is allowed to work in",
     tags: ["scope", "bounds", "limits"], family: "bracket",
     aliases: [], keywords: ["model scope", "model boundaries", "allowed scope"],
-    shapes: [BR_L, BR_R, poly([[12, 9], [15, 12], [12, 15], [9, 12]], true)],
+    shapes: [...brackets(), ...diamondMark(SMALL, 12)],
   },
   {
     slug: "model-bookmark", category: "ai", subcategory: "model",
@@ -184,7 +183,7 @@ export const BATCH_72: Icon[] = [
     name: "Secret block", description: "A key held between brackets — a secret kept inside a code block",
     tags: ["secret", "code", "key"], family: "bracket",
     aliases: [], keywords: ["secret in code", "embedded credential", "secret block"],
-    shapes: [BR_L, BR_R, disc(12, 9, 3), col(12, 12, 17), row(15, 12, 14.5)],
+    shapes: [...brackets(), ...keyMark(SMALL, 12)],
   },
   {
     slug: "key-usage", category: "security", subcategory: "auth",
@@ -274,28 +273,28 @@ export const BATCH_72: Icon[] = [
     name: "Assert pass", description: "A check held between brackets — an assertion in the code that held true",
     tags: ["assert", "pass", "test"], family: "bracket",
     aliases: [], keywords: ["assertion passed", "assert ok", "test assertion"],
-    shapes: [BR_L, BR_R, poly([[8.5, 12], [11, 14.5], [15.5, 10]])],
+    shapes: [...brackets(), ...check(SMALL, 12)],
   },
   {
     slug: "assert-fail", category: "devtools", subcategory: "testing",
     name: "Assert fail", description: "An X held between brackets — an assertion in the code that failed its check",
     tags: ["assert", "fail", "test"], family: "bracket",
     aliases: [], keywords: ["assertion failed", "assert error", "failing test"],
-    shapes: [BR_L, BR_R, poly([[9.5, 9.5], [14.5, 14.5]]), poly([[14.5, 9.5], [9.5, 14.5]])],
+    shapes: [...brackets(), ...off(SMALL, 12)],
   },
   {
     slug: "run-block", category: "devtools", subcategory: "code",
     name: "Run block", description: "A play button held between brackets — run this block of code",
     tags: ["run", "block", "execute"], family: "bracket",
     aliases: [], keywords: ["run code block", "execute cell", "run selection"],
-    shapes: [BR_L, BR_R, poly([[9.5, 8.5], [9.5, 15.5], [13, 12]], true)],
+    shapes: [...brackets(), ...playMark(SMALL, 12)],
   },
   {
     slug: "macro", category: "devtools", subcategory: "editor",
     name: "Macro", description: "A lightning bolt held between brackets — a macro that expands into code",
     tags: ["macro", "expand", "code"], family: "bracket",
     aliases: [], keywords: ["macro", "code macro", "recorded actions"],
-    shapes: [BR_L, BR_R, poly([[13.5, 7.5], [10, 11], [13, 11], [9.5, 14.5]])],
+    shapes: [...brackets(), ...boltMark(SMALL, 12)],
   },
   {
     slug: "live-view", category: "devtools", subcategory: "editor",

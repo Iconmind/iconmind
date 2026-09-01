@@ -152,6 +152,12 @@ export const trophy = (): Shape[] => [
 export const runCard = (): Shape[] =>
   [rect(3, 2, 18, 20, 2), poly([[11, 5], [11, 10], [13.5, 7.5]], true)];
 
+
+/** A bracket pair: the hollow between them is where the block's content goes. The pair is
+ * context-scratch's, byte for byte - the family that already holds things this way. */
+export const brackets = (): Shape[] =>
+  [poly([[7, 3], [3, 3], [3, 21], [7, 21]]), poly([[17, 3], [21, 3], [21, 21], [17, 21]])];
+
 /** A tray, mouth up: what things are put into or taken out of. */
 export const tray = (): Shape => body(poly([[4, 15], [4, 19], [20, 19], [20, 15]]));
 

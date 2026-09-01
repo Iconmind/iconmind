@@ -9,12 +9,11 @@
  * name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { banner, bookmark, dial, funnel, key, machine, padlock, ring, runCard, shield, trophy } from "../bodies.ts";
+import { banner, bookmark, brackets, dial, funnel, key, machine, padlock, ring, runCard, shield, trophy } from "../bodies.ts";
 import { add, alert, BIG, bookmarkMark, check, flagMark, funnelMark, heartMark, idleMark, lockMark, off, playMark, remove, SMALL, tagMark, trendMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
-const BR_L = poly([[7, 3], [3, 3], [3, 21], [7, 21]]);
 const BR_R = poly([[17, 3], [21, 3], [21, 21], [17, 21]]);
 const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
 const WINDOW = [rect(3, 3, 18, 18, 2), row(8, 3, 21)];
@@ -264,21 +263,21 @@ export const BATCH_75: Icon[] = [
     name: "Collapse block", description: "Two chevrons closing inside brackets — fold a block of code out of view",
     tags: ["collapse", "fold", "code"], family: "bracket",
     aliases: [], keywords: ["collapse block", "fold code", "code folding"],
-    shapes: [BR_L, BR_R, poly([[9, 7], [12, 10], [15, 7]]), poly([[9, 17], [12, 14], [15, 17]])],
+    shapes: [...brackets(), poly([[10, 7], [12, 9], [14, 7]]), poly([[10, 17], [12, 15], [14, 17]])],
   },
   {
     slug: "labelled-block", category: "devtools", subcategory: "code",
     name: "Labelled block", description: "A label held between brackets — a block of code with a name or a region marker",
     tags: ["label", "block", "code"], family: "bracket",
     aliases: [], keywords: ["labelled block", "named block", "code region"],
-    shapes: [BR_L, BR_R, poly([[8.5, 9], [13, 9], [16, 12], [13, 15], [8.5, 15]], true)],
+    shapes: [...brackets(), ...tagMark(SMALL, 12)],
   },
   {
     slug: "block-alert", category: "devtools", subcategory: "code",
     name: "Block alert", description: "An alert mark held between brackets — a block of code that needs attention",
     tags: ["alert", "block", "code"], family: "bracket",
     aliases: [], keywords: ["block alert", "code warning", "flagged block"],
-    shapes: [BR_L, BR_R, col(12, 7, 13), disc(12, 16, 1)],
+    shapes: [...brackets(), ...alert(SMALL, 12)],
   },
 
   /* ── automation: events ───────────────────────────────────────────────────────── */

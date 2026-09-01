@@ -9,11 +9,10 @@
  */
 import { arc, area, col, disc, openDisc, poly, raw, rect, row } from "../forms.ts";
 import { add, alert, BIG, bookmarkMark, check, coinMark, flagMark, funnelMark, heartMark, idleMark, keyMark, lockMark, off, pinMark, playMark, remove, searchMark, shieldMark, SMALL, tagMark, targetMark, trendMark } from "../marks.ts";
-import { banner, dial, funnel, key, machine, padlock, runCard, shield, trophy } from "../bodies.ts";
+import { banner, brackets, dial, funnel, key, machine, padlock, runCard, shield, trophy } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
-const BR_L = poly([[7, 3], [3, 3], [3, 21], [7, 21]]);
 const BR_R = poly([[17, 3], [21, 3], [21, 21], [17, 21]]);
 const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
 const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
@@ -145,7 +144,7 @@ export const BATCH_73: Icon[] = [
     name: "Policy scope", description: "A shield held between brackets — the scope a policy applies to",
     tags: ["policy", "scope", "bounds"], family: "bracket",
     aliases: [], keywords: ["policy scope", "scoped policy", "policy boundary"],
-    shapes: [BR_L, BR_R, poly([[8.5, 7], [15.5, 7], [15.5, 12], [12, 15.5], [8.5, 12]], true)],
+    shapes: [...brackets(), ...shieldMark(SMALL, 12)],
   },
   {
     slug: "safety-filter", category: "security", subcategory: "ai-security",
@@ -328,14 +327,14 @@ export const BATCH_73: Icon[] = [
     name: "Locked block", description: "A padlock held between brackets — a block of code that cannot be edited",
     tags: ["locked", "code", "readonly"], family: "bracket",
     aliases: [], keywords: ["locked code", "read-only block", "protected code"],
-    shapes: [BR_L, BR_R, rect(8, 11, 8, 6.5, 2), arc(12, 11, 2, 180, 360)],
+    shapes: [...brackets(), ...lockMark(SMALL, 12)],
   },
   {
     slug: "search-scope", category: "devtools", subcategory: "editor",
     name: "Search scope", description: "A magnifying glass held between brackets — search within a scope",
     tags: ["search", "scope", "code"], family: "bracket",
     aliases: [], keywords: ["scoped search", "search in selection", "search scope"],
-    shapes: [BR_L, BR_R, disc(11.5, 11, 3.5), poly([[14, 13.5], [16.5, 16]])],
+    shapes: [...brackets(), ...searchMark(SMALL, 12)],
   },
   {
     slug: "event-search", category: "automation", subcategory: "trigger",
