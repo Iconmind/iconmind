@@ -9,13 +9,12 @@
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
 import { add, alert, BIG, boltMark, bookmarkMark, check, clockMark, flagMark, funnelMark, heartMark, idleMark, lockMark, off, pause, playMark, remove, searchMark, shieldMark, SMALL, squareMark, tagMark } from "../marks.ts";
-import { banner, bookmark, dial, funnel, key } from "../bodies.ts";
+import { banner, bookmark, dial, funnel, key, trophy } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
 const COIN_L = [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5)];
 const FUNNEL_L = poly([[3, 5], [14, 5], [10, 9], [10, 17], [7, 17], [7, 9]], true);
-const TARGET_L = [disc(8, 12, 5), disc(8, 12, 2)];
 const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
 const PLAY_L = poly([[3, 5], [3, 19], [10, 12]], true);
 const LOCK_R = [rect(14, 9, 8, 7.5, 2), arc(18, 9, 2, 180, 360)];
@@ -26,7 +25,6 @@ const TAG_R = poly([[14, 13], [19, 13], [22, 16], [19, 19], [14, 19]], true);
 const FLAG_R = [col(14, 5, 21), poly([[14, 5], [22, 5], [19, 8], [22, 11], [14, 11]])];
 const BOOKMARK_R = poly([[14, 7], [21, 7], [21, 17], [17.5, 13.5], [14, 17]], true);
 const FUNNEL_R = poly([[15, 9], [22, 9], [20, 11], [20, 19], [17, 19], [17, 11]], true);
-const BOLT_R = poly([[21, 7], [17, 11], [20, 11], [16, 15]]);
 const LINE_R = poly([[13, 19], [16, 16], [18, 18], [22, 14]]);
 
 export const BATCH_74: Icon[] = [
@@ -277,45 +275,45 @@ export const BATCH_74: Icon[] = [
 
   {
     slug: "goal-trigger", category: "analytics", subcategory: "metric",
-    name: "Goal trigger", description: "A target beside a lightning bolt — an action fired when a goal is hit",
-    tags: ["goal", "trigger", "event"], family: "object",
+    name: "Goal trigger", description: "A trophy with a bolt in its bowl — an action fired when a goal is hit",
+    tags: ["goal", "trigger", "event"], family: "trophy",
     aliases: [], keywords: ["goal trigger", "goal reached event", "conversion event"],
-    shapes: [...TARGET_L, BOLT_R],
+    shapes: [...trophy(), ...boltMark(SMALL, 9)],
   },
   {
     slug: "goal-label", category: "analytics", subcategory: "metric",
-    name: "Goal label", description: "A target beside a label — a goal with a name attached so it can be found",
-    tags: ["goal", "label", "name"], family: "object",
+    name: "Goal label", description: "A trophy with a label in its bowl — a goal named so it can be found",
+    tags: ["goal", "label", "name"], family: "trophy",
     aliases: [], keywords: ["goal label", "named goal", "goal tag"],
-    shapes: [...TARGET_L, poly([[16, 13], [20, 13], [22, 15], [20, 17], [16, 17]], true)],
+    shapes: [...trophy(), ...tagMark(SMALL, 9)],
   },
   {
     slug: "favorite-goal", category: "analytics", subcategory: "metric",
-    name: "Favourite goal", description: "A target beside a heart — the goal that matters most, marked as a favourite",
-    tags: ["goal", "favourite", "heart"], family: "object",
+    name: "Favourite goal", description: "A trophy with a heart in its bowl — the goal that matters most",
+    tags: ["goal", "favourite", "heart"], family: "trophy",
     aliases: [], keywords: ["favourite goal", "priority goal", "north star goal"],
-    shapes: [...TARGET_L, raw("M16 10A2 2 0 0 1 19 10A2 2 0 0 1 22 10L19 13Z", HEART, true)],
+    shapes: [...trophy(), ...heartMark(SMALL, 9)],
   },
   {
     slug: "paused-goal", category: "analytics", subcategory: "metric",
-    name: "Paused goal", description: "A target beside a Z — a goal put on hold for now, paused until later",
-    tags: ["goal", "paused", "hold"], family: "object",
+    name: "Paused goal", description: "A trophy with a Z in its bowl — a goal put on hold for now, paused until later",
+    tags: ["goal", "paused", "hold"], family: "trophy",
     aliases: [], keywords: ["paused goal", "goal on hold", "deferred objective"],
-    shapes: [...TARGET_L, poly([[16, 9.5], [21, 9.5], [16, 14.5], [21, 14.5]])],
+    shapes: [...trophy(), ...idleMark(SMALL, 9)],
   },
   {
     slug: "saved-goal", category: "analytics", subcategory: "metric",
-    name: "Saved goal", description: "A target beside a bookmark — a goal saved to revisit later on",
-    tags: ["goal", "saved", "bookmark"], family: "object",
+    name: "Saved goal", description: "A trophy with a bookmark in its bowl — a goal saved to revisit later on",
+    tags: ["goal", "saved", "bookmark"], family: "trophy",
     aliases: [], keywords: ["saved goal", "bookmark goal", "goal shortlist"],
-    shapes: [...TARGET_L, poly([[16, 7], [22, 7], [22, 17], [19, 14], [16, 17]], true)],
+    shapes: [...trophy(), ...bookmarkMark(SMALL, 9)],
   },
   {
     slug: "goal-filter", category: "analytics", subcategory: "segment",
-    name: "Goal filter", description: "A funnel beside a target — filter to the users who hit a goal",
-    tags: ["goal", "filter", "segment"], family: "funnel",
+    name: "Goal filter", description: "A trophy with a funnel in its bowl — filter to the users who hit a goal",
+    tags: ["goal", "filter", "segment"], family: "trophy",
     aliases: [], keywords: ["goal filter", "converted users", "segment by goal"],
-    shapes: [FUNNEL_L, disc(18, 13, 4), disc(18, 13, 1)],
+    shapes: [...trophy(), ...funnelMark(SMALL, 9)],
   },
 
   /* ── automation: events qualified ─────────────────────────────────────────────── */

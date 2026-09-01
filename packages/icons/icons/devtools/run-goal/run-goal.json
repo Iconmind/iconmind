@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Run goal",
-  "description": "A play button beside a target — what a run is trying to achieve",
+  "description": "A trophy with a play in its bowl — what a run is trying to achieve",
   "tags": [
     "run",
     "goal",
@@ -14,18 +14,23 @@
     "job objective",
     "run target"
   ],
-  "family": "object",
+  "family": "trophy",
   "shapes": [
     {
-      "d": "M3 5L3 19L10 12Z",
-      "closed": true
+      "d": "M5.5 3V8.5A6.5 6.5 0 0 0 18.5 8.5V3",
+      "closed": false,
+      "_why": "a bowl is one line - two lips into the arc they share"
     },
     {
-      "d": "M14 13a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
-      "closed": true
+      "d": "M12 15V20.5",
+      "closed": false
     },
     {
-      "d": "M17 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "d": "M8.5 20.5H15.5",
+      "closed": false
+    },
+    {
+      "d": "M10.5 6L13.5 9L10.5 12Z",
       "closed": true
     }
   ]

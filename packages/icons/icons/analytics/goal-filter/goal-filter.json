@@ -3,7 +3,7 @@
   "category": "analytics",
   "subcategory": "segment",
   "name": "Goal filter",
-  "description": "A funnel beside a target — filter to the users who hit a goal",
+  "description": "A trophy with a funnel in its bowl — filter to the users who hit a goal",
   "tags": [
     "goal",
     "filter",
@@ -14,19 +14,28 @@
     "converted users",
     "segment by goal"
   ],
-  "family": "funnel",
+  "family": "trophy",
   "shapes": [
     {
-      "d": "M3 5L14 5L10 9L10 17L7 17L7 9Z",
-      "closed": true
+      "d": "M5.5 3V8.5A6.5 6.5 0 0 0 18.5 8.5V3",
+      "closed": false,
+      "_why": "a bowl is one line - two lips into the arc they share"
     },
     {
-      "d": "M14 13a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
-      "closed": true
+      "d": "M12 15V20.5",
+      "closed": false
     },
     {
-      "d": "M17 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
-      "closed": true
+      "d": "M8.5 20.5H15.5",
+      "closed": false
+    },
+    {
+      "d": "M9 6L12 9L15 6",
+      "closed": false
+    },
+    {
+      "d": "M12 9V12",
+      "closed": false
     }
   ]
 }

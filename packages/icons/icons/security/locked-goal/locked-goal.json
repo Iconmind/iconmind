@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Locked goal",
-  "description": "A padlock beside a target — a goal that cannot be changed once set",
+  "description": "A trophy with a padlock in its bowl — a goal that cannot be changed once set",
   "tags": [
     "goal",
     "locked",
@@ -14,23 +14,28 @@
     "fixed objective",
     "immutable target"
   ],
-  "family": "lock",
+  "family": "trophy",
   "shapes": [
     {
-      "d": "M2 13A2 2 0 0 1 4 11H9A2 2 0 0 1 11 13V17A2 2 0 0 1 9 19H4A2 2 0 0 1 2 17Z",
-      "closed": true
+      "d": "M5.5 3V8.5A6.5 6.5 0 0 0 18.5 8.5V3",
+      "closed": false,
+      "_why": "a bowl is one line - two lips into the arc they share"
     },
     {
-      "d": "M4.5 11A2 2 0 0 1 8.5 11",
+      "d": "M12 15V20.5",
       "closed": false
     },
     {
-      "d": "M14 13a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "d": "M8.5 20.5H15.5",
+      "closed": false
+    },
+    {
+      "d": "M9 9L15 9L15 12L9 12Z",
       "closed": true
     },
     {
-      "d": "M17 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
-      "closed": true
+      "d": "M10.5 9A1.5 1.5 0 0 1 13.5 9",
+      "closed": false
     }
   ]
 }

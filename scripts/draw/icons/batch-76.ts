@@ -8,7 +8,7 @@
  * Unattended round. Every name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { banner, bookmark, funnel, key, padlock, shield } from "../bodies.ts";
+import { banner, bookmark, funnel, key, padlock, shield, trophy } from "../bodies.ts";
 import { alert, BIG, bookmarkMark, flagMark, funnelMark, heartMark, idleMark, keyMark, playMark, remove, SMALL, squareMark, trendMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
@@ -21,7 +21,6 @@ const LENS_LS = [disc(8.5, 10, 4.5), poly([[5.5, 13], [3, 15.5]])];
 const HEART_L = raw("M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z", HEART, true);
 const PLAY_L = poly([[3, 5], [3, 19], [10, 12]], true);
 const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
-const TARGET_L = [disc(8, 12, 5), disc(8, 12, 2)];
 const COIN_L = [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5)];
 const ROWS_L = [row(6, 3, 14), row(11, 3, 14), row(16, 3, 14)];
 const ROWS_LS = [row(6, 3, 12), row(11, 3, 12), row(16, 3, 12)];
@@ -259,10 +258,10 @@ export const BATCH_76: Icon[] = [
 
   {
     slug: "goal-forward", category: "analytics", subcategory: "metric",
-    name: "Goal forward", description: "A target with a chevron beside it — carry a goal forward into the next period",
-    tags: ["goal", "forward", "carry"], family: "object",
+    name: "Goal forward", description: "A trophy with a chevron in its bowl — carry a goal forward into the next period",
+    tags: ["goal", "forward", "carry"], family: "trophy",
     aliases: [], keywords: ["carry goal forward", "roll over goal", "next period goal"],
-    shapes: [...TARGET_L, poly([[16, 8], [20, 12], [16, 16]])],
+    shapes: [...trophy(), poly([[11, 6], [14, 9], [11, 12]])],
   },
   {
     slug: "milestone-filter", category: "analytics", subcategory: "segment",

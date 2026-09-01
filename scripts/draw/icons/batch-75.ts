@@ -9,7 +9,7 @@
  * name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { banner, bookmark, dial, funnel, key, machine, padlock, ring, shield } from "../bodies.ts";
+import { banner, bookmark, dial, funnel, key, machine, padlock, ring, shield, trophy } from "../bodies.ts";
 import { add, alert, BIG, bookmarkMark, check, flagMark, funnelMark, heartMark, idleMark, lockMark, off, playMark, remove, SMALL, tagMark, trendMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
@@ -22,14 +22,12 @@ const WINDOW_T = [rect(3, 2.5, 18, 19, 2), row(7, 3, 21)];
 const LOCK_LN = [rect(2, 11, 9, 8, 2), arc(6.5, 11, 2, 180, 360)];
 const PLAY_L = poly([[3, 5], [3, 19], [10, 12]], true);
 const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
-const TARGET_L = [disc(8, 12, 5), disc(8, 12, 2)];
 const COIN_L = [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5)];
 const ROWS_L = [row(6, 3, 14), row(11, 3, 14), row(16, 3, 14)];
 const TARGET_R = [disc(18, 13, 4), disc(18, 13, 1)];
 const LENS_R = [disc(17.5, 10, 3.5), poly([[20, 12.5], [22, 14.5]])];
 const BOOKMARK_R = poly([[14, 7], [21, 7], [21, 17], [17.5, 13.5], [14, 17]], true);
 const TAG_R = poly([[14, 13], [19, 13], [22, 16], [19, 19], [14, 19]], true);
-const MINUS_R = row(12, 16, 22);
 const PLUS_R = [row(12, 16, 22), col(19, 9, 15)];
 const Z_R = poly([[15, 9.5], [20, 9.5], [15, 14.5], [20, 14.5]]);
 const CHECK_R = poly([[15, 13], [17.5, 15.5], [22, 11]]);
@@ -41,10 +39,10 @@ export const BATCH_75: Icon[] = [
 
   {
     slug: "locked-goal", category: "security", subcategory: "auth",
-    name: "Locked goal", description: "A padlock beside a target — a goal that cannot be changed once set",
-    tags: ["goal", "locked", "fixed"], family: "lock",
+    name: "Locked goal", description: "A trophy with a padlock in its bowl — a goal that cannot be changed once set",
+    tags: ["goal", "locked", "fixed"], family: "trophy",
     aliases: [], keywords: ["locked goal", "fixed objective", "immutable target"],
-    shapes: [...LOCK_LN, ...TARGET_R],
+    shapes: [...trophy(), ...lockMark(SMALL, 9)],
   },
   {
     slug: "private-search", category: "security", subcategory: "auth",
@@ -253,10 +251,10 @@ export const BATCH_75: Icon[] = [
   },
   {
     slug: "run-goal", category: "devtools", subcategory: "testing",
-    name: "Run goal", description: "A play button beside a target — what a run is trying to achieve",
-    tags: ["run", "goal", "target"], family: "object",
+    name: "Run goal", description: "A trophy with a play in its bowl — what a run is trying to achieve",
+    tags: ["run", "goal", "target"], family: "trophy",
     aliases: [], keywords: ["run goal", "job objective", "run target"],
-    shapes: [PLAY_L, ...TARGET_R],
+    shapes: [...trophy(), ...playMark(SMALL, 9)],
   },
   {
     slug: "filter-run", category: "devtools", subcategory: "testing",
@@ -322,17 +320,17 @@ export const BATCH_75: Icon[] = [
 
   {
     slug: "raise-goal", category: "analytics", subcategory: "metric",
-    name: "Raise goal", description: "A target with a double chevron rising beside it — set the goal higher",
-    tags: ["goal", "raise", "increase"], family: "object",
+    name: "Raise goal", description: "A trophy, a double chevron rising in its bowl — set the goal higher",
+    tags: ["goal", "raise", "increase"], family: "trophy",
     aliases: [], keywords: ["raise goal", "increase target", "stretch goal"],
-    shapes: [...TARGET_L, ...UP_R],
+    shapes: [...trophy(), poly([[10, 8], [12, 6], [14, 8]]), poly([[10, 11], [12, 9], [14, 11]])],
   },
   {
     slug: "remove-goal", category: "analytics", subcategory: "metric",
-    name: "Remove goal", description: "A target with a minus beside it — drop a goal from the list of objectives",
-    tags: ["goal", "remove", "delete"], family: "object",
+    name: "Remove goal", description: "A trophy with a minus in its bowl — drop a goal from the list of objectives",
+    tags: ["goal", "remove", "delete"], family: "trophy",
     aliases: [], keywords: ["remove goal", "delete objective", "drop target"],
-    shapes: [...TARGET_L, MINUS_R],
+    shapes: [...trophy(), ...remove(SMALL, 9)],
   },
   {
     slug: "paid-milestone", category: "cloud", subcategory: "cost",

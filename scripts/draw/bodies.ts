@@ -137,6 +137,14 @@ export const padlock = (): Shape[] => [rect(5, 9.5, 14, 12, 2), arc(12, 9.5, 4, 
 export const funnel = (): Shape =>
   body(poly([[9, 2.5], [3, 2.5], [10, 9.5], [10, 12], [14, 12], [14, 9.5], [21, 2.5], [15, 2.5]]));
 
+
+/** A trophy: the bowl is the hollow a mark sits in. A goal drawn as a target has no
+ * room anywhere - the centre is the bullseye's own - so the goal family holds a cup. */
+export const trophy = (): Shape[] => [
+  raw("M5.5 3V8.5A6.5 6.5 0 0 0 18.5 8.5V3", "a bowl is one line - two lips into the arc they share", false),
+  col(12, 15, 20.5), row(20.5, 8.5, 15.5),
+];
+
 /** A tray, mouth up: what things are put into or taken out of. */
 export const tray = (): Shape => body(poly([[4, 15], [4, 19], [20, 19], [20, 15]]));
 
