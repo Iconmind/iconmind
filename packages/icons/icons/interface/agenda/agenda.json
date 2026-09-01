@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "time",
   "name": "Agenda",
-  "description": "A clock beside a list — the agenda for the day, item by item in order",
+  "description": "A timer dial with list rows on its face — the agenda for the day in order",
   "tags": [
     "agenda",
     "schedule",
@@ -14,26 +14,26 @@
     "daily schedule",
     "upcoming"
   ],
-  "family": "clock",
+  "family": "orbit",
   "shapes": [
     {
-      "d": "M2 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
-      "closed": true
-    },
-    {
-      "d": "M7.5 9L7.5 12L10 12",
+      "d": "M15.38 6.75A8 8 0 1 1 8.62 6.75",
       "closed": false
     },
     {
-      "d": "M16 8H22",
+      "d": "M12 3V6",
       "closed": false
     },
     {
-      "d": "M16 12H22",
+      "d": "M9 3H15",
       "closed": false
     },
     {
-      "d": "M16 16H22",
+      "d": "M9 12.5H15",
+      "closed": false
+    },
+    {
+      "d": "M9 15.5H15",
       "closed": false
     }
   ]

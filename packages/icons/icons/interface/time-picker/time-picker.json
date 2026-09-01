@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "time",
   "name": "Time picker",
-  "description": "A clock with up and down steppers beside it — a time picker control",
+  "description": "A timer dial with steppers on its face — a time picker control",
   "tags": [
     "clock",
     "select",
@@ -14,22 +14,26 @@
     "select a time",
     "clock input"
   ],
-  "family": "clock",
+  "family": "orbit",
   "shapes": [
     {
-      "d": "M2.5 12a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
-      "closed": true
-    },
-    {
-      "d": "M8.5 9L8.5 12L11 12",
+      "d": "M15.38 6.75A8 8 0 1 1 8.62 6.75",
       "closed": false
     },
     {
-      "d": "M17.5 10L19.5 8L21.5 10",
+      "d": "M12 3V6",
       "closed": false
     },
     {
-      "d": "M17.5 14L19.5 16L21.5 14",
+      "d": "M9 3H15",
+      "closed": false
+    },
+    {
+      "d": "M9.5 12L12 9.5L14.5 12",
+      "closed": false
+    },
+    {
+      "d": "M9.5 16L12 18.5L14.5 16",
       "closed": false
     }
   ]

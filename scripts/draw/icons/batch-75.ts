@@ -34,7 +34,6 @@ const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
 const TARGET_L = [disc(8, 12, 5), disc(8, 12, 2)];
 const PIN_L = [disc(7, 10, 3), col(7, 13, 17)];
 const COIN_L = [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5)];
-const CLOCK_L = [disc(7.5, 12, 5.5), poly([[7.5, 9], [7.5, 12], [10, 12]])];
 const DIAMOND_L = poly([[7, 8], [11, 12], [7, 16], [3, 12]], true);
 const ROWS_L = [row(6, 3, 14), row(11, 3, 14), row(16, 3, 14)];
 const TARGET_R = [disc(18, 13, 4), disc(18, 13, 1)];

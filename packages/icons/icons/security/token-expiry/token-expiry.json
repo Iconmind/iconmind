@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Token expiry",
-  "description": "A clock beside a key — a credential that expires after a while",
+  "description": "A key with a clock in its head — a credential that expires after a while",
   "tags": [
     "expiry",
     "token",
@@ -14,26 +14,30 @@
     "credential ttl",
     "expiring key"
   ],
-  "family": "clock",
+  "family": "key",
   "shapes": [
     {
-      "d": "M2 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
+      "d": "M14 2H16.5A3 3 0 0 1 19.5 5V12A3 3 0 0 1 16.5 15H7.5A3 3 0 0 1 4.5 12V5A3 3 0 0 1 7.5 2H10",
       "closed": true
     },
     {
-      "d": "M7.5 9.5L7.5 12L10 12",
+      "d": "M12 15V21",
       "closed": false
     },
     {
-      "d": "M15.5 7.5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "d": "M12 18H15",
+      "closed": false
+    },
+    {
+      "d": "M12 21H14.5",
+      "closed": false
+    },
+    {
+      "d": "M9 8.5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
       "closed": true
     },
     {
-      "d": "M18.5 10.5V20",
-      "closed": false
-    },
-    {
-      "d": "M18.5 17H21",
+      "d": "M12 5.5L12 8.5L14.5 8.5",
       "closed": false
     }
   ]

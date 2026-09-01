@@ -8,7 +8,7 @@
  * already carries the dots). Every name checked free before drawing.
  */
 import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { key, machine, ring } from "../bodies.ts";
+import { dial, key, machine, ring } from "../bodies.ts";
 import { SMALL, add, coinMark, diamondMark, flagMark, pinMark, remove } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
@@ -348,10 +348,10 @@ export const BATCH_69: Icon[] = [
   },
   {
     slug: "time-picker", category: "interface", subcategory: "time",
-    name: "Time picker", description: "A clock with up and down steppers beside it — a time picker control",
-    tags: ["clock", "select", "time"], family: "clock",
+    name: "Time picker", description: "A timer dial with steppers on its face — a time picker control",
+    tags: ["clock", "select", "time"], family: "orbit",
     aliases: [], keywords: ["time picker", "select a time", "clock input"],
-    shapes: [disc(8.5, 12, 6), poly([[8.5, 9], [8.5, 12], [11, 12]]), poly([[17.5, 10], [19.5, 8], [21.5, 10]]), poly([[17.5, 14], [19.5, 16], [21.5, 14]])],
+    shapes: [...dial(), poly([[9.5, 12], [12, 9.5], [14.5, 12]]), poly([[9.5, 16], [12, 18.5], [14.5, 16]])],
   },
   {
     slug: "resize-handle", category: "interface", subcategory: "action",

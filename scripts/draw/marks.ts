@@ -141,7 +141,7 @@ export const clockMark = (h: H = BIG, cy = 12): Shape[] =>
 
 /** Run: the play triangle, sides at 45 so it fits a hollow that narrows. */
 export const playMark = (h: H = BIG, cy = 12): Shape[] =>
-  [poly([[12 - h + 1, cy - h], [12 + 1, cy], [12 - h + 1, cy + h]], true)];
+  [poly([[12 - h / 2, cy - h], [12 + h / 2, cy], [12 - h / 2, cy + h]], true)];
 
 /** Stopped: the square a stop button is. */
 export const squareMark = (h: H = BIG, cy = 12): Shape[] =>

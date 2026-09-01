@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "time",
   "name": "Time filter",
-  "description": "A clock beside a funnel — filter results to a window of time",
+  "description": "A timer dial with a funnel on its face — filter results to a window of time",
   "tags": [
     "filter",
     "time",
@@ -14,18 +14,22 @@
     "date range filter",
     "filter by time"
   ],
-  "family": "clock",
+  "family": "orbit",
   "shapes": [
     {
-      "d": "M2 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
-      "closed": true
-    },
-    {
-      "d": "M7.5 9L7.5 12L10 12",
+      "d": "M15.38 6.75A8 8 0 1 1 8.62 6.75",
       "closed": false
     },
     {
-      "d": "M15 9L22 9L20 11L20 19L17 19L17 11Z",
+      "d": "M12 3V6",
+      "closed": false
+    },
+    {
+      "d": "M9 3H15",
+      "closed": false
+    },
+    {
+      "d": "M8 10L16 10L14 12L14 18L10 18L10 12Z",
       "closed": true
     }
   ]

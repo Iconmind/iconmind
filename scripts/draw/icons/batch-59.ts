@@ -34,7 +34,7 @@ export const BATCH_59: Icon[] = [
     name: "Try block", description: "A try block — run the code ready for the worst, guarded so a failure can be caught",
     tags: ["attempt", "guarded", "run"], family: "window",
     aliases: [], keywords: ["try", "attempt", "guarded execution"],
-    shapes: [rect(4, 4, 16, 16, 2), poly([[10, 8], [14, 12], [10, 16]], true)],
+    shapes: [rect(4, 4, 16, 16, 2), poly([[9, 7], [14, 12], [9, 17]], true)],
   },
   {
     slug: "catch-block", category: "automation", subcategory: "workflow",

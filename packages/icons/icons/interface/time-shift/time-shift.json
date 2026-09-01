@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "time",
   "name": "Time shift",
-  "description": "A clock with an arrow moving on — shift a schedule forward to a later time",
+  "description": "A timer dial, a bar and an arrow on its face — shift a schedule to later",
   "tags": [
     "shift",
     "reschedule",
@@ -17,22 +17,30 @@
     "reschedule",
     "move forward"
   ],
-  "family": "clock",
+  "family": "orbit",
   "shapes": [
     {
-      "d": "M2.5 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
-      "closed": true
-    },
-    {
-      "d": "M8 9.5L8 12L10.5 12",
+      "d": "M15.38 6.75A8 8 0 1 1 8.62 6.75",
       "closed": false
     },
     {
-      "d": "M16.5 12H22",
+      "d": "M12 3V6",
       "closed": false
     },
     {
-      "d": "M19.5 9.5L22 12L19.5 14.5",
+      "d": "M9 3H15",
+      "closed": false
+    },
+    {
+      "d": "M9 11V17",
+      "closed": false
+    },
+    {
+      "d": "M9 14H15",
+      "closed": false
+    },
+    {
+      "d": "M12.5 11.5L15 14L12.5 16.5",
       "closed": false
     }
   ]

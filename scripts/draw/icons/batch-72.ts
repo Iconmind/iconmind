@@ -8,7 +8,7 @@
  * free before drawing.
  */
 import { arc, col, disc, poly, raw, rect, row, area } from "../forms.ts";
-import { BIG, boltMark, bookmarkMark, funnelMark, heartMark, off, SMALL, trendMark } from "../marks.ts";
+import { BIG, boltMark, bookmarkMark, clockMark, funnelMark, heartMark, off, pinMark, SMALL, trendMark } from "../marks.ts";
 import { dial, key, machine } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
@@ -91,27 +91,27 @@ export const BATCH_72: Icon[] = [
   },
   {
     slug: "timezone", category: "interface", subcategory: "time",
-    name: "Timezone", description: "A clock beside a location pin — the local time somewhere else",
-    tags: ["timezone", "local", "clock"], family: "clock",
+    name: "Timezone", description: "A timer dial with a pin on its face — the local time somewhere else",
+    tags: ["timezone", "local", "clock"], family: "orbit",
     aliases: [], keywords: ["timezone", "local time", "time in another place"],
-    shapes: [disc(8, 12, 5.5), poly([[8, 9.5], [8, 12], [10.5, 12]]), disc(19, 8, 3), col(19, 11, 15)],
+    shapes: [...dial(), ...pinMark(BIG, 14)],
   },
   {
     slug: "time-shift", category: "interface", subcategory: "time",
-    name: "Time shift", description: "A clock with an arrow moving on — shift a schedule forward to a later time",
-    tags: ["shift", "reschedule", "forward"], family: "clock",
+    name: "Time shift", description: "A timer dial, a bar and an arrow on its face — shift a schedule to later",
+    tags: ["shift", "reschedule", "forward"], family: "orbit",
     aliases: ["clock-arrow-right"], keywords: ["time shift", "reschedule", "move forward"],
-    shapes: [disc(8, 12, 5.5), poly([[8, 9.5], [8, 12], [10.5, 12]]), row(12, 16.5, 22), poly([[19.5, 9.5], [22, 12], [19.5, 14.5]])],
+    shapes: [...dial(), col(9, 11, 17), row(14, 9, 15), poly([[12.5, 11.5], [15, 14], [12.5, 16.5]])],
   },
 
   /* ── ai: a model core with a mark ─────────────────────────────────────────────── */
 
   {
     slug: "model-latency", category: "ai", subcategory: "inference",
-    name: "Model latency", description: "A clock beside a model core — how long a model takes to answer",
-    tags: ["latency", "speed", "time"], family: "clock",
+    name: "Model latency", description: "A model core with a clock inside — how long a model takes to answer",
+    tags: ["latency", "speed", "time"], family: "machine",
     aliases: [], keywords: ["model latency", "time to first token", "response time"],
-    shapes: [disc(7.5, 12, 5.5), poly([[7.5, 9.5], [7.5, 12], [10, 12]]), poly([[19, 9], [22, 12], [19, 15], [16, 12]], true)],
+    shapes: [machine(), ...clockMark()],
   },
   {
     slug: "model-trend", category: "ai", subcategory: "training",
@@ -153,10 +153,12 @@ export const BATCH_72: Icon[] = [
 
   {
     slug: "token-expiry", category: "security", subcategory: "auth",
-    name: "Token expiry", description: "A clock beside a key — a credential that expires after a while",
-    tags: ["expiry", "token", "ttl"], family: "clock",
+    name: "Token expiry", description: "A key with a clock in its head — a credential that expires after a while",
+    tags: ["expiry", "token", "ttl"], family: "key",
     aliases: [], keywords: ["token expiry", "credential ttl", "expiring key"],
-    shapes: [disc(7.5, 12, 5.5), poly([[7.5, 9.5], [7.5, 12], [10, 12]]), disc(18.5, 7.5, 3), col(18.5, 10.5, 20), row(17, 18.5, 21)],
+    shapes: [...key(), disc(12, 8.5, 3),
+      // clockMark's hands as one polyline - the fob head already spends four elements
+      poly([[12, 5.5], [12, 8.5], [14.5, 8.5]])],
   },
   {
     slug: "geofence", category: "security", subcategory: "auth",

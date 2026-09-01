@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "schedule",
   "name": "Scheduled run",
-  "description": "A clock beside a play button — a run that starts on a schedule",
+  "description": "A timer dial with a play on its face — a run that starts on a schedule",
   "tags": [
     "schedule",
     "run",
@@ -14,18 +14,22 @@
     "cron job",
     "timed execution"
   ],
-  "family": "clock",
+  "family": "orbit",
   "shapes": [
     {
-      "d": "M2 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
-      "closed": true
-    },
-    {
-      "d": "M7.5 9L7.5 12L10 12",
+      "d": "M15.38 6.75A8 8 0 1 1 8.62 6.75",
       "closed": false
     },
     {
-      "d": "M16 8L16 16L20 12Z",
+      "d": "M12 3V6",
+      "closed": false
+    },
+    {
+      "d": "M9 3H15",
+      "closed": false
+    },
+    {
+      "d": "M10 10L14 14L10 18Z",
       "closed": true
     }
   ]

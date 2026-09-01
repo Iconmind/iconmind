@@ -8,7 +8,7 @@
  * checked free before drawing.
  */
 import { arc, area, col, disc, openDisc, poly, raw, rect, row } from "../forms.ts";
-import { alert, BIG, check, heartMark, idleMark, keyMark, pinMark, searchMark, SMALL, tagMark, targetMark, trendMark } from "../marks.ts";
+import { alert, BIG, bookmarkMark, check, funnelMark, heartMark, idleMark, keyMark, pinMark, playMark, searchMark, shieldMark, SMALL, tagMark, targetMark, trendMark } from "../marks.ts";
 import { dial, key, machine } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
@@ -16,7 +16,6 @@ const HEART = "a heart is one line, not three strokes with visible seams";
 const BR_L = poly([[7, 3], [3, 3], [3, 21], [7, 21]]);
 const BR_R = poly([[17, 3], [21, 3], [21, 21], [17, 21]]);
 const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
-const CLOCK_L = [disc(7.5, 12, 5.5), poly([[7.5, 9], [7.5, 12], [10, 12]])];
 const FUNNEL_L = poly([[3, 5], [14, 5], [10, 9], [10, 17], [7, 17], [7, 9]], true);
 const FLAG_L = [col(4, 3, 21), poly([[4, 3], [13, 3], [10, 6], [13, 9], [4, 9]])];
 const DIAMOND_L = poly([[7, 8], [11, 12], [7, 16], [3, 12]], true);
@@ -65,24 +64,24 @@ export const BATCH_73: Icon[] = [
 
   {
     slug: "time-filter", category: "interface", subcategory: "time",
-    name: "Time filter", description: "A clock beside a funnel — filter results to a window of time",
-    tags: ["filter", "time", "range"], family: "clock",
+    name: "Time filter", description: "A timer dial with a funnel on its face — filter results to a window of time",
+    tags: ["filter", "time", "range"], family: "orbit",
     aliases: [], keywords: ["time filter", "date range filter", "filter by time"],
-    shapes: [...CLOCK_L, poly([[15, 9], [22, 9], [20, 11], [20, 19], [17, 19], [17, 11]], true)],
+    shapes: [...dial(), ...funnelMark(BIG, 14)],
   },
   {
     slug: "read-later", category: "interface", subcategory: "time",
-    name: "Read later", description: "A clock beside a bookmark — saved to read when there is time",
-    tags: ["later", "bookmark", "save"], family: "clock",
+    name: "Read later", description: "A timer dial with a bookmark on its face — saved to read when there is time",
+    tags: ["later", "bookmark", "save"], family: "orbit",
     aliases: [], keywords: ["read later", "save for later", "reading queue"],
-    shapes: [...CLOCK_L, poly([[15, 7], [22, 7], [22, 17], [18.5, 13.5], [15, 17]], true)],
+    shapes: [...dial(), ...bookmarkMark(BIG, 14)],
   },
   {
     slug: "agenda", category: "interface", subcategory: "time",
-    name: "Agenda", description: "A clock beside a list — the agenda for the day, item by item in order",
-    tags: ["agenda", "schedule", "list"], family: "clock",
+    name: "Agenda", description: "A timer dial with list rows on its face — the agenda for the day in order",
+    tags: ["agenda", "schedule", "list"], family: "orbit",
     aliases: [], keywords: ["agenda", "daily schedule", "upcoming"],
-    shapes: [...CLOCK_L, ...ROWS_R(16)],
+    shapes: [...dial(), row(12.5, 9, 15), row(15.5, 9, 15)],
   },
   {
     slug: "latency-trend", category: "devops", subcategory: "observability",
@@ -93,20 +92,20 @@ export const BATCH_73: Icon[] = [
   },
   {
     slug: "scheduled-run", category: "automation", subcategory: "schedule",
-    name: "Scheduled run", description: "A clock beside a play button — a run that starts on a schedule",
-    tags: ["schedule", "run", "cron"], family: "clock",
+    name: "Scheduled run", description: "A timer dial with a play on its face — a run that starts on a schedule",
+    tags: ["schedule", "run", "cron"], family: "orbit",
     aliases: [], keywords: ["scheduled run", "cron job", "timed execution"],
-    shapes: [...CLOCK_L, poly([[16, 8], [16, 16], [20, 12]], true)],
+    shapes: [...dial(), ...playMark(BIG, 14)],
   },
 
   /* ── security: keys, shields and scopes ───────────────────────────────────────── */
 
   {
     slug: "time-lock", category: "security", subcategory: "auth",
-    name: "Time lock", description: "A clock beside a shield — access that only opens during a window",
-    tags: ["time", "access", "window"], family: "clock",
+    name: "Time lock", description: "A timer dial with a shield on its face — access that only opens during a window",
+    tags: ["time", "access", "window"], family: "orbit",
     aliases: [], keywords: ["time-locked access", "time-bound permission", "access window"],
-    shapes: [...CLOCK_L, poly([[16, 9], [22, 9], [22, 14.5], [19, 17.5], [16, 14.5]], true)],
+    shapes: [...dial(), ...shieldMark(BIG, 14)],
   },
   {
     slug: "key-lookup", category: "security", subcategory: "auth",

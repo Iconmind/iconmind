@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "inference",
   "name": "Model latency",
-  "description": "A clock beside a model core — how long a model takes to answer",
+  "description": "A model core with a clock inside — how long a model takes to answer",
   "tags": [
     "latency",
     "speed",
@@ -14,19 +14,23 @@
     "time to first token",
     "response time"
   ],
-  "family": "clock",
+  "family": "machine",
   "shapes": [
     {
-      "d": "M2 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
       "closed": true
     },
     {
-      "d": "M7.5 9.5L7.5 12L10 12",
+      "d": "M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 8V12",
       "closed": false
     },
     {
-      "d": "M19 9L22 12L19 15L16 12Z",
-      "closed": true
+      "d": "M12 12H15.5",
+      "closed": false
     }
   ]
 }
