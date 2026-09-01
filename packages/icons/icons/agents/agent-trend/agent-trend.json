@@ -14,14 +14,14 @@
     "performance trend",
     "agent analytics"
   ],
-  "family": "ring",
+  "family": "orbit",
   "shapes": [
     {
-      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
-      "closed": false
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
     },
     {
-      "d": "M12 20L15 17L17 19L21 15",
+      "d": "M8 16L11 13L13 15L16 12",
       "closed": false
     }
   ]

@@ -7,7 +7,8 @@
  * drawn from the same sub-shapes so the set keeps one voice. Every name checked
  * free before drawing.
  */
-import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
+import { arc, col, disc, poly, raw, rect, row, area } from "../forms.ts";
+import { SMALL, heartMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -205,9 +206,9 @@ export const BATCH_72: Icon[] = [
   {
     slug: "favorite-place", category: "interface", subcategory: "identity",
     name: "Favourite place", description: "A location pin beside a heart — a place saved as a favourite",
-    tags: ["favourite", "place", "pin"], family: "pin",
+    tags: ["favourite", "place", "pin"], family: "figure",
     aliases: [], keywords: ["favourite place", "saved location", "loved spot"],
-    shapes: [disc(7, 10, 3), col(7, 13, 17), raw("M13 11A2.5 2.5 0 0 1 17 11A2.5 2.5 0 0 1 21 11L17 15Z", HEART, true)],
+    shapes: [disc(12, 9, 6), poly([[7.5, 13.5], [12, 18], [16.5, 13.5]]), ...heartMark(SMALL, 8)],
   },
   {
     slug: "wishlist", category: "interface", subcategory: "file",

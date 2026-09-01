@@ -14,18 +14,18 @@
     "saved location",
     "loved spot"
   ],
-  "family": "pin",
+  "family": "figure",
   "shapes": [
     {
-      "d": "M4 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "d": "M6 9a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
       "closed": true
     },
     {
-      "d": "M7 13V17",
+      "d": "M7.5 13.5L12 18L16.5 13.5",
       "closed": false
     },
     {
-      "d": "M13 11A2.5 2.5 0 0 1 17 11A2.5 2.5 0 0 1 21 11L17 15Z",
+      "d": "M9 8A1.5 1.5 0 0 1 12 8A1.5 1.5 0 0 1 15 8L12 11Z",
       "closed": true,
       "_why": "a heart is one line, not three strokes with visible seams"
     }

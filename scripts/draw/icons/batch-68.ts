@@ -8,7 +8,8 @@
  * triangle). Every name checked free before drawing.
  */
 import { arc, col, disc, poly, rect, row } from "../forms.ts";
-import { page } from "../bodies.ts";
+import { page, ring } from "../bodies.ts";
+import { keyMark, shieldMark, tagMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 export const BATCH_68: Icon[] = [
@@ -240,9 +241,9 @@ export const BATCH_68: Icon[] = [
   {
     slug: "agent-key", category: "agents", subcategory: "lifecycle",
     name: "Agent key", description: "An agent beside a key — the credential an agent is issued to act on your behalf",
-    tags: ["credential", "key", "access"], family: "ring",
+    tags: ["credential", "key", "access"], family: "orbit",
     aliases: [], keywords: ["agent credential", "agent api key", "delegated access"],
-    shapes: [arc(7, 7, 4, 295, 245), disc(16.5, 11.5, 3), col(16.5, 14.5, 21.5), row(19, 16.5, 19)],
+    shapes: [ring(), ...keyMark()],
   },
   {
     slug: "agent-escalate", category: "agents", subcategory: "communication",
@@ -289,16 +290,16 @@ export const BATCH_68: Icon[] = [
   {
     slug: "agent-shield", category: "agents", subcategory: "lifecycle",
     name: "Agent shield", description: "An agent beside a shield — the guardrails that protect an agent and the people it serves",
-    tags: ["shield", "guardrail", "protect"], family: "ring",
+    tags: ["shield", "guardrail", "protect"], family: "orbit",
     aliases: [], keywords: ["agent guardrails", "protected agent", "agent safety"],
-    shapes: [arc(7, 7, 4, 295, 245), poly([[13, 12], [22, 12], [22, 17.5], [17.5, 22], [13, 17.5]], true)],
+    shapes: [ring(), ...shieldMark()],
   },
   {
     slug: "agent-tag", category: "agents", subcategory: "lifecycle",
     name: "Agent tag", description: "An agent beside a label tag — tagging agents by team, role or environment",
-    tags: ["tag", "label", "group"], family: "ring",
+    tags: ["tag", "label", "group"], family: "orbit",
     aliases: [], keywords: ["agent tag", "agent label", "agent metadata"],
-    shapes: [arc(7, 7, 4, 295, 245), poly([[12, 12], [18, 12], [22, 16], [18, 20], [12, 20]], true)],
+    shapes: [ring(), ...tagMark()],
   },
   {
     slug: "agent-phone", category: "agents", subcategory: "tool-use",

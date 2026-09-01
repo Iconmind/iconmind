@@ -9,6 +9,8 @@
  * name checked free before drawing.
  */
 import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
+import { bookmark } from "../bodies.ts";
+import { BIG, SMALL, alert, check, heartMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -169,9 +171,9 @@ export const BATCH_75: Icon[] = [
   {
     slug: "favorite-label", category: "interface", subcategory: "identity",
     name: "Favourite label", description: "A heart beside a label — favourites grouped together under a name",
-    tags: ["favourite", "label", "group"], family: "heart",
+    tags: ["favourite", "label", "group"], family: "object",
     aliases: [], keywords: ["favourite label", "favourites group", "collection name"],
-    shapes: [HEART_L, TAG_R],
+    shapes: [poly([[3, 6], [13, 6], [21, 14], [13, 22], [3, 22]], true), ...heartMark(SMALL, 13.5)],
   },
   {
     slug: "tag-alert", category: "interface", subcategory: "action",
@@ -363,9 +365,9 @@ export const BATCH_75: Icon[] = [
   {
     slug: "favorite-bookmark", category: "interface", subcategory: "file",
     name: "Favourite bookmark", description: "A heart beside a bookmark — a saved item you love and keep coming back to",
-    tags: ["favourite", "bookmark", "heart"], family: "heart",
+    tags: ["favourite", "bookmark", "heart"], family: "ribbon",
     aliases: [], keywords: ["favourite bookmark", "loved bookmark", "starred save"],
-    shapes: [HEART_L, BOOKMARK_R],
+    shapes: [bookmark(), ...heartMark(BIG, 10)],
   },
   {
     slug: "time-alert", category: "interface", subcategory: "time",

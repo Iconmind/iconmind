@@ -8,6 +8,8 @@
  * name checked free before drawing.
  */
 import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
+import { SMALL, heartMark, alert } from "../marks.ts";
+import {  } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -95,9 +97,9 @@ export const BATCH_74: Icon[] = [
   {
     slug: "private-favorites", category: "interface", subcategory: "identity",
     name: "Private favourites", description: "A heart beside a padlock — favourites that nobody else is able to see",
-    tags: ["favourites", "private", "lock"], family: "heart",
+    tags: ["favourites", "private", "lock"], family: "lock",
     aliases: [], keywords: ["private favourites", "hidden likes", "favourites privacy"],
-    shapes: [raw("M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z", HEART, true), ...LOCK_R],
+    shapes: [rect(5, 10, 14, 11, 2), arc(12, 10, 4, 180, 360), ...heartMark(SMALL, 14)],
   },
   {
     slug: "label-approved", category: "interface", subcategory: "action",

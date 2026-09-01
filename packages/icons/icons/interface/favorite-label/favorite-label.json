@@ -14,16 +14,16 @@
     "favourites group",
     "collection name"
   ],
-  "family": "heart",
+  "family": "object",
   "shapes": [
     {
-      "d": "M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z",
-      "closed": true,
-      "_why": "a heart is one line, not three strokes with visible seams"
+      "d": "M3 6L13 6L21 14L13 22L3 22Z",
+      "closed": true
     },
     {
-      "d": "M14 13L19 13L22 16L19 19L14 19Z",
-      "closed": true
+      "d": "M9 13.5A1.5 1.5 0 0 1 12 13.5A1.5 1.5 0 0 1 15 13.5L12 16.5Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
     }
   ]
 }

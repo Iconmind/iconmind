@@ -8,7 +8,8 @@
  * Every name checked free before drawing.
  */
 import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { page } from "../bodies.ts";
+import { page, ring } from "../bodies.ts";
+import { bookmarkMark, funnelMark, targetMark, trendMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 export const BATCH_70: Icon[] = [
@@ -153,30 +154,30 @@ export const BATCH_70: Icon[] = [
   {
     slug: "agent-bookmark", category: "agents", subcategory: "memory",
     name: "Agent bookmark", description: "An agent beside a bookmark — a place an agent marked to return to",
-    tags: ["bookmark", "save", "return"], family: "ring",
+    tags: ["bookmark", "save", "return"], family: "orbit",
     aliases: [], keywords: ["agent bookmark", "saved place", "marked for later"],
-    shapes: [arc(7, 7, 4, 295, 245), poly([[13, 11], [21, 11], [21, 21], [17, 17], [13, 21]], true)],
+    shapes: [ring(), ...bookmarkMark()],
   },
   {
     slug: "agent-goal", category: "agents", subcategory: "planning",
     name: "Agent goal", description: "An agent beside a target — the goal an agent is working toward",
-    tags: ["goal", "target", "objective"], family: "ring",
+    tags: ["goal", "target", "objective"], family: "orbit",
     aliases: [], keywords: ["agent goal", "objective", "target outcome"],
-    shapes: [arc(7, 7, 4, 295, 245), disc(16.5, 15.5, 4), disc(16.5, 15.5, 1)],
+    shapes: [ring(), ...targetMark()],
   },
   {
     slug: "agent-trend", category: "agents", subcategory: "reflection",
     name: "Agent trend", description: "An agent beside a rising line — how an agent's results trend over time",
-    tags: ["trend", "metrics", "improve"], family: "ring",
+    tags: ["trend", "metrics", "improve"], family: "orbit",
     aliases: [], keywords: ["agent metrics", "performance trend", "agent analytics"],
-    shapes: [arc(7, 7, 4, 295, 245), poly([[12, 20], [15, 17], [17, 19], [21, 15]])],
+    shapes: [ring(), ...trendMark()],
   },
   {
     slug: "agent-filter", category: "agents", subcategory: "tool-use",
     name: "Agent filter", description: "An agent beside a funnel — an agent that filters and triages what comes in",
-    tags: ["filter", "triage", "funnel"], family: "ring",
+    tags: ["filter", "triage", "funnel"], family: "orbit",
     aliases: [], keywords: ["filter agent", "triage agent", "screening"],
-    shapes: [arc(7, 7, 4, 295, 245), poly([[13, 11], [22, 11], [19, 14], [19, 21], [16, 21], [16, 14]], true)],
+    shapes: [ring(), ...funnelMark()],
   },
   {
     slug: "agent-sync", category: "agents", subcategory: "communication",

@@ -4,6 +4,6 @@ import '../data.dart';
 /// AgentTag
 const IconMindData agentTag = IconMindData(
   'agent-tag',
-  [N('M8.69 3.37a4 4 0 1 1 -3.38 0'), N('M12 12h6l4 4 -4 4h-6Z')],
-  [N.tint('M12 12h6l4 4 -4 4h-6Z'), N('M8.69 3.37a4 4 0 1 1 -3.38 0'), N('M12 12h6l4 4 -4 4h-6Z')],
+  [N('M16.23 2.94a10 10 0 1 1 -8.46 0'), N('M8 8h4l4 4 -4 4H8Z')],
+  [N.tint('M16.23 2.94a10 10 0 1 1 -8.46 0'), N.tint('M8 8h4l4 4 -4 4H8Z'), N('M16.23 2.94a10 10 0 1 1 -8.46 0'), N('M8 8h4l4 4 -4 4H8Z')],
 );

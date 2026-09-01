@@ -14,18 +14,18 @@
     "starred milestone",
     "memorable milestone"
   ],
-  "family": "flag",
+  "family": "figure",
   "shapes": [
     {
-      "d": "M4 3V21",
+      "d": "M6 3V21",
       "closed": false
     },
     {
-      "d": "M4 3L13 3L10 6L13 9L4 9",
+      "d": "M6 4L18 4L18 14L6 14",
       "closed": false
     },
     {
-      "d": "M15 12A2 2 0 0 1 18 12A2 2 0 0 1 21 12L18 15Z",
+      "d": "M9 8A1.5 1.5 0 0 1 12 8A1.5 1.5 0 0 1 15 8L12 11Z",
       "closed": true,
       "_why": "a heart is one line, not three strokes with visible seams"
     }

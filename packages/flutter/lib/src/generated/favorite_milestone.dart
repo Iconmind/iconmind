@@ -4,6 +4,6 @@ import '../data.dart';
 /// FavoriteMilestone
 const IconMindData favoriteMilestone = IconMindData(
   'favorite-milestone',
-  [N('M4 3v18'), N('M4 3h9l-3 3 3 3H4'), N('M15 12a2 2 0 0 1 3 0 2 2 0 0 1 3 0l-3 3Z')],
-  [N.tint('M15 12a2 2 0 0 1 3 0 2 2 0 0 1 3 0l-3 3Z'), N('M4 3v18'), N('M4 3h9l-3 3 3 3H4'), N('M15 12a2 2 0 0 1 3 0 2 2 0 0 1 3 0l-3 3Z')],
+  [N('M6 3v18'), N('M6 4h12v10H6'), N('M9 8a1.5 1.5 0 0 1 3 0 1.5 1.5 0 0 1 3 0l-3 3Z')],
+  [N.tint('M9 8a1.5 1.5 0 0 1 3 0 1.5 1.5 0 0 1 3 0l-3 3Z'), N('M6 3v18'), N('M6 4h12v10H6'), N('M9 8a1.5 1.5 0 0 1 3 0 1.5 1.5 0 0 1 3 0l-3 3Z')],
 );

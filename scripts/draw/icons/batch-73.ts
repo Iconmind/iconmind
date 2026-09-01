@@ -7,7 +7,8 @@
  * need ten units of width and no left body leaves that much. Every name
  * checked free before drawing.
  */
-import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
+import { arc, col, disc, poly, raw, rect, row, openDisc } from "../forms.ts";
+import { SMALL, heartMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -304,9 +305,9 @@ export const BATCH_73: Icon[] = [
   {
     slug: "favorites-search", category: "interface", subcategory: "action",
     name: "Favourites search", description: "A magnifying glass beside a heart — search within favourites",
-    tags: ["search", "favourites", "heart"], family: "object",
+    tags: ["search", "favourites", "heart"], family: "magnifier",
     aliases: [], keywords: ["search favourites", "find in saved", "favourites filter"],
-    shapes: [disc(8.5, 10, 4.5), poly([[5.5, 13], [3, 15.5]]), raw("M16 10A2 2 0 0 1 19 10A2 2 0 0 1 22 10L19 13Z", HEART, true)],
+    shapes: [disc(12, 10, 6.5), poly([[16.5, 14.5], [21, 19]]), ...heartMark(SMALL, 9)],
   },
   {
     slug: "tag-search", category: "interface", subcategory: "action",

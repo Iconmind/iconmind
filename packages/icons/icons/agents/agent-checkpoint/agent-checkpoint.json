@@ -14,18 +14,18 @@
     "save point",
     "restore agent state"
   ],
-  "family": "ring",
+  "family": "orbit",
   "shapes": [
     {
-      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M8 8V16",
       "closed": false
     },
     {
-      "d": "M13 12V22",
-      "closed": false
-    },
-    {
-      "d": "M13 12L21 12L18 15L21 18L13 18",
+      "d": "M8 9L16 9L14 11L16 13L8 13",
       "closed": false
     }
   ]

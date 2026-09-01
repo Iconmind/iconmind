@@ -14,14 +14,14 @@
     "saved place",
     "marked for later"
   ],
-  "family": "ring",
+  "family": "orbit",
   "shapes": [
     {
-      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
-      "closed": false
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
     },
     {
-      "d": "M13 11L21 11L21 21L17 17L13 21Z",
+      "d": "M9 8L15 8L15 16L12 13L9 16Z",
       "closed": true
     }
   ]

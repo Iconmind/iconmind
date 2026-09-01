@@ -14,20 +14,20 @@
     "hidden likes",
     "favourites privacy"
   ],
-  "family": "heart",
+  "family": "lock",
   "shapes": [
     {
-      "d": "M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z",
-      "closed": true,
-      "_why": "a heart is one line, not three strokes with visible seams"
-    },
-    {
-      "d": "M14 11A2 2 0 0 1 16 9H20A2 2 0 0 1 22 11V14.5A2 2 0 0 1 20 16.5H16A2 2 0 0 1 14 14.5Z",
+      "d": "M5 12A2 2 0 0 1 7 10H17A2 2 0 0 1 19 12V19A2 2 0 0 1 17 21H7A2 2 0 0 1 5 19Z",
       "closed": true
     },
     {
-      "d": "M16 9A2 2 0 0 1 20 9",
+      "d": "M8 10A4 4 0 0 1 16 10",
       "closed": false
+    },
+    {
+      "d": "M9 14A1.5 1.5 0 0 1 12 14A1.5 1.5 0 0 1 15 14L12 17Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
     }
   ]
 }

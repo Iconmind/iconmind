@@ -4,6 +4,6 @@ import '../data.dart';
 /// FavoriteBookmark
 const IconMindData favoriteBookmark = IconMindData(
   'favorite-bookmark',
-  [N('M3 9a2.5 2.5 0 0 1 4 0 2.5 2.5 0 0 1 4 0l-4 4Z'), N('M14 7h7v10l-3.5 -3.5L14 17Z')],
-  [N.tint('M3 9a2.5 2.5 0 0 1 4 0 2.5 2.5 0 0 1 4 0l-4 4Z'), N.tint('M14 7h7v10l-3.5 -3.5L14 17Z'), N('M3 9a2.5 2.5 0 0 1 4 0 2.5 2.5 0 0 1 4 0l-4 4Z'), N('M14 7h7v10l-3.5 -3.5L14 17Z')],
+  [N('M15 3h3v18l-6 -6 -6 6V3h3'), N('M8 10a2 2 0 0 1 4 0 2 2 0 0 1 4 0l-4 4Z')],
+  [N.tint('M15 3h3v18l-6 -6 -6 6V3h3'), N.tint('M8 10a2 2 0 0 1 4 0 2 2 0 0 1 4 0l-4 4Z'), N('M15 3h3v18l-6 -6 -6 6V3h3'), N('M8 10a2 2 0 0 1 4 0 2 2 0 0 1 4 0l-4 4Z')],
 );

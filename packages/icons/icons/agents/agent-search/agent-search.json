@@ -14,18 +14,18 @@
     "search agent",
     "deep research"
   ],
-  "family": "ring",
+  "family": "orbit",
   "shapes": [
     {
-      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
-      "closed": false
-    },
-    {
-      "d": "M11.5 15.5a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
       "closed": true
     },
     {
-      "d": "M18.5 18.5L21.5 21.5",
+      "d": "M8 11a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12.5 12.5L16 16",
       "closed": false
     }
   ]

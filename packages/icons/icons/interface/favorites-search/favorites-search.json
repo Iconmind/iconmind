@@ -14,18 +14,18 @@
     "find in saved",
     "favourites filter"
   ],
-  "family": "object",
+  "family": "magnifier",
   "shapes": [
     {
-      "d": "M4 10a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "d": "M5.5 10a6.5 6.5 0 1 0 13 0a6.5 6.5 0 1 0 -13 0Z",
       "closed": true
     },
     {
-      "d": "M5.5 13L3 15.5",
+      "d": "M16.5 14.5L21 19",
       "closed": false
     },
     {
-      "d": "M16 10A2 2 0 0 1 19 10A2 2 0 0 1 22 10L19 13Z",
+      "d": "M9 9A1.5 1.5 0 0 1 12 9A1.5 1.5 0 0 1 15 9L12 12Z",
       "closed": true,
       "_why": "a heart is one line, not three strokes with visible seams"
     }

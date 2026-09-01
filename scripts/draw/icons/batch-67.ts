@@ -8,7 +8,8 @@
  * times). Every name checked free before drawing.
  */
 import { arc, col, disc, frame, poly, rect, row } from "../forms.ts";
-import { page } from "../bodies.ts";
+import { page, ring } from "../bodies.ts";
+import { lockMark, searchMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 export const BATCH_67: Icon[] = [
@@ -268,16 +269,16 @@ export const BATCH_67: Icon[] = [
   {
     slug: "agent-search", category: "agents", subcategory: "tool-use",
     name: "Agent search", description: "An agent with a magnifying glass — an agent that searches and researches on your behalf",
-    tags: ["search", "research", "find"], family: "ring",
+    tags: ["search", "research", "find"], family: "orbit",
     aliases: [], keywords: ["research agent", "search agent", "deep research"],
-    shapes: [arc(7, 7, 4, 295, 245), disc(15.5, 15.5, 4), poly([[18.5, 18.5], [21.5, 21.5]])],
+    shapes: [ring(), ...searchMark()],
   },
   {
     slug: "agent-lock", category: "agents", subcategory: "lifecycle",
     name: "Agent lock", description: "An agent beside a padlock — an agent locked to its permissions and scope",
-    tags: ["lock", "permission", "scope"], family: "ring",
+    tags: ["lock", "permission", "scope"], family: "orbit",
     aliases: [], keywords: ["locked agent", "agent permissions", "scoped access"],
-    shapes: [arc(7, 7, 4, 295, 245), rect(11, 13, 10, 8, 2), arc(16, 13, 3, 180, 360)],
+    shapes: [ring(), ...lockMark()],
   },
   {
     slug: "agent-terminal", category: "agents", subcategory: "tool-use",

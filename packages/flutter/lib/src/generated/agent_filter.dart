@@ -4,6 +4,6 @@ import '../data.dart';
 /// AgentFilter
 const IconMindData agentFilter = IconMindData(
   'agent-filter',
-  [N('M8.69 3.37a4 4 0 1 1 -3.38 0'), N('M13 11h9l-3 3v7h-3v-7Z')],
-  [N.tint('M13 11h9l-3 3v7h-3v-7Z'), N('M8.69 3.37a4 4 0 1 1 -3.38 0'), N('M13 11h9l-3 3v7h-3v-7Z')],
+  [N('M16.23 2.94a10 10 0 1 1 -8.46 0'), N('M8 8h8l-2 2v6h-4v-6Z')],
+  [N.tint('M16.23 2.94a10 10 0 1 1 -8.46 0'), N.tint('M8 8h8l-2 2v6h-4v-6Z'), N('M16.23 2.94a10 10 0 1 1 -8.46 0'), N('M8 8h8l-2 2v6h-4v-6Z')],
 );

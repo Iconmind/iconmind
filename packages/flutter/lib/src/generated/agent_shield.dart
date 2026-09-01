@@ -4,6 +4,6 @@ import '../data.dart';
 /// AgentShield
 const IconMindData agentShield = IconMindData(
   'agent-shield',
-  [N('M8.69 3.37a4 4 0 1 1 -3.38 0'), N('M13 12h9v5.5L17.5 22 13 17.5Z')],
-  [N.tint('M13 12h9v5.5L17.5 22 13 17.5Z'), N('M8.69 3.37a4 4 0 1 1 -3.38 0'), N('M13 12h9v5.5L17.5 22 13 17.5Z')],
+  [N('M16.23 2.94a10 10 0 1 1 -8.46 0'), N('M8 8h8v4l-4 4 -4 -4Z')],
+  [N.tint('M16.23 2.94a10 10 0 1 1 -8.46 0'), N.tint('M8 8h8v4l-4 4 -4 -4Z'), N('M16.23 2.94a10 10 0 1 1 -8.46 0'), N('M8 8h8v4l-4 4 -4 -4Z')],
 );

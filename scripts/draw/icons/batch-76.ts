@@ -8,6 +8,8 @@
  * Unattended round. Every name checked free before drawing.
  */
 import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
+import { shield } from "../bodies.ts";
+import { BIG, SMALL, alert, heartMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -298,9 +300,9 @@ export const BATCH_76: Icon[] = [
   {
     slug: "favorite-milestone", category: "analytics", subcategory: "metric",
     name: "Favourite milestone", description: "A flag beside a heart — the milestone that meant the most to the team",
-    tags: ["milestone", "favourite", "heart"], family: "flag",
+    tags: ["milestone", "favourite", "heart"], family: "figure",
     aliases: [], keywords: ["favourite milestone", "starred milestone", "memorable milestone"],
-    shapes: [...FLAG_L, raw("M15 12A2 2 0 0 1 18 12A2 2 0 0 1 21 12L18 15Z", HEART, true)],
+    shapes: [col(6, 3, 21), poly([[6, 4], [18, 4], [18, 14], [6, 14]]), ...heartMark(SMALL, 8)],
   },
   {
     slug: "milestone-up", category: "analytics", subcategory: "metric",
@@ -346,9 +348,9 @@ export const BATCH_76: Icon[] = [
   {
     slug: "protected-favorites", category: "interface", subcategory: "identity",
     name: "Protected favourites", description: "A heart beside a shield — favourites kept safe from being changed or shared",
-    tags: ["favourites", "protected", "shield"], family: "heart",
+    tags: ["favourites", "protected", "shield"], family: "shield",
     aliases: [], keywords: ["protected favourites", "guarded favourites", "favourites safety"],
-    shapes: [HEART_L, poly([[16, 9], [22, 9], [22, 14.5], [19, 17.5], [16, 14.5]], true)],
+    shapes: [shield(), ...heartMark(BIG, 10)],
   },
   {
     slug: "idle-block", category: "devtools", subcategory: "code",

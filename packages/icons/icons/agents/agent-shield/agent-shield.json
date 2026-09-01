@@ -14,14 +14,14 @@
     "protected agent",
     "agent safety"
   ],
-  "family": "ring",
+  "family": "orbit",
   "shapes": [
     {
-      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
-      "closed": false
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
     },
     {
-      "d": "M13 12L22 12L22 17.5L17.5 22L13 17.5Z",
+      "d": "M8 8L16 8L16 12L12 16L8 12Z",
       "closed": true
     }
   ]

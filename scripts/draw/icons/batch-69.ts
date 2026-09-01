@@ -9,6 +9,7 @@
  */
 import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
 import { machine, ring } from "../bodies.ts";
+import { coinMark, diamondMark, flagMark, pinMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 export const BATCH_69: Icon[] = [
@@ -76,9 +77,9 @@ export const BATCH_69: Icon[] = [
   {
     slug: "agent-cost", category: "agents", subcategory: "lifecycle",
     name: "Agent cost", description: "An agent beside a coin — what a single run of this agent costs to operate",
-    tags: ["cost", "spend", "billing"], family: "ring",
+    tags: ["cost", "spend", "billing"], family: "orbit",
     aliases: [], keywords: ["agent cost", "agent spend", "cost per run"],
-    shapes: [arc(7, 7, 4, 295, 245), disc(16, 15, 5), col(16, 13.5, 16.5)],
+    shapes: [ring(), ...coinMark()],
   },
   {
     slug: "agent-context", category: "agents", subcategory: "memory",
@@ -90,16 +91,16 @@ export const BATCH_69: Icon[] = [
   {
     slug: "agent-model", category: "agents", subcategory: "agent-core",
     name: "Agent model", description: "An agent beside a model core — the underlying model an agent runs on",
-    tags: ["model", "backend", "llm"], family: "ring",
+    tags: ["model", "backend", "llm"], family: "orbit",
     aliases: [], keywords: ["agent model", "underlying model", "model selection"],
-    shapes: [arc(7, 7, 4, 295, 245), poly([[16.5, 12], [21, 16.5], [16.5, 21], [12, 16.5]], true)],
+    shapes: [ring(), ...diamondMark()],
   },
   {
     slug: "agent-pin", category: "agents", subcategory: "tool-use",
     name: "Agent pin", description: "An agent beside a location pin — an agent that works with places and maps",
-    tags: ["location", "map", "place"], family: "ring",
+    tags: ["location", "map", "place"], family: "orbit",
     aliases: [], keywords: ["location agent", "map agent", "geo agent"],
-    shapes: [arc(7, 7, 4, 295, 245), disc(16.5, 13, 3), col(16.5, 16, 20)],
+    shapes: [ring(), ...pinMark()],
   },
   {
     slug: "agent-trigger", category: "agents", subcategory: "execution",
@@ -125,9 +126,9 @@ export const BATCH_69: Icon[] = [
   {
     slug: "agent-checkpoint", category: "agents", subcategory: "lifecycle",
     name: "Agent checkpoint", description: "An agent beside a flag on its pole — a checkpoint an agent can be restored to",
-    tags: ["checkpoint", "flag", "restore"], family: "ring",
+    tags: ["checkpoint", "flag", "restore"], family: "orbit",
     aliases: [], keywords: ["agent checkpoint", "save point", "restore agent state"],
-    shapes: [arc(7, 7, 4, 295, 245), col(13, 12, 22), poly([[13, 12], [21, 12], [18, 15], [21, 18], [13, 18]])],
+    shapes: [ring(), ...flagMark()],
   },
   {
     slug: "agent-queue", category: "agents", subcategory: "execution",

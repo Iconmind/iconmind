@@ -4,6 +4,6 @@ import '../data.dart';
 /// AgentBookmark
 const IconMindData agentBookmark = IconMindData(
   'agent-bookmark',
-  [N('M8.69 3.37a4 4 0 1 1 -3.38 0'), N('M13 11h8v10l-4 -4 -4 4Z')],
-  [N.tint('M13 11h8v10l-4 -4 -4 4Z'), N('M8.69 3.37a4 4 0 1 1 -3.38 0'), N('M13 11h8v10l-4 -4 -4 4Z')],
+  [N('M16.23 2.94a10 10 0 1 1 -8.46 0'), N('M9 8h6v8l-3 -3 -3 3Z')],
+  [N.tint('M16.23 2.94a10 10 0 1 1 -8.46 0'), N.tint('M9 8h6v8l-3 -3 -3 3Z'), N('M16.23 2.94a10 10 0 1 1 -8.46 0'), N('M9 8h6v8l-3 -3 -3 3Z')],
 );

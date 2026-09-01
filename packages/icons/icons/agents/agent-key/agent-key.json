@@ -14,22 +14,22 @@
     "agent api key",
     "delegated access"
   ],
-  "family": "ring",
+  "family": "orbit",
   "shapes": [
     {
-      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
-      "closed": false
-    },
-    {
-      "d": "M13.5 11.5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
       "closed": true
     },
     {
-      "d": "M16.5 14.5V21.5",
+      "d": "M10 9.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 11.5V16",
       "closed": false
     },
     {
-      "d": "M16.5 19H19",
+      "d": "M12 14.5H14.5",
       "closed": false
     }
   ]

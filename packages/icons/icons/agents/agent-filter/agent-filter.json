@@ -14,14 +14,14 @@
     "triage agent",
     "screening"
   ],
-  "family": "ring",
+  "family": "orbit",
   "shapes": [
     {
-      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
-      "closed": false
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
     },
     {
-      "d": "M13 11L22 11L19 14L19 21L16 21L16 14Z",
+      "d": "M8 8L16 8L14 10L14 16L10 16L10 10Z",
       "closed": true
     }
   ]

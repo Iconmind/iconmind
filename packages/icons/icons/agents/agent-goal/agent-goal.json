@@ -14,18 +14,18 @@
     "objective",
     "target outcome"
   ],
-  "family": "ring",
+  "family": "orbit",
   "shapes": [
     {
-      "d": "M8.69 3.37A4 4 0 1 1 5.31 3.37",
-      "closed": false
-    },
-    {
-      "d": "M12.5 15.5a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
       "closed": true
     },
     {
-      "d": "M15.5 15.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "d": "M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
       "closed": true
     }
   ]
