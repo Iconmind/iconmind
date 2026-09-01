@@ -9,8 +9,8 @@
  * name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { banner, bookmark, brackets, dial, funnel, key, machine, padlock, ring, runCard, shield, trophy } from "../bodies.ts";
-import { add, alert, BIG, bookmarkMark, check, flagMark, funnelMark, heartMark, idleMark, lockMark, off, playMark, remove, SMALL, tagMark, trendMark } from "../marks.ts";
+import { banner, bookmark, brackets, dial, eventCard, funnel, key, machine, padlock, ring, runCard, shield, trophy } from "../bodies.ts";
+import { add, alert, BIG, boltMark, bookmarkMark, check, flagMark, funnelMark, heartMark, idleMark, lockMark, off, playMark, remove, SMALL, tagMark, trendMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -18,7 +18,6 @@ const BR_R = poly([[17, 3], [21, 3], [21, 21], [17, 21]]);
 const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
 const WINDOW = [rect(3, 3, 18, 18, 2), row(8, 3, 21)];
 const WINDOW_T = [rect(3, 2.5, 18, 19, 2), row(7, 3, 21)];
-const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
 const COIN_L = [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5)];
 const ROWS_L = [row(6, 3, 14), row(11, 3, 14), row(16, 3, 14)];
 const TARGET_R = [disc(18, 13, 4), disc(18, 13, 1)];
@@ -284,31 +283,31 @@ export const BATCH_75: Icon[] = [
 
   {
     slug: "saved-event", category: "automation", subcategory: "trigger",
-    name: "Saved event", description: "A lightning bolt beside a bookmark — an event kept for later",
-    tags: ["event", "saved", "bookmark"], family: "bolt",
+    name: "Saved event", description: "A bookmark with a bolt inside — an event kept for later",
+    tags: ["event", "saved", "bookmark"], family: "ribbon",
     aliases: [], keywords: ["saved event", "bookmark event", "event kept"],
-    shapes: [BOLT_L, BOOKMARK_R],
+    shapes: [bookmark(), ...boltMark(SMALL, 9)],
   },
   {
     slug: "event-forward", category: "automation", subcategory: "action",
-    name: "Event forward", description: "A lightning bolt with an arrow beside it — an event passed on to the next handler",
-    tags: ["event", "forward", "relay"], family: "bolt",
+    name: "Event forward", description: "An event card with an arrow under its bolt — an event passed on to the next handler",
+    tags: ["event", "forward", "relay"], family: "window",
     aliases: [], keywords: ["forward event", "relay event", "pass event on"],
-    shapes: [BOLT_L, row(12, 15, 22), poly([[19.5, 9.5], [22, 12], [19.5, 14.5]])],
+    shapes: [...eventCard(), row(16, 9, 15), poly([[12.5, 13.5], [15, 16], [12.5, 18.5]])],
   },
   {
     slug: "event-alert", category: "automation", subcategory: "condition",
-    name: "Event alert", description: "A lightning bolt beside an alert mark — an event that raised a warning",
-    tags: ["event", "alert", "warning"], family: "bolt",
+    name: "Event alert", description: "An event card with an alert under its bolt — an event that raised a warning",
+    tags: ["event", "alert", "warning"], family: "window",
     aliases: [], keywords: ["event alert", "event warning", "trigger alert"],
-    shapes: [BOLT_L, col(17, 7, 12), disc(17, 15, 1)],
+    shapes: [...eventCard(), ...alert(SMALL, 16)],
   },
   {
     slug: "remove-trigger", category: "automation", subcategory: "trigger",
-    name: "Remove trigger", description: "A lightning bolt with a minus beside it — delete a trigger from the automation",
-    tags: ["trigger", "remove", "delete"], family: "bolt",
+    name: "Remove trigger", description: "An event card with a minus under its bolt — delete a trigger from the automation",
+    tags: ["trigger", "remove", "delete"], family: "window",
     aliases: [], keywords: ["remove trigger", "delete trigger", "disable event"],
-    shapes: [BOLT_L, row(12, 15, 22)],
+    shapes: [...eventCard(), ...remove(SMALL, 16)],
   },
 
   /* ── analytics & cloud ────────────────────────────────────────────────────────── */

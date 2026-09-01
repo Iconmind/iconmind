@@ -8,14 +8,13 @@
  * checked free before drawing.
  */
 import { arc, area, col, disc, openDisc, poly, raw, rect, row } from "../forms.ts";
-import { add, alert, BIG, bookmarkMark, check, coinMark, flagMark, funnelMark, heartMark, idleMark, keyMark, lockMark, off, pinMark, playMark, remove, searchMark, shieldMark, SMALL, tagMark, targetMark, trendMark } from "../marks.ts";
-import { banner, brackets, dial, funnel, key, machine, padlock, runCard, shield, trophy } from "../bodies.ts";
+import { add, alert, BIG, boltMark, bookmarkMark, check, coinMark, flagMark, funnelMark, heartMark, idleMark, keyMark, lockMark, off, pinMark, playMark, remove, searchMark, shieldMark, SMALL, squareMark, tagMark, targetMark, trendMark } from "../marks.ts";
+import { banner, brackets, dial, eventCard, funnel, key, machine, padlock, runCard, shield, trophy } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
 const BR_R = poly([[17, 3], [21, 3], [21, 21], [17, 21]]);
 const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
-const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
 const LOCK_R = [rect(14, 9, 8, 7.5, 2), arc(18, 9, 2, 180, 360)];
 
 export const BATCH_73: Icon[] = [
@@ -338,17 +337,17 @@ export const BATCH_73: Icon[] = [
   },
   {
     slug: "event-search", category: "automation", subcategory: "trigger",
-    name: "Event search", description: "A lightning bolt beside a magnifying glass — search the event stream",
-    tags: ["event", "search", "log"], family: "bolt",
+    name: "Event search", description: "A magnifying glass with a bolt inside — search the event stream",
+    tags: ["event", "search", "log"], family: "magnifier",
     aliases: [], keywords: ["event search", "search events", "find trigger"],
-    shapes: [BOLT_L, disc(17, 10, 4), poly([[20, 13], [22, 15]])],
+    shapes: [disc(12, 10, 6.5), poly([[16.5, 14.5], [21, 19]]), ...boltMark(SMALL, 10)],
   },
   {
     slug: "event-stopped", category: "automation", subcategory: "condition",
-    name: "Event stopped", description: "A lightning bolt beside a stop square — an event stopped from propagating",
-    tags: ["event", "stop", "propagation"], family: "bolt",
+    name: "Event stopped", description: "An event card with a stop square under its bolt — an event stopped from propagating",
+    tags: ["event", "stop", "propagation"], family: "window",
     aliases: [], keywords: ["stop propagation", "event stopped", "halt trigger"],
-    shapes: [BOLT_L, poly([[15, 9], [21, 9], [21, 15], [15, 15]], true)],
+    shapes: [...eventCard(), ...squareMark(SMALL, 16)],
   },
 
   /* ── interface: bubbles and pages ─────────────────────────────────────────────── */

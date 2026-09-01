@@ -158,6 +158,13 @@ export const runCard = (): Shape[] =>
 export const brackets = (): Shape[] =>
   [poly([[7, 3], [3, 3], [3, 21], [7, 21]]), poly([[17, 3], [21, 3], [21, 21], [17, 21]])];
 
+
+/** runCard's card with a bolt where the play sits: "this card is an event". The bolt
+ * is drawn small, per size, the way funnelMark is - boltMark at SMALL is eight units
+ * tall and two marks that size do not share a 20-unit card. */
+export const eventCard = (): Shape[] =>
+  [rect(3, 2, 18, 20, 2), poly([[14, 5], [11.5, 7.5], [14, 7.5], [11.5, 10]])];
+
 /** A tray, mouth up: what things are put into or taken out of. */
 export const tray = (): Shape => body(poly([[4, 15], [4, 19], [20, 19], [20, 15]]));
 

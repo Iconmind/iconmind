@@ -8,7 +8,7 @@
  * Unattended round. Every name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { banner, bookmark, brackets, funnel, key, padlock, runCard, shield, trophy } from "../bodies.ts";
+import { banner, bookmark, brackets, eventCard, funnel, key, padlock, runCard, shield, trophy } from "../bodies.ts";
 import { alert, BIG, bookmarkMark, flagMark, funnelMark, heartMark, idleMark, keyMark, playMark, remove, SMALL, squareMark, trendMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
@@ -18,7 +18,6 @@ const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
 const WINDOW = [rect(3, 3, 18, 18, 2), row(8, 3, 21)];
 const LENS_LS = [disc(8.5, 10, 4.5), poly([[5.5, 13], [3, 15.5]])];
 const HEART_L = raw("M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z", HEART, true);
-const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
 const COIN_L = [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5)];
 const ROWS_L = [row(6, 3, 14), row(11, 3, 14), row(16, 3, 14)];
 const ROWS_LS = [row(6, 3, 12), row(11, 3, 12), row(16, 3, 12)];
@@ -239,17 +238,17 @@ export const BATCH_76: Icon[] = [
   },
   {
     slug: "event-escalate", category: "automation", subcategory: "action",
-    name: "Event escalate", description: "A lightning bolt beside a double chevron rising — an event escalated to a higher tier",
-    tags: ["event", "escalate", "priority"], family: "bolt",
+    name: "Event escalate", description: "An event card, a double chevron rising under its bolt — an event escalated",
+    tags: ["event", "escalate", "priority"], family: "window",
     aliases: [], keywords: ["escalate event", "raise priority", "event tier up"],
-    shapes: [BOLT_L, ...UP_R15],
+    shapes: [...eventCard(), poly([[10, 15.5], [12, 13.5], [14, 15.5]]), poly([[10, 18.5], [12, 16.5], [14, 18.5]])],
   },
   {
     slug: "event-list", category: "automation", subcategory: "trigger",
-    name: "Event list", description: "A lightning bolt beside a list — the events that have fired, in order",
-    tags: ["event", "list", "log"], family: "bolt",
+    name: "Event list", description: "An event card with rows under its bolt — the events that have fired, in order",
+    tags: ["event", "list", "log"], family: "window",
     aliases: [], keywords: ["event list", "fired events", "trigger log"],
-    shapes: [BOLT_L, row(8, 14, 22), row(12, 14, 22), row(16, 14, 22)],
+    shapes: [...eventCard(), row(14.5, 9, 15), row(17.5, 9, 15)],
   },
 
   /* ── analytics & cloud: goals, milestones and money ──────────────────────────── */

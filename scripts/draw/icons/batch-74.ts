@@ -9,12 +9,11 @@
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
 import { add, alert, BIG, boltMark, bookmarkMark, check, clockMark, flagMark, funnelMark, heartMark, idleMark, lockMark, off, pause, playMark, remove, searchMark, shieldMark, SMALL, squareMark, tagMark, trendMark } from "../marks.ts";
-import { banner, bookmark, dial, funnel, key, runCard, trophy } from "../bodies.ts";
+import { banner, bookmark, dial, eventCard, funnel, key, padlock, runCard, trophy } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
 const COIN_L = [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5)];
-const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
 const LOCK_R = [rect(14, 9, 8, 7.5, 2), arc(18, 9, 2, 180, 360)];
 const Z_R = poly([[15, 9.5], [20, 9.5], [15, 14.5], [20, 14.5]]);
 const SQUARE_R = poly([[15, 9], [21, 9], [21, 15], [15, 15]], true);
@@ -232,10 +231,10 @@ export const BATCH_74: Icon[] = [
   },
   {
     slug: "locked-trigger", category: "security", subcategory: "auth",
-    name: "Locked trigger", description: "A lightning bolt beside a padlock — a trigger only the right people can fire",
-    tags: ["trigger", "locked", "permission"], family: "bolt",
+    name: "Locked trigger", description: "A padlock with a bolt on its body — a trigger only the right people can fire",
+    tags: ["trigger", "locked", "permission"], family: "lock",
     aliases: [], keywords: ["locked trigger", "protected event", "permissioned trigger"],
-    shapes: [BOLT_L, ...LOCK_R],
+    shapes: [...padlock(), ...boltMark(SMALL, 15.5)],
   },
 
   /* ── ai: checkpoints in training ──────────────────────────────────────────────── */
@@ -318,38 +317,38 @@ export const BATCH_74: Icon[] = [
 
   {
     slug: "event-label", category: "automation", subcategory: "trigger",
-    name: "Event label", description: "A lightning bolt beside a label — an event given a name or a type",
-    tags: ["event", "label", "name"], family: "bolt",
+    name: "Event label", description: "A label with a bolt inside — an event given a name or a type",
+    tags: ["event", "label", "name"], family: "object",
     aliases: [], keywords: ["event label", "named event", "event type"],
-    shapes: [BOLT_L, TAG_R],
+    shapes: [poly([[3, 6], [13, 6], [21, 14], [13, 22], [3, 22]], true), ...boltMark(SMALL, 13.5)],
   },
   {
     slug: "geo-event", category: "automation", subcategory: "trigger",
-    name: "Geo event", description: "A lightning bolt beside a location pin — an event fired by a place",
-    tags: ["event", "location", "geofence"], family: "bolt",
+    name: "Geo event", description: "A location pin with a bolt in its head — an event fired by a place",
+    tags: ["event", "location", "geofence"], family: "pin",
     aliases: [], keywords: ["geo event", "location trigger", "geofence event"],
-    shapes: [BOLT_L, disc(18, 10, 3), col(18, 13, 17)],
+    shapes: [area("M4 10A8 8 0 0 1 20 10L12 18Z", "the teardrop `location` is drawn from; the mark sits where its ring sits"), ...boltMark(SMALL, 10)],
   },
   {
     slug: "event-checkpoint", category: "automation", subcategory: "action",
-    name: "Event checkpoint", description: "A lightning bolt beside a flag — a checkpoint written when an event fires",
-    tags: ["event", "checkpoint", "flag"], family: "bolt",
+    name: "Event checkpoint", description: "A flag flown big, a bolt on its banner — a checkpoint written when an event fires",
+    tags: ["event", "checkpoint", "flag"], family: "flag",
     aliases: [], keywords: ["event checkpoint", "checkpoint on trigger", "event marker"],
-    shapes: [BOLT_L, ...FLAG_R],
+    shapes: [...banner(), ...boltMark(SMALL, 10)],
   },
   {
     slug: "event-run", category: "automation", subcategory: "action",
-    name: "Event run", description: "A lightning bolt beside a play button — a run started by an event",
-    tags: ["event", "run", "start"], family: "bolt",
+    name: "Event run", description: "A run card with a bolt under its play — a run started by an event",
+    tags: ["event", "run", "start"], family: "window",
     aliases: [], keywords: ["event-triggered run", "run on event", "triggered job"],
-    shapes: [BOLT_L, PLAY_R],
+    shapes: [...runCard(), ...boltMark(SMALL, 16)],
   },
   {
     slug: "event-idle", category: "automation", subcategory: "condition",
-    name: "Event idle", description: "A lightning bolt beside a Z — a trigger that has not fired in a while",
-    tags: ["event", "idle", "quiet"], family: "bolt",
+    name: "Event idle", description: "An event card with a Z under its bolt — a trigger that has not fired in a while",
+    tags: ["event", "idle", "quiet"], family: "window",
     aliases: [], keywords: ["idle trigger", "quiet event", "no recent events"],
-    shapes: [BOLT_L, Z_R],
+    shapes: [...eventCard(), ...idleMark(SMALL, 16)],
   },
 
   /* ── devtools: runs qualified ─────────────────────────────────────────────────── */

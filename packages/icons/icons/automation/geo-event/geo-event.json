@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "trigger",
   "name": "Geo event",
-  "description": "A lightning bolt beside a location pin — an event fired by a place",
+  "description": "A location pin with a bolt in its head — an event fired by a place",
   "tags": [
     "event",
     "location",
@@ -14,18 +14,15 @@
     "location trigger",
     "geofence event"
   ],
-  "family": "bolt",
+  "family": "pin",
   "shapes": [
     {
-      "d": "M10 6L5 11L9 11L4 16",
-      "closed": false
+      "d": "M4 10A8 8 0 0 1 20 10L12 18Z",
+      "closed": true,
+      "_why": "the teardrop `location` is drawn from; the mark sits where its ring sits"
     },
     {
-      "d": "M15 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
-      "closed": true
-    },
-    {
-      "d": "M18 13V17",
+      "d": "M15 7L12 10L14.5 10L11.5 13",
       "closed": false
     }
   ]
