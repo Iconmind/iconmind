@@ -17,7 +17,7 @@
  * a modifier sits in, so `model` and `model-add` are the same drawing with something in the
  * middle rather than two drawings that have to be kept in step.
  */
-import { area, col, disc, frame, openDisc, poly, row, body, type Shape, raw } from "./forms.ts";
+import { arc, area, col, disc, frame, openDisc, poly, row, body, type Shape, raw } from "./forms.ts";
 
 /* ── Machines: the chamfered register ───────────────────────────────────────────── */
 
@@ -117,6 +117,10 @@ export const bookmark = (): Shape =>
  * a mark, so it cannot shrink, and whatever angle the shaft took it read as a stick. */
 export const key = (): Shape[] => [frame(4.5, 2, 15, 13, 3, { gap: 4 }), col(12, 15, 21),
   row(18, 12, 15), row(21, 12, 14.5)];
+
+
+/** `timer` with its hands left off: the crown says time, the dial is the hollow. */
+export const dial = (): Shape[] => [arc(12, 14, 8, 295, 245), col(12, 3, 6), row(3, 9, 15)];
 
 /** A tray, mouth up: what things are put into or taken out of. */
 export const tray = (): Shape => body(poly([[4, 15], [4, 19], [20, 19], [20, 15]]));

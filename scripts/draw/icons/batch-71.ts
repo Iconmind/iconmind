@@ -8,8 +8,8 @@
  * carries that job from here on. Every name checked free before drawing.
  */
 import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { machine, page, shield } from "../bodies.ts";
-import { SMALL, flagMark, heartMark, keyMark, lockMark, playMark, searchMark } from "../marks.ts";
+import { dial, machine, page, shield } from "../bodies.ts";
+import { BIG, check, flagMark, heartMark, idleMark, keyMark, lockMark, playMark, searchMark, SMALL } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -179,10 +179,10 @@ export const BATCH_71: Icon[] = [
   },
   {
     slug: "reminder-snooze", category: "interface", subcategory: "time",
-    name: "Reminder snooze", description: "A clock with a Z beside it — snooze a reminder until later in the day",
-    tags: ["snooze", "later", "reminder"], family: "clock",
+    name: "Reminder snooze", description: "A timer dial with a Z on its face — snooze a reminder until later in the day",
+    tags: ["snooze", "later", "reminder"], family: "orbit",
     aliases: [], keywords: ["snooze reminder", "remind me later", "postpone"],
-    shapes: [disc(9, 12, 6), poly([[9, 9], [9, 12], [11.5, 12]]), poly([[18, 10], [22, 10], [18, 14], [22, 14]])],
+    shapes: [...dial(), ...idleMark(BIG, 14)],
   },
   {
     slug: "navbar", category: "interface", subcategory: "layout",
@@ -308,10 +308,10 @@ export const BATCH_71: Icon[] = [
 
   {
     slug: "on-time", category: "interface", subcategory: "time",
-    name: "On time", description: "A clock with a check beside it — something that happened on schedule",
-    tags: ["schedule", "punctual", "check"], family: "clock",
+    name: "On time", description: "A timer dial with a check on its face — something that happened on schedule",
+    tags: ["schedule", "punctual", "check"], family: "orbit",
     aliases: ["clock-check"], keywords: ["on time", "on schedule", "deadline met"],
-    shapes: [disc(8.5, 12, 5.5), poly([[8.5, 9], [8.5, 12], [11, 12]]), poly([[17, 13], [19, 15], [22, 12]])],
+    shapes: [...dial(), ...check(BIG, 14)],
   },
   {
     slug: "credits", category: "cloud", subcategory: "cost",

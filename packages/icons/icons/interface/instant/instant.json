@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "time",
   "name": "Instant",
-  "description": "A clock with a lightning bolt beside it — something that happens right away",
+  "description": "A timer dial with a bolt on its face — something that happens right away",
   "tags": [
     "instant",
     "immediate",
@@ -14,18 +14,22 @@
     "immediate",
     "real time"
   ],
-  "family": "clock",
+  "family": "orbit",
   "shapes": [
     {
-      "d": "M3 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
-      "closed": true
-    },
-    {
-      "d": "M8.5 9L8.5 12L11 12",
+      "d": "M15.38 6.75A8 8 0 1 1 8.62 6.75",
       "closed": false
     },
     {
-      "d": "M22 7L18 11L21 11L17 15",
+      "d": "M12 3V6",
+      "closed": false
+    },
+    {
+      "d": "M9 3H15",
+      "closed": false
+    },
+    {
+      "d": "M16 10L12 14L15.5 14L11.5 18",
       "closed": false
     }
   ]

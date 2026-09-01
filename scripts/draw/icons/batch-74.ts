@@ -8,8 +8,8 @@
  * name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { SMALL, alert, boltMark, bookmarkMark, flagMark, funnelMark, heartMark, lockMark, squareMark, tagMark } from "../marks.ts";
-import { key } from "../bodies.ts";
+import { alert, BIG, boltMark, bookmarkMark, flagMark, funnelMark, heartMark, lockMark, pause, SMALL, squareMark, tagMark } from "../marks.ts";
+import { dial, key } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -171,17 +171,17 @@ export const BATCH_74: Icon[] = [
   },
   {
     slug: "deadline-soon", category: "interface", subcategory: "time",
-    name: "Deadline soon", description: "A clock beside a double chevron rising — a deadline closing in",
-    tags: ["deadline", "soon", "urgent"], family: "clock",
+    name: "Deadline soon", description: "A timer dial, a double chevron rising on its face — a deadline closing in",
+    tags: ["deadline", "soon", "urgent"], family: "orbit",
     aliases: [], keywords: ["deadline soon", "due soon", "time running out"],
-    shapes: [...CLOCK_L, poly([[16, 13], [19, 10], [22, 13]]), poly([[16, 17.5], [19, 14.5], [22, 17.5]])],
+    shapes: [...dial(), poly([[9, 13.5], [12, 10.5], [15, 13.5]]), poly([[9, 17.5], [12, 14.5], [15, 17.5]])],
   },
   {
     slug: "timer-pause", category: "interface", subcategory: "time",
-    name: "Timer pause", description: "A clock beside a pause mark — pause the timer without resetting it",
-    tags: ["timer", "pause", "hold"], family: "clock",
+    name: "Timer pause", description: "A timer dial with a pause on its face — pause the timer without resetting it",
+    tags: ["timer", "pause", "hold"], family: "orbit",
     aliases: [], keywords: ["pause timer", "hold countdown", "timer paused"],
-    shapes: [...CLOCK_L, col(17, 9, 15), col(20.5, 9, 15)],
+    shapes: [...dial(), ...pause(BIG, 14)],
   },
   {
     slug: "locked-list", category: "security", subcategory: "auth",

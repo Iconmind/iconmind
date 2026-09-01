@@ -8,8 +8,8 @@
  * times). Every name checked free before drawing.
  */
 import { arc, col, disc, frame, poly, rect, row } from "../forms.ts";
-import { page, ring } from "../bodies.ts";
-import { lockMark, searchMark } from "../marks.ts";
+import { dial, page, ring } from "../bodies.ts";
+import { add, BIG, lockMark, searchMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 export const BATCH_67: Icon[] = [
@@ -17,10 +17,10 @@ export const BATCH_67: Icon[] = [
 
   {
     slug: "think-longer", category: "ai", subcategory: "inference",
-    name: "Think longer", description: "A clock with a plus beside it — give the model more thinking time before it answers",
-    tags: ["reasoning", "time", "budget"], family: "clock",
+    name: "Think longer", description: "A timer dial with a plus on its face — give the model more thinking time before it answers",
+    tags: ["reasoning", "time", "budget"], family: "orbit",
     aliases: [], keywords: ["extended thinking", "thinking budget", "reasoning effort"],
-    shapes: [disc(9, 12, 6), poly([[9, 9], [9, 12], [11.5, 12]]), row(12, 18, 22), col(20, 10, 14)],
+    shapes: [...dial(), ...add(BIG, 14)],
   },
   {
     slug: "self-reflect", category: "ai", subcategory: "inference",

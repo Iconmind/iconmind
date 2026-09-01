@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "time",
   "name": "Reminder snooze",
-  "description": "A clock with a Z beside it — snooze a reminder until later in the day",
+  "description": "A timer dial with a Z on its face — snooze a reminder until later in the day",
   "tags": [
     "snooze",
     "later",
@@ -14,18 +14,22 @@
     "remind me later",
     "postpone"
   ],
-  "family": "clock",
+  "family": "orbit",
   "shapes": [
     {
-      "d": "M3 12a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
-      "closed": true
-    },
-    {
-      "d": "M9 9L9 12L11.5 12",
+      "d": "M15.38 6.75A8 8 0 1 1 8.62 6.75",
       "closed": false
     },
     {
-      "d": "M18 10L22 10L18 14L22 14",
+      "d": "M12 3V6",
+      "closed": false
+    },
+    {
+      "d": "M9 3H15",
+      "closed": false
+    },
+    {
+      "d": "M8 10L16 10L8 18L16 18",
       "closed": false
     }
   ]

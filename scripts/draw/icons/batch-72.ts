@@ -8,8 +8,8 @@
  * free before drawing.
  */
 import { arc, col, disc, poly, raw, rect, row, area } from "../forms.ts";
-import { SMALL, bookmarkMark, funnelMark, heartMark, trendMark } from "../marks.ts";
-import { key, machine } from "../bodies.ts";
+import { BIG, boltMark, bookmarkMark, funnelMark, heartMark, off, SMALL, trendMark } from "../marks.ts";
+import { dial, key, machine } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -77,17 +77,17 @@ export const BATCH_72: Icon[] = [
 
   {
     slug: "deadline-missed", category: "interface", subcategory: "time",
-    name: "Deadline missed", description: "A clock with an X beside it — a deadline that passed without being met",
-    tags: ["deadline", "late", "missed"], family: "clock",
+    name: "Deadline missed", description: "A timer dial with an X on its face — a deadline that passed without being met",
+    tags: ["deadline", "late", "missed"], family: "orbit",
     aliases: [], keywords: ["deadline missed", "overdue", "past due"],
-    shapes: [disc(8.5, 12, 5.5), poly([[8.5, 9], [8.5, 12], [11, 12]]), poly([[17, 9.5], [22, 14.5]]), poly([[22, 9.5], [17, 14.5]])],
+    shapes: [...dial(), ...off(BIG, 14)],
   },
   {
     slug: "instant", category: "interface", subcategory: "time",
-    name: "Instant", description: "A clock with a lightning bolt beside it — something that happens right away",
-    tags: ["instant", "immediate", "fast"], family: "clock",
+    name: "Instant", description: "A timer dial with a bolt on its face — something that happens right away",
+    tags: ["instant", "immediate", "fast"], family: "orbit",
     aliases: [], keywords: ["instant", "immediate", "real time"],
-    shapes: [disc(8.5, 12, 5.5), poly([[8.5, 9], [8.5, 12], [11, 12]]), poly([[22, 7], [18, 11], [21, 11], [17, 15]])],
+    shapes: [...dial(), ...boltMark(BIG, 14)],
   },
   {
     slug: "timezone", category: "interface", subcategory: "time",

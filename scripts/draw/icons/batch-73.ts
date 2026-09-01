@@ -8,8 +8,8 @@
  * checked free before drawing.
  */
 import { arc, area, col, disc, openDisc, poly, raw, rect, row } from "../forms.ts";
-import { BIG, SMALL, alert, check, heartMark, idleMark, keyMark, pinMark, searchMark, tagMark, targetMark } from "../marks.ts";
-import { key, machine } from "../bodies.ts";
+import { alert, BIG, check, heartMark, idleMark, keyMark, pinMark, searchMark, SMALL, tagMark, targetMark, trendMark } from "../marks.ts";
+import { dial, key, machine } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -86,10 +86,10 @@ export const BATCH_73: Icon[] = [
   },
   {
     slug: "latency-trend", category: "devops", subcategory: "observability",
-    name: "Latency trend", description: "A clock beside a rising line — how response time is trending",
-    tags: ["latency", "trend", "performance"], family: "clock",
+    name: "Latency trend", description: "A timer dial with a rising line on its face — how response time is trending",
+    tags: ["latency", "trend", "performance"], family: "orbit",
     aliases: [], keywords: ["latency trend", "response time over time", "p99 trend"],
-    shapes: [...CLOCK_L, poly([[15, 19], [17.5, 16.5], [19.5, 18.5], [22, 16]])],
+    shapes: [...dial(), ...trendMark(BIG, 14)],
   },
   {
     slug: "scheduled-run", category: "automation", subcategory: "schedule",

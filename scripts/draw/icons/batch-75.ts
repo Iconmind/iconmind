@@ -9,8 +9,8 @@
  * name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { bookmark, key, machine } from "../bodies.ts";
-import { BIG, SMALL, add, alert, check, heartMark, idleMark, off } from "../marks.ts";
+import { bookmark, dial, key, machine } from "../bodies.ts";
+import { add, alert, BIG, check, heartMark, idleMark, off, SMALL } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -370,10 +370,10 @@ export const BATCH_75: Icon[] = [
   },
   {
     slug: "time-alert", category: "interface", subcategory: "time",
-    name: "Time alert", description: "A clock beside an alert mark — a time-based warning that something is due",
-    tags: ["time", "alert", "warning"], family: "clock",
+    name: "Time alert", description: "A timer dial with an alert on its face — a time-based warning that something is due",
+    tags: ["time", "alert", "warning"], family: "orbit",
     aliases: ["clock-alert"], keywords: ["time alert", "time warning", "running late"],
-    shapes: [...CLOCK_L, ...ALERT_R],
+    shapes: [...dial(), ...alert(BIG, 14)],
   },
 
   /* ── interface: bubbles and windows ───────────────────────────────────────────── */
