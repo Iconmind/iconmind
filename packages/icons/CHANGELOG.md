@@ -1,5 +1,11 @@
 # @iconmind/icons
 
+## 0.6.3
+
+### Patch Changes
+
+- fix(icons): every icon carries its qualifier inside one body
+
 ## 0.6.2
 
 ### Patch Changes
