@@ -112,14 +112,14 @@ export const BATCH_69: Icon[] = [
   {
     slug: "agent-active", category: "agents", subcategory: "agent-core",
     name: "Agent active", description: "An agent with a point lit at its centre — an agent that is awake and running",
-    tags: ["active", "running", "live"], family: "ring",
+    tags: ["active", "running", "live"], family: "orbit",
     aliases: [], keywords: ["active agent", "running agent", "live agent"],
     shapes: [ring(), disc(12, 12, 3)],
   },
   {
     slug: "agent-heart", category: "agents", subcategory: "agent-core",
     name: "Agent heart", description: "An agent with a small heart at its centre — an agent people have come to care about",
-    tags: ["favourite", "care", "heart"], family: "ring",
+    tags: ["favourite", "care", "heart"], family: "orbit",
     aliases: [], keywords: ["favourite agent", "agent heart", "loved agent"],
     shapes: [ring(), raw("M8 10A2 2 0 0 1 12 10A2 2 0 0 1 16 10L12 14Z", "a heart is one line, not three strokes with visible seams", true)],
   },

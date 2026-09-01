@@ -58,7 +58,9 @@ export const BATCH_06: Icon[] = [
   modelFamily("model-alert", "Model alert", "A model frame with an alert mark beside it — something is wrong with this model and needs attention",
     ["warning", "drift", "problem"], ["drift", "degraded", "error", "attention"], alert),
   modelFamily("model-off", "Model off", "A model frame struck through — the model is disabled and no longer serving requests",
-    ["disabled", "retired", "inactive"], ["disable", "deprecated", "retired", "unavailable"], off),
+    ["disabled", "retired", "inactive"], ["disable", "deprecated", "retired", "unavailable"],
+    // the description has always said "struck through" - the X belongs to model-fail
+    () => [poly([[7, 7], [17, 17]])]),
 
   /* ── Concepts whose picture is the whole idea ─────────────────────────────────── */
 

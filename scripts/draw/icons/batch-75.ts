@@ -9,8 +9,8 @@
  * name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { banner, bookmark, dial, key, machine, shield } from "../bodies.ts";
-import { add, alert, BIG, check, flagMark, heartMark, idleMark, off, playMark, remove, SMALL, tagMark, trendMark } from "../marks.ts";
+import { banner, bookmark, dial, key, machine, padlock, ring, shield } from "../bodies.ts";
+import { add, alert, BIG, bookmarkMark, check, flagMark, heartMark, idleMark, lockMark, off, playMark, remove, SMALL, tagMark, trendMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -19,31 +19,22 @@ const BR_R = poly([[17, 3], [21, 3], [21, 21], [17, 21]]);
 const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
 const WINDOW = [rect(3, 3, 18, 18, 2), row(8, 3, 21)];
 const WINDOW_T = [rect(3, 2.5, 18, 19, 2), row(7, 3, 21)];
-const LOCK_L = [rect(2, 11, 10, 8, 2), arc(7, 11, 3, 180, 360)];
 const LOCK_LN = [rect(2, 11, 9, 8, 2), arc(6.5, 11, 2, 180, 360)];
-const LENS_L = [disc(9, 10, 5), poly([[5.5, 13.5], [2.5, 16.5]])];
-const BOOKMARK_L = poly([[3, 5], [12, 5], [12, 19], [7.5, 14.5], [3, 19]], true);
-const HEART_L = raw("M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z", HEART, true);
 const PLAY_L = poly([[3, 5], [3, 19], [10, 12]], true);
 const FUNNEL_L = poly([[3, 5], [14, 5], [10, 9], [10, 17], [7, 17], [7, 9]], true);
 const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
 const TARGET_L = [disc(8, 12, 5), disc(8, 12, 2)];
 const COIN_L = [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5)];
-const DIAMOND_L = poly([[7, 8], [11, 12], [7, 16], [3, 12]], true);
 const ROWS_L = [row(6, 3, 14), row(11, 3, 14), row(16, 3, 14)];
 const TARGET_R = [disc(18, 13, 4), disc(18, 13, 1)];
 const LENS_R = [disc(17.5, 10, 3.5), poly([[20, 12.5], [22, 14.5]])];
 const BOOKMARK_R = poly([[14, 7], [21, 7], [21, 17], [17.5, 13.5], [14, 17]], true);
 const FUNNEL_R = poly([[15, 9], [22, 9], [20, 11], [20, 19], [17, 19], [17, 11]], true);
-const ALERT_R = [col(18, 7, 12), disc(18, 15, 1)];
 const TAG_R = poly([[14, 13], [19, 13], [22, 16], [19, 19], [14, 19]], true);
-const TAG_RS = poly([[16, 13], [20, 13], [22, 15], [20, 17], [16, 17]], true);
-const SHIELD_RN = poly([[16, 9], [22, 9], [22, 14.5], [19, 17.5], [16, 14.5]], true);
 const MINUS_R = row(12, 16, 22);
 const PLUS_R = [row(12, 16, 22), col(19, 9, 15)];
 const Z_R = poly([[15, 9.5], [20, 9.5], [15, 14.5], [20, 14.5]]);
 const CHECK_R = poly([[15, 13], [17.5, 15.5], [22, 11]]);
-const LINE_R = poly([[15, 19], [17.5, 16.5], [19.5, 18.5], [22, 16]]);
 const UP_R = [poly([[16, 13], [19, 10], [22, 13]]), poly([[16, 17.5], [19, 14.5], [22, 17.5]])];
 const FLAG_R = [col(14, 5, 21), poly([[14, 5], [22, 5], [19, 8], [22, 11], [14, 11]])];
 
@@ -59,17 +50,17 @@ export const BATCH_75: Icon[] = [
   },
   {
     slug: "private-search", category: "security", subcategory: "auth",
-    name: "Private search", description: "A padlock beside a magnifying glass — a search nobody else can see",
-    tags: ["search", "private", "lock"], family: "lock",
+    name: "Private search", description: "A magnifying glass with a padlock inside — a search nobody else can see",
+    tags: ["search", "private", "lock"], family: "magnifier",
     aliases: [], keywords: ["private search", "confidential query", "search privacy"],
-    shapes: [...LOCK_LN, ...LENS_R],
+    shapes: [disc(12, 10, 6.5), poly([[16.5, 14.5], [21, 19]]), ...lockMark(SMALL, 9)],
   },
   {
     slug: "private-bookmark", category: "security", subcategory: "auth",
-    name: "Private bookmark", description: "A padlock beside a bookmark — a bookmark hidden from everyone but you",
-    tags: ["bookmark", "private", "lock"], family: "lock",
+    name: "Private bookmark", description: "A bookmark with a padlock inside — a bookmark hidden from everyone but you",
+    tags: ["bookmark", "private", "lock"], family: "ribbon",
     aliases: [], keywords: ["private bookmark", "hidden bookmark", "secret save"],
-    shapes: [...LOCK_LN, BOOKMARK_R],
+    shapes: [bookmark(), ...lockMark(SMALL, 8.5)],
   },
   {
     slug: "locked-filter", category: "security", subcategory: "auth",
@@ -80,10 +71,10 @@ export const BATCH_75: Icon[] = [
   },
   {
     slug: "lock-alert", category: "security", subcategory: "auth",
-    name: "Lock alert", description: "A padlock beside an alert mark — a lock that needs attention",
+    name: "Lock alert", description: "A padlock with an alert on its body — a lock that needs attention",
     tags: ["lock", "alert", "warning"], family: "lock",
     aliases: [], keywords: ["lock alert", "lock warning", "lock issue"],
-    shapes: [...LOCK_L, ...ALERT_R],
+    shapes: [...padlock(), ...alert(SMALL, 15.5)],
   },
   {
     slug: "run-scan", category: "security", subcategory: "ai-security",
@@ -111,31 +102,31 @@ export const BATCH_75: Icon[] = [
 
   {
     slug: "search-trend", category: "interface", subcategory: "action",
-    name: "Search trend", description: "A magnifying glass beside a rising line — what people search for more and more",
-    tags: ["search", "trend", "popular"], family: "object",
+    name: "Search trend", description: "A magnifying glass with a rising line inside — what people search for more and more",
+    tags: ["search", "trend", "popular"], family: "magnifier",
     aliases: [], keywords: ["search trend", "trending searches", "query volume"],
-    shapes: [...LENS_L, LINE_R],
+    shapes: [disc(12, 10, 6.5), poly([[16.5, 14.5], [21, 19]]), ...trendMark(SMALL, 9)],
   },
   {
     slug: "add-search", category: "interface", subcategory: "action",
-    name: "Add search", description: "A magnifying glass with a plus beside it — save a new search",
-    tags: ["search", "add", "save"], family: "object",
+    name: "Add search", description: "A magnifying glass with a plus inside — save a new search",
+    tags: ["search", "add", "save"], family: "magnifier",
     aliases: [], keywords: ["add search", "new saved search", "create search"],
-    shapes: [...LENS_L, row(12, 17, 22), col(19.5, 9.5, 14.5)],
+    shapes: [disc(12, 10, 6.5), poly([[16.5, 14.5], [21, 19]]), ...add(SMALL, 9)],
   },
   {
     slug: "search-alert", category: "interface", subcategory: "action",
-    name: "Search alert", description: "A magnifying glass beside an alert mark — be told when a search finds something new",
-    tags: ["search", "alert", "notify"], family: "object",
+    name: "Search alert", description: "A magnifying glass with an alert inside — be told when a search finds something new",
+    tags: ["search", "alert", "notify"], family: "magnifier",
     aliases: [], keywords: ["search alert", "saved search notification", "new results alert"],
-    shapes: [...LENS_L, ...ALERT_R],
+    shapes: [disc(12, 10, 6.5), poly([[16.5, 14.5], [21, 19]]), ...alert(SMALL, 9)],
   },
   {
     slug: "bookmark-label", category: "interface", subcategory: "file",
-    name: "Bookmark label", description: "A bookmark beside a label — a bookmark filed under a tag or a folder",
-    tags: ["bookmark", "label", "tag"], family: "bookmark",
+    name: "Bookmark label", description: "A label with a bookmark inside — a bookmark filed under a tag or a folder",
+    tags: ["bookmark", "label", "tag"], family: "object",
     aliases: [], keywords: ["bookmark label", "tagged bookmark", "bookmark folder"],
-    shapes: [BOOKMARK_L, TAG_RS],
+    shapes: [poly([[3, 6], [13, 6], [21, 14], [13, 22], [3, 22]], true), ...bookmarkMark(SMALL, 13.5)],
   },
   {
     slug: "bookmark-search", category: "interface", subcategory: "file",
@@ -146,17 +137,17 @@ export const BATCH_75: Icon[] = [
   },
   {
     slug: "saved-policy", category: "interface", subcategory: "file",
-    name: "Saved policy", description: "A bookmark beside a shield — a policy saved for reuse as a template",
-    tags: ["policy", "saved", "shield"], family: "bookmark",
+    name: "Saved policy", description: "A policy sheet with a bookmark — a policy saved for reuse as a template",
+    tags: ["policy", "saved", "shield"], family: "page",
     aliases: [], keywords: ["saved policy", "policy template", "reusable policy"],
-    shapes: [BOOKMARK_L, SHIELD_RN],
+    shapes: [rect(4, 3, 16, 18, 2), row(8, 7, 17), ...bookmarkMark(SMALL, 14.5)],
   },
   {
     slug: "liked", category: "interface", subcategory: "identity",
-    name: "Liked", description: "A heart with a check beside it — something you liked, confirmed",
-    tags: ["like", "heart", "check"], family: "heart",
+    name: "Liked", description: "A heart in a round button — something you liked, marked as such",
+    tags: ["like", "heart", "check"], family: "orbit",
     aliases: [], keywords: ["liked", "marked as liked", "favourite confirmed"],
-    shapes: [HEART_L, poly([[14.5, 13], [17.5, 16], [22, 11.5]])],
+    shapes: [ring(), ...heartMark()],
   },
   {
     slug: "favorite-label", category: "interface", subcategory: "identity",

@@ -8,7 +8,7 @@
  * checked free before drawing.
  */
 import { arc, area, col, disc, openDisc, poly, raw, rect, row } from "../forms.ts";
-import { alert, BIG, bookmarkMark, check, coinMark, funnelMark, heartMark, idleMark, keyMark, lockMark, pinMark, playMark, searchMark, shieldMark, SMALL, tagMark, targetMark, trendMark } from "../marks.ts";
+import { alert, BIG, bookmarkMark, check, coinMark, funnelMark, heartMark, idleMark, keyMark, lockMark, off, pinMark, playMark, searchMark, shieldMark, SMALL, tagMark, targetMark, trendMark } from "../marks.ts";
 import { banner, dial, key, machine, shield } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
@@ -17,12 +17,10 @@ const BR_L = poly([[7, 3], [3, 3], [3, 21], [7, 21]]);
 const BR_R = poly([[17, 3], [21, 3], [21, 21], [17, 21]]);
 const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
 const FUNNEL_L = poly([[3, 5], [14, 5], [10, 9], [10, 17], [7, 17], [7, 9]], true);
-const DIAMOND_L = poly([[7, 8], [11, 12], [7, 16], [3, 12]], true);
 const TARGET_L = [disc(8, 12, 5), disc(8, 12, 2)];
 const PLAY_L = poly([[3, 5], [3, 19], [10, 12]], true);
 const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
 const LOCK_R = [rect(14, 9, 8, 7.5, 2), arc(18, 9, 2, 180, 360)];
-const X_R = [poly([[16, 9.5], [21, 14.5]]), poly([[21, 9.5], [16, 14.5]])];
 const ROWS_R = (x: number) => [row(8, x, 22), row(12, x, 22), row(16, x, 22)];
 
 export const BATCH_73: Icon[] = [
@@ -203,10 +201,10 @@ export const BATCH_73: Icon[] = [
 
   {
     slug: "model-fail", category: "ai", subcategory: "model",
-    name: "Model fail", description: "A model core beside an X — a model call that failed and returned an error",
-    tags: ["fail", "error", "model"], family: "lattice",
+    name: "Model fail", description: "A model core with an X inside — a model call that failed and returned an error",
+    tags: ["fail", "error", "model"], family: "machine",
     aliases: [], keywords: ["model failure", "inference error", "model call failed"],
-    shapes: [DIAMOND_L, ...X_R],
+    shapes: [machine(), ...off()],
   },
   {
     slug: "model-tag", category: "ai", subcategory: "model",

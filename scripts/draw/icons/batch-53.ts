@@ -68,7 +68,7 @@ export const BATCH_53: Icon[] = [
   {
     slug: "agent-badge", category: "agents", subcategory: "agent-core",
     name: "Agent badge", description: "An agent badge — who this agent is, a verified credential of identity",
-    tags: ["identity", "credential", "verified"], family: "agent",
+    tags: ["identity", "credential", "verified"], family: "orbit",
     aliases: [], keywords: ["identity", "credential", "verified agent", "attestation"],
     // The agent's ring with a shield for a core — credentials where the self sits.
     shapes: [ring(), poly([[8, 7], [16, 7], [16, 12], [12, 16], [8, 12]], true)],
@@ -89,7 +89,7 @@ export const BATCH_53: Icon[] = [
   {
     slug: "agent-persona", category: "agents", subcategory: "agent-core",
     name: "Agent persona", description: "An agent persona — the character and role an agent presents to the user",
-    tags: ["character", "role", "face"], family: "agent",
+    tags: ["character", "role", "face"], family: "orbit",
     aliases: [], keywords: ["persona", "character", "role play", "presented self"],
     // Two selves inside one ring, overlapping — the agent, and the one it is
     // being right now.

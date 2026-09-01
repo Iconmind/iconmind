@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Lock alert",
-  "description": "A padlock beside an alert mark — a lock that needs attention",
+  "description": "A padlock with an alert on its body — a lock that needs attention",
   "tags": [
     "lock",
     "alert",
@@ -17,19 +17,19 @@
   "family": "lock",
   "shapes": [
     {
-      "d": "M2 13A2 2 0 0 1 4 11H10A2 2 0 0 1 12 13V17A2 2 0 0 1 10 19H4A2 2 0 0 1 2 17Z",
+      "d": "M5 11.5A2 2 0 0 1 7 9.5H17A2 2 0 0 1 19 11.5V19.5A2 2 0 0 1 17 21.5H7A2 2 0 0 1 5 19.5Z",
       "closed": true
     },
     {
-      "d": "M4 11A3 3 0 0 1 10 11",
+      "d": "M8 9.5A4 4 0 0 1 16 9.5",
       "closed": false
     },
     {
-      "d": "M18 7V12",
+      "d": "M12 12.5V15.5",
       "closed": false
     },
     {
-      "d": "M17 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "d": "M11 18.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
       "closed": true
     }
   ]

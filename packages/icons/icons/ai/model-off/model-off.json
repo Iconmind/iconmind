@@ -22,11 +22,7 @@
       "closed": true
     },
     {
-      "d": "M9 9L15 15",
-      "closed": false
-    },
-    {
-      "d": "M15 9L9 15",
+      "d": "M7 7L17 17",
       "closed": false
     }
   ]

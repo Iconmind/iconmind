@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "file",
   "name": "Bookmark label",
-  "description": "A bookmark beside a label — a bookmark filed under a tag or a folder",
+  "description": "A label with a bookmark inside — a bookmark filed under a tag or a folder",
   "tags": [
     "bookmark",
     "label",
@@ -14,14 +14,14 @@
     "tagged bookmark",
     "bookmark folder"
   ],
-  "family": "bookmark",
+  "family": "object",
   "shapes": [
     {
-      "d": "M3 5L12 5L12 19L7.5 14.5L3 19Z",
+      "d": "M3 6L13 6L21 14L13 22L3 22Z",
       "closed": true
     },
     {
-      "d": "M16 13L20 13L22 15L20 17L16 17Z",
+      "d": "M10 10.5L14 10.5L14 16.5L12 14.5L10 16.5Z",
       "closed": true
     }
   ]

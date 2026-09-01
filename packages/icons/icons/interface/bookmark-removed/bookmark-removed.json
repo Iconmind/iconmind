@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "file",
   "name": "Bookmark removed",
-  "description": "A bookmark with an X beside it — a bookmark taken away and removed",
+  "description": "A bookmark with a minus inside — a bookmark taken away and removed",
   "tags": [
     "bookmark",
     "removed",
@@ -14,18 +14,14 @@
     "delete bookmark",
     "unbookmark"
   ],
-  "family": "bookmark",
+  "family": "ribbon",
   "shapes": [
     {
-      "d": "M3 5L12 5L12 19L7.5 14.5L3 19Z",
+      "d": "M15 3L18 3L18 21L12 15L6 21L6 3L9 3",
       "closed": true
     },
     {
-      "d": "M16 9.5L21 14.5",
-      "closed": false
-    },
-    {
-      "d": "M21 9.5L16 14.5",
+      "d": "M9 10H15",
       "closed": false
     }
   ]

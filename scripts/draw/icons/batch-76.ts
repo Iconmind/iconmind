@@ -8,8 +8,8 @@
  * Unattended round. Every name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { banner, key, shield } from "../bodies.ts";
-import { alert, BIG, flagMark, heartMark, idleMark, keyMark, playMark, remove, SMALL, squareMark, trendMark } from "../marks.ts";
+import { banner, bookmark, key, padlock, shield } from "../bodies.ts";
+import { alert, BIG, bookmarkMark, flagMark, heartMark, idleMark, keyMark, playMark, remove, SMALL, squareMark, trendMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -18,20 +18,16 @@ const BR_R = poly([[17, 3], [21, 3], [21, 21], [17, 21]]);
 const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
 const WINDOW = [rect(3, 3, 18, 18, 2), row(8, 3, 21)];
 const LENS_LS = [disc(8.5, 10, 4.5), poly([[5.5, 13], [3, 15.5]])];
-const BOOKMARK_L = poly([[3, 5], [12, 5], [12, 19], [7.5, 14.5], [3, 19]], true);
 const HEART_L = raw("M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z", HEART, true);
 const PLAY_L = poly([[3, 5], [3, 19], [10, 12]], true);
 const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
 const TARGET_L = [disc(8, 12, 5), disc(8, 12, 2)];
 const FUNNEL_L = poly([[3, 5], [14, 5], [10, 9], [10, 17], [7, 17], [7, 9]], true);
 const COIN_L = [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5)];
-const LOCK_L = [rect(2, 11, 10, 8, 2), arc(7, 11, 3, 180, 360)];
 const ROWS_L = [row(6, 3, 14), row(11, 3, 14), row(16, 3, 14)];
 const ROWS_LS = [row(6, 3, 12), row(11, 3, 12), row(16, 3, 12)];
 const ARROW_R = [row(12, 16, 22), poly([[19.5, 9.5], [22, 12], [19.5, 14.5]])];
 const ARROW_R15 = [row(12, 15, 22), poly([[19.5, 9.5], [22, 12], [19.5, 14.5]])];
-const X_R = [poly([[16, 9.5], [21, 14.5]]), poly([[21, 9.5], [16, 14.5]])];
-const Z_R = poly([[15, 9.5], [20, 9.5], [15, 14.5], [20, 14.5]]);
 const ALERT_R = [col(18, 7, 12), disc(18, 15, 1)];
 const MINUS_R = row(12, 16, 22);
 const LINE_R = poly([[15, 19], [17.5, 16.5], [19.5, 18.5], [22, 16]]);
@@ -77,24 +73,24 @@ export const BATCH_76: Icon[] = [
   },
   {
     slug: "bookmark-removed", category: "interface", subcategory: "file",
-    name: "Bookmark removed", description: "A bookmark with an X beside it — a bookmark taken away and removed",
-    tags: ["bookmark", "removed", "delete"], family: "bookmark",
+    name: "Bookmark removed", description: "A bookmark with a minus inside — a bookmark taken away and removed",
+    tags: ["bookmark", "removed", "delete"], family: "ribbon",
     aliases: [], keywords: ["remove bookmark", "delete bookmark", "unbookmark"],
-    shapes: [BOOKMARK_L, ...X_R],
+    shapes: [bookmark(), ...remove(SMALL, 10)],
   },
   {
     slug: "stale-bookmark", category: "interface", subcategory: "file",
-    name: "Stale bookmark", description: "A bookmark beside a Z — a bookmark to a page that has since changed",
-    tags: ["bookmark", "stale", "old"], family: "bookmark",
+    name: "Stale bookmark", description: "A bookmark with a Z inside — a bookmark to a page that has since changed",
+    tags: ["bookmark", "stale", "old"], family: "ribbon",
     aliases: [], keywords: ["stale bookmark", "outdated bookmark", "dead link"],
-    shapes: [BOOKMARK_L, Z_R],
+    shapes: [bookmark(), ...idleMark(SMALL, 9)],
   },
   {
     slug: "bookmark-alert", category: "interface", subcategory: "file",
-    name: "Bookmark alert", description: "A bookmark beside an alert mark — a saved item that needs attention",
-    tags: ["bookmark", "alert", "warning"], family: "bookmark",
+    name: "Bookmark alert", description: "A bookmark with an alert inside — a saved item that needs attention",
+    tags: ["bookmark", "alert", "warning"], family: "ribbon",
     aliases: [], keywords: ["bookmark alert", "saved item warning", "bookmark issue"],
-    shapes: [BOOKMARK_L, ...ALERT_R],
+    shapes: [bookmark(), ...alert(SMALL, 9)],
   },
   {
     slug: "unlike", category: "interface", subcategory: "identity",
@@ -164,10 +160,10 @@ export const BATCH_76: Icon[] = [
   },
   {
     slug: "remove-lock", category: "security", subcategory: "auth",
-    name: "Remove lock", description: "A padlock with a minus beside it — take a lock off and release it",
+    name: "Remove lock", description: "A padlock with a minus on its body — take a lock off and release it",
     tags: ["lock", "remove", "unlock"], family: "lock",
     aliases: [], keywords: ["remove lock", "unlock permanently", "lock removed"],
-    shapes: [...LOCK_L, MINUS_R],
+    shapes: [...padlock(), ...remove(SMALL, 15.5)],
   },
 
   /* ── interface: labels and pins ───────────────────────────────────────────────── */

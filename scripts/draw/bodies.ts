@@ -17,7 +17,7 @@
  * a modifier sits in, so `model` and `model-add` are the same drawing with something in the
  * middle rather than two drawings that have to be kept in step.
  */
-import { arc, area, col, disc, frame, openDisc, poly, row, body, type Shape, raw } from "./forms.ts";
+import { arc, area, col, disc, frame, openDisc, poly, rect, row, body, type Shape, raw } from "./forms.ts";
 
 /* ── Machines: the chamfered register ───────────────────────────────────────────── */
 
@@ -126,6 +126,10 @@ export const dial = (): Shape[] => [arc(12, 14, 8, 295, 245), col(12, 3, 6), row
 /** A flag flown big: full-height pole, the banner is the hollow a mark sits in.
  * Open at the pole - the pole is the banner's left edge, as flagMark does it. */
 export const banner = (): Shape[] => [col(4, 3, 21), poly([[4, 4], [20, 4], [20, 16], [4, 16]])];
+
+
+/** A padlock a size up from `lock`: the body is the hollow a mark sits in. */
+export const padlock = (): Shape[] => [rect(5, 9.5, 14, 12, 2), arc(12, 9.5, 4, 180, 360)];
 
 /** A tray, mouth up: what things are put into or taken out of. */
 export const tray = (): Shape => body(poly([[4, 15], [4, 19], [20, 19], [20, 15]]));

@@ -15,7 +15,7 @@
     "verified agent",
     "attestation"
   ],
-  "family": "agent",
+  "family": "orbit",
   "shapes": [
     {
       "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",

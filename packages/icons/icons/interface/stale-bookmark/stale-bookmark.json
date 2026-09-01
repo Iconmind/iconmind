@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "file",
   "name": "Stale bookmark",
-  "description": "A bookmark beside a Z — a bookmark to a page that has since changed",
+  "description": "A bookmark with a Z inside — a bookmark to a page that has since changed",
   "tags": [
     "bookmark",
     "stale",
@@ -14,14 +14,14 @@
     "outdated bookmark",
     "dead link"
   ],
-  "family": "bookmark",
+  "family": "ribbon",
   "shapes": [
     {
-      "d": "M3 5L12 5L12 19L7.5 14.5L3 19Z",
+      "d": "M15 3L18 3L18 21L12 15L6 21L6 3L9 3",
       "closed": true
     },
     {
-      "d": "M15 9.5L20 9.5L15 14.5L20 14.5",
+      "d": "M9 6L15 6L9 12L15 12",
       "closed": false
     }
   ]

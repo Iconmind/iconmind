@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "file",
   "name": "Bookmark alert",
-  "description": "A bookmark beside an alert mark — a saved item that needs attention",
+  "description": "A bookmark with an alert inside — a saved item that needs attention",
   "tags": [
     "bookmark",
     "alert",
@@ -14,18 +14,18 @@
     "saved item warning",
     "bookmark issue"
   ],
-  "family": "bookmark",
+  "family": "ribbon",
   "shapes": [
     {
-      "d": "M3 5L12 5L12 19L7.5 14.5L3 19Z",
+      "d": "M15 3L18 3L18 21L12 15L6 21L6 3L9 3",
       "closed": true
     },
     {
-      "d": "M18 7V12",
+      "d": "M12 6V9",
       "closed": false
     },
     {
-      "d": "M17 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
       "closed": true
     }
   ]

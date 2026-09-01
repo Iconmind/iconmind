@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Private bookmark",
-  "description": "A padlock beside a bookmark — a bookmark hidden from everyone but you",
+  "description": "A bookmark with a padlock inside — a bookmark hidden from everyone but you",
   "tags": [
     "bookmark",
     "private",
@@ -14,19 +14,19 @@
     "hidden bookmark",
     "secret save"
   ],
-  "family": "lock",
+  "family": "ribbon",
   "shapes": [
     {
-      "d": "M2 13A2 2 0 0 1 4 11H9A2 2 0 0 1 11 13V17A2 2 0 0 1 9 19H4A2 2 0 0 1 2 17Z",
+      "d": "M15 3L18 3L18 21L12 15L6 21L6 3L9 3",
       "closed": true
     },
     {
-      "d": "M4.5 11A2 2 0 0 1 8.5 11",
+      "d": "M9 8.5L15 8.5L15 11.5L9 11.5Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 8.5A1.5 1.5 0 0 1 13.5 8.5",
       "closed": false
-    },
-    {
-      "d": "M14 7L21 7L21 17L17.5 13.5L14 17Z",
-      "closed": true
     }
   ]
 }

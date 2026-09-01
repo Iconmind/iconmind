@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Search alert",
-  "description": "A magnifying glass beside an alert mark — be told when a search finds something new",
+  "description": "A magnifying glass with an alert inside — be told when a search finds something new",
   "tags": [
     "search",
     "alert",
@@ -14,22 +14,22 @@
     "saved search notification",
     "new results alert"
   ],
-  "family": "object",
+  "family": "magnifier",
   "shapes": [
     {
-      "d": "M4 10a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "d": "M5.5 10a6.5 6.5 0 1 0 13 0a6.5 6.5 0 1 0 -13 0Z",
       "closed": true
     },
     {
-      "d": "M5.5 13.5L2.5 16.5",
+      "d": "M16.5 14.5L21 19",
       "closed": false
     },
     {
-      "d": "M18 7V12",
+      "d": "M12 6V9",
       "closed": false
     },
     {
-      "d": "M17 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
       "closed": true
     }
   ]

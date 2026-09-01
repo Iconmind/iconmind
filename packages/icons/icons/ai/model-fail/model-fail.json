@@ -3,7 +3,7 @@
   "category": "ai",
   "subcategory": "model",
   "name": "Model fail",
-  "description": "A model core beside an X — a model call that failed and returned an error",
+  "description": "A model core with an X inside — a model call that failed and returned an error",
   "tags": [
     "fail",
     "error",
@@ -14,18 +14,18 @@
     "inference error",
     "model call failed"
   ],
-  "family": "lattice",
+  "family": "machine",
   "shapes": [
     {
-      "d": "M7 8L11 12L7 16L3 12Z",
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
       "closed": true
     },
     {
-      "d": "M16 9.5L21 14.5",
+      "d": "M9 9L15 15",
       "closed": false
     },
     {
-      "d": "M21 9.5L16 14.5",
+      "d": "M15 9L9 15",
       "closed": false
     }
   ]
