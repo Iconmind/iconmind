@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Key upgrade",
-  "description": "A key beside a double chevron rising — a credential promoted to a higher scope",
+  "description": "An upright key, a double chevron rising in its bow — a credential promoted to a higher scope",
   "tags": [
     "key",
     "upgrade",
@@ -17,23 +17,27 @@
   "family": "key",
   "shapes": [
     {
-      "d": "M3 9a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "d": "M14 2H16.5A3 3 0 0 1 19.5 5V12A3 3 0 0 1 16.5 15H7.5A3 3 0 0 1 4.5 12V5A3 3 0 0 1 7.5 2H10",
       "closed": true
     },
     {
-      "d": "M7 13V21",
+      "d": "M12 15V21",
       "closed": false
     },
     {
-      "d": "M7 18H10",
+      "d": "M12 18H15",
       "closed": false
     },
     {
-      "d": "M15 13L18.5 9.5L22 13",
+      "d": "M12 21H14.5",
       "closed": false
     },
     {
-      "d": "M15 17.5L18.5 14L22 17.5",
+      "d": "M10 8.5L12 6.5L14 8.5",
+      "closed": false
+    },
+    {
+      "d": "M10 11.5L12 9.5L14 11.5",
       "closed": false
     }
   ]

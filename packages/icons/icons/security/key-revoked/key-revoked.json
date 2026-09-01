@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Key revoked",
-  "description": "A key with an X beside it — a credential that has been revoked",
+  "description": "An upright key, an X in its bow — a credential that has been revoked",
   "tags": [
     "key",
     "revoked",
@@ -17,23 +17,27 @@
   "family": "key",
   "shapes": [
     {
-      "d": "M4 10a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "d": "M14 2H16.5A3 3 0 0 1 19.5 5V12A3 3 0 0 1 16.5 15H7.5A3 3 0 0 1 4.5 12V5A3 3 0 0 1 7.5 2H10",
       "closed": true
     },
     {
-      "d": "M8 14V21",
+      "d": "M12 15V21",
       "closed": false
     },
     {
-      "d": "M8 18H11",
+      "d": "M12 18H15",
       "closed": false
     },
     {
-      "d": "M15.5 9.5L20.5 14.5",
+      "d": "M12 21H14.5",
       "closed": false
     },
     {
-      "d": "M20.5 9.5L15.5 14.5",
+      "d": "M10 6.5L14 10.5",
+      "closed": false
+    },
+    {
+      "d": "M14 6.5L10 10.5",
       "closed": false
     }
   ]

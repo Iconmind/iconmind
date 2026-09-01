@@ -9,7 +9,7 @@
  * name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { bookmark, machine } from "../bodies.ts";
+import { bookmark, key, machine } from "../bodies.ts";
 import { BIG, SMALL, add, alert, check, heartMark, idleMark, off } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
@@ -33,7 +33,6 @@ const FUNNEL_L = poly([[3, 5], [14, 5], [10, 9], [10, 17], [7, 17], [7, 9]], tru
 const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
 const TARGET_L = [disc(8, 12, 5), disc(8, 12, 2)];
 const PIN_L = [disc(7, 10, 3), col(7, 13, 17)];
-const KEY_L = [disc(7, 9, 4), col(7, 13, 21), row(18, 7, 10)];
 const COIN_L = [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5)];
 const CLOCK_L = [disc(7.5, 12, 5.5), poly([[7.5, 9], [7.5, 12], [10, 12]])];
 const DIAMOND_L = poly([[7, 8], [11, 12], [7, 16], [3, 12]], true);
@@ -111,10 +110,10 @@ export const BATCH_75: Icon[] = [
   },
   {
     slug: "key-share", category: "security", subcategory: "auth",
-    name: "Key share", description: "A key beside an arrow — share a credential with someone else",
+    name: "Key share", description: "An upright key, an arrow in its bow — share a credential with someone else",
     tags: ["key", "share", "send"], family: "key",
     aliases: [], keywords: ["share key", "send credential", "key handoff"],
-    shapes: [...KEY_L, row(12, 15, 22), poly([[19.5, 9.5], [22, 12], [19.5, 14.5]])],
+    shapes: [...key(), row(8.5, 9, 15), poly([[12.5, 6], [15, 8.5], [12.5, 11]])],
   },
 
   /* ── interface: searches, saves and likes ─────────────────────────────────────── */

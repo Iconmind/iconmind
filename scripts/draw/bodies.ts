@@ -17,7 +17,7 @@
  * a modifier sits in, so `model` and `model-add` are the same drawing with something in the
  * middle rather than two drawings that have to be kept in step.
  */
-import { area, disc, frame, openDisc, poly, row, body, type Shape, raw } from "./forms.ts";
+import { area, col, disc, frame, openDisc, poly, row, body, type Shape, raw } from "./forms.ts";
 
 /* ── Machines: the chamfered register ───────────────────────────────────────────── */
 
@@ -110,6 +110,13 @@ export const server = (): Shape[] => [
 /** A ribbon with a notch cut into it, open at the top where the language opens everything. */
 export const bookmark = (): Shape =>
   body(poly([[15, 3], [18, 3], [18, 21], [12, 15], [6, 21], [6, 3], [9, 3]]));
+
+
+/** A key with a fob head: the rounded square is the hollow a mark sits in, the blade
+ * below carries two bites. A round bow always came out a lollipop — the head must hold
+ * a mark, so it cannot shrink, and whatever angle the shaft took it read as a stick. */
+export const key = (): Shape[] => [frame(4.5, 2, 15, 13, 3, { gap: 4 }), col(12, 15, 21),
+  row(18, 12, 15), row(21, 12, 14.5)];
 
 /** A tray, mouth up: what things are put into or taken out of. */
 export const tray = (): Shape => body(poly([[4, 15], [4, 19], [20, 19], [20, 15]]));

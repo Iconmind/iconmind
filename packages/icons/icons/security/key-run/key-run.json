@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Key run",
-  "description": "A key beside a play button — a run started with a specific credential",
+  "description": "An upright key, a play triangle in its bow — a run started with a specific credential",
   "tags": [
     "key",
     "run",
@@ -17,19 +17,23 @@
   "family": "key",
   "shapes": [
     {
-      "d": "M3 9a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "d": "M14 2H16.5A3 3 0 0 1 19.5 5V12A3 3 0 0 1 16.5 15H7.5A3 3 0 0 1 4.5 12V5A3 3 0 0 1 7.5 2H10",
       "closed": true
     },
     {
-      "d": "M7 13V21",
+      "d": "M12 15V21",
       "closed": false
     },
     {
-      "d": "M7 18H10",
+      "d": "M12 18H15",
       "closed": false
     },
     {
-      "d": "M15 8L15 16L19 12Z",
+      "d": "M12 21H14.5",
+      "closed": false
+    },
+    {
+      "d": "M10 5.5L13 8.5L10 11.5Z",
       "closed": true
     }
   ]

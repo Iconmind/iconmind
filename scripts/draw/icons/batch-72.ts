@@ -9,14 +9,13 @@
  */
 import { arc, col, disc, poly, raw, rect, row, area } from "../forms.ts";
 import { SMALL, bookmarkMark, funnelMark, heartMark, trendMark } from "../marks.ts";
-import { machine } from "../bodies.ts";
+import { key, machine } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
 const BR_L = poly([[7, 3], [3, 3], [3, 21], [7, 21]]);
 const BR_R = poly([[17, 3], [21, 3], [21, 21], [17, 21]]);
 const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
-const KEY_L = [disc(7, 9, 4), col(7, 13, 21), row(18, 7, 10)];
 const FUNNEL_L = poly([[3, 5], [14, 5], [10, 9], [10, 17], [7, 17], [7, 9]], true);
 const FLAG_L = [col(4, 3, 21), poly([[4, 3], [13, 3], [10, 6], [13, 9], [4, 9]])];
 const ROWS_R = (x: number) => [row(8, x, 22), row(12, x, 22), row(16, x, 22)];
@@ -189,17 +188,17 @@ export const BATCH_72: Icon[] = [
   },
   {
     slug: "key-usage", category: "security", subcategory: "auth",
-    name: "Key usage", description: "A key beside a rising line — how much a credential is being used",
+    name: "Key usage", description: "An upright key, a rising line in its bow — how much a credential is being used",
     tags: ["usage", "key", "metrics"], family: "key",
     aliases: [], keywords: ["api key usage", "credential usage", "key metrics"],
-    shapes: [...KEY_L, poly([[13, 19], [16, 16], [18, 18], [22, 14]])],
+    shapes: [...key(), ...trendMark(SMALL, 8.5)],
   },
   {
     slug: "key-list", category: "security", subcategory: "auth",
-    name: "Key list", description: "A key beside a list — the credentials issued to an account, one per row",
+    name: "Key list", description: "An upright key, list rows in its bow — the credentials issued to an account",
     tags: ["keys", "list", "credentials"], family: "key",
     aliases: [], keywords: ["key list", "api keys", "credential inventory"],
-    shapes: [...KEY_L, ...ROWS_R(14)],
+    shapes: [...key(), row(7, 9, 15), row(10, 9, 15)],
   },
 
   /* ── interface: kept, saved, flagged ──────────────────────────────────────────── */

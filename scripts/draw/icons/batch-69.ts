@@ -8,8 +8,8 @@
  * already carries the dots). Every name checked free before drawing.
  */
 import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { machine, ring } from "../bodies.ts";
-import { coinMark, diamondMark, flagMark, pinMark } from "../marks.ts";
+import { key, machine, ring } from "../bodies.ts";
+import { SMALL, add, coinMark, diamondMark, flagMark, pinMark, remove } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 export const BATCH_69: Icon[] = [
@@ -292,17 +292,17 @@ export const BATCH_69: Icon[] = [
 
   {
     slug: "least-privilege", category: "security", subcategory: "auth",
-    name: "Least privilege", description: "A key with a minus beside it — grant only the access a task needs",
+    name: "Least privilege", description: "An upright key, a minus in its bow — grant only the access a task needs",
     tags: ["access", "minimal", "permission"], family: "key",
     aliases: [], keywords: ["least privilege", "minimal permissions", "restricted access"],
-    shapes: [disc(8, 10, 4), col(8, 14, 21), row(18, 8, 11), row(12, 15, 21)],
+    shapes: [...key(), ...remove(SMALL, 8.5)],
   },
   {
     slug: "grant", category: "security", subcategory: "auth",
-    name: "Grant", description: "A key with a plus beside it — grant a permission or a new scope",
+    name: "Grant", description: "An upright key, a plus in its bow — grant a permission or a new scope",
     tags: ["access", "allow", "permission"], family: "key",
     aliases: [], keywords: ["grant access", "grant permission", "add scope"],
-    shapes: [disc(8, 10, 4), col(8, 14, 21), row(18, 8, 11), row(12, 15, 21), col(18, 9, 15)],
+    shapes: [...key(), ...add(SMALL, 8.5)],
   },
   {
     slug: "id-card", category: "security", subcategory: "auth",

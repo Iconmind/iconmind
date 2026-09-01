@@ -8,8 +8,8 @@
  * Every name checked free before drawing.
  */
 import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { page, ring } from "../bodies.ts";
-import { bookmarkMark, funnelMark, targetMark, trendMark } from "../marks.ts";
+import { key, page, ring } from "../bodies.ts";
+import { SMALL, bookmarkMark, check, funnelMark, off, targetMark, trendMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 export const BATCH_70: Icon[] = [
@@ -341,24 +341,24 @@ export const BATCH_70: Icon[] = [
   },
   {
     slug: "key-verified", category: "security", subcategory: "auth",
-    name: "Key verified", description: "A key with a check beside it — a credential that has been verified",
+    name: "Key verified", description: "An upright key, a check in its bow — a credential that has been verified",
     tags: ["key", "verified", "valid"], family: "key",
     aliases: [], keywords: ["verified key", "valid credential", "key check"],
-    shapes: [disc(8, 10, 4), col(8, 14, 21), row(18, 8, 11), poly([[14.5, 13.5], [17, 16], [21.5, 11.5]])],
+    shapes: [...key(), ...check(SMALL, 8.5)],
   },
   {
     slug: "key-revoked", category: "security", subcategory: "auth",
-    name: "Key revoked", description: "A key with an X beside it — a credential that has been revoked",
+    name: "Key revoked", description: "An upright key, an X in its bow — a credential that has been revoked",
     tags: ["key", "revoked", "invalid"], family: "key",
     aliases: [], keywords: ["revoked key", "revoke credential", "invalid key"],
-    shapes: [disc(8, 10, 4), col(8, 14, 21), row(18, 8, 11), poly([[15.5, 9.5], [20.5, 14.5]]), poly([[20.5, 9.5], [15.5, 14.5]])],
+    shapes: [...key(), ...off(SMALL, 8.5)],
   },
   {
     slug: "privilege-escalation", category: "security", subcategory: "auth",
-    name: "Privilege escalation", description: "A key with an arrow climbing beside it — privileges escalating beyond what was granted",
+    name: "Privilege escalation", description: "An upright key, an arrow climbing in its bow — privileges escalating beyond what was granted",
     tags: ["privilege", "escalate", "attack"], family: "key",
     aliases: [], keywords: ["privilege escalation", "elevated access", "escalation attack"],
-    shapes: [disc(8, 10, 4), col(8, 14, 21), row(18, 8, 11), poly([[14, 15], [19, 10]]), poly([[15.5, 10], [19, 10], [19, 13.5]])],
+    shapes: [...key(), poly([[9.5, 11], [14.5, 6]]), poly([[10.5, 6], [14.5, 6], [14.5, 10]])],
   },
   {
     slug: "chaos-experiment", category: "devops", subcategory: "incident",

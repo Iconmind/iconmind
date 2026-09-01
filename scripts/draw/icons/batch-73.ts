@@ -8,15 +8,14 @@
  * checked free before drawing.
  */
 import { arc, area, col, disc, openDisc, poly, raw, rect, row } from "../forms.ts";
-import { BIG, SMALL, check, heartMark, keyMark, pinMark, searchMark, tagMark, targetMark } from "../marks.ts";
-import { machine } from "../bodies.ts";
+import { BIG, SMALL, alert, check, heartMark, idleMark, keyMark, pinMark, searchMark, tagMark, targetMark } from "../marks.ts";
+import { key, machine } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
 const BR_L = poly([[7, 3], [3, 3], [3, 21], [7, 21]]);
 const BR_R = poly([[17, 3], [21, 3], [21, 21], [17, 21]]);
 const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
-const KEY_L = [disc(7, 9, 4), col(7, 13, 21), row(18, 7, 10)];
 const CLOCK_L = [disc(7.5, 12, 5.5), poly([[7.5, 9], [7.5, 12], [10, 12]])];
 const FUNNEL_L = poly([[3, 5], [14, 5], [10, 9], [10, 17], [7, 17], [7, 9]], true);
 const FLAG_L = [col(4, 3, 21), poly([[4, 3], [13, 3], [10, 6], [13, 9], [4, 9]])];
@@ -118,10 +117,10 @@ export const BATCH_73: Icon[] = [
   },
   {
     slug: "dormant-key", category: "security", subcategory: "auth",
-    name: "Dormant key", description: "A key beside a Z — a credential that has not been used in a long time",
+    name: "Dormant key", description: "An upright key, a Z in its bow — a credential that has not been used in a long time",
     tags: ["dormant", "unused", "key"], family: "key",
     aliases: [], keywords: ["dormant key", "unused credential", "stale key"],
-    shapes: [...KEY_L, poly([[15, 9.5], [20, 9.5], [15, 14.5], [20, 14.5]])],
+    shapes: [...key(), ...idleMark(SMALL, 8.5)],
   },
   {
     slug: "key-vault", category: "security", subcategory: "auth",
@@ -132,10 +131,10 @@ export const BATCH_73: Icon[] = [
   },
   {
     slug: "key-alert", category: "security", subcategory: "auth",
-    name: "Key alert", description: "A key beside an alert mark — a credential that needs attention",
+    name: "Key alert", description: "An upright key, an alert in its bow — a credential that needs attention",
     tags: ["alert", "key", "leak"], family: "key",
     aliases: [], keywords: ["key alert", "leaked credential", "key warning"],
-    shapes: [...KEY_L, col(18, 7, 12), disc(18, 15, 1)],
+    shapes: [...key(), ...alert(SMALL, 8.5)],
   },
   {
     slug: "threat-hunt", category: "security", subcategory: "ai-security",

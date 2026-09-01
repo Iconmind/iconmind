@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Key alert",
-  "description": "A key beside an alert mark — a credential that needs attention",
+  "description": "An upright key, an alert in its bow — a credential that needs attention",
   "tags": [
     "alert",
     "key",
@@ -17,23 +17,27 @@
   "family": "key",
   "shapes": [
     {
-      "d": "M3 9a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "d": "M14 2H16.5A3 3 0 0 1 19.5 5V12A3 3 0 0 1 16.5 15H7.5A3 3 0 0 1 4.5 12V5A3 3 0 0 1 7.5 2H10",
       "closed": true
     },
     {
-      "d": "M7 13V21",
+      "d": "M12 15V21",
       "closed": false
     },
     {
-      "d": "M7 18H10",
+      "d": "M12 18H15",
       "closed": false
     },
     {
-      "d": "M18 7V12",
+      "d": "M12 21H14.5",
       "closed": false
     },
     {
-      "d": "M17 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "d": "M12 5.5V8.5",
+      "closed": false
+    },
+    {
+      "d": "M11 11.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
       "closed": true
     }
   ]

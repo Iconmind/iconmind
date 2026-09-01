@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Privilege escalation",
-  "description": "A key with an arrow climbing beside it — privileges escalating beyond what was granted",
+  "description": "An upright key, an arrow climbing in its bow — privileges escalating beyond what was granted",
   "tags": [
     "privilege",
     "escalate",
@@ -17,23 +17,27 @@
   "family": "key",
   "shapes": [
     {
-      "d": "M4 10a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "d": "M14 2H16.5A3 3 0 0 1 19.5 5V12A3 3 0 0 1 16.5 15H7.5A3 3 0 0 1 4.5 12V5A3 3 0 0 1 7.5 2H10",
       "closed": true
     },
     {
-      "d": "M8 14V21",
+      "d": "M12 15V21",
       "closed": false
     },
     {
-      "d": "M8 18H11",
+      "d": "M12 18H15",
       "closed": false
     },
     {
-      "d": "M14 15L19 10",
+      "d": "M12 21H14.5",
       "closed": false
     },
     {
-      "d": "M15.5 10L19 10L19 13.5",
+      "d": "M9.5 11L14.5 6",
+      "closed": false
+    },
+    {
+      "d": "M10.5 6L14.5 6L14.5 10",
       "closed": false
     }
   ]

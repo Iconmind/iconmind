@@ -8,8 +8,8 @@
  * Unattended round. Every name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { shield } from "../bodies.ts";
-import { BIG, SMALL, alert, flagMark, heartMark, idleMark, trendMark } from "../marks.ts";
+import { key, shield } from "../bodies.ts";
+import { BIG, SMALL, alert, flagMark, heartMark, idleMark, playMark, trendMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -27,7 +27,6 @@ const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
 const TARGET_L = [disc(8, 12, 5), disc(8, 12, 2)];
 const FUNNEL_L = poly([[3, 5], [14, 5], [10, 9], [10, 17], [7, 17], [7, 9]], true);
 const PIN_L = [disc(7, 10, 3), col(7, 13, 17)];
-const KEY_L = [disc(7, 9, 4), col(7, 13, 21), row(18, 7, 10)];
 const COIN_L = [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5)];
 const FLAG_L = [col(4, 3, 21), poly([[4, 3], [13, 3], [10, 6], [13, 9], [4, 9]])];
 const LOCK_L = [rect(2, 11, 10, 8, 2), arc(7, 11, 3, 180, 360)];
@@ -157,17 +156,17 @@ export const BATCH_76: Icon[] = [
   },
   {
     slug: "key-run", category: "security", subcategory: "auth",
-    name: "Key run", description: "A key beside a play button — a run started with a specific credential",
+    name: "Key run", description: "An upright key, a play triangle in its bow — a run started with a specific credential",
     tags: ["key", "run", "credential"], family: "key",
     aliases: [], keywords: ["run with key", "credentialed run", "key-scoped job"],
-    shapes: [...KEY_L, poly([[15, 8], [15, 16], [19, 12]], true)],
+    shapes: [...key(), ...playMark(SMALL, 8.5)],
   },
   {
     slug: "key-upgrade", category: "security", subcategory: "auth",
-    name: "Key upgrade", description: "A key beside a double chevron rising — a credential promoted to a higher scope",
+    name: "Key upgrade", description: "An upright key, a double chevron rising in its bow — a credential promoted to a higher scope",
     tags: ["key", "upgrade", "scope"], family: "key",
     aliases: [], keywords: ["upgrade key", "promote credential", "wider scope"],
-    shapes: [...KEY_L, ...UP_R15],
+    shapes: [...key(), poly([[10, 8.5], [12, 6.5], [14, 8.5]]), poly([[10, 11.5], [12, 9.5], [14, 11.5]])],
   },
   {
     slug: "remove-lock", category: "security", subcategory: "auth",

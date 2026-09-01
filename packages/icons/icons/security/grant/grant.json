@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Grant",
-  "description": "A key with a plus beside it — grant a permission or a new scope",
+  "description": "An upright key, a plus in its bow — grant a permission or a new scope",
   "tags": [
     "access",
     "allow",
@@ -17,23 +17,27 @@
   "family": "key",
   "shapes": [
     {
-      "d": "M4 10a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "d": "M14 2H16.5A3 3 0 0 1 19.5 5V12A3 3 0 0 1 16.5 15H7.5A3 3 0 0 1 4.5 12V5A3 3 0 0 1 7.5 2H10",
       "closed": true
     },
     {
-      "d": "M8 14V21",
+      "d": "M12 15V21",
       "closed": false
     },
     {
-      "d": "M8 18H11",
+      "d": "M12 18H15",
       "closed": false
     },
     {
-      "d": "M15 12H21",
+      "d": "M12 21H14.5",
       "closed": false
     },
     {
-      "d": "M18 9V15",
+      "d": "M12 5.5V11.5",
+      "closed": false
+    },
+    {
+      "d": "M9 8.5H15",
       "closed": false
     }
   ]

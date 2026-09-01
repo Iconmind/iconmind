@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Key share",
-  "description": "A key beside an arrow — share a credential with someone else",
+  "description": "An upright key, an arrow in its bow — share a credential with someone else",
   "tags": [
     "key",
     "share",
@@ -17,23 +17,27 @@
   "family": "key",
   "shapes": [
     {
-      "d": "M3 9a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "d": "M14 2H16.5A3 3 0 0 1 19.5 5V12A3 3 0 0 1 16.5 15H7.5A3 3 0 0 1 4.5 12V5A3 3 0 0 1 7.5 2H10",
       "closed": true
     },
     {
-      "d": "M7 13V21",
+      "d": "M12 15V21",
       "closed": false
     },
     {
-      "d": "M7 18H10",
+      "d": "M12 18H15",
       "closed": false
     },
     {
-      "d": "M15 12H22",
+      "d": "M12 21H14.5",
       "closed": false
     },
     {
-      "d": "M19.5 9.5L22 12L19.5 14.5",
+      "d": "M9 8.5H15",
+      "closed": false
+    },
+    {
+      "d": "M12.5 6L15 8.5L12.5 11",
       "closed": false
     }
   ]

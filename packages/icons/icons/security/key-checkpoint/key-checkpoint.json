@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Key checkpoint",
-  "description": "A key beside a flag — the point at which a credential is checked",
+  "description": "An upright key, a flag in its bow — the point at which a credential is checked",
   "tags": [
     "key",
     "checkpoint",
@@ -17,23 +17,27 @@
   "family": "key",
   "shapes": [
     {
-      "d": "M3 9a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "d": "M14 2H16.5A3 3 0 0 1 19.5 5V12A3 3 0 0 1 16.5 15H7.5A3 3 0 0 1 4.5 12V5A3 3 0 0 1 7.5 2H10",
       "closed": true
     },
     {
-      "d": "M7 13V21",
+      "d": "M12 15V21",
       "closed": false
     },
     {
-      "d": "M7 18H10",
+      "d": "M12 18H15",
       "closed": false
     },
     {
-      "d": "M14 5V21",
+      "d": "M12 21H14.5",
       "closed": false
     },
     {
-      "d": "M14 5L22 5L19 8L22 11L14 11",
+      "d": "M9 5.5V11.5",
+      "closed": false
+    },
+    {
+      "d": "M9 6.5L15 6.5L13 8.5L15 10.5L9 10.5",
       "closed": false
     }
   ]

@@ -8,14 +8,13 @@
  * name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { SMALL, alert, bookmarkMark, heartMark, lockMark, tagMark } from "../marks.ts";
-import {  } from "../bodies.ts";
+import { SMALL, alert, boltMark, bookmarkMark, flagMark, funnelMark, heartMark, lockMark, squareMark, tagMark } from "../marks.ts";
+import { key } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
 const COIN_L = [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5)];
 const CLOCK_L = [disc(7.5, 12, 5.5), poly([[7.5, 9], [7.5, 12], [10, 12]])];
-const KEY_L = [disc(7, 9, 4), col(7, 13, 21), row(18, 7, 10)];
 const PIN_L = [disc(7, 10, 3), col(7, 13, 17)];
 const FLAG_L = [col(4, 3, 21), poly([[4, 3], [13, 3], [10, 6], [13, 9], [4, 9]])];
 const FUNNEL_L = poly([[3, 5], [14, 5], [10, 9], [10, 17], [7, 17], [7, 9]], true);
@@ -193,38 +192,38 @@ export const BATCH_74: Icon[] = [
   },
   {
     slug: "key-checkpoint", category: "security", subcategory: "auth",
-    name: "Key checkpoint", description: "A key beside a flag — the point at which a credential is checked",
+    name: "Key checkpoint", description: "An upright key, a flag in its bow — the point at which a credential is checked",
     tags: ["key", "checkpoint", "verify"], family: "key",
     aliases: [], keywords: ["credential checkpoint", "key verification point", "auth checkpoint"],
-    shapes: [...KEY_L, ...FLAG_R],
+    shapes: [...key(), ...flagMark(SMALL, 8.5)],
   },
   {
     slug: "key-filter", category: "security", subcategory: "auth",
-    name: "Key filter", description: "A key beside a funnel — filter records by which credential was used",
+    name: "Key filter", description: "An upright key, a funnel in its bow — filter records by which credential was used",
     tags: ["key", "filter", "audit"], family: "key",
     aliases: [], keywords: ["filter by key", "credential filter", "key audit"],
-    shapes: [...KEY_L, FUNNEL_R],
+    shapes: [...key(), ...funnelMark(SMALL, 8.5)],
   },
   {
     slug: "saved-key", category: "security", subcategory: "auth",
-    name: "Saved key", description: "A key beside a bookmark — a credential kept for reuse in future runs",
+    name: "Saved key", description: "An upright key, a bookmark in its bow — a credential kept for reuse in future runs",
     tags: ["key", "saved", "reuse"], family: "key",
     aliases: [], keywords: ["saved key", "stored credential", "remembered key"],
-    shapes: [...KEY_L, BOOKMARK_R],
+    shapes: [...key(), ...bookmarkMark(SMALL, 8.5)],
   },
   {
     slug: "key-event", category: "security", subcategory: "auth",
-    name: "Key event", description: "A key beside a lightning bolt — a credential used, created or revoked",
+    name: "Key event", description: "An upright key, a bolt in its bow — a credential used, created or revoked",
     tags: ["key", "event", "audit"], family: "key",
     aliases: [], keywords: ["key event", "credential activity", "key audit event"],
-    shapes: [...KEY_L, BOLT_R],
+    shapes: [...key(), ...boltMark(SMALL, 8.5)],
   },
   {
     slug: "key-blocked", category: "security", subcategory: "auth",
-    name: "Key blocked", description: "A key beside a stop square — a credential blocked from any further use",
+    name: "Key blocked", description: "An upright key, a stop square in its bow — a credential blocked from any further use",
     tags: ["key", "blocked", "deny"], family: "key",
     aliases: [], keywords: ["blocked key", "denied credential", "key suspended"],
-    shapes: [...KEY_L, SQUARE_R],
+    shapes: [...key(), ...squareMark(SMALL, 8.5)],
   },
   {
     slug: "protected-checkpoint", category: "security", subcategory: "auth",
