@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Apply filter",
-  "description": "A funnel with a double chevron beside it — put the filter into effect",
+  "description": "A funnel, a double chevron pressing below its stem — put the filter into effect",
   "tags": [
     "filter",
     "apply",
@@ -17,15 +17,15 @@
   "family": "funnel",
   "shapes": [
     {
-      "d": "M3 5L14 5L10 9L10 17L7 17L7 9Z",
+      "d": "M9 2.5L3 2.5L10 9.5L10 12L14 12L14 9.5L21 2.5L15 2.5",
       "closed": true
     },
     {
-      "d": "M14.5 9L17.5 12L14.5 15",
+      "d": "M10 16L12 18L14 16",
       "closed": false
     },
     {
-      "d": "M19 9L22 12L19 15",
+      "d": "M10 19L12 21L14 19",
       "closed": false
     }
   ]

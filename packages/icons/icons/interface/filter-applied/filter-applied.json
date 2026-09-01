@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Filter applied",
-  "description": "A funnel with a check beside it — a filter that is in effect",
+  "description": "A funnel with a check below its stem — a filter that is in effect",
   "tags": [
     "filter",
     "applied",
@@ -17,11 +17,11 @@
   "family": "funnel",
   "shapes": [
     {
-      "d": "M3 5L14 5L10 9L10 17L7 17L7 9Z",
+      "d": "M9 2.5L3 2.5L10 9.5L10 12L14 12L14 9.5L21 2.5L15 2.5",
       "closed": true
     },
     {
-      "d": "M16 13L18.5 15.5L22 12",
+      "d": "M9 18L11 20L15 16",
       "closed": false
     }
   ]

@@ -131,6 +131,12 @@ export const banner = (): Shape[] => [col(4, 3, 21), poly([[4, 4], [20, 4], [20,
 /** A padlock a size up from `lock`: the body is the hollow a mark sits in. */
 export const padlock = (): Shape[] => [rect(5, 9.5, 14, 12, 2), arc(12, 9.5, 4, 180, 360)];
 
+
+/** `filter`'s funnel cut short: mouth and stem only, so what passed can sit below.
+ * A funnel converges at 45 - there is no room inside it, and there never will be. */
+export const funnel = (): Shape =>
+  body(poly([[9, 2.5], [3, 2.5], [10, 9.5], [10, 12], [14, 12], [14, 9.5], [21, 2.5], [15, 2.5]]));
+
 /** A tray, mouth up: what things are put into or taken out of. */
 export const tray = (): Shape => body(poly([[4, 15], [4, 19], [20, 19], [20, 15]]));
 

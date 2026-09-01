@@ -8,8 +8,8 @@
  * Unattended round. Every name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { banner, bookmark, key, padlock, shield } from "../bodies.ts";
-import { alert, BIG, bookmarkMark, flagMark, heartMark, idleMark, keyMark, playMark, remove, SMALL, squareMark, trendMark } from "../marks.ts";
+import { banner, bookmark, funnel, key, padlock, shield } from "../bodies.ts";
+import { alert, BIG, bookmarkMark, flagMark, funnelMark, heartMark, idleMark, keyMark, playMark, remove, SMALL, squareMark, trendMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -22,7 +22,6 @@ const HEART_L = raw("M3 9A2.5 2.5 0 0 1 7 9A2.5 2.5 0 0 1 11 9L7 13Z", HEART, tr
 const PLAY_L = poly([[3, 5], [3, 19], [10, 12]], true);
 const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
 const TARGET_L = [disc(8, 12, 5), disc(8, 12, 2)];
-const FUNNEL_L = poly([[3, 5], [14, 5], [10, 9], [10, 17], [7, 17], [7, 9]], true);
 const COIN_L = [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5)];
 const ROWS_L = [row(6, 3, 14), row(11, 3, 14), row(16, 3, 14)];
 const ROWS_LS = [row(6, 3, 12), row(11, 3, 12), row(16, 3, 12)];
@@ -267,17 +266,17 @@ export const BATCH_76: Icon[] = [
   },
   {
     slug: "milestone-filter", category: "analytics", subcategory: "segment",
-    name: "Milestone filter", description: "A funnel beside a flag — filter to the users who reached a milestone",
-    tags: ["milestone", "filter", "segment"], family: "funnel",
+    name: "Milestone filter", description: "A flag flown big, a funnel on its banner — the users who reached a milestone",
+    tags: ["milestone", "filter", "segment"], family: "flag",
     aliases: [], keywords: ["milestone filter", "segment by milestone", "reached milestone"],
-    shapes: [FUNNEL_L, col(17, 5, 21), poly([[17, 5], [22, 5], [19.5, 7.5], [22, 10], [17, 10]])],
+    shapes: [...banner(), ...funnelMark(SMALL, 10)],
   },
   {
     slug: "filter-trend", category: "interface", subcategory: "action",
-    name: "Filter trend", description: "A funnel beside a rising line — how a filtered slice of the data trends over time",
+    name: "Filter trend", description: "A funnel with a rising line below its stem — how the filtered slice trends",
     tags: ["filter", "trend", "slice"], family: "funnel",
     aliases: [], keywords: ["filtered trend", "trend of a segment", "slice over time"],
-    shapes: [FUNNEL_L, LINE_R],
+    shapes: [funnel(), ...trendMark(SMALL, 18)],
   },
   {
     slug: "send-money", category: "cloud", subcategory: "cost",

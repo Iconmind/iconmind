@@ -3,7 +3,7 @@
   "category": "automation",
   "subcategory": "trigger",
   "name": "Event filter",
-  "description": "A funnel beside a lightning bolt — only matching events pass through",
+  "description": "A funnel with a bolt below its stem — only matching events pass through",
   "tags": [
     "filter",
     "event",
@@ -17,11 +17,11 @@
   "family": "funnel",
   "shapes": [
     {
-      "d": "M3 5L14 5L10 9L10 17L7 17L7 9Z",
+      "d": "M9 2.5L3 2.5L10 9.5L10 12L14 12L14 9.5L21 2.5L15 2.5",
       "closed": true
     },
     {
-      "d": "M21 8L17 12L20 12L16 16",
+      "d": "M15 15L12 18L14.5 18L11.5 21",
       "closed": false
     }
   ]

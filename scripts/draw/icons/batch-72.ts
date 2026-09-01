@@ -9,14 +9,13 @@
  */
 import { arc, col, disc, poly, raw, rect, row, area } from "../forms.ts";
 import { BIG, boltMark, bookmarkMark, clockMark, funnelMark, heartMark, off, pinMark, SMALL, trendMark } from "../marks.ts";
-import { banner, dial, key, machine } from "../bodies.ts";
+import { banner, dial, funnel, key, machine } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
 const BR_L = poly([[7, 3], [3, 3], [3, 21], [7, 21]]);
 const BR_R = poly([[17, 3], [21, 3], [21, 21], [17, 21]]);
 const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
-const FUNNEL_L = poly([[3, 5], [14, 5], [10, 9], [10, 17], [7, 17], [7, 9]], true);
 const ROWS_R = (x: number) => [row(8, x, 22), row(12, x, 22), row(16, x, 22)];
 
 export const BATCH_72: Icon[] = [
@@ -66,10 +65,10 @@ export const BATCH_72: Icon[] = [
   },
   {
     slug: "geo-filter", category: "cloud", subcategory: "network",
-    name: "Geo filter", description: "A funnel beside a location pin — traffic filtered by where it comes from",
-    tags: ["geo", "filter", "region"], family: "funnel",
+    name: "Geo filter", description: "A location pin with a funnel in its head — traffic filtered by where it comes from",
+    tags: ["geo", "filter", "region"], family: "pin",
     aliases: [], keywords: ["geo filter", "region filter", "geo blocking"],
-    shapes: [FUNNEL_L, disc(18, 10, 3), col(18, 13, 17)],
+    shapes: [area("M4 10A8 8 0 0 1 20 10L12 18Z", "the teardrop `location` is drawn from; the mark sits where its ring sits"), ...funnelMark(SMALL, 10)],
   },
 
   /* ── interface: a clock with a mark ───────────────────────────────────────────── */
@@ -310,10 +309,10 @@ export const BATCH_72: Icon[] = [
 
   {
     slug: "event-filter", category: "automation", subcategory: "trigger",
-    name: "Event filter", description: "A funnel beside a lightning bolt — only matching events pass through",
+    name: "Event filter", description: "A funnel with a bolt below its stem — only matching events pass through",
     tags: ["filter", "event", "trigger"], family: "funnel",
     aliases: [], keywords: ["event filter", "filtered trigger", "event matching"],
-    shapes: [FUNNEL_L, poly([[21, 8], [17, 12], [20, 12], [16, 16]])],
+    shapes: [funnel(), ...boltMark(SMALL, 18)],
   },
   {
     slug: "event-check", category: "automation", subcategory: "condition",
@@ -369,10 +368,10 @@ export const BATCH_72: Icon[] = [
   },
   {
     slug: "filtered-list", category: "analytics", subcategory: "segment",
-    name: "Filtered list", description: "A funnel beside a list — the rows that passed through the filter",
+    name: "Filtered list", description: "A funnel with rows below its stem — the rows that passed through the filter",
     tags: ["filter", "list", "results"], family: "funnel",
     aliases: [], keywords: ["filtered list", "filter results", "narrowed rows"],
-    shapes: [FUNNEL_L, ...ROWS_R(16)],
+    shapes: [funnel(), row(16.5, 9, 15), row(19.5, 9, 15)],
   },
   {
     slug: "trend-milestone", category: "analytics", subcategory: "chart",

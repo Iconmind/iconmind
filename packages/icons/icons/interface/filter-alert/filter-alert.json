@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Filter alert",
-  "description": "A funnel beside an alert mark — a filter that hides something important",
+  "description": "A funnel with an alert below its stem — a filter that hides something important",
   "tags": [
     "filter",
     "alert",
@@ -17,15 +17,15 @@
   "family": "funnel",
   "shapes": [
     {
-      "d": "M3 5L14 5L10 9L10 17L7 17L7 9Z",
+      "d": "M9 2.5L3 2.5L10 9.5L10 12L14 12L14 9.5L21 2.5L15 2.5",
       "closed": true
     },
     {
-      "d": "M18 7V12",
+      "d": "M12 15V18",
       "closed": false
     },
     {
-      "d": "M17 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "d": "M11 21a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
       "closed": true
     }
   ]

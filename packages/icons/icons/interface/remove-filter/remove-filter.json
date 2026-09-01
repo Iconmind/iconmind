@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Remove filter",
-  "description": "A funnel with a minus beside it — take one filter away from the set",
+  "description": "A funnel with a minus below its stem — take one filter away from the set",
   "tags": [
     "filter",
     "remove",
@@ -17,11 +17,11 @@
   "family": "funnel",
   "shapes": [
     {
-      "d": "M3 5L14 5L10 9L10 17L7 17L7 9Z",
+      "d": "M9 2.5L3 2.5L10 9.5L10 12L14 12L14 9.5L21 2.5L15 2.5",
       "closed": true
     },
     {
-      "d": "M16 12H22",
+      "d": "M9 18H15",
       "closed": false
     }
   ]

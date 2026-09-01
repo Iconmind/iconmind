@@ -9,14 +9,13 @@
  */
 import { arc, area, col, disc, openDisc, poly, raw, rect, row } from "../forms.ts";
 import { alert, BIG, bookmarkMark, check, coinMark, funnelMark, heartMark, idleMark, keyMark, lockMark, off, pinMark, playMark, searchMark, shieldMark, SMALL, tagMark, targetMark, trendMark } from "../marks.ts";
-import { banner, dial, key, machine, shield } from "../bodies.ts";
+import { banner, dial, funnel, key, machine, shield } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
 const BR_L = poly([[7, 3], [3, 3], [3, 21], [7, 21]]);
 const BR_R = poly([[17, 3], [21, 3], [21, 21], [17, 21]]);
 const BUBBLE = [rect(3, 3, 18, 15, 2), poly([[7, 18], [7, 21], [10, 18]])];
-const FUNNEL_L = poly([[3, 5], [14, 5], [10, 9], [10, 17], [7, 17], [7, 9]], true);
 const TARGET_L = [disc(8, 12, 5), disc(8, 12, 2)];
 const PLAY_L = poly([[3, 5], [3, 19], [10, 12]], true);
 const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
@@ -153,10 +152,10 @@ export const BATCH_73: Icon[] = [
   },
   {
     slug: "safety-filter", category: "security", subcategory: "ai-security",
-    name: "Safety filter", description: "A funnel beside a shield — the filter that stops unsafe content",
-    tags: ["safety", "filter", "moderation"], family: "funnel",
+    name: "Safety filter", description: "A shield with a funnel inside — the filter that stops unsafe content",
+    tags: ["safety", "filter", "moderation"], family: "shield",
     aliases: [], keywords: ["safety filter", "content safety", "harm filter"],
-    shapes: [FUNNEL_L, poly([[16, 9], [22, 9], [22, 14.5], [19, 17.5], [16, 14.5]], true)],
+    shapes: [shield(), ...funnelMark(SMALL, 11)],
   },
 
   /* ── interface: places ────────────────────────────────────────────────────────── */
@@ -270,24 +269,24 @@ export const BATCH_73: Icon[] = [
 
   {
     slug: "filter-applied", category: "interface", subcategory: "action",
-    name: "Filter applied", description: "A funnel with a check beside it — a filter that is in effect",
+    name: "Filter applied", description: "A funnel with a check below its stem — a filter that is in effect",
     tags: ["filter", "applied", "active"], family: "funnel",
     aliases: [], keywords: ["filter applied", "active filter", "filter on"],
-    shapes: [FUNNEL_L, poly([[16, 13], [18.5, 15.5], [22, 12]])],
+    shapes: [funnel(), ...check(SMALL, 18)],
   },
   {
     slug: "filter-cleared", category: "interface", subcategory: "action",
-    name: "Filter cleared", description: "A funnel with an X beside it — all filters removed and the full list restored",
+    name: "Filter cleared", description: "A funnel with an X below its stem — all filters removed and the list restored",
     tags: ["filter", "clear", "reset"], family: "funnel",
     aliases: [], keywords: ["clear filters", "reset filter", "remove filter"],
-    shapes: [FUNNEL_L, poly([[16.5, 9.5], [21.5, 14.5]]), poly([[21.5, 9.5], [16.5, 14.5]])],
+    shapes: [funnel(), ...off(SMALL, 18)],
   },
   {
     slug: "filter-by-label", category: "interface", subcategory: "action",
-    name: "Filter by label", description: "A funnel beside a label — narrow the list down to items with one tag",
-    tags: ["filter", "label", "tag"], family: "funnel",
+    name: "Filter by label", description: "A label with a funnel inside — narrow the list down to items with one tag",
+    tags: ["filter", "label", "tag"], family: "object",
     aliases: [], keywords: ["filter by tag", "filter by label", "tag filter"],
-    shapes: [FUNNEL_L, poly([[15, 13], [20, 13], [22, 15], [20, 17], [15, 17]], true)],
+    shapes: [poly([[3, 6], [13, 6], [21, 14], [13, 22], [3, 22]], true), ...funnelMark(SMALL, 13.5)],
   },
   {
     slug: "no-results", category: "interface", subcategory: "state",

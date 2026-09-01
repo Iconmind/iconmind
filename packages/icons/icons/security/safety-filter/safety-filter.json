@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "ai-security",
   "name": "Safety filter",
-  "description": "A funnel beside a shield — the filter that stops unsafe content",
+  "description": "A shield with a funnel inside — the filter that stops unsafe content",
   "tags": [
     "safety",
     "filter",
@@ -14,15 +14,19 @@
     "content safety",
     "harm filter"
   ],
-  "family": "funnel",
+  "family": "shield",
   "shapes": [
     {
-      "d": "M3 5L14 5L10 9L10 17L7 17L7 9Z",
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
       "closed": true
     },
     {
-      "d": "M16 9L22 9L22 14.5L19 17.5L16 14.5Z",
-      "closed": true
+      "d": "M9 8L12 11L15 8",
+      "closed": false
+    },
+    {
+      "d": "M12 11V14",
+      "closed": false
     }
   ]
 }

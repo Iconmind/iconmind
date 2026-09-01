@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Filter cleared",
-  "description": "A funnel with an X beside it — all filters removed and the full list restored",
+  "description": "A funnel with an X below its stem — all filters removed and the list restored",
   "tags": [
     "filter",
     "clear",
@@ -17,15 +17,15 @@
   "family": "funnel",
   "shapes": [
     {
-      "d": "M3 5L14 5L10 9L10 17L7 17L7 9Z",
+      "d": "M9 2.5L3 2.5L10 9.5L10 12L14 12L14 9.5L21 2.5L15 2.5",
       "closed": true
     },
     {
-      "d": "M16.5 9.5L21.5 14.5",
+      "d": "M10 16L14 20",
       "closed": false
     },
     {
-      "d": "M21.5 9.5L16.5 14.5",
+      "d": "M14 16L10 20",
       "closed": false
     }
   ]

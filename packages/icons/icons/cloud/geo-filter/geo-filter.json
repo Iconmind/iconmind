@@ -3,7 +3,7 @@
   "category": "cloud",
   "subcategory": "network",
   "name": "Geo filter",
-  "description": "A funnel beside a location pin — traffic filtered by where it comes from",
+  "description": "A location pin with a funnel in its head — traffic filtered by where it comes from",
   "tags": [
     "geo",
     "filter",
@@ -14,18 +14,19 @@
     "region filter",
     "geo blocking"
   ],
-  "family": "funnel",
+  "family": "pin",
   "shapes": [
     {
-      "d": "M3 5L14 5L10 9L10 17L7 17L7 9Z",
-      "closed": true
+      "d": "M4 10A8 8 0 0 1 20 10L12 18Z",
+      "closed": true,
+      "_why": "the teardrop `location` is drawn from; the mark sits where its ring sits"
     },
     {
-      "d": "M15 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
-      "closed": true
+      "d": "M9 7L12 10L15 7",
+      "closed": false
     },
     {
-      "d": "M18 13V17",
+      "d": "M12 10V13",
       "closed": false
     }
   ]

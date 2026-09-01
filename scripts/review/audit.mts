@@ -54,7 +54,13 @@ const ANCHORED = new Set([
   "interface/location-trend", "interface/place-label", "interface/place-search",
   "interface/private-location", "interface/saved-location", "interface/verified-location",
   "interface/navigate", "interface/move-pin", "interface/address", "interface/destination",
-  "security/geo-key", "cloud/local-pricing",
+  "security/geo-key", "cloud/local-pricing", "cloud/geo-filter",
+  // A funnel is its mouth; what passed through collects below the stem. The mass sits
+  // where the metaphor puts it - same standing as the pin above.
+  "interface/remove-filter", "interface/filter-alert", "interface/apply-filter",
+  "interface/filter-applied", "interface/filter-cleared", "interface/filter-trend",
+  "interface/favorites-filter", "devtools/filter-run", "automation/event-filter",
+  "analytics/filtered-list",
   "devtools/stack-trace", "ai/softmax", "analytics/chart-bar", "analytics/chart-line",
   "analytics/retention", "interface/corner-radius", "rag/bm25", "security/login",
   "devtools/request", "automation/workflow-template", "agents/step-limit",

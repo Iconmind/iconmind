@@ -9,8 +9,8 @@
  * name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { banner, bookmark, dial, key, machine, padlock, ring, shield } from "../bodies.ts";
-import { add, alert, BIG, bookmarkMark, check, flagMark, heartMark, idleMark, lockMark, off, playMark, remove, SMALL, tagMark, trendMark } from "../marks.ts";
+import { banner, bookmark, dial, funnel, key, machine, padlock, ring, shield } from "../bodies.ts";
+import { add, alert, BIG, bookmarkMark, check, flagMark, funnelMark, heartMark, idleMark, lockMark, off, playMark, remove, SMALL, tagMark, trendMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -21,7 +21,6 @@ const WINDOW = [rect(3, 3, 18, 18, 2), row(8, 3, 21)];
 const WINDOW_T = [rect(3, 2.5, 18, 19, 2), row(7, 3, 21)];
 const LOCK_LN = [rect(2, 11, 9, 8, 2), arc(6.5, 11, 2, 180, 360)];
 const PLAY_L = poly([[3, 5], [3, 19], [10, 12]], true);
-const FUNNEL_L = poly([[3, 5], [14, 5], [10, 9], [10, 17], [7, 17], [7, 9]], true);
 const BOLT_L = poly([[10, 6], [5, 11], [9, 11], [4, 16]]);
 const TARGET_L = [disc(8, 12, 5), disc(8, 12, 2)];
 const COIN_L = [disc(6.5, 12, 4.5), col(6.5, 10.5, 13.5)];
@@ -29,7 +28,6 @@ const ROWS_L = [row(6, 3, 14), row(11, 3, 14), row(16, 3, 14)];
 const TARGET_R = [disc(18, 13, 4), disc(18, 13, 1)];
 const LENS_R = [disc(17.5, 10, 3.5), poly([[20, 12.5], [22, 14.5]])];
 const BOOKMARK_R = poly([[14, 7], [21, 7], [21, 17], [17.5, 13.5], [14, 17]], true);
-const FUNNEL_R = poly([[15, 9], [22, 9], [20, 11], [20, 19], [17, 19], [17, 11]], true);
 const TAG_R = poly([[14, 13], [19, 13], [22, 16], [19, 19], [14, 19]], true);
 const MINUS_R = row(12, 16, 22);
 const PLUS_R = [row(12, 16, 22), col(19, 9, 15)];
@@ -64,10 +62,10 @@ export const BATCH_75: Icon[] = [
   },
   {
     slug: "locked-filter", category: "security", subcategory: "auth",
-    name: "Locked filter", description: "A padlock beside a funnel — a filter that users cannot remove or change",
+    name: "Locked filter", description: "A padlock with a funnel on its body — a filter that users cannot remove or change",
     tags: ["filter", "locked", "enforced"], family: "lock",
     aliases: [], keywords: ["locked filter", "enforced filter", "mandatory filter"],
-    shapes: [...LOCK_LN, FUNNEL_R],
+    shapes: [...padlock(), ...funnelMark(SMALL, 15.5)],
   },
   {
     slug: "lock-alert", category: "security", subcategory: "auth",
@@ -165,10 +163,10 @@ export const BATCH_75: Icon[] = [
   },
   {
     slug: "apply-filter", category: "interface", subcategory: "action",
-    name: "Apply filter", description: "A funnel with a double chevron beside it — put the filter into effect",
+    name: "Apply filter", description: "A funnel, a double chevron pressing below its stem — put the filter into effect",
     tags: ["filter", "apply", "go"], family: "funnel",
     aliases: [], keywords: ["apply filter", "run filter", "filter now"],
-    shapes: [FUNNEL_L, poly([[14.5, 9], [17.5, 12], [14.5, 15]]), poly([[19, 9], [22, 12], [19, 15]])],
+    shapes: [funnel(), poly([[10, 16], [12, 18], [14, 16]]), poly([[10, 19], [12, 21], [14, 19]])],
   },
   {
     slug: "add-location", category: "interface", subcategory: "identity",
@@ -262,10 +260,10 @@ export const BATCH_75: Icon[] = [
   },
   {
     slug: "filter-run", category: "devtools", subcategory: "testing",
-    name: "Filter run", description: "A funnel beside a play button — run only what the filter selects",
+    name: "Filter run", description: "A funnel with a play below its stem — run only what the filter selects",
     tags: ["filter", "run", "subset"], family: "funnel",
     aliases: [], keywords: ["filtered run", "run subset", "run matching tests"],
-    shapes: [FUNNEL_L, poly([[16, 8], [16, 16], [20, 12]], true)],
+    shapes: [funnel(), ...playMark(SMALL, 18)],
   },
   {
     slug: "collapse-block", category: "devtools", subcategory: "editor",

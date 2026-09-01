@@ -8,8 +8,8 @@
  * name checked free before drawing.
  */
 import { arc, area, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { add, alert, BIG, boltMark, bookmarkMark, check, clockMark, flagMark, funnelMark, heartMark, idleMark, lockMark, off, pause, playMark, searchMark, shieldMark, SMALL, squareMark, tagMark } from "../marks.ts";
-import { banner, dial, key } from "../bodies.ts";
+import { add, alert, BIG, boltMark, bookmarkMark, check, clockMark, flagMark, funnelMark, heartMark, idleMark, lockMark, off, pause, playMark, remove, searchMark, shieldMark, SMALL, squareMark, tagMark } from "../marks.ts";
+import { banner, bookmark, dial, funnel, key } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -62,31 +62,31 @@ export const BATCH_74: Icon[] = [
   },
   {
     slug: "saved-filter", category: "interface", subcategory: "action",
-    name: "Saved filter", description: "A funnel beside a bookmark — a filter saved so it can be reused later",
-    tags: ["filter", "saved", "view"], family: "funnel",
+    name: "Saved filter", description: "A bookmark with a funnel inside — a filter saved so it can be reused later",
+    tags: ["filter", "saved", "view"], family: "ribbon",
     aliases: [], keywords: ["saved filter", "saved view", "reusable filter"],
-    shapes: [FUNNEL_L, poly([[16, 8], [22, 8], [22, 16], [19, 13], [16, 16]], true)],
+    shapes: [bookmark(), ...funnelMark(SMALL, 9)],
   },
   {
     slug: "favorites-filter", category: "interface", subcategory: "action",
-    name: "Favourites filter", description: "A funnel beside a heart — show only the favourites and hide the rest",
+    name: "Favourites filter", description: "A funnel with a heart below its stem — only the favourites come through",
     tags: ["filter", "favourites", "heart"], family: "funnel",
     aliases: [], keywords: ["favourites only", "filter favourites", "show starred"],
-    shapes: [FUNNEL_L, raw("M16 10A2 2 0 0 1 19 10A2 2 0 0 1 22 10L19 13Z", HEART, true)],
+    shapes: [funnel(), ...heartMark(SMALL, 18)],
   },
   {
     slug: "remove-filter", category: "interface", subcategory: "action",
-    name: "Remove filter", description: "A funnel with a minus beside it — take one filter away from the set",
+    name: "Remove filter", description: "A funnel with a minus below its stem — take one filter away from the set",
     tags: ["filter", "remove", "minus"], family: "funnel",
     aliases: [], keywords: ["remove filter", "drop a filter", "filter minus"],
-    shapes: [FUNNEL_L, row(12, 16, 22)],
+    shapes: [funnel(), ...remove(SMALL, 18)],
   },
   {
     slug: "filter-alert", category: "interface", subcategory: "action",
-    name: "Filter alert", description: "A funnel beside an alert mark — a filter that hides something important",
+    name: "Filter alert", description: "A funnel with an alert below its stem — a filter that hides something important",
     tags: ["filter", "alert", "warning"], family: "funnel",
     aliases: [], keywords: ["filter warning", "hidden by filter", "filter alert"],
-    shapes: [FUNNEL_L, col(18, 7, 12), disc(18, 15, 1)],
+    shapes: [funnel(), ...alert(SMALL, 18)],
   },
   {
     slug: "private-favorites", category: "interface", subcategory: "identity",

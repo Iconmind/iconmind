@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Saved filter",
-  "description": "A funnel beside a bookmark — a filter saved so it can be reused later",
+  "description": "A bookmark with a funnel inside — a filter saved so it can be reused later",
   "tags": [
     "filter",
     "saved",
@@ -14,15 +14,19 @@
     "saved view",
     "reusable filter"
   ],
-  "family": "funnel",
+  "family": "ribbon",
   "shapes": [
     {
-      "d": "M3 5L14 5L10 9L10 17L7 17L7 9Z",
+      "d": "M15 3L18 3L18 21L12 15L6 21L6 3L9 3",
       "closed": true
     },
     {
-      "d": "M16 8L22 8L22 16L19 13L16 16Z",
-      "closed": true
+      "d": "M9 6L12 9L15 6",
+      "closed": false
+    },
+    {
+      "d": "M12 9V12",
+      "closed": false
     }
   ]
 }

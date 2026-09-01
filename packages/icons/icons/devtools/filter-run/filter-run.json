@@ -3,7 +3,7 @@
   "category": "devtools",
   "subcategory": "testing",
   "name": "Filter run",
-  "description": "A funnel beside a play button — run only what the filter selects",
+  "description": "A funnel with a play below its stem — run only what the filter selects",
   "tags": [
     "filter",
     "run",
@@ -17,11 +17,11 @@
   "family": "funnel",
   "shapes": [
     {
-      "d": "M3 5L14 5L10 9L10 17L7 17L7 9Z",
+      "d": "M9 2.5L3 2.5L10 9.5L10 12L14 12L14 9.5L21 2.5L15 2.5",
       "closed": true
     },
     {
-      "d": "M16 8L16 16L20 12Z",
+      "d": "M10.5 15L13.5 18L10.5 21Z",
       "closed": true
     }
   ]

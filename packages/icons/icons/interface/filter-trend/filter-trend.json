@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Filter trend",
-  "description": "A funnel beside a rising line — how a filtered slice of the data trends over time",
+  "description": "A funnel with a rising line below its stem — how the filtered slice trends",
   "tags": [
     "filter",
     "trend",
@@ -17,11 +17,11 @@
   "family": "funnel",
   "shapes": [
     {
-      "d": "M3 5L14 5L10 9L10 17L7 17L7 9Z",
+      "d": "M9 2.5L3 2.5L10 9.5L10 12L14 12L14 9.5L21 2.5L15 2.5",
       "closed": true
     },
     {
-      "d": "M15 19L17.5 16.5L19.5 18.5L22 16",
+      "d": "M9 21L11 19L13 21L15 19",
       "closed": false
     }
   ]

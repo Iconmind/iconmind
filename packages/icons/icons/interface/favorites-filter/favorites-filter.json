@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "action",
   "name": "Favourites filter",
-  "description": "A funnel beside a heart — show only the favourites and hide the rest",
+  "description": "A funnel with a heart below its stem — only the favourites come through",
   "tags": [
     "filter",
     "favourites",
@@ -17,11 +17,11 @@
   "family": "funnel",
   "shapes": [
     {
-      "d": "M3 5L14 5L10 9L10 17L7 17L7 9Z",
+      "d": "M9 2.5L3 2.5L10 9.5L10 12L14 12L14 9.5L21 2.5L15 2.5",
       "closed": true
     },
     {
-      "d": "M16 10A2 2 0 0 1 19 10A2 2 0 0 1 22 10L19 13Z",
+      "d": "M9 18A1.5 1.5 0 0 1 12 18A1.5 1.5 0 0 1 15 18L12 21Z",
       "closed": true,
       "_why": "a heart is one line, not three strokes with visible seams"
     }
