@@ -10,12 +10,15 @@
  */
 import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
 import { bell as bellBody, cloud, machine, shield } from "../bodies.ts";
-import { add, check, remove, SMALL } from "../marks.ts";
+import { add, alert, check, clockMark, remove, SMALL } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
-const ENV = [rect(2, 6, 13, 12, 2), poly([[4, 7], [8.5, 11.5], [13, 7]])];
+// An opened envelope: the deep pocket and its flap folded up, narrower than the box -
+// `home` is the opposite grammar, a wide roof over a narrow walled box. A tucked-in flap
+// was tried and costs a third crossing at the rim; the perceptual scan clears this one.
+const ENV = [rect(3, 9.5, 18, 12.5, 2), poly([[5, 9.5], [12, 2.5], [19, 9.5]])];
 const mail = (slug: string, name: string, description: string, tags: string[], aliases: string[], keywords: string[], marks: Icon["shapes"]): Icon => ({
-  slug, category: "interface", subcategory: "communication", name, description, tags, family: "window", aliases, keywords,
+  slug, category: "interface", subcategory: "communication", name, description, tags, family: "envelope", aliases, keywords,
   shapes: [...ENV, ...marks],
 });
 const DB = [machine(), row(10.5, 7, 17)];
@@ -46,27 +49,27 @@ export const BATCH_85: Icon[] = [
     aliases: [], keywords: ["open envelope", "read mail", "opened message"],
     shapes: [poly([[4, 11], [12, 3], [20, 11]]), poly([[4, 11], [4, 21], [20, 21], [20, 11]]), poly([[6, 12], [12, 18], [18, 12]])],
   },
-  mail("mail-check", "Mail check", "An envelope with a check beside it — mail delivered, or an address confirmed",
+  mail("mail-check", "Mail check", "An opened envelope with a check in its pocket — mail delivered, an address confirmed",
     ["delivered", "verified", "confirmed"], [], ["mail delivered", "email verified", "confirmed address"],
-    [poly([[16, 12], [18, 14], [21.5, 10.5]])]),
-  mail("mail-add", "Mail add", "An envelope with a plus beside it — compose a new message, add an address",
+    [...check(SMALL, 15.5)]),
+  mail("mail-add", "Mail add", "An opened envelope with a plus in its pocket — compose a new message",
     ["compose", "new", "write"], ["mail-plus"], ["new email", "compose mail", "add address"],
-    [col(19, 9, 15), row(12, 16, 22)]),
-  mail("mail-remove", "Mail remove", "An envelope with a minus beside it — delete a message, remove an address",
+    [...add(SMALL, 15.5)]),
+  mail("mail-remove", "Mail remove", "An opened envelope with a minus in its pocket — delete a message",
     ["delete", "unsubscribe", "drop"], ["mail-minus", "mail-x"], ["delete email", "remove address", "unsubscribe"],
-    [row(12, 16, 22)]),
-  mail("mail-alert", "Mail alert", "An envelope with an exclamation mark beside it — mail that failed, or a message that needs attention",
+    [...remove(SMALL, 15.5)]),
+  mail("mail-alert", "Mail alert", "An opened envelope with an alert in its pocket — mail that needs attention",
     ["warning", "failed", "attention"], ["mail-warning"], ["mail warning", "email failed", "urgent mail"],
-    [col(19, 7, 12), disc(19, 15, 1)]),
-  mail("mail-clock", "Mail clock", "An envelope with a clock beside it — a scheduled send, or mail waiting in the queue",
+    [...alert(SMALL, 15.5)]),
+  mail("mail-clock", "Mail clock", "An opened envelope with a clock in its pocket — a scheduled send, mail in the queue",
     ["scheduled", "queued", "later"], [], ["schedule send", "queued mail", "send later"],
-    [disc(19, 12, 3), poly([[19, 9.5], [19, 12], [21.5, 12]])]),
-  mail("mail-question", "Mail question", "An envelope with a question mark beside it — mail of unknown origin, or a query sent in",
+    [...clockMark(SMALL, 15.5)]),
+  mail("mail-question", "Mail question", "An opened envelope with a question mark in its pocket — mail of unknown origin",
     ["unknown", "query", "ask"], ["mail-question-mark"], ["unknown sender", "mail query", "ask by mail"],
-    [arc(19, 10.5, 2.5, 180, 90), disc(19, 15.5, 1)]),
-  mail("mail-badge", "Mail badge", "An envelope with a dot at its corner — unread mail, a message waiting",
+    [arc(12, 14.5, 2.5, 180, 90), disc(12, 19.5, 1)]),
+  mail("mail-badge", "Mail badge", "An opened envelope with a dot in its pocket — unread mail, a message waiting",
     ["unread", "new", "waiting"], [], ["unread mail", "new message badge", "mail waiting"],
-    [disc(19.5, 7, 2)]),
+    [disc(12, 15.5, 2)]),
 
   // ── database ────────────────────────────────────────────────────────────────────
   db("database-add", "Database add", "A database with a plus on it — add a record, or stand up another store",

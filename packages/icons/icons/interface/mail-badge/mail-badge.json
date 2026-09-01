@@ -3,7 +3,7 @@
   "category": "interface",
   "subcategory": "communication",
   "name": "Mail badge",
-  "description": "An envelope with a dot at its corner — unread mail, a message waiting",
+  "description": "An opened envelope with a dot in its pocket — unread mail, a message waiting",
   "tags": [
     "unread",
     "new",
@@ -14,18 +14,18 @@
     "new message badge",
     "mail waiting"
   ],
-  "family": "window",
+  "family": "envelope",
   "shapes": [
     {
-      "d": "M2 8A2 2 0 0 1 4 6H13A2 2 0 0 1 15 8V16A2 2 0 0 1 13 18H4A2 2 0 0 1 2 16Z",
+      "d": "M3 11.5A2 2 0 0 1 5 9.5H19A2 2 0 0 1 21 11.5V20A2 2 0 0 1 19 22H5A2 2 0 0 1 3 20Z",
       "closed": true
     },
     {
-      "d": "M4 7L8.5 11.5L13 7",
+      "d": "M5 9.5L12 2.5L19 9.5",
       "closed": false
     },
     {
-      "d": "M17.5 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "d": "M10 15.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
       "closed": true
     }
   ]
