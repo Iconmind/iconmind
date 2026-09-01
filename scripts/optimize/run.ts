@@ -17,7 +17,12 @@ import { canonicalise } from "./canonical.ts";
  * what makes two visually identical icons produce byte-identical files, and it was only
  * ever true of a seventh of the set: 5472 of 6388 cells had never been through SVGO.
  */
-const cells = allCells(await loadIcons()).filter((c) => c.svg);
+const onlyFlag = process.argv.indexOf("--only");
+const only = onlyFlag === -1 ? null
+  : new Set(process.argv.slice(onlyFlag + 1).filter((a) => !a.startsWith("--")));
+const cells = allCells(await loadIcons())
+  .filter((c) => c.svg)
+  .filter((c) => !only || only.has(c.svgPath.split("/").at(-2)!));
 let changed = 0;
 
 for (const cell of cells) {

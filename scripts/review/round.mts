@@ -11,8 +11,8 @@
  *
  * The order is the point:
  *   precheck    ~1s    the declaration's own rules, read from source, all faults at once
- *   build       ~2s    every icon, from the declarations
- *   optimize    ~9s    never leave raw forge cells behind
+ *   build       ~0s    only this batch's icons, from their declarations
+ *   optimize    ~3s    only this batch's cells, never left as the forge wrote them
  *   validate    ~2s    scoped to this batch's slugs, not the whole set
  *   audit       ~30s   short side, ink at 16px, centroid, elements — against the baseline
  *   duplicates  ~3s    warm ink-map cache; only the changed icons are rasterised
@@ -52,8 +52,8 @@ const run = (label: string, cmd: string, args: string[]) => {
 };
 
 run("precheck (declarations)", "npx", ["tsx", "scripts/review/precheck.mts", batch]);
-run("build", "npx", ["tsx", "scripts/draw/run.ts"]);
-run("optimize", "npx", ["tsx", "scripts/optimize/run.ts"]);
+run("build (scoped)", "npx", ["tsx", "scripts/draw/run.ts", "--only", ...slugs]);
+run("optimize (scoped)", "npx", ["tsx", "scripts/optimize/run.ts", "--only", ...slugs]);
 run("validate (scoped)", "npx", ["tsx", "scripts/validate/run.ts", "--only", ...slugs]);
 run("audit (against baseline)", "npx", ["tsx", "scripts/review/audit.mts", "--check"]);
 run("duplicates (perceptual)", "npx", ["tsx", "scripts/validate/duplicates.ts", "--perceptual"]);

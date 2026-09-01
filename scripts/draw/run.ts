@@ -126,5 +126,21 @@ const ICONS = [
   ...BATCH_90,
 ];
 
-const { icons, cells } = await buildAll(ICONS);
-console.log(`${icons} ikon, ${cells} sel ditulis`);
+/**
+ * Scoped mode (`--only slug slug…`): redraw a handful of icons instead of all of them.
+ *
+ * A full pass rewrites every cell in the set — fourteen thousand files — which is the right
+ * thing before a release and pointless between two edits of one family. The declarations are
+ * the same either way; only the set written out is narrower.
+ */
+const onlyFlag = process.argv.indexOf("--only");
+const only = onlyFlag === -1 ? null
+  : new Set(process.argv.slice(onlyFlag + 1).filter((a) => !a.startsWith("--")));
+const chosen = only ? ICONS.filter((i) => only.has(i.slug)) : ICONS;
+if (only && !chosen.length) {
+  console.error("--only matched no icons");
+  process.exit(1);
+}
+
+const { icons, cells } = await buildAll(chosen);
+console.log(`${icons} ikon, ${cells} sel ditulis${only ? " (terbatas)" : ""}`);
