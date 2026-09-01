@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Key lookup",
-  "description": "A key beside a magnifying glass — look up which credential this is",
+  "description": "A magnifying glass with a key inside — look up which credential this is",
   "tags": [
     "key",
     "lookup",
@@ -14,26 +14,26 @@
     "find credential",
     "identify key"
   ],
-  "family": "key",
+  "family": "magnifier",
   "shapes": [
     {
-      "d": "M3 9a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "d": "M5 11a7 7 0 1 0 14 0a7 7 0 1 0 -14 0Z",
       "closed": true
     },
     {
-      "d": "M7 13V21",
+      "d": "M17 16L21 20",
       "closed": false
     },
     {
-      "d": "M7 18H10",
-      "closed": false
-    },
-    {
-      "d": "M14 10a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
+      "d": "M10 9.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
       "closed": true
     },
     {
-      "d": "M20 12.5L22 14.5",
+      "d": "M12 11.5V14",
+      "closed": false
+    },
+    {
+      "d": "M12 12.5H14.5",
       "closed": false
     }
   ]

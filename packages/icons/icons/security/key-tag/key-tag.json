@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Key tag",
-  "description": "A key with a label beside it — a named credential you can tell apart from the rest",
+  "description": "A label with a key inside — a named credential you can tell apart from the rest",
   "tags": [
     "key",
     "label",
@@ -14,23 +14,23 @@
     "named credential",
     "key name"
   ],
-  "family": "key",
+  "family": "object",
   "shapes": [
     {
-      "d": "M3 9a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "d": "M3 6L13 6L21 14L13 22L3 22Z",
       "closed": true
     },
     {
-      "d": "M7 13V21",
-      "closed": false
-    },
-    {
-      "d": "M7 18H10",
-      "closed": false
-    },
-    {
-      "d": "M14 13L19 13L22 16L19 19L14 19Z",
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
       "closed": true
+    },
+    {
+      "d": "M12 14V16.5",
+      "closed": false
+    },
+    {
+      "d": "M12 15H14.5",
+      "closed": false
     }
   ]
 }

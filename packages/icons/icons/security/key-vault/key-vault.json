@@ -3,7 +3,7 @@
   "category": "security",
   "subcategory": "auth",
   "name": "Key vault",
-  "description": "A key beside a padlock — credentials kept locked away in a vault",
+  "description": "The vault door with a key inside — credentials kept locked away",
   "tags": [
     "vault",
     "secrets",
@@ -14,26 +14,22 @@
     "secrets vault",
     "credential store"
   ],
-  "family": "key",
+  "family": "window",
   "shapes": [
     {
-      "d": "M3 9a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "d": "M3 6A2 2 0 0 1 5 4H19A2 2 0 0 1 21 6V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18Z",
       "closed": true
     },
     {
-      "d": "M7 13V21",
-      "closed": false
-    },
-    {
-      "d": "M7 18H10",
-      "closed": false
-    },
-    {
-      "d": "M14 11A2 2 0 0 1 16 9H20A2 2 0 0 1 22 11V14.5A2 2 0 0 1 20 16.5H16A2 2 0 0 1 14 14.5Z",
+      "d": "M10 9.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
       "closed": true
     },
     {
-      "d": "M16 9A2 2 0 0 1 20 9",
+      "d": "M12 11.5V16",
+      "closed": false
+    },
+    {
+      "d": "M12 14.5H14.5",
       "closed": false
     }
   ]

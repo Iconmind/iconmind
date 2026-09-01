@@ -8,8 +8,8 @@
  * carries that job from here on. Every name checked free before drawing.
  */
 import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { machine, page } from "../bodies.ts";
-import { flagMark, heartMark, keyMark, lockMark, playMark, searchMark } from "../marks.ts";
+import { machine, page, shield } from "../bodies.ts";
+import { SMALL, flagMark, heartMark, keyMark, lockMark, playMark, searchMark } from "../marks.ts";
 import type { Icon } from "../build.ts";
 
 const HEART = "a heart is one line, not three strokes with visible seams";
@@ -284,17 +284,17 @@ export const BATCH_71: Icon[] = [
   },
   {
     slug: "key-tag", category: "security", subcategory: "auth",
-    name: "Key tag", description: "A key with a label beside it — a named credential you can tell apart from the rest",
-    tags: ["key", "label", "named"], family: "key",
+    name: "Key tag", description: "A label with a key inside — a named credential you can tell apart from the rest",
+    tags: ["key", "label", "named"], family: "object",
     aliases: [], keywords: ["labelled key", "named credential", "key name"],
-    shapes: [disc(7, 9, 4), col(7, 13, 21), row(18, 7, 10), poly([[14, 13], [19, 13], [22, 16], [19, 19], [14, 19]], true)],
+    shapes: [poly([[3, 6], [13, 6], [21, 14], [13, 22], [3, 22]], true), ...keyMark(SMALL, 13.5)],
   },
   {
     slug: "key-shield", category: "security", subcategory: "auth",
-    name: "Key shield", description: "A key with a shield beside it — a credential kept under protection",
-    tags: ["key", "protected", "shield"], family: "key",
+    name: "Key shield", description: "A shield with a key inside — a credential kept under protection",
+    tags: ["key", "protected", "shield"], family: "shield",
     aliases: [], keywords: ["protected key", "guarded credential", "key security"],
-    shapes: [disc(7, 9, 4), col(7, 13, 21), row(18, 7, 10), poly([[14, 12], [22, 12], [22, 17], [18, 21], [14, 17]], true)],
+    shapes: [shield(), ...keyMark(SMALL, 11)],
   },
   {
     slug: "window-lock", category: "security", subcategory: "auth",

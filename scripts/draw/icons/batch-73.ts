@@ -8,7 +8,7 @@
  * checked free before drawing.
  */
 import { arc, area, col, disc, openDisc, poly, raw, rect, row } from "../forms.ts";
-import { SMALL, check, heartMark, pinMark, searchMark, tagMark, targetMark } from "../marks.ts";
+import { BIG, SMALL, check, heartMark, keyMark, pinMark, searchMark, tagMark, targetMark } from "../marks.ts";
 import { machine } from "../bodies.ts";
 import type { Icon } from "../build.ts";
 
@@ -111,10 +111,10 @@ export const BATCH_73: Icon[] = [
   },
   {
     slug: "key-lookup", category: "security", subcategory: "auth",
-    name: "Key lookup", description: "A key beside a magnifying glass — look up which credential this is",
-    tags: ["key", "lookup", "find"], family: "key",
+    name: "Key lookup", description: "A magnifying glass with a key inside — look up which credential this is",
+    tags: ["key", "lookup", "find"], family: "magnifier",
     aliases: [], keywords: ["key lookup", "find credential", "identify key"],
-    shapes: [...KEY_L, disc(17.5, 10, 3.5), poly([[20, 12.5], [22, 14.5]])],
+    shapes: [disc(12, 11, 7), poly([[17, 16], [21, 20]]), ...keyMark(SMALL, 11)],
   },
   {
     slug: "dormant-key", category: "security", subcategory: "auth",
@@ -125,10 +125,10 @@ export const BATCH_73: Icon[] = [
   },
   {
     slug: "key-vault", category: "security", subcategory: "auth",
-    name: "Key vault", description: "A key beside a padlock — credentials kept locked away in a vault",
-    tags: ["vault", "secrets", "key"], family: "key",
+    name: "Key vault", description: "The vault door with a key inside — credentials kept locked away",
+    tags: ["vault", "secrets", "key"], family: "window",
     aliases: [], keywords: ["key vault", "secrets vault", "credential store"],
-    shapes: [...KEY_L, ...LOCK_R],
+    shapes: [rect(3, 4, 18, 16, 2), ...keyMark()],
   },
   {
     slug: "key-alert", category: "security", subcategory: "auth",
