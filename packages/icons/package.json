@@ -22,24 +22,25 @@
     "./sprite.svg": "./dist/sprite.svg",
     "./icons/*": "./icons/*",
     "./package.json": "./package.json",
-    "./iconify.json": "./dist/iconify.json"
+    "./iconify.json": "./iconify.json"
   },
   "files": [
     "dist",
-    "icons"
+    "icons",
+    "iconify.json"
   ],
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "build": "tsx ../../scripts/generate/metadata.ts && tsx ../../scripts/generate/sprite.ts && tsx ../../scripts/generate/icons-entry.ts"
+    "build": "tsx ../../scripts/generate/metadata.ts && tsx ../../scripts/generate/sprite.ts && tsx ../../scripts/generate/icons-entry.ts && tsx ../../scripts/generate/iconify.ts"
   },
   "types": "./dist/index.d.ts",
   "devDependencies": {
     "@iconmind/shared": "workspace:*",
     "tsx": "^4.20.6"
   },
-  "description": "2,437 SVG icons for AI-era software — LLMs, agents, MCP, RAG. Six cells per icon: outline & duotone at three weights.",
+  "description": "2,437 SVG icons for AI-era software \u2014 LLMs, agents, MCP, RAG. Six cells per icon: outline & duotone at three weights.",
   "keywords": [
     "icons",
     "svg",

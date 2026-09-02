@@ -4,7 +4,7 @@
  * Iconify is where developers already pick icons — its one JSON format feeds the Figma
  * plugin, VS Code, unplugin-icons, the Tailwind and Nuxt and Astro icon modules, and
  * icones.js.org. A set that is in it is in all of them. This writes
- * `packages/icons/dist/iconify.json`: prefix `iconmind`, one icon per slug (outline
+ * `packages/icons/iconify.json` — tracked, so Iconify has a stable raw URL to pull: prefix `iconmind`, one icon per slug (outline
  * regular, the set's default), a `-duotone` twin for each, and every alias the set
  * knows, so the names people type in Iconify's search are the names that resolve here.
  */
@@ -42,5 +42,5 @@ for (const icon of icons) {
   for (const a of meta.aliases ?? []) if (!out.icons[a] && !out.aliases[a]) out.aliases[a] = { parent: icon.slug };
 }
 (out.info as { total: number }).total = Object.keys(out.icons).length;
-await writeFile(fromRoot("packages/icons/dist/iconify.json"), JSON.stringify(out));
-console.log(`packages/icons/dist/iconify.json — ${out.info && (out.info as { total: number }).total} icons, ${Object.keys(out.aliases).length} aliases`);
+await writeFile(fromRoot("packages/icons/iconify.json"), JSON.stringify(out));
+console.log(`packages/icons/iconify.json — ${out.info && (out.info as { total: number }).total} icons, ${Object.keys(out.aliases).length} aliases`);
