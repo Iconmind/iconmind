@@ -28,8 +28,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const icon = getIcon(slug);
   if (!icon) return {};
   return {
-    title: `${icon.name} icon`,
-    description: `${icon.description}. Free ${icon.category} icon — SVG, React, Vue, Svelte, Flutter and 6 more. Outline and duotone, MIT licensed.`,
+    // The query these pages rank for is "<name> icon"; the words that earn the click are
+    // the ones a searcher is after next: free, SVG, PNG. Search Console showed pages on
+    // the first page with no clicks under the old title, which promised only the brand.
+    title: `${icon.name} icon · free SVG & PNG`,
+    description: `${icon.description}. Download free as SVG or PNG, or use it as a React, Vue, Svelte or Flutter component. Outline and duotone, MIT.`,
     alternates: { canonical: `/icons/${icon.slug}/` },
   };
 }
