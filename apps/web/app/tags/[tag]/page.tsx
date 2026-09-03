@@ -29,8 +29,11 @@ export async function generateMetadata({ params }: { params: Promise<{ tag: stri
   const t = tagOf(tag);
   if (!t) return {};
   return {
-    title: `${titleCase(t.slug)} icons`,
-    description: `${t.count} free icons tagged “${t.slug}” — ${nameList(t.icons)}. SVG, React, Vue, Svelte, Flutter and more; outline and duotone in three weights. MIT licensed.`,
+    // The count goes in the title: it is what the pages that win "<tag> icons" queries
+    // show, and it is true. The names stay in the description - they are what keeps 788
+    // of these pages distinct from one another.
+    title: `${titleCase(t.slug)} icons · ${t.count} free SVG & PNG`,
+    description: `${t.count} free ${t.slug.replace(/-/g, " ")} icons: ${nameList(t.icons)}. Download as SVG or PNG, or use as React, Vue, Svelte or Flutter components. Outline and duotone, MIT.`,
     alternates: { canonical: `/tags/${t.slug}/` },
   };
 }
