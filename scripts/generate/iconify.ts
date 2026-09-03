@@ -25,14 +25,15 @@ const body = (svg: string) => {
 // move onto a wrapping <g> so the icon draws the same in every host.
 const STROKE = `fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"`;
 
-const out: { prefix: string; info: object; lastModified: number; width: number; height: number; icons: Record<string, { body: string }>; aliases: Record<string, { parent: string }> } = {
+const out: { prefix: string; info: object; width: number; height: number; icons: Record<string, { body: string }>; aliases: Record<string, { parent: string }> } = {
   prefix: "iconmind",
   info: {
     name: "IconMind", total: 0, version, author: { name: "IconMind", url: "https://github.com/Iconmind/iconmind" },
     license: { title: "MIT", spdx: "MIT", url: "https://github.com/Iconmind/iconmind/blob/main/LICENSE" },
     samples: ["agent", "vector-database", "mcp-server"], height: 24, category: "General", palette: false,
   },
-  lastModified: Math.floor(Date.now() / 1000), width: 24, height: 24, icons: {}, aliases: {},
+  // No lastModified: the file is tracked, and a timestamp made every CI build a diff.
+  width: 24, height: 24, icons: {}, aliases: {},
 };
 for (const icon of icons) {
   out.icons[icon.slug] = { body: `<g ${STROKE}>${body(icon.svg)}</g>` };
