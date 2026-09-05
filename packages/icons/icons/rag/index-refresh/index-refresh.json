@@ -1,0 +1,33 @@
+{
+  "slug": "index-refresh",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Index refresh",
+  "description": "The lattice with an arrow looping back — the index rebuilt from the source",
+  "tags": [
+    "index",
+    "refresh",
+    "rebuild"
+  ],
+  "keywords": [
+    "index refresh",
+    "reindex",
+    "rebuild vectors",
+    "refresh embeddings"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M15 7L20 12L12 20L4 12L9 7",
+      "closed": true
+    },
+    {
+      "d": "M9 15L9 10L15 10L15 15",
+      "closed": false
+    },
+    {
+      "d": "M12.5 12.5L15 15L17.5 12.5",
+      "closed": false
+    }
+  ]
+}

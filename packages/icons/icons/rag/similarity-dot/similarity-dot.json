@@ -1,0 +1,37 @@
+{
+  "slug": "similarity-dot",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Dot product",
+  "description": "The lattice with a vector and its shadow on the axis — how far one vector reaches along another",
+  "tags": [
+    "similarity",
+    "dot",
+    "vector"
+  ],
+  "keywords": [
+    "dot product",
+    "inner product",
+    "dot similarity",
+    "unnormalised similarity"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M15 7L20 12L12 20L4 12L9 7",
+      "closed": true
+    },
+    {
+      "d": "M8 14.5H16",
+      "closed": false
+    },
+    {
+      "d": "M9 14.5L13.5 10",
+      "closed": false
+    },
+    {
+      "d": "M13.5 10V14.5",
+      "closed": false
+    }
+  ]
+}

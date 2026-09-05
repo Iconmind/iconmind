@@ -1,0 +1,37 @@
+{
+  "slug": "late-interaction",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Late interaction",
+  "description": "The lattice with two points tied together — query and document matched token by token, at the end",
+  "tags": [
+    "vector",
+    "late-interaction",
+    "match"
+  ],
+  "keywords": [
+    "late interaction",
+    "token-level matching",
+    "maxsim",
+    "late fusion"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M15 7L20 12L12 20L4 12L9 7",
+      "closed": true
+    },
+    {
+      "d": "M7.5 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 13H13.5",
+      "closed": false
+    },
+    {
+      "d": "M14.5 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

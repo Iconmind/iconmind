@@ -1,0 +1,29 @@
+{
+  "slug": "retrieval-cache",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Retrieval cache",
+  "description": "The lattice with a bolt in it — a query answered from what was fetched last time",
+  "tags": [
+    "cache",
+    "retrieval",
+    "search"
+  ],
+  "keywords": [
+    "retrieval cache",
+    "semantic cache",
+    "cached retrieval",
+    "cache hits"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M15 7L20 12L12 20L4 12L9 7",
+      "closed": true
+    },
+    {
+      "d": "M13.5 10L11 12.5L13.5 12.5L11 15",
+      "closed": false
+    }
+  ]
+}

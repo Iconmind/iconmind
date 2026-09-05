@@ -1,0 +1,33 @@
+{
+  "slug": "recall-at-k",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Recall@k",
+  "description": "The lens with a check in it — how much of what should be found is in the top results",
+  "tags": [
+    "metric",
+    "recall",
+    "search"
+  ],
+  "keywords": [
+    "recall at k",
+    "recall@k",
+    "retrieval recall",
+    "found in top k"
+  ],
+  "family": "magnifier",
+  "shapes": [
+    {
+      "d": "M12.62 3.51A7 7 0 1 1 7.38 3.51",
+      "closed": false
+    },
+    {
+      "d": "M15 15L21 21",
+      "closed": false
+    },
+    {
+      "d": "M7 10L9 12L13 8",
+      "closed": false
+    }
+  ]
+}

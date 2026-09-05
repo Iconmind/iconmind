@@ -1,0 +1,29 @@
+{
+  "slug": "metadata-filter",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Metadata filter",
+  "description": "The funnel with a tag under it — only chunks whose fields match",
+  "tags": [
+    "filter",
+    "metadata",
+    "search"
+  ],
+  "keywords": [
+    "metadata filter",
+    "filter by field",
+    "attribute filter",
+    "filtered search"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M9 2.5L3 2.5L10 9.5L10 12L14 12L14 9.5L21 2.5L15 2.5",
+      "closed": true
+    },
+    {
+      "d": "M9 15L12 15L15 18L12 21L9 21Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "parent-document",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Parent document",
+  "description": "A page with a small box in it — the whole document a chunk came from",
+  "tags": [
+    "chunk",
+    "parent",
+    "document"
+  ],
+  "keywords": [
+    "parent document",
+    "parent document retriever",
+    "return the parent",
+    "chunk to document"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9.5 10L9.5 16L14.5 16L14.5 10Z",
+      "closed": true
+    }
+  ]
+}

@@ -74,6 +74,8 @@ const ANCHORED = new Set([
   "security/differential-privacy",
   // R18's measures are bars and lines on the axes; their ink sits where the axes are.
   "ai/alignment-tax", "ai/demographic-parity", "ai/fairness-metric", "ai/refusal-rate",
+  // R19's filters hang from the funnel's mouth like the rest of the funnel family.
+  "rag/fusion-rank", "rag/retrieval-fallback",
   // A bell is its dome - the mass hangs where a bell hangs it.
   "interface/favorite-alert", "interface/bell-add", "interface/bell-check",
   "interface/bell-dot", "interface/bell-remove",

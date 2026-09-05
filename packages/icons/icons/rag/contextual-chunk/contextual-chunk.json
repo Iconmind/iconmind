@@ -1,0 +1,33 @@
+{
+  "slug": "contextual-chunk",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Contextual chunk",
+  "description": "A page with a header over a box — a chunk sent with the context that explains it",
+  "tags": [
+    "chunk",
+    "context",
+    "header"
+  ],
+  "keywords": [
+    "contextual chunk",
+    "contextual retrieval",
+    "chunk with context",
+    "situated chunk"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M8 8H15",
+      "closed": false
+    },
+    {
+      "d": "M9.5 11L9.5 17L14.5 17L14.5 11Z",
+      "closed": true
+    }
+  ]
+}

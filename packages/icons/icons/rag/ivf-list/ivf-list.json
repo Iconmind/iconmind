@@ -1,0 +1,37 @@
+{
+  "slug": "ivf-list",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "IVF list",
+  "description": "The lattice with a centroid between two walls — vectors grouped into cells, each with its list",
+  "tags": [
+    "index",
+    "ivf",
+    "cluster"
+  ],
+  "keywords": [
+    "ivf list",
+    "inverted file index",
+    "ivf cells",
+    "coarse quantiser"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M15 7L20 12L12 20L4 12L9 7",
+      "closed": true
+    },
+    {
+      "d": "M9 10V15",
+      "closed": false
+    },
+    {
+      "d": "M15 10V15",
+      "closed": false
+    },
+    {
+      "d": "M11 12.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

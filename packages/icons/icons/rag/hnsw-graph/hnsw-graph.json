@@ -1,0 +1,33 @@
+{
+  "slug": "hnsw-graph",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "HNSW graph",
+  "description": "The lattice with a tree in it — layers of links, coarse on top and fine below",
+  "tags": [
+    "index",
+    "hnsw",
+    "graph"
+  ],
+  "keywords": [
+    "hnsw graph",
+    "hierarchical navigable small world",
+    "graph index",
+    "ann graph"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M15 7L20 12L12 20L4 12L9 7",
+      "closed": true
+    },
+    {
+      "d": "M9 15L12 12L15 15",
+      "closed": false
+    },
+    {
+      "d": "M12 8.5V12",
+      "closed": false
+    }
+  ]
+}

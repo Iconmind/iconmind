@@ -1,0 +1,33 @@
+{
+  "slug": "dense-vector",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Dense vector",
+  "description": "The lattice with two full lines — a vector with something in every dimension",
+  "tags": [
+    "vector",
+    "dense",
+    "embedding"
+  ],
+  "keywords": [
+    "dense vector",
+    "dense embedding",
+    "neural embedding",
+    "every dimension set"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M15 7L20 12L12 20L4 12L9 7",
+      "closed": true
+    },
+    {
+      "d": "M9 11H15",
+      "closed": false
+    },
+    {
+      "d": "M9 14.5H15",
+      "closed": false
+    }
+  ]
+}

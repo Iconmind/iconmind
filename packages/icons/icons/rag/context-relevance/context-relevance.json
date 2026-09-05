@@ -1,0 +1,37 @@
+{
+  "slug": "context-relevance",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Context relevance",
+  "description": "The lens with brackets in it — whether what was fetched was worth fetching",
+  "tags": [
+    "metric",
+    "relevance",
+    "context"
+  ],
+  "keywords": [
+    "context relevance",
+    "retrieved context relevance",
+    "ragas context relevance",
+    "useful context"
+  ],
+  "family": "magnifier",
+  "shapes": [
+    {
+      "d": "M12.62 3.51A7 7 0 1 1 7.38 3.51",
+      "closed": false
+    },
+    {
+      "d": "M15 15L21 21",
+      "closed": false
+    },
+    {
+      "d": "M8.5 7L6 7L6 13L8.5 13",
+      "closed": false
+    },
+    {
+      "d": "M11.5 7L14 7L14 13L11.5 13",
+      "closed": false
+    }
+  ]
+}

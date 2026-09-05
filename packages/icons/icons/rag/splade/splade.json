@@ -1,0 +1,29 @@
+{
+  "slug": "splade",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "SPLADE",
+  "description": "The lattice with a wisp in it — a sparse vector the model learned to expand",
+  "tags": [
+    "vector",
+    "splade",
+    "model"
+  ],
+  "keywords": [
+    "splade",
+    "learned sparse",
+    "term expansion",
+    "sparse lexical"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M15 7L20 12L12 20L4 12L9 7",
+      "closed": true
+    },
+    {
+      "d": "M8.5 14.5L11 12L13.5 14.5L16 12",
+      "closed": false
+    }
+  ]
+}

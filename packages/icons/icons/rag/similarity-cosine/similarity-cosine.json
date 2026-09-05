@@ -1,0 +1,33 @@
+{
+  "slug": "similarity-cosine",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Cosine similarity",
+  "description": "The lattice with two rays from one point — how close two vectors point",
+  "tags": [
+    "similarity",
+    "cosine",
+    "vector"
+  ],
+  "keywords": [
+    "cosine similarity",
+    "cosine distance",
+    "angle between vectors",
+    "cosine score"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M15 7L20 12L12 20L4 12L9 7",
+      "closed": true
+    },
+    {
+      "d": "M9 15L15 15",
+      "closed": false
+    },
+    {
+      "d": "M9 15L13.5 10.5",
+      "closed": false
+    }
+  ]
+}

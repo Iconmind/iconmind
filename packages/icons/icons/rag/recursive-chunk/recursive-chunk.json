@@ -1,0 +1,37 @@
+{
+  "slug": "recursive-chunk",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Recursive chunking",
+  "description": "A page with lines that step in — a document split, and the pieces split again",
+  "tags": [
+    "chunk",
+    "recursive",
+    "split"
+  ],
+  "keywords": [
+    "recursive chunking",
+    "recursive text splitter",
+    "split by separators",
+    "nested chunks"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M8 9H16",
+      "closed": false
+    },
+    {
+      "d": "M10 12H16",
+      "closed": false
+    },
+    {
+      "d": "M12 15H16",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "post-filter",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Post-filter",
+  "description": "The funnel with a list under it — the results, thinned after they were found",
+  "tags": [
+    "filter",
+    "post",
+    "search"
+  ],
+  "keywords": [
+    "post-filter",
+    "post-filtering",
+    "filter after search",
+    "filter results"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M9 2.5L3 2.5L10 9.5L10 12L14 12L14 9.5L21 2.5L15 2.5",
+      "closed": true
+    },
+    {
+      "d": "M9 15H15",
+      "closed": false
+    },
+    {
+      "d": "M9 18H15",
+      "closed": false
+    },
+    {
+      "d": "M9 21H15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "collection-vector",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Vector collection",
+  "description": "The lattice with a box in it — the set of vectors an index holds",
+  "tags": [
+    "vector",
+    "collection",
+    "index"
+  ],
+  "keywords": [
+    "vector collection",
+    "collection",
+    "vector set",
+    "index collection"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M15 7L20 12L12 20L4 12L9 7",
+      "closed": true
+    },
+    {
+      "d": "M9 9L15 9L15 15L9 15Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "namespace-vector",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Vector namespace",
+  "description": "The lattice with brackets in it — vectors kept apart by whose they are",
+  "tags": [
+    "vector",
+    "namespace",
+    "index"
+  ],
+  "keywords": [
+    "vector namespace",
+    "index namespace",
+    "partitioned vectors",
+    "per-tenant vectors"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M15 7L20 12L12 20L4 12L9 7",
+      "closed": true
+    },
+    {
+      "d": "M11 10L8.5 10L8.5 15L11 15",
+      "closed": false
+    },
+    {
+      "d": "M13 10L15.5 10L15.5 15L13 15",
+      "closed": false
+    }
+  ]
+}

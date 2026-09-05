@@ -1,0 +1,29 @@
+{
+  "slug": "quantise-vector",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Quantise vector",
+  "description": "The lattice with a staircase in it — a vector stored in fewer bits",
+  "tags": [
+    "vector",
+    "quantise",
+    "compress"
+  ],
+  "keywords": [
+    "quantise vector",
+    "scalar quantisation",
+    "int8 vectors",
+    "binary quantisation"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M15 7L20 12L12 20L4 12L9 7",
+      "closed": true
+    },
+    {
+      "d": "M8.5 15L11 15L11 12.5L13.5 12.5L13.5 10L16 10",
+      "closed": false
+    }
+  ]
+}

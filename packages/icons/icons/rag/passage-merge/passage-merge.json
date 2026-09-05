@@ -1,0 +1,33 @@
+{
+  "slug": "passage-merge",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Passage merge",
+  "description": "A page with two lines joining into one — neighbouring chunks stitched back together",
+  "tags": [
+    "chunk",
+    "merge",
+    "passage"
+  ],
+  "keywords": [
+    "passage merge",
+    "merge chunks",
+    "adjacent chunks",
+    "stitch passages"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M8 9L10.5 9L13 11.5L16 11.5",
+      "closed": false
+    },
+    {
+      "d": "M8 14L10.5 14L13 11.5",
+      "closed": false
+    }
+  ]
+}

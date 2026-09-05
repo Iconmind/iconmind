@@ -1,0 +1,33 @@
+{
+  "slug": "query-embed",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Query embedding",
+  "description": "The lattice with an arrow in it — a question turned into a vector",
+  "tags": [
+    "query",
+    "embedding",
+    "vector"
+  ],
+  "keywords": [
+    "query embedding",
+    "embed the query",
+    "question vector",
+    "query encoder"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M15 7L20 12L12 20L4 12L9 7",
+      "closed": true
+    },
+    {
+      "d": "M9 15L14 10",
+      "closed": false
+    },
+    {
+      "d": "M11.5 10L14 10L14 12.5",
+      "closed": false
+    }
+  ]
+}

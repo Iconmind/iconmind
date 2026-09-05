@@ -1,0 +1,37 @@
+{
+  "slug": "query-decompose",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Query decomposition",
+  "description": "The lens with one line splitting into two — a question broken into the questions inside it",
+  "tags": [
+    "query",
+    "decompose",
+    "search"
+  ],
+  "keywords": [
+    "query decomposition",
+    "split question",
+    "decompose query",
+    "multi-part question"
+  ],
+  "family": "magnifier",
+  "shapes": [
+    {
+      "d": "M12.62 3.51A7 7 0 1 1 7.38 3.51",
+      "closed": false
+    },
+    {
+      "d": "M15 15L21 21",
+      "closed": false
+    },
+    {
+      "d": "M5.5 10L8 10L10.5 7.5L13 7.5",
+      "closed": false
+    },
+    {
+      "d": "M8 10L10.5 12.5L13 12.5",
+      "closed": false
+    }
+  ]
+}

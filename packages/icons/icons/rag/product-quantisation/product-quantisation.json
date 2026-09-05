@@ -1,0 +1,33 @@
+{
+  "slug": "product-quantisation",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Product quantisation",
+  "description": "The lattice cut into strips — a vector split into parts, each stored as a code",
+  "tags": [
+    "vector",
+    "quantise",
+    "pq"
+  ],
+  "keywords": [
+    "product quantisation",
+    "pq",
+    "sub-vector codes",
+    "ivf-pq"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M15 7L20 12L12 20L4 12L9 7",
+      "closed": true
+    },
+    {
+      "d": "M10.5 10V16",
+      "closed": false
+    },
+    {
+      "d": "M13.5 10V16",
+      "closed": false
+    }
+  ]
+}

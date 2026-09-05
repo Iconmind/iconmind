@@ -1,0 +1,37 @@
+{
+  "slug": "colbert",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "ColBERT",
+  "description": "The lattice with three bars side by side — one vector per token, kept apart",
+  "tags": [
+    "vector",
+    "colbert",
+    "model"
+  ],
+  "keywords": [
+    "colbert",
+    "colbertv2",
+    "multi-vector",
+    "per-token embeddings"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M15 7L20 12L12 20L4 12L9 7",
+      "closed": true
+    },
+    {
+      "d": "M9 10.5V15.5",
+      "closed": false
+    },
+    {
+      "d": "M12 10.5V15.5",
+      "closed": false
+    },
+    {
+      "d": "M15 10.5V15.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "hybrid-weight",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Hybrid weight",
+  "description": "The funnel with a big and a small weight under it — how much keyword and how much vector",
+  "tags": [
+    "hybrid",
+    "weight",
+    "search"
+  ],
+  "keywords": [
+    "hybrid weight",
+    "alpha weighting",
+    "keyword vs vector weight",
+    "hybrid balance"
+  ],
+  "family": "funnel",
+  "shapes": [
+    {
+      "d": "M9 2.5L3 2.5L10 9.5L10 12L14 12L14 9.5L21 2.5L15 2.5",
+      "closed": true
+    },
+    {
+      "d": "M7.5 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

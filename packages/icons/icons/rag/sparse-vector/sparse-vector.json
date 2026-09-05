@@ -1,0 +1,33 @@
+{
+  "slug": "sparse-vector",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Sparse vector",
+  "description": "The lattice with one point over an empty line — a vector that is mostly zeros",
+  "tags": [
+    "vector",
+    "sparse",
+    "embedding"
+  ],
+  "keywords": [
+    "sparse vector",
+    "sparse embedding",
+    "bm25 vector",
+    "mostly zeros"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M15 7L20 12L12 20L4 12L9 7",
+      "closed": true
+    },
+    {
+      "d": "M11 10.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 14.5H15",
+      "closed": false
+    }
+  ]
+}

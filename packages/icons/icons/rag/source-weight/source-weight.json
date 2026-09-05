@@ -1,0 +1,29 @@
+{
+  "slug": "source-weight",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Source weight",
+  "description": "A page with a weight on it — how much one source counts against another",
+  "tags": [
+    "source",
+    "weight",
+    "rank"
+  ],
+  "keywords": [
+    "source weight",
+    "source priority",
+    "weighted sources",
+    "source boost"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M8.5 17L12 13.5L15.5 17Z",
+      "closed": true
+    }
+  ]
+}

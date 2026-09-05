@@ -1,0 +1,33 @@
+{
+  "slug": "delete-vector",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Delete vector",
+  "description": "The lattice with a cross in it — a vector taken out of the index",
+  "tags": [
+    "vector",
+    "delete",
+    "index"
+  ],
+  "keywords": [
+    "delete vector",
+    "remove embedding",
+    "delete from index",
+    "vector removal"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M15 7L20 12L12 20L4 12L9 7",
+      "closed": true
+    },
+    {
+      "d": "M10 11L14 15",
+      "closed": false
+    },
+    {
+      "d": "M14 11L10 15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "chunk-metadata",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Chunk metadata",
+  "description": "A page with a line and a tag under it — what is known about a chunk besides its text",
+  "tags": [
+    "chunk",
+    "metadata",
+    "tag"
+  ],
+  "keywords": [
+    "chunk metadata",
+    "chunk fields",
+    "source metadata",
+    "chunk attributes"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M8 9H16",
+      "closed": false
+    },
+    {
+      "d": "M9 12L12 12L15 15L12 18L9 18Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "retrieval-eval",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Retrieval evaluation",
+  "description": "The lens with a check and a cross in it — the hits and the misses, counted",
+  "tags": [
+    "metric",
+    "evaluation",
+    "search"
+  ],
+  "keywords": [
+    "retrieval evaluation",
+    "retrieval eval",
+    "search quality",
+    "retriever benchmark"
+  ],
+  "family": "magnifier",
+  "shapes": [
+    {
+      "d": "M12.62 3.51A7 7 0 1 1 7.38 3.51",
+      "closed": false
+    },
+    {
+      "d": "M15 15L21 21",
+      "closed": false
+    },
+    {
+      "d": "M6.5 10L8.5 12L11 9.5",
+      "closed": false
+    },
+    {
+      "d": "M10 7L14 11",
+      "closed": false
+    },
+    {
+      "d": "M14 7L10 11",
+      "closed": false
+    }
+  ]
+}

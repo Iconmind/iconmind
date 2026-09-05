@@ -1,0 +1,37 @@
+{
+  "slug": "step-back-prompt",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Step-back prompt",
+  "description": "The lens with a chevron rising over a line — the broader question asked first",
+  "tags": [
+    "query",
+    "step-back",
+    "prompt"
+  ],
+  "keywords": [
+    "step-back prompt",
+    "step-back prompting",
+    "abstract the question",
+    "broader query"
+  ],
+  "family": "magnifier",
+  "shapes": [
+    {
+      "d": "M12.62 3.51A7 7 0 1 1 7.38 3.51",
+      "closed": false
+    },
+    {
+      "d": "M15 15L21 21",
+      "closed": false
+    },
+    {
+      "d": "M7.5 11L10 8.5L12.5 11",
+      "closed": false
+    },
+    {
+      "d": "M7 13.5H13",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "incremental-index",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Incremental index",
+  "description": "The lattice with a plus in it — new vectors added without rebuilding the rest",
+  "tags": [
+    "index",
+    "incremental",
+    "update"
+  ],
+  "keywords": [
+    "incremental index",
+    "incremental indexing",
+    "upsert vectors",
+    "add to index"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M15 7L20 12L12 20L4 12L9 7",
+      "closed": true
+    },
+    {
+      "d": "M12 10V16",
+      "closed": false
+    },
+    {
+      "d": "M9 13H15",
+      "closed": false
+    }
+  ]
+}

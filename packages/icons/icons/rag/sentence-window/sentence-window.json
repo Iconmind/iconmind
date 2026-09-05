@@ -1,0 +1,45 @@
+{
+  "slug": "sentence-window",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Sentence window",
+  "description": "A page with posts through the middle line — a sentence kept with the ones around it",
+  "tags": [
+    "chunk",
+    "window",
+    "sentence"
+  ],
+  "keywords": [
+    "sentence window",
+    "sentence window retrieval",
+    "surrounding sentences",
+    "context window chunk"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M8 9H16",
+      "closed": false
+    },
+    {
+      "d": "M8 13H16",
+      "closed": false
+    },
+    {
+      "d": "M8 17H16",
+      "closed": false
+    },
+    {
+      "d": "M9.5 11V15",
+      "closed": false
+    },
+    {
+      "d": "M14.5 11V15",
+      "closed": false
+    }
+  ]
+}

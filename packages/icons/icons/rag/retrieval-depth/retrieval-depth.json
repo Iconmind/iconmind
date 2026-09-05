@@ -1,0 +1,33 @@
+{
+  "slug": "retrieval-depth",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Retrieval depth",
+  "description": "The lattice with an arrow going down — how far down the ranking the search reads",
+  "tags": [
+    "search",
+    "depth",
+    "top-k"
+  ],
+  "keywords": [
+    "retrieval depth",
+    "search depth",
+    "candidates fetched",
+    "ef search"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M15 7L20 12L12 20L4 12L9 7",
+      "closed": true
+    },
+    {
+      "d": "M12 9V17",
+      "closed": false
+    },
+    {
+      "d": "M9.5 14.5L12 17L14.5 14.5",
+      "closed": false
+    }
+  ]
+}

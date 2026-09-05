@@ -1,0 +1,33 @@
+{
+  "slug": "index-snapshot",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Index snapshot",
+  "description": "The lattice with an eye in it — the index as it was at one moment, kept",
+  "tags": [
+    "index",
+    "snapshot",
+    "backup"
+  ],
+  "keywords": [
+    "index snapshot",
+    "vector index backup",
+    "point-in-time index",
+    "index copy"
+  ],
+  "family": "lattice",
+  "shapes": [
+    {
+      "d": "M15 7L20 12L12 20L4 12L9 7",
+      "closed": true
+    },
+    {
+      "d": "M8.24 11.63A4 4 0 0 1 15.76 11.63",
+      "closed": false
+    },
+    {
+      "d": "M10 13a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

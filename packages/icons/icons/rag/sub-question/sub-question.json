@@ -1,0 +1,37 @@
+{
+  "slug": "sub-question",
+  "category": "rag",
+  "subcategory": "retrieval",
+  "name": "Sub-question",
+  "description": "The lens with a question mark in it — one of the smaller questions a big one breaks into",
+  "tags": [
+    "query",
+    "sub-question",
+    "search"
+  ],
+  "keywords": [
+    "sub-question",
+    "sub query",
+    "sub-question engine",
+    "follow-up question"
+  ],
+  "family": "magnifier",
+  "shapes": [
+    {
+      "d": "M12.62 3.51A7 7 0 1 1 7.38 3.51",
+      "closed": false
+    },
+    {
+      "d": "M15 15L21 21",
+      "closed": false
+    },
+    {
+      "d": "M7.5 8A2.5 2.5 0 1 1 10 10.5",
+      "closed": false
+    },
+    {
+      "d": "M9 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}
