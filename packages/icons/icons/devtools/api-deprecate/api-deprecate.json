@@ -1,0 +1,37 @@
+{
+  "slug": "api-deprecate",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "API deprecate",
+  "description": "A document with an X below its title — an endpoint marked for removal, use it no more",
+  "tags": [
+    "deprecated",
+    "retire",
+    "legacy"
+  ],
+  "keywords": [
+    "deprecated api",
+    "retire endpoint",
+    "legacy api",
+    "removal notice"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 7H15",
+      "closed": false
+    },
+    {
+      "d": "M10 12L14 16",
+      "closed": false
+    },
+    {
+      "d": "M14 12L10 16",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "pagination-cursor",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "Cursor pagination",
+  "description": "Rows and a chevron pointing on — continue from exactly where the last page ended",
+  "tags": [
+    "cursor",
+    "pagination",
+    "next"
+  ],
+  "keywords": [
+    "cursor pagination",
+    "next page token",
+    "continuation",
+    "seek method"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 7H15",
+      "closed": false
+    },
+    {
+      "d": "M9 10.5H15",
+      "closed": false
+    },
+    {
+      "d": "M10 14.5L12 16.5L14 14.5",
+      "closed": false
+    }
+  ]
+}

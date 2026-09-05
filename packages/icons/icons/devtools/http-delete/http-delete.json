@@ -1,0 +1,33 @@
+{
+  "slug": "http-delete",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "HTTP DELETE",
+  "description": "A minus between brackets — a DELETE request, taking the resource away for good",
+  "tags": [
+    "delete",
+    "remove",
+    "destroy"
+  ],
+  "keywords": [
+    "http delete",
+    "remove resource",
+    "destroy",
+    "rest delete"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "api-mock",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "API mock",
+  "description": "An empty square between brackets — a stand-in that answers while the real API is unbuilt",
+  "tags": [
+    "mock",
+    "stub",
+    "fake"
+  ],
+  "keywords": [
+    "mock api",
+    "stub server",
+    "fake response",
+    "test double"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M9 9L15 9L15 15L9 15Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "query-param",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "Query param",
+  "description": "A question mark between brackets — the query string, questions appended to the URL",
+  "tags": [
+    "query",
+    "parameter",
+    "url"
+  ],
+  "keywords": [
+    "query string",
+    "url parameter",
+    "search param",
+    "?key=value"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M9.5 10.5A2.5 2.5 0 1 1 12 13",
+      "closed": false
+    },
+    {
+      "d": "M11 15.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

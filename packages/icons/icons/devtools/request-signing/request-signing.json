@@ -1,0 +1,41 @@
+{
+  "slug": "request-signing",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "Request signing",
+  "description": "A key below the title row — a request signed so the server knows who sent it",
+  "tags": [
+    "signing",
+    "signature",
+    "auth"
+  ],
+  "keywords": [
+    "request signing",
+    "signed request",
+    "sigv4",
+    "signature"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 7H15",
+      "closed": false
+    },
+    {
+      "d": "M10 12.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 14.5V17",
+      "closed": false
+    },
+    {
+      "d": "M12 15.5H14.5",
+      "closed": false
+    }
+  ]
+}

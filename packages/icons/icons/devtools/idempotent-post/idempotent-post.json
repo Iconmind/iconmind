@@ -1,0 +1,37 @@
+{
+  "slug": "idempotent-post",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "Idempotent POST",
+  "description": "An equals sign between brackets — send it twice and the result stays the same",
+  "tags": [
+    "idempotent",
+    "safe",
+    "retry"
+  ],
+  "keywords": [
+    "idempotency key",
+    "safe retry",
+    "exactly once",
+    "duplicate safe"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M9 10H15",
+      "closed": false
+    },
+    {
+      "d": "M9 14H15",
+      "closed": false
+    }
+  ]
+}

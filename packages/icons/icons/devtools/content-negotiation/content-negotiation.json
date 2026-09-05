@@ -1,0 +1,41 @@
+{
+  "slug": "content-negotiation",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "Content negotiation",
+  "description": "Arrows trading places on a document — client and server agreeing on a format",
+  "tags": [
+    "negotiation",
+    "accept",
+    "format"
+  ],
+  "keywords": [
+    "content negotiation",
+    "accept header",
+    "format agreement",
+    "vary"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M8 9H13",
+      "closed": false
+    },
+    {
+      "d": "M12.5 6.5L15 9L12.5 11.5",
+      "closed": false
+    },
+    {
+      "d": "M11 15H16",
+      "closed": false
+    },
+    {
+      "d": "M11.5 12.5L9 15L11.5 17.5",
+      "closed": false
+    }
+  ]
+}

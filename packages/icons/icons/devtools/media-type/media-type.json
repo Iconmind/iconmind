@@ -1,0 +1,33 @@
+{
+  "slug": "media-type",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "Media type",
+  "description": "A play below the title row — the document that says what kind of content follows",
+  "tags": [
+    "media",
+    "content-type",
+    "mime"
+  ],
+  "keywords": [
+    "media type",
+    "content type",
+    "mime type",
+    "accept header"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 7H15",
+      "closed": false
+    },
+    {
+      "d": "M10.5 11L13.5 14L10.5 17Z",
+      "closed": true
+    }
+  ]
+}

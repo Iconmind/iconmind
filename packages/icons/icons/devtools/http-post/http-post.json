@@ -1,0 +1,37 @@
+{
+  "slug": "http-post",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "HTTP POST",
+  "description": "An arrow rising between brackets — a POST request, sending something new to the server",
+  "tags": [
+    "post",
+    "create",
+    "send"
+  ],
+  "keywords": [
+    "http post",
+    "create resource",
+    "submit",
+    "rest post"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M12 10V15.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 12.5L12 10L14.5 12.5",
+      "closed": false
+    }
+  ]
+}

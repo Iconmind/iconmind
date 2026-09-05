@@ -1,0 +1,41 @@
+{
+  "slug": "http-put",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "HTTP PUT",
+  "description": "An arrow rising to a bar between brackets — a PUT request, replacing the whole resource",
+  "tags": [
+    "put",
+    "replace",
+    "update"
+  ],
+  "keywords": [
+    "http put",
+    "replace resource",
+    "full update",
+    "rest put"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M9.5 7.5H14.5",
+      "closed": false
+    },
+    {
+      "d": "M12 10.5V16",
+      "closed": false
+    },
+    {
+      "d": "M9.5 13L12 10.5L14.5 13",
+      "closed": false
+    }
+  ]
+}

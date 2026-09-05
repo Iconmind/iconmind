@@ -1,0 +1,33 @@
+{
+  "slug": "event-payload",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "Event payload",
+  "description": "A bolt below the title row — the document an event carries to whoever listens",
+  "tags": [
+    "event",
+    "payload",
+    "webhook"
+  ],
+  "keywords": [
+    "event payload",
+    "webhook body",
+    "event data",
+    "message body"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 7H15",
+      "closed": false
+    },
+    {
+      "d": "M15 11L12 14L14.5 14L11.5 17",
+      "closed": false
+    }
+  ]
+}

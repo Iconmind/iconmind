@@ -1,0 +1,37 @@
+{
+  "slug": "request-body",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "Request body",
+  "description": "An arrow arriving above a row — the payload a request carries in with it",
+  "tags": [
+    "body",
+    "payload",
+    "input"
+  ],
+  "keywords": [
+    "request body",
+    "payload",
+    "post body",
+    "input document"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M12 6.5V10.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 8.5L12 11L14.5 8.5",
+      "closed": false
+    },
+    {
+      "d": "M9 15.5H15",
+      "closed": false
+    }
+  ]
+}

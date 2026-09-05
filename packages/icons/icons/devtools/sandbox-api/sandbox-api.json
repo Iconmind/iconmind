@@ -1,0 +1,29 @@
+{
+  "slug": "sandbox-api",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "Sandbox API",
+  "description": "A play seated in an open box — requests land somewhere real money never moves",
+  "tags": [
+    "sandbox",
+    "test",
+    "safe"
+  ],
+  "keywords": [
+    "sandbox environment",
+    "test mode",
+    "fake data",
+    "safe testing"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M10 5L14 9L10 13Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "conditional-request",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "Conditional request",
+  "description": "A question below the title row — a request that only proceeds if its condition holds",
+  "tags": [
+    "conditional",
+    "if",
+    "guard"
+  ],
+  "keywords": [
+    "conditional request",
+    "if-match",
+    "precondition",
+    "412"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 6.5H15",
+      "closed": false
+    },
+    {
+      "d": "M9.5 12A2.5 2.5 0 1 1 12 14.5",
+      "closed": false
+    },
+    {
+      "d": "M11 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "field-mask",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "Field mask",
+  "description": "A funnel between brackets — ask for only the fields you need and no others",
+  "tags": [
+    "fields",
+    "mask",
+    "select"
+  ],
+  "keywords": [
+    "field mask",
+    "sparse fields",
+    "partial fields",
+    "projection"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M9 9L12 12L15 9",
+      "closed": false
+    },
+    {
+      "d": "M12 12V15",
+      "closed": false
+    }
+  ]
+}

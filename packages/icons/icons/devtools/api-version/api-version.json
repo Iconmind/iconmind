@@ -1,0 +1,37 @@
+{
+  "slug": "api-version",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "API version",
+  "description": "A document with a pin below its title — the version a client pins and builds against",
+  "tags": [
+    "version",
+    "semver",
+    "pin"
+  ],
+  "keywords": [
+    "api version",
+    "versioning",
+    "v1 v2",
+    "version pin"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 7H15",
+      "closed": false
+    },
+    {
+      "d": "M10 13a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 14.5L12 17L14.5 14.5",
+      "closed": false
+    }
+  ]
+}

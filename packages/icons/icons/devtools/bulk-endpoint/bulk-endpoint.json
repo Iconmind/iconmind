@@ -1,0 +1,37 @@
+{
+  "slug": "bulk-endpoint",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "Bulk endpoint",
+  "description": "Stacked rows over an open box — one endpoint built to swallow the whole load",
+  "tags": [
+    "bulk",
+    "import",
+    "mass"
+  ],
+  "keywords": [
+    "bulk endpoint",
+    "bulk import",
+    "mass update",
+    "bulk operations"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M8 5.5H16",
+      "closed": false
+    },
+    {
+      "d": "M8 9H16",
+      "closed": false
+    },
+    {
+      "d": "M8 12.5H16",
+      "closed": false
+    }
+  ]
+}

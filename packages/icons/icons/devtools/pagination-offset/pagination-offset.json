@@ -1,0 +1,45 @@
+{
+  "slug": "pagination-offset",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "Offset pagination",
+  "description": "Rows above a row of page dots — pick a numbered page and read from there",
+  "tags": [
+    "offset",
+    "pagination",
+    "skip"
+  ],
+  "keywords": [
+    "offset pagination",
+    "limit offset",
+    "page number",
+    "skip rows"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 7H15",
+      "closed": false
+    },
+    {
+      "d": "M9 10.5H15",
+      "closed": false
+    },
+    {
+      "d": "M7 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

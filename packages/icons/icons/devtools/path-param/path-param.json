@@ -1,0 +1,33 @@
+{
+  "slug": "path-param",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "Path param",
+  "description": "A placeholder dot between brackets — a segment of the path filled in at request time",
+  "tags": [
+    "path",
+    "parameter",
+    "segment"
+  ],
+  "keywords": [
+    "path parameter",
+    "route param",
+    "url segment",
+    "placeholder"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "http-get",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "HTTP GET",
+  "description": "An arrow coming down between brackets — a GET request, fetching a resource to read",
+  "tags": [
+    "get",
+    "fetch",
+    "read"
+  ],
+  "keywords": [
+    "http get",
+    "fetch resource",
+    "read request",
+    "rest get"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M12 8.5V14",
+      "closed": false
+    },
+    {
+      "d": "M9.5 11.5L12 14L14.5 11.5",
+      "closed": false
+    }
+  ]
+}

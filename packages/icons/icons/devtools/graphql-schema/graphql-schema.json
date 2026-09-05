@@ -1,0 +1,37 @@
+{
+  "slug": "graphql-schema",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "GraphQL schema",
+  "description": "A type node above its field rows — the schema a graph query is written against",
+  "tags": [
+    "graphql",
+    "schema",
+    "types"
+  ],
+  "keywords": [
+    "graphql schema",
+    "type system",
+    "sdl",
+    "graph types"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M12 6L15 9L12 12L9 9Z",
+      "closed": true
+    },
+    {
+      "d": "M9 15H15",
+      "closed": false
+    },
+    {
+      "d": "M9 18H15",
+      "closed": false
+    }
+  ]
+}

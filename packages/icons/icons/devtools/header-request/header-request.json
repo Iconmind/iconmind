@@ -1,0 +1,33 @@
+{
+  "slug": "header-request",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "Request headers",
+  "description": "Two rows at the top and nothing after — the header block that rides ahead of the body",
+  "tags": [
+    "headers",
+    "metadata",
+    "http"
+  ],
+  "keywords": [
+    "request headers",
+    "http header",
+    "metadata block",
+    "header fields"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 6.5H15",
+      "closed": false
+    },
+    {
+      "d": "M9 9.5H12",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "batch-request",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "Batch request",
+  "description": "Three rows between brackets — many calls travelling together as a single request",
+  "tags": [
+    "batch",
+    "bundle",
+    "many"
+  ],
+  "keywords": [
+    "batch request",
+    "bundled calls",
+    "multi request",
+    "batching"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M9 8.5H15",
+      "closed": false
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    },
+    {
+      "d": "M9 15.5H15",
+      "closed": false
+    }
+  ]
+}

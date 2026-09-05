@@ -1,0 +1,37 @@
+{
+  "slug": "api-lint",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "API lint",
+  "description": "A lens reading two rows closely — the spec checked line by line against the style rules",
+  "tags": [
+    "lint",
+    "style",
+    "check"
+  ],
+  "keywords": [
+    "api linting",
+    "spec lint",
+    "style guide",
+    "spectral"
+  ],
+  "family": "magnifier",
+  "shapes": [
+    {
+      "d": "M5.5 10a6.5 6.5 0 1 0 13 0a6.5 6.5 0 1 0 -13 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16.5 14.5L21 19",
+      "closed": false
+    },
+    {
+      "d": "M9.5 8H14.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 11H14.5",
+      "closed": false
+    }
+  ]
+}

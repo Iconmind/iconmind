@@ -1,0 +1,41 @@
+{
+  "slug": "rate-headers",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "Rate limit headers",
+  "description": "Quota bars under the title row — how much budget the response says is left",
+  "tags": [
+    "rate",
+    "quota",
+    "headers"
+  ],
+  "keywords": [
+    "rate limit headers",
+    "x-ratelimit",
+    "quota remaining",
+    "429"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 7H15",
+      "closed": false
+    },
+    {
+      "d": "M9 11.5V16",
+      "closed": false
+    },
+    {
+      "d": "M12 9.5V16",
+      "closed": false
+    },
+    {
+      "d": "M15 13V16",
+      "closed": false
+    }
+  ]
+}

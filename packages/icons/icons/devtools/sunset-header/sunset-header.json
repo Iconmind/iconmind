@@ -1,0 +1,41 @@
+{
+  "slug": "sunset-header",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "Sunset header",
+  "description": "A sun going down to the horizon line — the header naming the day an API goes away",
+  "tags": [
+    "sunset",
+    "shutdown",
+    "date"
+  ],
+  "keywords": [
+    "sunset header",
+    "api shutdown",
+    "end of life",
+    "deprecation date"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 15A5 5 0 0 1 17 15",
+      "closed": false
+    },
+    {
+      "d": "M4 18H20",
+      "closed": false
+    },
+    {
+      "d": "M12 4.5V7",
+      "closed": false
+    },
+    {
+      "d": "M5 8L7 10",
+      "closed": false
+    },
+    {
+      "d": "M19 8L17 10",
+      "closed": false
+    }
+  ]
+}

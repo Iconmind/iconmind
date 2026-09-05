@@ -1,0 +1,37 @@
+{
+  "slug": "retry-after",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "Retry after",
+  "description": "A timer dial with a chevron on its face — come back when the clock says you may",
+  "tags": [
+    "retry",
+    "backoff",
+    "wait"
+  ],
+  "keywords": [
+    "retry after",
+    "backoff",
+    "429 retry",
+    "wait period"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M15.38 6.75A8 8 0 1 1 8.62 6.75",
+      "closed": false
+    },
+    {
+      "d": "M12 3V6",
+      "closed": false
+    },
+    {
+      "d": "M9 3H15",
+      "closed": false
+    },
+    {
+      "d": "M10.5 11L13.5 14L10.5 17",
+      "closed": false
+    }
+  ]
+}

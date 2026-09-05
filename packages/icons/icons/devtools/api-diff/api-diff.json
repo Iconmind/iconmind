@@ -1,0 +1,37 @@
+{
+  "slug": "api-diff",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "API diff",
+  "description": "A document with a plus above and a minus below — what changed between two versions",
+  "tags": [
+    "diff",
+    "changes",
+    "compare"
+  ],
+  "keywords": [
+    "api diff",
+    "breaking change",
+    "changelog",
+    "schema diff"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 7V11",
+      "closed": false
+    },
+    {
+      "d": "M7 9H11",
+      "closed": false
+    },
+    {
+      "d": "M13 15H17",
+      "closed": false
+    }
+  ]
+}

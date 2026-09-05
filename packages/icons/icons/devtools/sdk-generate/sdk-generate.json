@@ -1,0 +1,33 @@
+{
+  "slug": "sdk-generate",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "SDK generate",
+  "description": "Brackets inside the machine — client code produced straight from the API's own spec",
+  "tags": [
+    "sdk",
+    "codegen",
+    "client"
+  ],
+  "keywords": [
+    "sdk generation",
+    "codegen",
+    "generated client",
+    "openapi generator"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M10.5 8.5L8 8.5L8 15.5L10.5 15.5",
+      "closed": false
+    },
+    {
+      "d": "M13.5 8.5L16 8.5L16 15.5L13.5 15.5",
+      "closed": false
+    }
+  ]
+}

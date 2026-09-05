@@ -1,0 +1,41 @@
+{
+  "slug": "http-patch",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "HTTP PATCH",
+  "description": "A plus over a minus between brackets — a PATCH request, changing only what it names",
+  "tags": [
+    "patch",
+    "partial",
+    "update"
+  ],
+  "keywords": [
+    "http patch",
+    "partial update",
+    "modify field",
+    "rest patch"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M12 7.5V11.5",
+      "closed": false
+    },
+    {
+      "d": "M10 9.5H14",
+      "closed": false
+    },
+    {
+      "d": "M10 14.5H14",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "etag",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "ETag",
+  "description": "A label below the title row — the tag a cache compares before fetching again",
+  "tags": [
+    "etag",
+    "cache",
+    "validator"
+  ],
+  "keywords": [
+    "etag header",
+    "cache validator",
+    "if-none-match",
+    "304"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 7H15",
+      "closed": false
+    },
+    {
+      "d": "M9 11L12 11L15 14L12 17L9 17Z",
+      "closed": true
+    }
+  ]
+}

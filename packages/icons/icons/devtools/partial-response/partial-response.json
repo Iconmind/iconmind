@@ -1,0 +1,37 @@
+{
+  "slug": "partial-response",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "Partial response",
+  "description": "Rows that trail off — a response cut short on purpose, the rest left unfetched",
+  "tags": [
+    "partial",
+    "truncated",
+    "less"
+  ],
+  "keywords": [
+    "partial response",
+    "truncated body",
+    "partial content",
+    "206"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 7H15",
+      "closed": false
+    },
+    {
+      "d": "M9 10.5H15",
+      "closed": false
+    },
+    {
+      "d": "M9 14H11.5",
+      "closed": false
+    }
+  ]
+}

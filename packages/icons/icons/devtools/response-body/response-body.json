@@ -1,0 +1,37 @@
+{
+  "slug": "response-body",
+  "category": "devtools",
+  "subcategory": "api",
+  "name": "Response body",
+  "description": "An arrow leaving above a row — the payload an answer brings back out",
+  "tags": [
+    "response",
+    "payload",
+    "output"
+  ],
+  "keywords": [
+    "response body",
+    "response payload",
+    "output document",
+    "result body"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M12 6V10.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 8.5L12 6L14.5 8.5",
+      "closed": false
+    },
+    {
+      "d": "M9 15.5H15",
+      "closed": false
+    }
+  ]
+}
