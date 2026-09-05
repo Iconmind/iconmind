@@ -1,0 +1,38 @@
+{
+  "slug": "new-arrival",
+  "category": "commerce",
+  "subcategory": "store",
+  "name": "New arrival",
+  "description": "The storefront with a chevron rising over a line — just in",
+  "tags": [
+    "shop",
+    "new",
+    "arrival"
+  ],
+  "keywords": [
+    "new arrival",
+    "new in",
+    "just arrived",
+    "latest products"
+  ],
+  "family": "store",
+  "shapes": [
+    {
+      "d": "M2 5H22M2 5A2.5 2.5 0 0 0 7 5A2.5 2.5 0 0 0 12 5A2.5 2.5 0 0 0 17 5A2.5 2.5 0 0 0 22 5",
+      "closed": false,
+      "_why": "an awning: a rail with four scallops hanging from it"
+    },
+    {
+      "d": "M4 8L4 22L20 22L20 8",
+      "closed": false
+    },
+    {
+      "d": "M9.5 14L12 11.5L14.5 14",
+      "closed": false
+    },
+    {
+      "d": "M9 17.5H15",
+      "closed": false
+    }
+  ]
+}

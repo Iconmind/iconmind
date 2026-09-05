@@ -1,0 +1,37 @@
+{
+  "slug": "stock-in",
+  "category": "commerce",
+  "subcategory": "store",
+  "name": "In stock",
+  "description": "The product box with an arrow dropping into it — there is some to sell",
+  "tags": [
+    "stock",
+    "available",
+    "inventory"
+  ],
+  "keywords": [
+    "in stock",
+    "available",
+    "stock in",
+    "ready to ship"
+  ],
+  "family": "box",
+  "shapes": [
+    {
+      "d": "M3 6A2 2 0 0 1 5 4H19A2 2 0 0 1 21 6V20A2 2 0 0 1 19 22H5A2 2 0 0 1 3 20Z",
+      "closed": true
+    },
+    {
+      "d": "M4 8H20",
+      "closed": false
+    },
+    {
+      "d": "M12 10.5V16.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 14L12 16.5L14.5 14",
+      "closed": false
+    }
+  ]
+}

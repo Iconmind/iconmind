@@ -1,0 +1,41 @@
+{
+  "slug": "barcode-scan",
+  "category": "commerce",
+  "subcategory": "store",
+  "name": "Barcode scan",
+  "description": "A bracket pair with bars between — a product read by its code",
+  "tags": [
+    "barcode",
+    "scan",
+    "product"
+  ],
+  "keywords": [
+    "barcode scan",
+    "scan barcode",
+    "scanner",
+    "read barcode"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M9 8V16",
+      "closed": false
+    },
+    {
+      "d": "M12 8V16",
+      "closed": false
+    },
+    {
+      "d": "M15 8V16",
+      "closed": false
+    }
+  ]
+}

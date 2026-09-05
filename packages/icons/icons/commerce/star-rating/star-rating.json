@@ -1,0 +1,37 @@
+{
+  "slug": "star-rating",
+  "category": "commerce",
+  "subcategory": "store",
+  "name": "Star rating",
+  "description": "Three set stones over a line — the set's stars, and the bar they are counted on",
+  "tags": [
+    "rating",
+    "stars",
+    "review"
+  ],
+  "keywords": [
+    "star rating",
+    "rating",
+    "five stars",
+    "stars"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6.5 8L8.5 10L6.5 12L4.5 10Z",
+      "closed": true
+    },
+    {
+      "d": "M12 8L14 10L12 12L10 10Z",
+      "closed": true
+    },
+    {
+      "d": "M17.5 8L19.5 10L17.5 12L15.5 10Z",
+      "closed": true
+    },
+    {
+      "d": "M4 16H20",
+      "closed": false
+    }
+  ]
+}

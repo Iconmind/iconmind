@@ -1,0 +1,41 @@
+{
+  "slug": "product-size",
+  "category": "commerce",
+  "subcategory": "store",
+  "name": "Product size",
+  "description": "The product box with an arrow pointing both ways — how big it comes",
+  "tags": [
+    "product",
+    "size",
+    "option"
+  ],
+  "keywords": [
+    "product size",
+    "size options",
+    "size guide",
+    "choose size"
+  ],
+  "family": "box",
+  "shapes": [
+    {
+      "d": "M3 6A2 2 0 0 1 5 4H19A2 2 0 0 1 21 6V20A2 2 0 0 1 19 22H5A2 2 0 0 1 3 20Z",
+      "closed": true
+    },
+    {
+      "d": "M4 8H20",
+      "closed": false
+    },
+    {
+      "d": "M8 15H16",
+      "closed": false
+    },
+    {
+      "d": "M10.5 12.5L8 15L10.5 17.5",
+      "closed": false
+    },
+    {
+      "d": "M13.5 12.5L16 15L13.5 17.5",
+      "closed": false
+    }
+  ]
+}

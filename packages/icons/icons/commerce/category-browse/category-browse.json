@@ -1,0 +1,42 @@
+{
+  "slug": "category-browse",
+  "category": "commerce",
+  "subcategory": "store",
+  "name": "Browse categories",
+  "description": "The storefront with a list in it — the shop's sections, one under another",
+  "tags": [
+    "shop",
+    "browse",
+    "category"
+  ],
+  "keywords": [
+    "browse categories",
+    "shop by category",
+    "departments",
+    "product categories"
+  ],
+  "family": "store",
+  "shapes": [
+    {
+      "d": "M2 5H22M2 5A2.5 2.5 0 0 0 7 5A2.5 2.5 0 0 0 12 5A2.5 2.5 0 0 0 17 5A2.5 2.5 0 0 0 22 5",
+      "closed": false,
+      "_why": "an awning: a rail with four scallops hanging from it"
+    },
+    {
+      "d": "M4 8L4 22L20 22L20 8",
+      "closed": false
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    },
+    {
+      "d": "M9 15H15",
+      "closed": false
+    },
+    {
+      "d": "M9 18H15",
+      "closed": false
+    }
+  ]
+}

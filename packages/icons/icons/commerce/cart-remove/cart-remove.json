@@ -1,0 +1,37 @@
+{
+  "slug": "cart-remove",
+  "category": "commerce",
+  "subcategory": "store",
+  "name": "Remove from cart",
+  "description": "The cart with a minus in it — one thing taken back out",
+  "tags": [
+    "cart",
+    "remove",
+    "buy"
+  ],
+  "keywords": [
+    "remove from cart",
+    "remove item",
+    "take out of cart",
+    "delete from cart"
+  ],
+  "family": "cart",
+  "shapes": [
+    {
+      "d": "M3 5.5A2 2 0 0 1 5 3.5H19A2 2 0 0 1 21 5.5V15.5A2 2 0 0 1 19 17.5H5A2 2 0 0 1 3 15.5Z",
+      "closed": true
+    },
+    {
+      "d": "M6.5 19.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15.5 19.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 10.5H15",
+      "closed": false
+    }
+  ]
+}

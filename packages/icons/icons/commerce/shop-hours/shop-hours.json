@@ -1,0 +1,42 @@
+{
+  "slug": "shop-hours",
+  "category": "commerce",
+  "subcategory": "store",
+  "name": "Shop hours",
+  "description": "The storefront with a clock in it — when the doors are open",
+  "tags": [
+    "shop",
+    "hours",
+    "time"
+  ],
+  "keywords": [
+    "shop hours",
+    "opening hours",
+    "store hours",
+    "open times"
+  ],
+  "family": "store",
+  "shapes": [
+    {
+      "d": "M2 5H22M2 5A2.5 2.5 0 0 0 7 5A2.5 2.5 0 0 0 12 5A2.5 2.5 0 0 0 17 5A2.5 2.5 0 0 0 22 5",
+      "closed": false,
+      "_why": "an awning: a rail with four scallops hanging from it"
+    },
+    {
+      "d": "M4 8L4 22L20 22L20 8",
+      "closed": false
+    },
+    {
+      "d": "M9 15a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12V15",
+      "closed": false
+    },
+    {
+      "d": "M12 15H14.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "sort-price",
+  "category": "commerce",
+  "subcategory": "store",
+  "name": "Sort by price",
+  "description": "A tag with chevrons up and down — the list ordered by what things cost",
+  "tags": [
+    "price",
+    "sort",
+    "order"
+  ],
+  "keywords": [
+    "sort by price",
+    "price low to high",
+    "price high to low",
+    "order by price"
+  ],
+  "family": "label",
+  "shapes": [
+    {
+      "d": "M4 12L12 4L20 4L20 12L12 20Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 11L12 8.5L14.5 11",
+      "closed": false
+    },
+    {
+      "d": "M9.5 13.5L12 16L14.5 13.5",
+      "closed": false
+    }
+  ]
+}

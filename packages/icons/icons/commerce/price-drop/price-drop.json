@@ -1,0 +1,37 @@
+{
+  "slug": "price-drop",
+  "category": "commerce",
+  "subcategory": "store",
+  "name": "Price drop",
+  "description": "A tag with an arrow dropping — cheaper than it was",
+  "tags": [
+    "price",
+    "drop",
+    "reduced"
+  ],
+  "keywords": [
+    "price drop",
+    "reduced price",
+    "price cut",
+    "was now"
+  ],
+  "family": "label",
+  "shapes": [
+    {
+      "d": "M4 12L12 4L20 4L20 12L12 20Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 8.5V14.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 12L12 14.5L14.5 12",
+      "closed": false
+    }
+  ]
+}

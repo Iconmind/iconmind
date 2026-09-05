@@ -1,0 +1,37 @@
+{
+  "slug": "price-label",
+  "category": "commerce",
+  "subcategory": "store",
+  "name": "Price label",
+  "description": "A tag with a price written on it — what a thing costs, on the thing",
+  "tags": [
+    "price",
+    "label",
+    "tag"
+  ],
+  "keywords": [
+    "price label",
+    "price tag",
+    "shelf price",
+    "marked price"
+  ],
+  "family": "label",
+  "shapes": [
+    {
+      "d": "M4 12L12 4L20 4L20 12L12 20Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 10.5H15",
+      "closed": false
+    },
+    {
+      "d": "M9 14.5H13",
+      "closed": false
+    }
+  ]
+}

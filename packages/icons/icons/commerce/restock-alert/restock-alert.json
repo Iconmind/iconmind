@@ -1,0 +1,34 @@
+{
+  "slug": "restock-alert",
+  "category": "commerce",
+  "subcategory": "store",
+  "name": "Restock alert",
+  "description": "The alarm bell with a box in it — told when it is back in stock",
+  "tags": [
+    "stock",
+    "alert",
+    "notify"
+  ],
+  "keywords": [
+    "restock alert",
+    "back in stock alert",
+    "notify me",
+    "stock notification"
+  ],
+  "family": "bell",
+  "shapes": [
+    {
+      "d": "M6 15V10A6 6 0 0 1 18 10V15L20.5 17.5H3.5L6 15Z",
+      "closed": true,
+      "_why": "a bell: dome, shoulders, flared skirt and lip"
+    },
+    {
+      "d": "M14 18.5A2 2 0 0 1 10 18.5",
+      "closed": false
+    },
+    {
+      "d": "M9 8L15 8L15 14L9 14Z",
+      "closed": true
+    }
+  ]
+}

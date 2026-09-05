@@ -1,0 +1,33 @@
+{
+  "slug": "product-colour",
+  "category": "commerce",
+  "subcategory": "store",
+  "name": "Product colour",
+  "description": "The product box with a swatch in it — which colour it comes in",
+  "tags": [
+    "product",
+    "colour",
+    "option"
+  ],
+  "keywords": [
+    "product colour",
+    "product color",
+    "colour options",
+    "swatch"
+  ],
+  "family": "box",
+  "shapes": [
+    {
+      "d": "M3 6A2 2 0 0 1 5 4H19A2 2 0 0 1 21 6V20A2 2 0 0 1 19 22H5A2 2 0 0 1 3 20Z",
+      "closed": true
+    },
+    {
+      "d": "M4 8H20",
+      "closed": false
+    },
+    {
+      "d": "M9 15a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

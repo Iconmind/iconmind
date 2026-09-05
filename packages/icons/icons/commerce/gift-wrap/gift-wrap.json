@@ -1,0 +1,33 @@
+{
+  "slug": "gift-wrap",
+  "category": "commerce",
+  "subcategory": "store",
+  "name": "Gift wrap",
+  "description": "The product box with a ribbon down it — wrapped before it is sent",
+  "tags": [
+    "gift",
+    "wrap",
+    "present"
+  ],
+  "keywords": [
+    "gift wrap",
+    "wrapped gift",
+    "gift wrapping",
+    "present"
+  ],
+  "family": "box",
+  "shapes": [
+    {
+      "d": "M3 6A2 2 0 0 1 5 4H19A2 2 0 0 1 21 6V20A2 2 0 0 1 19 22H5A2 2 0 0 1 3 20Z",
+      "closed": true
+    },
+    {
+      "d": "M4 8H20",
+      "closed": false
+    },
+    {
+      "d": "M12 10V20",
+      "closed": false
+    }
+  ]
+}

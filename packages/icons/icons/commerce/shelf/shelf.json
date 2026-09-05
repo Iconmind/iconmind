@@ -1,0 +1,41 @@
+{
+  "slug": "shelf",
+  "category": "commerce",
+  "subcategory": "store",
+  "name": "Shelf",
+  "description": "Three shelves with goods standing on them — where stock sits in the shop",
+  "tags": [
+    "shop",
+    "shelf",
+    "display"
+  ],
+  "keywords": [
+    "shelf",
+    "store shelf",
+    "shelving",
+    "on the shelf"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M3 13H21",
+      "closed": false
+    },
+    {
+      "d": "M3 19H21",
+      "closed": false
+    },
+    {
+      "d": "M5.5 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14.5 16a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

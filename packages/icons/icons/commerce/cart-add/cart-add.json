@@ -1,0 +1,41 @@
+{
+  "slug": "cart-add",
+  "category": "commerce",
+  "subcategory": "store",
+  "name": "Add to cart",
+  "description": "The cart with a plus in it — one more thing on its way to checkout",
+  "tags": [
+    "cart",
+    "add",
+    "buy"
+  ],
+  "keywords": [
+    "add to cart",
+    "add to basket",
+    "add item",
+    "put in cart"
+  ],
+  "family": "cart",
+  "shapes": [
+    {
+      "d": "M3 5.5A2 2 0 0 1 5 3.5H19A2 2 0 0 1 21 5.5V15.5A2 2 0 0 1 19 17.5H5A2 2 0 0 1 3 15.5Z",
+      "closed": true
+    },
+    {
+      "d": "M6.5 19.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15.5 19.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 7.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M9 10.5H15",
+      "closed": false
+    }
+  ]
+}

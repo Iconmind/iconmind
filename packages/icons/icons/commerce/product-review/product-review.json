@@ -1,0 +1,37 @@
+{
+  "slug": "product-review",
+  "category": "commerce",
+  "subcategory": "store",
+  "name": "Product review",
+  "description": "A speech bubble with a line and a stone — what a buyer said and how they rated it",
+  "tags": [
+    "review",
+    "rating",
+    "product"
+  ],
+  "keywords": [
+    "product review",
+    "customer review",
+    "reviews",
+    "rating and review"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 21L11 17",
+      "closed": false
+    },
+    {
+      "d": "M6 8H18",
+      "closed": false
+    },
+    {
+      "d": "M12 10.5L14 12.5L12 14.5L10 12.5Z",
+      "closed": true
+    }
+  ]
+}
