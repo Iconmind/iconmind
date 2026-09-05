@@ -1,0 +1,41 @@
+{
+  "slug": "idor",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "IDOR",
+  "description": "An open lock with a hash in it — an object reached by guessing its id",
+  "tags": [
+    "access",
+    "idor",
+    "attack"
+  ],
+  "keywords": [
+    "idor",
+    "insecure direct object reference",
+    "guessable id",
+    "object reference"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M5 11.5A2 2 0 0 1 7 9.5H17A2 2 0 0 1 19 11.5V19.5A2 2 0 0 1 17 21.5H7A2 2 0 0 1 5 19.5Z",
+      "closed": true
+    },
+    {
+      "d": "M8 7A4 4 0 0 1 16 7",
+      "closed": false
+    },
+    {
+      "d": "M10 13V18",
+      "closed": false
+    },
+    {
+      "d": "M14 13V18",
+      "closed": false
+    },
+    {
+      "d": "M8 15.5H16",
+      "closed": false
+    }
+  ]
+}

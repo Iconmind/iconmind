@@ -1,0 +1,33 @@
+{
+  "slug": "fail-secure",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Fail secure",
+  "description": "A shield with a lock in it — when something breaks, it breaks closed",
+  "tags": [
+    "fail",
+    "secure",
+    "defence"
+  ],
+  "keywords": [
+    "fail secure",
+    "fail closed",
+    "deny by default",
+    "safe failure"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M9 11L15 11L15 14L9 14Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 11A1.5 1.5 0 0 1 13.5 11",
+      "closed": false
+    }
+  ]
+}

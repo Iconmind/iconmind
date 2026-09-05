@@ -1,0 +1,33 @@
+{
+  "slug": "security-champion",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Security champion",
+  "description": "A person with a shield on the chest — the one on the team who carries security",
+  "tags": [
+    "champion",
+    "team",
+    "defence"
+  ],
+  "keywords": [
+    "security champion",
+    "appsec champion",
+    "security advocate",
+    "team security lead"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A9 9 0 0 1 21 21",
+      "closed": false
+    },
+    {
+      "d": "M9 14L15 14L15 17L12 20L9 17Z",
+      "closed": true
+    }
+  ]
+}

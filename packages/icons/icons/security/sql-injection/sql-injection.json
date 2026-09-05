@@ -1,0 +1,30 @@
+{
+  "slug": "sql-injection",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "SQL injection",
+  "description": "The database cylinder with a bolt in it — a query with an attacker's text in it",
+  "tags": [
+    "sql",
+    "injection",
+    "attack"
+  ],
+  "keywords": [
+    "sql injection",
+    "sqli",
+    "or 1=1",
+    "parameterise queries"
+  ],
+  "family": "cylinder",
+  "shapes": [
+    {
+      "d": "M4 6A8 3 0 0 1 20 6V18A8 3 0 0 1 4 18Z",
+      "closed": true,
+      "_why": "a cylinder: an elliptical rim, two sides, the far rim closing it"
+    },
+    {
+      "d": "M14 8.5L11.5 11L14 11L11.5 13.5",
+      "closed": false
+    }
+  ]
+}

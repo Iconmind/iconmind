@@ -1,0 +1,33 @@
+{
+  "slug": "threat-model",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Threat model",
+  "description": "A page with a decision diamond and a path out — what could go wrong, worked out before it does",
+  "tags": [
+    "threat",
+    "model",
+    "defence"
+  ],
+  "keywords": [
+    "threat model",
+    "threat modelling",
+    "data flow diagram",
+    "what could go wrong"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M12 8L15 11L12 14L9 11Z",
+      "closed": true
+    },
+    {
+      "d": "M12 14V18",
+      "closed": false
+    }
+  ]
+}

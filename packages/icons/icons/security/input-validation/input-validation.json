@@ -1,0 +1,33 @@
+{
+  "slug": "input-validation",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Input validation",
+  "description": "The wide machine with a funnel in it — input checked before the server takes it",
+  "tags": [
+    "input",
+    "validation",
+    "defence"
+  ],
+  "keywords": [
+    "input validation",
+    "validate input",
+    "allowlist",
+    "sanitise input"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M15.5 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V8L6 4H9.5",
+      "closed": true
+    },
+    {
+      "d": "M9 9L12 12L15 9",
+      "closed": false
+    },
+    {
+      "d": "M12 12V15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "open-redirect",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Open redirect",
+  "description": "A panel with a path that turns off somewhere else — a link that sends users where it likes",
+  "tags": [
+    "redirect",
+    "url",
+    "attack"
+  ],
+  "keywords": [
+    "open redirect",
+    "unvalidated redirect",
+    "redirect parameter",
+    "phishing redirect"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 6H18A3 3 0 0 1 21 9V15A3 3 0 0 1 18 18H6A3 3 0 0 1 3 15V9A3 3 0 0 1 6 6H9",
+      "closed": true
+    },
+    {
+      "d": "M6 15L11 15L15 11",
+      "closed": false
+    },
+    {
+      "d": "M11.5 11L15 11L15 14.5",
+      "closed": false
+    }
+  ]
+}

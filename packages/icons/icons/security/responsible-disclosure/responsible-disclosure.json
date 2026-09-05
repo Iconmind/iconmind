@@ -1,0 +1,33 @@
+{
+  "slug": "responsible-disclosure",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Responsible disclosure",
+  "description": "A shield with an arrow that turns and is handed on — a flaw told to the people who can fix it, first",
+  "tags": [
+    "disclosure",
+    "report",
+    "defence"
+  ],
+  "keywords": [
+    "responsible disclosure",
+    "coordinated disclosure",
+    "security.txt",
+    "report a vulnerability"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M9 8L9 13.5L14.5 13.5",
+      "closed": false
+    },
+    {
+      "d": "M12 11L14.5 13.5L12 16",
+      "closed": false
+    }
+  ]
+}

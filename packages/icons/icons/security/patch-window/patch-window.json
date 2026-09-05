@@ -1,0 +1,37 @@
+{
+  "slug": "patch-window",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Patch window",
+  "description": "A shield with a bracketed span in it — the time allowed to fix a known flaw",
+  "tags": [
+    "patch",
+    "sla",
+    "defence"
+  ],
+  "keywords": [
+    "patch window",
+    "remediation sla",
+    "time to patch",
+    "fix within days"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M10.5 8L8 8L8 14L10.5 14",
+      "closed": false
+    },
+    {
+      "d": "M13.5 8L16 8L16 14L13.5 14",
+      "closed": false
+    },
+    {
+      "d": "M10.5 11H13.5",
+      "closed": false
+    }
+  ]
+}

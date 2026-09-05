@@ -1,0 +1,38 @@
+{
+  "slug": "supply-chain-attack",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Supply chain attack",
+  "description": "The delivery truck with a bolt in its cargo — something planted before it reached you",
+  "tags": [
+    "supply-chain",
+    "attack",
+    "package"
+  ],
+  "keywords": [
+    "supply chain attack",
+    "compromised dependency",
+    "malicious package",
+    "build compromise"
+  ],
+  "family": "truck",
+  "shapes": [
+    {
+      "d": "M4 5H13A2 2 0 0 1 15 7V10H18.5L21 12.5V15A2 2 0 0 1 19 17H4A2 2 0 0 1 2 15V7A2 2 0 0 1 4 5Z",
+      "closed": true,
+      "_why": "truck body and cab drawn as one outline"
+    },
+    {
+      "d": "M5 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 7.5L8 10L10.5 10L8 12.5",
+      "closed": false
+    }
+  ]
+}

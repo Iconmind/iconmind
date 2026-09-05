@@ -1,0 +1,33 @@
+{
+  "slug": "output-encoding",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Output encoding",
+  "description": "A shield with angle brackets in it — text made safe before the page shows it",
+  "tags": [
+    "output",
+    "encoding",
+    "defence"
+  ],
+  "keywords": [
+    "output encoding",
+    "html escaping",
+    "escape output",
+    "contextual encoding"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M9.5 8.5L7 11L9.5 13.5",
+      "closed": false
+    },
+    {
+      "d": "M14.5 8.5L17 11L14.5 13.5",
+      "closed": false
+    }
+  ]
+}

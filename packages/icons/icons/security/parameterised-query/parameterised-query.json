@@ -1,0 +1,33 @@
+{
+  "slug": "parameterised-query",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Parameterised query",
+  "description": "A shield with a value threaded on a line — the value bound in, never pasted into the query",
+  "tags": [
+    "sql",
+    "query",
+    "defence"
+  ],
+  "keywords": [
+    "parameterised query",
+    "prepared statement",
+    "bind parameters",
+    "no string concatenation"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M8 11H16",
+      "closed": false
+    },
+    {
+      "d": "M10 11a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

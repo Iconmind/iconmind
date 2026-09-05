@@ -1,0 +1,33 @@
+{
+  "slug": "security-header",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Security header",
+  "description": "A panel with a header line and a check under it — the headers a response carries to protect the page",
+  "tags": [
+    "header",
+    "response",
+    "defence"
+  ],
+  "keywords": [
+    "security header",
+    "hsts",
+    "x-content-type-options",
+    "secure headers"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 6H18A3 3 0 0 1 21 9V15A3 3 0 0 1 18 18H6A3 3 0 0 1 3 15V9A3 3 0 0 1 6 6H9",
+      "closed": true
+    },
+    {
+      "d": "M6 9H18",
+      "closed": false
+    },
+    {
+      "d": "M9 14L11 16L15 12",
+      "closed": false
+    }
+  ]
+}

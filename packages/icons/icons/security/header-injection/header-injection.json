@@ -1,0 +1,33 @@
+{
+  "slug": "header-injection",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Header injection",
+  "description": "A panel with a header line and a bolt under it — a line break smuggled into a header",
+  "tags": [
+    "header",
+    "injection",
+    "attack"
+  ],
+  "keywords": [
+    "header injection",
+    "crlf injection",
+    "response splitting",
+    "http header injection"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 6H18A3 3 0 0 1 21 9V15A3 3 0 0 1 18 18H6A3 3 0 0 1 3 15V9A3 3 0 0 1 6 6H9",
+      "closed": true
+    },
+    {
+      "d": "M6 9H18",
+      "closed": false
+    },
+    {
+      "d": "M13.5 11L11 13.5L13.5 13.5L11 16",
+      "closed": false
+    }
+  ]
+}

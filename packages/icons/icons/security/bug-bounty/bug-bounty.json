@@ -1,0 +1,33 @@
+{
+  "slug": "bug-bounty",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Bug bounty",
+  "description": "A shield with a coin in it — a reward for the flaw reported the right way",
+  "tags": [
+    "bounty",
+    "program",
+    "defence"
+  ],
+  "keywords": [
+    "bug bounty",
+    "bounty program",
+    "hackerone",
+    "reward for bugs"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M9 11a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9V13",
+      "closed": false
+    }
+  ]
+}

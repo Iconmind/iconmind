@@ -1,0 +1,37 @@
+{
+  "slug": "xxe",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "XXE",
+  "description": "A page with a tag and a bar in it — an XML entity that reads files it should not",
+  "tags": [
+    "xml",
+    "injection",
+    "attack"
+  ],
+  "keywords": [
+    "xxe",
+    "xml external entity",
+    "entity expansion",
+    "xml injection"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M10 9.5L7.5 12L10 14.5",
+      "closed": false
+    },
+    {
+      "d": "M14 9.5L16.5 12L14 14.5",
+      "closed": false
+    },
+    {
+      "d": "M12 9.5V14.5",
+      "closed": false
+    }
+  ]
+}

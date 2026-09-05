@@ -1,0 +1,33 @@
+{
+  "slug": "ssrf",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "SSRF",
+  "description": "The wide machine with an arrow that loops back into it — the server made to fetch something for the attacker",
+  "tags": [
+    "ssrf",
+    "request",
+    "attack"
+  ],
+  "keywords": [
+    "ssrf",
+    "server-side request forgery",
+    "internal request",
+    "metadata endpoint"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M15.5 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V8L6 4H9.5",
+      "closed": true
+    },
+    {
+      "d": "M8.5 14.5L8.5 9.5L15.5 9.5L15.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M13 12L15.5 14.5L18 12",
+      "closed": false
+    }
+  ]
+}

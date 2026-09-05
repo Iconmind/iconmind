@@ -1,0 +1,37 @@
+{
+  "slug": "sandbox-escape",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Sandbox escape",
+  "description": "A box inside a box with an arrow climbing out of the inner one — code reaching past its walls",
+  "tags": [
+    "sandbox",
+    "escape",
+    "attack"
+  ],
+  "keywords": [
+    "sandbox escape",
+    "container escape",
+    "break out",
+    "isolation bypass"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H20A2 2 0 0 1 22 4V20A2 2 0 0 1 20 22H4A2 2 0 0 1 2 20Z",
+      "closed": true
+    },
+    {
+      "d": "M7 11A2 2 0 0 1 9 9H15A2 2 0 0 1 17 11V16A2 2 0 0 1 15 18H9A2 2 0 0 1 7 16Z",
+      "closed": true
+    },
+    {
+      "d": "M12 5.5V13",
+      "closed": false
+    },
+    {
+      "d": "M9.5 8L12 5.5L14.5 8",
+      "closed": false
+    }
+  ]
+}

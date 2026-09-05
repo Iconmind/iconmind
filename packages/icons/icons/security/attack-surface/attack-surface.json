@@ -1,0 +1,45 @@
+{
+  "slug": "attack-surface",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Attack surface",
+  "description": "The wide machine with two arrows landing on a surface — everything an attacker can touch",
+  "tags": [
+    "surface",
+    "exposure",
+    "attack"
+  ],
+  "keywords": [
+    "attack surface",
+    "exposed surface",
+    "entry points",
+    "surface reduction"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M15.5 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V8L6 4H9.5",
+      "closed": true
+    },
+    {
+      "d": "M6 15H18",
+      "closed": false
+    },
+    {
+      "d": "M8 7V11",
+      "closed": false
+    },
+    {
+      "d": "M5.5 8.5L8 11L10.5 8.5",
+      "closed": false
+    },
+    {
+      "d": "M16 7V11",
+      "closed": false
+    },
+    {
+      "d": "M13.5 8.5L16 11L18.5 8.5",
+      "closed": false
+    }
+  ]
+}

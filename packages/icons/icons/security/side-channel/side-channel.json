@@ -1,0 +1,41 @@
+{
+  "slug": "side-channel",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Side channel",
+  "description": "An open lock with a signal in it — a secret read from power, cache or sound",
+  "tags": [
+    "side-channel",
+    "attack",
+    "hardware"
+  ],
+  "keywords": [
+    "side channel",
+    "cache timing",
+    "spectre",
+    "power analysis"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M5 11.5A2 2 0 0 1 7 9.5H17A2 2 0 0 1 19 11.5V19.5A2 2 0 0 1 17 21.5H7A2 2 0 0 1 5 19.5Z",
+      "closed": true
+    },
+    {
+      "d": "M8 7A4 4 0 0 1 16 7",
+      "closed": false
+    },
+    {
+      "d": "M7.3 15.79A5 5 0 0 1 16.7 15.79",
+      "closed": false
+    },
+    {
+      "d": "M10.12 16.82A2 2 0 0 1 13.88 16.82",
+      "closed": false
+    },
+    {
+      "d": "M11 17.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "race-condition-sec",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Race condition",
+  "description": "The wide machine with two arrows racing — two requests arriving so close that a check is skipped",
+  "tags": [
+    "race",
+    "concurrency",
+    "attack"
+  ],
+  "keywords": [
+    "race condition",
+    "toctou",
+    "double spend",
+    "concurrent requests"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M15.5 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V8L6 4H9.5",
+      "closed": true
+    },
+    {
+      "d": "M5 9.5H15",
+      "closed": false
+    },
+    {
+      "d": "M12.5 7L15 9.5L12.5 12",
+      "closed": false
+    },
+    {
+      "d": "M5 14.5H12",
+      "closed": false
+    },
+    {
+      "d": "M9.5 12L12 14.5L9.5 17",
+      "closed": false
+    }
+  ]
+}

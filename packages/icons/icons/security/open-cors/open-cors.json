@@ -1,0 +1,41 @@
+{
+  "slug": "open-cors",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Open CORS",
+  "description": "An open lock with an arrow pointing both ways — any origin allowed to read the response",
+  "tags": [
+    "cors",
+    "origin",
+    "attack"
+  ],
+  "keywords": [
+    "open cors",
+    "wildcard origin",
+    "access-control-allow-origin *",
+    "permissive cors"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M5 11.5A2 2 0 0 1 7 9.5H17A2 2 0 0 1 19 11.5V19.5A2 2 0 0 1 17 21.5H7A2 2 0 0 1 5 19.5Z",
+      "closed": true
+    },
+    {
+      "d": "M8 7A4 4 0 0 1 16 7",
+      "closed": false
+    },
+    {
+      "d": "M7 15.5H17",
+      "closed": false
+    },
+    {
+      "d": "M9.5 13L7 15.5L9.5 18",
+      "closed": false
+    },
+    {
+      "d": "M14.5 13L17 15.5L14.5 18",
+      "closed": false
+    }
+  ]
+}

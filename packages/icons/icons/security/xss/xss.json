@@ -1,0 +1,37 @@
+{
+  "slug": "xss",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "XSS",
+  "description": "A panel with a tag and something planted in it — script slipped into a page others will load",
+  "tags": [
+    "xss",
+    "injection",
+    "attack"
+  ],
+  "keywords": [
+    "xss",
+    "cross-site scripting",
+    "script injection",
+    "stored xss"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 6H18A3 3 0 0 1 21 9V15A3 3 0 0 1 18 18H6A3 3 0 0 1 3 15V9A3 3 0 0 1 6 6H9",
+      "closed": true
+    },
+    {
+      "d": "M9 9.5L6.5 12L9 14.5",
+      "closed": false
+    },
+    {
+      "d": "M15 9.5L17.5 12L15 14.5",
+      "closed": false
+    },
+    {
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

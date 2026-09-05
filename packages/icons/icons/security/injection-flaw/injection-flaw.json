@@ -1,0 +1,37 @@
+{
+  "slug": "injection-flaw",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Injection flaw",
+  "description": "The wide machine with an arrow pushed into a box — input treated as an instruction",
+  "tags": [
+    "injection",
+    "input",
+    "attack"
+  ],
+  "keywords": [
+    "injection flaw",
+    "injection",
+    "command injection",
+    "owasp a03"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M15.5 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V8L6 4H9.5",
+      "closed": true
+    },
+    {
+      "d": "M5 12H9",
+      "closed": false
+    },
+    {
+      "d": "M6.5 9.5L9 12L6.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M9 9L15 9L15 15L9 15Z",
+      "closed": true
+    }
+  ]
+}

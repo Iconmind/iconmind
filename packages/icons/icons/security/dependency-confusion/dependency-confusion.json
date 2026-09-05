@@ -1,0 +1,41 @@
+{
+  "slug": "dependency-confusion",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Dependency confusion",
+  "description": "The wide machine with two packages and a cross between them — the public one picked over the private one",
+  "tags": [
+    "dependency",
+    "supply-chain",
+    "attack"
+  ],
+  "keywords": [
+    "dependency confusion",
+    "namespace confusion",
+    "public package shadowing",
+    "substitution attack"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M15.5 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V8L6 4H9.5",
+      "closed": true
+    },
+    {
+      "d": "M5.5 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14.5 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 10L14 14",
+      "closed": false
+    },
+    {
+      "d": "M14 10L10 14",
+      "closed": false
+    }
+  ]
+}

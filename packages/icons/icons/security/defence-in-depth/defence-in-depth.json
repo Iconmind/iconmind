@@ -1,0 +1,29 @@
+{
+  "slug": "defence-in-depth",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Defence in depth",
+  "description": "A shield with a shield inside it — more than one layer between the attacker and the data",
+  "tags": [
+    "defence",
+    "layers",
+    "depth"
+  ],
+  "keywords": [
+    "defence in depth",
+    "defense in depth",
+    "layered security",
+    "multiple controls"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M9 8L15 8L15 11L12 14L9 11Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "auth-bypass",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Auth bypass",
+  "description": "An open lock with an arrow walking through it — the login step skipped altogether",
+  "tags": [
+    "auth",
+    "bypass",
+    "attack"
+  ],
+  "keywords": [
+    "auth bypass",
+    "authentication bypass",
+    "skip login",
+    "broken authentication"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M5 11.5A2 2 0 0 1 7 9.5H17A2 2 0 0 1 19 11.5V19.5A2 2 0 0 1 17 21.5H7A2 2 0 0 1 5 19.5Z",
+      "closed": true
+    },
+    {
+      "d": "M8 7A4 4 0 0 1 16 7",
+      "closed": false
+    },
+    {
+      "d": "M8 15.5H16",
+      "closed": false
+    },
+    {
+      "d": "M13.5 13L16 15.5L13.5 18",
+      "closed": false
+    }
+  ]
+}

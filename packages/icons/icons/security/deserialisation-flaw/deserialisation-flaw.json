@@ -1,0 +1,29 @@
+{
+  "slug": "deserialisation-flaw",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Deserialisation flaw",
+  "description": "A bolt landing in a tray — data unpacked into an object that does something on arrival",
+  "tags": [
+    "deserialisation",
+    "input",
+    "attack"
+  ],
+  "keywords": [
+    "deserialisation flaw",
+    "insecure deserialization",
+    "gadget chain",
+    "pickle"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M15 4L10.5 8.5L13.5 8.5L9 13",
+      "closed": false
+    }
+  ]
+}

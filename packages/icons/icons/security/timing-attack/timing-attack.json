@@ -1,0 +1,41 @@
+{
+  "slug": "timing-attack",
+  "category": "security",
+  "subcategory": "threat",
+  "name": "Timing attack",
+  "description": "An open lock with a clock in it — a secret read from how long a check takes",
+  "tags": [
+    "timing",
+    "attack",
+    "clock"
+  ],
+  "keywords": [
+    "timing attack",
+    "constant time",
+    "timing side channel",
+    "compare timing"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M5 11.5A2 2 0 0 1 7 9.5H17A2 2 0 0 1 19 11.5V19.5A2 2 0 0 1 17 21.5H7A2 2 0 0 1 5 19.5Z",
+      "closed": true
+    },
+    {
+      "d": "M8 7A4 4 0 0 1 16 7",
+      "closed": false
+    },
+    {
+      "d": "M9 15.5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12.5V15.5",
+      "closed": false
+    },
+    {
+      "d": "M12 15.5H14.5",
+      "closed": false
+    }
+  ]
+}
