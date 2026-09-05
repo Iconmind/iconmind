@@ -1,6 +1,6 @@
 {
   "name": "@iconmind/solid",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "description": "SolidJS components for IconMind — 3,287 tree-shakeable icons for AI-era software (LLMs, agents, MCP, RAG).",
   "keywords": [
     "icons",

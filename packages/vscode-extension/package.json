@@ -2,7 +2,7 @@
   "name": "iconmind-vscode",
   "displayName": "IconMind Icons",
   "description": "Autocomplete and previews for IconMind icons — 3,287 open-source icons for AI-era software — in React, Vue, Svelte, Solid, Preact, React Native, Astro and Flutter.",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "publisher": "iconmind",
   "private": true,
   "license": "MIT",

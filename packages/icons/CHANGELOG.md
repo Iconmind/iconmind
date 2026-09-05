@@ -1,5 +1,11 @@
 # @iconmind/icons
 
+## 0.6.4
+
+### Patch Changes
+
+- feat(icons): the third thousand — 850 icons, 3,287 in all
+
 ## 0.6.3
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "@iconmind/icons",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "type": "module",
   "license": "MIT",
   "sideEffects": false,
@@ -40,7 +40,7 @@
     "@iconmind/shared": "workspace:*",
     "tsx": "^4.20.6"
   },
-  "description": "3,287 SVG icons for AI-era software \u2014 LLMs, agents, MCP, RAG. Six cells per icon: outline & duotone at three weights.",
+  "description": "3,287 SVG icons for AI-era software — LLMs, agents, MCP, RAG. Six cells per icon: outline & duotone at three weights.",
   "keywords": [
     "icons",
     "svg",
