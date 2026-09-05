@@ -1,0 +1,33 @@
+{
+  "slug": "flaky-job",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Flaky job",
+  "description": "The build brick with a zigzag in it — a job that passes and fails without a change",
+  "tags": [
+    "build",
+    "flaky",
+    "job"
+  ],
+  "keywords": [
+    "flaky job",
+    "flaky build",
+    "intermittent failure",
+    "retry until green"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V14A2 2 0 0 1 18 16H6A2 2 0 0 1 4 14Z",
+      "closed": true
+    },
+    {
+      "d": "M7 19H17",
+      "closed": false
+    },
+    {
+      "d": "M8 12L10.5 9.5L13 12L15.5 9.5",
+      "closed": false
+    }
+  ]
+}

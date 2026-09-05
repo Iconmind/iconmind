@@ -1,0 +1,37 @@
+{
+  "slug": "runner-pool",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Runner pool",
+  "description": "A machine frame with three points in it — the runners a job can be handed to",
+  "tags": [
+    "build",
+    "runner",
+    "pool"
+  ],
+  "keywords": [
+    "runner pool",
+    "agent pool",
+    "runner group",
+    "shared runners"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M11 9.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8.5 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

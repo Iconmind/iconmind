@@ -1,0 +1,33 @@
+{
+  "slug": "trunk-based",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Trunk-based",
+  "description": "One trunk with two short branches folding back into it — everyone commits to main",
+  "tags": [
+    "git",
+    "trunk",
+    "branch"
+  ],
+  "keywords": [
+    "trunk-based development",
+    "commit to main",
+    "short-lived branches",
+    "tbd"
+  ],
+  "family": "chain",
+  "shapes": [
+    {
+      "d": "M12 3V21",
+      "closed": false
+    },
+    {
+      "d": "M7.5 6.5L12 11",
+      "closed": false
+    },
+    {
+      "d": "M16.5 12.5L12 17",
+      "closed": false
+    }
+  ]
+}

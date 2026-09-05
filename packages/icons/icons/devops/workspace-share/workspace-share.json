@@ -1,0 +1,41 @@
+{
+  "slug": "workspace-share",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Shared workspace",
+  "description": "The build brick with two points tied together — files handed from one job to the next",
+  "tags": [
+    "build",
+    "workspace",
+    "share"
+  ],
+  "keywords": [
+    "shared workspace",
+    "workspace",
+    "pass files between jobs",
+    "persist workspace"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V14A2 2 0 0 1 18 16H6A2 2 0 0 1 4 14Z",
+      "closed": true
+    },
+    {
+      "d": "M7 19H17",
+      "closed": false
+    },
+    {
+      "d": "M7.5 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14.5 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 10H14.5",
+      "closed": false
+    }
+  ]
+}

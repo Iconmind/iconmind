@@ -1,0 +1,33 @@
+{
+  "slug": "artifact-retention",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Artifact retention",
+  "description": "The artifact crate with an hourglass in it — how long a build's output is kept",
+  "tags": [
+    "artifact",
+    "retention",
+    "time"
+  ],
+  "keywords": [
+    "artifact retention",
+    "keep artifacts",
+    "expire artifacts",
+    "retention days"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 6H17A3 3 0 0 1 20 9V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V9A3 3 0 0 1 7 6H10",
+      "closed": true
+    },
+    {
+      "d": "M4 10H20",
+      "closed": false
+    },
+    {
+      "d": "M10 13L14 13L10 17L14 17Z",
+      "closed": true
+    }
+  ]
+}

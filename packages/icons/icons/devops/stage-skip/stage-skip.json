@@ -1,0 +1,34 @@
+{
+  "slug": "stage-skip",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Skip stage",
+  "description": "The pipe with a skip mark in it — a stage jumped over on purpose",
+  "tags": [
+    "pipeline",
+    "stage",
+    "skip"
+  ],
+  "keywords": [
+    "skip stage",
+    "skipped job",
+    "skip ci",
+    "bypass stage"
+  ],
+  "family": "pipe",
+  "shapes": [
+    {
+      "d": "M4 3V21M4 6H20M4 18H20M20 3V21",
+      "closed": false,
+      "_why": "a pipe: two flanges and the two walls between them"
+    },
+    {
+      "d": "M9 9L12 12L9 15",
+      "closed": false
+    },
+    {
+      "d": "M15 9V15",
+      "closed": false
+    }
+  ]
+}

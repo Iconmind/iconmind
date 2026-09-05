@@ -1,0 +1,45 @@
+{
+  "slug": "build-matrix",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Build matrix",
+  "description": "The build brick with a grid of points — one build per combination of versions",
+  "tags": [
+    "build",
+    "matrix",
+    "ci"
+  ],
+  "keywords": [
+    "build matrix",
+    "matrix strategy",
+    "test matrix",
+    "combinations"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V14A2 2 0 0 1 18 16H6A2 2 0 0 1 4 14Z",
+      "closed": true
+    },
+    {
+      "d": "M7 19H17",
+      "closed": false
+    },
+    {
+      "d": "M8.5 8a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 8a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8.5 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "rollback-auto",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Auto rollback",
+  "description": "The pipe with an arrow pointing back — the deploy undone by the pipeline itself when checks fail",
+  "tags": [
+    "deploy",
+    "rollback",
+    "auto"
+  ],
+  "keywords": [
+    "auto rollback",
+    "automatic rollback",
+    "rollback on failure",
+    "revert deploy"
+  ],
+  "family": "pipe",
+  "shapes": [
+    {
+      "d": "M4 3V21M4 6H20M4 18H20M20 3V21",
+      "closed": false,
+      "_why": "a pipe: two flanges and the two walls between them"
+    },
+    {
+      "d": "M9 12H17",
+      "closed": false
+    },
+    {
+      "d": "M11.5 9.5L9 12L11.5 14.5",
+      "closed": false
+    }
+  ]
+}

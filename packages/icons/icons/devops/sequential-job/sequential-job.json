@@ -1,0 +1,38 @@
+{
+  "slug": "sequential-job",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Sequential jobs",
+  "description": "The pipe with three points in a row — jobs that wait for the one before",
+  "tags": [
+    "pipeline",
+    "job",
+    "sequential"
+  ],
+  "keywords": [
+    "sequential jobs",
+    "one after another",
+    "serial jobs",
+    "needs"
+  ],
+  "family": "pipe",
+  "shapes": [
+    {
+      "d": "M4 3V21M4 6H20M4 18H20M20 3V21",
+      "closed": false,
+      "_why": "a pipe: two flanges and the two walls between them"
+    },
+    {
+      "d": "M7 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

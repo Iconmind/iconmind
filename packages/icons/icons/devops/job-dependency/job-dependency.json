@@ -1,0 +1,38 @@
+{
+  "slug": "job-dependency",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Job dependency",
+  "description": "The pipe with a point and an arrow leading from it — a job that cannot start until another ends",
+  "tags": [
+    "pipeline",
+    "job",
+    "dependency"
+  ],
+  "keywords": [
+    "job dependency",
+    "needs",
+    "depends on",
+    "upstream job"
+  ],
+  "family": "pipe",
+  "shapes": [
+    {
+      "d": "M4 3V21M4 6H20M4 18H20M20 3V21",
+      "closed": false,
+      "_why": "a pipe: two flanges and the two walls between them"
+    },
+    {
+      "d": "M6 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12H16",
+      "closed": false
+    },
+    {
+      "d": "M13.5 9.5L16 12L13.5 14.5",
+      "closed": false
+    }
+  ]
+}

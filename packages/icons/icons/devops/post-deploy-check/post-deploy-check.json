@@ -1,0 +1,34 @@
+{
+  "slug": "post-deploy-check",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Post-deploy check",
+  "description": "The pipe with a lens in it — a look at the service after the deploy lands",
+  "tags": [
+    "deploy",
+    "check",
+    "verify"
+  ],
+  "keywords": [
+    "post-deploy check",
+    "post deploy verification",
+    "deploy verification",
+    "health after deploy"
+  ],
+  "family": "pipe",
+  "shapes": [
+    {
+      "d": "M4 3V21M4 6H20M4 18H20M20 3V21",
+      "closed": false,
+      "_why": "a pipe: two flanges and the two walls between them"
+    },
+    {
+      "d": "M9 11a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11.5 11.5L15 15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "semantic-version",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Semantic version",
+  "description": "The release tag with three bars in it — major, minor and patch",
+  "tags": [
+    "release",
+    "version",
+    "semver"
+  ],
+  "keywords": [
+    "semantic version",
+    "semver",
+    "major minor patch",
+    "1.2.3"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 12L10 6L20 6L20 18L10 18Z",
+      "closed": true
+    },
+    {
+      "d": "M11 9.5V14.5",
+      "closed": false
+    },
+    {
+      "d": "M14 9.5V14.5",
+      "closed": false
+    },
+    {
+      "d": "M17 9.5V14.5",
+      "closed": false
+    }
+  ]
+}

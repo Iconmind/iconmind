@@ -1,0 +1,41 @@
+{
+  "slug": "build-number",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Build number",
+  "description": "The build brick with a hash in it — the number that names one build",
+  "tags": [
+    "build",
+    "number",
+    "id"
+  ],
+  "keywords": [
+    "build number",
+    "build id",
+    "run number",
+    "#123"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V14A2 2 0 0 1 18 16H6A2 2 0 0 1 4 14Z",
+      "closed": true
+    },
+    {
+      "d": "M7 19H17",
+      "closed": false
+    },
+    {
+      "d": "M10 7V13",
+      "closed": false
+    },
+    {
+      "d": "M14 7V13",
+      "closed": false
+    },
+    {
+      "d": "M8 10H16",
+      "closed": false
+    }
+  ]
+}

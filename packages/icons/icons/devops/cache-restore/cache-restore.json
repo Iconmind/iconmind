@@ -1,0 +1,37 @@
+{
+  "slug": "cache-restore",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Cache restore",
+  "description": "The build brick with an arrow dropping into it — saved work pulled back in before the build",
+  "tags": [
+    "build",
+    "cache",
+    "restore"
+  ],
+  "keywords": [
+    "cache restore",
+    "restore cache",
+    "cache hit",
+    "reuse dependencies"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V14A2 2 0 0 1 18 16H6A2 2 0 0 1 4 14Z",
+      "closed": true
+    },
+    {
+      "d": "M7 19H17",
+      "closed": false
+    },
+    {
+      "d": "M12 7V13",
+      "closed": false
+    },
+    {
+      "d": "M9.5 10.5L12 13L14.5 10.5",
+      "closed": false
+    }
+  ]
+}

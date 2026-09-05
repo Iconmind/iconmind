@@ -1,0 +1,30 @@
+{
+  "slug": "pipeline-stage",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Pipeline stage",
+  "description": "The pipe with one block in it — a named step the change passes through",
+  "tags": [
+    "pipeline",
+    "stage",
+    "step"
+  ],
+  "keywords": [
+    "pipeline stage",
+    "stage",
+    "build test deploy",
+    "step"
+  ],
+  "family": "pipe",
+  "shapes": [
+    {
+      "d": "M4 3V21M4 6H20M4 18H20M20 3V21",
+      "closed": false,
+      "_why": "a pipe: two flanges and the two walls between them"
+    },
+    {
+      "d": "M9 9L15 9L15 15L9 15Z",
+      "closed": true
+    }
+  ]
+}

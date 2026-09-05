@@ -1,0 +1,30 @@
+{
+  "slug": "deploy-approve",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Approve deploy",
+  "description": "The pipe with a check in it — a deploy given the go",
+  "tags": [
+    "deploy",
+    "approve",
+    "gate"
+  ],
+  "keywords": [
+    "approve deploy",
+    "deployment approved",
+    "approve release",
+    "go"
+  ],
+  "family": "pipe",
+  "shapes": [
+    {
+      "d": "M4 3V21M4 6H20M4 18H20M20 3V21",
+      "closed": false,
+      "_why": "a pipe: two flanges and the two walls between them"
+    },
+    {
+      "d": "M9 12L11 14L15 10",
+      "closed": false
+    }
+  ]
+}

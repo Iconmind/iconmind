@@ -1,0 +1,41 @@
+{
+  "slug": "scheduled-build",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Scheduled build",
+  "description": "The build brick with a clock in it — a build that runs on a timer, not a push",
+  "tags": [
+    "build",
+    "schedule",
+    "cron"
+  ],
+  "keywords": [
+    "scheduled build",
+    "cron build",
+    "timed build",
+    "schedule trigger"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V14A2 2 0 0 1 18 16H6A2 2 0 0 1 4 14Z",
+      "closed": true
+    },
+    {
+      "d": "M7 19H17",
+      "closed": false
+    },
+    {
+      "d": "M9 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 7V10",
+      "closed": false
+    },
+    {
+      "d": "M12 10H14.5",
+      "closed": false
+    }
+  ]
+}

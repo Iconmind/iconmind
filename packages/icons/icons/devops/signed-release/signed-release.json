@@ -1,0 +1,29 @@
+{
+  "slug": "signed-release",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Signed release",
+  "description": "The release tag with a check in it — a release whose signature has been verified",
+  "tags": [
+    "release",
+    "signed",
+    "verify"
+  ],
+  "keywords": [
+    "signed release",
+    "release signature",
+    "verified release",
+    "gpg signed"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 12L10 6L20 6L20 18L10 18Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12L13 14L17 10",
+      "closed": false
+    }
+  ]
+}

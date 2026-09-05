@@ -1,0 +1,34 @@
+{
+  "slug": "artifact-promote",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Promote artifact",
+  "description": "The pipe with a chevron lifting a bar — an artifact marked as good enough for the next stage",
+  "tags": [
+    "artifact",
+    "promote",
+    "pipeline"
+  ],
+  "keywords": [
+    "promote artifact",
+    "artifact promotion",
+    "mark as release",
+    "lift artifact"
+  ],
+  "family": "pipe",
+  "shapes": [
+    {
+      "d": "M4 3V21M4 6H20M4 18H20M20 3V21",
+      "closed": false,
+      "_why": "a pipe: two flanges and the two walls between them"
+    },
+    {
+      "d": "M9.5 11.5L12 9L14.5 11.5",
+      "closed": false
+    },
+    {
+      "d": "M9 15H15",
+      "closed": false
+    }
+  ]
+}

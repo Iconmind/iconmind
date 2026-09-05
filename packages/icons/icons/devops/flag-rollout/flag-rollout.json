@@ -1,0 +1,41 @@
+{
+  "slug": "flag-rollout",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Flag rollout",
+  "description": "A flag with bars rising on it — a feature turned on for more people a step at a time",
+  "tags": [
+    "flag",
+    "rollout",
+    "feature"
+  ],
+  "keywords": [
+    "flag rollout",
+    "feature flag rollout",
+    "percentage rollout",
+    "gradual enable"
+  ],
+  "family": "flag",
+  "shapes": [
+    {
+      "d": "M4 3V21",
+      "closed": false
+    },
+    {
+      "d": "M4 4L20 4L20 16L4 16",
+      "closed": false
+    },
+    {
+      "d": "M8 10V13",
+      "closed": false
+    },
+    {
+      "d": "M11 8V13",
+      "closed": false
+    },
+    {
+      "d": "M14 6V13",
+      "closed": false
+    }
+  ]
+}

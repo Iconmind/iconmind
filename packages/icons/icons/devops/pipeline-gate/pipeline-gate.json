@@ -1,0 +1,30 @@
+{
+  "slug": "pipeline-gate",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Pipeline gate",
+  "description": "The pipe with a bar across it — a condition the change must meet to go on",
+  "tags": [
+    "pipeline",
+    "gate",
+    "condition"
+  ],
+  "keywords": [
+    "pipeline gate",
+    "quality gate",
+    "promotion gate",
+    "must pass"
+  ],
+  "family": "pipe",
+  "shapes": [
+    {
+      "d": "M4 3V21M4 6H20M4 18H20M20 3V21",
+      "closed": false,
+      "_why": "a pipe: two flanges and the two walls between them"
+    },
+    {
+      "d": "M12 7.5V16.5",
+      "closed": false
+    }
+  ]
+}

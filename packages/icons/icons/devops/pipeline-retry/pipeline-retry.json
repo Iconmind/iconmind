@@ -1,0 +1,34 @@
+{
+  "slug": "pipeline-retry",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Retry pipeline",
+  "description": "The pipe with an arrow looping back in it — the run started over",
+  "tags": [
+    "pipeline",
+    "retry",
+    "rerun"
+  ],
+  "keywords": [
+    "retry pipeline",
+    "rerun",
+    "re-run failed jobs",
+    "retry job"
+  ],
+  "family": "pipe",
+  "shapes": [
+    {
+      "d": "M4 3V21M4 6H20M4 18H20M20 3V21",
+      "closed": false,
+      "_why": "a pipe: two flanges and the two walls between them"
+    },
+    {
+      "d": "M8.5 14.5L8.5 9.5L15.5 9.5L15.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M13 12L15.5 14.5L18 12",
+      "closed": false
+    }
+  ]
+}

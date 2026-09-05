@@ -1,0 +1,33 @@
+{
+  "slug": "build-artifact",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Build artifact",
+  "description": "The build brick with a box in it — what a build leaves behind to be shipped",
+  "tags": [
+    "build",
+    "artifact",
+    "output"
+  ],
+  "keywords": [
+    "build artifact",
+    "build output",
+    "binary",
+    "bundle"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V14A2 2 0 0 1 18 16H6A2 2 0 0 1 4 14Z",
+      "closed": true
+    },
+    {
+      "d": "M7 19H17",
+      "closed": false
+    },
+    {
+      "d": "M9 7L15 7L15 13L9 13Z",
+      "closed": true
+    }
+  ]
+}

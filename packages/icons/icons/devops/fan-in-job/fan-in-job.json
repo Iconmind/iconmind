@@ -1,0 +1,34 @@
+{
+  "slug": "fan-in-job",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Fan in",
+  "description": "The pipe with two lines joining into one — a job that waits for several to end",
+  "tags": [
+    "pipeline",
+    "job",
+    "fan-in"
+  ],
+  "keywords": [
+    "fan in",
+    "join jobs",
+    "many to one",
+    "wait for all"
+  ],
+  "family": "pipe",
+  "shapes": [
+    {
+      "d": "M4 3V21M4 6H20M4 18H20M20 3V21",
+      "closed": false,
+      "_why": "a pipe: two flanges and the two walls between them"
+    },
+    {
+      "d": "M8 9L11 9L14 12L17 12",
+      "closed": false
+    },
+    {
+      "d": "M8 15L11 15L14 12",
+      "closed": false
+    }
+  ]
+}

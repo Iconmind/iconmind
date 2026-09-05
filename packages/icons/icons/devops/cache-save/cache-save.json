@@ -1,0 +1,37 @@
+{
+  "slug": "cache-save",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Cache save",
+  "description": "The build brick with an arrow rising out of it — work saved for the next build",
+  "tags": [
+    "build",
+    "cache",
+    "save"
+  ],
+  "keywords": [
+    "cache save",
+    "save cache",
+    "upload cache",
+    "cache key"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V14A2 2 0 0 1 18 16H6A2 2 0 0 1 4 14Z",
+      "closed": true
+    },
+    {
+      "d": "M7 19H17",
+      "closed": false
+    },
+    {
+      "d": "M12 7V13",
+      "closed": false
+    },
+    {
+      "d": "M9.5 9.5L12 7L14.5 9.5",
+      "closed": false
+    }
+  ]
+}

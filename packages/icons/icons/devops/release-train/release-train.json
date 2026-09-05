@@ -1,0 +1,38 @@
+{
+  "slug": "release-train",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Release train",
+  "description": "The pipe with a clock in it — releases that leave on a schedule, with whatever is ready",
+  "tags": [
+    "release",
+    "train",
+    "schedule"
+  ],
+  "keywords": [
+    "release train",
+    "scheduled release",
+    "leaves on time",
+    "release cadence"
+  ],
+  "family": "pipe",
+  "shapes": [
+    {
+      "d": "M4 3V21M4 6H20M4 18H20M20 3V21",
+      "closed": false,
+      "_why": "a pipe: two flanges and the two walls between them"
+    },
+    {
+      "d": "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9V12",
+      "closed": false
+    },
+    {
+      "d": "M12 12H14.5",
+      "closed": false
+    }
+  ]
+}

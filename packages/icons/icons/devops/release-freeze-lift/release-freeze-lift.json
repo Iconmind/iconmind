@@ -1,0 +1,34 @@
+{
+  "slug": "release-freeze-lift",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Lift freeze",
+  "description": "The pipe with a lock whose shackle is lifted — the freeze over, deploys allowed again",
+  "tags": [
+    "deploy",
+    "freeze",
+    "unlock"
+  ],
+  "keywords": [
+    "lift freeze",
+    "unfreeze",
+    "freeze lifted",
+    "deploys resumed"
+  ],
+  "family": "pipe",
+  "shapes": [
+    {
+      "d": "M4 3V21M4 6H20M4 18H20M20 3V21",
+      "closed": false,
+      "_why": "a pipe: two flanges and the two walls between them"
+    },
+    {
+      "d": "M9 12L15 12L15 15L9 15Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 10A1.5 1.5 0 0 1 13.5 10",
+      "closed": false
+    }
+  ]
+}

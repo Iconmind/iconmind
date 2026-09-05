@@ -1,0 +1,38 @@
+{
+  "slug": "deploy-window",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Deploy window",
+  "description": "The pipe with a bracketed span in it — the hours in which a deploy is allowed",
+  "tags": [
+    "deploy",
+    "window",
+    "time"
+  ],
+  "keywords": [
+    "deploy window",
+    "deployment window",
+    "allowed hours",
+    "release window"
+  ],
+  "family": "pipe",
+  "shapes": [
+    {
+      "d": "M4 3V21M4 6H20M4 18H20M20 3V21",
+      "closed": false,
+      "_why": "a pipe: two flanges and the two walls between them"
+    },
+    {
+      "d": "M10.5 9L8 9L8 15L10.5 15",
+      "closed": false
+    },
+    {
+      "d": "M13.5 9L16 9L16 15L13.5 15",
+      "closed": false
+    },
+    {
+      "d": "M10.5 12H13.5",
+      "closed": false
+    }
+  ]
+}

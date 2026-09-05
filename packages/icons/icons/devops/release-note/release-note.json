@@ -1,0 +1,33 @@
+{
+  "slug": "release-note",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Release note",
+  "description": "A page with a tag and a line under it — what changed, written for the people who use it",
+  "tags": [
+    "release",
+    "note",
+    "changelog"
+  ],
+  "keywords": [
+    "release note",
+    "release notes",
+    "what's new",
+    "changes in this version"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 7L12 7L15 10L12 13L9 13Z",
+      "closed": true
+    },
+    {
+      "d": "M8 17H16",
+      "closed": false
+    }
+  ]
+}

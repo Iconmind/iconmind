@@ -1,0 +1,33 @@
+{
+  "slug": "build-agent",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Build agent",
+  "description": "A machine frame with a hammer in it — the machine that runs the build",
+  "tags": [
+    "build",
+    "agent",
+    "runner"
+  ],
+  "keywords": [
+    "build agent",
+    "ci agent",
+    "build machine",
+    "self-hosted runner"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M9 8H15",
+      "closed": false
+    },
+    {
+      "d": "M12 8V16",
+      "closed": false
+    }
+  ]
+}

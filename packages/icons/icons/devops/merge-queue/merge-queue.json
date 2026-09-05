@@ -1,0 +1,38 @@
+{
+  "slug": "merge-queue",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Merge queue",
+  "description": "The pipe with three bars queued in it — changes merged one at a time, in order",
+  "tags": [
+    "pipeline",
+    "merge",
+    "queue"
+  ],
+  "keywords": [
+    "merge queue",
+    "merge train",
+    "queued merges",
+    "serialised merges"
+  ],
+  "family": "pipe",
+  "shapes": [
+    {
+      "d": "M4 3V21M4 6H20M4 18H20M20 3V21",
+      "closed": false,
+      "_why": "a pipe: two flanges and the two walls between them"
+    },
+    {
+      "d": "M8 9V15",
+      "closed": false
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    },
+    {
+      "d": "M16 9V15",
+      "closed": false
+    }
+  ]
+}

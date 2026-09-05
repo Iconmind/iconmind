@@ -1,0 +1,34 @@
+{
+  "slug": "manual-approval",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Manual approval",
+  "description": "The pipe with a person standing in it — a step that waits for someone to say go",
+  "tags": [
+    "pipeline",
+    "approval",
+    "manual"
+  ],
+  "keywords": [
+    "manual approval",
+    "approval step",
+    "wait for approval",
+    "human gate"
+  ],
+  "family": "pipe",
+  "shapes": [
+    {
+      "d": "M4 3V21M4 6H20M4 18H20M20 3V21",
+      "closed": false,
+      "_why": "a pipe: two flanges and the two walls between them"
+    },
+    {
+      "d": "M10 9.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 16.5A4 4 0 0 1 16 16.5",
+      "closed": false
+    }
+  ]
+}

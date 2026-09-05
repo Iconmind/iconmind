@@ -1,0 +1,33 @@
+{
+  "slug": "changelog-generate",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Generate changelog",
+  "description": "A page with a prompt and a line — the changelog written by a command from the commits",
+  "tags": [
+    "release",
+    "changelog",
+    "generate"
+  ],
+  "keywords": [
+    "generate changelog",
+    "conventional commits",
+    "auto changelog",
+    "release please"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M8 9L10.5 11.5L8 14",
+      "closed": false
+    },
+    {
+      "d": "M12 14H16",
+      "closed": false
+    }
+  ]
+}

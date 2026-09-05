@@ -1,0 +1,37 @@
+{
+  "slug": "incremental-build",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Incremental build",
+  "description": "The build brick with a plus in it — only what changed is built again",
+  "tags": [
+    "build",
+    "incremental",
+    "cache"
+  ],
+  "keywords": [
+    "incremental build",
+    "build only changed",
+    "partial rebuild",
+    "fast build"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V14A2 2 0 0 1 18 16H6A2 2 0 0 1 4 14Z",
+      "closed": true
+    },
+    {
+      "d": "M7 19H17",
+      "closed": false
+    },
+    {
+      "d": "M12 7V13",
+      "closed": false
+    },
+    {
+      "d": "M9 10H15",
+      "closed": false
+    }
+  ]
+}

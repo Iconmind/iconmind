@@ -1,0 +1,41 @@
+{
+  "slug": "remote-cache",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Remote cache",
+  "description": "The build brick with a signal in it — a cache reached over the network and shared",
+  "tags": [
+    "build",
+    "cache",
+    "remote"
+  ],
+  "keywords": [
+    "remote cache",
+    "shared cache",
+    "distributed cache",
+    "cache server"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V14A2 2 0 0 1 18 16H6A2 2 0 0 1 4 14Z",
+      "closed": true
+    },
+    {
+      "d": "M7 19H17",
+      "closed": false
+    },
+    {
+      "d": "M6.36 10.95A6 6 0 0 1 17.64 10.95",
+      "closed": false
+    },
+    {
+      "d": "M9.18 11.97A3 3 0 0 1 14.82 11.97",
+      "closed": false
+    },
+    {
+      "d": "M11 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

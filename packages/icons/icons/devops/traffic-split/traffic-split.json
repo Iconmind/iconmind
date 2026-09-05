@@ -1,0 +1,34 @@
+{
+  "slug": "traffic-split",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Traffic split",
+  "description": "The pipe with a wide flow and a narrow one — most traffic one way, a little the other",
+  "tags": [
+    "deploy",
+    "traffic",
+    "split"
+  ],
+  "keywords": [
+    "traffic split",
+    "weighted routing",
+    "90/10",
+    "traffic shifting"
+  ],
+  "family": "pipe",
+  "shapes": [
+    {
+      "d": "M4 3V21M4 6H20M4 18H20M20 3V21",
+      "closed": false,
+      "_why": "a pipe: two flanges and the two walls between them"
+    },
+    {
+      "d": "M8 10H16",
+      "closed": false
+    },
+    {
+      "d": "M8 14H12",
+      "closed": false
+    }
+  ]
+}

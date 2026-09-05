@@ -1,0 +1,33 @@
+{
+  "slug": "nightly-build",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Nightly build",
+  "description": "The build brick with a Z in it — the build that runs while everyone sleeps",
+  "tags": [
+    "build",
+    "nightly",
+    "schedule"
+  ],
+  "keywords": [
+    "nightly build",
+    "nightly",
+    "overnight build",
+    "daily build"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V14A2 2 0 0 1 18 16H6A2 2 0 0 1 4 14Z",
+      "closed": true
+    },
+    {
+      "d": "M7 19H17",
+      "closed": false
+    },
+    {
+      "d": "M9.5 7.5L14.5 7.5L9.5 12.5L14.5 12.5",
+      "closed": false
+    }
+  ]
+}

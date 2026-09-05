@@ -1,0 +1,29 @@
+{
+  "slug": "release-candidate",
+  "category": "devops",
+  "subcategory": "ci-cd",
+  "name": "Release candidate",
+  "description": "The release tag with a diamond in it — the build that may become the release",
+  "tags": [
+    "release",
+    "candidate",
+    "rc"
+  ],
+  "keywords": [
+    "release candidate",
+    "rc",
+    "rc1",
+    "pre-release"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 12L10 6L20 6L20 18L10 18Z",
+      "closed": true
+    },
+    {
+      "d": "M14 9.5L16.5 12L14 14.5L11.5 12Z",
+      "closed": true
+    }
+  ]
+}
