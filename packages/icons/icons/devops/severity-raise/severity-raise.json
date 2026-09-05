@@ -1,0 +1,33 @@
+{
+  "slug": "severity-raise",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Raise severity",
+  "description": "The incident machine with an arrow rising — an incident judged worse than first thought",
+  "tags": [
+    "incident",
+    "severity",
+    "raise"
+  ],
+  "keywords": [
+    "raise severity",
+    "upgrade severity",
+    "escalate severity",
+    "worse than thought"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M12 9V17",
+      "closed": false
+    },
+    {
+      "d": "M9.5 11.5L12 9L14.5 11.5",
+      "closed": false
+    }
+  ]
+}

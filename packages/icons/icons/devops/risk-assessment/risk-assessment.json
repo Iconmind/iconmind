@@ -1,0 +1,29 @@
+{
+  "slug": "risk-assessment",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Risk assessment",
+  "description": "A page with a hazard diamond on it — what could go wrong, and how badly",
+  "tags": [
+    "change",
+    "risk",
+    "assess"
+  ],
+  "keywords": [
+    "risk assessment",
+    "risk review",
+    "blast radius review",
+    "what could go wrong"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M12 10L15 13L12 16L9 13Z",
+      "closed": true
+    }
+  ]
+}

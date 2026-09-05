@@ -1,0 +1,37 @@
+{
+  "slug": "comms-lead",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Comms lead",
+  "description": "A person with lines of text on the chest — the one who tells everyone else what is going on",
+  "tags": [
+    "incident",
+    "role",
+    "comms"
+  ],
+  "keywords": [
+    "comms lead",
+    "communications lead",
+    "incident comms",
+    "status updates"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A9 9 0 0 1 21 21",
+      "closed": false
+    },
+    {
+      "d": "M9.5 15H14.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 18H14.5",
+      "closed": false
+    }
+  ]
+}

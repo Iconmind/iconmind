@@ -8,8 +8,8 @@
  * Alerts live in the bell; dashboards in the window; the push gateway is a tray that
  * things are pushed into.
  */
-import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
-import { tray, window_ } from "../bodies.ts";
+import { col, disc, poly, rect, row } from "../forms.ts";
+import { alarm, tray, window_ } from "../bodies.ts";
 import {
   SMALL, clockMark, diamondMark, listMark, off, pause, searchMark, squareMark, tagMark, targetMark,
 } from "../marks.ts";
@@ -28,15 +28,6 @@ const c = (
 const AXES = () => [col(4, 4, 20), row(20, 4, 20)];
 /** A peaked distribution, drawn with the set's 45° runs. */
 const HILL = () => poly([[6, 17], [9, 14], [12, 11], [15, 14], [18, 17]]);
-/**
- * The alerting bell: a dome on straight shoulders, a skirt that flares at 45°, a wide lip
- * and the clapper hanging under it. Not the interface set's notification bell — that one is a
- * semicircle on a lip, and its every mark is already spoken for. Marks sit at cy 11.
- */
-const BELL = () => [
-  raw("M6 15V10A6 6 0 0 1 18 10V15L20.5 17.5H3.5L6 15Z", "a bell: dome, shoulders, flared skirt and lip", true),
-  arc(12, 18.5, 2, 0, 180),
-];
 /** The right-pointing arrow the set draws: a shaft and a 45° head that ends the shaft. */
 const ARROW_R = (y: number, x0: number, x1: number) =>
   [row(y, x0, x1), poly([[x1 - 2.5, y - 2.5], [x1, y], [x1 - 2.5, y + 2.5]])];
@@ -170,25 +161,25 @@ export const BATCH_95: Icon[] = [
   /* ── Alerts ───────────────────────────────────────────────────────────────────── */
   c("alert-rule-group", "Alert rule group", "A bell with a short list in it — alert rules evaluated together",
     ["alert", "rule", "group"], [], ["alert rule group", "rule group", "alerting rules", "evaluation group"],
-    "bell", [...BELL(), ...listMark(SMALL, 11)]),
+    "bell", [...alarm(), ...listMark(SMALL, 11)]),
   c("alert-threshold", "Alert threshold", "A bell with a level line and a point rising to meet it — the value that sets it ringing",
     ["alert", "threshold", "trigger"], [], ["alert threshold", "alert condition", "fires above", "trigger level"],
-    "bell", [...BELL(), row(9, 8.5, 15.5), poly([[9.5, 15], [12, 12.5], [14.5, 15]])]),
+    "bell", [...alarm(), row(9, 8.5, 15.5), poly([[9.5, 15], [12, 12.5], [14.5, 15]])]),
   c("alert-silence", "Alert silence", "A bell with a cross in it — an alert muted for a while",
     ["alert", "silence", "mute"], [], ["alert silence", "silenced", "mute alert", "snooze alert"],
-    "bell", [...BELL(), ...off(SMALL, 11)]),
+    "bell", [...alarm(), ...off(SMALL, 11)]),
   c("alert-group", "Alert group", "A bell with three points in it — alerts that fire together, sent as one",
     ["alert", "group", "batch"], [], ["alert group", "grouped alerts", "group by", "one notification"],
-    "bell", [...BELL(), disc(12, 8.5, 1), disc(9.5, 13, 1), disc(14.5, 13, 1)]),
+    "bell", [...alarm(), disc(12, 8.5, 1), disc(9.5, 13, 1), disc(14.5, 13, 1)]),
   c("alert-route", "Alert route", "A bell with an arrow through it — where an alert is sent, decided by its labels",
     ["alert", "route", "notify"], [], ["alert route", "routing tree", "receiver", "notification route"],
-    "bell", [...BELL(), ...ARROW_R(11, 8, 15.5)]),
+    "bell", [...alarm(), ...ARROW_R(11, 8, 15.5)]),
   c("alert-inhibit", "Alert inhibit", "A bell with a pause in it — an alert held back while a bigger one is firing",
     ["alert", "inhibit", "suppress"], [], ["alert inhibit", "inhibition rule", "suppress alert", "held back"],
-    "bell", [...BELL(), ...pause(SMALL, 11)]),
+    "bell", [...alarm(), ...pause(SMALL, 11)]),
   c("alert-dedupe", "Alert dedupe", "A bell with an equals sign in it — the same alert from many sources, sent once",
     ["alert", "dedupe", "duplicate"], [], ["alert dedupe", "deduplication", "same alert", "send once"],
-    "bell", [...BELL(), row(9, 9, 15), row(13, 9, 15)]),
+    "bell", [...alarm(), row(9, 9, 15), row(13, 9, 15)]),
 
   /* ── Dashboards ───────────────────────────────────────────────────────────────── */
   c("dashboard-panel", "Dashboard panel", "A window with one tile in it — a single chart on a dashboard",

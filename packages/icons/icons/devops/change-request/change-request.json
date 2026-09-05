@@ -1,0 +1,33 @@
+{
+  "slug": "change-request",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Change request",
+  "description": "A page with a plus on it — a change asked for before it is made",
+  "tags": [
+    "change",
+    "request",
+    "process"
+  ],
+  "keywords": [
+    "change request",
+    "rfc",
+    "change ticket",
+    "cab"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M12 10V16",
+      "closed": false
+    },
+    {
+      "d": "M9 13H15",
+      "closed": false
+    }
+  ]
+}

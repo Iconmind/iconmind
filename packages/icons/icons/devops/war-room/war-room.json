@@ -1,0 +1,33 @@
+{
+  "slug": "war-room",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "War room",
+  "description": "A panel with two lines of talk in it — the channel where the incident is worked",
+  "tags": [
+    "incident",
+    "room",
+    "channel"
+  ],
+  "keywords": [
+    "war room",
+    "incident channel",
+    "bridge call",
+    "incident room"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 6H18A3 3 0 0 1 21 9V15A3 3 0 0 1 18 18H6A3 3 0 0 1 3 15V9A3 3 0 0 1 6 6H9",
+      "closed": true
+    },
+    {
+      "d": "M7 10H17",
+      "closed": false
+    },
+    {
+      "d": "M7 14H13",
+      "closed": false
+    }
+  ]
+}

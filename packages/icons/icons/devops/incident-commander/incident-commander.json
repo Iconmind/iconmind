@@ -1,0 +1,33 @@
+{
+  "slug": "incident-commander",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Incident commander",
+  "description": "A person with a chevron on the chest — the one who runs the response",
+  "tags": [
+    "incident",
+    "role",
+    "commander"
+  ],
+  "keywords": [
+    "incident commander",
+    "ic",
+    "incident lead",
+    "response lead"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A9 9 0 0 1 21 21",
+      "closed": false
+    },
+    {
+      "d": "M9.5 17.5L12 15L14.5 17.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "status-page",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Status page",
+  "description": "A panel with a list whose bullets are lights — where customers see what is up and what is not",
+  "tags": [
+    "incident",
+    "status",
+    "page"
+  ],
+  "keywords": [
+    "status page",
+    "public status",
+    "system status",
+    "statuspage"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 6H18A3 3 0 0 1 21 9V15A3 3 0 0 1 18 18H6A3 3 0 0 1 3 15V9A3 3 0 0 1 6 6H9",
+      "closed": true
+    },
+    {
+      "d": "M7 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 10H17",
+      "closed": false
+    },
+    {
+      "d": "M7 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 14H14",
+      "closed": false
+    }
+  ]
+}

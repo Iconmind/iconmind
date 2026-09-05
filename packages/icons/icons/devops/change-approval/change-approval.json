@@ -1,0 +1,29 @@
+{
+  "slug": "change-approval",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Change approval",
+  "description": "A page with a ring seal on it — a change someone signed off",
+  "tags": [
+    "change",
+    "approval",
+    "process"
+  ],
+  "keywords": [
+    "change approval",
+    "approved change",
+    "sign off",
+    "cab approval"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 13a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

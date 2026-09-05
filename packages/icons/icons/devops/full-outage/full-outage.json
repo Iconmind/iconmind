@@ -1,0 +1,33 @@
+{
+  "slug": "full-outage",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Full outage",
+  "description": "The incident machine with a cross — the service is down for everyone",
+  "tags": [
+    "outage",
+    "down",
+    "incident"
+  ],
+  "keywords": [
+    "full outage",
+    "major outage",
+    "service down",
+    "hard down"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M10 10L14 14",
+      "closed": false
+    },
+    {
+      "d": "M14 10L10 14",
+      "closed": false
+    }
+  ]
+}

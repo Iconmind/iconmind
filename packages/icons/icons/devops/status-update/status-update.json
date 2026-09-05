@@ -1,0 +1,33 @@
+{
+  "slug": "status-update",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Status update",
+  "description": "A panel with an arrow rising in it — a note posted on how the incident is going",
+  "tags": [
+    "incident",
+    "status",
+    "update"
+  ],
+  "keywords": [
+    "status update",
+    "incident update",
+    "post update",
+    "next update in"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 6H18A3 3 0 0 1 21 9V15A3 3 0 0 1 18 18H6A3 3 0 0 1 3 15V9A3 3 0 0 1 6 6H9",
+      "closed": true
+    },
+    {
+      "d": "M12 9.5V15.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 12L12 9.5L14.5 12",
+      "closed": false
+    }
+  ]
+}

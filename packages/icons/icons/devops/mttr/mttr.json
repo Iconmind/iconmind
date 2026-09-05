@@ -1,0 +1,33 @@
+{
+  "slug": "mttr",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "MTTR",
+  "description": "A ring with a bolt and a check in it — how long, on average, from failure to fixed",
+  "tags": [
+    "incident",
+    "time",
+    "repair"
+  ],
+  "keywords": [
+    "mttr",
+    "mean time to recovery",
+    "mean time to repair",
+    "time to restore"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M13.5 6.5L9.5 10.5L12.5 10.5L8.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M12 15L14 17L17.5 13.5",
+      "closed": false
+    }
+  ]
+}

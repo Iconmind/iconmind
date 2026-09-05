@@ -1,0 +1,37 @@
+{
+  "slug": "incident-timeline",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Incident timeline",
+  "description": "The incident machine with a line and events either side of it — what happened, in order",
+  "tags": [
+    "incident",
+    "timeline",
+    "events"
+  ],
+  "keywords": [
+    "incident timeline",
+    "sequence of events",
+    "what happened when",
+    "timeline"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M12 7V17",
+      "closed": false
+    },
+    {
+      "d": "M7 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

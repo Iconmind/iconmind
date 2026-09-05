@@ -1,0 +1,37 @@
+{
+  "slug": "mtbf",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "MTBF",
+  "description": "A ring with two points and the gap between them — how long, on average, between failures",
+  "tags": [
+    "incident",
+    "time",
+    "failure"
+  ],
+  "keywords": [
+    "mtbf",
+    "mean time between failures",
+    "reliability",
+    "failure interval"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M5.5 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 12H14.5",
+      "closed": false
+    },
+    {
+      "d": "M14.5 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

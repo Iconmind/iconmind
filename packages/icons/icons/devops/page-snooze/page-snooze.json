@@ -1,0 +1,34 @@
+{
+  "slug": "page-snooze",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Snooze page",
+  "description": "The alarm bell with a Z in it — a page put off for a while",
+  "tags": [
+    "page",
+    "oncall",
+    "snooze"
+  ],
+  "keywords": [
+    "snooze page",
+    "snooze alert",
+    "remind me later",
+    "delay page"
+  ],
+  "family": "bell",
+  "shapes": [
+    {
+      "d": "M6 15V10A6 6 0 0 1 18 10V15L20.5 17.5H3.5L6 15Z",
+      "closed": true,
+      "_why": "a bell: dome, shoulders, flared skirt and lip"
+    },
+    {
+      "d": "M14 18.5A2 2 0 0 1 10 18.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 9L14.5 9L9.5 14L14.5 14",
+      "closed": false
+    }
+  ]
+}

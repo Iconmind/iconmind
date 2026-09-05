@@ -1,0 +1,29 @@
+{
+  "slug": "incident-review",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Incident review",
+  "description": "A page with the incident bolt on it — the incident written up and read together",
+  "tags": [
+    "incident",
+    "review",
+    "postmortem"
+  ],
+  "keywords": [
+    "incident review",
+    "post-incident review",
+    "pir",
+    "blameless review"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M15 8L10 13L13 13L8 18",
+      "closed": false
+    }
+  ]
+}

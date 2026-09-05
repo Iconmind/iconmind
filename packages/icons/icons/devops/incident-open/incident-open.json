@@ -1,0 +1,33 @@
+{
+  "slug": "incident-open",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Open incident",
+  "description": "The incident machine with a plus — an incident declared and given a number",
+  "tags": [
+    "incident",
+    "open",
+    "declare"
+  ],
+  "keywords": [
+    "open incident",
+    "declare incident",
+    "new incident",
+    "raise incident"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "customer-impact",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Customer impact",
+  "description": "The incident machine with a person in it — who this incident is being felt by",
+  "tags": [
+    "incident",
+    "impact",
+    "customer"
+  ],
+  "keywords": [
+    "customer impact",
+    "user impact",
+    "affected customers",
+    "who is affected"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M10 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 17A4 4 0 0 1 16 17",
+      "closed": false
+    }
+  ]
+}

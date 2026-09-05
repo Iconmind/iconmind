@@ -1,0 +1,42 @@
+{
+  "slug": "alert-fatigue",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Alert fatigue",
+  "description": "The alarm bell with bars fading in it — so many alerts that none of them lands any more",
+  "tags": [
+    "alert",
+    "fatigue",
+    "noise"
+  ],
+  "keywords": [
+    "alert fatigue",
+    "too many alerts",
+    "ignored alerts",
+    "alert overload"
+  ],
+  "family": "bell",
+  "shapes": [
+    {
+      "d": "M6 15V10A6 6 0 0 1 18 10V15L20.5 17.5H3.5L6 15Z",
+      "closed": true,
+      "_why": "a bell: dome, shoulders, flared skirt and lip"
+    },
+    {
+      "d": "M14 18.5A2 2 0 0 1 10 18.5",
+      "closed": false
+    },
+    {
+      "d": "M9 8V14",
+      "closed": false
+    },
+    {
+      "d": "M12 9.5V14",
+      "closed": false
+    },
+    {
+      "d": "M15 11V14",
+      "closed": false
+    }
+  ]
+}

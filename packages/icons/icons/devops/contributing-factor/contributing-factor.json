@@ -1,0 +1,33 @@
+{
+  "slug": "contributing-factor",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Contributing factor",
+  "description": "A page with two lines joining into one — something that helped it happen without being the cause",
+  "tags": [
+    "incident",
+    "cause",
+    "factor"
+  ],
+  "keywords": [
+    "contributing factor",
+    "contributing cause",
+    "made it worse",
+    "conditions"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M8.5 9L12 12.5L15.5 9",
+      "closed": false
+    },
+    {
+      "d": "M12 12.5V17",
+      "closed": false
+    }
+  ]
+}

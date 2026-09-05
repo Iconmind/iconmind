@@ -1,0 +1,37 @@
+{
+  "slug": "oncall-swap",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "On-call swap",
+  "description": "A person inside the rotation loop — the on-call rota turned so someone else takes the shift",
+  "tags": [
+    "oncall",
+    "swap",
+    "shift"
+  ],
+  "keywords": [
+    "on-call swap",
+    "swap shifts",
+    "cover my shift",
+    "schedule override"
+  ],
+  "family": "rotation",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V17A3 3 0 0 1 18 20H6A3 3 0 0 1 3 17V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M12 2L15 5L12 8",
+      "closed": false
+    },
+    {
+      "d": "M10 13a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 17H15",
+      "closed": false
+    }
+  ]
+}

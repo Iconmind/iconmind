@@ -1,0 +1,33 @@
+{
+  "slug": "dependency-outage",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Dependency outage",
+  "description": "The incident machine with a line cut in the middle — something upstream is down",
+  "tags": [
+    "outage",
+    "dependency",
+    "upstream"
+  ],
+  "keywords": [
+    "dependency outage",
+    "upstream outage",
+    "third party down",
+    "vendor incident"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 12H10.5",
+      "closed": false
+    },
+    {
+      "d": "M13.5 12H17",
+      "closed": false
+    }
+  ]
+}

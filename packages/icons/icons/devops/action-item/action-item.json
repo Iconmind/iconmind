@@ -1,0 +1,29 @@
+{
+  "slug": "action-item",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Action item",
+  "description": "A page with a box to tick — one thing someone agreed to do",
+  "tags": [
+    "incident",
+    "action",
+    "todo"
+  ],
+  "keywords": [
+    "action item",
+    "follow-up task",
+    "owner and due date",
+    "to do"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 10L15 10L15 16L9 16Z",
+      "closed": true
+    }
+  ]
+}

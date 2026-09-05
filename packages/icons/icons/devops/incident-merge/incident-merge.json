@@ -1,0 +1,33 @@
+{
+  "slug": "incident-merge",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Merge incidents",
+  "description": "The incident machine with two lines joining into one — two reports found to be one incident",
+  "tags": [
+    "incident",
+    "merge",
+    "duplicate"
+  ],
+  "keywords": [
+    "merge incidents",
+    "duplicate incident",
+    "same incident",
+    "link incidents"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M8 8L12 12L8 16",
+      "closed": false
+    },
+    {
+      "d": "M12 12H16",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "follow-up-review",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Follow-up review",
+  "description": "A page with a clock on it — a check, weeks later, that the actions were done",
+  "tags": [
+    "incident",
+    "review",
+    "later"
+  ],
+  "keywords": [
+    "follow-up review",
+    "30 day review",
+    "action review",
+    "check back"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 13a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 10V13",
+      "closed": false
+    },
+    {
+      "d": "M12 13H14.5",
+      "closed": false
+    }
+  ]
+}

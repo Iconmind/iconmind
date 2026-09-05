@@ -1,0 +1,37 @@
+{
+  "slug": "maintenance-window",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Maintenance window",
+  "description": "A ring with a bracketed span in it — the agreed time for planned work",
+  "tags": [
+    "time",
+    "maintenance",
+    "window"
+  ],
+  "keywords": [
+    "maintenance window",
+    "planned maintenance",
+    "scheduled downtime",
+    "change window"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M10.5 9L8 9L8 15L10.5 15",
+      "closed": false
+    },
+    {
+      "d": "M13.5 9L16 9L16 15L13.5 15",
+      "closed": false
+    },
+    {
+      "d": "M10.5 12H13.5",
+      "closed": false
+    }
+  ]
+}

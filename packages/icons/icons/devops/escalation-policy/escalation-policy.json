@@ -1,0 +1,29 @@
+{
+  "slug": "escalation-policy",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Escalation policy",
+  "description": "A page with a staircase on it — who is paged next when nobody answers",
+  "tags": [
+    "incident",
+    "escalation",
+    "policy"
+  ],
+  "keywords": [
+    "escalation policy",
+    "escalation chain",
+    "who gets paged",
+    "on-call tiers"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M7.5 17L10.5 17L10.5 14L13.5 14L13.5 11L16 11",
+      "closed": false
+    }
+  ]
+}

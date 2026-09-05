@@ -1,0 +1,38 @@
+{
+  "slug": "page-escalate",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Escalate page",
+  "description": "The alarm bell with an arrow rising — a page nobody answered, sent up the chain",
+  "tags": [
+    "page",
+    "oncall",
+    "escalate"
+  ],
+  "keywords": [
+    "escalate page",
+    "page escalation",
+    "next on call",
+    "unanswered page"
+  ],
+  "family": "bell",
+  "shapes": [
+    {
+      "d": "M6 15V10A6 6 0 0 1 18 10V15L20.5 17.5H3.5L6 15Z",
+      "closed": true,
+      "_why": "a bell: dome, shoulders, flared skirt and lip"
+    },
+    {
+      "d": "M14 18.5A2 2 0 0 1 10 18.5",
+      "closed": false
+    },
+    {
+      "d": "M12 8V14",
+      "closed": false
+    },
+    {
+      "d": "M9.5 10.5L12 8L14.5 10.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "incident-severity",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Incident severity",
+  "description": "The incident machine with an exclamation mark — how bad this one is",
+  "tags": [
+    "incident",
+    "severity",
+    "level"
+  ],
+  "keywords": [
+    "incident severity",
+    "severity level",
+    "priority",
+    "how bad"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M12 7V13",
+      "closed": false
+    },
+    {
+      "d": "M11 16.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

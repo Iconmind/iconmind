@@ -1,0 +1,33 @@
+{
+  "slug": "freeze-window",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Freeze window",
+  "description": "A ring with a lock in it — a stretch of time in which nothing ships",
+  "tags": [
+    "time",
+    "freeze",
+    "change"
+  ],
+  "keywords": [
+    "freeze window",
+    "change freeze",
+    "code freeze",
+    "no deploys"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M9 12L15 12L15 15L9 15Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 12A1.5 1.5 0 0 1 13.5 12",
+      "closed": false
+    }
+  ]
+}

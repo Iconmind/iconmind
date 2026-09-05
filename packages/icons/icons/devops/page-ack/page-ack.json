@@ -1,0 +1,34 @@
+{
+  "slug": "page-ack",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Acknowledge page",
+  "description": "The alarm bell with a point in it — a page seen and taken by someone",
+  "tags": [
+    "page",
+    "oncall",
+    "acknowledge"
+  ],
+  "keywords": [
+    "acknowledge page",
+    "ack",
+    "page acknowledged",
+    "on it"
+  ],
+  "family": "bell",
+  "shapes": [
+    {
+      "d": "M6 15V10A6 6 0 0 1 18 10V15L20.5 17.5H3.5L6 15Z",
+      "closed": true,
+      "_why": "a bell: dome, shoulders, flared skirt and lip"
+    },
+    {
+      "d": "M14 18.5A2 2 0 0 1 10 18.5",
+      "closed": false
+    },
+    {
+      "d": "M10 11a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

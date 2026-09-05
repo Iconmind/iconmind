@@ -1,0 +1,33 @@
+{
+  "slug": "scribe",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Scribe",
+  "description": "A person with a pen stroke on the chest — the one writing down what happens and when",
+  "tags": [
+    "incident",
+    "role",
+    "scribe"
+  ],
+  "keywords": [
+    "scribe",
+    "note taker",
+    "incident notes",
+    "timeline keeper"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A9 9 0 0 1 21 21",
+      "closed": false
+    },
+    {
+      "d": "M9 19L14.5 13.5",
+      "closed": false
+    }
+  ]
+}

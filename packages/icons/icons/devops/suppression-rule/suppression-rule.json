@@ -1,0 +1,33 @@
+{
+  "slug": "suppression-rule",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Suppression rule",
+  "description": "A page with a pause on it — the alerts held back on purpose, and why",
+  "tags": [
+    "alert",
+    "suppress",
+    "rule"
+  ],
+  "keywords": [
+    "suppression rule",
+    "suppress alerts",
+    "maintenance suppression",
+    "mute rule"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M10 10V16",
+      "closed": false
+    },
+    {
+      "d": "M14 10V16",
+      "closed": false
+    }
+  ]
+}

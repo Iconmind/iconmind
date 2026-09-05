@@ -1,0 +1,37 @@
+{
+  "slug": "impact-radius",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Impact radius",
+  "description": "The incident machine with ripples around a point — how far the damage spreads",
+  "tags": [
+    "incident",
+    "impact",
+    "radius"
+  ],
+  "keywords": [
+    "impact radius",
+    "blast radius",
+    "scope of impact",
+    "affected systems"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10.29 16.7A5 5 0 0 1 10.29 7.3",
+      "closed": false
+    },
+    {
+      "d": "M13.71 7.3A5 5 0 0 1 13.71 16.7",
+      "closed": false
+    }
+  ]
+}

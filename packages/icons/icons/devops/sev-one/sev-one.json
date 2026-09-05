@@ -1,0 +1,41 @@
+{
+  "slug": "sev-one",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Sev 1",
+  "description": "The incident machine with three chevrons on a bar — the highest severity, everyone is paged",
+  "tags": [
+    "incident",
+    "severity",
+    "sev"
+  ],
+  "keywords": [
+    "sev1",
+    "sev 1",
+    "p1",
+    "critical incident"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M9 8.5L12 5.5L15 8.5",
+      "closed": false
+    },
+    {
+      "d": "M9 12L12 9L15 12",
+      "closed": false
+    },
+    {
+      "d": "M9 15.5L12 12.5L15 15.5",
+      "closed": false
+    },
+    {
+      "d": "M8 17H16",
+      "closed": false
+    }
+  ]
+}

@@ -183,6 +183,16 @@ export const clipboard = (): Shape[] =>
  * `bell` itself keeps its small dome and clapper; this is the notification body. */
 export const bell = (): Shape[] => [arc(12, 17, 9, 180, 360), row(20, 3, 21)];
 
+/**
+ * The alerting bell: a dome on straight shoulders, a skirt that flares at 45°, a wide lip
+ * and the clapper hanging under it. Not the interface set's notification bell — that one
+ * is a semicircle on a lip, and its every mark is already spoken for. Marks sit at cy 11.
+ */
+export const alarm = (): Shape[] => [
+  raw("M6 15V10A6 6 0 0 1 18 10V15L20.5 17.5H3.5L6 15Z", "a bell: dome, shoulders, flared skirt and lip", true),
+  arc(12, 18.5, 2, 0, 180),
+];
+
 /** A tray, mouth up: what things are put into or taken out of. */
 export const tray = (): Shape => body(poly([[4, 15], [4, 19], [20, 19], [20, 15]]));
 

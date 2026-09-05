@@ -1,0 +1,34 @@
+{
+  "slug": "flapping",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Flapping",
+  "description": "The alarm bell with a zigzag in it — an alert that fires, clears, and fires again",
+  "tags": [
+    "alert",
+    "flapping",
+    "unstable"
+  ],
+  "keywords": [
+    "flapping",
+    "flapping alert",
+    "fires and clears",
+    "unstable check"
+  ],
+  "family": "bell",
+  "shapes": [
+    {
+      "d": "M6 15V10A6 6 0 0 1 18 10V15L20.5 17.5H3.5L6 15Z",
+      "closed": true,
+      "_why": "a bell: dome, shoulders, flared skirt and lip"
+    },
+    {
+      "d": "M14 18.5A2 2 0 0 1 10 18.5",
+      "closed": false
+    },
+    {
+      "d": "M9 13L11 11L13 13L15 11",
+      "closed": false
+    }
+  ]
+}

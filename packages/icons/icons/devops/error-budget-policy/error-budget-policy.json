@@ -1,0 +1,33 @@
+{
+  "slug": "error-budget-policy",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Error budget policy",
+  "description": "A page with a coin on it — what the team does when the budget is spent",
+  "tags": [
+    "incident",
+    "budget",
+    "policy"
+  ],
+  "keywords": [
+    "error budget policy",
+    "budget exhausted",
+    "feature freeze",
+    "reliability first"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 13a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 11V15",
+      "closed": false
+    }
+  ]
+}

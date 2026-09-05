@@ -1,0 +1,33 @@
+{
+  "slug": "corrective-action",
+  "category": "devops",
+  "subcategory": "incident",
+  "name": "Corrective action",
+  "description": "A page with an arrow that turns — a change made so this cannot happen the same way again",
+  "tags": [
+    "incident",
+    "action",
+    "fix"
+  ],
+  "keywords": [
+    "corrective action",
+    "preventive action",
+    "remediation",
+    "fix forward"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9.5 9L9.5 15.5L15.5 15.5",
+      "closed": false
+    },
+    {
+      "d": "M13 13L15.5 15.5L13 18",
+      "closed": false
+    }
+  ]
+}
