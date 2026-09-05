@@ -1,0 +1,33 @@
+{
+  "slug": "rightsize",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Rightsize",
+  "description": "A machine frame with brackets pulling inward — a machine sized to what it actually does",
+  "tags": [
+    "cost",
+    "rightsize",
+    "efficiency"
+  ],
+  "keywords": [
+    "rightsize",
+    "right-sizing",
+    "downsize instance",
+    "fit to load"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M9.5 9.5L7 12L9.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M14.5 9.5L17 12L14.5 14.5",
+      "closed": false
+    }
+  ]
+}

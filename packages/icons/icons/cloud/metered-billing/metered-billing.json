@@ -1,0 +1,41 @@
+{
+  "slug": "metered-billing",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Metered billing",
+  "description": "A banknote with a small meter on it — a price per unit, read off the meter",
+  "tags": [
+    "billing",
+    "metered",
+    "usage"
+  ],
+  "keywords": [
+    "metered billing",
+    "usage-based billing",
+    "consumption billing",
+    "pay per unit"
+  ],
+  "family": "banknote",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M18.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M8.71 12.3A3.5 3.5 0 0 1 15.29 12.3",
+      "closed": false
+    },
+    {
+      "d": "M12 13.5L14.5 11",
+      "closed": false
+    }
+  ]
+}

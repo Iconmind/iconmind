@@ -1,0 +1,41 @@
+{
+  "slug": "discount-code",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Discount code",
+  "description": "A tag with a code on it — a string typed in for money off",
+  "tags": [
+    "discount",
+    "code",
+    "promo"
+  ],
+  "keywords": [
+    "discount code",
+    "promo code",
+    "coupon code",
+    "voucher"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M3 6L13 6L21 14L13 22L3 22Z",
+      "closed": true
+    },
+    {
+      "d": "M6 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 11V17",
+      "closed": false
+    },
+    {
+      "d": "M14 11V17",
+      "closed": false
+    },
+    {
+      "d": "M8 14H16",
+      "closed": false
+    }
+  ]
+}

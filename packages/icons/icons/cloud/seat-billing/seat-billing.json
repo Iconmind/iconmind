@@ -1,0 +1,41 @@
+{
+  "slug": "seat-billing",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Seat billing",
+  "description": "A banknote with a head on it — a price per person with access",
+  "tags": [
+    "billing",
+    "seat",
+    "per-user"
+  ],
+  "keywords": [
+    "seat billing",
+    "per-seat pricing",
+    "per user",
+    "licensed seats"
+  ],
+  "family": "banknote",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M18.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M10 10.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 15H15",
+      "closed": false
+    }
+  ]
+}

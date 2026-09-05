@@ -1,0 +1,33 @@
+{
+  "slug": "quota-request",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Quota request",
+  "description": "A tank with a plus in it — asking for more room",
+  "tags": [
+    "quota",
+    "request",
+    "limit"
+  ],
+  "keywords": [
+    "quota request",
+    "request more quota",
+    "raise limit request",
+    "limit increase request"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M13.5 4H16A3 3 0 0 1 19 7V17A3 3 0 0 1 16 20H8A3 3 0 0 1 5 17V7A3 3 0 0 1 8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    }
+  ]
+}

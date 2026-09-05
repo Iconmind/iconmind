@@ -1,0 +1,34 @@
+{
+  "slug": "proration",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Proration",
+  "description": "A receipt with a line and a divider under it — a charge split at the day the plan changed",
+  "tags": [
+    "billing",
+    "prorate",
+    "partial"
+  ],
+  "keywords": [
+    "proration",
+    "prorated charge",
+    "partial period",
+    "mid-cycle change"
+  ],
+  "family": "receipt",
+  "shapes": [
+    {
+      "d": "M6 2H18A2 2 0 0 1 20 4V19L18 17L16 19L14 17L12 19L10 17L8 19L6 17L4 19V4A2 2 0 0 1 6 2Z",
+      "closed": true,
+      "_why": "a receipt: a rounded head and a foot torn along a zigzag"
+    },
+    {
+      "d": "M7 9H17",
+      "closed": false
+    },
+    {
+      "d": "M12 12V15.5",
+      "closed": false
+    }
+  ]
+}

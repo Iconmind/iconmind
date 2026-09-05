@@ -1,0 +1,45 @@
+{
+  "slug": "on-demand-price",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "On-demand price",
+  "description": "A banknote with a clock on it — pay for the hours you use, no promise made",
+  "tags": [
+    "price",
+    "on-demand",
+    "hourly"
+  ],
+  "keywords": [
+    "on-demand price",
+    "pay as you go",
+    "hourly rate",
+    "list price"
+  ],
+  "family": "banknote",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M18.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9V12",
+      "closed": false
+    },
+    {
+      "d": "M12 12H14.5",
+      "closed": false
+    }
+  ]
+}

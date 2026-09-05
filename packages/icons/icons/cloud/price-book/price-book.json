@@ -1,0 +1,45 @@
+{
+  "slug": "price-book",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Price book",
+  "description": "A banknote with a list on it — every product and what it costs",
+  "tags": [
+    "price",
+    "catalogue",
+    "list"
+  ],
+  "keywords": [
+    "price book",
+    "price list",
+    "rate card",
+    "pricing catalogue"
+  ],
+  "family": "banknote",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M18.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M9 9H15",
+      "closed": false
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    },
+    {
+      "d": "M9 15H15",
+      "closed": false
+    }
+  ]
+}

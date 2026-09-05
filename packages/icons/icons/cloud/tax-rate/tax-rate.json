@@ -1,0 +1,38 @@
+{
+  "slug": "tax-rate",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Tax rate",
+  "description": "A receipt with a percent sign on it — the share added on top",
+  "tags": [
+    "tax",
+    "rate",
+    "billing"
+  ],
+  "keywords": [
+    "tax rate",
+    "vat",
+    "sales tax",
+    "tax percentage"
+  ],
+  "family": "receipt",
+  "shapes": [
+    {
+      "d": "M6 2H18A2 2 0 0 1 20 4V19L18 17L16 19L14 17L12 19L10 17L8 19L6 17L4 19V4A2 2 0 0 1 6 2Z",
+      "closed": true,
+      "_why": "a receipt: a rounded head and a foot torn along a zigzag"
+    },
+    {
+      "d": "M8.5 8a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8.5 13.5L15.5 6.5",
+      "closed": false
+    },
+    {
+      "d": "M13.5 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

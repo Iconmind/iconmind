@@ -1,0 +1,30 @@
+{
+  "slug": "credit-note",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Credit note",
+  "description": "A receipt with a minus on it — money owed back, set against the next bill",
+  "tags": [
+    "invoice",
+    "credit",
+    "billing"
+  ],
+  "keywords": [
+    "credit note",
+    "credit memo",
+    "refund credit",
+    "negative invoice"
+  ],
+  "family": "receipt",
+  "shapes": [
+    {
+      "d": "M6 2H18A2 2 0 0 1 20 4V19L18 17L16 19L14 17L12 19L10 17L8 19L6 17L4 19V4A2 2 0 0 1 6 2Z",
+      "closed": true,
+      "_why": "a receipt: a rounded head and a foot torn along a zigzag"
+    },
+    {
+      "d": "M9 10H15",
+      "closed": false
+    }
+  ]
+}

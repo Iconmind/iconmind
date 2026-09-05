@@ -1,0 +1,33 @@
+{
+  "slug": "overage",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Overage",
+  "description": "A tank with a chevron above the line — use that went past what the plan allows",
+  "tags": [
+    "quota",
+    "overage",
+    "billing"
+  ],
+  "keywords": [
+    "overage",
+    "over the limit",
+    "overage charge",
+    "excess usage"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M13.5 4H16A3 3 0 0 1 19 7V17A3 3 0 0 1 16 20H8A3 3 0 0 1 5 17V7A3 3 0 0 1 8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 13H17",
+      "closed": false
+    },
+    {
+      "d": "M9.5 10L12 7.5L14.5 10",
+      "closed": false
+    }
+  ]
+}

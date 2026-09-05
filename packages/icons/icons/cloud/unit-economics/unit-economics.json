@@ -1,0 +1,37 @@
+{
+  "slug": "unit-economics",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Unit economics",
+  "description": "A banknote with a one on it — what a single unit earns and costs",
+  "tags": [
+    "cost",
+    "unit",
+    "economics"
+  ],
+  "keywords": [
+    "unit economics",
+    "cost per unit",
+    "margin per unit",
+    "unit cost"
+  ],
+  "family": "banknote",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M18.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 11.5L12 9L12 15",
+      "closed": false
+    }
+  ]
+}

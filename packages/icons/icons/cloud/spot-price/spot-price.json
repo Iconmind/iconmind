@@ -1,0 +1,37 @@
+{
+  "slug": "spot-price",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Spot price",
+  "description": "A banknote with a bolt on it — a price that changes minute to minute",
+  "tags": [
+    "price",
+    "spot",
+    "market"
+  ],
+  "keywords": [
+    "spot price",
+    "spot pricing",
+    "preemptible price",
+    "market price"
+  ],
+  "family": "banknote",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M18.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M13.5 9.5L11 12L13.5 12L11 14.5",
+      "closed": false
+    }
+  ]
+}

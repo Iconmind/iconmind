@@ -1,0 +1,34 @@
+{
+  "slug": "anomaly-spend",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Spend anomaly",
+  "description": "The alarm bell with a rising trend in it — spend that jumped when nothing should have changed",
+  "tags": [
+    "spend",
+    "anomaly",
+    "alert"
+  ],
+  "keywords": [
+    "spend anomaly",
+    "cost anomaly alert",
+    "unexpected spend",
+    "spike in cost"
+  ],
+  "family": "bell",
+  "shapes": [
+    {
+      "d": "M6 15V10A6 6 0 0 1 18 10V15L20.5 17.5H3.5L6 15Z",
+      "closed": true,
+      "_why": "a bell: dome, shoulders, flared skirt and lip"
+    },
+    {
+      "d": "M14 18.5A2 2 0 0 1 10 18.5",
+      "closed": false
+    },
+    {
+      "d": "M9 14L11 12L13 14L15 12",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "cost-tag",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Cost tag",
+  "description": "A tag with a coin on it — the label a cost is grouped by",
+  "tags": [
+    "cost",
+    "tag",
+    "allocation"
+  ],
+  "keywords": [
+    "cost tag",
+    "cost allocation tag",
+    "billing tag",
+    "tag by team"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M3 6L13 6L21 14L13 22L3 22Z",
+      "closed": true
+    },
+    {
+      "d": "M6 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 14a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12V16",
+      "closed": false
+    }
+  ]
+}

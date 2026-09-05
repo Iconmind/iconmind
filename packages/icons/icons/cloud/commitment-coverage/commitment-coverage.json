@@ -1,0 +1,37 @@
+{
+  "slug": "commitment-coverage",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Commitment coverage",
+  "description": "A banknote with a shield on it — how much of the spend a commitment covers",
+  "tags": [
+    "cost",
+    "commitment",
+    "coverage"
+  ],
+  "keywords": [
+    "commitment coverage",
+    "reservation coverage",
+    "covered spend",
+    "coverage rate"
+  ],
+  "family": "banknote",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M18.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M9 9L15 9L15 12L12 15L9 12Z",
+      "closed": true
+    }
+  ]
+}

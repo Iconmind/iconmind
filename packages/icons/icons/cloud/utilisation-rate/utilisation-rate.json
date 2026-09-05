@@ -1,0 +1,37 @@
+{
+  "slug": "utilisation-rate",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Utilisation rate",
+  "description": "A tank with three fill lines — how much of what is paid for is actually used",
+  "tags": [
+    "cost",
+    "utilisation",
+    "efficiency"
+  ],
+  "keywords": [
+    "utilisation rate",
+    "utilization",
+    "how full",
+    "capacity used"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M13.5 4H16A3 3 0 0 1 19 7V17A3 3 0 0 1 16 20H8A3 3 0 0 1 5 17V7A3 3 0 0 1 8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 11H17",
+      "closed": false
+    },
+    {
+      "d": "M7 14H17",
+      "closed": false
+    },
+    {
+      "d": "M7 17H17",
+      "closed": false
+    }
+  ]
+}

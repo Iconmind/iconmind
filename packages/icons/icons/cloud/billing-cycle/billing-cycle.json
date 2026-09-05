@@ -1,0 +1,37 @@
+{
+  "slug": "billing-cycle",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Billing cycle",
+  "description": "The rotation loop with a coin in it — the period after which the bill comes round again",
+  "tags": [
+    "billing",
+    "cycle",
+    "period"
+  ],
+  "keywords": [
+    "billing cycle",
+    "billing period",
+    "monthly billing",
+    "renewal"
+  ],
+  "family": "rotation",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V17A3 3 0 0 1 18 20H6A3 3 0 0 1 3 17V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M12 2L15 5L12 8",
+      "closed": false
+    },
+    {
+      "d": "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 10V14",
+      "closed": false
+    }
+  ]
+}

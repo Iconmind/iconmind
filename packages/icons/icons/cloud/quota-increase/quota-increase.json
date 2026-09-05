@@ -1,0 +1,33 @@
+{
+  "slug": "quota-increase",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Quota increase",
+  "description": "A tank with an arrow rising in it — the line moved up",
+  "tags": [
+    "quota",
+    "increase",
+    "limit"
+  ],
+  "keywords": [
+    "quota increase",
+    "limit raised",
+    "more quota",
+    "higher cap"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M13.5 4H16A3 3 0 0 1 19 7V17A3 3 0 0 1 16 20H8A3 3 0 0 1 5 17V7A3 3 0 0 1 8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M12 8V16",
+      "closed": false
+    },
+    {
+      "d": "M9.5 10.5L12 8L14.5 10.5",
+      "closed": false
+    }
+  ]
+}

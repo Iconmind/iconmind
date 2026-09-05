@@ -1,0 +1,45 @@
+{
+  "slug": "amortised-cost",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Amortised cost",
+  "description": "A banknote with three equal bars on it — one payment spread evenly over its term",
+  "tags": [
+    "cost",
+    "amortised",
+    "accounting"
+  ],
+  "keywords": [
+    "amortised cost",
+    "amortized cost",
+    "spread over term",
+    "straight-line cost"
+  ],
+  "family": "banknote",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M18.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M9 10V14",
+      "closed": false
+    },
+    {
+      "d": "M12 10V14",
+      "closed": false
+    },
+    {
+      "d": "M15 10V14",
+      "closed": false
+    }
+  ]
+}

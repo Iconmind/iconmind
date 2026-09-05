@@ -1,0 +1,41 @@
+{
+  "slug": "chargeback",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Chargeback",
+  "description": "A banknote with an arrow pointing back — a cost billed to the team that caused it",
+  "tags": [
+    "cost",
+    "chargeback",
+    "allocation"
+  ],
+  "keywords": [
+    "chargeback",
+    "charge back to team",
+    "internal billing",
+    "cost recovery"
+  ],
+  "family": "banknote",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M18.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    },
+    {
+      "d": "M11.5 9.5L9 12L11.5 14.5",
+      "closed": false
+    }
+  ]
+}

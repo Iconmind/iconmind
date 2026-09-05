@@ -1,0 +1,37 @@
+{
+  "slug": "hard-limit",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Hard limit",
+  "description": "A tank with a solid line and a cross under it — a level nothing gets past",
+  "tags": [
+    "quota",
+    "limit",
+    "hard"
+  ],
+  "keywords": [
+    "hard limit",
+    "hard cap",
+    "enforced limit",
+    "blocked at limit"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M13.5 4H16A3 3 0 0 1 19 7V17A3 3 0 0 1 16 20H8A3 3 0 0 1 5 17V7A3 3 0 0 1 8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 9H17",
+      "closed": false
+    },
+    {
+      "d": "M10 12L14 16",
+      "closed": false
+    },
+    {
+      "d": "M14 12L10 16",
+      "closed": false
+    }
+  ]
+}

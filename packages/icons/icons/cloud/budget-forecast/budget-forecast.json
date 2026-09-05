@@ -1,0 +1,41 @@
+{
+  "slug": "budget-forecast",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Budget forecast",
+  "description": "Axes with a budget line and a spend line heading for it — when the money runs out at this rate",
+  "tags": [
+    "budget",
+    "forecast",
+    "spend"
+  ],
+  "keywords": [
+    "budget forecast",
+    "forecast vs budget",
+    "projected spend",
+    "burn to budget"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 8H19",
+      "closed": false
+    },
+    {
+      "d": "M7 17L12 12",
+      "closed": false
+    },
+    {
+      "d": "M13.5 9.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

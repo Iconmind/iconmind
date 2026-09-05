@@ -1,0 +1,42 @@
+{
+  "slug": "usage-record",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Usage record",
+  "description": "A receipt with bulleted entries — each unit of use, written down as it happened",
+  "tags": [
+    "usage",
+    "record",
+    "billing"
+  ],
+  "keywords": [
+    "usage record",
+    "usage event",
+    "metering record",
+    "consumption log"
+  ],
+  "family": "receipt",
+  "shapes": [
+    {
+      "d": "M6 2H18A2 2 0 0 1 20 4V19L18 17L16 19L14 17L12 19L10 17L8 19L6 17L4 19V4A2 2 0 0 1 6 2Z",
+      "closed": true,
+      "_why": "a receipt: a rounded head and a foot torn along a zigzag"
+    },
+    {
+      "d": "M7 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 7H17",
+      "closed": false
+    },
+    {
+      "d": "M7 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 11H17",
+      "closed": false
+    }
+  ]
+}

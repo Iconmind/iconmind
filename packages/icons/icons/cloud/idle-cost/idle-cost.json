@@ -1,0 +1,37 @@
+{
+  "slug": "idle-cost",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Idle cost",
+  "description": "A banknote with a Z on it — money paid for something that was asleep",
+  "tags": [
+    "cost",
+    "idle",
+    "waste"
+  ],
+  "keywords": [
+    "idle cost",
+    "idle resources",
+    "paying for nothing",
+    "unused spend"
+  ],
+  "family": "banknote",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M18.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 9.5L14.5 9.5L9.5 14.5L14.5 14.5",
+      "closed": false
+    }
+  ]
+}

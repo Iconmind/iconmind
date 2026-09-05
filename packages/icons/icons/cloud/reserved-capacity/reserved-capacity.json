@@ -1,0 +1,29 @@
+{
+  "slug": "reserved-capacity",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Reserved capacity",
+  "description": "A machine frame with a block set aside in it — capacity bought ahead and held",
+  "tags": [
+    "capacity",
+    "reserved",
+    "commitment"
+  ],
+  "keywords": [
+    "reserved capacity",
+    "reserved instances",
+    "capacity reservation",
+    "bought ahead"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M8.5 10.5A2 2 0 0 1 10.5 8.5H13.5A2 2 0 0 1 15.5 10.5V13.5A2 2 0 0 1 13.5 15.5H10.5A2 2 0 0 1 8.5 13.5Z",
+      "closed": true
+    }
+  ]
+}

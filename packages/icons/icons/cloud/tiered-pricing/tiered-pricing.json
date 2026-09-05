@@ -1,0 +1,37 @@
+{
+  "slug": "tiered-pricing",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Tiered pricing",
+  "description": "A banknote with a staircase on it — a different price for each band of use",
+  "tags": [
+    "price",
+    "tier",
+    "plan"
+  ],
+  "keywords": [
+    "tiered pricing",
+    "pricing tiers",
+    "price bands",
+    "tier thresholds"
+  ],
+  "family": "banknote",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M18.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M8 14.5L10.5 14.5L10.5 12L13 12L13 9.5L15.5 9.5",
+      "closed": false
+    }
+  ]
+}

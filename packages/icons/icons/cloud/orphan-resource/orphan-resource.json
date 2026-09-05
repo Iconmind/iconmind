@@ -1,0 +1,33 @@
+{
+  "slug": "orphan-resource",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Orphan resource",
+  "description": "A machine frame with a wire that stops short of its node — something still billed that nothing uses",
+  "tags": [
+    "cost",
+    "orphan",
+    "waste"
+  ],
+  "keywords": [
+    "orphan resource",
+    "orphaned volume",
+    "unattached resource",
+    "forgotten resource"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 12H10.5",
+      "closed": false
+    },
+    {
+      "d": "M12 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

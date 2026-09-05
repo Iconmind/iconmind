@@ -1,0 +1,37 @@
+{
+  "slug": "waste-detect",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Waste detection",
+  "description": "A bin with a coin in it — money found going nowhere",
+  "tags": [
+    "cost",
+    "waste",
+    "detect"
+  ],
+  "keywords": [
+    "waste detection",
+    "cloud waste",
+    "unused spend found",
+    "savings opportunity"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M6 10A2 2 0 0 1 8 8H16A2 2 0 0 1 18 10V18A2 2 0 0 1 16 20H8A2 2 0 0 1 6 18Z",
+      "closed": true
+    },
+    {
+      "d": "M3 5H21",
+      "closed": false
+    },
+    {
+      "d": "M9 14a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12V16",
+      "closed": false
+    }
+  ]
+}

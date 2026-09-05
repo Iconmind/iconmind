@@ -1,0 +1,37 @@
+{
+  "slug": "volume-discount",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Volume discount",
+  "description": "A banknote with a line stepping down — the more you buy, the less each one costs",
+  "tags": [
+    "discount",
+    "volume",
+    "price"
+  ],
+  "keywords": [
+    "volume discount",
+    "bulk pricing",
+    "price per unit falls",
+    "graduated discount"
+  ],
+  "family": "banknote",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M18.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M8.5 9.5L11 12L13 10L15.5 12.5",
+      "closed": false
+    }
+  ]
+}

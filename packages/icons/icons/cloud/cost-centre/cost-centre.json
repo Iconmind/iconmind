@@ -1,0 +1,33 @@
+{
+  "slug": "cost-centre",
+  "category": "cloud",
+  "subcategory": "cost",
+  "name": "Cost centre",
+  "description": "A machine frame with a coin in it — the unit a cost is booked to",
+  "tags": [
+    "cost",
+    "centre",
+    "accounting"
+  ],
+  "keywords": [
+    "cost centre",
+    "cost center",
+    "booked to",
+    "department cost"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 10V14",
+      "closed": false
+    }
+  ]
+}
