@@ -1,0 +1,33 @@
+{
+  "slug": "agent-router",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Agent router",
+  "description": "The agent ring with one line splitting into two — the request sent to the agent that fits it",
+  "tags": [
+    "router",
+    "dispatch",
+    "orchestration"
+  ],
+  "keywords": [
+    "agent router",
+    "route to agent",
+    "intent routing",
+    "dispatcher"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M7 12L10 12L13 9L16 9",
+      "closed": false
+    },
+    {
+      "d": "M10 12L13 15L16 15",
+      "closed": false
+    }
+  ]
+}

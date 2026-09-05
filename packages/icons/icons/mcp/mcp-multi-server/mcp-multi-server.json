@@ -1,0 +1,41 @@
+{
+  "slug": "mcp-multi-server",
+  "category": "mcp",
+  "subcategory": "server",
+  "name": "Multi-server",
+  "description": "The rack with two slots in it — several servers behind one client",
+  "tags": [
+    "multi",
+    "servers",
+    "client"
+  ],
+  "keywords": [
+    "multi-server",
+    "many servers",
+    "server list",
+    "connected servers"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M13.5 3H17A3 3 0 0 1 20 6V18A3 3 0 0 1 17 21H7A3 3 0 0 1 4 18V6L7 3H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 18H12",
+      "closed": false
+    },
+    {
+      "d": "M15 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 8.5H15",
+      "closed": false
+    },
+    {
+      "d": "M9 12.5H15",
+      "closed": false
+    }
+  ]
+}

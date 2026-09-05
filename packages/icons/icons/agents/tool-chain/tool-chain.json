@@ -1,0 +1,45 @@
+{
+  "slug": "tool-chain",
+  "category": "agents",
+  "subcategory": "tool-use",
+  "name": "Tool chain",
+  "description": "The plug with two points tied together — one tool's result fed into the next",
+  "tags": [
+    "tool",
+    "chain",
+    "sequence"
+  ],
+  "keywords": [
+    "tool chain",
+    "chained tools",
+    "tool pipeline",
+    "sequential tools"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 13A2 2 0 0 1 8 11H16A2 2 0 0 1 18 13V18A2 2 0 0 1 16 20H8A2 2 0 0 1 6 18Z",
+      "closed": true
+    },
+    {
+      "d": "M9 4V11",
+      "closed": false
+    },
+    {
+      "d": "M15 4V11",
+      "closed": false
+    },
+    {
+      "d": "M8 15.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 15.5H13.5",
+      "closed": false
+    },
+    {
+      "d": "M14 15.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

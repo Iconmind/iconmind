@@ -1,0 +1,29 @@
+{
+  "slug": "agent-pulse",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Agent pulse",
+  "description": "The agent ring with a heartbeat in it — the sign, every so often, that the run is still alive",
+  "tags": [
+    "pulse",
+    "heartbeat",
+    "run"
+  ],
+  "keywords": [
+    "agent pulse",
+    "heartbeat",
+    "keepalive",
+    "liveness signal"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M6.5 12L9 12L11 10L13 12L15 10L17 12",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "mcp-capability-negotiate",
+  "category": "mcp",
+  "subcategory": "server",
+  "name": "Capability negotiation",
+  "description": "The rack with an arrow pointing both ways — client and server agreeing on what each can do",
+  "tags": [
+    "capability",
+    "negotiate",
+    "handshake"
+  ],
+  "keywords": [
+    "capability negotiation",
+    "initialize handshake",
+    "supported features",
+    "protocol negotiation"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M13.5 3H17A3 3 0 0 1 20 6V18A3 3 0 0 1 17 21H7A3 3 0 0 1 4 18V6L7 3H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 18H12",
+      "closed": false
+    },
+    {
+      "d": "M15 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 11H16",
+      "closed": false
+    },
+    {
+      "d": "M10.5 8.5L8 11L10.5 13.5",
+      "closed": false
+    },
+    {
+      "d": "M13.5 8.5L16 11L13.5 13.5",
+      "closed": false
+    }
+  ]
+}

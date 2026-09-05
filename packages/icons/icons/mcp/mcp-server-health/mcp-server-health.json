@@ -1,0 +1,38 @@
+{
+  "slug": "mcp-server-health",
+  "category": "mcp",
+  "subcategory": "server",
+  "name": "Server health",
+  "description": "The rack with a heart in it — whether the server is alive and answering",
+  "tags": [
+    "health",
+    "status",
+    "monitor"
+  ],
+  "keywords": [
+    "server health",
+    "health check",
+    "server alive",
+    "liveness"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M13.5 3H17A3 3 0 0 1 20 6V18A3 3 0 0 1 17 21H7A3 3 0 0 1 4 18V6L7 3H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 18H12",
+      "closed": false
+    },
+    {
+      "d": "M15 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 11A1.5 1.5 0 0 1 12 11A1.5 1.5 0 0 1 15 11L12 14Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
+    }
+  ]
+}

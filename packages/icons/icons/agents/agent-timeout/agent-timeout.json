@@ -1,0 +1,41 @@
+{
+  "slug": "agent-timeout",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Agent timeout",
+  "description": "The agent ring with an hourglass between two lines — a run stopped for taking too long",
+  "tags": [
+    "timeout",
+    "limit",
+    "run"
+  ],
+  "keywords": [
+    "agent timeout",
+    "run timeout",
+    "wall clock limit",
+    "time limit"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M9 8.5H15",
+      "closed": false
+    },
+    {
+      "d": "M9 9L15 15",
+      "closed": false
+    },
+    {
+      "d": "M15 9L9 15",
+      "closed": false
+    },
+    {
+      "d": "M9 15.5H15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "agent-trace",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Agent trace",
+  "description": "The agent ring with a trail of points — the steps a run took, in order",
+  "tags": [
+    "trace",
+    "steps",
+    "run"
+  ],
+  "keywords": [
+    "agent trace",
+    "run trace",
+    "step log",
+    "execution trace"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M7 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

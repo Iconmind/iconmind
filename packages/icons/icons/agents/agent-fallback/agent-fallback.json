@@ -1,0 +1,33 @@
+{
+  "slug": "agent-fallback",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Agent fallback",
+  "description": "The agent ring with a chevron against a bar — when the first approach fails, the simpler one runs",
+  "tags": [
+    "fallback",
+    "recover",
+    "run"
+  ],
+  "keywords": [
+    "agent fallback",
+    "fallback strategy",
+    "plan b",
+    "degrade gracefully"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M9 9V15",
+      "closed": false
+    },
+    {
+      "d": "M15 9L12 12L15 15",
+      "closed": false
+    }
+  ]
+}

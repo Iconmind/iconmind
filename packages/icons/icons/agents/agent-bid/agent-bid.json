@@ -1,0 +1,33 @@
+{
+  "slug": "agent-bid",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Agent bid",
+  "description": "The agent ring with a raised chevron over a bar — an agent offering to take the task",
+  "tags": [
+    "bid",
+    "offer",
+    "orchestration"
+  ],
+  "keywords": [
+    "agent bid",
+    "task bidding",
+    "contract net bid",
+    "offer to take task"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M9.5 11.5L12 9L14.5 11.5",
+      "closed": false
+    },
+    {
+      "d": "M9 14H15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "agent-depth-limit",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Depth limit",
+  "description": "The agent ring with an arrow dropping onto a floor — how many agents deep a delegation may go",
+  "tags": [
+    "depth",
+    "limit",
+    "run"
+  ],
+  "keywords": [
+    "depth limit",
+    "max recursion",
+    "delegation depth",
+    "nesting limit"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M12 7V11",
+      "closed": false
+    },
+    {
+      "d": "M9.5 9.5L12 12L14.5 9.5",
+      "closed": false
+    },
+    {
+      "d": "M8 15H16",
+      "closed": false
+    }
+  ]
+}

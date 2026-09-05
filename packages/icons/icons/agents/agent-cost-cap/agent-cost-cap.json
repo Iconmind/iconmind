@@ -1,0 +1,33 @@
+{
+  "slug": "agent-cost-cap",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Cost cap",
+  "description": "The agent ring with a coin under a lid — the most a run may cost",
+  "tags": [
+    "cost",
+    "cap",
+    "run"
+  ],
+  "keywords": [
+    "cost cap",
+    "spend cap",
+    "max cost per run",
+    "budget ceiling"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M8 8H16",
+      "closed": false
+    },
+    {
+      "d": "M9 13a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "mcp-progress-token",
+  "category": "mcp",
+  "subcategory": "server",
+  "name": "Progress token",
+  "description": "The rack with a bar in it — the token a long request reports its progress against",
+  "tags": [
+    "progress",
+    "token",
+    "request"
+  ],
+  "keywords": [
+    "progress token",
+    "progress notification",
+    "long-running request",
+    "progress bar"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M13.5 3H17A3 3 0 0 1 20 6V18A3 3 0 0 1 17 21H7A3 3 0 0 1 4 18V6L7 3H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 18H12",
+      "closed": false
+    },
+    {
+      "d": "M15 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 11A2 2 0 0 1 9.5 9H14.5A2 2 0 0 1 16.5 11V11A2 2 0 0 1 14.5 13H9.5A2 2 0 0 1 7.5 11Z",
+      "closed": true
+    }
+  ]
+}

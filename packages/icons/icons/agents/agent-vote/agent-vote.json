@@ -1,0 +1,33 @@
+{
+  "slug": "agent-vote",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Agent vote",
+  "description": "The agent ring with a check dropped into a slot — each agent's say, counted",
+  "tags": [
+    "vote",
+    "ballot",
+    "orchestration"
+  ],
+  "keywords": [
+    "agent vote",
+    "majority vote",
+    "voting agents",
+    "ballot"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M9 11L11 13L15 9",
+      "closed": false
+    },
+    {
+      "d": "M8 15.5H16",
+      "closed": false
+    }
+  ]
+}

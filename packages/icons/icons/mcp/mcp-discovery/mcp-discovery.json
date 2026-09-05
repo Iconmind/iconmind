@@ -1,0 +1,41 @@
+{
+  "slug": "mcp-discovery",
+  "category": "mcp",
+  "subcategory": "server",
+  "name": "Server discovery",
+  "description": "The rack with an eye in it — a server found by name, not by address",
+  "tags": [
+    "discovery",
+    "find",
+    "registry"
+  ],
+  "keywords": [
+    "server discovery",
+    "discover servers",
+    "well-known",
+    "find mcp server"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M13.5 3H17A3 3 0 0 1 20 6V18A3 3 0 0 1 17 21H7A3 3 0 0 1 4 18V6L7 3H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 18H12",
+      "closed": false
+    },
+    {
+      "d": "M15 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7.77 9.46A4.5 4.5 0 0 1 16.23 9.46",
+      "closed": false
+    },
+    {
+      "d": "M10 11a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

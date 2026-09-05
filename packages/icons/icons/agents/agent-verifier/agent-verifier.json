@@ -1,0 +1,29 @@
+{
+  "slug": "agent-verifier",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Verifier agent",
+  "description": "The agent ring with a check in it — the agent that confirms the work is right",
+  "tags": [
+    "verifier",
+    "check",
+    "orchestration"
+  ],
+  "keywords": [
+    "verifier agent",
+    "verification agent",
+    "checker",
+    "validate output"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M9 12L11 14L15 10",
+      "closed": false
+    }
+  ]
+}

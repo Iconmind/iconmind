@@ -1,0 +1,33 @@
+{
+  "slug": "agent-consensus",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Agent consensus",
+  "description": "The agent ring with two checks — agents that came to the same answer",
+  "tags": [
+    "consensus",
+    "agree",
+    "orchestration"
+  ],
+  "keywords": [
+    "agent consensus",
+    "agreement between agents",
+    "consensus reached",
+    "converged"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M8 10L10 12L13 9",
+      "closed": false
+    },
+    {
+      "d": "M11 14L13 16L16 13",
+      "closed": false
+    }
+  ]
+}

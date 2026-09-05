@@ -1,0 +1,29 @@
+{
+  "slug": "agent-resume",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Agent resume",
+  "description": "The agent ring with a play mark in it — a run picked up where it stopped",
+  "tags": [
+    "resume",
+    "continue",
+    "run"
+  ],
+  "keywords": [
+    "agent resume",
+    "resume run",
+    "continue from checkpoint",
+    "pick up"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M10 8L10 16L14 12Z",
+      "closed": true
+    }
+  ]
+}

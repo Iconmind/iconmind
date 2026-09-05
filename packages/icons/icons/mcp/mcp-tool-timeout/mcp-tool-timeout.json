@@ -1,0 +1,45 @@
+{
+  "slug": "mcp-tool-timeout",
+  "category": "mcp",
+  "subcategory": "server",
+  "name": "Tool timeout",
+  "description": "The plug with a clock on it — a tool call given up on after so long",
+  "tags": [
+    "tool",
+    "timeout",
+    "call"
+  ],
+  "keywords": [
+    "tool timeout",
+    "tool call timeout",
+    "slow tool",
+    "call deadline"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 13A2 2 0 0 1 8 11H16A2 2 0 0 1 18 13V18A2 2 0 0 1 16 20H8A2 2 0 0 1 6 18Z",
+      "closed": true
+    },
+    {
+      "d": "M9 4V11",
+      "closed": false
+    },
+    {
+      "d": "M15 4V11",
+      "closed": false
+    },
+    {
+      "d": "M9 15.5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12.5V15.5",
+      "closed": false
+    },
+    {
+      "d": "M12 15.5H14.5",
+      "closed": false
+    }
+  ]
+}

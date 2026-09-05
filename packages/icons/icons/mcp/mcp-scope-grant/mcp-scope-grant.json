@@ -1,0 +1,41 @@
+{
+  "slug": "mcp-scope-grant",
+  "category": "mcp",
+  "subcategory": "server",
+  "name": "Scope grant",
+  "description": "The rack with a funnel and a check under it — the scopes a client asked for and got",
+  "tags": [
+    "scope",
+    "grant",
+    "auth"
+  ],
+  "keywords": [
+    "scope grant",
+    "granted scopes",
+    "scope approval",
+    "consented scopes"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M13.5 3H17A3 3 0 0 1 20 6V18A3 3 0 0 1 17 21H7A3 3 0 0 1 4 18V6L7 3H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 18H12",
+      "closed": false
+    },
+    {
+      "d": "M15 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 7L12 10L15 7",
+      "closed": false
+    },
+    {
+      "d": "M9.5 13L11.5 15L15 11.5",
+      "closed": false
+    }
+  ]
+}

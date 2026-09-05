@@ -1,0 +1,29 @@
+{
+  "slug": "agent-contract",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Agent contract",
+  "description": "The agent ring with a signature in it — what one agent promised another",
+  "tags": [
+    "contract",
+    "agreement",
+    "orchestration"
+  ],
+  "keywords": [
+    "agent contract",
+    "contract net",
+    "task agreement",
+    "commitment"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M8.5 14L11 11.5L13.5 14L16 11.5",
+      "closed": false
+    }
+  ]
+}

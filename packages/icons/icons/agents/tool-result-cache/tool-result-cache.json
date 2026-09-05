@@ -1,0 +1,37 @@
+{
+  "slug": "tool-result-cache",
+  "category": "agents",
+  "subcategory": "tool-use",
+  "name": "Tool result cache",
+  "description": "The plug with a bolt on it — the same call answered from last time",
+  "tags": [
+    "tool",
+    "cache",
+    "result"
+  ],
+  "keywords": [
+    "tool result cache",
+    "cached tool call",
+    "memoised tool",
+    "cache tool output"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 13A2 2 0 0 1 8 11H16A2 2 0 0 1 18 13V18A2 2 0 0 1 16 20H8A2 2 0 0 1 6 18Z",
+      "closed": true
+    },
+    {
+      "d": "M9 4V11",
+      "closed": false
+    },
+    {
+      "d": "M15 4V11",
+      "closed": false
+    },
+    {
+      "d": "M13.5 13L11 15.5L13.5 15.5L11 18",
+      "closed": false
+    }
+  ]
+}

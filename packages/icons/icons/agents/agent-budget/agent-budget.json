@@ -1,0 +1,41 @@
+{
+  "slug": "agent-budget",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Agent budget",
+  "description": "The agent ring with bars on a base — what the run has spent so far, against what it may",
+  "tags": [
+    "budget",
+    "spend",
+    "run"
+  ],
+  "keywords": [
+    "agent budget",
+    "run budget",
+    "spend limit",
+    "token allowance"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M8 15H16",
+      "closed": false
+    },
+    {
+      "d": "M9 10V15",
+      "closed": false
+    },
+    {
+      "d": "M12 8V15",
+      "closed": false
+    },
+    {
+      "d": "M15 12V15",
+      "closed": false
+    }
+  ]
+}

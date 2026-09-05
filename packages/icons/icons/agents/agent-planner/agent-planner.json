@@ -1,0 +1,29 @@
+{
+  "slug": "agent-planner",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Planner agent",
+  "description": "The agent ring with a staircase in it — the agent that breaks the goal into steps",
+  "tags": [
+    "planner",
+    "plan",
+    "orchestration"
+  ],
+  "keywords": [
+    "planner agent",
+    "planning agent",
+    "task decomposition",
+    "plan steps"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M8 16L10.5 16L10.5 13.5L13 13.5L13 11L15.5 11",
+      "closed": false
+    }
+  ]
+}

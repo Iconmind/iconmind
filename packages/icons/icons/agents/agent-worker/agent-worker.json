@@ -1,0 +1,33 @@
+{
+  "slug": "agent-worker",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Worker agent",
+  "description": "The agent ring with a hammer in it — the agent that does the piece it was given",
+  "tags": [
+    "worker",
+    "task",
+    "orchestration"
+  ],
+  "keywords": [
+    "worker agent",
+    "sub-agent",
+    "task agent",
+    "child agent"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M9 8H15",
+      "closed": false
+    },
+    {
+      "d": "M12 8V16",
+      "closed": false
+    }
+  ]
+}

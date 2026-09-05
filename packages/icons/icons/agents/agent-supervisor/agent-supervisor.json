@@ -1,0 +1,37 @@
+{
+  "slug": "agent-supervisor",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Supervisor agent",
+  "description": "The agent ring with one head over two — the agent that hands out work and checks it back in",
+  "tags": [
+    "supervisor",
+    "hierarchy",
+    "orchestration"
+  ],
+  "keywords": [
+    "supervisor agent",
+    "manager agent",
+    "orchestrator",
+    "parent agent"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M10 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

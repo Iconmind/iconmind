@@ -1,0 +1,37 @@
+{
+  "slug": "agent-blackboard",
+  "category": "agents",
+  "subcategory": "multi-agent",
+  "name": "Blackboard",
+  "description": "The agent ring with lines on a board — the shared place agents write what they know",
+  "tags": [
+    "blackboard",
+    "shared",
+    "orchestration"
+  ],
+  "keywords": [
+    "blackboard",
+    "blackboard architecture",
+    "shared workspace",
+    "common board"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M8 9H16",
+      "closed": false
+    },
+    {
+      "d": "M8 12.5H16",
+      "closed": false
+    },
+    {
+      "d": "M8 16H13",
+      "closed": false
+    }
+  ]
+}

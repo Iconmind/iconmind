@@ -1,0 +1,33 @@
+{
+  "slug": "agent-replay",
+  "category": "agents",
+  "subcategory": "execution",
+  "name": "Agent replay",
+  "description": "The agent ring with two chevrons back — a run played again from its trace",
+  "tags": [
+    "replay",
+    "rerun",
+    "run"
+  ],
+  "keywords": [
+    "agent replay",
+    "replay run",
+    "re-execute from trace",
+    "rerun"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M11 9L8 12L11 15",
+      "closed": false
+    },
+    {
+      "d": "M16 9L13 12L16 15",
+      "closed": false
+    }
+  ]
+}
