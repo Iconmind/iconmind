@@ -1,0 +1,33 @@
+{
+  "slug": "image-layer",
+  "category": "devops",
+  "subcategory": "container",
+  "name": "Image layer",
+  "description": "A box with one layer inside — a single filesystem step the image is built from",
+  "tags": [
+    "layer",
+    "filesystem",
+    "step"
+  ],
+  "keywords": [
+    "image layer",
+    "layer",
+    "filesystem layer",
+    "dockerfile step"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 4.5A2.5 2.5 0 0 1 5.5 2H18.5A2.5 2.5 0 0 1 21 4.5V4.5A2.5 2.5 0 0 1 18.5 7H5.5A2.5 2.5 0 0 1 3 4.5Z",
+      "closed": true
+    },
+    {
+      "d": "M3 12A2 2 0 0 1 5 10H19A2 2 0 0 1 21 12V20A2 2 0 0 1 19 22H5A2 2 0 0 1 3 20Z",
+      "closed": true
+    },
+    {
+      "d": "M8 16H16",
+      "closed": false
+    }
+  ]
+}

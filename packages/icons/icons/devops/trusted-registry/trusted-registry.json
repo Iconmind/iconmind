@@ -1,0 +1,37 @@
+{
+  "slug": "trusted-registry",
+  "category": "devops",
+  "subcategory": "container",
+  "name": "Trusted registry",
+  "description": "A shield above the shelf — the only registry images may be pulled from",
+  "tags": [
+    "trusted",
+    "allowlist",
+    "registry"
+  ],
+  "keywords": [
+    "trusted registry",
+    "allowed registry",
+    "registry allowlist",
+    "private registry"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12A2 2 0 0 1 4 10H20A2 2 0 0 1 22 12V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M8 10V19",
+      "closed": false
+    },
+    {
+      "d": "M15 10V19",
+      "closed": false
+    },
+    {
+      "d": "M9 2L15 2L15 5.5L12 8.5L9 5.5Z",
+      "closed": true
+    }
+  ]
+}

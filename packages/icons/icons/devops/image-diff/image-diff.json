@@ -1,0 +1,41 @@
+{
+  "slug": "image-diff",
+  "category": "devops",
+  "subcategory": "container",
+  "name": "Image diff",
+  "description": "A box with a plus over a minus inside — what one image has that another does not",
+  "tags": [
+    "diff",
+    "compare",
+    "layers"
+  ],
+  "keywords": [
+    "image diff",
+    "compare images",
+    "layer diff",
+    "dive"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 4.5A2.5 2.5 0 0 1 5.5 2H18.5A2.5 2.5 0 0 1 21 4.5V4.5A2.5 2.5 0 0 1 18.5 7H5.5A2.5 2.5 0 0 1 3 4.5Z",
+      "closed": true
+    },
+    {
+      "d": "M3 12A2 2 0 0 1 5 10H19A2 2 0 0 1 21 12V20A2 2 0 0 1 19 22H5A2 2 0 0 1 3 20Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12.5V16.5",
+      "closed": false
+    },
+    {
+      "d": "M10 14.5H14",
+      "closed": false
+    },
+    {
+      "d": "M10 18.5H14",
+      "closed": false
+    }
+  ]
+}

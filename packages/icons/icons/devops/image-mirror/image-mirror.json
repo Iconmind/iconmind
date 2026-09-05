@@ -1,0 +1,45 @@
+{
+  "slug": "image-mirror",
+  "category": "devops",
+  "subcategory": "container",
+  "name": "Image mirror",
+  "description": "Arrows trading places above the shelf — a registry that keeps a copy of another's images",
+  "tags": [
+    "mirror",
+    "proxy",
+    "cache"
+  ],
+  "keywords": [
+    "registry mirror",
+    "pull through cache",
+    "mirror registry",
+    "image mirror"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12A2 2 0 0 1 4 10H20A2 2 0 0 1 22 12V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M8 10V19",
+      "closed": false
+    },
+    {
+      "d": "M15 10V19",
+      "closed": false
+    },
+    {
+      "d": "M10 6H14",
+      "closed": false
+    },
+    {
+      "d": "M13.5 3.5L16 6L13.5 8.5",
+      "closed": false
+    },
+    {
+      "d": "M10.5 3.5L8 6L10.5 8.5",
+      "closed": false
+    }
+  ]
+}

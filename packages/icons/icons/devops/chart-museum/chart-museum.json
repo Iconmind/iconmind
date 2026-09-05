@@ -1,0 +1,37 @@
+{
+  "slug": "chart-museum",
+  "category": "devops",
+  "subcategory": "container",
+  "name": "Chart repository",
+  "description": "A roof over the shelf — the place packaged charts are published and found",
+  "tags": [
+    "helm",
+    "charts",
+    "repository"
+  ],
+  "keywords": [
+    "chart museum",
+    "helm repository",
+    "chart repo",
+    "oci charts"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12A2 2 0 0 1 4 10H20A2 2 0 0 1 22 12V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M8 10V19",
+      "closed": false
+    },
+    {
+      "d": "M15 10V19",
+      "closed": false
+    },
+    {
+      "d": "M8 8.5L12 4.5L16 8.5",
+      "closed": false
+    }
+  ]
+}

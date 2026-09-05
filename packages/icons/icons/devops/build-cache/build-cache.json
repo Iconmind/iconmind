@@ -1,0 +1,29 @@
+{
+  "slug": "build-cache",
+  "category": "devops",
+  "subcategory": "container",
+  "name": "Build cache",
+  "description": "A brick kept in the tray — the pieces of the last build, ready to be reused",
+  "tags": [
+    "cache",
+    "reuse",
+    "build"
+  ],
+  "keywords": [
+    "build cache",
+    "cached build",
+    "buildkit cache",
+    "reuse layers"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M6 6A2 2 0 0 1 8 4H16A2 2 0 0 1 18 6V9A2 2 0 0 1 16 11H8A2 2 0 0 1 6 9Z",
+      "closed": true
+    }
+  ]
+}

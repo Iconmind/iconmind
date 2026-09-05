@@ -1,0 +1,33 @@
+{
+  "slug": "layer-cache-hit",
+  "category": "devops",
+  "subcategory": "container",
+  "name": "Layer cache hit",
+  "description": "A box with a check inside — a layer already built once and reused as is",
+  "tags": [
+    "cache",
+    "hit",
+    "layer"
+  ],
+  "keywords": [
+    "layer cache",
+    "cache hit",
+    "cached layer",
+    "fast build"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 4.5A2.5 2.5 0 0 1 5.5 2H18.5A2.5 2.5 0 0 1 21 4.5V4.5A2.5 2.5 0 0 1 18.5 7H5.5A2.5 2.5 0 0 1 3 4.5Z",
+      "closed": true
+    },
+    {
+      "d": "M3 12A2 2 0 0 1 5 10H19A2 2 0 0 1 21 12V20A2 2 0 0 1 19 22H5A2 2 0 0 1 3 20Z",
+      "closed": true
+    },
+    {
+      "d": "M9 16L11 18L15 14",
+      "closed": false
+    }
+  ]
+}

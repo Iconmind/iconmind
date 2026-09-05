@@ -1,0 +1,37 @@
+{
+  "slug": "seccomp",
+  "category": "devops",
+  "subcategory": "container",
+  "name": "Seccomp profile",
+  "description": "A funnel inside the crate — the system calls a container is allowed to make",
+  "tags": [
+    "seccomp",
+    "syscall",
+    "filter"
+  ],
+  "keywords": [
+    "seccomp profile",
+    "syscall filter",
+    "seccomp",
+    "restrict syscalls"
+  ],
+  "family": "grid",
+  "shapes": [
+    {
+      "d": "M3 8A2 2 0 0 1 5 6H19A2 2 0 0 1 21 8V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M6 6V20",
+      "closed": false
+    },
+    {
+      "d": "M10 9.5L17 9.5L14.5 12L14.5 16",
+      "closed": false
+    },
+    {
+      "d": "M12.5 12L10 9.5",
+      "closed": false
+    }
+  ]
+}

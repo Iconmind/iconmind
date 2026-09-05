@@ -1,0 +1,33 @@
+{
+  "slug": "capability-drop",
+  "category": "devops",
+  "subcategory": "container",
+  "name": "Capability drop",
+  "description": "A minus inside the crate — a kernel capability the container gives up before it runs",
+  "tags": [
+    "capabilities",
+    "drop",
+    "harden"
+  ],
+  "keywords": [
+    "cap drop",
+    "drop capabilities",
+    "least privilege",
+    "harden container"
+  ],
+  "family": "grid",
+  "shapes": [
+    {
+      "d": "M3 8A2 2 0 0 1 5 6H19A2 2 0 0 1 21 8V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M6 6V20",
+      "closed": false
+    },
+    {
+      "d": "M10 12.5H17",
+      "closed": false
+    }
+  ]
+}

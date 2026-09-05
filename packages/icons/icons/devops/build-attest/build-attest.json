@@ -1,0 +1,33 @@
+{
+  "slug": "build-attest",
+  "category": "devops",
+  "subcategory": "container",
+  "name": "Build attestation",
+  "description": "A shield on the brick — a signed statement of how and where the build was made",
+  "tags": [
+    "attestation",
+    "build",
+    "signed"
+  ],
+  "keywords": [
+    "build attestation",
+    "provenance attestation",
+    "signed build",
+    "in-toto"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V14A2 2 0 0 1 18 16H6A2 2 0 0 1 4 14Z",
+      "closed": true
+    },
+    {
+      "d": "M9 7L15 7L15 10L12 13L9 10Z",
+      "closed": true
+    },
+    {
+      "d": "M7 19H17",
+      "closed": false
+    }
+  ]
+}

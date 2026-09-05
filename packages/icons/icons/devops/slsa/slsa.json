@@ -1,0 +1,37 @@
+{
+  "slug": "slsa",
+  "category": "devops",
+  "subcategory": "container",
+  "name": "SLSA level",
+  "description": "A shield with three levels inside — how much of the supply chain a build can vouch for",
+  "tags": [
+    "slsa",
+    "level",
+    "supply-chain"
+  ],
+  "keywords": [
+    "slsa",
+    "slsa level",
+    "supply chain levels",
+    "build integrity"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M9 9H15",
+      "closed": false
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    },
+    {
+      "d": "M9 15H15",
+      "closed": false
+    }
+  ]
+}

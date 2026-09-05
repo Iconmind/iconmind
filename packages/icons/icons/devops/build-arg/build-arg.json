@@ -1,0 +1,37 @@
+{
+  "slug": "build-arg",
+  "category": "devops",
+  "subcategory": "container",
+  "name": "Build argument",
+  "description": "Brackets on the brick — a value passed into the build from outside",
+  "tags": [
+    "build-arg",
+    "argument",
+    "parameter"
+  ],
+  "keywords": [
+    "build arg",
+    "build argument",
+    "arg",
+    "build parameter"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V14A2 2 0 0 1 18 16H6A2 2 0 0 1 4 14Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 7.5L8 7.5L8 12.5L10.5 12.5",
+      "closed": false
+    },
+    {
+      "d": "M13.5 7.5L16 7.5L16 12.5L13.5 12.5",
+      "closed": false
+    },
+    {
+      "d": "M7 19H17",
+      "closed": false
+    }
+  ]
+}

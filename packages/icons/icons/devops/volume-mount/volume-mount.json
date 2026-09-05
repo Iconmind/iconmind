@@ -1,0 +1,34 @@
+{
+  "slug": "volume-mount",
+  "category": "devops",
+  "subcategory": "container",
+  "name": "Volume mount",
+  "description": "A cylinder inside the crate — persistent storage mounted where the container expects it",
+  "tags": [
+    "volume",
+    "mount",
+    "storage"
+  ],
+  "keywords": [
+    "volume mount",
+    "docker volume",
+    "mounted volume",
+    "persistent storage"
+  ],
+  "family": "grid",
+  "shapes": [
+    {
+      "d": "M3 8A2 2 0 0 1 5 6H19A2 2 0 0 1 21 8V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M6 6V20",
+      "closed": false
+    },
+    {
+      "d": "M10 9.5A3.5 1.5 0 0 1 17 9.5V15.5A3.5 1.5 0 0 1 10 15.5Z",
+      "closed": true,
+      "_why": "a small cylinder, rim and sides, sized to the crate"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "dependency-pin",
+  "category": "devops",
+  "subcategory": "container",
+  "name": "Dependency pin",
+  "description": "Two boxes pinned together — a dependency held at one exact version",
+  "tags": [
+    "pin",
+    "version",
+    "lock"
+  ],
+  "keywords": [
+    "pin dependency",
+    "exact version",
+    "version pinning",
+    "lock version"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V8A2 2 0 0 1 18 10H6A2 2 0 0 1 4 8Z",
+      "closed": true
+    },
+    {
+      "d": "M4 16A2 2 0 0 1 6 14H18A2 2 0 0 1 20 16V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M12 10V14",
+      "closed": false
+    }
+  ]
+}

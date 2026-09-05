@@ -1,0 +1,37 @@
+{
+  "slug": "multi-stage-build",
+  "category": "devops",
+  "subcategory": "container",
+  "name": "Multi-stage build",
+  "description": "A double chevron on the brick — a build in stages, each handing on only what the next needs",
+  "tags": [
+    "multi-stage",
+    "stages",
+    "dockerfile"
+  ],
+  "keywords": [
+    "multi-stage build",
+    "build stages",
+    "builder stage",
+    "small final image"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V14A2 2 0 0 1 18 16H6A2 2 0 0 1 4 14Z",
+      "closed": true
+    },
+    {
+      "d": "M8 8L11 11L8 14",
+      "closed": false
+    },
+    {
+      "d": "M13 8L16 11L13 14",
+      "closed": false
+    },
+    {
+      "d": "M7 19H17",
+      "closed": false
+    }
+  ]
+}

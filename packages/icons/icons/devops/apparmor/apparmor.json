@@ -1,0 +1,33 @@
+{
+  "slug": "apparmor",
+  "category": "devops",
+  "subcategory": "container",
+  "name": "AppArmor profile",
+  "description": "A shield inside the crate — a mandatory access profile wrapped around the container",
+  "tags": [
+    "apparmor",
+    "mac",
+    "profile"
+  ],
+  "keywords": [
+    "apparmor profile",
+    "mandatory access control",
+    "container profile",
+    "selinux"
+  ],
+  "family": "grid",
+  "shapes": [
+    {
+      "d": "M3 8A2 2 0 0 1 5 6H19A2 2 0 0 1 21 8V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M6 6V20",
+      "closed": false
+    },
+    {
+      "d": "M10.5 9L16.5 9L16.5 12.5L13.5 15.5L10.5 12.5Z",
+      "closed": true
+    }
+  ]
+}

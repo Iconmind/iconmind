@@ -1,0 +1,33 @@
+{
+  "slug": "container-health",
+  "category": "devops",
+  "subcategory": "container",
+  "name": "Container health",
+  "description": "A check inside the crate — the container answers its health check and is fit to serve",
+  "tags": [
+    "health",
+    "healthy",
+    "check"
+  ],
+  "keywords": [
+    "container health",
+    "healthcheck",
+    "healthy container",
+    "docker healthcheck"
+  ],
+  "family": "grid",
+  "shapes": [
+    {
+      "d": "M3 8A2 2 0 0 1 5 6H19A2 2 0 0 1 21 8V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M6 6V20",
+      "closed": false
+    },
+    {
+      "d": "M10 12.5L12.5 15L17 10.5",
+      "closed": false
+    }
+  ]
+}

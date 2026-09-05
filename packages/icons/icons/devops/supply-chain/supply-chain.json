@@ -1,0 +1,34 @@
+{
+  "slug": "supply-chain",
+  "category": "devops",
+  "subcategory": "container",
+  "name": "Supply chain",
+  "description": "A delivery truck — every hand a piece of software passes through before it runs",
+  "tags": [
+    "supply-chain",
+    "provenance",
+    "delivery"
+  ],
+  "keywords": [
+    "software supply chain",
+    "supply chain security",
+    "dependency chain",
+    "provenance"
+  ],
+  "family": "truck",
+  "shapes": [
+    {
+      "d": "M4 5H13A2 2 0 0 1 15 7V10H18.5L21 12.5V15A2 2 0 0 1 19 17H4A2 2 0 0 1 2 15V7A2 2 0 0 1 4 5Z",
+      "closed": true,
+      "_why": "truck body and cab drawn as one outline"
+    },
+    {
+      "d": "M5 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

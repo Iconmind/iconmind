@@ -1,0 +1,33 @@
+{
+  "slug": "bind-mount",
+  "category": "devops",
+  "subcategory": "container",
+  "name": "Bind mount",
+  "description": "A folder inside the crate — a directory from the host shown into the container as is",
+  "tags": [
+    "bind",
+    "mount",
+    "host"
+  ],
+  "keywords": [
+    "bind mount",
+    "host directory",
+    "mount path",
+    "host folder"
+  ],
+  "family": "grid",
+  "shapes": [
+    {
+      "d": "M3 8A2 2 0 0 1 5 6H19A2 2 0 0 1 21 8V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M6 6V20",
+      "closed": false
+    },
+    {
+      "d": "M10 16L10 9.5L13 9.5L15 11.5L17.5 11.5L17.5 16Z",
+      "closed": true
+    }
+  ]
+}

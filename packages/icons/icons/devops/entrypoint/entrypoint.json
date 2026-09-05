@@ -1,0 +1,37 @@
+{
+  "slug": "entrypoint",
+  "category": "devops",
+  "subcategory": "container",
+  "name": "Entrypoint",
+  "description": "An arrow arriving inside the crate — the command a container runs the moment it starts",
+  "tags": [
+    "entrypoint",
+    "command",
+    "start"
+  ],
+  "keywords": [
+    "entrypoint",
+    "container command",
+    "cmd",
+    "start command"
+  ],
+  "family": "grid",
+  "shapes": [
+    {
+      "d": "M3 8A2 2 0 0 1 5 6H19A2 2 0 0 1 21 8V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M6 6V20",
+      "closed": false
+    },
+    {
+      "d": "M8.5 12.5H15",
+      "closed": false
+    },
+    {
+      "d": "M12.5 10L15 12.5L12.5 15",
+      "closed": false
+    }
+  ]
+}

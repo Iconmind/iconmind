@@ -1,0 +1,37 @@
+{
+  "slug": "reproducible-build",
+  "category": "devops",
+  "subcategory": "container",
+  "name": "Reproducible build",
+  "description": "An equals sign on the brick — build it again anywhere and get the very same bytes",
+  "tags": [
+    "reproducible",
+    "deterministic",
+    "verify"
+  ],
+  "keywords": [
+    "reproducible build",
+    "deterministic build",
+    "same bytes",
+    "verifiable build"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V14A2 2 0 0 1 18 16H6A2 2 0 0 1 4 14Z",
+      "closed": true
+    },
+    {
+      "d": "M9 8.5H15",
+      "closed": false
+    },
+    {
+      "d": "M9 11.5H15",
+      "closed": false
+    },
+    {
+      "d": "M7 19H17",
+      "closed": false
+    }
+  ]
+}
