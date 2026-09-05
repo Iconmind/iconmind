@@ -1,0 +1,29 @@
+{
+  "slug": "device-trust",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Device trust",
+  "description": "A phone with a check on it — a device known and allowed before the user is",
+  "tags": [
+    "device",
+    "trust",
+    "posture"
+  ],
+  "keywords": [
+    "device trust",
+    "trusted device",
+    "device posture",
+    "managed device"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 5A2 2 0 0 1 9 3H15A2 2 0 0 1 17 5V19A2 2 0 0 1 15 21H9A2 2 0 0 1 7 19Z",
+      "closed": true
+    },
+    {
+      "d": "M9 12L11 14L15 10",
+      "closed": false
+    }
+  ]
+}

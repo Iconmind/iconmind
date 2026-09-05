@@ -1,0 +1,41 @@
+{
+  "slug": "step-up-auth",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Step-up auth",
+  "description": "A key with a staircase on it — a stronger check asked for before a sensitive action",
+  "tags": [
+    "login",
+    "step-up",
+    "mfa"
+  ],
+  "keywords": [
+    "step-up authentication",
+    "re-authenticate",
+    "stronger factor",
+    "sensitive action"
+  ],
+  "family": "key",
+  "shapes": [
+    {
+      "d": "M14 2H16.5A3 3 0 0 1 19.5 5V12A3 3 0 0 1 16.5 15H7.5A3 3 0 0 1 4.5 12V5A3 3 0 0 1 7.5 2H10",
+      "closed": true
+    },
+    {
+      "d": "M12 15V21",
+      "closed": false
+    },
+    {
+      "d": "M12 18H15",
+      "closed": false
+    },
+    {
+      "d": "M12 21H14.5",
+      "closed": false
+    },
+    {
+      "d": "M8 11L10.5 11L10.5 8.5L13 8.5L13 6L15.5 6",
+      "closed": false
+    }
+  ]
+}

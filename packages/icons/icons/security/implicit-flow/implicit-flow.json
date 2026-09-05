@@ -1,0 +1,34 @@
+{
+  "slug": "implicit-flow",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Implicit flow",
+  "description": "A ticket with an arrow straight through it — the token handed over with no code step",
+  "tags": [
+    "token",
+    "oauth",
+    "flow"
+  ],
+  "keywords": [
+    "implicit flow",
+    "implicit grant",
+    "token in fragment",
+    "legacy oauth flow"
+  ],
+  "family": "ticket",
+  "shapes": [
+    {
+      "d": "M4 5H20A2 2 0 0 1 22 7V10A2 2 0 0 0 22 14V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17V14A2 2 0 0 0 2 10V7A2 2 0 0 1 4 5Z",
+      "closed": true,
+      "_why": "a ticket: a rounded card with a notch in each side"
+    },
+    {
+      "d": "M7 12H16",
+      "closed": false
+    },
+    {
+      "d": "M13.5 9.5L16 12L13.5 14.5",
+      "closed": false
+    }
+  ]
+}

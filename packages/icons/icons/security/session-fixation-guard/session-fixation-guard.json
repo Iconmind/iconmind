@@ -1,0 +1,37 @@
+{
+  "slug": "session-fixation-guard",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Session fixation guard",
+  "description": "A padlock with a pin in it — a new session id issued at login, so a planted one is useless",
+  "tags": [
+    "session",
+    "fixation",
+    "guard"
+  ],
+  "keywords": [
+    "session fixation guard",
+    "regenerate session id",
+    "rotate session on login",
+    "fixation protection"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M5 11.5A2 2 0 0 1 7 9.5H17A2 2 0 0 1 19 11.5V19.5A2 2 0 0 1 17 21.5H7A2 2 0 0 1 5 19.5Z",
+      "closed": true
+    },
+    {
+      "d": "M8 9.5A4 4 0 0 1 16 9.5",
+      "closed": false
+    },
+    {
+      "d": "M10 14.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 16L12 18.5L14.5 16",
+      "closed": false
+    }
+  ]
+}

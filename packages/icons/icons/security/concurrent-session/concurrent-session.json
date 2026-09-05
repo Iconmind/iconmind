@@ -1,0 +1,41 @@
+{
+  "slug": "concurrent-session",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Concurrent sessions",
+  "description": "The wide machine with two people signed in — the same account, in two places",
+  "tags": [
+    "session",
+    "concurrent",
+    "limit"
+  ],
+  "keywords": [
+    "concurrent sessions",
+    "multiple sessions",
+    "session limit",
+    "same account twice"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M15.5 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V8L6 4H9.5",
+      "closed": true
+    },
+    {
+      "d": "M6 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 16A3 3 0 0 1 11 16",
+      "closed": false
+    },
+    {
+      "d": "M14 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 16A3 3 0 0 1 19 16",
+      "closed": false
+    }
+  ]
+}

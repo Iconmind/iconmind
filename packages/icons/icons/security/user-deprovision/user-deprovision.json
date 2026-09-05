@@ -1,0 +1,33 @@
+{
+  "slug": "user-deprovision",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "User deprovisioning",
+  "description": "A person with a minus on the chest — an account closed and its access taken back",
+  "tags": [
+    "identity",
+    "deprovision",
+    "lifecycle"
+  ],
+  "keywords": [
+    "user deprovisioning",
+    "deprovision user",
+    "offboarding",
+    "remove access"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A9 9 0 0 1 21 21",
+      "closed": false
+    },
+    {
+      "d": "M9 17H15",
+      "closed": false
+    }
+  ]
+}

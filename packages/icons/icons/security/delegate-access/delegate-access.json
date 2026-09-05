@@ -1,0 +1,37 @@
+{
+  "slug": "delegate-access",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Delegate access",
+  "description": "A person with an arrow across the chest — rights handed on to someone else",
+  "tags": [
+    "access",
+    "delegate",
+    "grant"
+  ],
+  "keywords": [
+    "delegate access",
+    "delegated permissions",
+    "act on behalf",
+    "grant to another"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A9 9 0 0 1 21 21",
+      "closed": false
+    },
+    {
+      "d": "M9 17H15.5",
+      "closed": false
+    },
+    {
+      "d": "M13 14.5L15.5 17L13 19.5",
+      "closed": false
+    }
+  ]
+}

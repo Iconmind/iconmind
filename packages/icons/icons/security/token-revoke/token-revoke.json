@@ -1,0 +1,34 @@
+{
+  "slug": "token-revoke",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Revoke token",
+  "description": "A ticket with a cross on it — a token that no longer opens anything",
+  "tags": [
+    "token",
+    "revoke",
+    "invalidate"
+  ],
+  "keywords": [
+    "revoke token",
+    "token revocation",
+    "invalidate token",
+    "kill token"
+  ],
+  "family": "ticket",
+  "shapes": [
+    {
+      "d": "M4 5H20A2 2 0 0 1 22 7V10A2 2 0 0 0 22 14V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17V14A2 2 0 0 0 2 10V7A2 2 0 0 1 4 5Z",
+      "closed": true,
+      "_why": "a ticket: a rounded card with a notch in each side"
+    },
+    {
+      "d": "M10 10L14 14",
+      "closed": false
+    },
+    {
+      "d": "M14 10L10 14",
+      "closed": false
+    }
+  ]
+}

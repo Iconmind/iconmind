@@ -1,0 +1,33 @@
+{
+  "slug": "role-assignment",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Role assignment",
+  "description": "A person with a tag on the chest — the role a user has been given",
+  "tags": [
+    "access",
+    "role",
+    "assign"
+  ],
+  "keywords": [
+    "role assignment",
+    "assign role",
+    "rbac assignment",
+    "user role"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A9 9 0 0 1 21 21",
+      "closed": false
+    },
+    {
+      "d": "M9 14L12 14L15 17L12 20L9 20Z",
+      "closed": true
+    }
+  ]
+}

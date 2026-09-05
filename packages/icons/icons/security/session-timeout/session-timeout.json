@@ -1,0 +1,29 @@
+{
+  "slug": "session-timeout",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Session timeout",
+  "description": "A ring with an hourglass in it — a session that ends when its time runs out",
+  "tags": [
+    "session",
+    "timeout",
+    "expiry"
+  ],
+  "keywords": [
+    "session timeout",
+    "session expiry",
+    "absolute timeout",
+    "max session age"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M10 10L14 10L10 14L14 14Z",
+      "closed": true
+    }
+  ]
+}

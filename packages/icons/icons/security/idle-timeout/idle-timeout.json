@@ -1,0 +1,29 @@
+{
+  "slug": "idle-timeout",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Idle timeout",
+  "description": "A ring with a Z in it — a session that ends when nobody has touched it for a while",
+  "tags": [
+    "session",
+    "idle",
+    "timeout"
+  ],
+  "keywords": [
+    "idle timeout",
+    "inactivity timeout",
+    "auto logout",
+    "session idle"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M9.5 9.5L14.5 9.5L9.5 14.5L14.5 14.5",
+      "closed": false
+    }
+  ]
+}

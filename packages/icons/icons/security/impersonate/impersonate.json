@@ -1,0 +1,33 @@
+{
+  "slug": "impersonate",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Impersonate",
+  "description": "Two heads overlapping on one pair of shoulders — acting as another user",
+  "tags": [
+    "identity",
+    "impersonate",
+    "support"
+  ],
+  "keywords": [
+    "impersonate",
+    "impersonation",
+    "log in as user",
+    "act as"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 21A7 7 0 0 1 19 21",
+      "closed": false
+    }
+  ]
+}

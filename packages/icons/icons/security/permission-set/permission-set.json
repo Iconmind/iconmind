@@ -1,0 +1,41 @@
+{
+  "slug": "permission-set",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Permission set",
+  "description": "A padlock with a list in it — the permissions that travel together",
+  "tags": [
+    "access",
+    "permission",
+    "set"
+  ],
+  "keywords": [
+    "permission set",
+    "permission bundle",
+    "policy set",
+    "grouped permissions"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M5 11.5A2 2 0 0 1 7 9.5H17A2 2 0 0 1 19 11.5V19.5A2 2 0 0 1 17 21.5H7A2 2 0 0 1 5 19.5Z",
+      "closed": true
+    },
+    {
+      "d": "M8 9.5A4 4 0 0 1 16 9.5",
+      "closed": false
+    },
+    {
+      "d": "M9 12.5H15",
+      "closed": false
+    },
+    {
+      "d": "M9 15.5H15",
+      "closed": false
+    },
+    {
+      "d": "M9 18.5H15",
+      "closed": false
+    }
+  ]
+}

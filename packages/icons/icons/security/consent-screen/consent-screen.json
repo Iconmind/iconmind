@@ -1,0 +1,33 @@
+{
+  "slug": "consent-screen",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Consent screen",
+  "description": "A window with a title and one button — the page that asks the user to allow it",
+  "tags": [
+    "login",
+    "consent",
+    "oauth"
+  ],
+  "keywords": [
+    "consent screen",
+    "authorize app",
+    "allow access screen",
+    "oauth consent"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V18A3 3 0 0 1 18 21H6A3 3 0 0 1 3 18V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M6 9H18",
+      "closed": false
+    },
+    {
+      "d": "M8.5 15A2 2 0 0 1 10.5 13H13.5A2 2 0 0 1 15.5 15V15A2 2 0 0 1 13.5 17H10.5A2 2 0 0 1 8.5 15Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "tenant-isolation",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Tenant isolation",
+  "description": "Two boxes with a wall between them — one customer's data kept from another's",
+  "tags": [
+    "identity",
+    "tenant",
+    "isolation"
+  ],
+  "keywords": [
+    "tenant isolation",
+    "multi-tenant",
+    "tenant boundary",
+    "data separation"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 9A2 2 0 0 1 4 7H8A2 2 0 0 1 10 9V15A2 2 0 0 1 8 17H4A2 2 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M14 9A2 2 0 0 1 16 7H20A2 2 0 0 1 22 9V15A2 2 0 0 1 20 17H16A2 2 0 0 1 14 15Z",
+      "closed": true
+    },
+    {
+      "d": "M12 5V19",
+      "closed": false
+    }
+  ]
+}

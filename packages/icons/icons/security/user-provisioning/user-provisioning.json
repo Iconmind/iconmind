@@ -1,0 +1,37 @@
+{
+  "slug": "user-provisioning",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "User provisioning",
+  "description": "A person with a plus on the chest — an account created and given its first access",
+  "tags": [
+    "identity",
+    "provision",
+    "lifecycle"
+  ],
+  "keywords": [
+    "user provisioning",
+    "provision user",
+    "scim create",
+    "onboarding"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A9 9 0 0 1 21 21",
+      "closed": false
+    },
+    {
+      "d": "M12 14V20",
+      "closed": false
+    },
+    {
+      "d": "M9 17H15",
+      "closed": false
+    }
+  ]
+}

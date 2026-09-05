@@ -1,0 +1,37 @@
+{
+  "slug": "device-code-flow",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Device code flow",
+  "description": "A phone with a code on it — sign in on another device by typing what this one shows",
+  "tags": [
+    "device",
+    "oauth",
+    "code"
+  ],
+  "keywords": [
+    "device code flow",
+    "device authorization grant",
+    "enter code on another device",
+    "tv login"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 5A2 2 0 0 1 9 3H15A2 2 0 0 1 17 5V19A2 2 0 0 1 15 21H9A2 2 0 0 1 7 19Z",
+      "closed": true
+    },
+    {
+      "d": "M10 9V15",
+      "closed": false
+    },
+    {
+      "d": "M14 9V15",
+      "closed": false
+    },
+    {
+      "d": "M8 12H16",
+      "closed": false
+    }
+  ]
+}

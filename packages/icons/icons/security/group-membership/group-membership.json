@@ -1,0 +1,33 @@
+{
+  "slug": "group-membership",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Group membership",
+  "description": "A folder with a person in it — the groups a user is filed under",
+  "tags": [
+    "identity",
+    "group",
+    "membership"
+  ],
+  "keywords": [
+    "group membership",
+    "member of",
+    "security group",
+    "user groups"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M10 11a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8.5 17A3.5 3.5 0 0 1 15.5 17",
+      "closed": false
+    }
+  ]
+}

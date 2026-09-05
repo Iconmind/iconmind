@@ -1,0 +1,33 @@
+{
+  "slug": "attribute-based",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Attribute-based access",
+  "description": "A padlock with a tag in it — access decided by what is true of the user, not just their role",
+  "tags": [
+    "access",
+    "attribute",
+    "abac"
+  ],
+  "keywords": [
+    "attribute-based access control",
+    "abac",
+    "policy by attribute",
+    "contextual access"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M5 11.5A2 2 0 0 1 7 9.5H17A2 2 0 0 1 19 11.5V19.5A2 2 0 0 1 17 21.5H7A2 2 0 0 1 5 19.5Z",
+      "closed": true
+    },
+    {
+      "d": "M8 9.5A4 4 0 0 1 16 9.5",
+      "closed": false
+    },
+    {
+      "d": "M9 12.5L12 12.5L15 15.5L12 18.5L9 18.5Z",
+      "closed": true
+    }
+  ]
+}

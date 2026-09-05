@@ -1,0 +1,41 @@
+{
+  "slug": "access-review",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Access review",
+  "description": "A clipboard with a key on it — who still has what, gone over on a schedule",
+  "tags": [
+    "access",
+    "review",
+    "audit"
+  ],
+  "keywords": [
+    "access review",
+    "access certification",
+    "recertify access",
+    "quarterly review"
+  ],
+  "family": "clipboard",
+  "shapes": [
+    {
+      "d": "M4 7.5A2 2 0 0 1 6 5.5H18A2 2 0 0 1 20 7.5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 7L9.5 2.5L14.5 2.5L14.5 7",
+      "closed": false
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 14V16.5",
+      "closed": false
+    },
+    {
+      "d": "M12 15H14.5",
+      "closed": false
+    }
+  ]
+}

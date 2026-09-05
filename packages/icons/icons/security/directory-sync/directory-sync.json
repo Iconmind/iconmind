@@ -1,0 +1,33 @@
+{
+  "slug": "directory-sync",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Directory sync",
+  "description": "A folder with an arrow looping back — users and groups copied over from the directory",
+  "tags": [
+    "identity",
+    "directory",
+    "sync"
+  ],
+  "keywords": [
+    "directory sync",
+    "scim",
+    "ldap sync",
+    "user sync"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M8.5 16L8.5 11L15.5 11L15.5 16",
+      "closed": false
+    },
+    {
+      "d": "M13 13.5L15.5 16L18 13.5",
+      "closed": false
+    }
+  ]
+}

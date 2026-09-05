@@ -1,0 +1,34 @@
+{
+  "slug": "pkce",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "PKCE",
+  "description": "A ticket with a lock on it — the code flow with a proof key, so the code alone is useless",
+  "tags": [
+    "token",
+    "oauth",
+    "pkce"
+  ],
+  "keywords": [
+    "pkce",
+    "proof key for code exchange",
+    "code verifier",
+    "code challenge"
+  ],
+  "family": "ticket",
+  "shapes": [
+    {
+      "d": "M4 5H20A2 2 0 0 1 22 7V10A2 2 0 0 0 22 14V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17V14A2 2 0 0 0 2 10V7A2 2 0 0 1 4 5Z",
+      "closed": true,
+      "_why": "a ticket: a rounded card with a notch in each side"
+    },
+    {
+      "d": "M9 12L15 12L15 15L9 15Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 12A1.5 1.5 0 0 1 13.5 12",
+      "closed": false
+    }
+  ]
+}

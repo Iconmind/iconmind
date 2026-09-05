@@ -1,0 +1,41 @@
+{
+  "slug": "recovery-code",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Recovery code",
+  "description": "A padlock with a hash in it — the code kept aside for when the second factor is lost",
+  "tags": [
+    "login",
+    "recovery",
+    "mfa"
+  ],
+  "keywords": [
+    "recovery code",
+    "backup code",
+    "lost authenticator",
+    "one-time recovery"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M5 11.5A2 2 0 0 1 7 9.5H17A2 2 0 0 1 19 11.5V19.5A2 2 0 0 1 17 21.5H7A2 2 0 0 1 5 19.5Z",
+      "closed": true
+    },
+    {
+      "d": "M8 9.5A4 4 0 0 1 16 9.5",
+      "closed": false
+    },
+    {
+      "d": "M10 12.5V18.5",
+      "closed": false
+    },
+    {
+      "d": "M14 12.5V18.5",
+      "closed": false
+    },
+    {
+      "d": "M8 15.5H16",
+      "closed": false
+    }
+  ]
+}

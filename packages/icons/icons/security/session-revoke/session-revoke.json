@@ -1,0 +1,37 @@
+{
+  "slug": "session-revoke",
+  "category": "security",
+  "subcategory": "auth",
+  "name": "Revoke session",
+  "description": "A person with a cross on the chest — signed out whether they liked it or not",
+  "tags": [
+    "session",
+    "revoke",
+    "logout"
+  ],
+  "keywords": [
+    "revoke session",
+    "kill session",
+    "force logout",
+    "end session"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A9 9 0 0 1 21 21",
+      "closed": false
+    },
+    {
+      "d": "M10 15L14 19",
+      "closed": false
+    },
+    {
+      "d": "M14 15L10 19",
+      "closed": false
+    }
+  ]
+}
