@@ -1,0 +1,33 @@
+{
+  "slug": "policy-violation",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Policy violation",
+  "description": "A shield with a bar broken in two — a rule the output crossed",
+  "tags": [
+    "policy",
+    "violation",
+    "moderation"
+  ],
+  "keywords": [
+    "policy violation",
+    "content policy violation",
+    "rule broken",
+    "violates usage policy"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M12 7V10",
+      "closed": false
+    },
+    {
+      "d": "M12 12.5V15.5",
+      "closed": false
+    }
+  ]
+}

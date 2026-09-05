@@ -1,0 +1,29 @@
+{
+  "slug": "factuality-test",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Factuality test",
+  "description": "The flask with a check in it — the model's claims put to the test",
+  "tags": [
+    "factuality",
+    "test",
+    "evaluation"
+  ],
+  "keywords": [
+    "factuality test",
+    "fact check eval",
+    "truthfulness",
+    "truthfulqa"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 3L9 10L4 15L4 19L20 19L20 15L15 10L15 3Z",
+      "closed": true
+    },
+    {
+      "d": "M9 15L11 17L15 13",
+      "closed": false
+    }
+  ]
+}

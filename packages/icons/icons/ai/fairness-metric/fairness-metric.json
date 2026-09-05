@@ -1,0 +1,37 @@
+{
+  "slug": "fairness-metric",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Fairness metric",
+  "description": "Axes with two bars the same height — one number for whether groups are treated alike",
+  "tags": [
+    "fairness",
+    "metric",
+    "bias"
+  ],
+  "keywords": [
+    "fairness metric",
+    "equalised odds",
+    "fairness score",
+    "group fairness"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M9 10V18",
+      "closed": false
+    },
+    {
+      "d": "M15 10V18",
+      "closed": false
+    }
+  ]
+}

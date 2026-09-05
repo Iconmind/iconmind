@@ -1,0 +1,30 @@
+{
+  "slug": "eval-trace",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Eval trace",
+  "description": "A receipt with a check on it — the log of a run, with its verdict",
+  "tags": [
+    "evaluation",
+    "trace",
+    "log"
+  ],
+  "keywords": [
+    "eval trace",
+    "evaluation log",
+    "run trace",
+    "scored trace"
+  ],
+  "family": "receipt",
+  "shapes": [
+    {
+      "d": "M6 2H18A2 2 0 0 1 20 4V19L18 17L16 19L14 17L12 19L10 17L8 19L6 17L4 19V4A2 2 0 0 1 6 2Z",
+      "closed": true,
+      "_why": "a receipt: a rounded head and a foot torn along a zigzag"
+    },
+    {
+      "d": "M9 10L11 12L15 8",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "consistency-check",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Consistency check",
+  "description": "A speech bubble with an equals sign — the same question asked twice, answered the same",
+  "tags": [
+    "consistency",
+    "check",
+    "evaluation"
+  ],
+  "keywords": [
+    "consistency check",
+    "self-consistency",
+    "same answer twice",
+    "stable output"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 21L11 17",
+      "closed": false
+    },
+    {
+      "d": "M9 8.5H15",
+      "closed": false
+    },
+    {
+      "d": "M9 12.5H15",
+      "closed": false
+    }
+  ]
+}

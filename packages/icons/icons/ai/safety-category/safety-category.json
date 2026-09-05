@@ -1,0 +1,33 @@
+{
+  "slug": "safety-category",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Safety category",
+  "description": "A tag with a shield on it — the kind of harm a piece of content is filed under",
+  "tags": [
+    "safety",
+    "category",
+    "moderation"
+  ],
+  "keywords": [
+    "safety category",
+    "harm category",
+    "content category",
+    "moderation class"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M3 6L13 6L21 14L13 22L3 22Z",
+      "closed": true
+    },
+    {
+      "d": "M6 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 11L15 11L15 14L12 17L9 14Z",
+      "closed": true
+    }
+  ]
+}

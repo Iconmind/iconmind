@@ -1,0 +1,33 @@
+{
+  "slug": "leakage-check",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Leakage check",
+  "description": "The flask with something seeping below the line — labels that crept into the inputs",
+  "tags": [
+    "leakage",
+    "check",
+    "training"
+  ],
+  "keywords": [
+    "leakage check",
+    "label leakage",
+    "target leakage",
+    "train-test leakage"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 3L9 10L4 15L4 19L20 19L20 15L15 10L15 3Z",
+      "closed": true
+    },
+    {
+      "d": "M9 12.5H15",
+      "closed": false
+    },
+    {
+      "d": "M9.5 14.5L12 17L14.5 14.5",
+      "closed": false
+    }
+  ]
+}

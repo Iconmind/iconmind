@@ -1,0 +1,34 @@
+{
+  "slug": "eval-cost",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Eval cost",
+  "description": "A receipt with a coin on it — what an evaluation run costs to make",
+  "tags": [
+    "evaluation",
+    "cost",
+    "budget"
+  ],
+  "keywords": [
+    "eval cost",
+    "evaluation cost",
+    "cost per eval",
+    "judge cost"
+  ],
+  "family": "receipt",
+  "shapes": [
+    {
+      "d": "M6 2H18A2 2 0 0 1 20 4V19L18 17L16 19L14 17L12 19L10 17L8 19L6 17L4 19V4A2 2 0 0 1 6 2Z",
+      "closed": true,
+      "_why": "a receipt: a rounded head and a foot torn along a zigzag"
+    },
+    {
+      "d": "M9 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 8V12",
+      "closed": false
+    }
+  ]
+}

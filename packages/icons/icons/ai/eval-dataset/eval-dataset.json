@@ -1,0 +1,37 @@
+{
+  "slug": "eval-dataset",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Eval dataset",
+  "description": "A folder with bars in it — the examples a score is measured on",
+  "tags": [
+    "evaluation",
+    "dataset",
+    "examples"
+  ],
+  "keywords": [
+    "eval dataset",
+    "evaluation set",
+    "test set",
+    "held-out data"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M9 11V17",
+      "closed": false
+    },
+    {
+      "d": "M12 9V17",
+      "closed": false
+    },
+    {
+      "d": "M15 12V17",
+      "closed": false
+    }
+  ]
+}

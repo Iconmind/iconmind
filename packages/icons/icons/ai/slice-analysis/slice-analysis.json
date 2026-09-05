@@ -1,0 +1,41 @@
+{
+  "slug": "slice-analysis",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Slice analysis",
+  "description": "Axes split by a line with a point each side — the score, broken down by group",
+  "tags": [
+    "evaluation",
+    "slice",
+    "analysis"
+  ],
+  "keywords": [
+    "slice analysis",
+    "per-group performance",
+    "subgroup analysis",
+    "disaggregated metrics"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M12 6V18",
+      "closed": false
+    },
+    {
+      "d": "M7 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

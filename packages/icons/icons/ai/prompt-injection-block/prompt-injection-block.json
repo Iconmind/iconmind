@@ -1,0 +1,33 @@
+{
+  "slug": "prompt-injection-block",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Prompt injection blocked",
+  "description": "The wide machine with a bolt stopped at a line — an instruction smuggled in, and not obeyed",
+  "tags": [
+    "injection",
+    "block",
+    "defence"
+  ],
+  "keywords": [
+    "prompt injection blocked",
+    "injection defence",
+    "instruction hierarchy",
+    "blocked injection"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M15.5 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V8L6 4H9.5",
+      "closed": true
+    },
+    {
+      "d": "M13.5 8L11 10.5L13.5 10.5L11 13",
+      "closed": false
+    },
+    {
+      "d": "M8 15H16",
+      "closed": false
+    }
+  ]
+}

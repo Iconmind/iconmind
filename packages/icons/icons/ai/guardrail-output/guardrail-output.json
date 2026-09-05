@@ -1,0 +1,41 @@
+{
+  "slug": "guardrail-output",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Output guardrail",
+  "description": "Two rails with an arrow leaving between them — what goes out, checked before the user sees it",
+  "tags": [
+    "guardrail",
+    "output",
+    "filter"
+  ],
+  "keywords": [
+    "output guardrail",
+    "output filter",
+    "post-check",
+    "response moderation"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M5 4V20",
+      "closed": false
+    },
+    {
+      "d": "M19 4V20",
+      "closed": false
+    },
+    {
+      "d": "M7 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 12H17",
+      "closed": false
+    },
+    {
+      "d": "M14.5 9.5L17 12L14.5 14.5",
+      "closed": false
+    }
+  ]
+}

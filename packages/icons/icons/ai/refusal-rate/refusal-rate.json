@@ -1,0 +1,41 @@
+{
+  "slug": "refusal-rate",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Refusal rate",
+  "description": "Axes with three short bars — how often the model declines",
+  "tags": [
+    "refusal",
+    "rate",
+    "metric"
+  ],
+  "keywords": [
+    "refusal rate",
+    "over-refusal",
+    "decline rate",
+    "refusal metric"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M8 15V18",
+      "closed": false
+    },
+    {
+      "d": "M12 15V18",
+      "closed": false
+    },
+    {
+      "d": "M16 15V18",
+      "closed": false
+    }
+  ]
+}

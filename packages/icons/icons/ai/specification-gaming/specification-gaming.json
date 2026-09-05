@@ -1,0 +1,33 @@
+{
+  "slug": "specification-gaming",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Specification gaming",
+  "description": "An open lock with a check in it — the test passed by a door nobody meant to leave open",
+  "tags": [
+    "alignment",
+    "gaming",
+    "reward"
+  ],
+  "keywords": [
+    "specification gaming",
+    "spec gaming",
+    "letter not spirit",
+    "loophole"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M5 11.5A2 2 0 0 1 7 9.5H17A2 2 0 0 1 19 11.5V19.5A2 2 0 0 1 17 21.5H7A2 2 0 0 1 5 19.5Z",
+      "closed": true
+    },
+    {
+      "d": "M8 7A4 4 0 0 1 16 7",
+      "closed": false
+    },
+    {
+      "d": "M9 15.5L11 17.5L15 13.5",
+      "closed": false
+    }
+  ]
+}

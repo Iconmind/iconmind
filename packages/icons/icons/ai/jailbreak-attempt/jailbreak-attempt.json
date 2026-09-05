@@ -1,0 +1,33 @@
+{
+  "slug": "jailbreak-attempt",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Jailbreak attempt",
+  "description": "An open lock with a bolt in it — a prompt written to get past what the model refuses",
+  "tags": [
+    "jailbreak",
+    "attack",
+    "prompt"
+  ],
+  "keywords": [
+    "jailbreak attempt",
+    "jailbreak prompt",
+    "bypass safety",
+    "dan prompt"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M5 11.5A2 2 0 0 1 7 9.5H17A2 2 0 0 1 19 11.5V19.5A2 2 0 0 1 17 21.5H7A2 2 0 0 1 5 19.5Z",
+      "closed": true
+    },
+    {
+      "d": "M8 7A4 4 0 0 1 16 7",
+      "closed": false
+    },
+    {
+      "d": "M13.5 13L11 15.5L13.5 15.5L11 18",
+      "closed": false
+    }
+  ]
+}

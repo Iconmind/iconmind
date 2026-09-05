@@ -1,0 +1,45 @@
+{
+  "slug": "rubric-score",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Rubric score",
+  "description": "A clipboard with criteria and a mark against each — a score built up line by line",
+  "tags": [
+    "rubric",
+    "score",
+    "grading"
+  ],
+  "keywords": [
+    "rubric score",
+    "rubric grading",
+    "criteria scores",
+    "per-criterion"
+  ],
+  "family": "clipboard",
+  "shapes": [
+    {
+      "d": "M4 7.5A2 2 0 0 1 6 5.5H18A2 2 0 0 1 20 7.5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 7L9.5 2.5L14.5 2.5L14.5 7",
+      "closed": false
+    },
+    {
+      "d": "M9 11H13",
+      "closed": false
+    },
+    {
+      "d": "M14.5 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 15H13",
+      "closed": false
+    },
+    {
+      "d": "M14.5 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

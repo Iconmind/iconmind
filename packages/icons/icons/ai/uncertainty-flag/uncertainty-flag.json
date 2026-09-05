@@ -1,0 +1,37 @@
+{
+  "slug": "uncertainty-flag",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Uncertainty flag",
+  "description": "A speech bubble with a question mark in it — an answer the model marks as unsure",
+  "tags": [
+    "uncertainty",
+    "flag",
+    "confidence"
+  ],
+  "keywords": [
+    "uncertainty flag",
+    "low confidence",
+    "unsure answer",
+    "flag uncertain"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 21L11 17",
+      "closed": false
+    },
+    {
+      "d": "M9.5 9A2.5 2.5 0 1 1 12 11.5",
+      "closed": false
+    },
+    {
+      "d": "M11 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

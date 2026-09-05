@@ -1,0 +1,33 @@
+{
+  "slug": "gold-set",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Gold set",
+  "description": "A coin landing in a tray — the examples whose answers are known to be right",
+  "tags": [
+    "gold",
+    "dataset",
+    "evaluation"
+  ],
+  "keywords": [
+    "gold set",
+    "gold standard",
+    "ground truth set",
+    "golden examples"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M9 8.5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 6.5V10.5",
+      "closed": false
+    }
+  ]
+}

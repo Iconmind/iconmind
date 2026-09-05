@@ -1,0 +1,33 @@
+{
+  "slug": "alignment-tax",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Alignment tax",
+  "description": "Axes with a line that steps down — what a model gives up in capability to stay safe",
+  "tags": [
+    "alignment",
+    "tax",
+    "tradeoff"
+  ],
+  "keywords": [
+    "alignment tax",
+    "safety tax",
+    "capability tradeoff",
+    "cost of alignment"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 10L11 10L14 13L19 13",
+      "closed": false
+    }
+  ]
+}

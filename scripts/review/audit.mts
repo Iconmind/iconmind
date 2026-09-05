@@ -72,6 +72,8 @@ const ANCHORED = new Set([
   "devtools/load-test", "devtools/stress-test", "devtools/soak-test", "devtools/spike-test",
   // R14's noisy line is a line on the axes; its ink sits where the axes are.
   "security/differential-privacy",
+  // R18's measures are bars and lines on the axes; their ink sits where the axes are.
+  "ai/alignment-tax", "ai/demographic-parity", "ai/fairness-metric", "ai/refusal-rate",
   // A bell is its dome - the mass hangs where a bell hangs it.
   "interface/favorite-alert", "interface/bell-add", "interface/bell-check",
   "interface/bell-dot", "interface/bell-remove",

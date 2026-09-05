@@ -1,0 +1,37 @@
+{
+  "slug": "severity-label",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Severity label",
+  "description": "A tag with two chevrons on it — how bad, on a scale",
+  "tags": [
+    "severity",
+    "label",
+    "moderation"
+  ],
+  "keywords": [
+    "severity label",
+    "severity level",
+    "harm severity",
+    "severity tier"
+  ],
+  "family": "object",
+  "shapes": [
+    {
+      "d": "M3 6L13 6L21 14L13 22L3 22Z",
+      "closed": true
+    },
+    {
+      "d": "M6 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 13.5L12 11L14.5 13.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 17.5L12 15L14.5 17.5",
+      "closed": false
+    }
+  ]
+}

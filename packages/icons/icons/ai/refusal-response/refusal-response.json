@@ -1,0 +1,33 @@
+{
+  "slug": "refusal-response",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Refusal",
+  "description": "A speech bubble with a flat line in it — the model declining to answer",
+  "tags": [
+    "refusal",
+    "response",
+    "safety"
+  ],
+  "keywords": [
+    "refusal response",
+    "model refuses",
+    "declined request",
+    "i can't help with that"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 21L11 17",
+      "closed": false
+    },
+    {
+      "d": "M8 10.5H16",
+      "closed": false
+    }
+  ]
+}

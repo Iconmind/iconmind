@@ -1,0 +1,37 @@
+{
+  "slug": "adversarial-input",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Adversarial input",
+  "description": "The wide machine with an arrow that turns into a bolt — input built to make the model fail",
+  "tags": [
+    "adversarial",
+    "input",
+    "attack"
+  ],
+  "keywords": [
+    "adversarial input",
+    "adversarial prompt",
+    "adversarial example",
+    "crafted input"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M15.5 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V8L6 4H9.5",
+      "closed": true
+    },
+    {
+      "d": "M5 12H9",
+      "closed": false
+    },
+    {
+      "d": "M6.5 9.5L9 12L6.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M15.5 9.5L13 12L15.5 12L13 14.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "toxicity-score",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Toxicity score",
+  "description": "A speech bubble with a hazard diamond in it — how harmful what was said is",
+  "tags": [
+    "toxicity",
+    "score",
+    "moderation"
+  ],
+  "keywords": [
+    "toxicity score",
+    "toxicity classifier",
+    "harmful content score",
+    "perspective api"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 21L11 17",
+      "closed": false
+    },
+    {
+      "d": "M12 7.5L15 10.5L12 13.5L9 10.5Z",
+      "closed": true
+    }
+  ]
+}

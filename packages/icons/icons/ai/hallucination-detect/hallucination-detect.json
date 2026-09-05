@@ -1,0 +1,33 @@
+{
+  "slug": "hallucination-detect",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Hallucination detection",
+  "description": "An eye seeing a wisp — a claim the sources never made, caught",
+  "tags": [
+    "hallucination",
+    "detect",
+    "factuality"
+  ],
+  "keywords": [
+    "hallucination detection",
+    "detect hallucination",
+    "unsupported claim",
+    "confabulation"
+  ],
+  "family": "eye",
+  "shapes": [
+    {
+      "d": "M2 12A12.5 12.5 0 0 1 22 12",
+      "closed": false
+    },
+    {
+      "d": "M22 12A12.5 12.5 0 0 1 2 12",
+      "closed": false
+    },
+    {
+      "d": "M8 13.5L10.5 11L13 13.5L15.5 11",
+      "closed": false
+    }
+  ]
+}

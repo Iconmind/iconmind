@@ -1,0 +1,41 @@
+{
+  "slug": "annotation-task",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Annotation task",
+  "description": "A clipboard with an item, its label and a tick — one thing labelled by a person",
+  "tags": [
+    "annotation",
+    "task",
+    "label"
+  ],
+  "keywords": [
+    "annotation task",
+    "labelling task",
+    "human annotation",
+    "data labelling"
+  ],
+  "family": "clipboard",
+  "shapes": [
+    {
+      "d": "M4 7.5A2 2 0 0 1 6 5.5H18A2 2 0 0 1 20 7.5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 7L9.5 2.5L14.5 2.5L14.5 7",
+      "closed": false
+    },
+    {
+      "d": "M8 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 11H15",
+      "closed": false
+    },
+    {
+      "d": "M8.5 15L10.5 17L14.5 13",
+      "closed": false
+    }
+  ]
+}

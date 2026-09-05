@@ -1,0 +1,41 @@
+{
+  "slug": "guardrail-input",
+  "category": "ai",
+  "subcategory": "safety",
+  "name": "Input guardrail",
+  "description": "Two rails with an arrow entering between them — what comes in, checked before the model sees it",
+  "tags": [
+    "guardrail",
+    "input",
+    "filter"
+  ],
+  "keywords": [
+    "input guardrail",
+    "input filter",
+    "pre-check",
+    "input moderation"
+  ],
+  "family": "rails",
+  "shapes": [
+    {
+      "d": "M5 4V20",
+      "closed": false
+    },
+    {
+      "d": "M19 4V20",
+      "closed": false
+    },
+    {
+      "d": "M7 12H13",
+      "closed": false
+    },
+    {
+      "d": "M10.5 9.5L13 12L10.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M15 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}
