@@ -1,0 +1,37 @@
+{
+  "slug": "event-sourcing-agent",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Event-sourced agent",
+  "description": "A ring with three events in a row — state that is nothing but the events replayed",
+  "tags": [
+    "state",
+    "events",
+    "sourcing"
+  ],
+  "keywords": [
+    "event sourcing",
+    "event-sourced agent",
+    "replayable state",
+    "event log state"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M8 9.5V14.5",
+      "closed": false
+    },
+    {
+      "d": "M12 9.5V14.5",
+      "closed": false
+    },
+    {
+      "d": "M16 9.5V14.5",
+      "closed": false
+    }
+  ]
+}

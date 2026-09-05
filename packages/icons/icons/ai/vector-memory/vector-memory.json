@@ -1,0 +1,33 @@
+{
+  "slug": "vector-memory",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Vector memory",
+  "description": "An arrow over a tray — memories stored as vectors and found by nearness",
+  "tags": [
+    "memory",
+    "vector",
+    "embedding"
+  ],
+  "keywords": [
+    "vector memory",
+    "embedding memory",
+    "semantic recall",
+    "vector store memory"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M8 11L14 5",
+      "closed": false
+    },
+    {
+      "d": "M11.5 5L14 5L14 7.5",
+      "closed": false
+    }
+  ]
+}

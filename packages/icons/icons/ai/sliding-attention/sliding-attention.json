@@ -1,0 +1,37 @@
+{
+  "slug": "sliding-attention",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Sliding attention",
+  "description": "The context window with an arrow sliding through it — attention that looks only at the last stretch",
+  "tags": [
+    "context",
+    "attention",
+    "window"
+  ],
+  "keywords": [
+    "sliding window attention",
+    "local attention",
+    "attention window",
+    "sliding attention"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M8 6L5 6L5 18L8 18",
+      "closed": false
+    },
+    {
+      "d": "M16 6L19 6L19 18L16 18",
+      "closed": false
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    },
+    {
+      "d": "M12.5 9.5L15 12L12.5 14.5",
+      "closed": false
+    }
+  ]
+}

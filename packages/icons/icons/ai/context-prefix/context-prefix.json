@@ -1,0 +1,37 @@
+{
+  "slug": "context-prefix",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Context prefix",
+  "description": "The context window with a fixed first line and a point for the rest — what every request begins with",
+  "tags": [
+    "context",
+    "prefix",
+    "prompt"
+  ],
+  "keywords": [
+    "context prefix",
+    "system prefix",
+    "fixed prefix",
+    "shared prefix"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M8 6L5 6L5 18L8 18",
+      "closed": false
+    },
+    {
+      "d": "M16 6L19 6L19 18L16 18",
+      "closed": false
+    },
+    {
+      "d": "M9 9H15",
+      "closed": false
+    },
+    {
+      "d": "M11 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

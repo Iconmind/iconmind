@@ -1,0 +1,41 @@
+{
+  "slug": "memory-audit",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Memory audit",
+  "description": "A checklist over a tray — what the agent remembers, gone over by a person",
+  "tags": [
+    "memory",
+    "audit",
+    "review"
+  ],
+  "keywords": [
+    "memory audit",
+    "review memories",
+    "memory inspection",
+    "what does it remember"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M7 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 6H16",
+      "closed": false
+    },
+    {
+      "d": "M7 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 10H16",
+      "closed": false
+    }
+  ]
+}

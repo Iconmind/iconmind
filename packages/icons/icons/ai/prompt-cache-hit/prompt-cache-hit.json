@@ -1,0 +1,33 @@
+{
+  "slug": "prompt-cache-hit",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Prompt cache hit",
+  "description": "The context window with a bolt in it — the prompt found already computed",
+  "tags": [
+    "prompt",
+    "cache",
+    "hit"
+  ],
+  "keywords": [
+    "prompt cache hit",
+    "cache hit",
+    "cached prompt",
+    "prompt reuse"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M8 6L5 6L5 18L8 18",
+      "closed": false
+    },
+    {
+      "d": "M16 6L19 6L19 18L16 18",
+      "closed": false
+    },
+    {
+      "d": "M13.5 9.5L11 12L13.5 12L11 14.5",
+      "closed": false
+    }
+  ]
+}

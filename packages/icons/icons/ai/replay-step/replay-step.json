@@ -1,0 +1,33 @@
+{
+  "slug": "replay-step",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Replay step",
+  "description": "A ring with a skip mark in it — one recorded step played again",
+  "tags": [
+    "state",
+    "replay",
+    "step"
+  ],
+  "keywords": [
+    "replay step",
+    "step replay",
+    "re-run step",
+    "replay one event"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M9 9L12 12L9 15",
+      "closed": false
+    },
+    {
+      "d": "M15 9V15",
+      "closed": false
+    }
+  ]
+}

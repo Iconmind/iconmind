@@ -1,0 +1,33 @@
+{
+  "slug": "checkpoint-state",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Checkpoint state",
+  "description": "A ring with a peg in it — the state saved so a run can pick up from here",
+  "tags": [
+    "state",
+    "checkpoint",
+    "save"
+  ],
+  "keywords": [
+    "checkpoint state",
+    "save state",
+    "agent checkpoint",
+    "resume point"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M12 7V12",
+      "closed": false
+    },
+    {
+      "d": "M10 14.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

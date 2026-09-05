@@ -1,0 +1,29 @@
+{
+  "slug": "memory-decay",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Memory decay",
+  "description": "A line fading in steps over a tray — memories that count for less as they age",
+  "tags": [
+    "memory",
+    "decay",
+    "forget"
+  ],
+  "keywords": [
+    "memory decay",
+    "recency weighting",
+    "fading memory",
+    "time decay"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M7 6L10 9L13 6L16 9",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "turn-window",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Turn window",
+  "description": "The context window with two turns in it — how many exchanges the model can still see",
+  "tags": [
+    "context",
+    "turns",
+    "window"
+  ],
+  "keywords": [
+    "turn window",
+    "last n turns",
+    "conversation window",
+    "recent turns"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M8 6L5 6L5 18L8 18",
+      "closed": false
+    },
+    {
+      "d": "M16 6L19 6L19 18L16 18",
+      "closed": false
+    },
+    {
+      "d": "M9 10H15",
+      "closed": false
+    },
+    {
+      "d": "M9 14H15",
+      "closed": false
+    }
+  ]
+}

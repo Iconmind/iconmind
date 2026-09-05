@@ -1,0 +1,37 @@
+{
+  "slug": "memory-index",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Memory index",
+  "description": "A hash over a tray — the index that finds a memory by what it is about",
+  "tags": [
+    "memory",
+    "index",
+    "lookup"
+  ],
+  "keywords": [
+    "memory index",
+    "memory indexing",
+    "indexed memory",
+    "memory lookup"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M10 5.5V11.5",
+      "closed": false
+    },
+    {
+      "d": "M14 5.5V11.5",
+      "closed": false
+    },
+    {
+      "d": "M8 8.5H16",
+      "closed": false
+    }
+  ]
+}

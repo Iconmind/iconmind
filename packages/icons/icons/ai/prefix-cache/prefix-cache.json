@@ -1,0 +1,37 @@
+{
+  "slug": "prefix-cache",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Prefix cache",
+  "description": "The context window with a first line and a bolt under it — the shared prefix, already computed",
+  "tags": [
+    "context",
+    "prefix",
+    "cache"
+  ],
+  "keywords": [
+    "prefix cache",
+    "prefix caching",
+    "cached prefix",
+    "prompt prefix hit"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M8 6L5 6L5 18L8 18",
+      "closed": false
+    },
+    {
+      "d": "M16 6L19 6L19 18L16 18",
+      "closed": false
+    },
+    {
+      "d": "M9 9H15",
+      "closed": false
+    },
+    {
+      "d": "M13.5 11L11 13.5L13.5 13.5L11 16",
+      "closed": false
+    }
+  ]
+}

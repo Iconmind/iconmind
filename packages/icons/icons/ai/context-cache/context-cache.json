@@ -1,0 +1,33 @@
+{
+  "slug": "context-cache",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Context cache",
+  "description": "The context window with a block kept in it — tokens the model does not have to read again",
+  "tags": [
+    "context",
+    "cache",
+    "tokens"
+  ],
+  "keywords": [
+    "context cache",
+    "cached context",
+    "kv cache reuse",
+    "cached tokens"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M8 6L5 6L5 18L8 18",
+      "closed": false
+    },
+    {
+      "d": "M16 6L19 6L19 18L16 18",
+      "closed": false
+    },
+    {
+      "d": "M9 9L15 9L15 15L9 15Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "pin-fact",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Pin fact",
+  "description": "A pin over a tray — a fact that stays in memory whatever else is dropped",
+  "tags": [
+    "memory",
+    "pin",
+    "fact"
+  ],
+  "keywords": [
+    "pin fact",
+    "pinned memory",
+    "always remember",
+    "sticky fact"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M10 7.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 9L12 11.5L14.5 9",
+      "closed": false
+    }
+  ]
+}

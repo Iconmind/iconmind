@@ -1,0 +1,33 @@
+{
+  "slug": "prompt-cache-miss",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Prompt cache miss",
+  "description": "The context window with a slash through it — the prompt not in the cache, computed from scratch",
+  "tags": [
+    "prompt",
+    "cache",
+    "miss"
+  ],
+  "keywords": [
+    "prompt cache miss",
+    "cache miss",
+    "uncached prompt",
+    "cold prompt"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M8 6L5 6L5 18L8 18",
+      "closed": false
+    },
+    {
+      "d": "M16 6L19 6L19 18L16 18",
+      "closed": false
+    },
+    {
+      "d": "M9.5 9.5L14.5 14.5",
+      "closed": false
+    }
+  ]
+}

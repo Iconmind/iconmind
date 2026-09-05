@@ -1,0 +1,45 @@
+{
+  "slug": "graph-memory",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Graph memory",
+  "description": "Three points joined over a tray — memories kept as things and the links between them",
+  "tags": [
+    "memory",
+    "graph",
+    "knowledge"
+  ],
+  "keywords": [
+    "graph memory",
+    "knowledge graph memory",
+    "linked memories",
+    "memory graph"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M6.5 5.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15.5 5.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8.5 6.5L11 9",
+      "closed": false
+    },
+    {
+      "d": "M15.5 6.5L13 9",
+      "closed": false
+    }
+  ]
+}

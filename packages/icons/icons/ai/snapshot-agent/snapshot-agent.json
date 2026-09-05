@@ -1,0 +1,33 @@
+{
+  "slug": "snapshot-agent",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Agent snapshot",
+  "description": "A ring with an eye in it — a look taken at everything the agent holds, kept as it was",
+  "tags": [
+    "state",
+    "snapshot",
+    "agent"
+  ],
+  "keywords": [
+    "agent snapshot",
+    "state snapshot",
+    "capture state",
+    "freeze state"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M7.3 10.29A5 5 0 0 1 16.7 10.29",
+      "closed": false
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

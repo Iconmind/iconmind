@@ -1,0 +1,37 @@
+{
+  "slug": "memory-conflict",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Memory conflict",
+  "description": "Two points with a wall between them over a tray — two memories that cannot both be true",
+  "tags": [
+    "memory",
+    "conflict",
+    "contradiction"
+  ],
+  "keywords": [
+    "memory conflict",
+    "contradicting memories",
+    "inconsistent memory",
+    "memory clash"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M6 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 5.5V10.5",
+      "closed": false
+    }
+  ]
+}

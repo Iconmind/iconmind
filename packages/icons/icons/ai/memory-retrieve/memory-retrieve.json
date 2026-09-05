@@ -1,0 +1,33 @@
+{
+  "slug": "memory-retrieve",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Memory retrieval",
+  "description": "A lens over a tray — a memory looked up and brought back",
+  "tags": [
+    "memory",
+    "retrieve",
+    "recall"
+  ],
+  "keywords": [
+    "memory retrieval",
+    "recall memory",
+    "fetch memory",
+    "memory search"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M9 7.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11.5 8L15 11.5",
+      "closed": false
+    }
+  ]
+}

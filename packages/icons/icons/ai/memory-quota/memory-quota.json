@@ -1,0 +1,37 @@
+{
+  "slug": "memory-quota",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Memory quota",
+  "description": "A level between two posts over a tray — how much an agent may remember",
+  "tags": [
+    "memory",
+    "quota",
+    "limit"
+  ],
+  "keywords": [
+    "memory quota",
+    "memory limit",
+    "max memories",
+    "memory cap"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M7 5V11",
+      "closed": false
+    },
+    {
+      "d": "M17 5V11",
+      "closed": false
+    },
+    {
+      "d": "M9 8H15",
+      "closed": false
+    }
+  ]
+}

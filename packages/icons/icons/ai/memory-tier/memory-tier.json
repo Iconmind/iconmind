@@ -1,0 +1,37 @@
+{
+  "slug": "memory-tier",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Memory tier",
+  "description": "Bars stepping down over a tray — hot, warm and cold memory",
+  "tags": [
+    "memory",
+    "tier",
+    "storage"
+  ],
+  "keywords": [
+    "memory tier",
+    "memory tiers",
+    "hot warm cold memory",
+    "tiered memory"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M8 5V12",
+      "closed": false
+    },
+    {
+      "d": "M12 7V12",
+      "closed": false
+    },
+    {
+      "d": "M16 9V12",
+      "closed": false
+    }
+  ]
+}

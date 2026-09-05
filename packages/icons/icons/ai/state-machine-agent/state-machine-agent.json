@@ -1,0 +1,37 @@
+{
+  "slug": "state-machine-agent",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Agent state machine",
+  "description": "A ring with two states and the step between them — an agent that is always in exactly one",
+  "tags": [
+    "state",
+    "machine",
+    "agent"
+  ],
+  "keywords": [
+    "agent state machine",
+    "state transitions",
+    "finite states",
+    "agent fsm"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M7 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 10.5L13.5 13.5",
+      "closed": false
+    }
+  ]
+}

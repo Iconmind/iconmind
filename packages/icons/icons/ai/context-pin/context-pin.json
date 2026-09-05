@@ -1,0 +1,37 @@
+{
+  "slug": "context-pin",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Context pin",
+  "description": "The context window with a pin in it — a piece of context that stays no matter what is dropped",
+  "tags": [
+    "context",
+    "pin",
+    "keep"
+  ],
+  "keywords": [
+    "context pin",
+    "pinned context",
+    "always include",
+    "sticky context"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M8 6L5 6L5 18L8 18",
+      "closed": false
+    },
+    {
+      "d": "M16 6L19 6L19 18L16 18",
+      "closed": false
+    },
+    {
+      "d": "M10 11a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 12.5L12 15L14.5 12.5",
+      "closed": false
+    }
+  ]
+}

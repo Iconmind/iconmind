@@ -1,0 +1,37 @@
+{
+  "slug": "context-budget-alert",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Context budget alert",
+  "description": "The context window with an exclamation mark — the budget nearly spent",
+  "tags": [
+    "context",
+    "budget",
+    "alert"
+  ],
+  "keywords": [
+    "context budget alert",
+    "near context limit",
+    "tokens running out",
+    "context warning"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M8 6L5 6L5 18L8 18",
+      "closed": false
+    },
+    {
+      "d": "M16 6L19 6L19 18L16 18",
+      "closed": false
+    },
+    {
+      "d": "M12 8V12",
+      "closed": false
+    },
+    {
+      "d": "M11 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

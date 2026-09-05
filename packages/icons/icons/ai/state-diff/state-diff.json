@@ -1,0 +1,37 @@
+{
+  "slug": "state-diff",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "State diff",
+  "description": "A ring with a plus over a minus — what changed between two states",
+  "tags": [
+    "state",
+    "diff",
+    "compare"
+  ],
+  "keywords": [
+    "state diff",
+    "compare states",
+    "state change",
+    "delta"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M12 7.5V11.5",
+      "closed": false
+    },
+    {
+      "d": "M10 9.5H14",
+      "closed": false
+    },
+    {
+      "d": "M10 14.5H14",
+      "closed": false
+    }
+  ]
+}

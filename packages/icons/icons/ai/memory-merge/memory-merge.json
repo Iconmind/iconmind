@@ -1,0 +1,33 @@
+{
+  "slug": "memory-merge",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Memory merge",
+  "description": "Two lines joining into one over a tray — memories about the same thing folded together",
+  "tags": [
+    "memory",
+    "merge",
+    "consolidate"
+  ],
+  "keywords": [
+    "memory merge",
+    "merge memories",
+    "deduplicate memories",
+    "consolidation"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M7 6L10 6L13 9L16 9",
+      "closed": false
+    },
+    {
+      "d": "M7 12L10 12L13 9",
+      "closed": false
+    }
+  ]
+}

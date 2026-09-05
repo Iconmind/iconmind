@@ -1,0 +1,33 @@
+{
+  "slug": "restore-state",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Restore state",
+  "description": "A ring with an arrow looping back — the state put back to what it was",
+  "tags": [
+    "state",
+    "restore",
+    "rollback"
+  ],
+  "keywords": [
+    "restore state",
+    "rollback state",
+    "load checkpoint",
+    "revert agent state"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M8.5 14.5L8.5 9.5L15.5 9.5L15.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M13 12L15.5 14.5L18 12",
+      "closed": false
+    }
+  ]
+}

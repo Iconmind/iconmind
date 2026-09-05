@@ -1,0 +1,37 @@
+{
+  "slug": "fact-store",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Fact store",
+  "description": "A statement with a full stop over a tray — the facts an agent may cite",
+  "tags": [
+    "memory",
+    "fact",
+    "store"
+  ],
+  "keywords": [
+    "fact store",
+    "fact memory",
+    "known facts",
+    "structured facts"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M8 6H16",
+      "closed": false
+    },
+    {
+      "d": "M8 10H12",
+      "closed": false
+    },
+    {
+      "d": "M14 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

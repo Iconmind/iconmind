@@ -1,0 +1,41 @@
+{
+  "slug": "conversation-buffer",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Conversation buffer",
+  "description": "The context window with three lines in it — every turn so far, kept as it was said",
+  "tags": [
+    "context",
+    "buffer",
+    "conversation"
+  ],
+  "keywords": [
+    "conversation buffer",
+    "chat history buffer",
+    "full history",
+    "buffer memory"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M8 6L5 6L5 18L8 18",
+      "closed": false
+    },
+    {
+      "d": "M16 6L19 6L19 18L16 18",
+      "closed": false
+    },
+    {
+      "d": "M9 9H15",
+      "closed": false
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    },
+    {
+      "d": "M9 15H15",
+      "closed": false
+    }
+  ]
+}

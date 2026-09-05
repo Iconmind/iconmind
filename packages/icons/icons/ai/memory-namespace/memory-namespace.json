@@ -1,0 +1,33 @@
+{
+  "slug": "memory-namespace",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Memory namespace",
+  "description": "Brackets over a tray — memories kept apart by which agent or user they belong to",
+  "tags": [
+    "memory",
+    "namespace",
+    "scope"
+  ],
+  "keywords": [
+    "memory namespace",
+    "scoped memory",
+    "per-user memory",
+    "memory partition"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M9.5 5L7 5L7 11L9.5 11",
+      "closed": false
+    },
+    {
+      "d": "M14.5 5L17 5L17 11L14.5 11",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "scratchpad-note",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Scratchpad note",
+  "description": "A clipboard with a pencil stroke on it — working notes the agent keeps while it thinks",
+  "tags": [
+    "memory",
+    "scratchpad",
+    "note"
+  ],
+  "keywords": [
+    "scratchpad note",
+    "working notes",
+    "scratch memory",
+    "thinking notes"
+  ],
+  "family": "clipboard",
+  "shapes": [
+    {
+      "d": "M4 7.5A2 2 0 0 1 6 5.5H18A2 2 0 0 1 20 7.5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 7L9.5 2.5L14.5 2.5L14.5 7",
+      "closed": false
+    },
+    {
+      "d": "M9 16L15 10",
+      "closed": false
+    }
+  ]
+}

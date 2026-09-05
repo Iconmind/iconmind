@@ -1,0 +1,33 @@
+{
+  "slug": "memory-evict",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Evict memory",
+  "description": "An arrow leaving over a tray — a memory pushed out to make room",
+  "tags": [
+    "memory",
+    "evict",
+    "capacity"
+  ],
+  "keywords": [
+    "evict memory",
+    "memory eviction",
+    "lru memory",
+    "make room"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M7 8H15",
+      "closed": false
+    },
+    {
+      "d": "M12.5 5.5L15 8L12.5 10.5",
+      "closed": false
+    }
+  ]
+}

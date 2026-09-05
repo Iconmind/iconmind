@@ -1,0 +1,29 @@
+{
+  "slug": "entity-memory",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Entity memory",
+  "description": "A tag landing in a tray — what the agent remembers about each named thing",
+  "tags": [
+    "memory",
+    "entity",
+    "agent"
+  ],
+  "keywords": [
+    "entity memory",
+    "entity store",
+    "remember entities",
+    "named entity memory"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M9 5.5L12 5.5L15 8.5L12 11.5L9 11.5Z",
+      "closed": true
+    }
+  ]
+}

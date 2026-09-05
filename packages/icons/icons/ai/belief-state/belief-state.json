@@ -1,0 +1,33 @@
+{
+  "slug": "belief-state",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Belief state",
+  "description": "A ring with a head over a line — what the agent currently takes to be true",
+  "tags": [
+    "state",
+    "belief",
+    "agent"
+  ],
+  "keywords": [
+    "belief state",
+    "agent beliefs",
+    "current beliefs",
+    "belief update"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M10 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 15H15",
+      "closed": false
+    }
+  ]
+}

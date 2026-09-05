@@ -1,0 +1,37 @@
+{
+  "slug": "note-to-self",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Note to self",
+  "description": "A speech bubble with a pin in it — something the agent tells itself to remember",
+  "tags": [
+    "memory",
+    "note",
+    "agent"
+  ],
+  "keywords": [
+    "note to self",
+    "self note",
+    "agent reminder",
+    "remember this"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 21L11 17",
+      "closed": false
+    },
+    {
+      "d": "M10 9.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 11L12 13.5L14.5 11",
+      "closed": false
+    }
+  ]
+}

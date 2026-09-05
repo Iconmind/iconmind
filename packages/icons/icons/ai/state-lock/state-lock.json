@@ -1,0 +1,37 @@
+{
+  "slug": "state-lock",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "State lock",
+  "description": "The context window with a lock in it — state no other run may change while this one holds it",
+  "tags": [
+    "state",
+    "lock",
+    "concurrency"
+  ],
+  "keywords": [
+    "state lock",
+    "locked state",
+    "exclusive state",
+    "state mutex"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M8 6L5 6L5 18L8 18",
+      "closed": false
+    },
+    {
+      "d": "M16 6L19 6L19 18L16 18",
+      "closed": false
+    },
+    {
+      "d": "M9 12L15 12L15 15L9 15Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 12A1.5 1.5 0 0 1 13.5 12",
+      "closed": false
+    }
+  ]
+}

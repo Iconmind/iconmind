@@ -1,0 +1,37 @@
+{
+  "slug": "shared-memory",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Shared memory",
+  "description": "Two points tied together over a tray — one memory several agents read",
+  "tags": [
+    "memory",
+    "shared",
+    "agents"
+  ],
+  "keywords": [
+    "shared memory",
+    "common memory",
+    "team memory",
+    "memory shared between agents"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M6.5 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 8H13.5",
+      "closed": false
+    }
+  ]
+}

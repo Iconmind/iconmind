@@ -1,0 +1,33 @@
+{
+  "slug": "memory-forget",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Forget memory",
+  "description": "A cross over a tray — a memory the agent is told to drop",
+  "tags": [
+    "memory",
+    "forget",
+    "delete"
+  ],
+  "keywords": [
+    "forget memory",
+    "delete memory",
+    "memory deletion",
+    "unlearn"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M9 6L15 12",
+      "closed": false
+    },
+    {
+      "d": "M15 6L9 12",
+      "closed": false
+    }
+  ]
+}

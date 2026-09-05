@@ -1,0 +1,37 @@
+{
+  "slug": "stale-memory",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Stale memory",
+  "description": "A clock over a tray — a memory older than the thing it describes",
+  "tags": [
+    "memory",
+    "stale",
+    "outdated"
+  ],
+  "keywords": [
+    "stale memory",
+    "outdated memory",
+    "old memory",
+    "memory freshness"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M9 8.5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 5.5V8.5",
+      "closed": false
+    },
+    {
+      "d": "M12 8.5H14.5",
+      "closed": false
+    }
+  ]
+}

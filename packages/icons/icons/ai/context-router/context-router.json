@@ -1,0 +1,33 @@
+{
+  "slug": "context-router",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Context router",
+  "description": "One line splitting into two over a tray — each request given the context it needs",
+  "tags": [
+    "context",
+    "router",
+    "retrieval"
+  ],
+  "keywords": [
+    "context router",
+    "route context",
+    "context selection",
+    "which context"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M5.5 9L9 9L12 6L16.5 6",
+      "closed": false
+    },
+    {
+      "d": "M9 9L12 12L16.5 12",
+      "closed": false
+    }
+  ]
+}

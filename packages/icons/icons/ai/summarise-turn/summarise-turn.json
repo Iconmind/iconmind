@@ -1,0 +1,37 @@
+{
+  "slug": "summarise-turn",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Summarise turn",
+  "description": "The context window with a line boiled down to a point — a turn kept as its gist",
+  "tags": [
+    "context",
+    "summarise",
+    "turn"
+  ],
+  "keywords": [
+    "summarise turn",
+    "turn summary",
+    "condense turn",
+    "summary memory"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M8 6L5 6L5 18L8 18",
+      "closed": false
+    },
+    {
+      "d": "M16 6L19 6L19 18L16 18",
+      "closed": false
+    },
+    {
+      "d": "M9 9H15",
+      "closed": false
+    },
+    {
+      "d": "M9.5 12L12 14.5L14.5 12",
+      "closed": false
+    }
+  ]
+}

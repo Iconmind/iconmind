@@ -1,0 +1,33 @@
+{
+  "slug": "session-state",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Session state",
+  "description": "A ring with two lines in it — what is true for this session and no other",
+  "tags": [
+    "state",
+    "session",
+    "agent"
+  ],
+  "keywords": [
+    "session state",
+    "per-session state",
+    "session variables",
+    "conversation state"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M8 10H16",
+      "closed": false
+    },
+    {
+      "d": "M8 14H16",
+      "closed": false
+    }
+  ]
+}

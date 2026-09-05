@@ -1,0 +1,29 @@
+{
+  "slug": "world-model",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "World model",
+  "description": "A ring with a triangle in it — the agent's own picture of how things work",
+  "tags": [
+    "state",
+    "model",
+    "world"
+  ],
+  "keywords": [
+    "world model",
+    "internal model",
+    "environment model",
+    "agent belief of world"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M8 15L12 11L16 15Z",
+      "closed": true
+    }
+  ]
+}

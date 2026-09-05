@@ -1,0 +1,37 @@
+{
+  "slug": "hierarchical-memory",
+  "category": "ai",
+  "subcategory": "context",
+  "name": "Hierarchical memory",
+  "description": "Rows narrowing upward over a tray — a little kept close, more kept further away",
+  "tags": [
+    "memory",
+    "hierarchy",
+    "tiers"
+  ],
+  "keywords": [
+    "hierarchical memory",
+    "memory hierarchy",
+    "layered memory",
+    "memory pyramid"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M7 5H17",
+      "closed": false
+    },
+    {
+      "d": "M9 8.5H15",
+      "closed": false
+    },
+    {
+      "d": "M10.5 12H13.5",
+      "closed": false
+    }
+  ]
+}
