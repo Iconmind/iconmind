@@ -1,0 +1,33 @@
+{
+  "slug": "box-open",
+  "category": "commerce",
+  "subcategory": "shipping",
+  "name": "Box open",
+  "description": "A box with its flaps folded out — opened, or not yet closed",
+  "tags": [
+    "parcel",
+    "open",
+    "unbox"
+  ],
+  "keywords": [
+    "box open",
+    "open box",
+    "unboxing",
+    "opened package"
+  ],
+  "family": "box",
+  "shapes": [
+    {
+      "d": "M3 11A2 2 0 0 1 5 9H19A2 2 0 0 1 21 11V20A2 2 0 0 1 19 22H5A2 2 0 0 1 3 20Z",
+      "closed": true
+    },
+    {
+      "d": "M4 9L4 5L8 5",
+      "closed": false
+    },
+    {
+      "d": "M20 9L20 5L16 5",
+      "closed": false
+    }
+  ]
+}

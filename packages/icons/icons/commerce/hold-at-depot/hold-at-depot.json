@@ -1,0 +1,33 @@
+{
+  "slug": "hold-at-depot",
+  "category": "commerce",
+  "subcategory": "shipping",
+  "name": "Hold at depot",
+  "description": "The warehouse roof over a pause — kept at the depot until someone collects it",
+  "tags": [
+    "delivery",
+    "hold",
+    "depot"
+  ],
+  "keywords": [
+    "hold at depot",
+    "hold for pickup",
+    "held at facility",
+    "collect from depot"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 20L2 10L5 7L19 7L22 10L22 20",
+      "closed": false
+    },
+    {
+      "d": "M9.5 11V17",
+      "closed": false
+    },
+    {
+      "d": "M14.5 11V17",
+      "closed": false
+    }
+  ]
+}

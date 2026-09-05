@@ -1,0 +1,37 @@
+{
+  "slug": "freight",
+  "category": "commerce",
+  "subcategory": "shipping",
+  "name": "Freight",
+  "description": "A shipping container with its corrugations — cargo by the box-load",
+  "tags": [
+    "freight",
+    "container",
+    "cargo"
+  ],
+  "keywords": [
+    "freight",
+    "shipping container",
+    "cargo",
+    "container freight"
+  ],
+  "family": "container",
+  "shapes": [
+    {
+      "d": "M2 10A2 2 0 0 1 4 8H20A2 2 0 0 1 22 10V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M7 10V16",
+      "closed": false
+    },
+    {
+      "d": "M12 10V16",
+      "closed": false
+    },
+    {
+      "d": "M17 10V16",
+      "closed": false
+    }
+  ]
+}

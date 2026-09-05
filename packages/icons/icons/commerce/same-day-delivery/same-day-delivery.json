@@ -1,0 +1,38 @@
+{
+  "slug": "same-day-delivery",
+  "category": "commerce",
+  "subcategory": "shipping",
+  "name": "Same-day delivery",
+  "description": "The truck with a bolt in its cargo — ordered this morning, here tonight",
+  "tags": [
+    "delivery",
+    "same-day",
+    "speed"
+  ],
+  "keywords": [
+    "same-day delivery",
+    "same day",
+    "today delivery",
+    "rapid delivery"
+  ],
+  "family": "truck",
+  "shapes": [
+    {
+      "d": "M4 5H13A2 2 0 0 1 15 7V10H18.5L21 12.5V15A2 2 0 0 1 19 17H4A2 2 0 0 1 2 15V7A2 2 0 0 1 4 5Z",
+      "closed": true,
+      "_why": "truck body and cab drawn as one outline"
+    },
+    {
+      "d": "M5 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 8L7.5 10.5L10 10.5L7.5 13",
+      "closed": false
+    }
+  ]
+}

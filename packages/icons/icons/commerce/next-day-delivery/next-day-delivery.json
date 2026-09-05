@@ -1,0 +1,46 @@
+{
+  "slug": "next-day-delivery",
+  "category": "commerce",
+  "subcategory": "shipping",
+  "name": "Next-day delivery",
+  "description": "The truck with a clock in its cargo — here tomorrow",
+  "tags": [
+    "delivery",
+    "next-day",
+    "speed"
+  ],
+  "keywords": [
+    "next-day delivery",
+    "next day",
+    "overnight delivery",
+    "tomorrow"
+  ],
+  "family": "truck",
+  "shapes": [
+    {
+      "d": "M4 5H13A2 2 0 0 1 15 7V10H18.5L21 12.5V15A2 2 0 0 1 19 17H4A2 2 0 0 1 2 15V7A2 2 0 0 1 4 5Z",
+      "closed": true,
+      "_why": "truck body and cab drawn as one outline"
+    },
+    {
+      "d": "M5 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 11a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8.5 8.5V11",
+      "closed": false
+    },
+    {
+      "d": "M8.5 11H11",
+      "closed": false
+    }
+  ]
+}

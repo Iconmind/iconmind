@@ -1,0 +1,42 @@
+{
+  "slug": "delivery-failed",
+  "category": "commerce",
+  "subcategory": "shipping",
+  "name": "Delivery failed",
+  "description": "The truck with a cross in its cargo — it could not be handed over",
+  "tags": [
+    "delivery",
+    "failed",
+    "status"
+  ],
+  "keywords": [
+    "delivery failed",
+    "failed delivery",
+    "could not deliver",
+    "delivery exception"
+  ],
+  "family": "truck",
+  "shapes": [
+    {
+      "d": "M4 5H13A2 2 0 0 1 15 7V10H18.5L21 12.5V15A2 2 0 0 1 19 17H4A2 2 0 0 1 2 15V7A2 2 0 0 1 4 5Z",
+      "closed": true,
+      "_why": "truck body and cab drawn as one outline"
+    },
+    {
+      "d": "M5 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6.5 9L10.5 13",
+      "closed": false
+    },
+    {
+      "d": "M10.5 9L6.5 13",
+      "closed": false
+    }
+  ]
+}

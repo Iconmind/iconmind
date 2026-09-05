@@ -1,0 +1,38 @@
+{
+  "slug": "click-and-collect",
+  "category": "commerce",
+  "subcategory": "shipping",
+  "name": "Click and collect",
+  "description": "The storefront with an arrow dropping in — ordered online, picked up in person",
+  "tags": [
+    "pickup",
+    "collect",
+    "shop"
+  ],
+  "keywords": [
+    "click and collect",
+    "buy online pick up in store",
+    "in-store pickup",
+    "collect in store"
+  ],
+  "family": "store",
+  "shapes": [
+    {
+      "d": "M2 5H22M2 5A2.5 2.5 0 0 0 7 5A2.5 2.5 0 0 0 12 5A2.5 2.5 0 0 0 17 5A2.5 2.5 0 0 0 22 5",
+      "closed": false,
+      "_why": "an awning: a rail with four scallops hanging from it"
+    },
+    {
+      "d": "M4 8L4 22L20 22L20 8",
+      "closed": false
+    },
+    {
+      "d": "M12 11V17.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 15L12 17.5L14.5 15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "pack-station",
+  "category": "commerce",
+  "subcategory": "shipping",
+  "name": "Pack station",
+  "description": "A taped parcel set down in a tray — where orders are boxed up",
+  "tags": [
+    "warehouse",
+    "pack",
+    "station"
+  ],
+  "keywords": [
+    "pack station",
+    "packing bench",
+    "packing station",
+    "pack and ship"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M8.5 6A2 2 0 0 1 10.5 4H13.5A2 2 0 0 1 15.5 6V9A2 2 0 0 1 13.5 11H10.5A2 2 0 0 1 8.5 9Z",
+      "closed": true
+    },
+    {
+      "d": "M12 4V8",
+      "closed": false
+    }
+  ]
+}

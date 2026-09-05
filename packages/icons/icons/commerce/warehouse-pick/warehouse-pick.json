@@ -1,0 +1,29 @@
+{
+  "slug": "warehouse-pick",
+  "category": "commerce",
+  "subcategory": "shipping",
+  "name": "Warehouse pick",
+  "description": "The warehouse roof over a check — the item found and taken off the shelf",
+  "tags": [
+    "warehouse",
+    "pick",
+    "fulfil"
+  ],
+  "keywords": [
+    "warehouse pick",
+    "order picking",
+    "picked",
+    "pick and pack"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 20L2 10L5 7L19 7L22 10L22 20",
+      "closed": false
+    },
+    {
+      "d": "M9 14L11 16L15 12",
+      "closed": false
+    }
+  ]
+}

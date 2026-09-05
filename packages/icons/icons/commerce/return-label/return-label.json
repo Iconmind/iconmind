@@ -1,0 +1,37 @@
+{
+  "slug": "return-label",
+  "category": "commerce",
+  "subcategory": "shipping",
+  "name": "Return label",
+  "description": "A price tag with an arrow pointing back — the label that sends it home",
+  "tags": [
+    "return",
+    "label",
+    "print"
+  ],
+  "keywords": [
+    "return label",
+    "prepaid return",
+    "print return label",
+    "returns label"
+  ],
+  "family": "label",
+  "shapes": [
+    {
+      "d": "M4 12L12 4L20 4L20 12L12 20Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 12H16",
+      "closed": false
+    },
+    {
+      "d": "M10.5 9.5L8 12L10.5 14.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "air-freight",
+  "category": "commerce",
+  "subcategory": "shipping",
+  "name": "Air freight",
+  "description": "A plane — cargo by air",
+  "tags": [
+    "freight",
+    "plane",
+    "air"
+  ],
+  "keywords": [
+    "air freight",
+    "air cargo",
+    "fly it",
+    "express air"
+  ],
+  "family": "vehicle",
+  "shapes": [
+    {
+      "d": "M3 12H21",
+      "closed": false
+    },
+    {
+      "d": "M13 12L7 6",
+      "closed": false
+    },
+    {
+      "d": "M13 12L7 18",
+      "closed": false
+    },
+    {
+      "d": "M5 12L3 10",
+      "closed": false
+    },
+    {
+      "d": "M5 12L3 14",
+      "closed": false
+    }
+  ]
+}

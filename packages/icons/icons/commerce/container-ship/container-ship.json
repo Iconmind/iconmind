@@ -1,0 +1,29 @@
+{
+  "slug": "container-ship",
+  "category": "commerce",
+  "subcategory": "shipping",
+  "name": "Container ship",
+  "description": "A hull with a container on it — cargo by sea",
+  "tags": [
+    "freight",
+    "ship",
+    "sea"
+  ],
+  "keywords": [
+    "container ship",
+    "sea freight",
+    "cargo ship",
+    "ocean shipping"
+  ],
+  "family": "vehicle",
+  "shapes": [
+    {
+      "d": "M2 14L6 18L18 18L22 14",
+      "closed": false
+    },
+    {
+      "d": "M7 9.5A2 2 0 0 1 9 7.5H15A2 2 0 0 1 17 9.5V12A2 2 0 0 1 15 14H9A2 2 0 0 1 7 12Z",
+      "closed": true
+    }
+  ]
+}

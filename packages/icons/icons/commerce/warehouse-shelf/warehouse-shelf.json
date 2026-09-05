@@ -1,0 +1,33 @@
+{
+  "slug": "warehouse-shelf",
+  "category": "commerce",
+  "subcategory": "shipping",
+  "name": "Warehouse shelf",
+  "description": "The warehouse roof over two shelves — where stock waits to be picked",
+  "tags": [
+    "warehouse",
+    "shelf",
+    "stock"
+  ],
+  "keywords": [
+    "warehouse shelf",
+    "racking",
+    "storage rack",
+    "warehouse storage"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 20L2 10L5 7L19 7L22 10L22 20",
+      "closed": false
+    },
+    {
+      "d": "M5 13H19",
+      "closed": false
+    },
+    {
+      "d": "M5 17H19",
+      "closed": false
+    }
+  ]
+}

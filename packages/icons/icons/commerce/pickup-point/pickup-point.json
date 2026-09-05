@@ -1,0 +1,30 @@
+{
+  "slug": "pickup-point",
+  "category": "commerce",
+  "subcategory": "shipping",
+  "name": "Pickup point",
+  "description": "A map pin with a parcel in it — a place a parcel waits to be collected",
+  "tags": [
+    "pickup",
+    "point",
+    "location"
+  ],
+  "keywords": [
+    "pickup point",
+    "collection point",
+    "parcel shop",
+    "pickup location"
+  ],
+  "family": "pin",
+  "shapes": [
+    {
+      "d": "M4 10A8 8 0 0 1 20 10L12 18Z",
+      "closed": true,
+      "_why": "the teardrop `location` is drawn from; the mark sits where its ring sits"
+    },
+    {
+      "d": "M10 8L14 8L14 12L10 12Z",
+      "closed": true
+    }
+  ]
+}

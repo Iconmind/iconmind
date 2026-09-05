@@ -1,0 +1,33 @@
+{
+  "slug": "leave-at-door",
+  "category": "commerce",
+  "subcategory": "shipping",
+  "name": "Leave at door",
+  "description": "A door with a parcel on its step and a check on the parcel — no need to be in",
+  "tags": [
+    "delivery",
+    "safe-place",
+    "home"
+  ],
+  "keywords": [
+    "leave at door",
+    "safe place",
+    "leave with neighbour",
+    "no signature"
+  ],
+  "family": "door",
+  "shapes": [
+    {
+      "d": "M9 3L3 3L3 21L9 21",
+      "closed": false
+    },
+    {
+      "d": "M12 14A2 2 0 0 1 14 12H18A2 2 0 0 1 20 14V18A2 2 0 0 1 18 20H14A2 2 0 0 1 12 18Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 16L15.5 18L18.5 15",
+      "closed": false
+    }
+  ]
+}

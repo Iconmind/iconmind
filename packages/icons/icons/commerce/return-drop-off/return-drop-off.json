@@ -1,0 +1,34 @@
+{
+  "slug": "return-drop-off",
+  "category": "commerce",
+  "subcategory": "shipping",
+  "name": "Return drop-off",
+  "description": "The storefront with a parcel in it — the return handed in at a counter",
+  "tags": [
+    "return",
+    "drop-off",
+    "shop"
+  ],
+  "keywords": [
+    "return drop-off",
+    "drop off return",
+    "return in store",
+    "return point"
+  ],
+  "family": "store",
+  "shapes": [
+    {
+      "d": "M2 5H22M2 5A2.5 2.5 0 0 0 7 5A2.5 2.5 0 0 0 12 5A2.5 2.5 0 0 0 17 5A2.5 2.5 0 0 0 22 5",
+      "closed": false,
+      "_why": "an awning: a rail with four scallops hanging from it"
+    },
+    {
+      "d": "M4 8L4 22L20 22L20 8",
+      "closed": false
+    },
+    {
+      "d": "M8.5 14A2 2 0 0 1 10.5 12H13.5A2 2 0 0 1 15.5 14V17A2 2 0 0 1 13.5 19H10.5A2 2 0 0 1 8.5 17Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "parcel-weight",
+  "category": "commerce",
+  "subcategory": "shipping",
+  "name": "Parcel weight",
+  "description": "The parcel with a weight under the lid — how heavy it is, for the price",
+  "tags": [
+    "parcel",
+    "weight",
+    "price"
+  ],
+  "keywords": [
+    "parcel weight",
+    "package weight",
+    "weigh parcel",
+    "billable weight"
+  ],
+  "family": "box",
+  "shapes": [
+    {
+      "d": "M3 6A2 2 0 0 1 5 4H19A2 2 0 0 1 21 6V20A2 2 0 0 1 19 22H5A2 2 0 0 1 3 20Z",
+      "closed": true
+    },
+    {
+      "d": "M4 8H20",
+      "closed": false
+    },
+    {
+      "d": "M12 4V8",
+      "closed": false
+    },
+    {
+      "d": "M8 17A4 4 0 0 1 16 17",
+      "closed": false
+    },
+    {
+      "d": "M8 17H16",
+      "closed": false
+    }
+  ]
+}

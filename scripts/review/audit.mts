@@ -76,6 +76,8 @@ const ANCHORED = new Set([
   "ai/alignment-tax", "ai/demographic-parity", "ai/fairness-metric", "ai/refusal-rate",
   // R19's filters hang from the funnel's mouth like the rest of the funnel family.
   "rag/fusion-rank", "rag/retrieval-fallback",
+  // A pin's payload rides in its head, as with the rest of the pin family.
+  "commerce/pickup-point",
   // A bell is its dome - the mass hangs where a bell hangs it.
   "interface/favorite-alert", "interface/bell-add", "interface/bell-check",
   "interface/bell-dot", "interface/bell-remove",
