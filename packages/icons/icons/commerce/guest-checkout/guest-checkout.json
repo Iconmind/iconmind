@@ -1,0 +1,37 @@
+{
+  "slug": "guest-checkout",
+  "category": "commerce",
+  "subcategory": "checkout",
+  "name": "Guest checkout",
+  "description": "The payment card with a person under the band — paid without an account",
+  "tags": [
+    "checkout",
+    "guest",
+    "account"
+  ],
+  "keywords": [
+    "guest checkout",
+    "checkout as guest",
+    "no account",
+    "continue as guest"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 17H15",
+      "closed": false
+    }
+  ]
+}

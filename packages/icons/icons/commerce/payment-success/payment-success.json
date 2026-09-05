@@ -1,0 +1,33 @@
+{
+  "slug": "payment-success",
+  "category": "commerce",
+  "subcategory": "checkout",
+  "name": "Payment success",
+  "description": "The payment card with a check under the band — the money went through",
+  "tags": [
+    "card",
+    "success",
+    "status"
+  ],
+  "keywords": [
+    "payment success",
+    "payment complete",
+    "paid successfully",
+    "transaction approved"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M9 14L11 16L15 12",
+      "closed": false
+    }
+  ]
+}

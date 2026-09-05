@@ -1,0 +1,42 @@
+{
+  "slug": "tax-included",
+  "category": "commerce",
+  "subcategory": "checkout",
+  "name": "Tax included",
+  "description": "A receipt with a percent over the total line — the tax already in the price",
+  "tags": [
+    "tax",
+    "included",
+    "price"
+  ],
+  "keywords": [
+    "tax included",
+    "inclusive of tax",
+    "vat included",
+    "tax inclusive"
+  ],
+  "family": "receipt",
+  "shapes": [
+    {
+      "d": "M6 2H18A2 2 0 0 1 20 4V19L18 17L16 19L14 17L12 19L10 17L8 19L6 17L4 19V4A2 2 0 0 1 6 2Z",
+      "closed": true,
+      "_why": "a receipt: a rounded head and a foot torn along a zigzag"
+    },
+    {
+      "d": "M8.5 7.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8.5 13L15.5 6",
+      "closed": false
+    },
+    {
+      "d": "M13.5 11.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 15H17",
+      "closed": false
+    }
+  ]
+}

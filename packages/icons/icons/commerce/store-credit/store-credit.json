@@ -1,0 +1,38 @@
+{
+  "slug": "store-credit",
+  "category": "commerce",
+  "subcategory": "checkout",
+  "name": "Store credit",
+  "description": "The storefront with a coin in it — money that spends only here",
+  "tags": [
+    "credit",
+    "store",
+    "balance"
+  ],
+  "keywords": [
+    "store credit",
+    "shop credit",
+    "credit balance",
+    "account credit"
+  ],
+  "family": "store",
+  "shapes": [
+    {
+      "d": "M2 5H22M2 5A2.5 2.5 0 0 0 7 5A2.5 2.5 0 0 0 12 5A2.5 2.5 0 0 0 17 5A2.5 2.5 0 0 0 22 5",
+      "closed": false,
+      "_why": "an awning: a rail with four scallops hanging from it"
+    },
+    {
+      "d": "M4 8L4 22L20 22L20 8",
+      "closed": false
+    },
+    {
+      "d": "M9 14a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12V16",
+      "closed": false
+    }
+  ]
+}

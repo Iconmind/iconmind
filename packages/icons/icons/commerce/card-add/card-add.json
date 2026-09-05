@@ -1,0 +1,37 @@
+{
+  "slug": "card-add",
+  "category": "commerce",
+  "subcategory": "checkout",
+  "name": "Add card",
+  "description": "The payment card with a plus under the band — a new card saved to the account",
+  "tags": [
+    "card",
+    "add",
+    "method"
+  ],
+  "keywords": [
+    "add card",
+    "add payment method",
+    "save card",
+    "new card"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M12 11V17",
+      "closed": false
+    },
+    {
+      "d": "M9 14H15",
+      "closed": false
+    }
+  ]
+}

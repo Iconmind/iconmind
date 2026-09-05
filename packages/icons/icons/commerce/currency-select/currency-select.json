@@ -1,0 +1,37 @@
+{
+  "slug": "currency-select",
+  "category": "commerce",
+  "subcategory": "checkout",
+  "name": "Select currency",
+  "description": "The payment card with chevrons up and down — which money to pay in",
+  "tags": [
+    "card",
+    "currency",
+    "select"
+  ],
+  "keywords": [
+    "select currency",
+    "currency picker",
+    "pay in local currency",
+    "currency switch"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M9.5 12.5L12 10L14.5 12.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 15.5L12 18L14.5 15.5",
+      "closed": false
+    }
+  ]
+}

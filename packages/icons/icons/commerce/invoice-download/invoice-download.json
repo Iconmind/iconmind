@@ -1,0 +1,34 @@
+{
+  "slug": "invoice-download",
+  "category": "commerce",
+  "subcategory": "checkout",
+  "name": "Download invoice",
+  "description": "A receipt with an arrow dropping — the invoice saved as a file",
+  "tags": [
+    "invoice",
+    "download",
+    "file"
+  ],
+  "keywords": [
+    "download invoice",
+    "invoice pdf",
+    "save invoice",
+    "get invoice"
+  ],
+  "family": "receipt",
+  "shapes": [
+    {
+      "d": "M6 2H18A2 2 0 0 1 20 4V19L18 17L16 19L14 17L12 19L10 17L8 19L6 17L4 19V4A2 2 0 0 1 6 2Z",
+      "closed": true,
+      "_why": "a receipt: a rounded head and a foot torn along a zigzag"
+    },
+    {
+      "d": "M12 7V13",
+      "closed": false
+    },
+    {
+      "d": "M9.5 10.5L12 13L14.5 10.5",
+      "closed": false
+    }
+  ]
+}

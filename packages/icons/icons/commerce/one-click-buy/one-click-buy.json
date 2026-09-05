@@ -1,0 +1,33 @@
+{
+  "slug": "one-click-buy",
+  "category": "commerce",
+  "subcategory": "checkout",
+  "name": "One-click buy",
+  "description": "The payment card with a bolt under the band — the saved card, charged in one go",
+  "tags": [
+    "card",
+    "one-click",
+    "buy"
+  ],
+  "keywords": [
+    "one-click buy",
+    "one click purchase",
+    "saved card checkout",
+    "express pay"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M13.5 11.5L11 14L13.5 14L11 16.5",
+      "closed": false
+    }
+  ]
+}

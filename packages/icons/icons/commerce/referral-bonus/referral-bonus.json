@@ -1,0 +1,41 @@
+{
+  "slug": "referral-bonus",
+  "category": "commerce",
+  "subcategory": "checkout",
+  "name": "Referral bonus",
+  "description": "The payment card with two heads over a line — a reward for bringing a friend",
+  "tags": [
+    "loyalty",
+    "referral",
+    "reward"
+  ],
+  "keywords": [
+    "referral bonus",
+    "refer a friend",
+    "referral reward",
+    "invite bonus"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M7 13a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 13a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 17.5H17",
+      "closed": false
+    }
+  ]
+}

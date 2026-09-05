@@ -1,0 +1,37 @@
+{
+  "slug": "cashback",
+  "category": "commerce",
+  "subcategory": "checkout",
+  "name": "Cashback",
+  "description": "The payment card with a coin under the band — a share of the price, given back",
+  "tags": [
+    "loyalty",
+    "cashback",
+    "reward"
+  ],
+  "keywords": [
+    "cashback",
+    "cash back",
+    "money back reward",
+    "cashback offer"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M9 14a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12V16",
+      "closed": false
+    }
+  ]
+}

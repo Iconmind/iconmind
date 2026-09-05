@@ -1,0 +1,41 @@
+{
+  "slug": "buy-now-pay-later",
+  "category": "commerce",
+  "subcategory": "checkout",
+  "name": "Buy now, pay later",
+  "description": "The payment card with a clock under the band — the goods now, the money later",
+  "tags": [
+    "card",
+    "pay-later",
+    "credit"
+  ],
+  "keywords": [
+    "buy now pay later",
+    "bnpl",
+    "pay later",
+    "deferred payment"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M9 14a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 11V14",
+      "closed": false
+    },
+    {
+      "d": "M12 14H14.5",
+      "closed": false
+    }
+  ]
+}

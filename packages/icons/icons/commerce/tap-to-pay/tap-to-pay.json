@@ -1,0 +1,37 @@
+{
+  "slug": "tap-to-pay",
+  "category": "commerce",
+  "subcategory": "checkout",
+  "name": "Tap to pay",
+  "description": "The payment card with a fingertip and its ripple — paid with the phone, one touch",
+  "tags": [
+    "card",
+    "tap",
+    "mobile"
+  ],
+  "keywords": [
+    "tap to pay",
+    "phone payment",
+    "mobile wallet tap",
+    "pay with phone"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M10 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8.24 13.63A4 4 0 0 1 15.76 13.63",
+      "closed": false
+    }
+  ]
+}

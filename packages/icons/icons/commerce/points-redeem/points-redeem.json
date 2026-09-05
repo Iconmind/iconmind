@@ -1,0 +1,37 @@
+{
+  "slug": "points-redeem",
+  "category": "commerce",
+  "subcategory": "checkout",
+  "name": "Redeem points",
+  "description": "The payment card with an arrow dropping — points spent instead of money",
+  "tags": [
+    "loyalty",
+    "redeem",
+    "reward"
+  ],
+  "keywords": [
+    "redeem points",
+    "spend points",
+    "use points",
+    "points redeemed"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M12 11V17",
+      "closed": false
+    },
+    {
+      "d": "M9.5 14.5L12 17L14.5 14.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "loyalty-points",
+  "category": "commerce",
+  "subcategory": "checkout",
+  "name": "Loyalty points",
+  "description": "The payment card with two stones under the band — the points a shopper has",
+  "tags": [
+    "loyalty",
+    "points",
+    "reward"
+  ],
+  "keywords": [
+    "loyalty points",
+    "reward points",
+    "points balance",
+    "earn points"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M8.5 12L10.5 14L8.5 16L6.5 14Z",
+      "closed": true
+    },
+    {
+      "d": "M15.5 12L17.5 14L15.5 16L13.5 14Z",
+      "closed": true
+    }
+  ]
+}

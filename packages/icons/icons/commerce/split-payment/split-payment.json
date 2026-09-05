@@ -1,0 +1,41 @@
+{
+  "slug": "split-payment",
+  "category": "commerce",
+  "subcategory": "checkout",
+  "name": "Split payment",
+  "description": "The payment card with a divider and a share each side — one bill, paid by two",
+  "tags": [
+    "card",
+    "split",
+    "share"
+  ],
+  "keywords": [
+    "split payment",
+    "split the bill",
+    "pay separately",
+    "shared payment"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M12 11V17",
+      "closed": false
+    },
+    {
+      "d": "M7.5 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14.5 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

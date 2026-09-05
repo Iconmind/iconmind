@@ -1,0 +1,34 @@
+{
+  "slug": "order-return",
+  "category": "commerce",
+  "subcategory": "checkout",
+  "name": "Return order",
+  "description": "A receipt with an arrow pointing back — the goods sent back",
+  "tags": [
+    "order",
+    "return",
+    "goods"
+  ],
+  "keywords": [
+    "return order",
+    "return item",
+    "returns",
+    "send back"
+  ],
+  "family": "receipt",
+  "shapes": [
+    {
+      "d": "M6 2H18A2 2 0 0 1 20 4V19L18 17L16 19L14 17L12 19L10 17L8 19L6 17L4 19V4A2 2 0 0 1 6 2Z",
+      "closed": true,
+      "_why": "a receipt: a rounded head and a foot torn along a zigzag"
+    },
+    {
+      "d": "M8 10H16",
+      "closed": false
+    },
+    {
+      "d": "M10.5 7.5L8 10L10.5 12.5",
+      "closed": false
+    }
+  ]
+}

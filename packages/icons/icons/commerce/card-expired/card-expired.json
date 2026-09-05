@@ -1,0 +1,33 @@
+{
+  "slug": "card-expired",
+  "category": "commerce",
+  "subcategory": "checkout",
+  "name": "Card expired",
+  "description": "The payment card with an hourglass under the band — past the date on its front",
+  "tags": [
+    "card",
+    "expired",
+    "method"
+  ],
+  "keywords": [
+    "card expired",
+    "expired card",
+    "update card",
+    "expiry date"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M10 12L14 12L10 16L14 16Z",
+      "closed": true
+    }
+  ]
+}

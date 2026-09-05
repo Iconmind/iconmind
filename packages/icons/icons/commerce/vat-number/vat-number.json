@@ -1,0 +1,41 @@
+{
+  "slug": "vat-number",
+  "category": "commerce",
+  "subcategory": "checkout",
+  "name": "VAT number",
+  "description": "A price tag with a hash on it — the tax number the invoice carries",
+  "tags": [
+    "tax",
+    "vat",
+    "number"
+  ],
+  "keywords": [
+    "vat number",
+    "tax id",
+    "vat registration",
+    "tax number"
+  ],
+  "family": "label",
+  "shapes": [
+    {
+      "d": "M4 12L12 4L20 4L20 12L12 20Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 9V15",
+      "closed": false
+    },
+    {
+      "d": "M14 9V15",
+      "closed": false
+    },
+    {
+      "d": "M8 12H16",
+      "closed": false
+    }
+  ]
+}

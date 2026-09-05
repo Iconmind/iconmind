@@ -33,8 +33,8 @@ const STORE = () => [
 const CART = () => [rect(3, 3.5, 18, 14, 2), disc(7.5, 19.5, 1), disc(16.5, 19.5, 1)];
 /** The basket: a box with a handle arched over its rim. The hollow is x 4..20, y 9..21; marks at cy 15. */
 const BASKET = () => [rect(3, 8, 18, 14, 2), arc(12, 8, 5, 180, 360)];
-/** The product: a box with a lid line. Under the lid is x 4..20, y 9..21; marks at cy 15. */
-const BOX = () => [rect(3, 4, 18, 18, 2), row(8, 4, 20)];
+/** The product: a parcel, a box with a lid line and the tape down to it. Under the lid is x 4..20, y 9..21; marks at cy 15. */
+const BOX = () => [rect(3, 4, 18, 18, 2), row(8, 4, 20), col(12, 4, 8)];
 /** A price tag on the diagonal: a pentagon pointed down-left, the string hole in its top-right corner. Marks sit at (12, 12). */
 const TAG = () => [poly([[4, 12], [12, 4], [20, 4], [20, 12], [12, 20]], true), disc(17, 7, 1)];
 /** The speech bubble `message` draws. The hollow is x 3..21, y 5..16; marks at cy 10.5. */

@@ -1,0 +1,33 @@
+{
+  "slug": "billing-address",
+  "category": "commerce",
+  "subcategory": "checkout",
+  "name": "Billing address",
+  "description": "A window with a coin in it — the address the card is registered to",
+  "tags": [
+    "address",
+    "billing",
+    "card"
+  ],
+  "keywords": [
+    "billing address",
+    "card address",
+    "invoice address",
+    "billing details"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V18A3 3 0 0 1 18 21H6A3 3 0 0 1 3 18V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M9 13a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 11V15",
+      "closed": false
+    }
+  ]
+}

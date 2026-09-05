@@ -1,0 +1,33 @@
+{
+  "slug": "address-form",
+  "category": "commerce",
+  "subcategory": "checkout",
+  "name": "Address form",
+  "description": "A window with a pin in it — where the order should go, typed in",
+  "tags": [
+    "address",
+    "form",
+    "delivery"
+  ],
+  "keywords": [
+    "address form",
+    "delivery address",
+    "enter address",
+    "shipping address"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V18A3 3 0 0 1 18 21H6A3 3 0 0 1 3 18V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 13.5L12 16L14.5 13.5",
+      "closed": false
+    }
+  ]
+}

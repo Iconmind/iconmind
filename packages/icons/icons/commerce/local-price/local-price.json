@@ -1,0 +1,37 @@
+{
+  "slug": "local-price",
+  "category": "commerce",
+  "subcategory": "checkout",
+  "name": "Local price",
+  "description": "A price tag with a pin on it — the price where the shopper is",
+  "tags": [
+    "price",
+    "local",
+    "currency"
+  ],
+  "keywords": [
+    "local price",
+    "price in your currency",
+    "regional pricing",
+    "localised price"
+  ],
+  "family": "label",
+  "shapes": [
+    {
+      "d": "M4 12L12 4L20 4L20 12L12 20Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 11a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 12.5L12 15L14.5 12.5",
+      "closed": false
+    }
+  ]
+}
