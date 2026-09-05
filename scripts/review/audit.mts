@@ -70,6 +70,8 @@ const ANCHORED = new Set([
   "analytics/rollup-metric", "analytics/saturation-metric", "analytics/staleness-marker",
   // R11's load profiles are lines on the same axes; their ink sits where the axes are.
   "devtools/load-test", "devtools/stress-test", "devtools/soak-test", "devtools/spike-test",
+  // R14's noisy line is a line on the axes; its ink sits where the axes are.
+  "security/differential-privacy",
   // A bell is its dome - the mass hangs where a bell hangs it.
   "interface/favorite-alert", "interface/bell-add", "interface/bell-check",
   "interface/bell-dot", "interface/bell-remove",

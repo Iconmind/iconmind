@@ -1,0 +1,33 @@
+{
+  "slug": "right-to-access",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Right to access",
+  "description": "A folder with a lens in it — a person asking to see what is held about them",
+  "tags": [
+    "gdpr",
+    "access",
+    "rights"
+  ],
+  "keywords": [
+    "right to access",
+    "subject access request",
+    "dsar",
+    "what do you hold on me"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M9 12.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11.5 13L15 16.5",
+      "closed": false
+    }
+  ]
+}

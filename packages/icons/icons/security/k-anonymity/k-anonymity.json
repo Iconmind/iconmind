@@ -1,0 +1,41 @@
+{
+  "slug": "k-anonymity",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "K-anonymity",
+  "description": "The wide machine with three identical figures on one line — no record that stands out from the group",
+  "tags": [
+    "anonymity",
+    "k",
+    "privacy"
+  ],
+  "keywords": [
+    "k-anonymity",
+    "anonymisation",
+    "indistinguishable records",
+    "generalisation"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M15.5 4H19A3 3 0 0 1 22 7V17A3 3 0 0 1 19 20H5A3 3 0 0 1 2 17V8L6 4H9.5",
+      "closed": true
+    },
+    {
+      "d": "M8 8V14",
+      "closed": false
+    },
+    {
+      "d": "M12 8V14",
+      "closed": false
+    },
+    {
+      "d": "M16 8V14",
+      "closed": false
+    },
+    {
+      "d": "M6 17H18",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "data-controller",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Data controller",
+  "description": "A person with a flag on the chest — the one who decides why and how data is used",
+  "tags": [
+    "gdpr",
+    "controller",
+    "role"
+  ],
+  "keywords": [
+    "data controller",
+    "controller",
+    "decides purpose",
+    "responsible party"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A9 9 0 0 1 21 21",
+      "closed": false
+    },
+    {
+      "d": "M9 14V20",
+      "closed": false
+    },
+    {
+      "d": "M9 15L14 15L14 19L9 19",
+      "closed": false
+    }
+  ]
+}

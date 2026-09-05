@@ -1,0 +1,29 @@
+{
+  "slug": "purpose-tag",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Purpose tag",
+  "description": "A folder with a tag in it — the reason a record was collected, written on it",
+  "tags": [
+    "purpose",
+    "tag",
+    "privacy"
+  ],
+  "keywords": [
+    "purpose tag",
+    "processing purpose",
+    "purpose label",
+    "why collected"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M9 10.5L12 10.5L15 13.5L12 16.5L9 16.5Z",
+      "closed": true
+    }
+  ]
+}

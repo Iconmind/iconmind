@@ -1,0 +1,33 @@
+{
+  "slug": "vault-field",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Vault field",
+  "description": "A padlock with a field in it — one value kept in the vault, a pointer left behind",
+  "tags": [
+    "vault",
+    "field",
+    "privacy"
+  ],
+  "keywords": [
+    "vault field",
+    "field-level vault",
+    "vaulted value",
+    "store sensitive field"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M5 11.5A2 2 0 0 1 7 9.5H17A2 2 0 0 1 19 11.5V19.5A2 2 0 0 1 17 21.5H7A2 2 0 0 1 5 19.5Z",
+      "closed": true
+    },
+    {
+      "d": "M8 9.5A4 4 0 0 1 16 9.5",
+      "closed": false
+    },
+    {
+      "d": "M8 15.5A2 2 0 0 1 10 13.5H14A2 2 0 0 1 16 15.5V15.5A2 2 0 0 1 14 17.5H10A2 2 0 0 1 8 15.5Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "sensitive-category",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Sensitive category",
+  "description": "An eye with a hazard diamond in it — data of a kind the law treats with extra care",
+  "tags": [
+    "sensitive",
+    "category",
+    "privacy"
+  ],
+  "keywords": [
+    "sensitive category",
+    "special category data",
+    "article 9",
+    "sensitive personal data"
+  ],
+  "family": "eye",
+  "shapes": [
+    {
+      "d": "M2 12A12.5 12.5 0 0 1 22 12",
+      "closed": false
+    },
+    {
+      "d": "M22 12A12.5 12.5 0 0 1 2 12",
+      "closed": false
+    },
+    {
+      "d": "M12 9L15 12L12 15L9 12Z",
+      "closed": true
+    }
+  ]
+}

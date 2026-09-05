@@ -1,0 +1,34 @@
+{
+  "slug": "health-data",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Health data",
+  "description": "An eye with a heart in it — records about someone's body and care",
+  "tags": [
+    "health",
+    "data",
+    "privacy"
+  ],
+  "keywords": [
+    "health data",
+    "medical records",
+    "phi",
+    "hipaa data"
+  ],
+  "family": "eye",
+  "shapes": [
+    {
+      "d": "M2 12A12.5 12.5 0 0 1 22 12",
+      "closed": false
+    },
+    {
+      "d": "M22 12A12.5 12.5 0 0 1 2 12",
+      "closed": false
+    },
+    {
+      "d": "M9 12A1.5 1.5 0 0 1 12 12A1.5 1.5 0 0 1 15 12L12 15Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "right-to-erasure",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Right to erasure",
+  "description": "A folder with a cross in it — a person asking to be forgotten",
+  "tags": [
+    "gdpr",
+    "erasure",
+    "rights"
+  ],
+  "keywords": [
+    "right to erasure",
+    "right to be forgotten",
+    "delete my data",
+    "erasure request"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M9.5 11L14.5 16",
+      "closed": false
+    },
+    {
+      "d": "M14.5 11L9.5 16",
+      "closed": false
+    }
+  ]
+}

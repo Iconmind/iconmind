@@ -1,0 +1,37 @@
+{
+  "slug": "audit-trail-privacy",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Privacy audit trail",
+  "description": "A window with a trail of points across it — who touched personal data, and when",
+  "tags": [
+    "audit",
+    "trail",
+    "privacy"
+  ],
+  "keywords": [
+    "privacy audit trail",
+    "access log",
+    "who accessed",
+    "data access history"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V18A3 3 0 0 1 18 21H6A3 3 0 0 1 3 18V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M6 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

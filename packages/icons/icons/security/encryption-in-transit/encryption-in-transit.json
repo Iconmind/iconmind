@@ -1,0 +1,34 @@
+{
+  "slug": "encryption-in-transit",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Encryption in transit",
+  "description": "A cloud with a lock in it — data unreadable while it travels",
+  "tags": [
+    "encryption",
+    "transit",
+    "network"
+  ],
+  "keywords": [
+    "encryption in transit",
+    "tls",
+    "encrypted connection",
+    "https"
+  ],
+  "family": "cloud",
+  "shapes": [
+    {
+      "d": "M4 18A4 4 0 0 1 6 10.5A5 5 0 0 1 15.5 9A5.5 5.5 0 0 1 20 18Z",
+      "closed": true,
+      "_why": "three lobes, each an arc whose radius is set by the chord it spans — 4 across 7.76, 5 across 9.62, 5.5 across 10.06 — which no constructor takes as an argument"
+    },
+    {
+      "d": "M9 12L15 12L15 15L9 15Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 12A1.5 1.5 0 0 1 13.5 12",
+      "closed": false
+    }
+  ]
+}

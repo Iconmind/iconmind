@@ -1,0 +1,33 @@
+{
+  "slug": "pii-mask",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "PII mask",
+  "description": "An eye with a bar across it — personal data hidden before anyone reads it",
+  "tags": [
+    "pii",
+    "mask",
+    "privacy"
+  ],
+  "keywords": [
+    "pii mask",
+    "mask personal data",
+    "data masking",
+    "hide pii"
+  ],
+  "family": "eye",
+  "shapes": [
+    {
+      "d": "M2 12A12.5 12.5 0 0 1 22 12",
+      "closed": false
+    },
+    {
+      "d": "M22 12A12.5 12.5 0 0 1 2 12",
+      "closed": false
+    },
+    {
+      "d": "M7 12H17",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "secure-delete",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Secure delete",
+  "description": "A bin with a cross in it — data gone in a way it cannot come back from",
+  "tags": [
+    "delete",
+    "secure",
+    "privacy"
+  ],
+  "keywords": [
+    "secure delete",
+    "shred",
+    "crypto-shred",
+    "unrecoverable deletion"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M6 10A2 2 0 0 1 8 8H16A2 2 0 0 1 18 10V18A2 2 0 0 1 16 20H8A2 2 0 0 1 6 18Z",
+      "closed": true
+    },
+    {
+      "d": "M3 5H21",
+      "closed": false
+    },
+    {
+      "d": "M9 11L15 17",
+      "closed": false
+    },
+    {
+      "d": "M15 11L9 17",
+      "closed": false
+    }
+  ]
+}

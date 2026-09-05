@@ -1,0 +1,37 @@
+{
+  "slug": "data-export-user",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Export user data",
+  "description": "A person with an arrow rising on the chest — everything held about them, handed over",
+  "tags": [
+    "export",
+    "user",
+    "privacy"
+  ],
+  "keywords": [
+    "export user data",
+    "download my data",
+    "data takeout",
+    "user data export"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A9 9 0 0 1 21 21",
+      "closed": false
+    },
+    {
+      "d": "M12 14V20",
+      "closed": false
+    },
+    {
+      "d": "M9.5 16.5L12 14L14.5 16.5",
+      "closed": false
+    }
+  ]
+}

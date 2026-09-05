@@ -1,0 +1,33 @@
+{
+  "slug": "tokenise-data",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Tokenise data",
+  "description": "A folder with a value and the stand-in that replaces it — the real thing kept elsewhere",
+  "tags": [
+    "tokenise",
+    "data",
+    "privacy"
+  ],
+  "keywords": [
+    "tokenise data",
+    "tokenization",
+    "surrogate value",
+    "token vault"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M8 10H16",
+      "closed": false
+    },
+    {
+      "d": "M7.5 15A2 2 0 0 1 9.5 13H14.5A2 2 0 0 1 16.5 15V15A2 2 0 0 1 14.5 17H9.5A2 2 0 0 1 7.5 15Z",
+      "closed": true
+    }
+  ]
+}

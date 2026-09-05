@@ -1,0 +1,29 @@
+{
+  "slug": "data-minimisation",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Data minimisation",
+  "description": "A folder with a minus in it — no more collected than the purpose needs",
+  "tags": [
+    "gdpr",
+    "minimisation",
+    "principle"
+  ],
+  "keywords": [
+    "data minimisation",
+    "collect less",
+    "only what is needed",
+    "minimise data"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M9 13.5H15",
+      "closed": false
+    }
+  ]
+}

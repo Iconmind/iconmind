@@ -1,0 +1,33 @@
+{
+  "slug": "dpia",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "DPIA",
+  "description": "A clipboard with a hazard diamond on it — the risk to people, assessed before the processing starts",
+  "tags": [
+    "gdpr",
+    "assessment",
+    "risk"
+  ],
+  "keywords": [
+    "dpia",
+    "data protection impact assessment",
+    "privacy impact assessment",
+    "pia"
+  ],
+  "family": "clipboard",
+  "shapes": [
+    {
+      "d": "M4 7.5A2 2 0 0 1 6 5.5H18A2 2 0 0 1 20 7.5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 7L9.5 2.5L14.5 2.5L14.5 7",
+      "closed": false
+    },
+    {
+      "d": "M12 10.5L15 13.5L12 16.5L9 13.5Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "data-map",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Data map",
+  "description": "A window with a route drawn across it — where personal data goes, from collection on",
+  "tags": [
+    "map",
+    "data-flow",
+    "privacy"
+  ],
+  "keywords": [
+    "data map",
+    "data mapping",
+    "data flow map",
+    "data inventory"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V18A3 3 0 0 1 18 21H6A3 3 0 0 1 3 18V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M6 15L10 15L13 12L18 12",
+      "closed": false
+    },
+    {
+      "d": "M6 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "location-privacy",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Location privacy",
+  "description": "A shield with a pin in it — where someone is, kept to themselves",
+  "tags": [
+    "location",
+    "privacy",
+    "data"
+  ],
+  "keywords": [
+    "location privacy",
+    "location data",
+    "geolocation consent",
+    "hide location"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M10 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 11.5L12 14L14.5 11.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "adequacy-decision",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Adequacy decision",
+  "description": "A clipboard with a seal on it — a country ruled safe enough to send data to",
+  "tags": [
+    "transfer",
+    "adequacy",
+    "gdpr"
+  ],
+  "keywords": [
+    "adequacy decision",
+    "adequate country",
+    "data privacy framework",
+    "transfer without sccs"
+  ],
+  "family": "clipboard",
+  "shapes": [
+    {
+      "d": "M4 7.5A2 2 0 0 1 6 5.5H18A2 2 0 0 1 20 7.5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 7L9.5 2.5L14.5 2.5L14.5 7",
+      "closed": false
+    },
+    {
+      "d": "M9 13.5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

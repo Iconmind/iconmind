@@ -1,0 +1,29 @@
+{
+  "slug": "privacy-by-design",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Privacy by design",
+  "description": "A shield with a set stone in it — protection built in from the first sketch",
+  "tags": [
+    "privacy",
+    "design",
+    "principle"
+  ],
+  "keywords": [
+    "privacy by design",
+    "privacy by default",
+    "built in",
+    "article 25"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M12 8L15 11L12 14L9 11Z",
+      "closed": true
+    }
+  ]
+}

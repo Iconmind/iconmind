@@ -1,0 +1,41 @@
+{
+  "slug": "data-residency-eu",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "EU data residency",
+  "description": "A ring of four points — data that stays inside the union",
+  "tags": [
+    "residency",
+    "eu",
+    "region"
+  ],
+  "keywords": [
+    "eu data residency",
+    "data stays in eu",
+    "european region",
+    "residency requirement"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M16.23 2.94A10 10 0 1 1 7.77 2.94",
+      "closed": true
+    },
+    {
+      "d": "M11 7.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15.5 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 16.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6.5 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

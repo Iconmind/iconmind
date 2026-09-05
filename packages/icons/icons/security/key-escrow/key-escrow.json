@@ -1,0 +1,37 @@
+{
+  "slug": "key-escrow",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Key escrow",
+  "description": "A key set down in a tray — a copy held by someone trusted, for when it is needed",
+  "tags": [
+    "key",
+    "escrow",
+    "encryption"
+  ],
+  "keywords": [
+    "key escrow",
+    "escrowed key",
+    "key recovery",
+    "held key"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M10 7.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9.5V12",
+      "closed": false
+    },
+    {
+      "d": "M12 10.5H14.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "right-to-portability",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Right to portability",
+  "description": "A folder with an arrow leaving it — a person taking their data somewhere else",
+  "tags": [
+    "gdpr",
+    "portability",
+    "rights"
+  ],
+  "keywords": [
+    "right to portability",
+    "data portability",
+    "take my data",
+    "machine-readable export"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M8 13.5H16",
+      "closed": false
+    },
+    {
+      "d": "M13.5 11L16 13.5L13.5 16",
+      "closed": false
+    }
+  ]
+}

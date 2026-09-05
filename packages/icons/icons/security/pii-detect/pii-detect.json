@@ -1,0 +1,41 @@
+{
+  "slug": "pii-detect",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "PII detection",
+  "description": "An eye zeroing in on its pupil — personal data spotted in a stream of text",
+  "tags": [
+    "pii",
+    "detect",
+    "privacy"
+  ],
+  "keywords": [
+    "pii detection",
+    "detect personal data",
+    "pii scanner",
+    "find pii"
+  ],
+  "family": "eye",
+  "shapes": [
+    {
+      "d": "M2 12A12.5 12.5 0 0 1 22 12",
+      "closed": false
+    },
+    {
+      "d": "M22 12A12.5 12.5 0 0 1 2 12",
+      "closed": false
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 12H10",
+      "closed": false
+    },
+    {
+      "d": "M14 12H17",
+      "closed": false
+    }
+  ]
+}

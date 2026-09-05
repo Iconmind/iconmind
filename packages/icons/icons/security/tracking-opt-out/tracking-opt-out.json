@@ -1,0 +1,37 @@
+{
+  "slug": "tracking-opt-out",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Tracking opt-out",
+  "description": "An eye with a small cross where the pupil was — the user asked not to be followed",
+  "tags": [
+    "tracking",
+    "opt-out",
+    "privacy"
+  ],
+  "keywords": [
+    "tracking opt-out",
+    "do not track",
+    "opt out of tracking",
+    "global privacy control"
+  ],
+  "family": "eye",
+  "shapes": [
+    {
+      "d": "M2 12A12.5 12.5 0 0 1 22 12",
+      "closed": false
+    },
+    {
+      "d": "M22 12A12.5 12.5 0 0 1 2 12",
+      "closed": false
+    },
+    {
+      "d": "M10 10L14 14",
+      "closed": false
+    },
+    {
+      "d": "M14 10L10 14",
+      "closed": false
+    }
+  ]
+}

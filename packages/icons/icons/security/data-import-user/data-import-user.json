@@ -1,0 +1,37 @@
+{
+  "slug": "data-import-user",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Import user data",
+  "description": "A person with an arrow dropping on the chest — their data brought in from somewhere else",
+  "tags": [
+    "import",
+    "user",
+    "privacy"
+  ],
+  "keywords": [
+    "import user data",
+    "bring my data",
+    "user data import",
+    "migrate account"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A9 9 0 0 1 21 21",
+      "closed": false
+    },
+    {
+      "d": "M12 14V20",
+      "closed": false
+    },
+    {
+      "d": "M9.5 17.5L12 20L14.5 17.5",
+      "closed": false
+    }
+  ]
+}

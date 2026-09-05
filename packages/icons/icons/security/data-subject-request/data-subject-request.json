@@ -1,0 +1,41 @@
+{
+  "slug": "data-subject-request",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Data subject request",
+  "description": "A person with a written request on the chest — a rights request, as the law lets them make it",
+  "tags": [
+    "gdpr",
+    "request",
+    "rights"
+  ],
+  "keywords": [
+    "data subject request",
+    "dsr",
+    "rights request",
+    "privacy request"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A9 9 0 0 1 21 21",
+      "closed": false
+    },
+    {
+      "d": "M9 14H15",
+      "closed": false
+    },
+    {
+      "d": "M9 17H15",
+      "closed": false
+    },
+    {
+      "d": "M9 20H15",
+      "closed": false
+    }
+  ]
+}

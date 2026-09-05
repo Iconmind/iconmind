@@ -1,0 +1,33 @@
+{
+  "slug": "data-processor",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Data processor",
+  "description": "A machine frame with an arrow through it — the one who handles data on the controller's instructions",
+  "tags": [
+    "gdpr",
+    "processor",
+    "role"
+  ],
+  "keywords": [
+    "data processor",
+    "processor",
+    "on behalf of controller",
+    "service provider"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 12H16",
+      "closed": false
+    },
+    {
+      "d": "M13.5 9.5L16 12L13.5 14.5",
+      "closed": false
+    }
+  ]
+}

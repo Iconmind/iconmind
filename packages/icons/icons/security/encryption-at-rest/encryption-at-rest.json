@@ -1,0 +1,33 @@
+{
+  "slug": "encryption-at-rest",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Encryption at rest",
+  "description": "A folder with a lock in it — data unreadable where it sits",
+  "tags": [
+    "encryption",
+    "rest",
+    "storage"
+  ],
+  "keywords": [
+    "encryption at rest",
+    "encrypted storage",
+    "disk encryption",
+    "encrypted database"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M20 7L20 20L4 20L4 4L9 4L12 7L16 7",
+      "closed": true
+    },
+    {
+      "d": "M9 13.5L15 13.5L15 16.5L9 16.5Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 13.5A1.5 1.5 0 0 1 13.5 13.5",
+      "closed": false
+    }
+  ]
+}

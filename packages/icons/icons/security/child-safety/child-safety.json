@@ -1,0 +1,33 @@
+{
+  "slug": "child-safety",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Child safety",
+  "description": "A shield with a small person in it — the youngest users, given the most care",
+  "tags": [
+    "child",
+    "safety",
+    "privacy"
+  ],
+  "keywords": [
+    "child safety",
+    "children's data",
+    "coppa",
+    "age-appropriate design"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M15 5L20 5L20 13L12 21L4 13L4 5L9 5",
+      "closed": true
+    },
+    {
+      "d": "M10 8.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 13.5H15",
+      "closed": false
+    }
+  ]
+}

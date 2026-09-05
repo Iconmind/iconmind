@@ -1,0 +1,33 @@
+{
+  "slug": "differential-privacy",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Differential privacy",
+  "description": "Axes with a line jittered by noise — answers that hold, without giving any one person away",
+  "tags": [
+    "privacy",
+    "noise",
+    "statistics"
+  ],
+  "keywords": [
+    "differential privacy",
+    "add noise",
+    "epsilon",
+    "privacy budget"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 15L9 13L11 15L13 13L15 15L17 13L19 15",
+      "closed": false
+    }
+  ]
+}

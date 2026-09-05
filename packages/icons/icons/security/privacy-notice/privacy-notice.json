@@ -1,0 +1,37 @@
+{
+  "slug": "privacy-notice",
+  "category": "security",
+  "subcategory": "compliance",
+  "name": "Privacy notice",
+  "description": "An eye with two lines across it — what people are told about being seen",
+  "tags": [
+    "notice",
+    "policy",
+    "privacy"
+  ],
+  "keywords": [
+    "privacy notice",
+    "privacy policy",
+    "privacy statement",
+    "what we collect"
+  ],
+  "family": "eye",
+  "shapes": [
+    {
+      "d": "M2 12A12.5 12.5 0 0 1 22 12",
+      "closed": false
+    },
+    {
+      "d": "M22 12A12.5 12.5 0 0 1 2 12",
+      "closed": false
+    },
+    {
+      "d": "M8 10H16",
+      "closed": false
+    },
+    {
+      "d": "M8 14H16",
+      "closed": false
+    }
+  ]
+}
