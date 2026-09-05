@@ -1,0 +1,33 @@
+{
+  "slug": "error-rate",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Error rate",
+  "description": "Axes with a low, flat line and one bump in it — the share of requests that failed",
+  "tags": [
+    "metric",
+    "error",
+    "rate"
+  ],
+  "keywords": [
+    "error rate",
+    "failure rate",
+    "5xx rate",
+    "errors per second"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 17L10.5 17L13.5 14L16.5 17L19 17",
+      "closed": false
+    }
+  ]
+}

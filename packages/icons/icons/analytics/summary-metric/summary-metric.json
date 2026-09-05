@@ -1,0 +1,41 @@
+{
+  "slug": "summary-metric",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Summary metric",
+  "description": "Axes with a short list on them — count, sum and quantiles kept together",
+  "tags": [
+    "metric",
+    "summary",
+    "quantile"
+  ],
+  "keywords": [
+    "summary metric",
+    "summary type",
+    "count sum quantile",
+    "client quantiles"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M9 8H15",
+      "closed": false
+    },
+    {
+      "d": "M9 11H15",
+      "closed": false
+    },
+    {
+      "d": "M9 14H15",
+      "closed": false
+    }
+  ]
+}

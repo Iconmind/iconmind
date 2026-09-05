@@ -1,0 +1,42 @@
+{
+  "slug": "alert-rule-group",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Alert rule group",
+  "description": "A bell with a short list in it — alert rules evaluated together",
+  "tags": [
+    "alert",
+    "rule",
+    "group"
+  ],
+  "keywords": [
+    "alert rule group",
+    "rule group",
+    "alerting rules",
+    "evaluation group"
+  ],
+  "family": "bell",
+  "shapes": [
+    {
+      "d": "M6 15V10A6 6 0 0 1 18 10V15L20.5 17.5H3.5L6 15Z",
+      "closed": true,
+      "_why": "a bell: dome, shoulders, flared skirt and lip"
+    },
+    {
+      "d": "M14 18.5A2 2 0 0 1 10 18.5",
+      "closed": false
+    },
+    {
+      "d": "M9 8H15",
+      "closed": false
+    },
+    {
+      "d": "M9 11H15",
+      "closed": false
+    },
+    {
+      "d": "M9 14H15",
+      "closed": false
+    }
+  ]
+}

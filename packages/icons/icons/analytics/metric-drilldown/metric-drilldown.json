@@ -1,0 +1,37 @@
+{
+  "slug": "metric-drilldown",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Metric drilldown",
+  "description": "Axes with a lens on them — a metric opened up to see what it is made of",
+  "tags": [
+    "metric",
+    "drilldown",
+    "explore"
+  ],
+  "keywords": [
+    "metric drilldown",
+    "drill into",
+    "break down by",
+    "explore metric"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M9 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11.5 10.5L15 14",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "percentile-metric",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Percentile",
+  "description": "Axes with a distribution and one cut through it — the value most requests stay under",
+  "tags": [
+    "metric",
+    "percentile",
+    "distribution"
+  ],
+  "keywords": [
+    "percentile",
+    "p95",
+    "p99",
+    "tail latency"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M6 17L9 14L12 11L15 14L18 17",
+      "closed": false
+    },
+    {
+      "d": "M15 8V18",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "saturation-metric",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Saturation",
+  "description": "Axes with a line that climbs and then goes flat — a resource with no room left to give",
+  "tags": [
+    "metric",
+    "saturation",
+    "capacity"
+  ],
+  "keywords": [
+    "saturation",
+    "resource saturation",
+    "plateau",
+    "maxed out"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 17L13 11L19 11",
+      "closed": false
+    }
+  ]
+}

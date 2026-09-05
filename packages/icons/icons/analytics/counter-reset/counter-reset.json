@@ -1,0 +1,33 @@
+{
+  "slug": "counter-reset",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Counter reset",
+  "description": "Axes with a sawtooth — a counter that climbed, dropped to zero, and climbed again",
+  "tags": [
+    "metric",
+    "counter",
+    "reset"
+  ],
+  "keywords": [
+    "counter reset",
+    "counter restart",
+    "sawtooth",
+    "process restart"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 17L12 12L12 17L17 12L17 17",
+      "closed": false
+    }
+  ]
+}

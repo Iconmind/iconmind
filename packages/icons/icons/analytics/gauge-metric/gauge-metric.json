@@ -1,0 +1,37 @@
+{
+  "slug": "gauge-metric",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Gauge metric",
+  "description": "Axes with a chevron up over a chevron down — a value that can go either way",
+  "tags": [
+    "metric",
+    "gauge",
+    "value"
+  ],
+  "keywords": [
+    "gauge metric",
+    "gauge type",
+    "current value",
+    "up and down"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M9.5 9.5L12 7L14.5 9.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 14.5L12 17L14.5 14.5",
+      "closed": false
+    }
+  ]
+}

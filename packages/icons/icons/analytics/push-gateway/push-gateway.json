@@ -1,0 +1,33 @@
+{
+  "slug": "push-gateway",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Push gateway",
+  "description": "An arrow dropping into a tray — a place short-lived jobs push their metrics to",
+  "tags": [
+    "metric",
+    "push",
+    "gateway"
+  ],
+  "keywords": [
+    "push gateway",
+    "pushgateway",
+    "push metrics",
+    "batch job metrics"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M12 4V10",
+      "closed": false
+    },
+    {
+      "d": "M9.5 7.5L12 10L14.5 7.5",
+      "closed": false
+    }
+  ]
+}

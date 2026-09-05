@@ -1,0 +1,41 @@
+{
+  "slug": "forecast-metric",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Forecast",
+  "description": "Axes with a line so far and the points it is expected to reach — where a metric is heading",
+  "tags": [
+    "metric",
+    "forecast",
+    "predict"
+  ],
+  "keywords": [
+    "forecast metric",
+    "prediction",
+    "predict_linear",
+    "projection"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 17L12 12",
+      "closed": false
+    },
+    {
+      "d": "M13.5 9.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

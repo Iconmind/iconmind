@@ -1,0 +1,45 @@
+{
+  "slug": "histogram-quantile",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Histogram quantile",
+  "description": "Axes with three bars and a line drawn across them — a quantile estimated from buckets",
+  "tags": [
+    "metric",
+    "histogram",
+    "quantile"
+  ],
+  "keywords": [
+    "histogram quantile",
+    "histogram_quantile",
+    "estimated percentile",
+    "bucket interpolation"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 13V18",
+      "closed": false
+    },
+    {
+      "d": "M11 8V18",
+      "closed": false
+    },
+    {
+      "d": "M15 11V18",
+      "closed": false
+    },
+    {
+      "d": "M6 10H18",
+      "closed": false
+    }
+  ]
+}

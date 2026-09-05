@@ -1,0 +1,45 @@
+{
+  "slug": "histogram-bucket",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Histogram bucket",
+  "description": "Axes with three bars and a point over the middle one — one bucket of a histogram",
+  "tags": [
+    "metric",
+    "histogram",
+    "bucket"
+  ],
+  "keywords": [
+    "histogram bucket",
+    "bucket boundary",
+    "le bucket",
+    "bin"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M9 11V18",
+      "closed": false
+    },
+    {
+      "d": "M13 8V18",
+      "closed": false
+    },
+    {
+      "d": "M17 13V18",
+      "closed": false
+    },
+    {
+      "d": "M12 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

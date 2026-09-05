@@ -1,0 +1,45 @@
+{
+  "slug": "threshold-line",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Threshold line",
+  "description": "Axes with a line across three bars and one bar over it — the level that counts as too much",
+  "tags": [
+    "metric",
+    "threshold",
+    "limit"
+  ],
+  "keywords": [
+    "threshold line",
+    "limit line",
+    "over threshold",
+    "breach level"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M6 10H19",
+      "closed": false
+    },
+    {
+      "d": "M9 14V18",
+      "closed": false
+    },
+    {
+      "d": "M13 12V18",
+      "closed": false
+    },
+    {
+      "d": "M17 7V18",
+      "closed": false
+    }
+  ]
+}

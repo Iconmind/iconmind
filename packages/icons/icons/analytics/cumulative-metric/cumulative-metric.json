@@ -1,0 +1,33 @@
+{
+  "slug": "cumulative-metric",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Cumulative metric",
+  "description": "Axes with a staircase that only climbs — a total that never goes down",
+  "tags": [
+    "metric",
+    "cumulative",
+    "total"
+  ],
+  "keywords": [
+    "cumulative metric",
+    "monotonic",
+    "running total",
+    "cumulative sum"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 17L10 17L10 14L13 14L13 11L16 11L16 8L19 8",
+      "closed": false
+    }
+  ]
+}

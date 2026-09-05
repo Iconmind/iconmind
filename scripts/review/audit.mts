@@ -61,6 +61,13 @@ const ANCHORED = new Set([
   "interface/filter-applied", "interface/filter-cleared", "interface/filter-trend",
   "interface/favorites-filter", "devtools/filter-run", "automation/event-filter",
   "analytics/filtered-list",
+  // R08's metrics stand in the same axes as chart-line, and put their ink where the
+  // axes are — a low error rate is a low line, a sawtooth starts at the origin.
+  "analytics/annotation-chart", "analytics/counter-reset", "analytics/cumulative-metric",
+  "analytics/delta-metric", "analytics/downsample", "analytics/error-rate", "analytics/gauge-metric",
+  "analytics/golden-signal", "analytics/metric-drilldown", "analytics/metric-label",
+  "analytics/percentile-metric", "analytics/quantile", "analytics/rate-of-change",
+  "analytics/rollup-metric", "analytics/saturation-metric", "analytics/staleness-marker",
   // A bell is its dome - the mass hangs where a bell hangs it.
   "interface/favorite-alert", "interface/bell-add", "interface/bell-check",
   "interface/bell-dot", "interface/bell-remove",

@@ -1,0 +1,41 @@
+{
+  "slug": "aggregation-window",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Aggregation window",
+  "description": "Axes with a bracketed stretch and a bar in it — the span one value is computed over",
+  "tags": [
+    "metric",
+    "window",
+    "aggregate"
+  ],
+  "keywords": [
+    "aggregation window",
+    "range window",
+    "5m window",
+    "lookback"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M10.5 7L8 7L8 17L10.5 17",
+      "closed": false
+    },
+    {
+      "d": "M13.5 7L16 7L16 17L13.5 17",
+      "closed": false
+    },
+    {
+      "d": "M10.5 12H13.5",
+      "closed": false
+    }
+  ]
+}

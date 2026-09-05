@@ -1,0 +1,38 @@
+{
+  "slug": "alert-inhibit",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Alert inhibit",
+  "description": "A bell with a pause in it — an alert held back while a bigger one is firing",
+  "tags": [
+    "alert",
+    "inhibit",
+    "suppress"
+  ],
+  "keywords": [
+    "alert inhibit",
+    "inhibition rule",
+    "suppress alert",
+    "held back"
+  ],
+  "family": "bell",
+  "shapes": [
+    {
+      "d": "M6 15V10A6 6 0 0 1 18 10V15L20.5 17.5H3.5L6 15Z",
+      "closed": true,
+      "_why": "a bell: dome, shoulders, flared skirt and lip"
+    },
+    {
+      "d": "M14 18.5A2 2 0 0 1 10 18.5",
+      "closed": false
+    },
+    {
+      "d": "M10 8V14",
+      "closed": false
+    },
+    {
+      "d": "M14 8V14",
+      "closed": false
+    }
+  ]
+}

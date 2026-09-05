@@ -1,0 +1,33 @@
+{
+  "slug": "apdex",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Apdex",
+  "description": "Axes with a line stepping down through three tiers — satisfied, tolerating, frustrated",
+  "tags": [
+    "metric",
+    "apdex",
+    "satisfaction"
+  ],
+  "keywords": [
+    "apdex",
+    "apdex score",
+    "user satisfaction",
+    "response tiers"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 7L11 7L11 11L15 11L15 15L19 15",
+      "closed": false
+    }
+  ]
+}

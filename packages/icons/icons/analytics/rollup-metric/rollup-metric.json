@@ -1,0 +1,45 @@
+{
+  "slug": "rollup-metric",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Rollup",
+  "description": "Axes with three small bars and the one tall bar they add up to — fine points rolled into a coarse one",
+  "tags": [
+    "metric",
+    "rollup",
+    "aggregate"
+  ],
+  "keywords": [
+    "rollup",
+    "rolled up",
+    "coarse aggregate",
+    "summarised over time"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M8 14V18",
+      "closed": false
+    },
+    {
+      "d": "M11 12V18",
+      "closed": false
+    },
+    {
+      "d": "M14 15V18",
+      "closed": false
+    },
+    {
+      "d": "M18 7V18",
+      "closed": false
+    }
+  ]
+}

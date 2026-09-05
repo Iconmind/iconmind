@@ -1,0 +1,37 @@
+{
+  "slug": "throughput-metric",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Throughput",
+  "description": "Axes with two bands across them — how much passes through in a unit of time",
+  "tags": [
+    "metric",
+    "throughput",
+    "rate"
+  ],
+  "keywords": [
+    "throughput",
+    "requests per second",
+    "rps",
+    "qps"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 8A2 2 0 0 1 9 6H17A2 2 0 0 1 19 8V8A2 2 0 0 1 17 10H9A2 2 0 0 1 7 8Z",
+      "closed": true
+    },
+    {
+      "d": "M7 15A2 2 0 0 1 9 13H14A2 2 0 0 1 16 15V15A2 2 0 0 1 14 17H9A2 2 0 0 1 7 15Z",
+      "closed": true
+    }
+  ]
+}

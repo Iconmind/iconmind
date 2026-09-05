@@ -1,0 +1,33 @@
+{
+  "slug": "metric-label",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Metric label",
+  "description": "Axes with a tag on them — the key-value that names one series",
+  "tags": [
+    "metric",
+    "label",
+    "series"
+  ],
+  "keywords": [
+    "metric label",
+    "label set",
+    "series label",
+    "dimension"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M9 8L12 8L15 11L12 14L9 14Z",
+      "closed": true
+    }
+  ]
+}

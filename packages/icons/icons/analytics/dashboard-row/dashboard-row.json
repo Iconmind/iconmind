@@ -1,0 +1,29 @@
+{
+  "slug": "dashboard-row",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Dashboard row",
+  "description": "A window with one wide band in it — a row of panels that collapses together",
+  "tags": [
+    "dashboard",
+    "row",
+    "layout"
+  ],
+  "keywords": [
+    "dashboard row",
+    "panel row",
+    "collapsible row",
+    "section"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V18A3 3 0 0 1 18 21H6A3 3 0 0 1 3 18V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M6 13A2.5 2.5 0 0 1 8.5 10.5H15.5A2.5 2.5 0 0 1 18 13V13A2.5 2.5 0 0 1 15.5 15.5H8.5A2.5 2.5 0 0 1 6 13Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "metric-retention",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Metric retention",
+  "description": "Axes with a clock on them — how long samples are kept",
+  "tags": [
+    "metric",
+    "retention",
+    "time"
+  ],
+  "keywords": [
+    "metric retention",
+    "retention period",
+    "keep samples",
+    "tsdb retention"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M9 11a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 8V11",
+      "closed": false
+    },
+    {
+      "d": "M12 11H14.5",
+      "closed": false
+    }
+  ]
+}

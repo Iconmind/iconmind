@@ -1,0 +1,41 @@
+{
+  "slug": "scrape-interval",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Scrape interval",
+  "description": "Axes with three evenly spaced ticks — how often a target is read",
+  "tags": [
+    "metric",
+    "scrape",
+    "interval"
+  ],
+  "keywords": [
+    "scrape interval",
+    "every 15s",
+    "polling interval",
+    "sample period"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M8 9V15",
+      "closed": false
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    },
+    {
+      "d": "M16 9V15",
+      "closed": false
+    }
+  ]
+}

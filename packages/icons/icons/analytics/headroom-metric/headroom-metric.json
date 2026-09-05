@@ -1,0 +1,37 @@
+{
+  "slug": "headroom-metric",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Headroom",
+  "description": "Axes with a ceiling and a bar well under it — the room left before the limit",
+  "tags": [
+    "metric",
+    "headroom",
+    "capacity"
+  ],
+  "keywords": [
+    "headroom",
+    "spare capacity",
+    "room to grow",
+    "utilisation gap"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 7H19",
+      "closed": false
+    },
+    {
+      "d": "M13 11V18",
+      "closed": false
+    }
+  ]
+}

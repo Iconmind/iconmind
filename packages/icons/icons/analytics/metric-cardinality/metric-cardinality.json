@@ -1,0 +1,37 @@
+{
+  "slug": "metric-cardinality",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Metric cardinality",
+  "description": "Axes with rays fanning out of one point — how many series one metric has become",
+  "tags": [
+    "metric",
+    "cardinality",
+    "series"
+  ],
+  "keywords": [
+    "metric cardinality",
+    "high cardinality",
+    "series explosion",
+    "label blowup"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 5L7 17L19 17",
+      "closed": false
+    },
+    {
+      "d": "M7 17L17 7",
+      "closed": false
+    }
+  ]
+}

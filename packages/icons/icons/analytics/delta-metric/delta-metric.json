@@ -1,0 +1,33 @@
+{
+  "slug": "delta-metric",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Delta metric",
+  "description": "Axes with a delta on them — the change since the last reading, not the total",
+  "tags": [
+    "metric",
+    "delta",
+    "change"
+  ],
+  "keywords": [
+    "delta metric",
+    "delta temporality",
+    "change since last",
+    "increment"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M8 16L12 12L16 16Z",
+      "closed": true
+    }
+  ]
+}

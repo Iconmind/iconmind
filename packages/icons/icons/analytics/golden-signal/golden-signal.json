@@ -1,0 +1,33 @@
+{
+  "slug": "golden-signal",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Golden signal",
+  "description": "Axes with a diamond on them — the four signals worth watching first",
+  "tags": [
+    "metric",
+    "signal",
+    "sre"
+  ],
+  "keywords": [
+    "golden signals",
+    "four golden signals",
+    "latency traffic errors saturation",
+    "sre"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M12 8L15 11L12 14L9 11Z",
+      "closed": true
+    }
+  ]
+}

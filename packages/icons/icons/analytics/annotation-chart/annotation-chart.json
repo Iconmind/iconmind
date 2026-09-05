@@ -1,0 +1,37 @@
+{
+  "slug": "annotation-chart",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Chart annotation",
+  "description": "Axes with a line and a marker dropped through it — a moment worth noting on the chart",
+  "tags": [
+    "metric",
+    "annotation",
+    "event"
+  ],
+  "keywords": [
+    "chart annotation",
+    "deploy marker",
+    "event marker",
+    "vertical marker"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 17L11 13L15 17L19 13",
+      "closed": false
+    },
+    {
+      "d": "M14 6V18",
+      "closed": false
+    }
+  ]
+}

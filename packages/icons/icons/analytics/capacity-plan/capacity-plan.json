@@ -1,0 +1,37 @@
+{
+  "slug": "capacity-plan",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Capacity plan",
+  "description": "Axes with a ceiling and a line climbing toward it — when a resource runs out at this rate",
+  "tags": [
+    "metric",
+    "capacity",
+    "plan"
+  ],
+  "keywords": [
+    "capacity planning",
+    "runway",
+    "time to exhaustion",
+    "growth vs limit"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 7H19",
+      "closed": false
+    },
+    {
+      "d": "M7 17L15 9",
+      "closed": false
+    }
+  ]
+}

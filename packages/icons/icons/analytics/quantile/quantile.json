@@ -1,0 +1,41 @@
+{
+  "slug": "quantile",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Quantile",
+  "description": "Axes with a distribution cut twice — the points that split it into equal shares",
+  "tags": [
+    "metric",
+    "quantile",
+    "distribution"
+  ],
+  "keywords": [
+    "quantile",
+    "quartile",
+    "median",
+    "distribution split"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M6 17L9 14L12 11L15 14L18 17",
+      "closed": false
+    },
+    {
+      "d": "M9 8V18",
+      "closed": false
+    },
+    {
+      "d": "M15 8V18",
+      "closed": false
+    }
+  ]
+}

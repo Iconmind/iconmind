@@ -1,0 +1,37 @@
+{
+  "slug": "remote-write",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Remote write",
+  "description": "Axes with an arrow leaving them — samples sent on to another store",
+  "tags": [
+    "metric",
+    "remote-write",
+    "send"
+  ],
+  "keywords": [
+    "remote write",
+    "remote storage",
+    "forward samples",
+    "prometheus remote_write"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 12H19",
+      "closed": false
+    },
+    {
+      "d": "M16.5 9.5L19 12L16.5 14.5",
+      "closed": false
+    }
+  ]
+}

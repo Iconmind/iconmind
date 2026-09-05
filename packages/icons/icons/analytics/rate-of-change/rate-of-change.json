@@ -1,0 +1,33 @@
+{
+  "slug": "rate-of-change",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Rate of change",
+  "description": "Axes with a line that goes flat, then climbs, then goes straight up — how fast a value is moving",
+  "tags": [
+    "metric",
+    "rate",
+    "derivative"
+  ],
+  "keywords": [
+    "rate of change",
+    "derivative",
+    "rate()",
+    "per second"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 17L12 17L16 13L16 7",
+      "closed": false
+    }
+  ]
+}

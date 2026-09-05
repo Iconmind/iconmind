@@ -1,0 +1,37 @@
+{
+  "slug": "comparison-period",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Comparison period",
+  "description": "Axes with two matching lines, one above the other — this period against the last",
+  "tags": [
+    "metric",
+    "compare",
+    "period"
+  ],
+  "keywords": [
+    "comparison period",
+    "week over week",
+    "previous period",
+    "compare to last"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 15L10 12L13 15L16 12L19 15",
+      "closed": false
+    },
+    {
+      "d": "M7 10L10 7L13 10L16 7L19 10",
+      "closed": false
+    }
+  ]
+}

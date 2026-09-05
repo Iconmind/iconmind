@@ -1,0 +1,37 @@
+{
+  "slug": "baseline-metric",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Baseline",
+  "description": "Axes with a flat line and today's point above it — what normal looks like, and where we are",
+  "tags": [
+    "metric",
+    "baseline",
+    "normal"
+  ],
+  "keywords": [
+    "baseline",
+    "normal range",
+    "expected value",
+    "reference level"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 14H19",
+      "closed": false
+    },
+    {
+      "d": "M11 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

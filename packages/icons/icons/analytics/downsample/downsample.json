@@ -1,0 +1,37 @@
+{
+  "slug": "downsample",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Downsample",
+  "description": "Axes with a jagged run and the straight run that replaces it — fewer points, same shape",
+  "tags": [
+    "metric",
+    "downsample",
+    "resolution"
+  ],
+  "keywords": [
+    "downsample",
+    "downsampling",
+    "lower resolution",
+    "thin points"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 15L9 13L11 15L13 13",
+      "closed": false
+    },
+    {
+      "d": "M15 15L19 11",
+      "closed": false
+    }
+  ]
+}

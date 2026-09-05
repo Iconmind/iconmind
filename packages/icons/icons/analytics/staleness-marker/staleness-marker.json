@@ -1,0 +1,41 @@
+{
+  "slug": "staleness-marker",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Staleness marker",
+  "description": "Axes with a line that stops and a cross where it stopped — a series marked as no longer reporting",
+  "tags": [
+    "metric",
+    "stale",
+    "series"
+  ],
+  "keywords": [
+    "staleness marker",
+    "stale series",
+    "stopped reporting",
+    "no data"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 17L11 13L14 13",
+      "closed": false
+    },
+    {
+      "d": "M16.5 11.5L19.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M19.5 11.5L16.5 14.5",
+      "closed": false
+    }
+  ]
+}

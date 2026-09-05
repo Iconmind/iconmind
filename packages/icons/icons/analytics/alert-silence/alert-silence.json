@@ -1,0 +1,38 @@
+{
+  "slug": "alert-silence",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Alert silence",
+  "description": "A bell with a cross in it — an alert muted for a while",
+  "tags": [
+    "alert",
+    "silence",
+    "mute"
+  ],
+  "keywords": [
+    "alert silence",
+    "silenced",
+    "mute alert",
+    "snooze alert"
+  ],
+  "family": "bell",
+  "shapes": [
+    {
+      "d": "M6 15V10A6 6 0 0 1 18 10V15L20.5 17.5H3.5L6 15Z",
+      "closed": true,
+      "_why": "a bell: dome, shoulders, flared skirt and lip"
+    },
+    {
+      "d": "M14 18.5A2 2 0 0 1 10 18.5",
+      "closed": false
+    },
+    {
+      "d": "M10 9L14 13",
+      "closed": false
+    },
+    {
+      "d": "M14 9L10 13",
+      "closed": false
+    }
+  ]
+}

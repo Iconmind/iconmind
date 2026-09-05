@@ -1,0 +1,33 @@
+{
+  "slug": "dashboard-variable",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Dashboard variable",
+  "description": "A window with a header and a picker under it — one value that every panel reads",
+  "tags": [
+    "dashboard",
+    "variable",
+    "picker"
+  ],
+  "keywords": [
+    "dashboard variable",
+    "template variable",
+    "dropdown",
+    "selector"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V18A3 3 0 0 1 18 21H6A3 3 0 0 1 3 18V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M7 10H17",
+      "closed": false
+    },
+    {
+      "d": "M9.5 14L12 16.5L14.5 14",
+      "closed": false
+    }
+  ]
+}

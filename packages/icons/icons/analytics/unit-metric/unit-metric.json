@@ -1,0 +1,33 @@
+{
+  "slug": "unit-metric",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Metric unit",
+  "description": "Axes with a unit square on them — what one of this metric is measured in",
+  "tags": [
+    "metric",
+    "unit",
+    "measure"
+  ],
+  "keywords": [
+    "metric unit",
+    "bytes seconds ratio",
+    "unit of measure",
+    "base unit"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M9 8L15 8L15 14L9 14Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "availability-metric",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Availability",
+  "description": "Axes with a high, flat line and one notch in it — the share of time a service was up",
+  "tags": [
+    "metric",
+    "availability",
+    "uptime"
+  ],
+  "keywords": [
+    "availability",
+    "nines",
+    "uptime percent",
+    "99.9"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 7L12 7L14 9L16 7L19 7",
+      "closed": false
+    }
+  ]
+}

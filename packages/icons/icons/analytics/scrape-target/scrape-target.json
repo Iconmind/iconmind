@@ -1,0 +1,37 @@
+{
+  "slug": "scrape-target",
+  "category": "analytics",
+  "subcategory": "metric",
+  "name": "Scrape target",
+  "description": "Axes with a target on them — the endpoint a chart is fed from",
+  "tags": [
+    "metric",
+    "scrape",
+    "target"
+  ],
+  "keywords": [
+    "scrape target",
+    "metrics endpoint",
+    "/metrics",
+    "exporter target"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M9 11a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}
