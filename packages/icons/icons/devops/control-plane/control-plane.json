@@ -1,0 +1,41 @@
+{
+  "slug": "control-plane",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Control plane",
+  "description": "One hub on a wire above the node line — the plane that decides where every pod goes",
+  "tags": [
+    "control",
+    "plane",
+    "master"
+  ],
+  "keywords": [
+    "control plane",
+    "api server",
+    "controller manager",
+    "master node"
+  ],
+  "family": "node",
+  "shapes": [
+    {
+      "d": "M9 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 7H9",
+      "closed": false
+    },
+    {
+      "d": "M15 7H22",
+      "closed": false
+    },
+    {
+      "d": "M12 10V17",
+      "closed": false
+    },
+    {
+      "d": "M2 17H22",
+      "closed": false
+    }
+  ]
+}

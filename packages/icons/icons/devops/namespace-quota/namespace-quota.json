@@ -1,0 +1,37 @@
+{
+  "slug": "namespace-quota",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Namespace quota",
+  "description": "A namespace with a level gauge at its side — how much one namespace may spend",
+  "tags": [
+    "namespace",
+    "quota",
+    "limit"
+  ],
+  "keywords": [
+    "namespace quota",
+    "namespace limits",
+    "tenant quota",
+    "per namespace"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H20A2 2 0 0 1 22 4V20A2 2 0 0 1 20 22H4A2 2 0 0 1 2 20Z",
+      "closed": true
+    },
+    {
+      "d": "M5 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M19 7V17",
+      "closed": false
+    }
+  ]
+}

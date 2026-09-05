@@ -1,0 +1,37 @@
+{
+  "slug": "daemonset",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "DaemonSet",
+  "description": "One pod on every node along the line — the workload that runs everywhere, once each",
+  "tags": [
+    "daemon",
+    "every-node",
+    "agent"
+  ],
+  "keywords": [
+    "daemonset",
+    "one per node",
+    "node agent",
+    "log collector"
+  ],
+  "family": "node",
+  "shapes": [
+    {
+      "d": "M2 17H22",
+      "closed": false
+    },
+    {
+      "d": "M2 11a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 11a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 11a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

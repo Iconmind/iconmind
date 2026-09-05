@@ -1,0 +1,33 @@
+{
+  "slug": "pod-disruption-budget",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Disruption budget",
+  "description": "A pod with a shield in its second slot — how many pods may be down at once",
+  "tags": [
+    "disruption",
+    "budget",
+    "availability"
+  ],
+  "keywords": [
+    "pod disruption budget",
+    "pdb",
+    "min available",
+    "voluntary disruption"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M4 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 9L20 9L20 13L17 16L14 13Z",
+      "closed": true
+    }
+  ]
+}

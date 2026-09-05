@@ -1,0 +1,37 @@
+{
+  "slug": "kubelet",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Kubelet",
+  "description": "A node with the agent at its centre — the daemon on every node that runs the pods it is given",
+  "tags": [
+    "node",
+    "agent",
+    "daemon"
+  ],
+  "keywords": [
+    "kubelet",
+    "node agent",
+    "pod runtime",
+    "node daemon"
+  ],
+  "family": "node",
+  "shapes": [
+    {
+      "d": "M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 12H8",
+      "closed": false
+    },
+    {
+      "d": "M16 12H22",
+      "closed": false
+    },
+    {
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "drain",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Drain",
+  "description": "A node emptying downward — every pod moved off before the node is taken away",
+  "tags": [
+    "drain",
+    "maintenance",
+    "empty"
+  ],
+  "keywords": [
+    "drain node",
+    "node maintenance",
+    "evict all",
+    "cordon and drain"
+  ],
+  "family": "node",
+  "shapes": [
+    {
+      "d": "M8 9a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 9H8",
+      "closed": false
+    },
+    {
+      "d": "M16 9H22",
+      "closed": false
+    },
+    {
+      "d": "M12 14V19",
+      "closed": false
+    },
+    {
+      "d": "M9.5 16.5L12 19L14.5 16.5",
+      "closed": false
+    }
+  ]
+}

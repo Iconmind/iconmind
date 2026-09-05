@@ -1,0 +1,37 @@
+{
+  "slug": "toleration",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Toleration",
+  "description": "A pod carrying the taint's own mark — a pod that accepts a node others are kept off",
+  "tags": [
+    "toleration",
+    "taint",
+    "schedule"
+  ],
+  "keywords": [
+    "toleration",
+    "tolerate taint",
+    "taint match",
+    "schedule on tainted"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M4 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 9V12",
+      "closed": false
+    },
+    {
+      "d": "M16 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "scheduler-k8s",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Scheduler",
+  "description": "A pod placed onto a node from above — the scheduler picking where work lands",
+  "tags": [
+    "scheduler",
+    "placement",
+    "assign"
+  ],
+  "keywords": [
+    "kube scheduler",
+    "pod placement",
+    "scheduling",
+    "bind pod"
+  ],
+  "family": "node",
+  "shapes": [
+    {
+      "d": "M12 3V6.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 4L12 6.5L14.5 4",
+      "closed": false
+    },
+    {
+      "d": "M10 11.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 17.5H22",
+      "closed": false
+    }
+  ]
+}

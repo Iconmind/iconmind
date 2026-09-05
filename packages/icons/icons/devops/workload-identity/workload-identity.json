@@ -1,0 +1,37 @@
+{
+  "slug": "workload-identity",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Workload identity",
+  "description": "An identity card whose face is a container — a pod's own identity to the cloud, no key file",
+  "tags": [
+    "identity",
+    "workload",
+    "cloud"
+  ],
+  "keywords": [
+    "workload identity",
+    "pod identity",
+    "service account federation",
+    "keyless auth"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M5 10A2 2 0 0 1 7 8H9.5A2 2 0 0 1 11.5 10V14A2 2 0 0 1 9.5 16H7A2 2 0 0 1 5 14Z",
+      "closed": true
+    },
+    {
+      "d": "M14.5 10H19.5",
+      "closed": false
+    },
+    {
+      "d": "M14.5 14H18.5",
+      "closed": false
+    }
+  ]
+}

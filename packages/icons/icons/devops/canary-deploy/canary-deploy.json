@@ -1,0 +1,33 @@
+{
+  "slug": "canary-deploy",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Canary deploy",
+  "description": "One pod shaped differently from the other — a new version tried on a slice of traffic",
+  "tags": [
+    "canary",
+    "gradual",
+    "release"
+  ],
+  "keywords": [
+    "canary deployment",
+    "canary release",
+    "traffic split",
+    "progressive delivery"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M4 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 9L20 12L17 15L14 12Z",
+      "closed": true
+    }
+  ]
+}

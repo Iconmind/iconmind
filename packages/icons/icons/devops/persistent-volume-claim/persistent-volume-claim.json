@@ -1,0 +1,30 @@
+{
+  "slug": "persistent-volume-claim",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Volume claim",
+  "description": "A cylinder with a check on it — storage a pod asked for and was granted",
+  "tags": [
+    "pvc",
+    "storage",
+    "claim"
+  ],
+  "keywords": [
+    "persistent volume claim",
+    "pvc",
+    "bound volume",
+    "storage request"
+  ],
+  "family": "cylinder",
+  "shapes": [
+    {
+      "d": "M4 6A8 3 0 0 1 20 6V18A8 3 0 0 1 4 18Z",
+      "closed": true,
+      "_why": "a cylinder: an elliptical rim, two sides, the far rim closing it"
+    },
+    {
+      "d": "M9 12L11 14L15 10",
+      "closed": false
+    }
+  ]
+}

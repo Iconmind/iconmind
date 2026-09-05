@@ -1,0 +1,41 @@
+{
+  "slug": "statefulset",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "StatefulSet",
+  "description": "Three replicas standing on a shared base — pods with a fixed order and their own storage",
+  "tags": [
+    "stateful",
+    "ordered",
+    "storage"
+  ],
+  "keywords": [
+    "statefulset",
+    "ordered pods",
+    "stable identity",
+    "persistent pods"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M3.5 11a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 11a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16.5 11a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 16H18",
+      "closed": false
+    }
+  ]
+}

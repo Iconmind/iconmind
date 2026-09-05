@@ -1,0 +1,33 @@
+{
+  "slug": "resource-quota",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Resource quota",
+  "description": "A box with a quota bar and what is used — the ceiling on cpu and memory a team may claim",
+  "tags": [
+    "quota",
+    "resources",
+    "ceiling"
+  ],
+  "keywords": [
+    "resource quota",
+    "cpu quota",
+    "memory quota",
+    "quota object"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H20A2 2 0 0 1 22 4V20A2 2 0 0 1 20 22H4A2 2 0 0 1 2 20Z",
+      "closed": true
+    },
+    {
+      "d": "M6 15H18",
+      "closed": false
+    },
+    {
+      "d": "M6 18H13",
+      "closed": false
+    }
+  ]
+}

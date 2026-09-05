@@ -1,0 +1,37 @@
+{
+  "slug": "surge-limit",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Max surge",
+  "description": "Pods up to a bar — how many extra pods a rollout may run above the desired count",
+  "tags": [
+    "surge",
+    "rollout",
+    "limit"
+  ],
+  "keywords": [
+    "max surge",
+    "rolling update surge",
+    "extra pods",
+    "surge limit"
+  ],
+  "family": "meter",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H14A2 2 0 0 1 16 8V16A2 2 0 0 1 14 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M4 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M20 5V19",
+      "closed": false
+    }
+  ]
+}

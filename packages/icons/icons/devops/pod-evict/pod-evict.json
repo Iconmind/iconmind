@@ -1,0 +1,37 @@
+{
+  "slug": "pod-evict",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Pod evict",
+  "description": "A pod leaving its capsule at an angle — a pod pushed off a node under pressure",
+  "tags": [
+    "evict",
+    "pressure",
+    "remove"
+  ],
+  "keywords": [
+    "pod eviction",
+    "evicted pod",
+    "node pressure",
+    "preempted pod"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M4 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 15L19 9",
+      "closed": false
+    },
+    {
+      "d": "M15 9L19 9L19 13",
+      "closed": false
+    }
+  ]
+}

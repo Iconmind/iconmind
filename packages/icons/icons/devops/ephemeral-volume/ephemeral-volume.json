@@ -1,0 +1,30 @@
+{
+  "slug": "ephemeral-volume",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Ephemeral volume",
+  "description": "A cylinder with a bolt on it — storage that lives as long as the pod and no longer",
+  "tags": [
+    "ephemeral",
+    "temporary",
+    "scratch"
+  ],
+  "keywords": [
+    "ephemeral volume",
+    "emptydir",
+    "scratch space",
+    "pod lifetime"
+  ],
+  "family": "cylinder",
+  "shapes": [
+    {
+      "d": "M4 6A8 3 0 0 1 20 6V18A8 3 0 0 1 4 18Z",
+      "closed": true,
+      "_why": "a cylinder: an elliptical rim, two sides, the far rim closing it"
+    },
+    {
+      "d": "M15 9L12 12L14.5 12L11.5 15",
+      "closed": false
+    }
+  ]
+}

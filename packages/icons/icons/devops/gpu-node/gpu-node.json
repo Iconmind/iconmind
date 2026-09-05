@@ -1,0 +1,41 @@
+{
+  "slug": "gpu-node",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "GPU node",
+  "description": "A node with two pins rising from it — a node that carries accelerators for the pods that need them",
+  "tags": [
+    "gpu",
+    "node",
+    "accelerator"
+  ],
+  "keywords": [
+    "gpu node",
+    "accelerator node",
+    "gpu pool",
+    "nvidia node"
+  ],
+  "family": "node",
+  "shapes": [
+    {
+      "d": "M8 14a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 14H8",
+      "closed": false
+    },
+    {
+      "d": "M16 14H22",
+      "closed": false
+    },
+    {
+      "d": "M10.5 3.5V6.5",
+      "closed": false
+    },
+    {
+      "d": "M13.5 3.5V6.5",
+      "closed": false
+    }
+  ]
+}

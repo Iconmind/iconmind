@@ -1,0 +1,45 @@
+{
+  "slug": "helm-chart",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Helm chart",
+  "description": "A ship's wheel — the packaged chart that installs a whole application at once",
+  "tags": [
+    "helm",
+    "chart",
+    "package"
+  ],
+  "keywords": [
+    "helm chart",
+    "helm install",
+    "chart package",
+    "release chart"
+  ],
+  "family": "wheel",
+  "shapes": [
+    {
+      "d": "M6 12a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 2.5V5",
+      "closed": false
+    },
+    {
+      "d": "M12 19V21.5",
+      "closed": false
+    },
+    {
+      "d": "M2.5 12H5",
+      "closed": false
+    },
+    {
+      "d": "M19 12H21.5",
+      "closed": false
+    }
+  ]
+}

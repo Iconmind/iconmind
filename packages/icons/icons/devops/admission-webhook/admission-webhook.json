@@ -1,0 +1,37 @@
+{
+  "slug": "admission-webhook",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Admission webhook",
+  "description": "A gate with a bolt beside its arm — the hook that inspects each object before it is admitted",
+  "tags": [
+    "admission",
+    "webhook",
+    "validate"
+  ],
+  "keywords": [
+    "admission webhook",
+    "validating webhook",
+    "mutating webhook",
+    "admission controller"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 6V20",
+      "closed": false
+    },
+    {
+      "d": "M4 13L13 4",
+      "closed": false
+    },
+    {
+      "d": "M3 20H21",
+      "closed": false
+    },
+    {
+      "d": "M19 7L15 11L18 11L14 15",
+      "closed": false
+    }
+  ]
+}

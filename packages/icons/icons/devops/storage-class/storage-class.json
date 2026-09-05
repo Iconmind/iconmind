@@ -1,0 +1,30 @@
+{
+  "slug": "storage-class",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Storage class",
+  "description": "A cylinder with a label on it — the kind of disk a claim gets, fast or cheap or replicated",
+  "tags": [
+    "storage",
+    "class",
+    "provisioner"
+  ],
+  "keywords": [
+    "storage class",
+    "provisioner",
+    "disk tier",
+    "dynamic provisioning"
+  ],
+  "family": "cylinder",
+  "shapes": [
+    {
+      "d": "M4 6A8 3 0 0 1 20 6V18A8 3 0 0 1 4 18Z",
+      "closed": true,
+      "_why": "a cylinder: an elliptical rim, two sides, the far rim closing it"
+    },
+    {
+      "d": "M9 9L12 9L15 12L12 15L9 15Z",
+      "closed": true
+    }
+  ]
+}

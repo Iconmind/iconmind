@@ -1,0 +1,37 @@
+{
+  "slug": "priority-class",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Priority class",
+  "description": "A document with a double chevron rising — the class that says which pods go first",
+  "tags": [
+    "priority",
+    "class",
+    "preempt"
+  ],
+  "keywords": [
+    "priority class",
+    "pod priority",
+    "scheduling priority",
+    "preemption"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 7H15",
+      "closed": false
+    },
+    {
+      "d": "M10 13L12 11L14 13",
+      "closed": false
+    },
+    {
+      "d": "M10 16L12 14L14 16",
+      "closed": false
+    }
+  ]
+}

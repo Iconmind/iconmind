@@ -1,0 +1,41 @@
+{
+  "slug": "node-selector",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Node selector",
+  "description": "A chevron picking one node out of three — the label that says which nodes a pod may use",
+  "tags": [
+    "selector",
+    "label",
+    "node"
+  ],
+  "keywords": [
+    "node selector",
+    "node label",
+    "node affinity",
+    "schedule to node"
+  ],
+  "family": "node",
+  "shapes": [
+    {
+      "d": "M2 17H22",
+      "closed": false
+    },
+    {
+      "d": "M3 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 5L12 7L14 5",
+      "closed": false
+    }
+  ]
+}

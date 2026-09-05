@@ -1,0 +1,41 @@
+{
+  "slug": "service-k8s",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Service",
+  "description": "One address above a box of pods — the stable name that fronts whichever pods are alive",
+  "tags": [
+    "service",
+    "endpoint",
+    "address"
+  ],
+  "keywords": [
+    "kubernetes service",
+    "cluster ip",
+    "stable endpoint",
+    "service discovery"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M10 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 8V11",
+      "closed": false
+    },
+    {
+      "d": "M3 13A2 2 0 0 1 5 11H19A2 2 0 0 1 21 13V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M7 15.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 15.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

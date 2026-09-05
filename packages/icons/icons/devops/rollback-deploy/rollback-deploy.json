@@ -1,0 +1,37 @@
+{
+  "slug": "rollback-deploy",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Rollback deploy",
+  "description": "An arrow pointing back beside a pod — the deployment returned to its previous revision",
+  "tags": [
+    "rollback",
+    "revision",
+    "undo"
+  ],
+  "keywords": [
+    "rollback deployment",
+    "previous revision",
+    "undo rollout",
+    "revision history"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M6 12H12",
+      "closed": false
+    },
+    {
+      "d": "M8.5 9.5L6 12L8.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M14 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

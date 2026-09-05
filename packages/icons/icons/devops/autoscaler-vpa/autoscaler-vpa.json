@@ -1,0 +1,37 @@
+{
+  "slug": "autoscaler-vpa",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Vertical autoscaler",
+  "description": "A pod with an arrow pointing up — the same pod given more cpu and memory",
+  "tags": [
+    "vpa",
+    "vertical",
+    "resize"
+  ],
+  "keywords": [
+    "vertical pod autoscaler",
+    "vpa",
+    "scale up resources",
+    "right size pod"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M4 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 8V16",
+      "closed": false
+    },
+    {
+      "d": "M14.5 10.5L17 8L19.5 10.5",
+      "closed": false
+    }
+  ]
+}

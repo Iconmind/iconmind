@@ -1,0 +1,37 @@
+{
+  "slug": "cluster-role",
+  "category": "devops",
+  "subcategory": "orchestration",
+  "name": "Cluster role",
+  "description": "A cluster grid with a shield in its last cell — permissions that reach across every namespace",
+  "tags": [
+    "rbac",
+    "cluster",
+    "role"
+  ],
+  "keywords": [
+    "cluster role",
+    "cluster-wide rbac",
+    "cluster permissions",
+    "clusterrolebinding"
+  ],
+  "family": "grid",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H9A2 2 0 0 1 11 6V9A2 2 0 0 1 9 11H6A2 2 0 0 1 4 9Z",
+      "closed": true
+    },
+    {
+      "d": "M14 6A2 2 0 0 1 16 4H19A2 2 0 0 1 21 6V9A2 2 0 0 1 19 11H16A2 2 0 0 1 14 9Z",
+      "closed": true
+    },
+    {
+      "d": "M4 16A2 2 0 0 1 6 14H9A2 2 0 0 1 11 16V19A2 2 0 0 1 9 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M14 14L21 14L21 17.5L17.5 21L14 17.5Z",
+      "closed": true
+    }
+  ]
+}
