@@ -1,0 +1,30 @@
+{
+  "slug": "vip-badge",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "VIP badge",
+  "description": "The rosette with a gem on it — the shopper the shop treats best",
+  "tags": [
+    "vip",
+    "premium",
+    "status"
+  ],
+  "keywords": [
+    "vip badge",
+    "vip customer",
+    "premium member",
+    "vip status"
+  ],
+  "family": "award",
+  "shapes": [
+    {
+      "d": "M12 2A6.5 6.5 0 1 1 12 15A6.5 6.5 0 1 1 12 2ZM9.5 14.5V22L12 19.5L14.5 22V14.5",
+      "closed": false,
+      "_why": "a medal and the two tails it hangs from, drawn as one path so the tails may meet the rim"
+    },
+    {
+      "d": "M12 5.5L15 8.5L12 11.5L9 8.5Z",
+      "closed": true
+    }
+  ]
+}

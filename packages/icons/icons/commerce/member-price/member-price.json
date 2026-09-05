@@ -1,0 +1,41 @@
+{
+  "slug": "member-price",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Member price",
+  "description": "The payment card with a percent under the band — the price a member pays",
+  "tags": [
+    "member",
+    "price",
+    "exclusive"
+  ],
+  "keywords": [
+    "member price",
+    "members only price",
+    "member discount",
+    "exclusive price"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M8.5 11.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 17L15 11",
+      "closed": false
+    },
+    {
+      "d": "M13.5 16.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

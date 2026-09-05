@@ -1,0 +1,40 @@
+{
+  "slug": "countdown-sale",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Countdown sale",
+  "description": "An hourglass — the sale that ends when the sand does",
+  "tags": [
+    "countdown",
+    "timer",
+    "ends"
+  ],
+  "aliases": [
+    "hourglass"
+  ],
+  "keywords": [
+    "countdown sale",
+    "sale ends in",
+    "hourglass",
+    "time left"
+  ],
+  "family": "hourglass",
+  "shapes": [
+    {
+      "d": "M6 3H18",
+      "closed": false
+    },
+    {
+      "d": "M6 21H18",
+      "closed": false
+    },
+    {
+      "d": "M7 3L7 7L12 12L17 7L17 3",
+      "closed": false
+    },
+    {
+      "d": "M7 21L7 17L12 12L17 17L17 21",
+      "closed": false
+    }
+  ]
+}

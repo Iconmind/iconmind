@@ -1,0 +1,33 @@
+{
+  "slug": "price-history",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Price history",
+  "description": "A price tag with a trend line on it — where the price has been",
+  "tags": [
+    "history",
+    "trend",
+    "chart"
+  ],
+  "keywords": [
+    "price history",
+    "price trend",
+    "price over time",
+    "price chart"
+  ],
+  "family": "label",
+  "shapes": [
+    {
+      "d": "M4 12L12 4L20 4L20 12L12 20Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 15L11 13L13 15L15 13",
+      "closed": false
+    }
+  ]
+}

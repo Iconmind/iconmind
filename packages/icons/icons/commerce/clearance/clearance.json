@@ -1,0 +1,37 @@
+{
+  "slug": "clearance",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Clearance",
+  "description": "A price tag with two chevrons dropping — marked down, then down again",
+  "tags": [
+    "sale",
+    "markdown",
+    "last"
+  ],
+  "keywords": [
+    "clearance sale",
+    "clearance price",
+    "final markdown",
+    "end of line"
+  ],
+  "family": "label",
+  "shapes": [
+    {
+      "d": "M4 12L12 4L20 4L20 12L12 20Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 9L12 11.5L14.5 9",
+      "closed": false
+    },
+    {
+      "d": "M9.5 13L12 15.5L14.5 13",
+      "closed": false
+    }
+  ]
+}

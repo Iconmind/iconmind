@@ -1,0 +1,40 @@
+{
+  "slug": "up-sell",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Upsell",
+  "description": "A price tag with an arrow rising — the bigger version, offered instead",
+  "tags": [
+    "upgrade",
+    "premium",
+    "suggest"
+  ],
+  "aliases": [
+    "upsell"
+  ],
+  "keywords": [
+    "upsell",
+    "upgrade offer",
+    "premium version",
+    "better option"
+  ],
+  "family": "label",
+  "shapes": [
+    {
+      "d": "M4 12L12 4L20 4L20 12L12 20Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    },
+    {
+      "d": "M9.5 11.5L12 9L14.5 11.5",
+      "closed": false
+    }
+  ]
+}

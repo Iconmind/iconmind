@@ -1,0 +1,37 @@
+{
+  "slug": "stamp-card",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Stamp card",
+  "description": "The payment card with a stamp and a check — one collected, one to go",
+  "tags": [
+    "stamp",
+    "loyalty",
+    "collect"
+  ],
+  "keywords": [
+    "stamp card",
+    "punch card",
+    "collect stamps",
+    "coffee card"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M6.5 14a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 14L15.5 16L19 12.5",
+      "closed": false
+    }
+  ]
+}

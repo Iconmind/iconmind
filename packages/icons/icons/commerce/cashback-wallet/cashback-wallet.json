@@ -1,0 +1,37 @@
+{
+  "slug": "cashback-wallet",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Cashback wallet",
+  "description": "A wallet with an arrow coming back into it — the share of the price returned",
+  "tags": [
+    "cashback",
+    "refund",
+    "money"
+  ],
+  "keywords": [
+    "cashback wallet",
+    "cashback balance",
+    "money back",
+    "cashback earned"
+  ],
+  "family": "wallet",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M22 9.5L15 9.5L15 14.5L22 14.5",
+      "closed": false
+    },
+    {
+      "d": "M5 12H10.5",
+      "closed": false
+    },
+    {
+      "d": "M7.5 9.5L5 12L7.5 14.5",
+      "closed": false
+    }
+  ]
+}

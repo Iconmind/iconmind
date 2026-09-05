@@ -1,0 +1,37 @@
+{
+  "slug": "sold-out",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Sold out",
+  "description": "A price tag with a cross on it — none left at any price",
+  "tags": [
+    "gone",
+    "unavailable",
+    "empty"
+  ],
+  "keywords": [
+    "sold out",
+    "out of stock",
+    "no longer available",
+    "all gone"
+  ],
+  "family": "label",
+  "shapes": [
+    {
+      "d": "M4 12L12 4L20 4L20 12L12 20Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 10L14 14",
+      "closed": false
+    },
+    {
+      "d": "M14 10L10 14",
+      "closed": false
+    }
+  ]
+}

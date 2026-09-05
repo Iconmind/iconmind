@@ -1,0 +1,44 @@
+{
+  "slug": "deal-of-day",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Deal of the day",
+  "description": "A price tag with a clock on it — today's price, and only today's",
+  "tags": [
+    "deal",
+    "daily",
+    "today"
+  ],
+  "aliases": [
+    "daily-deal"
+  ],
+  "keywords": [
+    "deal of the day",
+    "daily deal",
+    "today's deal",
+    "24 hour deal"
+  ],
+  "family": "label",
+  "shapes": [
+    {
+      "d": "M4 12L12 4L20 4L20 12L12 20Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9V12",
+      "closed": false
+    },
+    {
+      "d": "M12 12H14.5",
+      "closed": false
+    }
+  ]
+}

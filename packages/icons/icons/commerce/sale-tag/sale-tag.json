@@ -1,0 +1,33 @@
+{
+  "slug": "sale-tag",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Sale tag",
+  "description": "A price tag with a stone on it — the tag that says the price has changed",
+  "tags": [
+    "sale",
+    "offer",
+    "deal"
+  ],
+  "keywords": [
+    "sale tag",
+    "on sale",
+    "sale label",
+    "special offer"
+  ],
+  "family": "label",
+  "shapes": [
+    {
+      "d": "M4 12L12 4L20 4L20 12L12 20Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 10L14 12L12 14L10 12Z",
+      "closed": true
+    }
+  ]
+}

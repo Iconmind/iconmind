@@ -1,0 +1,38 @@
+{
+  "slug": "free-gift",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Free gift",
+  "description": "A box with a bow on its lid and a ribbon down it — given, not sold",
+  "tags": [
+    "gift",
+    "free",
+    "present"
+  ],
+  "aliases": [
+    "gift",
+    "present"
+  ],
+  "keywords": [
+    "free gift",
+    "gift box",
+    "present",
+    "gift with purchase"
+  ],
+  "family": "gift",
+  "shapes": [
+    {
+      "d": "M3 11A2 2 0 0 1 5 9H19A2 2 0 0 1 21 11V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M9 9A2 2 0 1 1 12 9A2 2 0 1 1 15 9",
+      "closed": false,
+      "_why": "a bow: two loops, each an arc that leaves the lid and comes back to it"
+    },
+    {
+      "d": "M12 9V21",
+      "closed": false
+    }
+  ]
+}

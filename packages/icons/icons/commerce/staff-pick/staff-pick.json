@@ -1,0 +1,30 @@
+{
+  "slug": "staff-pick",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Staff pick",
+  "description": "The rosette with a check on it — chosen by the people who work here",
+  "tags": [
+    "pick",
+    "chosen",
+    "curated"
+  ],
+  "keywords": [
+    "staff pick",
+    "editor's choice",
+    "our pick",
+    "curated choice"
+  ],
+  "family": "award",
+  "shapes": [
+    {
+      "d": "M12 2A6.5 6.5 0 1 1 12 15A6.5 6.5 0 1 1 12 2ZM9.5 14.5V22L12 19.5L14.5 22V14.5",
+      "closed": false,
+      "_why": "a medal and the two tails it hangs from, drawn as one path so the tails may meet the rim"
+    },
+    {
+      "d": "M9 8.5L11 10.5L15 6.5",
+      "closed": false
+    }
+  ]
+}

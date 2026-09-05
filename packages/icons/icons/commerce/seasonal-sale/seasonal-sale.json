@@ -1,0 +1,34 @@
+{
+  "slug": "seasonal-sale",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Seasonal sale",
+  "description": "A price tag with a leaf on it — the sale that comes round with the season",
+  "tags": [
+    "sale",
+    "season",
+    "holiday"
+  ],
+  "keywords": [
+    "seasonal sale",
+    "holiday sale",
+    "summer sale",
+    "winter sale"
+  ],
+  "family": "label",
+  "shapes": [
+    {
+      "d": "M4 12L12 4L20 4L20 12L12 20Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 15A4.5 4.5 0 0 1 15 9A4.5 4.5 0 0 1 9 15Z",
+      "closed": true,
+      "_why": "a leaf: two arcs sharing a chord, set on the diagonal"
+    }
+  ]
+}

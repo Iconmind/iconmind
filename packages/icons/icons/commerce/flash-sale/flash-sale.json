@@ -1,0 +1,33 @@
+{
+  "slug": "flash-sale",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Flash sale",
+  "description": "A price tag with a bolt on it — a sale that lasts an hour, not a week",
+  "tags": [
+    "sale",
+    "flash",
+    "limited"
+  ],
+  "keywords": [
+    "flash sale",
+    "lightning deal",
+    "hourly sale",
+    "quick sale"
+  ],
+  "family": "label",
+  "shapes": [
+    {
+      "d": "M4 12L12 4L20 4L20 12L12 20Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 9L12 12L14.5 12L11.5 15",
+      "closed": false
+    }
+  ]
+}

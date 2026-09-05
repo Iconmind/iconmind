@@ -1,0 +1,38 @@
+{
+  "slug": "gift-registry",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Gift registry",
+  "description": "The gift box with two lines in it — the list of what to give",
+  "tags": [
+    "gift",
+    "registry",
+    "wishlist"
+  ],
+  "keywords": [
+    "gift registry",
+    "wedding registry",
+    "gift list",
+    "baby registry"
+  ],
+  "family": "gift",
+  "shapes": [
+    {
+      "d": "M3 11A2 2 0 0 1 5 9H19A2 2 0 0 1 21 11V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M9 9A2 2 0 1 1 12 9A2 2 0 1 1 15 9",
+      "closed": false,
+      "_why": "a bow: two loops, each an arc that leaves the lid and comes back to it"
+    },
+    {
+      "d": "M7 13H17",
+      "closed": false
+    },
+    {
+      "d": "M7 17H17",
+      "closed": false
+    }
+  ]
+}

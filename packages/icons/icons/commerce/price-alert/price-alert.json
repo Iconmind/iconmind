@@ -1,0 +1,37 @@
+{
+  "slug": "price-alert",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Price alert",
+  "description": "A price tag with an exclamation on it — told when the price moves",
+  "tags": [
+    "alert",
+    "watch",
+    "notify"
+  ],
+  "keywords": [
+    "price alert",
+    "price watch",
+    "price notification",
+    "price tracker"
+  ],
+  "family": "label",
+  "shapes": [
+    {
+      "d": "M4 12L12 4L20 4L20 12L12 20Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9V12",
+      "closed": false
+    },
+    {
+      "d": "M11 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

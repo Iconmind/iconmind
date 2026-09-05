@@ -1,0 +1,40 @@
+{
+  "slug": "buy-one-get-one",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Buy one get one",
+  "description": "The basket with two boxes in it — one paid for, both taken home",
+  "tags": [
+    "bogo",
+    "offer",
+    "deal"
+  ],
+  "aliases": [
+    "bogo"
+  ],
+  "keywords": [
+    "buy one get one",
+    "bogo deal",
+    "two for one",
+    "2 for 1"
+  ],
+  "family": "basket",
+  "shapes": [
+    {
+      "d": "M3 10A2 2 0 0 1 5 8H19A2 2 0 0 1 21 10V20A2 2 0 0 1 19 22H5A2 2 0 0 1 3 20Z",
+      "closed": true
+    },
+    {
+      "d": "M7 8A5 5 0 0 1 17 8",
+      "closed": false
+    },
+    {
+      "d": "M7 13L10.5 13L10.5 17L7 17Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 13L17 13L17 17L13.5 17Z",
+      "closed": true
+    }
+  ]
+}

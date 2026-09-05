@@ -1,0 +1,40 @@
+{
+  "slug": "spin-wheel",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Spin the wheel",
+  "description": "A wheel with a pointer over it — a prize, left to luck",
+  "tags": [
+    "wheel",
+    "prize",
+    "luck"
+  ],
+  "aliases": [
+    "prize-wheel"
+  ],
+  "keywords": [
+    "spin the wheel",
+    "prize wheel",
+    "wheel of fortune",
+    "lucky spin"
+  ],
+  "family": "wheel",
+  "shapes": [
+    {
+      "d": "M4 13a8 8 0 1 0 16 0a8 8 0 1 0 -16 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 5V21",
+      "closed": false
+    },
+    {
+      "d": "M4 13H20",
+      "closed": false
+    },
+    {
+      "d": "M9 2L15 2L12 5Z",
+      "closed": true
+    }
+  ]
+}

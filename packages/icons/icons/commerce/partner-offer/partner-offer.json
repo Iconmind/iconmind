@@ -1,0 +1,37 @@
+{
+  "slug": "partner-offer",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Partner offer",
+  "description": "A price tag with two rings linked on it — a deal made with another brand",
+  "tags": [
+    "partner",
+    "brand",
+    "offer"
+  ],
+  "keywords": [
+    "partner offer",
+    "co-branded deal",
+    "partner discount",
+    "affiliate offer"
+  ],
+  "family": "label",
+  "shapes": [
+    {
+      "d": "M4 12L12 4L20 4L20 12L12 20Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8.5 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11.5 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

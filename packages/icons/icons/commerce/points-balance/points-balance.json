@@ -1,0 +1,37 @@
+{
+  "slug": "points-balance",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Points balance",
+  "description": "The payment card with a stone on a line — the points, and what they add up to",
+  "tags": [
+    "loyalty",
+    "balance",
+    "total"
+  ],
+  "keywords": [
+    "points balance",
+    "reward balance",
+    "my points",
+    "points total"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M12 11L14 13L12 15L10 13Z",
+      "closed": true
+    },
+    {
+      "d": "M8 17.5H16",
+      "closed": false
+    }
+  ]
+}

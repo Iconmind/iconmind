@@ -1,0 +1,33 @@
+{
+  "slug": "limited-stock",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Limited stock",
+  "description": "A price tag with an hourglass on it — a few left, and going",
+  "tags": [
+    "scarce",
+    "few",
+    "hurry"
+  ],
+  "keywords": [
+    "limited stock",
+    "only a few left",
+    "low availability",
+    "while stocks last"
+  ],
+  "family": "label",
+  "shapes": [
+    {
+      "d": "M4 12L12 4L20 4L20 12L12 20Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 9.5L14.5 9.5L9.5 14.5L14.5 14.5Z",
+      "closed": true
+    }
+  ]
+}

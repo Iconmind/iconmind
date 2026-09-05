@@ -1,0 +1,37 @@
+{
+  "slug": "bundle-deal",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Bundle deal",
+  "description": "A price tag with a plus on it — more than one thing under one price",
+  "tags": [
+    "bundle",
+    "offer",
+    "deal"
+  ],
+  "keywords": [
+    "bundle deal",
+    "bundle price",
+    "combo deal",
+    "package deal"
+  ],
+  "family": "label",
+  "shapes": [
+    {
+      "d": "M4 12L12 4L20 4L20 12L12 20Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    }
+  ]
+}

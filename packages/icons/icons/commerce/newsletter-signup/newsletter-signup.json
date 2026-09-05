@@ -1,0 +1,33 @@
+{
+  "slug": "newsletter-signup",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Newsletter signup",
+  "description": "A window with an envelope in it — the form that asks for an address",
+  "tags": [
+    "newsletter",
+    "email",
+    "subscribe"
+  ],
+  "keywords": [
+    "newsletter signup",
+    "subscribe to newsletter",
+    "email signup",
+    "join mailing list"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V18A3 3 0 0 1 18 21H6A3 3 0 0 1 3 18V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M7.5 10L16.5 10L16.5 16L7.5 16Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 10L12 14.5L16.5 10",
+      "closed": false
+    }
+  ]
+}

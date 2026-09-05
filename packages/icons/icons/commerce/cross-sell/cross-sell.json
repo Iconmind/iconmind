@@ -1,0 +1,37 @@
+{
+  "slug": "cross-sell",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Cross-sell",
+  "description": "A price tag with an arrow leading on — another thing offered alongside",
+  "tags": [
+    "related",
+    "addon",
+    "suggest"
+  ],
+  "keywords": [
+    "cross sell",
+    "frequently bought together",
+    "related offer",
+    "add-on offer"
+  ],
+  "family": "label",
+  "shapes": [
+    {
+      "d": "M4 12L12 4L20 4L20 12L12 20Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    },
+    {
+      "d": "M12.5 9.5L15 12L12.5 14.5",
+      "closed": false
+    }
+  ]
+}

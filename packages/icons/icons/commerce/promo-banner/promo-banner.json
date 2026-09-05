@@ -1,0 +1,33 @@
+{
+  "slug": "promo-banner",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Promo banner",
+  "description": "A flag with a stone on it — the offer put up where everyone sees it",
+  "tags": [
+    "banner",
+    "campaign",
+    "announce"
+  ],
+  "keywords": [
+    "promo banner",
+    "promotion banner",
+    "campaign banner",
+    "hero banner"
+  ],
+  "family": "flag",
+  "shapes": [
+    {
+      "d": "M4 3V21",
+      "closed": false
+    },
+    {
+      "d": "M4 4L20 4L20 16L4 16",
+      "closed": false
+    },
+    {
+      "d": "M12 8L14 10L12 12L10 10Z",
+      "closed": true
+    }
+  ]
+}

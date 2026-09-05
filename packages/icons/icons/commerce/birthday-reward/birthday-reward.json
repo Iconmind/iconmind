@@ -1,0 +1,33 @@
+{
+  "slug": "birthday-reward",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Birthday reward",
+  "description": "A two-tier cake with a candle on top — a treat on the shopper's birthday",
+  "tags": [
+    "birthday",
+    "cake",
+    "gift"
+  ],
+  "aliases": [
+    "cake"
+  ],
+  "keywords": [
+    "birthday reward",
+    "birthday gift",
+    "birthday treat",
+    "birthday cake"
+  ],
+  "family": "cake",
+  "shapes": [
+    {
+      "d": "M3 21V14H7V8H17V14H21V21Z",
+      "closed": true,
+      "_why": "a two-tier cake, drawn as one outline so the tiers share their steps"
+    },
+    {
+      "d": "M12 3V8",
+      "closed": false
+    }
+  ]
+}

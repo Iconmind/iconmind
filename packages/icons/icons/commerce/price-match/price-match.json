@@ -1,0 +1,37 @@
+{
+  "slug": "price-match",
+  "category": "commerce",
+  "subcategory": "promotion",
+  "name": "Price match",
+  "description": "A price tag with two equal lines — the same price as anywhere else",
+  "tags": [
+    "match",
+    "guarantee",
+    "equal"
+  ],
+  "keywords": [
+    "price match",
+    "price guarantee",
+    "match the price",
+    "price promise"
+  ],
+  "family": "label",
+  "shapes": [
+    {
+      "d": "M4 12L12 4L20 4L20 12L12 20Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 10.5H15",
+      "closed": false
+    },
+    {
+      "d": "M9 13.5H15",
+      "closed": false
+    }
+  ]
+}
