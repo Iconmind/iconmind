@@ -29,8 +29,8 @@ export interface Compare {
 }
 
 const OURS = {
-  count: "2,287 (0.6.0)",
-  ai: "664 icons for LLMs, agents, MCP, RAG — a third of the set",
+  count: "3,287 (0.7.0)",
+  ai: "914 icons for LLMs, agents, MCP, RAG — more than a quarter of the set",
   variants: "outline and duotone, each in thin / regular / bold (6 drawings per icon)",
   frameworks: "React, Vue, Svelte, Solid, Preact, React Native, Astro, Laravel Blade, Flutter — one source, one release",
   mcp: "yes — `npx @iconmind/mcp` searches the set and returns paste-ready code",
@@ -46,7 +46,7 @@ export const COMPARISONS: Compare[] = [
     lead: "Lucide is the generalist set most React apps start with. IconMind draws the same grid and stroke, then adds the vocabulary an AI product needs.",
     answer: [
       "Use Lucide if your product is an ordinary web application and you want the set with the longest track record, the widest framework support and a community that has already answered your question on GitHub. It is excellent, it is free, and nothing on this page is an argument against it.",
-      "Use IconMind if a meaningful part of your interface is about models, agents, retrieval or infrastructure, and you keep running out of nouns. Lucide has 2,048 icons and almost none of them are a context window, a reranker, a tool call or an MCP resource. IconMind has 664 drawings for that vocabulary, on the same 24 px grid and the same 2 px stroke, so the two sets sit on one screen without clashing.",
+      "Use IconMind if a meaningful part of your interface is about models, agents, retrieval or infrastructure, and you keep running out of nouns. Lucide has 2,048 icons and almost none of them are a context window, a reranker, a tool call or an MCP resource. IconMind has 914 drawings for that vocabulary, on the same 24 px grid and the same 2 px stroke, so the two sets sit on one screen without clashing.",
       "Using both is a legitimate answer and a common one. Start with Lucide, add IconMind for the AI surface, and a reader cannot tell which icon came from where.",
     ],
     sections: [
@@ -55,7 +55,7 @@ export const COMPARISONS: Compare[] = [
         body: [
           "Lucide covers the interface. Files, folders, arrows, media controls, weather, shapes, commerce, a good spread of everyday objects. It descends from Feather and inherits Feather's restraint, which is why so many products look at home in it straight away.",
           "It runs out at the domain layer. Search it for the words an AI product puts on screen and you meet the same four fallbacks: a sparkle for anything generative, a robot for anything autonomous, a cylinder for anything stored, a bolt for anything fast. A dashboard for an agent framework ends up using one picture to mean five things, and the reader learns nothing from any of them.",
-          "IconMind runs out in the other direction. There is no tooth, no chair, no croissant, no zodiac sign, and there will not be. What it has instead is 664 drawings for the vocabulary that entered software after 2023, and about 1,600 more for the ordinary families around them so that a screen with an agent on it can also have a file picker.",
+          "IconMind runs out in the other direction. There is no tooth, no chair, no croissant, no zodiac sign, and there will not be. What it has instead is 914 drawings for the vocabulary that entered software after 2023, and about 1,600 more for the ordinary families around them so that a screen with an agent on it can also have a file picker.",
           "That second half is the part people miss when they hear the pitch. Files, folders, people, chat, calendars, panels, lists, text controls, arrows, git, mail, charts and devices are all drawn in the same hand as the agent icons, for the same reason a typeface ships punctuation.",
         ],
         table: {
@@ -146,7 +146,7 @@ export const COMPARISONS: Compare[] = [
         body: [
           "Package sizes come from the npm registry on 31 August 2026, taken from the published tarballs rather than from a size badge: lucide-react 1.37.0 unpacks to 30.2 MB across 4,136 files, @iconmind/react 0.6.0 to 5.6 MB across 6,867. Both figures are what lands in node_modules, not what reaches a browser.",
           "The browser numbers come from the size-limit suite that runs in CI, measured on 31 August 2026 against a production esbuild bundle with React treated as external: one icon 619 bytes gzipped, three icons 820, and the shared factory on its own 465. Carrying all six cells with each icon rather than splitting them across six import paths costs roughly 39 bytes gzipped, because a duotone cell compresses to almost nothing next to the outline it repeats.",
-          "The icon counts are the packages themselves: lucide-react 1.37.0 ships 2,048 icon modules, counted in the published tarball; IconMind has 2,287 icons and 13,722 cells, of which 664 icons are the AI, agent, MCP and RAG families. Anything in the tables that is not a measurement is a plain fact about the packages, and every command used to produce these numbers is in the repository.",
+          "The icon counts are the packages themselves: lucide-react 1.37.0 ships 2,048 icon modules, counted in the published tarball; IconMind has 3,287 icons and 19,722 cells, of which 914 icons are the AI, agent, MCP and RAG families. Anything in the tables that is not a measurement is a plain fact about the packages, and every command used to produce these numbers is in the repository.",
         ],
       },
     ],
@@ -177,10 +177,10 @@ export const COMPARISONS: Compare[] = [
     slug: "tabler",
     name: "Tabler Icons",
     url: "https://tabler.io/icons",
-    lead: "Tabler is the biggest of the stroke sets. IconMind is under half the size and covers what Tabler does not: the software being built in 2026.",
+    lead: "Tabler is the biggest of the stroke sets. IconMind is about two-thirds the size and covers what Tabler does not: the software being built in 2026.",
     answer: [
       "Use Tabler if breadth is the requirement. 5,130 outline icons and 1,054 filled, MIT licensed, drawn on the same 24 px grid, and if you need a tractor, a stethoscope or a brand mark, Tabler has one and IconMind never will.",
-      "Use IconMind if the screens that matter are about models, agents, retrieval or infrastructure. Tabler covers that ground with a few dozen icons: a robot, a brain, sparkles, a couple of AI-labelled shapes. IconMind covers it with 664, drawn as families that share a body so a reader can tell an agent from a model from a tool at a glance.",
+      "Use IconMind if the screens that matter are about models, agents, retrieval or infrastructure. Tabler covers that ground with a few dozen icons: a robot, a brain, sparkles, a couple of AI-labelled shapes. IconMind covers it with 914, drawn as families that share a body so a reader can tell an agent from a model from a tool at a glance.",
       "The sets do not fight. Same grid, same stroke, same round terminals. Plenty of products would sensibly run Tabler for breadth and IconMind for the domain.",
     ],
     sections: [
@@ -189,14 +189,14 @@ export const COMPARISONS: Compare[] = [
         body: [
           "Tabler is one of the largest hand-maintained icon sets in open source, and its size is the point. A form builder, an admin panel, a hospital dashboard and a farm management app can all be drawn from it without inventing anything. That is a genuine achievement and it took years.",
           "The cost of breadth is that no single domain gets deep treatment. Tabler's AI icons are the ones a general set reaches for: robot, brain, sparkles, a chip. They are fine as decoration and they fall apart as vocabulary, because a screen that shows an agent, a model, a tool call and a retrieval step needs four different pictures that a reader can learn.",
-          "IconMind made the opposite trade. It is a little under half the size of Tabler's outline set and spends 664 of its icons on one domain, with a grammar behind them: an open ring is an agent, a chamfered frame is a machine or an MCP server, a two-pronged plug is a tool, a page with a fold is a document. Learn four bodies and you can guess the next icon in a family before you see it.",
+          "IconMind made the opposite trade. It is about two-thirds the size of Tabler's outline set and spends 914 of its icons on one domain, with a grammar behind them: an open ring is an agent, a chamfered frame is a machine or an MCP server, a two-pronged plug is a tool, a page with a fold is a document. Learn four bodies and you can guess the next icon in a family before you see it.",
         ],
         table: {
           head: ["", "Tabler", "IconMind"],
           rows: [
-            ["Icons", "5,130 outline, 1,054 filled", "2,287 outline (all with duotone)"],
+            ["Icons", "5,130 outline, 1,054 filled", "3,287 outline (all with duotone)"],
             ["Drawings per icon", "2 (outline, filled)", "6 (outline and duotone at three weights)"],
-            ["AI and agent vocabulary", "a few dozen general shapes", "664 icons in named families"],
+            ["AI and agent vocabulary", "a few dozen general shapes", "914 icons in named families"],
             ["Brand logos", "yes", "no, and not planned"],
             ["Unpacked React package", "63.0 MB across 12,386 files", "5.6 MB across 6,867 files"],
             ["Licence", "MIT", "MIT"],
@@ -231,7 +231,7 @@ export const COMPARISONS: Compare[] = [
         heading: "How each set is kept consistent",
         body: [
           "Tabler is reviewed by people, at scale, with a contribution guide and a long-running maintainer team. That is how most icon sets work and it is why Tabler holds together across six thousand drawings.",
-          "IconMind is compiled. Each icon is a declaration, and a validator refuses geometry it cannot draw correctly: anchors off the half-unit grid, angles that are not 0, 45 or 90 degrees, strokes that vanish at bold, icons that do not fill the same optical box as the rest. A nightly job then rasterises all 13,722 cells and fails if any two icons render alike.",
+          "IconMind is compiled. Each icon is a declaration, and a validator refuses geometry it cannot draw correctly: anchors off the half-unit grid, angles that are not 0, 45 or 90 degrees, strokes that vanish at bold, icons that do not fill the same optical box as the rest. A nightly job then rasterises all 19,722 cells and fails if any two icons render alike.",
           "Neither approach is better in the abstract. The compiler catches drift that eyes miss at this scale, and it also refuses drawings a human would have shipped: Bluetooth is not in the set because its rune needs three stroke crossings where the rule allows two.",
         ],
       },
@@ -272,7 +272,7 @@ export const COMPARISONS: Compare[] = [
         heading: "How these numbers were measured",
         body: [
           "The package sizes were read from the npm registry on 31 August 2026, from the published tarballs: @tabler/icons-react 3.46.0 unpacks to 63.0 MB across 12,386 files, @iconmind/react 0.6.0 to 5.6 MB across 6,867 files. That is disk in node_modules. Neither number is what a browser downloads, because both packages ship per-icon modules and tree-shake to what you import.",
-          "The icon counts come from the same tarballs rather than from either project's marketing: @tabler/icons-react 3.46.0 exports 6,184 components, 5,130 outline and 1,054 filled. IconMind has 2,287 icons and 13,722 cells across two variants and three weights, 664 of them in the AI, agent, MCP and RAG families.",
+          "The icon counts come from the same tarballs rather than from either project's marketing: @tabler/icons-react 3.46.0 exports 6,184 components, 5,130 outline and 1,054 filled. IconMind has 3,287 icons and 19,722 cells across two variants and three weights, 914 of them in the AI, agent, MCP and RAG families.",
           "On breadth those numbers speak for themselves: Tabler draws more than twice as many things as this set does, and it will keep doing so. The tables are written to say that plainly rather than to work around it.",
         ],
       },
@@ -288,7 +288,7 @@ export const COMPARISONS: Compare[] = [
     ],
     verdict: [
       "Tabler is the better general-purpose set and this page is not going to argue otherwise. Five thousand outline icons and a thousand filled, all MIT, drawn on the same grid at the same stroke, is a resource most products can build an entire interface from.",
-      "What it does not have is a vocabulary for models, agents, retrieval and infrastructure, because no general set does. That is the gap IconMind was drawn for, and 664 of its icons live in it.",
+      "What it does not have is a vocabulary for models, agents, retrieval and infrastructure, because no general set does. That is the gap IconMind was drawn for, and 914 of its icons live in it.",
     ],
     faq: [
       ["Can I use Tabler and IconMind together?", "Yes, and for most teams that is the sensible answer. Both are 24 px with a 2 px stroke and round terminals, so the regular weight sits beside Tabler without adjustment. Use Tabler for breadth and IconMind for the domain screens."],
@@ -304,7 +304,7 @@ export const COMPARISONS: Compare[] = [
     lead: "Heroicons is Tailwind's set: three hundred icons, immaculately drawn. IconMind is for the product that needs the other two thousand.",
     answer: [
       "Use Heroicons if you are building with Tailwind and 300 icons is enough. It is drawn by the Tailwind team, it is beautifully consistent, and its optical sizes are better than anything IconMind offers at 16 and 20 px.",
-      "Use IconMind when 300 icons stops being enough, which for an AI product happens early. There is no context window, no reranker, no tool call and no MCP server in Heroicons, and there are 664 of them here.",
+      "Use IconMind when 300 icons stops being enough, which for an AI product happens early. There is no context window, no reranker, no tool call and no MCP server in Heroicons, and there are 914 of them here.",
       "If you already use Heroicons, the thin weight is the one to pair with it: 1.5 px, the same as the Heroicons outline style.",
     ],
     sections: [
@@ -313,16 +313,16 @@ export const COMPARISONS: Compare[] = [
         body: [
           "Heroicons is small on purpose. Every icon in it is one somebody needed while building Tailwind UI, which is why the set feels so coherent and why it has almost no filler. For a marketing site, a settings page or a checkout flow it is often complete.",
           "The limit shows up the moment a product has a domain. There is no icon for a model, a token, an embedding, a retrieval step or a policy, so teams draw their own and the seams appear immediately: a hand-drawn agent beside a Heroicons user is obvious at 24 px.",
-          "IconMind is 2,287 icons and its interface families are deliberately close to what Heroicons covers, so the two overlap cleanly. The difference is the 664 icons behind them.",
+          "IconMind is 3,287 icons and its interface families are deliberately close to what Heroicons covers, so the two overlap cleanly. The difference is the 914 icons behind them.",
         ],
         table: {
           head: ["", "Heroicons", "IconMind"],
           rows: [
-            ["Icons", "about 300", "2,287"],
+            ["Icons", "about 300", "3,287"],
             ["Styles", "outline 24, solid 24, mini 20, micro 16", "outline and duotone at thin, regular, bold"],
             ["Stroke", "1.5 px outline", "1.5, 2 and 2.5 px, each its own drawing"],
             ["Frameworks", "React, Vue", "React, Vue, Svelte, Solid, Preact, React Native, Astro, Blade, Flutter"],
-            ["AI vocabulary", "sparkles, cpu-chip", "664 icons across ai, agents, rag and mcp"],
+            ["AI vocabulary", "sparkles, cpu-chip", "914 icons across ai, agents, rag and mcp"],
             ["Licence", "MIT", "MIT"],
           ],
         },
@@ -355,7 +355,7 @@ export const COMPARISONS: Compare[] = [
         body: [
           "Heroicons' solid style is the same shape with the interior filled, and at 20 and 16 px it is the right call: below a certain size a stroke drawing has more line than area and starts to shimmer. The mini and micro styles are solid for exactly that reason.",
           "IconMind's second variant is duotone rather than solid. The strokes stay, and the body behind them takes a twenty percent tint of the same colour. The icon gains presence without giving up the interior detail, which matters here because the families are told apart by what is inside them: a ring with a check, a chamfered frame, a server with a status light.",
-          "Every duotone cell is derived from the outline drawing by rule, so there is no drift between the two and no icon that has one but not the other. All 2,287 exist in both, at all three weights, which is where the 13,722 figure comes from.",
+          "Every duotone cell is derived from the outline drawing by rule, so there is no drift between the two and no icon that has one but not the other. All 3,287 exist in both, at all three weights, which is where the 19,722 figure comes from.",
         ],
         table: {
           head: ["", "Heroicons", "IconMind"],
@@ -363,7 +363,7 @@ export const COMPARISONS: Compare[] = [
             ["Second variant", "solid fill", "duotone: strokes plus a 20% body"],
             ["Sizes", "24, 20 and 16, drawn separately", "one 24 px drawing, validated for 16"],
             ["Weights", "one per style", "1.5, 2 and 2.5 px, drawn separately"],
-            ["Cells in total", "about 1,200", "13,722"],
+            ["Cells in total", "about 1,200", "19,722"],
           ],
         },
       },
@@ -387,7 +387,7 @@ export const COMPARISONS: Compare[] = [
           head: ["", "Heroicons", "IconMind"],
           rows: [
             ["React package unpacked", "3.5 MB, 5,183 files", "5.6 MB, 6,867 files"],
-            ["Icons in the package", "about 300", "2,287"],
+            ["Icons in the package", "about 300", "3,287"],
             ["Per-icon modules", "yes", "yes"],
             ["Tree-shaking", "sideEffects false", "sideEffects false"],
           ],
@@ -413,7 +413,7 @@ export const COMPARISONS: Compare[] = [
         heading: "Different jobs, different scopes",
         body: [
           "Heroicons exists to dress the components Tailwind ships. Its scope is deliberately the smallest set that does that job, and it is maintained by people whose main work is elsewhere. That is a strength: nothing in it is filler, and it changes slowly.",
-          "IconMind exists for a domain that did not have a vocabulary. Two thirds of it is ordinary interface work because those screens still need arrows and folders, and the remaining 664 icons are the reason the set exists at all.",
+          "IconMind exists for a domain that did not have a vocabulary. Nearly three quarters of it is ordinary interface work because those screens still need arrows and folders, and the remaining 914 icons are the reason the set exists at all.",
         ],
       },
       {
@@ -421,7 +421,7 @@ export const COMPARISONS: Compare[] = [
         body: [
           "Package sizes were taken from the npm registry on 31 August 2026, from the published tarballs rather than a badge: @heroicons/react 2.2.0 unpacks to 3.5 MB across 5,183 files, @iconmind/react 0.6.0 to 5.6 MB across 6,867 files. Both are disk in node_modules, not bytes in a browser.",
           "The styles and defaults described here were read from the packages themselves. The Heroicons outline components render at a 1.5 px stroke with currentColor and aria-hidden set, which is where the claim that the thin weight matches them comes from.",
-          "The IconMind figures are the set: 2,287 icons, 13,722 cells, 664 of them in the AI, agent, MCP and RAG families, and 619 bytes gzipped for the first icon you import, measured by the size-limit suite that runs in CI.",
+          "The IconMind figures are the set: 3,287 icons, 19,722 cells, 914 of them in the AI, agent, MCP and RAG families, and 619 bytes gzipped for the first icon you import, measured by the size-limit suite that runs in CI.",
         ],
       },
     ],
@@ -436,7 +436,7 @@ export const COMPARISONS: Compare[] = [
     ],
     verdict: [
       "Heroicons is a small set that does its job unusually well, and its optical sizes at 20 and 16 px are genuinely better than anything IconMind offers in that range.",
-      "It runs out at about 300 icons and it has no vocabulary for models, agents, retrieval or infrastructure. If that is the product you are building, the choice is between drawing those icons yourself and taking 664 that were drawn as families.",
+      "It runs out at about 300 icons and it has no vocabulary for models, agents, retrieval or infrastructure. If that is the product you are building, the choice is between drawing those icons yourself and taking 914 that were drawn as families.",
       "Heroicons outline is 1.5 px, and IconMind's thin weight is 1.5 px, so the two sets can share a toolbar without anyone noticing the join.",
     ],
     faq: [
@@ -454,7 +454,7 @@ export const COMPARISONS: Compare[] = [
     url: "https://www.svgrepo.com",
     lead: "SVG Repo is a search engine over half a million icons from hundreds of sets. IconMind is one set, drawn as one set.",
     answer: [
-      "Use SVG Repo when you need one icon of one specific thing and you need it today. Half a million vectors, a search box, download and go. No set of 2,287 icons will ever beat that on coverage, and pretending otherwise would be silly.",
+      "Use SVG Repo when you need one icon of one specific thing and you need it today. Half a million vectors, a search box, download and go. No set of 3,287 icons will ever beat that on coverage, and pretending otherwise would be silly.",
       "Use IconMind when the icons are part of a product rather than a one-off. A search engine gives you a drawing; a set gives you a system: one licence, one grid, one stroke language, packages for nine frameworks, and a guarantee that the icon you add next year will match the one you added today.",
       "The honest split is per-icon versus per-product. Many teams do both, and there is nothing wrong with that as long as the borrowed icon is not sitting in the middle of a toolbar built from something else.",
     ],
@@ -464,12 +464,12 @@ export const COMPARISONS: Compare[] = [
         body: [
           "SVG Repo aggregates. Its collections come from hundreds of sources with hundreds of authors, which is why it can answer almost any query and why the results for a single query rarely look like each other. Search for server and you get a flat illustration, a thin outline, a filled glyph and a 3D render on the same screen.",
           "That is fine when the icon lands on a slide, a blog post or an empty state. It is a problem in a toolbar, because the eye reads inconsistency before it reads meaning. Two icons drawn by two people at two stroke weights look like a bug even when both are good drawings.",
-          "IconMind is one set with one grid. Every icon is 24 by 24, every anchor sits on a half unit, every angle is 0, 45 or 90 degrees, and every stroke terminal is round. That constraint is what makes 2,287 icons look like they were drawn in one sitting.",
+          "IconMind is one set with one grid. Every icon is 24 by 24, every anchor sits on a half unit, every angle is 0, 45 or 90 degrees, and every stroke terminal is round. That constraint is what makes 3,287 icons look like they were drawn in one sitting.",
         ],
         table: {
           head: ["", "SVG Repo", "IconMind"],
           rows: [
-            ["Icons", "around 500,000", "2,287"],
+            ["Icons", "around 500,000", "3,287"],
             ["Authors", "hundreds of sources", "one set, one grammar"],
             ["Licence", "varies per icon: CC0, MIT, CC BY, other", "MIT for everything"],
             ["Packages", "none", "nine frameworks plus sprite and Iconify"],
@@ -508,7 +508,7 @@ export const COMPARISONS: Compare[] = [
         heading: "Coverage in the domain that matters",
         body: [
           "Search SVG Repo for an agent and you get a person in a suit, an insurance mascot and a few robots. Search for retrieval, reranker, context window or tool call and the results stop being about software at all. The vocabulary of AI products is younger than most of the collections in the index.",
-          "IconMind spends 664 of its 2,287 icons there, arranged as families rather than singles: agent, agent run, agent handoff, agent memory; model, model training, model eval, model registry; retrieval, chunking, embedding, reranker, vector database. Those are the screens the set exists for.",
+          "IconMind spends 914 of its 3,287 icons there, arranged as families rather than singles: agent, agent run, agent handoff, agent memory; model, model training, model eval, model registry; retrieval, chunking, embedding, reranker, vector database. Those are the screens the set exists for.",
           "Where SVG Repo wins outright is everything else. Anything decorative, illustrative, brand-related or physical is better served by an index of half a million drawings than by a set that deliberately refuses whole categories.",
         ],
       },
@@ -550,15 +550,15 @@ export const COMPARISONS: Compare[] = [
         heading: "Consistency you can check",
         body: [
           "An aggregator cannot promise consistency because it does not own the drawings. A set can, and the honest way to make that promise is to let people verify it.",
-          "Every IconMind icon is a declaration compiled by a validator that refuses geometry it cannot draw correctly: anchors off the half-unit grid, angles that are not 0, 45 or 90 degrees, strokes that would merge at the bold weight, icons that do not fill the same optical box as their neighbours. A nightly job rasterises all 13,722 cells and fails the build if any two render alike.",
+          "Every IconMind icon is a declaration compiled by a validator that refuses geometry it cannot draw correctly: anchors off the half-unit grid, angles that are not 0, 45 or 90 degrees, strokes that would merge at the bold weight, icons that do not fill the same optical box as their neighbours. A nightly job rasterises all 19,722 cells and fails the build if any two render alike.",
           "The commands are in the repository and take a few minutes on a laptop. That is the practical difference between a set and a folder of downloads: you can run the check yourself rather than trusting a screenshot.",
         ],
-        code: "pnpm icons:build       # draw every icon from its declaration\npnpm icons:validate    # grid, angles, gaps, optical size\npnpm icons:duplicates  # rasterise 13,722 cells, compare them all",
+        code: "pnpm icons:build       # draw every icon from its declaration\npnpm icons:validate    # grid, angles, gaps, optical size\npnpm icons:duplicates  # rasterise 19,722 cells, compare them all",
       },
       {
         heading: "When SVG Repo is the better choice",
         body: [
-          "For a one-off, it wins and it is not close. A stethoscope, a tractor, a national flag, a brand mark, a piece of decorative art: half a million drawings will have something and 2,287 will not.",
+          "For a one-off, it wins and it is not close. A stethoscope, a tractor, a national flag, a brand mark, a piece of decorative art: half a million drawings will have something and 3,287 will not.",
           "For anything illustrative, it wins too. IconMind is a 24 px interface set and its rules stop it from ever producing an illustration.",
           "For a shipped interface, the calculation flips. Coherence, one licence, versioned packages and a set that grows in the same hand are worth more than coverage you will not use, and that is the whole argument for a set over an index.",
         ],
@@ -567,7 +567,7 @@ export const COMPARISONS: Compare[] = [
         heading: "How these numbers were measured",
         body: [
           "The SVG Repo figures are its own published counts as of 31 August 2026, and the licence description comes from the per-icon fields on the site, which name the source collection and its terms.",
-          "The IconMind figures are the set itself: 2,287 icons, 13,722 cells across two variants and three weights, 664 icons in the AI, agent, MCP and RAG families, and one MIT licence covering all of it. Package sizes come from the npm registry on the same date, read from the published tarball: 5.6 MB unpacked across 6,867 files.",
+          "The IconMind figures are the set itself: 3,287 icons, 19,722 cells across two variants and three weights, 914 icons in the AI, agent, MCP and RAG families, and one MIT licence covering all of it. Package sizes come from the npm registry on the same date, read from the published tarball: 5.6 MB unpacked across 6,867 files.",
           "The consistency claims are the ones worth checking rather than believing. The validator, the duplicate scan and the audit all run from the repository in a few minutes on a laptop, and they either pass or they name the icon that failed.",
         ],
       },
@@ -583,7 +583,7 @@ export const COMPARISONS: Compare[] = [
       ["Downloads", "SVG, PNG 16–512, WebP, ICO, JPEG, the whole set as a zip", "SVG, PNG"],
     ],
     verdict: [
-      "SVG Repo is a search engine with half a million results and IconMind is a set with 2,287. On coverage there is no contest, and on coherence there is no contest in the other direction.",
+      "SVG Repo is a search engine with half a million results and IconMind is a set with 3,287. On coverage there is no contest, and on coherence there is no contest in the other direction.",
       "The question worth asking is whether the icon is going into a product or into a document. A product wants one licence, one grid, versioned packages and a set that grows in the same hand. A document just wants the picture.",
     ],
     faq: [
@@ -591,7 +591,7 @@ export const COMPARISONS: Compare[] = [
       ["Why use a package instead of downloading SVGs?", "Because downloaded files are unversioned and unmaintained the moment they land in your repository. A package tree-shakes to what you import, upgrades with one number, and tells you in a changelog what moved."],
       ["Can I still get the raw files?", "Yes. Every cell exists as a plain SVG, there is a sprite of symbols keyed by slug, and the site offers per-variant zips. Nothing here requires a framework."],
       ["What about licences on SVG Repo?", "They vary per icon and per source collection: much of it is CC0 or MIT, some is CC BY and needs attribution wherever the icon appears. The field is on every icon page, and it is the part that cannot be fixed after you ship."],
-      ["Which is better for an AI product?", "IconMind, and not by a small margin. Search an aggregator for reranker, context window or tool call and the results stop being about software; 664 icons here were drawn for exactly those screens."],
+      ["Which is better for an AI product?", "IconMind, and not by a small margin. Search an aggregator for reranker, context window or tool call and the results stop being about software; 914 icons here were drawn for exactly those screens."],
     ],
   },
 ];

@@ -1,3 +1,15 @@
+## 0.7.0
+
+Eight hundred and fifty new icons, 3,287 in all: containers and images, observability
+(spans on a rail, logs on a receipt, profiles in the machine), metrics and alerts (a proper
+bell of their own), incidents and on-call, CI/CD (a flanged pipe for the pipeline), testing
+(the flask, the run card, the bracket pair), application security (the open padlock),
+identity (tokens on a ticket), privacy (the eye and the folder), FinOps (the receipt and the
+banknote), multimodal AI (photo frame, camcorder, speech bubble, cube), context and memory
+(the context window's brackets, memory in a tray), safety and evaluation (the judge is a
+scale), RAG depth (the lattice and the lens), and MCP orchestration (servers in the rack,
+agents in the ring, tools on the plug). Every icon holds its qualifier inside one body.
+
 ## 0.6.3
 
 No new icons — around a hundred and fifty redrawn. Every icon that used to sit beside

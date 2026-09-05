@@ -1,6 +1,6 @@
 # @iconmind/astro
 
-Astro components for [IconMind](https://iconmind.dev) — 2,437 tree-shakeable icons
+Astro components for [IconMind](https://iconmind.dev) — 3,287 tree-shakeable icons
 for AI-era software: LLMs, agents, MCP, RAG, and everything around them.
 
 ```bash
