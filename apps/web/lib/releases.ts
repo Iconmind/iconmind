@@ -15,7 +15,7 @@ export const RELEASE_DATES: Record<string, string> = {
   "0.4.0": "2026-08-30", "0.4.1": "2026-08-30",
   "0.5.0": "2026-08-30",
   "0.6.0": "2026-08-31", "0.6.3": "2026-09-01",
-  "0.7.0": "2026-09-05",
+  "0.6.4": "2026-09-05",
 };
 
 export const releaseDate = (version: string | undefined) =>

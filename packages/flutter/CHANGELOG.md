@@ -1,4 +1,4 @@
-## 0.7.0
+## 0.6.4
 
 Eight hundred and fifty new icons, 3,287 in all: containers and images, observability
 (spans on a rail, logs on a receipt, profiles in the machine), metrics and alerts (a proper

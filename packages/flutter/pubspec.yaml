@@ -3,7 +3,7 @@ description: >-
   3,287 open-source icons for AI-era software — agents, MCP, RAG, prompts —
   as tree-shakeable Flutter widgets. Outline and duotone, three weights,
   drawn from the same source of truth as every other IconMind package.
-version: 0.7.0
+version: 0.6.4
 homepage: https://iconmind.dev
 repository: https://github.com/Iconmind/iconmind
 issue_tracker: https://github.com/Iconmind/iconmind/issues
