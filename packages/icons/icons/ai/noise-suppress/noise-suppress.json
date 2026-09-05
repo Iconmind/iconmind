@@ -1,0 +1,41 @@
+{
+  "slug": "noise-suppress",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Noise suppression",
+  "description": "A speech bubble with a wave and a cross — the background taken out of the voice",
+  "tags": [
+    "speech",
+    "noise",
+    "clean"
+  ],
+  "keywords": [
+    "noise suppression",
+    "background noise removal",
+    "denoise voice",
+    "clean audio"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 21L11 17",
+      "closed": false
+    },
+    {
+      "d": "M6.5 11.5L9 9L11.5 11.5",
+      "closed": false
+    },
+    {
+      "d": "M13.5 8L17.5 12",
+      "closed": false
+    },
+    {
+      "d": "M17.5 8L13.5 12",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "depth-map",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Depth map",
+  "description": "The photo frame with lines that widen as they come nearer — how far away each part is",
+  "tags": [
+    "image",
+    "depth",
+    "3d"
+  ],
+  "keywords": [
+    "depth map",
+    "depth estimation",
+    "monocular depth",
+    "distance per pixel"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H18A3 3 0 0 1 21 7V17A3 3 0 0 1 18 20H6A3 3 0 0 1 3 17V7A3 3 0 0 1 6 4H10",
+      "closed": true
+    },
+    {
+      "d": "M10 8H14",
+      "closed": false
+    },
+    {
+      "d": "M8 12H16",
+      "closed": false
+    },
+    {
+      "d": "M6 16H18",
+      "closed": false
+    }
+  ]
+}

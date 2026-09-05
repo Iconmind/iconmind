@@ -1,0 +1,37 @@
+{
+  "slug": "scene-detect",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Scene detection",
+  "description": "The camcorder with two cuts across it — where one scene ends and the next begins",
+  "tags": [
+    "video",
+    "scene",
+    "detect"
+  ],
+  "keywords": [
+    "scene detection",
+    "scene change",
+    "split into scenes",
+    "chapter detection"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M10.5 6H13A3 3 0 0 1 16 9V15A3 3 0 0 1 13 18H5A3 3 0 0 1 2 15V9A3 3 0 0 1 5 6H7.5",
+      "closed": true
+    },
+    {
+      "d": "M19 10L22 7L22 17L19 14Z",
+      "closed": true
+    },
+    {
+      "d": "M7 8V16",
+      "closed": false
+    },
+    {
+      "d": "M11 8V16",
+      "closed": false
+    }
+  ]
+}

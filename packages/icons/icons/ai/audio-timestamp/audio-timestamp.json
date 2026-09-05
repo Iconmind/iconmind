@@ -1,0 +1,41 @@
+{
+  "slug": "audio-timestamp",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Audio timestamps",
+  "description": "A speech bubble with a clock in it — each word tied to the second it was said",
+  "tags": [
+    "speech",
+    "timestamp",
+    "align"
+  ],
+  "keywords": [
+    "audio timestamps",
+    "word timestamps",
+    "time-aligned transcript",
+    "timecodes"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 21L11 17",
+      "closed": false
+    },
+    {
+      "d": "M9 10.5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 7.5V10.5",
+      "closed": false
+    },
+    {
+      "d": "M12 10.5H14.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "aspect-crop",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Aspect crop",
+  "description": "The photo frame with a wide box inside it — a picture cut to the shape a place needs",
+  "tags": [
+    "image",
+    "crop",
+    "aspect"
+  ],
+  "keywords": [
+    "aspect crop",
+    "crop to ratio",
+    "16:9 crop",
+    "smart crop"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H18A3 3 0 0 1 21 7V17A3 3 0 0 1 18 20H6A3 3 0 0 1 3 17V7A3 3 0 0 1 6 4H10",
+      "closed": true
+    },
+    {
+      "d": "M6 10A2 2 0 0 1 8 8H16A2 2 0 0 1 18 10V14A2 2 0 0 1 16 16H8A2 2 0 0 1 6 14Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "table-extract-ai",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Table extraction",
+  "description": "The photo frame with a grid in it — rows and cells pulled out of a picture of a table",
+  "tags": [
+    "image",
+    "table",
+    "extract"
+  ],
+  "keywords": [
+    "table extraction",
+    "extract table from image",
+    "table recognition",
+    "cells from scan"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H18A3 3 0 0 1 21 7V17A3 3 0 0 1 18 20H6A3 3 0 0 1 3 17V7A3 3 0 0 1 6 4H10",
+      "closed": true
+    },
+    {
+      "d": "M6 10H18",
+      "closed": false
+    },
+    {
+      "d": "M6 14H18",
+      "closed": false
+    },
+    {
+      "d": "M12 7V17",
+      "closed": false
+    }
+  ]
+}

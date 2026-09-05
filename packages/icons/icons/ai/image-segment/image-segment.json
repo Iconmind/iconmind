@@ -1,0 +1,33 @@
+{
+  "slug": "image-segment",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Image segmentation",
+  "description": "The photo frame with a hill and a corner picked out — every pixel given to the thing it belongs to",
+  "tags": [
+    "image",
+    "segment",
+    "vision"
+  ],
+  "keywords": [
+    "image segmentation",
+    "semantic segmentation",
+    "pixel labels",
+    "segment image"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H18A3 3 0 0 1 21 7V17A3 3 0 0 1 18 20H6A3 3 0 0 1 3 17V7A3 3 0 0 1 6 4H10",
+      "closed": true
+    },
+    {
+      "d": "M6 17L10 13L14 17",
+      "closed": false
+    },
+    {
+      "d": "M14.5 7L18 7L18 10.5",
+      "closed": false
+    }
+  ]
+}

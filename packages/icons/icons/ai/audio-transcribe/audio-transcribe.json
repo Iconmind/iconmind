@@ -1,0 +1,37 @@
+{
+  "slug": "audio-transcribe",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Audio transcription",
+  "description": "A speech bubble with lines of text in it — what was said, written down",
+  "tags": [
+    "speech",
+    "transcribe",
+    "text"
+  ],
+  "keywords": [
+    "audio transcription",
+    "transcribe audio",
+    "speech recognition",
+    "asr"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 21L11 17",
+      "closed": false
+    },
+    {
+      "d": "M6 8H18",
+      "closed": false
+    },
+    {
+      "d": "M6 12H14",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "modality-router",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Modality router",
+  "description": "A machine frame with one line splitting into two — each input sent to the model that handles its kind",
+  "tags": [
+    "router",
+    "modality",
+    "model"
+  ],
+  "keywords": [
+    "modality router",
+    "route by input type",
+    "text or image",
+    "input dispatch"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7 12L10 12L13 9L16 9",
+      "closed": false
+    },
+    {
+      "d": "M10 12L13 15L16 15",
+      "closed": false
+    }
+  ]
+}

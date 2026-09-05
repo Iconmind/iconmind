@@ -1,0 +1,33 @@
+{
+  "slug": "prosody",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Prosody",
+  "description": "A speech bubble with a pitch line that rises — the tune of how something is said",
+  "tags": [
+    "speech",
+    "prosody",
+    "intonation"
+  ],
+  "keywords": [
+    "prosody",
+    "intonation",
+    "pitch contour",
+    "stress and rhythm"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 21L11 17",
+      "closed": false
+    },
+    {
+      "d": "M7 12L11 12L15 8L17.5 8",
+      "closed": false
+    }
+  ]
+}

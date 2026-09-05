@@ -1,0 +1,41 @@
+{
+  "slug": "multimodal-prompt",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Multimodal prompt",
+  "description": "A speech bubble with a picture and words in it — a prompt that carries more than text",
+  "tags": [
+    "prompt",
+    "image",
+    "text"
+  ],
+  "keywords": [
+    "multimodal prompt",
+    "image in prompt",
+    "vision prompt",
+    "attach image to prompt"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 21L11 17",
+      "closed": false
+    },
+    {
+      "d": "M5 13.5L9 9.5L13 13.5",
+      "closed": false
+    },
+    {
+      "d": "M14 9H18",
+      "closed": false
+    },
+    {
+      "d": "M14 12.5H18",
+      "closed": false
+    }
+  ]
+}

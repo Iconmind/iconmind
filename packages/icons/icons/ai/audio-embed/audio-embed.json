@@ -1,0 +1,37 @@
+{
+  "slug": "audio-embed",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Audio embedding",
+  "description": "A speech bubble with an arrow in it — a recording turned into a vector",
+  "tags": [
+    "speech",
+    "embedding",
+    "vector"
+  ],
+  "keywords": [
+    "audio embedding",
+    "audio vector",
+    "sound embedding",
+    "clap embedding"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 21L11 17",
+      "closed": false
+    },
+    {
+      "d": "M8 13L13 8",
+      "closed": false
+    },
+    {
+      "d": "M10.5 8L13 8L13 10.5",
+      "closed": false
+    }
+  ]
+}

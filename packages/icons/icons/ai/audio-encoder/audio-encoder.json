@@ -1,0 +1,41 @@
+{
+  "slug": "audio-encoder",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Audio encoder",
+  "description": "A speech bubble with a tag around a point — the part of the model that hears",
+  "tags": [
+    "speech",
+    "encoder",
+    "model"
+  ],
+  "keywords": [
+    "audio encoder",
+    "speech encoder",
+    "whisper encoder",
+    "audio tower"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 21L11 17",
+      "closed": false
+    },
+    {
+      "d": "M8.5 8L6 10.5L8.5 13",
+      "closed": false
+    },
+    {
+      "d": "M15.5 8L18 10.5L15.5 13",
+      "closed": false
+    },
+    {
+      "d": "M11 10.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

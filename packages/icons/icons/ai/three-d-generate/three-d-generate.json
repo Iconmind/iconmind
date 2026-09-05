@@ -1,0 +1,26 @@
+{
+  "slug": "three-d-generate",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "3D generation",
+  "description": "A cube — an object made in three dimensions from a prompt or a picture",
+  "tags": [
+    "3d",
+    "generate",
+    "shape"
+  ],
+  "keywords": [
+    "3d generation",
+    "text to 3d",
+    "image to 3d",
+    "generate object"
+  ],
+  "family": "cube",
+  "shapes": [
+    {
+      "d": "M12 2L18 8V16L12 22L6 16V8ZM6 8L12 14L18 8M12 14V22",
+      "closed": false,
+      "_why": "a cube: a hexagon and the three edges that meet in its middle"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "video-generate",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Video generation",
+  "description": "The camcorder with a bolt in it — moving pictures made from a prompt",
+  "tags": [
+    "video",
+    "generate",
+    "model"
+  ],
+  "keywords": [
+    "video generation",
+    "text to video model",
+    "generate clip",
+    "ai video"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M10.5 6H13A3 3 0 0 1 16 9V15A3 3 0 0 1 13 18H5A3 3 0 0 1 2 15V9A3 3 0 0 1 5 6H7.5",
+      "closed": true
+    },
+    {
+      "d": "M19 10L22 7L22 17L19 14Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 9.5L8 12L10.5 12L8 14.5",
+      "closed": false
+    }
+  ]
+}

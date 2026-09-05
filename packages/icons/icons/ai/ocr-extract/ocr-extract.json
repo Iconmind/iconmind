@@ -1,0 +1,37 @@
+{
+  "slug": "ocr-extract",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "OCR extraction",
+  "description": "The photo frame with lines of text in it — the words read off a picture",
+  "tags": [
+    "image",
+    "ocr",
+    "text"
+  ],
+  "keywords": [
+    "ocr extraction",
+    "read text from image",
+    "optical character recognition",
+    "extract text"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H18A3 3 0 0 1 21 7V17A3 3 0 0 1 18 20H6A3 3 0 0 1 3 17V7A3 3 0 0 1 6 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 9H17",
+      "closed": false
+    },
+    {
+      "d": "M7 12.5H14",
+      "closed": false
+    },
+    {
+      "d": "M7 16H17",
+      "closed": false
+    }
+  ]
+}

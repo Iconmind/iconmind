@@ -1,0 +1,41 @@
+{
+  "slug": "frame-interpolate",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Frame interpolation",
+  "description": "The camcorder with a point between two frames — a frame made up to sit between real ones",
+  "tags": [
+    "video",
+    "frame",
+    "interpolate"
+  ],
+  "keywords": [
+    "frame interpolation",
+    "motion interpolation",
+    "60fps from 30",
+    "in-between frames"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M10.5 6H13A3 3 0 0 1 16 9V15A3 3 0 0 1 13 18H5A3 3 0 0 1 2 15V9A3 3 0 0 1 5 6H7.5",
+      "closed": true
+    },
+    {
+      "d": "M19 10L22 7L22 17L19 14Z",
+      "closed": true
+    },
+    {
+      "d": "M6 9V15",
+      "closed": false
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    },
+    {
+      "d": "M8 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

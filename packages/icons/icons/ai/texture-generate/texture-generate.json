@@ -1,0 +1,38 @@
+{
+  "slug": "texture-generate",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Texture generation",
+  "description": "The cube's outline hatched — the surface a shape is dressed in",
+  "tags": [
+    "3d",
+    "texture",
+    "material"
+  ],
+  "keywords": [
+    "texture generation",
+    "generate texture",
+    "pbr texture",
+    "material synthesis"
+  ],
+  "family": "cube",
+  "shapes": [
+    {
+      "d": "M12 2L18 8V16L12 22L6 16V8Z",
+      "closed": true,
+      "_why": "the cube's outline, a hexagon"
+    },
+    {
+      "d": "M7 12L11 8",
+      "closed": false
+    },
+    {
+      "d": "M9 15L15 9",
+      "closed": false
+    },
+    {
+      "d": "M12 17L17 12",
+      "closed": false
+    }
+  ]
+}

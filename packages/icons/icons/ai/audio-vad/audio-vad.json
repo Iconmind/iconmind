@@ -1,0 +1,41 @@
+{
+  "slug": "audio-vad",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Voice activity detection",
+  "description": "A speech bubble with silence, a burst, and silence — where in the recording someone is speaking",
+  "tags": [
+    "speech",
+    "vad",
+    "detect"
+  ],
+  "keywords": [
+    "voice activity detection",
+    "vad",
+    "speech detection",
+    "silence trimming"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 21L11 17",
+      "closed": false
+    },
+    {
+      "d": "M5.5 10.5H8.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 12.5L12 10L14.5 12.5",
+      "closed": false
+    },
+    {
+      "d": "M15.5 10.5H18.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "speech-align",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Speech alignment",
+  "description": "A speech bubble with a line and ticks under it — each word matched to its moment in the audio",
+  "tags": [
+    "speech",
+    "align",
+    "forced"
+  ],
+  "keywords": [
+    "speech alignment",
+    "forced alignment",
+    "word alignment",
+    "align transcript"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 21L11 17",
+      "closed": false
+    },
+    {
+      "d": "M7 8H17",
+      "closed": false
+    },
+    {
+      "d": "M9 11V14",
+      "closed": false
+    },
+    {
+      "d": "M12 11V14",
+      "closed": false
+    },
+    {
+      "d": "M15 11V14",
+      "closed": false
+    }
+  ]
+}

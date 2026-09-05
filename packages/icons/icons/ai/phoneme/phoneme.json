@@ -1,0 +1,33 @@
+{
+  "slug": "phoneme",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Phonemes",
+  "description": "A speech bubble with a zigzag in it — speech broken into its smallest sounds",
+  "tags": [
+    "speech",
+    "phoneme",
+    "sound"
+  ],
+  "keywords": [
+    "phonemes",
+    "phoneme recognition",
+    "grapheme to phoneme",
+    "ipa"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 21L11 17",
+      "closed": false
+    },
+    {
+      "d": "M7 12L9.5 9.5L12 12L14.5 9.5L17 12",
+      "closed": false
+    }
+  ]
+}

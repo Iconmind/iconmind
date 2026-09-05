@@ -1,0 +1,33 @@
+{
+  "slug": "image-edit",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Image edit",
+  "description": "The photo frame with a pencil across it — a picture changed by instruction",
+  "tags": [
+    "image",
+    "edit",
+    "generate"
+  ],
+  "keywords": [
+    "image edit",
+    "edit image",
+    "instruct edit",
+    "retouch"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H18A3 3 0 0 1 21 7V17A3 3 0 0 1 18 20H6A3 3 0 0 1 3 17V7A3 3 0 0 1 6 4H10",
+      "closed": true
+    },
+    {
+      "d": "M8 16L15 9",
+      "closed": false
+    },
+    {
+      "d": "M15 9L17 11",
+      "closed": false
+    }
+  ]
+}

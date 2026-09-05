@@ -1,0 +1,37 @@
+{
+  "slug": "video-summarise",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Video summary",
+  "description": "The camcorder with two lines in it — a long recording told in a few sentences",
+  "tags": [
+    "video",
+    "summary",
+    "understand"
+  ],
+  "keywords": [
+    "video summary",
+    "summarise video",
+    "video recap",
+    "video understanding"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M10.5 6H13A3 3 0 0 1 16 9V15A3 3 0 0 1 13 18H5A3 3 0 0 1 2 15V9A3 3 0 0 1 5 6H7.5",
+      "closed": true
+    },
+    {
+      "d": "M19 10L22 7L22 17L19 14Z",
+      "closed": true
+    },
+    {
+      "d": "M5 10H13",
+      "closed": false
+    },
+    {
+      "d": "M5 14H10",
+      "closed": false
+    }
+  ]
+}

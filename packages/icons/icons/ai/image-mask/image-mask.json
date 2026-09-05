@@ -1,0 +1,33 @@
+{
+  "slug": "image-mask",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Image mask",
+  "description": "The photo frame with a region and its centre marked — the part of a picture a step applies to",
+  "tags": [
+    "image",
+    "mask",
+    "region"
+  ],
+  "keywords": [
+    "image mask",
+    "mask region",
+    "paint mask",
+    "masked area"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H18A3 3 0 0 1 21 7V17A3 3 0 0 1 18 20H6A3 3 0 0 1 3 17V7A3 3 0 0 1 6 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 10A2 2 0 0 1 9 8H15A2 2 0 0 1 17 10V14A2 2 0 0 1 15 16H9A2 2 0 0 1 7 14Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

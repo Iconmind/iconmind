@@ -1,0 +1,33 @@
+{
+  "slug": "wake-word",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Wake word",
+  "description": "A speech bubble with a bolt in it — the one word that wakes the device",
+  "tags": [
+    "speech",
+    "wake-word",
+    "voice"
+  ],
+  "keywords": [
+    "wake word",
+    "hotword",
+    "hey assistant",
+    "keyword spotting"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 21L11 17",
+      "closed": false
+    },
+    {
+      "d": "M13.5 8L11 10.5L13.5 10.5L11 13",
+      "closed": false
+    }
+  ]
+}

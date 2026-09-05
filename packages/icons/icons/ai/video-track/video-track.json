@@ -1,0 +1,37 @@
+{
+  "slug": "video-track",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Video tracking",
+  "description": "The camcorder with a subject and its trail — the same thing followed frame to frame",
+  "tags": [
+    "video",
+    "track",
+    "object"
+  ],
+  "keywords": [
+    "video tracking",
+    "object tracking",
+    "track across frames",
+    "multi-object tracking"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M10.5 6H13A3 3 0 0 1 16 9V15A3 3 0 0 1 13 18H5A3 3 0 0 1 2 15V9A3 3 0 0 1 5 6H7.5",
+      "closed": true
+    },
+    {
+      "d": "M19 10L22 7L22 17L19 14Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12H14",
+      "closed": false
+    }
+  ]
+}

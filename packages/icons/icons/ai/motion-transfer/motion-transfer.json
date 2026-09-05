@@ -1,0 +1,41 @@
+{
+  "slug": "motion-transfer",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Motion transfer",
+  "description": "The camcorder with a stick figure in it — one body's movement given to another",
+  "tags": [
+    "video",
+    "motion",
+    "transfer"
+  ],
+  "keywords": [
+    "motion transfer",
+    "motion capture transfer",
+    "animate from video",
+    "pose transfer"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M10.5 6H13A3 3 0 0 1 16 9V15A3 3 0 0 1 13 18H5A3 3 0 0 1 2 15V9A3 3 0 0 1 5 6H7.5",
+      "closed": true
+    },
+    {
+      "d": "M19 10L22 7L22 17L19 14Z",
+      "closed": true
+    },
+    {
+      "d": "M8 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 10V13.5",
+      "closed": false
+    },
+    {
+      "d": "M6.5 16L9 13.5L11.5 16",
+      "closed": false
+    }
+  ]
+}

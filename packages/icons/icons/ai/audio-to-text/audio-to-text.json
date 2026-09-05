@@ -1,0 +1,37 @@
+{
+  "slug": "audio-to-text",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Audio to text",
+  "description": "A speech bubble with a wave that becomes a line — sound turned into words",
+  "tags": [
+    "speech",
+    "text",
+    "convert"
+  ],
+  "keywords": [
+    "audio to text",
+    "speech to text",
+    "voice to text",
+    "dictation"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 21L11 17",
+      "closed": false
+    },
+    {
+      "d": "M6 10.5L8.5 8L11 10.5",
+      "closed": false
+    },
+    {
+      "d": "M13 10.5H18",
+      "closed": false
+    }
+  ]
+}

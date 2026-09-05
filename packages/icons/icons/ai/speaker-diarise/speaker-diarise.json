@@ -1,0 +1,37 @@
+{
+  "slug": "speaker-diarise",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Speaker diarisation",
+  "description": "A speech bubble with two heads in it — each stretch of speech given to its speaker",
+  "tags": [
+    "speech",
+    "speaker",
+    "diarise"
+  ],
+  "keywords": [
+    "speaker diarisation",
+    "speaker labels",
+    "two speakers",
+    "speaker identification"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 21L11 17",
+      "closed": false
+    },
+    {
+      "d": "M7 10.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 10.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

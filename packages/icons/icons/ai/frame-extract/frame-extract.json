@@ -1,0 +1,33 @@
+{
+  "slug": "frame-extract",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Frame extraction",
+  "description": "The camcorder with one frame pulled out — a single still taken from the stream",
+  "tags": [
+    "video",
+    "frame",
+    "extract"
+  ],
+  "keywords": [
+    "frame extraction",
+    "extract frames",
+    "grab a frame",
+    "sample frames"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M10.5 6H13A3 3 0 0 1 16 9V15A3 3 0 0 1 13 18H5A3 3 0 0 1 2 15V9A3 3 0 0 1 5 6H7.5",
+      "closed": true
+    },
+    {
+      "d": "M19 10L22 7L22 17L19 14Z",
+      "closed": true
+    },
+    {
+      "d": "M6 9L6 15L12 15L12 9Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "mesh-generate",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Mesh generation",
+  "description": "The cube's outline with a vertex at its heart — a surface built from points and faces",
+  "tags": [
+    "3d",
+    "mesh",
+    "geometry"
+  ],
+  "keywords": [
+    "mesh generation",
+    "generate mesh",
+    "polygon mesh",
+    "3d reconstruction"
+  ],
+  "family": "cube",
+  "shapes": [
+    {
+      "d": "M12 2L18 8V16L12 22L6 16V8Z",
+      "closed": true,
+      "_why": "the cube's outline, a hexagon"
+    },
+    {
+      "d": "M10 14a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

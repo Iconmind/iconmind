@@ -1,0 +1,33 @@
+{
+  "slug": "subtitle-burn",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Burn-in subtitles",
+  "description": "The camcorder with a solid bar in it — subtitles drawn into the frames themselves",
+  "tags": [
+    "video",
+    "subtitle",
+    "burn-in"
+  ],
+  "keywords": [
+    "burn-in subtitles",
+    "hardcoded subtitles",
+    "open captions",
+    "render subtitles"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M10.5 6H13A3 3 0 0 1 16 9V15A3 3 0 0 1 13 18H5A3 3 0 0 1 2 15V9A3 3 0 0 1 5 6H7.5",
+      "closed": true
+    },
+    {
+      "d": "M19 10L22 7L22 17L19 14Z",
+      "closed": true
+    },
+    {
+      "d": "M5 13A2 2 0 0 1 7 11H11A2 2 0 0 1 13 13V13A2 2 0 0 1 11 15H7A2 2 0 0 1 5 13Z",
+      "closed": true
+    }
+  ]
+}

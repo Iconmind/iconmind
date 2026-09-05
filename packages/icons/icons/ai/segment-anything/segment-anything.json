@@ -1,0 +1,33 @@
+{
+  "slug": "segment-anything",
+  "category": "ai",
+  "subcategory": "multimodal",
+  "name": "Segment anything",
+  "description": "The photo frame with a point inside a mask — click once, get the thing around it",
+  "tags": [
+    "image",
+    "segment",
+    "click"
+  ],
+  "keywords": [
+    "segment anything",
+    "sam",
+    "click to segment",
+    "promptable segmentation"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H18A3 3 0 0 1 21 7V17A3 3 0 0 1 18 20H6A3 3 0 0 1 3 17V7A3 3 0 0 1 6 4H10",
+      "closed": true
+    },
+    {
+      "d": "M8 10L12 6L16 10L16 14L12 18L8 14Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}
