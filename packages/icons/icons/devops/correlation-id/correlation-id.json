@@ -1,0 +1,37 @@
+{
+  "slug": "correlation-id",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Correlation ID",
+  "description": "A span bar with an equals sign — the one id that says two records belong to the same request",
+  "tags": [
+    "trace",
+    "id",
+    "correlate"
+  ],
+  "keywords": [
+    "correlation id",
+    "request id",
+    "same request",
+    "x-request-id"
+  ],
+  "family": "span",
+  "shapes": [
+    {
+      "d": "M4 3H20",
+      "closed": false
+    },
+    {
+      "d": "M2 12A6 6 0 0 1 8 6H16A6 6 0 0 1 22 12V12A6 6 0 0 1 16 18H8A6 6 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M7 10H17",
+      "closed": false
+    },
+    {
+      "d": "M7 14H17",
+      "closed": false
+    }
+  ]
+}

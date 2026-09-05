@@ -1,0 +1,42 @@
+{
+  "slug": "log-field",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Log field",
+  "description": "A receipt with one field marked on the middle line — a single key pulled out of a log line",
+  "tags": [
+    "log",
+    "field",
+    "key"
+  ],
+  "keywords": [
+    "log field",
+    "log attribute",
+    "extracted field",
+    "log key"
+  ],
+  "family": "receipt",
+  "shapes": [
+    {
+      "d": "M6 2H18A2 2 0 0 1 20 4V19L18 17L16 19L14 17L12 19L10 17L8 19L6 17L4 19V4A2 2 0 0 1 6 2Z",
+      "closed": true,
+      "_why": "a receipt: a rounded head and a foot torn along a zigzag"
+    },
+    {
+      "d": "M7 6H17",
+      "closed": false
+    },
+    {
+      "d": "M6 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11.5 10H17",
+      "closed": false
+    },
+    {
+      "d": "M7 14H17",
+      "closed": false
+    }
+  ]
+}

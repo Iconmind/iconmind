@@ -1,0 +1,37 @@
+{
+  "slug": "thread-dump",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Thread dump",
+  "description": "Three threads landing in a tray — every thread's stack at one instant",
+  "tags": [
+    "dump",
+    "thread",
+    "stack"
+  ],
+  "keywords": [
+    "thread dump",
+    "jstack",
+    "thread stacks",
+    "all threads"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M8 5V12",
+      "closed": false
+    },
+    {
+      "d": "M12 5V12",
+      "closed": false
+    },
+    {
+      "d": "M16 5V12",
+      "closed": false
+    }
+  ]
+}

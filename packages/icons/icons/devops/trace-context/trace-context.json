@@ -1,0 +1,37 @@
+{
+  "slug": "trace-context",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Trace context",
+  "description": "A span bar holding angle brackets — the headers that carry a trace across a request",
+  "tags": [
+    "trace",
+    "context",
+    "header"
+  ],
+  "keywords": [
+    "trace context",
+    "tracecontext",
+    "traceparent header",
+    "tracestate"
+  ],
+  "family": "span",
+  "shapes": [
+    {
+      "d": "M4 3H20",
+      "closed": false
+    },
+    {
+      "d": "M2 12A6 6 0 0 1 8 6H16A6 6 0 0 1 22 12V12A6 6 0 0 1 16 18H8A6 6 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 9.5L7 12L9.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M14.5 9.5L17 12L14.5 14.5",
+      "closed": false
+    }
+  ]
+}

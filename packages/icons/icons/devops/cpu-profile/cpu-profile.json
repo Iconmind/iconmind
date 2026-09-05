@@ -1,0 +1,37 @@
+{
+  "slug": "cpu-profile",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "CPU profile",
+  "description": "A machine frame with a stack of narrowing bars — where the processor's time went",
+  "tags": [
+    "profile",
+    "cpu",
+    "flame"
+  ],
+  "keywords": [
+    "cpu profile",
+    "cpu profiling",
+    "flame graph",
+    "hot path"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M8 9H16",
+      "closed": false
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    },
+    {
+      "d": "M10 15H14",
+      "closed": false
+    }
+  ]
+}

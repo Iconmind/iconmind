@@ -1,0 +1,33 @@
+{
+  "slug": "span-status",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Span status",
+  "description": "A span bar with a check — whether the span ended ok or in error",
+  "tags": [
+    "span",
+    "status",
+    "trace"
+  ],
+  "keywords": [
+    "span status",
+    "status code",
+    "span ok",
+    "span error"
+  ],
+  "family": "span",
+  "shapes": [
+    {
+      "d": "M4 3H20",
+      "closed": false
+    },
+    {
+      "d": "M2 12A6 6 0 0 1 8 6H16A6 6 0 0 1 22 12V12A6 6 0 0 1 16 18H8A6 6 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M9 12L11 14L15 10",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "span-link",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Span link",
+  "description": "A span bar with two points joined — a span that refers to another trace's span",
+  "tags": [
+    "span",
+    "link",
+    "trace"
+  ],
+  "keywords": [
+    "span link",
+    "linked span",
+    "cross trace",
+    "causal link"
+  ],
+  "family": "span",
+  "shapes": [
+    {
+      "d": "M4 3H20",
+      "closed": false
+    },
+    {
+      "d": "M2 12A6 6 0 0 1 8 6H16A6 6 0 0 1 22 12V12A6 6 0 0 1 16 18H8A6 6 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M6 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12H14",
+      "closed": false
+    }
+  ]
+}

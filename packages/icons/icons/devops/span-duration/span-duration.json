@@ -1,0 +1,41 @@
+{
+  "slug": "span-duration",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Span duration",
+  "description": "A span bar with a clock — how long the span took",
+  "tags": [
+    "span",
+    "duration",
+    "time"
+  ],
+  "keywords": [
+    "span duration",
+    "span latency",
+    "elapsed",
+    "how long"
+  ],
+  "family": "span",
+  "shapes": [
+    {
+      "d": "M4 3H20",
+      "closed": false
+    },
+    {
+      "d": "M2 12A6 6 0 0 1 8 6H16A6 6 0 0 1 22 12V12A6 6 0 0 1 16 18H8A6 6 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9V12",
+      "closed": false
+    },
+    {
+      "d": "M12 12H14.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "memory-profile",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Memory profile",
+  "description": "A machine frame with three bars standing in it — where the memory went",
+  "tags": [
+    "profile",
+    "memory",
+    "allocation"
+  ],
+  "keywords": [
+    "memory profile",
+    "memory profiling",
+    "heap profile",
+    "allocations"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M9 9V15",
+      "closed": false
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    },
+    {
+      "d": "M15 9V15",
+      "closed": false
+    }
+  ]
+}

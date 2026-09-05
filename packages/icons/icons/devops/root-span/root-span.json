@@ -1,0 +1,37 @@
+{
+  "slug": "root-span",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Root span",
+  "description": "A span bar with a wide bar and a bracket of children under it — the span with no parent",
+  "tags": [
+    "span",
+    "root",
+    "trace"
+  ],
+  "keywords": [
+    "root span",
+    "top span",
+    "entry span",
+    "first span"
+  ],
+  "family": "span",
+  "shapes": [
+    {
+      "d": "M4 3H20",
+      "closed": false
+    },
+    {
+      "d": "M2 12A6 6 0 0 1 8 6H16A6 6 0 0 1 22 12V12A6 6 0 0 1 16 18H8A6 6 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M7 9H17",
+      "closed": false
+    },
+    {
+      "d": "M8 15L8 12L16 12L16 15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "parent-span",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Parent span",
+  "description": "A span bar with a wide bar over an indented one — the span this span was started from",
+  "tags": [
+    "span",
+    "parent",
+    "trace"
+  ],
+  "keywords": [
+    "parent span",
+    "parent span id",
+    "enclosing span",
+    "caller span"
+  ],
+  "family": "span",
+  "shapes": [
+    {
+      "d": "M4 3H20",
+      "closed": false
+    },
+    {
+      "d": "M2 12A6 6 0 0 1 8 6H16A6 6 0 0 1 22 12V12A6 6 0 0 1 16 18H8A6 6 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M7 9H17",
+      "closed": false
+    },
+    {
+      "d": "M11 15H17",
+      "closed": false
+    }
+  ]
+}

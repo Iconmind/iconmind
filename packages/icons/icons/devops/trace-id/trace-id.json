@@ -1,0 +1,32 @@
+{
+  "slug": "trace-id",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Trace ID",
+  "description": "A span bar with a tag — the id that names the whole trace",
+  "tags": [
+    "trace",
+    "id",
+    "tag"
+  ],
+  "keywords": [
+    "trace id",
+    "traceid",
+    "trace identifier"
+  ],
+  "family": "span",
+  "shapes": [
+    {
+      "d": "M4 3H20",
+      "closed": false
+    },
+    {
+      "d": "M2 12A6 6 0 0 1 8 6H16A6 6 0 0 1 22 12V12A6 6 0 0 1 16 18H8A6 6 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M9 9L12 9L15 12L12 15L9 15Z",
+      "closed": true
+    }
+  ]
+}

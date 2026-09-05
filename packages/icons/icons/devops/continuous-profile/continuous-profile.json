@@ -1,0 +1,29 @@
+{
+  "slug": "continuous-profile",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Continuous profile",
+  "description": "A machine frame with a pulse running through it — profiling that never stops",
+  "tags": [
+    "profile",
+    "continuous",
+    "always-on"
+  ],
+  "keywords": [
+    "continuous profiling",
+    "always-on profiling",
+    "pyroscope",
+    "parca"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7.5 14.5L10 12L12.5 14.5L15 12L17.5 14.5",
+      "closed": false
+    }
+  ]
+}

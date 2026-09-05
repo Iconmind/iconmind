@@ -1,0 +1,37 @@
+{
+  "slug": "context-propagation",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Context propagation",
+  "description": "A span bar with an arrow running through it — trace context handed on to the next service",
+  "tags": [
+    "span",
+    "trace",
+    "context"
+  ],
+  "keywords": [
+    "context propagation",
+    "trace propagation",
+    "w3c tracecontext",
+    "traceparent"
+  ],
+  "family": "span",
+  "shapes": [
+    {
+      "d": "M4 3H20",
+      "closed": false
+    },
+    {
+      "d": "M2 12A6 6 0 0 1 8 6H16A6 6 0 0 1 22 12V12A6 6 0 0 1 16 18H8A6 6 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M6 12H16",
+      "closed": false
+    },
+    {
+      "d": "M13.5 9.5L16 12L13.5 14.5",
+      "closed": false
+    }
+  ]
+}

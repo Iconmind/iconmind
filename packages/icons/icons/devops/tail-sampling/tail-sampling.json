@@ -1,0 +1,41 @@
+{
+  "slug": "tail-sampling",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Tail sampling",
+  "description": "A span bar with a funnel at its tail — the keep-or-drop decision made once the trace is complete",
+  "tags": [
+    "trace",
+    "sampling",
+    "tail"
+  ],
+  "keywords": [
+    "tail sampling",
+    "tail-based sampling",
+    "sample after",
+    "decide at end"
+  ],
+  "family": "span",
+  "shapes": [
+    {
+      "d": "M4 3H20",
+      "closed": false
+    },
+    {
+      "d": "M2 12A6 6 0 0 1 8 6H16A6 6 0 0 1 22 12V12A6 6 0 0 1 16 18H8A6 6 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M6 12H10.5",
+      "closed": false
+    },
+    {
+      "d": "M12 9L15 12L18 9",
+      "closed": false
+    },
+    {
+      "d": "M15 12V15",
+      "closed": false
+    }
+  ]
+}

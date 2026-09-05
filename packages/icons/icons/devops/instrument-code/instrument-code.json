@@ -1,0 +1,33 @@
+{
+  "slug": "instrument-code",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Instrument code",
+  "description": "A bracket pair with a span bar laid inside — a span put into the code by hand",
+  "tags": [
+    "instrument",
+    "code",
+    "trace"
+  ],
+  "keywords": [
+    "instrument code",
+    "manual instrumentation",
+    "add span",
+    "add tracing"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M7 12A3 3 0 0 1 10 9H14A3 3 0 0 1 17 12V12A3 3 0 0 1 14 15H10A3 3 0 0 1 7 12Z",
+      "closed": true
+    }
+  ]
+}

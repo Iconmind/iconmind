@@ -1,0 +1,41 @@
+{
+  "slug": "head-sampling",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Head sampling",
+  "description": "A span bar with a funnel at its head — the keep-or-drop decision made before the trace starts",
+  "tags": [
+    "trace",
+    "sampling",
+    "head"
+  ],
+  "keywords": [
+    "head sampling",
+    "head-based sampling",
+    "sample first",
+    "decide at start"
+  ],
+  "family": "span",
+  "shapes": [
+    {
+      "d": "M4 3H20",
+      "closed": false
+    },
+    {
+      "d": "M2 12A6 6 0 0 1 8 6H16A6 6 0 0 1 22 12V12A6 6 0 0 1 16 18H8A6 6 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M6 9L9 12L12 9",
+      "closed": false
+    },
+    {
+      "d": "M9 12V15",
+      "closed": false
+    },
+    {
+      "d": "M13.5 12H18",
+      "closed": false
+    }
+  ]
+}

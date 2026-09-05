@@ -1,0 +1,41 @@
+{
+  "slug": "trace-waterfall",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Trace waterfall",
+  "description": "A span bar with three staggered bars inside — the spans of one trace laid out in time",
+  "tags": [
+    "trace",
+    "waterfall",
+    "span"
+  ],
+  "keywords": [
+    "trace waterfall",
+    "waterfall view",
+    "span timeline",
+    "gantt"
+  ],
+  "family": "span",
+  "shapes": [
+    {
+      "d": "M4 3H20",
+      "closed": false
+    },
+    {
+      "d": "M2 12A6 6 0 0 1 8 6H16A6 6 0 0 1 22 12V12A6 6 0 0 1 16 18H8A6 6 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M7 9H12",
+      "closed": false
+    },
+    {
+      "d": "M9.5 12H14.5",
+      "closed": false
+    },
+    {
+      "d": "M12 15H17",
+      "closed": false
+    }
+  ]
+}

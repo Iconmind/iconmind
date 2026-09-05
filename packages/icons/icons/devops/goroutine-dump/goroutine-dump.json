@@ -1,0 +1,45 @@
+{
+  "slug": "goroutine-dump",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Goroutine dump",
+  "description": "A scatter of small points landing in a tray — every goroutine and what it was doing",
+  "tags": [
+    "dump",
+    "goroutine",
+    "go"
+  ],
+  "keywords": [
+    "goroutine dump",
+    "goroutine stack",
+    "go routines",
+    "pprof goroutine"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M7 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

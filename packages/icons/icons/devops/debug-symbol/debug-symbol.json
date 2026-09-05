@@ -1,0 +1,29 @@
+{
+  "slug": "debug-symbol",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Debug symbol",
+  "description": "A page with a tag on it — the names that turn addresses back into code",
+  "tags": [
+    "debug",
+    "symbol",
+    "code"
+  ],
+  "keywords": [
+    "debug symbol",
+    "symbol file",
+    "dwarf",
+    "source map"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M13 3L6 3L6 21L18 21L18 8",
+      "closed": true
+    },
+    {
+      "d": "M9 10L12 10L15 13L12 16L9 16Z",
+      "closed": true
+    }
+  ]
+}

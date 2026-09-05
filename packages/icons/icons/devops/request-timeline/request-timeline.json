@@ -1,0 +1,41 @@
+{
+  "slug": "request-timeline",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Request timeline",
+  "description": "A span bar with three ticks — the moments of one request in order",
+  "tags": [
+    "trace",
+    "timeline",
+    "request"
+  ],
+  "keywords": [
+    "request timeline",
+    "timing breakdown",
+    "phases",
+    "ticks"
+  ],
+  "family": "span",
+  "shapes": [
+    {
+      "d": "M4 3H20",
+      "closed": false
+    },
+    {
+      "d": "M2 12A6 6 0 0 1 8 6H16A6 6 0 0 1 22 12V12A6 6 0 0 1 16 18H8A6 6 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M7 9.5V14.5",
+      "closed": false
+    },
+    {
+      "d": "M12 9.5V14.5",
+      "closed": false
+    },
+    {
+      "d": "M17 9.5V14.5",
+      "closed": false
+    }
+  ]
+}

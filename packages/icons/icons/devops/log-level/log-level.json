@@ -1,0 +1,38 @@
+{
+  "slug": "log-level",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Log level",
+  "description": "A receipt with three lines that step up in length — debug, info, warn, error",
+  "tags": [
+    "log",
+    "level",
+    "severity"
+  ],
+  "keywords": [
+    "log level",
+    "severity",
+    "verbosity",
+    "debug info warn error"
+  ],
+  "family": "receipt",
+  "shapes": [
+    {
+      "d": "M6 2H18A2 2 0 0 1 20 4V19L18 17L16 19L14 17L12 19L10 17L8 19L6 17L4 19V4A2 2 0 0 1 6 2Z",
+      "closed": true,
+      "_why": "a receipt: a rounded head and a foot torn along a zigzag"
+    },
+    {
+      "d": "M7 6H11",
+      "closed": false
+    },
+    {
+      "d": "M7 10H14",
+      "closed": false
+    },
+    {
+      "d": "M7 14H17",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "span-attribute",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Span attribute",
+  "description": "A span bar with a short list — the key-values attached to a span",
+  "tags": [
+    "span",
+    "attribute",
+    "trace"
+  ],
+  "keywords": [
+    "span attribute",
+    "span tags",
+    "span metadata",
+    "key value"
+  ],
+  "family": "span",
+  "shapes": [
+    {
+      "d": "M4 3H20",
+      "closed": false
+    },
+    {
+      "d": "M2 12A6 6 0 0 1 8 6H16A6 6 0 0 1 22 12V12A6 6 0 0 1 16 18H8A6 6 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M9 9H15",
+      "closed": false
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    },
+    {
+      "d": "M9 15H15",
+      "closed": false
+    }
+  ]
+}

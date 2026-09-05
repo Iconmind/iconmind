@@ -1,0 +1,38 @@
+{
+  "slug": "sample-log",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Sample log",
+  "description": "A receipt with a point between two lines — one log picked out of many",
+  "tags": [
+    "log",
+    "sample",
+    "pick"
+  ],
+  "keywords": [
+    "sample log",
+    "sampled log",
+    "log sample",
+    "one of many"
+  ],
+  "family": "receipt",
+  "shapes": [
+    {
+      "d": "M6 2H18A2 2 0 0 1 20 4V19L18 17L16 19L14 17L12 19L10 17L8 19L6 17L4 19V4A2 2 0 0 1 6 2Z",
+      "closed": true,
+      "_why": "a receipt: a rounded head and a foot torn along a zigzag"
+    },
+    {
+      "d": "M7 6H17",
+      "closed": false
+    },
+    {
+      "d": "M10 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 14H17",
+      "closed": false
+    }
+  ]
+}

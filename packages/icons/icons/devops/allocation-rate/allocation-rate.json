@@ -1,0 +1,29 @@
+{
+  "slug": "allocation-rate",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Allocation rate",
+  "description": "A machine frame with a rising trend — how fast memory is being allocated",
+  "tags": [
+    "profile",
+    "allocation",
+    "rate"
+  ],
+  "keywords": [
+    "allocation rate",
+    "alloc rate",
+    "bytes per second",
+    "gc pressure"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M9 15L11 13L13 15L15 13",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "heap-dump",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Heap dump",
+  "description": "A pile of objects landing in a tray — the whole heap written out to look at",
+  "tags": [
+    "dump",
+    "heap",
+    "memory"
+  ],
+  "keywords": [
+    "heap dump",
+    "hprof",
+    "memory dump",
+    "heap snapshot file"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M6.5 11a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 11a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

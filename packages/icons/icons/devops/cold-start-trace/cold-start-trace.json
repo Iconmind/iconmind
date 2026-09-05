@@ -1,0 +1,37 @@
+{
+  "slug": "cold-start-trace",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Cold start trace",
+  "description": "A span bar with a tick and a gap before the work — the time a cold start ate",
+  "tags": [
+    "trace",
+    "cold-start",
+    "latency"
+  ],
+  "keywords": [
+    "cold start trace",
+    "cold start",
+    "init latency",
+    "warmup"
+  ],
+  "family": "span",
+  "shapes": [
+    {
+      "d": "M4 3H20",
+      "closed": false
+    },
+    {
+      "d": "M2 12A6 6 0 0 1 8 6H16A6 6 0 0 1 22 12V12A6 6 0 0 1 16 18H8A6 6 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M7 9.5V14.5",
+      "closed": false
+    },
+    {
+      "d": "M11 12H18",
+      "closed": false
+    }
+  ]
+}

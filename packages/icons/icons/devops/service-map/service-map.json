@@ -1,0 +1,45 @@
+{
+  "slug": "service-map",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Service map",
+  "description": "Four nodes joined corner to corner — which services talk to which",
+  "tags": [
+    "map",
+    "service",
+    "topology"
+  ],
+  "keywords": [
+    "service map",
+    "service graph",
+    "topology",
+    "who calls whom"
+  ],
+  "family": "node",
+  "shapes": [
+    {
+      "d": "M4 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 7.5L16.5 16.5",
+      "closed": false
+    },
+    {
+      "d": "M16.5 7.5L7.5 16.5",
+      "closed": false
+    }
+  ]
+}

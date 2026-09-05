@@ -1,0 +1,46 @@
+{
+  "slug": "structured-log",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Structured log",
+  "description": "A receipt whose lines are split into key and value — a log written as fields, not prose",
+  "tags": [
+    "log",
+    "structured",
+    "field"
+  ],
+  "keywords": [
+    "structured log",
+    "json log",
+    "key value log",
+    "logfmt"
+  ],
+  "family": "receipt",
+  "shapes": [
+    {
+      "d": "M6 2H18A2 2 0 0 1 20 4V19L18 17L16 19L14 17L12 19L10 17L8 19L6 17L4 19V4A2 2 0 0 1 6 2Z",
+      "closed": true,
+      "_why": "a receipt: a rounded head and a foot torn along a zigzag"
+    },
+    {
+      "d": "M7 6H10",
+      "closed": false
+    },
+    {
+      "d": "M12.5 6H17",
+      "closed": false
+    },
+    {
+      "d": "M7 10H10",
+      "closed": false
+    },
+    {
+      "d": "M12.5 10H17",
+      "closed": false
+    },
+    {
+      "d": "M7 14H17",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "otel-collector",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "OTel collector",
+  "description": "Three streams meeting in one and landing in a tray — telemetry gathered before it goes anywhere",
+  "tags": [
+    "otel",
+    "collector",
+    "telemetry"
+  ],
+  "keywords": [
+    "otel collector",
+    "opentelemetry collector",
+    "telemetry pipeline",
+    "receiver"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M12 5V12",
+      "closed": false
+    },
+    {
+      "d": "M6.5 6.5L11 11",
+      "closed": false
+    },
+    {
+      "d": "M17.5 6.5L13 11",
+      "closed": false
+    }
+  ]
+}

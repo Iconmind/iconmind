@@ -1,0 +1,37 @@
+{
+  "slug": "profile-diff",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Profile diff",
+  "description": "A machine frame with a plus over a minus — two profiles compared",
+  "tags": [
+    "profile",
+    "diff",
+    "compare"
+  ],
+  "keywords": [
+    "profile diff",
+    "compare profiles",
+    "differential flame graph",
+    "regression"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M12 8V12",
+      "closed": false
+    },
+    {
+      "d": "M10 10H14",
+      "closed": false
+    },
+    {
+      "d": "M10 14H14",
+      "closed": false
+    }
+  ]
+}

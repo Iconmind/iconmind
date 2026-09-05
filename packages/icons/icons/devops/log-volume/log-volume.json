@@ -1,0 +1,38 @@
+{
+  "slug": "log-volume",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Log volume",
+  "description": "A receipt with three rising bars — how much log a service writes",
+  "tags": [
+    "log",
+    "volume",
+    "chart"
+  ],
+  "keywords": [
+    "log volume",
+    "log throughput",
+    "ingest volume",
+    "gb per day"
+  ],
+  "family": "receipt",
+  "shapes": [
+    {
+      "d": "M6 2H18A2 2 0 0 1 20 4V19L18 17L16 19L14 17L12 19L10 17L8 19L6 17L4 19V4A2 2 0 0 1 6 2Z",
+      "closed": true,
+      "_why": "a receipt: a rounded head and a foot torn along a zigzag"
+    },
+    {
+      "d": "M8 11V14",
+      "closed": false
+    },
+    {
+      "d": "M12 8V14",
+      "closed": false
+    },
+    {
+      "d": "M16 5V14",
+      "closed": false
+    }
+  ]
+}

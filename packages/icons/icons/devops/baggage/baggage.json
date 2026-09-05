@@ -1,0 +1,33 @@
+{
+  "slug": "baggage",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Baggage",
+  "description": "A span bar carrying a small case — key-values that ride along with every hop of a trace",
+  "tags": [
+    "span",
+    "trace",
+    "context"
+  ],
+  "keywords": [
+    "otel baggage",
+    "trace baggage",
+    "propagated values",
+    "carried context"
+  ],
+  "family": "span",
+  "shapes": [
+    {
+      "d": "M4 3H20",
+      "closed": false
+    },
+    {
+      "d": "M2 12A6 6 0 0 1 8 6H16A6 6 0 0 1 22 12V12A6 6 0 0 1 16 18H8A6 6 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M9 9L15 9L15 15L9 15Z",
+      "closed": true
+    }
+  ]
+}

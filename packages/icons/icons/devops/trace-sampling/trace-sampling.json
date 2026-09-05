@@ -1,0 +1,37 @@
+{
+  "slug": "trace-sampling",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Trace sampling",
+  "description": "A span bar with a funnel — only some traces kept",
+  "tags": [
+    "trace",
+    "sampling",
+    "funnel"
+  ],
+  "keywords": [
+    "trace sampling",
+    "sampling rate",
+    "sampler",
+    "keep some traces"
+  ],
+  "family": "span",
+  "shapes": [
+    {
+      "d": "M4 3H20",
+      "closed": false
+    },
+    {
+      "d": "M2 12A6 6 0 0 1 8 6H16A6 6 0 0 1 22 12V12A6 6 0 0 1 16 18H8A6 6 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M9 9L12 12L15 9",
+      "closed": false
+    },
+    {
+      "d": "M12 12V15",
+      "closed": false
+    }
+  ]
+}

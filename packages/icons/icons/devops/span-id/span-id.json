@@ -1,0 +1,40 @@
+{
+  "slug": "span-id",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Span ID",
+  "description": "A span bar with a hash in it — the id of this one span",
+  "tags": [
+    "span",
+    "id",
+    "trace"
+  ],
+  "keywords": [
+    "span id",
+    "spanid",
+    "span identifier"
+  ],
+  "family": "span",
+  "shapes": [
+    {
+      "d": "M4 3H20",
+      "closed": false
+    },
+    {
+      "d": "M2 12A6 6 0 0 1 8 6H16A6 6 0 0 1 22 12V12A6 6 0 0 1 16 18H8A6 6 0 0 1 2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M7 12H17",
+      "closed": false
+    },
+    {
+      "d": "M10 9.5V14.5",
+      "closed": false
+    },
+    {
+      "d": "M14 9.5V14.5",
+      "closed": false
+    }
+  ]
+}

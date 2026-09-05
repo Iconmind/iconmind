@@ -1,0 +1,37 @@
+{
+  "slug": "auto-instrument",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "Auto instrument",
+  "description": "A bracket pair with two span lines already laid in — instrumentation that arrives without an edit",
+  "tags": [
+    "instrument",
+    "auto",
+    "agent"
+  ],
+  "keywords": [
+    "auto instrumentation",
+    "zero code",
+    "java agent",
+    "otel operator"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M7 9H17",
+      "closed": false
+    },
+    {
+      "d": "M7 15H17",
+      "closed": false
+    }
+  ]
+}

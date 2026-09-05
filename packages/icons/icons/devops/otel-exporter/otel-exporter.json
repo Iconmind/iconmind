@@ -1,0 +1,33 @@
+{
+  "slug": "otel-exporter",
+  "category": "devops",
+  "subcategory": "observability",
+  "name": "OTel exporter",
+  "description": "An arrow rising out of a tray — telemetry sent on to a backend",
+  "tags": [
+    "otel",
+    "exporter",
+    "telemetry"
+  ],
+  "keywords": [
+    "otel exporter",
+    "opentelemetry exporter",
+    "otlp exporter",
+    "send telemetry"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M12 4V12",
+      "closed": false
+    },
+    {
+      "d": "M9.5 6.5L12 4L14.5 6.5",
+      "closed": false
+    }
+  ]
+}
