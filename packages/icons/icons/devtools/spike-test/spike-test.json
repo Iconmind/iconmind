@@ -1,0 +1,33 @@
+{
+  "slug": "spike-test",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Spike test",
+  "description": "Axes with one sharp spike — a sudden burst, then nothing",
+  "tags": [
+    "test",
+    "spike",
+    "performance"
+  ],
+  "keywords": [
+    "spike test",
+    "burst test",
+    "sudden traffic",
+    "flash crowd"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M6 17L8.5 17L13 12.5L17.5 17",
+      "closed": false
+    }
+  ]
+}

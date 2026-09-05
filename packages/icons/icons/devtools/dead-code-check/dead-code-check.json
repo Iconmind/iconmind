@@ -1,0 +1,37 @@
+{
+  "slug": "dead-code-check",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Dead code check",
+  "description": "A bracket pair with a line struck through — code nothing calls any more",
+  "tags": [
+    "quality",
+    "dead-code",
+    "unused"
+  ],
+  "keywords": [
+    "dead code",
+    "unused code",
+    "unreachable",
+    "knip"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    },
+    {
+      "d": "M9 15L15 9",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "review-comment",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Review comment",
+  "description": "A bracket pair with a speech bubble in it — a note left on a line of code",
+  "tags": [
+    "quality",
+    "review",
+    "comment"
+  ],
+  "keywords": [
+    "review comment",
+    "code review comment",
+    "inline comment",
+    "suggestion"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M9 9L15 9L15 13L11.5 13L9 15.5Z",
+      "closed": true
+    }
+  ]
+}

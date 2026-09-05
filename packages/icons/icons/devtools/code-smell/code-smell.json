@@ -1,0 +1,33 @@
+{
+  "slug": "code-smell",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Code smell",
+  "description": "A bracket pair with a wisp in it — code that works but tells you something is off",
+  "tags": [
+    "quality",
+    "smell",
+    "refactor"
+  ],
+  "keywords": [
+    "code smell",
+    "smelly code",
+    "needs refactor",
+    "anti-pattern"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M8 13L10.5 10.5L13 13L15.5 10.5",
+      "closed": false
+    }
+  ]
+}

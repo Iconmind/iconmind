@@ -1,0 +1,33 @@
+{
+  "slug": "factory-data",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Factory",
+  "description": "A works with a chimney over a tray — test data made to order, one record at a time",
+  "tags": [
+    "test",
+    "data",
+    "factory"
+  ],
+  "keywords": [
+    "factory",
+    "test factory",
+    "factory bot",
+    "generate records"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M6 9A2 2 0 0 1 8 7H16A2 2 0 0 1 18 9V11.5A2 2 0 0 1 16 13.5H8A2 2 0 0 1 6 11.5Z",
+      "closed": true
+    },
+    {
+      "d": "M16 3.5V7",
+      "closed": false
+    }
+  ]
+}

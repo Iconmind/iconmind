@@ -1,0 +1,33 @@
+{
+  "slug": "spy-call",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Spy",
+  "description": "A machine frame with an eye in it — the real thing, with every call recorded",
+  "tags": [
+    "test",
+    "double",
+    "spy"
+  ],
+  "keywords": [
+    "spy",
+    "test spy",
+    "record calls",
+    "was called with"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M7.3 10.29A5 5 0 0 1 16.7 10.29",
+      "closed": false
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

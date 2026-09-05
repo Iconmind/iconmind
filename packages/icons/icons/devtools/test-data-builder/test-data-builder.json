@@ -1,0 +1,29 @@
+{
+  "slug": "test-data-builder",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Test data builder",
+  "description": "One block set down in a tray — test data assembled a field at a time",
+  "tags": [
+    "test",
+    "data",
+    "builder"
+  ],
+  "keywords": [
+    "test data builder",
+    "builder pattern",
+    "with defaults",
+    "object mother"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M8.5 7A2 2 0 0 1 10.5 5H13.5A2 2 0 0 1 15.5 7V10A2 2 0 0 1 13.5 12H10.5A2 2 0 0 1 8.5 10Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "end-to-end-test",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "End-to-end test",
+  "description": "The flask with a line from wall to wall — the whole path tested as a user would take it",
+  "tags": [
+    "test",
+    "e2e",
+    "kind"
+  ],
+  "keywords": [
+    "end-to-end test",
+    "e2e",
+    "e2e testing",
+    "full flow"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 3L9 10L4 15L4 19L20 19L20 15L15 10L15 3Z",
+      "closed": true
+    },
+    {
+      "d": "M7 15H17",
+      "closed": false
+    }
+  ]
+}

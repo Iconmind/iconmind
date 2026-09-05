@@ -1,0 +1,37 @@
+{
+  "slug": "accessibility-test",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Accessibility test",
+  "description": "A person with arms out — checked for everyone who will use it",
+  "tags": [
+    "test",
+    "accessibility",
+    "a11y"
+  ],
+  "keywords": [
+    "accessibility test",
+    "a11y",
+    "axe",
+    "wcag check"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M10 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 10.5H18",
+      "closed": false
+    },
+    {
+      "d": "M12 10.5V15",
+      "closed": false
+    },
+    {
+      "d": "M9 18L12 15L15 18",
+      "closed": false
+    }
+  ]
+}

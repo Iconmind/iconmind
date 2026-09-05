@@ -1,0 +1,41 @@
+{
+  "slug": "coverage-gap",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Coverage gap",
+  "description": "A bracket pair with a line and a cross under it — the part no test reaches",
+  "tags": [
+    "coverage",
+    "gap",
+    "test"
+  ],
+  "keywords": [
+    "coverage gap",
+    "uncovered lines",
+    "untested code",
+    "missing coverage"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M8 9H16",
+      "closed": false
+    },
+    {
+      "d": "M10.5 12.5L13.5 15.5",
+      "closed": false
+    },
+    {
+      "d": "M13.5 12.5L10.5 15.5",
+      "closed": false
+    }
+  ]
+}

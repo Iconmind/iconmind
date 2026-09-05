@@ -1,0 +1,37 @@
+{
+  "slug": "cyclomatic-complexity",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Cyclomatic complexity",
+  "description": "A bracket pair with a decision diamond and a path out — how many ways through a function",
+  "tags": [
+    "quality",
+    "complexity",
+    "metric"
+  ],
+  "keywords": [
+    "cyclomatic complexity",
+    "complexity score",
+    "too many branches",
+    "mccabe"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M12 7L15 10L12 13L9 10Z",
+      "closed": true
+    },
+    {
+      "d": "M12 13V17",
+      "closed": false
+    }
+  ]
+}

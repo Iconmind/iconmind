@@ -1,0 +1,37 @@
+{
+  "slug": "static-analysis",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Static analysis",
+  "description": "A bracket pair with an eye in it — code read for bugs without being run",
+  "tags": [
+    "quality",
+    "static",
+    "analysis"
+  ],
+  "keywords": [
+    "static analysis",
+    "sast",
+    "code scanning",
+    "analyzer"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M7.3 10.29A5 5 0 0 1 16.7 10.29",
+      "closed": false
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

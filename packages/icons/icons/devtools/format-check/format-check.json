@@ -1,0 +1,41 @@
+{
+  "slug": "format-check",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Format check",
+  "description": "A bracket pair with lines set in from the margin — code laid out the way the formatter wants",
+  "tags": [
+    "quality",
+    "format",
+    "style"
+  ],
+  "keywords": [
+    "format check",
+    "prettier check",
+    "formatting",
+    "gofmt"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M9 9H15",
+      "closed": false
+    },
+    {
+      "d": "M10.5 12H15",
+      "closed": false
+    },
+    {
+      "d": "M9 15H15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "visual-diff",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Visual diff",
+  "description": "A window split in two with a point each side — two renderings compared pixel by pixel",
+  "tags": [
+    "test",
+    "visual",
+    "diff"
+  ],
+  "keywords": [
+    "visual diff",
+    "visual regression",
+    "screenshot diff",
+    "pixel diff"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V18A3 3 0 0 1 18 21H6A3 3 0 0 1 3 18V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M12 8V18",
+      "closed": false
+    },
+    {
+      "d": "M7 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

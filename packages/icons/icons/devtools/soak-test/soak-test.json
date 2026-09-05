@@ -1,0 +1,33 @@
+{
+  "slug": "soak-test",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Soak test",
+  "description": "Axes with a line that rises and then holds a long while — steady load kept up for hours",
+  "tags": [
+    "test",
+    "soak",
+    "performance"
+  ],
+  "keywords": [
+    "soak test",
+    "endurance test",
+    "long-running load",
+    "memory leak hunt"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 17L9 15L19 15",
+      "closed": false
+    }
+  ]
+}

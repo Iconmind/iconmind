@@ -1,0 +1,33 @@
+{
+  "slug": "given-when-then",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Given, when, then",
+  "description": "A clipboard with a staircase on it — a test told as a story, step by step",
+  "tags": [
+    "test",
+    "pattern",
+    "bdd"
+  ],
+  "keywords": [
+    "given when then",
+    "gherkin",
+    "bdd",
+    "cucumber"
+  ],
+  "family": "clipboard",
+  "shapes": [
+    {
+      "d": "M4 7.5A2 2 0 0 1 6 5.5H18A2 2 0 0 1 20 7.5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 7L9.5 2.5L14.5 2.5L14.5 7",
+      "closed": false
+    },
+    {
+      "d": "M8.5 10.5L11 10.5L11 13.5L13.5 13.5L13.5 16.5L16 16.5",
+      "closed": false
+    }
+  ]
+}

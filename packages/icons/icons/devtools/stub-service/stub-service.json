@@ -1,0 +1,29 @@
+{
+  "slug": "stub-service",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Stub",
+  "description": "A machine frame with a short bar in it — a stand-in that answers with a fixed value",
+  "tags": [
+    "test",
+    "double",
+    "stub"
+  ],
+  "keywords": [
+    "stub",
+    "stub service",
+    "canned response",
+    "test stub"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M14.5 4H17A3 3 0 0 1 20 7V17A3 3 0 0 1 17 20H7A3 3 0 0 1 4 17V8L8 4H10.5",
+      "closed": true
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    }
+  ]
+}

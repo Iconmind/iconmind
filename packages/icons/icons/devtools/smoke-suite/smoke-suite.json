@@ -1,0 +1,29 @@
+{
+  "slug": "smoke-suite",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Smoke suite",
+  "description": "The flask with a wisp in it — the handful of tests that say whether anything works at all",
+  "tags": [
+    "test",
+    "smoke",
+    "suite"
+  ],
+  "keywords": [
+    "smoke suite",
+    "smoke tests",
+    "sanity suite",
+    "does it boot"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 3L9 10L4 15L4 19L20 19L20 15L15 10L15 3Z",
+      "closed": true
+    },
+    {
+      "d": "M8 16.5L10.5 14L13 16.5L15.5 14",
+      "closed": false
+    }
+  ]
+}

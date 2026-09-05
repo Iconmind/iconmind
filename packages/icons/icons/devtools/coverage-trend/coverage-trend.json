@@ -1,0 +1,41 @@
+{
+  "slug": "coverage-trend",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Coverage trend",
+  "description": "A bracket pair with three bars climbing — coverage over time",
+  "tags": [
+    "coverage",
+    "trend",
+    "test"
+  ],
+  "keywords": [
+    "coverage trend",
+    "coverage over time",
+    "coverage history",
+    "coverage chart"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M9 13V16",
+      "closed": false
+    },
+    {
+      "d": "M12 11V16",
+      "closed": false
+    },
+    {
+      "d": "M15 9V16",
+      "closed": false
+    }
+  ]
+}

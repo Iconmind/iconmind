@@ -1,0 +1,33 @@
+{
+  "slug": "contract-test",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Contract test",
+  "description": "The flask with an equals sign — two sides checked against the same agreement",
+  "tags": [
+    "test",
+    "contract",
+    "kind"
+  ],
+  "keywords": [
+    "contract test",
+    "consumer-driven contract",
+    "pact",
+    "api contract"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 3L9 10L4 15L4 19L20 19L20 15L15 10L15 3Z",
+      "closed": true
+    },
+    {
+      "d": "M9 13H15",
+      "closed": false
+    },
+    {
+      "d": "M9 16H15",
+      "closed": false
+    }
+  ]
+}

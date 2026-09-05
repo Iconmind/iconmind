@@ -1,0 +1,33 @@
+{
+  "slug": "load-test",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Load test",
+  "description": "Axes with a line that ramps up, holds, and ramps down — expected traffic, applied on purpose",
+  "tags": [
+    "test",
+    "load",
+    "performance"
+  ],
+  "keywords": [
+    "load test",
+    "load testing",
+    "k6",
+    "expected load"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 17L10 14L16 14L19 17",
+      "closed": false
+    }
+  ]
+}

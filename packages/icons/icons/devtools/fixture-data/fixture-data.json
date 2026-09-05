@@ -1,0 +1,29 @@
+{
+  "slug": "fixture-data",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Fixture",
+  "description": "A slab laid in a tray — the data a test starts from, prepared ahead",
+  "tags": [
+    "test",
+    "data",
+    "fixture"
+  ],
+  "keywords": [
+    "fixture",
+    "test fixture",
+    "seed data",
+    "setup data"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M6 7A2 2 0 0 1 8 5H16A2 2 0 0 1 18 7V9.5A2 2 0 0 1 16 11.5H8A2 2 0 0 1 6 9.5Z",
+      "closed": true
+    }
+  ]
+}

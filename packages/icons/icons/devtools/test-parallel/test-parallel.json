@@ -1,0 +1,41 @@
+{
+  "slug": "test-parallel",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Parallel tests",
+  "description": "The run card with three bars side by side — tests run at the same time",
+  "tags": [
+    "test",
+    "parallel",
+    "run"
+  ],
+  "keywords": [
+    "parallel tests",
+    "run in parallel",
+    "workers",
+    "concurrent tests"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 4A2 2 0 0 1 5 2H19A2 2 0 0 1 21 4V20A2 2 0 0 1 19 22H5A2 2 0 0 1 3 20Z",
+      "closed": true
+    },
+    {
+      "d": "M11 5L11 10L13.5 7.5Z",
+      "closed": true
+    },
+    {
+      "d": "M9 13V19",
+      "closed": false
+    },
+    {
+      "d": "M12 13V19",
+      "closed": false
+    },
+    {
+      "d": "M15 13V19",
+      "closed": false
+    }
+  ]
+}

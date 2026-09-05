@@ -1,0 +1,33 @@
+{
+  "slug": "stress-test",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Stress test",
+  "description": "Axes with a line that climbs off the chart — load pushed past what the system is for",
+  "tags": [
+    "test",
+    "stress",
+    "performance"
+  ],
+  "keywords": [
+    "stress test",
+    "stress testing",
+    "find the breaking point",
+    "overload"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 17L10 17L19 8",
+      "closed": false
+    }
+  ]
+}

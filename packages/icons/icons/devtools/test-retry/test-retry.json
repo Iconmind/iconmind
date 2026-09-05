@@ -1,0 +1,37 @@
+{
+  "slug": "test-retry",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Test retry",
+  "description": "The run card with an arrow looping back — a failed test given another go",
+  "tags": [
+    "test",
+    "retry",
+    "run"
+  ],
+  "keywords": [
+    "test retry",
+    "rerun failed",
+    "retry flaky",
+    "second attempt"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 4A2 2 0 0 1 5 2H19A2 2 0 0 1 21 4V20A2 2 0 0 1 19 22H5A2 2 0 0 1 3 20Z",
+      "closed": true
+    },
+    {
+      "d": "M11 5L11 10L13.5 7.5Z",
+      "closed": true
+    },
+    {
+      "d": "M9 18.5L9 13.5L15 13.5L15 18.5",
+      "closed": false
+    },
+    {
+      "d": "M12.5 16L15 18.5L17.5 16",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "mutation-score",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Mutation score",
+  "description": "A bracket pair with a target in it — how many planted bugs the tests caught",
+  "tags": [
+    "test",
+    "mutation",
+    "score"
+  ],
+  "keywords": [
+    "mutation score",
+    "mutation testing",
+    "killed mutants",
+    "stryker"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

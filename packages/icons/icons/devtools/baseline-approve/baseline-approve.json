@@ -1,0 +1,37 @@
+{
+  "slug": "baseline-approve",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Approve baseline",
+  "description": "A bracket pair with a check and a line drawn under it — the current state accepted as the new normal",
+  "tags": [
+    "quality",
+    "baseline",
+    "approve"
+  ],
+  "keywords": [
+    "approve baseline",
+    "accept snapshot",
+    "update baseline",
+    "new golden"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M9 11L11 13L15 9",
+      "closed": false
+    },
+    {
+      "d": "M9 16H15",
+      "closed": false
+    }
+  ]
+}

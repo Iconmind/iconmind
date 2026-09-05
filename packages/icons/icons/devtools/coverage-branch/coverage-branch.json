@@ -1,0 +1,37 @@
+{
+  "slug": "coverage-branch",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Branch coverage",
+  "description": "A bracket pair with a fork in it — both sides of every if, run",
+  "tags": [
+    "coverage",
+    "branch",
+    "test"
+  ],
+  "keywords": [
+    "branch coverage",
+    "condition coverage",
+    "both branches",
+    "decision coverage"
+  ],
+  "family": "bracket",
+  "shapes": [
+    {
+      "d": "M7 3L3 3L3 21L7 21",
+      "closed": false
+    },
+    {
+      "d": "M17 3L21 3L21 21L17 21",
+      "closed": false
+    },
+    {
+      "d": "M12 7L12 11L8 15",
+      "closed": false
+    },
+    {
+      "d": "M12 11L16 15",
+      "closed": false
+    }
+  ]
+}

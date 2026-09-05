@@ -1,0 +1,33 @@
+{
+  "slug": "fault-injection",
+  "category": "devtools",
+  "subcategory": "testing",
+  "name": "Fault injection",
+  "description": "The flask with an arrow dropping down its neck — a failure fed in by hand",
+  "tags": [
+    "test",
+    "fault",
+    "inject"
+  ],
+  "keywords": [
+    "fault injection",
+    "inject failure",
+    "error injection",
+    "latency injection"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 3L9 10L4 15L4 19L20 19L20 15L15 10L15 3Z",
+      "closed": true
+    },
+    {
+      "d": "M12 11.5V15.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 13L12 15.5L14.5 13",
+      "closed": false
+    }
+  ]
+}
