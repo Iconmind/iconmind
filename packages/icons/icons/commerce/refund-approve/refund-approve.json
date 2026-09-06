@@ -1,0 +1,38 @@
+{
+  "slug": "refund-approve",
+  "category": "commerce",
+  "subcategory": "merchant",
+  "name": "Approve refund",
+  "description": "A receipt with money going back and a check — the refund, agreed",
+  "tags": [
+    "refund",
+    "approve",
+    "accept"
+  ],
+  "keywords": [
+    "approve refund",
+    "refund approved",
+    "accept refund",
+    "issue refund"
+  ],
+  "family": "receipt",
+  "shapes": [
+    {
+      "d": "M6 2H18A2 2 0 0 1 20 4V19L18 17L16 19L14 17L12 19L10 17L8 19L6 17L4 19V4A2 2 0 0 1 6 2Z",
+      "closed": true,
+      "_why": "a receipt: a rounded head and a foot torn along a zigzag"
+    },
+    {
+      "d": "M6.5 10H11",
+      "closed": false
+    },
+    {
+      "d": "M9 7.5L6.5 10L9 12.5",
+      "closed": false
+    },
+    {
+      "d": "M13 10.5L15 12.5L17.5 10",
+      "closed": false
+    }
+  ]
+}

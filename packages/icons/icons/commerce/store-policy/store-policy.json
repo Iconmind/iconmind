@@ -1,0 +1,34 @@
+{
+  "slug": "store-policy",
+  "category": "commerce",
+  "subcategory": "merchant",
+  "name": "Store policy",
+  "description": "The storefront with a shield in it — the rules the shop stands by",
+  "tags": [
+    "policy",
+    "rules",
+    "terms"
+  ],
+  "keywords": [
+    "store policy",
+    "shop policy",
+    "store rules",
+    "seller policy"
+  ],
+  "family": "store",
+  "shapes": [
+    {
+      "d": "M2 5H22M2 5A2.5 2.5 0 0 0 7 5A2.5 2.5 0 0 0 12 5A2.5 2.5 0 0 0 17 5A2.5 2.5 0 0 0 22 5",
+      "closed": false,
+      "_why": "an awning: a rail with four scallops hanging from it"
+    },
+    {
+      "d": "M4 8L4 22L20 22L20 8",
+      "closed": false
+    },
+    {
+      "d": "M9 12L15 12L15 15L12 18L9 15Z",
+      "closed": true
+    }
+  ]
+}

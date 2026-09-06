@@ -1,0 +1,44 @@
+{
+  "slug": "sku",
+  "category": "commerce",
+  "subcategory": "merchant",
+  "name": "SKU",
+  "description": "The listing with a barcode under the picture — the code the stock is counted by",
+  "tags": [
+    "code",
+    "stock",
+    "identifier"
+  ],
+  "aliases": [
+    "stock-keeping-unit"
+  ],
+  "keywords": [
+    "sku",
+    "stock keeping unit",
+    "product code",
+    "item code"
+  ],
+  "family": "listing",
+  "shapes": [
+    {
+      "d": "M3 4A2 2 0 0 1 5 2H19A2 2 0 0 1 21 4V20A2 2 0 0 1 19 22H5A2 2 0 0 1 3 20Z",
+      "closed": true
+    },
+    {
+      "d": "M6 9L9 6L12 9L14 7L16 9",
+      "closed": false
+    },
+    {
+      "d": "M9 13V18",
+      "closed": false
+    },
+    {
+      "d": "M12 13V18",
+      "closed": false
+    },
+    {
+      "d": "M15 13V18",
+      "closed": false
+    }
+  ]
+}

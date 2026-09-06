@@ -1,0 +1,42 @@
+{
+  "slug": "refund-deny",
+  "category": "commerce",
+  "subcategory": "merchant",
+  "name": "Deny refund",
+  "description": "A receipt with money going back and a cross — the refund, turned down",
+  "tags": [
+    "refund",
+    "deny",
+    "reject"
+  ],
+  "keywords": [
+    "deny refund",
+    "refund denied",
+    "reject refund",
+    "refund refused"
+  ],
+  "family": "receipt",
+  "shapes": [
+    {
+      "d": "M6 2H18A2 2 0 0 1 20 4V19L18 17L16 19L14 17L12 19L10 17L8 19L6 17L4 19V4A2 2 0 0 1 6 2Z",
+      "closed": true,
+      "_why": "a receipt: a rounded head and a foot torn along a zigzag"
+    },
+    {
+      "d": "M6.5 10H11",
+      "closed": false
+    },
+    {
+      "d": "M9 7.5L6.5 10L9 12.5",
+      "closed": false
+    },
+    {
+      "d": "M13.5 8L17.5 12",
+      "closed": false
+    },
+    {
+      "d": "M17.5 8L13.5 12",
+      "closed": false
+    }
+  ]
+}

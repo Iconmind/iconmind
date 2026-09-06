@@ -1,0 +1,45 @@
+{
+  "slug": "shift-sales",
+  "category": "commerce",
+  "subcategory": "merchant",
+  "name": "Shift sales",
+  "description": "The till with a clock in the drawer — what one shift took",
+  "tags": [
+    "shift",
+    "sales",
+    "period"
+  ],
+  "keywords": [
+    "shift sales",
+    "sales per shift",
+    "shift total",
+    "shift report"
+  ],
+  "family": "till",
+  "shapes": [
+    {
+      "d": "M2 10A2 2 0 0 1 4 8H20A2 2 0 0 1 22 10V20A2 2 0 0 1 20 22H4A2 2 0 0 1 2 20Z",
+      "closed": true
+    },
+    {
+      "d": "M4 8L4 3L14 3L14 8",
+      "closed": false
+    },
+    {
+      "d": "M18 4V8",
+      "closed": false
+    },
+    {
+      "d": "M9 15a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12V15",
+      "closed": false
+    },
+    {
+      "d": "M12 15H14.5",
+      "closed": false
+    }
+  ]
+}

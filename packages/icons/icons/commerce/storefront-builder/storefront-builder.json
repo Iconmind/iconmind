@@ -1,0 +1,38 @@
+{
+  "slug": "storefront-builder",
+  "category": "commerce",
+  "subcategory": "merchant",
+  "name": "Storefront builder",
+  "description": "The storefront with a plus in it — a shop being put together",
+  "tags": [
+    "builder",
+    "setup",
+    "create"
+  ],
+  "keywords": [
+    "storefront builder",
+    "build a store",
+    "shop builder",
+    "create store"
+  ],
+  "family": "store",
+  "shapes": [
+    {
+      "d": "M2 5H22M2 5A2.5 2.5 0 0 0 7 5A2.5 2.5 0 0 0 12 5A2.5 2.5 0 0 0 17 5A2.5 2.5 0 0 0 22 5",
+      "closed": false,
+      "_why": "an awning: a rail with four scallops hanging from it"
+    },
+    {
+      "d": "M4 8L4 22L20 22L20 8",
+      "closed": false
+    },
+    {
+      "d": "M12 12V18",
+      "closed": false
+    },
+    {
+      "d": "M9 15H15",
+      "closed": false
+    }
+  ]
+}

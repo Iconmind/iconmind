@@ -1,0 +1,40 @@
+{
+  "slug": "catalogue-import",
+  "category": "commerce",
+  "subcategory": "merchant",
+  "name": "Catalogue import",
+  "description": "A book with an arrow into its page — products brought in from a file",
+  "tags": [
+    "catalogue",
+    "import",
+    "upload"
+  ],
+  "aliases": [
+    "catalog-import"
+  ],
+  "keywords": [
+    "catalogue import",
+    "import products",
+    "bulk upload",
+    "csv import"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V21",
+      "closed": false
+    },
+    {
+      "d": "M11 12H16",
+      "closed": false
+    },
+    {
+      "d": "M13.5 9.5L11 12L13.5 14.5",
+      "closed": false
+    }
+  ]
+}

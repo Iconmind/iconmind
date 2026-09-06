@@ -1,0 +1,41 @@
+{
+  "slug": "pos-receipt",
+  "category": "commerce",
+  "subcategory": "merchant",
+  "name": "POS receipt",
+  "description": "The till with two printed lines — the slip the till prints",
+  "tags": [
+    "pos",
+    "receipt",
+    "print"
+  ],
+  "keywords": [
+    "pos receipt",
+    "print receipt",
+    "till receipt",
+    "sales slip"
+  ],
+  "family": "till",
+  "shapes": [
+    {
+      "d": "M2 10A2 2 0 0 1 4 8H20A2 2 0 0 1 22 10V20A2 2 0 0 1 20 22H4A2 2 0 0 1 2 20Z",
+      "closed": true
+    },
+    {
+      "d": "M4 8L4 3L14 3L14 8",
+      "closed": false
+    },
+    {
+      "d": "M18 4V8",
+      "closed": false
+    },
+    {
+      "d": "M7 13H17",
+      "closed": false
+    },
+    {
+      "d": "M7 17H17",
+      "closed": false
+    }
+  ]
+}

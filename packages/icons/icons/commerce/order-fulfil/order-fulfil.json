@@ -1,0 +1,32 @@
+{
+  "slug": "order-fulfil",
+  "category": "commerce",
+  "subcategory": "merchant",
+  "name": "Fulfil order",
+  "description": "A tray with a check over it — the order picked, packed and away",
+  "tags": [
+    "order",
+    "fulfil",
+    "complete"
+  ],
+  "aliases": [
+    "order-fulfill"
+  ],
+  "keywords": [
+    "fulfil order",
+    "fulfill order",
+    "order fulfilled",
+    "complete order"
+  ],
+  "family": "tray",
+  "shapes": [
+    {
+      "d": "M4 15L4 19L20 19L20 15",
+      "closed": true
+    },
+    {
+      "d": "M9 9L11 11L15 7",
+      "closed": false
+    }
+  ]
+}

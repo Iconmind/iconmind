@@ -1,0 +1,37 @@
+{
+  "slug": "listing-draft",
+  "category": "commerce",
+  "subcategory": "merchant",
+  "name": "Listing draft",
+  "description": "The listing with a broken line — half written, not yet up",
+  "tags": [
+    "listing",
+    "draft",
+    "unpublished"
+  ],
+  "keywords": [
+    "listing draft",
+    "draft listing",
+    "unpublished listing",
+    "save draft"
+  ],
+  "family": "listing",
+  "shapes": [
+    {
+      "d": "M3 4A2 2 0 0 1 5 2H19A2 2 0 0 1 21 4V20A2 2 0 0 1 19 22H5A2 2 0 0 1 3 20Z",
+      "closed": true
+    },
+    {
+      "d": "M6 9L9 6L12 9L14 7L16 9",
+      "closed": false
+    },
+    {
+      "d": "M7 15.5H10",
+      "closed": false
+    },
+    {
+      "d": "M14 15.5H17",
+      "closed": false
+    }
+  ]
+}

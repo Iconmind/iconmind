@@ -1,0 +1,41 @@
+{
+  "slug": "tip-jar",
+  "category": "commerce",
+  "subcategory": "merchant",
+  "name": "Tip jar",
+  "description": "A jar with a coin in it — what the customer leaves on top",
+  "tags": [
+    "tip",
+    "gratuity",
+    "jar"
+  ],
+  "aliases": [
+    "tips"
+  ],
+  "keywords": [
+    "tip jar",
+    "tips",
+    "gratuity",
+    "leave a tip"
+  ],
+  "family": "jar",
+  "shapes": [
+    {
+      "d": "M6 9H18V19A3 3 0 0 1 15 22H9A3 3 0 0 1 6 19Z",
+      "closed": true,
+      "_why": "a jar: square shoulders, a rounded foot"
+    },
+    {
+      "d": "M8 9L8 4L16 4L16 9",
+      "closed": false
+    },
+    {
+      "d": "M9 15.5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 13.5V17.5",
+      "closed": false
+    }
+  ]
+}

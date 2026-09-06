@@ -1,0 +1,40 @@
+{
+  "slug": "product-catalogue",
+  "category": "commerce",
+  "subcategory": "merchant",
+  "name": "Product catalogue",
+  "description": "A book with lines on its page — every product the shop sells, in one place",
+  "tags": [
+    "catalogue",
+    "book",
+    "products"
+  ],
+  "aliases": [
+    "product-catalog"
+  ],
+  "keywords": [
+    "product catalogue",
+    "product catalog",
+    "catalogue",
+    "product book"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V21",
+      "closed": false
+    },
+    {
+      "d": "M11 9H16",
+      "closed": false
+    },
+    {
+      "d": "M11 13H16",
+      "closed": false
+    }
+  ]
+}

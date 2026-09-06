@@ -1,0 +1,33 @@
+{
+  "slug": "listing-live",
+  "category": "commerce",
+  "subcategory": "merchant",
+  "name": "Listing live",
+  "description": "The listing with a check — up, and for sale",
+  "tags": [
+    "listing",
+    "live",
+    "published"
+  ],
+  "keywords": [
+    "listing live",
+    "publish listing",
+    "listing active",
+    "listing online"
+  ],
+  "family": "listing",
+  "shapes": [
+    {
+      "d": "M3 4A2 2 0 0 1 5 2H19A2 2 0 0 1 21 4V20A2 2 0 0 1 19 22H5A2 2 0 0 1 3 20Z",
+      "closed": true
+    },
+    {
+      "d": "M6 9L9 6L12 9L14 7L16 9",
+      "closed": false
+    },
+    {
+      "d": "M9 15.5L11 17.5L15 13.5",
+      "closed": false
+    }
+  ]
+}

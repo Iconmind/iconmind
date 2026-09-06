@@ -1,0 +1,41 @@
+{
+  "slug": "cash-drawer",
+  "category": "commerce",
+  "subcategory": "merchant",
+  "name": "Cash drawer",
+  "description": "The till with the drawer's line and its handle — pulled open for the change",
+  "tags": [
+    "cash",
+    "drawer",
+    "till"
+  ],
+  "keywords": [
+    "cash drawer",
+    "open drawer",
+    "till drawer",
+    "cash till"
+  ],
+  "family": "till",
+  "shapes": [
+    {
+      "d": "M2 10A2 2 0 0 1 4 8H20A2 2 0 0 1 22 10V20A2 2 0 0 1 20 22H4A2 2 0 0 1 2 20Z",
+      "closed": true
+    },
+    {
+      "d": "M4 8L4 3L14 3L14 8",
+      "closed": false
+    },
+    {
+      "d": "M18 4V8",
+      "closed": false
+    },
+    {
+      "d": "M5 14H19",
+      "closed": false
+    },
+    {
+      "d": "M10 17.5H14",
+      "closed": false
+    }
+  ]
+}

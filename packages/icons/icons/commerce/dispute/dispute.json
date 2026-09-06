@@ -1,0 +1,41 @@
+{
+  "slug": "dispute",
+  "category": "commerce",
+  "subcategory": "merchant",
+  "name": "Dispute",
+  "description": "A speech bubble with a not-equals in it — a buyer and a seller who disagree",
+  "tags": [
+    "dispute",
+    "complaint",
+    "claim"
+  ],
+  "keywords": [
+    "dispute",
+    "open dispute",
+    "buyer dispute",
+    "complaint"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M14 4H19A3 3 0 0 1 22 7V14A3 3 0 0 1 19 17H5A3 3 0 0 1 2 14V7A3 3 0 0 1 5 4H10",
+      "closed": true
+    },
+    {
+      "d": "M7 17L7 21L11 17",
+      "closed": false
+    },
+    {
+      "d": "M9 9H15",
+      "closed": false
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    },
+    {
+      "d": "M9.5 14L14.5 9",
+      "closed": false
+    }
+  ]
+}

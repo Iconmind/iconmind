@@ -1,0 +1,45 @@
+{
+  "slug": "dropship",
+  "category": "commerce",
+  "subcategory": "merchant",
+  "name": "Dropship",
+  "description": "The delivery truck with two chevrons in its cargo — straight from the maker, never through the shop",
+  "tags": [
+    "dropship",
+    "fulfilment",
+    "supplier"
+  ],
+  "aliases": [
+    "drop-shipping"
+  ],
+  "keywords": [
+    "dropship",
+    "drop shipping",
+    "dropshipping",
+    "supplier ships direct"
+  ],
+  "family": "truck",
+  "shapes": [
+    {
+      "d": "M4 5H13A2 2 0 0 1 15 7V10H18.5L21 12.5V15A2 2 0 0 1 19 17H4A2 2 0 0 1 2 15V7A2 2 0 0 1 4 5Z",
+      "closed": true,
+      "_why": "truck body and cab drawn as one outline"
+    },
+    {
+      "d": "M5 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 8.5L8 11L5.5 13.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 8.5L12 11L9.5 13.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "seller-rating",
+  "category": "commerce",
+  "subcategory": "merchant",
+  "name": "Seller rating",
+  "description": "A person with a stone on the chest — how buyers have rated the seller",
+  "tags": [
+    "seller",
+    "rating",
+    "reputation"
+  ],
+  "keywords": [
+    "seller rating",
+    "vendor rating",
+    "seller score",
+    "seller reputation"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A9 9 0 0 1 21 21",
+      "closed": false
+    },
+    {
+      "d": "M12 15L14 17L12 19L10 17Z",
+      "closed": true
+    }
+  ]
+}

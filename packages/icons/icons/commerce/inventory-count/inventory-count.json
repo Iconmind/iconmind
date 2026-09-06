@@ -1,0 +1,30 @@
+{
+  "slug": "inventory-count",
+  "category": "commerce",
+  "subcategory": "merchant",
+  "name": "Inventory count",
+  "description": "Three crates stacked — the stock, as it sits and is counted",
+  "tags": [
+    "inventory",
+    "stock",
+    "count"
+  ],
+  "aliases": [
+    "inventory",
+    "stock-count"
+  ],
+  "keywords": [
+    "inventory count",
+    "stock count",
+    "inventory",
+    "stocktake"
+  ],
+  "family": "crate",
+  "shapes": [
+    {
+      "d": "M4 20V12H20V20ZM12 12V20M8 12V4H16V12",
+      "closed": false,
+      "_why": "three crates that share their walls, drawn as one path"
+    }
+  ]
+}

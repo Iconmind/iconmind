@@ -1,0 +1,40 @@
+{
+  "slug": "end-of-day",
+  "category": "commerce",
+  "subcategory": "merchant",
+  "name": "End of day",
+  "description": "The till with a check in the drawer — closed and balanced for the day",
+  "tags": [
+    "close",
+    "day",
+    "settle"
+  ],
+  "aliases": [
+    "close-of-day"
+  ],
+  "keywords": [
+    "end of day",
+    "close of day",
+    "daily close",
+    "eod"
+  ],
+  "family": "till",
+  "shapes": [
+    {
+      "d": "M2 10A2 2 0 0 1 4 8H20A2 2 0 0 1 22 10V20A2 2 0 0 1 20 22H4A2 2 0 0 1 2 20Z",
+      "closed": true
+    },
+    {
+      "d": "M4 8L4 3L14 3L14 8",
+      "closed": false
+    },
+    {
+      "d": "M18 4V8",
+      "closed": false
+    },
+    {
+      "d": "M9 15L11 17L15 13",
+      "closed": false
+    }
+  ]
+}

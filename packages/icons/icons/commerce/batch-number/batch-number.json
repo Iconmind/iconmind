@@ -1,0 +1,44 @@
+{
+  "slug": "batch-number",
+  "category": "commerce",
+  "subcategory": "merchant",
+  "name": "Batch number",
+  "description": "The listing with a hash under the picture — the lot this one came from",
+  "tags": [
+    "batch",
+    "lot",
+    "number"
+  ],
+  "aliases": [
+    "lot-number"
+  ],
+  "keywords": [
+    "batch number",
+    "lot number",
+    "production batch",
+    "batch code"
+  ],
+  "family": "listing",
+  "shapes": [
+    {
+      "d": "M3 4A2 2 0 0 1 5 2H19A2 2 0 0 1 21 4V20A2 2 0 0 1 19 22H5A2 2 0 0 1 3 20Z",
+      "closed": true
+    },
+    {
+      "d": "M6 9L9 6L12 9L14 7L16 9",
+      "closed": false
+    },
+    {
+      "d": "M10 12.5V18.5",
+      "closed": false
+    },
+    {
+      "d": "M14 12.5V18.5",
+      "closed": false
+    },
+    {
+      "d": "M7.5 15.5H16.5",
+      "closed": false
+    }
+  ]
+}

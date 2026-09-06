@@ -1,0 +1,36 @@
+{
+  "slug": "fulfilment-centre",
+  "category": "commerce",
+  "subcategory": "merchant",
+  "name": "Fulfilment centre",
+  "description": "A warehouse with an arrow leaving it — where orders are picked and sent",
+  "tags": [
+    "fulfilment",
+    "warehouse",
+    "logistics"
+  ],
+  "aliases": [
+    "fulfillment-center"
+  ],
+  "keywords": [
+    "fulfilment centre",
+    "fulfillment center",
+    "3pl",
+    "order fulfilment"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 20L2 10L5 7L19 7L22 10L22 20",
+      "closed": false
+    },
+    {
+      "d": "M8 14H16",
+      "closed": false
+    },
+    {
+      "d": "M13.5 11.5L16 14L13.5 16.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "merchant-account",
+  "category": "commerce",
+  "subcategory": "merchant",
+  "name": "Merchant account",
+  "description": "The storefront with a person in it — the account the shop signs in with",
+  "tags": [
+    "account",
+    "login",
+    "seller"
+  ],
+  "keywords": [
+    "merchant account",
+    "seller account",
+    "shop account",
+    "vendor login"
+  ],
+  "family": "store",
+  "shapes": [
+    {
+      "d": "M2 5H22M2 5A2.5 2.5 0 0 0 7 5A2.5 2.5 0 0 0 12 5A2.5 2.5 0 0 0 17 5A2.5 2.5 0 0 0 22 5",
+      "closed": false,
+      "_why": "an awning: a rail with four scallops hanging from it"
+    },
+    {
+      "d": "M4 8L4 22L20 22L20 8",
+      "closed": false
+    },
+    {
+      "d": "M10 13a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 18.5H16",
+      "closed": false
+    }
+  ]
+}
