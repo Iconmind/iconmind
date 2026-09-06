@@ -108,10 +108,16 @@ export function editDistance(a: string, b: string, cap = 4): number {
 export function suggest<T extends SearchableIcon>(icons: readonly T[], query: string, limit = 6): T[] {
   const q = normalizeQuery(query);
   if (q.length < 3) return [];
+  // Ties are broken by the slug's own distance, then by name: a typo of `model` should
+  // offer `model` before the six icons merely tagged with it. Without the tie-break the
+  // order was whatever order the icons were read in, which differs between file systems.
   return icons
-    .map((i) => ({ i, d: Math.min(editDistance(q, i.slug), ...i.tags.map((t) => editDistance(q, t))) }))
+    .map((i) => {
+      const ds = editDistance(q, i.slug);
+      return { i, ds, d: Math.min(ds, ...i.tags.map((t) => editDistance(q, t))) };
+    })
     .filter((x) => x.d <= 3)
-    .sort((a, b) => a.d - b.d)
+    .sort((a, b) => a.d - b.d || a.ds - b.ds || a.i.slug.localeCompare(b.i.slug))
     .slice(0, limit)
     .map((x) => x.i);
 }
