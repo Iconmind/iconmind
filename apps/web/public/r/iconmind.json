@@ -3,8 +3,10 @@
   "name": "iconmind",
   "type": "registry:ui",
   "title": "IconMind icon",
-  "description": "An <Icon name=\"agent-run\" /> wrapper over @iconmind/react — 2,271 MIT icons for AI-era software, outline and duotone, three weights, tree-shaken per icon.",
-  "dependencies": ["@iconmind/react"],
+  "description": "An <Icon name=\"agent-run\" /> wrapper over @iconmind/react — 3,787 MIT icons for AI-era software, outline and duotone, three weights, tree-shaken per icon.",
+  "dependencies": [
+    "@iconmind/react"
+  ],
   "files": [
     {
       "path": "components/ui/iconmind.tsx",

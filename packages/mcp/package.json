@@ -3,6 +3,7 @@
   "version": "0.7.0",
   "type": "module",
   "license": "MIT",
+  "mcpName": "io.github.iconmind/iconmind",
   "description": "MCP server for IconMind — lets an AI assistant search the real icon set instead of guessing names. Offline, bundled data, instant start.",
   "repository": {
     "type": "git",

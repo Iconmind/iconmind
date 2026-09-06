@@ -170,6 +170,12 @@ of guessing icon names that do not exist:
 claude mcp add iconmind -- npx -y @iconmind/mcp
 ```
 
+**shadcn/ui.** The set is also a [shadcn registry](https://ui.shadcn.com/docs/registry) item, so a shadcn project gets an `<Icon name="agent-run" />` wrapper over `@iconmind/react` in one command, no approval from anyone:
+
+```bash
+npx shadcn@latest add https://iconmind.dev/r/iconmind.json
+```
+
 It runs offline, bundles the icon data, and starts in well under a second. The site also
 serves [`llms.txt`](https://iconmind.dev/llms.txt) and a full machine-readable
 inventory, so assistants without tool access can still pick real names.
