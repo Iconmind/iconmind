@@ -1,5 +1,11 @@
 # @iconmind/icons
 
+## 0.7.1
+
+### Patch Changes
+
+- docs(mcp): the other clients, and the registry name
+
 ## 0.7.0
 
 ### Minor Changes
