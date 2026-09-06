@@ -1,0 +1,34 @@
+{
+  "slug": "capital-loss",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Capital loss",
+  "description": "A money bag with an arrow falling in it — sold for less than it cost",
+  "tags": [
+    "loss",
+    "sold",
+    "down"
+  ],
+  "keywords": [
+    "capital loss",
+    "loss on sale",
+    "loss",
+    "depreciation"
+  ],
+  "family": "bag",
+  "shapes": [
+    {
+      "d": "M9.5 4H14.5V6.5L18 10A7 7 0 1 1 6 10L9.5 6.5Z",
+      "closed": true,
+      "_why": "a money bag: a tied neck, shoulders at 45°, and one round belly, one path"
+    },
+    {
+      "d": "M12 12V18",
+      "closed": false
+    },
+    {
+      "d": "M9.5 15.5L12 18L14.5 15.5",
+      "closed": false
+    }
+  ]
+}

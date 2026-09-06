@@ -1,0 +1,26 @@
+{
+  "slug": "candle-chart",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Candle chart",
+  "description": "Three candles climbing — the price, session by session",
+  "tags": [
+    "chart",
+    "candles",
+    "ohlc"
+  ],
+  "keywords": [
+    "candle chart",
+    "candlestick chart",
+    "ohlc chart",
+    "price chart"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M5 10.5V13M3 13H7V18H3ZM5 18V20.5M12 6.5V9M10 9H14V14H10ZM12 14V16.5M19 2.5V5M17 5H21V10H17ZM19 10V12.5",
+      "closed": false,
+      "_why": "three candles, each a box with a wick above and below, drawn as one path"
+    }
+  ]
+}

@@ -78,6 +78,10 @@ const ANCHORED = new Set([
   "rag/fusion-rank", "rag/retrieval-fallback",
   // A pin's payload rides in its head, as with the rest of the pin family.
   "commerce/pickup-point",
+  // a peak with a flag: the ridge is the weight, the flag stands on its summit
+  "finance/investment-goal",
+  // an ear of wheat carries its grain at the top of the stalk
+  "finance/yield",
   // a tray's mark hangs above the tray, as with the rest of the tray family
   "commerce/order-fulfil",
   // a stepped cake: the candle is its top, the tiers its weight - it stands on the frame floor

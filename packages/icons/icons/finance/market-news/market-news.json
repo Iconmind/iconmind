@@ -1,0 +1,44 @@
+{
+  "slug": "market-news",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Market news",
+  "description": "A newspaper: a picture, a headline and the columns",
+  "tags": [
+    "news",
+    "press",
+    "headlines"
+  ],
+  "aliases": [
+    "newspaper"
+  ],
+  "keywords": [
+    "market news",
+    "financial news",
+    "newspaper",
+    "headlines"
+  ],
+  "family": "paper",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M5 8L10 8L10 13L5 13Z",
+      "closed": true
+    },
+    {
+      "d": "M13 8H19",
+      "closed": false
+    },
+    {
+      "d": "M13 11H19",
+      "closed": false
+    },
+    {
+      "d": "M5 16.5H19",
+      "closed": false
+    }
+  ]
+}

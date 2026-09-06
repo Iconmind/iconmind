@@ -1,0 +1,33 @@
+{
+  "slug": "investment-goal",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Investment goal",
+  "description": "A peak with a flag on it — the amount aimed at",
+  "tags": [
+    "goal",
+    "target",
+    "aim"
+  ],
+  "keywords": [
+    "investment goal",
+    "financial goal",
+    "target amount",
+    "savings target"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 21L7 16L11 20L18 13L22 17",
+      "closed": false
+    },
+    {
+      "d": "M18 5V13",
+      "closed": false
+    },
+    {
+      "d": "M18 6L22 6L22 9.5L18 9.5",
+      "closed": false
+    }
+  ]
+}

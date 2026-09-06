@@ -1,0 +1,37 @@
+{
+  "slug": "compound-interest",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Compound interest",
+  "description": "A coin with a percent in it — interest earning interest",
+  "tags": [
+    "compound",
+    "interest",
+    "growth"
+  ],
+  "keywords": [
+    "compound interest",
+    "compounding",
+    "interest on interest",
+    "growth"
+  ],
+  "family": "coin",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 16L16 8",
+      "closed": false
+    },
+    {
+      "d": "M7 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

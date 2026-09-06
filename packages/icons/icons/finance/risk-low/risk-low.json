@@ -1,0 +1,33 @@
+{
+  "slug": "risk-low",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Low risk",
+  "description": "The gauge with its needle to the left — little could be lost",
+  "tags": [
+    "risk",
+    "low",
+    "safe"
+  ],
+  "keywords": [
+    "low risk",
+    "conservative",
+    "safe investment",
+    "low volatility"
+  ],
+  "family": "gauge",
+  "shapes": [
+    {
+      "d": "M3 16A9 9 0 0 1 21 16",
+      "closed": false
+    },
+    {
+      "d": "M3 16H21",
+      "closed": false
+    },
+    {
+      "d": "M12 16L7 11",
+      "closed": false
+    }
+  ]
+}

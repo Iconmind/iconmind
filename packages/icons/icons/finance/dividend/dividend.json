@@ -1,0 +1,33 @@
+{
+  "slug": "dividend",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Dividend",
+  "description": "A coin with two smaller coins under it — the share of profit paid out",
+  "tags": [
+    "dividend",
+    "payout",
+    "income"
+  ],
+  "keywords": [
+    "dividend",
+    "dividend payment",
+    "payout",
+    "dividend yield"
+  ],
+  "family": "coin",
+  "shapes": [
+    {
+      "d": "M7 8a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 18a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 18a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

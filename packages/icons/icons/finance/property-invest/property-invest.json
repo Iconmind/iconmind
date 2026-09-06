@@ -1,0 +1,36 @@
+{
+  "slug": "property-invest",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Property investment",
+  "description": "A house with a rising line in it — bricks that earn",
+  "tags": [
+    "property",
+    "real-estate",
+    "rental"
+  ],
+  "aliases": [
+    "real-estate"
+  ],
+  "keywords": [
+    "property investment",
+    "real estate",
+    "buy to let",
+    "rental property"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 11L12 2L21 11",
+      "closed": false
+    },
+    {
+      "d": "M6 11L6 21L18 21L18 11",
+      "closed": false
+    },
+    {
+      "d": "M9 19L11 17L13 19L15 17",
+      "closed": false
+    }
+  ]
+}

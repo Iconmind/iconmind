@@ -1,0 +1,44 @@
+{
+  "slug": "etf",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "ETF",
+  "description": "The basket with an arrow each way — a fund bought and sold like a share",
+  "tags": [
+    "etf",
+    "traded",
+    "fund"
+  ],
+  "aliases": [
+    "exchange-traded-fund"
+  ],
+  "keywords": [
+    "etf",
+    "exchange traded fund",
+    "traded fund",
+    "etf portfolio"
+  ],
+  "family": "basket",
+  "shapes": [
+    {
+      "d": "M3 10A2 2 0 0 1 5 8H19A2 2 0 0 1 21 10V20A2 2 0 0 1 19 22H5A2 2 0 0 1 3 20Z",
+      "closed": true
+    },
+    {
+      "d": "M7 8A5 5 0 0 1 17 8",
+      "closed": false
+    },
+    {
+      "d": "M8 15H16",
+      "closed": false
+    },
+    {
+      "d": "M10.5 12.5L8 15L10.5 17.5",
+      "closed": false
+    },
+    {
+      "d": "M13.5 12.5L16 15L13.5 17.5",
+      "closed": false
+    }
+  ]
+}

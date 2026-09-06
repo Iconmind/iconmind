@@ -1,0 +1,29 @@
+{
+  "slug": "commodity",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Commodity",
+  "description": "Two bars of gold, one on the other — a thing traded by weight",
+  "tags": [
+    "commodity",
+    "gold",
+    "raw"
+  ],
+  "keywords": [
+    "commodity",
+    "commodities",
+    "gold bars",
+    "raw materials"
+  ],
+  "family": "ingot",
+  "shapes": [
+    {
+      "d": "M2 19L7 14L17 14L22 19Z",
+      "closed": true
+    },
+    {
+      "d": "M5 11L9.5 6.5L14.5 6.5L19 11Z",
+      "closed": true
+    }
+  ]
+}

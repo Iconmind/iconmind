@@ -1,0 +1,29 @@
+{
+  "slug": "yield",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Yield",
+  "description": "An ear of wheat — what the investment brings in, season after season",
+  "tags": [
+    "yield",
+    "income",
+    "harvest"
+  ],
+  "aliases": [
+    "wheat"
+  ],
+  "keywords": [
+    "yield",
+    "investment yield",
+    "dividend yield",
+    "wheat"
+  ],
+  "family": "wheat",
+  "shapes": [
+    {
+      "d": "M12 21V3M12 7L7 2M12 7L17 2M12 11L7 6M12 11L17 6M12 15L7 10M12 15L17 10",
+      "closed": false,
+      "_why": "an ear of wheat: a stalk and three pairs of grains, one path"
+    }
+  ]
+}

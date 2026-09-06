@@ -1,0 +1,33 @@
+{
+  "slug": "portfolio",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Portfolio",
+  "description": "A briefcase with its latch line — everything held, carried together",
+  "tags": [
+    "holdings",
+    "collection",
+    "assets"
+  ],
+  "keywords": [
+    "portfolio",
+    "investment portfolio",
+    "holdings",
+    "my investments"
+  ],
+  "family": "briefcase",
+  "shapes": [
+    {
+      "d": "M3 11A2 2 0 0 1 5 9H19A2 2 0 0 1 21 11V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M9 9L9 5L15 5L15 9",
+      "closed": false
+    },
+    {
+      "d": "M3 13H21",
+      "closed": false
+    }
+  ]
+}

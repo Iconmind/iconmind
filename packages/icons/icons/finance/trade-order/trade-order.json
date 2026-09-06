@@ -1,0 +1,41 @@
+{
+  "slug": "trade-order",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Trade order",
+  "description": "A clipboard with an arrow each way on it — the order sheet, to buy or to sell",
+  "tags": [
+    "order",
+    "trade",
+    "execute"
+  ],
+  "keywords": [
+    "trade order",
+    "place order",
+    "order ticket",
+    "execute trade"
+  ],
+  "family": "clipboard",
+  "shapes": [
+    {
+      "d": "M4 7.5A2 2 0 0 1 6 5.5H18A2 2 0 0 1 20 7.5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 7L9.5 2.5L14.5 2.5L14.5 7",
+      "closed": false
+    },
+    {
+      "d": "M8 13.5H16",
+      "closed": false
+    },
+    {
+      "d": "M10.5 11L8 13.5L10.5 16",
+      "closed": false
+    },
+    {
+      "d": "M13.5 11L16 13.5L13.5 16",
+      "closed": false
+    }
+  ]
+}

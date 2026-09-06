@@ -1,0 +1,26 @@
+{
+  "slug": "stock-split",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Stock split",
+  "description": "A coin cut into two halves — one share made into two",
+  "tags": [
+    "split",
+    "shares",
+    "divide"
+  ],
+  "keywords": [
+    "stock split",
+    "share split",
+    "split shares",
+    "2 for 1 split"
+  ],
+  "family": "coin",
+  "shapes": [
+    {
+      "d": "M9 6A6 6 0 0 0 9 18V6ZM15 6A6 6 0 0 1 15 18V6Z",
+      "closed": false,
+      "_why": "two half-coins, each an arc closed by its flat side"
+    }
+  ]
+}

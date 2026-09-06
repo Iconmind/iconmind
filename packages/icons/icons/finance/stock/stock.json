@@ -1,0 +1,37 @@
+{
+  "slug": "stock",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Stock",
+  "description": "One candle of a price chart, its wicks above and below — a share in a company",
+  "tags": [
+    "share",
+    "equity",
+    "market"
+  ],
+  "aliases": [
+    "share",
+    "equity"
+  ],
+  "keywords": [
+    "stock",
+    "share",
+    "equity",
+    "stocks and shares"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M12 2V4.5",
+      "closed": false
+    },
+    {
+      "d": "M5 6.5A2 2 0 0 1 7 4.5H17A2 2 0 0 1 19 6.5V16A2 2 0 0 1 17 18H7A2 2 0 0 1 5 16Z",
+      "closed": true
+    },
+    {
+      "d": "M12 18V21",
+      "closed": false
+    }
+  ]
+}

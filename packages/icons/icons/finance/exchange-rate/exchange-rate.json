@@ -1,0 +1,40 @@
+{
+  "slug": "exchange-rate",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Exchange rate",
+  "description": "A coin over an arrow pointing both ways — one currency for another",
+  "tags": [
+    "exchange",
+    "currency",
+    "rate"
+  ],
+  "aliases": [
+    "fx-rate"
+  ],
+  "keywords": [
+    "exchange rate",
+    "fx rate",
+    "currency rate",
+    "conversion rate"
+  ],
+  "family": "coin",
+  "shapes": [
+    {
+      "d": "M7 8a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 18H20",
+      "closed": false
+    },
+    {
+      "d": "M6.5 15.5L4 18L6.5 20.5",
+      "closed": false
+    },
+    {
+      "d": "M17.5 15.5L20 18L17.5 20.5",
+      "closed": false
+    }
+  ]
+}

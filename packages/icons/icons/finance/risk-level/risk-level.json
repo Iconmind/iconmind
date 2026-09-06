@@ -1,0 +1,33 @@
+{
+  "slug": "risk-level",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Risk level",
+  "description": "A gauge with its needle straight up — how much could be lost",
+  "tags": [
+    "risk",
+    "gauge",
+    "measure"
+  ],
+  "keywords": [
+    "risk level",
+    "risk meter",
+    "risk gauge",
+    "risk score"
+  ],
+  "family": "gauge",
+  "shapes": [
+    {
+      "d": "M3 16A9 9 0 0 1 21 16",
+      "closed": false
+    },
+    {
+      "d": "M3 16H21",
+      "closed": false
+    },
+    {
+      "d": "M12 9V16",
+      "closed": false
+    }
+  ]
+}

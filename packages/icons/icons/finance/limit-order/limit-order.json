@@ -1,0 +1,41 @@
+{
+  "slug": "limit-order",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Limit order",
+  "description": "The candle with a chevron rising to a line — buy, but not above this",
+  "tags": [
+    "order",
+    "limit",
+    "price"
+  ],
+  "keywords": [
+    "limit order",
+    "buy limit",
+    "limit price",
+    "set limit"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M12 2V4.5",
+      "closed": false
+    },
+    {
+      "d": "M5 6.5A2 2 0 0 1 7 4.5H17A2 2 0 0 1 19 6.5V16A2 2 0 0 1 17 18H7A2 2 0 0 1 5 16Z",
+      "closed": true
+    },
+    {
+      "d": "M12 18V21",
+      "closed": false
+    },
+    {
+      "d": "M8 8H16",
+      "closed": false
+    },
+    {
+      "d": "M9.5 13.5L12 11L14.5 13.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "market-closed",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Market closed",
+  "description": "The moon over the horizon — the market shut for the night",
+  "tags": [
+    "closed",
+    "after-hours",
+    "shut"
+  ],
+  "keywords": [
+    "market closed",
+    "trading closed",
+    "after hours",
+    "closing bell"
+  ],
+  "family": "horizon",
+  "shapes": [
+    {
+      "d": "M3 18H21",
+      "closed": false
+    },
+    {
+      "d": "M12 3A6.5 6.5 0 1 0 18.5 12.5A5.5 5.5 0 0 1 12 3Z",
+      "closed": true,
+      "_why": "a crescent: the long way round one circle, the short way back on a smaller one"
+    }
+  ]
+}

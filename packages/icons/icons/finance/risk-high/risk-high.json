@@ -1,0 +1,33 @@
+{
+  "slug": "risk-high",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "High risk",
+  "description": "The gauge with its needle to the right — a lot could be lost",
+  "tags": [
+    "risk",
+    "high",
+    "volatile"
+  ],
+  "keywords": [
+    "high risk",
+    "aggressive",
+    "volatile investment",
+    "high volatility"
+  ],
+  "family": "gauge",
+  "shapes": [
+    {
+      "d": "M3 16A9 9 0 0 1 21 16",
+      "closed": false
+    },
+    {
+      "d": "M3 16H21",
+      "closed": false
+    },
+    {
+      "d": "M12 16L17 11",
+      "closed": false
+    }
+  ]
+}

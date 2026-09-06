@@ -1,0 +1,32 @@
+{
+  "slug": "crypto-coin",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Crypto coin",
+  "description": "An eight-sided coin with a bolt in it — a coin that lives on a network",
+  "tags": [
+    "crypto",
+    "bitcoin",
+    "token"
+  ],
+  "aliases": [
+    "cryptocurrency"
+  ],
+  "keywords": [
+    "crypto coin",
+    "cryptocurrency",
+    "bitcoin",
+    "token"
+  ],
+  "family": "octagon",
+  "shapes": [
+    {
+      "d": "M8 3L16 3L21 8L21 16L16 21L8 21L3 16L3 8Z",
+      "closed": true
+    },
+    {
+      "d": "M15 9L12 12L14.5 12L11.5 15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "share-price",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Share price",
+  "description": "The candle with a coin in it — what one share costs now",
+  "tags": [
+    "price",
+    "quote",
+    "value"
+  ],
+  "aliases": [
+    "stock-price"
+  ],
+  "keywords": [
+    "share price",
+    "stock price",
+    "quote",
+    "current price"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M12 2V4.5",
+      "closed": false
+    },
+    {
+      "d": "M5 6.5A2 2 0 0 1 7 4.5H17A2 2 0 0 1 19 6.5V16A2 2 0 0 1 17 18H7A2 2 0 0 1 5 16Z",
+      "closed": true
+    },
+    {
+      "d": "M12 18V21",
+      "closed": false
+    },
+    {
+      "d": "M9 11a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9V13",
+      "closed": false
+    }
+  ]
+}

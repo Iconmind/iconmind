@@ -1,0 +1,48 @@
+{
+  "slug": "return-rate",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Rate of return",
+  "description": "The candle with a percent in it — what the holding made, as a share of what it cost",
+  "tags": [
+    "return",
+    "rate",
+    "performance"
+  ],
+  "aliases": [
+    "roi"
+  ],
+  "keywords": [
+    "rate of return",
+    "return on investment",
+    "roi",
+    "performance"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M12 2V4.5",
+      "closed": false
+    },
+    {
+      "d": "M5 6.5A2 2 0 0 1 7 4.5H17A2 2 0 0 1 19 6.5V16A2 2 0 0 1 17 18H7A2 2 0 0 1 5 16Z",
+      "closed": true
+    },
+    {
+      "d": "M12 18V21",
+      "closed": false
+    },
+    {
+      "d": "M8.5 8.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 14L15 8",
+      "closed": false
+    },
+    {
+      "d": "M13.5 13.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

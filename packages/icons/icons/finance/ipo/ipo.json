@@ -1,0 +1,29 @@
+{
+  "slug": "ipo",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "IPO",
+  "description": "A rocket — a company's launch onto the market",
+  "tags": [
+    "ipo",
+    "launch",
+    "listing"
+  ],
+  "aliases": [
+    "rocket"
+  ],
+  "keywords": [
+    "ipo",
+    "initial public offering",
+    "stock market launch",
+    "rocket"
+  ],
+  "family": "rocket",
+  "shapes": [
+    {
+      "d": "M9 15V8A3 3 0 0 1 15 8V15ZM9 11L6 14V17H9M15 11L18 14V17H15M12 15V20",
+      "closed": false,
+      "_why": "a rocket: a round nose on a straight body, two fins and the exhaust, one path"
+    }
+  ]
+}

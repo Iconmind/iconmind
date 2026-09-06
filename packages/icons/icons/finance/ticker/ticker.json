@@ -1,0 +1,36 @@
+{
+  "slug": "ticker",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Ticker",
+  "description": "A strip of tape coming off its reel, the price line running along it",
+  "tags": [
+    "ticker",
+    "tape",
+    "quotes"
+  ],
+  "aliases": [
+    "ticker-tape"
+  ],
+  "keywords": [
+    "ticker",
+    "ticker tape",
+    "stock ticker",
+    "live quotes"
+  ],
+  "family": "tape",
+  "shapes": [
+    {
+      "d": "M2 10A2 2 0 0 1 4 8H13A2 2 0 0 1 15 10V14A2 2 0 0 1 13 16H4A2 2 0 0 1 2 14Z",
+      "closed": true
+    },
+    {
+      "d": "M15 12a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 13.5L7.5 11L10 13.5L12.5 11",
+      "closed": false
+    }
+  ]
+}

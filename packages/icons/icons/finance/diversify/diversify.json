@@ -1,0 +1,36 @@
+{
+  "slug": "diversify",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Diversify",
+  "description": "A pie cut into three — the money spread so no one slice can sink it",
+  "tags": [
+    "diversify",
+    "spread",
+    "mix"
+  ],
+  "aliases": [
+    "diversification"
+  ],
+  "keywords": [
+    "diversify",
+    "diversification",
+    "spread risk",
+    "asset mix"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 3V12",
+      "closed": false
+    },
+    {
+      "d": "M3 12H21",
+      "closed": false
+    }
+  ]
+}

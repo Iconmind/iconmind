@@ -1,0 +1,37 @@
+{
+  "slug": "crypto-wallet",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Crypto wallet",
+  "description": "An eight-sided coin with a key in it — you hold the keys, you hold the coin",
+  "tags": [
+    "crypto",
+    "wallet",
+    "keys"
+  ],
+  "keywords": [
+    "crypto wallet",
+    "bitcoin wallet",
+    "private keys",
+    "cold wallet"
+  ],
+  "family": "octagon",
+  "shapes": [
+    {
+      "d": "M8 3L16 3L21 8L21 16L16 21L8 21L3 16L3 8Z",
+      "closed": true
+    },
+    {
+      "d": "M10 10.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12.5V15",
+      "closed": false
+    },
+    {
+      "d": "M12 13.5H14.5",
+      "closed": false
+    }
+  ]
+}

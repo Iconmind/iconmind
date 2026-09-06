@@ -1,0 +1,41 @@
+{
+  "slug": "market-open",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Market open",
+  "description": "The sun rising over the horizon — the market's day begun",
+  "tags": [
+    "open",
+    "trading",
+    "hours"
+  ],
+  "keywords": [
+    "market open",
+    "trading open",
+    "market hours",
+    "opening bell"
+  ],
+  "family": "horizon",
+  "shapes": [
+    {
+      "d": "M6 17A6 6 0 0 1 18 17",
+      "closed": false
+    },
+    {
+      "d": "M3 17H21",
+      "closed": false
+    },
+    {
+      "d": "M12 6V8.5",
+      "closed": false
+    },
+    {
+      "d": "M4.5 9.5L6.5 11.5",
+      "closed": false
+    },
+    {
+      "d": "M19.5 9.5L17.5 11.5",
+      "closed": false
+    }
+  ]
+}

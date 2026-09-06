@@ -1,0 +1,41 @@
+{
+  "slug": "robo-advisor",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Robo-advisor",
+  "description": "A robot's head — the algorithm that picks for you",
+  "tags": [
+    "robot",
+    "automated",
+    "advice"
+  ],
+  "keywords": [
+    "robo advisor",
+    "robo-advisor",
+    "automated investing",
+    "algorithmic advice"
+  ],
+  "family": "robot",
+  "shapes": [
+    {
+      "d": "M4 9A2 2 0 0 1 6 7H18A2 2 0 0 1 20 9V17A2 2 0 0 1 18 19H6A2 2 0 0 1 4 17Z",
+      "closed": true
+    },
+    {
+      "d": "M8 12.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 12.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 3V7",
+      "closed": false
+    },
+    {
+      "d": "M9 16H15",
+      "closed": false
+    }
+  ]
+}

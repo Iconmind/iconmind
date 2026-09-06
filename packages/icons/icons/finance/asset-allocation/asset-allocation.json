@@ -1,0 +1,33 @@
+{
+  "slug": "asset-allocation",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Asset allocation",
+  "description": "A pie cut into four — how the money is split between kinds",
+  "tags": [
+    "allocation",
+    "split",
+    "assets"
+  ],
+  "keywords": [
+    "asset allocation",
+    "allocation",
+    "asset split",
+    "portfolio mix"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 3V21",
+      "closed": false
+    },
+    {
+      "d": "M3 12H21",
+      "closed": false
+    }
+  ]
+}

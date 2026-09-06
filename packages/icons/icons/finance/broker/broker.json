@@ -1,0 +1,44 @@
+{
+  "slug": "broker",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Broker",
+  "description": "A person with an arrow each way on the chest — the one in the middle who passes the trade",
+  "tags": [
+    "broker",
+    "intermediary",
+    "trade"
+  ],
+  "aliases": [
+    "brokerage"
+  ],
+  "keywords": [
+    "broker",
+    "stockbroker",
+    "brokerage",
+    "trading platform"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A9 9 0 0 1 21 21",
+      "closed": false
+    },
+    {
+      "d": "M8.5 17H15.5",
+      "closed": false
+    },
+    {
+      "d": "M11 14.5L8.5 17L11 19.5",
+      "closed": false
+    },
+    {
+      "d": "M13 14.5L15.5 17L13 19.5",
+      "closed": false
+    }
+  ]
+}

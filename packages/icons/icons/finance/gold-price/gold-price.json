@@ -1,0 +1,29 @@
+{
+  "slug": "gold-price",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Gold price",
+  "description": "A bar of gold with a line rising over it — what the metal fetches",
+  "tags": [
+    "gold",
+    "metal",
+    "price"
+  ],
+  "keywords": [
+    "gold price",
+    "price of gold",
+    "gold rate",
+    "precious metal"
+  ],
+  "family": "ingot",
+  "shapes": [
+    {
+      "d": "M2 18.5L7 13.5L17 13.5L22 18.5Z",
+      "closed": true
+    },
+    {
+      "d": "M5 9.5L9 5.5L12 8.5L18.5 2",
+      "closed": false
+    }
+  ]
+}

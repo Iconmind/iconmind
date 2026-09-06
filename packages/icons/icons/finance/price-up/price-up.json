@@ -1,0 +1,33 @@
+{
+  "slug": "price-up",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Price up",
+  "description": "A coin with an arrow rising over it — worth more than it was",
+  "tags": [
+    "up",
+    "rise",
+    "gain"
+  ],
+  "keywords": [
+    "price up",
+    "price rising",
+    "value up",
+    "gaining"
+  ],
+  "family": "coin",
+  "shapes": [
+    {
+      "d": "M8 17a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 3.5V10",
+      "closed": false
+    },
+    {
+      "d": "M9.5 6L12 3.5L14.5 6",
+      "closed": false
+    }
+  ]
+}

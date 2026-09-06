@@ -1,0 +1,41 @@
+{
+  "slug": "stock-buy",
+  "category": "finance",
+  "subcategory": "investing",
+  "name": "Buy stock",
+  "description": "The candle with a plus in it — a share bought",
+  "tags": [
+    "buy",
+    "purchase",
+    "long"
+  ],
+  "keywords": [
+    "buy stock",
+    "buy shares",
+    "purchase stock",
+    "go long"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M12 2V4.5",
+      "closed": false
+    },
+    {
+      "d": "M5 6.5A2 2 0 0 1 7 4.5H17A2 2 0 0 1 19 6.5V16A2 2 0 0 1 17 18H7A2 2 0 0 1 5 16Z",
+      "closed": true
+    },
+    {
+      "d": "M12 18V21",
+      "closed": false
+    },
+    {
+      "d": "M12 8V14",
+      "closed": false
+    },
+    {
+      "d": "M9 11H15",
+      "closed": false
+    }
+  ]
+}
