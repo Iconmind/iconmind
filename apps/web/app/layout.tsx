@@ -137,7 +137,7 @@ const THEME_BOOT = `try{var c=localStorage.getItem("iconmind-theme");if(c!=="lig
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   // The palette shows a category beside every hit; it reads the slug out of the search
-  // index, and the display names live here. Twelve pairs, sent once.
+  // index, and the display names live here. Fourteen pairs, sent once.
   const categoryNames = Object.fromEntries(allCategories.map((c) => [c.slug, c.name]));
 
   return (

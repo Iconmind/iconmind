@@ -180,7 +180,7 @@ export const BATCH_117: Icon[] = [
     ["credit", "utilisation", "usage"], ["credit-utilization"], ["credit utilisation", "credit utilization", "credit used", "utilisation ratio"],
     "bag", [BAG(), row(15, 8, 16)]),
   c("escrow-account", "Escrow account", "The money bag with a padlock in it — money held until both sides deliver",
-    ["escrow", "held", "third-party"], ["escrow"], ["escrow account", "escrow", "money in escrow", "held funds"],
+    ["escrow", "held", "third-party"], [], ["escrow account", "escrow", "money in escrow", "held funds"],
     "bag", [BAG(), ...lockMark(SMALL, 15)]),
   c("trust-fund", "Trust fund", "A jar with a padlock in it — money kept for someone else, on their terms",
     ["trust", "fund", "beneficiary"], [], ["trust fund", "trust", "family trust", "held in trust"],

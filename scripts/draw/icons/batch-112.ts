@@ -231,7 +231,7 @@ export const BATCH_112: Icon[] = [
     ["dispute", "complaint", "claim"], [], ["dispute", "open dispute", "buyer dispute", "complaint"],
     "window", [...BUBBLE(), row(9, 9, 15), row(12, 9, 15), poly([[9.5, 14], [14.5, 9]])]),
   c("dispute-chargeback", "Chargeback", "The payment card with an exclamation under the band — the bank pulling the money back",
-    ["chargeback", "reversal", "bank"], ["chargeback"], ["chargeback", "payment reversal", "disputed charge", "card dispute"],
+    ["chargeback", "reversal", "bank"], [], ["chargeback", "payment reversal", "disputed charge", "card dispute"],
     "card", [...CARD(), ...alert(SMALL, 14)]),
   c("return-policy", "Return policy", "A clipboard with an arrow coming back — what the shop takes back, and when",
     ["returns", "policy", "rules"], [], ["return policy", "returns policy", "refund policy", "return rules"],

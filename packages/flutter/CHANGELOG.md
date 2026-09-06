@@ -1,3 +1,14 @@
+## 0.7.0
+
+Five hundred new icons, 3,787 in all, and two new domains. Commerce: the storefront,
+the cart and the basket, the product box, the price tag on the diagonal, the payment
+card, the ticket and the receipt, the delivery truck and the warehouse, the rosette,
+the gift, the till and the listing. Finance: the bank as a portico, the folded slip,
+the wallet and the budget envelope, coins, the money bag, the piggy bank, the candle of
+a price chart, gold ingots, the gauge, the rocket, the umbrella and what stands under
+it, the T-account and the rubber stamp. More of these icons are things you can point
+at than in any round before.
+
 ## 0.6.4
 
 Eight hundred and fifty new icons, 3,287 in all: containers and images, observability

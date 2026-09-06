@@ -52,7 +52,7 @@ const ARROW_LR = (y: number, x0: number, x1: number) =>
 export const BATCH_115: Icon[] = [
   /* ── the holding, on the candle ─────────────────────────────────────────────── */
   c("stock", "Stock", "One candle of a price chart, its wicks above and below — a share in a company",
-    ["share", "equity", "market"], ["share", "equity"], ["stock", "share", "equity", "stocks and shares"],
+    ["share", "equity", "market"], ["equity"], ["stock", "share", "equity", "stocks and shares"],
     "chart", CANDLE()),
   c("stock-buy", "Buy stock", "The candle with a plus in it — a share bought",
     ["buy", "purchase", "long"], [], ["buy stock", "buy shares", "purchase stock", "go long"],

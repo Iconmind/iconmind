@@ -23,7 +23,7 @@ const BASE = SITE_URL;
  * `noindex, follow` in its own metadata now, so the links on it are still crawled.
  *
  * Three layers of list pages sit between the home page and the icons, and all of them
- * are here: the twelve categories, their ninety-odd groups, and every tag that has a
+ * are here: the fourteen categories, their ninety-odd groups, and every tag that has a
  * page (three or more icons — `lib/index-pages.ts` sets the floor). A tag page is
  * listed above an icon page because it answers a broader query and links to several.
  */

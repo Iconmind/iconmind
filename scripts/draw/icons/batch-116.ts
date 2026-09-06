@@ -76,7 +76,7 @@ export const BATCH_116: Icon[] = [
     ["entry", "left", "bookkeeping"], [], ["debit", "debit entry", "dr", "left side"],
     "t-account", [...T(), disc(7.5, 12, 2)]),
   c("credit-entry", "Credit entry", "The T-account with an entry on its right — where it came from",
-    ["entry", "right", "bookkeeping"], ["credit"], ["credit entry", "credit", "cr", "right side"],
+    ["entry", "right", "bookkeeping"], [], ["credit entry", "credit", "cr", "right side"],
     "t-account", [...T(), disc(16.5, 12, 2)]),
   c("double-entry", "Double entry", "The T-account with an entry on each side — every amount written twice",
     ["entries", "pairs", "bookkeeping"], [], ["double entry", "double-entry bookkeeping", "two entries", "balanced entry"],
@@ -202,7 +202,7 @@ export const BATCH_116: Icon[] = [
     ["invoice", "reminder", "chase"], [], ["invoice reminder", "payment reminder", "chase invoice", "dunning"],
     "envelope", [...ENVELOPE(), ...flagMark(SMALL, 9)]),
   c("credit-memo", "Credit memo", "The envelope with a minus on its note — money owed back, in writing",
-    ["credit", "memo", "refund"], ["credit-note"], ["credit memo", "credit note", "refund note", "credit issued"],
+    ["credit", "memo", "refund"], [], ["credit memo", "credit note", "refund note", "credit issued"],
     "envelope", [...ENVELOPE(), ...remove(SMALL, 9)]),
 
   /* ── the receipt, the basket, the jar ───────────────────────────────────────── */

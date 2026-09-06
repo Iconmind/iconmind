@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 /**
  * The tags, as an index — alphabetical, with a count, and nothing else.
  *
- * The categories page can afford a card per entry because there are twelve. There are
+ * The categories page can afford a card per entry because there are fourteen. There are
  * six hundred and sixty-nine of these, and the reader's question is "is my word here":
  * a letter rail, one chip per tag, and the count that says how much is behind it. The
  * popular row at the top is for the reader who does not have a word yet.
