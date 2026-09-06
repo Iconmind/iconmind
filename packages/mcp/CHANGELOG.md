@@ -1,5 +1,12 @@
 # @iconmind/mcp
 
+## 0.7.0
+
+### Patch Changes
+
+- Updated dependencies [292499d]
+  - @iconmind/icons@0.7.0
+
 ## 0.6.4
 
 ## 0.6.3

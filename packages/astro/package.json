@@ -1,6 +1,6 @@
 {
   "name": "@iconmind/astro",
-  "version": "0.6.4",
+  "version": "0.7.0",
   "description": "Astro components for IconMind — 3,787 tree-shakeable icons for AI-era software (LLMs, agents, MCP, RAG).",
   "keywords": [
     "icons",

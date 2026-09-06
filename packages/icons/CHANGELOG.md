@@ -1,5 +1,11 @@
 # @iconmind/icons
 
+## 0.7.0
+
+### Minor Changes
+
+- 292499d: Five hundred new icons in two new domains, commerce and finance — 3,787 icons in all.
+
 ## 0.6.4
 
 ### Patch Changes
