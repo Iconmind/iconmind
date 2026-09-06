@@ -1,0 +1,41 @@
+{
+  "slug": "tax-code",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Tax code",
+  "description": "The book with a hash on its page — the code the tax office knows you by",
+  "tags": [
+    "tax",
+    "code",
+    "identifier"
+  ],
+  "keywords": [
+    "tax code",
+    "tax id",
+    "tax number",
+    "tax identifier"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V21",
+      "closed": false
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    },
+    {
+      "d": "M16 9V15",
+      "closed": false
+    },
+    {
+      "d": "M10 12H18",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "reconcile",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Reconcile",
+  "description": "A sheet with an equals on it — the two records made to agree",
+  "tags": [
+    "reconcile",
+    "match",
+    "agree"
+  ],
+  "aliases": [
+    "reconciliation"
+  ],
+  "keywords": [
+    "reconcile",
+    "reconciliation",
+    "match records",
+    "agree the books"
+  ],
+  "family": "slip",
+  "shapes": [
+    {
+      "d": "M4 5H18L22 9V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17V7A2 2 0 0 1 4 5ZM18 5V9H22",
+      "closed": false,
+      "_why": "a slip: a wide sheet with its top-right corner folded over"
+    },
+    {
+      "d": "M8 10H16",
+      "closed": false
+    },
+    {
+      "d": "M8 14H16",
+      "closed": false
+    }
+  ]
+}

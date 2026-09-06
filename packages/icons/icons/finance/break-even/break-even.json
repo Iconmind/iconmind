@@ -1,0 +1,37 @@
+{
+  "slug": "break-even",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Break-even",
+  "description": "A chart with two lines crossing — where what comes in first covers what goes out",
+  "tags": [
+    "break-even",
+    "threshold",
+    "cover"
+  ],
+  "keywords": [
+    "break even",
+    "break-even point",
+    "cover costs",
+    "breakeven analysis"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 17L17 7",
+      "closed": false
+    },
+    {
+      "d": "M7 9L15 17",
+      "closed": false
+    }
+  ]
+}

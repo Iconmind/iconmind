@@ -1,0 +1,33 @@
+{
+  "slug": "invoice-paid",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Invoice paid",
+  "description": "The envelope with a check on its note — the bill sent out, and settled",
+  "tags": [
+    "invoice",
+    "paid",
+    "settled"
+  ],
+  "keywords": [
+    "invoice paid",
+    "paid invoice",
+    "invoice settled",
+    "payment received"
+  ],
+  "family": "envelope",
+  "shapes": [
+    {
+      "d": "M2 11L2 21L22 21L22 11L12 21Z",
+      "closed": true
+    },
+    {
+      "d": "M5 14L5 3L19 3L19 14",
+      "closed": false
+    },
+    {
+      "d": "M9 9L11 11L15 7",
+      "closed": false
+    }
+  ]
+}

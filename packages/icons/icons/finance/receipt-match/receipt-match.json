@@ -1,0 +1,34 @@
+{
+  "slug": "receipt-match",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Receipt match",
+  "description": "A receipt with two rings linked on it — matched to the payment it belongs to",
+  "tags": [
+    "match",
+    "reconcile",
+    "receipt"
+  ],
+  "keywords": [
+    "receipt match",
+    "match receipt",
+    "receipt reconciliation",
+    "match to transaction"
+  ],
+  "family": "receipt",
+  "shapes": [
+    {
+      "d": "M6 2H18A2 2 0 0 1 20 4V19L18 17L16 19L14 17L12 19L10 17L8 19L6 17L4 19V4A2 2 0 0 1 6 2Z",
+      "closed": true,
+      "_why": "a receipt: a rounded head and a foot torn along a zigzag"
+    },
+    {
+      "d": "M8.5 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11.5 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

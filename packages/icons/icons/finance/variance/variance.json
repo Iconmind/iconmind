@@ -1,0 +1,37 @@
+{
+  "slug": "variance",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Variance",
+  "description": "A chart with a line straying from the flat one — the plan, and what actually happened",
+  "tags": [
+    "variance",
+    "difference",
+    "plan"
+  ],
+  "keywords": [
+    "variance",
+    "budget variance",
+    "plan vs actual difference",
+    "deviation"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 12H19",
+      "closed": false
+    },
+    {
+      "d": "M7 17L19 5",
+      "closed": false
+    }
+  ]
+}

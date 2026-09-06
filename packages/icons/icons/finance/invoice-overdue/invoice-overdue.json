@@ -1,0 +1,33 @@
+{
+  "slug": "invoice-overdue",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Invoice overdue",
+  "description": "The envelope with an hourglass on its note — the bill sent out, its time run out",
+  "tags": [
+    "invoice",
+    "overdue",
+    "late"
+  ],
+  "keywords": [
+    "invoice overdue",
+    "overdue invoice",
+    "late payment",
+    "unpaid invoice"
+  ],
+  "family": "envelope",
+  "shapes": [
+    {
+      "d": "M2 11L2 21L22 21L22 11L12 21Z",
+      "closed": true
+    },
+    {
+      "d": "M5 14L5 3L19 3L19 14",
+      "closed": false
+    },
+    {
+      "d": "M9.5 6.5L14.5 6.5L9.5 11.5L14.5 11.5Z",
+      "closed": true
+    }
+  ]
+}

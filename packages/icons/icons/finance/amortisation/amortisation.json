@@ -1,0 +1,36 @@
+{
+  "slug": "amortisation",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Amortisation",
+  "description": "A chart with a line falling straight — a cost spread evenly over the years",
+  "tags": [
+    "amortisation",
+    "spread",
+    "schedule"
+  ],
+  "aliases": [
+    "amortization"
+  ],
+  "keywords": [
+    "amortisation",
+    "amortization",
+    "amortisation schedule",
+    "spread cost"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 7L18 18",
+      "closed": false
+    }
+  ]
+}

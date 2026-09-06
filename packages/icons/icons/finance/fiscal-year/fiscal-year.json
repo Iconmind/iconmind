@@ -1,0 +1,44 @@
+{
+  "slug": "fiscal-year",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Fiscal year",
+  "description": "The calendar with a stone on it — the company's own year",
+  "tags": [
+    "fiscal",
+    "year",
+    "period"
+  ],
+  "aliases": [
+    "financial-year"
+  ],
+  "keywords": [
+    "fiscal year",
+    "financial year",
+    "accounting year",
+    "fy"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V18A3 3 0 0 1 18 21H6A3 3 0 0 1 3 18V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M3 10H21",
+      "closed": false
+    },
+    {
+      "d": "M8 2.5V5",
+      "closed": false
+    },
+    {
+      "d": "M16 2.5V5",
+      "closed": false
+    },
+    {
+      "d": "M12 13.5L14 15.5L12 17.5L10 15.5Z",
+      "closed": true
+    }
+  ]
+}

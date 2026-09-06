@@ -1,0 +1,33 @@
+{
+  "slug": "journal-entry",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Journal entry",
+  "description": "The book with a pencil stroke on its page — a transaction written in",
+  "tags": [
+    "journal",
+    "entry",
+    "record"
+  ],
+  "keywords": [
+    "journal entry",
+    "post entry",
+    "book entry",
+    "record transaction"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V21",
+      "closed": false
+    },
+    {
+      "d": "M11 17L17 11",
+      "closed": false
+    }
+  ]
+}

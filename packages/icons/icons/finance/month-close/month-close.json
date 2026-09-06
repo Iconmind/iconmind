@@ -1,0 +1,33 @@
+{
+  "slug": "month-close",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Month close",
+  "description": "The book with a check on its page — the month's books done",
+  "tags": [
+    "close",
+    "month",
+    "period"
+  ],
+  "keywords": [
+    "month close",
+    "month-end close",
+    "close the month",
+    "period close"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V21",
+      "closed": false
+    },
+    {
+      "d": "M11 12L13 14L17 10",
+      "closed": false
+    }
+  ]
+}

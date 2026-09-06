@@ -1,0 +1,44 @@
+{
+  "slug": "tax-return",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Tax return",
+  "description": "The book with a percent on its page — the year's tax worked out and sent",
+  "tags": [
+    "tax",
+    "return",
+    "filing"
+  ],
+  "aliases": [
+    "tax-filing"
+  ],
+  "keywords": [
+    "tax return",
+    "file taxes",
+    "tax filing",
+    "annual return"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V21",
+      "closed": false
+    },
+    {
+      "d": "M10.5 9.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 15L17 9",
+      "closed": false
+    },
+    {
+      "d": "M15.5 14.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

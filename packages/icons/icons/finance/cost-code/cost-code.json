@@ -1,0 +1,38 @@
+{
+  "slug": "cost-code",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Cost code",
+  "description": "The money bag with a hash in it — which pot a cost is booked to",
+  "tags": [
+    "code",
+    "category",
+    "allocation"
+  ],
+  "keywords": [
+    "cost code",
+    "cost centre",
+    "expense code",
+    "gl code"
+  ],
+  "family": "bag",
+  "shapes": [
+    {
+      "d": "M9.5 4H14.5V6.5L18 10A7 7 0 1 1 6 10L9.5 6.5Z",
+      "closed": true,
+      "_why": "a money bag: a tied neck, shoulders at 45°, and one round belly, one path"
+    },
+    {
+      "d": "M10 12V18",
+      "closed": false
+    },
+    {
+      "d": "M14 12V18",
+      "closed": false
+    },
+    {
+      "d": "M8 15H16",
+      "closed": false
+    }
+  ]
+}

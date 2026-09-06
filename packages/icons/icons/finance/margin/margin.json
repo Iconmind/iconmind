@@ -1,0 +1,33 @@
+{
+  "slug": "margin",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Margin",
+  "description": "A coin with a quarter cut away — the share of the price that is kept",
+  "tags": [
+    "margin",
+    "share",
+    "profit"
+  ],
+  "keywords": [
+    "margin",
+    "profit margin",
+    "gross margin",
+    "margin percent"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M21 12A9 9 0 1 1 12 3",
+      "closed": false
+    },
+    {
+      "d": "M12 12H21",
+      "closed": false
+    },
+    {
+      "d": "M12 3V12",
+      "closed": false
+    }
+  ]
+}

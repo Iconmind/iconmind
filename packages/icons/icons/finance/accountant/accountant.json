@@ -1,0 +1,41 @@
+{
+  "slug": "accountant",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Accountant",
+  "description": "A person with a percent on the chest — the one who makes the numbers agree",
+  "tags": [
+    "accountant",
+    "numbers",
+    "person"
+  ],
+  "keywords": [
+    "accountant",
+    "cpa",
+    "chartered accountant",
+    "finance professional"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A9 9 0 0 1 21 21",
+      "closed": false
+    },
+    {
+      "d": "M8.5 14.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 20L15 14",
+      "closed": false
+    },
+    {
+      "d": "M13.5 19.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

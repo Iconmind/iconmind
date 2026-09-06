@@ -82,6 +82,8 @@ const ANCHORED = new Set([
   "finance/investment-goal",
   // an ear of wheat carries its grain at the top of the stalk
   "finance/yield",
+  // charts on their axes: the ink sits where the axes and the baseline are
+  "finance/amortisation", "finance/budget-vs-actual",
   // a tray's mark hangs above the tray, as with the rest of the tray family
   "commerce/order-fulfil",
   // a stepped cake: the candle is its top, the tiers its weight - it stands on the frame floor

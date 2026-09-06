@@ -1,0 +1,41 @@
+{
+  "slug": "forecast-cash",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Cash forecast",
+  "description": "A chart with a line that carries on in dashes — the cash to come, as a guess",
+  "tags": [
+    "forecast",
+    "projection",
+    "cash"
+  ],
+  "keywords": [
+    "cash forecast",
+    "cash flow forecast",
+    "projection",
+    "projected cash"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M7 17L11 13",
+      "closed": false
+    },
+    {
+      "d": "M13 11L15 9",
+      "closed": false
+    },
+    {
+      "d": "M17 7L19 5",
+      "closed": false
+    }
+  ]
+}

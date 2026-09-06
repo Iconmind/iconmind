@@ -1,0 +1,33 @@
+{
+  "slug": "depreciation",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Depreciation",
+  "description": "A chart with a line stepping down — worth a little less each year",
+  "tags": [
+    "depreciation",
+    "asset",
+    "decline"
+  ],
+  "keywords": [
+    "depreciation",
+    "asset depreciation",
+    "write down",
+    "declining value"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    },
+    {
+      "d": "M6 6L9 6L9 9.5L12 9.5L12 13L15 13L15 16.5L18 16.5",
+      "closed": false
+    }
+  ]
+}

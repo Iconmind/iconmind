@@ -1,0 +1,49 @@
+{
+  "slug": "tax-year",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Tax year",
+  "description": "The calendar with a percent on it — the year the tax office counts by",
+  "tags": [
+    "tax",
+    "year",
+    "period"
+  ],
+  "keywords": [
+    "tax year",
+    "tax period",
+    "assessment year",
+    "tax calendar"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V18A3 3 0 0 1 18 21H6A3 3 0 0 1 3 18V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M3 10H21",
+      "closed": false
+    },
+    {
+      "d": "M8 2.5V5",
+      "closed": false
+    },
+    {
+      "d": "M16 2.5V5",
+      "closed": false
+    },
+    {
+      "d": "M8.5 13.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 17.5L14.5 12.5",
+      "closed": false
+    },
+    {
+      "d": "M13.5 16.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

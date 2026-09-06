@@ -1,0 +1,37 @@
+{
+  "slug": "budget-vs-actual",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Budget vs actual",
+  "description": "Two bars on a baseline, a line over the shorter one — what was planned, and what was spent",
+  "tags": [
+    "budget",
+    "actual",
+    "compare"
+  ],
+  "keywords": [
+    "budget vs actual",
+    "plan vs actual",
+    "budget comparison",
+    "spend against budget"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 20H21",
+      "closed": false
+    },
+    {
+      "d": "M5 20L5 8L10 8L10 20",
+      "closed": false
+    },
+    {
+      "d": "M14 20L14 14L19 14L19 20",
+      "closed": false
+    },
+    {
+      "d": "M13 8H20",
+      "closed": false
+    }
+  ]
+}

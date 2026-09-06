@@ -1,0 +1,29 @@
+{
+  "slug": "markup",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Markup",
+  "description": "A bar with a thinner bar laid on it — what is added to the cost to make the price",
+  "tags": [
+    "markup",
+    "added",
+    "price"
+  ],
+  "keywords": [
+    "markup",
+    "price markup",
+    "cost plus",
+    "markup percent"
+  ],
+  "family": "bar",
+  "shapes": [
+    {
+      "d": "M3 14A2 2 0 0 1 5 12H19A2 2 0 0 1 21 14V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7A2 2 0 0 1 5 5H19A2 2 0 0 1 21 7V7A2 2 0 0 1 19 9H5A2 2 0 0 1 3 7Z",
+      "closed": true
+    }
+  ]
+}

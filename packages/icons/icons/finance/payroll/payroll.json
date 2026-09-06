@@ -1,0 +1,37 @@
+{
+  "slug": "payroll",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Payroll",
+  "description": "A briefcase with a coin in it — the wages, carried to everyone",
+  "tags": [
+    "payroll",
+    "wages",
+    "salaries"
+  ],
+  "keywords": [
+    "payroll",
+    "wages",
+    "salaries",
+    "pay staff"
+  ],
+  "family": "briefcase",
+  "shapes": [
+    {
+      "d": "M3 11A2 2 0 0 1 5 9H19A2 2 0 0 1 21 11V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M9 9L9 5L15 5L15 9",
+      "closed": false
+    },
+    {
+      "d": "M9 14.5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12.5V16.5",
+      "closed": false
+    }
+  ]
+}

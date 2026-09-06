@@ -1,0 +1,45 @@
+{
+  "slug": "chart-of-accounts",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Chart of accounts",
+  "description": "The book with a tree of headings — every account, and how they nest",
+  "tags": [
+    "accounts",
+    "structure",
+    "list"
+  ],
+  "keywords": [
+    "chart of accounts",
+    "account list",
+    "account structure",
+    "coa"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V21",
+      "closed": false
+    },
+    {
+      "d": "M11 7V17",
+      "closed": false
+    },
+    {
+      "d": "M11 10H16",
+      "closed": false
+    },
+    {
+      "d": "M11 13.5H16",
+      "closed": false
+    },
+    {
+      "d": "M11 17H16",
+      "closed": false
+    }
+  ]
+}

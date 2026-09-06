@@ -1,0 +1,45 @@
+{
+  "slug": "deferred",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Deferred",
+  "description": "The calendar with an arrow moving on — money counted in a later period",
+  "tags": [
+    "deferred",
+    "later",
+    "postpone"
+  ],
+  "keywords": [
+    "deferred",
+    "deferred revenue",
+    "deferred expense",
+    "prepayment"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V18A3 3 0 0 1 18 21H6A3 3 0 0 1 3 18V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M3 10H21",
+      "closed": false
+    },
+    {
+      "d": "M8 2.5V5",
+      "closed": false
+    },
+    {
+      "d": "M16 2.5V5",
+      "closed": false
+    },
+    {
+      "d": "M7 15.5H17",
+      "closed": false
+    },
+    {
+      "d": "M14.5 13L17 15.5L14.5 18",
+      "closed": false
+    }
+  ]
+}

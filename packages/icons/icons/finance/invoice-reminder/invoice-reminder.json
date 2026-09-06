@@ -1,0 +1,37 @@
+{
+  "slug": "invoice-reminder",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Invoice reminder",
+  "description": "The envelope with a flag on its note — the bill sent out, and sent again",
+  "tags": [
+    "invoice",
+    "reminder",
+    "chase"
+  ],
+  "keywords": [
+    "invoice reminder",
+    "payment reminder",
+    "chase invoice",
+    "dunning"
+  ],
+  "family": "envelope",
+  "shapes": [
+    {
+      "d": "M2 11L2 21L22 21L22 11L12 21Z",
+      "closed": true
+    },
+    {
+      "d": "M5 14L5 3L19 3L19 14",
+      "closed": false
+    },
+    {
+      "d": "M9 6V12",
+      "closed": false
+    },
+    {
+      "d": "M9 7L14 7L14 11L9 11",
+      "closed": false
+    }
+  ]
+}

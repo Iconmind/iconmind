@@ -1,0 +1,33 @@
+{
+  "slug": "purchase-invoice",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Purchase invoice",
+  "description": "A receipt with a box on it — the bill for what was bought in",
+  "tags": [
+    "purchase",
+    "supplier",
+    "bill"
+  ],
+  "aliases": [
+    "supplier-invoice"
+  ],
+  "keywords": [
+    "purchase invoice",
+    "supplier invoice",
+    "bill received",
+    "accounts payable"
+  ],
+  "family": "receipt",
+  "shapes": [
+    {
+      "d": "M6 2H18A2 2 0 0 1 20 4V19L18 17L16 19L14 17L12 19L10 17L8 19L6 17L4 19V4A2 2 0 0 1 6 2Z",
+      "closed": true,
+      "_why": "a receipt: a rounded head and a foot torn along a zigzag"
+    },
+    {
+      "d": "M9 7L15 7L15 13L9 13Z",
+      "closed": true
+    }
+  ]
+}

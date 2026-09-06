@@ -1,0 +1,37 @@
+{
+  "slug": "double-entry",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Double entry",
+  "description": "The T-account with an entry on each side — every amount written twice",
+  "tags": [
+    "entries",
+    "pairs",
+    "bookkeeping"
+  ],
+  "keywords": [
+    "double entry",
+    "double-entry bookkeeping",
+    "two entries",
+    "balanced entry"
+  ],
+  "family": "t-account",
+  "shapes": [
+    {
+      "d": "M3 5H21",
+      "closed": false
+    },
+    {
+      "d": "M12 5V21",
+      "closed": false
+    },
+    {
+      "d": "M5 10H9.5",
+      "closed": false
+    },
+    {
+      "d": "M14.5 14H19",
+      "closed": false
+    }
+  ]
+}

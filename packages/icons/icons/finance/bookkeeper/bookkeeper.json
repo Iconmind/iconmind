@@ -1,0 +1,33 @@
+{
+  "slug": "bookkeeper",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Bookkeeper",
+  "description": "A person with a pen stroke on the chest — the one who writes it all down",
+  "tags": [
+    "bookkeeper",
+    "records",
+    "person"
+  ],
+  "keywords": [
+    "bookkeeper",
+    "bookkeeping",
+    "record keeper",
+    "clerk"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A9 9 0 0 1 21 21",
+      "closed": false
+    },
+    {
+      "d": "M9 20L15 14",
+      "closed": false
+    }
+  ]
+}

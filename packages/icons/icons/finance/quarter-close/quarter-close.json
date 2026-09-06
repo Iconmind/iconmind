@@ -1,0 +1,37 @@
+{
+  "slug": "quarter-close",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Quarter close",
+  "description": "The book with a padlock on its page — the quarter shut, nothing more written",
+  "tags": [
+    "close",
+    "quarter",
+    "lock"
+  ],
+  "keywords": [
+    "quarter close",
+    "quarter-end close",
+    "close the quarter",
+    "lock period"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V21",
+      "closed": false
+    },
+    {
+      "d": "M11 14L17 14L17 17L11 17Z",
+      "closed": true
+    },
+    {
+      "d": "M12.5 14A1.5 1.5 0 0 1 15.5 14",
+      "closed": false
+    }
+  ]
+}

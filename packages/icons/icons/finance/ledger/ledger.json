@@ -1,0 +1,40 @@
+{
+  "slug": "ledger",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Ledger",
+  "description": "The book ruled into columns — every account, line by line",
+  "tags": [
+    "book",
+    "accounts",
+    "records"
+  ],
+  "aliases": [
+    "general-ledger"
+  ],
+  "keywords": [
+    "ledger",
+    "general ledger",
+    "account book",
+    "books"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V21",
+      "closed": false
+    },
+    {
+      "d": "M14 6V18",
+      "closed": false
+    },
+    {
+      "d": "M10 12H18",
+      "closed": false
+    }
+  ]
+}

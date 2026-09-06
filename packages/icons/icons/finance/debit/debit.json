@@ -1,0 +1,33 @@
+{
+  "slug": "debit",
+  "category": "finance",
+  "subcategory": "accounting",
+  "name": "Debit",
+  "description": "The T-account with an entry on its left — what came in",
+  "tags": [
+    "entry",
+    "left",
+    "bookkeeping"
+  ],
+  "keywords": [
+    "debit",
+    "debit entry",
+    "dr",
+    "left side"
+  ],
+  "family": "t-account",
+  "shapes": [
+    {
+      "d": "M3 5H21",
+      "closed": false
+    },
+    {
+      "d": "M12 5V21",
+      "closed": false
+    },
+    {
+      "d": "M5.5 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}
