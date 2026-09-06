@@ -21,19 +21,20 @@
   "family": "slip",
   "shapes": [
     {
-      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
-      "closed": true
+      "d": "M4 5H18L22 9V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17V7A2 2 0 0 1 4 5ZM18 5V9H22",
+      "closed": false,
+      "_why": "a slip: a wide sheet with its top-right corner folded over"
     },
     {
       "d": "M5 9H11",
       "closed": false
     },
     {
-      "d": "M16 9V15",
+      "d": "M13 9V15",
       "closed": false
     },
     {
-      "d": "M13.5 12.5L16 15L18.5 12.5",
+      "d": "M10.5 12.5L13 15L15.5 12.5",
       "closed": false
     }
   ]

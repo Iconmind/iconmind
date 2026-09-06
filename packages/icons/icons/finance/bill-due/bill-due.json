@@ -1,0 +1,38 @@
+{
+  "slug": "bill-due",
+  "category": "finance",
+  "subcategory": "wallet",
+  "name": "Bill due",
+  "description": "A slip with a clock on it — a bill whose day is coming",
+  "tags": [
+    "bill",
+    "due",
+    "date"
+  ],
+  "keywords": [
+    "bill due",
+    "payment due",
+    "due date",
+    "upcoming bill"
+  ],
+  "family": "slip",
+  "shapes": [
+    {
+      "d": "M4 5H18L22 9V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17V7A2 2 0 0 1 4 5ZM18 5V9H22",
+      "closed": false,
+      "_why": "a slip: a wide sheet with its top-right corner folded over"
+    },
+    {
+      "d": "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9V12",
+      "closed": false
+    },
+    {
+      "d": "M12 12H14.5",
+      "closed": false
+    }
+  ]
+}

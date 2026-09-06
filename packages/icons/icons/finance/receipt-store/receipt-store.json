@@ -1,0 +1,30 @@
+{
+  "slug": "receipt-store",
+  "category": "finance",
+  "subcategory": "wallet",
+  "name": "Store receipt",
+  "description": "A receipt with a bookmark on it — kept for later",
+  "tags": [
+    "store",
+    "keep",
+    "archive"
+  ],
+  "keywords": [
+    "store receipt",
+    "keep receipt",
+    "save receipt",
+    "receipt archive"
+  ],
+  "family": "receipt",
+  "shapes": [
+    {
+      "d": "M6 2H18A2 2 0 0 1 20 4V19L18 17L16 19L14 17L12 19L10 17L8 19L6 17L4 19V4A2 2 0 0 1 6 2Z",
+      "closed": true,
+      "_why": "a receipt: a rounded head and a foot torn along a zigzag"
+    },
+    {
+      "d": "M10 7L14 7L14 13L12 11L10 13Z",
+      "closed": true
+    }
+  ]
+}

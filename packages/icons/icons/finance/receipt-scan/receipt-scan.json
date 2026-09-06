@@ -1,0 +1,30 @@
+{
+  "slug": "receipt-scan",
+  "category": "finance",
+  "subcategory": "wallet",
+  "name": "Scan receipt",
+  "description": "A receipt with a scan line across it — read in from paper",
+  "tags": [
+    "scan",
+    "capture",
+    "ocr"
+  ],
+  "keywords": [
+    "scan receipt",
+    "receipt scanner",
+    "capture receipt",
+    "photograph receipt"
+  ],
+  "family": "receipt",
+  "shapes": [
+    {
+      "d": "M6 2H18A2 2 0 0 1 20 4V19L18 17L16 19L14 17L12 19L10 17L8 19L6 17L4 19V4A2 2 0 0 1 6 2Z",
+      "closed": true,
+      "_why": "a receipt: a rounded head and a foot torn along a zigzag"
+    },
+    {
+      "d": "M4 10H20",
+      "closed": false
+    }
+  ]
+}

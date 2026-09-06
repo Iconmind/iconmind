@@ -1,0 +1,41 @@
+{
+  "slug": "emergency-fund",
+  "category": "finance",
+  "subcategory": "wallet",
+  "name": "Emergency fund",
+  "description": "A jar with an exclamation in it — the pot for when things go wrong",
+  "tags": [
+    "emergency",
+    "reserve",
+    "safety"
+  ],
+  "aliases": [
+    "rainy-day-fund"
+  ],
+  "keywords": [
+    "emergency fund",
+    "rainy day fund",
+    "safety net",
+    "reserve savings"
+  ],
+  "family": "jar",
+  "shapes": [
+    {
+      "d": "M6 9H18V19A3 3 0 0 1 15 22H9A3 3 0 0 1 6 19Z",
+      "closed": true,
+      "_why": "a jar: square shoulders, a rounded foot"
+    },
+    {
+      "d": "M8 9L8 4L16 4L16 9",
+      "closed": false
+    },
+    {
+      "d": "M12 12.5V15.5",
+      "closed": false
+    },
+    {
+      "d": "M11 18.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "utility-bill",
+  "category": "finance",
+  "subcategory": "wallet",
+  "name": "Utility bill",
+  "description": "A slip with a bolt on it — the bill for power, water and gas",
+  "tags": [
+    "utility",
+    "energy",
+    "bill"
+  ],
+  "aliases": [
+    "energy-bill"
+  ],
+  "keywords": [
+    "utility bill",
+    "electricity bill",
+    "energy bill",
+    "gas bill"
+  ],
+  "family": "slip",
+  "shapes": [
+    {
+      "d": "M4 5H18L22 9V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17V7A2 2 0 0 1 4 5ZM18 5V9H22",
+      "closed": false,
+      "_why": "a slip: a wide sheet with its top-right corner folded over"
+    },
+    {
+      "d": "M15 9L12 12L14.5 12L11.5 15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "mortgage",
+  "category": "finance",
+  "subcategory": "wallet",
+  "name": "Mortgage",
+  "description": "A house with a percent in it — the loan the house is bought with",
+  "tags": [
+    "mortgage",
+    "house",
+    "loan"
+  ],
+  "aliases": [
+    "home-loan"
+  ],
+  "keywords": [
+    "mortgage",
+    "home loan",
+    "mortgage rate",
+    "house payment"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 11L12 2L21 11",
+      "closed": false
+    },
+    {
+      "d": "M6 11L6 21L18 21L18 11",
+      "closed": false
+    },
+    {
+      "d": "M9 13.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 17.5L14.5 12.5",
+      "closed": false
+    },
+    {
+      "d": "M13 16.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

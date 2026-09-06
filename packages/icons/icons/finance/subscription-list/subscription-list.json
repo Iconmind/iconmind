@@ -1,0 +1,41 @@
+{
+  "slug": "subscription-list",
+  "category": "finance",
+  "subcategory": "wallet",
+  "name": "Subscription list",
+  "description": "The payment card with a list under the band — everything charged every month",
+  "tags": [
+    "subscriptions",
+    "list",
+    "recurring"
+  ],
+  "keywords": [
+    "subscription list",
+    "my subscriptions",
+    "recurring charges",
+    "manage subscriptions"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M9 11H15",
+      "closed": false
+    },
+    {
+      "d": "M9 14H15",
+      "closed": false
+    },
+    {
+      "d": "M9 17H15",
+      "closed": false
+    }
+  ]
+}

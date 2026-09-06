@@ -1,0 +1,32 @@
+{
+  "slug": "coins",
+  "category": "finance",
+  "subcategory": "wallet",
+  "name": "Coins",
+  "description": "Two coins, one over the other",
+  "tags": [
+    "money",
+    "change",
+    "currency"
+  ],
+  "aliases": [
+    "coin"
+  ],
+  "keywords": [
+    "coins",
+    "coin",
+    "loose change",
+    "currency coins"
+  ],
+  "family": "coin",
+  "shapes": [
+    {
+      "d": "M4 13a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 11a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    }
+  ]
+}

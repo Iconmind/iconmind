@@ -1,0 +1,41 @@
+{
+  "slug": "loan",
+  "category": "finance",
+  "subcategory": "wallet",
+  "name": "Loan",
+  "description": "A slip with an arrow each way — money lent, money owed back",
+  "tags": [
+    "loan",
+    "borrow",
+    "lend"
+  ],
+  "aliases": [
+    "borrow"
+  ],
+  "keywords": [
+    "loan",
+    "borrow money",
+    "personal loan",
+    "lending"
+  ],
+  "family": "slip",
+  "shapes": [
+    {
+      "d": "M4 5H18L22 9V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17V7A2 2 0 0 1 4 5ZM18 5V9H22",
+      "closed": false,
+      "_why": "a slip: a wide sheet with its top-right corner folded over"
+    },
+    {
+      "d": "M8 12H16",
+      "closed": false
+    },
+    {
+      "d": "M10.5 9.5L8 12L10.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M13.5 9.5L16 12L13.5 14.5",
+      "closed": false
+    }
+  ]
+}

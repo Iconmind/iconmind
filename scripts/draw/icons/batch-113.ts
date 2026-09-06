@@ -3,7 +3,7 @@
  * pot a saver puts money into.
  *
  * Four bodies this domain brings. The bank is a portico: a pediment on two columns over
- * a floor; what the bank does stands between the columns. The slip is a wide sheet —
+ * a floor; what the bank does stands between the columns. The slip is a wide sheet with a folded corner —
  * the cheque, the statement, the number on a page — with its content in the middle.
  * The piggy bank is a round pig with a snout and a slot. The jar is borrowed from
  * the commerce rounds. The payment card from R22 carries the card icons.
@@ -27,8 +27,8 @@ const c = (
 
 /** The bank: a pediment on a beam carried by two columns over a floor, drawn as one path. Between the columns is x 6..18, y 10..20; marks at cy 15. */
 const BANK = () => raw("M2 21H22M5 21V9M19 21V9M2 9H22M5 9L10.5 3.5H13.5L19 9", "a portico: floor, two columns, the beam across them and the pediment on the beam, one path so the corners meet", false);
-/** The slip: a wide sheet. The hollow is x 3..21, y 6..18; marks at cy 12. */
-const SLIP = () => rect(2, 5, 20, 14, 2);
+/** The slip: a wide sheet with a folded corner. The hollow is x 3..21, y 6..18, clear of the fold above x 18; marks at cy 12. */
+const SLIP = () => raw("M4 5H18L22 9V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17V7A2 2 0 0 1 4 5ZM18 5V9H22", "a slip: a wide sheet with its top-right corner folded over", false);
 /** The payment card: a card with its band across the top. Marks at cy 14. */
 const CARD = () => [rect(2, 3, 20, 18, 2), row(7, 3, 21)];
 /** A jar: a body rounded at the foot, a lid narrower than the body. The hollow is x 7..17, y 10..21; marks at cy 15.5. */
@@ -139,10 +139,10 @@ export const BATCH_113: Icon[] = [
     "slip", [SLIP(), row(9, 5, 11), row(15.5, 13, 19)]),
   c("cheque-deposit", "Cheque deposit", "A slip with a name line and an arrow dropping — the cheque paid in",
     ["cheque", "deposit", "scan"], ["check-deposit"], ["cheque deposit", "deposit a check", "mobile cheque deposit", "pay in cheque"],
-    "slip", [SLIP(), row(9, 5, 11), col(16, 9, 15), poly([[13.5, 12.5], [16, 15], [18.5, 12.5]])]),
-  c("account-statement", "Account statement", "A slip with three full lines — every transaction, month by month",
+    "slip", [SLIP(), row(9, 5, 11), col(13, 9, 15), poly([[10.5, 12.5], [13, 15], [15.5, 12.5]])]),
+  c("account-statement", "Account statement", "A slip with three lines — every transaction, month by month",
     ["statement", "history", "transactions"], [], ["account statement", "bank statement", "transaction history", "monthly statement"],
-    "slip", [SLIP(), row(9, 6, 18), row(12, 6, 18), row(15, 6, 18)]),
+    "slip", [SLIP(), row(9, 6, 15), row(12, 6, 15), row(15, 6, 18)]),
   c("sort-code", "Sort code", "A slip with a hash on it — the number that names the branch",
     ["sort", "routing", "branch"], ["routing-number"], ["sort code", "routing number", "bank code", "branch code"],
     "slip", [SLIP(), ...HASH(12)]),

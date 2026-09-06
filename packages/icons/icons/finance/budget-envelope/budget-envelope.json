@@ -1,0 +1,40 @@
+{
+  "slug": "budget-envelope",
+  "category": "finance",
+  "subcategory": "wallet",
+  "name": "Budget envelope",
+  "description": "An envelope with a note standing in it and a coin on the note — the cash set aside for one thing",
+  "tags": [
+    "envelope",
+    "cash",
+    "allocate"
+  ],
+  "aliases": [
+    "cash-envelope"
+  ],
+  "keywords": [
+    "budget envelope",
+    "cash envelope",
+    "envelope budgeting",
+    "envelope system"
+  ],
+  "family": "envelope",
+  "shapes": [
+    {
+      "d": "M2 11L2 21L22 21L22 11L12 21Z",
+      "closed": true
+    },
+    {
+      "d": "M5 14L5 3L19 3L19 14",
+      "closed": false
+    },
+    {
+      "d": "M9 9a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 7V11",
+      "closed": false
+    }
+  ]
+}

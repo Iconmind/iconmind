@@ -1,0 +1,45 @@
+{
+  "slug": "salary",
+  "category": "finance",
+  "subcategory": "wallet",
+  "name": "Salary",
+  "description": "The calendar with a banknote on it — the money that comes on the day",
+  "tags": [
+    "salary",
+    "pay",
+    "wage"
+  ],
+  "aliases": [
+    "wages",
+    "payday"
+  ],
+  "keywords": [
+    "salary",
+    "wages",
+    "payday",
+    "monthly pay"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V18A3 3 0 0 1 18 21H6A3 3 0 0 1 3 18V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M3 10H21",
+      "closed": false
+    },
+    {
+      "d": "M8 2.5V5",
+      "closed": false
+    },
+    {
+      "d": "M16 2.5V5",
+      "closed": false
+    },
+    {
+      "d": "M7 13L17 13L17 18L7 18Z",
+      "closed": true
+    }
+  ]
+}

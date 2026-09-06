@@ -1,0 +1,38 @@
+{
+  "slug": "allowance",
+  "category": "finance",
+  "subcategory": "wallet",
+  "name": "Allowance",
+  "description": "A banknote with a heart on it — money given, not earned",
+  "tags": [
+    "allowance",
+    "given",
+    "family"
+  ],
+  "keywords": [
+    "allowance",
+    "pocket money allowance",
+    "stipend",
+    "monthly allowance"
+  ],
+  "family": "banknote",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M18.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M9 12A1.5 1.5 0 0 1 12 12A1.5 1.5 0 0 1 15 12L12 15Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
+    }
+  ]
+}

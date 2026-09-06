@@ -1,0 +1,38 @@
+{
+  "slug": "pocket-money",
+  "category": "finance",
+  "subcategory": "wallet",
+  "name": "Pocket money",
+  "description": "A patch pocket with a coin in it — a child's own money",
+  "tags": [
+    "pocket",
+    "child",
+    "coin"
+  ],
+  "keywords": [
+    "pocket money",
+    "kids money",
+    "child's allowance",
+    "spending money"
+  ],
+  "family": "pocket",
+  "shapes": [
+    {
+      "d": "M4 3V14A8 8 0 0 0 20 14V3Z",
+      "closed": true,
+      "_why": "a patch pocket: straight sides that run into one round foot"
+    },
+    {
+      "d": "M4 7H20",
+      "closed": false
+    },
+    {
+      "d": "M9 14a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12V16",
+      "closed": false
+    }
+  ]
+}

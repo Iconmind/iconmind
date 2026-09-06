@@ -1,0 +1,36 @@
+{
+  "slug": "change-coins",
+  "category": "finance",
+  "subcategory": "wallet",
+  "name": "Change",
+  "description": "Three small coins — what comes back after paying",
+  "tags": [
+    "change",
+    "small",
+    "coins"
+  ],
+  "aliases": [
+    "loose-change"
+  ],
+  "keywords": [
+    "change",
+    "loose change",
+    "small change",
+    "coins back"
+  ],
+  "family": "coin",
+  "shapes": [
+    {
+      "d": "M8.5 7.5a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2.5 17a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 17a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    }
+  ]
+}

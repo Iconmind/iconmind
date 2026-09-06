@@ -1,0 +1,48 @@
+{
+  "slug": "subscription-cancel",
+  "category": "finance",
+  "subcategory": "wallet",
+  "name": "Cancel subscription",
+  "description": "The calendar with the day struck out — no more of it",
+  "tags": [
+    "cancel",
+    "unsubscribe",
+    "stop"
+  ],
+  "aliases": [
+    "unsubscribe"
+  ],
+  "keywords": [
+    "cancel subscription",
+    "unsubscribe",
+    "stop subscription",
+    "end plan"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V18A3 3 0 0 1 18 21H6A3 3 0 0 1 3 18V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M3 10H21",
+      "closed": false
+    },
+    {
+      "d": "M8 2.5V5",
+      "closed": false
+    },
+    {
+      "d": "M16 2.5V5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 13L14.5 18",
+      "closed": false
+    },
+    {
+      "d": "M14.5 13L9.5 18",
+      "closed": false
+    }
+  ]
+}

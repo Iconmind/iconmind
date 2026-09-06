@@ -1,0 +1,44 @@
+{
+  "slug": "income",
+  "category": "finance",
+  "subcategory": "wallet",
+  "name": "Income",
+  "description": "A banknote with an arrow rising — money coming in",
+  "tags": [
+    "income",
+    "earnings",
+    "in"
+  ],
+  "aliases": [
+    "earnings"
+  ],
+  "keywords": [
+    "income",
+    "earnings",
+    "money in",
+    "revenue"
+  ],
+  "family": "banknote",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M18.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    },
+    {
+      "d": "M9.5 11.5L12 9L14.5 11.5",
+      "closed": false
+    }
+  ]
+}

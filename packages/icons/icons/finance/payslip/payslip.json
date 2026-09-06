@@ -1,0 +1,41 @@
+{
+  "slug": "payslip",
+  "category": "finance",
+  "subcategory": "wallet",
+  "name": "Payslip",
+  "description": "A slip with a line and an amount at its end — what was earned, and what was kept",
+  "tags": [
+    "payslip",
+    "pay",
+    "wage"
+  ],
+  "aliases": [
+    "pay-stub"
+  ],
+  "keywords": [
+    "payslip",
+    "pay stub",
+    "wage slip",
+    "salary statement"
+  ],
+  "family": "slip",
+  "shapes": [
+    {
+      "d": "M4 5H18L22 9V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17V7A2 2 0 0 1 4 5ZM18 5V9H22",
+      "closed": false,
+      "_why": "a slip: a wide sheet with its top-right corner folded over"
+    },
+    {
+      "d": "M6 9H15",
+      "closed": false
+    },
+    {
+      "d": "M6 13H12",
+      "closed": false
+    },
+    {
+      "d": "M15 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

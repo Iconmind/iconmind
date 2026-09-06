@@ -1,0 +1,33 @@
+{
+  "slug": "debt-payoff",
+  "category": "finance",
+  "subcategory": "wallet",
+  "name": "Debt paid off",
+  "description": "The wallet with a check in it — what was owed, cleared",
+  "tags": [
+    "paid",
+    "cleared",
+    "settled"
+  ],
+  "keywords": [
+    "debt paid off",
+    "pay off debt",
+    "debt free",
+    "debt cleared"
+  ],
+  "family": "wallet",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M22 9.5L15 9.5L15 14.5L22 14.5",
+      "closed": false
+    },
+    {
+      "d": "M6 12L8 14L11.5 10.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "wallet-empty",
+  "category": "finance",
+  "subcategory": "wallet",
+  "name": "Wallet empty",
+  "description": "The wallet with a nought in it — nothing left to spend",
+  "tags": [
+    "empty",
+    "zero",
+    "broke"
+  ],
+  "keywords": [
+    "wallet empty",
+    "no money",
+    "zero balance",
+    "out of funds"
+  ],
+  "family": "wallet",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M22 9.5L15 9.5L15 14.5L22 14.5",
+      "closed": false
+    },
+    {
+      "d": "M7 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

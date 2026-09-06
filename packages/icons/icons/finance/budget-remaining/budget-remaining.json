@@ -1,0 +1,33 @@
+{
+  "slug": "budget-remaining",
+  "category": "finance",
+  "subcategory": "wallet",
+  "name": "Budget remaining",
+  "description": "The budget envelope with a line partway up its note — how much of the budget is left",
+  "tags": [
+    "remaining",
+    "left",
+    "available"
+  ],
+  "keywords": [
+    "budget remaining",
+    "remaining budget",
+    "left to spend",
+    "budget left"
+  ],
+  "family": "envelope",
+  "shapes": [
+    {
+      "d": "M2 11L2 21L22 21L22 11L12 21Z",
+      "closed": true
+    },
+    {
+      "d": "M5 14L5 3L19 3L19 14",
+      "closed": false
+    },
+    {
+      "d": "M8 10H16",
+      "closed": false
+    }
+  ]
+}

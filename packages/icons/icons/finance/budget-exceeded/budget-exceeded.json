@@ -1,0 +1,40 @@
+{
+  "slug": "budget-exceeded",
+  "category": "finance",
+  "subcategory": "wallet",
+  "name": "Budget exceeded",
+  "description": "The budget envelope with an exclamation on its note — more spent than was set",
+  "tags": [
+    "exceeded",
+    "over",
+    "warning"
+  ],
+  "aliases": [
+    "over-budget"
+  ],
+  "keywords": [
+    "budget exceeded",
+    "over budget",
+    "overspent",
+    "budget warning"
+  ],
+  "family": "envelope",
+  "shapes": [
+    {
+      "d": "M2 11L2 21L22 21L22 11L12 21Z",
+      "closed": true
+    },
+    {
+      "d": "M5 14L5 3L19 3L19 14",
+      "closed": false
+    },
+    {
+      "d": "M12 6V9",
+      "closed": false
+    },
+    {
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "cash",
+  "category": "finance",
+  "subcategory": "wallet",
+  "name": "Cash",
+  "description": "A banknote with a coin on it — money in both its kinds",
+  "tags": [
+    "money",
+    "notes",
+    "coins"
+  ],
+  "keywords": [
+    "cash",
+    "money",
+    "notes and coins",
+    "physical money"
+  ],
+  "family": "banknote",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M18.5 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 10V14",
+      "closed": false
+    }
+  ]
+}

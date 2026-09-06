@@ -1,0 +1,42 @@
+{
+  "slug": "cash-flow",
+  "category": "finance",
+  "subcategory": "wallet",
+  "name": "Cash flow",
+  "description": "A slip with an arrow rising and an arrow falling — money in and money out",
+  "tags": [
+    "flow",
+    "in",
+    "out"
+  ],
+  "keywords": [
+    "cash flow",
+    "money in and out",
+    "inflow outflow",
+    "cashflow"
+  ],
+  "family": "slip",
+  "shapes": [
+    {
+      "d": "M4 5H18L22 9V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17V7A2 2 0 0 1 4 5ZM18 5V9H22",
+      "closed": false,
+      "_why": "a slip: a wide sheet with its top-right corner folded over"
+    },
+    {
+      "d": "M9 8V16",
+      "closed": false
+    },
+    {
+      "d": "M6.5 10.5L9 8L11.5 10.5",
+      "closed": false
+    },
+    {
+      "d": "M15 8V16",
+      "closed": false
+    },
+    {
+      "d": "M12.5 13.5L15 16L17.5 13.5",
+      "closed": false
+    }
+  ]
+}
