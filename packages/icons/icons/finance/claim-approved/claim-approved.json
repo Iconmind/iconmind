@@ -1,0 +1,41 @@
+{
+  "slug": "claim-approved",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Claim approved",
+  "description": "The umbrella with a check on its canopy — the claim accepted",
+  "tags": [
+    "claim",
+    "approved",
+    "accepted"
+  ],
+  "keywords": [
+    "claim approved",
+    "claim accepted",
+    "claim settled",
+    "approved claim"
+  ],
+  "family": "umbrella",
+  "shapes": [
+    {
+      "d": "M3 12A9 9 0 0 1 21 12",
+      "closed": false
+    },
+    {
+      "d": "M3 12H21",
+      "closed": false
+    },
+    {
+      "d": "M12 12V18",
+      "closed": false
+    },
+    {
+      "d": "M12 18A2 2 0 0 1 8 18",
+      "closed": false
+    },
+    {
+      "d": "M9.5 7.5L11.5 9.5L15 6",
+      "closed": false
+    }
+  ]
+}

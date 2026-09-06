@@ -1,0 +1,41 @@
+{
+  "slug": "identity-theft",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Identity theft",
+  "description": "An ID card with a person on it and a cross where the name was — someone else using your name",
+  "tags": [
+    "identity",
+    "theft",
+    "fraud"
+  ],
+  "keywords": [
+    "identity theft",
+    "id theft",
+    "stolen identity",
+    "identity fraud"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M6 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 15H11",
+      "closed": false
+    },
+    {
+      "d": "M14 9L19 14",
+      "closed": false
+    },
+    {
+      "d": "M19 9L14 14",
+      "closed": false
+    }
+  ]
+}

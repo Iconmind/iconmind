@@ -1,0 +1,40 @@
+{
+  "slug": "health-cover",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Health cover",
+  "description": "A cross under a canopy — the doctor's bill, paid",
+  "tags": [
+    "health",
+    "cover",
+    "medical"
+  ],
+  "aliases": [
+    "health-insurance"
+  ],
+  "keywords": [
+    "health cover",
+    "health insurance",
+    "medical insurance",
+    "private health"
+  ],
+  "family": "canopy",
+  "shapes": [
+    {
+      "d": "M4.5 9.5A7.5 7.5 0 0 1 19.5 9.5",
+      "closed": false
+    },
+    {
+      "d": "M4.5 9.5H19.5",
+      "closed": false
+    },
+    {
+      "d": "M12 13V19",
+      "closed": false
+    },
+    {
+      "d": "M9 16H15",
+      "closed": false
+    }
+  ]
+}

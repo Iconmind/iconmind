@@ -1,0 +1,37 @@
+{
+  "slug": "will",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Will",
+  "description": "A slip with a line and a signature — the last word on who gets what",
+  "tags": [
+    "will",
+    "testament",
+    "legacy"
+  ],
+  "aliases": [
+    "testament"
+  ],
+  "keywords": [
+    "will",
+    "last will",
+    "testament",
+    "make a will"
+  ],
+  "family": "slip",
+  "shapes": [
+    {
+      "d": "M4 5H18L22 9V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17V7A2 2 0 0 1 4 5ZM18 5V9H22",
+      "closed": false,
+      "_why": "a slip: a wide sheet with its top-right corner folded over"
+    },
+    {
+      "d": "M6 9H15",
+      "closed": false
+    },
+    {
+      "d": "M8 15L11 12L13 14L16 11",
+      "closed": false
+    }
+  ]
+}

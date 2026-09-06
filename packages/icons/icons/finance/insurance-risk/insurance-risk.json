@@ -1,0 +1,41 @@
+{
+  "slug": "insurance-risk",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Insurance risk",
+  "description": "The umbrella with a line rising on its canopy — the chance the cover is called on",
+  "tags": [
+    "risk",
+    "exposure",
+    "chance"
+  ],
+  "keywords": [
+    "insurance risk",
+    "risk exposure",
+    "risk rating",
+    "underwriting risk"
+  ],
+  "family": "umbrella",
+  "shapes": [
+    {
+      "d": "M3 12A9 9 0 0 1 21 12",
+      "closed": false
+    },
+    {
+      "d": "M3 12H21",
+      "closed": false
+    },
+    {
+      "d": "M12 12V18",
+      "closed": false
+    },
+    {
+      "d": "M12 18A2 2 0 0 1 8 18",
+      "closed": false
+    },
+    {
+      "d": "M9 10L11 8L13 10L15 8",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "claim-payout",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Claim payout",
+  "description": "The umbrella with an arrow leaving its canopy — the money paid out on the claim",
+  "tags": [
+    "claim",
+    "payout",
+    "settlement"
+  ],
+  "keywords": [
+    "claim payout",
+    "claim settlement",
+    "insurance payout",
+    "payment on claim"
+  ],
+  "family": "umbrella",
+  "shapes": [
+    {
+      "d": "M3 12A9 9 0 0 1 21 12",
+      "closed": false
+    },
+    {
+      "d": "M3 12H21",
+      "closed": false
+    },
+    {
+      "d": "M12 12V18",
+      "closed": false
+    },
+    {
+      "d": "M12 18A2 2 0 0 1 8 18",
+      "closed": false
+    },
+    {
+      "d": "M9 7.5H15",
+      "closed": false
+    },
+    {
+      "d": "M12.5 5L15 7.5L12.5 10",
+      "closed": false
+    }
+  ]
+}

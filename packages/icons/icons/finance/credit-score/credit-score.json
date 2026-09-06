@@ -1,0 +1,36 @@
+{
+  "slug": "credit-score",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Credit score",
+  "description": "The gauge with a stone on it — the number that says how far you are trusted",
+  "tags": [
+    "credit",
+    "score",
+    "rating"
+  ],
+  "aliases": [
+    "credit-rating"
+  ],
+  "keywords": [
+    "credit score",
+    "credit rating",
+    "fico score",
+    "creditworthiness"
+  ],
+  "family": "gauge",
+  "shapes": [
+    {
+      "d": "M3 16A9 9 0 0 1 21 16",
+      "closed": false
+    },
+    {
+      "d": "M3 16H21",
+      "closed": false
+    },
+    {
+      "d": "M12 8L14 10L12 12L10 10Z",
+      "closed": true
+    }
+  ]
+}

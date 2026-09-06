@@ -1,0 +1,36 @@
+{
+  "slug": "device-cover",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Device cover",
+  "description": "A phone under a canopy — the phone, covered",
+  "tags": [
+    "device",
+    "cover",
+    "gadget"
+  ],
+  "aliases": [
+    "phone-insurance"
+  ],
+  "keywords": [
+    "device cover",
+    "phone insurance",
+    "gadget insurance",
+    "device protection"
+  ],
+  "family": "canopy",
+  "shapes": [
+    {
+      "d": "M4.5 9.5A7.5 7.5 0 0 1 19.5 9.5",
+      "closed": false
+    },
+    {
+      "d": "M4.5 9.5H19.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 12.5L14.5 12.5L14.5 21L9.5 21Z",
+      "closed": true
+    }
+  ]
+}

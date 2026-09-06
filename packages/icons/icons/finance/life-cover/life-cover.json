@@ -1,0 +1,37 @@
+{
+  "slug": "life-cover",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Life cover",
+  "description": "A heart under a canopy — the people left behind, looked after",
+  "tags": [
+    "life",
+    "cover",
+    "family"
+  ],
+  "aliases": [
+    "life-insurance"
+  ],
+  "keywords": [
+    "life cover",
+    "life insurance",
+    "life assurance",
+    "death benefit"
+  ],
+  "family": "canopy",
+  "shapes": [
+    {
+      "d": "M4.5 9.5A7.5 7.5 0 0 1 19.5 9.5",
+      "closed": false
+    },
+    {
+      "d": "M4.5 9.5H19.5",
+      "closed": false
+    },
+    {
+      "d": "M9 16A1.5 1.5 0 0 1 12 16A1.5 1.5 0 0 1 15 16L12 19Z",
+      "closed": true,
+      "_why": "a heart is one line, not three strokes with visible seams"
+    }
+  ]
+}

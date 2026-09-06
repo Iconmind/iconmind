@@ -1,0 +1,45 @@
+{
+  "slug": "claim-denied",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Claim denied",
+  "description": "The umbrella with a cross on its canopy — the claim turned down",
+  "tags": [
+    "claim",
+    "denied",
+    "rejected"
+  ],
+  "keywords": [
+    "claim denied",
+    "claim rejected",
+    "declined claim",
+    "claim refused"
+  ],
+  "family": "umbrella",
+  "shapes": [
+    {
+      "d": "M3 12A9 9 0 0 1 21 12",
+      "closed": false
+    },
+    {
+      "d": "M3 12H21",
+      "closed": false
+    },
+    {
+      "d": "M12 12V18",
+      "closed": false
+    },
+    {
+      "d": "M12 18A2 2 0 0 1 8 18",
+      "closed": false
+    },
+    {
+      "d": "M9.5 5L14.5 10",
+      "closed": false
+    },
+    {
+      "d": "M14.5 5L9.5 10",
+      "closed": false
+    }
+  ]
+}

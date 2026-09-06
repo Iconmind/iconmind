@@ -1,0 +1,44 @@
+{
+  "slug": "cover-amount",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Cover amount",
+  "description": "The umbrella with a stone on its canopy — the most the cover will pay",
+  "tags": [
+    "cover",
+    "amount",
+    "sum"
+  ],
+  "aliases": [
+    "sum-insured"
+  ],
+  "keywords": [
+    "cover amount",
+    "sum insured",
+    "coverage amount",
+    "policy limit"
+  ],
+  "family": "umbrella",
+  "shapes": [
+    {
+      "d": "M3 12A9 9 0 0 1 21 12",
+      "closed": false
+    },
+    {
+      "d": "M3 12H21",
+      "closed": false
+    },
+    {
+      "d": "M12 12V18",
+      "closed": false
+    },
+    {
+      "d": "M12 18A2 2 0 0 1 8 18",
+      "closed": false
+    },
+    {
+      "d": "M12 5.5L14 7.5L12 9.5L10 7.5Z",
+      "closed": true
+    }
+  ]
+}

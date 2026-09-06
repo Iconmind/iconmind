@@ -1,0 +1,48 @@
+{
+  "slug": "pet-cover",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Pet cover",
+  "description": "A paw under a canopy — the pet, covered",
+  "tags": [
+    "pet",
+    "cover",
+    "animal"
+  ],
+  "aliases": [
+    "pet-insurance"
+  ],
+  "keywords": [
+    "pet cover",
+    "pet insurance",
+    "vet bills",
+    "animal insurance"
+  ],
+  "family": "canopy",
+  "shapes": [
+    {
+      "d": "M4.5 9.5A7.5 7.5 0 0 1 19.5 9.5",
+      "closed": false
+    },
+    {
+      "d": "M4.5 9.5H19.5",
+      "closed": false
+    },
+    {
+      "d": "M7 14.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 14.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 18.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

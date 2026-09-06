@@ -1,0 +1,40 @@
+{
+  "slug": "travel-cover",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Travel cover",
+  "description": "A suitcase under a canopy — the trip, covered",
+  "tags": [
+    "travel",
+    "cover",
+    "trip"
+  ],
+  "aliases": [
+    "travel-insurance"
+  ],
+  "keywords": [
+    "travel cover",
+    "travel insurance",
+    "trip insurance",
+    "holiday insurance"
+  ],
+  "family": "canopy",
+  "shapes": [
+    {
+      "d": "M4.5 9.5A7.5 7.5 0 0 1 19.5 9.5",
+      "closed": false
+    },
+    {
+      "d": "M4.5 9.5H19.5",
+      "closed": false
+    },
+    {
+      "d": "M8 15.5L16 15.5L16 20.5L8 20.5Z",
+      "closed": true
+    },
+    {
+      "d": "M10 15.5L10 12.5L14 12.5L14 15.5",
+      "closed": false
+    }
+  ]
+}

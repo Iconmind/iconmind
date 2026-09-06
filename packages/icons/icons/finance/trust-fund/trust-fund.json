@@ -1,0 +1,38 @@
+{
+  "slug": "trust-fund",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Trust fund",
+  "description": "A jar with a padlock in it — money kept for someone else, on their terms",
+  "tags": [
+    "trust",
+    "fund",
+    "beneficiary"
+  ],
+  "keywords": [
+    "trust fund",
+    "trust",
+    "family trust",
+    "held in trust"
+  ],
+  "family": "jar",
+  "shapes": [
+    {
+      "d": "M6 9H18V19A3 3 0 0 1 15 22H9A3 3 0 0 1 6 19Z",
+      "closed": true,
+      "_why": "a jar: square shoulders, a rounded foot"
+    },
+    {
+      "d": "M8 9L8 4L16 4L16 9",
+      "closed": false
+    },
+    {
+      "d": "M9 15.5L15 15.5L15 18.5L9 18.5Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 15.5A1.5 1.5 0 0 1 13.5 15.5",
+      "closed": false
+    }
+  ]
+}

@@ -82,6 +82,8 @@ const ANCHORED = new Set([
   "finance/investment-goal",
   // an ear of wheat carries its grain at the top of the stalk
   "finance/yield",
+  // what is covered stands under the canopy; the canopy is the weight
+  "finance/health-cover", "finance/life-cover",
   // charts on their axes: the ink sits where the axes and the baseline are
   "finance/amortisation", "finance/budget-vs-actual",
   // a tray's mark hangs above the tray, as with the rest of the tray family

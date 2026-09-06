@@ -1,0 +1,40 @@
+{
+  "slug": "home-cover",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Home cover",
+  "description": "A house under a canopy — the roof, covered",
+  "tags": [
+    "home",
+    "cover",
+    "property"
+  ],
+  "aliases": [
+    "home-insurance"
+  ],
+  "keywords": [
+    "home cover",
+    "home insurance",
+    "house insurance",
+    "buildings insurance"
+  ],
+  "family": "canopy",
+  "shapes": [
+    {
+      "d": "M4.5 9.5A7.5 7.5 0 0 1 19.5 9.5",
+      "closed": false
+    },
+    {
+      "d": "M4.5 9.5H19.5",
+      "closed": false
+    },
+    {
+      "d": "M8 16.5L12 12.5L16 16.5",
+      "closed": false
+    },
+    {
+      "d": "M9 16.5L9 21L15 21L15 16.5",
+      "closed": false
+    }
+  ]
+}

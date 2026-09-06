@@ -1,0 +1,37 @@
+{
+  "slug": "policy-renew",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Renew policy",
+  "description": "The book with two chevrons on its page — the cover carried on for another year",
+  "tags": [
+    "policy",
+    "renew",
+    "continue"
+  ],
+  "keywords": [
+    "renew policy",
+    "policy renewal",
+    "renew cover",
+    "auto-renew"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V21",
+      "closed": false
+    },
+    {
+      "d": "M10.5 9.5L13 12L10.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M14.5 9.5L17 12L14.5 14.5",
+      "closed": false
+    }
+  ]
+}

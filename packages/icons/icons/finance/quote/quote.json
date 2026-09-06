@@ -1,0 +1,36 @@
+{
+  "slug": "quote",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Insurance quote",
+  "description": "A price tag with a shield on it — what the cover would cost",
+  "tags": [
+    "quote",
+    "price",
+    "estimate"
+  ],
+  "aliases": [
+    "insurance-quote"
+  ],
+  "keywords": [
+    "insurance quote",
+    "get a quote",
+    "quote",
+    "premium estimate"
+  ],
+  "family": "label",
+  "shapes": [
+    {
+      "d": "M4 12L12 4L20 4L20 12L12 20Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 9L15 9L15 12L12 15L9 12Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "insurance-broker",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Insurance broker",
+  "description": "A person with a small umbrella on the chest — the one who sells the cover",
+  "tags": [
+    "broker",
+    "agent",
+    "seller"
+  ],
+  "aliases": [
+    "insurance-agent"
+  ],
+  "keywords": [
+    "insurance broker",
+    "insurance agent",
+    "broker",
+    "intermediary"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A9 9 0 0 1 21 21",
+      "closed": false
+    },
+    {
+      "d": "M8.5 17.5A3.5 3.5 0 0 1 15.5 17.5",
+      "closed": false
+    },
+    {
+      "d": "M8.5 17.5H15.5",
+      "closed": false
+    },
+    {
+      "d": "M12 17.5V20",
+      "closed": false
+    }
+  ]
+}

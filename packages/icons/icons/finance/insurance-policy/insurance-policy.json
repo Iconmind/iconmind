@@ -1,0 +1,33 @@
+{
+  "slug": "insurance-policy",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Insurance policy",
+  "description": "The book with a shield on its page — the cover, in writing",
+  "tags": [
+    "policy",
+    "contract",
+    "cover"
+  ],
+  "keywords": [
+    "insurance policy",
+    "policy",
+    "cover contract",
+    "policy terms"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V21",
+      "closed": false
+    },
+    {
+      "d": "M11 9L17 9L17 12L14 15L11 12Z",
+      "closed": true
+    }
+  ]
+}

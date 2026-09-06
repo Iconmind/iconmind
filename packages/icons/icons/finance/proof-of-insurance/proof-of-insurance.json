@@ -1,0 +1,36 @@
+{
+  "slug": "proof-of-insurance",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Proof of insurance",
+  "description": "The card with a shield under the band — the one kept in the glovebox",
+  "tags": [
+    "proof",
+    "card",
+    "evidence"
+  ],
+  "aliases": [
+    "insurance-card"
+  ],
+  "keywords": [
+    "proof of insurance",
+    "insurance card",
+    "cover note",
+    "certificate of insurance"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M9 11L15 11L15 14L12 17L9 14Z",
+      "closed": true
+    }
+  ]
+}

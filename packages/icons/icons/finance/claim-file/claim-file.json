@@ -1,0 +1,41 @@
+{
+  "slug": "claim-file",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "File a claim",
+  "description": "The umbrella with a pencil stroke on its canopy — the claim written up",
+  "tags": [
+    "claim",
+    "file",
+    "submit"
+  ],
+  "keywords": [
+    "file a claim",
+    "submit claim",
+    "start a claim",
+    "claim form"
+  ],
+  "family": "umbrella",
+  "shapes": [
+    {
+      "d": "M3 12A9 9 0 0 1 21 12",
+      "closed": false
+    },
+    {
+      "d": "M3 12H21",
+      "closed": false
+    },
+    {
+      "d": "M12 12V18",
+      "closed": false
+    },
+    {
+      "d": "M12 18A2 2 0 0 1 8 18",
+      "closed": false
+    },
+    {
+      "d": "M9.5 10L14.5 5",
+      "closed": false
+    }
+  ]
+}

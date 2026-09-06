@@ -1,0 +1,40 @@
+{
+  "slug": "adjuster",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Claims adjuster",
+  "description": "A person with a lens on the chest — the one who looks at the damage",
+  "tags": [
+    "adjuster",
+    "assessor",
+    "inspect"
+  ],
+  "aliases": [
+    "loss-adjuster"
+  ],
+  "keywords": [
+    "claims adjuster",
+    "loss adjuster",
+    "assessor",
+    "claims inspector"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A9 9 0 0 1 21 21",
+      "closed": false
+    },
+    {
+      "d": "M9 16a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11.5 16.5L15 20",
+      "closed": false
+    }
+  ]
+}

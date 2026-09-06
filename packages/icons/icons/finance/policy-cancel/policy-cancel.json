@@ -1,0 +1,37 @@
+{
+  "slug": "policy-cancel",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Cancel policy",
+  "description": "The book with a cross on its page — the cover ended by choice",
+  "tags": [
+    "policy",
+    "cancel",
+    "end"
+  ],
+  "keywords": [
+    "cancel policy",
+    "cancel cover",
+    "end policy",
+    "policy cancellation"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V21",
+      "closed": false
+    },
+    {
+      "d": "M11 9L17 15",
+      "closed": false
+    },
+    {
+      "d": "M17 9L11 15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "claim-pending",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Claim pending",
+  "description": "The umbrella with an hourglass on its canopy — the claim still being looked at",
+  "tags": [
+    "claim",
+    "pending",
+    "review"
+  ],
+  "keywords": [
+    "claim pending",
+    "claim under review",
+    "claim in progress",
+    "awaiting decision"
+  ],
+  "family": "umbrella",
+  "shapes": [
+    {
+      "d": "M3 12A9 9 0 0 1 21 12",
+      "closed": false
+    },
+    {
+      "d": "M3 12H21",
+      "closed": false
+    },
+    {
+      "d": "M12 12V18",
+      "closed": false
+    },
+    {
+      "d": "M12 18A2 2 0 0 1 8 18",
+      "closed": false
+    },
+    {
+      "d": "M10 5L14 5L10 9L14 9Z",
+      "closed": true
+    }
+  ]
+}

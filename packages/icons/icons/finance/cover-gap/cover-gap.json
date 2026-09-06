@@ -1,0 +1,41 @@
+{
+  "slug": "cover-gap",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Cover gap",
+  "description": "The umbrella with a minus on its canopy — what the cover leaves out",
+  "tags": [
+    "gap",
+    "exclusion",
+    "uncovered"
+  ],
+  "keywords": [
+    "cover gap",
+    "coverage gap",
+    "not covered",
+    "exclusion"
+  ],
+  "family": "umbrella",
+  "shapes": [
+    {
+      "d": "M3 12A9 9 0 0 1 21 12",
+      "closed": false
+    },
+    {
+      "d": "M3 12H21",
+      "closed": false
+    },
+    {
+      "d": "M12 12V18",
+      "closed": false
+    },
+    {
+      "d": "M12 18A2 2 0 0 1 8 18",
+      "closed": false
+    },
+    {
+      "d": "M9.5 7.5H14.5",
+      "closed": false
+    }
+  ]
+}

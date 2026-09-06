@@ -1,0 +1,44 @@
+{
+  "slug": "excess",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Excess",
+  "description": "The umbrella with a point on its canopy — the first part of any loss, paid by you",
+  "tags": [
+    "excess",
+    "deductible",
+    "self-pay"
+  ],
+  "aliases": [
+    "deductible"
+  ],
+  "keywords": [
+    "excess",
+    "deductible",
+    "insurance excess",
+    "policy excess"
+  ],
+  "family": "umbrella",
+  "shapes": [
+    {
+      "d": "M3 12A9 9 0 0 1 21 12",
+      "closed": false
+    },
+    {
+      "d": "M3 12H21",
+      "closed": false
+    },
+    {
+      "d": "M12 12V18",
+      "closed": false
+    },
+    {
+      "d": "M12 18A2 2 0 0 1 8 18",
+      "closed": false
+    },
+    {
+      "d": "M10 7.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

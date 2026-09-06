@@ -1,0 +1,37 @@
+{
+  "slug": "estate",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Estate",
+  "description": "Two houses side by side — everything a person leaves",
+  "tags": [
+    "estate",
+    "property",
+    "assets"
+  ],
+  "keywords": [
+    "estate",
+    "estate planning",
+    "the estate",
+    "assets left"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12L7 7L12 12",
+      "closed": false
+    },
+    {
+      "d": "M3.5 12L3.5 20L10.5 20L10.5 12",
+      "closed": false
+    },
+    {
+      "d": "M12 12L17 7L22 12",
+      "closed": false
+    },
+    {
+      "d": "M13.5 12L13.5 20L20.5 20L20.5 12",
+      "closed": false
+    }
+  ]
+}

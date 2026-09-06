@@ -1,0 +1,44 @@
+{
+  "slug": "car-cover",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Car cover",
+  "description": "A car under a canopy — the car, covered",
+  "tags": [
+    "car",
+    "cover",
+    "motor"
+  ],
+  "aliases": [
+    "car-insurance"
+  ],
+  "keywords": [
+    "car cover",
+    "car insurance",
+    "motor insurance",
+    "auto insurance"
+  ],
+  "family": "canopy",
+  "shapes": [
+    {
+      "d": "M4.5 9.5A7.5 7.5 0 0 1 19.5 9.5",
+      "closed": false
+    },
+    {
+      "d": "M4.5 9.5H19.5",
+      "closed": false
+    },
+    {
+      "d": "M4.5 18L4.5 15L7 12.5L14.5 12.5L17 15L19.5 15L19.5 18",
+      "closed": false
+    },
+    {
+      "d": "M7 18.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 18.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

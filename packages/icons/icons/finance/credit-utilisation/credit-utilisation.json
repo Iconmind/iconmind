@@ -1,0 +1,33 @@
+{
+  "slug": "credit-utilisation",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Credit utilisation",
+  "description": "The money bag with a line partway up — how much of the credit is used",
+  "tags": [
+    "credit",
+    "utilisation",
+    "usage"
+  ],
+  "aliases": [
+    "credit-utilization"
+  ],
+  "keywords": [
+    "credit utilisation",
+    "credit utilization",
+    "credit used",
+    "utilisation ratio"
+  ],
+  "family": "bag",
+  "shapes": [
+    {
+      "d": "M9.5 4H14.5V6.5L18 10A7 7 0 1 1 6 10L9.5 6.5Z",
+      "closed": true,
+      "_why": "a money bag: a tied neck, shoulders at 45°, and one round belly, one path"
+    },
+    {
+      "d": "M8 15H16",
+      "closed": false
+    }
+  ]
+}

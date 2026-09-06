@@ -1,0 +1,34 @@
+{
+  "slug": "credit-freeze",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Credit freeze",
+  "description": "A slip with a pause on it — the credit file shut to new lenders",
+  "tags": [
+    "credit",
+    "freeze",
+    "lock"
+  ],
+  "keywords": [
+    "credit freeze",
+    "freeze credit",
+    "security freeze",
+    "lock credit file"
+  ],
+  "family": "slip",
+  "shapes": [
+    {
+      "d": "M4 5H18L22 9V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17V7A2 2 0 0 1 4 5ZM18 5V9H22",
+      "closed": false,
+      "_why": "a slip: a wide sheet with its top-right corner folded over"
+    },
+    {
+      "d": "M10 9V15",
+      "closed": false
+    },
+    {
+      "d": "M14 9V15",
+      "closed": false
+    }
+  ]
+}

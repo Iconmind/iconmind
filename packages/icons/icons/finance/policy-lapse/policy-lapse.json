@@ -1,0 +1,33 @@
+{
+  "slug": "policy-lapse",
+  "category": "finance",
+  "subcategory": "insurance",
+  "name": "Policy lapse",
+  "description": "The book with an hourglass on its page — the cover run out, unrenewed",
+  "tags": [
+    "policy",
+    "lapse",
+    "expired"
+  ],
+  "keywords": [
+    "policy lapse",
+    "lapsed policy",
+    "cover expired",
+    "policy ended"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V21",
+      "closed": false
+    },
+    {
+      "d": "M11.5 9.5L16.5 9.5L11.5 14.5L16.5 14.5Z",
+      "closed": true
+    }
+  ]
+}
