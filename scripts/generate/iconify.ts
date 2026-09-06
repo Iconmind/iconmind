@@ -14,7 +14,9 @@ import { parseSvg } from "@iconmind/shared";
 import { fromRoot, loadIcons } from "../lib/fs.ts";
 
 const icons = (await loadIcons()).filter((i) => i.svg).sort((a, b) => a.slug.localeCompare(b.slug));
-const version = JSON.parse(await readFile(fromRoot("packages/icons/package.json"), "utf8")).version as string;
+// No `version` in the info block: the release bump rewrites package.json but checks out the
+// generated files, so a tracked iconify.json that carried the version went stale after every
+// release and failed the next push. Iconify treats the field as optional; the npm tag is the version.
 
 const esc = (s: string) => s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
 const body = (svg: string) => {
@@ -28,7 +30,7 @@ const STROKE = `fill="none" stroke="currentColor" stroke-width="2" stroke-lineca
 const out: { prefix: string; info: object; width: number; height: number; icons: Record<string, { body: string }>; aliases: Record<string, { parent: string }> } = {
   prefix: "iconmind",
   info: {
-    name: "IconMind", total: 0, version, author: { name: "IconMind", url: "https://github.com/Iconmind/iconmind" },
+    name: "IconMind", total: 0, author: { name: "IconMind", url: "https://github.com/Iconmind/iconmind" },
     license: { title: "MIT", spdx: "MIT", url: "https://github.com/Iconmind/iconmind/blob/main/LICENSE" },
     samples: ["agent", "vector-database", "mcp-server"], height: 24, category: "General", palette: false,
   },
