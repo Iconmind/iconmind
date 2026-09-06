@@ -217,6 +217,7 @@ export default function Home() {
             ["astro", "Astro", "Inline SVG at build time"],
             ["flutter", "Flutter", "Compile-time constants, CustomPaint"],
             ["laravel", "Laravel", "Blade components, server-rendered"],
+            ["shadcn", "shadcn/ui", "One command adds an <Icon> to a shadcn project"],
             ["mcp", "MCP server", "The set, searchable by your AI assistant"],
           ].map(([slug, label, blurb]) => (
             <li key={slug}>

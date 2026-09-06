@@ -24,6 +24,28 @@ Or by hand:
 No API key, no account, no network. The icon data is bundled, so it works offline and
 starts in well under a second — it runs every time your client opens.
 
+## Other clients
+
+The same command and arguments work anywhere an MCP client reads a config file. Cursor and
+Windsurf take the JSON above in `mcp.json`; VS Code takes it under `"servers"` in
+`.vscode/mcp.json`:
+
+```json
+{
+  "servers": {
+    "iconmind": { "type": "stdio", "command": "npx", "args": ["-y", "@iconmind/mcp"] }
+  }
+}
+```
+
+Codex reads `~/.codex/config.toml`:
+
+```toml
+[mcp_servers.iconmind]
+command = "npx"
+args = ["-y", "@iconmind/mcp"]
+```
+
 ## Tools
 
 | Tool | What it does |

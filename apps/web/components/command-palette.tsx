@@ -44,6 +44,7 @@ const PAGES = [
   { href: "/docs/", label: "Documentation", hint: "Docs" },
   { href: "/docs/installation/", label: "Installation", hint: "Docs" },
   { href: "/docs/react/", label: "React package", hint: "Docs" },
+  { href: "/docs/shadcn/", label: "shadcn/ui", hint: "Docs" },
   { href: "/docs/mcp/", label: "MCP server", hint: "Docs" },
   { href: "/changelog/", label: "Changelog", hint: "Project" },
   { href: "/contribute/", label: "Contribute an icon", hint: "Project" },

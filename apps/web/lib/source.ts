@@ -26,7 +26,7 @@ export const GROUPS: { title: string; slugs: string[] }[] = [
     title: "Frameworks",
     slugs: ["react", "vue", "svelte", "solid", "preact", "react-native", "astro", "flutter", "laravel"],
   },
-  { title: "Other ways in", slugs: ["svg", "mcp", "figma"] },
+  { title: "Other ways in", slugs: ["svg", "shadcn", "mcp", "figma"] },
   { title: "The project", slugs: ["design-guidelines", "contributing", "license", "faq"] },
 ];
 

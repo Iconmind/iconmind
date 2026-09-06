@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
 /*
- * Four ways in, not nine tabs.
+ * Five ways in, not ten tabs.
  *
  * All nine packages are live, but a tab bar is not a package registry: React stands in
  * for the component packages (the note names the rest — same API everywhere), and the
@@ -54,6 +54,17 @@ const WAYS = [
     note: "One request for the whole set, cached once. Best when a page shows many icons.",
   },
   {
+    id: "shadcn",
+    label: "shadcn",
+    badge: "registry",
+    install: "npx shadcn@latest add https://iconmind.dev/r/iconmind.json",
+    code: `import { Icon } from "@/components/ui/iconmind";
+
+<Icon name="agent-run" />
+<Icon name="vector-search" variant="duotone" weight="bold" />`,
+    note: "A registry item: adds @iconmind/react and an <Icon> wrapper to components/ui, like any other shadcn component.",
+  },
+  {
     id: "mcp",
     label: "MCP",
     badge: "for agents",
@@ -68,7 +79,7 @@ const WAYS = [
 ] as const;
 
 /**
- * Four ways in, and the install line for each.
+ * Five ways in, and the install line for each.
  *
  * The copy button is on the install command rather than the sample, because that is the
  * line somebody actually wants in a terminal — the sample is there to show what the import

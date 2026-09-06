@@ -19,6 +19,7 @@ about what an icon looks like. Pick yours:
 | Laravel Blade | `iconmind/blade-iconmind` | `composer require iconmind/blade-iconmind` |
 | Plain SVG / sprite | `@iconmind/icons` | `npm i @iconmind/icons` |
 | AI assistants (MCP) | `@iconmind/mcp` | `claude mcp add iconmind -- npx -y @iconmind/mcp` |
+| shadcn/ui | registry item | `npx shadcn@latest add https://iconmind.dev/r/iconmind.json` |
 
 All the framework packages share one API: the same component names, the same props —
 `size`, `color`, `variant`, `weight`, `strokeWidth`, `absoluteStrokeWidth` — and the same
@@ -45,6 +46,15 @@ use it with no build step at all.
 ```html
 <svg width="24" height="24"><use href="sprite.svg#im-agent" /></svg>
 ```
+
+## For a shadcn project
+
+```bash
+npx shadcn@latest add https://iconmind.dev/r/iconmind.json
+```
+
+Adds `@iconmind/react` and an `<Icon name="agent-run" />` wrapper in `components/ui/`. See
+[shadcn/ui](/docs/shadcn/).
 
 ## For an AI assistant
 

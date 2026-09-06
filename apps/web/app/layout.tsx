@@ -102,6 +102,7 @@ const FOOTER: { heading: string; links: { href: string; label: string; external?
       { href: "/docs/installation/", label: "Installation" },
       { href: "/docs/react/", label: "React" },
       { href: "/docs/svg/", label: "SVG & sprite" },
+      { href: "/docs/shadcn/", label: "shadcn/ui" },
       { href: "/docs/mcp/", label: "MCP server" },
       { href: "/docs/figma/", label: "Figma" },
       // A file nobody finds unless it is linked. It is written for assistants, but the

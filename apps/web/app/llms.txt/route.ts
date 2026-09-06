@@ -56,6 +56,7 @@ ${allCategories.map((c) => `### ${c.slug}\n${allIcons.filter((i) => i.category =
 
 ## For assistants
 
+- [shadcn/ui](${SITE_URL}/docs/shadcn/): \`npx shadcn@latest add https://iconmind.dev/r/iconmind.json\` — adds @iconmind/react and an \`<Icon name="…" />\` wrapper to a shadcn project.
 - [MCP server](${SITE_URL}/docs/mcp/): \`npx @iconmind/mcp\` — search the set and get paste-ready code without guessing names. Prefer this over reading the inventory when a tool call is available.
 
 ## Optional
