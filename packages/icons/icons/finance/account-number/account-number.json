@@ -1,0 +1,38 @@
+{
+  "slug": "account-number",
+  "category": "finance",
+  "subcategory": "banking",
+  "name": "Account number",
+  "description": "The bank with a hash between its columns — the number the account goes by",
+  "tags": [
+    "number",
+    "identifier",
+    "account"
+  ],
+  "keywords": [
+    "account number",
+    "bank account number",
+    "account id",
+    "acct no"
+  ],
+  "family": "bank",
+  "shapes": [
+    {
+      "d": "M2 21H22M5 21V9M19 21V9M2 9H22M5 9L10.5 3.5H13.5L19 9",
+      "closed": false,
+      "_why": "a portico: floor, two columns, the beam across them and the pediment on the beam, one path so the corners meet"
+    },
+    {
+      "d": "M10 12V18",
+      "closed": false
+    },
+    {
+      "d": "M14 12V18",
+      "closed": false
+    },
+    {
+      "d": "M8 15H16",
+      "closed": false
+    }
+  ]
+}

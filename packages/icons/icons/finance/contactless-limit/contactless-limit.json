@@ -1,0 +1,41 @@
+{
+  "slug": "contactless-limit",
+  "category": "finance",
+  "subcategory": "banking",
+  "name": "Contactless limit",
+  "description": "The payment card with the contactless waves under a line — the most a tap can pay",
+  "tags": [
+    "contactless",
+    "limit",
+    "tap"
+  ],
+  "keywords": [
+    "contactless limit",
+    "tap limit",
+    "tap to pay limit",
+    "contactless maximum"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M8 11H16",
+      "closed": false
+    },
+    {
+      "d": "M10.12 16.82A2 2 0 0 1 13.88 16.82",
+      "closed": false
+    },
+    {
+      "d": "M8.24 16.13A4 4 0 0 1 15.76 16.13",
+      "closed": false
+    }
+  ]
+}

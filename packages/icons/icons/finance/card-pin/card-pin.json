@@ -1,0 +1,41 @@
+{
+  "slug": "card-pin",
+  "category": "finance",
+  "subcategory": "banking",
+  "name": "Card PIN",
+  "description": "The payment card with a key under the band — the number that unlocks it",
+  "tags": [
+    "pin",
+    "code",
+    "security"
+  ],
+  "keywords": [
+    "card pin",
+    "pin number",
+    "change pin",
+    "view pin"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M10 12.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 14.5V17",
+      "closed": false
+    },
+    {
+      "d": "M12 15.5H14.5",
+      "closed": false
+    }
+  ]
+}

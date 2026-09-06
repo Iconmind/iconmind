@@ -1,0 +1,37 @@
+{
+  "slug": "interest-charged",
+  "category": "finance",
+  "subcategory": "banking",
+  "name": "Interest charged",
+  "description": "A slip with a percent on it — what borrowing costs",
+  "tags": [
+    "interest",
+    "charged",
+    "cost"
+  ],
+  "keywords": [
+    "interest charged",
+    "loan interest",
+    "interest payable",
+    "cost of borrowing"
+  ],
+  "family": "slip",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M8.5 9.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 15L15 9",
+      "closed": false
+    },
+    {
+      "d": "M13.5 14.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

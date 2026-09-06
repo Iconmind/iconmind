@@ -1,0 +1,33 @@
+{
+  "slug": "joint-account",
+  "category": "finance",
+  "subcategory": "banking",
+  "name": "Joint account",
+  "description": "A slip with two rings linked on it — one account, two names",
+  "tags": [
+    "joint",
+    "shared",
+    "couple"
+  ],
+  "keywords": [
+    "joint account",
+    "shared account",
+    "joint bank account",
+    "two account holders"
+  ],
+  "family": "slip",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M8.5 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11.5 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

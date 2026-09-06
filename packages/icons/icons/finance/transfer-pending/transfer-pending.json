@@ -1,0 +1,30 @@
+{
+  "slug": "transfer-pending",
+  "category": "finance",
+  "subcategory": "banking",
+  "name": "Transfer pending",
+  "description": "The bank with an hourglass between its columns — money on its way, not yet there",
+  "tags": [
+    "transfer",
+    "pending",
+    "processing"
+  ],
+  "keywords": [
+    "transfer pending",
+    "pending payment",
+    "processing transfer",
+    "in transit"
+  ],
+  "family": "bank",
+  "shapes": [
+    {
+      "d": "M2 21H22M5 21V9M19 21V9M2 9H22M5 9L10.5 3.5H13.5L19 9",
+      "closed": false,
+      "_why": "a portico: floor, two columns, the beam across them and the pediment on the beam, one path so the corners meet"
+    },
+    {
+      "d": "M9.5 12.5L14.5 12.5L9.5 17.5L14.5 17.5Z",
+      "closed": true
+    }
+  ]
+}

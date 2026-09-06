@@ -1,0 +1,38 @@
+{
+  "slug": "round-up-savings",
+  "category": "finance",
+  "subcategory": "banking",
+  "name": "Round-up savings",
+  "description": "A jar with an arrow rising in it — the change rounded up, and kept",
+  "tags": [
+    "round-up",
+    "change",
+    "automatic"
+  ],
+  "keywords": [
+    "round up savings",
+    "round ups",
+    "spare change savings",
+    "save the change"
+  ],
+  "family": "jar",
+  "shapes": [
+    {
+      "d": "M6 9H18V19A3 3 0 0 1 15 22H9A3 3 0 0 1 6 19Z",
+      "closed": true,
+      "_why": "a jar: square shoulders, a rounded foot"
+    },
+    {
+      "d": "M8 9L8 4L16 4L16 9",
+      "closed": false
+    },
+    {
+      "d": "M12 12.5V18.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 15L12 12.5L14.5 15",
+      "closed": false
+    }
+  ]
+}

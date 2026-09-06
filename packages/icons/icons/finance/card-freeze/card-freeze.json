@@ -1,0 +1,37 @@
+{
+  "slug": "card-freeze",
+  "category": "finance",
+  "subcategory": "banking",
+  "name": "Freeze card",
+  "description": "The payment card with a pause under the band — no spending until it is thawed",
+  "tags": [
+    "freeze",
+    "pause",
+    "block"
+  ],
+  "keywords": [
+    "freeze card",
+    "card freeze",
+    "lock card temporarily",
+    "pause card"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M10 11V17",
+      "closed": false
+    },
+    {
+      "d": "M14 11V17",
+      "closed": false
+    }
+  ]
+}

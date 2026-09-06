@@ -1,0 +1,36 @@
+{
+  "slug": "card-virtual",
+  "category": "finance",
+  "subcategory": "banking",
+  "name": "Virtual card",
+  "description": "The payment card with a phone under the band — a card with no plastic",
+  "tags": [
+    "virtual",
+    "digital",
+    "phone"
+  ],
+  "aliases": [
+    "digital-card"
+  ],
+  "keywords": [
+    "virtual card",
+    "digital card",
+    "card on phone",
+    "e-card"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M10 10L14 10L14 18L10 18Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "piggy-bank",
+  "category": "finance",
+  "subcategory": "banking",
+  "name": "Piggy bank",
+  "description": "A pig with an ear and a slot in its back — where the coins go",
+  "tags": [
+    "savings",
+    "coins",
+    "pig"
+  ],
+  "aliases": [
+    "piggy"
+  ],
+  "keywords": [
+    "piggy bank",
+    "piggybank",
+    "money box",
+    "save coins"
+  ],
+  "family": "pig",
+  "shapes": [
+    {
+      "d": "M4 12.5A7 7 0 1 1 18 12.5A7 7 0 1 1 4 12.5ZM16 10.5H21V14.5H16M7.5 19V22M14.5 19V22M9.5 3V5.5M15.5 8L17.5 6L19.5 8",
+      "closed": false,
+      "_why": "a pig: the body is a circle, the snout a box that leaves it, the ear a peak on its brow, the legs and slot short strokes that meet it"
+    }
+  ]
+}

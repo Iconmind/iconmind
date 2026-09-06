@@ -1,0 +1,37 @@
+{
+  "slug": "balance-show",
+  "category": "finance",
+  "subcategory": "banking",
+  "name": "Show balance",
+  "description": "The payment card with an open eye under the band — the amount, shown",
+  "tags": [
+    "show",
+    "visible",
+    "reveal"
+  ],
+  "keywords": [
+    "show balance",
+    "reveal balance",
+    "unhide balance",
+    "view balance"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M7.3 13.29A5 5 0 0 1 16.7 13.29",
+      "closed": false
+    },
+    {
+      "d": "M10 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

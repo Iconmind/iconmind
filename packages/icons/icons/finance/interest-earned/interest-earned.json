@@ -1,0 +1,38 @@
+{
+  "slug": "interest-earned",
+  "category": "finance",
+  "subcategory": "banking",
+  "name": "Interest earned",
+  "description": "The bank with a percent between its columns — what the bank pays for keeping your money",
+  "tags": [
+    "interest",
+    "earned",
+    "rate"
+  ],
+  "keywords": [
+    "interest earned",
+    "interest rate",
+    "savings interest",
+    "interest paid"
+  ],
+  "family": "bank",
+  "shapes": [
+    {
+      "d": "M2 21H22M5 21V9M19 21V9M2 9H22M5 9L10.5 3.5H13.5L19 9",
+      "closed": false,
+      "_why": "a portico: floor, two columns, the beam across them and the pediment on the beam, one path so the corners meet"
+    },
+    {
+      "d": "M8.5 12.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 18L15 12",
+      "closed": false
+    },
+    {
+      "d": "M13.5 17.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

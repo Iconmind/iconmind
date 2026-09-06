@@ -1,0 +1,45 @@
+{
+  "slug": "online-banking",
+  "category": "finance",
+  "subcategory": "banking",
+  "name": "Online banking",
+  "description": "A window with a portico in it — the bank in a browser",
+  "tags": [
+    "online",
+    "web",
+    "internet"
+  ],
+  "keywords": [
+    "online banking",
+    "internet banking",
+    "web banking",
+    "bank online"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M15 5H18A3 3 0 0 1 21 8V18A3 3 0 0 1 18 21H6A3 3 0 0 1 3 18V8A3 3 0 0 1 6 5H9",
+      "closed": true
+    },
+    {
+      "d": "M7.5 11.5L10.5 8.5L13.5 8.5L16.5 11.5",
+      "closed": false
+    },
+    {
+      "d": "M6 11.5H18",
+      "closed": false
+    },
+    {
+      "d": "M9 11.5V17",
+      "closed": false
+    },
+    {
+      "d": "M15 11.5V17",
+      "closed": false
+    },
+    {
+      "d": "M6 17H18",
+      "closed": false
+    }
+  ]
+}

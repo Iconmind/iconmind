@@ -1,0 +1,36 @@
+{
+  "slug": "cheque",
+  "category": "finance",
+  "subcategory": "banking",
+  "name": "Cheque",
+  "description": "A slip with a name line and a signature line — money written by hand",
+  "tags": [
+    "cheque",
+    "paper",
+    "payment"
+  ],
+  "aliases": [
+    "check-payment"
+  ],
+  "keywords": [
+    "cheque",
+    "check",
+    "bank cheque",
+    "paper cheque"
+  ],
+  "family": "slip",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M5 9H11",
+      "closed": false
+    },
+    {
+      "d": "M13 15.5H19",
+      "closed": false
+    }
+  ]
+}

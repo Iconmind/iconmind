@@ -1,0 +1,36 @@
+{
+  "slug": "atm",
+  "category": "finance",
+  "subcategory": "banking",
+  "name": "ATM",
+  "description": "A cash machine: a screen in the body and the note coming out below",
+  "tags": [
+    "cash",
+    "machine",
+    "withdraw"
+  ],
+  "aliases": [
+    "cash-machine"
+  ],
+  "keywords": [
+    "atm",
+    "cash machine",
+    "cashpoint",
+    "atm locator"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M4 4A2 2 0 0 1 6 2H18A2 2 0 0 1 20 4V16A2 2 0 0 1 18 18H6A2 2 0 0 1 4 16Z",
+      "closed": true
+    },
+    {
+      "d": "M7 5L17 5L17 10L7 10Z",
+      "closed": true
+    },
+    {
+      "d": "M9 18L9 22L15 22L15 18",
+      "closed": false
+    }
+  ]
+}

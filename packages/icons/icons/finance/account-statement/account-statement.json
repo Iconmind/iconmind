@@ -1,0 +1,37 @@
+{
+  "slug": "account-statement",
+  "category": "finance",
+  "subcategory": "banking",
+  "name": "Account statement",
+  "description": "A slip with three full lines — every transaction, month by month",
+  "tags": [
+    "statement",
+    "history",
+    "transactions"
+  ],
+  "keywords": [
+    "account statement",
+    "bank statement",
+    "transaction history",
+    "monthly statement"
+  ],
+  "family": "slip",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M6 9H18",
+      "closed": false
+    },
+    {
+      "d": "M6 12H18",
+      "closed": false
+    },
+    {
+      "d": "M6 15H18",
+      "closed": false
+    }
+  ]
+}

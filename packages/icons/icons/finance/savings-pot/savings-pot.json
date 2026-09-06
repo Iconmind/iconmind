@@ -1,0 +1,38 @@
+{
+  "slug": "savings-pot",
+  "category": "finance",
+  "subcategory": "banking",
+  "name": "Savings pot",
+  "description": "A jar with two coins lying in it — money set aside, and named",
+  "tags": [
+    "savings",
+    "pot",
+    "aside"
+  ],
+  "keywords": [
+    "savings pot",
+    "money pot",
+    "savings space",
+    "set aside"
+  ],
+  "family": "jar",
+  "shapes": [
+    {
+      "d": "M6 9H18V19A3 3 0 0 1 15 22H9A3 3 0 0 1 6 19Z",
+      "closed": true,
+      "_why": "a jar: square shoulders, a rounded foot"
+    },
+    {
+      "d": "M8 9L8 4L16 4L16 9",
+      "closed": false
+    },
+    {
+      "d": "M9 14H15",
+      "closed": false
+    },
+    {
+      "d": "M9 17.5H15",
+      "closed": false
+    }
+  ]
+}

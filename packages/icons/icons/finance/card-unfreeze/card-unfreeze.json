@@ -1,0 +1,33 @@
+{
+  "slug": "card-unfreeze",
+  "category": "finance",
+  "subcategory": "banking",
+  "name": "Unfreeze card",
+  "description": "The payment card with a play under the band — spending again",
+  "tags": [
+    "unfreeze",
+    "resume",
+    "activate"
+  ],
+  "keywords": [
+    "unfreeze card",
+    "card unfreeze",
+    "resume card",
+    "reactivate card"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M10.5 11L13.5 14L10.5 17Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "card-lost",
+  "category": "finance",
+  "subcategory": "banking",
+  "name": "Card lost",
+  "description": "The payment card with a lens under the band — the card that cannot be found",
+  "tags": [
+    "lost",
+    "missing",
+    "stolen"
+  ],
+  "aliases": [
+    "card-stolen"
+  ],
+  "keywords": [
+    "card lost",
+    "lost card",
+    "report lost card",
+    "stolen card"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M9 13a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11.5 13.5L15 17",
+      "closed": false
+    }
+  ]
+}

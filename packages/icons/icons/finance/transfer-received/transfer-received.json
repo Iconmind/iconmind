@@ -1,0 +1,30 @@
+{
+  "slug": "transfer-received",
+  "category": "finance",
+  "subcategory": "banking",
+  "name": "Transfer received",
+  "description": "The bank with a check between its columns — money that arrived",
+  "tags": [
+    "transfer",
+    "received",
+    "incoming"
+  ],
+  "keywords": [
+    "transfer received",
+    "incoming payment",
+    "money received",
+    "payment arrived"
+  ],
+  "family": "bank",
+  "shapes": [
+    {
+      "d": "M2 21H22M5 21V9M19 21V9M2 9H22M5 9L10.5 3.5H13.5L19 9",
+      "closed": false,
+      "_why": "a portico: floor, two columns, the beam across them and the pediment on the beam, one path so the corners meet"
+    },
+    {
+      "d": "M9 15L11 17L15 13",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "overdraft",
+  "category": "finance",
+  "subcategory": "banking",
+  "name": "Overdraft",
+  "description": "The bank with a minus between its columns — below zero, and allowed to be",
+  "tags": [
+    "overdraft",
+    "negative",
+    "credit"
+  ],
+  "keywords": [
+    "overdraft",
+    "overdrawn",
+    "overdraft limit",
+    "negative balance"
+  ],
+  "family": "bank",
+  "shapes": [
+    {
+      "d": "M2 21H22M5 21V9M19 21V9M2 9H22M5 9L10.5 3.5H13.5L19 9",
+      "closed": false,
+      "_why": "a portico: floor, two columns, the beam across them and the pediment on the beam, one path so the corners meet"
+    },
+    {
+      "d": "M9 15H15",
+      "closed": false
+    }
+  ]
+}

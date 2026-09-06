@@ -1,0 +1,34 @@
+{
+  "slug": "account-frozen",
+  "category": "finance",
+  "subcategory": "banking",
+  "name": "Account frozen",
+  "description": "The bank with a padlock between its columns — nothing in, nothing out",
+  "tags": [
+    "frozen",
+    "locked",
+    "blocked"
+  ],
+  "keywords": [
+    "account frozen",
+    "frozen account",
+    "account locked",
+    "account blocked"
+  ],
+  "family": "bank",
+  "shapes": [
+    {
+      "d": "M2 21H22M5 21V9M19 21V9M2 9H22M5 9L10.5 3.5H13.5L19 9",
+      "closed": false,
+      "_why": "a portico: floor, two columns, the beam across them and the pediment on the beam, one path so the corners meet"
+    },
+    {
+      "d": "M9 15L15 15L15 18L9 18Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 15A1.5 1.5 0 0 1 13.5 15",
+      "closed": false
+    }
+  ]
+}

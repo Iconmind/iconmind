@@ -1,0 +1,36 @@
+{
+  "slug": "card-physical",
+  "category": "finance",
+  "subcategory": "banking",
+  "name": "Physical card",
+  "description": "The payment card with its chip — the one in your pocket",
+  "tags": [
+    "physical",
+    "plastic",
+    "chip"
+  ],
+  "aliases": [
+    "plastic-card"
+  ],
+  "keywords": [
+    "physical card",
+    "plastic card",
+    "chip card",
+    "card with chip"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M5 11L10 11L10 15L5 15Z",
+      "closed": true
+    }
+  ]
+}
