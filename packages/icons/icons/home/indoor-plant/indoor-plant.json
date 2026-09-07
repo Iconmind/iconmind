@@ -1,0 +1,39 @@
+{
+  "slug": "indoor-plant",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Indoor plant",
+  "description": "The tall one in its pot",
+  "tags": [
+    "indoor",
+    "leaves",
+    "tall"
+  ],
+  "keywords": [
+    "indoor plant",
+    "houseplant",
+    "the plant in the corner",
+    "leaves"
+  ],
+  "family": "plant",
+  "shapes": [
+    {
+      "d": "M9 16L9 21L15 21L15 16Z",
+      "closed": true
+    },
+    {
+      "d": "M12 8V16",
+      "closed": false
+    },
+    {
+      "d": "M12 12C9 12 7 10 7 7C10 7 12 9 12 12Z",
+      "closed": true,
+      "_why": "a leaf off the stem"
+    },
+    {
+      "d": "M12 10C15 10 17 8 17 5C14 5 12 7 12 10Z",
+      "closed": true,
+      "_why": "a leaf higher up"
+    }
+  ]
+}

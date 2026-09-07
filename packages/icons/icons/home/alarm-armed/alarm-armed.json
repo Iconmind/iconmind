@@ -1,0 +1,30 @@
+{
+  "slug": "alarm-armed",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Armed",
+  "description": "The shield with the tick in it",
+  "tags": [
+    "armed",
+    "set",
+    "guarded"
+  ],
+  "keywords": [
+    "alarm armed",
+    "alarm set",
+    "guarded",
+    "protected"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M12 3C12 3 16 5 20 6V12C20 17 16 20 12 21C8 20 4 17 4 12V6C8 5 12 3 12 3Z",
+      "closed": true,
+      "_why": "the shield, wide at the shoulder"
+    },
+    {
+      "d": "M8 12L11 15L16 10",
+      "closed": false
+    }
+  ]
+}

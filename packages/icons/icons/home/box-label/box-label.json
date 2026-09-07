@@ -1,0 +1,29 @@
+{
+  "slug": "box-label",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Label",
+  "description": "The tag with its hole",
+  "tags": [
+    "label",
+    "tag",
+    "written"
+  ],
+  "keywords": [
+    "box label",
+    "a tag",
+    "what is in it",
+    "written on"
+  ],
+  "family": "label",
+  "shapes": [
+    {
+      "d": "M4 8L16 8L20 12L16 16L4 16Z",
+      "closed": true
+    },
+    {
+      "d": "M6 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

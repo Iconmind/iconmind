@@ -1,0 +1,37 @@
+{
+  "slug": "smart-plug",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Smart plug",
+  "description": "The plug with its own switch",
+  "tags": [
+    "plug",
+    "socket",
+    "switch"
+  ],
+  "keywords": [
+    "smart plug",
+    "switch it from the app",
+    "plug",
+    "socket"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M6 10A2 2 0 0 1 8 8H16A2 2 0 0 1 18 10V16A2 2 0 0 1 16 18H8A2 2 0 0 1 6 16Z",
+      "closed": true
+    },
+    {
+      "d": "M9 4V8",
+      "closed": false
+    },
+    {
+      "d": "M15 4V8",
+      "closed": false
+    },
+    {
+      "d": "M11 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

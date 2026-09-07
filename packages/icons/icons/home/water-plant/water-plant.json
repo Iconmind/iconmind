@@ -1,0 +1,42 @@
+{
+  "slug": "water-plant",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Water the plant",
+  "description": "The drops going in",
+  "tags": [
+    "water",
+    "drops",
+    "feed"
+  ],
+  "keywords": [
+    "water the plant",
+    "give it a drink",
+    "drops",
+    "watering"
+  ],
+  "family": "plant",
+  "shapes": [
+    {
+      "d": "M8 15L8 21L16 21L16 15Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    },
+    {
+      "d": "M12 13C9 13 7 11 7 8C10 8 12 10 12 13Z",
+      "closed": true,
+      "_why": "the leaf on the stem"
+    },
+    {
+      "d": "M17 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M19 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

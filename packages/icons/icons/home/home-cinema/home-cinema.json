@@ -1,0 +1,33 @@
+{
+  "slug": "home-cinema",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Home cinema",
+  "description": "The screen over the seats",
+  "tags": [
+    "cinema",
+    "screen",
+    "seats"
+  ],
+  "keywords": [
+    "home cinema",
+    "big screen",
+    "film night",
+    "seats"
+  ],
+  "family": "screen",
+  "shapes": [
+    {
+      "d": "M3 4L3 14L21 14L21 4Z",
+      "closed": true
+    },
+    {
+      "d": "M5 20A3 3 0 0 1 11 20",
+      "closed": false
+    },
+    {
+      "d": "M13 20A3 3 0 0 1 19 20",
+      "closed": false
+    }
+  ]
+}

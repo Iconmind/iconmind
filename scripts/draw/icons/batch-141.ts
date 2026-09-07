@@ -60,7 +60,7 @@ export const BATCH_141: Icon[] = [
     ["sprinkler", "spray", "head"], [], ["sprinkler", "sprinkler head", "spray the lawn", "watering"],
     "machine", [col(12, 12, 19), disc(12, 10, 2), raw("M15 8C17 6 19 6 21 7", "the spray thrown one way", false), raw("M9 8C7 6 5 6 3 7", "the spray thrown the other", false)]),
   c("plant-pot", "Plant pot", "The two leaves out of the pot",
-    ["plant", "pot", "leaves"], ["houseplant"], ["plant pot", "houseplant", "potted plant", "leaves"],
+    ["plant", "pot", "leaves"], [], ["plant pot", "houseplant", "potted plant", "leaves"],
     "plant", [poly([[8, 13], [8, 21], [16, 21], [16, 13]]), row(13, 6, 18), raw("M12 13C12 9 9 6 6 5C6 9 8 12 12 13Z", "a leaf out of the pot", true), raw("M12 13C12 10 15 7 18 6C18 9 16 12 12 13Z", "a leaf on the other side", true)]),
   c("flower-bed", "Flower bed", "The two standing in the ground",
     ["flowers", "bed", "planted"], [], ["flower bed", "planted out", "flowers", "border"],

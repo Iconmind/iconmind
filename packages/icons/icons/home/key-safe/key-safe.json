@@ -1,0 +1,41 @@
+{
+  "slug": "key-safe",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Key safe",
+  "description": "The box with the code on it",
+  "tags": [
+    "safe",
+    "code",
+    "keypad"
+  ],
+  "keywords": [
+    "key safe",
+    "code box",
+    "keypad",
+    "leave the key"
+  ],
+  "family": "box",
+  "shapes": [
+    {
+      "d": "M4 7A2 2 0 0 1 6 5H18A2 2 0 0 1 20 7V17A2 2 0 0 1 18 19H6A2 2 0 0 1 4 17Z",
+      "closed": true
+    },
+    {
+      "d": "M8 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

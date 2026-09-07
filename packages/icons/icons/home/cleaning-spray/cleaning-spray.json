@@ -1,0 +1,37 @@
+{
+  "slug": "cleaning-spray",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Spray",
+  "description": "The bottle and the mist off it",
+  "tags": [
+    "spray",
+    "bottle",
+    "clean"
+  ],
+  "keywords": [
+    "cleaning spray",
+    "spray bottle",
+    "squirt",
+    "clean it"
+  ],
+  "family": "vessel",
+  "shapes": [
+    {
+      "d": "M7 10L7 21L15 21L15 10Z",
+      "closed": true
+    },
+    {
+      "d": "M9 10L9 5L15 5L15 8",
+      "closed": false
+    },
+    {
+      "d": "M17 4a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M19 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

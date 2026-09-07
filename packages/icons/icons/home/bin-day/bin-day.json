@@ -1,0 +1,40 @@
+{
+  "slug": "bin-day",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Bin day",
+  "description": "The wheelie bin out at the kerb",
+  "tags": [
+    "bin",
+    "kerb",
+    "collection"
+  ],
+  "aliases": [
+    "rubbish"
+  ],
+  "keywords": [
+    "bin day",
+    "put the bins out",
+    "wheelie bin",
+    "collection"
+  ],
+  "family": "bin",
+  "shapes": [
+    {
+      "d": "M6 8L6 19L16 19L16 8Z",
+      "closed": true
+    },
+    {
+      "d": "M5 8L5 5L17 5L17 8",
+      "closed": false
+    },
+    {
+      "d": "M7 21a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 21a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

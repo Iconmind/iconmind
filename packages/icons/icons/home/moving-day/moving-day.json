@@ -1,0 +1,33 @@
+{
+  "slug": "moving-day",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Moving day",
+  "description": "The house and the way out",
+  "tags": [
+    "moving",
+    "leaving",
+    "day"
+  ],
+  "keywords": [
+    "moving day",
+    "moving house",
+    "leaving",
+    "the big day"
+  ],
+  "family": "building",
+  "shapes": [
+    {
+      "d": "M3 19L3 12L9 6L15 12L15 19Z",
+      "closed": true
+    },
+    {
+      "d": "M17 12L21 12",
+      "closed": false
+    },
+    {
+      "d": "M19 10L21 12L19 14",
+      "closed": false
+    }
+  ]
+}

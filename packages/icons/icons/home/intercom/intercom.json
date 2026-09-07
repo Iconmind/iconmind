@@ -1,0 +1,37 @@
+{
+  "slug": "intercom",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Intercom",
+  "description": "The panel with the grille and the button",
+  "tags": [
+    "intercom",
+    "grille",
+    "buzz"
+  ],
+  "keywords": [
+    "intercom",
+    "buzz them in",
+    "door entry",
+    "grille"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M6 5A2 2 0 0 1 8 3H16A2 2 0 0 1 18 5V19A2 2 0 0 1 16 21H8A2 2 0 0 1 6 19Z",
+      "closed": true
+    },
+    {
+      "d": "M9 8H15",
+      "closed": false
+    },
+    {
+      "d": "M9 11H15",
+      "closed": false
+    },
+    {
+      "d": "M11 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

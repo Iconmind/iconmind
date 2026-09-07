@@ -1,0 +1,34 @@
+{
+  "slug": "smart-lock",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Smart lock",
+  "description": "The lock with a signal off it",
+  "tags": [
+    "lock",
+    "signal",
+    "app"
+  ],
+  "keywords": [
+    "smart lock",
+    "lock from your phone",
+    "connected lock",
+    "app"
+  ],
+  "family": "lock",
+  "shapes": [
+    {
+      "d": "M6 12L6 20L16 20L16 12Z",
+      "closed": true
+    },
+    {
+      "d": "M7 12A4 4 0 0 1 15 12",
+      "closed": false
+    },
+    {
+      "d": "M19 9C21 11 21 13 19 15",
+      "closed": false,
+      "_why": "the signal off the lock"
+    }
+  ]
+}

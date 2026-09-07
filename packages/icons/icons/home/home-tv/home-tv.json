@@ -1,0 +1,33 @@
+{
+  "slug": "home-tv",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Television",
+  "description": "The screen on its stand",
+  "tags": [
+    "television",
+    "screen",
+    "watch"
+  ],
+  "keywords": [
+    "home tv",
+    "the telly",
+    "watch something",
+    "screen"
+  ],
+  "family": "screen",
+  "shapes": [
+    {
+      "d": "M3 5L3 16L21 16L21 5Z",
+      "closed": true
+    },
+    {
+      "d": "M12 16V19",
+      "closed": false
+    },
+    {
+      "d": "M8 19H16",
+      "closed": false
+    }
+  ]
+}

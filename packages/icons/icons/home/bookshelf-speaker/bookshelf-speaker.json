@@ -1,0 +1,33 @@
+{
+  "slug": "bookshelf-speaker",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Speaker",
+  "description": "The cabinet with two drivers",
+  "tags": [
+    "speaker",
+    "drivers",
+    "sound"
+  ],
+  "keywords": [
+    "bookshelf speaker",
+    "hi-fi speaker",
+    "sound",
+    "drivers"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M7 3L7 21L17 21L17 3Z",
+      "closed": true
+    },
+    {
+      "d": "M10 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 16a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

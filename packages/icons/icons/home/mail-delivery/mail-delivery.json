@@ -1,0 +1,33 @@
+{
+  "slug": "mail-delivery",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Post",
+  "description": "The envelope going through the door",
+  "tags": [
+    "post",
+    "envelope",
+    "delivered"
+  ],
+  "keywords": [
+    "mail delivery",
+    "the post",
+    "through the door",
+    "envelope"
+  ],
+  "family": "envelope",
+  "shapes": [
+    {
+      "d": "M6 3L6 11L18 11L18 3Z",
+      "closed": true
+    },
+    {
+      "d": "M6 3L11 8L16 3",
+      "closed": false
+    },
+    {
+      "d": "M4 18H20",
+      "closed": false
+    }
+  ]
+}

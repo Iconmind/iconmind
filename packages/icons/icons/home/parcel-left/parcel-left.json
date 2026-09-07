@@ -1,0 +1,33 @@
+{
+  "slug": "parcel-left",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Parcel left",
+  "description": "The parcel on the step",
+  "tags": [
+    "parcel",
+    "step",
+    "left"
+  ],
+  "keywords": [
+    "parcel left",
+    "on the doorstep",
+    "delivery",
+    "parcel"
+  ],
+  "family": "box",
+  "shapes": [
+    {
+      "d": "M6 7L6 15L18 15L18 7Z",
+      "closed": true
+    },
+    {
+      "d": "M12 7V15",
+      "closed": false
+    },
+    {
+      "d": "M3 19H21",
+      "closed": false
+    }
+  ]
+}

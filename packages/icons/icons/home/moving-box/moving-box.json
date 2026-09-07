@@ -1,0 +1,37 @@
+{
+  "slug": "moving-box",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Moving box",
+  "description": "The flaps still open",
+  "tags": [
+    "moving",
+    "flaps",
+    "pack"
+  ],
+  "keywords": [
+    "moving box",
+    "packing box",
+    "cardboard box",
+    "flaps"
+  ],
+  "family": "box",
+  "shapes": [
+    {
+      "d": "M4 8L4 19L20 19L20 8",
+      "closed": false
+    },
+    {
+      "d": "M4 8L7 5",
+      "closed": false
+    },
+    {
+      "d": "M20 8L17 5",
+      "closed": false
+    },
+    {
+      "d": "M12 8V19",
+      "closed": false
+    }
+  ]
+}

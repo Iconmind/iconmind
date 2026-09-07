@@ -1,0 +1,45 @@
+{
+  "slug": "spare-key",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Spare key",
+  "description": "The second one on the ring",
+  "tags": [
+    "spare",
+    "second",
+    "copy"
+  ],
+  "keywords": [
+    "spare key",
+    "a second key",
+    "copy of the key",
+    "spare"
+  ],
+  "family": "key",
+  "shapes": [
+    {
+      "d": "M4 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 10V20",
+      "closed": false
+    },
+    {
+      "d": "M7 16H10",
+      "closed": false
+    },
+    {
+      "d": "M14 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 10V20",
+      "closed": false
+    },
+    {
+      "d": "M14 16H17",
+      "closed": false
+    }
+  ]
+}

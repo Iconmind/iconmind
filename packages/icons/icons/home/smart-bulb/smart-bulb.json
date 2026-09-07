@@ -1,0 +1,35 @@
+{
+  "slug": "smart-bulb",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Smart bulb",
+  "description": "The bulb with a signal off it",
+  "tags": [
+    "bulb",
+    "light",
+    "signal"
+  ],
+  "keywords": [
+    "smart bulb",
+    "connected light",
+    "colour bulb",
+    "signal"
+  ],
+  "family": "lamp",
+  "shapes": [
+    {
+      "d": "M10 4C13.5 4 16 6.5 16 10C16 12.5 14 14 14 16H6C6 14 4 12.5 4 10C4 6.5 6.5 4 10 4Z",
+      "closed": true,
+      "_why": "the bulb, round over its neck"
+    },
+    {
+      "d": "M7 19H13",
+      "closed": false
+    },
+    {
+      "d": "M19 8C21 11 21 15 19 18",
+      "closed": false,
+      "_why": "the signal off the bulb"
+    }
+  ]
+}

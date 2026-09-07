@@ -1,0 +1,38 @@
+{
+  "slug": "wardrobe-sort",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Sort clothes",
+  "description": "The hanger and what comes off it",
+  "tags": [
+    "sort",
+    "hanger",
+    "cull"
+  ],
+  "keywords": [
+    "sort the wardrobe",
+    "hanger",
+    "what to keep",
+    "cull"
+  ],
+  "family": "hanger",
+  "shapes": [
+    {
+      "d": "M12 4C13.5 4 13.5 6 12 6.5",
+      "closed": false,
+      "_why": "the hook over the rail"
+    },
+    {
+      "d": "M6 13L12 7L18 13",
+      "closed": false
+    },
+    {
+      "d": "M6 13H18",
+      "closed": false
+    },
+    {
+      "d": "M9 17L12 20L15 17",
+      "closed": false
+    }
+  ]
+}

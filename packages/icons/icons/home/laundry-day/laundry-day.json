@@ -1,0 +1,33 @@
+{
+  "slug": "laundry-day",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Laundry day",
+  "description": "The washing out on the line",
+  "tags": [
+    "washing",
+    "line",
+    "dry"
+  ],
+  "keywords": [
+    "laundry day",
+    "washing line",
+    "hang it out",
+    "drying"
+  ],
+  "family": "line",
+  "shapes": [
+    {
+      "d": "M2 7H22",
+      "closed": false
+    },
+    {
+      "d": "M6 7L6 14L10 14L10 7",
+      "closed": false
+    },
+    {
+      "d": "M14 7L14 17L18 17L18 7",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "remote-control",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Remote",
+  "description": "The handset and its buttons",
+  "tags": [
+    "remote",
+    "buttons",
+    "channel"
+  ],
+  "aliases": [
+    "zapper"
+  ],
+  "keywords": [
+    "remote control",
+    "the zapper",
+    "change the channel",
+    "buttons"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M7 2L7 22L17 22L17 2Z",
+      "closed": true
+    },
+    {
+      "d": "M11 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 10H14",
+      "closed": false
+    },
+    {
+      "d": "M9 13H14",
+      "closed": false
+    }
+  ]
+}

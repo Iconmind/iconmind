@@ -1,0 +1,33 @@
+{
+  "slug": "lock-door",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Lock the door",
+  "description": "The door with the lock shut",
+  "tags": [
+    "lock",
+    "shut",
+    "secure"
+  ],
+  "keywords": [
+    "lock the door",
+    "locked",
+    "shut it",
+    "secure"
+  ],
+  "family": "door",
+  "shapes": [
+    {
+      "d": "M4 3L4 21L14 21L14 3Z",
+      "closed": true
+    },
+    {
+      "d": "M17 13L17 19L22 19L22 13Z",
+      "closed": true
+    },
+    {
+      "d": "M17.5 13A2 2 0 0 1 21.5 13",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "laundry-basket",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Laundry basket",
+  "description": "The basket with its band",
+  "tags": [
+    "laundry",
+    "basket",
+    "washing"
+  ],
+  "keywords": [
+    "laundry basket",
+    "the washing",
+    "basket",
+    "dirty clothes"
+  ],
+  "family": "basket",
+  "shapes": [
+    {
+      "d": "M5 10L5 20L19 20L19 10Z",
+      "closed": true
+    },
+    {
+      "d": "M5 15H19",
+      "closed": false
+    },
+    {
+      "d": "M3 6H21",
+      "closed": false
+    }
+  ]
+}

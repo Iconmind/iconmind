@@ -1,0 +1,33 @@
+{
+  "slug": "declutter",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Declutter",
+  "description": "The box and what is not going in it",
+  "tags": [
+    "declutter",
+    "sort",
+    "get-rid"
+  ],
+  "keywords": [
+    "declutter",
+    "get rid of it",
+    "sort out",
+    "keep or bin"
+  ],
+  "family": "box",
+  "shapes": [
+    {
+      "d": "M5 12L5 20L19 20L19 12Z",
+      "closed": true
+    },
+    {
+      "d": "M12 4V10",
+      "closed": false
+    },
+    {
+      "d": "M9 7L12 4L15 7",
+      "closed": false
+    }
+  ]
+}

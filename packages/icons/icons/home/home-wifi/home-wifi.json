@@ -1,0 +1,39 @@
+{
+  "slug": "home-wifi",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Home wifi",
+  "description": "The signal under the roof",
+  "tags": [
+    "wifi",
+    "signal",
+    "network"
+  ],
+  "keywords": [
+    "home wifi",
+    "the house network",
+    "signal",
+    "broadband"
+  ],
+  "family": "building",
+  "shapes": [
+    {
+      "d": "M3 20L3 12L12 3L21 12L21 20Z",
+      "closed": true
+    },
+    {
+      "d": "M7 14C10 11 14 11 17 14",
+      "closed": false,
+      "_why": "the signal spreading out"
+    },
+    {
+      "d": "M9.5 17C11 15.5 13 15.5 14.5 17",
+      "closed": false,
+      "_why": "the second band of it"
+    },
+    {
+      "d": "M11 20a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

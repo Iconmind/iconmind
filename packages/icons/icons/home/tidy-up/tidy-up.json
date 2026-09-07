@@ -1,0 +1,33 @@
+{
+  "slug": "tidy-up",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Tidy up",
+  "description": "Everything going back in the box",
+  "tags": [
+    "tidy",
+    "away",
+    "box"
+  ],
+  "keywords": [
+    "tidy up",
+    "put it away",
+    "clear up",
+    "in the box"
+  ],
+  "family": "box",
+  "shapes": [
+    {
+      "d": "M5 12L5 20L19 20L19 12Z",
+      "closed": true
+    },
+    {
+      "d": "M12 4V10",
+      "closed": false
+    },
+    {
+      "d": "M9 7L12 10L15 7",
+      "closed": false
+    }
+  ]
+}

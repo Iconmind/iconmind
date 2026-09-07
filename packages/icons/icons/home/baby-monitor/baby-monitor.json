@@ -1,0 +1,37 @@
+{
+  "slug": "baby-monitor",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Baby monitor",
+  "description": "The handset with its aerial",
+  "tags": [
+    "monitor",
+    "handset",
+    "listen"
+  ],
+  "keywords": [
+    "baby monitor",
+    "listen in",
+    "handset",
+    "nursery"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M7 7A2 2 0 0 1 9 5H15A2 2 0 0 1 17 7V19A2 2 0 0 1 15 21H9A2 2 0 0 1 7 19Z",
+      "closed": true
+    },
+    {
+      "d": "M15 5L18 2",
+      "closed": false
+    },
+    {
+      "d": "M9 9H15",
+      "closed": false
+    },
+    {
+      "d": "M11 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

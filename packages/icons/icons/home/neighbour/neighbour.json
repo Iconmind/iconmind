@@ -1,0 +1,32 @@
+{
+  "slug": "neighbour",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Neighbour",
+  "description": "The house next to yours",
+  "tags": [
+    "neighbour",
+    "next-door",
+    "two"
+  ],
+  "aliases": [
+    "next-door"
+  ],
+  "keywords": [
+    "neighbour",
+    "next door",
+    "the house beside yours",
+    "neighbours"
+  ],
+  "family": "building",
+  "shapes": [
+    {
+      "d": "M2 18L2 12L6 8L10 12L10 18Z",
+      "closed": true
+    },
+    {
+      "d": "M14 18L14 12L18 8L22 12L22 18Z",
+      "closed": true
+    }
+  ]
+}

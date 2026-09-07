@@ -1,0 +1,45 @@
+{
+  "slug": "mesh-wifi",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Mesh wifi",
+  "description": "The three nodes holding hands",
+  "tags": [
+    "mesh",
+    "nodes",
+    "spread"
+  ],
+  "keywords": [
+    "mesh wifi",
+    "more than one node",
+    "whole house wifi",
+    "spread"
+  ],
+  "family": "network",
+  "shapes": [
+    {
+      "d": "M4 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 8L16 8",
+      "closed": false
+    },
+    {
+      "d": "M7 10L11 14",
+      "closed": false
+    },
+    {
+      "d": "M17 10L13 14",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "alarm-disarmed",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Disarmed",
+  "description": "The shield struck through",
+  "tags": [
+    "disarmed",
+    "off",
+    "unguarded"
+  ],
+  "keywords": [
+    "alarm disarmed",
+    "alarm off",
+    "not set",
+    "unguarded"
+  ],
+  "family": "shield",
+  "shapes": [
+    {
+      "d": "M12 3C12 3 16 5 20 6V12C20 17 16 20 12 21C8 20 4 17 4 12V6C8 5 12 3 12 3Z",
+      "closed": true,
+      "_why": "the shield, wide at the shoulder"
+    },
+    {
+      "d": "M8 15L16 7",
+      "closed": false
+    }
+  ]
+}

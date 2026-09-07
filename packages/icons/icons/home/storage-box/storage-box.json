@@ -1,0 +1,33 @@
+{
+  "slug": "storage-box",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Storage box",
+  "description": "The box with its lid and label",
+  "tags": [
+    "storage",
+    "lid",
+    "label"
+  ],
+  "keywords": [
+    "storage box",
+    "keep it in here",
+    "lidded box",
+    "label"
+  ],
+  "family": "box",
+  "shapes": [
+    {
+      "d": "M3 6L3 10L21 10L21 6Z",
+      "closed": true
+    },
+    {
+      "d": "M5 10L5 20L19 20L19 10",
+      "closed": false
+    },
+    {
+      "d": "M10 14L14 14L14 17L10 17Z",
+      "closed": true
+    }
+  ]
+}

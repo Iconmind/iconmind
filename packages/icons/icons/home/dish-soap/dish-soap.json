@@ -1,0 +1,37 @@
+{
+  "slug": "dish-soap",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Washing-up liquid",
+  "description": "The bottle with a bubble off it",
+  "tags": [
+    "soap",
+    "bottle",
+    "suds"
+  ],
+  "aliases": [
+    "detergent"
+  ],
+  "keywords": [
+    "washing up liquid",
+    "dish soap",
+    "detergent",
+    "suds"
+  ],
+  "family": "vessel",
+  "shapes": [
+    {
+      "d": "M6 21V12C6 10 8 9 8 8V5H12V8C12 9 14 10 14 12V21Z",
+      "closed": true,
+      "_why": "the bottle, narrow at the neck"
+    },
+    {
+      "d": "M8 5L8 2L12 2L12 5",
+      "closed": false
+    },
+    {
+      "d": "M16 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

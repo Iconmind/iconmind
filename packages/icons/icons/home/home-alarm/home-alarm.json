@@ -1,0 +1,38 @@
+{
+  "slug": "home-alarm",
+  "category": "home",
+  "subcategory": "household",
+  "name": "Alarm",
+  "description": "The box with its light on",
+  "tags": [
+    "alarm",
+    "light",
+    "warn"
+  ],
+  "aliases": [
+    "siren"
+  ],
+  "keywords": [
+    "home alarm",
+    "burglar alarm",
+    "siren",
+    "the box on the wall"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M6 17C8 15 8 12 8 10C8 7 10 5 12 5C14 5 16 7 16 10C16 12 16 15 18 17Z",
+      "closed": true,
+      "_why": "the bell, flared at the rim"
+    },
+    {
+      "d": "M11 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M19 8C21 10 21 14 19 16",
+      "closed": false,
+      "_why": "the sound going out"
+    }
+  ]
+}
