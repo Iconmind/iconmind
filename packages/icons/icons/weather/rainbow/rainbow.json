@@ -1,0 +1,37 @@
+{
+  "slug": "rainbow",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Rainbow",
+  "description": "Three arcs over the ground",
+  "tags": [
+    "rainbow",
+    "arc",
+    "colour"
+  ],
+  "keywords": [
+    "rainbow",
+    "arc of colour",
+    "after the rain",
+    "spectrum"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 17A9 9 0 0 1 21 17",
+      "closed": false
+    },
+    {
+      "d": "M5.5 17A6.5 6.5 0 0 1 18.5 17",
+      "closed": false
+    },
+    {
+      "d": "M8 17A4 4 0 0 1 16 17",
+      "closed": false
+    },
+    {
+      "d": "M3 17H21",
+      "closed": false
+    }
+  ]
+}

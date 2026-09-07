@@ -1,0 +1,33 @@
+{
+  "slug": "moon-phase",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Moon phase",
+  "description": "The full moon and the crescent beside it — where the month has got to",
+  "tags": [
+    "phase",
+    "half",
+    "waxing"
+  ],
+  "aliases": [
+    "half-moon"
+  ],
+  "keywords": [
+    "moon phase",
+    "half moon",
+    "waxing",
+    "waning"
+  ],
+  "family": "moon",
+  "shapes": [
+    {
+      "d": "M2 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 7A5 5 0 1 0 18 17A4 4 0 0 1 18 7Z",
+      "closed": true,
+      "_why": "the crescent beside the full moon"
+    }
+  ]
+}

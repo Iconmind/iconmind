@@ -1,0 +1,45 @@
+{
+  "slug": "uv-high",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "UV high",
+  "description": "The sun with the scale full — cover up",
+  "tags": [
+    "uv",
+    "high",
+    "burn"
+  ],
+  "keywords": [
+    "uv high",
+    "high uv",
+    "strong sun",
+    "burn risk"
+  ],
+  "family": "sun",
+  "shapes": [
+    {
+      "d": "M8 8a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4.5 3.5L7 6",
+      "closed": false
+    },
+    {
+      "d": "M19.5 3.5L17 6",
+      "closed": false
+    },
+    {
+      "d": "M4 18H20",
+      "closed": false
+    },
+    {
+      "d": "M18 11V18",
+      "closed": false
+    },
+    {
+      "d": "M14 14V18",
+      "closed": false
+    }
+  ]
+}

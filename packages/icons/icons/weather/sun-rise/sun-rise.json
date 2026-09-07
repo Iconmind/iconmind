@@ -1,0 +1,40 @@
+{
+  "slug": "sun-rise",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Sunrise",
+  "description": "The sun coming up over the horizon, with an arrow rising",
+  "tags": [
+    "sunrise",
+    "dawn",
+    "morning"
+  ],
+  "aliases": [
+    "sunrise"
+  ],
+  "keywords": [
+    "sunrise",
+    "sun coming up",
+    "morning",
+    "first light"
+  ],
+  "family": "horizon",
+  "shapes": [
+    {
+      "d": "M7 16A5 5 0 0 1 17 16",
+      "closed": false
+    },
+    {
+      "d": "M2 19H22",
+      "closed": false
+    },
+    {
+      "d": "M12 5V9",
+      "closed": false
+    },
+    {
+      "d": "M9.5 7.5L12 5L14.5 7.5",
+      "closed": false
+    }
+  ]
+}

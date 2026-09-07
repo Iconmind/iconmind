@@ -1,0 +1,31 @@
+{
+  "slug": "clouds",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Clouds",
+  "description": "Two clouds, one behind the other",
+  "tags": [
+    "clouds",
+    "cloudy",
+    "sky"
+  ],
+  "keywords": [
+    "clouds",
+    "cloudy",
+    "more cloud",
+    "grey sky"
+  ],
+  "family": "cloud",
+  "shapes": [
+    {
+      "d": "M2 14A3 3 0 0 1 4 8.5A4 4 0 0 1 11.5 7.5A4.5 4.5 0 0 1 15 14Z",
+      "closed": true,
+      "_why": "the cloud behind, a size down"
+    },
+    {
+      "d": "M9 21A3.5 3.5 0 0 1 11 15A4.5 4.5 0 0 1 19 14A4.5 4.5 0 0 1 22 21Z",
+      "closed": true,
+      "_why": "the cloud in front"
+    }
+  ]
+}

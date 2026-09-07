@@ -1,0 +1,45 @@
+{
+  "slug": "mist",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Mist",
+  "description": "Thin bands, broken",
+  "tags": [
+    "mist",
+    "thin",
+    "damp"
+  ],
+  "keywords": [
+    "mist",
+    "misty",
+    "light fog",
+    "damp air"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 8H12",
+      "closed": false
+    },
+    {
+      "d": "M15 8H21",
+      "closed": false
+    },
+    {
+      "d": "M3 13H9",
+      "closed": false
+    },
+    {
+      "d": "M12 13H21",
+      "closed": false
+    },
+    {
+      "d": "M5 18H14",
+      "closed": false
+    },
+    {
+      "d": "M17 18H21",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "weather-station",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Weather station",
+  "description": "The mast with its cups and a vane",
+  "tags": [
+    "station",
+    "mast",
+    "measure"
+  ],
+  "keywords": [
+    "weather station",
+    "anemometer",
+    "measuring mast",
+    "met station"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 6V21",
+      "closed": false
+    },
+    {
+      "d": "M6 21H18",
+      "closed": false
+    },
+    {
+      "d": "M5 6H19",
+      "closed": false
+    },
+    {
+      "d": "M3 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12L18 12L18 16L12 16",
+      "closed": false
+    }
+  ]
+}

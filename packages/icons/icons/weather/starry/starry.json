@@ -1,0 +1,37 @@
+{
+  "slug": "starry",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Starry sky",
+  "description": "Stars over the horizon",
+  "tags": [
+    "starry",
+    "night",
+    "clear"
+  ],
+  "keywords": [
+    "starry sky",
+    "stars over the land",
+    "clear night sky",
+    "star field"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 5L10 8L7 11L4 8Z",
+      "closed": true
+    },
+    {
+      "d": "M16 3.5L18.5 6L16 8.5L13.5 6Z",
+      "closed": true
+    },
+    {
+      "d": "M12 10.5L14.5 13L12 15.5L9.5 13Z",
+      "closed": true
+    },
+    {
+      "d": "M2 19H22",
+      "closed": false
+    }
+  ]
+}

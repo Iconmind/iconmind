@@ -1,0 +1,36 @@
+{
+  "slug": "night-stars",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Stars",
+  "description": "Three stars in the dark",
+  "tags": [
+    "stars",
+    "night",
+    "sky"
+  ],
+  "aliases": [
+    "stars"
+  ],
+  "keywords": [
+    "stars",
+    "starry sky",
+    "night stars",
+    "constellation"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 3.5L11.5 7L8 10.5L4.5 7Z",
+      "closed": true
+    },
+    {
+      "d": "M17 9.5L19.5 12L17 14.5L14.5 12Z",
+      "closed": true
+    },
+    {
+      "d": "M11 14L14 17L11 20L8 17Z",
+      "closed": true
+    }
+  ]
+}

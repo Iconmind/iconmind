@@ -1,0 +1,38 @@
+{
+  "slug": "mostly-cloudy",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Mostly cloudy",
+  "description": "The cloud with only a corner of sun behind it",
+  "tags": [
+    "mostly",
+    "cloud",
+    "dull"
+  ],
+  "keywords": [
+    "mostly cloudy",
+    "more cloud than sun",
+    "dull",
+    "heavy cloud"
+  ],
+  "family": "cloud",
+  "shapes": [
+    {
+      "d": "M12 6A4 4 0 0 1 20 6",
+      "closed": false
+    },
+    {
+      "d": "M10 3.5L12 5.5",
+      "closed": false
+    },
+    {
+      "d": "M22 3.5L20 5.5",
+      "closed": false
+    },
+    {
+      "d": "M4 20A4 4 0 0 1 6 12.5A5 5 0 0 1 15.5 11A5.5 5.5 0 0 1 20 20Z",
+      "closed": true,
+      "_why": "the cloud in front of it"
+    }
+  ]
+}

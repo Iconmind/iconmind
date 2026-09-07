@@ -1,0 +1,44 @@
+{
+  "slug": "sunny",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Sunny",
+  "description": "The sun with its rays out — nothing in the way",
+  "tags": [
+    "sun",
+    "clear",
+    "fine"
+  ],
+  "aliases": [
+    "sun"
+  ],
+  "keywords": [
+    "sunny",
+    "sun",
+    "clear sky",
+    "fine weather"
+  ],
+  "family": "sun",
+  "shapes": [
+    {
+      "d": "M6.5 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 4L7 7",
+      "closed": false
+    },
+    {
+      "d": "M20 4L17 7",
+      "closed": false
+    },
+    {
+      "d": "M4 20L7 17",
+      "closed": false
+    },
+    {
+      "d": "M20 20L17 17",
+      "closed": false
+    }
+  ]
+}

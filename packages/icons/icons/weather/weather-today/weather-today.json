@@ -1,0 +1,30 @@
+{
+  "slug": "weather-today",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Today's weather",
+  "description": "The cloud with one bar under it — the day ahead",
+  "tags": [
+    "today",
+    "day",
+    "forecast"
+  ],
+  "keywords": [
+    "today's weather",
+    "weather today",
+    "day forecast",
+    "today"
+  ],
+  "family": "cloud",
+  "shapes": [
+    {
+      "d": "M4 16A4 4 0 0 1 6 8.5A5 5 0 0 1 15.5 7A5.5 5.5 0 0 1 20 16Z",
+      "closed": true,
+      "_why": "three lobes, each an arc whose radius is set by the chord it spans — 4 across 7.76, 5 across 9.62, 5.5 across 10.06 — which no constructor takes as an argument"
+    },
+    {
+      "d": "M8 20H16",
+      "closed": false
+    }
+  ]
+}

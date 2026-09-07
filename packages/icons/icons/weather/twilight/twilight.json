@@ -1,0 +1,37 @@
+{
+  "slug": "twilight",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Twilight",
+  "description": "The half-lit sky between day and night",
+  "tags": [
+    "twilight",
+    "between",
+    "half-light"
+  ],
+  "keywords": [
+    "twilight",
+    "half light",
+    "between day and night",
+    "gloaming"
+  ],
+  "family": "horizon",
+  "shapes": [
+    {
+      "d": "M5 18A7 7 0 0 1 19 18",
+      "closed": false
+    },
+    {
+      "d": "M2 19H22",
+      "closed": false
+    },
+    {
+      "d": "M6 4.5L8.5 7L6 9.5L3.5 7Z",
+      "closed": true
+    },
+    {
+      "d": "M18 6.5L20.5 9L18 11.5L15.5 9Z",
+      "closed": true
+    }
+  ]
+}

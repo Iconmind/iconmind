@@ -1,0 +1,45 @@
+{
+  "slug": "uv-index",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "UV index",
+  "description": "The sun with a scale under it",
+  "tags": [
+    "uv",
+    "index",
+    "scale"
+  ],
+  "keywords": [
+    "uv index",
+    "ultraviolet",
+    "sun strength",
+    "uv level"
+  ],
+  "family": "sun",
+  "shapes": [
+    {
+      "d": "M7.5 8a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4.5 3.5L7.5 6.5",
+      "closed": false
+    },
+    {
+      "d": "M19.5 3.5L16.5 6.5",
+      "closed": false
+    },
+    {
+      "d": "M3 17H21",
+      "closed": false
+    },
+    {
+      "d": "M9 17V21",
+      "closed": false
+    },
+    {
+      "d": "M15 17V21",
+      "closed": false
+    }
+  ]
+}

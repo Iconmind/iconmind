@@ -1,0 +1,45 @@
+{
+  "slug": "sky-clear",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Clear sky",
+  "description": "The sun over the horizon, nothing between",
+  "tags": [
+    "clear",
+    "sky",
+    "fine"
+  ],
+  "keywords": [
+    "clear sky",
+    "cloudless",
+    "nothing in the sky",
+    "fine day"
+  ],
+  "family": "horizon",
+  "shapes": [
+    {
+      "d": "M7.5 9a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4.5 4.5L7 7",
+      "closed": false
+    },
+    {
+      "d": "M19.5 4.5L17 7",
+      "closed": false
+    },
+    {
+      "d": "M2 9H5",
+      "closed": false
+    },
+    {
+      "d": "M19 9H22",
+      "closed": false
+    },
+    {
+      "d": "M2 19H22",
+      "closed": false
+    }
+  ]
+}

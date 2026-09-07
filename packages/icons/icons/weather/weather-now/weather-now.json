@@ -1,0 +1,41 @@
+{
+  "slug": "weather-now",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Weather now",
+  "description": "The cloud with a clock under it — what it is doing at this minute",
+  "tags": [
+    "now",
+    "current",
+    "conditions"
+  ],
+  "aliases": [
+    "current-weather"
+  ],
+  "keywords": [
+    "weather now",
+    "current weather",
+    "right now",
+    "conditions"
+  ],
+  "family": "cloud",
+  "shapes": [
+    {
+      "d": "M4 16A4 4 0 0 1 6 8.5A5 5 0 0 1 15.5 7A5.5 5.5 0 0 1 20 16Z",
+      "closed": true,
+      "_why": "three lobes, each an arc whose radius is set by the chord it spans — 4 across 7.76, 5 across 9.62, 5.5 across 10.06 — which no constructor takes as an argument"
+    },
+    {
+      "d": "M9 18.5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 15.5V18.5",
+      "closed": false
+    },
+    {
+      "d": "M12 18.5H14.5",
+      "closed": false
+    }
+  ]
+}

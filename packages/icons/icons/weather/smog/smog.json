@@ -1,0 +1,40 @@
+{
+  "slug": "smog",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Smog",
+  "description": "The sun behind bands, with a chimney under them",
+  "tags": [
+    "smog",
+    "pollution",
+    "air"
+  ],
+  "aliases": [
+    "pollution"
+  ],
+  "keywords": [
+    "smog",
+    "air pollution",
+    "bad air",
+    "smoke haze"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 7a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 13H21",
+      "closed": false
+    },
+    {
+      "d": "M7 21L7 16L11 16L11 21",
+      "closed": false
+    },
+    {
+      "d": "M14 21L14 17L18 17L18 21",
+      "closed": false
+    }
+  ]
+}

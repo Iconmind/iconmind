@@ -1,0 +1,34 @@
+{
+  "slug": "cloud-cover",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Cloud cover",
+  "description": "The cloud with the fraction of sky it covers under it",
+  "tags": [
+    "cover",
+    "fraction",
+    "amount"
+  ],
+  "keywords": [
+    "cloud cover",
+    "how much cloud",
+    "octas",
+    "sky cover"
+  ],
+  "family": "cloud",
+  "shapes": [
+    {
+      "d": "M4 14A4 4 0 0 1 6 6.5A5 5 0 0 1 15.5 5A5.5 5.5 0 0 1 20 14Z",
+      "closed": true,
+      "_why": "three lobes, each an arc whose radius is set by the chord it spans — 4 across 7.76, 5 across 9.62, 5.5 across 10.06 — which no constructor takes as an argument"
+    },
+    {
+      "d": "M3 19H21",
+      "closed": false
+    },
+    {
+      "d": "M3 22H11",
+      "closed": false
+    }
+  ]
+}

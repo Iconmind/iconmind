@@ -1,0 +1,41 @@
+{
+  "slug": "visibility-low",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Low visibility",
+  "description": "The eye with its view cut short",
+  "tags": [
+    "visibility",
+    "low",
+    "poor"
+  ],
+  "keywords": [
+    "low visibility",
+    "poor visibility",
+    "cannot see far",
+    "reduced sight"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6.36 9.95A6 6 0 0 1 17.64 9.95",
+      "closed": false
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 19H12",
+      "closed": false
+    },
+    {
+      "d": "M3 17V21",
+      "closed": false
+    },
+    {
+      "d": "M12 17V21",
+      "closed": false
+    }
+  ]
+}

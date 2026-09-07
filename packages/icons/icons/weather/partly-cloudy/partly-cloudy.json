@@ -1,0 +1,41 @@
+{
+  "slug": "partly-cloudy",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Partly cloudy",
+  "description": "The sun with a cloud across part of it",
+  "tags": [
+    "partly",
+    "sun",
+    "cloud"
+  ],
+  "aliases": [
+    "sun-cloud"
+  ],
+  "keywords": [
+    "partly cloudy",
+    "sun and cloud",
+    "some cloud",
+    "bright spells"
+  ],
+  "family": "cloud",
+  "shapes": [
+    {
+      "d": "M4 7a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2.5 2.5L5 5",
+      "closed": false
+    },
+    {
+      "d": "M13.5 2.5L11 5",
+      "closed": false
+    },
+    {
+      "d": "M8 21A4 4 0 0 1 10 13.5A5 5 0 0 1 19 12.5A4.5 4.5 0 0 1 22 21Z",
+      "closed": true,
+      "_why": "the cloud drawn across the sun"
+    }
+  ]
+}

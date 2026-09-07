@@ -1,0 +1,29 @@
+{
+  "slug": "moon-crescent",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Crescent moon",
+  "description": "The moon as a crescent",
+  "tags": [
+    "moon",
+    "crescent",
+    "night"
+  ],
+  "aliases": [
+    "moon"
+  ],
+  "keywords": [
+    "crescent moon",
+    "moon",
+    "night",
+    "waxing moon"
+  ],
+  "family": "moon",
+  "shapes": [
+    {
+      "d": "M15 3A9 9 0 1 0 15 21A7 7 0 0 1 15 3Z",
+      "closed": true,
+      "_why": "a crescent: the long way round one circle and back on a smaller one"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "golden-hour",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Golden hour",
+  "description": "The low sun with long rays over the horizon",
+  "tags": [
+    "golden",
+    "warm",
+    "light"
+  ],
+  "keywords": [
+    "golden hour",
+    "warm light",
+    "low sun",
+    "magic hour"
+  ],
+  "family": "horizon",
+  "shapes": [
+    {
+      "d": "M7.5 17A4.5 4.5 0 0 1 16.5 17",
+      "closed": false
+    },
+    {
+      "d": "M2 19H22",
+      "closed": false
+    },
+    {
+      "d": "M2 12L6 12",
+      "closed": false
+    },
+    {
+      "d": "M18 12L22 12",
+      "closed": false
+    },
+    {
+      "d": "M5 6L8 9",
+      "closed": false
+    },
+    {
+      "d": "M19 6L16 9",
+      "closed": false
+    }
+  ]
+}

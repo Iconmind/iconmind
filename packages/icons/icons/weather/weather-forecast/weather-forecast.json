@@ -1,0 +1,33 @@
+{
+  "slug": "weather-forecast",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Forecast",
+  "description": "The cloud with a trend line under it — what the sky will do",
+  "tags": [
+    "forecast",
+    "prediction",
+    "ahead"
+  ],
+  "aliases": [
+    "forecast"
+  ],
+  "keywords": [
+    "forecast",
+    "weather forecast",
+    "what's coming",
+    "prediction"
+  ],
+  "family": "cloud",
+  "shapes": [
+    {
+      "d": "M4 16A4 4 0 0 1 6 8.5A5 5 0 0 1 15.5 7A5.5 5.5 0 0 1 20 16Z",
+      "closed": true,
+      "_why": "three lobes, each an arc whose radius is set by the chord it spans — 4 across 7.76, 5 across 9.62, 5.5 across 10.06 — which no constructor takes as an argument"
+    },
+    {
+      "d": "M5 21L9 17L13 21L19 15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "dawn",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Dawn",
+  "description": "The first light coming up, the sky still dark above",
+  "tags": [
+    "dawn",
+    "daybreak",
+    "early"
+  ],
+  "aliases": [
+    "daybreak"
+  ],
+  "keywords": [
+    "dawn",
+    "daybreak",
+    "first light",
+    "early morning"
+  ],
+  "family": "horizon",
+  "shapes": [
+    {
+      "d": "M6 19A6 6 0 0 1 18 19",
+      "closed": false
+    },
+    {
+      "d": "M2 19H22",
+      "closed": false
+    },
+    {
+      "d": "M19 8V14",
+      "closed": false
+    },
+    {
+      "d": "M16.5 10.5L19 8L21.5 10.5",
+      "closed": false
+    }
+  ]
+}

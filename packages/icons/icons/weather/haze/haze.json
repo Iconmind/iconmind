@@ -1,0 +1,33 @@
+{
+  "slug": "haze",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Haze",
+  "description": "The sun dimmed behind flat bands",
+  "tags": [
+    "haze",
+    "hazy",
+    "dim"
+  ],
+  "keywords": [
+    "haze",
+    "hazy",
+    "dimmed sun",
+    "dusty air"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7.5 8a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 14H21",
+      "closed": false
+    },
+    {
+      "d": "M5 18H19",
+      "closed": false
+    }
+  ]
+}

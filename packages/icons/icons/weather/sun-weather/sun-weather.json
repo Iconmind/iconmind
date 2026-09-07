@@ -1,0 +1,41 @@
+{
+  "slug": "sun-weather",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Sun",
+  "description": "The sun alone",
+  "tags": [
+    "sun",
+    "daylight",
+    "bright"
+  ],
+  "keywords": [
+    "sun",
+    "daylight",
+    "bright",
+    "solar"
+  ],
+  "family": "sun",
+  "shapes": [
+    {
+      "d": "M6 12a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3.5 3.5L6 6",
+      "closed": false
+    },
+    {
+      "d": "M20.5 3.5L18 6",
+      "closed": false
+    },
+    {
+      "d": "M3.5 20.5L6 18",
+      "closed": false
+    },
+    {
+      "d": "M20.5 20.5L18 18",
+      "closed": false
+    }
+  ]
+}

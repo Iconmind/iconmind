@@ -1,0 +1,44 @@
+{
+  "slug": "noon-sun",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Midday sun",
+  "description": "The sun high over a short line — the top of the day",
+  "tags": [
+    "noon",
+    "midday",
+    "high"
+  ],
+  "aliases": [
+    "midday"
+  ],
+  "keywords": [
+    "midday sun",
+    "noon",
+    "high sun",
+    "middle of the day"
+  ],
+  "family": "horizon",
+  "shapes": [
+    {
+      "d": "M7 8a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 2V5",
+      "closed": false
+    },
+    {
+      "d": "M4.5 4.5L7 7",
+      "closed": false
+    },
+    {
+      "d": "M19.5 4.5L17 7",
+      "closed": false
+    },
+    {
+      "d": "M2 19H22",
+      "closed": false
+    }
+  ]
+}

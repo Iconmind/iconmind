@@ -1,0 +1,40 @@
+{
+  "slug": "aurora",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Aurora",
+  "description": "Curtains of light over the horizon",
+  "tags": [
+    "aurora",
+    "northern-lights",
+    "curtain"
+  ],
+  "aliases": [
+    "northern-lights"
+  ],
+  "keywords": [
+    "aurora",
+    "northern lights",
+    "aurora borealis",
+    "polar lights"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 16L5 8L9 4",
+      "closed": false
+    },
+    {
+      "d": "M10 16L10 8L14 4",
+      "closed": false
+    },
+    {
+      "d": "M15 16L15 8L19 4",
+      "closed": false
+    },
+    {
+      "d": "M2 19H22",
+      "closed": false
+    }
+  ]
+}

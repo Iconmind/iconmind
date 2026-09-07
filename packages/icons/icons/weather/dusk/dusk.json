@@ -1,0 +1,40 @@
+{
+  "slug": "dusk",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Dusk",
+  "description": "The last light going down, the sky darkening above",
+  "tags": [
+    "dusk",
+    "nightfall",
+    "late"
+  ],
+  "aliases": [
+    "nightfall"
+  ],
+  "keywords": [
+    "dusk",
+    "nightfall",
+    "last light",
+    "evening light"
+  ],
+  "family": "horizon",
+  "shapes": [
+    {
+      "d": "M6 19A6 6 0 0 1 18 19",
+      "closed": false
+    },
+    {
+      "d": "M2 19H22",
+      "closed": false
+    },
+    {
+      "d": "M19 8V14",
+      "closed": false
+    },
+    {
+      "d": "M16.5 11.5L19 14L21.5 11.5",
+      "closed": false
+    }
+  ]
+}

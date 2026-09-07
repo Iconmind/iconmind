@@ -1,0 +1,36 @@
+{
+  "slug": "meteor",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Meteor",
+  "description": "A star falling, its trail behind it",
+  "tags": [
+    "meteor",
+    "shooting-star",
+    "falling"
+  ],
+  "aliases": [
+    "shooting-star"
+  ],
+  "keywords": [
+    "meteor",
+    "shooting star",
+    "falling star",
+    "meteor shower"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M16 4.5L19.5 8L16 11.5L12.5 8Z",
+      "closed": true
+    },
+    {
+      "d": "M3 19L10 12",
+      "closed": false
+    },
+    {
+      "d": "M7 21L12 16",
+      "closed": false
+    }
+  ]
+}

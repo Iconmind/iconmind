@@ -1,0 +1,37 @@
+{
+  "slug": "horizon",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Horizon",
+  "description": "The line where the sky meets the ground",
+  "tags": [
+    "horizon",
+    "line",
+    "distance"
+  ],
+  "keywords": [
+    "horizon",
+    "skyline",
+    "where sky meets land",
+    "far line"
+  ],
+  "family": "horizon",
+  "shapes": [
+    {
+      "d": "M2 13H22",
+      "closed": false
+    },
+    {
+      "d": "M5 13L9 9L13 13",
+      "closed": false
+    },
+    {
+      "d": "M12 13L16 9L20 13",
+      "closed": false
+    },
+    {
+      "d": "M6 18H18",
+      "closed": false
+    }
+  ]
+}

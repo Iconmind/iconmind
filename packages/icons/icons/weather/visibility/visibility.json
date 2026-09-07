@@ -1,0 +1,41 @@
+{
+  "slug": "visibility",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Visibility",
+  "description": "The eye with the distance it can see",
+  "tags": [
+    "visibility",
+    "distance",
+    "see"
+  ],
+  "keywords": [
+    "visibility",
+    "how far you can see",
+    "sight distance",
+    "clear view"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6.36 9.95A6 6 0 0 1 17.64 9.95",
+      "closed": false
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 19H21",
+      "closed": false
+    },
+    {
+      "d": "M3 17V21",
+      "closed": false
+    },
+    {
+      "d": "M21 17V21",
+      "closed": false
+    }
+  ]
+}

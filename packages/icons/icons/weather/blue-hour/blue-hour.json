@@ -1,0 +1,37 @@
+{
+  "slug": "blue-hour",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Blue hour",
+  "description": "The sun just under the horizon, one star out",
+  "tags": [
+    "blue",
+    "twilight",
+    "after-sunset"
+  ],
+  "keywords": [
+    "blue hour",
+    "just after sunset",
+    "twilight light",
+    "dim light"
+  ],
+  "family": "horizon",
+  "shapes": [
+    {
+      "d": "M7 21A5 5 0 0 1 17 21",
+      "closed": false
+    },
+    {
+      "d": "M2 19H22",
+      "closed": false
+    },
+    {
+      "d": "M7 5L10 8L7 11L4 8Z",
+      "closed": true
+    },
+    {
+      "d": "M17 9.5L19.5 12L17 14.5L14.5 12Z",
+      "closed": true
+    }
+  ]
+}

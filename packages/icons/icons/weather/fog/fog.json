@@ -1,0 +1,37 @@
+{
+  "slug": "fog",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Fog",
+  "description": "Three level bands with the sky behind them",
+  "tags": [
+    "fog",
+    "thick",
+    "grey"
+  ],
+  "keywords": [
+    "fog",
+    "foggy",
+    "thick fog",
+    "low cloud"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 6H21",
+      "closed": false
+    },
+    {
+      "d": "M5 11H19",
+      "closed": false
+    },
+    {
+      "d": "M3 16H21",
+      "closed": false
+    },
+    {
+      "d": "M7 21H17",
+      "closed": false
+    }
+  ]
+}

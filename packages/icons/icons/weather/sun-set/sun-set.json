@@ -1,0 +1,40 @@
+{
+  "slug": "sun-set",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Sunset",
+  "description": "The sun going down behind the horizon, with an arrow falling",
+  "tags": [
+    "sunset",
+    "dusk",
+    "evening"
+  ],
+  "aliases": [
+    "sunset"
+  ],
+  "keywords": [
+    "sunset",
+    "sun going down",
+    "evening",
+    "last light"
+  ],
+  "family": "horizon",
+  "shapes": [
+    {
+      "d": "M7 16A5 5 0 0 1 17 16",
+      "closed": false
+    },
+    {
+      "d": "M2 19H22",
+      "closed": false
+    },
+    {
+      "d": "M12 5V9",
+      "closed": false
+    },
+    {
+      "d": "M9.5 6.5L12 9L14.5 6.5",
+      "closed": false
+    }
+  ]
+}

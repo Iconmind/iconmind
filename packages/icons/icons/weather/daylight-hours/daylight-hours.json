@@ -1,0 +1,36 @@
+{
+  "slug": "daylight-hours",
+  "category": "weather",
+  "subcategory": "sky",
+  "name": "Daylight hours",
+  "description": "The sun's arc from one horizon to the other",
+  "tags": [
+    "daylight",
+    "hours",
+    "arc"
+  ],
+  "aliases": [
+    "day-length"
+  ],
+  "keywords": [
+    "daylight hours",
+    "day length",
+    "sun path",
+    "hours of light"
+  ],
+  "family": "horizon",
+  "shapes": [
+    {
+      "d": "M3 19A9 9 0 0 1 21 19",
+      "closed": false
+    },
+    {
+      "d": "M2 19H22",
+      "closed": false
+    },
+    {
+      "d": "M9 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}
