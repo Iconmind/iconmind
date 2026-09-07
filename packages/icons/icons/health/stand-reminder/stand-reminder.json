@@ -1,0 +1,41 @@
+{
+  "slug": "stand-reminder",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Stand reminder",
+  "description": "The nudge to get up",
+  "tags": [
+    "stand",
+    "up",
+    "nudge"
+  ],
+  "keywords": [
+    "stand reminder",
+    "time to stand",
+    "get up",
+    "stand up"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 8L8 14",
+      "closed": false
+    },
+    {
+      "d": "M4 18L8 14L12 18",
+      "closed": false
+    },
+    {
+      "d": "M17 19L17 9",
+      "closed": false
+    },
+    {
+      "d": "M14 12L17 9L20 12",
+      "closed": false
+    }
+  ]
+}

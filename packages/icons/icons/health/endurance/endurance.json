@@ -1,0 +1,36 @@
+{
+  "slug": "endurance",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Endurance",
+  "description": "The long climb with the flag at the top",
+  "tags": [
+    "stamina",
+    "distance",
+    "climb"
+  ],
+  "aliases": [
+    "stamina"
+  ],
+  "keywords": [
+    "endurance",
+    "stamina",
+    "long effort",
+    "go the distance"
+  ],
+  "family": "ridge",
+  "shapes": [
+    {
+      "d": "M2 20L8 14L11 17L15 13L22 20",
+      "closed": false
+    },
+    {
+      "d": "M15 13L15 5",
+      "closed": false
+    },
+    {
+      "d": "M15 5L19 5L19 9L15 9",
+      "closed": false
+    }
+  ]
+}

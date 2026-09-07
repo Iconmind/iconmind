@@ -1,0 +1,40 @@
+{
+  "slug": "fitness-tracker",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Tracker band",
+  "description": "The band with its small screen",
+  "tags": [
+    "tracker",
+    "band",
+    "wear"
+  ],
+  "aliases": [
+    "activity-band"
+  ],
+  "keywords": [
+    "fitness tracker",
+    "activity band",
+    "wearable",
+    "tracker"
+  ],
+  "family": "watch",
+  "shapes": [
+    {
+      "d": "M7 10A2 2 0 0 1 9 8H15A2 2 0 0 1 17 10V14A2 2 0 0 1 15 16H9A2 2 0 0 1 7 14Z",
+      "closed": true
+    },
+    {
+      "d": "M10 8L10 3L14 3L14 8",
+      "closed": false
+    },
+    {
+      "d": "M10 16L10 21L14 21L14 16",
+      "closed": false
+    },
+    {
+      "d": "M12 10V14",
+      "closed": false
+    }
+  ]
+}

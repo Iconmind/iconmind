@@ -1,0 +1,36 @@
+{
+  "slug": "step-count",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Step count",
+  "description": "The shoe with the road behind it",
+  "tags": [
+    "step",
+    "shoe",
+    "count"
+  ],
+  "aliases": [
+    "steps"
+  ],
+  "keywords": [
+    "step count",
+    "steps",
+    "step tracker",
+    "steps today"
+  ],
+  "family": "shoe",
+  "shapes": [
+    {
+      "d": "M3 19L3 15L8 15L12 11L16 11L20 15L20 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 6L8 6",
+      "closed": false
+    },
+    {
+      "d": "M3 9L6 9",
+      "closed": false
+    }
+  ]
+}

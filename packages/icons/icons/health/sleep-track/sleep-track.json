@@ -1,0 +1,34 @@
+{
+  "slug": "sleep-track",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Sleep tracking",
+  "description": "The bed with the night over it",
+  "tags": [
+    "sleep",
+    "night",
+    "bed"
+  ],
+  "keywords": [
+    "sleep tracking",
+    "track sleep",
+    "sleep log",
+    "night"
+  ],
+  "family": "bed",
+  "shapes": [
+    {
+      "d": "M2 20L2 13L22 13L22 20",
+      "closed": false
+    },
+    {
+      "d": "M2 16.5H22",
+      "closed": false
+    },
+    {
+      "d": "M13 4A4 4 0 1 0 13 12A3 3 0 0 1 13 4Z",
+      "closed": true,
+      "_why": "a crescent over the bed"
+    }
+  ]
+}

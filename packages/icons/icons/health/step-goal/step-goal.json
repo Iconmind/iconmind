@@ -1,0 +1,33 @@
+{
+  "slug": "step-goal",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Step goal",
+  "description": "The shoe with the flag it is heading for",
+  "tags": [
+    "step",
+    "goal",
+    "target"
+  ],
+  "keywords": [
+    "step goal",
+    "step target",
+    "daily steps",
+    "goal"
+  ],
+  "family": "shoe",
+  "shapes": [
+    {
+      "d": "M3 19L3 15L8 15L12 11L16 11L20 15L20 19Z",
+      "closed": true
+    },
+    {
+      "d": "M6 8L6 2",
+      "closed": false
+    },
+    {
+      "d": "M6 2L11 2L11 6L6 6",
+      "closed": false
+    }
+  ]
+}

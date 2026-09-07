@@ -1,0 +1,30 @@
+{
+  "slug": "kettlebell",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Kettlebell",
+  "description": "The bell hanging from its handle",
+  "tags": [
+    "kettlebell",
+    "bell",
+    "swing"
+  ],
+  "keywords": [
+    "kettlebell",
+    "kettlebell swing",
+    "bell weight",
+    "swing"
+  ],
+  "family": "kettlebell",
+  "shapes": [
+    {
+      "d": "M7 7A8 8 0 1 0 17 7Z",
+      "closed": true,
+      "_why": "the bell hanging under its handle"
+    },
+    {
+      "d": "M7.5 6.5A4.5 4.5 0 0 1 16.5 6.5",
+      "closed": false
+    }
+  ]
+}

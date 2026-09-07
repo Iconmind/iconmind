@@ -1,0 +1,33 @@
+{
+  "slug": "weights",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Weights",
+  "description": "A plate standing on the floor",
+  "tags": [
+    "plate",
+    "iron",
+    "load"
+  ],
+  "keywords": [
+    "weights",
+    "weight plate",
+    "free weights",
+    "iron"
+  ],
+  "family": "plate",
+  "shapes": [
+    {
+      "d": "M4 11a8 8 0 1 0 16 0a8 8 0 1 0 -16 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 11a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 21H19",
+      "closed": false
+    }
+  ]
+}

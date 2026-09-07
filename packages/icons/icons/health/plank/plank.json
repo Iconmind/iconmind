@@ -1,0 +1,41 @@
+{
+  "slug": "plank",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Plank",
+  "description": "The body straight on its forearms",
+  "tags": [
+    "plank",
+    "core",
+    "hold"
+  ],
+  "keywords": [
+    "plank",
+    "hold a plank",
+    "core hold",
+    "forearms"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 8L10 12L20 12",
+      "closed": false
+    },
+    {
+      "d": "M10 12V15",
+      "closed": false
+    },
+    {
+      "d": "M6 15H12",
+      "closed": false
+    },
+    {
+      "d": "M2 18H22",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "running",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Running",
+  "description": "The figure mid-stride",
+  "tags": [
+    "run",
+    "jog",
+    "sprint"
+  ],
+  "keywords": [
+    "running",
+    "run",
+    "jog",
+    "go for a run"
+  ],
+  "family": "runner",
+  "shapes": [
+    {
+      "d": "M13 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 9L12 14",
+      "closed": false
+    },
+    {
+      "d": "M17 9L21 13",
+      "closed": false
+    },
+    {
+      "d": "M14.5 11.5L10 11.5",
+      "closed": false
+    },
+    {
+      "d": "M12 14L16 18L16 21",
+      "closed": false
+    },
+    {
+      "d": "M12 14L8 18L4 18",
+      "closed": false
+    }
+  ]
+}

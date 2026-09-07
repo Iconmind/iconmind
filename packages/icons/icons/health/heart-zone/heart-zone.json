@@ -1,0 +1,37 @@
+{
+  "slug": "heart-zone",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Heart zone",
+  "description": "The heart against the zones above it",
+  "tags": [
+    "heart",
+    "zone",
+    "effort"
+  ],
+  "aliases": [
+    "hr-zone"
+  ],
+  "keywords": [
+    "heart zone",
+    "heart rate zone",
+    "training zone",
+    "effort"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 9A3 3 0 0 1 8 9A3 3 0 0 1 14 9L8 15Z",
+      "closed": true,
+      "_why": "a heart: two lobes over a point"
+    },
+    {
+      "d": "M17 14V20",
+      "closed": false
+    },
+    {
+      "d": "M20 10V20",
+      "closed": false
+    }
+  ]
+}

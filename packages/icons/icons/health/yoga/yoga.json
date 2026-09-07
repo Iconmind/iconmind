@@ -1,0 +1,29 @@
+{
+  "slug": "yoga",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Yoga",
+  "description": "The figure sitting cross-legged",
+  "tags": [
+    "yoga",
+    "pose",
+    "sit"
+  ],
+  "keywords": [
+    "yoga",
+    "yoga pose",
+    "cross-legged",
+    "practice"
+  ],
+  "family": "lotus",
+  "shapes": [
+    {
+      "d": "M9 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 19L12 11L20 19Z",
+      "closed": true
+    }
+  ]
+}

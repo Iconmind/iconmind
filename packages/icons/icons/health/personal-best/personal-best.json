@@ -1,0 +1,44 @@
+{
+  "slug": "personal-best",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Personal best",
+  "description": "The cup you take home",
+  "tags": [
+    "best",
+    "record",
+    "cup"
+  ],
+  "aliases": [
+    "pb"
+  ],
+  "keywords": [
+    "personal best",
+    "PB",
+    "record",
+    "best time"
+  ],
+  "family": "trophy",
+  "shapes": [
+    {
+      "d": "M8 3L16 3L16 9L12 13L8 9Z",
+      "closed": true
+    },
+    {
+      "d": "M12 13L12 20",
+      "closed": false
+    },
+    {
+      "d": "M7 20H17",
+      "closed": false
+    },
+    {
+      "d": "M8 8.5A2.5 2.5 0 0 1 8 3.5",
+      "closed": false
+    },
+    {
+      "d": "M16 3.5A2.5 2.5 0 0 1 16 8.5",
+      "closed": false
+    }
+  ]
+}

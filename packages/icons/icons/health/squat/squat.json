@@ -1,0 +1,33 @@
+{
+  "slug": "squat",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Squat",
+  "description": "The knees bent under the weight",
+  "tags": [
+    "squat",
+    "legs",
+    "bend"
+  ],
+  "keywords": [
+    "squat",
+    "squats",
+    "leg exercise",
+    "bend the knees"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 8L8 13L14 13L14 21",
+      "closed": false
+    },
+    {
+      "d": "M3 21H21",
+      "closed": false
+    }
+  ]
+}

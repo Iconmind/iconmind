@@ -1,0 +1,48 @@
+{
+  "slug": "rest-day",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Rest day",
+  "description": "The day left blank on purpose",
+  "tags": [
+    "rest",
+    "day",
+    "off"
+  ],
+  "aliases": [
+    "day-off"
+  ],
+  "keywords": [
+    "rest day",
+    "day off",
+    "recovery day",
+    "no training"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 7A2 2 0 0 1 5 5H19A2 2 0 0 1 21 7V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 9H21",
+      "closed": false
+    },
+    {
+      "d": "M8 2V5",
+      "closed": false
+    },
+    {
+      "d": "M16 2V5",
+      "closed": false
+    },
+    {
+      "d": "M10 13V17",
+      "closed": false
+    },
+    {
+      "d": "M14 13V17",
+      "closed": false
+    }
+  ]
+}

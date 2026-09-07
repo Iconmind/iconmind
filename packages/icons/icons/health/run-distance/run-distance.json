@@ -1,0 +1,32 @@
+{
+  "slug": "run-distance",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Distance run",
+  "description": "The path climbing to the marker",
+  "tags": [
+    "distance",
+    "road",
+    "marker"
+  ],
+  "aliases": [
+    "mileage"
+  ],
+  "keywords": [
+    "distance run",
+    "mileage",
+    "how far",
+    "kilometres"
+  ],
+  "family": "road",
+  "shapes": [
+    {
+      "d": "M2 21L7 16L7 12L12 7L16 7",
+      "closed": false
+    },
+    {
+      "d": "M16 3L20 3L20 7L16 7",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "barbell",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Barbell",
+  "description": "The long bar loaded either side",
+  "tags": [
+    "barbell",
+    "bar",
+    "load"
+  ],
+  "keywords": [
+    "barbell",
+    "loaded bar",
+    "bench press",
+    "olympic bar"
+  ],
+  "family": "barbell",
+  "shapes": [
+    {
+      "d": "M6 12H18",
+      "closed": false
+    },
+    {
+      "d": "M6 4V20",
+      "closed": false
+    },
+    {
+      "d": "M18 4V20",
+      "closed": false
+    },
+    {
+      "d": "M9 7V17",
+      "closed": false
+    },
+    {
+      "d": "M15 7V17",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "walking",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Walking",
+  "description": "The figure upright, one step at a time",
+  "tags": [
+    "walk",
+    "step",
+    "stroll"
+  ],
+  "aliases": [
+    "walk"
+  ],
+  "keywords": [
+    "walking",
+    "walk",
+    "on foot",
+    "go for a walk"
+  ],
+  "family": "walker",
+  "shapes": [
+    {
+      "d": "M9 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 8L12 14",
+      "closed": false
+    },
+    {
+      "d": "M9 13L12 10L15 13",
+      "closed": false
+    },
+    {
+      "d": "M8 18L12 14L16 18",
+      "closed": false
+    },
+    {
+      "d": "M8 18L5 18",
+      "closed": false
+    },
+    {
+      "d": "M16 18L19 18",
+      "closed": false
+    }
+  ]
+}

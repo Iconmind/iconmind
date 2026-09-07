@@ -1,0 +1,41 @@
+{
+  "slug": "stretch-reminder",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Stretch reminder",
+  "description": "The nudge to loosen up",
+  "tags": [
+    "stretch",
+    "loosen",
+    "nudge"
+  ],
+  "keywords": [
+    "stretch reminder",
+    "time to stretch",
+    "loosen up",
+    "move"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 8L7 13L11 17L11 21",
+      "closed": false
+    },
+    {
+      "d": "M7 13L13 13",
+      "closed": false
+    },
+    {
+      "d": "M16 9A3 3 0 0 1 16 15",
+      "closed": false
+    },
+    {
+      "d": "M16 6A6 6 0 0 1 16 18",
+      "closed": false
+    }
+  ]
+}

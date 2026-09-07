@@ -1,0 +1,36 @@
+{
+  "slug": "protein",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Protein",
+  "description": "The shaker with its measure",
+  "tags": [
+    "protein",
+    "shaker",
+    "measure"
+  ],
+  "aliases": [
+    "shake"
+  ],
+  "keywords": [
+    "protein",
+    "protein shake",
+    "shaker",
+    "measure"
+  ],
+  "family": "bottle",
+  "shapes": [
+    {
+      "d": "M7 21L7 8L9 6L15 6L17 8L17 21Z",
+      "closed": true
+    },
+    {
+      "d": "M7 10H17",
+      "closed": false
+    },
+    {
+      "d": "M7 15H17",
+      "closed": false
+    }
+  ]
+}

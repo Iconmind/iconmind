@@ -1,0 +1,32 @@
+{
+  "slug": "pace",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Pace",
+  "description": "The shoe with the speed on it",
+  "tags": [
+    "pace",
+    "speed",
+    "dial"
+  ],
+  "aliases": [
+    "speed"
+  ],
+  "keywords": [
+    "pace",
+    "speed",
+    "minutes per kilometre",
+    "how fast"
+  ],
+  "family": "shoe",
+  "shapes": [
+    {
+      "d": "M3 19L3 15L8 15L12 11L16 11L20 15L20 19Z",
+      "closed": true
+    },
+    {
+      "d": "M13 2L9 6L12 6L8 10",
+      "closed": false
+    }
+  ]
+}

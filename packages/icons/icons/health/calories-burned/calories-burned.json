@@ -1,0 +1,29 @@
+{
+  "slug": "calories-burned",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Calories burned",
+  "description": "The flame the work leaves",
+  "tags": [
+    "calories",
+    "burn",
+    "energy"
+  ],
+  "aliases": [
+    "kcal"
+  ],
+  "keywords": [
+    "calories burned",
+    "kcal",
+    "energy burned",
+    "burn"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 2C14 6 18 8 18 13A6 6 0 1 1 6 13C6 9 9 8 9 5C10 6 12 6 12 2Z",
+      "closed": true,
+      "_why": "a flame: the tongue curling up from a round belly"
+    }
+  ]
+}

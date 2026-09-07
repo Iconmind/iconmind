@@ -1,0 +1,34 @@
+{
+  "slug": "sleep-score",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Sleep score",
+  "description": "The night graded",
+  "tags": [
+    "sleep",
+    "score",
+    "grade"
+  ],
+  "keywords": [
+    "sleep score",
+    "sleep quality",
+    "how you slept",
+    "grade"
+  ],
+  "family": "moon",
+  "shapes": [
+    {
+      "d": "M15 3A9 9 0 1 0 15 21A7 7 0 0 1 15 3Z",
+      "closed": true,
+      "_why": "a crescent: the long way round one circle and back on a smaller one"
+    },
+    {
+      "d": "M19 14V20",
+      "closed": false
+    },
+    {
+      "d": "M22 10V20",
+      "closed": false
+    }
+  ]
+}

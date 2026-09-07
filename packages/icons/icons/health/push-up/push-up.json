@@ -1,0 +1,44 @@
+{
+  "slug": "push-up",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Press-up",
+  "description": "The body held over the floor on straight arms",
+  "tags": [
+    "press-up",
+    "arms",
+    "floor"
+  ],
+  "aliases": [
+    "press-up"
+  ],
+  "keywords": [
+    "press up",
+    "push up",
+    "press-ups",
+    "arm exercise"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 9L18 9",
+      "closed": false
+    },
+    {
+      "d": "M8 9V16",
+      "closed": false
+    },
+    {
+      "d": "M18 9V16",
+      "closed": false
+    },
+    {
+      "d": "M2 18H22",
+      "closed": false
+    }
+  ]
+}

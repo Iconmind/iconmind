@@ -1,0 +1,40 @@
+{
+  "slug": "sit-up",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Sit-up",
+  "description": "The body folding up from the floor",
+  "tags": [
+    "sit-up",
+    "core",
+    "crunch"
+  ],
+  "aliases": [
+    "crunch"
+  ],
+  "keywords": [
+    "sit up",
+    "sit-ups",
+    "crunch",
+    "core exercise"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 10L13 15",
+      "closed": false
+    },
+    {
+      "d": "M13 15L17 11L21 15",
+      "closed": false
+    },
+    {
+      "d": "M2 18H22",
+      "closed": false
+    }
+  ]
+}

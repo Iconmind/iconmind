@@ -1,0 +1,36 @@
+{
+  "slug": "jump-rope",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Skipping rope",
+  "description": "The rope swung under the feet",
+  "tags": [
+    "rope",
+    "skip",
+    "jump"
+  ],
+  "aliases": [
+    "skipping-rope"
+  ],
+  "keywords": [
+    "skipping rope",
+    "jump rope",
+    "skip",
+    "rope work"
+  ],
+  "family": "rope",
+  "shapes": [
+    {
+      "d": "M21 10A9 9 0 0 1 3 10",
+      "closed": false
+    },
+    {
+      "d": "M21 10L18 7",
+      "closed": false
+    },
+    {
+      "d": "M3 10L6 7",
+      "closed": false
+    }
+  ]
+}

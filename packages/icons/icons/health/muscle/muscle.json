@@ -1,0 +1,29 @@
+{
+  "slug": "muscle",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Muscle",
+  "description": "The arm flexed",
+  "tags": [
+    "muscle",
+    "arm",
+    "flex"
+  ],
+  "aliases": [
+    "biceps"
+  ],
+  "keywords": [
+    "muscle",
+    "biceps",
+    "flex",
+    "arm muscle"
+  ],
+  "family": "muscle",
+  "shapes": [
+    {
+      "d": "M4 21V16C4 12 8 9 12 11C13 11.5 14 12.5 14 14V9C14 6 17 4 19 6C21 8 21 12 20 15C19 18 17 21 13 21Z",
+      "closed": true,
+      "_why": "the arm flexed: the bicep bunched under a raised fist"
+    }
+  ]
+}

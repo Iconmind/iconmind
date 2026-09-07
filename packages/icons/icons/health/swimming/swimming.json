@@ -1,0 +1,40 @@
+{
+  "slug": "swimming",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Swimming",
+  "description": "The swimmer with an arm over the water",
+  "tags": [
+    "swim",
+    "pool",
+    "stroke"
+  ],
+  "aliases": [
+    "swim"
+  ],
+  "keywords": [
+    "swimming",
+    "swim",
+    "front crawl",
+    "pool"
+  ],
+  "family": "swimmer",
+  "shapes": [
+    {
+      "d": "M3 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 10L13 6",
+      "closed": false
+    },
+    {
+      "d": "M9 11L17 11",
+      "closed": false
+    },
+    {
+      "d": "M2 18L5 18L8 15L11 18L14 15L17 18L22 18",
+      "closed": false
+    }
+  ]
+}

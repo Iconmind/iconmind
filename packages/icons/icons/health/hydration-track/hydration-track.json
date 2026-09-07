@@ -1,0 +1,32 @@
+{
+  "slug": "hydration-track",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Hydration",
+  "description": "The bottle with the level in it",
+  "tags": [
+    "water",
+    "drink",
+    "level"
+  ],
+  "aliases": [
+    "water-intake"
+  ],
+  "keywords": [
+    "hydration",
+    "drink water",
+    "water intake",
+    "stay hydrated"
+  ],
+  "family": "bottle",
+  "shapes": [
+    {
+      "d": "M7 21L7 8L9.5 5.5L9.5 3L14.5 3L14.5 5.5L17 8L17 21Z",
+      "closed": true
+    },
+    {
+      "d": "M7 14H17",
+      "closed": false
+    }
+  ]
+}

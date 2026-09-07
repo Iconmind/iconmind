@@ -1,0 +1,41 @@
+{
+  "slug": "cycling",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Cycling",
+  "description": "The studio bike with its flywheel",
+  "tags": [
+    "bike",
+    "cycle",
+    "pedal"
+  ],
+  "keywords": [
+    "cycling",
+    "ride a bike",
+    "cycle",
+    "bike ride"
+  ],
+  "family": "spin-bike",
+  "shapes": [
+    {
+      "d": "M3 17H21",
+      "closed": false
+    },
+    {
+      "d": "M14 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 17L9 5",
+      "closed": false
+    },
+    {
+      "d": "M5 5H12",
+      "closed": false
+    },
+    {
+      "d": "M9 9L15 9",
+      "closed": false
+    }
+  ]
+}

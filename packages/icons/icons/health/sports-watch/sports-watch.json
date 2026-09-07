@@ -1,0 +1,37 @@
+{
+  "slug": "sports-watch",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Sports watch",
+  "description": "The watch with its face lit",
+  "tags": [
+    "watch",
+    "wrist",
+    "face"
+  ],
+  "keywords": [
+    "sports watch",
+    "running watch",
+    "gps watch",
+    "wrist"
+  ],
+  "family": "watch",
+  "shapes": [
+    {
+      "d": "M6 9A2 2 0 0 1 8 7H16A2 2 0 0 1 18 9V15A2 2 0 0 1 16 17H8A2 2 0 0 1 6 15Z",
+      "closed": true
+    },
+    {
+      "d": "M9 7L9 3L15 3L15 7",
+      "closed": false
+    },
+    {
+      "d": "M9 17L9 21L15 21L15 17",
+      "closed": false
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "activity-ring",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Activity ring",
+  "description": "One ring closing round another",
+  "tags": [
+    "ring",
+    "close",
+    "day"
+  ],
+  "keywords": [
+    "activity ring",
+    "close the rings",
+    "daily rings",
+    "move ring"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M12 21A9 9 0 1 1 21 12",
+      "closed": false
+    },
+    {
+      "d": "M6.5 12a5.5 5.5 0 1 0 11 0a5.5 5.5 0 1 0 -11 0Z",
+      "closed": true
+    }
+  ]
+}

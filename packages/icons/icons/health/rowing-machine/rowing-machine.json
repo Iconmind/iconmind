@@ -1,0 +1,44 @@
+{
+  "slug": "rowing-machine",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Rowing machine",
+  "description": "The rail, the seat and the handle",
+  "tags": [
+    "rower",
+    "rail",
+    "machine"
+  ],
+  "aliases": [
+    "rower"
+  ],
+  "keywords": [
+    "rowing machine",
+    "rower",
+    "erg",
+    "indoor rowing"
+  ],
+  "family": "rower",
+  "shapes": [
+    {
+      "d": "M3 15H21",
+      "closed": false
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    },
+    {
+      "d": "M12 12L12 15",
+      "closed": false
+    },
+    {
+      "d": "M5 7V11",
+      "closed": false
+    },
+    {
+      "d": "M5 9L9 9",
+      "closed": false
+    }
+  ]
+}

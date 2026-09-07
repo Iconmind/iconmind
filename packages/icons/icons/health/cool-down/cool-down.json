@@ -1,0 +1,34 @@
+{
+  "slug": "cool-down",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Cool-down",
+  "description": "The heat coming off after the work",
+  "tags": [
+    "cool",
+    "settle",
+    "after"
+  ],
+  "keywords": [
+    "cool down",
+    "cool-down",
+    "after training",
+    "settle"
+  ],
+  "family": "drop",
+  "shapes": [
+    {
+      "d": "M8 4L12 8A5.5 5.5 0 1 1 4 8Z",
+      "closed": true,
+      "_why": "a drop: a point over a round belly"
+    },
+    {
+      "d": "M19 6L19 18",
+      "closed": false
+    },
+    {
+      "d": "M16 15L19 18L22 15",
+      "closed": false
+    }
+  ]
+}

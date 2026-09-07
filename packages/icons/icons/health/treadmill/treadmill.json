@@ -1,0 +1,33 @@
+{
+  "slug": "treadmill",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Treadmill",
+  "description": "The belt with the console over it",
+  "tags": [
+    "treadmill",
+    "belt",
+    "machine"
+  ],
+  "keywords": [
+    "treadmill",
+    "running machine",
+    "belt",
+    "indoor run"
+  ],
+  "family": "treadmill",
+  "shapes": [
+    {
+      "d": "M2 19L15 19L15 15L2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M15 17L19 17L19 8",
+      "closed": false
+    },
+    {
+      "d": "M16 8L22 8L22 4L16 4Z",
+      "closed": true
+    }
+  ]
+}

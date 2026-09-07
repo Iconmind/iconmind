@@ -1,0 +1,34 @@
+{
+  "slug": "warm-up",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Warm-up",
+  "description": "The heat going up before the work",
+  "tags": [
+    "warm",
+    "prepare",
+    "before"
+  ],
+  "keywords": [
+    "warm up",
+    "warm-up",
+    "before training",
+    "get warm"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 3C10.5 6 13.5 7.5 13.5 11A4.5 4.5 0 1 1 4.5 11C4.5 8 7 7.5 7 5.5C7.5 6 9 6 9 3Z",
+      "closed": true,
+      "_why": "a flame: the tongue curling up from a round belly"
+    },
+    {
+      "d": "M19 20L19 8",
+      "closed": false
+    },
+    {
+      "d": "M16 11L19 8L22 11",
+      "closed": false
+    }
+  ]
+}

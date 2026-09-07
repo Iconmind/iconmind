@@ -1,0 +1,41 @@
+{
+  "slug": "dumbbell",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Dumbbell",
+  "description": "One bar with a weight at each end",
+  "tags": [
+    "dumbbell",
+    "weight",
+    "lift"
+  ],
+  "keywords": [
+    "dumbbell",
+    "hand weight",
+    "lift",
+    "free weight"
+  ],
+  "family": "dumbbell",
+  "shapes": [
+    {
+      "d": "M6 12H18",
+      "closed": false
+    },
+    {
+      "d": "M6 7V17",
+      "closed": false
+    },
+    {
+      "d": "M18 7V17",
+      "closed": false
+    },
+    {
+      "d": "M3 9V15",
+      "closed": false
+    },
+    {
+      "d": "M21 9V15",
+      "closed": false
+    }
+  ]
+}

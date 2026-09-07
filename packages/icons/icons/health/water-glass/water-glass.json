@@ -1,0 +1,29 @@
+{
+  "slug": "water-glass",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Glass of water",
+  "description": "One glass, filled part way",
+  "tags": [
+    "glass",
+    "water",
+    "drink"
+  ],
+  "keywords": [
+    "glass of water",
+    "water glass",
+    "a drink",
+    "sip"
+  ],
+  "family": "glass",
+  "shapes": [
+    {
+      "d": "M7 4L17 4L17 17L14 20L10 20L7 17Z",
+      "closed": true
+    },
+    {
+      "d": "M7 11H17",
+      "closed": false
+    }
+  ]
+}

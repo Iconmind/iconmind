@@ -1,0 +1,37 @@
+{
+  "slug": "gym",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Gym",
+  "description": "The building with the weights in it",
+  "tags": [
+    "gym",
+    "room",
+    "club"
+  ],
+  "keywords": [
+    "gym",
+    "leisure centre",
+    "weights room",
+    "health club"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 20L3 12L12 3L21 12L21 20Z",
+      "closed": true
+    },
+    {
+      "d": "M6 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 15H14",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "cadence",
+  "category": "health",
+  "subcategory": "fitness",
+  "name": "Cadence",
+  "description": "The crank going round with its pedal",
+  "tags": [
+    "cadence",
+    "rhythm",
+    "tempo"
+  ],
+  "aliases": [
+    "tempo"
+  ],
+  "keywords": [
+    "cadence",
+    "steps per minute",
+    "rhythm",
+    "tempo"
+  ],
+  "family": "crank",
+  "shapes": [
+    {
+      "d": "M5 13a7 7 0 1 0 14 0a7 7 0 1 0 -14 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 13L17 8",
+      "closed": false
+    },
+    {
+      "d": "M15 4L20 9",
+      "closed": false
+    }
+  ]
+}
