@@ -1,0 +1,30 @@
+{
+  "slug": "spoon",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Spoon",
+  "description": "The bowl of the spoon and its handle",
+  "tags": [
+    "spoon",
+    "stir",
+    "scoop"
+  ],
+  "keywords": [
+    "spoon",
+    "a spoon",
+    "stir",
+    "teaspoon"
+  ],
+  "family": "spoon",
+  "shapes": [
+    {
+      "d": "M8 5A4 4 0 0 1 16 5C16 10 14 13 12 13C10 13 8 10 8 5Z",
+      "closed": true,
+      "_why": "the bowl of the spoon, narrowing into the handle"
+    },
+    {
+      "d": "M12 13L12 21",
+      "closed": false
+    }
+  ]
+}

@@ -86,6 +86,8 @@ const ANCHORED = new Set([
   "travel/takeoff", "travel/landing",
   // A blade lies corner to corner: the ink rides the diagonal, so the centroid sits off it.
   "health/scalpel",
+  // A spoon is a bowl at one end of a thin handle: the ink is meant to sit up in the bowl.
+  "health/spoon",
   // what is covered stands under the canopy; the canopy is the weight
   "finance/health-cover", "finance/life-cover",
   // charts on their axes: the ink sits where the axes and the baseline are

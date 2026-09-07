@@ -1,0 +1,41 @@
+{
+  "slug": "waist-measure",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Waist measure",
+  "description": "The tape with its marks",
+  "tags": [
+    "waist",
+    "tape",
+    "middle"
+  ],
+  "keywords": [
+    "waist measure",
+    "waist size",
+    "tape measure",
+    "round the middle"
+  ],
+  "family": "tape",
+  "shapes": [
+    {
+      "d": "M2 7H22",
+      "closed": false
+    },
+    {
+      "d": "M2 17H22",
+      "closed": false
+    },
+    {
+      "d": "M6 7V11",
+      "closed": false
+    },
+    {
+      "d": "M12 7V11",
+      "closed": false
+    },
+    {
+      "d": "M18 7V11",
+      "closed": false
+    }
+  ]
+}

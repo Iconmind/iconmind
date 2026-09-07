@@ -1,0 +1,34 @@
+{
+  "slug": "body-fat",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Body fat",
+  "description": "The figure beside the drop",
+  "tags": [
+    "body",
+    "fat",
+    "percent"
+  ],
+  "keywords": [
+    "body fat",
+    "body fat percentage",
+    "fat mass",
+    "composition"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M3 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 16A4.5 4.5 0 0 1 11 16",
+      "closed": false
+    },
+    {
+      "d": "M17 8L22 13A5 5 0 1 1 12 13Z",
+      "closed": true,
+      "_why": "a drop: a point over a round belly"
+    }
+  ]
+}

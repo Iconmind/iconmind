@@ -1,0 +1,33 @@
+{
+  "slug": "skin",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Skin",
+  "description": "The patch and the layers under it",
+  "tags": [
+    "skin",
+    "patch",
+    "grain"
+  ],
+  "keywords": [
+    "skin",
+    "skin health",
+    "complexion",
+    "patch of skin"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V18A2 2 0 0 1 18 20H6A2 2 0 0 1 4 18Z",
+      "closed": true
+    },
+    {
+      "d": "M7 9L10 12L13 9L16 12",
+      "closed": false
+    },
+    {
+      "d": "M7 14L10 17L13 14L16 17",
+      "closed": false
+    }
+  ]
+}

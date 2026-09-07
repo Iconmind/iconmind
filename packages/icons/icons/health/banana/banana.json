@@ -1,0 +1,26 @@
+{
+  "slug": "banana",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Banana",
+  "description": "The banana curving away",
+  "tags": [
+    "banana",
+    "fruit",
+    "peel"
+  ],
+  "keywords": [
+    "banana",
+    "fruit",
+    "bananas",
+    "peel"
+  ],
+  "family": "banana",
+  "shapes": [
+    {
+      "d": "M4 7C4 16 10 21 20 19C13 17 9 13 9 6Z",
+      "closed": true,
+      "_why": "a banana: a long crescent with a stub of stalk"
+    }
+  ]
+}

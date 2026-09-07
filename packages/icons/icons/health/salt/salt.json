@@ -1,0 +1,40 @@
+{
+  "slug": "salt",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Salt",
+  "description": "The shaker over the grains",
+  "tags": [
+    "salt",
+    "shaker",
+    "season"
+  ],
+  "aliases": [
+    "sodium"
+  ],
+  "keywords": [
+    "salt",
+    "sodium",
+    "salt shaker",
+    "seasoning"
+  ],
+  "family": "shaker",
+  "shapes": [
+    {
+      "d": "M8 21L8 11L10 9L14 9L16 11L16 21Z",
+      "closed": true
+    },
+    {
+      "d": "M8 13H16",
+      "closed": false
+    },
+    {
+      "d": "M9 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

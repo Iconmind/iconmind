@@ -1,0 +1,41 @@
+{
+  "slug": "height-measure",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Height",
+  "description": "The span between floor and crown",
+  "tags": [
+    "height",
+    "span",
+    "tall"
+  ],
+  "keywords": [
+    "height",
+    "how tall",
+    "measure height",
+    "stature"
+  ],
+  "family": "span",
+  "shapes": [
+    {
+      "d": "M12 3L12 21",
+      "closed": false
+    },
+    {
+      "d": "M9 6L12 3L15 6",
+      "closed": false
+    },
+    {
+      "d": "M9 18L12 21L15 18",
+      "closed": false
+    },
+    {
+      "d": "M6 3H18",
+      "closed": false
+    },
+    {
+      "d": "M6 21H18",
+      "closed": false
+    }
+  ]
+}

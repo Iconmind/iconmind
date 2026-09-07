@@ -1,0 +1,33 @@
+{
+  "slug": "coffee-cup",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Coffee",
+  "description": "The cup on its saucer",
+  "tags": [
+    "coffee",
+    "cup",
+    "hot"
+  ],
+  "keywords": [
+    "coffee",
+    "a coffee",
+    "cup of coffee",
+    "espresso"
+  ],
+  "family": "cup",
+  "shapes": [
+    {
+      "d": "M4 7L4 16L15 16L15 7",
+      "closed": false
+    },
+    {
+      "d": "M15 7A3 3 0 0 1 15 13",
+      "closed": false
+    },
+    {
+      "d": "M2 19H17",
+      "closed": false
+    }
+  ]
+}

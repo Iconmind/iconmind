@@ -1,0 +1,38 @@
+{
+  "slug": "vegan",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Vegan",
+  "description": "The sprout with two leaves",
+  "tags": [
+    "vegan",
+    "plant",
+    "sprout"
+  ],
+  "aliases": [
+    "plant-based"
+  ],
+  "keywords": [
+    "vegan",
+    "plant based",
+    "sprout",
+    "no animal products"
+  ],
+  "family": "sprout",
+  "shapes": [
+    {
+      "d": "M12 21L12 13",
+      "closed": false
+    },
+    {
+      "d": "M12 13C12 8 8 5 3 5C3 10 7 13 12 13Z",
+      "closed": true,
+      "_why": "a leaf on the left"
+    },
+    {
+      "d": "M12 13C12 8 16 5 21 5C21 10 17 13 12 13Z",
+      "closed": true,
+      "_why": "a leaf on the right"
+    }
+  ]
+}

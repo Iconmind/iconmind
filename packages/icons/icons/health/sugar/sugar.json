@@ -1,0 +1,29 @@
+{
+  "slug": "sugar",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Sugar",
+  "description": "Two cubes of sugar",
+  "tags": [
+    "sugar",
+    "cube",
+    "sweet"
+  ],
+  "keywords": [
+    "sugar",
+    "sugar cube",
+    "sweet",
+    "sugars"
+  ],
+  "family": "cube",
+  "shapes": [
+    {
+      "d": "M3 11L11 11L11 19L3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M13 5L21 5L21 13L13 13Z",
+      "closed": true
+    }
+  ]
+}

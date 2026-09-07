@@ -1,0 +1,29 @@
+{
+  "slug": "supplement",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Supplement",
+  "description": "The tub with its lid",
+  "tags": [
+    "supplement",
+    "tub",
+    "powder"
+  ],
+  "keywords": [
+    "supplement",
+    "supplements",
+    "tub",
+    "powder"
+  ],
+  "family": "jar",
+  "shapes": [
+    {
+      "d": "M6 21L6 9L18 9L18 21Z",
+      "closed": true
+    },
+    {
+      "d": "M5 9L5 6L19 6L19 9",
+      "closed": false
+    }
+  ]
+}

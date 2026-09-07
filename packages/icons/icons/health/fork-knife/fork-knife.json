@@ -1,0 +1,48 @@
+{
+  "slug": "fork-knife",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Knife and fork",
+  "description": "The two laid out",
+  "tags": [
+    "cutlery",
+    "fork",
+    "knife"
+  ],
+  "aliases": [
+    "cutlery"
+  ],
+  "keywords": [
+    "knife and fork",
+    "cutlery",
+    "eat",
+    "place setting"
+  ],
+  "family": "cutlery",
+  "shapes": [
+    {
+      "d": "M5 3V8",
+      "closed": false
+    },
+    {
+      "d": "M9 3V8",
+      "closed": false
+    },
+    {
+      "d": "M5 8H9",
+      "closed": false
+    },
+    {
+      "d": "M7 8V21",
+      "closed": false
+    },
+    {
+      "d": "M16 4L19 7L19 13L16 13Z",
+      "closed": true
+    },
+    {
+      "d": "M17.5 13V21",
+      "closed": false
+    }
+  ]
+}

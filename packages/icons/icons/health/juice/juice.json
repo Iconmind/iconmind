@@ -1,0 +1,33 @@
+{
+  "slug": "juice",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Juice",
+  "description": "The carton with a straw in it",
+  "tags": [
+    "juice",
+    "carton",
+    "drink"
+  ],
+  "keywords": [
+    "juice",
+    "fruit juice",
+    "carton",
+    "a drink"
+  ],
+  "family": "carton",
+  "shapes": [
+    {
+      "d": "M6 8L6 21L16 21L16 8Z",
+      "closed": true
+    },
+    {
+      "d": "M6 8L11 3L16 8",
+      "closed": false
+    },
+    {
+      "d": "M13 8L18 3",
+      "closed": false
+    }
+  ]
+}

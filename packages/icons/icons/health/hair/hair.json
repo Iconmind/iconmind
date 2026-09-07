@@ -1,0 +1,36 @@
+{
+  "slug": "hair",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Hair",
+  "description": "The strands falling from the crown",
+  "tags": [
+    "hair",
+    "strands",
+    "scalp"
+  ],
+  "keywords": [
+    "hair",
+    "hair health",
+    "strands",
+    "scalp"
+  ],
+  "family": "hair",
+  "shapes": [
+    {
+      "d": "M4 21C4 10 7 3 12 3C17 3 20 10 20 21",
+      "closed": false,
+      "_why": "the outer sweep of the hair"
+    },
+    {
+      "d": "M12 3C12 8 10 12 8 21",
+      "closed": false,
+      "_why": "a strand falling one side"
+    },
+    {
+      "d": "M12 3C12 8 14 12 16 21",
+      "closed": false,
+      "_why": "a strand falling the other"
+    }
+  ]
+}

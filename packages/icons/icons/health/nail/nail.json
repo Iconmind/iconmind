@@ -1,0 +1,30 @@
+{
+  "slug": "nail",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Nail",
+  "description": "The fingertip and the nail on it",
+  "tags": [
+    "nail",
+    "finger",
+    "tip"
+  ],
+  "keywords": [
+    "nail",
+    "fingernail",
+    "nail health",
+    "fingertip"
+  ],
+  "family": "finger",
+  "shapes": [
+    {
+      "d": "M8 20V10A4 4 0 0 1 16 10V20Z",
+      "closed": true,
+      "_why": "the fingertip, rounded at the top"
+    },
+    {
+      "d": "M9 13A3 3 0 0 1 15 13",
+      "closed": false
+    }
+  ]
+}

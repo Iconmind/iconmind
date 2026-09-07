@@ -1,0 +1,30 @@
+{
+  "slug": "water-intake",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Water intake",
+  "description": "The drop going into the glass",
+  "tags": [
+    "water",
+    "intake",
+    "drink"
+  ],
+  "keywords": [
+    "water intake",
+    "drink water",
+    "how much water",
+    "fluids"
+  ],
+  "family": "glass",
+  "shapes": [
+    {
+      "d": "M7 11L7 17L10 20L14 20L17 17L17 11",
+      "closed": false
+    },
+    {
+      "d": "M12 2.5L15.5 6A3.5 3.5 0 1 1 8.5 6Z",
+      "closed": true,
+      "_why": "a drop: a point over a round belly"
+    }
+  ]
+}

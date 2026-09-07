@@ -1,0 +1,30 @@
+{
+  "slug": "apple",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Apple",
+  "description": "The apple with its stalk",
+  "tags": [
+    "apple",
+    "fruit",
+    "fresh"
+  ],
+  "keywords": [
+    "apple",
+    "fruit",
+    "an apple a day",
+    "fresh fruit"
+  ],
+  "family": "apple",
+  "shapes": [
+    {
+      "d": "M12 9C9 5 4 7 4 13C4 18 8 21 12 19C16 21 20 18 20 13C20 7 15 5 12 9Z",
+      "closed": true,
+      "_why": "an apple: two shoulders meeting in a dimple"
+    },
+    {
+      "d": "M12 9L12 4",
+      "closed": false
+    }
+  ]
+}

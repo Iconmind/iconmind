@@ -1,0 +1,48 @@
+{
+  "slug": "gluten-free",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Gluten free",
+  "description": "The wheat struck out",
+  "tags": [
+    "gluten",
+    "wheat",
+    "free"
+  ],
+  "aliases": [
+    "no-gluten"
+  ],
+  "keywords": [
+    "gluten free",
+    "no gluten",
+    "coeliac",
+    "wheat free"
+  ],
+  "family": "wheat",
+  "shapes": [
+    {
+      "d": "M12 4V20",
+      "closed": false
+    },
+    {
+      "d": "M12 9L8 5",
+      "closed": false
+    },
+    {
+      "d": "M12 9L16 5",
+      "closed": false
+    },
+    {
+      "d": "M12 14L8 10",
+      "closed": false
+    },
+    {
+      "d": "M12 14L16 10",
+      "closed": false
+    },
+    {
+      "d": "M4 20L20 4",
+      "closed": false
+    }
+  ]
+}

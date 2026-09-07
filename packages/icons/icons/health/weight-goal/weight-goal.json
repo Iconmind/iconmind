@@ -1,0 +1,33 @@
+{
+  "slug": "weight-goal",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Weight goal",
+  "description": "The scales with the target over them",
+  "tags": [
+    "weight",
+    "goal",
+    "target"
+  ],
+  "keywords": [
+    "weight goal",
+    "target weight",
+    "goal",
+    "aim"
+  ],
+  "family": "scale",
+  "shapes": [
+    {
+      "d": "M3 14A2 2 0 0 1 5 12H19A2 2 0 0 1 21 14V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12L12 3",
+      "closed": false
+    },
+    {
+      "d": "M12 3L19 3L19 8L12 8",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "tea-cup",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Tea",
+  "description": "The cup with the bag hanging in it",
+  "tags": [
+    "tea",
+    "cup",
+    "brew"
+  ],
+  "aliases": [
+    "brew"
+  ],
+  "keywords": [
+    "tea",
+    "a cup of tea",
+    "brew",
+    "tea bag"
+  ],
+  "family": "cup",
+  "shapes": [
+    {
+      "d": "M5 9L5 18L16 18L16 9",
+      "closed": false
+    },
+    {
+      "d": "M10 9L10 5",
+      "closed": false
+    },
+    {
+      "d": "M8 2L13 2L13 5L8 5Z",
+      "closed": true
+    }
+  ]
+}

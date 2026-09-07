@@ -1,0 +1,33 @@
+{
+  "slug": "plate",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Plate",
+  "description": "The plate laid with its knife and fork",
+  "tags": [
+    "plate",
+    "empty",
+    "table"
+  ],
+  "keywords": [
+    "plate",
+    "empty plate",
+    "dinner plate",
+    "tableware"
+  ],
+  "family": "plate",
+  "shapes": [
+    {
+      "d": "M6 12a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M20 4V20",
+      "closed": false
+    }
+  ]
+}

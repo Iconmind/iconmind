@@ -1,0 +1,29 @@
+{
+  "slug": "carbohydrate",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Carbohydrate",
+  "description": "The slice of bread",
+  "tags": [
+    "carbs",
+    "bread",
+    "starch"
+  ],
+  "aliases": [
+    "carbs"
+  ],
+  "keywords": [
+    "carbohydrate",
+    "carbs",
+    "bread",
+    "starch"
+  ],
+  "family": "bread",
+  "shapes": [
+    {
+      "d": "M5 20V11A4 4 0 0 1 9 7H15A4 4 0 0 1 19 11V20Z",
+      "closed": true,
+      "_why": "a slice: a domed crust over a square crumb"
+    }
+  ]
+}

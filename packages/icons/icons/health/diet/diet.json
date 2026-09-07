@@ -1,0 +1,30 @@
+{
+  "slug": "diet",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Diet",
+  "description": "The plate with the leaf on it",
+  "tags": [
+    "diet",
+    "eating",
+    "plan"
+  ],
+  "keywords": [
+    "diet",
+    "eating plan",
+    "on a diet",
+    "healthy eating"
+  ],
+  "family": "plate",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 15C8 11 11 8 16 8C16 13 13 16 8 15Z",
+      "closed": true,
+      "_why": "a leaf on the plate"
+    }
+  ]
+}

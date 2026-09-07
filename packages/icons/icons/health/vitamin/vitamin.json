@@ -1,0 +1,34 @@
+{
+  "slug": "vitamin",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Vitamin",
+  "description": "The capsule with the plus beside it",
+  "tags": [
+    "vitamin",
+    "capsule",
+    "boost"
+  ],
+  "keywords": [
+    "vitamin",
+    "vitamins",
+    "capsule",
+    "supplement pill"
+  ],
+  "family": "pill",
+  "shapes": [
+    {
+      "d": "M4 13L10 7A4 4 0 0 1 15 12L9 18A4 4 0 0 1 4 13Z",
+      "closed": true,
+      "_why": "a capsule: two rounded ends on the diagonal"
+    },
+    {
+      "d": "M19 4V10",
+      "closed": false
+    },
+    {
+      "d": "M16 7H22",
+      "closed": false
+    }
+  ]
+}

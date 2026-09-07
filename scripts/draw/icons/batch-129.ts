@@ -185,7 +185,7 @@ export const BATCH_129: Icon[] = [
     "watch", [...WATCH(7, 8, 10, 8), col(12, 10, 14)]),
   c("activity-ring", "Activity ring", "One ring closing round another",
     ["ring", "close", "day"], [], ["activity ring", "close the rings", "daily rings", "move ring"],
-    "ring", [arc(12, 12, 9, 90, 360), disc(12, 12, 5.5)]),
+    "ring", [arc(12, 12, 9, 90, 360), arc(12, 12, 5.5, 90, 360)]),
   c("active-minutes", "Active minutes", "The ring with the work inside it",
     ["active", "minutes", "move"], [], ["active minutes", "move minutes", "minutes moved", "activity"],
     "ring", [arc(12, 12, 9, 90, 360), ...MINI(12, 12)]),

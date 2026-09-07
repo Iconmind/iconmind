@@ -1,0 +1,44 @@
+{
+  "slug": "fibre",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Fibre",
+  "description": "The ear of wheat",
+  "tags": [
+    "fibre",
+    "grain",
+    "whole"
+  ],
+  "aliases": [
+    "fiber"
+  ],
+  "keywords": [
+    "fibre",
+    "fiber",
+    "wholegrain",
+    "roughage"
+  ],
+  "family": "wheat",
+  "shapes": [
+    {
+      "d": "M12 4V20",
+      "closed": false
+    },
+    {
+      "d": "M12 9L8 5",
+      "closed": false
+    },
+    {
+      "d": "M12 9L16 5",
+      "closed": false
+    },
+    {
+      "d": "M12 14L8 10",
+      "closed": false
+    },
+    {
+      "d": "M12 14L16 10",
+      "closed": false
+    }
+  ]
+}

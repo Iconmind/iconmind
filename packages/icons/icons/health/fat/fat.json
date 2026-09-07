@@ -1,0 +1,25 @@
+{
+  "slug": "fat",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Fat",
+  "description": "The pat of butter",
+  "tags": [
+    "fat",
+    "butter",
+    "oil"
+  ],
+  "keywords": [
+    "fat",
+    "fats",
+    "butter",
+    "oil"
+  ],
+  "family": "block",
+  "shapes": [
+    {
+      "d": "M3 12L8 7L21 7L21 12L16 17L3 17Z",
+      "closed": true
+    }
+  ]
+}

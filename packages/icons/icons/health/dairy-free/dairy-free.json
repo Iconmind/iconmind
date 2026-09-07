@@ -1,0 +1,36 @@
+{
+  "slug": "dairy-free",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Dairy free",
+  "description": "The carton struck out",
+  "tags": [
+    "dairy",
+    "milk",
+    "free"
+  ],
+  "aliases": [
+    "no-dairy"
+  ],
+  "keywords": [
+    "dairy free",
+    "no dairy",
+    "lactose free",
+    "milk free"
+  ],
+  "family": "carton",
+  "shapes": [
+    {
+      "d": "M7 9L7 20L16 20L16 9Z",
+      "closed": true
+    },
+    {
+      "d": "M7 9L11.5 4.5L16 9",
+      "closed": false
+    },
+    {
+      "d": "M4 21L20 5",
+      "closed": false
+    }
+  ]
+}

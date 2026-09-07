@@ -1,0 +1,32 @@
+{
+  "slug": "meal",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Meal",
+  "description": "The plate with the food on it",
+  "tags": [
+    "meal",
+    "dish",
+    "food"
+  ],
+  "aliases": [
+    "dish"
+  ],
+  "keywords": [
+    "meal",
+    "a meal",
+    "dish",
+    "dinner"
+  ],
+  "family": "plate",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 15A5 5 0 0 1 17 15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "measuring-cup",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Measuring jug",
+  "description": "The jug with its marks",
+  "tags": [
+    "jug",
+    "measure",
+    "marks"
+  ],
+  "aliases": [
+    "jug"
+  ],
+  "keywords": [
+    "measuring jug",
+    "measuring cup",
+    "measure",
+    "marks"
+  ],
+  "family": "jug",
+  "shapes": [
+    {
+      "d": "M5 6L5 19L17 19L17 6",
+      "closed": false
+    },
+    {
+      "d": "M6 11H12",
+      "closed": false
+    },
+    {
+      "d": "M6 15H12",
+      "closed": false
+    },
+    {
+      "d": "M17 9A3 3 0 0 1 17 15",
+      "closed": false
+    }
+  ]
+}

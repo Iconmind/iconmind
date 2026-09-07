@@ -1,0 +1,34 @@
+{
+  "slug": "allergen",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Allergen",
+  "description": "The bowl under a warning",
+  "tags": [
+    "allergen",
+    "warning",
+    "care"
+  ],
+  "keywords": [
+    "allergen",
+    "allergens",
+    "allergy warning",
+    "may contain"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 11H22",
+      "closed": false
+    },
+    {
+      "d": "M21 11A9 9 0 0 1 3 11",
+      "closed": false
+    },
+    {
+      "d": "M12 2L19 9H5Z",
+      "closed": true,
+      "_why": "a warning triangle over the bowl"
+    }
+  ]
+}

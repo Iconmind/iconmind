@@ -1,0 +1,37 @@
+{
+  "slug": "posture",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Posture",
+  "description": "The figure standing straight",
+  "tags": [
+    "posture",
+    "straight",
+    "stand"
+  ],
+  "keywords": [
+    "posture",
+    "good posture",
+    "stand straight",
+    "back"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 3V21",
+      "closed": false
+    },
+    {
+      "d": "M11 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 9L14 15",
+      "closed": false
+    },
+    {
+      "d": "M10 19L14 15L18 19",
+      "closed": false
+    }
+  ]
+}

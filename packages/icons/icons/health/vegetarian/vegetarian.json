@@ -1,0 +1,45 @@
+{
+  "slug": "vegetarian",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Vegetarian",
+  "description": "The leaf on the fork",
+  "tags": [
+    "vegetarian",
+    "meat-free",
+    "leaf"
+  ],
+  "aliases": [
+    "veggie"
+  ],
+  "keywords": [
+    "vegetarian",
+    "veggie",
+    "meat free",
+    "no meat"
+  ],
+  "family": "cutlery",
+  "shapes": [
+    {
+      "d": "M6 3V8",
+      "closed": false
+    },
+    {
+      "d": "M10 3V8",
+      "closed": false
+    },
+    {
+      "d": "M6 8H10",
+      "closed": false
+    },
+    {
+      "d": "M8 8V21",
+      "closed": false
+    },
+    {
+      "d": "M14 18C14 13 17 10 22 10C22 15 19 18 14 18Z",
+      "closed": true,
+      "_why": "a leaf beside the fork"
+    }
+  ]
+}

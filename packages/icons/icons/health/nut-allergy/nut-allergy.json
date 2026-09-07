@@ -1,0 +1,30 @@
+{
+  "slug": "nut-allergy",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Nut allergy",
+  "description": "The nut struck out",
+  "tags": [
+    "nut",
+    "allergy",
+    "avoid"
+  ],
+  "keywords": [
+    "nut allergy",
+    "nuts",
+    "peanut allergy",
+    "avoid nuts"
+  ],
+  "family": "nut",
+  "shapes": [
+    {
+      "d": "M6 10A6 6 0 0 1 18 10C18 16 15 20 12 20C9 20 6 16 6 10Z",
+      "closed": true,
+      "_why": "a nut: a round shell narrowing to its base"
+    },
+    {
+      "d": "M5 19L19 5",
+      "closed": false
+    }
+  ]
+}

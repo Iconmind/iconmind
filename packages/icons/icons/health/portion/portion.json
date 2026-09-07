@@ -1,0 +1,36 @@
+{
+  "slug": "portion",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Portion",
+  "description": "The bowl filled to the line",
+  "tags": [
+    "portion",
+    "half",
+    "share"
+  ],
+  "aliases": [
+    "serving"
+  ],
+  "keywords": [
+    "portion",
+    "serving",
+    "portion size",
+    "half the plate"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 8H22",
+      "closed": false
+    },
+    {
+      "d": "M21 8A9 9 0 0 1 3 8",
+      "closed": false
+    },
+    {
+      "d": "M5 12H19",
+      "closed": false
+    }
+  ]
+}

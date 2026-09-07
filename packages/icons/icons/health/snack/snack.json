@@ -1,0 +1,33 @@
+{
+  "slug": "snack",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Snack",
+  "description": "The bar broken into squares",
+  "tags": [
+    "snack",
+    "bar",
+    "bite"
+  ],
+  "keywords": [
+    "snack",
+    "snack bar",
+    "a bite",
+    "between meals"
+  ],
+  "family": "bar",
+  "shapes": [
+    {
+      "d": "M4 9A2 2 0 0 1 6 7H18A2 2 0 0 1 20 9V15A2 2 0 0 1 18 17H6A2 2 0 0 1 4 15Z",
+      "closed": true
+    },
+    {
+      "d": "M9 7V17",
+      "closed": false
+    },
+    {
+      "d": "M14 7V17",
+      "closed": false
+    }
+  ]
+}

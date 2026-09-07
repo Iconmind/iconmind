@@ -1,0 +1,36 @@
+{
+  "slug": "fasting-window",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Fasting window",
+  "description": "The hours you eat between",
+  "tags": [
+    "window",
+    "hours",
+    "span"
+  ],
+  "aliases": [
+    "eating-window"
+  ],
+  "keywords": [
+    "fasting window",
+    "eating window",
+    "hours",
+    "time restricted"
+  ],
+  "family": "timeline",
+  "shapes": [
+    {
+      "d": "M6 7L3 7L3 17L6 17",
+      "closed": false
+    },
+    {
+      "d": "M18 7L21 7L21 17L18 17",
+      "closed": false
+    },
+    {
+      "d": "M7 12H17",
+      "closed": false
+    }
+  ]
+}

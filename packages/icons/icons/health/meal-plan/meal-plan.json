@@ -1,0 +1,41 @@
+{
+  "slug": "meal-plan",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Meal plan",
+  "description": "The week with a meal on it",
+  "tags": [
+    "plan",
+    "week",
+    "menu"
+  ],
+  "keywords": [
+    "meal plan",
+    "menu",
+    "weekly meals",
+    "plan meals"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 7A2 2 0 0 1 5 5H19A2 2 0 0 1 21 7V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 9H21",
+      "closed": false
+    },
+    {
+      "d": "M8 2V5",
+      "closed": false
+    },
+    {
+      "d": "M16 2V5",
+      "closed": false
+    },
+    {
+      "d": "M9 15a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

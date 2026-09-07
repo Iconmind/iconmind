@@ -1,0 +1,30 @@
+{
+  "slug": "shellfish-allergy",
+  "category": "health",
+  "subcategory": "nutrition",
+  "name": "Shellfish allergy",
+  "description": "The shell struck out",
+  "tags": [
+    "shellfish",
+    "allergy",
+    "avoid"
+  ],
+  "keywords": [
+    "shellfish allergy",
+    "shellfish",
+    "seafood allergy",
+    "avoid shellfish"
+  ],
+  "family": "shell",
+  "shapes": [
+    {
+      "d": "M4 18A8 8 0 0 1 20 18Z",
+      "closed": true,
+      "_why": "a fan shell, flat along the hinge"
+    },
+    {
+      "d": "M5 20L19 6",
+      "closed": false
+    }
+  ]
+}
