@@ -1,0 +1,44 @@
+{
+  "slug": "silver-medal",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Silver",
+  "description": "The second one, marked with two",
+  "tags": [
+    "silver",
+    "second",
+    "medal"
+  ],
+  "aliases": [
+    "second-place"
+  ],
+  "keywords": [
+    "silver medal",
+    "second place",
+    "runner up",
+    "the silver"
+  ],
+  "family": "medal",
+  "shapes": [
+    {
+      "d": "M7 3L12 8",
+      "closed": false
+    },
+    {
+      "d": "M17 3L12 8",
+      "closed": false
+    },
+    {
+      "d": "M6 15a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 13H15",
+      "closed": false
+    },
+    {
+      "d": "M9 17H15",
+      "closed": false
+    }
+  ]
+}

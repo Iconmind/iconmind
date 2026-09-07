@@ -1,0 +1,40 @@
+{
+  "slug": "gold-medal",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Gold",
+  "description": "The first one, on its ribbons",
+  "tags": [
+    "gold",
+    "first",
+    "medal"
+  ],
+  "aliases": [
+    "first-place"
+  ],
+  "keywords": [
+    "gold medal",
+    "first place",
+    "won it",
+    "the gold"
+  ],
+  "family": "medal",
+  "shapes": [
+    {
+      "d": "M7 3L12 8",
+      "closed": false
+    },
+    {
+      "d": "M17 3L12 8",
+      "closed": false
+    },
+    {
+      "d": "M6 15a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "water-polo",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Water polo",
+  "description": "The ball over the water",
+  "tags": [
+    "water-polo",
+    "ball",
+    "pool"
+  ],
+  "keywords": [
+    "water polo",
+    "the ball",
+    "in the pool",
+    "team game"
+  ],
+  "family": "ball",
+  "shapes": [
+    {
+      "d": "M7 8a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 3V13",
+      "closed": false
+    },
+    {
+      "d": "M7 8H17",
+      "closed": false
+    },
+    {
+      "d": "M3 18C6 16 9 20 12 18C15 16 18 20 21 18",
+      "closed": false,
+      "_why": "the water under it"
+    }
+  ]
+}

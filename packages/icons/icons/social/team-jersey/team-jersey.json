@@ -1,0 +1,32 @@
+{
+  "slug": "team-jersey",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Jersey",
+  "description": "The shirt with its number",
+  "tags": [
+    "jersey",
+    "shirt",
+    "number"
+  ],
+  "aliases": [
+    "kit"
+  ],
+  "keywords": [
+    "team jersey",
+    "the shirt",
+    "squad number",
+    "kit"
+  ],
+  "family": "shirt",
+  "shapes": [
+    {
+      "d": "M3 9L8 4L16 4L21 9L17 13L17 20L7 20L7 13Z",
+      "closed": true
+    },
+    {
+      "d": "M9 4L12 7L15 4",
+      "closed": false
+    }
+  ]
+}

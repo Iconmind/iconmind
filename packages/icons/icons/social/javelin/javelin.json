@@ -1,0 +1,33 @@
+{
+  "slug": "javelin",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Javelin",
+  "description": "The spear on its way",
+  "tags": [
+    "javelin",
+    "spear",
+    "throw"
+  ],
+  "keywords": [
+    "javelin",
+    "the spear",
+    "throw it",
+    "field event"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M3 20L19 4",
+      "closed": false
+    },
+    {
+      "d": "M16 4L20 4L20 8Z",
+      "closed": true
+    },
+    {
+      "d": "M4 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

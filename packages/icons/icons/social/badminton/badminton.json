@@ -1,0 +1,51 @@
+{
+  "slug": "badminton",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Badminton",
+  "description": "The shuttle with its skirt",
+  "tags": [
+    "badminton",
+    "shuttle",
+    "net"
+  ],
+  "aliases": [
+    "shuttlecock"
+  ],
+  "keywords": [
+    "badminton",
+    "shuttlecock",
+    "the shuttle",
+    "net game"
+  ],
+  "family": "shuttle",
+  "shapes": [
+    {
+      "d": "M12 20C9 20 7 18 7 16H17C17 18 15 20 12 20Z",
+      "closed": true,
+      "_why": "the cork at the bottom"
+    },
+    {
+      "d": "M7 16C5 12 4 7 3 3",
+      "closed": false,
+      "_why": "the skirt flaring out"
+    },
+    {
+      "d": "M17 16C19 12 20 7 21 3",
+      "closed": false,
+      "_why": "the skirt on the other side"
+    },
+    {
+      "d": "M3 3H21",
+      "closed": false
+    },
+    {
+      "d": "M9 4V15",
+      "closed": false
+    },
+    {
+      "d": "M15 4V15",
+      "closed": false
+    }
+  ]
+}

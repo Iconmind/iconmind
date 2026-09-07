@@ -1,0 +1,33 @@
+{
+  "slug": "cricket",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Cricket",
+  "description": "The bat and the ball at it",
+  "tags": [
+    "cricket",
+    "bat",
+    "wicket"
+  ],
+  "keywords": [
+    "cricket",
+    "the bat",
+    "wicket",
+    "innings"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M6 3L12 3L12 14L6 14Z",
+      "closed": true
+    },
+    {
+      "d": "M9 14V21",
+      "closed": false
+    },
+    {
+      "d": "M16 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "climbing",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Climbing",
+  "description": "The holds up the wall",
+  "tags": [
+    "climbing",
+    "holds",
+    "wall"
+  ],
+  "keywords": [
+    "climbing",
+    "the wall",
+    "holds",
+    "bouldering"
+  ],
+  "family": "wall",
+  "shapes": [
+    {
+      "d": "M5 3L5 21L19 21L19 3Z",
+      "closed": true
+    },
+    {
+      "d": "M8 6L10 8L8 10",
+      "closed": false
+    },
+    {
+      "d": "M14 11L16 13L14 15",
+      "closed": false
+    },
+    {
+      "d": "M8 16L10 18L8 20",
+      "closed": false
+    }
+  ]
+}

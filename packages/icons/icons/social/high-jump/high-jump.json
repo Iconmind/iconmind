@@ -1,0 +1,38 @@
+{
+  "slug": "high-jump",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "High jump",
+  "description": "The bar and the arc over it",
+  "tags": [
+    "high-jump",
+    "bar",
+    "over"
+  ],
+  "keywords": [
+    "high jump",
+    "the bar",
+    "over the top",
+    "fosbury"
+  ],
+  "family": "gear",
+  "shapes": [
+    {
+      "d": "M4 8H20",
+      "closed": false
+    },
+    {
+      "d": "M4 8V20",
+      "closed": false
+    },
+    {
+      "d": "M20 8V20",
+      "closed": false
+    },
+    {
+      "d": "M6 15C8 8 16 8 18 15",
+      "closed": false,
+      "_why": "the arc taken over the bar"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "snowboard",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Snowboard",
+  "description": "The board with its bindings",
+  "tags": [
+    "snowboard",
+    "board",
+    "bindings"
+  ],
+  "keywords": [
+    "snowboard",
+    "the board",
+    "bindings",
+    "riding"
+  ],
+  "family": "gear",
+  "shapes": [
+    {
+      "d": "M6 21C3 18 3 6 6 3C9 6 9 18 6 21Z",
+      "closed": true,
+      "_why": "the board, rounded at both ends"
+    },
+    {
+      "d": "M12 16L17 16L17 19L12 19Z",
+      "closed": true
+    },
+    {
+      "d": "M12 6L17 6L17 9L12 9Z",
+      "closed": true
+    }
+  ]
+}

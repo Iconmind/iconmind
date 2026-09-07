@@ -1,0 +1,45 @@
+{
+  "slug": "cycling-race",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Cycling",
+  "description": "The two wheels and the frame",
+  "tags": [
+    "cycling",
+    "wheels",
+    "race"
+  ],
+  "keywords": [
+    "cycling race",
+    "the bike",
+    "two wheels",
+    "peloton"
+  ],
+  "family": "gear",
+  "shapes": [
+    {
+      "d": "M2 15a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 15a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 15L13 8",
+      "closed": false
+    },
+    {
+      "d": "M18 15L11 8",
+      "closed": false
+    },
+    {
+      "d": "M14 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 8L15 6",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "kayak",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Kayak",
+  "description": "The paddle across the boat",
+  "tags": [
+    "kayak",
+    "paddle",
+    "canoe"
+  ],
+  "aliases": [
+    "canoe"
+  ],
+  "keywords": [
+    "kayak",
+    "canoe",
+    "the paddle",
+    "paddling"
+  ],
+  "family": "boat",
+  "shapes": [
+    {
+      "d": "M3 15C7 13 17 13 21 15C17 20 7 20 3 15Z",
+      "closed": true,
+      "_why": "the kayak, pointed both ends"
+    },
+    {
+      "d": "M6 8H18",
+      "closed": false
+    },
+    {
+      "d": "M3 5L6 5L6 11L3 11Z",
+      "closed": true
+    },
+    {
+      "d": "M21 5L18 5L18 11L21 11Z",
+      "closed": true
+    }
+  ]
+}

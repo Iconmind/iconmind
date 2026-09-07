@@ -1,0 +1,38 @@
+{
+  "slug": "gymnastics",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Gymnastics",
+  "description": "The figure bent back over",
+  "tags": [
+    "gymnastics",
+    "bend",
+    "floor"
+  ],
+  "keywords": [
+    "gymnastics",
+    "the floor",
+    "bend",
+    "routine"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 7C13 7 17 11 17 16",
+      "closed": false,
+      "_why": "the body arched over"
+    },
+    {
+      "d": "M17 16L20 19",
+      "closed": false
+    },
+    {
+      "d": "M3 21H21",
+      "closed": false
+    }
+  ]
+}

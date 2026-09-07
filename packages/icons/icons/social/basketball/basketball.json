@@ -1,0 +1,39 @@
+{
+  "slug": "basketball",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Basketball",
+  "description": "The seams round it",
+  "tags": [
+    "basketball",
+    "seams",
+    "hoops"
+  ],
+  "keywords": [
+    "basketball",
+    "the seams",
+    "hoops",
+    "b-ball"
+  ],
+  "family": "ball",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 3V21",
+      "closed": false
+    },
+    {
+      "d": "M5 6C8 9 8 15 5 18",
+      "closed": false,
+      "_why": "the seam curving down one side"
+    },
+    {
+      "d": "M19 6C16 9 16 15 19 18",
+      "closed": false,
+      "_why": "the seam on the other"
+    }
+  ]
+}

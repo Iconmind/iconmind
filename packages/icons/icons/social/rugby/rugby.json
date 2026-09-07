@@ -1,0 +1,38 @@
+{
+  "slug": "rugby",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Rugby",
+  "description": "The ball that is not round",
+  "tags": [
+    "rugby",
+    "oval",
+    "try"
+  ],
+  "keywords": [
+    "rugby",
+    "the oval ball",
+    "try",
+    "scrum"
+  ],
+  "family": "ball",
+  "shapes": [
+    {
+      "d": "M3 12C6 8 9 5 12 5C15 5 18 8 21 12C18 16 15 19 12 19C9 19 6 16 3 12Z",
+      "closed": true,
+      "_why": "the ball, pointed at both ends"
+    },
+    {
+      "d": "M10 9H14",
+      "closed": false
+    },
+    {
+      "d": "M10 12H14",
+      "closed": false
+    },
+    {
+      "d": "M10 15H14",
+      "closed": false
+    }
+  ]
+}

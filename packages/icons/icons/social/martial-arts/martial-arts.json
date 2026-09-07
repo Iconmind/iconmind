@@ -1,0 +1,40 @@
+{
+  "slug": "martial-arts",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Martial arts",
+  "description": "The belt tied round",
+  "tags": [
+    "martial-arts",
+    "belt",
+    "grade"
+  ],
+  "aliases": [
+    "karate"
+  ],
+  "keywords": [
+    "martial arts",
+    "karate",
+    "the belt",
+    "black belt"
+  ],
+  "family": "gear",
+  "shapes": [
+    {
+      "d": "M2 11H22",
+      "closed": false
+    },
+    {
+      "d": "M9 8L9 14L15 14L15 8Z",
+      "closed": true
+    },
+    {
+      "d": "M9 14L5 18",
+      "closed": false
+    },
+    {
+      "d": "M15 14L19 18",
+      "closed": false
+    }
+  ]
+}

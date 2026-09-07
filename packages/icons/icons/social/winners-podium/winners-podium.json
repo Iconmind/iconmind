@@ -1,0 +1,33 @@
+{
+  "slug": "winners-podium",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Podium",
+  "description": "The three steps of it",
+  "tags": [
+    "podium",
+    "steps",
+    "places"
+  ],
+  "keywords": [
+    "winners podium",
+    "the three steps",
+    "first second third",
+    "podium"
+  ],
+  "family": "steps",
+  "shapes": [
+    {
+      "d": "M8 21L8 6L16 6L16 21Z",
+      "closed": true
+    },
+    {
+      "d": "M2 21L2 11L8 11",
+      "closed": false
+    },
+    {
+      "d": "M22 21L22 14L16 14",
+      "closed": false
+    }
+  ]
+}

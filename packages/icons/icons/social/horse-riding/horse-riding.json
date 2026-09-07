@@ -1,0 +1,37 @@
+{
+  "slug": "horse-riding",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Riding",
+  "description": "The horse under the saddle",
+  "tags": [
+    "riding",
+    "horse",
+    "saddle"
+  ],
+  "aliases": [
+    "equestrian"
+  ],
+  "keywords": [
+    "horse riding",
+    "equestrian",
+    "the horse",
+    "saddle up"
+  ],
+  "family": "animal",
+  "shapes": [
+    {
+      "d": "M5 21V13C5 9 8 6 12 6H14.5L17.5 3V8C19.5 10 20 12 20 15V21",
+      "closed": false,
+      "_why": "the head up from the shoulder"
+    },
+    {
+      "d": "M8 12L17 12",
+      "closed": false
+    },
+    {
+      "d": "M10 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

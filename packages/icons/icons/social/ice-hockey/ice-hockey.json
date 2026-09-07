@@ -1,0 +1,30 @@
+{
+  "slug": "ice-hockey",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Ice hockey",
+  "description": "The stick and the puck",
+  "tags": [
+    "ice-hockey",
+    "puck",
+    "rink"
+  ],
+  "keywords": [
+    "ice hockey",
+    "the puck",
+    "on the ice",
+    "rink"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M6 3V15C6 18 8 19 11 19H17",
+      "closed": false,
+      "_why": "the stick, hooked at the foot"
+    },
+    {
+      "d": "M13 5L19 5L19 9L13 9Z",
+      "closed": true
+    }
+  ]
+}

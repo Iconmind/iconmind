@@ -1,0 +1,38 @@
+{
+  "slug": "swimming-race",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Swimming",
+  "description": "The stroke and the lane",
+  "tags": [
+    "swimming",
+    "stroke",
+    "lane"
+  ],
+  "keywords": [
+    "swimming race",
+    "the stroke",
+    "lane",
+    "pool"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 10L14 10",
+      "closed": false
+    },
+    {
+      "d": "M14 10L18 6",
+      "closed": false
+    },
+    {
+      "d": "M3 16C6 14 9 18 12 16C15 14 18 18 21 16",
+      "closed": false,
+      "_why": "the water under them"
+    }
+  ]
+}

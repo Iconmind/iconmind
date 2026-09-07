@@ -1,0 +1,37 @@
+{
+  "slug": "ski-run",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Skiing",
+  "description": "The two skis and the poles",
+  "tags": [
+    "skis",
+    "poles",
+    "downhill"
+  ],
+  "keywords": [
+    "skiing",
+    "downhill",
+    "the skis",
+    "on the piste"
+  ],
+  "family": "gear",
+  "shapes": [
+    {
+      "d": "M3 18L15 6",
+      "closed": false
+    },
+    {
+      "d": "M6 21L18 9",
+      "closed": false
+    },
+    {
+      "d": "M16 21L21 16",
+      "closed": false
+    },
+    {
+      "d": "M20 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

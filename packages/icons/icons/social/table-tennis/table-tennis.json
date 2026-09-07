@@ -1,0 +1,36 @@
+{
+  "slug": "table-tennis",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Table tennis",
+  "description": "The bat and the little ball",
+  "tags": [
+    "table-tennis",
+    "bat",
+    "ping-pong"
+  ],
+  "aliases": [
+    "ping-pong"
+  ],
+  "keywords": [
+    "table tennis",
+    "ping pong",
+    "the bat",
+    "rally"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 17L10 21",
+      "closed": false
+    },
+    {
+      "d": "M18 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

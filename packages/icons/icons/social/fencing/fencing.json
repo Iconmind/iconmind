@@ -1,0 +1,37 @@
+{
+  "slug": "fencing",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Fencing",
+  "description": "The two blades crossed",
+  "tags": [
+    "fencing",
+    "blades",
+    "foil"
+  ],
+  "keywords": [
+    "fencing",
+    "the foil",
+    "crossed blades",
+    "en garde"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M3 4L19 20",
+      "closed": false
+    },
+    {
+      "d": "M21 4L5 20",
+      "closed": false
+    },
+    {
+      "d": "M3 20a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M19 20a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

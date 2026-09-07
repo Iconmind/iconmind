@@ -1,0 +1,48 @@
+{
+  "slug": "bronze-medal",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Bronze",
+  "description": "The third one, marked with three",
+  "tags": [
+    "bronze",
+    "third",
+    "medal"
+  ],
+  "aliases": [
+    "third-place"
+  ],
+  "keywords": [
+    "bronze medal",
+    "third place",
+    "the bronze",
+    "third"
+  ],
+  "family": "medal",
+  "shapes": [
+    {
+      "d": "M7 3L12 8",
+      "closed": false
+    },
+    {
+      "d": "M17 3L12 8",
+      "closed": false
+    },
+    {
+      "d": "M6 15a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 12H15",
+      "closed": false
+    },
+    {
+      "d": "M9 15H15",
+      "closed": false
+    },
+    {
+      "d": "M9 18H15",
+      "closed": false
+    }
+  ]
+}

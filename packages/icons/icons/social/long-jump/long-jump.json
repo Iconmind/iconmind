@@ -1,0 +1,38 @@
+{
+  "slug": "long-jump",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Long jump",
+  "description": "The run and the pit",
+  "tags": [
+    "long-jump",
+    "pit",
+    "distance"
+  ],
+  "keywords": [
+    "long jump",
+    "the pit",
+    "how far",
+    "jump"
+  ],
+  "family": "gear",
+  "shapes": [
+    {
+      "d": "M4 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 7C12 7 15 11 15 15",
+      "closed": false,
+      "_why": "the arc through the air"
+    },
+    {
+      "d": "M11 16L21 16L21 20L11 20Z",
+      "closed": true
+    },
+    {
+      "d": "M3 20H9",
+      "closed": false
+    }
+  ]
+}

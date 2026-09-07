@@ -1,0 +1,30 @@
+{
+  "slug": "stadium",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Stadium",
+  "description": "The bowl round the pitch",
+  "tags": [
+    "stadium",
+    "ground",
+    "stands"
+  ],
+  "keywords": [
+    "stadium",
+    "the ground",
+    "the stands",
+    "arena"
+  ],
+  "family": "ground",
+  "shapes": [
+    {
+      "d": "M12 4C18 4 22 7 22 12C22 17 18 20 12 20C6 20 2 17 2 12C2 7 6 4 12 4Z",
+      "closed": true,
+      "_why": "the bowl of the stadium"
+    },
+    {
+      "d": "M8 10L16 10L16 14L8 14Z",
+      "closed": true
+    }
+  ]
+}

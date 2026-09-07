@@ -1,0 +1,31 @@
+{
+  "slug": "surfing",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Surfing",
+  "description": "The board over the wave",
+  "tags": [
+    "surfing",
+    "board",
+    "wave"
+  ],
+  "keywords": [
+    "surfing",
+    "the board",
+    "catch a wave",
+    "surf"
+  ],
+  "family": "gear",
+  "shapes": [
+    {
+      "d": "M12 3C15 6 16 11 15 15H9C8 11 9 6 12 3Z",
+      "closed": true,
+      "_why": "the board, pointed at the nose"
+    },
+    {
+      "d": "M3 19C6 17 9 21 12 19C15 17 18 21 21 19",
+      "closed": false,
+      "_why": "the wave under it"
+    }
+  ]
+}

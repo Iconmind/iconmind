@@ -1,0 +1,38 @@
+{
+  "slug": "trampoline",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Trampoline",
+  "description": "The bed on its legs",
+  "tags": [
+    "trampoline",
+    "bed",
+    "bounce"
+  ],
+  "keywords": [
+    "trampoline",
+    "the bed",
+    "bounce",
+    "spring"
+  ],
+  "family": "gear",
+  "shapes": [
+    {
+      "d": "M3 11C7 14 17 14 21 11",
+      "closed": false,
+      "_why": "the bed sagging under the bounce"
+    },
+    {
+      "d": "M5 12V20",
+      "closed": false
+    },
+    {
+      "d": "M19 12V20",
+      "closed": false
+    },
+    {
+      "d": "M10 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

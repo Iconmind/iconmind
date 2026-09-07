@@ -1,0 +1,37 @@
+{
+  "slug": "hurdles",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Hurdles",
+  "description": "The barrier to clear",
+  "tags": [
+    "hurdles",
+    "barrier",
+    "clear"
+  ],
+  "keywords": [
+    "hurdles",
+    "the barrier",
+    "clear it",
+    "over the top"
+  ],
+  "family": "gear",
+  "shapes": [
+    {
+      "d": "M3 8H21",
+      "closed": false
+    },
+    {
+      "d": "M6 8V20",
+      "closed": false
+    },
+    {
+      "d": "M18 8V20",
+      "closed": false
+    },
+    {
+      "d": "M6 14H18",
+      "closed": false
+    }
+  ]
+}

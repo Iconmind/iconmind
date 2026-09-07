@@ -1,0 +1,40 @@
+{
+  "slug": "motorsport",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Motorsport",
+  "description": "The flag they wave at the end",
+  "tags": [
+    "motorsport",
+    "flag",
+    "finish"
+  ],
+  "aliases": [
+    "racing"
+  ],
+  "keywords": [
+    "motorsport",
+    "chequered flag",
+    "racing",
+    "the finish"
+  ],
+  "family": "flag",
+  "shapes": [
+    {
+      "d": "M3 3V21",
+      "closed": false
+    },
+    {
+      "d": "M6 4L20 4L20 14L6 14Z",
+      "closed": true
+    },
+    {
+      "d": "M6 9L13 9L13 4",
+      "closed": false
+    },
+    {
+      "d": "M13 14L13 9L20 9",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "golf",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Golf",
+  "description": "The club over the ball",
+  "tags": [
+    "golf",
+    "club",
+    "swing"
+  ],
+  "keywords": [
+    "golf",
+    "the club",
+    "swing",
+    "a round of golf"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M6 4L16 14",
+      "closed": false
+    },
+    {
+      "d": "M16 14L20 14L20 17L16 17Z",
+      "closed": true
+    },
+    {
+      "d": "M4 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "hockey",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Hockey",
+  "description": "The stick and the ball",
+  "tags": [
+    "hockey",
+    "stick",
+    "field"
+  ],
+  "keywords": [
+    "hockey",
+    "the stick",
+    "field hockey",
+    "the ball"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M6 3V15C6 18 8 19 11 19H17",
+      "closed": false,
+      "_why": "the stick, hooked at the foot"
+    },
+    {
+      "d": "M16 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "trophy-cup",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Trophy",
+  "description": "The cup with its handles",
+  "tags": [
+    "trophy",
+    "cup",
+    "won"
+  ],
+  "keywords": [
+    "trophy",
+    "the cup",
+    "won it",
+    "silverware"
+  ],
+  "family": "cup",
+  "shapes": [
+    {
+      "d": "M7 3H17V9C17 13 15 15 12 15C9 15 7 13 7 9Z",
+      "closed": true,
+      "_why": "the bowl of the cup"
+    },
+    {
+      "d": "M7 5C4 5 3 9 7 10",
+      "closed": false,
+      "_why": "a handle off the side"
+    },
+    {
+      "d": "M17 5C20 5 21 9 17 10",
+      "closed": false,
+      "_why": "the handle opposite"
+    },
+    {
+      "d": "M12 15V19",
+      "closed": false
+    },
+    {
+      "d": "M8 19H16",
+      "closed": false
+    }
+  ]
+}

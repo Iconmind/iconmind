@@ -1,0 +1,41 @@
+{
+  "slug": "marathon",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Marathon",
+  "description": "The runner and the road ahead",
+  "tags": [
+    "marathon",
+    "distance",
+    "road"
+  ],
+  "keywords": [
+    "marathon",
+    "long distance",
+    "the road",
+    "26 miles"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M11 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 7L9 11L13 15",
+      "closed": false
+    },
+    {
+      "d": "M9 11L5 11",
+      "closed": false
+    },
+    {
+      "d": "M13 15L17 19",
+      "closed": false
+    },
+    {
+      "d": "M3 21H21",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "skating",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Skating",
+  "description": "The boot over the blade",
+  "tags": [
+    "skating",
+    "boot",
+    "blade"
+  ],
+  "keywords": [
+    "skating",
+    "ice skate",
+    "the blade",
+    "the boot"
+  ],
+  "family": "gear",
+  "shapes": [
+    {
+      "d": "M6 4L6 14L18 14L18 11",
+      "closed": false
+    },
+    {
+      "d": "M4 17H20",
+      "closed": false
+    },
+    {
+      "d": "M6 14L6 17",
+      "closed": false
+    },
+    {
+      "d": "M18 14L18 17",
+      "closed": false
+    }
+  ]
+}

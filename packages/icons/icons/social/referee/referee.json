@@ -1,0 +1,36 @@
+{
+  "slug": "referee",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Referee",
+  "description": "The card held up",
+  "tags": [
+    "referee",
+    "card",
+    "decision"
+  ],
+  "aliases": [
+    "ref"
+  ],
+  "keywords": [
+    "referee",
+    "the ref",
+    "card",
+    "decision"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 16A4 4 0 0 1 12 16",
+      "closed": false
+    },
+    {
+      "d": "M15 5L21 5L21 14L15 14Z",
+      "closed": true
+    }
+  ]
+}

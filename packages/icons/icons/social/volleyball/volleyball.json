@@ -1,0 +1,40 @@
+{
+  "slug": "volleyball",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Volleyball",
+  "description": "The three bands across it",
+  "tags": [
+    "volleyball",
+    "bands",
+    "serve"
+  ],
+  "keywords": [
+    "volleyball",
+    "the bands",
+    "serve",
+    "beach volleyball"
+  ],
+  "family": "ball",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 9C8 10 14 8 17 4",
+      "closed": false,
+      "_why": "one band over the top"
+    },
+    {
+      "d": "M3 15C7 14 13 16 16 20",
+      "closed": false,
+      "_why": "the band under it"
+    },
+    {
+      "d": "M9 3.5C11 8 11 16 9 20.5",
+      "closed": false,
+      "_why": "the band down the side"
+    }
+  ]
+}

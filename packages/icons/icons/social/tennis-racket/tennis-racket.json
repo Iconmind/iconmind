@@ -1,0 +1,38 @@
+{
+  "slug": "tennis-racket",
+  "category": "social",
+  "subcategory": "sport",
+  "name": "Racket",
+  "description": "The strings inside the head",
+  "tags": [
+    "racket",
+    "strings",
+    "head"
+  ],
+  "keywords": [
+    "tennis racket",
+    "the racket",
+    "strings",
+    "swing"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M12 3C16 3 19 6 19 10C19 14 16 17 12 17C8 17 5 14 5 10C5 6 8 3 12 3Z",
+      "closed": true,
+      "_why": "the head of the racket"
+    },
+    {
+      "d": "M9 5V15",
+      "closed": false
+    },
+    {
+      "d": "M15 5V15",
+      "closed": false
+    },
+    {
+      "d": "M12 17L12 21",
+      "closed": false
+    }
+  ]
+}
