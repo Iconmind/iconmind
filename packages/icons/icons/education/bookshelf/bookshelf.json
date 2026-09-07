@@ -3,7 +3,7 @@
   "category": "education",
   "subcategory": "reading",
   "name": "Bookshelf",
-  "description": "The books standing on the shelf",
+  "description": "The books between two boards",
   "tags": [
     "shelf",
     "books",
@@ -18,19 +18,27 @@
   "family": "shelf",
   "shapes": [
     {
-      "d": "M2 20H22",
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 12H21",
       "closed": false
     },
     {
-      "d": "M4 20L4 8L7 8L7 20",
+      "d": "M7 5V10",
       "closed": false
     },
     {
-      "d": "M10 20L10 11L13 11L13 20",
+      "d": "M10 5V10",
       "closed": false
     },
     {
-      "d": "M16 20L16 6L19 6L19 20",
+      "d": "M14 14V19",
+      "closed": false
+    },
+    {
+      "d": "M17 14V19",
       "closed": false
     }
   ]
