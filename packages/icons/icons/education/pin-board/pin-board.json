@@ -1,0 +1,36 @@
+{
+  "slug": "pin-board",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Pin board",
+  "description": "The board with notes pinned to it",
+  "tags": [
+    "board",
+    "notes",
+    "pinned"
+  ],
+  "aliases": [
+    "notice-board"
+  ],
+  "keywords": [
+    "pin board",
+    "notice board",
+    "pinned up",
+    "notes"
+  ],
+  "family": "board",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V15A2 2 0 0 1 20 17H4A2 2 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M6 8L11 8L11 14L6 14Z",
+      "closed": true
+    },
+    {
+      "d": "M14 7L19 7L19 12L14 12Z",
+      "closed": true
+    }
+  ]
+}

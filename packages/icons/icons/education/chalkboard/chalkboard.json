@@ -1,0 +1,40 @@
+{
+  "slug": "chalkboard",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Chalkboard",
+  "description": "The board with its tray",
+  "tags": [
+    "board",
+    "chalk",
+    "blackboard"
+  ],
+  "aliases": [
+    "blackboard"
+  ],
+  "keywords": [
+    "chalkboard",
+    "blackboard",
+    "the board",
+    "front of class"
+  ],
+  "family": "board",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V15A2 2 0 0 1 20 17H4A2 2 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M5 20H19",
+      "closed": false
+    },
+    {
+      "d": "M7 9L15 9",
+      "closed": false
+    },
+    {
+      "d": "M7 13L12 13",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "answer",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Answer",
+  "description": "The bubble with the answer in it",
+  "tags": [
+    "answer",
+    "reply",
+    "idea"
+  ],
+  "keywords": [
+    "answer",
+    "the answer",
+    "reply",
+    "got it"
+  ],
+  "family": "bubble",
+  "shapes": [
+    {
+      "d": "M4 4H18A2 2 0 0 1 20 6V13A2 2 0 0 1 18 15H12L8 19V15H4A2 2 0 0 1 2 13V6A2 2 0 0 1 4 4Z",
+      "closed": true,
+      "_why": "a bubble with a tail"
+    },
+    {
+      "d": "M7 10L10 13L15 8",
+      "closed": false
+    }
+  ]
+}

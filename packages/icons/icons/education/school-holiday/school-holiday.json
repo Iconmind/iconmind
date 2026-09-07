@@ -1,0 +1,48 @@
+{
+  "slug": "school-holiday",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Holiday",
+  "description": "The weeks with the sun over them",
+  "tags": [
+    "holiday",
+    "break",
+    "off"
+  ],
+  "aliases": [
+    "school-break"
+  ],
+  "keywords": [
+    "school holiday",
+    "the holidays",
+    "half term",
+    "break"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 7A2 2 0 0 1 5 5H19A2 2 0 0 1 21 7V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 9H21",
+      "closed": false
+    },
+    {
+      "d": "M8 2V5",
+      "closed": false
+    },
+    {
+      "d": "M16 2V5",
+      "closed": false
+    },
+    {
+      "d": "M8 17A4 4 0 0 1 16 17",
+      "closed": false
+    },
+    {
+      "d": "M7 17H17",
+      "closed": false
+    }
+  ]
+}

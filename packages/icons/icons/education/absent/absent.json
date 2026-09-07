@@ -1,0 +1,40 @@
+{
+  "slug": "absent",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Absent",
+  "description": "The one who did not",
+  "tags": [
+    "absent",
+    "away",
+    "missing"
+  ],
+  "aliases": [
+    "away"
+  ],
+  "keywords": [
+    "absent",
+    "away",
+    "not in",
+    "missing"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M6 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2.4 16A6.6 6.6 0 0 1 15.6 16",
+      "closed": false
+    },
+    {
+      "d": "M16 14L22 20",
+      "closed": false
+    },
+    {
+      "d": "M22 14L16 20",
+      "closed": false
+    }
+  ]
+}

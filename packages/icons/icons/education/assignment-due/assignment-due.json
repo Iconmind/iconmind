@@ -1,0 +1,33 @@
+{
+  "slug": "assignment-due",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Due in",
+  "description": "The task with the hour running",
+  "tags": [
+    "due",
+    "deadline",
+    "soon"
+  ],
+  "keywords": [
+    "due in",
+    "deadline",
+    "hand it in",
+    "due soon"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M2 20L2 6L9 6L11 8L22 8L22 20Z",
+      "closed": true
+    },
+    {
+      "d": "M11 14a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 11L15 14L18 14",
+      "closed": false
+    }
+  ]
+}

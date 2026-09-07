@@ -1,0 +1,38 @@
+{
+  "slug": "school-bell",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Bell",
+  "description": "The bell that ends the lesson",
+  "tags": [
+    "bell",
+    "ring",
+    "end"
+  ],
+  "keywords": [
+    "school bell",
+    "the bell",
+    "end of lesson",
+    "rings"
+  ],
+  "family": "bell",
+  "shapes": [
+    {
+      "d": "M6 17A6 6 0 0 1 18 17Z",
+      "closed": true,
+      "_why": "the bell's skirt"
+    },
+    {
+      "d": "M12 11L12 8",
+      "closed": false
+    },
+    {
+      "d": "M10 8A2 2 0 0 1 14 8",
+      "closed": false
+    },
+    {
+      "d": "M11 20a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

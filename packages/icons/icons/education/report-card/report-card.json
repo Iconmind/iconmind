@@ -1,0 +1,44 @@
+{
+  "slug": "report-card",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Report",
+  "description": "The card with the grade on it",
+  "tags": [
+    "report",
+    "card",
+    "home"
+  ],
+  "aliases": [
+    "school-report"
+  ],
+  "keywords": [
+    "report",
+    "school report",
+    "goes home",
+    "end of term"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M2 9H22",
+      "closed": false
+    },
+    {
+      "d": "M4 15a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 13H19",
+      "closed": false
+    },
+    {
+      "d": "M13 17H19",
+      "closed": false
+    }
+  ]
+}

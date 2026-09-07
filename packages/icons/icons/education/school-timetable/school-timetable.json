@@ -1,0 +1,36 @@
+{
+  "slug": "school-timetable",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Timetable",
+  "description": "The week with the lessons blocked out",
+  "tags": [
+    "timetable",
+    "week",
+    "periods"
+  ],
+  "aliases": [
+    "schedule-grid"
+  ],
+  "keywords": [
+    "timetable",
+    "the week",
+    "periods",
+    "what is on when"
+  ],
+  "family": "grid",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M5 8L11 8L11 12L5 12Z",
+      "closed": true
+    },
+    {
+      "d": "M13 13L19 13L19 17L13 17Z",
+      "closed": true
+    }
+  ]
+}

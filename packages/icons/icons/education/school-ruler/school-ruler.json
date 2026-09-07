@@ -1,0 +1,37 @@
+{
+  "slug": "school-ruler",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Ruler",
+  "description": "The edge with its marks",
+  "tags": [
+    "ruler",
+    "measure",
+    "edge"
+  ],
+  "keywords": [
+    "ruler",
+    "measure",
+    "straight edge",
+    "centimetres"
+  ],
+  "family": "ruler",
+  "shapes": [
+    {
+      "d": "M2 16L16 2L22 8L8 22Z",
+      "closed": true
+    },
+    {
+      "d": "M5 13L8 16",
+      "closed": false
+    },
+    {
+      "d": "M9 9L12 12",
+      "closed": false
+    },
+    {
+      "d": "M13 5L16 8",
+      "closed": false
+    }
+  ]
+}

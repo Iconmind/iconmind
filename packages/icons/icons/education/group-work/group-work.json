@@ -1,0 +1,44 @@
+{
+  "slug": "group-work",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Group work",
+  "description": "Three heads round one table",
+  "tags": [
+    "group",
+    "together",
+    "table"
+  ],
+  "aliases": [
+    "teamwork"
+  ],
+  "keywords": [
+    "group work",
+    "working together",
+    "in a group",
+    "table"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M3 9a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 9a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 15H22",
+      "closed": false
+    },
+    {
+      "d": "M12 15V20",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "school-notebook",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Notebook",
+  "description": "The pad with its spiral",
+  "tags": [
+    "notebook",
+    "pad",
+    "spiral"
+  ],
+  "aliases": [
+    "exercise-book"
+  ],
+  "keywords": [
+    "notebook",
+    "exercise book",
+    "pad",
+    "spiral bound"
+  ],
+  "family": "notebook",
+  "shapes": [
+    {
+      "d": "M6 5A2 2 0 0 1 8 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H8A2 2 0 0 1 6 19Z",
+      "closed": true
+    },
+    {
+      "d": "M10 3V21",
+      "closed": false
+    },
+    {
+      "d": "M13 9H17",
+      "closed": false
+    },
+    {
+      "d": "M13 13H17",
+      "closed": false
+    },
+    {
+      "d": "M13 17H17",
+      "closed": false
+    }
+  ]
+}

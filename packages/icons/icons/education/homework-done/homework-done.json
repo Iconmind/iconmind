@@ -1,0 +1,29 @@
+{
+  "slug": "homework-done",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Homework done",
+  "description": "The sheet handed in",
+  "tags": [
+    "done",
+    "handed-in",
+    "finished"
+  ],
+  "keywords": [
+    "homework done",
+    "handed in",
+    "finished",
+    "complete"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M7 12L10 15L17 8",
+      "closed": false
+    }
+  ]
+}

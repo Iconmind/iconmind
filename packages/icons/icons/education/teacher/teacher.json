@@ -1,0 +1,33 @@
+{
+  "slug": "teacher",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Teacher",
+  "description": "The one standing at the board",
+  "tags": [
+    "teacher",
+    "class",
+    "front"
+  ],
+  "keywords": [
+    "teacher",
+    "the teacher",
+    "at the board",
+    "teaching"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M10 6A2 2 0 0 1 12 4H20A2 2 0 0 1 22 6V13A2 2 0 0 1 20 15H12A2 2 0 0 1 10 13Z",
+      "closed": true
+    },
+    {
+      "d": "M3 9a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 18A4 4 0 0 1 10 18",
+      "closed": false
+    }
+  ]
+}

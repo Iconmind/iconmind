@@ -1,0 +1,41 @@
+{
+  "slug": "calculator",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Calculator",
+  "description": "The keys under the display",
+  "tags": [
+    "calculator",
+    "keys",
+    "sums"
+  ],
+  "keywords": [
+    "calculator",
+    "work it out",
+    "sums",
+    "keys"
+  ],
+  "family": "device",
+  "shapes": [
+    {
+      "d": "M4 4A2 2 0 0 1 6 2H18A2 2 0 0 1 20 4V20A2 2 0 0 1 18 22H6A2 2 0 0 1 4 20Z",
+      "closed": true
+    },
+    {
+      "d": "M7 8H17",
+      "closed": false
+    },
+    {
+      "d": "M7 12H17",
+      "closed": false
+    },
+    {
+      "d": "M7 16H17",
+      "closed": false
+    },
+    {
+      "d": "M12 12V20",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "sports-day",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Sports day",
+  "description": "The podium and the ribbon",
+  "tags": [
+    "sports",
+    "podium",
+    "race"
+  ],
+  "aliases": [
+    "field-day"
+  ],
+  "keywords": [
+    "sports day",
+    "field day",
+    "races",
+    "podium"
+  ],
+  "family": "podium",
+  "shapes": [
+    {
+      "d": "M8 21L8 8L16 8L16 21Z",
+      "closed": true
+    },
+    {
+      "d": "M2 21L2 13L8 13",
+      "closed": false
+    },
+    {
+      "d": "M16 13L22 13L22 21",
+      "closed": false
+    },
+    {
+      "d": "M10 4a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

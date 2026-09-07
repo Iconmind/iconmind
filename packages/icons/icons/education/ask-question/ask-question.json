@@ -1,0 +1,35 @@
+{
+  "slug": "ask-question",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Ask a question",
+  "description": "The hand up and the question with it",
+  "tags": [
+    "question",
+    "ask",
+    "hand"
+  ],
+  "keywords": [
+    "ask a question",
+    "a question",
+    "put your hand up",
+    "ask"
+  ],
+  "family": "bubble",
+  "shapes": [
+    {
+      "d": "M4 4H18A2 2 0 0 1 20 6V13A2 2 0 0 1 18 15H12L8 19V15H4A2 2 0 0 1 2 13V6A2 2 0 0 1 4 4Z",
+      "closed": true,
+      "_why": "a bubble with a tail"
+    },
+    {
+      "d": "M9 8A2.5 2.5 0 0 1 14 8C14 10 11.5 10 11.5 11.5",
+      "closed": false,
+      "_why": "the hook of a question mark"
+    },
+    {
+      "d": "M10.5 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

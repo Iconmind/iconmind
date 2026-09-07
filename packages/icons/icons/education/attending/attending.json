@@ -1,0 +1,36 @@
+{
+  "slug": "attending",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Here",
+  "description": "The one who turned up",
+  "tags": [
+    "here",
+    "in",
+    "turned-up"
+  ],
+  "aliases": [
+    "present-in-class"
+  ],
+  "keywords": [
+    "here",
+    "present",
+    "in class",
+    "turned up"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M6 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2.4 16A6.6 6.6 0 0 1 15.6 16",
+      "closed": false
+    },
+    {
+      "d": "M15 16L17 18L21 14",
+      "closed": false
+    }
+  ]
+}

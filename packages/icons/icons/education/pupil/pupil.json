@@ -1,0 +1,37 @@
+{
+  "slug": "pupil",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Pupil",
+  "description": "The small one with a book",
+  "tags": [
+    "pupil",
+    "child",
+    "book"
+  ],
+  "keywords": [
+    "pupil",
+    "schoolchild",
+    "the class",
+    "young learner"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M5 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3.5 15A4.5 4.5 0 0 1 12.5 15",
+      "closed": false
+    },
+    {
+      "d": "M14 20L14 12L21 12L21 20Z",
+      "closed": true
+    },
+    {
+      "d": "M17.5 12V20",
+      "closed": false
+    }
+  ]
+}

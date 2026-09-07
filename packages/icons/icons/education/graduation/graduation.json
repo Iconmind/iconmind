@@ -1,0 +1,36 @@
+{
+  "slug": "graduation",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Graduation",
+  "description": "The cap thrown at the end",
+  "tags": [
+    "graduation",
+    "cap",
+    "finish"
+  ],
+  "aliases": [
+    "mortarboard"
+  ],
+  "keywords": [
+    "graduation",
+    "mortarboard",
+    "graduate",
+    "the end of it"
+  ],
+  "family": "cap",
+  "shapes": [
+    {
+      "d": "M2 10L6 6L18 6L22 10L18 14L6 14Z",
+      "closed": true
+    },
+    {
+      "d": "M8 14L8 17L11 20L14 20L17 17L17 14",
+      "closed": false
+    },
+    {
+      "d": "M22 10L22 16",
+      "closed": false
+    }
+  ]
+}

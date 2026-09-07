@@ -1,0 +1,33 @@
+{
+  "slug": "raise-hand",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Hand up",
+  "description": "The arm up with the hand open",
+  "tags": [
+    "hand",
+    "up",
+    "ask"
+  ],
+  "aliases": [
+    "hand-up"
+  ],
+  "keywords": [
+    "hand up",
+    "raise your hand",
+    "put your hand up",
+    "ask"
+  ],
+  "family": "hand",
+  "shapes": [
+    {
+      "d": "M7 21V13A2 2 0 0 1 11 13V9A2 2 0 0 1 15 9V13A2 2 0 0 1 19 13V17",
+      "closed": false,
+      "_why": "an open hand on the end of an arm"
+    },
+    {
+      "d": "M15 9L15 4",
+      "closed": false
+    }
+  ]
+}

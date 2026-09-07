@@ -1,0 +1,36 @@
+{
+  "slug": "eraser",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Eraser",
+  "description": "The rubber with its sleeve",
+  "tags": [
+    "eraser",
+    "rubber",
+    "rub-out"
+  ],
+  "aliases": [
+    "rubber"
+  ],
+  "keywords": [
+    "eraser",
+    "rubber",
+    "rub it out",
+    "correct"
+  ],
+  "family": "block",
+  "shapes": [
+    {
+      "d": "M3 15L9 9L21 9L15 15Z",
+      "closed": true
+    },
+    {
+      "d": "M3 15L3 19L15 19L21 13L21 9",
+      "closed": false
+    },
+    {
+      "d": "M9 9L9 13L3 19",
+      "closed": false
+    }
+  ]
+}

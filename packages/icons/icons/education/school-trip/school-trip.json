@@ -1,0 +1,48 @@
+{
+  "slug": "school-trip",
+  "category": "education",
+  "subcategory": "school",
+  "name": "School trip",
+  "description": "The coach and where it is going",
+  "tags": [
+    "trip",
+    "coach",
+    "outing"
+  ],
+  "aliases": [
+    "outing"
+  ],
+  "keywords": [
+    "school trip",
+    "outing",
+    "day out",
+    "the coach"
+  ],
+  "family": "bus",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H14A2 2 0 0 1 16 8V15A2 2 0 0 1 14 17H4A2 2 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M2 10H16",
+      "closed": false
+    },
+    {
+      "d": "M3 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M20 20L20 10",
+      "closed": false
+    },
+    {
+      "d": "M20 6L16 10L20 10Z",
+      "closed": true
+    }
+  ]
+}

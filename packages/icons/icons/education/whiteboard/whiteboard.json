@@ -1,0 +1,36 @@
+{
+  "slug": "whiteboard",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Whiteboard",
+  "description": "The board with a marker on the ledge",
+  "tags": [
+    "board",
+    "marker",
+    "dry-wipe"
+  ],
+  "aliases": [
+    "dry-wipe-board"
+  ],
+  "keywords": [
+    "whiteboard",
+    "dry wipe board",
+    "marker board",
+    "the board"
+  ],
+  "family": "board",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V15A2 2 0 0 1 20 17H4A2 2 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M5 20H19",
+      "closed": false
+    },
+    {
+      "d": "M8 12L14 6L16 8L10 14Z",
+      "closed": true
+    }
+  ]
+}

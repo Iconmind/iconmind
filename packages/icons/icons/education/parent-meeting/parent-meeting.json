@@ -1,0 +1,41 @@
+{
+  "slug": "parent-meeting",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Parents' evening",
+  "description": "Two chairs across a table",
+  "tags": [
+    "parents",
+    "meeting",
+    "evening"
+  ],
+  "keywords": [
+    "parents' evening",
+    "parent meeting",
+    "consultation",
+    "across the table"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12H22",
+      "closed": false
+    },
+    {
+      "d": "M2 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 20L3 15L7 15L7 20",
+      "closed": false
+    },
+    {
+      "d": "M17 20L17 15L21 15L21 20",
+      "closed": false
+    }
+  ]
+}

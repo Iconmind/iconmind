@@ -1,0 +1,36 @@
+{
+  "slug": "marker-pen",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Marker",
+  "description": "The barrel with a chisel tip",
+  "tags": [
+    "marker",
+    "chisel",
+    "felt-tip"
+  ],
+  "aliases": [
+    "felt-tip"
+  ],
+  "keywords": [
+    "marker",
+    "marker pen",
+    "felt tip",
+    "chisel tip"
+  ],
+  "family": "pen",
+  "shapes": [
+    {
+      "d": "M8 14L16 6L20 10L12 18Z",
+      "closed": true
+    },
+    {
+      "d": "M5 17L8 14L12 18L9 21Z",
+      "closed": true
+    },
+    {
+      "d": "M10 16L14 12",
+      "closed": false
+    }
+  ]
+}

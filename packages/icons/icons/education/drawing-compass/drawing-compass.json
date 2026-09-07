@@ -1,0 +1,40 @@
+{
+  "slug": "drawing-compass",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Compasses",
+  "description": "The two legs and the point between them",
+  "tags": [
+    "compasses",
+    "circle",
+    "draw"
+  ],
+  "aliases": [
+    "pair-of-compasses"
+  ],
+  "keywords": [
+    "compasses",
+    "draw a circle",
+    "geometry set",
+    "dividers"
+  ],
+  "family": "compass",
+  "shapes": [
+    {
+      "d": "M12 3V9",
+      "closed": false
+    },
+    {
+      "d": "M12 9L6 15L6 19",
+      "closed": false
+    },
+    {
+      "d": "M12 9L18 15L18 19",
+      "closed": false
+    },
+    {
+      "d": "M9 12L15 12",
+      "closed": false
+    }
+  ]
+}

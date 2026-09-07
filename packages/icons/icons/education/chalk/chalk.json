@@ -1,0 +1,29 @@
+{
+  "slug": "chalk",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Chalk",
+  "description": "The stick of chalk",
+  "tags": [
+    "chalk",
+    "stick",
+    "board"
+  ],
+  "keywords": [
+    "chalk",
+    "a stick of chalk",
+    "write on the board",
+    "blackboard"
+  ],
+  "family": "chalk",
+  "shapes": [
+    {
+      "d": "M5 17L15 7L19 11L9 21Z",
+      "closed": true
+    },
+    {
+      "d": "M7 15L11 19",
+      "closed": false
+    }
+  ]
+}

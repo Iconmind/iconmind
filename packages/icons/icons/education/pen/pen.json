@@ -1,0 +1,33 @@
+{
+  "slug": "pen",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Pen",
+  "description": "The nib on the end of the barrel",
+  "tags": [
+    "pen",
+    "nib",
+    "ink"
+  ],
+  "keywords": [
+    "pen",
+    "fountain pen",
+    "nib",
+    "ink"
+  ],
+  "family": "pen",
+  "shapes": [
+    {
+      "d": "M8 16L17 7L20 10L11 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 16L5 19L11 19",
+      "closed": false
+    },
+    {
+      "d": "M8 16L8 19",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "school-bus",
+  "category": "education",
+  "subcategory": "school",
+  "name": "School bus",
+  "description": "The bus that comes at eight",
+  "tags": [
+    "bus",
+    "ride",
+    "stop"
+  ],
+  "keywords": [
+    "school bus",
+    "the bus",
+    "bus to school",
+    "pick up"
+  ],
+  "family": "bus",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V15A2 2 0 0 1 20 17H4A2 2 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M2 9H22",
+      "closed": false
+    },
+    {
+      "d": "M12 4V9",
+      "closed": false
+    },
+    {
+      "d": "M5 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

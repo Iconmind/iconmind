@@ -1,0 +1,36 @@
+{
+  "slug": "student",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Student",
+  "description": "The one with the cap on",
+  "tags": [
+    "student",
+    "cap",
+    "learner"
+  ],
+  "aliases": [
+    "learner"
+  ],
+  "keywords": [
+    "student",
+    "learner",
+    "at school",
+    "studying"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M4 7L7 4L17 4L20 7L17 10L7 10Z",
+      "closed": true
+    },
+    {
+      "d": "M9 14a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 21A4.5 4.5 0 0 1 16.5 21",
+      "closed": false
+    }
+  ]
+}

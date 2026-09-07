@@ -1,0 +1,41 @@
+{
+  "slug": "school-desk",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Desk",
+  "description": "The desk with a chair pushed under it",
+  "tags": [
+    "desk",
+    "chair",
+    "seat"
+  ],
+  "keywords": [
+    "school desk",
+    "desk and chair",
+    "a place to sit",
+    "seat"
+  ],
+  "family": "desk",
+  "shapes": [
+    {
+      "d": "M2 7H16",
+      "closed": false
+    },
+    {
+      "d": "M4 7V18",
+      "closed": false
+    },
+    {
+      "d": "M14 7V18",
+      "closed": false
+    },
+    {
+      "d": "M17 18L17 10L21 10",
+      "closed": false
+    },
+    {
+      "d": "M17 14L21 14",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "school-playground",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Playground",
+  "description": "The swing in the yard",
+  "tags": [
+    "playground",
+    "swing",
+    "yard"
+  ],
+  "aliases": [
+    "schoolyard"
+  ],
+  "keywords": [
+    "playground",
+    "schoolyard",
+    "playtime",
+    "the yard"
+  ],
+  "family": "swing",
+  "shapes": [
+    {
+      "d": "M4 6H20",
+      "closed": false
+    },
+    {
+      "d": "M4 6V20",
+      "closed": false
+    },
+    {
+      "d": "M20 6V20",
+      "closed": false
+    },
+    {
+      "d": "M9 6V15",
+      "closed": false
+    },
+    {
+      "d": "M15 6V15",
+      "closed": false
+    },
+    {
+      "d": "M8 15H16",
+      "closed": false
+    }
+  ]
+}

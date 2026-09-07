@@ -1,0 +1,33 @@
+{
+  "slug": "school-pencil",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Pencil",
+  "description": "The pencil sharpened to a point",
+  "tags": [
+    "pencil",
+    "write",
+    "sharp"
+  ],
+  "keywords": [
+    "pencil",
+    "a pencil",
+    "write",
+    "sharpened"
+  ],
+  "family": "pencil",
+  "shapes": [
+    {
+      "d": "M7 16L16 7L19 10L10 19Z",
+      "closed": true
+    },
+    {
+      "d": "M7 16L4 19L10 19",
+      "closed": false
+    },
+    {
+      "d": "M14 9L17 12",
+      "closed": false
+    }
+  ]
+}

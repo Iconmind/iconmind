@@ -1,0 +1,37 @@
+{
+  "slug": "locker",
+  "category": "education",
+  "subcategory": "school",
+  "name": "Locker",
+  "description": "The tall door with its vent",
+  "tags": [
+    "locker",
+    "door",
+    "store"
+  ],
+  "keywords": [
+    "locker",
+    "school locker",
+    "store your things",
+    "locker room"
+  ],
+  "family": "locker",
+  "shapes": [
+    {
+      "d": "M6 4A2 2 0 0 1 8 2H16A2 2 0 0 1 18 4V20A2 2 0 0 1 16 22H8A2 2 0 0 1 6 20Z",
+      "closed": true
+    },
+    {
+      "d": "M9 6H15",
+      "closed": false
+    },
+    {
+      "d": "M9 9H15",
+      "closed": false
+    },
+    {
+      "d": "M14 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}
