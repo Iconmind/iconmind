@@ -1,0 +1,41 @@
+{
+  "slug": "tap-water",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Tap water",
+  "description": "The tap with a drop under it",
+  "tags": [
+    "tap",
+    "water",
+    "mains"
+  ],
+  "aliases": [
+    "faucet"
+  ],
+  "keywords": [
+    "tap water",
+    "faucet",
+    "mains water",
+    "running water"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 6L12 6L12 12L16 12",
+      "closed": false
+    },
+    {
+      "d": "M9 3V6",
+      "closed": false
+    },
+    {
+      "d": "M6 3H12",
+      "closed": false
+    },
+    {
+      "d": "M16 13L19 16A3 3 0 0 1 13 16Z",
+      "closed": true,
+      "_why": "a drop: a point above one round belly"
+    }
+  ]
+}

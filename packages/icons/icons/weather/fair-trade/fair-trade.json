@@ -1,0 +1,39 @@
+{
+  "slug": "fair-trade",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Fair trade",
+  "description": "The two hands of a fair exchange",
+  "tags": [
+    "fair",
+    "trade",
+    "exchange"
+  ],
+  "keywords": [
+    "fair trade",
+    "fair exchange",
+    "ethical trade",
+    "fairtrade"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 9A5 5 0 0 1 11 9A5 5 0 0 1 3 9Z",
+      "closed": true,
+      "_why": "the left hand cupped"
+    },
+    {
+      "d": "M13 9A5 5 0 0 1 21 9A5 5 0 0 1 13 9Z",
+      "closed": true,
+      "_why": "the right hand cupped"
+    },
+    {
+      "d": "M4 16H20",
+      "closed": false
+    },
+    {
+      "d": "M8 20H16",
+      "closed": false
+    }
+  ]
+}

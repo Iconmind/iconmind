@@ -1,0 +1,30 @@
+{
+  "slug": "water-quality",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Water quality",
+  "description": "The drop with a check in it",
+  "tags": [
+    "quality",
+    "clean",
+    "tested"
+  ],
+  "keywords": [
+    "water quality",
+    "clean water",
+    "tested water",
+    "safe water"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 3L19 10A7 7 0 0 1 5 10Z",
+      "closed": true,
+      "_why": "a drop: a point above one round belly"
+    },
+    {
+      "d": "M9 14L11 16L15 12",
+      "closed": false
+    }
+  ]
+}

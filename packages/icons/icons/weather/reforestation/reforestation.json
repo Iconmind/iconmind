@@ -1,0 +1,44 @@
+{
+  "slug": "reforestation",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Reforestation",
+  "description": "Trees going back in, one after another",
+  "tags": [
+    "reforestation",
+    "replant",
+    "forest"
+  ],
+  "aliases": [
+    "replant"
+  ],
+  "keywords": [
+    "reforestation",
+    "replanting",
+    "forest restored",
+    "plant trees"
+  ],
+  "family": "tree",
+  "shapes": [
+    {
+      "d": "M3 9a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13V19",
+      "closed": false
+    },
+    {
+      "d": "M13 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 16V19",
+      "closed": false
+    },
+    {
+      "d": "M2 19H22",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "gas-flame",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Gas",
+  "description": "The flame of a burner",
+  "tags": [
+    "gas",
+    "flame",
+    "burn"
+  ],
+  "keywords": [
+    "gas",
+    "gas flame",
+    "burner",
+    "natural gas"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 3C14 7 18 9 18 14A6 6 0 1 1 6 14C6 10 9 9 9 6C10 7 12 7 12 3Z",
+      "closed": true,
+      "_why": "a flame: the tongue curling up from a round belly"
+    },
+    {
+      "d": "M5 21H19",
+      "closed": false
+    }
+  ]
+}

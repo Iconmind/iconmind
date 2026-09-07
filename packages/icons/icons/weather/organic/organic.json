@@ -1,0 +1,30 @@
+{
+  "slug": "organic",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Organic",
+  "description": "The leaf in a ring",
+  "tags": [
+    "organic",
+    "natural",
+    "certified"
+  ],
+  "keywords": [
+    "organic",
+    "natural",
+    "organic certified",
+    "no chemicals"
+  ],
+  "family": "leaf",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 17C7 11 11 7 17 7C17 13 13 17 7 17Z",
+      "closed": true,
+      "_why": "a leaf: two curves from the stem to the tip, wide at the foot"
+    }
+  ]
+}

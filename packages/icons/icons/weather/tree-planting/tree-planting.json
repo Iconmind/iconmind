@@ -1,0 +1,33 @@
+{
+  "slug": "tree-planting",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Tree planting",
+  "description": "The sapling going into the ground",
+  "tags": [
+    "planting",
+    "sapling",
+    "new"
+  ],
+  "keywords": [
+    "tree planting",
+    "plant a tree",
+    "sapling",
+    "new tree"
+  ],
+  "family": "tree",
+  "shapes": [
+    {
+      "d": "M7 8a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 13V18",
+      "closed": false
+    },
+    {
+      "d": "M7 18L10 21L14 21L17 18Z",
+      "closed": true
+    }
+  ]
+}

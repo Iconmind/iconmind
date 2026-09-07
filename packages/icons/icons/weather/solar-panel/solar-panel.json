@@ -1,0 +1,40 @@
+{
+  "slug": "solar-panel",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Solar panel",
+  "description": "The panel with its cells, tilted to the sun",
+  "tags": [
+    "solar",
+    "panel",
+    "photovoltaic"
+  ],
+  "aliases": [
+    "solar"
+  ],
+  "keywords": [
+    "solar panel",
+    "photovoltaic",
+    "solar power",
+    "pv"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 14L10 8L20 8L14 14Z",
+      "closed": true
+    },
+    {
+      "d": "M7 11H17",
+      "closed": false
+    },
+    {
+      "d": "M9 14V20",
+      "closed": false
+    },
+    {
+      "d": "M5 20H13",
+      "closed": false
+    }
+  ]
+}

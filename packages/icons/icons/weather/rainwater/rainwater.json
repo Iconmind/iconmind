@@ -1,0 +1,42 @@
+{
+  "slug": "rainwater",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Rainwater",
+  "description": "Drops falling into the butt",
+  "tags": [
+    "rainwater",
+    "harvest",
+    "butt"
+  ],
+  "aliases": [
+    "rainwater-harvest"
+  ],
+  "keywords": [
+    "rainwater",
+    "rain harvesting",
+    "water butt",
+    "collect rain"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 13L7 20L17 20L17 13",
+      "closed": false
+    },
+    {
+      "d": "M5 13H19",
+      "closed": false
+    },
+    {
+      "d": "M9 5L11 7A2 2 0 0 1 7 7Z",
+      "closed": true,
+      "_why": "a drop: a point above one round belly"
+    },
+    {
+      "d": "M15 4L17 6A2 2 0 0 1 13 6Z",
+      "closed": true,
+      "_why": "a drop: a point above one round belly"
+    }
+  ]
+}

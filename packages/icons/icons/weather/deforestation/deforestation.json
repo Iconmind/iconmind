@@ -1,0 +1,36 @@
+{
+  "slug": "deforestation",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Deforestation",
+  "description": "The stump where the tree stood",
+  "tags": [
+    "deforestation",
+    "felled",
+    "stump"
+  ],
+  "aliases": [
+    "logging"
+  ],
+  "keywords": [
+    "deforestation",
+    "logging",
+    "trees felled",
+    "clearing"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 21L8 14L16 14L16 21Z",
+      "closed": true
+    },
+    {
+      "d": "M4 6L10 12",
+      "closed": false
+    },
+    {
+      "d": "M10 6L4 12",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+/**
+ * R40 · Weather: climate & environment — the warming world and what is done about it.
+ *
+ * The leaf from R39 stands for what is green, the turbine and the panel for what makes
+ * power without smoke, the recycling triangle for what goes round again. The rest are
+ * things: a bin, a bottle, a tap, a bird, a bee, a butterfly, a fish.
+ */
+import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
+import type { Icon } from "../build.ts";
+
+const c = (
+  slug: string, name: string, description: string,
+  tags: string[], aliases: string[], keywords: string[],
+  family: string, shapes: Icon["shapes"],
+): Icon => ({
+  slug, category: "weather", subcategory: "climate", name, description,
+  tags, aliases, keywords, family, shapes,
+});
+
+/** A leaf: a curved blade, wide at the foot and drawn to a point, on the diagonal. */
+const LEAF = (x: number, y: number, r: number) =>
+  raw(`M${x - r} ${y + r}C${x - r} ${y - r * 0.2} ${x - r * 0.2} ${y - r} ${x + r} ${y - r}C${x + r} ${y + r * 0.2} ${x + r * 0.2} ${y + r} ${x - r} ${y + r}Z`,
+    "a leaf: two curves from the stem to the tip, wide at the foot", true);
+/** The recycling loop: three arrows chasing each other round a triangle. */
+const LOOP = () => [
+  poly([[6, 14], [11, 9], [15, 9]]), poly([[12.5, 6.5], [15, 9], [12.5, 11.5]]),
+  poly([[18, 14], [13, 19], [9, 19]]), poly([[11.5, 16.5], [9, 19], [11.5, 21.5]]),
+  poly([[7, 18], [3, 14], [7, 10]]),
+];
+/** The turbine: a mast with three blades on its hub. */
+const TURBINE = () => [col(12, 9, 21), row(21, 8, 16), disc(12, 8, 1), col(12, 2, 7), poly([[13, 9], [18, 14]]), poly([[11, 9], [6, 14]])];
+/** A drop, the point above one round belly. */
+const DROP = (x: number, y: number, r: number) => raw(`M${x} ${y - r * 2}L${x + r} ${y - r}A${r} ${r} 0 0 1 ${x - r} ${y - r}Z`, "a drop: a point above one round belly", true);
+/** The smoke curl a chimney sends up. */
+const SMOKE = (x: number, y: number) => [arc(x, y, 2.5, 90, 270), arc(x, y - 5, 2.5, 270, 90)];
+
+export const BATCH_127: Icon[] = [
+  /* ── the climate ────────────────────────────────────────────────────────────── */
+  c("climate", "Climate", "The globe with a leaf over it",
+    ["climate", "world", "green"], [], ["climate", "world climate", "environment", "planet"],
+    "orbit", [disc(12, 12, 9), row(12, 3, 21), arc(12, 12, 9, 90, 270), LEAF(12, 12, 4)]),
+  c("climate-change", "Climate change", "The globe with a rising line across it",
+    ["change", "warming", "trend"], ["global-warming"], ["climate change", "global warming", "warming world", "climate crisis"],
+    "orbit", [disc(12, 12, 9), poly([[5, 16], [10, 11], [13, 14], [19, 8]])]),
+  c("temperature-anomaly", "Temperature anomaly", "The line running above the average",
+    ["anomaly", "average", "above"], [], ["temperature anomaly", "above average", "warming trend", "anomaly"],
+    "axes", [col(4, 4, 20), row(20, 4, 20), row(13, 6, 19), poly([[6, 17], [10, 13], [13, 16], [17, 12]])]),
+  c("sea-level", "Sea level", "The water rising up the marker",
+    ["sea", "level", "rise"], ["sea-level-rise"], ["sea level", "sea level rise", "water rising", "coastal flooding"],
+    "figure", [col(6, 3, 21), row(3, 4, 8), row(9, 4, 8), poly([[9, 15], [12, 12], [15, 15], [18, 12], [21, 15]]), poly([[9, 20], [12, 17], [15, 20], [18, 17], [21, 20]])]),
+  c("carbon-footprint", "Carbon footprint", "A footprint with a cloud of gas in it",
+    ["carbon", "footprint", "emissions"], [], ["carbon footprint", "emissions footprint", "carbon", "footprint"],
+    "figure", [raw("M6 9A6 6 0 0 1 18 9V16A6 6 0 0 1 6 16Z", "a sole: straight sides into rounded ends", true), disc(9, 5, 1), disc(13, 3.5, 1), disc(17, 5, 1)]),
+  c("carbon-neutral", "Carbon neutral", "The cloud of gas with a check on it",
+    ["neutral", "balanced", "offset"], [], ["carbon neutral", "balanced emissions", "offset", "neutral"],
+    "cloud", [raw("M5 15A4 4 0 0 1 7 8A5 5 0 0 1 16 7A4.5 4.5 0 0 1 19 15Z", "a cloud: three lobes over a flat foot", true), poly([[8, 18], [11, 21], [16, 16]])]),
+  c("net-zero", "Net zero", "The nought with a line through it — nothing left over",
+    ["net-zero", "zero", "balance"], [], ["net zero", "zero emissions", "balance to nothing", "climate neutral"],
+    "figure", [disc(12, 12, 8), poly([[6, 18], [18, 6]])]),
+  c("emissions", "Emissions", "The chimney with its plume",
+    ["emissions", "smoke", "output"], [], ["emissions", "smoke stack", "output", "greenhouse gases"],
+    "figure", [poly([[6, 21], [6, 11], [12, 11], [12, 21]], true), ...SMOKE(16, 11), row(21, 14, 21)]),
+  c("greenhouse-gas", "Greenhouse gas", "The glasshouse with the heat kept in",
+    ["greenhouse", "gas", "trapped"], [], ["greenhouse gas", "trapped heat", "greenhouse effect", "ghg"],
+    "figure", [poly([[4, 20], [4, 12], [12, 4], [20, 12], [20, 20]], true), disc(12, 14, 3)]),
+  c("co-two", "CO2", "The cloud with two rings in it — the gas itself",
+    ["co2", "carbon-dioxide", "gas"], ["carbon-dioxide"], ["co2", "carbon dioxide", "greenhouse gas", "emissions"],
+    "cloud", [raw("M5 18A4 4 0 0 1 7 11A5 5 0 0 1 16 10A4.5 4.5 0 0 1 19 18Z", "a cloud: three lobes over a flat foot", true), disc(9.5, 14, 2), disc(15, 14, 2)]),
+
+  /* ── the power ──────────────────────────────────────────────────────────────── */
+  c("renewable-energy", "Renewable energy", "The leaf with a bolt in it",
+    ["renewable", "green", "power"], [], ["renewable energy", "green power", "clean energy", "renewables"],
+    "leaf", [LEAF(12, 12, 8), poly([[13, 8], [9.5, 11.5], [12.5, 11.5], [9, 15]])]),
+  c("solar-panel", "Solar panel", "The panel with its cells, tilted to the sun",
+    ["solar", "panel", "photovoltaic"], ["solar"], ["solar panel", "photovoltaic", "solar power", "pv"],
+    "figure", [poly([[4, 14], [10, 8], [20, 8], [14, 14]], true), row(11, 7, 17), col(9, 14, 20), row(20, 5, 13)]),
+  c("wind-turbine", "Wind turbine", "The mast with three blades",
+    ["turbine", "wind", "power"], [], ["wind turbine", "wind power", "windmill", "wind farm"],
+    "figure", TURBINE()),
+  c("hydro-power", "Hydro power", "The dam with the water falling through it",
+    ["hydro", "water", "power"], [], ["hydro power", "hydroelectric", "water power", "dam power"],
+    "figure", [poly([[5, 3], [9, 3], [9, 20], [5, 20]], true), poly([[9, 8], [13, 8], [17, 12], [17, 20]]), row(6, 2, 5), row(20, 18, 22)]),
+  c("geothermal", "Geothermal", "The heat rising out of the ground",
+    ["geothermal", "heat", "ground"], [], ["geothermal", "ground heat", "geothermal power", "earth heat"],
+    "figure", [row(14, 2, 22), ...SMOKE(8, 9.5), ...SMOKE(16, 9.5), row(20, 6, 18)]),
+  c("nuclear-plant", "Nuclear plant", "The cooling tower with its plume",
+    ["nuclear", "reactor", "tower"], ["nuclear"], ["nuclear plant", "reactor", "cooling tower", "atomic power"],
+    "figure", [poly([[7, 20], [9, 18], [9, 9], [15, 9], [15, 18], [17, 20]], true), ...SMOKE(12, 9.5)]),
+  c("coal-plant", "Coal plant", "The two stacks with their smoke",
+    ["coal", "fossil", "plant"], ["fossil-fuel"], ["coal plant", "fossil fuel", "coal power", "power station"],
+    "figure", [poly([[5, 20], [5, 12], [10, 12], [10, 20]], true), poly([[13, 20], [13, 15], [18, 15], [18, 20]], true), ...SMOKE(7.5, 9.5)]),
+  c("gas-flame", "Gas", "The flame of a burner",
+    ["gas", "flame", "burn"], [], ["gas", "gas flame", "burner", "natural gas"],
+    "figure", [raw("M12 3C14 7 18 9 18 14A6 6 0 1 1 6 14C6 10 9 9 9 6C10 7 12 7 12 3Z", "a flame: the tongue curling up from a round belly", true), row(21, 5, 19)]),
+  c("energy-saving", "Energy saving", "The bulb with a leaf in it",
+    ["saving", "efficient", "less"], ["efficiency"], ["energy saving", "efficient", "use less power", "energy efficiency"],
+    "figure", [arc(12, 10, 6, 180, 360), poly([[8, 10], [8, 16], [16, 16], [16, 10]]), row(19, 9, 15), LEAF(12, 10, 3)]),
+  c("insulation", "Insulation", "The wall with its layers keeping the heat in",
+    ["insulation", "layers", "warm"], [], ["insulation", "loft insulation", "keep the heat", "thermal layer"],
+    "figure", [poly([[4, 4], [4, 20], [10, 20], [10, 4]], true), poly([[12, 4], [12, 20]]), poly([[15, 4], [15, 20]]), poly([[18, 4], [18, 20]])]),
+
+  /* ── what goes round ────────────────────────────────────────────────────────── */
+  c("recycle", "Recycle", "Three arrows chasing each other round",
+    ["recycle", "loop", "reuse"], ["recycling"], ["recycle", "recycling", "reuse", "circular"],
+    "loop", LOOP()),
+  c("recycle-bin", "Recycling bin", "The bin with the loop on it",
+    ["bin", "recycle", "waste"], [], ["recycling bin", "recycle bin", "waste bin", "sort your waste"],
+    "figure", [poly([[6, 8], [6, 21], [18, 21], [18, 8]]), row(8, 3, 21), poly([[9, 8], [9, 5], [15, 5], [15, 8]]), poly([[9, 17], [12, 14], [15, 17]])]),
+  c("compost", "Compost", "The heap with a sprout coming out of it",
+    ["compost", "heap", "organic"], [], ["compost", "compost heap", "food waste", "organic waste"],
+    "figure", [arc(12, 20, 9, 180, 360), row(20, 3, 21), col(12, 9, 15), LEAF(9, 9, 3), LEAF(15, 9, 3)]),
+  c("landfill", "Landfill", "The mound of waste with the ground under it",
+    ["landfill", "waste", "dump"], ["dump"], ["landfill", "waste dump", "rubbish tip", "buried waste"],
+    "figure", [poly([[3, 15], [8, 10], [13, 15], [18, 10], [21, 13]]), row(18, 2, 22), poly([[9, 13], [11, 11]])]),
+  c("plastic-free", "Plastic free", "The bottle with a line through it",
+    ["plastic", "free", "none"], ["no-plastic"], ["plastic free", "no plastic", "avoid plastic", "plastic ban"],
+    "figure", [poly([[9, 8], [9, 20], [15, 20], [15, 8]], true), poly([[10.5, 8], [10.5, 4], [13.5, 4], [13.5, 8]]), poly([[5, 20], [19, 6]])]),
+  c("reusable-bag", "Reusable bag", "The bag with its handles",
+    ["bag", "reusable", "shopping"], ["tote"], ["reusable bag", "tote bag", "bag for life", "shopping bag"],
+    "figure", [poly([[6, 8], [6, 21], [18, 21], [18, 8]], true), arc(9, 8, 3, 180, 360), arc(15, 8, 3, 180, 360)]),
+  c("reusable-bottle", "Reusable bottle", "The flask with its cap and band",
+    ["bottle", "flask", "refill"], ["water-bottle"], ["reusable bottle", "water bottle", "refillable", "flask"],
+    "figure", [poly([[8, 7], [8, 21], [16, 21], [16, 7]], true), poly([[10, 7], [10, 3], [14, 3], [14, 7]]), row(12, 8, 16)]),
+  c("litter-pick", "Litter pick", "The grabber picking up a piece of litter",
+    ["litter", "pick", "clean-up"], ["clean-up"], ["litter pick", "clean up", "pick up litter", "tidy up"],
+    "figure", [poly([[4, 4], [13, 13]]), poly([[13, 13], [10, 16]]), poly([[13, 13], [16, 16]]), poly([[8, 19], [14, 19], [14, 22], [8, 22]], true)]),
+  c("eco-label", "Eco label", "The label with a leaf on it",
+    ["label", "eco", "certified"], [], ["eco label", "eco certified", "green label", "environment mark"],
+    "label", [poly([[4, 12], [12, 4], [20, 4], [20, 12], [12, 20]], true), LEAF(14, 10, 3.5)]),
+  c("organic", "Organic", "The leaf in a ring",
+    ["organic", "natural", "certified"], [], ["organic", "natural", "organic certified", "no chemicals"],
+    "leaf", [disc(12, 12, 9), LEAF(12, 12, 5)]),
+  c("fair-trade", "Fair trade", "The two hands of a fair exchange",
+    ["fair", "trade", "exchange"], [], ["fair trade", "fair exchange", "ethical trade", "fairtrade"],
+    "figure", [raw("M3 9A5 5 0 0 1 11 9A5 5 0 0 1 3 9Z", "the left hand cupped", true), raw("M13 9A5 5 0 0 1 21 9A5 5 0 0 1 13 9Z", "the right hand cupped", true), row(16, 4, 20), row(20, 8, 16)]),
+  c("green-building", "Green building", "The block with a leaf on its roof",
+    ["building", "green", "sustainable"], [], ["green building", "sustainable building", "eco house", "leed"],
+    "figure", [poly([[5, 21], [5, 10], [19, 10], [19, 21]], true), row(15, 5, 19), LEAF(12, 6, 3.5)]),
+  c("bike-share", "Bike share", "The wheel with a share arrow over it",
+    ["bike", "share", "hire"], [], ["bike share", "cycle hire", "shared bikes", "bike scheme"],
+    "figure", [disc(7, 15, 5), disc(18, 15, 4), poly([[7, 15], [11, 11], [15, 11]]), col(11, 7, 11)]),
+
+  /* ── the water ──────────────────────────────────────────────────────────────── */
+  c("water-saving", "Water saving", "The drop with a line through it",
+    ["water", "saving", "less"], [], ["water saving", "save water", "use less water", "water efficiency"],
+    "figure", [DROP(12, 16, 6), poly([[5, 19], [19, 5]])]),
+  c("rainwater", "Rainwater", "Drops falling into the butt",
+    ["rainwater", "harvest", "butt"], ["rainwater-harvest"], ["rainwater", "rain harvesting", "water butt", "collect rain"],
+    "figure", [poly([[7, 13], [7, 20], [17, 20], [17, 13]]), row(13, 5, 19), DROP(9, 9, 2), DROP(15, 8, 2)]),
+  c("tap-water", "Tap water", "The tap with a drop under it",
+    ["tap", "water", "mains"], ["faucet"], ["tap water", "faucet", "mains water", "running water"],
+    "figure", [poly([[4, 6], [12, 6], [12, 12], [16, 12]]), col(9, 3, 6), row(3, 6, 12), DROP(16, 19, 3)]),
+  c("drinking-water", "Drinking water", "The glass with the drop in it",
+    ["drinking", "water", "glass"], [], ["drinking water", "potable water", "safe to drink", "glass of water"],
+    "figure", [poly([[7, 5], [7, 21], [17, 21], [17, 5]], true), DROP(12, 15, 3), row(9, 7, 17)]),
+  c("water-quality", "Water quality", "The drop with a check in it",
+    ["quality", "clean", "tested"], [], ["water quality", "clean water", "tested water", "safe water"],
+    "figure", [DROP(12, 17, 7), poly([[9, 14], [11, 16], [15, 12]])]),
+
+  /* ── the living world ───────────────────────────────────────────────────────── */
+  c("tree-planting", "Tree planting", "The sapling going into the ground",
+    ["planting", "sapling", "new"], [], ["tree planting", "plant a tree", "sapling", "new tree"],
+    "tree", [disc(12, 8, 5), col(12, 13, 18), poly([[7, 18], [10, 21], [14, 21], [17, 18]], true)]),
+  c("reforestation", "Reforestation", "Trees going back in, one after another",
+    ["reforestation", "replant", "forest"], ["replant"], ["reforestation", "replanting", "forest restored", "plant trees"],
+    "tree", [disc(7, 9, 4), col(7, 13, 19), disc(17, 12, 4), col(17, 16, 19), row(19, 2, 22)]),
+  c("deforestation", "Deforestation", "The stump where the tree stood",
+    ["deforestation", "felled", "stump"], ["logging"], ["deforestation", "logging", "trees felled", "clearing"],
+    "figure", [poly([[8, 21], [8, 14], [16, 14], [16, 21]], true), poly([[4, 6], [10, 12]]), poly([[10, 6], [4, 12]])]),
+  c("biodiversity", "Biodiversity", "A leaf, a wing and a fin together",
+    ["biodiversity", "variety", "species"], [], ["biodiversity", "variety of life", "species", "ecosystem"],
+    "figure", [LEAF(7, 8, 4), disc(17, 8, 3), poly([[6, 17], [10, 13], [14, 17], [10, 21]], true)]),
+  c("endangered", "Endangered", "The paw with an exclamation beside it",
+    ["endangered", "risk", "species"], [], ["endangered", "at risk species", "threatened", "red list"],
+    "figure", [disc(8, 8, 2), disc(13, 6, 2), raw("M4 16A5 5 0 0 1 14 16A4 4 0 0 1 9 20A4 4 0 0 1 4 16Z", "the pad: one arc over the toes and a rounded heel", true), col(19, 5, 13), disc(19, 16.5, 1)]),
+  c("wildlife", "Wildlife", "A paw print in the ground",
+    ["wildlife", "animals", "paw"], ["animals"], ["wildlife", "animals", "paw print", "wild animals"],
+    "figure", [disc(6, 9, 2), disc(11, 6, 2), disc(16, 8, 2), raw("M6 17A5.5 5.5 0 0 1 17 17A4.5 4.5 0 0 1 11.5 21A4.5 4.5 0 0 1 6 17Z", "the pad: one arc over the toes and a rounded heel", true)]),
+  c("bird", "Bird", "The bird in flight, two wings and a body",
+    ["bird", "flight", "wings"], [], ["bird", "in flight", "wings", "flying bird"],
+    "figure", [poly([[3, 9], [9, 15], [15, 9]]), poly([[9, 15], [12, 18], [15, 15]]), row(9, 15, 21)]),
+  c("bee", "Bee", "The body with its stripes and two wings",
+    ["bee", "pollinator", "insect"], [], ["bee", "honeybee", "pollinator", "insect"],
+    "figure", [raw("M8 12A4 4 0 0 1 16 12V18A4 4 0 0 1 8 18Z", "the body: straight sides into rounded ends", true), row(15, 8, 16), arc(7, 8, 3, 180, 360), arc(17, 8, 3, 180, 360)]),
+  c("butterfly", "Butterfly", "Four wings either side of the body",
+    ["butterfly", "wings", "insect"], [], ["butterfly", "wings", "insect", "moth"],
+    "figure", [col(12, 5, 19), raw("M10.5 9C5 3 2 6 3 10C4 14 8.5 14 10.5 12Z", "the left wings", true), raw("M13.5 9C19 3 22 6 21 10C20 14 15.5 14 13.5 12Z", "the right wings", true)]),
+  c("wild-fish", "Fish", "The body with its tail",
+    ["fish", "sea", "wild"], [], ["fish", "wild fish", "sea life", "fishing"],
+    "figure", [raw("M4 13A8 5 0 0 1 18 13A8 5 0 0 1 4 13Z", "the body: two arcs meeting at nose and tail", true), poly([[17, 9], [21, 13], [17, 17]]), disc(8, 11, 1)]),
+  c("coral-bleach", "Coral bleaching", "The coral with a cross over it",
+    ["coral", "bleaching", "dying"], [], ["coral bleaching", "dying reef", "bleached coral", "reef damage"],
+    "figure", [poly([[8, 21], [8, 12], [5, 9]]), poly([[8, 15], [12, 11]]), poly([[15, 21], [15, 11], [12, 8]]), row(21, 3, 21), poly([[16, 4], [21, 9]]), poly([[21, 4], [16, 9]])]),
+  c("ocean-plastic", "Ocean plastic", "The bottle floating in the waves",
+    ["plastic", "ocean", "pollution"], [], ["ocean plastic", "plastic in the sea", "marine litter", "sea pollution"],
+    "figure", [poly([[9, 5], [9, 14], [15, 14], [15, 5]], true), poly([[10.5, 5], [10.5, 2], [13.5, 2], [13.5, 5]]), poly([[3, 18], [6, 15], [9, 18], [12, 15], [15, 18], [18, 15], [21, 18]])]),
+];

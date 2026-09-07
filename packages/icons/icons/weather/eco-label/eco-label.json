@@ -1,0 +1,30 @@
+{
+  "slug": "eco-label",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Eco label",
+  "description": "The label with a leaf on it",
+  "tags": [
+    "label",
+    "eco",
+    "certified"
+  ],
+  "keywords": [
+    "eco label",
+    "eco certified",
+    "green label",
+    "environment mark"
+  ],
+  "family": "label",
+  "shapes": [
+    {
+      "d": "M4 12L12 4L20 4L20 12L12 20Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 13.5C10.5 9.3 13.3 6.5 17.5 6.5C17.5 10.7 14.7 13.5 10.5 13.5Z",
+      "closed": true,
+      "_why": "a leaf: two curves from the stem to the tip, wide at the foot"
+    }
+  ]
+}

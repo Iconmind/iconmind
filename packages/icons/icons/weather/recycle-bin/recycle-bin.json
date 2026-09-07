@@ -1,0 +1,37 @@
+{
+  "slug": "recycle-bin",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Recycling bin",
+  "description": "The bin with the loop on it",
+  "tags": [
+    "bin",
+    "recycle",
+    "waste"
+  ],
+  "keywords": [
+    "recycling bin",
+    "recycle bin",
+    "waste bin",
+    "sort your waste"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 8L6 21L18 21L18 8",
+      "closed": false
+    },
+    {
+      "d": "M3 8H21",
+      "closed": false
+    },
+    {
+      "d": "M9 8L9 5L15 5L15 8",
+      "closed": false
+    },
+    {
+      "d": "M9 17L12 14L15 17",
+      "closed": false
+    }
+  ]
+}

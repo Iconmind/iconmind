@@ -1,0 +1,40 @@
+{
+  "slug": "coal-plant",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Coal plant",
+  "description": "The two stacks with their smoke",
+  "tags": [
+    "coal",
+    "fossil",
+    "plant"
+  ],
+  "aliases": [
+    "fossil-fuel"
+  ],
+  "keywords": [
+    "coal plant",
+    "fossil fuel",
+    "coal power",
+    "power station"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 20L5 12L10 12L10 20Z",
+      "closed": true
+    },
+    {
+      "d": "M13 20L13 15L18 15L18 20Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 12A2.5 2.5 0 0 1 7.5 7",
+      "closed": false
+    },
+    {
+      "d": "M7.5 2A2.5 2.5 0 0 1 7.5 7",
+      "closed": false
+    }
+  ]
+}

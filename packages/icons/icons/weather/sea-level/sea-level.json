@@ -1,0 +1,44 @@
+{
+  "slug": "sea-level",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Sea level",
+  "description": "The water rising up the marker",
+  "tags": [
+    "sea",
+    "level",
+    "rise"
+  ],
+  "aliases": [
+    "sea-level-rise"
+  ],
+  "keywords": [
+    "sea level",
+    "sea level rise",
+    "water rising",
+    "coastal flooding"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 3V21",
+      "closed": false
+    },
+    {
+      "d": "M4 3H8",
+      "closed": false
+    },
+    {
+      "d": "M4 9H8",
+      "closed": false
+    },
+    {
+      "d": "M9 15L12 12L15 15L18 12L21 15",
+      "closed": false
+    },
+    {
+      "d": "M9 20L12 17L15 20L18 17L21 20",
+      "closed": false
+    }
+  ]
+}

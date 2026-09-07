@@ -1,0 +1,30 @@
+{
+  "slug": "water-saving",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Water saving",
+  "description": "The drop with a line through it",
+  "tags": [
+    "water",
+    "saving",
+    "less"
+  ],
+  "keywords": [
+    "water saving",
+    "save water",
+    "use less water",
+    "water efficiency"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 4L18 10A6 6 0 0 1 6 10Z",
+      "closed": true,
+      "_why": "a drop: a point above one round belly"
+    },
+    {
+      "d": "M5 19L19 5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "bee",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Bee",
+  "description": "The body with its stripes and two wings",
+  "tags": [
+    "bee",
+    "pollinator",
+    "insect"
+  ],
+  "keywords": [
+    "bee",
+    "honeybee",
+    "pollinator",
+    "insect"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 12A4 4 0 0 1 16 12V18A4 4 0 0 1 8 18Z",
+      "closed": true,
+      "_why": "the body: straight sides into rounded ends"
+    },
+    {
+      "d": "M8 15H16",
+      "closed": false
+    },
+    {
+      "d": "M4 8A3 3 0 0 1 10 8",
+      "closed": false
+    },
+    {
+      "d": "M14 8A3 3 0 0 1 20 8",
+      "closed": false
+    }
+  ]
+}

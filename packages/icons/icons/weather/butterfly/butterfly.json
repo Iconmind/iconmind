@@ -1,0 +1,35 @@
+{
+  "slug": "butterfly",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Butterfly",
+  "description": "Four wings either side of the body",
+  "tags": [
+    "butterfly",
+    "wings",
+    "insect"
+  ],
+  "keywords": [
+    "butterfly",
+    "wings",
+    "insect",
+    "moth"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 5V19",
+      "closed": false
+    },
+    {
+      "d": "M10.5 9C5 3 2 6 3 10C4 14 8.5 14 10.5 12Z",
+      "closed": true,
+      "_why": "the left wings"
+    },
+    {
+      "d": "M13.5 9C19 3 22 6 21 10C20 14 15.5 14 13.5 12Z",
+      "closed": true,
+      "_why": "the right wings"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "litter-pick",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Litter pick",
+  "description": "The grabber picking up a piece of litter",
+  "tags": [
+    "litter",
+    "pick",
+    "clean-up"
+  ],
+  "aliases": [
+    "clean-up"
+  ],
+  "keywords": [
+    "litter pick",
+    "clean up",
+    "pick up litter",
+    "tidy up"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 4L13 13",
+      "closed": false
+    },
+    {
+      "d": "M13 13L10 16",
+      "closed": false
+    },
+    {
+      "d": "M13 13L16 16",
+      "closed": false
+    },
+    {
+      "d": "M8 19L14 19L14 22L8 22Z",
+      "closed": true
+    }
+  ]
+}

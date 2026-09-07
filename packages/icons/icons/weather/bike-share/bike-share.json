@@ -1,0 +1,37 @@
+{
+  "slug": "bike-share",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Bike share",
+  "description": "The wheel with a share arrow over it",
+  "tags": [
+    "bike",
+    "share",
+    "hire"
+  ],
+  "keywords": [
+    "bike share",
+    "cycle hire",
+    "shared bikes",
+    "bike scheme"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 15a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 15a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 15L11 11L15 11",
+      "closed": false
+    },
+    {
+      "d": "M11 7V11",
+      "closed": false
+    }
+  ]
+}

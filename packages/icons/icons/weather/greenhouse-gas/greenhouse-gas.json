@@ -1,0 +1,29 @@
+{
+  "slug": "greenhouse-gas",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Greenhouse gas",
+  "description": "The glasshouse with the heat kept in",
+  "tags": [
+    "greenhouse",
+    "gas",
+    "trapped"
+  ],
+  "keywords": [
+    "greenhouse gas",
+    "trapped heat",
+    "greenhouse effect",
+    "ghg"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 20L4 12L12 4L20 12L20 20Z",
+      "closed": true
+    },
+    {
+      "d": "M9 14a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

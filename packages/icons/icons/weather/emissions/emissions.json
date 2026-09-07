@@ -1,0 +1,37 @@
+{
+  "slug": "emissions",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Emissions",
+  "description": "The chimney with its plume",
+  "tags": [
+    "emissions",
+    "smoke",
+    "output"
+  ],
+  "keywords": [
+    "emissions",
+    "smoke stack",
+    "output",
+    "greenhouse gases"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 21L6 11L12 11L12 21Z",
+      "closed": true
+    },
+    {
+      "d": "M16 13.5A2.5 2.5 0 0 1 16 8.5",
+      "closed": false
+    },
+    {
+      "d": "M16 3.5A2.5 2.5 0 0 1 16 8.5",
+      "closed": false
+    },
+    {
+      "d": "M14 21H21",
+      "closed": false
+    }
+  ]
+}

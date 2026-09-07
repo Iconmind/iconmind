@@ -1,0 +1,41 @@
+{
+  "slug": "energy-saving",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Energy saving",
+  "description": "The bulb with a leaf in it",
+  "tags": [
+    "saving",
+    "efficient",
+    "less"
+  ],
+  "aliases": [
+    "efficiency"
+  ],
+  "keywords": [
+    "energy saving",
+    "efficient",
+    "use less power",
+    "energy efficiency"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 10A6 6 0 0 1 18 10",
+      "closed": false
+    },
+    {
+      "d": "M8 10L8 16L16 16L16 10",
+      "closed": false
+    },
+    {
+      "d": "M9 19H15",
+      "closed": false
+    },
+    {
+      "d": "M9 13C9 9.4 11.4 7 15 7C15 10.6 12.6 13 9 13Z",
+      "closed": true,
+      "_why": "a leaf: two curves from the stem to the tip, wide at the foot"
+    }
+  ]
+}

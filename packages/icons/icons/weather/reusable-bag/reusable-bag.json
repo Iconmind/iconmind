@@ -1,0 +1,36 @@
+{
+  "slug": "reusable-bag",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Reusable bag",
+  "description": "The bag with its handles",
+  "tags": [
+    "bag",
+    "reusable",
+    "shopping"
+  ],
+  "aliases": [
+    "tote"
+  ],
+  "keywords": [
+    "reusable bag",
+    "tote bag",
+    "bag for life",
+    "shopping bag"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 8L6 21L18 21L18 8Z",
+      "closed": true
+    },
+    {
+      "d": "M6 8A3 3 0 0 1 12 8",
+      "closed": false
+    },
+    {
+      "d": "M12 8A3 3 0 0 1 18 8",
+      "closed": false
+    }
+  ]
+}

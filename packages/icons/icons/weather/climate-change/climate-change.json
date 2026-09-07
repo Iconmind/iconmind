@@ -1,0 +1,32 @@
+{
+  "slug": "climate-change",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Climate change",
+  "description": "The globe with a rising line across it",
+  "tags": [
+    "change",
+    "warming",
+    "trend"
+  ],
+  "aliases": [
+    "global-warming"
+  ],
+  "keywords": [
+    "climate change",
+    "global warming",
+    "warming world",
+    "climate crisis"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 16L10 11L13 14L19 8",
+      "closed": false
+    }
+  ]
+}

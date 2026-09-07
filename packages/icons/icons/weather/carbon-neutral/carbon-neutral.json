@@ -1,0 +1,30 @@
+{
+  "slug": "carbon-neutral",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Carbon neutral",
+  "description": "The cloud of gas with a check on it",
+  "tags": [
+    "neutral",
+    "balanced",
+    "offset"
+  ],
+  "keywords": [
+    "carbon neutral",
+    "balanced emissions",
+    "offset",
+    "neutral"
+  ],
+  "family": "cloud",
+  "shapes": [
+    {
+      "d": "M5 15A4 4 0 0 1 7 8A5 5 0 0 1 16 7A4.5 4.5 0 0 1 19 15Z",
+      "closed": true,
+      "_why": "a cloud: three lobes over a flat foot"
+    },
+    {
+      "d": "M8 18L11 21L16 16",
+      "closed": false
+    }
+  ]
+}

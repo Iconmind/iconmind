@@ -1,0 +1,33 @@
+{
+  "slug": "ocean-plastic",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Ocean plastic",
+  "description": "The bottle floating in the waves",
+  "tags": [
+    "plastic",
+    "ocean",
+    "pollution"
+  ],
+  "keywords": [
+    "ocean plastic",
+    "plastic in the sea",
+    "marine litter",
+    "sea pollution"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 5L9 14L15 14L15 5Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 5L10.5 2L13.5 2L13.5 5",
+      "closed": false
+    },
+    {
+      "d": "M3 18L6 15L9 18L12 15L15 18L18 15L21 18",
+      "closed": false
+    }
+  ]
+}

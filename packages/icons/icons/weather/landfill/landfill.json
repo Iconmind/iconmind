@@ -1,0 +1,36 @@
+{
+  "slug": "landfill",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Landfill",
+  "description": "The mound of waste with the ground under it",
+  "tags": [
+    "landfill",
+    "waste",
+    "dump"
+  ],
+  "aliases": [
+    "dump"
+  ],
+  "keywords": [
+    "landfill",
+    "waste dump",
+    "rubbish tip",
+    "buried waste"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 15L8 10L13 15L18 10L21 13",
+      "closed": false
+    },
+    {
+      "d": "M2 18H22",
+      "closed": false
+    },
+    {
+      "d": "M9 13L11 11",
+      "closed": false
+    }
+  ]
+}

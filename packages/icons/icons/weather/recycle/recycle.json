@@ -1,0 +1,44 @@
+{
+  "slug": "recycle",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Recycle",
+  "description": "Three arrows chasing each other round",
+  "tags": [
+    "recycle",
+    "loop",
+    "reuse"
+  ],
+  "aliases": [
+    "recycling"
+  ],
+  "keywords": [
+    "recycle",
+    "recycling",
+    "reuse",
+    "circular"
+  ],
+  "family": "loop",
+  "shapes": [
+    {
+      "d": "M6 14L11 9L15 9",
+      "closed": false
+    },
+    {
+      "d": "M12.5 6.5L15 9L12.5 11.5",
+      "closed": false
+    },
+    {
+      "d": "M18 14L13 19L9 19",
+      "closed": false
+    },
+    {
+      "d": "M11.5 16.5L9 19L11.5 21.5",
+      "closed": false
+    },
+    {
+      "d": "M7 18L3 14L7 10",
+      "closed": false
+    }
+  ]
+}

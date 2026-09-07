@@ -1,0 +1,38 @@
+{
+  "slug": "carbon-footprint",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Carbon footprint",
+  "description": "A footprint with a cloud of gas in it",
+  "tags": [
+    "carbon",
+    "footprint",
+    "emissions"
+  ],
+  "keywords": [
+    "carbon footprint",
+    "emissions footprint",
+    "carbon",
+    "footprint"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 9A6 6 0 0 1 18 9V16A6 6 0 0 1 6 16Z",
+      "closed": true,
+      "_why": "a sole: straight sides into rounded ends"
+    },
+    {
+      "d": "M8 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 3.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "endangered",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Endangered",
+  "description": "The paw with an exclamation beside it",
+  "tags": [
+    "endangered",
+    "risk",
+    "species"
+  ],
+  "keywords": [
+    "endangered",
+    "at risk species",
+    "threatened",
+    "red list"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 16A5 5 0 0 1 14 16A4 4 0 0 1 9 20A4 4 0 0 1 4 16Z",
+      "closed": true,
+      "_why": "the pad: one arc over the toes and a rounded heel"
+    },
+    {
+      "d": "M19 5V13",
+      "closed": false
+    },
+    {
+      "d": "M18 16.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

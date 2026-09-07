@@ -1,0 +1,34 @@
+{
+  "slug": "drinking-water",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Drinking water",
+  "description": "The glass with the drop in it",
+  "tags": [
+    "drinking",
+    "water",
+    "glass"
+  ],
+  "keywords": [
+    "drinking water",
+    "potable water",
+    "safe to drink",
+    "glass of water"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 5L7 21L17 21L17 5Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9L15 12A3 3 0 0 1 9 12Z",
+      "closed": true,
+      "_why": "a drop: a point above one round belly"
+    },
+    {
+      "d": "M7 9H17",
+      "closed": false
+    }
+  ]
+}

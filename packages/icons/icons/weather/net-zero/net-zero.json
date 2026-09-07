@@ -1,0 +1,29 @@
+{
+  "slug": "net-zero",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Net zero",
+  "description": "The nought with a line through it — nothing left over",
+  "tags": [
+    "net-zero",
+    "zero",
+    "balance"
+  ],
+  "keywords": [
+    "net zero",
+    "zero emissions",
+    "balance to nothing",
+    "climate neutral"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 12a8 8 0 1 0 16 0a8 8 0 1 0 -16 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 18L18 6",
+      "closed": false
+    }
+  ]
+}

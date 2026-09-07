@@ -1,0 +1,36 @@
+{
+  "slug": "plastic-free",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Plastic free",
+  "description": "The bottle with a line through it",
+  "tags": [
+    "plastic",
+    "free",
+    "none"
+  ],
+  "aliases": [
+    "no-plastic"
+  ],
+  "keywords": [
+    "plastic free",
+    "no plastic",
+    "avoid plastic",
+    "plastic ban"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 8L9 20L15 20L15 8Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 8L10.5 4L13.5 4L13.5 8",
+      "closed": false
+    },
+    {
+      "d": "M5 20L19 6",
+      "closed": false
+    }
+  ]
+}

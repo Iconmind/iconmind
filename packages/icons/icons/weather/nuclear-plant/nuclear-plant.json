@@ -1,0 +1,36 @@
+{
+  "slug": "nuclear-plant",
+  "category": "weather",
+  "subcategory": "climate",
+  "name": "Nuclear plant",
+  "description": "The cooling tower with its plume",
+  "tags": [
+    "nuclear",
+    "reactor",
+    "tower"
+  ],
+  "aliases": [
+    "nuclear"
+  ],
+  "keywords": [
+    "nuclear plant",
+    "reactor",
+    "cooling tower",
+    "atomic power"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 20L9 18L9 9L15 9L15 18L17 20Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12A2.5 2.5 0 0 1 12 7",
+      "closed": false
+    },
+    {
+      "d": "M12 2A2.5 2.5 0 0 1 12 7",
+      "closed": false
+    }
+  ]
+}
