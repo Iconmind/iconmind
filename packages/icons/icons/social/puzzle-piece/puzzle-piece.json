@@ -1,0 +1,26 @@
+{
+  "slug": "puzzle-piece",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Puzzle piece",
+  "description": "The tab that fits the next one",
+  "tags": [
+    "puzzle",
+    "tab",
+    "fits"
+  ],
+  "keywords": [
+    "puzzle piece",
+    "the tab",
+    "fits together",
+    "jigsaw piece"
+  ],
+  "family": "piece",
+  "shapes": [
+    {
+      "d": "M4 4H10C10 2.5 14 2.5 14 4H20V10C21.5 10 21.5 14 20 14V20H4V14C5.5 14 5.5 10 4 10Z",
+      "closed": true,
+      "_why": "the piece with a tab on two sides"
+    }
+  ]
+}

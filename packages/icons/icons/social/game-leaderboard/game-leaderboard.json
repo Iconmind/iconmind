@@ -1,0 +1,37 @@
+{
+  "slug": "game-leaderboard",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Leaderboard",
+  "description": "The three places in order",
+  "tags": [
+    "leaderboard",
+    "places",
+    "order"
+  ],
+  "keywords": [
+    "leaderboard",
+    "who is winning",
+    "the table",
+    "places"
+  ],
+  "family": "steps",
+  "shapes": [
+    {
+      "d": "M9 21L9 6L15 6L15 21Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21L3 11L9 11",
+      "closed": false
+    },
+    {
+      "d": "M21 21L21 14L15 14",
+      "closed": false
+    },
+    {
+      "d": "M11 3a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

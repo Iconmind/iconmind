@@ -1,0 +1,38 @@
+{
+  "slug": "tournament",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Tournament",
+  "description": "The cup at the end of it",
+  "tags": [
+    "tournament",
+    "cup",
+    "rounds"
+  ],
+  "keywords": [
+    "tournament",
+    "the rounds",
+    "the cup",
+    "competition"
+  ],
+  "family": "cup",
+  "shapes": [
+    {
+      "d": "M8 4H16V9C16 12 14.5 14 12 14C9.5 14 8 12 8 9Z",
+      "closed": true,
+      "_why": "the cup at the end of it"
+    },
+    {
+      "d": "M12 14V18",
+      "closed": false
+    },
+    {
+      "d": "M8 18H16",
+      "closed": false
+    },
+    {
+      "d": "M6 21H18",
+      "closed": false
+    }
+  ]
+}

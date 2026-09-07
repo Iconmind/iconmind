@@ -1,0 +1,37 @@
+{
+  "slug": "game-over",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Game over",
+  "description": "The screen with nothing left",
+  "tags": [
+    "over",
+    "lost",
+    "end"
+  ],
+  "keywords": [
+    "game over",
+    "you lost",
+    "the end",
+    "no lives left"
+  ],
+  "family": "screen",
+  "shapes": [
+    {
+      "d": "M3 5L3 19L21 19L21 5Z",
+      "closed": true
+    },
+    {
+      "d": "M8 10L12 14",
+      "closed": false
+    },
+    {
+      "d": "M12 10L8 14",
+      "closed": false
+    },
+    {
+      "d": "M14 15H18",
+      "closed": false
+    }
+  ]
+}

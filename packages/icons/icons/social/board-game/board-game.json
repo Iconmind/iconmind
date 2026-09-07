@@ -1,0 +1,37 @@
+{
+  "slug": "board-game",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Board game",
+  "description": "The board and the counter on it",
+  "tags": [
+    "board",
+    "counter",
+    "turn"
+  ],
+  "keywords": [
+    "board game",
+    "the board",
+    "your turn",
+    "counter"
+  ],
+  "family": "board",
+  "shapes": [
+    {
+      "d": "M3 6L3 18L21 18L21 6Z",
+      "closed": true
+    },
+    {
+      "d": "M3 12H21",
+      "closed": false
+    },
+    {
+      "d": "M6 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

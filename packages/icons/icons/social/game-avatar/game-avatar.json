@@ -1,0 +1,34 @@
+{
+  "slug": "game-avatar",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Avatar",
+  "description": "The character you play as",
+  "tags": [
+    "avatar",
+    "character",
+    "you"
+  ],
+  "keywords": [
+    "game avatar",
+    "your character",
+    "who you play as",
+    "skin"
+  ],
+  "family": "bust",
+  "shapes": [
+    {
+      "d": "M7 10L7 5L17 5L17 10",
+      "closed": false
+    },
+    {
+      "d": "M7 10C7 14 9 16 12 16C15 16 17 14 17 10",
+      "closed": false,
+      "_why": "the face under the helmet"
+    },
+    {
+      "d": "M6 21L6 18L18 18L18 21",
+      "closed": false
+    }
+  ]
+}

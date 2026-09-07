@@ -1,0 +1,29 @@
+{
+  "slug": "game-board",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Game board",
+  "description": "The track round the outside",
+  "tags": [
+    "track",
+    "squares",
+    "round"
+  ],
+  "keywords": [
+    "game board",
+    "the track",
+    "round the board",
+    "squares"
+  ],
+  "family": "board",
+  "shapes": [
+    {
+      "d": "M3 3L3 21L21 21L21 3Z",
+      "closed": true
+    },
+    {
+      "d": "M8 8L8 16L16 16L16 8Z",
+      "closed": true
+    }
+  ]
+}

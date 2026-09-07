@@ -1,0 +1,36 @@
+{
+  "slug": "xp-bar",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Experience",
+  "description": "The bar filling as you go",
+  "tags": [
+    "experience",
+    "xp",
+    "filling"
+  ],
+  "aliases": [
+    "xp"
+  ],
+  "keywords": [
+    "xp bar",
+    "experience",
+    "filling up",
+    "progress"
+  ],
+  "family": "bar",
+  "shapes": [
+    {
+      "d": "M3 10L21 10L21 20L3 20Z",
+      "closed": true
+    },
+    {
+      "d": "M17 10V20",
+      "closed": false
+    },
+    {
+      "d": "M9 6L12 3L15 6",
+      "closed": false
+    }
+  ]
+}

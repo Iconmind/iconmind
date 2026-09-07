@@ -1,0 +1,41 @@
+{
+  "slug": "crossword",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Crossword",
+  "description": "The squares with the black ones in",
+  "tags": [
+    "crossword",
+    "squares",
+    "clues"
+  ],
+  "keywords": [
+    "crossword",
+    "the grid",
+    "clues",
+    "across and down"
+  ],
+  "family": "grid",
+  "shapes": [
+    {
+      "d": "M4 4L4 20L20 20L20 4Z",
+      "closed": true
+    },
+    {
+      "d": "M4 12H20",
+      "closed": false
+    },
+    {
+      "d": "M12 4V20",
+      "closed": false
+    },
+    {
+      "d": "M6 8H10",
+      "closed": false
+    },
+    {
+      "d": "M14 16H18",
+      "closed": false
+    }
+  ]
+}

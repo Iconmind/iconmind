@@ -1,0 +1,41 @@
+{
+  "slug": "co-op",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Co-op",
+  "description": "The two working the same side",
+  "tags": [
+    "co-op",
+    "together",
+    "same-side"
+  ],
+  "keywords": [
+    "co-op",
+    "playing together",
+    "same side",
+    "team up"
+  ],
+  "family": "pair",
+  "shapes": [
+    {
+      "d": "M4 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 17A4 4 0 0 1 11 17",
+      "closed": false
+    },
+    {
+      "d": "M14 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 17A4 4 0 0 1 21 17",
+      "closed": false
+    },
+    {
+      "d": "M10 6L14 6",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "lobby",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Lobby",
+  "description": "Waiting for the others",
+  "tags": [
+    "lobby",
+    "waiting",
+    "before"
+  ],
+  "keywords": [
+    "lobby",
+    "waiting to start",
+    "before the game",
+    "the room"
+  ],
+  "family": "group",
+  "shapes": [
+    {
+      "d": "M3 6L3 17L21 17L21 6Z",
+      "closed": true
+    },
+    {
+      "d": "M6 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "extra-life",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Extra life",
+  "description": "The heart you were given back",
+  "tags": [
+    "life",
+    "heart",
+    "spare"
+  ],
+  "keywords": [
+    "extra life",
+    "one more life",
+    "the heart",
+    "spare"
+  ],
+  "family": "heart",
+  "shapes": [
+    {
+      "d": "M12 20C8 17 3 13 5 8.5C6.5 5.5 10 6.5 12 9.5C14 6.5 17.5 5.5 19 8.5C21 13 16 17 12 20Z",
+      "closed": true,
+      "_why": "the heart, given back"
+    }
+  ]
+}

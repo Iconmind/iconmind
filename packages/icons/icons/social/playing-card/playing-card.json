@@ -1,0 +1,30 @@
+{
+  "slug": "playing-card",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Playing card",
+  "description": "The one card with its mark",
+  "tags": [
+    "card",
+    "mark",
+    "hand"
+  ],
+  "keywords": [
+    "playing card",
+    "a card",
+    "the suit",
+    "in hand"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M6 5A2 2 0 0 1 8 3H16A2 2 0 0 1 18 5V19A2 2 0 0 1 16 21H8A2 2 0 0 1 6 19Z",
+      "closed": true
+    },
+    {
+      "d": "M12 17C9.5 15 6 12 7.5 9C8.5 7 10.5 7.5 12 9.5C13.5 7.5 15.5 7 16.5 9C18 12 14.5 15 12 17Z",
+      "closed": true,
+      "_why": "the mark in the middle"
+    }
+  ]
+}

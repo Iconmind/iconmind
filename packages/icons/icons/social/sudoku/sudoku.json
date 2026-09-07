@@ -1,0 +1,41 @@
+{
+  "slug": "sudoku",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Sudoku",
+  "description": "The numbers already filled in",
+  "tags": [
+    "sudoku",
+    "grid",
+    "numbers"
+  ],
+  "keywords": [
+    "sudoku",
+    "the grid",
+    "fill it in",
+    "numbers"
+  ],
+  "family": "grid",
+  "shapes": [
+    {
+      "d": "M4 4L4 20L20 20L20 4Z",
+      "closed": true
+    },
+    {
+      "d": "M4 12H20",
+      "closed": false
+    },
+    {
+      "d": "M12 4V20",
+      "closed": false
+    },
+    {
+      "d": "M7 8a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 16a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

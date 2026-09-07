@@ -1,0 +1,42 @@
+{
+  "slug": "game-controller",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Controller",
+  "description": "The pad with its stick and buttons",
+  "tags": [
+    "controller",
+    "pad",
+    "buttons"
+  ],
+  "keywords": [
+    "game controller",
+    "the pad",
+    "buttons",
+    "play"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M7 7H17C19.5 7 21 10 21 14C21 17 20 19 18 19C16 19 15 16 12 16C9 16 8 19 6 19C4 19 3 17 3 14C3 10 4.5 7 7 7Z",
+      "closed": true,
+      "_why": "the pad, curved to the hands"
+    },
+    {
+      "d": "M8 10V14",
+      "closed": false
+    },
+    {
+      "d": "M6 12H10",
+      "closed": false
+    },
+    {
+      "d": "M15 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

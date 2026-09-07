@@ -1,0 +1,33 @@
+{
+  "slug": "save-game",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Save game",
+  "description": "The slot the game goes into",
+  "tags": [
+    "save",
+    "slot",
+    "keep"
+  ],
+  "keywords": [
+    "save the game",
+    "save slot",
+    "keep it",
+    "progress"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M4 4L4 20L20 20L20 4Z",
+      "closed": true
+    },
+    {
+      "d": "M8 4L8 9L16 9L16 4",
+      "closed": false
+    },
+    {
+      "d": "M8 20L8 14L16 14L16 20",
+      "closed": false
+    }
+  ]
+}

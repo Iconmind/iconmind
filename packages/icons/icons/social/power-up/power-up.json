@@ -1,0 +1,25 @@
+{
+  "slug": "power-up",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Power up",
+  "description": "The bolt you picked up",
+  "tags": [
+    "power-up",
+    "bolt",
+    "boost"
+  ],
+  "keywords": [
+    "power up",
+    "a boost",
+    "the bolt",
+    "picked it up"
+  ],
+  "family": "burst",
+  "shapes": [
+    {
+      "d": "M16 3L8 11L13 11L4 20",
+      "closed": false
+    }
+  ]
+}

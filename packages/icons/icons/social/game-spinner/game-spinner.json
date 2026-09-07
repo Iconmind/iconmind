@@ -1,0 +1,37 @@
+{
+  "slug": "game-spinner",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Spinner",
+  "description": "The arrow round the dial",
+  "tags": [
+    "spinner",
+    "dial",
+    "spin"
+  ],
+  "keywords": [
+    "spinner",
+    "spin it",
+    "the dial",
+    "whose turn"
+  ],
+  "family": "dial",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12L18 6",
+      "closed": false
+    },
+    {
+      "d": "M15 6L18 6L18 9Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12L6 12",
+      "closed": false
+    }
+  ]
+}

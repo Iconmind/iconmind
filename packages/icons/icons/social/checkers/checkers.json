@@ -1,0 +1,33 @@
+{
+  "slug": "checkers",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Draughts",
+  "description": "The counters on the squares",
+  "tags": [
+    "draughts",
+    "counters",
+    "board"
+  ],
+  "keywords": [
+    "draughts",
+    "checkers",
+    "counters",
+    "play draughts"
+  ],
+  "family": "board",
+  "shapes": [
+    {
+      "d": "M3 3L3 21L21 21L21 3Z",
+      "closed": true
+    },
+    {
+      "d": "M6 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 16a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "high-score",
+  "category": "social",
+  "subcategory": "game",
+  "name": "High score",
+  "description": "The score at the top of the list",
+  "tags": [
+    "score",
+    "top",
+    "best"
+  ],
+  "keywords": [
+    "high score",
+    "top score",
+    "the best",
+    "record"
+  ],
+  "family": "board",
+  "shapes": [
+    {
+      "d": "M4 4L4 20L20 20L20 4Z",
+      "closed": true
+    },
+    {
+      "d": "M7 9H17",
+      "closed": false
+    },
+    {
+      "d": "M7 13H14",
+      "closed": false
+    },
+    {
+      "d": "M7 17H15",
+      "closed": false
+    },
+    {
+      "d": "M15 7L17 5L19 7",
+      "closed": false
+    }
+  ]
+}

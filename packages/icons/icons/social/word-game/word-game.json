@@ -1,0 +1,37 @@
+{
+  "slug": "word-game",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Word game",
+  "description": "The letter tile with its score",
+  "tags": [
+    "word",
+    "tile",
+    "letters"
+  ],
+  "keywords": [
+    "word game",
+    "letter tile",
+    "spell it",
+    "scrabble"
+  ],
+  "family": "tile",
+  "shapes": [
+    {
+      "d": "M3 6L3 18L10 18L10 6Z",
+      "closed": true
+    },
+    {
+      "d": "M14 6L14 18L21 18L21 6Z",
+      "closed": true
+    },
+    {
+      "d": "M4.5 14L6.5 12L8.5 14",
+      "closed": false
+    },
+    {
+      "d": "M16 14H19",
+      "closed": false
+    }
+  ]
+}

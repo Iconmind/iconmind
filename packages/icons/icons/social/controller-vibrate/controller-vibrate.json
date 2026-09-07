@@ -1,0 +1,37 @@
+{
+  "slug": "controller-vibrate",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Vibration",
+  "description": "The pad shaking in your hands",
+  "tags": [
+    "vibration",
+    "rumble",
+    "shake"
+  ],
+  "aliases": [
+    "rumble"
+  ],
+  "keywords": [
+    "controller vibration",
+    "rumble",
+    "it shakes",
+    "haptics"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M8 9H16C18 9 19 11 19 14C19 16 18 17.5 16.5 17.5C15 17.5 14 15.5 12 15.5C10 15.5 9 17.5 7.5 17.5C6 17.5 5 16 5 14C5 11 6 9 8 9Z",
+      "closed": true,
+      "_why": "the pad, curved to the hands"
+    },
+    {
+      "d": "M3 5L3 9",
+      "closed": false
+    },
+    {
+      "d": "M21 5L21 9",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "quest",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Quest",
+  "description": "The scroll with the task on it",
+  "tags": [
+    "quest",
+    "scroll",
+    "task"
+  ],
+  "aliases": [
+    "mission"
+  ],
+  "keywords": [
+    "quest",
+    "a mission",
+    "the scroll",
+    "what to do"
+  ],
+  "family": "scroll",
+  "shapes": [
+    {
+      "d": "M6 4L6 20L18 20L18 4Z",
+      "closed": true
+    },
+    {
+      "d": "M6 4C4 4 4 8 6 8",
+      "closed": false,
+      "_why": "the scroll rolled at the top"
+    },
+    {
+      "d": "M9 11H15",
+      "closed": false
+    },
+    {
+      "d": "M9 15H15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "multiplayer",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Multiplayer",
+  "description": "Two pads, one game",
+  "tags": [
+    "multiplayer",
+    "two",
+    "both"
+  ],
+  "keywords": [
+    "multiplayer",
+    "two players",
+    "play together",
+    "both"
+  ],
+  "family": "pair",
+  "shapes": [
+    {
+      "d": "M3 8L3 16L10 16L10 8Z",
+      "closed": true
+    },
+    {
+      "d": "M14 8L14 16L21 16L21 8Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16.5 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

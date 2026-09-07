@@ -1,0 +1,31 @@
+{
+  "slug": "jigsaw",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Jigsaw",
+  "description": "The pieces put together",
+  "tags": [
+    "jigsaw",
+    "together",
+    "fit"
+  ],
+  "keywords": [
+    "jigsaw",
+    "put together",
+    "the pieces fit",
+    "complete"
+  ],
+  "family": "piece",
+  "shapes": [
+    {
+      "d": "M3 3H10C10 1.5 14 1.5 14 3V10C15.5 10 15.5 14 14 14V21H3Z",
+      "closed": true,
+      "_why": "the piece on the left"
+    },
+    {
+      "d": "M17 3H21V21H17V14C18.5 14 18.5 10 17 10Z",
+      "closed": true,
+      "_why": "the piece it fits into"
+    }
+  ]
+}

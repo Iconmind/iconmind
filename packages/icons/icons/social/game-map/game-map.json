@@ -1,0 +1,34 @@
+{
+  "slug": "game-map",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Map",
+  "description": "The route across the ground",
+  "tags": [
+    "map",
+    "route",
+    "world"
+  ],
+  "keywords": [
+    "game map",
+    "the world",
+    "the route",
+    "where to go"
+  ],
+  "family": "map",
+  "shapes": [
+    {
+      "d": "M3 6C5 5 7 8 9 8C11 8 13 5 15 5C17 5 19 8 21 6V18C19 20 17 17 15 17C13 17 11 20 9 20C7 20 5 17 3 18Z",
+      "closed": true,
+      "_why": "the map, folded in three"
+    },
+    {
+      "d": "M7 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

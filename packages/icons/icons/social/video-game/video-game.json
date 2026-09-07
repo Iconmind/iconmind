@@ -1,0 +1,37 @@
+{
+  "slug": "video-game",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Video game",
+  "description": "The screen with the sprite on it",
+  "tags": [
+    "video-game",
+    "screen",
+    "sprite"
+  ],
+  "keywords": [
+    "video game",
+    "on screen",
+    "the sprite",
+    "play"
+  ],
+  "family": "screen",
+  "shapes": [
+    {
+      "d": "M3 4L3 17L21 17L21 4Z",
+      "closed": true
+    },
+    {
+      "d": "M9 8L15 8L15 13L9 13Z",
+      "closed": true
+    },
+    {
+      "d": "M12 17V21",
+      "closed": false
+    },
+    {
+      "d": "M7 21H17",
+      "closed": false
+    }
+  ]
+}

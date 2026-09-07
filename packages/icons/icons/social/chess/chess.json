@@ -1,0 +1,33 @@
+{
+  "slug": "chess",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Chess",
+  "description": "The squares of the board",
+  "tags": [
+    "chess",
+    "squares",
+    "board"
+  ],
+  "keywords": [
+    "chess",
+    "the board",
+    "squares",
+    "play chess"
+  ],
+  "family": "board",
+  "shapes": [
+    {
+      "d": "M3 3L3 21L21 21L21 3Z",
+      "closed": true
+    },
+    {
+      "d": "M7 7L10 7L10 10L7 10Z",
+      "closed": true
+    },
+    {
+      "d": "M14 14L17 14L17 17L14 17Z",
+      "closed": true
+    }
+  ]
+}

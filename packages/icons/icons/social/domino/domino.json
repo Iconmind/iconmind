@@ -1,0 +1,41 @@
+{
+  "slug": "domino",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Domino",
+  "description": "The two halves of the tile",
+  "tags": [
+    "domino",
+    "tile",
+    "halves"
+  ],
+  "keywords": [
+    "domino",
+    "the tile",
+    "two halves",
+    "play dominoes"
+  ],
+  "family": "tile",
+  "shapes": [
+    {
+      "d": "M7 4A2 2 0 0 1 9 2H15A2 2 0 0 1 17 4V20A2 2 0 0 1 15 22H9A2 2 0 0 1 7 20Z",
+      "closed": true
+    },
+    {
+      "d": "M7 12H17",
+      "closed": false
+    },
+    {
+      "d": "M11 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "achievement",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Achievement",
+  "description": "The badge you were given",
+  "tags": [
+    "achievement",
+    "badge",
+    "unlocked"
+  ],
+  "keywords": [
+    "achievement",
+    "unlocked",
+    "the badge",
+    "earned it"
+  ],
+  "family": "medal",
+  "shapes": [
+    {
+      "d": "M7 9a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 13L8 21L12 17L16 21L16 13Z",
+      "closed": true
+    },
+    {
+      "d": "M10 8L12 6L12 12",
+      "closed": false
+    }
+  ]
+}

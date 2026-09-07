@@ -1,0 +1,37 @@
+{
+  "slug": "level-up",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Level up",
+  "description": "The bar and the arrow off it",
+  "tags": [
+    "level",
+    "up",
+    "gained"
+  ],
+  "keywords": [
+    "level up",
+    "gone up a level",
+    "levelled",
+    "gained"
+  ],
+  "family": "bar",
+  "shapes": [
+    {
+      "d": "M3 10L21 10L21 20L3 20Z",
+      "closed": true
+    },
+    {
+      "d": "M14 10V20",
+      "closed": false
+    },
+    {
+      "d": "M18 7L18 2",
+      "closed": false
+    },
+    {
+      "d": "M15 5L18 2L21 5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "arcade-joystick",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Joystick",
+  "description": "The stick with the ball on top",
+  "tags": [
+    "joystick",
+    "stick",
+    "arcade"
+  ],
+  "keywords": [
+    "arcade joystick",
+    "the stick",
+    "ball top",
+    "control"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    },
+    {
+      "d": "M5 15L5 20L19 20L19 15Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "pause-game",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Pause",
+  "description": "The two bars held",
+  "tags": [
+    "pause",
+    "held",
+    "stop"
+  ],
+  "keywords": [
+    "pause the game",
+    "paused",
+    "hold it",
+    "break"
+  ],
+  "family": "screen",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 8V16",
+      "closed": false
+    },
+    {
+      "d": "M14 8V16",
+      "closed": false
+    }
+  ]
+}

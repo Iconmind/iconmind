@@ -1,0 +1,41 @@
+{
+  "slug": "claw-machine",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Claw machine",
+  "description": "The claw over the prizes",
+  "tags": [
+    "claw",
+    "grab",
+    "prize"
+  ],
+  "keywords": [
+    "claw machine",
+    "grab a prize",
+    "the claw",
+    "arcade"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M3 4L3 21L21 21L21 4Z",
+      "closed": true
+    },
+    {
+      "d": "M12 4V10",
+      "closed": false
+    },
+    {
+      "d": "M9 13L12 10L15 13",
+      "closed": false
+    },
+    {
+      "d": "M6 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

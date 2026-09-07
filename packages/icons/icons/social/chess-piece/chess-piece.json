@@ -1,0 +1,37 @@
+{
+  "slug": "chess-piece",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Chess piece",
+  "description": "The one that moves in an L",
+  "tags": [
+    "piece",
+    "knight",
+    "move"
+  ],
+  "aliases": [
+    "knight"
+  ],
+  "keywords": [
+    "chess piece",
+    "the knight",
+    "a piece",
+    "move"
+  ],
+  "family": "piece",
+  "shapes": [
+    {
+      "d": "M7 21V15C7 10 10 7 14 6L17 3V6C19 8 19 11 19 13V21Z",
+      "closed": true,
+      "_why": "the knight, mane back off the head"
+    },
+    {
+      "d": "M14 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 18H21",
+      "closed": false
+    }
+  ]
+}

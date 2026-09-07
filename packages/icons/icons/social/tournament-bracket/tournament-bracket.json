@@ -1,0 +1,40 @@
+{
+  "slug": "tournament-bracket",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Bracket",
+  "description": "The rounds joining up",
+  "tags": [
+    "bracket",
+    "rounds",
+    "draw"
+  ],
+  "aliases": [
+    "draw"
+  ],
+  "keywords": [
+    "tournament bracket",
+    "the draw",
+    "rounds",
+    "who plays who"
+  ],
+  "family": "tree",
+  "shapes": [
+    {
+      "d": "M3 5L9 5L9 12L15 12",
+      "closed": false
+    },
+    {
+      "d": "M3 19L9 19L9 12",
+      "closed": false
+    },
+    {
+      "d": "M15 12L21 12",
+      "closed": false
+    },
+    {
+      "d": "M17 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

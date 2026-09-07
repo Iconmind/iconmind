@@ -1,0 +1,41 @@
+{
+  "slug": "loot-box",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Loot box",
+  "description": "The box with the light out of it",
+  "tags": [
+    "loot",
+    "box",
+    "drop"
+  ],
+  "keywords": [
+    "loot box",
+    "the drop",
+    "what is inside",
+    "reward"
+  ],
+  "family": "box",
+  "shapes": [
+    {
+      "d": "M5 11L5 20L19 20L19 11",
+      "closed": false
+    },
+    {
+      "d": "M3 11H21",
+      "closed": false
+    },
+    {
+      "d": "M12 8L12 5",
+      "closed": false
+    },
+    {
+      "d": "M9 9L7 7",
+      "closed": false
+    },
+    {
+      "d": "M15 9L17 7",
+      "closed": false
+    }
+  ]
+}

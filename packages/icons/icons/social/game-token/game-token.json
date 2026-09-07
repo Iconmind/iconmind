@@ -1,0 +1,30 @@
+{
+  "slug": "game-token",
+  "category": "social",
+  "subcategory": "game",
+  "name": "Counter",
+  "description": "The piece you move round",
+  "tags": [
+    "counter",
+    "token",
+    "piece"
+  ],
+  "keywords": [
+    "game token",
+    "your counter",
+    "the piece",
+    "move it"
+  ],
+  "family": "piece",
+  "shapes": [
+    {
+      "d": "M5 12a7 7 0 1 0 14 0a7 7 0 1 0 -14 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 12C5 15 8 17 12 17C16 17 19 15 19 12",
+      "closed": false,
+      "_why": "the rim seen at an angle"
+    }
+  ]
+}
