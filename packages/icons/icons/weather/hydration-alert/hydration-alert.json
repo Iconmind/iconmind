@@ -1,0 +1,36 @@
+{
+  "slug": "hydration-alert",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Drink water",
+  "description": "The glass with the water line in it",
+  "tags": [
+    "hydration",
+    "water",
+    "drink"
+  ],
+  "aliases": [
+    "drink-water"
+  ],
+  "keywords": [
+    "drink water",
+    "hydration",
+    "stay hydrated",
+    "water reminder"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 8L8 20L16 20L16 8Z",
+      "closed": true
+    },
+    {
+      "d": "M10 8L10 4L14 4L14 8",
+      "closed": false
+    },
+    {
+      "d": "M8 12H16",
+      "closed": false
+    }
+  ]
+}

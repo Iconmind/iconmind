@@ -1,0 +1,34 @@
+{
+  "slug": "temperature-hot",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Hot",
+  "description": "The thermometer with the column near the top",
+  "tags": [
+    "hot",
+    "warm",
+    "high"
+  ],
+  "keywords": [
+    "hot",
+    "high temperature",
+    "warm",
+    "heat"
+  ],
+  "family": "thermometer",
+  "shapes": [
+    {
+      "d": "M9.5 15V6A2.5 2.5 0 0 1 14.5 6V15A4.5 4.5 0 1 1 9.5 15Z",
+      "closed": true,
+      "_why": "a thermometer: a tube rounded at the top over one round bulb"
+    },
+    {
+      "d": "M10 17.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 7V15",
+      "closed": false
+    }
+  ]
+}

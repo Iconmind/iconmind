@@ -1,0 +1,34 @@
+{
+  "slug": "wind-warning",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Wind warning",
+  "description": "The triangle with wind lines in it",
+  "tags": [
+    "wind",
+    "warning",
+    "danger"
+  ],
+  "keywords": [
+    "wind warning",
+    "high wind warning",
+    "gale warning",
+    "wind alert"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 3.5L21.5 20H2.5Z",
+      "closed": true,
+      "_why": "the warning triangle: sides at 60°, the shape a road sign takes"
+    },
+    {
+      "d": "M7 13H17",
+      "closed": false
+    },
+    {
+      "d": "M5 17H19",
+      "closed": false
+    }
+  ]
+}

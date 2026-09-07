@@ -1,0 +1,38 @@
+{
+  "slug": "temperature-mild",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Mild",
+  "description": "The thermometer with the column at the middle",
+  "tags": [
+    "mild",
+    "moderate",
+    "middle"
+  ],
+  "keywords": [
+    "mild",
+    "moderate temperature",
+    "pleasant",
+    "average"
+  ],
+  "family": "thermometer",
+  "shapes": [
+    {
+      "d": "M9.5 15V6A2.5 2.5 0 0 1 14.5 6V15A4.5 4.5 0 1 1 9.5 15Z",
+      "closed": true,
+      "_why": "a thermometer: a tube rounded at the top over one round bulb"
+    },
+    {
+      "d": "M10 17.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 10V15",
+      "closed": false
+    },
+    {
+      "d": "M15 10H18",
+      "closed": false
+    }
+  ]
+}

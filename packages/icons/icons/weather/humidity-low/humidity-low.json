@@ -1,0 +1,34 @@
+{
+  "slug": "humidity-low",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Low humidity",
+  "description": "One small drop with a line under it",
+  "tags": [
+    "humidity",
+    "low",
+    "dry"
+  ],
+  "keywords": [
+    "low humidity",
+    "dry air",
+    "arid",
+    "little moisture"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 6L14.5 8.5A2.5 2.5 0 0 1 9.5 8.5Z",
+      "closed": true,
+      "_why": "a drop: a point above one round belly"
+    },
+    {
+      "d": "M5 14H19",
+      "closed": false
+    },
+    {
+      "d": "M8 19H16",
+      "closed": false
+    }
+  ]
+}

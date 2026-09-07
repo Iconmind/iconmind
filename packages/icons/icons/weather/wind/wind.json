@@ -1,0 +1,35 @@
+{
+  "slug": "wind",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Wind",
+  "description": "Three lines, one curling back",
+  "tags": [
+    "wind",
+    "breeze",
+    "air"
+  ],
+  "keywords": [
+    "wind",
+    "windy",
+    "breeze",
+    "moving air"
+  ],
+  "family": "wind",
+  "shapes": [
+    {
+      "d": "M3 7H15A3 3 0 1 0 12 4",
+      "closed": false,
+      "_why": "a wind line that curls back on itself"
+    },
+    {
+      "d": "M3 12H18",
+      "closed": false
+    },
+    {
+      "d": "M3 17H14A3 3 0 1 1 11 20",
+      "closed": false,
+      "_why": "the lower line, curling the other way"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "air-quality",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Air quality",
+  "description": "The dial with a leaf on it",
+  "tags": [
+    "air",
+    "quality",
+    "index"
+  ],
+  "aliases": [
+    "aqi"
+  ],
+  "keywords": [
+    "air quality",
+    "aqi",
+    "how clean the air is",
+    "air index"
+  ],
+  "family": "gauge",
+  "shapes": [
+    {
+      "d": "M3 16A9 9 0 0 1 21 16",
+      "closed": false
+    },
+    {
+      "d": "M3 16H21",
+      "closed": false
+    },
+    {
+      "d": "M9 13A5 5 0 0 1 16 8A5 5 0 0 1 9 13Z",
+      "closed": true,
+      "_why": "a leaf: two arcs sharing a chord"
+    }
+  ]
+}

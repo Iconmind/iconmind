@@ -1,0 +1,42 @@
+{
+  "slug": "heatwave",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Heatwave",
+  "description": "The sun over lines that shimmer",
+  "tags": [
+    "heatwave",
+    "hot",
+    "spell"
+  ],
+  "keywords": [
+    "heatwave",
+    "hot spell",
+    "extreme heat",
+    "heat"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 8a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 8H7.5",
+      "closed": false
+    },
+    {
+      "d": "M16.5 8H19",
+      "closed": false
+    },
+    {
+      "d": "M4 16H12A3 3 0 1 1 9 19",
+      "closed": false,
+      "_why": "a shimmer line curling back"
+    },
+    {
+      "d": "M4 21H20",
+      "closed": false
+    }
+  ]
+}

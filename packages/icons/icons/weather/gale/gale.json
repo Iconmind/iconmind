@@ -1,0 +1,41 @@
+{
+  "slug": "gale",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Gale",
+  "description": "Lines driven hard, with a bolt of spray",
+  "tags": [
+    "gale",
+    "storm",
+    "force"
+  ],
+  "keywords": [
+    "gale",
+    "gale force",
+    "severe wind",
+    "storm force"
+  ],
+  "family": "wind",
+  "shapes": [
+    {
+      "d": "M3 6H19",
+      "closed": false
+    },
+    {
+      "d": "M3 11H21",
+      "closed": false
+    },
+    {
+      "d": "M3 16H19",
+      "closed": false
+    },
+    {
+      "d": "M16 19L13 22",
+      "closed": false
+    },
+    {
+      "d": "M21 19L18 22",
+      "closed": false
+    }
+  ]
+}

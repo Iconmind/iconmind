@@ -1,0 +1,33 @@
+{
+  "slug": "wind-gust",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Gust",
+  "description": "Short lines with a longer one through them",
+  "tags": [
+    "gust",
+    "sudden",
+    "blow"
+  ],
+  "keywords": [
+    "gust",
+    "wind gust",
+    "sudden wind",
+    "squall"
+  ],
+  "family": "wind",
+  "shapes": [
+    {
+      "d": "M6 7H16",
+      "closed": false
+    },
+    {
+      "d": "M3 12H21",
+      "closed": false
+    },
+    {
+      "d": "M8 17H18",
+      "closed": false
+    }
+  ]
+}

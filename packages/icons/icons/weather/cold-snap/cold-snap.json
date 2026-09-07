@@ -1,0 +1,34 @@
+{
+  "slug": "cold-snap",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Cold snap",
+  "description": "The flake over lines that still",
+  "tags": [
+    "cold",
+    "snap",
+    "spell"
+  ],
+  "keywords": [
+    "cold snap",
+    "cold spell",
+    "sudden cold",
+    "freeze"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 4V12M8 12L16 4",
+      "closed": false,
+      "_why": "a flake: two bars crossing at their middle"
+    },
+    {
+      "d": "M4 16H20",
+      "closed": false
+    },
+    {
+      "d": "M6 21H18",
+      "closed": false
+    }
+  ]
+}

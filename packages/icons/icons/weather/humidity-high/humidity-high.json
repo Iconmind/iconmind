@@ -1,0 +1,36 @@
+{
+  "slug": "humidity-high",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "High humidity",
+  "description": "Two drops together",
+  "tags": [
+    "humidity",
+    "high",
+    "muggy"
+  ],
+  "keywords": [
+    "high humidity",
+    "muggy",
+    "close air",
+    "sticky"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 7L10.5 9.5A2.5 2.5 0 0 1 5.5 9.5Z",
+      "closed": true,
+      "_why": "a drop: a point above one round belly"
+    },
+    {
+      "d": "M15 11L17.5 13.5A2.5 2.5 0 0 1 12.5 13.5Z",
+      "closed": true,
+      "_why": "a drop: a point above one round belly"
+    },
+    {
+      "d": "M11 16L13.5 18.5A2.5 2.5 0 0 1 8.5 18.5Z",
+      "closed": true,
+      "_why": "a drop: a point above one round belly"
+    }
+  ]
+}

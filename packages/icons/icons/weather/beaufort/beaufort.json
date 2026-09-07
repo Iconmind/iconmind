@@ -1,0 +1,40 @@
+{
+  "slug": "beaufort",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Beaufort scale",
+  "description": "The steps of the wind scale",
+  "tags": [
+    "beaufort",
+    "scale",
+    "force"
+  ],
+  "aliases": [
+    "wind-scale"
+  ],
+  "keywords": [
+    "beaufort scale",
+    "wind force",
+    "wind scale",
+    "force number"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M2 20H22",
+      "closed": false
+    },
+    {
+      "d": "M3 20L3 15L8 15L8 20",
+      "closed": false
+    },
+    {
+      "d": "M10.5 20L10.5 11L15.5 11L15.5 20",
+      "closed": false
+    },
+    {
+      "d": "M18 20L18 6L21 6L21 20",
+      "closed": false
+    }
+  ]
+}

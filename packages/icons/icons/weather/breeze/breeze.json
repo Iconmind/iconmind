@@ -1,0 +1,31 @@
+{
+  "slug": "breeze",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Breeze",
+  "description": "Two lines curling gently",
+  "tags": [
+    "breeze",
+    "gentle",
+    "light"
+  ],
+  "keywords": [
+    "breeze",
+    "gentle wind",
+    "light air",
+    "soft wind"
+  ],
+  "family": "wind",
+  "shapes": [
+    {
+      "d": "M2 8H15A3.5 3.5 0 1 0 11.5 4.5",
+      "closed": false,
+      "_why": "a line curling back"
+    },
+    {
+      "d": "M2 17H14A3.5 3.5 0 1 0 10.5 20.5",
+      "closed": false,
+      "_why": "a second line curling the other way"
+    }
+  ]
+}

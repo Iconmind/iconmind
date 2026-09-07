@@ -1,0 +1,39 @@
+{
+  "slug": "wind-strong",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Strong wind",
+  "description": "Four lines, two curling",
+  "tags": [
+    "strong",
+    "wind",
+    "hard"
+  ],
+  "keywords": [
+    "strong wind",
+    "high wind",
+    "blowing hard",
+    "gusty"
+  ],
+  "family": "wind",
+  "shapes": [
+    {
+      "d": "M3 6H15A3 3 0 1 0 12 3",
+      "closed": false,
+      "_why": "the top line curling back"
+    },
+    {
+      "d": "M3 11H20",
+      "closed": false
+    },
+    {
+      "d": "M3 15H17",
+      "closed": false
+    },
+    {
+      "d": "M3 20H15A3 3 0 1 1 12 17",
+      "closed": false,
+      "_why": "the lower line curling the other way"
+    }
+  ]
+}

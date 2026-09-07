@@ -1,0 +1,37 @@
+{
+  "slug": "wind-umbrella",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Umbrella blown out",
+  "description": "The canopy turned inside out by the wind",
+  "tags": [
+    "umbrella",
+    "blown",
+    "inside-out"
+  ],
+  "keywords": [
+    "umbrella blown out",
+    "inside out umbrella",
+    "windy",
+    "broken umbrella"
+  ],
+  "family": "canopy",
+  "shapes": [
+    {
+      "d": "M21 8A9 9 0 0 1 3 8",
+      "closed": false
+    },
+    {
+      "d": "M3 8H21",
+      "closed": false
+    },
+    {
+      "d": "M12 8V18",
+      "closed": false
+    },
+    {
+      "d": "M12 18A2 2 0 0 1 8 18",
+      "closed": false
+    }
+  ]
+}

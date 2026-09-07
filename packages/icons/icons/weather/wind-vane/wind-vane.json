@@ -1,0 +1,40 @@
+{
+  "slug": "wind-vane",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Weather vane",
+  "description": "The vane on its post with the cross of the points",
+  "tags": [
+    "vane",
+    "weathercock",
+    "points"
+  ],
+  "aliases": [
+    "weathervane"
+  ],
+  "keywords": [
+    "weather vane",
+    "weathercock",
+    "wind vane",
+    "cardinal points"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 9V21",
+      "closed": false
+    },
+    {
+      "d": "M6 21H18",
+      "closed": false
+    },
+    {
+      "d": "M6 6L9 3L12 3L12 9L9 9Z",
+      "closed": true
+    },
+    {
+      "d": "M8 12H16",
+      "closed": false
+    }
+  ]
+}

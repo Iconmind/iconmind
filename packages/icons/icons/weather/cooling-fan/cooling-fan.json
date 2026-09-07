@@ -1,0 +1,45 @@
+{
+  "slug": "cooling-fan",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Fan",
+  "description": "The blades turning on their hub",
+  "tags": [
+    "fan",
+    "cool",
+    "blades"
+  ],
+  "keywords": [
+    "fan",
+    "cooling fan",
+    "electric fan",
+    "keep cool"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 5L15 8L12 11Z",
+      "closed": true
+    },
+    {
+      "d": "M19 12L16 15L13 12Z",
+      "closed": true
+    },
+    {
+      "d": "M12 19L9 16L12 13Z",
+      "closed": true
+    },
+    {
+      "d": "M5 12L8 9L11 12Z",
+      "closed": true
+    }
+  ]
+}

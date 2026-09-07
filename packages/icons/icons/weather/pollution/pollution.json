@@ -1,0 +1,40 @@
+{
+  "slug": "pollution",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Pollution",
+  "description": "The chimney with what it puts in the air",
+  "tags": [
+    "pollution",
+    "smog",
+    "emissions"
+  ],
+  "aliases": [
+    "emissions"
+  ],
+  "keywords": [
+    "pollution",
+    "emissions",
+    "dirty air",
+    "smog"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 21L5 12L10 12L10 21Z",
+      "closed": true
+    },
+    {
+      "d": "M14 21L14 15L19 15L19 21Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 12A3 3 0 0 1 7.5 6",
+      "closed": false
+    },
+    {
+      "d": "M7.5 2A3 3 0 0 1 7.5 8",
+      "closed": false
+    }
+  ]
+}

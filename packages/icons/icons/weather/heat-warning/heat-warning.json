@@ -1,0 +1,30 @@
+{
+  "slug": "heat-warning",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Heat warning",
+  "description": "The triangle with the sun in it",
+  "tags": [
+    "heat",
+    "warning",
+    "hot"
+  ],
+  "keywords": [
+    "heat warning",
+    "heat alert",
+    "extreme heat warning",
+    "hot weather warning"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 3.5L21.5 20H2.5Z",
+      "closed": true,
+      "_why": "the warning triangle: sides at 60°, the shape a road sign takes"
+    },
+    {
+      "d": "M8.5 14a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
+      "closed": true
+    }
+  ]
+}

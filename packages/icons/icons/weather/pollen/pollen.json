@@ -1,0 +1,48 @@
+{
+  "slug": "pollen",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Pollen",
+  "description": "The flower head with grains around it",
+  "tags": [
+    "pollen",
+    "allergy",
+    "hay-fever"
+  ],
+  "aliases": [
+    "hay-fever"
+  ],
+  "keywords": [
+    "pollen",
+    "hay fever",
+    "allergy count",
+    "pollen count"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 4a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

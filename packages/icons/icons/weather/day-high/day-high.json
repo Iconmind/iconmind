@@ -1,0 +1,49 @@
+{
+  "slug": "day-high",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Day's high",
+  "description": "The thermometer with an arrow rising beside it",
+  "tags": [
+    "high",
+    "maximum",
+    "day"
+  ],
+  "aliases": [
+    "max-temp"
+  ],
+  "keywords": [
+    "day's high",
+    "maximum temperature",
+    "high for the day",
+    "hottest"
+  ],
+  "family": "thermometer",
+  "shapes": [
+    {
+      "d": "M9.5 15V6A2.5 2.5 0 0 1 14.5 6V15A4.5 4.5 0 1 1 9.5 15Z",
+      "closed": true,
+      "_why": "a thermometer: a tube rounded at the top over one round bulb"
+    },
+    {
+      "d": "M10 17.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 8V15",
+      "closed": false
+    },
+    {
+      "d": "M19 7V13",
+      "closed": false
+    },
+    {
+      "d": "M16.5 9.5L19 7L21.5 9.5",
+      "closed": false
+    },
+    {
+      "d": "M3 20H6",
+      "closed": false
+    }
+  ]
+}

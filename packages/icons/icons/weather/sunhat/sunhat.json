@@ -1,0 +1,33 @@
+{
+  "slug": "sunhat",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Sun hat",
+  "description": "The brim with the crown over it",
+  "tags": [
+    "hat",
+    "sun",
+    "brim"
+  ],
+  "keywords": [
+    "sun hat",
+    "hat",
+    "wide brim",
+    "cover your head"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 15H22",
+      "closed": false
+    },
+    {
+      "d": "M6 15A6 6 0 0 1 18 15",
+      "closed": false
+    },
+    {
+      "d": "M6 19H18",
+      "closed": false
+    }
+  ]
+}

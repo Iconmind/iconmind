@@ -1,0 +1,33 @@
+{
+  "slug": "air-quality-good",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Air quality good",
+  "description": "The dial with a check on it",
+  "tags": [
+    "air",
+    "good",
+    "clean"
+  ],
+  "keywords": [
+    "air quality good",
+    "clean air",
+    "safe to breathe",
+    "good aqi"
+  ],
+  "family": "gauge",
+  "shapes": [
+    {
+      "d": "M3 16A9 9 0 0 1 21 16",
+      "closed": false
+    },
+    {
+      "d": "M3 16H21",
+      "closed": false
+    },
+    {
+      "d": "M8 11L11 14L16 9",
+      "closed": false
+    }
+  ]
+}

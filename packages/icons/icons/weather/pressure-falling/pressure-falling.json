@@ -1,0 +1,37 @@
+{
+  "slug": "pressure-falling",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Pressure falling",
+  "description": "The dial with its needle swinging to the left",
+  "tags": [
+    "pressure",
+    "falling",
+    "unsettled"
+  ],
+  "keywords": [
+    "pressure falling",
+    "barometer down",
+    "storm coming",
+    "low pressure"
+  ],
+  "family": "gauge",
+  "shapes": [
+    {
+      "d": "M3 16A9 9 0 0 1 21 16",
+      "closed": false
+    },
+    {
+      "d": "M3 16H21",
+      "closed": false
+    },
+    {
+      "d": "M12 16L7 11",
+      "closed": false
+    },
+    {
+      "d": "M10.5 11L7 11L7 14.5",
+      "closed": false
+    }
+  ]
+}

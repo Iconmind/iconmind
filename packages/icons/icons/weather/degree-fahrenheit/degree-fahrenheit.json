@@ -1,0 +1,40 @@
+{
+  "slug": "degree-fahrenheit",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Fahrenheit",
+  "description": "The degree ring with the F beside it",
+  "tags": [
+    "fahrenheit",
+    "degrees",
+    "imperial"
+  ],
+  "aliases": [
+    "fahrenheit"
+  ],
+  "keywords": [
+    "fahrenheit",
+    "degrees f",
+    "imperial temperature",
+    "us degrees"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 8V20",
+      "closed": false
+    },
+    {
+      "d": "M13 8H20",
+      "closed": false
+    },
+    {
+      "d": "M13 14H18",
+      "closed": false
+    }
+  ]
+}

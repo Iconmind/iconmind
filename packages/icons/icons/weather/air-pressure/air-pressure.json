@@ -1,0 +1,36 @@
+{
+  "slug": "air-pressure",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Air pressure",
+  "description": "The dial with its needle straight up",
+  "tags": [
+    "pressure",
+    "barometer",
+    "millibars"
+  ],
+  "aliases": [
+    "barometer"
+  ],
+  "keywords": [
+    "air pressure",
+    "barometer",
+    "millibars",
+    "atmospheric pressure"
+  ],
+  "family": "gauge",
+  "shapes": [
+    {
+      "d": "M3 16A9 9 0 0 1 21 16",
+      "closed": false
+    },
+    {
+      "d": "M3 16H21",
+      "closed": false
+    },
+    {
+      "d": "M12 16L12 10",
+      "closed": false
+    }
+  ]
+}

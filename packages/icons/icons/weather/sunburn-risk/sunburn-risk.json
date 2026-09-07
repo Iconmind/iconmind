@@ -1,0 +1,41 @@
+{
+  "slug": "sunburn-risk",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Sunburn risk",
+  "description": "The sun over an arm — cover up",
+  "tags": [
+    "sunburn",
+    "burn",
+    "skin"
+  ],
+  "keywords": [
+    "sunburn risk",
+    "burn time",
+    "cover up",
+    "skin warning"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8.5 7a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 7H8",
+      "closed": false
+    },
+    {
+      "d": "M16 7H18.5",
+      "closed": false
+    },
+    {
+      "d": "M5 20A7 7 0 0 1 19 20",
+      "closed": false
+    },
+    {
+      "d": "M5 20H19",
+      "closed": false
+    }
+  ]
+}

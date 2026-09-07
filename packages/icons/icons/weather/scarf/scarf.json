@@ -1,0 +1,33 @@
+{
+  "slug": "scarf",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Scarf",
+  "description": "The scarf knotted, its ends hanging",
+  "tags": [
+    "scarf",
+    "warm",
+    "neck"
+  ],
+  "keywords": [
+    "scarf",
+    "neck warmer",
+    "wrap up",
+    "winter scarf"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 8A5 5 0 0 1 17 8",
+      "closed": false
+    },
+    {
+      "d": "M7 8L7 18L11 18L11 8",
+      "closed": false
+    },
+    {
+      "d": "M14 11L14 21L18 21L18 11",
+      "closed": false
+    }
+  ]
+}

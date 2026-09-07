@@ -1,0 +1,37 @@
+{
+  "slug": "shade",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Shade",
+  "description": "The sun with a parasol between it and the ground",
+  "tags": [
+    "shade",
+    "shadow",
+    "cover"
+  ],
+  "keywords": [
+    "shade",
+    "in the shade",
+    "shadow",
+    "out of the sun"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 11L12 3L20 11",
+      "closed": false
+    },
+    {
+      "d": "M3 11H21",
+      "closed": false
+    },
+    {
+      "d": "M12 11V20",
+      "closed": false
+    },
+    {
+      "d": "M6 20H18",
+      "closed": false
+    }
+  ]
+}

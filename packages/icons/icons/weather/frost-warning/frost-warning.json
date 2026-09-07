@@ -1,0 +1,31 @@
+{
+  "slug": "frost-warning",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Frost warning",
+  "description": "The triangle with a flake in it",
+  "tags": [
+    "frost",
+    "warning",
+    "cold"
+  ],
+  "keywords": [
+    "frost warning",
+    "frost alert",
+    "ground frost tonight",
+    "cold warning"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 3.5L21.5 20H2.5Z",
+      "closed": true,
+      "_why": "the warning triangle: sides at 60°, the shape a road sign takes"
+    },
+    {
+      "d": "M12 10.5V17.5M8.5 17.5L15.5 10.5",
+      "closed": false,
+      "_why": "a flake: two bars crossing at their middle"
+    }
+  ]
+}

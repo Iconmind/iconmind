@@ -1,0 +1,36 @@
+{
+  "slug": "ice-warning",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Ice warning",
+  "description": "The triangle with ice crystals in it",
+  "tags": [
+    "ice",
+    "warning",
+    "slippery"
+  ],
+  "keywords": [
+    "ice warning",
+    "icy conditions",
+    "slippery warning",
+    "freeze warning"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 3.5L21.5 20H2.5Z",
+      "closed": true,
+      "_why": "the warning triangle: sides at 60°, the shape a road sign takes"
+    },
+    {
+      "d": "M9 11.5V16.5M6.5 16.5L11.5 11.5",
+      "closed": false,
+      "_why": "a flake: two bars crossing at their middle"
+    },
+    {
+      "d": "M15 13.5V18.5M12.5 18.5L17.5 13.5",
+      "closed": false,
+      "_why": "a flake: two bars crossing at their middle"
+    }
+  ]
+}

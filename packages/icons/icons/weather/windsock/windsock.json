@@ -1,0 +1,33 @@
+{
+  "slug": "windsock",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Windsock",
+  "description": "The sock filled and flying from its pole",
+  "tags": [
+    "windsock",
+    "airfield",
+    "cone"
+  ],
+  "keywords": [
+    "windsock",
+    "wind sock",
+    "airfield wind",
+    "wind cone"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 3V21",
+      "closed": false
+    },
+    {
+      "d": "M6 6L12 6L18 12L12 18L6 18Z",
+      "closed": true
+    },
+    {
+      "d": "M12 6V18",
+      "closed": false
+    }
+  ]
+}

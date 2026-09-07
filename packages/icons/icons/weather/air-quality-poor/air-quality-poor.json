@@ -1,0 +1,37 @@
+{
+  "slug": "air-quality-poor",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Air quality poor",
+  "description": "The dial with an exclamation on it",
+  "tags": [
+    "air",
+    "poor",
+    "unhealthy"
+  ],
+  "keywords": [
+    "air quality poor",
+    "unhealthy air",
+    "bad aqi",
+    "stay inside"
+  ],
+  "family": "gauge",
+  "shapes": [
+    {
+      "d": "M3 16A9 9 0 0 1 21 16",
+      "closed": false
+    },
+    {
+      "d": "M3 16H21",
+      "closed": false
+    },
+    {
+      "d": "M12 8V12",
+      "closed": false
+    },
+    {
+      "d": "M11 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

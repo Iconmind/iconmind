@@ -1,0 +1,29 @@
+{
+  "slug": "wind-light",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Light wind",
+  "description": "Two short lines",
+  "tags": [
+    "light",
+    "wind",
+    "calm"
+  ],
+  "keywords": [
+    "light wind",
+    "gentle breeze",
+    "calm",
+    "little wind"
+  ],
+  "family": "wind",
+  "shapes": [
+    {
+      "d": "M3 8H19",
+      "closed": false
+    },
+    {
+      "d": "M5 15H21",
+      "closed": false
+    }
+  ]
+}

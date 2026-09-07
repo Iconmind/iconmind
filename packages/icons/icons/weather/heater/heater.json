@@ -1,0 +1,44 @@
+{
+  "slug": "heater",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Heater",
+  "description": "The radiator with its bars and the heat rising",
+  "tags": [
+    "heater",
+    "radiator",
+    "warm"
+  ],
+  "aliases": [
+    "radiator"
+  ],
+  "keywords": [
+    "heater",
+    "radiator",
+    "heating",
+    "keep warm"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M4 12A2 2 0 0 1 6 10H18A2 2 0 0 1 20 12V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M9 10V21",
+      "closed": false
+    },
+    {
+      "d": "M15 10V21",
+      "closed": false
+    },
+    {
+      "d": "M8 7.5A2.5 2.5 0 0 1 8 2.5",
+      "closed": false
+    },
+    {
+      "d": "M16 2.5A2.5 2.5 0 0 1 16 7.5",
+      "closed": false
+    }
+  ]
+}

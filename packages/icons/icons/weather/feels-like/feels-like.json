@@ -1,0 +1,49 @@
+{
+  "slug": "feels-like",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Feels like",
+  "description": "The thermometer with a person beside it — what the air feels like on the skin",
+  "tags": [
+    "feels",
+    "apparent",
+    "skin"
+  ],
+  "aliases": [
+    "apparent-temperature"
+  ],
+  "keywords": [
+    "feels like",
+    "apparent temperature",
+    "real feel",
+    "how it feels"
+  ],
+  "family": "thermometer",
+  "shapes": [
+    {
+      "d": "M9.5 15V6A2.5 2.5 0 0 1 14.5 6V15A4.5 4.5 0 1 1 9.5 15Z",
+      "closed": true,
+      "_why": "a thermometer: a tube rounded at the top over one round bulb"
+    },
+    {
+      "d": "M10 17.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9V15",
+      "closed": false
+    },
+    {
+      "d": "M17 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 14A3 3 0 0 1 22 14",
+      "closed": false
+    },
+    {
+      "d": "M3 20H7",
+      "closed": false
+    }
+  ]
+}

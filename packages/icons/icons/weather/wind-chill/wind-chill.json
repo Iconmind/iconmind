@@ -1,0 +1,35 @@
+{
+  "slug": "wind-chill",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Wind chill",
+  "description": "The flake with wind lines through it",
+  "tags": [
+    "chill",
+    "wind",
+    "colder"
+  ],
+  "keywords": [
+    "wind chill",
+    "feels colder",
+    "chill factor",
+    "wind cold"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 4V12M4 12L12 4",
+      "closed": false,
+      "_why": "a flake: two bars crossing at their middle"
+    },
+    {
+      "d": "M4 16H15A3 3 0 1 1 12 19",
+      "closed": false,
+      "_why": "a wind line curling back"
+    },
+    {
+      "d": "M4 20H18",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "humidity",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Humidity",
+  "description": "A drop with a percent beside it",
+  "tags": [
+    "humidity",
+    "damp",
+    "percent"
+  ],
+  "aliases": [
+    "moisture"
+  ],
+  "keywords": [
+    "humidity",
+    "moisture",
+    "damp air",
+    "relative humidity"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 7L10.5 9.5A2.5 2.5 0 0 1 5.5 9.5Z",
+      "closed": true,
+      "_why": "a drop: a point above one round belly"
+    },
+    {
+      "d": "M14.5 14.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 19L21 13",
+      "closed": false
+    },
+    {
+      "d": "M19.5 18.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

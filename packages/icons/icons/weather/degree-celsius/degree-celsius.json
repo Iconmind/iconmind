@@ -1,0 +1,32 @@
+{
+  "slug": "degree-celsius",
+  "category": "weather",
+  "subcategory": "temperature",
+  "name": "Celsius",
+  "description": "The degree ring with the C beside it",
+  "tags": [
+    "celsius",
+    "degrees",
+    "metric"
+  ],
+  "aliases": [
+    "celsius"
+  ],
+  "keywords": [
+    "celsius",
+    "degrees c",
+    "centigrade",
+    "metric temperature"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M20.6 17.86A6 6 0 1 1 20.6 10.14",
+      "closed": false
+    }
+  ]
+}
