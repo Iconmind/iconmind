@@ -3,7 +3,7 @@
   "category": "health",
   "subcategory": "medical",
   "name": "Toothbrush",
-  "description": "The handle with its bristles",
+  "description": "The head with its bristles and the handle",
   "tags": [
     "toothbrush",
     "brush",
@@ -18,20 +18,15 @@
   "family": "figure",
   "shapes": [
     {
-      "d": "M3 21L12 12",
+      "d": "M9 3L15 3L15 10L9 10Z",
+      "closed": true
+    },
+    {
+      "d": "M12 10V21",
       "closed": false
     },
     {
-      "d": "M12 12L17 7A2.5 2.5 0 0 1 20.5 10.5L15.5 15.5A2.5 2.5 0 0 1 12 12Z",
-      "closed": true,
-      "_why": "the brush head"
-    },
-    {
-      "d": "M13 10.5L10.5 8",
-      "closed": false
-    },
-    {
-      "d": "M16 7.5L13.5 5",
+      "d": "M9 6H15",
       "closed": false
     }
   ]

@@ -3,7 +3,7 @@
   "category": "health",
   "subcategory": "medical",
   "name": "Blood pressure",
-  "description": "The cuff with its dial",
+  "description": "The cuff with its gauge",
   "tags": [
     "pressure",
     "cuff",
@@ -21,19 +21,19 @@
   "family": "figure",
   "shapes": [
     {
-      "d": "M3 8L3 17L15 17L15 8Z",
+      "d": "M2 8A2 2 0 0 1 4 6H12A2 2 0 0 1 14 8V14A2 2 0 0 1 12 16H4A2 2 0 0 1 2 14Z",
       "closed": true
     },
     {
-      "d": "M3 12.5H15",
+      "d": "M2 11H14",
       "closed": false
     },
     {
-      "d": "M16 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "d": "M14 15a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
       "closed": true
     },
     {
-      "d": "M19 8L21 6",
+      "d": "M18 12L18 15L21 15",
       "closed": false
     }
   ]
