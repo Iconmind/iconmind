@@ -1,0 +1,38 @@
+{
+  "slug": "organ-donor",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Organ donor",
+  "description": "The card that says yes",
+  "tags": [
+    "donor",
+    "card",
+    "organ"
+  ],
+  "keywords": [
+    "organ donor",
+    "donor card",
+    "on the register",
+    "organ donation"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M4 11A2 2 0 0 1 8 11A2 2 0 0 1 12 11L8 15Z",
+      "closed": true,
+      "_why": "a heart: two lobes over a point"
+    },
+    {
+      "d": "M14 10H20",
+      "closed": false
+    },
+    {
+      "d": "M14 14H18",
+      "closed": false
+    }
+  ]
+}

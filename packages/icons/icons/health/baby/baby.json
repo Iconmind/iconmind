@@ -1,0 +1,41 @@
+{
+  "slug": "baby",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Baby",
+  "description": "The round face with its curl",
+  "tags": [
+    "baby",
+    "infant",
+    "little"
+  ],
+  "aliases": [
+    "infant"
+  ],
+  "keywords": [
+    "baby",
+    "infant",
+    "a baby",
+    "little one"
+  ],
+  "family": "baby",
+  "shapes": [
+    {
+      "d": "M4 12a8 8 0 1 0 16 0a8 8 0 1 0 -16 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 4C15 4 15 7 12 7",
+      "closed": false,
+      "_why": "a curl of hair on top"
+    },
+    {
+      "d": "M8 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

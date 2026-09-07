@@ -1,0 +1,41 @@
+{
+  "slug": "disability",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Disability",
+  "description": "The figure and the support it uses",
+  "tags": [
+    "disability",
+    "support",
+    "aid"
+  ],
+  "keywords": [
+    "disability",
+    "disabled",
+    "support",
+    "mobility aid"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 8L9 15",
+      "closed": false
+    },
+    {
+      "d": "M9 15L13 19",
+      "closed": false
+    },
+    {
+      "d": "M17 6V21",
+      "closed": false
+    },
+    {
+      "d": "M14 6H20",
+      "closed": false
+    }
+  ]
+}

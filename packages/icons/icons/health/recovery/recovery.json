@@ -1,0 +1,37 @@
+{
+  "slug": "recovery",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Recovery",
+  "description": "The heart coming back up",
+  "tags": [
+    "recovery",
+    "better",
+    "up"
+  ],
+  "aliases": [
+    "getting-better"
+  ],
+  "keywords": [
+    "recovery",
+    "getting better",
+    "on the mend",
+    "recovering"
+  ],
+  "family": "heart",
+  "shapes": [
+    {
+      "d": "M3 13A3 3 0 0 1 9 13A3 3 0 0 1 15 13L9 19Z",
+      "closed": true,
+      "_why": "a heart: two lobes over a point"
+    },
+    {
+      "d": "M17 20L17 8",
+      "closed": false
+    },
+    {
+      "d": "M14 11L17 8L20 11",
+      "closed": false
+    }
+  ]
+}

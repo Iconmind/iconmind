@@ -1,0 +1,40 @@
+{
+  "slug": "guide-dog",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Guide dog",
+  "description": "The dog at your side",
+  "tags": [
+    "dog",
+    "guide",
+    "harness"
+  ],
+  "aliases": [
+    "assistance-dog"
+  ],
+  "keywords": [
+    "guide dog",
+    "assistance dog",
+    "harness",
+    "working dog"
+  ],
+  "family": "dog",
+  "shapes": [
+    {
+      "d": "M6 20L6 13L16 13L16 20",
+      "closed": false
+    },
+    {
+      "d": "M16 13L16 7L21 7L21 11",
+      "closed": false
+    },
+    {
+      "d": "M16 7L13 4",
+      "closed": false
+    },
+    {
+      "d": "M6 13L3 10",
+      "closed": false
+    }
+  ]
+}

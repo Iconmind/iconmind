@@ -1,0 +1,30 @@
+{
+  "slug": "face-mask",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Face mask",
+  "description": "The face with the mask on",
+  "tags": [
+    "mask",
+    "cover",
+    "wear"
+  ],
+  "keywords": [
+    "face mask",
+    "wear a mask",
+    "face covering",
+    "mask on"
+  ],
+  "family": "face",
+  "shapes": [
+    {
+      "d": "M6 9a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 12H20V15A10 10 0 0 1 4 15Z",
+      "closed": true,
+      "_why": "the mask over the mouth and chin"
+    }
+  ]
+}

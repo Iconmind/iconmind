@@ -1,0 +1,48 @@
+{
+  "slug": "crib",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Crib",
+  "description": "The cot with its bars",
+  "tags": [
+    "crib",
+    "cot",
+    "bars"
+  ],
+  "aliases": [
+    "cot"
+  ],
+  "keywords": [
+    "crib",
+    "cot",
+    "bed for a baby",
+    "bars"
+  ],
+  "family": "crib",
+  "shapes": [
+    {
+      "d": "M3 8H21",
+      "closed": false
+    },
+    {
+      "d": "M3 20H21",
+      "closed": false
+    },
+    {
+      "d": "M3 6V20",
+      "closed": false
+    },
+    {
+      "d": "M9 8V20",
+      "closed": false
+    },
+    {
+      "d": "M15 8V20",
+      "closed": false
+    },
+    {
+      "d": "M21 6V20",
+      "closed": false
+    }
+  ]
+}

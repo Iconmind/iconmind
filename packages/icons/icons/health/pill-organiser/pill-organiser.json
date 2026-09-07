@@ -1,0 +1,40 @@
+{
+  "slug": "pill-organiser",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Pill organiser",
+  "description": "The week laid out in compartments",
+  "tags": [
+    "organiser",
+    "week",
+    "box"
+  ],
+  "aliases": [
+    "pill-box"
+  ],
+  "keywords": [
+    "pill organiser",
+    "pill box",
+    "dosette",
+    "week of doses"
+  ],
+  "family": "organiser",
+  "shapes": [
+    {
+      "d": "M2 10A2 2 0 0 1 4 8H20A2 2 0 0 1 22 10V14A2 2 0 0 1 20 16H4A2 2 0 0 1 2 14Z",
+      "closed": true
+    },
+    {
+      "d": "M7 8V16",
+      "closed": false
+    },
+    {
+      "d": "M12 8V16",
+      "closed": false
+    },
+    {
+      "d": "M17 8V16",
+      "closed": false
+    }
+  ]
+}

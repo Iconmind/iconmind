@@ -1,0 +1,44 @@
+{
+  "slug": "doctor-note",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Doctor's note",
+  "description": "The note that signs you off",
+  "tags": [
+    "note",
+    "signed",
+    "letter"
+  ],
+  "aliases": [
+    "sick-note"
+  ],
+  "keywords": [
+    "doctor's note",
+    "sick note",
+    "signed off",
+    "medical letter"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M12 5V11",
+      "closed": false
+    },
+    {
+      "d": "M9 8H15",
+      "closed": false
+    },
+    {
+      "d": "M7 16L10 16",
+      "closed": false
+    },
+    {
+      "d": "M10 16L13 13L17 17",
+      "closed": false
+    }
+  ]
+}

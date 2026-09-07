@@ -1,0 +1,30 @@
+{
+  "slug": "health-goal",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Health goal",
+  "description": "The heart you are aiming at",
+  "tags": [
+    "goal",
+    "aim",
+    "target"
+  ],
+  "keywords": [
+    "health goal",
+    "aim",
+    "target",
+    "what you are working towards"
+  ],
+  "family": "heart",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 10A2.5 2.5 0 0 1 12 10A2.5 2.5 0 0 1 17 10L12 15Z",
+      "closed": true,
+      "_why": "a heart: two lobes over a point"
+    }
+  ]
+}

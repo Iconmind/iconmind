@@ -1,0 +1,42 @@
+{
+  "slug": "carer",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Carer",
+  "description": "One arm round another",
+  "tags": [
+    "carer",
+    "support",
+    "beside"
+  ],
+  "aliases": [
+    "caregiver"
+  ],
+  "keywords": [
+    "carer",
+    "caregiver",
+    "looking after someone",
+    "support"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M4 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 21V18A5 5 0 0 1 12 18",
+      "closed": false,
+      "_why": "the carer's shoulders"
+    },
+    {
+      "d": "M12 21V17A4 4 0 0 1 20 17V21",
+      "closed": false,
+      "_why": "the shoulders beside them"
+    }
+  ]
+}

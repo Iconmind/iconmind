@@ -1,0 +1,34 @@
+{
+  "slug": "dose-missed",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Dose missed",
+  "description": "The dose gone by",
+  "tags": [
+    "dose",
+    "missed",
+    "skipped"
+  ],
+  "keywords": [
+    "dose missed",
+    "missed a dose",
+    "skipped",
+    "not taken"
+  ],
+  "family": "pill",
+  "shapes": [
+    {
+      "d": "M4 11L9 6A3.5 3.5 0 0 1 14 11L9 16A3.5 3.5 0 0 1 4 11Z",
+      "closed": true,
+      "_why": "a capsule: two rounded ends on the diagonal"
+    },
+    {
+      "d": "M15 15L21 21",
+      "closed": false
+    },
+    {
+      "d": "M21 15L15 21",
+      "closed": false
+    }
+  ]
+}

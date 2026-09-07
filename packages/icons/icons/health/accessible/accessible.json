@@ -1,0 +1,36 @@
+{
+  "slug": "accessible",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Accessible",
+  "description": "The ramp up to the door",
+  "tags": [
+    "access",
+    "ramp",
+    "step-free"
+  ],
+  "aliases": [
+    "step-free"
+  ],
+  "keywords": [
+    "accessible",
+    "step free",
+    "ramp",
+    "access"
+  ],
+  "family": "ramp",
+  "shapes": [
+    {
+      "d": "M2 20L16 6L16 20Z",
+      "closed": true
+    },
+    {
+      "d": "M20 6V20",
+      "closed": false
+    },
+    {
+      "d": "M16 6H20",
+      "closed": false
+    }
+  ]
+}

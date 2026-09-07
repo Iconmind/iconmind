@@ -1,0 +1,41 @@
+{
+  "slug": "symptom-check",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Symptom check",
+  "description": "The list you go down",
+  "tags": [
+    "symptoms",
+    "check",
+    "list"
+  ],
+  "keywords": [
+    "symptom check",
+    "check your symptoms",
+    "symptom list",
+    "triage"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M6 8L8 10L12 6",
+      "closed": false
+    },
+    {
+      "d": "M14 8H18",
+      "closed": false
+    },
+    {
+      "d": "M6 15L8 17L12 13",
+      "closed": false
+    },
+    {
+      "d": "M14 15H18",
+      "closed": false
+    }
+  ]
+}

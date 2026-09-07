@@ -1,0 +1,45 @@
+{
+  "slug": "braille",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Braille",
+  "description": "The cell of six dots",
+  "tags": [
+    "braille",
+    "dots",
+    "touch"
+  ],
+  "keywords": [
+    "braille",
+    "raised dots",
+    "read by touch",
+    "cell"
+  ],
+  "family": "braille",
+  "shapes": [
+    {
+      "d": "M6 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

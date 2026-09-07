@@ -1,0 +1,30 @@
+{
+  "slug": "care-home",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Care home",
+  "description": "The house with a heart in it",
+  "tags": [
+    "home",
+    "residential",
+    "house"
+  ],
+  "keywords": [
+    "care home",
+    "residential care",
+    "nursing home",
+    "house"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 20L3 12L12 3L21 12L21 20Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13A2.5 2.5 0 0 1 12 13A2.5 2.5 0 0 1 17 13L12 18Z",
+      "closed": true,
+      "_why": "a heart: two lobes over a point"
+    }
+  ]
+}

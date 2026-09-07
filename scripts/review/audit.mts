@@ -88,6 +88,8 @@ const ANCHORED = new Set([
   "health/scalpel",
   // A spoon is a bowl at one end of a thin handle: the ink is meant to sit up in the bowl.
   "health/spoon",
+  // An axes chart hangs its ink on the axis: the L is the metaphor, not a drawing error.
+  "health/growth-chart",
   // what is covered stands under the canopy; the canopy is the weight
   "finance/health-cover", "finance/life-cover",
   // charts on their axes: the ink sits where the axes and the baseline are

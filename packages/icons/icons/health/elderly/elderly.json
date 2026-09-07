@@ -1,0 +1,41 @@
+{
+  "slug": "elderly",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Elderly",
+  "description": "The figure with a stick",
+  "tags": [
+    "elderly",
+    "older",
+    "stick"
+  ],
+  "aliases": [
+    "older-person"
+  ],
+  "keywords": [
+    "elderly",
+    "older person",
+    "walking stick",
+    "senior"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 8L9 14",
+      "closed": false
+    },
+    {
+      "d": "M4 20L9 15L14 20",
+      "closed": false
+    },
+    {
+      "d": "M18 20V9A2 2 0 0 0 14 9",
+      "closed": false,
+      "_why": "a stick with a curved handle"
+    }
+  ]
+}

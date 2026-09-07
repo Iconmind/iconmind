@@ -1,0 +1,42 @@
+{
+  "slug": "medication-schedule",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Medication schedule",
+  "description": "The month with the doses on it",
+  "tags": [
+    "schedule",
+    "month",
+    "doses"
+  ],
+  "keywords": [
+    "medication schedule",
+    "when to take it",
+    "dose schedule",
+    "month"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 7A2 2 0 0 1 5 5H19A2 2 0 0 1 21 7V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 9H21",
+      "closed": false
+    },
+    {
+      "d": "M8 2V5",
+      "closed": false
+    },
+    {
+      "d": "M16 2V5",
+      "closed": false
+    },
+    {
+      "d": "M9 17L12 14A2 2 0 0 1 15 17L12 20A2 2 0 0 1 9 17Z",
+      "closed": true,
+      "_why": "a capsule on the sheet"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "wellness-check",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Wellness check",
+  "description": "The heart listened to",
+  "tags": [
+    "check",
+    "well",
+    "review"
+  ],
+  "keywords": [
+    "wellness check",
+    "health check",
+    "check up",
+    "review"
+  ],
+  "family": "heart",
+  "shapes": [
+    {
+      "d": "M3 12A3.5 3.5 0 0 1 10 12A3.5 3.5 0 0 1 17 12L10 19Z",
+      "closed": true,
+      "_why": "a heart: two lobes over a point"
+    },
+    {
+      "d": "M19 8L19 13",
+      "closed": false
+    },
+    {
+      "d": "M16 16a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

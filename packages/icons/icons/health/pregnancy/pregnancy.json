@@ -1,0 +1,45 @@
+{
+  "slug": "pregnancy",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Pregnancy",
+  "description": "The figure carrying",
+  "tags": [
+    "pregnancy",
+    "expecting",
+    "bump"
+  ],
+  "aliases": [
+    "expecting"
+  ],
+  "keywords": [
+    "pregnancy",
+    "pregnant",
+    "expecting",
+    "bump"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 8V18",
+      "closed": false
+    },
+    {
+      "d": "M9 10C15 10 17 12 17 15C17 17 14 18 9 18",
+      "closed": false,
+      "_why": "the bump the body carries"
+    },
+    {
+      "d": "M9 18L6 21",
+      "closed": false
+    },
+    {
+      "d": "M9 18L12 21",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "first-aid-kit",
+  "category": "health",
+  "subcategory": "care",
+  "name": "First aid kit",
+  "description": "The case with a cross on it",
+  "tags": [
+    "kit",
+    "case",
+    "first-aid"
+  ],
+  "keywords": [
+    "first aid kit",
+    "first aid",
+    "medical kit",
+    "case"
+  ],
+  "family": "case",
+  "shapes": [
+    {
+      "d": "M2 9A2 2 0 0 1 4 7H20A2 2 0 0 1 22 9V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M9 7L9 4L15 4L15 7",
+      "closed": false
+    },
+    {
+      "d": "M12 10V16",
+      "closed": false
+    },
+    {
+      "d": "M9 13H15",
+      "closed": false
+    }
+  ]
+}

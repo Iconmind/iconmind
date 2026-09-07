@@ -1,0 +1,38 @@
+{
+  "slug": "pregnancy-scan",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Scan",
+  "description": "The screen with the scan on it",
+  "tags": [
+    "scan",
+    "screen",
+    "ultrasound"
+  ],
+  "keywords": [
+    "pregnancy scan",
+    "ultrasound scan",
+    "sonogram",
+    "screen"
+  ],
+  "family": "screen",
+  "shapes": [
+    {
+      "d": "M3 6A2 2 0 0 1 5 4H19A2 2 0 0 1 21 6V16A2 2 0 0 1 19 18H5A2 2 0 0 1 3 16Z",
+      "closed": true
+    },
+    {
+      "d": "M12 18L12 21",
+      "closed": false
+    },
+    {
+      "d": "M8 21H16",
+      "closed": false
+    },
+    {
+      "d": "M9 13A4 4 0 0 1 15 8C15 12 13 14 9 13Z",
+      "closed": true,
+      "_why": "the shape curled on the screen"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "vaccination-schedule",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Vaccination schedule",
+  "description": "The month with the jabs on it",
+  "tags": [
+    "vaccination",
+    "month",
+    "due"
+  ],
+  "aliases": [
+    "jabs"
+  ],
+  "keywords": [
+    "vaccination schedule",
+    "when jabs are due",
+    "immunisation",
+    "vaccine dates"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 7A2 2 0 0 1 5 5H19A2 2 0 0 1 21 7V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 9H21",
+      "closed": false
+    },
+    {
+      "d": "M8 2V5",
+      "closed": false
+    },
+    {
+      "d": "M16 2V5",
+      "closed": false
+    },
+    {
+      "d": "M8 19L15 12",
+      "closed": false
+    },
+    {
+      "d": "M13 11L16 14",
+      "closed": false
+    }
+  ]
+}

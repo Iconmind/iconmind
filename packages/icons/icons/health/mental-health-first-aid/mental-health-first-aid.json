@@ -1,0 +1,34 @@
+{
+  "slug": "mental-health-first-aid",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Mental health first aid",
+  "description": "The head with a cross beside it",
+  "tags": [
+    "mind",
+    "first-aid",
+    "help"
+  ],
+  "keywords": [
+    "mental health first aid",
+    "mental health support",
+    "first aid for the mind",
+    "help"
+  ],
+  "family": "head",
+  "shapes": [
+    {
+      "d": "M4 21V16A6 6 0 1 1 16 16V21",
+      "closed": false,
+      "_why": "a head over its shoulders"
+    },
+    {
+      "d": "M19 3V9",
+      "closed": false
+    },
+    {
+      "d": "M16 6H22",
+      "closed": false
+    }
+  ]
+}

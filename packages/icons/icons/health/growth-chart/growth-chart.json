@@ -1,0 +1,33 @@
+{
+  "slug": "growth-chart",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Growth chart",
+  "description": "The height going up year by year",
+  "tags": [
+    "growth",
+    "height",
+    "chart"
+  ],
+  "keywords": [
+    "growth chart",
+    "height chart",
+    "growing",
+    "centiles"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 3L3 21L21 21",
+      "closed": false
+    },
+    {
+      "d": "M5 18L9 14L12 17L19 10",
+      "closed": false
+    },
+    {
+      "d": "M17 6H21",
+      "closed": false
+    }
+  ]
+}

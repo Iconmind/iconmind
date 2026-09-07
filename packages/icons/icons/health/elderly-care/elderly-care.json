@@ -1,0 +1,38 @@
+{
+  "slug": "elderly-care",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Care for the elderly",
+  "description": "A hand under the arm",
+  "tags": [
+    "elderly",
+    "support",
+    "hand"
+  ],
+  "keywords": [
+    "care for the elderly",
+    "elder care",
+    "supported",
+    "a hand to lean on"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 8L9 14",
+      "closed": false
+    },
+    {
+      "d": "M4 20L9 15L14 20",
+      "closed": false
+    },
+    {
+      "d": "M14 20A5 5 0 0 1 21 13",
+      "closed": false,
+      "_why": "a hand held under the arm"
+    }
+  ]
+}

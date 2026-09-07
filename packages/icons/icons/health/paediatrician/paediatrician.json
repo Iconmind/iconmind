@@ -1,0 +1,48 @@
+{
+  "slug": "paediatrician",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Paediatrician",
+  "description": "The doctor and the small one",
+  "tags": [
+    "paediatrician",
+    "doctor",
+    "child"
+  ],
+  "aliases": [
+    "pediatrician"
+  ],
+  "keywords": [
+    "paediatrician",
+    "pediatrician",
+    "children's doctor",
+    "child doctor"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M4 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2.5 17A4.5 4.5 0 0 1 11.5 17",
+      "closed": false
+    },
+    {
+      "d": "M15 13a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 18A3.5 3.5 0 0 1 20.5 18",
+      "closed": false
+    },
+    {
+      "d": "M17 2V8",
+      "closed": false
+    },
+    {
+      "d": "M14 5H20",
+      "closed": false
+    }
+  ]
+}

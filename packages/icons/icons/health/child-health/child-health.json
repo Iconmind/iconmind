@@ -1,0 +1,41 @@
+{
+  "slug": "child-health",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Child health",
+  "description": "The small one with a cross beside",
+  "tags": [
+    "child",
+    "care",
+    "young"
+  ],
+  "keywords": [
+    "child health",
+    "children's health",
+    "paediatric care",
+    "young"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 9L8 14",
+      "closed": false
+    },
+    {
+      "d": "M4 19L9 14L14 19",
+      "closed": false
+    },
+    {
+      "d": "M17 8V16",
+      "closed": false
+    },
+    {
+      "d": "M13 12H21",
+      "closed": false
+    }
+  ]
+}

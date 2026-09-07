@@ -1,0 +1,40 @@
+{
+  "slug": "sanitiser",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Sanitiser",
+  "description": "The pump bottle",
+  "tags": [
+    "sanitiser",
+    "gel",
+    "pump"
+  ],
+  "aliases": [
+    "sanitizer"
+  ],
+  "keywords": [
+    "sanitiser",
+    "hand gel",
+    "sanitizer",
+    "pump bottle"
+  ],
+  "family": "bottle",
+  "shapes": [
+    {
+      "d": "M6 21L6 10L16 10L16 21Z",
+      "closed": true
+    },
+    {
+      "d": "M11 10L11 4L16 4",
+      "closed": false
+    },
+    {
+      "d": "M16 4L16 7",
+      "closed": false
+    },
+    {
+      "d": "M6 15H16",
+      "closed": false
+    }
+  ]
+}

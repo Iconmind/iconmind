@@ -1,0 +1,34 @@
+{
+  "slug": "dose-reminder",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Dose reminder",
+  "description": "The dose with the hour on it",
+  "tags": [
+    "dose",
+    "reminder",
+    "hour"
+  ],
+  "keywords": [
+    "dose reminder",
+    "time for your dose",
+    "take it now",
+    "reminder"
+  ],
+  "family": "pill",
+  "shapes": [
+    {
+      "d": "M4 11L9 6A3.5 3.5 0 0 1 14 11L9 16A3.5 3.5 0 0 1 4 11Z",
+      "closed": true,
+      "_why": "a capsule: two rounded ends on the diagonal"
+    },
+    {
+      "d": "M13 17a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 14L17 17L20 17",
+      "closed": false
+    }
+  ]
+}

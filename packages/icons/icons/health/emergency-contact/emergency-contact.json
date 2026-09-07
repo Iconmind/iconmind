@@ -1,0 +1,37 @@
+{
+  "slug": "emergency-contact",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Emergency contact",
+  "description": "The person to call first",
+  "tags": [
+    "contact",
+    "call",
+    "next-of-kin"
+  ],
+  "aliases": [
+    "next-of-kin"
+  ],
+  "keywords": [
+    "emergency contact",
+    "next of kin",
+    "who to call",
+    "first call"
+  ],
+  "family": "phone",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 8 5V8A2 2 0 0 1 4 8ZM4 8C4 14 10 20 16 20M16 20A2 2 0 0 0 20 20V17A2 2 0 0 0 16 17Z",
+      "closed": false,
+      "_why": "a handset: an earpiece, a cord and a mouthpiece"
+    },
+    {
+      "d": "M15 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 11A3.5 3.5 0 0 1 20.5 11",
+      "closed": false
+    }
+  ]
+}

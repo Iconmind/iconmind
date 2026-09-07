@@ -1,0 +1,30 @@
+{
+  "slug": "dose-taken",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Dose taken",
+  "description": "The dose ticked off",
+  "tags": [
+    "dose",
+    "taken",
+    "done"
+  ],
+  "keywords": [
+    "dose taken",
+    "took it",
+    "dose done",
+    "ticked off"
+  ],
+  "family": "pill",
+  "shapes": [
+    {
+      "d": "M4 11L9 6A3.5 3.5 0 0 1 14 11L9 16A3.5 3.5 0 0 1 4 11Z",
+      "closed": true,
+      "_why": "a capsule: two rounded ends on the diagonal"
+    },
+    {
+      "d": "M13 18L16 21L22 15",
+      "closed": false
+    }
+  ]
+}

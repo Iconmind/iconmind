@@ -1,0 +1,32 @@
+{
+  "slug": "nappy",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Nappy",
+  "description": "The nappy with its tabs",
+  "tags": [
+    "nappy",
+    "diaper",
+    "change"
+  ],
+  "aliases": [
+    "diaper"
+  ],
+  "keywords": [
+    "nappy",
+    "diaper",
+    "change a nappy",
+    "tabs"
+  ],
+  "family": "nappy",
+  "shapes": [
+    {
+      "d": "M4 7L20 7L20 11L12 19L4 11Z",
+      "closed": true
+    },
+    {
+      "d": "M4 11H20",
+      "closed": false
+    }
+  ]
+}

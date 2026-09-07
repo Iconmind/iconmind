@@ -1,0 +1,43 @@
+{
+  "slug": "hand-wash",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Wash your hands",
+  "description": "The hands under the water",
+  "tags": [
+    "wash",
+    "hands",
+    "water"
+  ],
+  "keywords": [
+    "wash your hands",
+    "hand washing",
+    "soap and water",
+    "hygiene"
+  ],
+  "family": "hands",
+  "shapes": [
+    {
+      "d": "M5 21V15A2 2 0 0 1 9 15V12A2 2 0 0 1 13 12V16",
+      "closed": false,
+      "_why": "one hand raised"
+    },
+    {
+      "d": "M19 21V15A2 2 0 0 0 15 15",
+      "closed": false,
+      "_why": "the other hand beside it"
+    },
+    {
+      "d": "M7 4L7 8",
+      "closed": false
+    },
+    {
+      "d": "M12 3L12 7",
+      "closed": false
+    },
+    {
+      "d": "M17 4L17 8",
+      "closed": false
+    }
+  ]
+}

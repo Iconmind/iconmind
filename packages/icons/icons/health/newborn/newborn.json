@@ -1,0 +1,34 @@
+{
+  "slug": "newborn",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Newborn",
+  "description": "The baby swaddled",
+  "tags": [
+    "newborn",
+    "swaddle",
+    "days-old"
+  ],
+  "keywords": [
+    "newborn",
+    "just born",
+    "swaddled",
+    "days old"
+  ],
+  "family": "baby",
+  "shapes": [
+    {
+      "d": "M8 6a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 21A7 7 0 0 1 19 21Z",
+      "closed": true,
+      "_why": "the wrap around the body"
+    },
+    {
+      "d": "M6 16H18",
+      "closed": false
+    }
+  ]
+}

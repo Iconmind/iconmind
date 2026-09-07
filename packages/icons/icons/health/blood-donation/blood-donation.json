@@ -1,0 +1,37 @@
+{
+  "slug": "blood-donation",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Blood donation",
+  "description": "The drop given",
+  "tags": [
+    "blood",
+    "donate",
+    "give"
+  ],
+  "aliases": [
+    "give-blood"
+  ],
+  "keywords": [
+    "blood donation",
+    "give blood",
+    "donate blood",
+    "donor"
+  ],
+  "family": "drop",
+  "shapes": [
+    {
+      "d": "M12 5L20 13A8 8 0 1 1 4 13Z",
+      "closed": true,
+      "_why": "a drop: a point over a round belly"
+    },
+    {
+      "d": "M12 11V17",
+      "closed": false
+    },
+    {
+      "d": "M9 14H15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "hearing-loop",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Hearing loop",
+  "description": "The ear inside the loop",
+  "tags": [
+    "hearing",
+    "loop",
+    "induction"
+  ],
+  "aliases": [
+    "induction-loop"
+  ],
+  "keywords": [
+    "hearing loop",
+    "induction loop",
+    "T setting",
+    "hard of hearing"
+  ],
+  "family": "ear",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M10 18V15C8 14 7 12 7 10A5 5 0 0 1 17 10C17 11 16 12 15 12",
+      "closed": false,
+      "_why": "an ear inside the square"
+    }
+  ]
+}

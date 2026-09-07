@@ -1,0 +1,40 @@
+{
+  "slug": "medical-id",
+  "category": "health",
+  "subcategory": "care",
+  "name": "Medical ID",
+  "description": "The tag you wear",
+  "tags": [
+    "id",
+    "band",
+    "wristband"
+  ],
+  "aliases": [
+    "medic-alert"
+  ],
+  "keywords": [
+    "medical id",
+    "medic alert",
+    "wristband",
+    "id band"
+  ],
+  "family": "tag",
+  "shapes": [
+    {
+      "d": "M7 6A2 2 0 0 1 9 4H15A2 2 0 0 1 17 6V18A2 2 0 0 1 15 20H9A2 2 0 0 1 7 18Z",
+      "closed": true
+    },
+    {
+      "d": "M11 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 11V17",
+      "closed": false
+    },
+    {
+      "d": "M9 14H15",
+      "closed": false
+    }
+  ]
+}
