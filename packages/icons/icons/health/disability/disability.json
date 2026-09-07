@@ -3,7 +3,7 @@
   "category": "health",
   "subcategory": "care",
   "name": "Disability",
-  "description": "The figure and the support it uses",
+  "description": "The figure with a rail to hold",
   "tags": [
     "disability",
     "support",
@@ -18,23 +18,23 @@
   "family": "figure",
   "shapes": [
     {
-      "d": "M6 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "d": "M4 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
       "closed": true
     },
     {
-      "d": "M9 8L9 15",
+      "d": "M7 8L7 14",
       "closed": false
     },
     {
-      "d": "M9 15L13 19",
+      "d": "M2 19L7 14L12 19",
       "closed": false
     },
     {
-      "d": "M17 6V21",
+      "d": "M16 7L16 20",
       "closed": false
     },
     {
-      "d": "M14 6H20",
+      "d": "M16 11L21 11",
       "closed": false
     }
   ]

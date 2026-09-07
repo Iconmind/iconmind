@@ -3,7 +3,7 @@
   "category": "health",
   "subcategory": "care",
   "name": "Accessible",
-  "description": "The ramp up to the door",
+  "description": "The ramp with its handrail",
   "tags": [
     "access",
     "ramp",
@@ -21,15 +21,19 @@
   "family": "ramp",
   "shapes": [
     {
-      "d": "M2 20L16 6L16 20Z",
-      "closed": true
-    },
-    {
-      "d": "M20 6V20",
+      "d": "M2 18L2 13L7 13L7 8L12 8",
       "closed": false
     },
     {
-      "d": "M16 6H20",
+      "d": "M12 8L19 15",
+      "closed": false
+    },
+    {
+      "d": "M2 18H19",
+      "closed": false
+    },
+    {
+      "d": "M19 15V18",
       "closed": false
     }
   ]
