@@ -3,7 +3,7 @@
   "category": "weather",
   "subcategory": "climate",
   "name": "Hydro power",
-  "description": "The dam with the water falling through it",
+  "description": "The drop with the current in it",
   "tags": [
     "hydro",
     "water",
@@ -18,19 +18,12 @@
   "family": "figure",
   "shapes": [
     {
-      "d": "M5 3L9 3L9 20L5 20Z",
-      "closed": true
+      "d": "M12 4L20 12A8 8 0 0 1 4 12Z",
+      "closed": true,
+      "_why": "a drop: a point above one round belly"
     },
     {
-      "d": "M9 8L13 8L17 12L17 20",
-      "closed": false
-    },
-    {
-      "d": "M2 6H5",
-      "closed": false
-    },
-    {
-      "d": "M18 20H22",
+      "d": "M14 8L9 13L12 13L8 17",
       "closed": false
     }
   ]

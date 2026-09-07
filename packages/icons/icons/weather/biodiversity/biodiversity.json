@@ -3,7 +3,7 @@
   "category": "weather",
   "subcategory": "climate",
   "name": "Biodiversity",
-  "description": "A leaf, a wing and a fin together",
+  "description": "A leaf and a paw, side by side",
   "tags": [
     "biodiversity",
     "variety",
@@ -18,17 +18,22 @@
   "family": "figure",
   "shapes": [
     {
-      "d": "M3 12C3 7.2 6.2 4 11 4C11 8.8 7.8 12 3 12Z",
+      "d": "M10 5C10 11 7 14 2 14C2 8 5 5 10 5Z",
       "closed": true,
-      "_why": "a leaf: two curves from the stem to the tip, wide at the foot"
+      "_why": "a leaf for the plants"
     },
     {
-      "d": "M14 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "d": "M12 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
       "closed": true
     },
     {
-      "d": "M6 17L10 13L14 17L10 21Z",
+      "d": "M17 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
       "closed": true
+    },
+    {
+      "d": "M13 16A5 5 0 0 1 22 16A4 4 0 0 1 17.5 20A4 4 0 0 1 13 16Z",
+      "closed": true,
+      "_why": "a paw for the animals"
     }
   ]
 }

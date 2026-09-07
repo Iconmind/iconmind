@@ -3,7 +3,7 @@
   "category": "weather",
   "subcategory": "climate",
   "name": "Endangered",
-  "description": "The paw with an exclamation beside it",
+  "description": "The paw with a warning beside it",
   "tags": [
     "endangered",
     "risk",
@@ -18,24 +18,24 @@
   "family": "figure",
   "shapes": [
     {
-      "d": "M6 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "d": "M4 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
       "closed": true
     },
     {
-      "d": "M11 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "d": "M9 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
       "closed": true
     },
     {
-      "d": "M4 16A5 5 0 0 1 14 16A4 4 0 0 1 9 20A4 4 0 0 1 4 16Z",
+      "d": "M3 16A5 5 0 0 1 13 16A4 4 0 0 1 8 20A4 4 0 0 1 3 16Z",
       "closed": true,
-      "_why": "the pad: one arc over the toes and a rounded heel"
+      "_why": "the pad under the toes"
     },
     {
-      "d": "M19 5V13",
+      "d": "M19 6V14",
       "closed": false
     },
     {
-      "d": "M18 16.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "d": "M18 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
       "closed": true
     }
   ]

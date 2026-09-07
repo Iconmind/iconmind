@@ -3,7 +3,7 @@
   "category": "weather",
   "subcategory": "climate",
   "name": "Water quality",
-  "description": "The drop with a check in it",
+  "description": "The drop with a tick in it",
   "tags": [
     "quality",
     "clean",
@@ -18,12 +18,12 @@
   "family": "figure",
   "shapes": [
     {
-      "d": "M12 3L19 10A7 7 0 0 1 5 10Z",
+      "d": "M12 4L20 12A8 8 0 0 1 4 12Z",
       "closed": true,
       "_why": "a drop: a point above one round belly"
     },
     {
-      "d": "M9 14L11 16L15 12",
+      "d": "M8 13L11 16L16 11",
       "closed": false
     }
   ]

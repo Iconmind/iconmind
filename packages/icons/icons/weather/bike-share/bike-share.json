@@ -3,7 +3,7 @@
   "category": "weather",
   "subcategory": "climate",
   "name": "Bike share",
-  "description": "The wheel with a share arrow over it",
+  "description": "The bike waiting at its post",
   "tags": [
     "bike",
     "share",
@@ -18,19 +18,23 @@
   "family": "figure",
   "shapes": [
     {
-      "d": "M2 15a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "d": "M3.5 15a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
       "closed": true
     },
     {
-      "d": "M14 15a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "d": "M13.5 15a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
       "closed": true
     },
     {
-      "d": "M7 15L11 11L15 11",
+      "d": "M7 15L10 12L14 12L17 15",
       "closed": false
     },
     {
-      "d": "M11 7V11",
+      "d": "M10 8V12",
+      "closed": false
+    },
+    {
+      "d": "M3 6L3 19",
       "closed": false
     }
   ]

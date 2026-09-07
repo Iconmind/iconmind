@@ -3,7 +3,7 @@
   "category": "weather",
   "subcategory": "climate",
   "name": "Bee",
-  "description": "The body with its stripes and two wings",
+  "description": "The striped body with a wing either side",
   "tags": [
     "bee",
     "pollinator",
@@ -18,21 +18,27 @@
   "family": "figure",
   "shapes": [
     {
-      "d": "M8 12A4 4 0 0 1 16 12V18A4 4 0 0 1 8 18Z",
+      "d": "M8 9A4 4 0 0 1 16 9V17A4 4 0 0 1 8 17Z",
       "closed": true,
       "_why": "the body: straight sides into rounded ends"
     },
     {
-      "d": "M8 15H16",
+      "d": "M8.5 12H15.5",
       "closed": false
     },
     {
-      "d": "M4 8A3 3 0 0 1 10 8",
+      "d": "M9 16H15",
       "closed": false
     },
     {
-      "d": "M14 8A3 3 0 0 1 20 8",
-      "closed": false
+      "d": "M8 10C5 6 2 9 3 12C4 15 7 14 8 10Z",
+      "closed": true,
+      "_why": "the wing on the left"
+    },
+    {
+      "d": "M16 10C19 6 22 9 21 12C20 15 17 14 16 10Z",
+      "closed": true,
+      "_why": "the wing on the right"
     }
   ]
 }

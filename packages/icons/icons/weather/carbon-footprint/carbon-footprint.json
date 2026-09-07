@@ -3,7 +3,7 @@
   "category": "weather",
   "subcategory": "climate",
   "name": "Carbon footprint",
-  "description": "A footprint with a cloud of gas in it",
+  "description": "The sole and its toes",
   "tags": [
     "carbon",
     "footprint",
@@ -18,20 +18,24 @@
   "family": "figure",
   "shapes": [
     {
-      "d": "M6 9A6 6 0 0 1 18 9V16A6 6 0 0 1 6 16Z",
+      "d": "M7 11A5 5 0 0 1 17 11V17A5 5 0 0 1 7 17Z",
       "closed": true,
       "_why": "a sole: straight sides into rounded ends"
     },
     {
-      "d": "M8 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "d": "M6 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
       "closed": true
     },
     {
-      "d": "M12 3.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "d": "M10 3.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
       "closed": true
     },
     {
-      "d": "M16 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "d": "M14 3.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
       "closed": true
     }
   ]

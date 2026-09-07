@@ -3,7 +3,7 @@
   "category": "weather",
   "subcategory": "climate",
   "name": "Deforestation",
-  "description": "The stump where the tree stood",
+  "description": "The stump and the tree that came off it",
   "tags": [
     "deforestation",
     "felled",
@@ -21,16 +21,16 @@
   "family": "figure",
   "shapes": [
     {
-      "d": "M8 21L8 14L16 14L16 21Z",
+      "d": "M5 19L5 14L11 14L11 19",
+      "closed": false
+    },
+    {
+      "d": "M12 18L18 12",
+      "closed": false
+    },
+    {
+      "d": "M15 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
       "closed": true
-    },
-    {
-      "d": "M4 6L10 12",
-      "closed": false
-    },
-    {
-      "d": "M10 6L4 12",
-      "closed": false
     }
   ]
 }

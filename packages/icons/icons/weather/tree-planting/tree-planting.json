@@ -18,16 +18,22 @@
   "family": "tree",
   "shapes": [
     {
-      "d": "M7 8a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
-      "closed": true
-    },
-    {
-      "d": "M12 13V18",
+      "d": "M12 17L12 9",
       "closed": false
     },
     {
-      "d": "M7 18L10 21L14 21L17 18Z",
-      "closed": true
+      "d": "M12 9C12 5 9 3 5 3C5 7 8 9 12 9Z",
+      "closed": true,
+      "_why": "a first leaf"
+    },
+    {
+      "d": "M12 12C12 8 15 6 19 6C19 10 16 12 12 12Z",
+      "closed": true,
+      "_why": "a second leaf"
+    },
+    {
+      "d": "M5 21A7 7 0 0 1 19 21",
+      "closed": false
     }
   ]
 }
