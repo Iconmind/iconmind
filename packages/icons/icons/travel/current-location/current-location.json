@@ -1,0 +1,36 @@
+{
+  "slug": "current-location",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Where I am",
+  "description": "The dot with the ring pulsing round it",
+  "tags": [
+    "location",
+    "here",
+    "me"
+  ],
+  "aliases": [
+    "my-location"
+  ],
+  "keywords": [
+    "current location",
+    "where i am",
+    "my position",
+    "locate me"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 14a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5.42 11.61A7 7 0 0 1 18.58 11.61",
+      "closed": false
+    },
+    {
+      "d": "M2.6 10.58A10 10 0 0 1 21.4 10.58",
+      "closed": false
+    }
+  ]
+}

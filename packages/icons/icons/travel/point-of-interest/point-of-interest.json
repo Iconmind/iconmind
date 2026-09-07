@@ -1,0 +1,33 @@
+{
+  "slug": "point-of-interest",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Point of interest",
+  "description": "The pin with a stone in it — worth stopping for",
+  "tags": [
+    "poi",
+    "interest",
+    "sight"
+  ],
+  "aliases": [
+    "poi"
+  ],
+  "keywords": [
+    "point of interest",
+    "poi",
+    "worth seeing",
+    "attraction"
+  ],
+  "family": "pin",
+  "shapes": [
+    {
+      "d": "M4 10A8 8 0 0 1 20 10L12 18Z",
+      "closed": true,
+      "_why": "the teardrop `location` is drawn from; the mark sits where its ring sits"
+    },
+    {
+      "d": "M12 8L14 10L12 12L10 10Z",
+      "closed": true
+    }
+  ]
+}

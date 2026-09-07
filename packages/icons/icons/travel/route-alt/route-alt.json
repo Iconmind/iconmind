@@ -1,0 +1,45 @@
+{
+  "slug": "route-alt",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Alternative route",
+  "description": "Two ways to the same place, one dashed",
+  "tags": [
+    "alternative",
+    "other",
+    "compare"
+  ],
+  "keywords": [
+    "alternative route",
+    "other way",
+    "second route",
+    "avoid traffic"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 19a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 9L5 16L16 16L16 19",
+      "closed": false
+    },
+    {
+      "d": "M9 5L12.5 5",
+      "closed": false
+    },
+    {
+      "d": "M15.5 5L19 5L19 8",
+      "closed": false
+    },
+    {
+      "d": "M19 11L19 15",
+      "closed": false
+    }
+  ]
+}

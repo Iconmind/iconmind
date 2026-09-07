@@ -1,0 +1,36 @@
+{
+  "slug": "coordinates",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Coordinates",
+  "description": "The crosshair on the grid — the exact pair of numbers",
+  "tags": [
+    "coordinates",
+    "grid",
+    "exact"
+  ],
+  "aliases": [
+    "lat-long"
+  ],
+  "keywords": [
+    "coordinates",
+    "lat long",
+    "grid reference",
+    "exact position"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 2V22",
+      "closed": false
+    },
+    {
+      "d": "M2 12H22",
+      "closed": false
+    }
+  ]
+}

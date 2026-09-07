@@ -1,0 +1,36 @@
+{
+  "slug": "exit-ramp",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Exit",
+  "description": "The road that leaves the main one at a slip",
+  "tags": [
+    "exit",
+    "slip",
+    "off-ramp"
+  ],
+  "aliases": [
+    "off-ramp"
+  ],
+  "keywords": [
+    "exit ramp",
+    "slip road",
+    "take the exit",
+    "off ramp"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M6 2V21",
+      "closed": false
+    },
+    {
+      "d": "M6 10L13 10L19 16",
+      "closed": false
+    },
+    {
+      "d": "M15.5 16L19 16L19 12.5",
+      "closed": false
+    }
+  ]
+}

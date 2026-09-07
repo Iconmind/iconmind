@@ -1,0 +1,40 @@
+{
+  "slug": "altitude",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Altitude",
+  "description": "The peak with the height marked beside it",
+  "tags": [
+    "altitude",
+    "height",
+    "metres"
+  ],
+  "aliases": [
+    "height"
+  ],
+  "keywords": [
+    "altitude",
+    "height above sea",
+    "metres up",
+    "how high"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 18L10 11L17 18",
+      "closed": false
+    },
+    {
+      "d": "M19 3V18",
+      "closed": false
+    },
+    {
+      "d": "M16.5 5.5L19 3L21.5 5.5",
+      "closed": false
+    },
+    {
+      "d": "M2 18H22",
+      "closed": false
+    }
+  ]
+}

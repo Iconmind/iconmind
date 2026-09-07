@@ -1,0 +1,41 @@
+{
+  "slug": "street-view",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Street view",
+  "description": "The map with a person on it — the view from the pavement",
+  "tags": [
+    "street",
+    "ground",
+    "person"
+  ],
+  "keywords": [
+    "street view",
+    "ground view",
+    "look around",
+    "pavement view"
+  ],
+  "family": "map",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M6 4V20",
+      "closed": false
+    },
+    {
+      "d": "M18 4V20",
+      "closed": false
+    },
+    {
+      "d": "M10 9.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 18A4.5 4.5 0 0 1 16.5 18",
+      "closed": false
+    }
+  ]
+}

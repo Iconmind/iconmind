@@ -1,0 +1,42 @@
+{
+  "slug": "footpath",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Footpath",
+  "description": "Two footprints, one ahead of the other — the way on foot",
+  "tags": [
+    "path",
+    "walk",
+    "pedestrian"
+  ],
+  "aliases": [
+    "walkway"
+  ],
+  "keywords": [
+    "footpath",
+    "walkway",
+    "pedestrian path",
+    "on foot"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6.5 7A2.5 2.5 0 0 1 11.5 7V11A2.5 2.5 0 0 1 6.5 11Z",
+      "closed": true,
+      "_why": "a sole: straight sides into rounded ends"
+    },
+    {
+      "d": "M7 4a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12.5 14A2.5 2.5 0 0 1 17.5 14V18A2.5 2.5 0 0 1 12.5 18Z",
+      "closed": true,
+      "_why": "the next sole, a step along"
+    },
+    {
+      "d": "M13 11a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

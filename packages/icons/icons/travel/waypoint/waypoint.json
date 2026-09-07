@@ -1,0 +1,44 @@
+{
+  "slug": "waypoint",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Waypoint",
+  "description": "A point on the line, with the line going on past it",
+  "tags": [
+    "waypoint",
+    "stop",
+    "via"
+  ],
+  "aliases": [
+    "via-point"
+  ],
+  "keywords": [
+    "waypoint",
+    "via point",
+    "stop on the way",
+    "intermediate point"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 2V5",
+      "closed": false
+    },
+    {
+      "d": "M12 7.5V10",
+      "closed": false
+    },
+    {
+      "d": "M8 14a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 18V22",
+      "closed": false
+    }
+  ]
+}

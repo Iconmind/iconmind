@@ -1,0 +1,29 @@
+{
+  "slug": "straight-ahead",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Straight on",
+  "description": "The road that carries straight on",
+  "tags": [
+    "straight",
+    "ahead",
+    "continue"
+  ],
+  "keywords": [
+    "straight ahead",
+    "carry on",
+    "continue",
+    "go straight"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M12 4V21",
+      "closed": false
+    },
+    {
+      "d": "M8 8L12 4L16 8",
+      "closed": false
+    }
+  ]
+}

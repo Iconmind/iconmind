@@ -1,0 +1,36 @@
+{
+  "slug": "travel-route",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Route",
+  "description": "A line from one pin to another, bending on the way",
+  "tags": [
+    "route",
+    "path",
+    "journey"
+  ],
+  "aliases": [
+    "route"
+  ],
+  "keywords": [
+    "route",
+    "journey",
+    "the way there",
+    "planned route"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 19a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 9L5 13L12 13L12 19L15 19",
+      "closed": false
+    }
+  ]
+}

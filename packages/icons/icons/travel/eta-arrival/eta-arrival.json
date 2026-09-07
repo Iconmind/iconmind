@@ -1,0 +1,41 @@
+{
+  "slug": "eta-arrival",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Arrival time",
+  "description": "The pin with a clock in it — when you will be there",
+  "tags": [
+    "eta",
+    "arrival",
+    "time"
+  ],
+  "aliases": [
+    "eta"
+  ],
+  "keywords": [
+    "arrival time",
+    "eta",
+    "when will i arrive",
+    "time to destination"
+  ],
+  "family": "pin",
+  "shapes": [
+    {
+      "d": "M4 10A8 8 0 0 1 20 10L12 18Z",
+      "closed": true,
+      "_why": "the teardrop `location` is drawn from; the mark sits where its ring sits"
+    },
+    {
+      "d": "M9 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 7V10",
+      "closed": false
+    },
+    {
+      "d": "M12 10H14.5",
+      "closed": false
+    }
+  ]
+}

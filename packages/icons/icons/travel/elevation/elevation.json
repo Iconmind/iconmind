@@ -1,0 +1,36 @@
+{
+  "slug": "elevation",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Elevation",
+  "description": "The climb drawn as a line over the ground",
+  "tags": [
+    "elevation",
+    "climb",
+    "profile"
+  ],
+  "aliases": [
+    "elevation-profile"
+  ],
+  "keywords": [
+    "elevation",
+    "climb profile",
+    "how steep",
+    "height gain"
+  ],
+  "family": "axes",
+  "shapes": [
+    {
+      "d": "M4 3V19",
+      "closed": false
+    },
+    {
+      "d": "M4 19H21",
+      "closed": false
+    },
+    {
+      "d": "M6 16L10 12L13 15L18 10",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "globe-spin",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Spin the globe",
+  "description": "The globe with an arrow round it — turned to the other side",
+  "tags": [
+    "spin",
+    "rotate",
+    "world"
+  ],
+  "keywords": [
+    "spin the globe",
+    "rotate world",
+    "turn the globe",
+    "other side"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M4 12a8 8 0 1 0 16 0a8 8 0 1 0 -16 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 20A8 8 0 0 1 12 4",
+      "closed": false
+    },
+    {
+      "d": "M12 2L14.5 4.5L12 7",
+      "closed": false
+    }
+  ]
+}

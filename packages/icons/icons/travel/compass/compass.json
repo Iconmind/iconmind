@@ -1,0 +1,29 @@
+{
+  "slug": "compass",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Compass",
+  "description": "A ring with the needle across it",
+  "tags": [
+    "compass",
+    "bearing",
+    "direction"
+  ],
+  "keywords": [
+    "compass",
+    "bearing",
+    "which way is north",
+    "direction"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 6L18 12L12 18L6 12Z",
+      "closed": true
+    }
+  ]
+}

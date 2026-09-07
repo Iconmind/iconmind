@@ -1,0 +1,45 @@
+{
+  "slug": "gps-lost",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "GPS lost",
+  "description": "The crosshair broken — the position is not known",
+  "tags": [
+    "gps",
+    "lost",
+    "no-signal"
+  ],
+  "keywords": [
+    "gps lost",
+    "no signal",
+    "position unknown",
+    "gps error"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 2V7",
+      "closed": false
+    },
+    {
+      "d": "M12 17V22",
+      "closed": false
+    },
+    {
+      "d": "M2 12H7",
+      "closed": false
+    },
+    {
+      "d": "M17 12H22",
+      "closed": false
+    },
+    {
+      "d": "M5 19L19 5",
+      "closed": false
+    }
+  ]
+}

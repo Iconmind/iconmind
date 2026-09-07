@@ -1,0 +1,45 @@
+{
+  "slug": "offline-map",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Offline map",
+  "description": "The map with an arrow into it — kept on the phone for later",
+  "tags": [
+    "offline",
+    "download",
+    "saved"
+  ],
+  "keywords": [
+    "offline map",
+    "download map",
+    "saved map",
+    "map without signal"
+  ],
+  "family": "map",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M6 4V20",
+      "closed": false
+    },
+    {
+      "d": "M18 4V20",
+      "closed": false
+    },
+    {
+      "d": "M12 7V14",
+      "closed": false
+    },
+    {
+      "d": "M9.5 11.5L12 14L14.5 11.5",
+      "closed": false
+    },
+    {
+      "d": "M9 16.5H15",
+      "closed": false
+    }
+  ]
+}

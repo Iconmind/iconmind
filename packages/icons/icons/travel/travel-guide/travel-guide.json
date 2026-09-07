@@ -1,0 +1,37 @@
+{
+  "slug": "travel-guide",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Travel guide",
+  "description": "The book with a pin on its cover",
+  "tags": [
+    "guide",
+    "book",
+    "advice"
+  ],
+  "aliases": [
+    "guidebook"
+  ],
+  "keywords": [
+    "travel guide",
+    "guidebook",
+    "where to go",
+    "travel book"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 4A2 2 0 0 1 6 2H18A2 2 0 0 1 20 4V20A2 2 0 0 1 18 22H6A2 2 0 0 1 4 20Z",
+      "closed": true
+    },
+    {
+      "d": "M8 2V22",
+      "closed": false
+    },
+    {
+      "d": "M11 11A3 3 0 0 1 17 11L14 14Z",
+      "closed": true,
+      "_why": "a small pin: the teardrop the set draws"
+    }
+  ]
+}

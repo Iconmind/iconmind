@@ -1,0 +1,37 @@
+{
+  "slug": "world-map",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "World map",
+  "description": "The globe with the meridians on it",
+  "tags": [
+    "world",
+    "globe",
+    "international"
+  ],
+  "keywords": [
+    "world map",
+    "globe",
+    "world view",
+    "international map"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 12H21",
+      "closed": false
+    },
+    {
+      "d": "M6 5L10 5L10 9L6 9Z",
+      "closed": true
+    },
+    {
+      "d": "M14 15L18 15L18 19L14 19Z",
+      "closed": true
+    }
+  ]
+}

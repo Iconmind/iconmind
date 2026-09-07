@@ -1,0 +1,44 @@
+{
+  "slug": "border-crossing",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Border crossing",
+  "description": "An arrow crossing the dashed line between two countries",
+  "tags": [
+    "border",
+    "frontier",
+    "crossing"
+  ],
+  "aliases": [
+    "frontier"
+  ],
+  "keywords": [
+    "border crossing",
+    "frontier",
+    "cross the border",
+    "customs post"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 2V7",
+      "closed": false
+    },
+    {
+      "d": "M12 10V14",
+      "closed": false
+    },
+    {
+      "d": "M12 17V22",
+      "closed": false
+    },
+    {
+      "d": "M4 12H19",
+      "closed": false
+    },
+    {
+      "d": "M16 9L19 12L16 15",
+      "closed": false
+    }
+  ]
+}

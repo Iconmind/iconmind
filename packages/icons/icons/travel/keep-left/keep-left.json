@@ -1,0 +1,33 @@
+{
+  "slug": "keep-left",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Keep left",
+  "description": "The road that forks, the left one taken",
+  "tags": [
+    "fork",
+    "left",
+    "bear"
+  ],
+  "keywords": [
+    "keep left",
+    "bear left",
+    "fork left",
+    "take the left"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M12 22L12 13L5 6",
+      "closed": false
+    },
+    {
+      "d": "M5 10.5L5 6L9.5 6",
+      "closed": false
+    },
+    {
+      "d": "M14 11L19 6",
+      "closed": false
+    }
+  ]
+}

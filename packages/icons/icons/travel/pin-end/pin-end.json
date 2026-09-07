@@ -1,0 +1,33 @@
+{
+  "slug": "pin-end",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "End point",
+  "description": "The pin with a square in it — the journey ends here",
+  "tags": [
+    "end",
+    "to",
+    "destination"
+  ],
+  "aliases": [
+    "destination"
+  ],
+  "keywords": [
+    "end point",
+    "destination",
+    "journey ends",
+    "arrive here"
+  ],
+  "family": "pin",
+  "shapes": [
+    {
+      "d": "M4 10A8 8 0 0 1 20 10L12 18Z",
+      "closed": true,
+      "_why": "the teardrop `location` is drawn from; the mark sits where its ring sits"
+    },
+    {
+      "d": "M9.5 7.5L14.5 7.5L14.5 12.5L9.5 12.5Z",
+      "closed": true
+    }
+  ]
+}

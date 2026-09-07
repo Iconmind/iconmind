@@ -1,0 +1,32 @@
+{
+  "slug": "terrain",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Terrain",
+  "description": "Hills and a valley — the shape of the ground",
+  "tags": [
+    "terrain",
+    "relief",
+    "ground"
+  ],
+  "aliases": [
+    "relief"
+  ],
+  "keywords": [
+    "terrain",
+    "relief",
+    "ground shape",
+    "topography"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12L8 6L11 9L16 4L21 9",
+      "closed": false
+    },
+    {
+      "d": "M2 19L8 13L11 16L16 11L21 16",
+      "closed": false
+    }
+  ]
+}

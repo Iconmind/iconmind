@@ -1,0 +1,29 @@
+{
+  "slug": "north-arrow",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "North",
+  "description": "The arrow that always points the same way, with its N",
+  "tags": [
+    "north",
+    "arrow",
+    "orientation"
+  ],
+  "keywords": [
+    "north arrow",
+    "north",
+    "map orientation",
+    "which way up"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 2L22 12L12 22L2 12Z",
+      "closed": true
+    },
+    {
+      "d": "M2 12H22",
+      "closed": false
+    }
+  ]
+}

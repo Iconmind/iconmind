@@ -1,0 +1,33 @@
+{
+  "slug": "compass-rose",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Compass rose",
+  "description": "The four points drawn on the map",
+  "tags": [
+    "rose",
+    "points",
+    "cardinal"
+  ],
+  "keywords": [
+    "compass rose",
+    "cardinal points",
+    "north south east west",
+    "map rose"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 3L21 12L12 21L3 12Z",
+      "closed": true
+    },
+    {
+      "d": "M12 3V21",
+      "closed": false
+    },
+    {
+      "d": "M3 12H21",
+      "closed": false
+    }
+  ]
+}

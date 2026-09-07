@@ -1,0 +1,30 @@
+{
+  "slug": "drop-pin",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Drop a pin",
+  "description": "The pin standing over its shadow — dropped on the place",
+  "tags": [
+    "pin",
+    "drop",
+    "mark"
+  ],
+  "keywords": [
+    "drop a pin",
+    "mark this place",
+    "add pin",
+    "pin here"
+  ],
+  "family": "pin",
+  "shapes": [
+    {
+      "d": "M4 10A8 8 0 0 1 20 10L12 18Z",
+      "closed": true,
+      "_why": "the teardrop `location` is drawn from; the mark sits where its ring sits"
+    },
+    {
+      "d": "M8 21H16",
+      "closed": false
+    }
+  ]
+}

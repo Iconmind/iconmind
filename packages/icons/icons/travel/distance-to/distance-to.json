@@ -1,0 +1,41 @@
+{
+  "slug": "distance-to",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Distance",
+  "description": "Two pins with the measure between them",
+  "tags": [
+    "distance",
+    "how-far",
+    "measure"
+  ],
+  "keywords": [
+    "distance",
+    "how far",
+    "distance to",
+    "kilometres away"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 16H22",
+      "closed": false
+    },
+    {
+      "d": "M3 13.5V18.5",
+      "closed": false
+    },
+    {
+      "d": "M21 13.5V18.5",
+      "closed": false
+    }
+  ]
+}

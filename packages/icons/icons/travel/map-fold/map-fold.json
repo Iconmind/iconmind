@@ -1,0 +1,45 @@
+{
+  "slug": "map-fold",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Fold the map",
+  "description": "The map with an arrow closing it — folded away",
+  "tags": [
+    "fold",
+    "close",
+    "put-away"
+  ],
+  "keywords": [
+    "fold the map",
+    "close map",
+    "put the map away",
+    "collapse map"
+  ],
+  "family": "map",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M6 4V20",
+      "closed": false
+    },
+    {
+      "d": "M18 4V20",
+      "closed": false
+    },
+    {
+      "d": "M9.5 10L12 7.5L14.5 10",
+      "closed": false
+    },
+    {
+      "d": "M12 7.5V16.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 14L12 16.5L14.5 14",
+      "closed": false
+    }
+  ]
+}

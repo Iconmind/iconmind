@@ -1,0 +1,33 @@
+{
+  "slug": "map-layer",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Map layers",
+  "description": "Two sheets over one another — the map, and what is drawn on top of it",
+  "tags": [
+    "layers",
+    "overlay",
+    "stack"
+  ],
+  "keywords": [
+    "map layers",
+    "overlay",
+    "layer control",
+    "map style layers"
+  ],
+  "family": "map",
+  "shapes": [
+    {
+      "d": "M12 2L19 9L12 16L5 9Z",
+      "closed": true
+    },
+    {
+      "d": "M6 13L12 19L18 13",
+      "closed": false
+    },
+    {
+      "d": "M8 17L12 21L16 17",
+      "closed": false
+    }
+  ]
+}

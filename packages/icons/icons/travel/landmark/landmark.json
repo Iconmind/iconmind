@@ -1,0 +1,36 @@
+{
+  "slug": "landmark",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Landmark",
+  "description": "A monument on its plinth — the thing you navigate by",
+  "tags": [
+    "landmark",
+    "monument",
+    "sight"
+  ],
+  "aliases": [
+    "monument"
+  ],
+  "keywords": [
+    "landmark",
+    "monument",
+    "famous sight",
+    "navigate by"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 17L8 7L12 3L16 7L16 17",
+      "closed": false
+    },
+    {
+      "d": "M4 17H20",
+      "closed": false
+    },
+    {
+      "d": "M2 20H22",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "route-marker",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Route marker",
+  "description": "The marker that says which way the path goes",
+  "tags": [
+    "marker",
+    "blaze",
+    "sign"
+  ],
+  "keywords": [
+    "route marker",
+    "trail blaze",
+    "way marker",
+    "path sign"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 3L18 3L18 12L12 18L6 12Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 8L12 10.5L14.5 8",
+      "closed": false
+    }
+  ]
+}

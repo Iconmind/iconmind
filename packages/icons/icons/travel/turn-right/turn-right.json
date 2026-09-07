@@ -1,0 +1,29 @@
+{
+  "slug": "turn-right",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Turn right",
+  "description": "The road that goes up and turns right",
+  "tags": [
+    "right",
+    "turn",
+    "direction"
+  ],
+  "keywords": [
+    "turn right",
+    "right turn",
+    "go right",
+    "next right"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M8 21L8 9L17 9",
+      "closed": false
+    },
+    {
+      "d": "M14 6L17 9L14 12",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "pin-start",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Start point",
+  "description": "The pin with a play in it — the journey begins here",
+  "tags": [
+    "start",
+    "from",
+    "origin"
+  ],
+  "aliases": [
+    "origin"
+  ],
+  "keywords": [
+    "start point",
+    "from here",
+    "origin",
+    "journey starts"
+  ],
+  "family": "pin",
+  "shapes": [
+    {
+      "d": "M4 10A8 8 0 0 1 20 10L12 18Z",
+      "closed": true,
+      "_why": "the teardrop `location` is drawn from; the mark sits where its ring sits"
+    },
+    {
+      "d": "M10 7L13 10L10 13Z",
+      "closed": true
+    }
+  ]
+}

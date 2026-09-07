@@ -1,0 +1,36 @@
+{
+  "slug": "country-flag",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Country",
+  "description": "A flag on its pole — which country you are in",
+  "tags": [
+    "flag",
+    "country",
+    "nation"
+  ],
+  "aliases": [
+    "flag"
+  ],
+  "keywords": [
+    "country flag",
+    "flag",
+    "nation",
+    "which country"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 2V22",
+      "closed": false
+    },
+    {
+      "d": "M5 4L19 4L19 13L5 13",
+      "closed": false
+    },
+    {
+      "d": "M5 8.5H19",
+      "closed": false
+    }
+  ]
+}

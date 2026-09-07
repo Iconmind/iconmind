@@ -1,0 +1,37 @@
+{
+  "slug": "route-planner",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Plan a route",
+  "description": "The map with a route drawn across it",
+  "tags": [
+    "planner",
+    "plan",
+    "draw"
+  ],
+  "keywords": [
+    "route planner",
+    "plan a route",
+    "draw a route",
+    "trip planner"
+  ],
+  "family": "map",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M6 4V20",
+      "closed": false
+    },
+    {
+      "d": "M18 4V20",
+      "closed": false
+    },
+    {
+      "d": "M6 16L10 16L10 9L17 9",
+      "closed": false
+    }
+  ]
+}

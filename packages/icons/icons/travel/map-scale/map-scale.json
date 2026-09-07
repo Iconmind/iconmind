@@ -1,0 +1,41 @@
+{
+  "slug": "map-scale",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Map scale",
+  "description": "The bar that says how far a centimetre is",
+  "tags": [
+    "scale",
+    "distance",
+    "bar"
+  ],
+  "keywords": [
+    "map scale",
+    "scale bar",
+    "distance scale",
+    "how far"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 11H21",
+      "closed": false
+    },
+    {
+      "d": "M3 11V17",
+      "closed": false
+    },
+    {
+      "d": "M9 11V15",
+      "closed": false
+    },
+    {
+      "d": "M15 11V15",
+      "closed": false
+    },
+    {
+      "d": "M21 11V17",
+      "closed": false
+    }
+  ]
+}

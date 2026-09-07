@@ -1,0 +1,33 @@
+{
+  "slug": "keep-right",
+  "category": "travel",
+  "subcategory": "navigation",
+  "name": "Keep right",
+  "description": "The road that forks, the right one taken",
+  "tags": [
+    "fork",
+    "right",
+    "bear"
+  ],
+  "keywords": [
+    "keep right",
+    "bear right",
+    "fork right",
+    "take the right"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M12 22L12 13L19 6",
+      "closed": false
+    },
+    {
+      "d": "M19 10.5L19 6L14.5 6",
+      "closed": false
+    },
+    {
+      "d": "M10 11L5 6",
+      "closed": false
+    }
+  ]
+}
