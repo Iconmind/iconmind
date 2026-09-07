@@ -1,0 +1,41 @@
+{
+  "slug": "ceiling-light",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Ceiling light",
+  "description": "The shade hanging from the ceiling",
+  "tags": [
+    "light",
+    "ceiling",
+    "pendant"
+  ],
+  "aliases": [
+    "pendant-light"
+  ],
+  "keywords": [
+    "ceiling light",
+    "pendant",
+    "hanging light",
+    "overhead"
+  ],
+  "family": "lamp",
+  "shapes": [
+    {
+      "d": "M8 3H16",
+      "closed": false
+    },
+    {
+      "d": "M12 3V9",
+      "closed": false
+    },
+    {
+      "d": "M5 16A7 7 0 0 1 19 16Z",
+      "closed": true,
+      "_why": "the shade, spreading out"
+    },
+    {
+      "d": "M9 20L15 20",
+      "closed": false
+    }
+  ]
+}

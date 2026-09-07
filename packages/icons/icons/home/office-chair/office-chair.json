@@ -1,0 +1,40 @@
+{
+  "slug": "office-chair",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Office chair",
+  "description": "The seat on its castors",
+  "tags": [
+    "chair",
+    "swivel",
+    "castors"
+  ],
+  "aliases": [
+    "swivel-chair"
+  ],
+  "keywords": [
+    "office chair",
+    "swivel chair",
+    "castors",
+    "desk chair"
+  ],
+  "family": "chair",
+  "shapes": [
+    {
+      "d": "M6 5A2 2 0 0 1 8 3H16A2 2 0 0 1 18 5V9A2 2 0 0 1 16 11H8A2 2 0 0 1 6 9Z",
+      "closed": true
+    },
+    {
+      "d": "M5 14H19",
+      "closed": false
+    },
+    {
+      "d": "M12 14V17",
+      "closed": false
+    },
+    {
+      "d": "M8 20L12 16L16 20",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "dining-table",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Dining table",
+  "description": "The table laid for two",
+  "tags": [
+    "dining",
+    "table",
+    "meal"
+  ],
+  "keywords": [
+    "dining table",
+    "the table",
+    "sit down to eat",
+    "laid for two"
+  ],
+  "family": "table",
+  "shapes": [
+    {
+      "d": "M2 11H22",
+      "closed": false
+    },
+    {
+      "d": "M5 11V21",
+      "closed": false
+    },
+    {
+      "d": "M19 11V21",
+      "closed": false
+    },
+    {
+      "d": "M5 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

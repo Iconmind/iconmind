@@ -1,0 +1,32 @@
+{
+  "slug": "attic",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Loft",
+  "description": "The room in the roof",
+  "tags": [
+    "attic",
+    "loft",
+    "roof-space"
+  ],
+  "aliases": [
+    "loft"
+  ],
+  "keywords": [
+    "attic",
+    "loft",
+    "roof space",
+    "up in the roof"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 17L12 8L21 17Z",
+      "closed": true
+    },
+    {
+      "d": "M10 11L14 11L14 14L10 14Z",
+      "closed": true
+    }
+  ]
+}

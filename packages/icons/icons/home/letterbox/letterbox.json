@@ -1,0 +1,41 @@
+{
+  "slug": "letterbox",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Post box",
+  "description": "The box the post goes in",
+  "tags": [
+    "letterbox",
+    "post",
+    "mail"
+  ],
+  "aliases": [
+    "mailbox"
+  ],
+  "keywords": [
+    "letterbox",
+    "post box",
+    "mailbox",
+    "the post"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 16V10A6 6 0 0 1 16 10V16Z",
+      "closed": true,
+      "_why": "the box with its rounded top"
+    },
+    {
+      "d": "M6 12H14",
+      "closed": false
+    },
+    {
+      "d": "M10 16V21",
+      "closed": false
+    },
+    {
+      "d": "M16 8L20 8",
+      "closed": false
+    }
+  ]
+}

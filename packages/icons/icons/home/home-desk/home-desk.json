@@ -1,0 +1,41 @@
+{
+  "slug": "home-desk",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Desk",
+  "description": "The desk with drawers down one side",
+  "tags": [
+    "desk",
+    "drawers",
+    "work"
+  ],
+  "keywords": [
+    "desk",
+    "writing desk",
+    "drawers",
+    "work surface"
+  ],
+  "family": "desk",
+  "shapes": [
+    {
+      "d": "M2 7H22",
+      "closed": false
+    },
+    {
+      "d": "M4 7V20",
+      "closed": false
+    },
+    {
+      "d": "M13 7L13 20L20 20L20 7",
+      "closed": false
+    },
+    {
+      "d": "M13 12H20",
+      "closed": false
+    },
+    {
+      "d": "M13 16H20",
+      "closed": false
+    }
+  ]
+}

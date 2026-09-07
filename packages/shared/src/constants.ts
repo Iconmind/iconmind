@@ -101,6 +101,7 @@ export const DOMAINS = [
   "ai", "agents", "mcp", "rag", "data", "devops",
   "cloud", "security", "automation", "analytics", "devtools", "interface",
   "commerce", "finance", "travel", "weather", "health", "education",
+  "home", "social",
 ] as const;
 export type Domain = (typeof DOMAINS)[number];
 
@@ -112,6 +113,7 @@ export const DOMAIN_TITLE: Record<Domain, string> = {
   commerce: "Commerce", finance: "Finance",
   travel: "Travel", weather: "Weather",
   health: "Health", education: "Education",
+  home: "Home", social: "Social",
 };
 
 /** CANON C5 / doc 02 §2.4 — subcategories per domain. */
@@ -134,6 +136,8 @@ export const SUBCATEGORIES: Record<Domain, readonly string[]> = {
   weather: ["sky","storm","temperature","nature","climate"],
   health: ["medical","fitness","nutrition","mind","care"],
   education: ["school","reading","course","science","arts"],
+  home: ["room","appliance","kitchen","garden","household"],
+  social: ["people","event","sport","game","hobby"],
 };
 
 /**

@@ -1,0 +1,45 @@
+{
+  "slug": "home-balcony",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Balcony",
+  "description": "The rail outside the window",
+  "tags": [
+    "balcony",
+    "rail",
+    "outside"
+  ],
+  "keywords": [
+    "balcony",
+    "the rail outside",
+    "terrace",
+    "step out"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 3L4 12L20 12L20 3",
+      "closed": false
+    },
+    {
+      "d": "M2 15H22",
+      "closed": false
+    },
+    {
+      "d": "M5 15V21",
+      "closed": false
+    },
+    {
+      "d": "M12 15V21",
+      "closed": false
+    },
+    {
+      "d": "M19 15V21",
+      "closed": false
+    },
+    {
+      "d": "M2 21H22",
+      "closed": false
+    }
+  ]
+}

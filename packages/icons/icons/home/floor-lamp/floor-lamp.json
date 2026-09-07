@@ -1,0 +1,36 @@
+{
+  "slug": "floor-lamp",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Floor lamp",
+  "description": "The shade on its stand",
+  "tags": [
+    "lamp",
+    "floor",
+    "standing"
+  ],
+  "aliases": [
+    "standard-lamp"
+  ],
+  "keywords": [
+    "floor lamp",
+    "standard lamp",
+    "standing light",
+    "lamp"
+  ],
+  "family": "lamp",
+  "shapes": [
+    {
+      "d": "M5 10L9 6L15 6L19 10Z",
+      "closed": true
+    },
+    {
+      "d": "M12 10V20",
+      "closed": false
+    },
+    {
+      "d": "M8 20H16",
+      "closed": false
+    }
+  ]
+}

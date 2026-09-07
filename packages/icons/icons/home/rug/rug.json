@@ -1,0 +1,34 @@
+{
+  "slug": "rug",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Rug",
+  "description": "The rug with its border",
+  "tags": [
+    "rug",
+    "carpet",
+    "floor"
+  ],
+  "aliases": [
+    "carpet"
+  ],
+  "keywords": [
+    "rug",
+    "carpet",
+    "on the floor",
+    "the rug"
+  ],
+  "family": "mat",
+  "shapes": [
+    {
+      "d": "M3 12A9 4.5 0 1 1 21 12A9 4.5 0 1 1 3 12Z",
+      "closed": true,
+      "_why": "the rug, an oval on the floor"
+    },
+    {
+      "d": "M6 12A6 3 0 1 1 18 12A6 3 0 1 1 6 12Z",
+      "closed": true,
+      "_why": "its border, inside the edge"
+    }
+  ]
+}

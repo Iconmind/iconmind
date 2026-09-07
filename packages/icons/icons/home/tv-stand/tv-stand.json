@@ -1,0 +1,40 @@
+{
+  "slug": "tv-stand",
+  "category": "home",
+  "subcategory": "room",
+  "name": "TV stand",
+  "description": "The screen on its unit",
+  "tags": [
+    "tv",
+    "stand",
+    "unit"
+  ],
+  "aliases": [
+    "television"
+  ],
+  "keywords": [
+    "tv stand",
+    "television unit",
+    "the telly",
+    "media unit"
+  ],
+  "family": "screen",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V11A2 2 0 0 1 18 13H6A2 2 0 0 1 4 11Z",
+      "closed": true
+    },
+    {
+      "d": "M12 13L12 16",
+      "closed": false
+    },
+    {
+      "d": "M3 16L21 16L21 21L3 21Z",
+      "closed": true
+    },
+    {
+      "d": "M12 16V21",
+      "closed": false
+    }
+  ]
+}

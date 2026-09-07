@@ -1,0 +1,34 @@
+{
+  "slug": "mirror",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Mirror",
+  "description": "The glass on its stand",
+  "tags": [
+    "mirror",
+    "glass",
+    "reflection"
+  ],
+  "keywords": [
+    "mirror",
+    "looking glass",
+    "reflection",
+    "check yourself"
+  ],
+  "family": "mirror",
+  "shapes": [
+    {
+      "d": "M6 12A6 9 0 1 1 18 12A6 9 0 1 1 6 12Z",
+      "closed": true,
+      "_why": "the glass, an upright oval"
+    },
+    {
+      "d": "M8 21H16",
+      "closed": false
+    },
+    {
+      "d": "M12 21L12 18",
+      "closed": false
+    }
+  ]
+}

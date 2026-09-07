@@ -1,0 +1,36 @@
+{
+  "slug": "basement",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Cellar",
+  "description": "The steps down under the floor",
+  "tags": [
+    "basement",
+    "cellar",
+    "down"
+  ],
+  "aliases": [
+    "cellar"
+  ],
+  "keywords": [
+    "basement",
+    "cellar",
+    "downstairs",
+    "under the house"
+  ],
+  "family": "stairs",
+  "shapes": [
+    {
+      "d": "M2 6H22",
+      "closed": false
+    },
+    {
+      "d": "M4 6L4 11L9 11L9 15L14 15L14 19L20 19",
+      "closed": false
+    },
+    {
+      "d": "M20 18.5L20 21",
+      "closed": false
+    }
+  ]
+}

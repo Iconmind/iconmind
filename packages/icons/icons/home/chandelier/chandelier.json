@@ -1,0 +1,45 @@
+{
+  "slug": "chandelier",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Chandelier",
+  "description": "The arms with a light on each",
+  "tags": [
+    "chandelier",
+    "arms",
+    "lights"
+  ],
+  "keywords": [
+    "chandelier",
+    "branched light",
+    "arms",
+    "grand light"
+  ],
+  "family": "lamp",
+  "shapes": [
+    {
+      "d": "M12 4V11",
+      "closed": false
+    },
+    {
+      "d": "M5 11H19",
+      "closed": false
+    },
+    {
+      "d": "M5 11L5 16",
+      "closed": false
+    },
+    {
+      "d": "M19 11L19 16",
+      "closed": false
+    },
+    {
+      "d": "M2 16A3 3 0 0 1 8 16",
+      "closed": false
+    },
+    {
+      "d": "M16 16A3 3 0 0 1 22 16",
+      "closed": false
+    }
+  ]
+}

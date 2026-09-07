@@ -1,0 +1,41 @@
+{
+  "slug": "bathtub",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Bath",
+  "description": "The tub on its feet",
+  "tags": [
+    "bath",
+    "tub",
+    "soak"
+  ],
+  "aliases": [
+    "tub"
+  ],
+  "keywords": [
+    "bath",
+    "bathtub",
+    "have a soak",
+    "run a bath"
+  ],
+  "family": "bath",
+  "shapes": [
+    {
+      "d": "M3 11H21V15A4 4 0 0 1 17 19H7A4 4 0 0 1 3 15Z",
+      "closed": true,
+      "_why": "the tub, rounded at the bottom"
+    },
+    {
+      "d": "M6 18.5L6 21",
+      "closed": false
+    },
+    {
+      "d": "M18 18.5L18 21",
+      "closed": false
+    },
+    {
+      "d": "M3 11L3 7",
+      "closed": false
+    }
+  ]
+}

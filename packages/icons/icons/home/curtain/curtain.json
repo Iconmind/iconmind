@@ -1,0 +1,48 @@
+{
+  "slug": "curtain",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Curtains",
+  "description": "The two drops on their rail",
+  "tags": [
+    "curtain",
+    "drapes",
+    "rail"
+  ],
+  "aliases": [
+    "drapes"
+  ],
+  "keywords": [
+    "curtains",
+    "drapes",
+    "on the rail",
+    "draw the curtains"
+  ],
+  "family": "curtain",
+  "shapes": [
+    {
+      "d": "M2 4H22",
+      "closed": false
+    },
+    {
+      "d": "M6 4C6 10 4 12 4 21",
+      "closed": false,
+      "_why": "the left drop"
+    },
+    {
+      "d": "M9 4C9 12 11 14 11 21",
+      "closed": false,
+      "_why": "the fold beside it"
+    },
+    {
+      "d": "M15 4C15 12 13 14 13 21",
+      "closed": false,
+      "_why": "the fold on the other side"
+    },
+    {
+      "d": "M18 4C18 10 20 12 20 21",
+      "closed": false,
+      "_why": "the right drop"
+    }
+  ]
+}

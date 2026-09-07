@@ -1,0 +1,36 @@
+{
+  "slug": "front-door",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Front door",
+  "description": "The door and its handle",
+  "tags": [
+    "door",
+    "entrance",
+    "handle"
+  ],
+  "aliases": [
+    "door"
+  ],
+  "keywords": [
+    "front door",
+    "the door",
+    "entrance",
+    "way in"
+  ],
+  "family": "door",
+  "shapes": [
+    {
+      "d": "M5 21L5 5L19 5L19 21Z",
+      "closed": true
+    },
+    {
+      "d": "M15 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 9H19",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "living-room",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Living room",
+  "description": "The sofa with the light beside it",
+  "tags": [
+    "living-room",
+    "lounge",
+    "sitting"
+  ],
+  "aliases": [
+    "lounge"
+  ],
+  "keywords": [
+    "living room",
+    "lounge",
+    "sitting room",
+    "the front room"
+  ],
+  "family": "couch",
+  "shapes": [
+    {
+      "d": "M3 19L3 9L15 9L15 19",
+      "closed": false
+    },
+    {
+      "d": "M3 14H15",
+      "closed": false
+    },
+    {
+      "d": "M9 9L9 14",
+      "closed": false
+    },
+    {
+      "d": "M19 9V19",
+      "closed": false
+    },
+    {
+      "d": "M16 9L19 6L22 9",
+      "closed": false
+    }
+  ]
+}

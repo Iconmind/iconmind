@@ -1,0 +1,37 @@
+{
+  "slug": "doorbell",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Doorbell",
+  "description": "The button by the door",
+  "tags": [
+    "doorbell",
+    "bell",
+    "ring"
+  ],
+  "keywords": [
+    "doorbell",
+    "ring the bell",
+    "push the button",
+    "at the door"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 5A2 2 0 0 1 9 3H15A2 2 0 0 1 17 5V19A2 2 0 0 1 15 21H9A2 2 0 0 1 7 19Z",
+      "closed": true
+    },
+    {
+      "d": "M9 9a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 16H15",
+      "closed": false
+    }
+  ]
+}

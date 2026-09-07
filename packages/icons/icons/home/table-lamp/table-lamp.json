@@ -1,0 +1,33 @@
+{
+  "slug": "table-lamp",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Table lamp",
+  "description": "The little shade on its base",
+  "tags": [
+    "lamp",
+    "table",
+    "bedside"
+  ],
+  "keywords": [
+    "table lamp",
+    "bedside lamp",
+    "little lamp",
+    "light"
+  ],
+  "family": "lamp",
+  "shapes": [
+    {
+      "d": "M4 12L9 7L15 7L20 12Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12V20",
+      "closed": false
+    },
+    {
+      "d": "M8 20H16",
+      "closed": false
+    }
+  ]
+}

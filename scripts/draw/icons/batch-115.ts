@@ -190,7 +190,7 @@ export const BATCH_115: Icon[] = [
     ["closed", "after-hours", "shut"], [], ["market closed", "trading closed", "after hours", "closing bell"],
     "horizon", [row(18, 3, 21), raw("M12 3A6.5 6.5 0 1 0 18.5 12.5A5.5 5.5 0 0 1 12 3Z", "a crescent: the long way round one circle, the short way back on a smaller one", true)]),
   c("retirement-plan", "Retirement plan", "An armchair — the years the plan pays for",
-    ["retirement", "pension", "future"], ["armchair"], ["retirement plan", "retirement savings", "armchair", "retire"],
+    ["retirement", "pension", "future"], [], ["retirement plan", "retirement savings", "armchair", "retire"],
     "chair", [rect(3, 10, 18, 8, 2), poly([[6, 10], [6, 4], [18, 4], [18, 10]]), col(6, 18, 21), col(18, 18, 21)]),
   c("robo-advisor", "Robo-advisor", "A robot's head — the algorithm that picks for you",
     ["robot", "automated", "advice"], [], ["robo advisor", "robo-advisor", "automated investing", "algorithmic advice"],

@@ -1,0 +1,45 @@
+{
+  "slug": "bookcase",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Bookcase",
+  "description": "The case with books on every shelf",
+  "tags": [
+    "bookcase",
+    "shelves",
+    "books"
+  ],
+  "keywords": [
+    "bookcase",
+    "shelving unit",
+    "shelves",
+    "books"
+  ],
+  "family": "shelf",
+  "shapes": [
+    {
+      "d": "M4 4A2 2 0 0 1 6 2H18A2 2 0 0 1 20 4V20A2 2 0 0 1 18 22H6A2 2 0 0 1 4 20Z",
+      "closed": true
+    },
+    {
+      "d": "M4 9H20",
+      "closed": false
+    },
+    {
+      "d": "M4 15H20",
+      "closed": false
+    },
+    {
+      "d": "M8 4V9",
+      "closed": false
+    },
+    {
+      "d": "M11 4V9",
+      "closed": false
+    },
+    {
+      "d": "M8 15V21",
+      "closed": false
+    }
+  ]
+}

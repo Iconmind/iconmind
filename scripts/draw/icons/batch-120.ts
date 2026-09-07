@@ -81,7 +81,7 @@ export const BATCH_120: Icon[] = [
 
   /* ── the room ───────────────────────────────────────────────────────────────── */
   c("double-bed", "Double bed", "A bed with two pillows on it",
-    ["bed", "double", "room"], ["bed"], ["double bed", "bed", "double room", "queen bed"],
+    ["bed", "double", "room"], [], ["double bed", "bed", "double room", "queen bed"],
     "bed", [poly([[2, 18], [2, 11], [22, 11], [22, 18]]), row(14.5, 2, 22), poly([[4, 11], [4, 8], [9, 8], [9, 11]]), poly([[13, 11], [13, 8], [18, 8], [18, 11]])]),
   c("twin-beds", "Twin beds", "Two single beds side by side",
     ["beds", "twin", "single"], [], ["twin beds", "two singles", "twin room", "separate beds"],

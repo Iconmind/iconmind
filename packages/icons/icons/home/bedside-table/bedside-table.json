@@ -1,0 +1,44 @@
+{
+  "slug": "bedside-table",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Bedside table",
+  "description": "The little table with its drawer",
+  "tags": [
+    "bedside",
+    "nightstand",
+    "drawer"
+  ],
+  "aliases": [
+    "nightstand"
+  ],
+  "keywords": [
+    "bedside table",
+    "nightstand",
+    "by the bed",
+    "drawer"
+  ],
+  "family": "table",
+  "shapes": [
+    {
+      "d": "M5 18L5 7L19 7L19 18Z",
+      "closed": true
+    },
+    {
+      "d": "M5 13H19",
+      "closed": false
+    },
+    {
+      "d": "M10 10H14",
+      "closed": false
+    },
+    {
+      "d": "M7 18V21",
+      "closed": false
+    },
+    {
+      "d": "M17 18V21",
+      "closed": false
+    }
+  ]
+}

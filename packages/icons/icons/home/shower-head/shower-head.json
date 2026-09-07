@@ -1,0 +1,41 @@
+{
+  "slug": "shower-head",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Shower",
+  "description": "The head and the water off it",
+  "tags": [
+    "shower",
+    "head",
+    "water"
+  ],
+  "keywords": [
+    "shower",
+    "shower head",
+    "water",
+    "have a shower"
+  ],
+  "family": "shower",
+  "shapes": [
+    {
+      "d": "M6 6L18 6L15 9L9 9Z",
+      "closed": true
+    },
+    {
+      "d": "M12 3V6",
+      "closed": false
+    },
+    {
+      "d": "M9 12L9 15",
+      "closed": false
+    },
+    {
+      "d": "M12 12L12 17",
+      "closed": false
+    },
+    {
+      "d": "M15 12L15 15",
+      "closed": false
+    }
+  ]
+}

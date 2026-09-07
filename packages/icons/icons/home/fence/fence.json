@@ -1,0 +1,41 @@
+{
+  "slug": "fence",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Fence",
+  "description": "The palings and their rails",
+  "tags": [
+    "fence",
+    "palings",
+    "boundary"
+  ],
+  "keywords": [
+    "fence",
+    "garden fence",
+    "palings",
+    "boundary"
+  ],
+  "family": "fence",
+  "shapes": [
+    {
+      "d": "M4 7V21",
+      "closed": false
+    },
+    {
+      "d": "M11 7V21",
+      "closed": false
+    },
+    {
+      "d": "M18 7V21",
+      "closed": false
+    },
+    {
+      "d": "M4 11H18",
+      "closed": false
+    },
+    {
+      "d": "M4 16H18",
+      "closed": false
+    }
+  ]
+}

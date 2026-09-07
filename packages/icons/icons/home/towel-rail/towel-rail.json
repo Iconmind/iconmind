@@ -1,0 +1,37 @@
+{
+  "slug": "towel-rail",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Towel rail",
+  "description": "The towel over the rail",
+  "tags": [
+    "towel",
+    "rail",
+    "dry"
+  ],
+  "keywords": [
+    "towel rail",
+    "hang the towel",
+    "towel",
+    "dry off"
+  ],
+  "family": "rail",
+  "shapes": [
+    {
+      "d": "M3 4H21",
+      "closed": false
+    },
+    {
+      "d": "M3 4V7",
+      "closed": false
+    },
+    {
+      "d": "M21 4V7",
+      "closed": false
+    },
+    {
+      "d": "M7 4L7 19L15 19L15 4",
+      "closed": false
+    }
+  ]
+}

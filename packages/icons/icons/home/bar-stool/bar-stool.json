@@ -1,0 +1,37 @@
+{
+  "slug": "bar-stool",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Stool",
+  "description": "The seat on a splayed leg",
+  "tags": [
+    "stool",
+    "bar",
+    "footrest"
+  ],
+  "keywords": [
+    "bar stool",
+    "stool",
+    "high seat",
+    "footrest"
+  ],
+  "family": "chair",
+  "shapes": [
+    {
+      "d": "M4 6H20",
+      "closed": false
+    },
+    {
+      "d": "M12 6V16",
+      "closed": false
+    },
+    {
+      "d": "M8 20L12 16L16 20",
+      "closed": false
+    },
+    {
+      "d": "M9 13H15",
+      "closed": false
+    }
+  ]
+}

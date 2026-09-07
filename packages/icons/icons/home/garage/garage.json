@@ -1,0 +1,33 @@
+{
+  "slug": "garage",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Garage",
+  "description": "The up-and-over door",
+  "tags": [
+    "garage",
+    "door",
+    "car"
+  ],
+  "keywords": [
+    "garage",
+    "garage door",
+    "where the car goes",
+    "up and over"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 20L3 12L12 3L21 12L21 20Z",
+      "closed": true
+    },
+    {
+      "d": "M6 13H18",
+      "closed": false
+    },
+    {
+      "d": "M6 16.5H18",
+      "closed": false
+    }
+  ]
+}

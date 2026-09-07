@@ -1,0 +1,40 @@
+{
+  "slug": "wardrobe",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Wardrobe",
+  "description": "The two doors and their handles",
+  "tags": [
+    "wardrobe",
+    "closet",
+    "doors"
+  ],
+  "aliases": [
+    "closet"
+  ],
+  "keywords": [
+    "wardrobe",
+    "closet",
+    "hanging space",
+    "two doors"
+  ],
+  "family": "cabinet",
+  "shapes": [
+    {
+      "d": "M4 4A2 2 0 0 1 6 2H18A2 2 0 0 1 20 4V20A2 2 0 0 1 18 22H6A2 2 0 0 1 4 20Z",
+      "closed": true
+    },
+    {
+      "d": "M12 2V22",
+      "closed": false
+    },
+    {
+      "d": "M9 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

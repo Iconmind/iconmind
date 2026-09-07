@@ -1,0 +1,37 @@
+{
+  "slug": "house-window",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Window",
+  "description": "The panes and the sill under them",
+  "tags": [
+    "window",
+    "panes",
+    "frame"
+  ],
+  "keywords": [
+    "window",
+    "the window",
+    "panes",
+    "look out"
+  ],
+  "family": "pane",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V15A2 2 0 0 1 18 17H6A2 2 0 0 1 4 15Z",
+      "closed": true
+    },
+    {
+      "d": "M12 3V17",
+      "closed": false
+    },
+    {
+      "d": "M4 10H20",
+      "closed": false
+    },
+    {
+      "d": "M2 20H22",
+      "closed": false
+    }
+  ]
+}

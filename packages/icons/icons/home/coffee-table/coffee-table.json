@@ -1,0 +1,37 @@
+{
+  "slug": "coffee-table",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Coffee table",
+  "description": "The low table with a shelf",
+  "tags": [
+    "table",
+    "low",
+    "shelf"
+  ],
+  "keywords": [
+    "coffee table",
+    "low table",
+    "in front of the sofa",
+    "shelf"
+  ],
+  "family": "table",
+  "shapes": [
+    {
+      "d": "M2 8H22",
+      "closed": false
+    },
+    {
+      "d": "M5 8V20",
+      "closed": false
+    },
+    {
+      "d": "M19 8V20",
+      "closed": false
+    },
+    {
+      "d": "M5 15H19",
+      "closed": false
+    }
+  ]
+}

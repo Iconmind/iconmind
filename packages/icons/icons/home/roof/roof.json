@@ -1,0 +1,33 @@
+{
+  "slug": "roof",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Roof",
+  "description": "The pitch with its tiles",
+  "tags": [
+    "roof",
+    "tiles",
+    "pitch"
+  ],
+  "keywords": [
+    "roof",
+    "roof tiles",
+    "the pitch",
+    "over your head"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 18L12 8L22 18Z",
+      "closed": true
+    },
+    {
+      "d": "M7 13L17 13",
+      "closed": false
+    },
+    {
+      "d": "M12 13V18",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "dining-chair",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Chair",
+  "description": "The seat with its tall back",
+  "tags": [
+    "chair",
+    "seat",
+    "back"
+  ],
+  "aliases": [
+    "seat"
+  ],
+  "keywords": [
+    "dining chair",
+    "a chair",
+    "seat",
+    "sit"
+  ],
+  "family": "chair",
+  "shapes": [
+    {
+      "d": "M7 3L7 13L17 13L17 3",
+      "closed": false
+    },
+    {
+      "d": "M5 16H19",
+      "closed": false
+    },
+    {
+      "d": "M7 16V21",
+      "closed": false
+    },
+    {
+      "d": "M17 16V21",
+      "closed": false
+    },
+    {
+      "d": "M7 9H17",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "bed",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Bed",
+  "description": "The mattress, the pillow and the frame",
+  "tags": [
+    "bed",
+    "mattress",
+    "pillow"
+  ],
+  "keywords": [
+    "bed",
+    "single bed",
+    "mattress",
+    "make the bed"
+  ],
+  "family": "bed",
+  "shapes": [
+    {
+      "d": "M2 18L2 11L22 11L22 18",
+      "closed": false
+    },
+    {
+      "d": "M2 14H22",
+      "closed": false
+    },
+    {
+      "d": "M4 11L4 7L10 7L10 11",
+      "closed": false
+    },
+    {
+      "d": "M3 18V20.5",
+      "closed": false
+    },
+    {
+      "d": "M21 18V20.5",
+      "closed": false
+    }
+  ]
+}

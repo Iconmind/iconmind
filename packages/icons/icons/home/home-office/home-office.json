@@ -1,0 +1,44 @@
+{
+  "slug": "home-office",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Home office",
+  "description": "The desk with the screen on it",
+  "tags": [
+    "office",
+    "desk",
+    "work"
+  ],
+  "aliases": [
+    "study"
+  ],
+  "keywords": [
+    "home office",
+    "study",
+    "working from home",
+    "desk"
+  ],
+  "family": "desk",
+  "shapes": [
+    {
+      "d": "M6 5A2 2 0 0 1 8 3H16A2 2 0 0 1 18 5V10A2 2 0 0 1 16 12H8A2 2 0 0 1 6 10Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12L12 15",
+      "closed": false
+    },
+    {
+      "d": "M2 15H22",
+      "closed": false
+    },
+    {
+      "d": "M4 15V21",
+      "closed": false
+    },
+    {
+      "d": "M20 15V21",
+      "closed": false
+    }
+  ]
+}

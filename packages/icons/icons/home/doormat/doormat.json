@@ -1,0 +1,32 @@
+{
+  "slug": "doormat",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Doormat",
+  "description": "The mat at the door",
+  "tags": [
+    "mat",
+    "welcome",
+    "wipe"
+  ],
+  "aliases": [
+    "mat"
+  ],
+  "keywords": [
+    "doormat",
+    "welcome mat",
+    "wipe your feet",
+    "the mat"
+  ],
+  "family": "mat",
+  "shapes": [
+    {
+      "d": "M3 16L10 9L14 9L21 16Z",
+      "closed": true
+    },
+    {
+      "d": "M8 12L16 12",
+      "closed": false
+    }
+  ]
+}

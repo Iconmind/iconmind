@@ -1,0 +1,37 @@
+{
+  "slug": "bunk-bed",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Bunk bed",
+  "description": "One bed over the other",
+  "tags": [
+    "bunk",
+    "two",
+    "ladder"
+  ],
+  "keywords": [
+    "bunk bed",
+    "bunks",
+    "top bunk",
+    "two beds"
+  ],
+  "family": "bed",
+  "shapes": [
+    {
+      "d": "M3 11L3 4L21 4L21 11",
+      "closed": false
+    },
+    {
+      "d": "M3 7H21",
+      "closed": false
+    },
+    {
+      "d": "M3 21L3 14L21 14L21 21",
+      "closed": false
+    },
+    {
+      "d": "M3 17H21",
+      "closed": false
+    }
+  ]
+}

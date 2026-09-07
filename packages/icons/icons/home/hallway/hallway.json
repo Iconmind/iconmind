@@ -1,0 +1,44 @@
+{
+  "slug": "hallway",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Hall",
+  "description": "The doors either side of the way through",
+  "tags": [
+    "hall",
+    "corridor",
+    "landing"
+  ],
+  "aliases": [
+    "corridor"
+  ],
+  "keywords": [
+    "hallway",
+    "corridor",
+    "the hall",
+    "landing"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 4L9 4L9 18L3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M15 4L21 4L21 18L15 18Z",
+      "closed": true
+    },
+    {
+      "d": "M2 21H22",
+      "closed": false
+    },
+    {
+      "d": "M7 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

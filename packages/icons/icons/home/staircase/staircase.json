@@ -1,0 +1,32 @@
+{
+  "slug": "staircase",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Stairs",
+  "description": "The steps going up",
+  "tags": [
+    "stairs",
+    "steps",
+    "up"
+  ],
+  "aliases": [
+    "stairs"
+  ],
+  "keywords": [
+    "staircase",
+    "stairs",
+    "steps",
+    "up a floor"
+  ],
+  "family": "stairs",
+  "shapes": [
+    {
+      "d": "M3 21L3 17L8 17L8 13L13 13L13 9L18 9L18 5L21 5",
+      "closed": false
+    },
+    {
+      "d": "M3 21L21 21",
+      "closed": false
+    }
+  ]
+}

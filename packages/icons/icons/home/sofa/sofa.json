@@ -1,0 +1,44 @@
+{
+  "slug": "sofa",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Sofa",
+  "description": "Two seats and an arm each side",
+  "tags": [
+    "sofa",
+    "settee",
+    "seats"
+  ],
+  "aliases": [
+    "settee"
+  ],
+  "keywords": [
+    "sofa",
+    "settee",
+    "couch",
+    "two seater"
+  ],
+  "family": "couch",
+  "shapes": [
+    {
+      "d": "M5 19L5 8L19 8L19 19",
+      "closed": false
+    },
+    {
+      "d": "M5 14H19",
+      "closed": false
+    },
+    {
+      "d": "M12 8V14",
+      "closed": false
+    },
+    {
+      "d": "M2 19L2 14L5 14",
+      "closed": false
+    },
+    {
+      "d": "M22 19L22 14L19 14",
+      "closed": false
+    }
+  ]
+}

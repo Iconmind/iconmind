@@ -1,0 +1,36 @@
+{
+  "slug": "home-front",
+  "category": "home",
+  "subcategory": "room",
+  "name": "The front of the house",
+  "description": "The door with the window over it",
+  "tags": [
+    "front",
+    "facade",
+    "outside"
+  ],
+  "aliases": [
+    "facade"
+  ],
+  "keywords": [
+    "front of the house",
+    "facade",
+    "outside",
+    "the front"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 20L3 12L12 3L21 12L21 20Z",
+      "closed": true
+    },
+    {
+      "d": "M10 20L10 15L14 15L14 20",
+      "closed": false
+    },
+    {
+      "d": "M9 8L15 8L15 12L9 12Z",
+      "closed": true
+    }
+  ]
+}

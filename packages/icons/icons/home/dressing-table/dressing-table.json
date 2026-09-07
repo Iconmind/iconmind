@@ -1,0 +1,41 @@
+{
+  "slug": "dressing-table",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Dressing table",
+  "description": "The table with the mirror over it",
+  "tags": [
+    "dressing",
+    "table",
+    "mirror"
+  ],
+  "aliases": [
+    "vanity"
+  ],
+  "keywords": [
+    "dressing table",
+    "vanity",
+    "mirror and table",
+    "get ready"
+  ],
+  "family": "table",
+  "shapes": [
+    {
+      "d": "M7 9A5 6 0 1 1 17 9A5 6 0 1 1 7 9Z",
+      "closed": true,
+      "_why": "the mirror over the table"
+    },
+    {
+      "d": "M2 16H22",
+      "closed": false
+    },
+    {
+      "d": "M4 16V21",
+      "closed": false
+    },
+    {
+      "d": "M20 16V21",
+      "closed": false
+    }
+  ]
+}

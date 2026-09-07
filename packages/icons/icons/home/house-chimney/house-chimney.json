@@ -1,0 +1,36 @@
+{
+  "slug": "house-chimney",
+  "category": "home",
+  "subcategory": "room",
+  "name": "Chimney",
+  "description": "The stack on the roof with smoke off it",
+  "tags": [
+    "chimney",
+    "stack",
+    "smoke"
+  ],
+  "aliases": [
+    "flue"
+  ],
+  "keywords": [
+    "chimney",
+    "the stack",
+    "smoke",
+    "flue"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 21L9 14L16 21",
+      "closed": false
+    },
+    {
+      "d": "M13 14L13 5L19 5L19 21",
+      "closed": false
+    },
+    {
+      "d": "M13 8H19",
+      "closed": false
+    }
+  ]
+}
