@@ -1,0 +1,32 @@
+{
+  "slug": "tyre",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Tyre",
+  "description": "A tyre: the tread outside, the wheel inside",
+  "tags": [
+    "tyre",
+    "wheel",
+    "rubber"
+  ],
+  "aliases": [
+    "tire"
+  ],
+  "keywords": [
+    "tyre",
+    "tire",
+    "wheel",
+    "car tyre"
+  ],
+  "family": "wheel",
+  "shapes": [
+    {
+      "d": "M2 12a10 10 0 1 0 20 0a10 10 0 1 0 -20 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    }
+  ]
+}

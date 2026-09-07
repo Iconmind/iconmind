@@ -1,0 +1,36 @@
+{
+  "slug": "engine",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Engine",
+  "description": "The block with its cylinders on top — what turns the fuel into road",
+  "tags": [
+    "engine",
+    "motor",
+    "block"
+  ],
+  "aliases": [
+    "motor"
+  ],
+  "keywords": [
+    "engine",
+    "motor",
+    "engine block",
+    "under the bonnet"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 13A2 2 0 0 1 4 11H20A2 2 0 0 1 22 13V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M6 11L6 6L10 6L10 11",
+      "closed": false
+    },
+    {
+      "d": "M13 11L13 4L17 4L17 11",
+      "closed": false
+    }
+  ]
+}

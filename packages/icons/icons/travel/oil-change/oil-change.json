@@ -1,0 +1,30 @@
+{
+  "slug": "oil-change",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Oil change",
+  "description": "A drop falling into the pan below it — the oil, changed",
+  "tags": [
+    "oil",
+    "service",
+    "drop"
+  ],
+  "keywords": [
+    "oil change",
+    "engine oil",
+    "oil service",
+    "top up oil"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 2.5L16.5 7A6.5 6.5 0 1 1 7.5 7Z",
+      "closed": true,
+      "_why": "a drop: a point above one round belly, the two arcs meeting at the point"
+    },
+    {
+      "d": "M5 21H19",
+      "closed": false
+    }
+  ]
+}

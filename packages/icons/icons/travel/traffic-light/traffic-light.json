@@ -1,0 +1,44 @@
+{
+  "slug": "traffic-light",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Traffic light",
+  "description": "Three lamps in a case on a post",
+  "tags": [
+    "signal",
+    "lights",
+    "stop"
+  ],
+  "aliases": [
+    "stoplight"
+  ],
+  "keywords": [
+    "traffic light",
+    "traffic signal",
+    "stoplight",
+    "red light"
+  ],
+  "family": "light",
+  "shapes": [
+    {
+      "d": "M6 4A2 2 0 0 1 8 2H16A2 2 0 0 1 18 4V16A2 2 0 0 1 16 18H8A2 2 0 0 1 6 16Z",
+      "closed": true
+    },
+    {
+      "d": "M12 18V22",
+      "closed": false
+    },
+    {
+      "d": "M10 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 14a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

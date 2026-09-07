@@ -1,0 +1,41 @@
+{
+  "slug": "taxi",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Taxi",
+  "description": "The car with its roof sign — the one you hail",
+  "tags": [
+    "taxi",
+    "cab",
+    "hail"
+  ],
+  "aliases": [
+    "cab"
+  ],
+  "keywords": [
+    "taxi",
+    "cab",
+    "taxicab",
+    "hail a cab"
+  ],
+  "family": "car",
+  "shapes": [
+    {
+      "d": "M2 16V8.5H6L9.5 5H14.5L18 8.5H22V16Z",
+      "closed": true,
+      "_why": "a car: the sills, the wings that rise at 45° to the cabin, drawn as one outline"
+    },
+    {
+      "d": "M5 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 5L9.5 2L14.5 2L14.5 5",
+      "closed": false
+    }
+  ]
+}

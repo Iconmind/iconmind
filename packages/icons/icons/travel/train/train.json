@@ -1,0 +1,37 @@
+{
+  "slug": "train",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Train",
+  "description": "A carriage with a rounded roof, standing on the rail",
+  "tags": [
+    "train",
+    "rail",
+    "railway"
+  ],
+  "aliases": [
+    "railway"
+  ],
+  "keywords": [
+    "train",
+    "railway",
+    "rail travel",
+    "locomotive"
+  ],
+  "family": "train",
+  "shapes": [
+    {
+      "d": "M4 19V9A5 5 0 0 1 20 9V19Z",
+      "closed": true,
+      "_why": "a carriage: straight sides into one rounded roof"
+    },
+    {
+      "d": "M4 9H20",
+      "closed": false
+    },
+    {
+      "d": "M3 22H21",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "roadworks",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Roadworks",
+  "description": "The round sign with a shovel on it — men at work",
+  "tags": [
+    "works",
+    "repairs",
+    "construction"
+  ],
+  "aliases": [
+    "construction"
+  ],
+  "keywords": [
+    "roadworks",
+    "road works",
+    "construction ahead",
+    "men at work"
+  ],
+  "family": "sign",
+  "shapes": [
+    {
+      "d": "M5 9a7 7 0 1 0 14 0a7 7 0 1 0 -14 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 16V22",
+      "closed": false
+    },
+    {
+      "d": "M12 4.5V9",
+      "closed": false
+    },
+    {
+      "d": "M9.5 9L9.5 12.5L14.5 12.5L14.5 9Z",
+      "closed": true
+    }
+  ]
+}

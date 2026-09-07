@@ -1,0 +1,37 @@
+{
+  "slug": "speed-camera",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Speed camera",
+  "description": "A camera on its post, watching the road",
+  "tags": [
+    "camera",
+    "enforcement",
+    "speed"
+  ],
+  "keywords": [
+    "speed camera",
+    "traffic camera",
+    "speed trap",
+    "enforcement camera"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 7A2 2 0 0 1 6 5H16A2 2 0 0 1 18 7V12A2 2 0 0 1 16 14H6A2 2 0 0 1 4 12Z",
+      "closed": true
+    },
+    {
+      "d": "M18 7L21 7L21 12L18 12",
+      "closed": false
+    },
+    {
+      "d": "M11 14V21",
+      "closed": false
+    },
+    {
+      "d": "M6 21H16",
+      "closed": false
+    }
+  ]
+}

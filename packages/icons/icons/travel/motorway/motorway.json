@@ -1,0 +1,45 @@
+{
+  "slug": "motorway",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Motorway",
+  "description": "The road: two kerbs and the line between them",
+  "tags": [
+    "motorway",
+    "highway",
+    "road"
+  ],
+  "aliases": [
+    "highway",
+    "road"
+  ],
+  "keywords": [
+    "motorway",
+    "highway",
+    "freeway",
+    "the road"
+  ],
+  "family": "road",
+  "shapes": [
+    {
+      "d": "M4 2V22",
+      "closed": false
+    },
+    {
+      "d": "M20 2V22",
+      "closed": false
+    },
+    {
+      "d": "M12 3V7",
+      "closed": false
+    },
+    {
+      "d": "M12 10.5V13.5",
+      "closed": false
+    },
+    {
+      "d": "M12 17V21",
+      "closed": false
+    }
+  ]
+}

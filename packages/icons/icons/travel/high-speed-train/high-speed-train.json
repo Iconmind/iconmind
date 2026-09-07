@@ -1,0 +1,37 @@
+{
+  "slug": "high-speed-train",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "High-speed train",
+  "description": "The carriage with its nose drawn back — the fast one",
+  "tags": [
+    "fast",
+    "express",
+    "rail"
+  ],
+  "aliases": [
+    "bullet-train"
+  ],
+  "keywords": [
+    "high speed train",
+    "bullet train",
+    "express train",
+    "fast rail"
+  ],
+  "family": "train",
+  "shapes": [
+    {
+      "d": "M2 18V12L9 5H18A2 2 0 0 1 20 7V18Z",
+      "closed": true,
+      "_why": "a nose swept back at 45°, the roof rounded where the cab ends"
+    },
+    {
+      "d": "M9 12H20",
+      "closed": false
+    },
+    {
+      "d": "M3 21H21",
+      "closed": false
+    }
+  ]
+}

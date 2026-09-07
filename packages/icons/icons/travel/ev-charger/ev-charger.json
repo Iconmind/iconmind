@@ -1,0 +1,36 @@
+{
+  "slug": "ev-charger",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "EV charger",
+  "description": "The charging post with its cable and a bolt on the face",
+  "tags": [
+    "charger",
+    "electric",
+    "plug"
+  ],
+  "aliases": [
+    "charging-point"
+  ],
+  "keywords": [
+    "ev charger",
+    "charging point",
+    "electric charger",
+    "charge station"
+  ],
+  "family": "pump",
+  "shapes": [
+    {
+      "d": "M4 21L4 5L7 2L13 2L16 5L16 21Z",
+      "closed": true
+    },
+    {
+      "d": "M13 6L10.5 8.5L13 8.5L10.5 11",
+      "closed": false
+    },
+    {
+      "d": "M16 9L19 9L21 11L21 17",
+      "closed": false
+    }
+  ]
+}

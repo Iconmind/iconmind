@@ -1,0 +1,37 @@
+{
+  "slug": "lane-change",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Lane change",
+  "description": "The road with an arrow crossing from one lane to the other",
+  "tags": [
+    "lane",
+    "change",
+    "merge"
+  ],
+  "keywords": [
+    "lane change",
+    "change lane",
+    "merge lane",
+    "switch lane"
+  ],
+  "family": "road",
+  "shapes": [
+    {
+      "d": "M4 2V22",
+      "closed": false
+    },
+    {
+      "d": "M20 2V22",
+      "closed": false
+    },
+    {
+      "d": "M9 19L9 12L15 6",
+      "closed": false
+    },
+    {
+      "d": "M11.5 6L15 6L15 9.5",
+      "closed": false
+    }
+  ]
+}

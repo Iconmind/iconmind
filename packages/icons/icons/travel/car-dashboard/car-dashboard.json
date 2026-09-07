@@ -1,0 +1,41 @@
+{
+  "slug": "car-dashboard",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Dashboard",
+  "description": "The dials in front of the driver: a gauge, a warning and the road ahead",
+  "tags": [
+    "dashboard",
+    "dials",
+    "instruments"
+  ],
+  "keywords": [
+    "car dashboard",
+    "instrument cluster",
+    "dials",
+    "driver display"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 17A9 9 0 0 1 21 17",
+      "closed": false
+    },
+    {
+      "d": "M3 17H21",
+      "closed": false
+    },
+    {
+      "d": "M12 10V17",
+      "closed": false
+    },
+    {
+      "d": "M6 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

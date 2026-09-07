@@ -1,0 +1,45 @@
+{
+  "slug": "ride-share",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Ride share",
+  "description": "The car with two heads in it — a ride taken together",
+  "tags": [
+    "rideshare",
+    "pool",
+    "share"
+  ],
+  "aliases": [
+    "carpool"
+  ],
+  "keywords": [
+    "ride share",
+    "carpool",
+    "shared ride",
+    "lift"
+  ],
+  "family": "car",
+  "shapes": [
+    {
+      "d": "M2 16V8.5H6L9.5 5H14.5L18 8.5H22V16Z",
+      "closed": true,
+      "_why": "a car: the sills, the wings that rise at 45° to the cabin, drawn as one outline"
+    },
+    {
+      "d": "M5 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 12.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12.5 12.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "fuel-pump",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Fuel pump",
+  "description": "The pump on the forecourt, hose over its shoulder",
+  "tags": [
+    "fuel",
+    "petrol",
+    "diesel"
+  ],
+  "aliases": [
+    "petrol-pump",
+    "gas-pump"
+  ],
+  "keywords": [
+    "fuel pump",
+    "petrol station",
+    "gas pump",
+    "filling station"
+  ],
+  "family": "pump",
+  "shapes": [
+    {
+      "d": "M3 21L3 5L6 2L12 2L15 5L15 21Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 7A2 2 0 0 1 7.5 5H10.5A2 2 0 0 1 12.5 7V9.5A2 2 0 0 1 10.5 11.5H7.5A2 2 0 0 1 5.5 9.5Z",
+      "closed": true
+    },
+    {
+      "d": "M15 8L18 8L21 11L21 17",
+      "closed": false
+    }
+  ]
+}

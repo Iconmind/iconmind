@@ -1,0 +1,36 @@
+{
+  "slug": "road-closed",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Road closed",
+  "description": "The round sign with a bar across it — no way through",
+  "tags": [
+    "closed",
+    "blocked",
+    "no-entry"
+  ],
+  "aliases": [
+    "no-entry"
+  ],
+  "keywords": [
+    "road closed",
+    "no entry",
+    "road blocked",
+    "closed to traffic"
+  ],
+  "family": "sign",
+  "shapes": [
+    {
+      "d": "M5 9a7 7 0 1 0 14 0a7 7 0 1 0 -14 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 16V22",
+      "closed": false
+    },
+    {
+      "d": "M7 9H17",
+      "closed": false
+    }
+  ]
+}

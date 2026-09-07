@@ -1,0 +1,41 @@
+{
+  "slug": "electric-car",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Electric car",
+  "description": "The car with a bolt in it — it runs on a battery",
+  "tags": [
+    "electric",
+    "ev",
+    "battery"
+  ],
+  "aliases": [
+    "ev"
+  ],
+  "keywords": [
+    "electric car",
+    "ev",
+    "battery car",
+    "electric vehicle"
+  ],
+  "family": "car",
+  "shapes": [
+    {
+      "d": "M2 16V8.5H6L9.5 5H14.5L18 8.5H22V16Z",
+      "closed": true,
+      "_why": "a car: the sills, the wings that rise at 45° to the cabin, drawn as one outline"
+    },
+    {
+      "d": "M5 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 9.5L12 12.5L14.5 12.5L11.5 15.5",
+      "closed": false
+    }
+  ]
+}

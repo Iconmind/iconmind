@@ -100,7 +100,7 @@ export const FORBIDDEN_ATTRS = [
 export const DOMAINS = [
   "ai", "agents", "mcp", "rag", "data", "devops",
   "cloud", "security", "automation", "analytics", "devtools", "interface",
-  "commerce", "finance",
+  "commerce", "finance", "travel", "weather",
 ] as const;
 export type Domain = (typeof DOMAINS)[number];
 
@@ -110,6 +110,7 @@ export const DOMAIN_TITLE: Record<Domain, string> = {
   automation: "Automation", analytics: "Analytics", devtools: "Developer Tools",
   interface: "Interface",
   commerce: "Commerce", finance: "Finance",
+  travel: "Travel", weather: "Weather",
 };
 
 /** CANON C5 / doc 02 §2.4 — subcategories per domain. */
@@ -128,6 +129,8 @@ export const SUBCATEGORIES: Record<Domain, readonly string[]> = {
   interface: ["arrow","action","state","layout","media","file","time","communication","identity"],
   commerce: ["store","checkout","shipping","promotion","merchant"],
   finance: ["banking","wallet","investing","accounting","insurance"],
+  travel: ["vehicle","transit","lodging","navigation","trip"],
+  weather: ["sky","storm","temperature","nature","climate"],
 };
 
 /**

@@ -1,0 +1,36 @@
+{
+  "slug": "car-park",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Car park",
+  "description": "The parking letter on its sign",
+  "tags": [
+    "parking",
+    "park",
+    "space"
+  ],
+  "aliases": [
+    "parking"
+  ],
+  "keywords": [
+    "car park",
+    "parking",
+    "parking lot",
+    "park here"
+  ],
+  "family": "sign",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M9 7V17",
+      "closed": false
+    },
+    {
+      "d": "M9 7L13 7L15.5 9.5L15.5 12L13 14.5L9 14.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "speed-limit",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Speed limit",
+  "description": "The round sign with a figure on it — as fast as you may go",
+  "tags": [
+    "speed",
+    "limit",
+    "sign"
+  ],
+  "keywords": [
+    "speed limit",
+    "speed sign",
+    "mph limit",
+    "km/h limit"
+  ],
+  "family": "sign",
+  "shapes": [
+    {
+      "d": "M5 9a7 7 0 1 0 14 0a7 7 0 1 0 -14 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 16V22",
+      "closed": false
+    },
+    {
+      "d": "M12 6V12",
+      "closed": false
+    },
+    {
+      "d": "M9.5 8.5L12 6",
+      "closed": false
+    }
+  ]
+}

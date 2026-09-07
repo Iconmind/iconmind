@@ -1,0 +1,40 @@
+{
+  "slug": "roundabout",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Roundabout",
+  "description": "A ring with three roads meeting it",
+  "tags": [
+    "roundabout",
+    "circle",
+    "junction"
+  ],
+  "aliases": [
+    "traffic-circle"
+  ],
+  "keywords": [
+    "roundabout",
+    "traffic circle",
+    "rotary",
+    "island"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 11a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 17V22",
+      "closed": false
+    },
+    {
+      "d": "M2 11H6",
+      "closed": false
+    },
+    {
+      "d": "M18 11H22",
+      "closed": false
+    }
+  ]
+}

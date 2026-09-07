@@ -1,0 +1,46 @@
+{
+  "slug": "car-wash",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Car wash",
+  "description": "The car with water raining down on it — washed",
+  "tags": [
+    "wash",
+    "clean",
+    "water"
+  ],
+  "keywords": [
+    "car wash",
+    "wash the car",
+    "clean car",
+    "valet"
+  ],
+  "family": "car",
+  "shapes": [
+    {
+      "d": "M2 16V8.5H6L9.5 5H14.5L18 8.5H22V16Z",
+      "closed": true,
+      "_why": "a car: the sills, the wings that rise at 45° to the cabin, drawn as one outline"
+    },
+    {
+      "d": "M5 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 2L6 4",
+      "closed": false
+    },
+    {
+      "d": "M9.5 2L11.5 4",
+      "closed": false
+    },
+    {
+      "d": "M15 2L17 4",
+      "closed": false
+    }
+  ]
+}

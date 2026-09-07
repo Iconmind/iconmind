@@ -1,0 +1,40 @@
+{
+  "slug": "fuel-level",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Fuel level",
+  "description": "A gauge with its needle low — how much is left in the tank",
+  "tags": [
+    "fuel",
+    "gauge",
+    "tank"
+  ],
+  "aliases": [
+    "fuel-gauge"
+  ],
+  "keywords": [
+    "fuel level",
+    "fuel gauge",
+    "tank level",
+    "petrol left"
+  ],
+  "family": "gauge",
+  "shapes": [
+    {
+      "d": "M4 15A8 8 0 0 1 20 15",
+      "closed": false
+    },
+    {
+      "d": "M4 15H20",
+      "closed": false
+    },
+    {
+      "d": "M12 15L7.5 10.5",
+      "closed": false
+    },
+    {
+      "d": "M8 19H16",
+      "closed": false
+    }
+  ]
+}

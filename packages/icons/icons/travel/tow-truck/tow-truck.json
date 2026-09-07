@@ -1,0 +1,49 @@
+{
+  "slug": "tow-truck",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Tow truck",
+  "description": "A truck with its boom out and a hook on the end",
+  "tags": [
+    "tow",
+    "recovery",
+    "breakdown"
+  ],
+  "aliases": [
+    "recovery-truck"
+  ],
+  "keywords": [
+    "tow truck",
+    "recovery truck",
+    "towing",
+    "car recovery"
+  ],
+  "family": "truck",
+  "shapes": [
+    {
+      "d": "M2 17V8A2 2 0 0 1 4 6H9V17Z",
+      "closed": true,
+      "_why": "the cab: a rounded corner where the windscreen meets the roof"
+    },
+    {
+      "d": "M9 10L13 10L19 4",
+      "closed": false
+    },
+    {
+      "d": "M21.5 6.5A2.5 2.5 0 0 1 16.5 6.5",
+      "closed": false
+    },
+    {
+      "d": "M9 13L22 13L22 17L9 17",
+      "closed": false
+    },
+    {
+      "d": "M4 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

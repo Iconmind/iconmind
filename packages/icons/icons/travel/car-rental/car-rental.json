@@ -1,0 +1,49 @@
+{
+  "slug": "car-rental",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Car rental",
+  "description": "The car with a clock in it — someone else's car, by the day",
+  "tags": [
+    "rental",
+    "hire",
+    "key"
+  ],
+  "aliases": [
+    "car-hire"
+  ],
+  "keywords": [
+    "car rental",
+    "car hire",
+    "rent a car",
+    "hire car"
+  ],
+  "family": "car",
+  "shapes": [
+    {
+      "d": "M2 16V8.5H6L9.5 5H14.5L18 8.5H22V16Z",
+      "closed": true,
+      "_why": "a car: the sills, the wings that rise at 45° to the cabin, drawn as one outline"
+    },
+    {
+      "d": "M5 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 12.5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9.5V12.5",
+      "closed": false
+    },
+    {
+      "d": "M12 12.5H14.5",
+      "closed": false
+    }
+  ]
+}

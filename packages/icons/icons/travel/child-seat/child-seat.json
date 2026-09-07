@@ -1,0 +1,32 @@
+{
+  "slug": "child-seat",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Child seat",
+  "description": "A small seat with its high back and a belt — the one that straps in",
+  "tags": [
+    "child",
+    "baby",
+    "seat"
+  ],
+  "aliases": [
+    "baby-seat"
+  ],
+  "keywords": [
+    "child seat",
+    "car seat",
+    "baby seat",
+    "child restraint"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 21L6 6L9 3L16 3L16 15L19 15L19 21",
+      "closed": false
+    },
+    {
+      "d": "M6 15H16",
+      "closed": false
+    }
+  ]
+}

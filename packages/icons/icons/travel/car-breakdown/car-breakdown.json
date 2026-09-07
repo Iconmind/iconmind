@@ -1,0 +1,42 @@
+{
+  "slug": "car-breakdown",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Breakdown",
+  "description": "The car with an exclamation in it — it has stopped, and not by choice",
+  "tags": [
+    "breakdown",
+    "fault",
+    "stranded"
+  ],
+  "keywords": [
+    "car breakdown",
+    "broken down",
+    "car fault",
+    "stranded"
+  ],
+  "family": "car",
+  "shapes": [
+    {
+      "d": "M2 16V8.5H6L9.5 5H14.5L18 8.5H22V16Z",
+      "closed": true,
+      "_why": "a car: the sills, the wings that rise at 45° to the cabin, drawn as one outline"
+    },
+    {
+      "d": "M5 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9.5V12.5",
+      "closed": false
+    },
+    {
+      "d": "M11 15.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

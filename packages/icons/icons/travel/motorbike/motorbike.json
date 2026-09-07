@@ -1,0 +1,40 @@
+{
+  "slug": "motorbike",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Motorbike",
+  "description": "A motorbike: the tank, the bars and two wheels",
+  "tags": [
+    "motorcycle",
+    "bike",
+    "engine"
+  ],
+  "aliases": [
+    "motorcycle"
+  ],
+  "keywords": [
+    "motorbike",
+    "motorcycle",
+    "moto",
+    "biker"
+  ],
+  "family": "bike",
+  "shapes": [
+    {
+      "d": "M2 14.5a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 14.5a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 14.5L9 11L15 11L18.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 11L12.5 8L16.5 8",
+      "closed": false
+    }
+  ]
+}

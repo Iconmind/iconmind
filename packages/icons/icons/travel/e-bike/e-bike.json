@@ -1,0 +1,48 @@
+{
+  "slug": "e-bike",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Electric bike",
+  "description": "The bicycle with a battery on its frame — pedals with help",
+  "tags": [
+    "ebike",
+    "electric",
+    "assist"
+  ],
+  "aliases": [
+    "electric-bike"
+  ],
+  "keywords": [
+    "e-bike",
+    "electric bike",
+    "pedal assist",
+    "ebike"
+  ],
+  "family": "bike",
+  "shapes": [
+    {
+      "d": "M2 15a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 15a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 15L10 11L14 11L18 15",
+      "closed": false
+    },
+    {
+      "d": "M10 7V11",
+      "closed": false
+    },
+    {
+      "d": "M7.5 7H12.5",
+      "closed": false
+    },
+    {
+      "d": "M10 14L15 14L15 17L10 17Z",
+      "closed": true
+    }
+  ]
+}

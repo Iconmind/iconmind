@@ -1,0 +1,42 @@
+{
+  "slug": "hybrid-car",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Hybrid car",
+  "description": "The car with a bolt and a drop in it — two ways of driving the same wheels",
+  "tags": [
+    "hybrid",
+    "petrol",
+    "electric"
+  ],
+  "keywords": [
+    "hybrid car",
+    "hybrid vehicle",
+    "petrol electric",
+    "phev"
+  ],
+  "family": "car",
+  "shapes": [
+    {
+      "d": "M2 16V8.5H6L9.5 5H14.5L18 8.5H22V16Z",
+      "closed": true,
+      "_why": "a car: the sills, the wings that rise at 45° to the cabin, drawn as one outline"
+    },
+    {
+      "d": "M5 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 10L8.5 12.5L11 12.5L8.5 15",
+      "closed": false
+    },
+    {
+      "d": "M15.5 10L13 12.5L18 12.5Z",
+      "closed": true
+    }
+  ]
+}

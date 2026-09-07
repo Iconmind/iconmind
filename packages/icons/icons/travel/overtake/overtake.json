@@ -1,0 +1,48 @@
+{
+  "slug": "overtake",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Overtake",
+  "description": "The road with one arrow passing another",
+  "tags": [
+    "overtake",
+    "pass",
+    "faster"
+  ],
+  "aliases": [
+    "pass"
+  ],
+  "keywords": [
+    "overtake",
+    "overtaking",
+    "pass a car",
+    "passing lane"
+  ],
+  "family": "road",
+  "shapes": [
+    {
+      "d": "M3 2V22",
+      "closed": false
+    },
+    {
+      "d": "M21 2V22",
+      "closed": false
+    },
+    {
+      "d": "M9 8V20",
+      "closed": false
+    },
+    {
+      "d": "M6.5 10.5L9 8L11.5 10.5",
+      "closed": false
+    },
+    {
+      "d": "M15 4V16",
+      "closed": false
+    },
+    {
+      "d": "M12.5 6.5L15 4L17.5 6.5",
+      "closed": false
+    }
+  ]
+}

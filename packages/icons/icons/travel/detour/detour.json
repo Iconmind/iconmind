@@ -1,0 +1,44 @@
+{
+  "slug": "detour",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Detour",
+  "description": "The route turns away from a road marked shut — the way round",
+  "tags": [
+    "detour",
+    "diversion",
+    "around"
+  ],
+  "aliases": [
+    "diversion"
+  ],
+  "keywords": [
+    "detour",
+    "diversion",
+    "alternative route",
+    "go around"
+  ],
+  "family": "arrow",
+  "shapes": [
+    {
+      "d": "M2 16H12",
+      "closed": false
+    },
+    {
+      "d": "M12 7V16",
+      "closed": false
+    },
+    {
+      "d": "M9.5 9.5L12 7L14.5 9.5",
+      "closed": false
+    },
+    {
+      "d": "M16 13L20 17",
+      "closed": false
+    },
+    {
+      "d": "M20 13L16 17",
+      "closed": false
+    }
+  ]
+}

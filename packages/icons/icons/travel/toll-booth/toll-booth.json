@@ -1,0 +1,40 @@
+{
+  "slug": "toll-booth",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Toll booth",
+  "description": "A booth with the barrier across the road",
+  "tags": [
+    "toll",
+    "barrier",
+    "charge"
+  ],
+  "aliases": [
+    "toll-gate"
+  ],
+  "keywords": [
+    "toll booth",
+    "toll gate",
+    "road toll",
+    "toll charge"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 21L3 8L6 5L9 8L9 21Z",
+      "closed": true
+    },
+    {
+      "d": "M9 12H22",
+      "closed": false
+    },
+    {
+      "d": "M20 12V21",
+      "closed": false
+    },
+    {
+      "d": "M17 21H22",
+      "closed": false
+    }
+  ]
+}

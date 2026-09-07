@@ -1,0 +1,40 @@
+{
+  "slug": "scooter",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Scooter",
+  "description": "The small wheels and the step-through frame of a scooter",
+  "tags": [
+    "scooter",
+    "moped",
+    "step-through"
+  ],
+  "aliases": [
+    "moped"
+  ],
+  "keywords": [
+    "scooter",
+    "moped",
+    "vespa",
+    "city scooter"
+  ],
+  "family": "bike",
+  "shapes": [
+    {
+      "d": "M3 15a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 15a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 15L9 12L15 12L15 7",
+      "closed": false
+    },
+    {
+      "d": "M13 7H18",
+      "closed": false
+    }
+  ]
+}

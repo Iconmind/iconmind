@@ -1,0 +1,38 @@
+{
+  "slug": "car-front",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Car, front on",
+  "description": "A car head on: the windscreen, the lights and the grille",
+  "tags": [
+    "vehicle",
+    "front",
+    "head-on"
+  ],
+  "keywords": [
+    "car front",
+    "front of car",
+    "car head on",
+    "car facing you"
+  ],
+  "family": "car",
+  "shapes": [
+    {
+      "d": "M2 19V13L8 7H16L22 13V19Z",
+      "closed": true,
+      "_why": "a car head on: the roof narrower than the sills, the pillars at 45°"
+    },
+    {
+      "d": "M2 13H22",
+      "closed": false
+    },
+    {
+      "d": "M5 16a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 16a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

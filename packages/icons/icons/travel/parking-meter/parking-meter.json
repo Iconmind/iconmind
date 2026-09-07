@@ -1,0 +1,37 @@
+{
+  "slug": "parking-meter",
+  "category": "travel",
+  "subcategory": "vehicle",
+  "name": "Parking meter",
+  "description": "The meter on its post, a coin slot in its face",
+  "tags": [
+    "meter",
+    "pay",
+    "coin"
+  ],
+  "keywords": [
+    "parking meter",
+    "pay and display",
+    "parking payment",
+    "meter"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 4A2 2 0 0 1 7 2H17A2 2 0 0 1 19 4V12A2 2 0 0 1 17 14H7A2 2 0 0 1 5 12Z",
+      "closed": true
+    },
+    {
+      "d": "M12 14V22",
+      "closed": false
+    },
+    {
+      "d": "M7 22H17",
+      "closed": false
+    },
+    {
+      "d": "M9 8H15",
+      "closed": false
+    }
+  ]
+}
