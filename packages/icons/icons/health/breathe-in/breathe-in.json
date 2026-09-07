@@ -1,0 +1,44 @@
+{
+  "slug": "breathe-in",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Breathe in",
+  "description": "The breath drawn inward",
+  "tags": [
+    "breath",
+    "inhale",
+    "draw"
+  ],
+  "aliases": [
+    "inhale"
+  ],
+  "keywords": [
+    "breathe in",
+    "inhale",
+    "take a breath",
+    "in"
+  ],
+  "family": "breath",
+  "shapes": [
+    {
+      "d": "M7 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 12L7 12",
+      "closed": false
+    },
+    {
+      "d": "M5 10L7 12L5 14",
+      "closed": false
+    },
+    {
+      "d": "M22 12L17 12",
+      "closed": false
+    },
+    {
+      "d": "M19 10L17 12L19 14",
+      "closed": false
+    }
+  ]
+}

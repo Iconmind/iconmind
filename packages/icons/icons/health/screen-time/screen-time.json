@@ -1,0 +1,37 @@
+{
+  "slug": "screen-time",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Screen time",
+  "description": "The screen and the hours on it",
+  "tags": [
+    "screen",
+    "hours",
+    "device"
+  ],
+  "keywords": [
+    "screen time",
+    "hours on screen",
+    "device time",
+    "usage"
+  ],
+  "family": "screen",
+  "shapes": [
+    {
+      "d": "M3 6A2 2 0 0 1 5 4H19A2 2 0 0 1 21 6V14A2 2 0 0 1 19 16H5A2 2 0 0 1 3 14Z",
+      "closed": true
+    },
+    {
+      "d": "M12 16L12 20",
+      "closed": false
+    },
+    {
+      "d": "M8 20H16",
+      "closed": false
+    },
+    {
+      "d": "M12 8L12 11L15 11",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "mindfulness",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Mindfulness",
+  "description": "The head with one still point in it",
+  "tags": [
+    "attention",
+    "present",
+    "still"
+  ],
+  "keywords": [
+    "mindfulness",
+    "mindful",
+    "be present",
+    "attention"
+  ],
+  "family": "head",
+  "shapes": [
+    {
+      "d": "M6 21V16A7 7 0 1 1 18 16V21",
+      "closed": false,
+      "_why": "a head over its shoulders"
+    },
+    {
+      "d": "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

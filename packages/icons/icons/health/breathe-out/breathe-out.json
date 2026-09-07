@@ -1,0 +1,44 @@
+{
+  "slug": "breathe-out",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Breathe out",
+  "description": "The breath let go",
+  "tags": [
+    "breath",
+    "exhale",
+    "let go"
+  ],
+  "aliases": [
+    "exhale"
+  ],
+  "keywords": [
+    "breathe out",
+    "exhale",
+    "let the breath go",
+    "out"
+  ],
+  "family": "breath",
+  "shapes": [
+    {
+      "d": "M7 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 12L7 12",
+      "closed": false
+    },
+    {
+      "d": "M4 10L2 12L4 14",
+      "closed": false
+    },
+    {
+      "d": "M22 12L17 12",
+      "closed": false
+    },
+    {
+      "d": "M20 10L22 12L20 14",
+      "closed": false
+    }
+  ]
+}

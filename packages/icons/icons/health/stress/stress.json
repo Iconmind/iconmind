@@ -1,0 +1,30 @@
+{
+  "slug": "stress",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Stress",
+  "description": "The head with a bolt through it",
+  "tags": [
+    "stress",
+    "pressure",
+    "strain"
+  ],
+  "keywords": [
+    "stress",
+    "stressed",
+    "under pressure",
+    "strain"
+  ],
+  "family": "head",
+  "shapes": [
+    {
+      "d": "M6 21V16A7 7 0 1 1 18 16V21",
+      "closed": false,
+      "_why": "a head over its shoulders"
+    },
+    {
+      "d": "M13 8L9 12L12 12L8 16",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "mood-happy",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Good mood",
+  "description": "The mouth turned up",
+  "tags": [
+    "happy",
+    "good",
+    "up"
+  ],
+  "keywords": [
+    "good mood",
+    "happy",
+    "feeling good",
+    "cheerful"
+  ],
+  "family": "face",
+  "shapes": [
+    {
+      "d": "M4 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M20 12A8 8 0 0 1 4 12",
+      "closed": false
+    }
+  ]
+}

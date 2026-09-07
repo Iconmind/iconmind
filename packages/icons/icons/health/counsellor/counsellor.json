@@ -1,0 +1,37 @@
+{
+  "slug": "counsellor",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Counsellor",
+  "description": "Someone to talk it through with",
+  "tags": [
+    "counsellor",
+    "listen",
+    "talk"
+  ],
+  "aliases": [
+    "counselor"
+  ],
+  "keywords": [
+    "counsellor",
+    "counselor",
+    "someone to talk to",
+    "support"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M4 9a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2.5 18A4.5 4.5 0 0 1 11.5 18",
+      "closed": false
+    },
+    {
+      "d": "M13 4H21A1 1 0 0 1 22 5V11A1 1 0 0 1 21 12H16L13 15V12A1 1 0 0 1 12 11V5A1 1 0 0 1 13 4Z",
+      "closed": true,
+      "_why": "a speech bubble beside them"
+    }
+  ]
+}

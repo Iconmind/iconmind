@@ -1,0 +1,37 @@
+{
+  "slug": "talk",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Talking",
+  "description": "The words going out",
+  "tags": [
+    "talk",
+    "speak",
+    "say"
+  ],
+  "aliases": [
+    "speak"
+  ],
+  "keywords": [
+    "talking",
+    "talk",
+    "speak up",
+    "say it"
+  ],
+  "family": "head",
+  "shapes": [
+    {
+      "d": "M5 21V16A5 5 0 1 1 15 16V21",
+      "closed": false,
+      "_why": "a head over its shoulders"
+    },
+    {
+      "d": "M16 7A3 3 0 0 1 16 13",
+      "closed": false
+    },
+    {
+      "d": "M16 5A5 5 0 0 1 16 15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "breathing",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Breathing",
+  "description": "The breath moving out and back",
+  "tags": [
+    "breath",
+    "in",
+    "out"
+  ],
+  "keywords": [
+    "breathing",
+    "breath",
+    "breathe",
+    "breath work"
+  ],
+  "family": "breath",
+  "shapes": [
+    {
+      "d": "M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 5.07A8 8 0 0 1 16 18.93",
+      "closed": false
+    },
+    {
+      "d": "M8 18.93A8 8 0 0 1 8 5.07",
+      "closed": false
+    }
+  ]
+}

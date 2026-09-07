@@ -1,0 +1,34 @@
+{
+  "slug": "crisis-line",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Crisis line",
+  "description": "The number for the worst night",
+  "tags": [
+    "crisis",
+    "urgent",
+    "call"
+  ],
+  "keywords": [
+    "crisis line",
+    "urgent help",
+    "emergency line",
+    "call now"
+  ],
+  "family": "phone",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 8 5V8A2 2 0 0 1 4 8ZM4 8C4 14 10 20 16 20M16 20A2 2 0 0 0 20 20V17A2 2 0 0 0 16 17Z",
+      "closed": false,
+      "_why": "a handset: an earpiece, a cord and a mouthpiece"
+    },
+    {
+      "d": "M19 3V8",
+      "closed": false
+    },
+    {
+      "d": "M18 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

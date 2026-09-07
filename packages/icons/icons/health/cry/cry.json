@@ -1,0 +1,41 @@
+{
+  "slug": "cry",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Crying",
+  "description": "The mouth down and a tear falling",
+  "tags": [
+    "cry",
+    "tear",
+    "upset"
+  ],
+  "aliases": [
+    "tears"
+  ],
+  "keywords": [
+    "crying",
+    "cry",
+    "in tears",
+    "upset"
+  ],
+  "family": "face",
+  "shapes": [
+    {
+      "d": "M4 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 20A8 8 0 0 1 20 20",
+      "closed": false
+    },
+    {
+      "d": "M6 11L8 13A2 2 0 1 1 4 13Z",
+      "closed": true,
+      "_why": "a tear falling from the eye"
+    }
+  ]
+}

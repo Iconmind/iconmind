@@ -1,0 +1,41 @@
+{
+  "slug": "habit-check",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Habit done",
+  "description": "The day ticked off",
+  "tags": [
+    "done",
+    "tick",
+    "kept"
+  ],
+  "keywords": [
+    "habit done",
+    "ticked off",
+    "did it today",
+    "complete"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 7A2 2 0 0 1 5 5H19A2 2 0 0 1 21 7V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 9H21",
+      "closed": false
+    },
+    {
+      "d": "M8 2V5",
+      "closed": false
+    },
+    {
+      "d": "M16 2V5",
+      "closed": false
+    },
+    {
+      "d": "M8 15L11 18L17 12",
+      "closed": false
+    }
+  ]
+}

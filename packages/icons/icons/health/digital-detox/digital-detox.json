@@ -1,0 +1,29 @@
+{
+  "slug": "digital-detox",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Digital detox",
+  "description": "The phone put away",
+  "tags": [
+    "detox",
+    "phone",
+    "away"
+  ],
+  "keywords": [
+    "digital detox",
+    "phone off",
+    "screen break",
+    "unplugged"
+  ],
+  "family": "phone",
+  "shapes": [
+    {
+      "d": "M7 5A2 2 0 0 1 9 3H15A2 2 0 0 1 17 5V19A2 2 0 0 1 15 21H9A2 2 0 0 1 7 19Z",
+      "closed": true
+    },
+    {
+      "d": "M4 20L20 4",
+      "closed": false
+    }
+  ]
+}

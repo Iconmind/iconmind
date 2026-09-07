@@ -1,0 +1,33 @@
+{
+  "slug": "contentment",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Contentment",
+  "description": "The eyes closed and the mouth up",
+  "tags": [
+    "content",
+    "ease",
+    "settled"
+  ],
+  "keywords": [
+    "contentment",
+    "content",
+    "at ease",
+    "settled"
+  ],
+  "family": "face",
+  "shapes": [
+    {
+      "d": "M4 7H8",
+      "closed": false
+    },
+    {
+      "d": "M16 7H20",
+      "closed": false
+    },
+    {
+      "d": "M20 12A8 8 0 0 1 4 12",
+      "closed": false
+    }
+  ]
+}

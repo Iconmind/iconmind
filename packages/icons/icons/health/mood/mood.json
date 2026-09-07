@@ -1,0 +1,36 @@
+{
+  "slug": "mood",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Mood",
+  "description": "The mouth that cannot decide",
+  "tags": [
+    "mood",
+    "feeling",
+    "face"
+  ],
+  "aliases": [
+    "feeling"
+  ],
+  "keywords": [
+    "mood",
+    "how you feel",
+    "feeling",
+    "mood check"
+  ],
+  "family": "face",
+  "shapes": [
+    {
+      "d": "M4 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 17L8 13L13 18L17 14",
+      "closed": false
+    }
+  ]
+}

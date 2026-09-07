@@ -1,0 +1,36 @@
+{
+  "slug": "focus-session",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Focus session",
+  "description": "The timer everyone sets by a tomato",
+  "tags": [
+    "focus",
+    "timer",
+    "session"
+  ],
+  "aliases": [
+    "pomodoro"
+  ],
+  "keywords": [
+    "focus session",
+    "pomodoro",
+    "deep work",
+    "focus timer"
+  ],
+  "family": "tomato",
+  "shapes": [
+    {
+      "d": "M5 14a7 7 0 1 0 14 0a7 7 0 1 0 -14 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 4L12 7L15 4",
+      "closed": false
+    },
+    {
+      "d": "M12 7L12 4",
+      "closed": false
+    }
+  ]
+}

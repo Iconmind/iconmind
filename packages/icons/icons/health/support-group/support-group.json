@@ -1,0 +1,37 @@
+{
+  "slug": "support-group",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Support group",
+  "description": "Three of you in the same room",
+  "tags": [
+    "group",
+    "together",
+    "room"
+  ],
+  "keywords": [
+    "support group",
+    "group",
+    "together",
+    "peer support"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M3 9a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 9a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A9 9 0 0 1 21 21",
+      "closed": false
+    }
+  ]
+}

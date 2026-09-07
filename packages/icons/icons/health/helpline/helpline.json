@@ -1,0 +1,31 @@
+{
+  "slug": "helpline",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Helpline",
+  "description": "The line that always answers",
+  "tags": [
+    "helpline",
+    "call",
+    "line"
+  ],
+  "keywords": [
+    "helpline",
+    "call for help",
+    "support line",
+    "phone"
+  ],
+  "family": "phone",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 8 5V8A2 2 0 0 1 4 8ZM4 8C4 14 10 20 16 20M16 20A2 2 0 0 0 20 20V17A2 2 0 0 0 16 17Z",
+      "closed": false,
+      "_why": "a handset: an earpiece, a cord and a mouthpiece"
+    },
+    {
+      "d": "M13 6A2 2 0 0 1 17 6A2 2 0 0 1 21 6L17 10Z",
+      "closed": true,
+      "_why": "a heart: two lobes over a point"
+    }
+  ]
+}

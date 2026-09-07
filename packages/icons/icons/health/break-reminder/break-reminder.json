@@ -1,0 +1,37 @@
+{
+  "slug": "break-reminder",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Break reminder",
+  "description": "The cup that says stop for a minute",
+  "tags": [
+    "break",
+    "pause",
+    "cup"
+  ],
+  "keywords": [
+    "break reminder",
+    "take a break",
+    "time for a break",
+    "pause"
+  ],
+  "family": "cup",
+  "shapes": [
+    {
+      "d": "M4 9L4 18L15 18L15 9",
+      "closed": false
+    },
+    {
+      "d": "M15 9A3 3 0 0 1 15 15",
+      "closed": false
+    },
+    {
+      "d": "M7 3A3 3 0 0 1 7 9",
+      "closed": false
+    },
+    {
+      "d": "M12 3A3 3 0 0 1 12 9",
+      "closed": false
+    }
+  ]
+}

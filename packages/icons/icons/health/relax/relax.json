@@ -1,0 +1,43 @@
+{
+  "slug": "relax",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Relax",
+  "description": "The flower open on the water",
+  "tags": [
+    "relax",
+    "unwind",
+    "flower"
+  ],
+  "aliases": [
+    "unwind"
+  ],
+  "keywords": [
+    "relax",
+    "unwind",
+    "wind down",
+    "take it easy"
+  ],
+  "family": "flower",
+  "shapes": [
+    {
+      "d": "M12 6C15 9 15 13 12 16C9 13 9 9 12 6Z",
+      "closed": true,
+      "_why": "the middle petal"
+    },
+    {
+      "d": "M12 16C8 16 5 13 5 10C9 10 12 13 12 16Z",
+      "closed": true,
+      "_why": "the petal on the left"
+    },
+    {
+      "d": "M12 16C16 16 19 13 19 10C15 10 12 13 12 16Z",
+      "closed": true,
+      "_why": "the petal on the right"
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    }
+  ]
+}

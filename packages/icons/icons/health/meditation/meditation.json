@@ -1,0 +1,36 @@
+{
+  "slug": "meditation",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Meditation",
+  "description": "The figure sitting with its hands in its lap",
+  "tags": [
+    "meditate",
+    "sit",
+    "quiet"
+  ],
+  "aliases": [
+    "meditate"
+  ],
+  "keywords": [
+    "meditation",
+    "meditate",
+    "sitting practice",
+    "quiet"
+  ],
+  "family": "lotus",
+  "shapes": [
+    {
+      "d": "M9 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 19L12 11L20 19Z",
+      "closed": true
+    },
+    {
+      "d": "M7 16H17",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "motivation",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Motivation",
+  "description": "The thumb up",
+  "tags": [
+    "motivation",
+    "drive",
+    "thumbs-up"
+  ],
+  "aliases": [
+    "drive"
+  ],
+  "keywords": [
+    "motivation",
+    "motivated",
+    "drive",
+    "thumbs up"
+  ],
+  "family": "hand",
+  "shapes": [
+    {
+      "d": "M7 12L3 12L3 20L7 20",
+      "closed": false
+    },
+    {
+      "d": "M7 12L10 12L13 9L13 5L15.5 5L15.5 10L19 10L19 20L7 20Z",
+      "closed": true
+    }
+  ]
+}

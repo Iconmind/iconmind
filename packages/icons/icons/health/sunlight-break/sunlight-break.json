@@ -1,0 +1,44 @@
+{
+  "slug": "sunlight-break",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Get some light",
+  "description": "The door open and the light coming in",
+  "tags": [
+    "light",
+    "window",
+    "sun"
+  ],
+  "aliases": [
+    "daylight"
+  ],
+  "keywords": [
+    "get some light",
+    "daylight",
+    "sunlight",
+    "step outside"
+  ],
+  "family": "door",
+  "shapes": [
+    {
+      "d": "M5 21L5 4L13 4L13 21",
+      "closed": false
+    },
+    {
+      "d": "M10 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 8L21 8",
+      "closed": false
+    },
+    {
+      "d": "M16 12L21 12",
+      "closed": false
+    },
+    {
+      "d": "M16 16L21 16",
+      "closed": false
+    }
+  ]
+}

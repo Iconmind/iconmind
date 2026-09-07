@@ -1,0 +1,31 @@
+{
+  "slug": "bedtime",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Bedtime",
+  "description": "The pillow with the night over it",
+  "tags": [
+    "bedtime",
+    "pillow",
+    "night"
+  ],
+  "keywords": [
+    "bedtime",
+    "time for bed",
+    "turn in",
+    "lights out"
+  ],
+  "family": "pillow",
+  "shapes": [
+    {
+      "d": "M3 18A3 3 0 0 1 3 12H21A3 3 0 0 1 21 18Z",
+      "closed": true,
+      "_why": "a pillow, plumped at both ends"
+    },
+    {
+      "d": "M14 2A5 5 0 1 0 14 12A4 4 0 0 1 14 2Z",
+      "closed": true,
+      "_why": "a crescent over the pillow"
+    }
+  ]
+}

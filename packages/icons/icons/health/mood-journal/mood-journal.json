@@ -1,0 +1,40 @@
+{
+  "slug": "mood-journal",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Mood journal",
+  "description": "The page you write the day into",
+  "tags": [
+    "journal",
+    "write",
+    "page"
+  ],
+  "aliases": [
+    "diary"
+  ],
+  "keywords": [
+    "mood journal",
+    "diary",
+    "journalling",
+    "write it down"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 8H16",
+      "closed": false
+    },
+    {
+      "d": "M8 12H16",
+      "closed": false
+    },
+    {
+      "d": "M15 16A3 3 0 0 1 9 16",
+      "closed": false
+    }
+  ]
+}

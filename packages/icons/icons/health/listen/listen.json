@@ -1,0 +1,29 @@
+{
+  "slug": "listen",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Listening",
+  "description": "The ear turned towards you",
+  "tags": [
+    "listen",
+    "ear",
+    "hear"
+  ],
+  "aliases": [
+    "hear"
+  ],
+  "keywords": [
+    "listening",
+    "listen",
+    "hear",
+    "an ear"
+  ],
+  "family": "ear",
+  "shapes": [
+    {
+      "d": "M8 21V17C6 16 5 13 5 10A6 6 0 0 1 17 10C17 12 15 13 14 13C13 13 12 12 12 11",
+      "closed": false,
+      "_why": "an ear: the whorl and the lobe under it"
+    }
+  ]
+}

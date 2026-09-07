@@ -1,0 +1,30 @@
+{
+  "slug": "sleep",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Sleep",
+  "description": "The night with a star out",
+  "tags": [
+    "sleep",
+    "night",
+    "rest"
+  ],
+  "keywords": [
+    "sleep",
+    "asleep",
+    "night",
+    "rest"
+  ],
+  "family": "moon",
+  "shapes": [
+    {
+      "d": "M15 3A9 9 0 1 0 15 21A7 7 0 0 1 15 3Z",
+      "closed": true,
+      "_why": "a crescent: the long way round one circle and back on a smaller one"
+    },
+    {
+      "d": "M19 3L21 5L19 7L17 5Z",
+      "closed": true
+    }
+  ]
+}

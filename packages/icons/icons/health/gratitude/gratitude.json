@@ -1,0 +1,33 @@
+{
+  "slug": "gratitude",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Gratitude",
+  "description": "The heart held in an open hand",
+  "tags": [
+    "gratitude",
+    "thanks",
+    "give"
+  ],
+  "aliases": [
+    "thanks"
+  ],
+  "keywords": [
+    "gratitude",
+    "grateful",
+    "thank you",
+    "thanks"
+  ],
+  "family": "heart",
+  "shapes": [
+    {
+      "d": "M20 13A8 8 0 0 1 4 13",
+      "closed": false
+    },
+    {
+      "d": "M6 7A3 3 0 0 1 12 7A3 3 0 0 1 18 7L12 13Z",
+      "closed": true,
+      "_why": "a heart: two lobes over a point"
+    }
+  ]
+}

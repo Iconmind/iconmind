@@ -1,0 +1,33 @@
+{
+  "slug": "therapy",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Therapy",
+  "description": "The couch you talk from",
+  "tags": [
+    "therapy",
+    "couch",
+    "session"
+  ],
+  "keywords": [
+    "therapy",
+    "therapy session",
+    "counselling",
+    "the couch"
+  ],
+  "family": "couch",
+  "shapes": [
+    {
+      "d": "M2 17L2 8L6 8L6 12L18 12L18 8L22 8L22 17Z",
+      "closed": true
+    },
+    {
+      "d": "M5 17V20",
+      "closed": false
+    },
+    {
+      "d": "M19 17V20",
+      "closed": false
+    }
+  ]
+}

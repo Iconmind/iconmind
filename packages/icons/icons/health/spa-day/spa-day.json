@@ -1,0 +1,35 @@
+{
+  "slug": "spa-day",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Spa day",
+  "description": "The stones stacked and still",
+  "tags": [
+    "spa",
+    "stones",
+    "still"
+  ],
+  "keywords": [
+    "spa day",
+    "spa",
+    "stones",
+    "a still hour"
+  ],
+  "family": "stones",
+  "shapes": [
+    {
+      "d": "M6 5A2 2 0 0 0 6 9H18A2 2 0 0 0 18 5Z",
+      "closed": true,
+      "_why": "the top stone"
+    },
+    {
+      "d": "M4 12A2.5 2.5 0 0 0 4 17H20A2.5 2.5 0 0 0 20 12Z",
+      "closed": true,
+      "_why": "the stone under it"
+    },
+    {
+      "d": "M3 20H21",
+      "closed": false
+    }
+  ]
+}

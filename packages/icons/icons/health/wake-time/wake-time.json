@@ -1,0 +1,38 @@
+{
+  "slug": "wake-time",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Wake time",
+  "description": "The pillow with the morning over it",
+  "tags": [
+    "wake",
+    "morning",
+    "up"
+  ],
+  "keywords": [
+    "wake time",
+    "waking up",
+    "morning",
+    "get up"
+  ],
+  "family": "pillow",
+  "shapes": [
+    {
+      "d": "M3 20A3 3 0 0 1 3 14H21A3 3 0 0 1 21 20Z",
+      "closed": true,
+      "_why": "a pillow, plumped at both ends"
+    },
+    {
+      "d": "M7 10A5 5 0 0 1 17 10",
+      "closed": false
+    },
+    {
+      "d": "M4 10H20",
+      "closed": false
+    },
+    {
+      "d": "M12 2L12 5",
+      "closed": false
+    }
+  ]
+}

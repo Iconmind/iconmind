@@ -1,0 +1,43 @@
+{
+  "slug": "self-care",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Self care",
+  "description": "The plant you keep watering",
+  "tags": [
+    "self-care",
+    "tend",
+    "plant"
+  ],
+  "keywords": [
+    "self care",
+    "look after yourself",
+    "tend to yourself",
+    "care"
+  ],
+  "family": "plant",
+  "shapes": [
+    {
+      "d": "M8 13L16 13L16 21L8 21Z",
+      "closed": true
+    },
+    {
+      "d": "M6 16H18",
+      "closed": false
+    },
+    {
+      "d": "M12 13L12 8",
+      "closed": false
+    },
+    {
+      "d": "M12 8C12 4 9 2 5 2C5 6 8 8 12 8Z",
+      "closed": true,
+      "_why": "a leaf on the left"
+    },
+    {
+      "d": "M12 8C12 5 15 3 19 3C19 6 16 8 12 8Z",
+      "closed": true,
+      "_why": "a leaf on the right"
+    }
+  ]
+}

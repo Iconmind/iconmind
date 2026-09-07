@@ -1,0 +1,33 @@
+{
+  "slug": "anxiety",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Anxiety",
+  "description": "The head with the thought going round",
+  "tags": [
+    "anxiety",
+    "worry",
+    "loop"
+  ],
+  "aliases": [
+    "worry"
+  ],
+  "keywords": [
+    "anxiety",
+    "anxious",
+    "worry",
+    "racing thoughts"
+  ],
+  "family": "head",
+  "shapes": [
+    {
+      "d": "M6 21V16A7 7 0 1 1 18 16V21",
+      "closed": false,
+      "_why": "a head over its shoulders"
+    },
+    {
+      "d": "M8 10L11 13L8 16L11 19",
+      "closed": false
+    }
+  ]
+}

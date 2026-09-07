@@ -1,0 +1,42 @@
+{
+  "slug": "stress-level",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Stress level",
+  "description": "The meter filling across",
+  "tags": [
+    "level",
+    "meter",
+    "amount"
+  ],
+  "keywords": [
+    "stress level",
+    "how stressed",
+    "meter",
+    "level"
+  ],
+  "family": "meter",
+  "shapes": [
+    {
+      "d": "M2 15H22",
+      "closed": false
+    },
+    {
+      "d": "M12 8L16 12H8Z",
+      "closed": true,
+      "_why": "the pointer standing on the scale"
+    },
+    {
+      "d": "M6 15V18",
+      "closed": false
+    },
+    {
+      "d": "M12 15V18",
+      "closed": false
+    },
+    {
+      "d": "M18 15V18",
+      "closed": false
+    }
+  ]
+}

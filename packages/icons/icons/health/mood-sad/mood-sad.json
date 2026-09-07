@@ -1,0 +1,36 @@
+{
+  "slug": "mood-sad",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Low mood",
+  "description": "The mouth turned down",
+  "tags": [
+    "sad",
+    "low",
+    "down"
+  ],
+  "aliases": [
+    "low-mood"
+  ],
+  "keywords": [
+    "low mood",
+    "sad",
+    "feeling low",
+    "down"
+  ],
+  "family": "face",
+  "shapes": [
+    {
+      "d": "M4 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 20A8 8 0 0 1 20 20",
+      "closed": false
+    }
+  ]
+}

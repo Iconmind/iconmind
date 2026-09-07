@@ -1,0 +1,34 @@
+{
+  "slug": "dream",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Dream",
+  "description": "The thought floating off",
+  "tags": [
+    "dream",
+    "thought",
+    "float"
+  ],
+  "keywords": [
+    "dream",
+    "dreaming",
+    "a dream",
+    "daydream"
+  ],
+  "family": "cloud",
+  "shapes": [
+    {
+      "d": "M7 16A4 4 0 0 1 8 8A5 5 0 0 1 17 9A4 4 0 0 1 17 16Z",
+      "closed": true,
+      "_why": "a cloud of thought"
+    },
+    {
+      "d": "M5 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 21a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

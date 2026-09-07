@@ -1,0 +1,34 @@
+{
+  "slug": "nap",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Nap",
+  "description": "The hammock slung between two posts",
+  "tags": [
+    "nap",
+    "hammock",
+    "doze"
+  ],
+  "keywords": [
+    "nap",
+    "a nap",
+    "doze",
+    "forty winks"
+  ],
+  "family": "hammock",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M20 4V20",
+      "closed": false
+    },
+    {
+      "d": "M4 7C4 19 20 19 20 7",
+      "closed": false,
+      "_why": "the hammock sagging between the posts"
+    }
+  ]
+}

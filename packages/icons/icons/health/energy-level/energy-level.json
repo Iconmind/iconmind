@@ -1,0 +1,33 @@
+{
+  "slug": "energy-level",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Energy level",
+  "description": "The cell and how much is left in it",
+  "tags": [
+    "energy",
+    "left",
+    "cell"
+  ],
+  "keywords": [
+    "energy level",
+    "how much energy",
+    "reserves",
+    "energy"
+  ],
+  "family": "meter",
+  "shapes": [
+    {
+      "d": "M7 4L17 4L17 21L7 21Z",
+      "closed": true
+    },
+    {
+      "d": "M7 9H17",
+      "closed": false
+    },
+    {
+      "d": "M7 15H17",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "insomnia",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Insomnia",
+  "description": "The night that will not let go",
+  "tags": [
+    "insomnia",
+    "awake",
+    "night"
+  ],
+  "aliases": [
+    "sleepless"
+  ],
+  "keywords": [
+    "insomnia",
+    "cannot sleep",
+    "sleepless",
+    "awake at night"
+  ],
+  "family": "moon",
+  "shapes": [
+    {
+      "d": "M15 3A9 9 0 1 0 15 21A7 7 0 0 1 15 3Z",
+      "closed": true,
+      "_why": "a crescent: the long way round one circle and back on a smaller one"
+    },
+    {
+      "d": "M20 5V12",
+      "closed": false
+    },
+    {
+      "d": "M19 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

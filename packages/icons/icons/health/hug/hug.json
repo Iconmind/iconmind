@@ -1,0 +1,39 @@
+{
+  "slug": "hug",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Hug",
+  "description": "Two people, arms round each other",
+  "tags": [
+    "hug",
+    "close",
+    "hold"
+  ],
+  "keywords": [
+    "hug",
+    "a hug",
+    "held",
+    "comfort"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M3.5 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14.5 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 20V17A4.5 4.5 0 0 1 11 17V20",
+      "closed": false,
+      "_why": "one pair of shoulders"
+    },
+    {
+      "d": "M13 20V17A4.5 4.5 0 0 1 22 17V20",
+      "closed": false,
+      "_why": "the other pair, close beside it"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "nature-walk",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Walk outside",
+  "description": "The tree and the path up to it",
+  "tags": [
+    "walk",
+    "outside",
+    "tree"
+  ],
+  "aliases": [
+    "outdoors"
+  ],
+  "keywords": [
+    "walk outside",
+    "nature walk",
+    "outdoors",
+    "a walk"
+  ],
+  "family": "tree",
+  "shapes": [
+    {
+      "d": "M9 8a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 14L15 21",
+      "closed": false
+    },
+    {
+      "d": "M2 21L6 17L6 13",
+      "closed": false
+    }
+  ]
+}

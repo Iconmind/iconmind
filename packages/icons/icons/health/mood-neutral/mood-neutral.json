@@ -1,0 +1,33 @@
+{
+  "slug": "mood-neutral",
+  "category": "health",
+  "subcategory": "mind",
+  "name": "Flat mood",
+  "description": "The mouth straight across",
+  "tags": [
+    "neutral",
+    "flat",
+    "even"
+  ],
+  "keywords": [
+    "flat mood",
+    "neutral",
+    "so-so",
+    "even"
+  ],
+  "family": "face",
+  "shapes": [
+    {
+      "d": "M4 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 17H20",
+      "closed": false
+    }
+  ]
+}
