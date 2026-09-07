@@ -3,7 +3,7 @@
   "category": "health",
   "subcategory": "fitness",
   "name": "Personal trainer",
-  "description": "A person beside the weight",
+  "description": "A person with the session written down",
   "tags": [
     "trainer",
     "coach",
@@ -18,23 +18,23 @@
   "family": "person",
   "shapes": [
     {
-      "d": "M3 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "d": "M4 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
       "closed": true
     },
     {
-      "d": "M2 15A4.5 4.5 0 0 1 11 15",
+      "d": "M2.5 16A4.5 4.5 0 0 1 11.5 16",
       "closed": false
     },
     {
-      "d": "M10 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "d": "M13 10A2 2 0 0 1 15 8H19A2 2 0 0 1 21 10V17A2 2 0 0 1 19 19H15A2 2 0 0 1 13 17Z",
       "closed": true
     },
     {
-      "d": "M18 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
-      "closed": true
+      "d": "M15 12H19",
+      "closed": false
     },
     {
-      "d": "M14 18H18",
+      "d": "M15 15H19",
       "closed": false
     }
   ]

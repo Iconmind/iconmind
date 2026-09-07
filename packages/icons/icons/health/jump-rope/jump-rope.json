@@ -21,16 +21,16 @@
   "family": "rope",
   "shapes": [
     {
-      "d": "M21 10A9 9 0 0 1 3 10",
+      "d": "M20 10A8 8 0 0 1 4 10",
       "closed": false
     },
     {
-      "d": "M21 10L18 7",
-      "closed": false
+      "d": "M2 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
     },
     {
-      "d": "M3 10L6 7",
-      "closed": false
+      "d": "M18 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
     }
   ]
 }
