@@ -1,0 +1,32 @@
+{
+  "slug": "scalpel",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Scalpel",
+  "description": "The blade on its handle",
+  "tags": [
+    "scalpel",
+    "blade",
+    "cut"
+  ],
+  "aliases": [
+    "blade"
+  ],
+  "keywords": [
+    "scalpel",
+    "surgical blade",
+    "knife",
+    "cut"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 20L12 12L16 8L19 11L15 15L10 20Z",
+      "closed": true
+    },
+    {
+      "d": "M13 12L15 14",
+      "closed": false
+    }
+  ]
+}

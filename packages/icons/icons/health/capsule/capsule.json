@@ -1,0 +1,30 @@
+{
+  "slug": "capsule",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Capsule",
+  "description": "The capsule standing upright, its halves apart",
+  "tags": [
+    "capsule",
+    "medicine",
+    "dose"
+  ],
+  "keywords": [
+    "capsule",
+    "medicine capsule",
+    "dose",
+    "drug"
+  ],
+  "family": "pill",
+  "shapes": [
+    {
+      "d": "M8 7A4 4 0 0 1 16 7V17A4 4 0 0 1 8 17Z",
+      "closed": true,
+      "_why": "a capsule standing on end"
+    },
+    {
+      "d": "M8 12H16",
+      "closed": false
+    }
+  ]
+}

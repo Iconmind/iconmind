@@ -1,0 +1,29 @@
+{
+  "slug": "tablet-medicine",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Tablet",
+  "description": "The round tablet, scored across",
+  "tags": [
+    "tablet",
+    "medicine",
+    "round"
+  ],
+  "keywords": [
+    "tablet",
+    "round pill",
+    "scored tablet",
+    "medicine"
+  ],
+  "family": "pill",
+  "shapes": [
+    {
+      "d": "M4 12a8 8 0 1 0 16 0a8 8 0 1 0 -16 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 12H20",
+      "closed": false
+    }
+  ]
+}

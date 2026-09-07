@@ -1,0 +1,37 @@
+{
+  "slug": "ultrasound",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Ultrasound",
+  "description": "The probe and the waves it sends",
+  "tags": [
+    "ultrasound",
+    "scan",
+    "probe"
+  ],
+  "aliases": [
+    "sonogram"
+  ],
+  "keywords": [
+    "ultrasound",
+    "sonogram",
+    "scan",
+    "probe"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 3H10V14A3 3 0 0 1 4 14Z",
+      "closed": true,
+      "_why": "the probe with its rounded head"
+    },
+    {
+      "d": "M13 6A4 4 0 0 1 13 14",
+      "closed": false
+    },
+    {
+      "d": "M13 3A7 7 0 0 1 13 17",
+      "closed": false
+    }
+  ]
+}

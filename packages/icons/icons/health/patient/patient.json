@@ -1,0 +1,33 @@
+{
+  "slug": "patient",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Patient",
+  "description": "A person in the bed",
+  "tags": [
+    "patient",
+    "bed",
+    "admitted"
+  ],
+  "keywords": [
+    "patient",
+    "in hospital",
+    "admitted",
+    "inpatient"
+  ],
+  "family": "bed",
+  "shapes": [
+    {
+      "d": "M4 9a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 20L2 14L22 14L22 20",
+      "closed": false
+    },
+    {
+      "d": "M2 17H22",
+      "closed": false
+    }
+  ]
+}

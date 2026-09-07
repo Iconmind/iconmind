@@ -1,0 +1,45 @@
+{
+  "slug": "crutches",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Crutches",
+  "description": "Two crutches side by side",
+  "tags": [
+    "crutches",
+    "walking",
+    "support"
+  ],
+  "keywords": [
+    "crutches",
+    "walking aid",
+    "support",
+    "on crutches"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 4H10",
+      "closed": false
+    },
+    {
+      "d": "M7 4V21",
+      "closed": false
+    },
+    {
+      "d": "M4 10H10",
+      "closed": false
+    },
+    {
+      "d": "M14 4H20",
+      "closed": false
+    },
+    {
+      "d": "M17 4V21",
+      "closed": false
+    },
+    {
+      "d": "M14 10H20",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "surgery",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Surgery",
+  "description": "The mask worn over the mouth",
+  "tags": [
+    "surgery",
+    "operation",
+    "cut"
+  ],
+  "aliases": [
+    "operation"
+  ],
+  "keywords": [
+    "surgery",
+    "operation",
+    "surgical",
+    "procedure"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 8H19V13A7 5 0 0 1 5 13Z",
+      "closed": true,
+      "_why": "the mask over the mouth"
+    },
+    {
+      "d": "M7 11H17",
+      "closed": false
+    },
+    {
+      "d": "M7 14H17",
+      "closed": false
+    },
+    {
+      "d": "M5 14A3 3 0 0 1 5 8",
+      "closed": false
+    },
+    {
+      "d": "M19 8A3 3 0 0 1 19 14",
+      "closed": false
+    }
+  ]
+}

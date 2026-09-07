@@ -1,0 +1,40 @@
+{
+  "slug": "pill-bottle",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Pill bottle",
+  "description": "The bottle with its cap and a cross",
+  "tags": [
+    "bottle",
+    "medicine",
+    "jar"
+  ],
+  "aliases": [
+    "medicine-bottle"
+  ],
+  "keywords": [
+    "pill bottle",
+    "medicine bottle",
+    "pill jar",
+    "prescription bottle"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 8L6 21L18 21L18 8Z",
+      "closed": true
+    },
+    {
+      "d": "M8 8L8 4L16 4L16 8",
+      "closed": false
+    },
+    {
+      "d": "M12 11.5V16.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 14H14.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "ambulance",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Ambulance",
+  "description": "The van with a cross on its side",
+  "tags": [
+    "ambulance",
+    "emergency",
+    "van"
+  ],
+  "keywords": [
+    "ambulance",
+    "emergency vehicle",
+    "paramedic van",
+    "999"
+  ],
+  "family": "truck",
+  "shapes": [
+    {
+      "d": "M2 17V8A2 2 0 0 1 4 6H14V10H17.5L21 13.5V17Z",
+      "closed": true,
+      "_why": "the ambulance: a box body with the cab cut back"
+    },
+    {
+      "d": "M5 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 9V13",
+      "closed": false
+    },
+    {
+      "d": "M6 11H10",
+      "closed": false
+    }
+  ]
+}

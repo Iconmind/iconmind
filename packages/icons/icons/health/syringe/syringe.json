@@ -1,0 +1,40 @@
+{
+  "slug": "syringe",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Syringe",
+  "description": "The barrel with its plunger and needle",
+  "tags": [
+    "syringe",
+    "needle",
+    "injection"
+  ],
+  "aliases": [
+    "needle"
+  ],
+  "keywords": [
+    "syringe",
+    "needle",
+    "injection",
+    "jab"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 15L14 7L17 10L9 18Z",
+      "closed": true
+    },
+    {
+      "d": "M15.5 8.5L20 4",
+      "closed": false
+    },
+    {
+      "d": "M7.5 16.5L4 20",
+      "closed": false
+    },
+    {
+      "d": "M2.5 18.5L5.5 21.5",
+      "closed": false
+    }
+  ]
+}

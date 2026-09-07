@@ -1,0 +1,33 @@
+{
+  "slug": "clinic",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Clinic",
+  "description": "The stepped wing with a cross on it",
+  "tags": [
+    "clinic",
+    "surgery",
+    "practice"
+  ],
+  "keywords": [
+    "clinic",
+    "gp surgery",
+    "doctor's practice",
+    "health centre"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 20L3 12L8 12L8 7L16 7L16 12L21 12L21 20Z",
+      "closed": true
+    },
+    {
+      "d": "M12 11.5V16.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 14H14.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "heart-rate",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Heart rate",
+  "description": "The heart with the beat drawn through it",
+  "tags": [
+    "heart",
+    "rate",
+    "bpm"
+  ],
+  "aliases": [
+    "bpm"
+  ],
+  "keywords": [
+    "heart rate",
+    "bpm",
+    "pulse rate",
+    "heartbeat"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 10A4 4 0 0 1 12 10A4 4 0 0 1 20 10L12 18Z",
+      "closed": true,
+      "_why": "a heart: two lobes over a point"
+    },
+    {
+      "d": "M2 13L8 13L10 11L14 15L16 13L22 13",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "health-card",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Health card",
+  "description": "The card with a cross on it",
+  "tags": [
+    "card",
+    "insurance",
+    "id"
+  ],
+  "keywords": [
+    "health card",
+    "insurance card",
+    "medical card",
+    "nhs card"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M2 9H22",
+      "closed": false
+    },
+    {
+      "d": "M6 10.5V15.5",
+      "closed": false
+    },
+    {
+      "d": "M3.5 13H8.5",
+      "closed": false
+    },
+    {
+      "d": "M12 12H20",
+      "closed": false
+    },
+    {
+      "d": "M12 16H18",
+      "closed": false
+    }
+  ]
+}

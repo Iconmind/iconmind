@@ -1,0 +1,44 @@
+{
+  "slug": "injection",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Injection",
+  "description": "The dose pressed down through the needle",
+  "tags": [
+    "injection",
+    "jab",
+    "shot"
+  ],
+  "aliases": [
+    "jab"
+  ],
+  "keywords": [
+    "injection",
+    "jab",
+    "shot",
+    "give an injection"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 8A2 2 0 0 1 10 6H14A2 2 0 0 1 16 8V14A2 2 0 0 1 14 16H10A2 2 0 0 1 8 14Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3H16",
+      "closed": false
+    },
+    {
+      "d": "M12 3L12 6",
+      "closed": false
+    },
+    {
+      "d": "M12 16L12 20",
+      "closed": false
+    },
+    {
+      "d": "M10 10H14",
+      "closed": false
+    }
+  ]
+}

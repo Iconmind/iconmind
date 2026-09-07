@@ -1,0 +1,29 @@
+{
+  "slug": "cast",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Plaster cast",
+  "description": "The arm in its cast",
+  "tags": [
+    "cast",
+    "broken",
+    "arm"
+  ],
+  "keywords": [
+    "plaster cast",
+    "broken arm",
+    "cast",
+    "fracture"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 4L7 14L13 20L17 16L11 10L11 4Z",
+      "closed": true
+    },
+    {
+      "d": "M7 9H11",
+      "closed": false
+    }
+  ]
+}

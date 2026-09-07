@@ -1,0 +1,44 @@
+{
+  "slug": "eye-test",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Eye test",
+  "description": "The chart with the letters getting smaller",
+  "tags": [
+    "eye",
+    "test",
+    "chart"
+  ],
+  "aliases": [
+    "sight-test"
+  ],
+  "keywords": [
+    "eye test",
+    "sight test",
+    "eye chart",
+    "optician"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 7H16",
+      "closed": false
+    },
+    {
+      "d": "M9 11H15",
+      "closed": false
+    },
+    {
+      "d": "M9.5 15H14.5",
+      "closed": false
+    },
+    {
+      "d": "M10 18H14",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "medical-thermometer",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Thermometer",
+  "description": "The stick thermometer with its column",
+  "tags": [
+    "thermometer",
+    "fever",
+    "temperature"
+  ],
+  "aliases": [
+    "fever"
+  ],
+  "keywords": [
+    "medical thermometer",
+    "fever",
+    "take a temperature",
+    "thermometer"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 19A2.5 2.5 0 0 1 7 14L16 5A2.5 2.5 0 0 1 19 8Z",
+      "closed": true,
+      "_why": "a stick thermometer lying on the diagonal"
+    },
+    {
+      "d": "M10 15L15 10",
+      "closed": false
+    }
+  ]
+}

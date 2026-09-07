@@ -1,0 +1,36 @@
+{
+  "slug": "vaccine",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Vaccine",
+  "description": "The vial with its cap and the dose line",
+  "tags": [
+    "vaccine",
+    "vial",
+    "dose"
+  ],
+  "aliases": [
+    "vial"
+  ],
+  "keywords": [
+    "vaccine",
+    "vial",
+    "dose",
+    "immunisation"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 7L8 20L16 20L16 7Z",
+      "closed": true
+    },
+    {
+      "d": "M9 7L9 4L15 4L15 7",
+      "closed": false
+    },
+    {
+      "d": "M8 13H16",
+      "closed": false
+    }
+  ]
+}

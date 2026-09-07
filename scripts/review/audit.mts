@@ -84,6 +84,8 @@ const ANCHORED = new Set([
   "finance/yield",
   // a plane climbing or dropping sits above the ground line it leaves or meets
   "travel/takeoff", "travel/landing",
+  // A blade lies corner to corner: the ink rides the diagonal, so the centroid sits off it.
+  "health/scalpel",
   // what is covered stands under the canopy; the canopy is the weight
   "finance/health-cover", "finance/life-cover",
   // charts on their axes: the ink sits where the axes and the baseline are

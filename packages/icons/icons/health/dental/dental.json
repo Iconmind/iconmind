@@ -1,0 +1,30 @@
+{
+  "slug": "dental",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Dental care",
+  "description": "The tooth with a check beside it",
+  "tags": [
+    "dental",
+    "dentist",
+    "teeth"
+  ],
+  "keywords": [
+    "dental care",
+    "dentist",
+    "teeth",
+    "oral health"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 6A4 4 0 0 1 9 8A4 4 0 0 1 14 6C16 10 14 19 11.5 19C10 19 10 13 9 13C8 13 8 19 6.5 19C4 19 2 10 4 6Z",
+      "closed": true,
+      "_why": "a tooth: a crown over two roots"
+    },
+    {
+      "d": "M16 15L18 17L22 13",
+      "closed": false
+    }
+  ]
+}

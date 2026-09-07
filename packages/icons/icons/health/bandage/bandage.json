@@ -1,0 +1,36 @@
+{
+  "slug": "bandage",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Bandage",
+  "description": "The roll of gauze with its tail",
+  "tags": [
+    "bandage",
+    "dressing",
+    "wound"
+  ],
+  "aliases": [
+    "dressing"
+  ],
+  "keywords": [
+    "bandage",
+    "dressing",
+    "wrap",
+    "wound care"
+  ],
+  "family": "roll",
+  "shapes": [
+    {
+      "d": "M3 12a7 7 0 1 0 14 0a7 7 0 1 0 -14 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 12L21 12L21 19",
+      "closed": false
+    }
+  ]
+}

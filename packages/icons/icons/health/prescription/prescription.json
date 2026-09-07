@@ -1,0 +1,34 @@
+{
+  "slug": "prescription",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Prescription",
+  "description": "The sheet with a capsule on it",
+  "tags": [
+    "prescription",
+    "script",
+    "rx"
+  ],
+  "aliases": [
+    "rx"
+  ],
+  "keywords": [
+    "prescription",
+    "rx",
+    "doctor's note",
+    "script"
+  ],
+  "family": "slip",
+  "shapes": [
+    {
+      "d": "M4 3H18L22 7V19A2 2 0 0 1 20 21H4A2 2 0 0 1 2 19V5A2 2 0 0 1 4 3ZM18 3V7H22",
+      "closed": false,
+      "_why": "a slip: a wide sheet with its top-right corner folded over"
+    },
+    {
+      "d": "M7 17L11 13A2.5 2.5 0 0 1 14.5 16.5L10.5 20.5A2.5 2.5 0 0 1 7 17Z",
+      "closed": true,
+      "_why": "a capsule lying on the diagonal"
+    }
+  ]
+}

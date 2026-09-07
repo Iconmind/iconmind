@@ -1,0 +1,33 @@
+{
+  "slug": "hospital",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Hospital",
+  "description": "The block with a cross over its door",
+  "tags": [
+    "hospital",
+    "ward",
+    "care"
+  ],
+  "keywords": [
+    "hospital",
+    "medical centre",
+    "ward",
+    "infirmary"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 20L4 7L20 7L20 20Z",
+      "closed": true
+    },
+    {
+      "d": "M12 10V16",
+      "closed": false
+    },
+    {
+      "d": "M9 13H15",
+      "closed": false
+    }
+  ]
+}

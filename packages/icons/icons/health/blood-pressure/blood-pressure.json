@@ -1,0 +1,40 @@
+{
+  "slug": "blood-pressure",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Blood pressure",
+  "description": "The cuff with its dial",
+  "tags": [
+    "pressure",
+    "cuff",
+    "bp"
+  ],
+  "aliases": [
+    "bp"
+  ],
+  "keywords": [
+    "blood pressure",
+    "bp",
+    "cuff",
+    "sphygmomanometer"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 8L3 17L15 17L15 8Z",
+      "closed": true
+    },
+    {
+      "d": "M3 12.5H15",
+      "closed": false
+    },
+    {
+      "d": "M16 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M19 8L21 6",
+      "closed": false
+    }
+  ]
+}

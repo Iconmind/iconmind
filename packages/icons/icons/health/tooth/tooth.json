@@ -1,0 +1,33 @@
+{
+  "slug": "tooth",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Tooth",
+  "description": "One tooth",
+  "tags": [
+    "tooth",
+    "teeth",
+    "molar"
+  ],
+  "aliases": [
+    "teeth"
+  ],
+  "keywords": [
+    "tooth",
+    "teeth",
+    "molar",
+    "dental"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 5A4 4 0 0 1 12 7A4 4 0 0 1 17 5C19 9 17 19 14.5 19C13 19 13 13 12 13C11 13 11 19 9.5 19C7 19 5 9 7 5Z",
+      "closed": true,
+      "_why": "a tooth: a crown over two roots"
+    },
+    {
+      "d": "M7 21H17",
+      "closed": false
+    }
+  ]
+}

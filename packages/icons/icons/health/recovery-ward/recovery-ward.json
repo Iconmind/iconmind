@@ -1,0 +1,34 @@
+{
+  "slug": "recovery-ward",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Recovery ward",
+  "description": "The bed with a heart over it",
+  "tags": [
+    "recovery",
+    "ward",
+    "rest"
+  ],
+  "keywords": [
+    "recovery ward",
+    "hospital bed",
+    "recovering",
+    "ward"
+  ],
+  "family": "bed",
+  "shapes": [
+    {
+      "d": "M2 20L2 13L22 13L22 20",
+      "closed": false
+    },
+    {
+      "d": "M2 16.5H22",
+      "closed": false
+    },
+    {
+      "d": "M8 6A2 2 0 0 1 12 6A2 2 0 0 1 16 6L12 10Z",
+      "closed": true,
+      "_why": "a heart: two lobes over a point"
+    }
+  ]
+}

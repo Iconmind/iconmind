@@ -1,0 +1,36 @@
+{
+  "slug": "medical-record",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Medical record",
+  "description": "The folder with a cross on it",
+  "tags": [
+    "record",
+    "notes",
+    "file"
+  ],
+  "aliases": [
+    "patient-file"
+  ],
+  "keywords": [
+    "medical record",
+    "patient file",
+    "notes",
+    "health record"
+  ],
+  "family": "folder",
+  "shapes": [
+    {
+      "d": "M2 20L2 6L9 6L11 8L22 8L22 20Z",
+      "closed": true
+    },
+    {
+      "d": "M12 11V17",
+      "closed": false
+    },
+    {
+      "d": "M9 14H15",
+      "closed": false
+    }
+  ]
+}

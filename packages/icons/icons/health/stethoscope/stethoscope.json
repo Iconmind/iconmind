@@ -1,0 +1,42 @@
+{
+  "slug": "stethoscope",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Stethoscope",
+  "description": "The tubes over the head and the chest piece",
+  "tags": [
+    "stethoscope",
+    "listen",
+    "chest"
+  ],
+  "keywords": [
+    "stethoscope",
+    "listen to the chest",
+    "doctor's tool",
+    "auscultation"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 4V8A6 6 0 0 0 18 8V4",
+      "closed": false,
+      "_why": "the tubes that hang round the neck"
+    },
+    {
+      "d": "M5 3a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 3a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 14L12 16.5",
+      "closed": false
+    },
+    {
+      "d": "M9 19a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

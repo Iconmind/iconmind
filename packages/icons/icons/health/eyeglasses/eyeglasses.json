@@ -1,0 +1,44 @@
+{
+  "slug": "eyeglasses",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Glasses",
+  "description": "Two lenses and the bridge",
+  "tags": [
+    "glasses",
+    "spectacles",
+    "sight"
+  ],
+  "aliases": [
+    "spectacles"
+  ],
+  "keywords": [
+    "glasses",
+    "spectacles",
+    "eyewear",
+    "reading glasses"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 13a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 13a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 13H13.5",
+      "closed": false
+    },
+    {
+      "d": "M2 9L4 11",
+      "closed": false
+    },
+    {
+      "d": "M22 9L20 11",
+      "closed": false
+    }
+  ]
+}

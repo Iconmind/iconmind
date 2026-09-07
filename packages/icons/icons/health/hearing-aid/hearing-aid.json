@@ -1,0 +1,34 @@
+{
+  "slug": "hearing-aid",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Hearing aid",
+  "description": "The aid behind the ear with its waves",
+  "tags": [
+    "hearing",
+    "aid",
+    "ear"
+  ],
+  "keywords": [
+    "hearing aid",
+    "hearing",
+    "ear aid",
+    "deaf aid"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 20A6 6 0 0 1 6 8A4 4 0 0 1 12 16",
+      "closed": false,
+      "_why": "the aid hooked round the ear"
+    },
+    {
+      "d": "M16 9A3 3 0 0 1 16 15",
+      "closed": false
+    },
+    {
+      "d": "M16 6A6 6 0 0 1 16 18",
+      "closed": false
+    }
+  ]
+}

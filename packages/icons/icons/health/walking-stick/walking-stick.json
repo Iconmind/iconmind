@@ -1,0 +1,33 @@
+{
+  "slug": "walking-stick",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Walking stick",
+  "description": "The stick with its curved handle",
+  "tags": [
+    "stick",
+    "cane",
+    "walking"
+  ],
+  "aliases": [
+    "cane"
+  ],
+  "keywords": [
+    "walking stick",
+    "cane",
+    "walking aid",
+    "stick"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 21V8A4 4 0 0 1 16 8",
+      "closed": false,
+      "_why": "a stick with a hooked handle"
+    },
+    {
+      "d": "M5 21H11",
+      "closed": false
+    }
+  ]
+}

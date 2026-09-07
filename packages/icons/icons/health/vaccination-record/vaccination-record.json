@@ -1,0 +1,37 @@
+{
+  "slug": "vaccination-record",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Vaccination record",
+  "description": "The card with a check on it",
+  "tags": [
+    "vaccine",
+    "record",
+    "proof"
+  ],
+  "keywords": [
+    "vaccination record",
+    "vaccine passport",
+    "jab record",
+    "proof of vaccination"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M2 9H22",
+      "closed": false
+    },
+    {
+      "d": "M5 13L8 16L13 11",
+      "closed": false
+    },
+    {
+      "d": "M12 16H20",
+      "closed": false
+    }
+  ]
+}

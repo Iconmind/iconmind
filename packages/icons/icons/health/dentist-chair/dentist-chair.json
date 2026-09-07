@@ -1,0 +1,41 @@
+{
+  "slug": "dentist-chair",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Dentist's chair",
+  "description": "The couch under its lamp",
+  "tags": [
+    "dentist",
+    "chair",
+    "surgery"
+  ],
+  "keywords": [
+    "dentist chair",
+    "dental surgery",
+    "dentist",
+    "dental chair"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 16L3 12L19 12L19 16Z",
+      "closed": true
+    },
+    {
+      "d": "M11 16V21",
+      "closed": false
+    },
+    {
+      "d": "M7 21H15",
+      "closed": false
+    },
+    {
+      "d": "M16 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M19 8L19 12",
+      "closed": false
+    }
+  ]
+}

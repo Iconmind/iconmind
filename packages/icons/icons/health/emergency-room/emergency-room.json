@@ -1,0 +1,37 @@
+{
+  "slug": "emergency-room",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Emergency",
+  "description": "The open doorway with a cross under it",
+  "tags": [
+    "emergency",
+    "a-and-e",
+    "urgent"
+  ],
+  "aliases": [
+    "a-and-e"
+  ],
+  "keywords": [
+    "emergency room",
+    "a&e",
+    "urgent care",
+    "casualty"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 20V12A8 8 0 0 1 20 12V20",
+      "closed": false,
+      "_why": "the doorway that never shuts"
+    },
+    {
+      "d": "M12 10V16",
+      "closed": false
+    },
+    {
+      "d": "M9 13H15",
+      "closed": false
+    }
+  ]
+}

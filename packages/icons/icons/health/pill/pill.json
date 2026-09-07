@@ -1,0 +1,33 @@
+{
+  "slug": "pill",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Pill",
+  "description": "A capsule split across the middle",
+  "tags": [
+    "pill",
+    "capsule",
+    "medicine"
+  ],
+  "aliases": [
+    "medicine"
+  ],
+  "keywords": [
+    "pill",
+    "capsule",
+    "medicine",
+    "tablet"
+  ],
+  "family": "pill",
+  "shapes": [
+    {
+      "d": "M3.5 13.5L13.5 3.5A5 5 0 0 1 20.5 10.5L10.5 20.5A5 5 0 0 1 3.5 13.5Z",
+      "closed": true,
+      "_why": "a capsule: two rounded ends on the diagonal"
+    },
+    {
+      "d": "M8.5 8.5L15.5 15.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "nurse",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Nurse",
+  "description": "A person with a cap and a cross",
+  "tags": [
+    "nurse",
+    "care",
+    "staff"
+  ],
+  "keywords": [
+    "nurse",
+    "nursing",
+    "care staff",
+    "matron"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M9 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5.4 17A6.6 6.6 0 0 1 18.6 17",
+      "closed": false
+    },
+    {
+      "d": "M8 6L8 3L16 3L16 6",
+      "closed": false
+    },
+    {
+      "d": "M12 14V18",
+      "closed": false
+    },
+    {
+      "d": "M10 16H14",
+      "closed": false
+    }
+  ]
+}

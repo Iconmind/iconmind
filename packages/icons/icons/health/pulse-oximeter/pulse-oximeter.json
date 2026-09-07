@@ -1,0 +1,36 @@
+{
+  "slug": "pulse-oximeter",
+  "category": "health",
+  "subcategory": "medical",
+  "name": "Pulse oximeter",
+  "description": "The clip on the finger with the reading",
+  "tags": [
+    "oximeter",
+    "oxygen",
+    "finger"
+  ],
+  "aliases": [
+    "spo2"
+  ],
+  "keywords": [
+    "pulse oximeter",
+    "spo2",
+    "oxygen level",
+    "finger clip"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 8L4 16L16 16L16 8Z",
+      "closed": true
+    },
+    {
+      "d": "M16 12H21",
+      "closed": false
+    },
+    {
+      "d": "M6 12L9 12L11 10L13 12L16 12",
+      "closed": false
+    }
+  ]
+}
