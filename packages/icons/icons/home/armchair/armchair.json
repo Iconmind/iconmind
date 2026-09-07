@@ -18,19 +18,19 @@
   "family": "couch",
   "shapes": [
     {
-      "d": "M6 20L6 7L18 7L18 20",
+      "d": "M7 16L7 5L17 5L17 16",
       "closed": false
     },
     {
-      "d": "M6 13H18",
+      "d": "M3 16H21",
       "closed": false
     },
     {
-      "d": "M3 20L3 13L6 13",
+      "d": "M3 20L3 12L7 12",
       "closed": false
     },
     {
-      "d": "M21 20L21 13L18 13",
+      "d": "M21 20L21 12L17 12",
       "closed": false
     }
   ]

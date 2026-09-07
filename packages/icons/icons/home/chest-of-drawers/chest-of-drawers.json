@@ -3,7 +3,7 @@
   "category": "home",
   "subcategory": "room",
   "name": "Chest of drawers",
-  "description": "Three drawers, each with a handle",
+  "description": "Two drawers, each with a handle",
   "tags": [
     "drawers",
     "chest",
@@ -25,24 +25,16 @@
       "closed": true
     },
     {
-      "d": "M3 9H21",
+      "d": "M3 12H21",
       "closed": false
     },
     {
-      "d": "M3 15H21",
+      "d": "M10 8H14",
       "closed": false
     },
     {
-      "d": "M11 6.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
-      "closed": true
-    },
-    {
-      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
-      "closed": true
-    },
-    {
-      "d": "M11 17.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
-      "closed": true
+      "d": "M10 16H14",
+      "closed": false
     }
   ]
 }

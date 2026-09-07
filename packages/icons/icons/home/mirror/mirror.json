@@ -18,16 +18,16 @@
   "family": "mirror",
   "shapes": [
     {
-      "d": "M6 12A6 9 0 1 1 18 12A6 9 0 1 1 6 12Z",
+      "d": "M6 10A6 7 0 1 1 18 10A6 7 0 1 1 6 10Z",
       "closed": true,
       "_why": "the glass, an upright oval"
     },
     {
-      "d": "M8 21H16",
+      "d": "M12 17V20",
       "closed": false
     },
     {
-      "d": "M12 21L12 18",
+      "d": "M8 20H16",
       "closed": false
     }
   ]

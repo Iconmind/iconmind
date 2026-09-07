@@ -25,15 +25,15 @@
       "closed": true
     },
     {
-      "d": "M5 14H19",
+      "d": "M4 14H20",
       "closed": false
     },
     {
-      "d": "M12 14V17",
+      "d": "M12 14V18",
       "closed": false
     },
     {
-      "d": "M8 20L12 16L16 20",
+      "d": "M7 21L10 18L14 18L17 21",
       "closed": false
     }
   ]

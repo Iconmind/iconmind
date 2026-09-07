@@ -21,20 +21,24 @@
   "family": "table",
   "shapes": [
     {
-      "d": "M7 9A5 6 0 1 1 17 9A5 6 0 1 1 7 9Z",
+      "d": "M8 8A4 5 0 1 1 16 8A4 5 0 1 1 8 8Z",
       "closed": true,
-      "_why": "the mirror over the table"
+      "_why": "the mirror, an upright oval"
     },
     {
-      "d": "M2 16H22",
+      "d": "M12 13V17",
       "closed": false
     },
     {
-      "d": "M4 16V21",
+      "d": "M2 17H22",
       "closed": false
     },
     {
-      "d": "M20 16V21",
+      "d": "M4 17V21",
+      "closed": false
+    },
+    {
+      "d": "M20 17V21",
       "closed": false
     }
   ]

@@ -21,23 +21,23 @@
   "family": "couch",
   "shapes": [
     {
-      "d": "M3 19L3 9L15 9L15 19",
+      "d": "M2 17L2 9L10 9L10 17",
       "closed": false
     },
     {
-      "d": "M3 14H15",
+      "d": "M2 13H10",
       "closed": false
     },
     {
-      "d": "M9 9L9 14",
+      "d": "M13 10L16 7L19 7L22 10Z",
+      "closed": true
+    },
+    {
+      "d": "M17.5 10V19",
       "closed": false
     },
     {
-      "d": "M19 9V19",
-      "closed": false
-    },
-    {
-      "d": "M16 9L19 6L22 9",
+      "d": "M15.5 19H19.5",
       "closed": false
     }
   ]

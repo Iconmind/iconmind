@@ -21,20 +21,16 @@
   "family": "toilet",
   "shapes": [
     {
-      "d": "M6 8L6 3L16 3L16 8",
-      "closed": false
+      "d": "M5 2L5 7L13 7L13 2Z",
+      "closed": true
     },
     {
-      "d": "M6 8H18V12A7 7 0 0 1 6 12Z",
+      "d": "M5 10H19V13A7.4 7.4 0 0 1 5 13Z",
       "closed": true,
-      "_why": "the pan under the cistern"
+      "_why": "the pan, rounded under the rim"
     },
     {
-      "d": "M11 16V20",
-      "closed": false
-    },
-    {
-      "d": "M8 20H14",
+      "d": "M12 18V21",
       "closed": false
     }
   ]

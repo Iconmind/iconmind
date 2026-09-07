@@ -18,19 +18,23 @@
   "family": "bed",
   "shapes": [
     {
-      "d": "M2 20L2 14L22 14L22 20",
+      "d": "M2 21L2 15L22 15L22 21",
       "closed": false
     },
     {
-      "d": "M2 17H22",
+      "d": "M2 18H22",
       "closed": false
     },
     {
-      "d": "M8 5A2 2 0 0 1 10 3H14A2 2 0 0 1 16 5V9A2 2 0 0 1 14 11H10A2 2 0 0 1 8 9Z",
+      "d": "M7 4A2 2 0 0 1 9 2H15A2 2 0 0 1 17 4V10A2 2 0 0 1 15 12H9A2 2 0 0 1 7 10Z",
       "closed": true
     },
     {
-      "d": "M12 3V11",
+      "d": "M12 2V12",
+      "closed": false
+    },
+    {
+      "d": "M7 7H17",
       "closed": false
     }
   ]

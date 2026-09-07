@@ -18,28 +18,21 @@
   "family": "lamp",
   "shapes": [
     {
-      "d": "M12 4V11",
+      "d": "M12 3V9",
       "closed": false
     },
     {
-      "d": "M5 11H19",
-      "closed": false
+      "d": "M4 16C4 11 8 9 12 9C16 9 20 11 20 16",
+      "closed": false,
+      "_why": "the arms sweeping out from the stem"
     },
     {
-      "d": "M5 11L5 16",
-      "closed": false
+      "d": "M2 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
     },
     {
-      "d": "M19 11L19 16",
-      "closed": false
-    },
-    {
-      "d": "M2 16A3 3 0 0 1 8 16",
-      "closed": false
-    },
-    {
-      "d": "M16 16A3 3 0 0 1 22 16",
-      "closed": false
+      "d": "M18 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
     }
   ]
 }

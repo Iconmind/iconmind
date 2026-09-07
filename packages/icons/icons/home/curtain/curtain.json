@@ -25,24 +25,14 @@
       "closed": false
     },
     {
-      "d": "M6 4C6 10 4 12 4 21",
+      "d": "M3 4V21H8C9.5 21 10 20 10 18V4",
       "closed": false,
-      "_why": "the left drop"
+      "_why": "the left panel, swept to the inside"
     },
     {
-      "d": "M9 4C9 12 11 14 11 21",
+      "d": "M21 4V21H16C14.5 21 14 20 14 18V4",
       "closed": false,
-      "_why": "the fold beside it"
-    },
-    {
-      "d": "M15 4C15 12 13 14 13 21",
-      "closed": false,
-      "_why": "the fold on the other side"
-    },
-    {
-      "d": "M18 4C18 10 20 12 20 21",
-      "closed": false,
-      "_why": "the right drop"
+      "_why": "the right panel, swept to the inside"
     }
   ]
 }

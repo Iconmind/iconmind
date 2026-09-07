@@ -21,20 +21,16 @@
   "family": "figure",
   "shapes": [
     {
-      "d": "M4 16V10A6 6 0 0 1 16 10V16Z",
+      "d": "M5 16V10A6 6 0 0 1 17 10V16Z",
       "closed": true,
       "_why": "the box with its rounded top"
     },
     {
-      "d": "M6 12H14",
+      "d": "M8 11H14",
       "closed": false
     },
     {
-      "d": "M10 16V21",
-      "closed": false
-    },
-    {
-      "d": "M16 8L20 8",
+      "d": "M11 16V21",
       "closed": false
     }
   ]
