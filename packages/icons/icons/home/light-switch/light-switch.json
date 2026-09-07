@@ -1,0 +1,33 @@
+{
+  "slug": "light-switch",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Light switch",
+  "description": "The toggle on its plate",
+  "tags": [
+    "light",
+    "switch",
+    "toggle"
+  ],
+  "keywords": [
+    "light switch",
+    "toggle",
+    "put the light on",
+    "switch"
+  ],
+  "family": "switch",
+  "shapes": [
+    {
+      "d": "M5 5A2 2 0 0 1 7 3H17A2 2 0 0 1 19 5V19A2 2 0 0 1 17 21H7A2 2 0 0 1 5 19Z",
+      "closed": true
+    },
+    {
+      "d": "M10 8L14 8L14 16L10 16Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12H14",
+      "closed": false
+    }
+  ]
+}

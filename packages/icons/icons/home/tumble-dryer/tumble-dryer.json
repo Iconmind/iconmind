@@ -1,0 +1,44 @@
+{
+  "slug": "tumble-dryer",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Tumble dryer",
+  "description": "The drum with the heat in it",
+  "tags": [
+    "dryer",
+    "tumble",
+    "dry"
+  ],
+  "aliases": [
+    "tumble-drier"
+  ],
+  "keywords": [
+    "tumble dryer",
+    "drier",
+    "dry the washing",
+    "drum"
+  ],
+  "family": "unit",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M4 8H20",
+      "closed": false
+    },
+    {
+      "d": "M7 15a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 17L12 15L10 13",
+      "closed": false
+    },
+    {
+      "d": "M14 17L14 13",
+      "closed": false
+    }
+  ]
+}

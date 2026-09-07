@@ -176,7 +176,7 @@ export const BATCH_125: Icon[] = [
     ["fan", "cool", "blades"], [], ["fan", "cooling fan", "electric fan", "keep cool"],
     "machine", [disc(12, 12, 9), disc(12, 12, 2), poly([[12, 5], [15, 8], [12, 11]], true), poly([[19, 12], [16, 15], [13, 12]], true), poly([[12, 19], [9, 16], [12, 13]], true), poly([[5, 12], [8, 9], [11, 12]], true)]),
   c("heater", "Heater", "The radiator with its bars and the heat rising",
-    ["heater", "radiator", "warm"], ["radiator"], ["heater", "radiator", "heating", "keep warm"],
+    ["heater", "radiator", "warm"], [], ["heater", "radiator", "heating", "keep warm"],
     "machine", [rect(4, 10, 16, 11, 2), col(9, 10, 21), col(15, 10, 21), arc(8, 5, 2.5, 90, 270), arc(16, 5, 2.5, 270, 90)]),
   c("shade", "Shade", "The sun with a parasol between it and the ground",
     ["shade", "shadow", "cover"], [], ["shade", "in the shade", "shadow", "out of the sun"],

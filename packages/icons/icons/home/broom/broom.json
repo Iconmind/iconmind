@@ -1,0 +1,43 @@
+{
+  "slug": "broom",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Broom",
+  "description": "The bristles under the handle",
+  "tags": [
+    "broom",
+    "sweep",
+    "bristles"
+  ],
+  "aliases": [
+    "sweeping-brush"
+  ],
+  "keywords": [
+    "broom",
+    "sweep up",
+    "brush",
+    "bristles"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M12 2L12 12",
+      "closed": false
+    },
+    {
+      "d": "M9 12H15C16 15 17 18 18 20H6C7 18 8 15 9 12Z",
+      "closed": true,
+      "_why": "the bristles, spreading as they go down"
+    },
+    {
+      "d": "M11 12C10.5 15 10 18 9.5 20",
+      "closed": false,
+      "_why": "a line of bristles"
+    },
+    {
+      "d": "M13 12C13.5 15 14 18 14.5 20",
+      "closed": false,
+      "_why": "another line of bristles"
+    }
+  ]
+}

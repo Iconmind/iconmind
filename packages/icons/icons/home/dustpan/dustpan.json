@@ -1,0 +1,38 @@
+{
+  "slug": "dustpan",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Dustpan",
+  "description": "The pan and the brush in it",
+  "tags": [
+    "dustpan",
+    "brush",
+    "sweep"
+  ],
+  "keywords": [
+    "dustpan",
+    "dustpan and brush",
+    "sweep it up",
+    "pan"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M3 12H15C14.5 16 13 18 12 20H6C5 18 3.5 16 3 12Z",
+      "closed": true,
+      "_why": "the pan, tapering to its lip"
+    },
+    {
+      "d": "M16 15L21 15",
+      "closed": false
+    },
+    {
+      "d": "M18 3L18 7",
+      "closed": false
+    },
+    {
+      "d": "M15 7L21 7L21 10L15 10Z",
+      "closed": true
+    }
+  ]
+}

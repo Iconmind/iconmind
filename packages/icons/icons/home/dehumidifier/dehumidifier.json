@@ -1,0 +1,34 @@
+{
+  "slug": "dehumidifier",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Dehumidifier",
+  "description": "The box that takes the damp out",
+  "tags": [
+    "dehumidifier",
+    "damp",
+    "dry"
+  ],
+  "keywords": [
+    "dehumidifier",
+    "take the damp out",
+    "dry the air",
+    "moisture"
+  ],
+  "family": "box",
+  "shapes": [
+    {
+      "d": "M4 7A2 2 0 0 1 6 5H18A2 2 0 0 1 20 7V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M12 8L15 11A4.5 4.5 0 1 1 9 11Z",
+      "closed": true,
+      "_why": "a drop of water it pulls out"
+    },
+    {
+      "d": "M8 18H16",
+      "closed": false
+    }
+  ]
+}

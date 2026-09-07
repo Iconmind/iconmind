@@ -1,0 +1,38 @@
+{
+  "slug": "mop",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Mop",
+  "description": "The head on the end of the handle",
+  "tags": [
+    "mop",
+    "floor",
+    "wash"
+  ],
+  "keywords": [
+    "mop",
+    "mop the floor",
+    "wet floor",
+    "clean"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M12 2V13",
+      "closed": false
+    },
+    {
+      "d": "M6 13H18C18 17 15 20 12 20C9 20 6 17 6 13Z",
+      "closed": true,
+      "_why": "the head, rounded at the bottom"
+    },
+    {
+      "d": "M9 13V18",
+      "closed": false
+    },
+    {
+      "d": "M15 13V18",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "oven",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Oven",
+  "description": "The door with its handle and dial",
+  "tags": [
+    "oven",
+    "bake",
+    "door"
+  ],
+  "keywords": [
+    "oven",
+    "bake",
+    "roast",
+    "the oven"
+  ],
+  "family": "box",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 9H21",
+      "closed": false
+    },
+    {
+      "d": "M6 6H14",
+      "closed": false
+    },
+    {
+      "d": "M16 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 12L17 12L17 18L7 18Z",
+      "closed": true
+    }
+  ]
+}

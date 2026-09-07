@@ -1,0 +1,37 @@
+{
+  "slug": "toaster",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Toaster",
+  "description": "The slots and the lever",
+  "tags": [
+    "toaster",
+    "toast",
+    "slots"
+  ],
+  "keywords": [
+    "toaster",
+    "toast",
+    "pop it down",
+    "slots"
+  ],
+  "family": "box",
+  "shapes": [
+    {
+      "d": "M4 10A2 2 0 0 1 6 8H19A2 2 0 0 1 21 10V18A2 2 0 0 1 19 20H6A2 2 0 0 1 4 18Z",
+      "closed": true
+    },
+    {
+      "d": "M7 11H13",
+      "closed": false
+    },
+    {
+      "d": "M15 11H19",
+      "closed": false
+    },
+    {
+      "d": "M2 11L2 17",
+      "closed": false
+    }
+  ]
+}

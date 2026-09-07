@@ -1,0 +1,33 @@
+{
+  "slug": "toolbox",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Toolbox",
+  "description": "The box with the handle over it",
+  "tags": [
+    "toolbox",
+    "tools",
+    "box"
+  ],
+  "keywords": [
+    "toolbox",
+    "tools",
+    "the tool box",
+    "kit"
+  ],
+  "family": "case",
+  "shapes": [
+    {
+      "d": "M3 20L3 10L21 10L21 20Z",
+      "closed": true
+    },
+    {
+      "d": "M8 10A4 4 0 0 1 16 10",
+      "closed": false
+    },
+    {
+      "d": "M3 15H21",
+      "closed": false
+    }
+  ]
+}

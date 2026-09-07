@@ -1,0 +1,38 @@
+{
+  "slug": "fire-extinguisher",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Extinguisher",
+  "description": "The bottle with its hose",
+  "tags": [
+    "extinguisher",
+    "fire",
+    "hose"
+  ],
+  "keywords": [
+    "fire extinguisher",
+    "put it out",
+    "fire",
+    "hose"
+  ],
+  "family": "unit",
+  "shapes": [
+    {
+      "d": "M7 9A4 4 0 0 1 15 9V19A2 2 0 0 1 13 21H9A2 2 0 0 1 7 19Z",
+      "closed": true,
+      "_why": "the bottle, rounded at the shoulder"
+    },
+    {
+      "d": "M9 6L13 6",
+      "closed": false
+    },
+    {
+      "d": "M15 8L19 8L19 12",
+      "closed": false
+    },
+    {
+      "d": "M7 13H15",
+      "closed": false
+    }
+  ]
+}

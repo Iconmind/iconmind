@@ -1,0 +1,41 @@
+{
+  "slug": "water-heater",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Water heater",
+  "description": "The cylinder and its pipe",
+  "tags": [
+    "water",
+    "heater",
+    "cylinder"
+  ],
+  "aliases": [
+    "immersion"
+  ],
+  "keywords": [
+    "water heater",
+    "hot water tank",
+    "immersion",
+    "cylinder"
+  ],
+  "family": "unit",
+  "shapes": [
+    {
+      "d": "M6 8A6 6 0 0 1 18 8V17A6 6 0 0 1 6 17Z",
+      "closed": true,
+      "_why": "the cylinder, domed at both ends"
+    },
+    {
+      "d": "M6 13H18",
+      "closed": false
+    },
+    {
+      "d": "M12 2L12 5",
+      "closed": false
+    },
+    {
+      "d": "M9 20L15 20",
+      "closed": false
+    }
+  ]
+}

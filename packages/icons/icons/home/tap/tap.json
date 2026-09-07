@@ -1,0 +1,38 @@
+{
+  "slug": "tap",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Tap",
+  "description": "The tap and the drop off it",
+  "tags": [
+    "tap",
+    "faucet",
+    "water"
+  ],
+  "keywords": [
+    "tap",
+    "faucet",
+    "running water",
+    "turn it on"
+  ],
+  "family": "tap",
+  "shapes": [
+    {
+      "d": "M5 4L5 10L17 10L17 14",
+      "closed": false
+    },
+    {
+      "d": "M3 4H11",
+      "closed": false
+    },
+    {
+      "d": "M4 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 16L19 18A2.8 2.8 0 1 1 15 18Z",
+      "closed": true,
+      "_why": "a drop under the spout"
+    }
+  ]
+}

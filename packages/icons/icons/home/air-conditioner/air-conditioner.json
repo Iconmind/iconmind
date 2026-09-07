@@ -1,0 +1,44 @@
+{
+  "slug": "air-conditioner",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Air conditioning",
+  "description": "The wall unit and the air off it",
+  "tags": [
+    "air-con",
+    "cooling",
+    "unit"
+  ],
+  "aliases": [
+    "aircon"
+  ],
+  "keywords": [
+    "air conditioning",
+    "aircon",
+    "cooling",
+    "wall unit"
+  ],
+  "family": "box",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V10A2 2 0 0 1 20 12H4A2 2 0 0 1 2 10Z",
+      "closed": true
+    },
+    {
+      "d": "M4 9H20",
+      "closed": false
+    },
+    {
+      "d": "M7 15L7 20",
+      "closed": false
+    },
+    {
+      "d": "M12 15L12 20",
+      "closed": false
+    },
+    {
+      "d": "M17 15L17 20",
+      "closed": false
+    }
+  ]
+}

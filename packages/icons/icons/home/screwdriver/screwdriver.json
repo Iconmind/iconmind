@@ -1,0 +1,29 @@
+{
+  "slug": "screwdriver",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Screwdriver",
+  "description": "The handle and the shaft",
+  "tags": [
+    "screwdriver",
+    "screw",
+    "turn"
+  ],
+  "keywords": [
+    "screwdriver",
+    "turn a screw",
+    "phillips",
+    "flathead"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M3 20L3 14L8 9L11 12L6 17L6 20Z",
+      "closed": true
+    },
+    {
+      "d": "M11 12L17 6L20 9L14 15Z",
+      "closed": true
+    }
+  ]
+}

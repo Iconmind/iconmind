@@ -1,0 +1,41 @@
+{
+  "slug": "leak",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Leak",
+  "description": "The drip out of the joint",
+  "tags": [
+    "leak",
+    "drip",
+    "burst"
+  ],
+  "aliases": [
+    "drip"
+  ],
+  "keywords": [
+    "leak",
+    "a drip",
+    "burst pipe",
+    "water coming out"
+  ],
+  "family": "tap",
+  "shapes": [
+    {
+      "d": "M2 7H22",
+      "closed": false
+    },
+    {
+      "d": "M12 7V11",
+      "closed": false
+    },
+    {
+      "d": "M12 12L14 14A2.8 2.8 0 1 1 10 14Z",
+      "closed": true,
+      "_why": "the drip coming out"
+    },
+    {
+      "d": "M11 20a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

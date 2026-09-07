@@ -1,0 +1,33 @@
+{
+  "slug": "dimmer",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Dimmer",
+  "description": "The knob you turn the light down with",
+  "tags": [
+    "dimmer",
+    "knob",
+    "brightness"
+  ],
+  "keywords": [
+    "dimmer",
+    "turn it down",
+    "brightness knob",
+    "dim"
+  ],
+  "family": "dial",
+  "shapes": [
+    {
+      "d": "M5 5A2 2 0 0 1 7 3H17A2 2 0 0 1 19 5V19A2 2 0 0 1 17 21H7A2 2 0 0 1 5 19Z",
+      "closed": true
+    },
+    {
+      "d": "M7 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12L15 9",
+      "closed": false
+    }
+  ]
+}

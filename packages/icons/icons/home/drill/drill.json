@@ -1,0 +1,36 @@
+{
+  "slug": "drill",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Drill",
+  "description": "The body, the grip and the bit",
+  "tags": [
+    "drill",
+    "bit",
+    "power-tool"
+  ],
+  "aliases": [
+    "power-drill"
+  ],
+  "keywords": [
+    "drill",
+    "power drill",
+    "drill a hole",
+    "bit"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M4 5L14 5L14 11L4 11Z",
+      "closed": true
+    },
+    {
+      "d": "M6 11L6 20L10 20L10 11",
+      "closed": false
+    },
+    {
+      "d": "M14 8L21 8",
+      "closed": false
+    }
+  ]
+}

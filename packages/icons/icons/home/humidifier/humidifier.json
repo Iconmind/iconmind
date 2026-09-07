@@ -1,0 +1,39 @@
+{
+  "slug": "humidifier",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Humidifier",
+  "description": "The box that puts it back",
+  "tags": [
+    "humidifier",
+    "mist",
+    "moist"
+  ],
+  "keywords": [
+    "humidifier",
+    "add moisture",
+    "mist",
+    "damp the air"
+  ],
+  "family": "box",
+  "shapes": [
+    {
+      "d": "M6 11A2 2 0 0 1 8 9H16A2 2 0 0 1 18 11V19A2 2 0 0 1 16 21H8A2 2 0 0 1 6 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 12H16",
+      "closed": false
+    },
+    {
+      "d": "M9 6C9 4 11 4 11 2",
+      "closed": false,
+      "_why": "a curl of mist"
+    },
+    {
+      "d": "M14 6C14 4 16 4 16 2",
+      "closed": false,
+      "_why": "another curl beside it"
+    }
+  ]
+}

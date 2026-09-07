@@ -1,0 +1,41 @@
+{
+  "slug": "dishwasher",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Dishwasher",
+  "description": "The plates standing inside",
+  "tags": [
+    "dishwasher",
+    "plates",
+    "wash"
+  ],
+  "keywords": [
+    "dishwasher",
+    "wash the plates",
+    "load it",
+    "dishes"
+  ],
+  "family": "unit",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M4 8H20",
+      "closed": false
+    },
+    {
+      "d": "M9 11V18",
+      "closed": false
+    },
+    {
+      "d": "M12 11V18",
+      "closed": false
+    },
+    {
+      "d": "M15 11V18",
+      "closed": false
+    }
+  ]
+}

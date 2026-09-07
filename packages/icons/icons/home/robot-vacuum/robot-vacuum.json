@@ -1,0 +1,40 @@
+{
+  "slug": "robot-vacuum",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Robot vacuum",
+  "description": "The disc that does it for you",
+  "tags": [
+    "robot",
+    "vacuum",
+    "disc"
+  ],
+  "aliases": [
+    "roomba"
+  ],
+  "keywords": [
+    "robot vacuum",
+    "robot cleaner",
+    "it does it itself",
+    "disc"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M4 13a8 8 0 1 0 16 0a8 8 0 1 0 -16 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 13a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 6H18",
+      "closed": false
+    },
+    {
+      "d": "M8 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

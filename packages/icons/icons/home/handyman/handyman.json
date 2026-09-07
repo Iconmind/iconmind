@@ -1,0 +1,40 @@
+{
+  "slug": "handyman",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Handyman",
+  "description": "The one with the toolbox",
+  "tags": [
+    "handyman",
+    "repairs",
+    "call-out"
+  ],
+  "aliases": [
+    "odd-jobs"
+  ],
+  "keywords": [
+    "handyman",
+    "odd jobs",
+    "repairs",
+    "call someone out"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M4 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2.5 16A4.5 4.5 0 0 1 11.5 16",
+      "closed": false
+    },
+    {
+      "d": "M13 20L13 13L21 13L21 20Z",
+      "closed": true
+    },
+    {
+      "d": "M15 13L15 10L19 10L19 13",
+      "closed": false
+    }
+  ]
+}

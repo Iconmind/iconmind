@@ -1,0 +1,41 @@
+{
+  "slug": "vacuum",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Vacuum",
+  "description": "The body with its hose",
+  "tags": [
+    "vacuum",
+    "hoover",
+    "hose"
+  ],
+  "aliases": [
+    "hoover"
+  ],
+  "keywords": [
+    "vacuum",
+    "hoover",
+    "vacuum cleaner",
+    "hose"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M3 21L3 12L13 12L13 21Z",
+      "closed": true
+    },
+    {
+      "d": "M13 16C18 16 20 12 20 8",
+      "closed": false,
+      "_why": "the hose curling up"
+    },
+    {
+      "d": "M17 5L20 8L17 11",
+      "closed": false
+    },
+    {
+      "d": "M5 18H11",
+      "closed": false
+    }
+  ]
+}

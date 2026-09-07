@@ -1,0 +1,33 @@
+{
+  "slug": "electrician",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Electrician",
+  "description": "The one with the current",
+  "tags": [
+    "electrician",
+    "wiring",
+    "call-out"
+  ],
+  "keywords": [
+    "electrician",
+    "fix the wiring",
+    "call an electrician",
+    "sparks"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M4 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2.5 16A4.5 4.5 0 0 1 11.5 16",
+      "closed": false
+    },
+    {
+      "d": "M19 6L14 11L17 11L12 16",
+      "closed": false
+    }
+  ]
+}

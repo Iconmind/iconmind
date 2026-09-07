@@ -1,0 +1,38 @@
+{
+  "slug": "plumber",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Plumber",
+  "description": "The one with the wrench",
+  "tags": [
+    "plumber",
+    "pipes",
+    "call-out"
+  ],
+  "keywords": [
+    "plumber",
+    "fix the pipes",
+    "call a plumber",
+    "wrench"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M4 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2.5 16A4.5 4.5 0 0 1 11.5 16",
+      "closed": false
+    },
+    {
+      "d": "M13 20L19 14",
+      "closed": false
+    },
+    {
+      "d": "M19 14A3 3 0 1 0 16 11",
+      "closed": false,
+      "_why": "the jaws of the wrench"
+    }
+  ]
+}

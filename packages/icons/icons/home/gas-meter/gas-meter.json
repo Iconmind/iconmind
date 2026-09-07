@@ -1,0 +1,45 @@
+{
+  "slug": "gas-meter",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Gas meter",
+  "description": "The dial on the pipe",
+  "tags": [
+    "gas",
+    "meter",
+    "dial"
+  ],
+  "keywords": [
+    "gas meter",
+    "the gas",
+    "dial",
+    "reading"
+  ],
+  "family": "meter",
+  "shapes": [
+    {
+      "d": "M5 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 10L12 5",
+      "closed": false
+    },
+    {
+      "d": "M6 17V21",
+      "closed": false
+    },
+    {
+      "d": "M18 17V21",
+      "closed": false
+    },
+    {
+      "d": "M4 17H20",
+      "closed": false
+    }
+  ]
+}

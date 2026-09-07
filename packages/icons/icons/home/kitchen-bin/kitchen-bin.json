@@ -1,0 +1,41 @@
+{
+  "slug": "kitchen-bin",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Bin",
+  "description": "The bin with its lid and pedal",
+  "tags": [
+    "bin",
+    "rubbish",
+    "lid"
+  ],
+  "aliases": [
+    "rubbish-bin"
+  ],
+  "keywords": [
+    "kitchen bin",
+    "rubbish bin",
+    "trash can",
+    "waste"
+  ],
+  "family": "bin",
+  "shapes": [
+    {
+      "d": "M6 9C6.5 13 7 17 8 20H16C17 17 17.5 13 18 9",
+      "closed": false,
+      "_why": "the bin, tapering to its base"
+    },
+    {
+      "d": "M3 8H21",
+      "closed": false
+    },
+    {
+      "d": "M10 5L10 8",
+      "closed": false
+    },
+    {
+      "d": "M14 5L14 8",
+      "closed": false
+    }
+  ]
+}

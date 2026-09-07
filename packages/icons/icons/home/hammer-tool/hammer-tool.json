@@ -1,0 +1,33 @@
+{
+  "slug": "hammer-tool",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Hammer",
+  "description": "The head and the shaft under it",
+  "tags": [
+    "hammer",
+    "nail",
+    "head"
+  ],
+  "keywords": [
+    "hammer",
+    "bang a nail in",
+    "claw hammer",
+    "head"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M4 20L13 11",
+      "closed": false
+    },
+    {
+      "d": "M11 5L19 5L19 9L11 9Z",
+      "closed": true
+    },
+    {
+      "d": "M11 9L14 12",
+      "closed": false
+    }
+  ]
+}

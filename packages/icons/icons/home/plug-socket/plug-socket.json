@@ -1,0 +1,44 @@
+{
+  "slug": "plug-socket",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Socket",
+  "description": "The face with its holes",
+  "tags": [
+    "socket",
+    "plug",
+    "outlet"
+  ],
+  "aliases": [
+    "outlet"
+  ],
+  "keywords": [
+    "plug socket",
+    "outlet",
+    "wall socket",
+    "plug it in"
+  ],
+  "family": "socket",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 8L8 12",
+      "closed": false
+    },
+    {
+      "d": "M16 8L16 12",
+      "closed": false
+    },
+    {
+      "d": "M9 16L15 16",
+      "closed": false
+    },
+    {
+      "d": "M12 16L12 13",
+      "closed": false
+    }
+  ]
+}

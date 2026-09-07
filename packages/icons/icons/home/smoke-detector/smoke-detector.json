@@ -1,0 +1,45 @@
+{
+  "slug": "smoke-detector",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Smoke alarm",
+  "description": "The alarm on the ceiling",
+  "tags": [
+    "smoke",
+    "alarm",
+    "detector"
+  ],
+  "aliases": [
+    "smoke-alarm"
+  ],
+  "keywords": [
+    "smoke detector",
+    "smoke alarm",
+    "on the ceiling",
+    "beeps"
+  ],
+  "family": "dial",
+  "shapes": [
+    {
+      "d": "M4 3H20",
+      "closed": false
+    },
+    {
+      "d": "M5 6H19V11A7 7 0 0 1 5 11Z",
+      "closed": true,
+      "_why": "the alarm hanging under the ceiling"
+    },
+    {
+      "d": "M11 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 16L15 16",
+      "closed": false
+    },
+    {
+      "d": "M12 16L12 20",
+      "closed": false
+    }
+  ]
+}

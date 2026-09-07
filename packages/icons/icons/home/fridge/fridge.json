@@ -1,0 +1,40 @@
+{
+  "slug": "fridge",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Fridge",
+  "description": "The tall cabinet with two doors",
+  "tags": [
+    "fridge",
+    "cold",
+    "cabinet"
+  ],
+  "aliases": [
+    "refrigerator"
+  ],
+  "keywords": [
+    "fridge",
+    "refrigerator",
+    "keep it cold",
+    "cabinet"
+  ],
+  "family": "unit",
+  "shapes": [
+    {
+      "d": "M5 4A2 2 0 0 1 7 2H17A2 2 0 0 1 19 4V20A2 2 0 0 1 17 22H7A2 2 0 0 1 5 20Z",
+      "closed": true
+    },
+    {
+      "d": "M5 9H19",
+      "closed": false
+    },
+    {
+      "d": "M8 5L8 8",
+      "closed": false
+    },
+    {
+      "d": "M8 11L8 14",
+      "closed": false
+    }
+  ]
+}

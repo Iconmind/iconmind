@@ -1,0 +1,36 @@
+{
+  "slug": "ironing-board",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Ironing board",
+  "description": "The board on its legs",
+  "tags": [
+    "board",
+    "ironing",
+    "legs"
+  ],
+  "keywords": [
+    "ironing board",
+    "the board",
+    "set it up",
+    "iron on it"
+  ],
+  "family": "board",
+  "shapes": [
+    {
+      "d": "M3 6H17A3 3 0 0 1 17 12H3Z",
+      "closed": true,
+      "_why": "the board, rounded at the far end"
+    },
+    {
+      "d": "M7 12C6 15 5 18 4 20",
+      "closed": false,
+      "_why": "one leg of the board"
+    },
+    {
+      "d": "M13 12C14 15 15 18 16 20",
+      "closed": false,
+      "_why": "the other leg, mirrored"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "water-meter",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Water meter",
+  "description": "The dial on the water pipe",
+  "tags": [
+    "water",
+    "meter",
+    "dial"
+  ],
+  "keywords": [
+    "water meter",
+    "the water",
+    "dial",
+    "reading"
+  ],
+  "family": "meter",
+  "shapes": [
+    {
+      "d": "M6 9a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 6L14 8A2.8 2.8 0 1 1 10 8Z",
+      "closed": true,
+      "_why": "a drop on the dial"
+    },
+    {
+      "d": "M3 17H21",
+      "closed": false
+    },
+    {
+      "d": "M7 15V19",
+      "closed": false
+    },
+    {
+      "d": "M17 15V19",
+      "closed": false
+    }
+  ]
+}

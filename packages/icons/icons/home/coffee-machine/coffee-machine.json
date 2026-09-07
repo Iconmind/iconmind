@@ -1,0 +1,44 @@
+{
+  "slug": "coffee-machine",
+  "category": "home",
+  "subcategory": "appliance",
+  "name": "Coffee machine",
+  "description": "The cup under the spout",
+  "tags": [
+    "coffee",
+    "machine",
+    "brew"
+  ],
+  "aliases": [
+    "espresso-machine"
+  ],
+  "keywords": [
+    "coffee machine",
+    "espresso machine",
+    "brew",
+    "make a coffee"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M4 21L4 3L20 3L20 21",
+      "closed": false
+    },
+    {
+      "d": "M4 9H20",
+      "closed": false
+    },
+    {
+      "d": "M12 9V12",
+      "closed": false
+    },
+    {
+      "d": "M9 12L9 17L15 17L15 12",
+      "closed": false
+    },
+    {
+      "d": "M15 12A2 2 0 0 1 15 16",
+      "closed": false
+    }
+  ]
+}
