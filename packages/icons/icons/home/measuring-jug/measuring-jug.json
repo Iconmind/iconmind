@@ -1,0 +1,42 @@
+{
+  "slug": "measuring-jug",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Measuring jug",
+  "description": "The jug marked up the side",
+  "tags": [
+    "measuring",
+    "jug",
+    "marks"
+  ],
+  "keywords": [
+    "measuring jug",
+    "how much",
+    "marks",
+    "pour it"
+  ],
+  "family": "vessel",
+  "shapes": [
+    {
+      "d": "M5 6L5 20L15 20L15 6",
+      "closed": false
+    },
+    {
+      "d": "M15 7L18 4",
+      "closed": false
+    },
+    {
+      "d": "M15 10C19 10 19 16 15 16",
+      "closed": false,
+      "_why": "the handle standing off the side"
+    },
+    {
+      "d": "M6 12H10",
+      "closed": false
+    },
+    {
+      "d": "M6 16H10",
+      "closed": false
+    }
+  ]
+}

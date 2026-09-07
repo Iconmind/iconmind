@@ -1,0 +1,37 @@
+{
+  "slug": "shopping-list",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Shopping list",
+  "description": "The list with the first thing ticked",
+  "tags": [
+    "shopping",
+    "ticked",
+    "buy"
+  ],
+  "keywords": [
+    "shopping list",
+    "what to buy",
+    "ticked off",
+    "list"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M5 3L5 21L19 21L19 3Z",
+      "closed": true
+    },
+    {
+      "d": "M7 8L9 10L13 6",
+      "closed": false
+    },
+    {
+      "d": "M7 14H17",
+      "closed": false
+    },
+    {
+      "d": "M7 18H17",
+      "closed": false
+    }
+  ]
+}

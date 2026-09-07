@@ -1,0 +1,36 @@
+{
+  "slug": "takeaway",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Takeaway",
+  "description": "The carton with the wire handle",
+  "tags": [
+    "takeaway",
+    "carton",
+    "collect"
+  ],
+  "aliases": [
+    "takeout"
+  ],
+  "keywords": [
+    "takeaway",
+    "takeout",
+    "carton",
+    "food to go"
+  ],
+  "family": "carton",
+  "shapes": [
+    {
+      "d": "M6 11L6 20L18 20L18 11Z",
+      "closed": true
+    },
+    {
+      "d": "M6 11L9 8L15 8L18 11",
+      "closed": false
+    },
+    {
+      "d": "M10 8A2 2 0 0 1 14 8",
+      "closed": false
+    }
+  ]
+}

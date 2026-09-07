@@ -1,0 +1,34 @@
+{
+  "slug": "cookie",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Biscuit",
+  "description": "The round one with a bite out of it",
+  "tags": [
+    "biscuit",
+    "chips",
+    "bite"
+  ],
+  "keywords": [
+    "cookie",
+    "biscuit",
+    "chocolate chip",
+    "round biscuit"
+  ],
+  "family": "food",
+  "shapes": [
+    {
+      "d": "M12 4A8 8 0 1 0 20 12A3 3 0 0 1 16 8A3 3 0 0 1 12 4Z",
+      "closed": true,
+      "_why": "the biscuit with a bite out of the edge"
+    },
+    {
+      "d": "M8 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 16a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

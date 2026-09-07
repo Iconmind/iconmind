@@ -1,0 +1,37 @@
+{
+  "slug": "peeler",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Peeler",
+  "description": "The blade slung between the two arms",
+  "tags": [
+    "peeler",
+    "peel",
+    "arms"
+  ],
+  "keywords": [
+    "peeler",
+    "peel it",
+    "vegetable peeler",
+    "blade"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M5 6A3 3 0 0 1 8 3H16A3 3 0 0 1 19 6V6A3 3 0 0 1 16 9H8A3 3 0 0 1 5 6Z",
+      "closed": true
+    },
+    {
+      "d": "M7 9V19",
+      "closed": false
+    },
+    {
+      "d": "M17 9V19",
+      "closed": false
+    },
+    {
+      "d": "M7 19H17",
+      "closed": false
+    }
+  ]
+}

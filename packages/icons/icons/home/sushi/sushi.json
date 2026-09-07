@@ -1,0 +1,33 @@
+{
+  "slug": "sushi",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Sushi",
+  "description": "The slice laid over the rice",
+  "tags": [
+    "sushi",
+    "nigiri",
+    "raw"
+  ],
+  "aliases": [
+    "nigiri"
+  ],
+  "keywords": [
+    "sushi",
+    "nigiri",
+    "raw fish",
+    "japanese"
+  ],
+  "family": "food",
+  "shapes": [
+    {
+      "d": "M5 16A3 3 0 0 1 8 13H16A3 3 0 0 1 19 16V16A3 3 0 0 1 16 19H8A3 3 0 0 1 5 16Z",
+      "closed": true
+    },
+    {
+      "d": "M5 10C5 7 8 6 12 6C16 6 19 7 19 10Z",
+      "closed": true,
+      "_why": "the slice draped over the rice"
+    }
+  ]
+}

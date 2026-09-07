@@ -1,0 +1,33 @@
+{
+  "slug": "cheese",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Cheese",
+  "description": "The wedge with its holes",
+  "tags": [
+    "cheese",
+    "wedge",
+    "holes"
+  ],
+  "keywords": [
+    "cheese",
+    "a wedge of cheese",
+    "holes",
+    "dairy"
+  ],
+  "family": "food",
+  "shapes": [
+    {
+      "d": "M4 19L4 13L10 7L20 7L20 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

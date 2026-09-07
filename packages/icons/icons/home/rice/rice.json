@@ -1,0 +1,30 @@
+{
+  "slug": "rice",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Rice",
+  "description": "The bowl heaped with it",
+  "tags": [
+    "rice",
+    "heap",
+    "grain"
+  ],
+  "keywords": [
+    "rice",
+    "bowl of rice",
+    "grain",
+    "steamed rice"
+  ],
+  "family": "bowl",
+  "shapes": [
+    {
+      "d": "M4 11H20C20 16 16 20 12 20C8 20 4 16 4 11Z",
+      "closed": true,
+      "_why": "the bowl, round and open at the rim"
+    },
+    {
+      "d": "M7 11A5 5 0 0 1 17 11",
+      "closed": false
+    }
+  ]
+}

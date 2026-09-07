@@ -1,0 +1,37 @@
+{
+  "slug": "bread",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Bread",
+  "description": "The loaf with two cuts in the crust",
+  "tags": [
+    "bread",
+    "loaf",
+    "crust"
+  ],
+  "aliases": [
+    "loaf"
+  ],
+  "keywords": [
+    "bread",
+    "a loaf",
+    "crust",
+    "bake bread"
+  ],
+  "family": "food",
+  "shapes": [
+    {
+      "d": "M4 20V13C4 9 7 7 12 7C17 7 20 9 20 13V20Z",
+      "closed": true,
+      "_why": "the loaf, domed over a flat base"
+    },
+    {
+      "d": "M9 11L11 9",
+      "closed": false
+    },
+    {
+      "d": "M13 11L15 9",
+      "closed": false
+    }
+  ]
+}

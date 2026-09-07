@@ -1,0 +1,37 @@
+{
+  "slug": "rolling-pin",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Rolling pin",
+  "description": "The pin and the sheet under it",
+  "tags": [
+    "rolling-pin",
+    "roll",
+    "dough"
+  ],
+  "keywords": [
+    "rolling pin",
+    "roll the dough",
+    "pastry",
+    "pin"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M5 10.5A3.5 3.5 0 0 1 8.5 7H15.5A3.5 3.5 0 0 1 19 10.5V10.5A3.5 3.5 0 0 1 15.5 14H8.5A3.5 3.5 0 0 1 5 10.5Z",
+      "closed": true
+    },
+    {
+      "d": "M2 10.5H5",
+      "closed": false
+    },
+    {
+      "d": "M19 10.5H22",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    }
+  ]
+}

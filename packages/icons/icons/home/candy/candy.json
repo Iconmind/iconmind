@@ -1,0 +1,33 @@
+{
+  "slug": "candy",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Sweet",
+  "description": "The one twisted at both ends",
+  "tags": [
+    "sweet",
+    "wrapper",
+    "twist"
+  ],
+  "keywords": [
+    "sweet",
+    "candy",
+    "wrapped sweet",
+    "twist"
+  ],
+  "family": "food",
+  "shapes": [
+    {
+      "d": "M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8.5 9.5L5 6L5 18L8.5 14.5",
+      "closed": false
+    },
+    {
+      "d": "M15.5 9.5L19 6L19 18L15.5 14.5",
+      "closed": false
+    }
+  ]
+}

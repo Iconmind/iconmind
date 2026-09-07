@@ -1,0 +1,33 @@
+{
+  "slug": "leftovers",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Leftovers",
+  "description": "The tub with the lid off",
+  "tags": [
+    "leftovers",
+    "tub",
+    "keep"
+  ],
+  "keywords": [
+    "leftovers",
+    "keep it for later",
+    "tub",
+    "in the fridge"
+  ],
+  "family": "vessel",
+  "shapes": [
+    {
+      "d": "M5 13L5 20L19 20L19 13Z",
+      "closed": true
+    },
+    {
+      "d": "M3 10H21",
+      "closed": false
+    },
+    {
+      "d": "M12 7V10",
+      "closed": false
+    }
+  ]
+}

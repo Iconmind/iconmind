@@ -1,0 +1,33 @@
+{
+  "slug": "cake-slice",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Cake",
+  "description": "The slice with its layers",
+  "tags": [
+    "cake",
+    "slice",
+    "layers"
+  ],
+  "keywords": [
+    "cake",
+    "a slice of cake",
+    "layers",
+    "sponge"
+  ],
+  "family": "food",
+  "shapes": [
+    {
+      "d": "M5 20L5 12L11 6L19 6L19 20Z",
+      "closed": true
+    },
+    {
+      "d": "M7 10H19",
+      "closed": false
+    },
+    {
+      "d": "M5 14H19",
+      "closed": false
+    }
+  ]
+}

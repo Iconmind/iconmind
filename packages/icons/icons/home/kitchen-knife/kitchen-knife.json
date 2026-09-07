@@ -1,0 +1,29 @@
+{
+  "slug": "kitchen-knife",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Knife",
+  "description": "The blade and the handle off the back",
+  "tags": [
+    "knife",
+    "blade",
+    "chop"
+  ],
+  "keywords": [
+    "kitchen knife",
+    "chop it",
+    "blade",
+    "sharp"
+  ],
+  "family": "blade",
+  "shapes": [
+    {
+      "d": "M3 17L17 17L17 7L13 7Z",
+      "closed": true
+    },
+    {
+      "d": "M17 12L22 12",
+      "closed": false
+    }
+  ]
+}

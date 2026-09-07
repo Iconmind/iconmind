@@ -1,0 +1,40 @@
+{
+  "slug": "whisk",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Whisk",
+  "description": "The wires meeting at the handle",
+  "tags": [
+    "whisk",
+    "beat",
+    "wires"
+  ],
+  "keywords": [
+    "whisk",
+    "beat the eggs",
+    "wires",
+    "whip it"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M12 2V9",
+      "closed": false
+    },
+    {
+      "d": "M6 21C6 15 8 9 12 9C16 9 18 15 18 21",
+      "closed": false,
+      "_why": "the outer wires of the whisk"
+    },
+    {
+      "d": "M10 21C10 15 11 9 12 9",
+      "closed": false,
+      "_why": "a wire inside the cage"
+    },
+    {
+      "d": "M14 21C14 15 13 9 12 9",
+      "closed": false,
+      "_why": "the wire opposite it"
+    }
+  ]
+}

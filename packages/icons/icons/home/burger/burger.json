@@ -1,0 +1,35 @@
+{
+  "slug": "burger",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Burger",
+  "description": "The bun with the filling between",
+  "tags": [
+    "burger",
+    "bun",
+    "filling"
+  ],
+  "keywords": [
+    "burger",
+    "hamburger",
+    "bun",
+    "filling"
+  ],
+  "family": "food",
+  "shapes": [
+    {
+      "d": "M5 9C5 5 8 2 12 2C16 2 19 5 19 9Z",
+      "closed": true,
+      "_why": "the top of the bun"
+    },
+    {
+      "d": "M5 12H19",
+      "closed": false
+    },
+    {
+      "d": "M5 15H19V18A3 3 0 0 1 16 21H8A3 3 0 0 1 5 18Z",
+      "closed": true,
+      "_why": "the base of the bun"
+    }
+  ]
+}

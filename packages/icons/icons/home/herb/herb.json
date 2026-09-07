@@ -1,0 +1,35 @@
+{
+  "slug": "herb",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Herb",
+  "description": "The sprig with a leaf each side",
+  "tags": [
+    "herb",
+    "sprig",
+    "leaf"
+  ],
+  "keywords": [
+    "herb",
+    "fresh herbs",
+    "sprig",
+    "basil"
+  ],
+  "family": "plant",
+  "shapes": [
+    {
+      "d": "M12 4V21",
+      "closed": false
+    },
+    {
+      "d": "M12 9C8 9 6 7 6 4C10 4 12 6 12 9Z",
+      "closed": true,
+      "_why": "a leaf on one side of the stem"
+    },
+    {
+      "d": "M12 14C16 14 18 12 18 9C14 9 12 11 12 14Z",
+      "closed": true,
+      "_why": "a leaf on the other side"
+    }
+  ]
+}

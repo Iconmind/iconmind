@@ -1,0 +1,31 @@
+{
+  "slug": "taco",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Taco",
+  "description": "The shell folded round the filling",
+  "tags": [
+    "taco",
+    "shell",
+    "folded"
+  ],
+  "keywords": [
+    "taco",
+    "a taco",
+    "folded shell",
+    "mexican"
+  ],
+  "family": "food",
+  "shapes": [
+    {
+      "d": "M4 11C4 16 7 19 12 19C17 19 20 16 20 11Z",
+      "closed": true,
+      "_why": "the shell, folded to a U"
+    },
+    {
+      "d": "M5 11C7 8 9 10 12 8C15 6 17 9 19 11",
+      "closed": false,
+      "_why": "the filling standing out of it"
+    }
+  ]
+}

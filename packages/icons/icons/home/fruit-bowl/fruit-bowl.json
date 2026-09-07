@@ -1,0 +1,35 @@
+{
+  "slug": "fruit-bowl",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Fruit bowl",
+  "description": "The two sitting in the bowl",
+  "tags": [
+    "fruit",
+    "sitting",
+    "fresh"
+  ],
+  "keywords": [
+    "fruit bowl",
+    "bowl of fruit",
+    "fresh fruit",
+    "apples"
+  ],
+  "family": "bowl",
+  "shapes": [
+    {
+      "d": "M4 12H20C20 17 16 21 12 21C8 21 4 17 4 12Z",
+      "closed": true,
+      "_why": "the bowl, round and open at the rim"
+    },
+    {
+      "d": "M6 9a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 12C15 8 17.5 5 20 5C20 9 17.5 12 15 12Z",
+      "closed": true,
+      "_why": "a curved fruit beside the round one"
+    }
+  ]
+}

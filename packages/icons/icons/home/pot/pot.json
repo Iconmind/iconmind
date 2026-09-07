@@ -1,0 +1,44 @@
+{
+  "slug": "pot",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Pot",
+  "description": "The lid on the pan with two handles",
+  "tags": [
+    "pot",
+    "lid",
+    "boil"
+  ],
+  "aliases": [
+    "saucepan"
+  ],
+  "keywords": [
+    "pot",
+    "saucepan",
+    "big pot",
+    "boil it"
+  ],
+  "family": "pan",
+  "shapes": [
+    {
+      "d": "M5 12L5 19L19 19L19 12Z",
+      "closed": true
+    },
+    {
+      "d": "M8 12A4 4 0 0 1 16 12",
+      "closed": false
+    },
+    {
+      "d": "M12 5.5V8",
+      "closed": false
+    },
+    {
+      "d": "M2 15L5 15",
+      "closed": false
+    },
+    {
+      "d": "M19 15L22 15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "frying-pan",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Frying pan",
+  "description": "The shallow pan and its handle",
+  "tags": [
+    "pan",
+    "fry",
+    "handle"
+  ],
+  "aliases": [
+    "skillet"
+  ],
+  "keywords": [
+    "frying pan",
+    "skillet",
+    "fry it",
+    "pan"
+  ],
+  "family": "pan",
+  "shapes": [
+    {
+      "d": "M3 11H15C15 16 12 19 9 19C6 19 3 16 3 11Z",
+      "closed": true,
+      "_why": "the pan, shallow and round"
+    },
+    {
+      "d": "M15 11L21 5",
+      "closed": false
+    }
+  ]
+}

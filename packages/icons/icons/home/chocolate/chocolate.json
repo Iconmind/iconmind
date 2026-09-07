@@ -1,0 +1,37 @@
+{
+  "slug": "chocolate",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Chocolate",
+  "description": "The bar scored into squares",
+  "tags": [
+    "chocolate",
+    "bar",
+    "squares"
+  ],
+  "keywords": [
+    "chocolate",
+    "a bar of chocolate",
+    "squares",
+    "sweet"
+  ],
+  "family": "food",
+  "shapes": [
+    {
+      "d": "M6 5A2 2 0 0 1 8 3H16A2 2 0 0 1 18 5V19A2 2 0 0 1 16 21H8A2 2 0 0 1 6 19Z",
+      "closed": true
+    },
+    {
+      "d": "M12 3V21",
+      "closed": false
+    },
+    {
+      "d": "M6 9H18",
+      "closed": false
+    },
+    {
+      "d": "M6 15H18",
+      "closed": false
+    }
+  ]
+}

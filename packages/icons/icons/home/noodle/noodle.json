@@ -1,0 +1,37 @@
+{
+  "slug": "noodle",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Noodles",
+  "description": "The bowl with the sticks across it",
+  "tags": [
+    "noodles",
+    "sticks",
+    "slurp"
+  ],
+  "aliases": [
+    "ramen"
+  ],
+  "keywords": [
+    "noodles",
+    "ramen",
+    "chopsticks",
+    "noodle bowl"
+  ],
+  "family": "bowl",
+  "shapes": [
+    {
+      "d": "M4 12H20C20 17 16 21 12 21C8 21 4 17 4 12Z",
+      "closed": true,
+      "_why": "the bowl, round and open at the rim"
+    },
+    {
+      "d": "M8 10L14 4",
+      "closed": false
+    },
+    {
+      "d": "M12.5 10L18.5 4",
+      "closed": false
+    }
+  ]
+}

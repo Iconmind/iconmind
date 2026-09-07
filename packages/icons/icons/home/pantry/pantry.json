@@ -1,0 +1,40 @@
+{
+  "slug": "pantry",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Pantry",
+  "description": "The jars on their shelves",
+  "tags": [
+    "pantry",
+    "shelves",
+    "jars"
+  ],
+  "aliases": [
+    "larder"
+  ],
+  "keywords": [
+    "pantry",
+    "larder",
+    "store cupboard",
+    "jars"
+  ],
+  "family": "shelf",
+  "shapes": [
+    {
+      "d": "M2 11H22",
+      "closed": false
+    },
+    {
+      "d": "M2 19H22",
+      "closed": false
+    },
+    {
+      "d": "M5 11L5 6L9 6L9 11",
+      "closed": false
+    },
+    {
+      "d": "M13 19L13 14L17 14L17 19",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "soup",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Soup",
+  "description": "The bowl with the steam off it",
+  "tags": [
+    "soup",
+    "steam",
+    "hot"
+  ],
+  "keywords": [
+    "soup",
+    "a bowl of soup",
+    "steaming",
+    "hot"
+  ],
+  "family": "bowl",
+  "shapes": [
+    {
+      "d": "M4 12H20C20 17 16 21 12 21C8 21 4 17 4 12Z",
+      "closed": true,
+      "_why": "the bowl, round and open at the rim"
+    },
+    {
+      "d": "M9 10C11 8 9 6 11 4",
+      "closed": false,
+      "_why": "steam rising off the bowl"
+    },
+    {
+      "d": "M15 10C17 8 15 6 17 4",
+      "closed": false,
+      "_why": "more steam beside it"
+    }
+  ]
+}

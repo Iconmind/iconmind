@@ -1,0 +1,38 @@
+{
+  "slug": "stew",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Stew",
+  "description": "The spoon standing in the bowl",
+  "tags": [
+    "stew",
+    "spoon",
+    "slow"
+  ],
+  "aliases": [
+    "casserole"
+  ],
+  "keywords": [
+    "stew",
+    "casserole",
+    "slow cooked",
+    "pieces in sauce"
+  ],
+  "family": "bowl",
+  "shapes": [
+    {
+      "d": "M4 11H20C20 16 16 20 12 20C8 20 4 16 4 11Z",
+      "closed": true,
+      "_why": "the bowl, round and open at the rim"
+    },
+    {
+      "d": "M14 13L19 8",
+      "closed": false
+    },
+    {
+      "d": "M9 9C11 7 9 5 11 3",
+      "closed": false,
+      "_why": "steam off the top"
+    }
+  ]
+}

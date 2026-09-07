@@ -1,0 +1,42 @@
+{
+  "slug": "grater",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Grater",
+  "description": "The slots down the box",
+  "tags": [
+    "grater",
+    "grate",
+    "slots"
+  ],
+  "keywords": [
+    "grater",
+    "grate the cheese",
+    "slots",
+    "shred"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M8 6H16C17 11 18 16 18 21H6C6 16 7 11 8 6Z",
+      "closed": true,
+      "_why": "the body, splaying out to the base"
+    },
+    {
+      "d": "M9 6A3 3 0 0 1 15 6",
+      "closed": false
+    },
+    {
+      "d": "M9 10H12",
+      "closed": false
+    },
+    {
+      "d": "M12 14H15",
+      "closed": false
+    },
+    {
+      "d": "M9 18H12",
+      "closed": false
+    }
+  ]
+}

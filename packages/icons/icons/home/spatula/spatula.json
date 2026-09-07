@@ -1,0 +1,37 @@
+{
+  "slug": "spatula",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Turner",
+  "description": "The slotted blade on its handle",
+  "tags": [
+    "turner",
+    "slots",
+    "flip"
+  ],
+  "keywords": [
+    "spatula",
+    "turner",
+    "flip it",
+    "slotted"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M6 6L18 6L18 13L6 13Z",
+      "closed": true
+    },
+    {
+      "d": "M10 8V11",
+      "closed": false
+    },
+    {
+      "d": "M14 8V11",
+      "closed": false
+    },
+    {
+      "d": "M12 13V21",
+      "closed": false
+    }
+  ]
+}

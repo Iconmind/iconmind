@@ -1,0 +1,32 @@
+{
+  "slug": "chopping-board",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Chopping board",
+  "description": "The board with a handle at one end",
+  "tags": [
+    "board",
+    "chop",
+    "prep"
+  ],
+  "aliases": [
+    "cutting-board"
+  ],
+  "keywords": [
+    "chopping board",
+    "cutting board",
+    "prep",
+    "board"
+  ],
+  "family": "board",
+  "shapes": [
+    {
+      "d": "M3 8L3 20L17 20L17 8Z",
+      "closed": true
+    },
+    {
+      "d": "M13 8L13 4L17 4L17 8",
+      "closed": false
+    }
+  ]
+}

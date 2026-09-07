@@ -1,0 +1,31 @@
+{
+  "slug": "wok",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Wok",
+  "description": "The deep pan that slopes to its base",
+  "tags": [
+    "wok",
+    "deep",
+    "stir-fry"
+  ],
+  "keywords": [
+    "wok",
+    "stir fry",
+    "deep pan",
+    "toss it"
+  ],
+  "family": "pan",
+  "shapes": [
+    {
+      "d": "M4 10H20L14 16H10Z",
+      "closed": true,
+      "_why": "the pan, sloping to a narrow base"
+    },
+    {
+      "d": "M20 10C22 10 22 6 19 6",
+      "closed": false,
+      "_why": "the loop handle standing off the rim"
+    }
+  ]
+}

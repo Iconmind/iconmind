@@ -1,0 +1,36 @@
+{
+  "slug": "vegetable-basket",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Vegetable basket",
+  "description": "The basket with its handle up",
+  "tags": [
+    "vegetables",
+    "basket",
+    "handle"
+  ],
+  "aliases": [
+    "veg"
+  ],
+  "keywords": [
+    "vegetable basket",
+    "veg",
+    "basket of vegetables",
+    "greengrocer"
+  ],
+  "family": "basket",
+  "shapes": [
+    {
+      "d": "M5 12L5 20L19 20L19 12Z",
+      "closed": true
+    },
+    {
+      "d": "M5 16H19",
+      "closed": false
+    },
+    {
+      "d": "M7 12A5 5 0 0 1 17 12",
+      "closed": false
+    }
+  ]
+}

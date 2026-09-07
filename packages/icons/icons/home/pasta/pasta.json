@@ -1,0 +1,37 @@
+{
+  "slug": "pasta",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Pasta",
+  "description": "The nest wound on the plate",
+  "tags": [
+    "pasta",
+    "nest",
+    "wound"
+  ],
+  "aliases": [
+    "spaghetti"
+  ],
+  "keywords": [
+    "pasta",
+    "spaghetti",
+    "a nest of pasta",
+    "italian"
+  ],
+  "family": "plate",
+  "shapes": [
+    {
+      "d": "M3 12H21C21 16 17 19 12 19C7 19 3 16 3 12Z",
+      "closed": true,
+      "_why": "the plate, shallow and wide"
+    },
+    {
+      "d": "M7 12A5 5 0 0 1 17 12",
+      "closed": false
+    },
+    {
+      "d": "M10 12A2 2 0 0 1 14 12",
+      "closed": false
+    }
+  ]
+}

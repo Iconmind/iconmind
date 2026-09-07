@@ -1,0 +1,33 @@
+{
+  "slug": "kitchen-timer",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Timer",
+  "description": "The dial you wind up",
+  "tags": [
+    "dial",
+    "wind",
+    "minutes"
+  ],
+  "keywords": [
+    "kitchen timer",
+    "set the timer",
+    "minutes",
+    "wind it up"
+  ],
+  "family": "dial",
+  "shapes": [
+    {
+      "d": "M5.5 14a6.5 6.5 0 1 0 13 0a6.5 6.5 0 1 0 -13 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 7.5L10 4L14 4L14 7.5",
+      "closed": false
+    },
+    {
+      "d": "M12 14L15 11",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "recipe-book",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Cookbook",
+  "description": "The book you cook out of",
+  "tags": [
+    "cookbook",
+    "book",
+    "collection"
+  ],
+  "keywords": [
+    "recipe book",
+    "cookbook",
+    "cook from a book",
+    "recipes"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 3L4 21L20 21L20 3Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V21",
+      "closed": false
+    },
+    {
+      "d": "M11 10H17C17 12.5 15.5 14 14 14C12.5 14 11 12.5 11 10Z",
+      "closed": true,
+      "_why": "the dish on the cover"
+    }
+  ]
+}

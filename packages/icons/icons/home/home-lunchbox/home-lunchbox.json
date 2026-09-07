@@ -1,0 +1,36 @@
+{
+  "slug": "home-lunchbox",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Lunchbox",
+  "description": "The box split into compartments",
+  "tags": [
+    "lunch",
+    "compartments",
+    "packed"
+  ],
+  "aliases": [
+    "bento"
+  ],
+  "keywords": [
+    "lunchbox",
+    "bento",
+    "packed lunch",
+    "take it with you"
+  ],
+  "family": "box",
+  "shapes": [
+    {
+      "d": "M3 9A2 2 0 0 1 5 7H19A2 2 0 0 1 21 9V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M12 7V20",
+      "closed": false
+    },
+    {
+      "d": "M12 13.5H21",
+      "closed": false
+    }
+  ]
+}

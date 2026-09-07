@@ -1,0 +1,37 @@
+{
+  "slug": "spice",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Spice",
+  "description": "The jar with its label and shaker lid",
+  "tags": [
+    "spice",
+    "jar",
+    "season"
+  ],
+  "keywords": [
+    "spice",
+    "spice jar",
+    "season it",
+    "shaker"
+  ],
+  "family": "vessel",
+  "shapes": [
+    {
+      "d": "M7 10L7 21L17 21L17 10Z",
+      "closed": true
+    },
+    {
+      "d": "M10 10L10 6L14 6L14 10",
+      "closed": false
+    },
+    {
+      "d": "M10 15H14",
+      "closed": false
+    },
+    {
+      "d": "M10 18H14",
+      "closed": false
+    }
+  ]
+}

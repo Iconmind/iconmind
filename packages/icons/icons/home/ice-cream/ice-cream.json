@@ -1,0 +1,33 @@
+{
+  "slug": "ice-cream",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Ice cream",
+  "description": "The scoop on the cone",
+  "tags": [
+    "ice-cream",
+    "scoop",
+    "cone"
+  ],
+  "keywords": [
+    "ice cream",
+    "a scoop",
+    "cone",
+    "cold"
+  ],
+  "family": "food",
+  "shapes": [
+    {
+      "d": "M7 8a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 13L12 20L19 13Z",
+      "closed": true
+    },
+    {
+      "d": "M8 16L16 16",
+      "closed": false
+    }
+  ]
+}

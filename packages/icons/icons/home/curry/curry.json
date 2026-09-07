@@ -1,0 +1,34 @@
+{
+  "slug": "curry",
+  "category": "home",
+  "subcategory": "kitchen",
+  "name": "Curry",
+  "description": "The plate with the rice beside it",
+  "tags": [
+    "curry",
+    "sauce",
+    "spiced"
+  ],
+  "keywords": [
+    "curry",
+    "curry and rice",
+    "sauce",
+    "spiced"
+  ],
+  "family": "plate",
+  "shapes": [
+    {
+      "d": "M2 13H22C22 17 18 20 12 20C6 20 2 17 2 13Z",
+      "closed": true,
+      "_why": "the plate, shallow and wide"
+    },
+    {
+      "d": "M4 13A4 4 0 0 1 12 13",
+      "closed": false
+    },
+    {
+      "d": "M15 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}
