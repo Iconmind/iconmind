@@ -199,7 +199,7 @@ export const BATCH_129: Icon[] = [
     ["recovery", "ready", "dial"], [], ["recovery score", "readiness", "recovered", "ready to train"],
     "gauge", [arc(12, 16, 9, 180, 360), row(16, 3, 21), poly([[12, 16], [12, 8]]), poly([[9, 11], [12, 8], [15, 11]])]),
   c("hydration-track", "Hydration", "The bottle with the level in it",
-    ["water", "drink", "level"], ["water-intake"], ["hydration", "drink water", "water intake", "stay hydrated"],
+    ["water", "drink", "level"], [], ["hydration", "drink water", "water intake", "stay hydrated"],
     "bottle", [...BOTTLE(), row(14, 7, 17)]),
   c("water-glass", "Glass of water", "One glass, filled part way",
     ["glass", "water", "drink"], [], ["glass of water", "water glass", "a drink", "sip"],
