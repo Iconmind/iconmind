@@ -3,7 +3,7 @@
   "category": "health",
   "subcategory": "nutrition",
   "name": "Hair",
-  "description": "The strands falling from the crown",
+  "description": "The comb you run through it",
   "tags": [
     "hair",
     "strands",
@@ -15,22 +15,23 @@
     "strands",
     "scalp"
   ],
-  "family": "hair",
+  "family": "comb",
   "shapes": [
     {
-      "d": "M4 21C4 10 7 3 12 3C17 3 20 10 20 21",
-      "closed": false,
-      "_why": "the outer sweep of the hair"
+      "d": "M3 6L21 6L21 11L3 11Z",
+      "closed": true
     },
     {
-      "d": "M12 3C12 8 10 12 8 21",
-      "closed": false,
-      "_why": "a strand falling one side"
+      "d": "M7 11V19",
+      "closed": false
     },
     {
-      "d": "M12 3C12 8 14 12 16 21",
-      "closed": false,
-      "_why": "a strand falling the other"
+      "d": "M12 11V19",
+      "closed": false
+    },
+    {
+      "d": "M17 11V19",
+      "closed": false
     }
   ]
 }

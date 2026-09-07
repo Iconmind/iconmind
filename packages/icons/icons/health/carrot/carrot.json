@@ -3,7 +3,7 @@
   "category": "health",
   "subcategory": "nutrition",
   "name": "Carrot",
-  "description": "The root with its leaves",
+  "description": "The root lying with its greens",
   "tags": [
     "carrot",
     "root",
@@ -18,19 +18,20 @@
   "family": "carrot",
   "shapes": [
     {
-      "d": "M9 7L15 7L15 17L12 20L9 17Z",
-      "closed": true
+      "d": "M9 8H15C15 13 13 19 12 21C11 19 9 13 9 8Z",
+      "closed": true,
+      "_why": "the root, tapering to its tip"
     },
     {
-      "d": "M9 7L6 4",
+      "d": "M9 8L5 4",
       "closed": false
     },
     {
-      "d": "M12 7L12 3",
+      "d": "M12 8L12 3",
       "closed": false
     },
     {
-      "d": "M15 7L18 4",
+      "d": "M15 8L19 4",
       "closed": false
     }
   ]

@@ -3,7 +3,7 @@
   "category": "health",
   "subcategory": "nutrition",
   "name": "Broccoli",
-  "description": "The florets over the stalk",
+  "description": "The florets over the stalk and its shoots",
   "tags": [
     "broccoli",
     "green",
@@ -18,27 +18,20 @@
   "family": "broccoli",
   "shapes": [
     {
-      "d": "M4 11A3 3 0 0 1 10 11",
+      "d": "M5 13A4 4 0 0 1 9 7A4 4 0 0 1 15 7A4 4 0 0 1 19 13Z",
+      "closed": true,
+      "_why": "the head, bumped along the top"
+    },
+    {
+      "d": "M12 13L12 20",
       "closed": false
     },
     {
-      "d": "M8 10A4 4 0 0 1 16 10",
+      "d": "M12 16L8 16",
       "closed": false
     },
     {
-      "d": "M14 11A3 3 0 0 1 20 11",
-      "closed": false
-    },
-    {
-      "d": "M4 11H20",
-      "closed": false
-    },
-    {
-      "d": "M12 11L12 20",
-      "closed": false
-    },
-    {
-      "d": "M8 20L16 20",
+      "d": "M12 16L16 16",
       "closed": false
     }
   ]

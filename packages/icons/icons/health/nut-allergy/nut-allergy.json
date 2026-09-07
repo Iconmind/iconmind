@@ -18,12 +18,12 @@
   "family": "nut",
   "shapes": [
     {
-      "d": "M6 10A6 6 0 0 1 18 10C18 16 15 20 12 20C9 20 6 16 6 10Z",
+      "d": "M12 3C16 6 18 10 18 14A6 6 0 0 1 6 14C6 10 8 6 12 3Z",
       "closed": true,
-      "_why": "a nut: a round shell narrowing to its base"
+      "_why": "a nut: a point over a round shell"
     },
     {
-      "d": "M5 19L19 5",
+      "d": "M6 19L18 7",
       "closed": false
     }
   ]
