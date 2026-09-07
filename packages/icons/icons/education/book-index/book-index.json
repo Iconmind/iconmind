@@ -1,0 +1,45 @@
+{
+  "slug": "book-index",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Index",
+  "description": "The list at the back, alphabetical",
+  "tags": [
+    "index",
+    "back",
+    "look-up"
+  ],
+  "keywords": [
+    "index",
+    "at the back",
+    "look it up",
+    "entries"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M13 5V19",
+      "closed": false
+    },
+    {
+      "d": "M6 8H12",
+      "closed": false
+    },
+    {
+      "d": "M6 12H12",
+      "closed": false
+    },
+    {
+      "d": "M6 16H12",
+      "closed": false
+    },
+    {
+      "d": "M15 10H19",
+      "closed": false
+    }
+  ]
+}

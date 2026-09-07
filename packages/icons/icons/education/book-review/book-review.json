@@ -1,0 +1,40 @@
+{
+  "slug": "book-review",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Review",
+  "description": "What the reader thought of it",
+  "tags": [
+    "review",
+    "rating",
+    "thought"
+  ],
+  "aliases": [
+    "rating"
+  ],
+  "keywords": [
+    "book review",
+    "rating",
+    "what they thought",
+    "stars"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V21",
+      "closed": false
+    },
+    {
+      "d": "M13 9L16 12L13 15L10 12Z",
+      "closed": true
+    },
+    {
+      "d": "M11 18H17",
+      "closed": false
+    }
+  ]
+}

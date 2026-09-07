@@ -1,0 +1,35 @@
+{
+  "slug": "book-open",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Open book",
+  "description": "Two leaves over the gutter",
+  "tags": [
+    "open",
+    "leaves",
+    "read"
+  ],
+  "keywords": [
+    "open book",
+    "reading",
+    "two pages",
+    "open"
+  ],
+  "family": "open-book",
+  "shapes": [
+    {
+      "d": "M12 7C10 5 7 4 3 4V18C7 18 10 19 12 21",
+      "closed": false,
+      "_why": "the left-hand leaf"
+    },
+    {
+      "d": "M12 7C14 5 17 4 21 4V18C17 18 14 19 12 21",
+      "closed": false,
+      "_why": "the right-hand leaf"
+    },
+    {
+      "d": "M12 7L12 21",
+      "closed": false
+    }
+  ]
+}

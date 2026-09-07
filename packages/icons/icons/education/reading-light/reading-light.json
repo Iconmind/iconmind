@@ -1,0 +1,40 @@
+{
+  "slug": "reading-light",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Reading light",
+  "description": "The lamp bent over the page",
+  "tags": [
+    "lamp",
+    "light",
+    "desk"
+  ],
+  "aliases": [
+    "desk-lamp"
+  ],
+  "keywords": [
+    "reading light",
+    "desk lamp",
+    "lamp",
+    "light to read by"
+  ],
+  "family": "lamp",
+  "shapes": [
+    {
+      "d": "M5 20H17",
+      "closed": false
+    },
+    {
+      "d": "M11 9V20",
+      "closed": false
+    },
+    {
+      "d": "M11 9L15 5",
+      "closed": false
+    },
+    {
+      "d": "M10 9L18 9L14 13Z",
+      "closed": true
+    }
+  ]
+}

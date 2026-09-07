@@ -1,0 +1,37 @@
+{
+  "slug": "ebook",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "E-book",
+  "description": "The book on a screen",
+  "tags": [
+    "ebook",
+    "digital",
+    "screen"
+  ],
+  "keywords": [
+    "e-book",
+    "digital book",
+    "read on screen",
+    "ebook"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V21",
+      "closed": false
+    },
+    {
+      "d": "M11 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 9L15 12L18 12",
+      "closed": false
+    }
+  ]
+}

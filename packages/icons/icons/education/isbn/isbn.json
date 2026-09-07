@@ -1,0 +1,45 @@
+{
+  "slug": "isbn",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "ISBN",
+  "description": "The number every book carries",
+  "tags": [
+    "isbn",
+    "number",
+    "barcode"
+  ],
+  "keywords": [
+    "isbn",
+    "book number",
+    "barcode",
+    "identifier"
+  ],
+  "family": "barcode",
+  "shapes": [
+    {
+      "d": "M4 5V17",
+      "closed": false
+    },
+    {
+      "d": "M7 5V17",
+      "closed": false
+    },
+    {
+      "d": "M11 5V17",
+      "closed": false
+    },
+    {
+      "d": "M15 5V17",
+      "closed": false
+    },
+    {
+      "d": "M20 5V17",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "footnote",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Footnote",
+  "description": "The small print at the foot",
+  "tags": [
+    "footnote",
+    "note",
+    "foot"
+  ],
+  "keywords": [
+    "footnote",
+    "note at the foot",
+    "small print",
+    "reference"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M7 7H17",
+      "closed": false
+    },
+    {
+      "d": "M7 10H17",
+      "closed": false
+    },
+    {
+      "d": "M7 15H12",
+      "closed": false
+    },
+    {
+      "d": "M7 18H15",
+      "closed": false
+    }
+  ]
+}

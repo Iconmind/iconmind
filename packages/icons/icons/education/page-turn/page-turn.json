@@ -1,0 +1,32 @@
+{
+  "slug": "page-turn",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Turn the page",
+  "description": "The corner lifting",
+  "tags": [
+    "turn",
+    "next",
+    "corner"
+  ],
+  "aliases": [
+    "next-page"
+  ],
+  "keywords": [
+    "turn the page",
+    "next page",
+    "page over",
+    "corner"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M4 21L4 3L14 3L20 9L20 21Z",
+      "closed": true
+    },
+    {
+      "d": "M14 3L14 9L20 9",
+      "closed": false
+    }
+  ]
+}

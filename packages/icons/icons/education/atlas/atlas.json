@@ -1,0 +1,41 @@
+{
+  "slug": "atlas",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Atlas",
+  "description": "The book of maps",
+  "tags": [
+    "atlas",
+    "maps",
+    "world"
+  ],
+  "keywords": [
+    "atlas",
+    "book of maps",
+    "world map",
+    "geography"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V21",
+      "closed": false
+    },
+    {
+      "d": "M9 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 7V17",
+      "closed": false
+    },
+    {
+      "d": "M14 17A5 5 0 0 1 14 7",
+      "closed": false
+    }
+  ]
+}

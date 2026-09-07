@@ -1,0 +1,25 @@
+{
+  "slug": "page-bookmark",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Bookmark",
+  "description": "The ribbon left in the page",
+  "tags": [
+    "bookmark",
+    "ribbon",
+    "place"
+  ],
+  "keywords": [
+    "bookmark",
+    "keep my place",
+    "ribbon",
+    "saved page"
+  ],
+  "family": "bookmark",
+  "shapes": [
+    {
+      "d": "M7 3L17 3L17 21L12 16L7 21Z",
+      "closed": true
+    }
+  ]
+}

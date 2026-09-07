@@ -1,0 +1,36 @@
+{
+  "slug": "author",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Author",
+  "description": "The one who wrote it",
+  "tags": [
+    "author",
+    "writer",
+    "wrote"
+  ],
+  "aliases": [
+    "writer"
+  ],
+  "keywords": [
+    "author",
+    "writer",
+    "who wrote it",
+    "by"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M5 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3.5 15A4.5 4.5 0 0 1 12.5 15",
+      "closed": false
+    },
+    {
+      "d": "M13 17L18 12L20 14L15 19Z",
+      "closed": true
+    }
+  ]
+}

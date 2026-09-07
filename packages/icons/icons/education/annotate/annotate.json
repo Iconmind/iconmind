@@ -1,0 +1,44 @@
+{
+  "slug": "annotate",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Annotate",
+  "description": "The note written in the margin",
+  "tags": [
+    "annotate",
+    "margin",
+    "note"
+  ],
+  "aliases": [
+    "margin-note"
+  ],
+  "keywords": [
+    "annotate",
+    "note in the margin",
+    "write on it",
+    "comment"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M14 5V19",
+      "closed": false
+    },
+    {
+      "d": "M6 8H12",
+      "closed": false
+    },
+    {
+      "d": "M6 12H12",
+      "closed": false
+    },
+    {
+      "d": "M15 16L19 12L21 14L17 18Z",
+      "closed": true
+    }
+  ]
+}

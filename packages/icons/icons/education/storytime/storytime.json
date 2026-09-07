@@ -1,0 +1,42 @@
+{
+  "slug": "storytime",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Story time",
+  "description": "The open book and the ones listening",
+  "tags": [
+    "story",
+    "read-aloud",
+    "listen"
+  ],
+  "aliases": [
+    "read-aloud"
+  ],
+  "keywords": [
+    "story time",
+    "read aloud",
+    "listening",
+    "story"
+  ],
+  "family": "open-book",
+  "shapes": [
+    {
+      "d": "M12 12C10 10 7 9 3 9V19C7 19 10 20 12 22",
+      "closed": false,
+      "_why": "the left-hand leaf"
+    },
+    {
+      "d": "M12 12C14 10 17 9 21 9V19C17 19 14 20 12 22",
+      "closed": false,
+      "_why": "the right-hand leaf"
+    },
+    {
+      "d": "M5 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

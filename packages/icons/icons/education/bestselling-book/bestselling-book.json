@@ -1,0 +1,33 @@
+{
+  "slug": "bestselling-book",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Bestseller",
+  "description": "The book with the star on it",
+  "tags": [
+    "bestseller",
+    "star",
+    "top"
+  ],
+  "keywords": [
+    "bestseller",
+    "best selling",
+    "top of the list",
+    "star"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V21",
+      "closed": false
+    },
+    {
+      "d": "M15 8L19 12L15 16L11 12Z",
+      "closed": true
+    }
+  ]
+}

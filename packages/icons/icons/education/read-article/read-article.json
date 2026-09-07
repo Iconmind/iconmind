@@ -1,0 +1,37 @@
+{
+  "slug": "read-article",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Read an article",
+  "description": "The column with a picture at the top",
+  "tags": [
+    "article",
+    "column",
+    "read"
+  ],
+  "keywords": [
+    "read an article",
+    "article",
+    "long read",
+    "column"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M7 6L17 6L17 11L7 11Z",
+      "closed": true
+    },
+    {
+      "d": "M7 14H17",
+      "closed": false
+    },
+    {
+      "d": "M7 17H14",
+      "closed": false
+    }
+  ]
+}

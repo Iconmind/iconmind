@@ -1,0 +1,41 @@
+{
+  "slug": "newspaper",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Newspaper",
+  "description": "The folded sheet with its columns",
+  "tags": [
+    "newspaper",
+    "press",
+    "daily"
+  ],
+  "keywords": [
+    "newspaper",
+    "the paper",
+    "daily",
+    "press"
+  ],
+  "family": "paper",
+  "shapes": [
+    {
+      "d": "M2 19L2 6L18 6L18 19Z",
+      "closed": true
+    },
+    {
+      "d": "M18 9L22 9L22 17L18 17",
+      "closed": false
+    },
+    {
+      "d": "M4 10H16",
+      "closed": false
+    },
+    {
+      "d": "M10 13V17",
+      "closed": false
+    },
+    {
+      "d": "M4 13H16",
+      "closed": false
+    }
+  ]
+}

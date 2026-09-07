@@ -1,0 +1,37 @@
+{
+  "slug": "non-fiction",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Non-fiction",
+  "description": "The book about what happened",
+  "tags": [
+    "non-fiction",
+    "facts",
+    "true"
+  ],
+  "keywords": [
+    "non-fiction",
+    "facts",
+    "true story",
+    "reference"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V21",
+      "closed": false
+    },
+    {
+      "d": "M12 12L14 14L18 10",
+      "closed": false
+    },
+    {
+      "d": "M11 17H17",
+      "closed": false
+    }
+  ]
+}

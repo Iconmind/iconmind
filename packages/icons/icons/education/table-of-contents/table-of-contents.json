@@ -1,0 +1,48 @@
+{
+  "slug": "table-of-contents",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Contents",
+  "description": "The list at the front",
+  "tags": [
+    "contents",
+    "list",
+    "front"
+  ],
+  "aliases": [
+    "toc"
+  ],
+  "keywords": [
+    "contents",
+    "table of contents",
+    "what is in it",
+    "list"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M7 8H13",
+      "closed": false
+    },
+    {
+      "d": "M15 8H18",
+      "closed": false
+    },
+    {
+      "d": "M7 12H13",
+      "closed": false
+    },
+    {
+      "d": "M15 12H18",
+      "closed": false
+    },
+    {
+      "d": "M7 16H13",
+      "closed": false
+    }
+  ]
+}

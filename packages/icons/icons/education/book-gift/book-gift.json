@@ -1,0 +1,37 @@
+{
+  "slug": "book-gift",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Book as a gift",
+  "description": "The book with a ribbon on it",
+  "tags": [
+    "gift",
+    "present",
+    "ribbon"
+  ],
+  "keywords": [
+    "book as a gift",
+    "gift a book",
+    "present",
+    "wrapped"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V21",
+      "closed": false
+    },
+    {
+      "d": "M4 12H20",
+      "closed": false
+    },
+    {
+      "d": "M9 9L12 12L15 9",
+      "closed": false
+    }
+  ]
+}

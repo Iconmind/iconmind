@@ -1,0 +1,40 @@
+{
+  "slug": "overdue-book",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Overdue",
+  "description": "The book kept too long",
+  "tags": [
+    "overdue",
+    "late",
+    "fine"
+  ],
+  "aliases": [
+    "late-return"
+  ],
+  "keywords": [
+    "overdue book",
+    "late",
+    "fine",
+    "kept too long"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V21",
+      "closed": false
+    },
+    {
+      "d": "M11 13a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 10L15 13L18 13",
+      "closed": false
+    }
+  ]
+}

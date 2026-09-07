@@ -1,0 +1,44 @@
+{
+  "slug": "book-sale",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Book sale",
+  "description": "The book with a price on it",
+  "tags": [
+    "sale",
+    "price",
+    "buy"
+  ],
+  "aliases": [
+    "for-sale"
+  ],
+  "keywords": [
+    "book sale",
+    "buy the book",
+    "price",
+    "on sale"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V21",
+      "closed": false
+    },
+    {
+      "d": "M12 15L19 8",
+      "closed": false
+    },
+    {
+      "d": "M12 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

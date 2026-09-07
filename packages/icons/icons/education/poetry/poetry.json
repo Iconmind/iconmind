@@ -1,0 +1,44 @@
+{
+  "slug": "poetry",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Poetry",
+  "description": "The short lines down the page",
+  "tags": [
+    "poetry",
+    "verse",
+    "lines"
+  ],
+  "aliases": [
+    "poem"
+  ],
+  "keywords": [
+    "poetry",
+    "a poem",
+    "verse",
+    "short lines"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 7H14",
+      "closed": false
+    },
+    {
+      "d": "M8 10H16",
+      "closed": false
+    },
+    {
+      "d": "M8 13H12",
+      "closed": false
+    },
+    {
+      "d": "M8 16H15",
+      "closed": false
+    }
+  ]
+}

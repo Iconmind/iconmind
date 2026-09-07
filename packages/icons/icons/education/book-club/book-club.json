@@ -1,0 +1,40 @@
+{
+  "slug": "book-club",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Book club",
+  "description": "The book and the people round it",
+  "tags": [
+    "club",
+    "group",
+    "discuss"
+  ],
+  "aliases": [
+    "reading-group"
+  ],
+  "keywords": [
+    "book club",
+    "reading group",
+    "discuss it",
+    "meet"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M6 12A2 2 0 0 1 8 10H16A2 2 0 0 1 18 12V19A2 2 0 0 1 16 21H8A2 2 0 0 1 6 19Z",
+      "closed": true
+    },
+    {
+      "d": "M9 10V21",
+      "closed": false
+    },
+    {
+      "d": "M3 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

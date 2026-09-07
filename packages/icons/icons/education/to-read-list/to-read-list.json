@@ -1,0 +1,33 @@
+{
+  "slug": "to-read-list",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "To read",
+  "description": "The pile still waiting",
+  "tags": [
+    "to-read",
+    "pile",
+    "list"
+  ],
+  "keywords": [
+    "to read",
+    "reading list",
+    "the pile",
+    "next up"
+  ],
+  "family": "stack",
+  "shapes": [
+    {
+      "d": "M3 6L17 6L17 10L3 10Z",
+      "closed": true
+    },
+    {
+      "d": "M6 13L20 13L20 17L6 17Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21H17",
+      "closed": false
+    }
+  ]
+}

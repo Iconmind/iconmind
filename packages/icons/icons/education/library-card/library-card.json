@@ -1,0 +1,44 @@
+{
+  "slug": "library-card",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Library card",
+  "description": "The card that gets you in",
+  "tags": [
+    "card",
+    "member",
+    "borrow"
+  ],
+  "aliases": [
+    "borrower-card"
+  ],
+  "keywords": [
+    "library card",
+    "borrower card",
+    "membership",
+    "card"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M4 11a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 15H9",
+      "closed": false
+    },
+    {
+      "d": "M13 10H19",
+      "closed": false
+    },
+    {
+      "d": "M13 14H17",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "reading-glasses",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Reading glasses",
+  "description": "Two lenses and the bridge",
+  "tags": [
+    "glasses",
+    "lenses",
+    "specs"
+  ],
+  "aliases": [
+    "specs"
+  ],
+  "keywords": [
+    "reading glasses",
+    "specs",
+    "spectacles",
+    "glasses"
+  ],
+  "family": "glasses",
+  "shapes": [
+    {
+      "d": "M3 13a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 13a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10.5 13H13.5",
+      "closed": false
+    },
+    {
+      "d": "M3 10L5 8",
+      "closed": false
+    },
+    {
+      "d": "M21 10L19 8",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+/**
+ * R47 · Education: books & reading — the book itself, the shelf it came off, and everything
+ * you do to a page.
+ *
+ * A closed book is a cover with a spine; an open one is two leaves over a gutter. Around
+ * them: a shelf, a library, a card, a bookmark, a magnifier, a highlighter, a sticky note,
+ * a scroll, a comic panel, a newspaper, an e-reader, headphones, a reading lamp, glasses.
+ */
+import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
+import type { Icon } from "../build.ts";
+
+const c = (
+  slug: string, name: string, description: string,
+  tags: string[], aliases: string[], keywords: string[],
+  family: string, shapes: Icon["shapes"],
+): Icon => ({
+  slug, category: "education", subcategory: "reading", name, description,
+  tags, aliases, keywords, family, shapes,
+});
+
+/** The book shut: a cover, its spine and the block of pages. */
+const BOOK = () => [rect(4, 3, 16, 18, 2), col(8, 3, 21)];
+/** The book open: two leaves over the gutter. */
+const OPEN = () => [
+  raw("M12 7C10 5 7 4 3 4V18C7 18 10 19 12 21", "the left-hand leaf", false),
+  raw("M12 7C14 5 17 4 21 4V18C17 18 14 19 12 21", "the right-hand leaf", false),
+  poly([[12, 7], [12, 21]]),
+];
+/** The sheet of paper. */
+const PAGE = () => rect(4, 3, 16, 18, 2);
+/** A bookmark: a ribbon notched at the bottom. */
+const MARK = (x: number, y: number, w: number, h: number) =>
+  poly([[x, y], [x + w, y], [x + w, y + h], [x + w / 2, y + h - w / 2], [x, y + h]], true);
+
+export const BATCH_134: Icon[] = [
+  /* ── the book ───────────────────────────────────────────────────────────────── */
+  c("book", "Book", "The book shut, spine to the left",
+    ["book", "read", "cover"], [], ["book", "a book", "read", "cover"],
+    "book", BOOK()),
+  c("book-open", "Open book", "Two leaves over the gutter",
+    ["open", "leaves", "read"], [], ["open book", "reading", "two pages", "open"],
+    "open-book", OPEN()),
+  c("book-closed", "Closed book", "The book shut with a band round it",
+    ["closed", "shut", "band"], [], ["closed book", "shut", "finished", "put away"],
+    "book", [...BOOK(), row(12, 4, 20)]),
+  c("page-bookmark", "Bookmark", "The ribbon left in the page",
+    ["bookmark", "ribbon", "place"], [], ["bookmark", "keep my place", "ribbon", "saved page"],
+    "bookmark", [MARK(7, 3, 10, 18)]),
+  c("chapter", "Chapter", "The page where a chapter starts",
+    ["chapter", "start", "section"], [], ["chapter", "chapter start", "section", "part"],
+    "page", [PAGE(), row(8, 8, 16), row(12, 7, 17), row(15, 7, 17), row(18, 7, 13)]),
+  c("page-turn", "Turn the page", "The corner lifting",
+    ["turn", "next", "corner"], ["next-page"], ["turn the page", "next page", "page over", "corner"],
+    "page", [poly([[4, 21], [4, 3], [14, 3], [20, 9], [20, 21]], true), poly([[14, 3], [14, 9], [20, 9]])]),
+  c("table-of-contents", "Contents", "The list at the front",
+    ["contents", "list", "front"], ["toc"], ["contents", "table of contents", "what is in it", "list"],
+    "page", [PAGE(), row(8, 7, 13), row(8, 15, 18), row(12, 7, 13), row(12, 15, 18), row(16, 7, 13)]),
+  c("book-index", "Index", "The list at the back, alphabetical",
+    ["index", "back", "look-up"], [], ["index", "at the back", "look it up", "entries"],
+    "page", [PAGE(), col(13, 5, 19), row(8, 6, 12), row(12, 6, 12), row(16, 6, 12), row(10, 15, 19)]),
+  c("glossary", "Glossary", "The word and what it means",
+    ["glossary", "terms", "meaning"], [], ["glossary", "terms", "what it means", "definitions"],
+    "page", [PAGE(), row(8, 7, 11), row(12, 7, 17), row(16, 7, 14), poly([[13, 8], [17, 8]])]),
+  c("footnote", "Footnote", "The small print at the foot",
+    ["footnote", "note", "foot"], [], ["footnote", "note at the foot", "small print", "reference"],
+    "page", [PAGE(), row(7, 7, 17), row(10, 7, 17), row(15, 7, 12), row(18, 7, 15)]),
+
+  /* ── where books live ───────────────────────────────────────────────────────── */
+  c("bookshelf", "Bookshelf", "The books standing on the shelf",
+    ["shelf", "books", "stand"], [], ["bookshelf", "shelf of books", "shelving", "stand"],
+    "shelf", [row(20, 2, 22), poly([[4, 20], [4, 8], [7, 8], [7, 20]]), poly([[10, 20], [10, 11], [13, 11], [13, 20]]), poly([[16, 20], [16, 6], [19, 6], [19, 20]])]),
+  c("library", "Library", "The building the books live in",
+    ["library", "building", "public"], [], ["library", "public library", "the library", "building"],
+    "figure", [rect(3, 8, 18, 12, 2), poly([[7, 8], [12, 3], [17, 8]]), row(12, 6, 18), row(16, 6, 18)]),
+  c("library-card", "Library card", "The card that gets you in",
+    ["card", "member", "borrow"], ["borrower-card"], ["library card", "borrower card", "membership", "card"],
+    "card", [rect(2, 5, 20, 14, 2), disc(7, 11, 3), row(15, 5, 9), row(10, 13, 19), row(14, 13, 17)]),
+  c("borrow-book", "Borrow", "The book going out",
+    ["borrow", "out", "loan"], [], ["borrow a book", "on loan", "take it out", "issue"],
+    "book", [...BOOK(), poly([[13, 12], [19, 12]]), poly([[16, 9], [19, 12], [16, 15]])]),
+  c("return-book", "Return", "The book coming back",
+    ["return", "back", "due"], [], ["return a book", "bring it back", "returned", "drop off"],
+    "book", [...BOOK(), poly([[19, 12], [13, 12]]), poly([[16, 9], [13, 12], [16, 15]])]),
+  c("overdue-book", "Overdue", "The book kept too long",
+    ["overdue", "late", "fine"], ["late-return"], ["overdue book", "late", "fine", "kept too long"],
+    "book", [...BOOK(), disc(15, 13, 4), poly([[15, 10], [15, 13], [18, 13]])]),
+  c("to-read-list", "To read", "The pile still waiting",
+    ["to-read", "pile", "list"], [], ["to read", "reading list", "the pile", "next up"],
+    "stack", [poly([[3, 6], [17, 6], [17, 10], [3, 10]], true), poly([[6, 13], [20, 13], [20, 17], [6, 17]], true), row(21, 3, 17)]),
+  c("read-progress", "How far in", "The bar filling as you read",
+    ["progress", "how-far", "bar"], [], ["how far in", "reading progress", "percent read", "bar"],
+    "book", [...BOOK(), poly([[11, 15], [17, 15], [17, 18], [11, 18]], true), col(14, 15, 18)]),
+  c("book-club", "Book club", "The book and the people round it",
+    ["club", "group", "discuss"], ["reading-group"], ["book club", "reading group", "discuss it", "meet"],
+    "book", [rect(6, 10, 12, 11, 2), col(9, 10, 21), disc(6, 5, 3), disc(18, 5, 3)]),
+  c("storytime", "Story time", "The open book and the ones listening",
+    ["story", "read-aloud", "listen"], ["read-aloud"], ["story time", "read aloud", "listening", "story"],
+    "open-book", [raw("M12 12C10 10 7 9 3 9V19C7 19 10 20 12 22", "the left-hand leaf", false), raw("M12 12C14 10 17 9 21 9V19C17 19 14 20 12 22", "the right-hand leaf", false), disc(8, 5, 3), disc(16, 5, 3)]),
+  c("bedtime-story", "Bedtime story", "The book read under the moon",
+    ["bedtime", "night", "story"], [], ["bedtime story", "story at night", "read at bedtime", "goodnight"],
+    "open-book", [raw("M12 13C10 11 7 10 3 10V20C7 20 10 21 12 22", "the left-hand leaf", false), raw("M12 13C14 11 17 10 21 10V20C17 20 14 21 12 22", "the right-hand leaf", false), raw("M14 2A5 5 0 1 0 14 12A4 4 0 0 1 14 2Z", "a crescent over the book", true)]),
+
+  /* ── what you do to a page ──────────────────────────────────────────────────── */
+  c("highlight-text", "Highlight", "The band laid over one line",
+    ["highlight", "mark", "line"], ["marker"], ["highlight", "highlighter", "mark the line", "colour it"],
+    "page", [PAGE(), row(7, 7, 17), poly([[7, 11], [17, 11], [17, 14], [7, 14]], true), row(18, 7, 17)]),
+  c("annotate", "Annotate", "The note written in the margin",
+    ["annotate", "margin", "note"], ["margin-note"], ["annotate", "note in the margin", "write on it", "comment"],
+    "page", [PAGE(), col(14, 5, 19), row(8, 6, 12), row(12, 6, 12), poly([[15, 16], [19, 12], [21, 14], [17, 18]], true)]),
+  c("sticky-note", "Sticky note", "The square stuck on the page",
+    ["sticky", "note", "stuck"], ["post-it"], ["sticky note", "post-it", "stuck on", "note"],
+    "note", [poly([[3, 3], [21, 3], [21, 15], [15, 21], [3, 21]], true), poly([[21, 15], [15, 15], [15, 21]])]),
+  c("read-article", "Read an article", "The column with a picture at the top",
+    ["article", "column", "read"], [], ["read an article", "article", "long read", "column"],
+    "page", [PAGE(), poly([[7, 6], [17, 6], [17, 11], [7, 11]], true), row(14, 7, 17), row(17, 7, 14)]),
+
+  /* ── the kinds of book ──────────────────────────────────────────────────────── */
+  c("dictionary", "Dictionary", "The book with the words in it",
+    ["dictionary", "words", "meaning"], [], ["dictionary", "look up a word", "definitions", "words"],
+    "book", [...BOOK(), row(9, 11, 17), row(13, 11, 15), row(17, 11, 17)]),
+  c("thesaurus", "Thesaurus", "The book of other words for it",
+    ["thesaurus", "synonym", "other-words"], ["synonyms"], ["thesaurus", "synonyms", "another word for", "other words"],
+    "book", [...BOOK(), row(9, 11, 17), poly([[13, 12], [16, 15]]), row(17, 11, 17)]),
+  c("encyclopedia", "Encyclopedia", "The volume with everything in it",
+    ["encyclopedia", "volume", "reference"], [], ["encyclopedia", "reference", "volume", "look it up"],
+    "book", [...BOOK(), disc(14, 9, 3), row(15, 11, 17), row(18, 11, 17)]),
+  c("atlas", "Atlas", "The book of maps",
+    ["atlas", "maps", "world"], [], ["atlas", "book of maps", "world map", "geography"],
+    "book", [...BOOK(), disc(14, 12, 5), col(14, 7, 17), arc(14, 12, 5, 90, 270)]),
+  c("novel", "Novel", "The story with a bookmark in it",
+    ["novel", "fiction", "story"], ["fiction"], ["novel", "fiction", "a story", "read a novel"],
+    "book", [...BOOK(), poly([[13, 5], [17, 5], [17, 15], [15, 13], [13, 15]], true)]),
+  c("non-fiction", "Non-fiction", "The book about what happened",
+    ["non-fiction", "facts", "true"], [], ["non-fiction", "facts", "true story", "reference"],
+    "book", [...BOOK(), poly([[12, 12], [14, 14], [18, 10]]), row(17, 11, 17)]),
+  c("poetry", "Poetry", "The short lines down the page",
+    ["poetry", "verse", "lines"], ["poem"], ["poetry", "a poem", "verse", "short lines"],
+    "page", [PAGE(), row(7, 8, 14), row(10, 8, 16), row(13, 8, 12), row(16, 8, 15)]),
+  c("comic", "Comic", "The panels with a balloon in the first",
+    ["comic", "panels", "strip"], ["graphic-novel"], ["comic", "graphic novel", "strip", "panels"],
+    "grid", [rect(2, 4, 20, 16, 2), col(12, 4, 20), row(12, 12, 22), raw("M5 6H10V11H7.5L5 13.5V11Z", "a speech balloon in the first panel", true)]),
+  c("magazine", "Magazine", "The cover with its masthead",
+    ["magazine", "cover", "issue"], ["periodical"], ["magazine", "periodical", "issue", "cover"],
+    "page", [PAGE(), row(7, 6, 18), poly([[7, 10], [17, 10], [17, 15], [7, 15]], true), row(18, 7, 13)]),
+  c("newspaper", "Newspaper", "The folded sheet with its columns",
+    ["newspaper", "press", "daily"], [], ["newspaper", "the paper", "daily", "press"],
+    "paper", [poly([[2, 19], [2, 6], [18, 6], [18, 19]], true), poly([[18, 9], [22, 9], [22, 17], [18, 17]]), row(10, 4, 16), col(10, 13, 17), row(13, 4, 16)]),
+
+  /* ── how you read it ────────────────────────────────────────────────────────── */
+  c("ebook", "E-book", "The book on a screen",
+    ["ebook", "digital", "screen"], [], ["e-book", "digital book", "read on screen", "ebook"],
+    "book", [...BOOK(), disc(15, 12, 4), poly([[15, 9], [15, 12], [18, 12]])]),
+  c("e-reader", "E-reader", "The slab you read from",
+    ["e-reader", "device", "slab"], ["kindle"], ["e-reader", "reading device", "kindle", "tablet"],
+    "device", [rect(4, 2, 16, 20, 2), row(7, 8, 16), row(11, 8, 16), row(15, 8, 13), disc(12, 19, 1)]),
+  c("audiobook", "Audiobook", "The book you listen to",
+    ["audiobook", "listen", "headphones"], ["listen-book"], ["audiobook", "listen to a book", "narrated", "headphones"],
+    "book", [rect(6, 8, 12, 13, 2), col(9, 8, 21), raw("M4 12A8 8 0 0 1 20 12", "the headband over the book", false), disc(4, 15, 2), disc(20, 15, 2)]),
+  c("reading-light", "Reading light", "The lamp bent over the page",
+    ["lamp", "light", "desk"], ["desk-lamp"], ["reading light", "desk lamp", "lamp", "light to read by"],
+    "lamp", [row(20, 5, 17), col(11, 9, 20), poly([[11, 9], [15, 5]]), poly([[10, 9], [18, 9], [14, 13]], true)]),
+  c("reading-glasses", "Reading glasses", "Two lenses and the bridge",
+    ["glasses", "lenses", "specs"], ["specs"], ["reading glasses", "specs", "spectacles", "glasses"],
+    "glasses", [disc(7, 13, 4), disc(17, 13, 4), row(13, 10.5, 13.5), poly([[3, 10], [5, 8]]), poly([[21, 10], [19, 8]])]),
+
+  /* ── the trade ──────────────────────────────────────────────────────────────── */
+  c("author", "Author", "The one who wrote it",
+    ["author", "writer", "wrote"], ["writer"], ["author", "writer", "who wrote it", "by"],
+    "person", [disc(8, 6, 3), arc(8, 15, 4.5, 180, 360), poly([[13, 17], [18, 12], [20, 14], [15, 19]], true)]),
+  c("publisher", "Publisher", "The house the book comes from",
+    ["publisher", "house", "imprint"], ["imprint"], ["publisher", "imprint", "publishing house", "published by"],
+    "figure", [rect(3, 8, 18, 12, 2), poly([[7, 8], [12, 3], [17, 8]]), poly([[9, 20], [9, 13], [15, 13], [15, 20]])]),
+  c("isbn", "ISBN", "The number every book carries",
+    ["isbn", "number", "barcode"], [], ["isbn", "book number", "barcode", "identifier"],
+    "barcode", [col(4, 5, 17), col(7, 5, 17), col(11, 5, 17), col(15, 5, 17), col(20, 5, 17), row(20, 4, 20)]),
+  c("edition", "Edition", "The copy with its number",
+    ["edition", "printing", "copy"], [], ["edition", "second edition", "printing", "copy"],
+    "book", [...BOOK(), disc(15, 12, 4), poly([[13, 12], [15, 10], [15, 15]])]),
+  c("translated-book", "Translated", "The book put into another language",
+    ["translated", "language", "into"], ["translation"], ["translated book", "translation", "in another language", "translated"],
+    "book", [...BOOK(), poly([[12, 9], [15, 9]]), poly([[13.5, 9], [13.5, 15]]), poly([[16, 12], [19, 15]]), poly([[19, 12], [16, 15]])]),
+  c("bestselling-book", "Bestseller", "The book with the star on it",
+    ["bestseller", "star", "top"], [], ["bestseller", "best selling", "top of the list", "star"],
+    "book", [...BOOK(), poly([[15, 8], [19, 12], [15, 16], [11, 12]], true)]),
+  c("book-review", "Review", "What the reader thought of it",
+    ["review", "rating", "thought"], ["rating"], ["book review", "rating", "what they thought", "stars"],
+    "book", [...BOOK(), poly([[13, 9], [16, 12], [13, 15], [10, 12]], true), row(18, 11, 17)]),
+  c("book-gift", "Book as a gift", "The book with a ribbon on it",
+    ["gift", "present", "ribbon"], [], ["book as a gift", "gift a book", "present", "wrapped"],
+    "book", [...BOOK(), row(12, 4, 20), poly([[9, 9], [12, 12], [15, 9]])]),
+  c("book-sale", "Book sale", "The book with a price on it",
+    ["sale", "price", "buy"], ["for-sale"], ["book sale", "buy the book", "price", "on sale"],
+    "book", [...BOOK(), poly([[12, 15], [19, 8]]), disc(13, 9, 1), disc(18, 14, 1)]),
+  c("book-swap", "Book swap", "One book for another",
+    ["swap", "exchange", "trade"], ["exchange"], ["book swap", "swap books", "exchange", "trade"],
+    "book", [rect(2, 3, 8, 12, 2), rect(14, 9, 8, 12, 2), poly([[12, 5], [19, 5]]), poly([[16, 2], [19, 5], [16, 8]])]),
+];

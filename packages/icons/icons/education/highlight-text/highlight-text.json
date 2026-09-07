@@ -1,0 +1,40 @@
+{
+  "slug": "highlight-text",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Highlight",
+  "description": "The band laid over one line",
+  "tags": [
+    "highlight",
+    "mark",
+    "line"
+  ],
+  "aliases": [
+    "marker"
+  ],
+  "keywords": [
+    "highlight",
+    "highlighter",
+    "mark the line",
+    "colour it"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M7 7H17",
+      "closed": false
+    },
+    {
+      "d": "M7 11L17 11L17 14L7 14Z",
+      "closed": true
+    },
+    {
+      "d": "M7 18H17",
+      "closed": false
+    }
+  ]
+}

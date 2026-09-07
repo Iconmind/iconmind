@@ -1,0 +1,41 @@
+{
+  "slug": "glossary",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Glossary",
+  "description": "The word and what it means",
+  "tags": [
+    "glossary",
+    "terms",
+    "meaning"
+  ],
+  "keywords": [
+    "glossary",
+    "terms",
+    "what it means",
+    "definitions"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M7 8H11",
+      "closed": false
+    },
+    {
+      "d": "M7 12H17",
+      "closed": false
+    },
+    {
+      "d": "M7 16H14",
+      "closed": false
+    },
+    {
+      "d": "M13 8L17 8",
+      "closed": false
+    }
+  ]
+}

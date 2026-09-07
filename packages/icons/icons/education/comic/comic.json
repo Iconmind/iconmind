@@ -1,0 +1,41 @@
+{
+  "slug": "comic",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Comic",
+  "description": "The panels with a balloon in the first",
+  "tags": [
+    "comic",
+    "panels",
+    "strip"
+  ],
+  "aliases": [
+    "graphic-novel"
+  ],
+  "keywords": [
+    "comic",
+    "graphic novel",
+    "strip",
+    "panels"
+  ],
+  "family": "grid",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M12 4V20",
+      "closed": false
+    },
+    {
+      "d": "M12 12H22",
+      "closed": false
+    },
+    {
+      "d": "M5 6H10V11H7.5L5 13.5V11Z",
+      "closed": true,
+      "_why": "a speech balloon in the first panel"
+    }
+  ]
+}

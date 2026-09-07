@@ -1,0 +1,33 @@
+{
+  "slug": "book-closed",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Closed book",
+  "description": "The book shut with a band round it",
+  "tags": [
+    "closed",
+    "shut",
+    "band"
+  ],
+  "keywords": [
+    "closed book",
+    "shut",
+    "finished",
+    "put away"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V21",
+      "closed": false
+    },
+    {
+      "d": "M4 12H20",
+      "closed": false
+    }
+  ]
+}

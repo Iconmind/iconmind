@@ -141,7 +141,7 @@ export const BATCH_115: Icon[] = [
     ["order", "trade", "execute"], [], ["trade order", "place order", "order ticket", "execute trade"],
     "clipboard", [...clipboard(), ...ARROW_LR(13.5, 8, 16)]),
   c("market-news", "Market news", "A newspaper: a picture, a headline and the columns",
-    ["news", "press", "headlines"], ["newspaper"], ["market news", "financial news", "newspaper", "headlines"],
+    ["news", "press", "headlines"], [], ["market news", "financial news", "newspaper", "headlines"],
     "paper", [rect(2, 4, 20, 16, 2), poly([[5, 8], [10, 8], [10, 13], [5, 13]], true), row(8, 13, 19), row(11, 13, 19), row(16.5, 5, 19)]),
   c("ticker", "Ticker", "A strip of tape coming off its reel, the price line running along it",
     ["ticker", "tape", "quotes"], ["ticker-tape"], ["ticker", "ticker tape", "stock ticker", "live quotes"],

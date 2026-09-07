@@ -1,0 +1,37 @@
+{
+  "slug": "return-book",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Return",
+  "description": "The book coming back",
+  "tags": [
+    "return",
+    "back",
+    "due"
+  ],
+  "keywords": [
+    "return a book",
+    "bring it back",
+    "returned",
+    "drop off"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V21",
+      "closed": false
+    },
+    {
+      "d": "M19 12L13 12",
+      "closed": false
+    },
+    {
+      "d": "M16 9L13 12L16 15",
+      "closed": false
+    }
+  ]
+}

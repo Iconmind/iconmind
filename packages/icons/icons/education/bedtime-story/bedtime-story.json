@@ -1,0 +1,36 @@
+{
+  "slug": "bedtime-story",
+  "category": "education",
+  "subcategory": "reading",
+  "name": "Bedtime story",
+  "description": "The book read under the moon",
+  "tags": [
+    "bedtime",
+    "night",
+    "story"
+  ],
+  "keywords": [
+    "bedtime story",
+    "story at night",
+    "read at bedtime",
+    "goodnight"
+  ],
+  "family": "open-book",
+  "shapes": [
+    {
+      "d": "M12 13C10 11 7 10 3 10V20C7 20 10 21 12 22",
+      "closed": false,
+      "_why": "the left-hand leaf"
+    },
+    {
+      "d": "M12 13C14 11 17 10 21 10V20C17 20 14 21 12 22",
+      "closed": false,
+      "_why": "the right-hand leaf"
+    },
+    {
+      "d": "M14 2A5 5 0 1 0 14 12A4 4 0 0 1 14 2Z",
+      "closed": true,
+      "_why": "a crescent over the book"
+    }
+  ]
+}
