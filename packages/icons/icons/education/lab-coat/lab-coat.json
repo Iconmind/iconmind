@@ -1,0 +1,33 @@
+{
+  "slug": "lab-coat",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Lab coat",
+  "description": "The white coat",
+  "tags": [
+    "coat",
+    "lab",
+    "wear"
+  ],
+  "keywords": [
+    "lab coat",
+    "white coat",
+    "lab wear",
+    "coat"
+  ],
+  "family": "coat",
+  "shapes": [
+    {
+      "d": "M6 21L6 7L9 4L15 4L18 7L18 21Z",
+      "closed": true
+    },
+    {
+      "d": "M7 4L12 9L17 4",
+      "closed": false
+    },
+    {
+      "d": "M12 9L12 21",
+      "closed": false
+    }
+  ]
+}

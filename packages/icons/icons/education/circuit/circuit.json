@@ -1,0 +1,37 @@
+{
+  "slug": "circuit",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Circuit",
+  "description": "The track and what sits on it",
+  "tags": [
+    "circuit",
+    "track",
+    "wire"
+  ],
+  "keywords": [
+    "circuit",
+    "circuit board",
+    "wiring",
+    "track"
+  ],
+  "family": "circuit",
+  "shapes": [
+    {
+      "d": "M2 17L7 17L7 7L13 7L13 17L19 17L19 10",
+      "closed": false
+    },
+    {
+      "d": "M6 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

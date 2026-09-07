@@ -1,0 +1,37 @@
+{
+  "slug": "prism",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Prism",
+  "description": "The beam split by the glass",
+  "tags": [
+    "prism",
+    "split",
+    "spectrum"
+  ],
+  "keywords": [
+    "prism",
+    "split the light",
+    "spectrum",
+    "refraction"
+  ],
+  "family": "prism",
+  "shapes": [
+    {
+      "d": "M12 5L19 12L5 12Z",
+      "closed": true
+    },
+    {
+      "d": "M2 9L8 9",
+      "closed": false
+    },
+    {
+      "d": "M14 15L21 15",
+      "closed": false
+    },
+    {
+      "d": "M14 19L21 19",
+      "closed": false
+    }
+  ]
+}

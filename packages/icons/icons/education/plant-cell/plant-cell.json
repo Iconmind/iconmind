@@ -1,0 +1,33 @@
+{
+  "slug": "plant-cell",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Plant cell",
+  "description": "The wall, the nucleus and the vacuole",
+  "tags": [
+    "plant",
+    "wall",
+    "vacuole"
+  ],
+  "keywords": [
+    "plant cell",
+    "cell wall",
+    "vacuole",
+    "botany"
+  ],
+  "family": "cell",
+  "shapes": [
+    {
+      "d": "M3 5L21 5L21 19L3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M5 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 9L18 9L18 15L13 15Z",
+      "closed": true
+    }
+  ]
+}

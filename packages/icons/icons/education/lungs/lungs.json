@@ -1,0 +1,46 @@
+{
+  "slug": "lungs",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Lungs",
+  "description": "The windpipe and the two lobes",
+  "tags": [
+    "lungs",
+    "breathe",
+    "airway"
+  ],
+  "aliases": [
+    "airway"
+  ],
+  "keywords": [
+    "lungs",
+    "breathing",
+    "airway",
+    "respiration"
+  ],
+  "family": "lungs",
+  "shapes": [
+    {
+      "d": "M12 3V10",
+      "closed": false
+    },
+    {
+      "d": "M12 10L9 13",
+      "closed": false
+    },
+    {
+      "d": "M12 10L15 13",
+      "closed": false
+    },
+    {
+      "d": "M9 13V20A5 5 0 0 1 4 15C4 13 6 13 9 13Z",
+      "closed": true,
+      "_why": "the left lobe"
+    },
+    {
+      "d": "M15 13V20A5 5 0 0 0 20 15C20 13 18 13 15 13Z",
+      "closed": true,
+      "_why": "the right lobe"
+    }
+  ]
+}

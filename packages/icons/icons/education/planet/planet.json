@@ -1,0 +1,30 @@
+{
+  "slug": "planet",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Planet",
+  "description": "The globe with a ring round it",
+  "tags": [
+    "planet",
+    "ring",
+    "world"
+  ],
+  "keywords": [
+    "planet",
+    "ringed planet",
+    "world",
+    "space"
+  ],
+  "family": "planet",
+  "shapes": [
+    {
+      "d": "M5 11a7 7 0 1 0 14 0a7 7 0 1 0 -14 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 13C6 18 18 18 22 13",
+      "closed": false,
+      "_why": "the ring passing behind it"
+    }
+  ]
+}

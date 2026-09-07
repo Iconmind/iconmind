@@ -1,0 +1,33 @@
+{
+  "slug": "battery-cell",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Cell",
+  "description": "The cell with its terminal",
+  "tags": [
+    "cell",
+    "power",
+    "terminal"
+  ],
+  "keywords": [
+    "battery cell",
+    "cell",
+    "power",
+    "terminal"
+  ],
+  "family": "battery",
+  "shapes": [
+    {
+      "d": "M7 6L17 6L17 20L7 20Z",
+      "closed": true
+    },
+    {
+      "d": "M7 10H17",
+      "closed": false
+    },
+    {
+      "d": "M10 6L10 3L14 3L14 6",
+      "closed": false
+    }
+  ]
+}

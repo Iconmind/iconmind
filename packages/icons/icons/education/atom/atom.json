@@ -1,0 +1,35 @@
+{
+  "slug": "atom",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Atom",
+  "description": "The nucleus with its shells",
+  "tags": [
+    "atom",
+    "nucleus",
+    "shell"
+  ],
+  "keywords": [
+    "atom",
+    "atomic",
+    "nucleus",
+    "electron shell"
+  ],
+  "family": "atom",
+  "shapes": [
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 12A9 4 0 1 1 21 12A9 4 0 1 1 3 12Z",
+      "closed": true,
+      "_why": "the shell lying flat"
+    },
+    {
+      "d": "M12 3A4 9 0 1 1 12 21A4 9 0 1 1 12 3Z",
+      "closed": true,
+      "_why": "the shell standing up"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "dinosaur",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Dinosaur",
+  "description": "The long neck and the tail",
+  "tags": [
+    "dinosaur",
+    "extinct",
+    "prehistoric"
+  ],
+  "aliases": [
+    "dino"
+  ],
+  "keywords": [
+    "dinosaur",
+    "prehistoric",
+    "extinct",
+    "fossil animal"
+  ],
+  "family": "dinosaur",
+  "shapes": [
+    {
+      "d": "M4 19C4 15 7 13 11 13C12 9 14 7 17 7C17 5 19 4 20 5C21 6 20 8 19 8C19 11 17 14 14 15C14 17 13 19 11 19Z",
+      "closed": true,
+      "_why": "the body, the neck and the head"
+    },
+    {
+      "d": "M4 19L2 21",
+      "closed": false
+    },
+    {
+      "d": "M7 18L7 21",
+      "closed": false
+    },
+    {
+      "d": "M12 18L12 21",
+      "closed": false
+    }
+  ]
+}

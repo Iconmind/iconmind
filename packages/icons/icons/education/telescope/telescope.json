@@ -1,0 +1,33 @@
+{
+  "slug": "telescope",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Telescope",
+  "description": "The tube up on its tripod",
+  "tags": [
+    "telescope",
+    "sky",
+    "observe"
+  ],
+  "keywords": [
+    "telescope",
+    "look at the sky",
+    "observatory",
+    "stargazing"
+  ],
+  "family": "telescope",
+  "shapes": [
+    {
+      "d": "M5 14L15 4L19 8L9 18Z",
+      "closed": true
+    },
+    {
+      "d": "M9 16L5 20",
+      "closed": false
+    },
+    {
+      "d": "M12 17L16 21",
+      "closed": false
+    }
+  ]
+}

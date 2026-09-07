@@ -1,0 +1,33 @@
+{
+  "slug": "living-cell",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Cell",
+  "description": "The cell and its nucleus",
+  "tags": [
+    "cell",
+    "nucleus",
+    "living"
+  ],
+  "keywords": [
+    "cell",
+    "living cell",
+    "nucleus",
+    "biology"
+  ],
+  "family": "cell",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

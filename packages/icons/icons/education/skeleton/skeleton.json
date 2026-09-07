@@ -1,0 +1,45 @@
+{
+  "slug": "skeleton",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Skull",
+  "description": "The skull and its jaw",
+  "tags": [
+    "skull",
+    "bones",
+    "jaw"
+  ],
+  "aliases": [
+    "skull"
+  ],
+  "keywords": [
+    "skeleton",
+    "skull",
+    "bones",
+    "anatomy"
+  ],
+  "family": "skull",
+  "shapes": [
+    {
+      "d": "M5 12A7 7 0 0 1 19 12V15A2 2 0 0 1 17 17H7A2 2 0 0 1 5 15Z",
+      "closed": true,
+      "_why": "the cranium over the jaw"
+    },
+    {
+      "d": "M7 11a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 11a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 17V20",
+      "closed": false
+    },
+    {
+      "d": "M14 17V20",
+      "closed": false
+    }
+  ]
+}

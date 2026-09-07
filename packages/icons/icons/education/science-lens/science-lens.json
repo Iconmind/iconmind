@@ -1,0 +1,33 @@
+{
+  "slug": "science-lens",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Lens",
+  "description": "The glass that bends the light",
+  "tags": [
+    "lens",
+    "glass",
+    "bend"
+  ],
+  "aliases": [
+    "optics"
+  ],
+  "keywords": [
+    "lens",
+    "optics",
+    "convex lens",
+    "bend the light"
+  ],
+  "family": "lens",
+  "shapes": [
+    {
+      "d": "M4 12C8 4 16 4 20 12C16 20 8 20 4 12Z",
+      "closed": true,
+      "_why": "a lens: two curves meeting at the tips"
+    },
+    {
+      "d": "M12 4L12 20",
+      "closed": false
+    }
+  ]
+}

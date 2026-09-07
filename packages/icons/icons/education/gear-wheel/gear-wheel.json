@@ -1,0 +1,48 @@
+{
+  "slug": "gear-wheel",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Gear",
+  "description": "The wheel with teeth on it",
+  "tags": [
+    "gear",
+    "teeth",
+    "turn"
+  ],
+  "aliases": [
+    "cog"
+  ],
+  "keywords": [
+    "gear",
+    "cog",
+    "gear wheel",
+    "turns"
+  ],
+  "family": "gear",
+  "shapes": [
+    {
+      "d": "M6 12a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 7.5L5 5",
+      "closed": false
+    },
+    {
+      "d": "M16.5 7.5L19 5",
+      "closed": false
+    },
+    {
+      "d": "M16.5 16.5L19 19",
+      "closed": false
+    },
+    {
+      "d": "M7.5 16.5L5 19",
+      "closed": false
+    }
+  ]
+}

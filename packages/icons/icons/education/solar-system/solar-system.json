@@ -1,0 +1,37 @@
+{
+  "slug": "solar-system",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Solar system",
+  "description": "The orbits round one star",
+  "tags": [
+    "orbits",
+    "star",
+    "system"
+  ],
+  "keywords": [
+    "solar system",
+    "orbits",
+    "planets",
+    "star system"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 12A6 6 0 1 1 15 6.8",
+      "closed": false
+    },
+    {
+      "d": "M16.5 19.79A9 9 0 1 1 21 12",
+      "closed": false
+    },
+    {
+      "d": "M17 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

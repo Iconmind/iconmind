@@ -1,0 +1,45 @@
+{
+  "slug": "bunsen-burner",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Burner",
+  "description": "The flame over the barrel, gas going in",
+  "tags": [
+    "burner",
+    "flame",
+    "heat"
+  ],
+  "aliases": [
+    "bunsen"
+  ],
+  "keywords": [
+    "bunsen burner",
+    "burner",
+    "heat it",
+    "flame"
+  ],
+  "family": "burner",
+  "shapes": [
+    {
+      "d": "M4 21H20",
+      "closed": false
+    },
+    {
+      "d": "M10 21L10 12L14 12L14 21",
+      "closed": false
+    },
+    {
+      "d": "M12 8V12",
+      "closed": false
+    },
+    {
+      "d": "M14 17L19 17",
+      "closed": false
+    },
+    {
+      "d": "M12 3C13 5.5 15 6.5 15 8A3 3 0 1 1 9 8C9 6 10.5 5.5 10.5 4.5C11 5.5 12 5.5 12 3Z",
+      "closed": true,
+      "_why": "a flame over the barrel"
+    }
+  ]
+}

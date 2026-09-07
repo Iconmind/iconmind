@@ -1,0 +1,37 @@
+{
+  "slug": "pulley",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Pulley",
+  "description": "The wheel with the load on its rope",
+  "tags": [
+    "pulley",
+    "rope",
+    "lift"
+  ],
+  "keywords": [
+    "pulley",
+    "rope and wheel",
+    "hoist",
+    "lift"
+  ],
+  "family": "pulley",
+  "shapes": [
+    {
+      "d": "M5 6a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 6L5 16",
+      "closed": false
+    },
+    {
+      "d": "M13 6L13 13",
+      "closed": false
+    },
+    {
+      "d": "M9 13L17 13L17 19L9 19Z",
+      "closed": true
+    }
+  ]
+}

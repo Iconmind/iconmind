@@ -1,0 +1,33 @@
+{
+  "slug": "magnet",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Magnet",
+  "description": "The bar with a pole at each end",
+  "tags": [
+    "magnet",
+    "poles",
+    "attract"
+  ],
+  "keywords": [
+    "magnet",
+    "bar magnet",
+    "poles",
+    "attract"
+  ],
+  "family": "magnet",
+  "shapes": [
+    {
+      "d": "M3 8L21 8L21 16L3 16Z",
+      "closed": true
+    },
+    {
+      "d": "M8 8V16",
+      "closed": false
+    },
+    {
+      "d": "M16 8V16",
+      "closed": false
+    }
+  ]
+}

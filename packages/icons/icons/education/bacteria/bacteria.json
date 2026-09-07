@@ -1,0 +1,37 @@
+{
+  "slug": "bacteria",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Bacteria",
+  "description": "The rod with its tails",
+  "tags": [
+    "bacteria",
+    "microbe",
+    "rod"
+  ],
+  "aliases": [
+    "microbe"
+  ],
+  "keywords": [
+    "bacteria",
+    "microbe",
+    "bacterium",
+    "germ"
+  ],
+  "family": "bacteria",
+  "shapes": [
+    {
+      "d": "M5 14L11 8A4 4 0 0 1 17 14L11 20A4 4 0 0 1 5 14Z",
+      "closed": true,
+      "_why": "the rod, rounded at both ends"
+    },
+    {
+      "d": "M17 11L21 7",
+      "closed": false
+    },
+    {
+      "d": "M8 17L4 21",
+      "closed": false
+    }
+  ]
+}

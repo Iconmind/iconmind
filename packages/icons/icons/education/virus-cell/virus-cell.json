@@ -1,0 +1,38 @@
+{
+  "slug": "virus-cell",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Virus",
+  "description": "The shell with its spikes",
+  "tags": [
+    "virus",
+    "spikes",
+    "infect"
+  ],
+  "keywords": [
+    "virus",
+    "viral",
+    "spikes",
+    "infection"
+  ],
+  "family": "virus",
+  "shapes": [
+    {
+      "d": "M12 5C15 5 17 6 18 8C20 9 20 13 18 15C17 17 15 18 12 18C9 18 7 17 6 15C4 13 4 9 6 8C7 6 9 5 12 5Z",
+      "closed": true,
+      "_why": "the shell, bulging between its spikes"
+    },
+    {
+      "d": "M12 5L12 2",
+      "closed": false
+    },
+    {
+      "d": "M19 8L22 5",
+      "closed": false
+    },
+    {
+      "d": "M5 16L2 19",
+      "closed": false
+    }
+  ]
+}

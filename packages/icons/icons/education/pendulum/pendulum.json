@@ -1,0 +1,37 @@
+{
+  "slug": "pendulum",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Pendulum",
+  "description": "The bob swinging under its pivot",
+  "tags": [
+    "pendulum",
+    "swing",
+    "bob"
+  ],
+  "keywords": [
+    "pendulum",
+    "swing",
+    "bob",
+    "oscillation"
+  ],
+  "family": "pendulum",
+  "shapes": [
+    {
+      "d": "M4 4H20",
+      "closed": false
+    },
+    {
+      "d": "M12 4L12 15",
+      "closed": false
+    },
+    {
+      "d": "M9 18a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M19 16.12A14 14 0 0 1 5 16.12",
+      "closed": false
+    }
+  ]
+}

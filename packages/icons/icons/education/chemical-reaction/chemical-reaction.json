@@ -1,0 +1,45 @@
+{
+  "slug": "chemical-reaction",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Reaction",
+  "description": "One thing turning into another",
+  "tags": [
+    "reaction",
+    "turns-into",
+    "chemistry"
+  ],
+  "keywords": [
+    "chemical reaction",
+    "turns into",
+    "reaction",
+    "chemistry"
+  ],
+  "family": "beaker",
+  "shapes": [
+    {
+      "d": "M2 6H10",
+      "closed": false
+    },
+    {
+      "d": "M3 6L3 17L9 17L9 6",
+      "closed": false
+    },
+    {
+      "d": "M14 6H22",
+      "closed": false
+    },
+    {
+      "d": "M15 6L15 17L21 17L21 6",
+      "closed": false
+    },
+    {
+      "d": "M10 12L14 12",
+      "closed": false
+    },
+    {
+      "d": "M12 10L14 12L12 14",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "resistor",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Resistor",
+  "description": "The component with a lead each side",
+  "tags": [
+    "resistor",
+    "component",
+    "ohms"
+  ],
+  "keywords": [
+    "resistor",
+    "component",
+    "ohms",
+    "electronics"
+  ],
+  "family": "circuit",
+  "shapes": [
+    {
+      "d": "M2 12L6 12",
+      "closed": false
+    },
+    {
+      "d": "M6 8L18 8L18 16L6 16Z",
+      "closed": true
+    },
+    {
+      "d": "M18 12L22 12",
+      "closed": false
+    },
+    {
+      "d": "M8 14L11 11L14 14L16 12",
+      "closed": false
+    }
+  ]
+}

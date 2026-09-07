@@ -1,0 +1,35 @@
+{
+  "slug": "magnetic-field",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Magnetic field",
+  "description": "The lines looping from pole to pole",
+  "tags": [
+    "field",
+    "lines",
+    "loop"
+  ],
+  "keywords": [
+    "magnetic field",
+    "field lines",
+    "flux",
+    "loop"
+  ],
+  "family": "magnet",
+  "shapes": [
+    {
+      "d": "M8 10L16 10L16 14L8 14Z",
+      "closed": true
+    },
+    {
+      "d": "M3 13C3 4 21 4 21 13",
+      "closed": false,
+      "_why": "a field line over the top"
+    },
+    {
+      "d": "M3 11C3 20 21 20 21 11",
+      "closed": false,
+      "_why": "a field line under it"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "fossil",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Fossil",
+  "description": "The shell curled in the stone",
+  "tags": [
+    "fossil",
+    "shell",
+    "stone"
+  ],
+  "aliases": [
+    "ammonite"
+  ],
+  "keywords": [
+    "fossil",
+    "ammonite",
+    "in the rock",
+    "palaeontology"
+  ],
+  "family": "fossil",
+  "shapes": [
+    {
+      "d": "M4 11C4 7 8 4 12 4C17 4 20 8 20 12C20 17 16 20 12 20C7 20 4 16 4 11Z",
+      "closed": true,
+      "_why": "the stone it sits in"
+    },
+    {
+      "d": "M12 8C14 8 16 10 16 12C16 15 13 17 11 16C9 15 9 12 11 11C12.5 10.5 14 11 14 12.5",
+      "closed": false,
+      "_why": "the shell coiled inside it"
+    }
+  ]
+}

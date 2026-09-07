@@ -1,0 +1,34 @@
+{
+  "slug": "lab-safety",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Lab safety",
+  "description": "The warning on the bench",
+  "tags": [
+    "safety",
+    "warning",
+    "hazard"
+  ],
+  "keywords": [
+    "lab safety",
+    "hazard",
+    "handle with care",
+    "warning"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 3L21 19H3Z",
+      "closed": true,
+      "_why": "a warning triangle"
+    },
+    {
+      "d": "M12 9V14",
+      "closed": false
+    },
+    {
+      "d": "M11 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "lever",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Lever",
+  "description": "The plank over its fulcrum",
+  "tags": [
+    "lever",
+    "fulcrum",
+    "lift"
+  ],
+  "keywords": [
+    "lever",
+    "fulcrum",
+    "lift it",
+    "simple machine"
+  ],
+  "family": "lever",
+  "shapes": [
+    {
+      "d": "M3 8L9 14L21 14",
+      "closed": false
+    },
+    {
+      "d": "M9 14L14 19L4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M16 6L21 6L21 11L16 11Z",
+      "closed": true
+    }
+  ]
+}

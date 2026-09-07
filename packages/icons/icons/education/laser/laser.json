@@ -1,0 +1,33 @@
+{
+  "slug": "laser",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Laser",
+  "description": "The beam coming out of the box",
+  "tags": [
+    "laser",
+    "beam",
+    "light"
+  ],
+  "keywords": [
+    "laser",
+    "beam",
+    "laser light",
+    "coherent light"
+  ],
+  "family": "laser",
+  "shapes": [
+    {
+      "d": "M3 7L9 7L9 17L3 17Z",
+      "closed": true
+    },
+    {
+      "d": "M9 12L21 12",
+      "closed": false
+    },
+    {
+      "d": "M18 9L21 12L18 15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "test-tube",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Test tube",
+  "description": "The tube standing in its rack",
+  "tags": [
+    "tube",
+    "sample",
+    "test"
+  ],
+  "keywords": [
+    "test tube",
+    "sample tube",
+    "in the tube",
+    "test"
+  ],
+  "family": "tube",
+  "shapes": [
+    {
+      "d": "M9 3L9 15L12 18L15 15L15 3",
+      "closed": false
+    },
+    {
+      "d": "M7 3H17",
+      "closed": false
+    },
+    {
+      "d": "M5 13H19",
+      "closed": false
+    },
+    {
+      "d": "M5 13V19",
+      "closed": false
+    },
+    {
+      "d": "M19 13V19",
+      "closed": false
+    }
+  ]
+}

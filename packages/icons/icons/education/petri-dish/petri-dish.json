@@ -1,0 +1,40 @@
+{
+  "slug": "petri-dish",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Petri dish",
+  "description": "The dish with colonies in it",
+  "tags": [
+    "dish",
+    "culture",
+    "grow"
+  ],
+  "aliases": [
+    "culture-dish"
+  ],
+  "keywords": [
+    "petri dish",
+    "culture",
+    "agar",
+    "grow a culture"
+  ],
+  "family": "dish",
+  "shapes": [
+    {
+      "d": "M21 9A9 9 0 0 1 3 9",
+      "closed": false
+    },
+    {
+      "d": "M3 9H21",
+      "closed": false
+    },
+    {
+      "d": "M8 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

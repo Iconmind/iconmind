@@ -1,0 +1,36 @@
+{
+  "slug": "safety-goggles",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Goggles",
+  "description": "The eye protection",
+  "tags": [
+    "goggles",
+    "eyes",
+    "protect"
+  ],
+  "aliases": [
+    "eye-protection"
+  ],
+  "keywords": [
+    "safety goggles",
+    "eye protection",
+    "goggles",
+    "protect your eyes"
+  ],
+  "family": "goggles",
+  "shapes": [
+    {
+      "d": "M2 8L10 8L12 10L14 8L22 8L22 16L14 16L12 14L10 16L2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M4 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

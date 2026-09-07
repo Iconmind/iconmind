@@ -1,0 +1,36 @@
+{
+  "slug": "pipette",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Pipette",
+  "description": "The dropper with its bulb",
+  "tags": [
+    "pipette",
+    "dropper",
+    "drop"
+  ],
+  "aliases": [
+    "dropper"
+  ],
+  "keywords": [
+    "pipette",
+    "dropper",
+    "a drop at a time",
+    "measure out"
+  ],
+  "family": "pipette",
+  "shapes": [
+    {
+      "d": "M9 6L15 6L15 15L12 18L9 15Z",
+      "closed": true
+    },
+    {
+      "d": "M9 6A3 3 0 0 1 15 6",
+      "closed": false
+    },
+    {
+      "d": "M9 11H15",
+      "closed": false
+    }
+  ]
+}

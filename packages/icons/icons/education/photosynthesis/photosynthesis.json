@@ -1,0 +1,38 @@
+{
+  "slug": "photosynthesis",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Photosynthesis",
+  "description": "The light going into the leaf",
+  "tags": [
+    "light",
+    "leaf",
+    "energy"
+  ],
+  "keywords": [
+    "photosynthesis",
+    "light into sugar",
+    "plants",
+    "chlorophyll"
+  ],
+  "family": "leaf",
+  "shapes": [
+    {
+      "d": "M6 20C6 11 11.399999999999999 7.4 18.6 7.4C18.6 14.600000000000001 11.399999999999999 20 6 20Z",
+      "closed": true,
+      "_why": "a leaf: a curve out and a curve back"
+    },
+    {
+      "d": "M16 4L12 8",
+      "closed": false
+    },
+    {
+      "d": "M20 4L16 8",
+      "closed": false
+    },
+    {
+      "d": "M20 9L17 12",
+      "closed": false
+    }
+  ]
+}

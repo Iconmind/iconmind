@@ -1,0 +1,41 @@
+{
+  "slug": "rocket",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Rocket",
+  "description": "The nose, the body, the fins and the flame",
+  "tags": [
+    "rocket",
+    "launch",
+    "fins"
+  ],
+  "keywords": [
+    "rocket",
+    "launch",
+    "spacecraft",
+    "blast off"
+  ],
+  "family": "rocket",
+  "shapes": [
+    {
+      "d": "M12 2L16 6L16 17L8 17L8 6Z",
+      "closed": true
+    },
+    {
+      "d": "M10 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 12L3 17L8 17",
+      "closed": false
+    },
+    {
+      "d": "M16 12L21 17L16 17",
+      "closed": false
+    },
+    {
+      "d": "M9 17L12 20L15 17",
+      "closed": false
+    }
+  ]
+}

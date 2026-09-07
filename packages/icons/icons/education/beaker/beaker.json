@@ -1,0 +1,37 @@
+{
+  "slug": "beaker",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Beaker",
+  "description": "The beaker with its rim and spout",
+  "tags": [
+    "beaker",
+    "pour",
+    "measure"
+  ],
+  "keywords": [
+    "beaker",
+    "pour",
+    "glassware",
+    "measure"
+  ],
+  "family": "beaker",
+  "shapes": [
+    {
+      "d": "M5 5L5 20L19 20L19 5",
+      "closed": false
+    },
+    {
+      "d": "M5 12H19",
+      "closed": false
+    },
+    {
+      "d": "M3 5L7 5",
+      "closed": false
+    },
+    {
+      "d": "M17 5L21 5",
+      "closed": false
+    }
+  ]
+}

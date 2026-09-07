@@ -1,0 +1,30 @@
+{
+  "slug": "galaxy",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Galaxy",
+  "description": "The arms wound round the middle",
+  "tags": [
+    "galaxy",
+    "spiral",
+    "stars"
+  ],
+  "keywords": [
+    "galaxy",
+    "spiral galaxy",
+    "stars",
+    "milky way"
+  ],
+  "family": "galaxy",
+  "shapes": [
+    {
+      "d": "M12 12C12 9 15 7 18 9C21 11 20 17 15 19C9 21 4 17 4 11C4 6 9 3 14 3",
+      "closed": false,
+      "_why": "the arm winding out from the middle"
+    },
+    {
+      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

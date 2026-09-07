@@ -1,0 +1,30 @@
+{
+  "slug": "black-hole",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Black hole",
+  "description": "The disc round the dark middle",
+  "tags": [
+    "black-hole",
+    "dark",
+    "disc"
+  ],
+  "keywords": [
+    "black hole",
+    "event horizon",
+    "accretion disc",
+    "dark"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M7 12a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 12A10 2.5 0 1 1 22 12A10 2.5 0 1 1 2 12Z",
+      "closed": true,
+      "_why": "the disc it drags round"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "brain",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Brain",
+  "description": "The two halves of it",
+  "tags": [
+    "brain",
+    "halves",
+    "think"
+  ],
+  "keywords": [
+    "brain",
+    "grey matter",
+    "neuroscience",
+    "the brain"
+  ],
+  "family": "brain",
+  "shapes": [
+    {
+      "d": "M11 4C7 4 5 6 5 8C3 9 3 12 5 13C5 16 7 20 11 20Z",
+      "closed": true,
+      "_why": "the left half"
+    },
+    {
+      "d": "M14 4C18 4 20 6 20 8C22 9 22 12 20 13C20 16 18 20 14 20Z",
+      "closed": true,
+      "_why": "the right half"
+    }
+  ]
+}

@@ -169,7 +169,7 @@ export const BATCH_115: Icon[] = [
     ["broker", "intermediary", "trade"], ["brokerage"], ["broker", "stockbroker", "brokerage", "trading platform"],
     "person", [...PERSON(), ...ARROW_LR(17, 8.5, 15.5)]),
   c("ipo", "IPO", "A rocket — a company's launch onto the market",
-    ["ipo", "launch", "listing"], ["rocket"], ["ipo", "initial public offering", "stock market launch", "rocket"],
+    ["ipo", "launch", "listing"], [], ["ipo", "initial public offering", "stock market launch", "rocket"],
     "rocket", [raw("M9 15V8A3 3 0 0 1 15 8V15ZM9 11L6 14V17H9M15 11L18 14V17H15M12 15V20", "a rocket: a round nose on a straight body, two fins and the exhaust, one path", false)]),
   c("yield", "Yield", "An ear of wheat — what the investment brings in, season after season",
     ["yield", "income", "harvest"], [], ["yield", "investment yield", "dividend yield", "wheat"],

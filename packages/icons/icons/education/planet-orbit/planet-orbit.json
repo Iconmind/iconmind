@@ -1,0 +1,33 @@
+{
+  "slug": "planet-orbit",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Orbit",
+  "description": "The moon going round the planet",
+  "tags": [
+    "orbit",
+    "round",
+    "path"
+  ],
+  "keywords": [
+    "orbit",
+    "going round",
+    "orbital path",
+    "revolve"
+  ],
+  "family": "orbit",
+  "shapes": [
+    {
+      "d": "M7 14a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3.54 10.92A9 9 0 0 1 20.46 10.92",
+      "closed": false
+    },
+    {
+      "d": "M10 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

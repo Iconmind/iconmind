@@ -1,0 +1,41 @@
+{
+  "slug": "molecule",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Molecule",
+  "description": "Three atoms bonded",
+  "tags": [
+    "molecule",
+    "bond",
+    "atoms"
+  ],
+  "keywords": [
+    "molecule",
+    "bonded atoms",
+    "chemistry",
+    "compound"
+  ],
+  "family": "molecule",
+  "shapes": [
+    {
+      "d": "M3 16a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 9a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 15a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 14L11 11",
+      "closed": false
+    },
+    {
+      "d": "M15 11L17 13",
+      "closed": false
+    }
+  ]
+}

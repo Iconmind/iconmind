@@ -1,0 +1,41 @@
+{
+  "slug": "periodic-table",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Periodic table",
+  "description": "The grid with one element picked out",
+  "tags": [
+    "table",
+    "elements",
+    "grid"
+  ],
+  "keywords": [
+    "periodic table",
+    "elements",
+    "chemistry grid",
+    "table"
+  ],
+  "family": "grid",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M2 12H22",
+      "closed": false
+    },
+    {
+      "d": "M9 5V19",
+      "closed": false
+    },
+    {
+      "d": "M15 5V19",
+      "closed": false
+    },
+    {
+      "d": "M10 15.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

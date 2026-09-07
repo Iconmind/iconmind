@@ -1,0 +1,44 @@
+{
+  "slug": "ecosystem",
+  "category": "education",
+  "subcategory": "science",
+  "name": "Ecosystem",
+  "description": "Everything under one dome",
+  "tags": [
+    "ecosystem",
+    "habitat",
+    "dome"
+  ],
+  "aliases": [
+    "habitat"
+  ],
+  "keywords": [
+    "ecosystem",
+    "habitat",
+    "the whole system",
+    "environment"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 18A10 10 0 0 1 22 18",
+      "closed": false
+    },
+    {
+      "d": "M2 18H22",
+      "closed": false
+    },
+    {
+      "d": "M6 11a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 14V18",
+      "closed": false
+    },
+    {
+      "d": "M14 18L14 13L18 13",
+      "closed": false
+    }
+  ]
+}
