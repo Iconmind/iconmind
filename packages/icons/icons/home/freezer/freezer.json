@@ -22,16 +22,12 @@
       "closed": true
     },
     {
-      "d": "M5 9H19",
+      "d": "M5 15H19",
       "closed": false
     },
     {
-      "d": "M9 15L15 15L15 20L9 20Z",
+      "d": "M12 5L15.5 8.5L12 12L8.5 8.5Z",
       "closed": true
-    },
-    {
-      "d": "M9 15L12 12L18 12L15 15",
-      "closed": false
     }
   ]
 }

@@ -3,7 +3,7 @@
   "category": "home",
   "subcategory": "appliance",
   "name": "Dustpan",
-  "description": "The pan and the brush in it",
+  "description": "The pan and the brush beside it",
   "tags": [
     "dustpan",
     "brush",
@@ -18,20 +18,16 @@
   "family": "tool",
   "shapes": [
     {
-      "d": "M3 12H15C14.5 16 13 18 12 20H6C5 18 3.5 16 3 12Z",
+      "d": "M2 11H12C11.5 15 10 18 9 21H5C4 18 2.5 15 2 11Z",
       "closed": true,
       "_why": "the pan, tapering to its lip"
     },
     {
-      "d": "M16 15L21 15",
+      "d": "M18 4V12",
       "closed": false
     },
     {
-      "d": "M18 3L18 7",
-      "closed": false
-    },
-    {
-      "d": "M15 7L21 7L21 10L15 10Z",
+      "d": "M15 12L21 12L21 16L15 16Z",
       "closed": true
     }
   ]

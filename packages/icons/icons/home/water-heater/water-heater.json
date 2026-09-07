@@ -21,20 +21,20 @@
   "family": "unit",
   "shapes": [
     {
-      "d": "M6 8A6 6 0 0 1 18 8V17A6 6 0 0 1 6 17Z",
+      "d": "M7 8A5 5 0 0 1 17 8V17A5 5 0 0 1 7 17Z",
       "closed": true,
       "_why": "the cylinder, domed at both ends"
     },
     {
-      "d": "M6 13H18",
+      "d": "M7 13H17",
       "closed": false
     },
     {
-      "d": "M12 2L12 5",
+      "d": "M3 5L8 5",
       "closed": false
     },
     {
-      "d": "M9 20L15 20",
+      "d": "M16 20L21 20",
       "closed": false
     }
   ]

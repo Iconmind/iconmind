@@ -18,16 +18,16 @@
   "family": "iron",
   "shapes": [
     {
-      "d": "M4 18L11 11L19 11L19 18Z",
+      "d": "M4 16L9 11L18 11L18 16Z",
       "closed": true
     },
     {
-      "d": "M8 11A5 5 0 0 1 18 8",
+      "d": "M10 11C10 5 17 5 17 11",
       "closed": false,
-      "_why": "the handle over the top"
+      "_why": "the handle arching over the body"
     },
     {
-      "d": "M5 15H17",
+      "d": "M4 19H18",
       "closed": false
     }
   ]

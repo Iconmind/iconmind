@@ -21,21 +21,21 @@
   "family": "tap",
   "shapes": [
     {
-      "d": "M2 7H22",
+      "d": "M2 8H22",
       "closed": false
     },
     {
-      "d": "M12 7V11",
+      "d": "M10 5V11",
       "closed": false
     },
     {
-      "d": "M12 12L14 14A2.8 2.8 0 1 1 10 14Z",
+      "d": "M14 5V11",
+      "closed": false
+    },
+    {
+      "d": "M12 13L14.5 15.5A3 3 0 1 1 9.5 15.5Z",
       "closed": true,
       "_why": "the drip coming out"
-    },
-    {
-      "d": "M11 20a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
-      "closed": true
     }
   ]
 }

@@ -18,21 +18,18 @@
   "family": "kettle",
   "shapes": [
     {
-      "d": "M6 20L6 10L16 10L16 20Z",
-      "closed": true
+      "d": "M6 10H16V18A2 2 0 0 1 14 20H8A2 2 0 0 1 6 18Z",
+      "closed": true,
+      "_why": "the body, rounded at the foot"
     },
     {
-      "d": "M16 12L20 8",
+      "d": "M16 11L20 7",
       "closed": false
     },
     {
-      "d": "M6 10A6 6 0 0 1 16 6",
+      "d": "M7 10C7 5 15 5 15 10",
       "closed": false,
       "_why": "the handle over the top"
-    },
-    {
-      "d": "M8 15H14",
-      "closed": false
     }
   ]
 }

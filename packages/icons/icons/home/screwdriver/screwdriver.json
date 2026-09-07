@@ -18,12 +18,16 @@
   "family": "tool",
   "shapes": [
     {
-      "d": "M3 20L3 14L8 9L11 12L6 17L6 20Z",
+      "d": "M4 17L8 13L11 16L7 20Z",
       "closed": true
     },
     {
-      "d": "M11 12L17 6L20 9L14 15Z",
-      "closed": true
+      "d": "M9.5 14.5L18 6",
+      "closed": false
+    },
+    {
+      "d": "M16.5 7.5L19.5 4.5",
+      "closed": false
     }
   ]
 }

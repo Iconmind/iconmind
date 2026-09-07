@@ -18,19 +18,15 @@
   "family": "tap",
   "shapes": [
     {
-      "d": "M5 4L5 10L17 10L17 14",
+      "d": "M5 4L5 10L16 10L16 13",
       "closed": false
     },
     {
-      "d": "M3 4H11",
+      "d": "M3 4H8",
       "closed": false
     },
     {
-      "d": "M4 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
-      "closed": true
-    },
-    {
-      "d": "M17 16L19 18A2.8 2.8 0 1 1 15 18Z",
+      "d": "M16 15L18.5 17.5A3 3 0 1 1 13.5 17.5Z",
       "closed": true,
       "_why": "a drop under the spout"
     }

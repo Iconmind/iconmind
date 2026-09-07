@@ -18,16 +18,17 @@
   "family": "tool",
   "shapes": [
     {
-      "d": "M4 20L13 11",
-      "closed": false
-    },
-    {
-      "d": "M11 5L19 5L19 9L11 9Z",
+      "d": "M10 6L17 6L17 10L10 10Z",
       "closed": true
     },
     {
-      "d": "M11 9L14 12",
+      "d": "M13 10V22",
       "closed": false
+    },
+    {
+      "d": "M10 6C8 7 7 9 7 10",
+      "closed": false,
+      "_why": "the claw curling back off the head"
     }
   ]
 }

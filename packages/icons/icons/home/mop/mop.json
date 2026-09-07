@@ -18,21 +18,13 @@
   "family": "tool",
   "shapes": [
     {
-      "d": "M12 2V13",
+      "d": "M12 2V11",
       "closed": false
     },
     {
-      "d": "M6 13H18C18 17 15 20 12 20C9 20 6 17 6 13Z",
+      "d": "M8 11C7 15 6 18 6 20H18C18 18 17 15 16 11Z",
       "closed": true,
-      "_why": "the head, rounded at the bottom"
-    },
-    {
-      "d": "M9 13V18",
-      "closed": false
-    },
-    {
-      "d": "M15 13V18",
-      "closed": false
+      "_why": "the head, spreading as it hangs"
     }
   ]
 }

@@ -18,20 +18,21 @@
   "family": "unit",
   "shapes": [
     {
-      "d": "M7 9A4 4 0 0 1 15 9V19A2 2 0 0 1 13 21H9A2 2 0 0 1 7 19Z",
+      "d": "M8 10A4 4 0 0 1 16 10V19A2 2 0 0 1 14 21H10A2 2 0 0 1 8 19Z",
       "closed": true,
       "_why": "the bottle, rounded at the shoulder"
     },
     {
-      "d": "M9 6L13 6",
+      "d": "M10 6L10 3.5L15 3.5",
       "closed": false
     },
     {
-      "d": "M15 8L19 8L19 12",
-      "closed": false
+      "d": "M16 8C19 8 20 10 20 13",
+      "closed": false,
+      "_why": "the hose looping off the side"
     },
     {
-      "d": "M7 13H15",
+      "d": "M8 13H16",
       "closed": false
     }
   ]

@@ -21,24 +21,21 @@
   "family": "machine",
   "shapes": [
     {
-      "d": "M4 21L4 3L20 3L20 21",
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V11A2 2 0 0 1 18 13H6A2 2 0 0 1 4 11Z",
+      "closed": true
+    },
+    {
+      "d": "M7 8H13",
       "closed": false
     },
     {
-      "d": "M4 9H20",
+      "d": "M12 13V15.5",
       "closed": false
     },
     {
-      "d": "M12 9V12",
-      "closed": false
-    },
-    {
-      "d": "M9 12L9 17L15 17L15 12",
-      "closed": false
-    },
-    {
-      "d": "M15 12A2 2 0 0 1 15 16",
-      "closed": false
+      "d": "M8 16H16V19A4 4 0 0 1 8 19Z",
+      "closed": true,
+      "_why": "the cup under the spout"
     }
   ]
 }
