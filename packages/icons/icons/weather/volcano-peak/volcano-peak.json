@@ -1,0 +1,32 @@
+{
+  "slug": "volcano-peak",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Volcano",
+  "description": "The cone with its crater open",
+  "tags": [
+    "volcano",
+    "crater",
+    "cone"
+  ],
+  "aliases": [
+    "crater"
+  ],
+  "keywords": [
+    "volcano peak",
+    "crater",
+    "cone",
+    "volcanic mountain"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 20L11 13L14 13L21 20Z",
+      "closed": true
+    },
+    {
+      "d": "M9 10L12 7L15 10",
+      "closed": false
+    }
+  ]
+}

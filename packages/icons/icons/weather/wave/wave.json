@@ -1,0 +1,33 @@
+{
+  "slug": "wave",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Wave",
+  "description": "One wave curling over",
+  "tags": [
+    "wave",
+    "sea",
+    "surf"
+  ],
+  "aliases": [
+    "surf"
+  ],
+  "keywords": [
+    "wave",
+    "surf",
+    "breaker",
+    "sea wave"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 14A9 9 0 0 1 19 9A4.5 4.5 0 0 0 12 9",
+      "closed": false,
+      "_why": "a wave: the face rising and the crest curling over"
+    },
+    {
+      "d": "M2 19H22",
+      "closed": false
+    }
+  ]
+}

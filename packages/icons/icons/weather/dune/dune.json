@@ -1,0 +1,34 @@
+{
+  "slug": "dune",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Dune",
+  "description": "One long ridge of sand",
+  "tags": [
+    "dune",
+    "sand",
+    "ridge"
+  ],
+  "keywords": [
+    "dune",
+    "sand dune",
+    "sand ridge",
+    "desert dune"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 15A10 6 0 0 1 22 15",
+      "closed": false,
+      "_why": "a dune: one long shallow rise"
+    },
+    {
+      "d": "M2 15H22",
+      "closed": false
+    },
+    {
+      "d": "M6 19H18",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "glacier",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Glacier",
+  "description": "The ice sliding between the walls",
+  "tags": [
+    "glacier",
+    "ice",
+    "flow"
+  ],
+  "keywords": [
+    "glacier",
+    "ice field",
+    "ice flow",
+    "glacial"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 8L8 14L14 8L20 14",
+      "closed": false
+    },
+    {
+      "d": "M2 15L8 21L14 15L20 21",
+      "closed": false
+    },
+    {
+      "d": "M6 4L10 8",
+      "closed": false
+    },
+    {
+      "d": "M14 4L18 8",
+      "closed": false
+    }
+  ]
+}

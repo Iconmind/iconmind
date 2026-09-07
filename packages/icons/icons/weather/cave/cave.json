@@ -1,0 +1,32 @@
+{
+  "slug": "cave",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Cave",
+  "description": "The mouth of a cave in the rock",
+  "tags": [
+    "cave",
+    "cavern",
+    "mouth"
+  ],
+  "aliases": [
+    "cavern"
+  ],
+  "keywords": [
+    "cave",
+    "cavern",
+    "cave mouth",
+    "underground"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 21L3 12L12 3L21 12L21 21Z",
+      "closed": true
+    },
+    {
+      "d": "M7 21A5 5 0 0 1 17 21",
+      "closed": false
+    }
+  ]
+}

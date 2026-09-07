@@ -1,0 +1,44 @@
+{
+  "slug": "waterfall",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Waterfall",
+  "description": "The water dropping over the ledge",
+  "tags": [
+    "waterfall",
+    "falls",
+    "drop"
+  ],
+  "aliases": [
+    "falls"
+  ],
+  "keywords": [
+    "waterfall",
+    "falls",
+    "cascade",
+    "water dropping"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 5H22",
+      "closed": false
+    },
+    {
+      "d": "M7 5V17",
+      "closed": false
+    },
+    {
+      "d": "M12 5V17",
+      "closed": false
+    },
+    {
+      "d": "M17 5V17",
+      "closed": false
+    },
+    {
+      "d": "M3 21L6 18L9 21L12 18L15 21L18 18L21 21",
+      "closed": false
+    }
+  ]
+}

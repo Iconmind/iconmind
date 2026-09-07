@@ -1,0 +1,31 @@
+{
+  "slug": "leaf-fall",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Falling leaves",
+  "description": "Two leaves on the way down",
+  "tags": [
+    "leaves",
+    "falling",
+    "autumn"
+  ],
+  "keywords": [
+    "falling leaves",
+    "leaf fall",
+    "autumn leaves",
+    "shedding"
+  ],
+  "family": "leaf",
+  "shapes": [
+    {
+      "d": "M4 11C4 6.2 7.2 3 12 3C12 7.8 8.8 11 4 11Z",
+      "closed": true,
+      "_why": "a leaf: two curves from the stem to the tip, wide at the foot"
+    },
+    {
+      "d": "M12 20C12 15.2 15.2 12 20 12C20 16.8 16.8 20 12 20Z",
+      "closed": true,
+      "_why": "a leaf: two curves from the stem to the tip, wide at the foot"
+    }
+  ]
+}

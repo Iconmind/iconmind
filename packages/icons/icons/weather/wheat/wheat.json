@@ -1,0 +1,29 @@
+{
+  "slug": "wheat",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Wheat",
+  "description": "An ear of wheat on its stalk",
+  "tags": [
+    "wheat",
+    "grain",
+    "ear"
+  ],
+  "aliases": [
+    "grain"
+  ],
+  "keywords": [
+    "wheat",
+    "grain",
+    "ear of wheat",
+    "cereal"
+  ],
+  "family": "wheat",
+  "shapes": [
+    {
+      "d": "M12 21V4M12 8L7 3M12 8L17 3M12 13L7 8M12 13L17 8M12 18L7 13M12 18L17 13",
+      "closed": false,
+      "_why": "an ear of wheat: a stalk and three pairs of grains, one path"
+    }
+  ]
+}

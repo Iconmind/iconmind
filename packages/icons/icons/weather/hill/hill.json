@@ -1,0 +1,37 @@
+{
+  "slug": "hill",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Hill",
+  "description": "A low round rise",
+  "tags": [
+    "hill",
+    "rise",
+    "slope"
+  ],
+  "keywords": [
+    "hill",
+    "rise",
+    "gentle slope",
+    "knoll"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 14A7 7 0 0 1 16 14",
+      "closed": false
+    },
+    {
+      "d": "M12 14A5 5 0 0 1 22 14",
+      "closed": false
+    },
+    {
+      "d": "M2 14H22",
+      "closed": false
+    },
+    {
+      "d": "M6 19H18",
+      "closed": false
+    }
+  ]
+}

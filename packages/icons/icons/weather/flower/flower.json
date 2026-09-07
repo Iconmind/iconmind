@@ -1,0 +1,43 @@
+{
+  "slug": "flower",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Flower",
+  "description": "A flower head on its stem with a leaf",
+  "tags": [
+    "flower",
+    "bloom",
+    "stem"
+  ],
+  "keywords": [
+    "flower",
+    "bloom",
+    "single flower",
+    "plant"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7.5 7a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 11.5V21",
+      "closed": false
+    },
+    {
+      "d": "M5 18C5 14.4 7.4 12 11 12C11 15.6 8.6 18 5 18Z",
+      "closed": true,
+      "_why": "a leaf: two curves from the stem to the tip, wide at the foot"
+    },
+    {
+      "d": "M13 18C13 14.4 15.4 12 19 12C19 15.6 16.6 18 13 18Z",
+      "closed": true,
+      "_why": "a leaf: two curves from the stem to the tip, wide at the foot"
+    },
+    {
+      "d": "M8 21H16",
+      "closed": false
+    }
+  ]
+}

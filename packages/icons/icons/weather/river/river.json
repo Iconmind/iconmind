@@ -1,0 +1,32 @@
+{
+  "slug": "river",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "River",
+  "description": "The water winding between its banks",
+  "tags": [
+    "river",
+    "stream",
+    "flow"
+  ],
+  "aliases": [
+    "stream"
+  ],
+  "keywords": [
+    "river",
+    "stream",
+    "watercourse",
+    "flowing water"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 3L4 9L10 15L10 21",
+      "closed": false
+    },
+    {
+      "d": "M14 3L14 9L20 15L20 21",
+      "closed": false
+    }
+  ]
+}

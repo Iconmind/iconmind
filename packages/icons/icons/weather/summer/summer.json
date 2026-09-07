@@ -1,0 +1,45 @@
+{
+  "slug": "summer",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Summer",
+  "description": "The sun high and full",
+  "tags": [
+    "summer",
+    "sun",
+    "hot"
+  ],
+  "keywords": [
+    "summer",
+    "summertime",
+    "high sun",
+    "hot season"
+  ],
+  "family": "sun",
+  "shapes": [
+    {
+      "d": "M6 12a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 2V4.5",
+      "closed": false
+    },
+    {
+      "d": "M12 19.5V22",
+      "closed": false
+    },
+    {
+      "d": "M2 12H4.5",
+      "closed": false
+    },
+    {
+      "d": "M19.5 12H22",
+      "closed": false
+    },
+    {
+      "d": "M4.5 4.5L7 7",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "mushroom",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Mushroom",
+  "description": "The cap over its stalk",
+  "tags": [
+    "mushroom",
+    "fungus",
+    "cap"
+  ],
+  "aliases": [
+    "fungus"
+  ],
+  "keywords": [
+    "mushroom",
+    "toadstool",
+    "fungus",
+    "cap and stalk"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 11A9 9 0 0 1 21 11Z",
+      "closed": true,
+      "_why": "the cap: a dome closed along its base"
+    },
+    {
+      "d": "M9 13V19",
+      "closed": false
+    },
+    {
+      "d": "M15 13V19",
+      "closed": false
+    },
+    {
+      "d": "M7 19H17",
+      "closed": false
+    }
+  ]
+}

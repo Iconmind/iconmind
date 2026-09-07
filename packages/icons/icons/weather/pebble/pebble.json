@@ -1,0 +1,36 @@
+{
+  "slug": "pebble",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Pebbles",
+  "description": "Three small stones",
+  "tags": [
+    "pebbles",
+    "stones",
+    "small"
+  ],
+  "aliases": [
+    "stones"
+  ],
+  "keywords": [
+    "pebbles",
+    "stones",
+    "shingle",
+    "small rocks"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 9a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12.5 8a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7.5 17a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    }
+  ]
+}

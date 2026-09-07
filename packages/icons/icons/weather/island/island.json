@@ -1,0 +1,44 @@
+{
+  "slug": "island",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Island",
+  "description": "A patch of land with a palm on it",
+  "tags": [
+    "island",
+    "isle",
+    "palm"
+  ],
+  "aliases": [
+    "isle"
+  ],
+  "keywords": [
+    "island",
+    "isle",
+    "desert island",
+    "tropical island"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 18A8 8 0 0 1 20 18",
+      "closed": false
+    },
+    {
+      "d": "M4 18H20",
+      "closed": false
+    },
+    {
+      "d": "M12 8V18",
+      "closed": false
+    },
+    {
+      "d": "M9 5A3 3 0 0 1 9 11",
+      "closed": false
+    },
+    {
+      "d": "M15 11A3 3 0 0 1 15 5",
+      "closed": false
+    }
+  ]
+}

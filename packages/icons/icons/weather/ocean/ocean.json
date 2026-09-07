@@ -1,0 +1,36 @@
+{
+  "slug": "ocean",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Ocean",
+  "description": "Rows of waves running away",
+  "tags": [
+    "ocean",
+    "sea",
+    "water"
+  ],
+  "aliases": [
+    "sea"
+  ],
+  "keywords": [
+    "ocean",
+    "sea",
+    "open water",
+    "waves"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 8L6 5L9 8L12 5L15 8L18 5L21 8",
+      "closed": false
+    },
+    {
+      "d": "M3 14L6 11L9 14L12 11L15 14L18 11L21 14",
+      "closed": false
+    },
+    {
+      "d": "M3 20L6 17L9 20L12 17L15 20L18 17L21 20",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "rock",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Rock",
+  "description": "A boulder with its facets",
+  "tags": [
+    "rock",
+    "boulder",
+    "stone"
+  ],
+  "aliases": [
+    "boulder"
+  ],
+  "keywords": [
+    "rock",
+    "boulder",
+    "stone",
+    "big stone"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 12L9 6L15 6L21 12L15 18L9 18Z",
+      "closed": true
+    },
+    {
+      "d": "M9 6L15 12L21 12",
+      "closed": false
+    },
+    {
+      "d": "M15 12V18",
+      "closed": false
+    }
+  ]
+}

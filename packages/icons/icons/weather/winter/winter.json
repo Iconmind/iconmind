@@ -1,0 +1,30 @@
+{
+  "slug": "winter",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Winter",
+  "description": "A flake on the cold ground",
+  "tags": [
+    "winter",
+    "cold",
+    "snow"
+  ],
+  "keywords": [
+    "winter",
+    "wintertime",
+    "cold season",
+    "snow season"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 4V16M6 16L18 4",
+      "closed": false,
+      "_why": "a flake: two bars crossing at their middle"
+    },
+    {
+      "d": "M3 19H21",
+      "closed": false
+    }
+  ]
+}

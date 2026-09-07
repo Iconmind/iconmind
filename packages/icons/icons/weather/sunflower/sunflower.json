@@ -1,0 +1,38 @@
+{
+  "slug": "sunflower",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Sunflower",
+  "description": "A big head with its petals and a tall stem",
+  "tags": [
+    "sunflower",
+    "tall",
+    "yellow"
+  ],
+  "keywords": [
+    "sunflower",
+    "tall flower",
+    "seed head",
+    "summer flower"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 9a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 9a6.5 6.5 0 1 0 13 0a6.5 6.5 0 1 0 -13 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 15.5V21",
+      "closed": false
+    },
+    {
+      "d": "M13 21C13 17.4 15.4 15 19 15C19 18.6 16.6 21 13 21Z",
+      "closed": true,
+      "_why": "a leaf: two curves from the stem to the tip, wide at the foot"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "desert",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Desert",
+  "description": "Dunes under the sun",
+  "tags": [
+    "desert",
+    "sand",
+    "dry"
+  ],
+  "keywords": [
+    "desert",
+    "sand",
+    "dry land",
+    "dunes"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 6H8.5",
+      "closed": false
+    },
+    {
+      "d": "M15.5 6H18",
+      "closed": false
+    },
+    {
+      "d": "M2 19A6 6 0 0 1 14 19",
+      "closed": false
+    },
+    {
+      "d": "M12 19A5 5 0 0 1 22 19",
+      "closed": false
+    },
+    {
+      "d": "M2 19H22",
+      "closed": false
+    }
+  ]
+}

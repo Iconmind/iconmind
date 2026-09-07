@@ -1,0 +1,50 @@
+{
+  "slug": "plant-grow",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Growing",
+  "description": "The plant taller, with an arrow rising beside it",
+  "tags": [
+    "grow",
+    "growth",
+    "taller"
+  ],
+  "aliases": [
+    "growth"
+  ],
+  "keywords": [
+    "growing",
+    "plant growth",
+    "getting taller",
+    "grow"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 8V20",
+      "closed": false
+    },
+    {
+      "d": "M3 14C3 10.4 5.4 8 9 8C9 11.6 6.6 14 3 14Z",
+      "closed": true,
+      "_why": "a leaf: two curves from the stem to the tip, wide at the foot"
+    },
+    {
+      "d": "M10 11C10 7.4 12.4 5 16 5C16 8.6 13.6 11 10 11Z",
+      "closed": true,
+      "_why": "a leaf: two curves from the stem to the tip, wide at the foot"
+    },
+    {
+      "d": "M19 5V19",
+      "closed": false
+    },
+    {
+      "d": "M16.5 7.5L19 5L21.5 7.5",
+      "closed": false
+    },
+    {
+      "d": "M5 20H13",
+      "closed": false
+    }
+  ]
+}

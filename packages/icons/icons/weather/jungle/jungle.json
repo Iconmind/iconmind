@@ -1,0 +1,43 @@
+{
+  "slug": "jungle",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Jungle",
+  "description": "Broad leaves crowding each other",
+  "tags": [
+    "jungle",
+    "rainforest",
+    "dense"
+  ],
+  "aliases": [
+    "rainforest"
+  ],
+  "keywords": [
+    "jungle",
+    "rainforest",
+    "dense growth",
+    "tropical"
+  ],
+  "family": "leaf",
+  "shapes": [
+    {
+      "d": "M2.5 12.5C2.5 7.1 6.1 3.5 11.5 3.5C11.5 8.9 7.9 12.5 2.5 12.5Z",
+      "closed": true,
+      "_why": "a leaf: two curves from the stem to the tip, wide at the foot"
+    },
+    {
+      "d": "M12 13C12 8.2 15.2 5 20 5C20 9.8 16.8 13 12 13Z",
+      "closed": true,
+      "_why": "a leaf: two curves from the stem to the tip, wide at the foot"
+    },
+    {
+      "d": "M6.5 20.5C6.5 15.1 10.1 11.5 15.5 11.5C15.5 16.9 11.9 20.5 6.5 20.5Z",
+      "closed": true,
+      "_why": "a leaf: two curves from the stem to the tip, wide at the foot"
+    },
+    {
+      "d": "M3 21H21",
+      "closed": false
+    }
+  ]
+}

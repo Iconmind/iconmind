@@ -1,0 +1,30 @@
+{
+  "slug": "leaf",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Leaf",
+  "description": "One leaf with its midrib",
+  "tags": [
+    "leaf",
+    "plant",
+    "green"
+  ],
+  "keywords": [
+    "leaf",
+    "plant",
+    "foliage",
+    "green"
+  ],
+  "family": "leaf",
+  "shapes": [
+    {
+      "d": "M4 20C4 10.4 10.4 4 20 4C20 13.6 13.6 20 4 20Z",
+      "closed": true,
+      "_why": "a leaf: two curves from the stem to the tip, wide at the foot"
+    },
+    {
+      "d": "M7 17L16 8",
+      "closed": false
+    }
+  ]
+}

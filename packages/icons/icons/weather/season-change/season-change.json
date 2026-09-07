@@ -1,0 +1,39 @@
+{
+  "slug": "season-change",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Change of season",
+  "description": "A leaf and a flake either side of the turn",
+  "tags": [
+    "season",
+    "change",
+    "turn"
+  ],
+  "keywords": [
+    "change of season",
+    "seasons turning",
+    "season change",
+    "equinox"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 16C2 11.2 5.2 8 10 8C10 12.8 6.8 16 2 16Z",
+      "closed": true,
+      "_why": "a leaf: two curves from the stem to the tip, wide at the foot"
+    },
+    {
+      "d": "M18 8V16M14 16L22 8",
+      "closed": false,
+      "_why": "a flake: two bars crossing at their middle"
+    },
+    {
+      "d": "M10.5 12H13.5",
+      "closed": false
+    },
+    {
+      "d": "M12 9.5L14.5 12L12 14.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "pine-tree",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Pine",
+  "description": "Three tiers over a trunk",
+  "tags": [
+    "pine",
+    "conifer",
+    "fir"
+  ],
+  "aliases": [
+    "conifer"
+  ],
+  "keywords": [
+    "pine tree",
+    "fir",
+    "conifer",
+    "evergreen"
+  ],
+  "family": "tree",
+  "shapes": [
+    {
+      "d": "M6 9L12 3L18 9Z",
+      "closed": true
+    },
+    {
+      "d": "M4 15L12 7L20 15Z",
+      "closed": true
+    },
+    {
+      "d": "M12 15V21",
+      "closed": false
+    },
+    {
+      "d": "M8 21H16",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "spring",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Spring",
+  "description": "A bud opening on its stem",
+  "tags": [
+    "spring",
+    "bud",
+    "new"
+  ],
+  "keywords": [
+    "spring",
+    "springtime",
+    "new growth",
+    "buds"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 12V21",
+      "closed": false
+    },
+    {
+      "d": "M4 13C4 8.2 7.2 5 12 5C12 9.8 8.8 13 4 13Z",
+      "closed": true,
+      "_why": "a leaf: two curves from the stem to the tip, wide at the foot"
+    },
+    {
+      "d": "M12 13C12 8.2 15.2 5 20 5C20 9.8 16.8 13 12 13Z",
+      "closed": true,
+      "_why": "a leaf: two curves from the stem to the tip, wide at the foot"
+    },
+    {
+      "d": "M7 21H17",
+      "closed": false
+    }
+  ]
+}

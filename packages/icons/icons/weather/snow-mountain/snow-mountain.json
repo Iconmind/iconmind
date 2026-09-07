@@ -1,0 +1,33 @@
+{
+  "slug": "snow-mountain",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Snowy peak",
+  "description": "The peak with its cap of snow",
+  "tags": [
+    "snow",
+    "peak",
+    "alpine"
+  ],
+  "keywords": [
+    "snowy mountain",
+    "snow capped peak",
+    "alpine",
+    "white summit"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 18L10 10L14 14L20 8L22 10",
+      "closed": false
+    },
+    {
+      "d": "M7 13L10 10L13 13",
+      "closed": false
+    },
+    {
+      "d": "M2 20H22",
+      "closed": false
+    }
+  ]
+}

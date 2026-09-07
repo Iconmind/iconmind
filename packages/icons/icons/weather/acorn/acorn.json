@@ -1,0 +1,38 @@
+{
+  "slug": "acorn",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Acorn",
+  "description": "The nut in its cup",
+  "tags": [
+    "acorn",
+    "oak",
+    "nut"
+  ],
+  "aliases": [
+    "nut"
+  ],
+  "keywords": [
+    "acorn",
+    "oak nut",
+    "seed",
+    "nut"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 9A6 6 0 0 0 18 9Z",
+      "closed": true,
+      "_why": "the cup: a half round with a flat lid"
+    },
+    {
+      "d": "M7 9A5 5 0 0 0 12 19A5 5 0 0 0 17 9",
+      "closed": false,
+      "_why": "the nut hanging from it"
+    },
+    {
+      "d": "M12 3V6",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+/**
+ * R39 · Weather: seasons & nature — the year going round, and the ground it goes round on.
+ *
+ * Everything here is a thing: a leaf, a tree, a pine, a flower, a mushroom, an acorn, a
+ * mountain, a wave, an island, a cave, a glacier. The seasons are drawn by what stands for
+ * them — a bud, a sun, a falling leaf, a flake.
+ */
+import { arc, col, disc, poly, raw, rect, row } from "../forms.ts";
+import type { Icon } from "../build.ts";
+
+const c = (
+  slug: string, name: string, description: string,
+  tags: string[], aliases: string[], keywords: string[],
+  family: string, shapes: Icon["shapes"],
+): Icon => ({
+  slug, category: "weather", subcategory: "nature", name, description,
+  tags, aliases, keywords, family, shapes,
+});
+
+/** A leaf: a curved blade, wide at the foot and drawn to a point, on the diagonal. */
+const LEAF = (x: number, y: number, r: number) =>
+  raw(`M${x - r} ${y + r}C${x - r} ${y - r * 0.2} ${x - r * 0.2} ${y - r} ${x + r} ${y - r}C${x + r} ${y + r * 0.2} ${x + r * 0.2} ${y + r} ${x - r} ${y + r}Z`,
+    "a leaf: two curves from the stem to the tip, wide at the foot", true);
+/** A tree: a round crown over a trunk. */
+const TREE = () => [disc(12, 9, 7), col(12, 16, 21), row(21, 8, 16)];
+/** A mountain ridge: two peaks at 45°. */
+const RIDGE = (y: number) => poly([[2, y], [8, y - 6], [11, y - 3], [15, y - 7], [22, y]]);
+/** A wave: the face rising and the crest curling over. */
+const WAVE = (y: number) => raw(`M3 ${y}A9 9 0 0 1 19 ${y - 5}A4.5 4.5 0 0 0 12 ${y - 5}`, "a wave: the face rising and the crest curling over", false);
+/** The sun, small, with two rays. */
+const SUN = (cx: number, cy: number, r: number) => [disc(cx, cy, r), row(cy, cx - r - 3, cx - r - 0.5), row(cy, cx + r + 0.5, cx + r + 3)];
+/** A flake: two bars crossing at their middle. */
+const FLAKE = (x: number, y: number, r: number) => raw(`M${x} ${y - r}V${y + r}M${x - r} ${y + r}L${x + r} ${y - r}`, "a flake: two bars crossing at their middle");
+
+export const BATCH_126: Icon[] = [
+  /* ── the four seasons ───────────────────────────────────────────────────────── */
+  c("spring", "Spring", "A bud opening on its stem",
+    ["spring", "bud", "new"], [], ["spring", "springtime", "new growth", "buds"],
+    "figure", [col(12, 12, 21), LEAF(8, 9, 4), LEAF(16, 9, 4), row(21, 7, 17)]),
+  c("summer", "Summer", "The sun high and full",
+    ["summer", "sun", "hot"], [], ["summer", "summertime", "high sun", "hot season"],
+    "sun", [disc(12, 12, 6), col(12, 2, 4.5), col(12, 19.5, 22), row(12, 2, 4.5), row(12, 19.5, 22), poly([[4.5, 4.5], [7, 7]])]),
+  c("autumn", "Autumn", "A leaf coming down",
+    ["autumn", "fall", "leaf"], ["fall"], ["autumn", "fall", "leaves turning", "autumn season"],
+    "figure", [LEAF(11, 9, 5), poly([[14, 15], [18, 19]]), poly([[15, 20], [19, 16]]), row(21, 4, 20)]),
+  c("winter", "Winter", "A flake on the cold ground",
+    ["winter", "cold", "snow"], [], ["winter", "wintertime", "cold season", "snow season"],
+    "figure", [FLAKE(12, 10, 6), row(19, 3, 21)]),
+  c("season-change", "Change of season", "A leaf and a flake either side of the turn",
+    ["season", "change", "turn"], [], ["change of season", "seasons turning", "season change", "equinox"],
+    "figure", [LEAF(6, 12, 4), FLAKE(18, 12, 4), row(12, 10.5, 13.5), poly([[12, 9.5], [14.5, 12], [12, 14.5]])]),
+
+  /* ── what grows ─────────────────────────────────────────────────────────────── */
+  c("leaf", "Leaf", "One leaf with its midrib",
+    ["leaf", "plant", "green"], [], ["leaf", "plant", "foliage", "green"],
+    "leaf", [LEAF(12, 12, 8), poly([[7, 17], [16, 8]])]),
+  c("leaf-fall", "Falling leaves", "Two leaves on the way down",
+    ["leaves", "falling", "autumn"], [], ["falling leaves", "leaf fall", "autumn leaves", "shedding"],
+    "leaf", [LEAF(8, 7, 4), LEAF(16, 16, 4)]),
+  c("blossom", "Blossom", "Four petals round a centre",
+    ["blossom", "flower", "spring"], [], ["blossom", "flowering", "spring flower", "petals"],
+    "figure", [disc(12, 7, 3), disc(7, 12, 3), disc(17, 12, 3), disc(12, 17, 3), disc(12, 12, 2)]),
+  c("tree", "Tree", "A round crown on a trunk",
+    ["tree", "wood", "crown"], [], ["tree", "broadleaf", "oak", "woodland"],
+    "tree", [disc(12, 9, 7), col(12, 16, 21), row(21, 8, 16), poly([[12, 16], [8, 12]]), poly([[12, 18], [16, 14]])]),
+  c("pine-tree", "Pine", "Three tiers over a trunk",
+    ["pine", "conifer", "fir"], ["conifer"], ["pine tree", "fir", "conifer", "evergreen"],
+    "tree", [poly([[6, 9], [12, 3], [18, 9]], true), poly([[4, 15], [12, 7], [20, 15]], true), col(12, 15, 21), row(21, 8, 16)]),
+  c("forest", "Forest", "Three trees together",
+    ["forest", "wood", "trees"], ["woods"], ["forest", "woods", "many trees", "woodland"],
+    "tree", [poly([[2, 13], [7, 8], [12, 13]], true), poly([[10, 10], [16, 4], [22, 10]], true), poly([[7, 18], [12, 13], [17, 18]], true), row(21, 3, 21)]),
+  c("jungle", "Jungle", "Broad leaves crowding each other",
+    ["jungle", "rainforest", "dense"], ["rainforest"], ["jungle", "rainforest", "dense growth", "tropical"],
+    "leaf", [LEAF(7, 8, 4.5), LEAF(16, 9, 4), LEAF(11, 16, 4.5), row(21, 3, 21)]),
+  c("grass", "Grass", "Blades standing on the ground",
+    ["grass", "lawn", "blades"], [], ["grass", "lawn", "meadow", "blades of grass"],
+    "figure", [poly([[5, 19], [5, 12], [8, 9]]), poly([[10, 19], [10, 10], [13, 7]]), poly([[16, 19], [16, 12], [19, 9]]), row(19, 3, 21)]),
+  c("flower", "Flower", "A flower head on its stem with a leaf",
+    ["flower", "bloom", "stem"], [], ["flower", "bloom", "single flower", "plant"],
+    "figure", [disc(12, 7, 4.5), col(12, 11.5, 21), LEAF(8, 15, 3), LEAF(16, 15, 3), row(21, 8, 16)]),
+  c("tulip", "Tulip", "The cup of a tulip on its stem",
+    ["tulip", "flower", "cup"], [], ["tulip", "spring flower", "cup flower", "bulb flower"],
+    "figure", [poly([[8, 5], [8, 10], [12, 14], [16, 10], [16, 5], [12, 9]], true), col(12, 14, 21), LEAF(8, 17, 3), LEAF(16, 17, 3)]),
+  c("rose", "Rose", "The whorl of a rose over its leaves",
+    ["rose", "flower", "whorl"], [], ["rose", "romantic flower", "whorl", "bloom"],
+    "figure", [disc(12, 9, 6), disc(12, 9, 3), col(12, 15, 21), LEAF(7, 16, 3)]),
+  c("sunflower", "Sunflower", "A big head with its petals and a tall stem",
+    ["sunflower", "tall", "yellow"], [], ["sunflower", "tall flower", "seed head", "summer flower"],
+    "figure", [disc(12, 9, 3), disc(12, 9, 6.5), col(12, 15.5, 21), LEAF(16, 18, 3)]),
+  c("cactus", "Cactus", "The column with two arms",
+    ["cactus", "desert", "succulent"], [], ["cactus", "desert plant", "succulent", "prickly"],
+    "figure", [poly([[9, 21], [9, 5], [15, 5], [15, 21]], true), poly([[9, 12], [5, 12], [5, 8]]), poly([[15, 15], [19, 15], [19, 10]])]),
+  c("mushroom", "Mushroom", "The cap over its stalk",
+    ["mushroom", "fungus", "cap"], ["fungus"], ["mushroom", "toadstool", "fungus", "cap and stalk"],
+    "figure", [raw("M3 11A9 9 0 0 1 21 11Z", "the cap: a dome closed along its base", true), col(9, 13, 19), col(15, 13, 19), row(19, 7, 17)]),
+  c("acorn", "Acorn", "The nut in its cup",
+    ["acorn", "oak", "nut"], ["nut"], ["acorn", "oak nut", "seed", "nut"],
+    "figure", [raw("M6 9A6 6 0 0 0 18 9Z", "the cup: a half round with a flat lid", true), raw("M7 9A5 5 0 0 0 12 19A5 5 0 0 0 17 9", "the nut hanging from it", false), col(12, 3, 6)]),
+  c("sprout", "Sprout", "Two leaves opening from a seed",
+    ["sprout", "seedling", "start"], ["seedling"], ["sprout", "seedling", "first leaves", "germinate"],
+    "figure", [col(12, 12, 21), LEAF(7.5, 9, 4), LEAF(16.5, 9, 4)]),
+  c("plant-grow", "Growing", "The plant taller, with an arrow rising beside it",
+    ["grow", "growth", "taller"], ["growth"], ["growing", "plant growth", "getting taller", "grow"],
+    "figure", [col(9, 8, 20), LEAF(6, 11, 3), LEAF(13, 8, 3), col(19, 5, 19), poly([[16.5, 7.5], [19, 5], [21.5, 7.5]]), row(20, 5, 13)]),
+  c("harvest", "Harvest", "Ears cut and gathered",
+    ["harvest", "crop", "gather"], ["crop"], ["harvest", "crop", "gathering in", "reaping"],
+    "figure", [col(6, 6, 20), col(12, 6, 20), col(18, 6, 20), row(20, 3, 21)]),
+  c("wheat", "Wheat", "An ear of wheat on its stalk",
+    ["wheat", "grain", "ear"], ["grain"], ["wheat", "grain", "ear of wheat", "cereal"],
+    "wheat", [raw("M12 21V4M12 8L7 3M12 8L17 3M12 13L7 8M12 13L17 8M12 18L7 13M12 18L17 13", "an ear of wheat: a stalk and three pairs of grains, one path")]),
+
+  /* ── the ground ─────────────────────────────────────────────────────────────── */
+  c("mountain", "Mountain", "Two peaks with the snow on the higher one",
+    ["mountain", "peak", "summit"], ["peak"], ["mountain", "peak", "summit", "range"],
+    "figure", [RIDGE(16), row(19, 2, 22)]),
+  c("snow-mountain", "Snowy peak", "The peak with its cap of snow",
+    ["snow", "peak", "alpine"], [], ["snowy mountain", "snow capped peak", "alpine", "white summit"],
+    "figure", [poly([[2, 18], [10, 10], [14, 14], [20, 8], [22, 10]]), poly([[7, 13], [10, 10], [13, 13]]), row(20, 2, 22)]),
+  c("hill", "Hill", "A low round rise",
+    ["hill", "rise", "slope"], [], ["hill", "rise", "gentle slope", "knoll"],
+    "figure", [arc(9, 14, 7, 180, 360), arc(17, 14, 5, 180, 360), row(14, 2, 22), row(19, 6, 18)]),
+  c("valley", "Valley", "Two slopes meeting at the bottom",
+    ["valley", "between", "low"], [], ["valley", "between the hills", "low ground", "dale"],
+    "figure", [poly([[2, 7], [8, 13], [14, 7]]), poly([[10, 17], [16, 11], [22, 17]]), row(21, 2, 22)]),
+  c("canyon", "Canyon", "The cut between two cliffs",
+    ["canyon", "gorge", "cut"], ["gorge"], ["canyon", "gorge", "ravine", "deep cut"],
+    "figure", [poly([[2, 3], [8, 3], [8, 21]]), poly([[22, 3], [16, 3], [16, 21]]), poly([[8, 17], [10, 15], [12, 17], [14, 15], [16, 17]]), row(21, 2, 22)]),
+  c("desert", "Desert", "Dunes under the sun",
+    ["desert", "sand", "dry"], [], ["desert", "sand", "dry land", "dunes"],
+    "figure", [...SUN(12, 6, 3), arc(8, 19, 6, 180, 360), arc(17, 19, 5, 180, 360), row(19, 2, 22)]),
+  c("dune", "Dune", "One long ridge of sand",
+    ["dune", "sand", "ridge"], [], ["dune", "sand dune", "sand ridge", "desert dune"],
+    "figure", [raw("M2 15A10 6 0 0 1 22 15", "a dune: one long shallow rise"), row(15, 2, 22), row(19, 6, 18)]),
+  c("cave", "Cave", "The mouth of a cave in the rock",
+    ["cave", "cavern", "mouth"], ["cavern"], ["cave", "cavern", "cave mouth", "underground"],
+    "figure", [poly([[3, 21], [3, 12], [12, 3], [21, 12], [21, 21]], true), arc(12, 21, 5, 180, 360)]),
+  c("cliff", "Cliff", "The wall of rock over the water",
+    ["cliff", "drop", "rock"], [], ["cliff", "sea cliff", "drop", "rock face"],
+    "figure", [poly([[3, 3], [13, 3], [13, 16], [3, 16]]), poly([[13, 8], [17, 12], [17, 16]]), row(19, 2, 22), row(22, 6, 18)]),
+  c("island", "Island", "A patch of land with a palm on it",
+    ["island", "isle", "palm"], ["isle"], ["island", "isle", "desert island", "tropical island"],
+    "figure", [arc(12, 18, 8, 180, 360), row(18, 4, 20), col(12, 8, 18), arc(9, 8, 3, 270, 90), arc(15, 8, 3, 90, 270)]),
+  c("glacier", "Glacier", "The ice sliding between the walls",
+    ["glacier", "ice", "flow"], [], ["glacier", "ice field", "ice flow", "glacial"],
+    "figure", [poly([[2, 8], [8, 14], [14, 8], [20, 14]]), poly([[2, 15], [8, 21], [14, 15], [20, 21]]), poly([[6, 4], [10, 8]]), poly([[14, 4], [18, 8]])]),
+  c("iceberg", "Iceberg", "The peak above the water and the mass below",
+    ["iceberg", "ice", "sea"], [], ["iceberg", "ice mountain", "tip of the iceberg", "floating ice"],
+    "figure", [poly([[6, 11], [12, 5], [18, 11]], true), row(11, 2, 6), row(11, 18, 22), poly([[8, 12], [14, 18], [20, 12]])]),
+  c("volcano-peak", "Volcano", "The cone with its crater open",
+    ["volcano", "crater", "cone"], ["crater"], ["volcano peak", "crater", "cone", "volcanic mountain"],
+    "figure", [poly([[4, 20], [11, 13], [14, 13], [21, 20]], true), poly([[9, 10], [12, 7], [15, 10]])]),
+  c("rock", "Rock", "A boulder with its facets",
+    ["rock", "boulder", "stone"], ["boulder"], ["rock", "boulder", "stone", "big stone"],
+    "figure", [poly([[3, 12], [9, 6], [15, 6], [21, 12], [15, 18], [9, 18]], true), poly([[9, 6], [15, 12], [21, 12]]), col(15, 12, 18)]),
+  c("pebble", "Pebbles", "Three small stones",
+    ["pebbles", "stones", "small"], ["stones"], ["pebbles", "stones", "shingle", "small rocks"],
+    "figure", [disc(7, 9, 4), disc(16, 8, 3.5), disc(12, 17, 4.5)]),
+  c("soil", "Soil", "The layers of the ground, with a sprout in the top one",
+    ["soil", "earth", "ground"], ["earth"], ["soil", "earth", "ground layers", "topsoil"],
+    "figure", [row(11, 2, 22), row(16, 2, 22), row(21, 2, 22), col(9, 4, 11), LEAF(13, 6, 3)]),
+  c("mud", "Mud", "The wet ground with a bubble coming up",
+    ["mud", "wet", "sticky"], [], ["mud", "muddy ground", "wet earth", "sludge"],
+    "figure", [raw("M2 16A4 4 0 0 1 8 14A5 5 0 0 1 16 13A4 4 0 0 1 22 16V20H2Z", "the mud: a lumpy surface over a flat foot", true), disc(9, 8, 2), disc(15, 6, 1)]),
+
+  /* ── the water ──────────────────────────────────────────────────────────────── */
+  c("wave", "Wave", "One wave curling over",
+    ["wave", "sea", "surf"], ["surf"], ["wave", "surf", "breaker", "sea wave"],
+    "figure", [WAVE(14), row(19, 2, 22)]),
+  c("ocean", "Ocean", "Rows of waves running away",
+    ["ocean", "sea", "water"], ["sea"], ["ocean", "sea", "open water", "waves"],
+    "figure", [poly([[3, 8], [6, 5], [9, 8], [12, 5], [15, 8], [18, 5], [21, 8]]), poly([[3, 14], [6, 11], [9, 14], [12, 11], [15, 14], [18, 11], [21, 14]]), poly([[3, 20], [6, 17], [9, 20], [12, 17], [15, 20], [18, 17], [21, 20]])]),
+  c("beach", "Beach", "The water meeting the sand, a palm behind",
+    ["beach", "shore", "sand"], ["shore"], ["beach", "shore", "seaside", "sand and sea"],
+    "figure", [poly([[3, 9], [6, 6], [9, 9], [12, 6], [15, 9], [18, 6], [21, 9]]), row(14, 2, 22), row(19, 6, 18)]),
+  c("lake", "Lake", "Still water between two banks",
+    ["lake", "still", "inland"], [], ["lake", "still water", "inland water", "loch"],
+    "figure", [raw("M4 12A8 5 0 1 0 20 12A8 5 0 1 0 4 12Z", "the lake: a flat ellipse of still water", true), row(19, 3, 21), row(6, 8, 16)]),
+  c("river", "River", "The water winding between its banks",
+    ["river", "stream", "flow"], ["stream"], ["river", "stream", "watercourse", "flowing water"],
+    "figure", [poly([[4, 3], [4, 9], [10, 15], [10, 21]]), poly([[14, 3], [14, 9], [20, 15], [20, 21]])]),
+  c("waterfall", "Waterfall", "The water dropping over the ledge",
+    ["waterfall", "falls", "drop"], ["falls"], ["waterfall", "falls", "cascade", "water dropping"],
+    "figure", [row(5, 2, 22), col(7, 5, 17), col(12, 5, 17), col(17, 5, 17), poly([[3, 21], [6, 18], [9, 21], [12, 18], [15, 21], [18, 18], [21, 21]])]),
+  c("coral-reef", "Coral reef", "The coral standing on the sea floor",
+    ["coral", "reef", "sea"], ["reef"], ["coral reef", "reef", "coral", "under the sea"],
+    "figure", [poly([[7, 21], [7, 12], [4, 9]]), poly([[7, 15], [11, 11]]), poly([[15, 21], [15, 9], [12, 6]]), poly([[15, 13], [19, 9]]), row(21, 3, 21)]),
+  c("sunlight", "Sunlight", "The sun with its light falling in beams",
+    ["sunlight", "beams", "light"], ["sunshine"], ["sunlight", "sunshine", "beams", "light"],
+    "figure", [disc(12, 6, 4), poly([[8, 13], [4, 17]]), col(12, 13, 20), poly([[16, 13], [20, 17]])]),
+  c("moonlight", "Moonlight", "The moon with its light falling in beams",
+    ["moonlight", "night", "beams"], [], ["moonlight", "moon beams", "night light", "by moonlight"],
+    "figure", [raw("M14 3A7 7 0 1 0 14 15A5.5 5.5 0 0 1 14 3Z", "a crescent: the long way round one circle and back on a smaller one", true), poly([[8, 17], [5, 20]]), col(13, 17, 21), poly([[17, 17], [20, 20]])]),
+];

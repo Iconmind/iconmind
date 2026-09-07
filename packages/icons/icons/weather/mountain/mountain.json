@@ -1,0 +1,32 @@
+{
+  "slug": "mountain",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Mountain",
+  "description": "Two peaks with the snow on the higher one",
+  "tags": [
+    "mountain",
+    "peak",
+    "summit"
+  ],
+  "aliases": [
+    "peak"
+  ],
+  "keywords": [
+    "mountain",
+    "peak",
+    "summit",
+    "range"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 16L8 10L11 13L15 9L22 16",
+      "closed": false
+    },
+    {
+      "d": "M2 19H22",
+      "closed": false
+    }
+  ]
+}

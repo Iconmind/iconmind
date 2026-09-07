@@ -1,0 +1,34 @@
+{
+  "slug": "lake",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Lake",
+  "description": "Still water between two banks",
+  "tags": [
+    "lake",
+    "still",
+    "inland"
+  ],
+  "keywords": [
+    "lake",
+    "still water",
+    "inland water",
+    "loch"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 12A8 5 0 1 0 20 12A8 5 0 1 0 4 12Z",
+      "closed": true,
+      "_why": "the lake: a flat ellipse of still water"
+    },
+    {
+      "d": "M3 19H21",
+      "closed": false
+    },
+    {
+      "d": "M8 6H16",
+      "closed": false
+    }
+  ]
+}

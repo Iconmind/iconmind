@@ -1,0 +1,40 @@
+{
+  "slug": "forest",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Forest",
+  "description": "Three trees together",
+  "tags": [
+    "forest",
+    "wood",
+    "trees"
+  ],
+  "aliases": [
+    "woods"
+  ],
+  "keywords": [
+    "forest",
+    "woods",
+    "many trees",
+    "woodland"
+  ],
+  "family": "tree",
+  "shapes": [
+    {
+      "d": "M2 13L7 8L12 13Z",
+      "closed": true
+    },
+    {
+      "d": "M10 10L16 4L22 10Z",
+      "closed": true
+    },
+    {
+      "d": "M7 18L12 13L17 18Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21H21",
+      "closed": false
+    }
+  ]
+}

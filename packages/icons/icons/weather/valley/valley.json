@@ -1,0 +1,33 @@
+{
+  "slug": "valley",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Valley",
+  "description": "Two slopes meeting at the bottom",
+  "tags": [
+    "valley",
+    "between",
+    "low"
+  ],
+  "keywords": [
+    "valley",
+    "between the hills",
+    "low ground",
+    "dale"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 7L8 13L14 7",
+      "closed": false
+    },
+    {
+      "d": "M10 17L16 11L22 17",
+      "closed": false
+    },
+    {
+      "d": "M2 21H22",
+      "closed": false
+    }
+  ]
+}

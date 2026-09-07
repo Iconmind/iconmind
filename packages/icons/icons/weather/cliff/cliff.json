@@ -1,0 +1,37 @@
+{
+  "slug": "cliff",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Cliff",
+  "description": "The wall of rock over the water",
+  "tags": [
+    "cliff",
+    "drop",
+    "rock"
+  ],
+  "keywords": [
+    "cliff",
+    "sea cliff",
+    "drop",
+    "rock face"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 3L13 3L13 16L3 16",
+      "closed": false
+    },
+    {
+      "d": "M13 8L17 12L17 16",
+      "closed": false
+    },
+    {
+      "d": "M2 19H22",
+      "closed": false
+    },
+    {
+      "d": "M6 22H18",
+      "closed": false
+    }
+  ]
+}

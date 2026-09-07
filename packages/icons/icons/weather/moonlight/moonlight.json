@@ -1,0 +1,38 @@
+{
+  "slug": "moonlight",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Moonlight",
+  "description": "The moon with its light falling in beams",
+  "tags": [
+    "moonlight",
+    "night",
+    "beams"
+  ],
+  "keywords": [
+    "moonlight",
+    "moon beams",
+    "night light",
+    "by moonlight"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M14 3A7 7 0 1 0 14 15A5.5 5.5 0 0 1 14 3Z",
+      "closed": true,
+      "_why": "a crescent: the long way round one circle and back on a smaller one"
+    },
+    {
+      "d": "M8 17L5 20",
+      "closed": false
+    },
+    {
+      "d": "M13 17V21",
+      "closed": false
+    },
+    {
+      "d": "M17 17L20 20",
+      "closed": false
+    }
+  ]
+}

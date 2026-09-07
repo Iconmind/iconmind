@@ -1,0 +1,33 @@
+{
+  "slug": "cactus",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Cactus",
+  "description": "The column with two arms",
+  "tags": [
+    "cactus",
+    "desert",
+    "succulent"
+  ],
+  "keywords": [
+    "cactus",
+    "desert plant",
+    "succulent",
+    "prickly"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 21L9 5L15 5L15 21Z",
+      "closed": true
+    },
+    {
+      "d": "M9 12L5 12L5 8",
+      "closed": false
+    },
+    {
+      "d": "M15 15L19 15L19 10",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "harvest",
+  "category": "weather",
+  "subcategory": "nature",
+  "name": "Harvest",
+  "description": "Ears cut and gathered",
+  "tags": [
+    "harvest",
+    "crop",
+    "gather"
+  ],
+  "aliases": [
+    "crop"
+  ],
+  "keywords": [
+    "harvest",
+    "crop",
+    "gathering in",
+    "reaping"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 6V20",
+      "closed": false
+    },
+    {
+      "d": "M12 6V20",
+      "closed": false
+    },
+    {
+      "d": "M18 6V20",
+      "closed": false
+    },
+    {
+      "d": "M3 20H21",
+      "closed": false
+    }
+  ]
+}
