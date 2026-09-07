@@ -172,7 +172,7 @@ export const BATCH_115: Icon[] = [
     ["ipo", "launch", "listing"], ["rocket"], ["ipo", "initial public offering", "stock market launch", "rocket"],
     "rocket", [raw("M9 15V8A3 3 0 0 1 15 8V15ZM9 11L6 14V17H9M15 11L18 14V17H15M12 15V20", "a rocket: a round nose on a straight body, two fins and the exhaust, one path", false)]),
   c("yield", "Yield", "An ear of wheat — what the investment brings in, season after season",
-    ["yield", "income", "harvest"], ["wheat"], ["yield", "investment yield", "dividend yield", "wheat"],
+    ["yield", "income", "harvest"], [], ["yield", "investment yield", "dividend yield", "wheat"],
     "wheat", [raw("M12 21V3M12 7L7 2M12 7L17 2M12 11L7 6M12 11L17 6M12 15L7 10M12 15L17 10", "an ear of wheat: a stalk and three pairs of grains, one path", false)]),
   c("risk-level", "Risk level", "A gauge with its needle straight up — how much could be lost",
     ["risk", "gauge", "measure"], [], ["risk level", "risk meter", "risk gauge", "risk score"],

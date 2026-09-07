@@ -35,7 +35,7 @@ const FLAKE = (x: number, y: number, r: number) => [raw(`M${x} ${y - r}V${y + r}
 export const BATCH_125: Icon[] = [
   /* ── the thermometer ────────────────────────────────────────────────────────── */
   c("thermometer", "Thermometer", "The tube with its bulb, the column halfway up",
-    ["thermometer", "temperature", "degrees"], ["temperature"], ["thermometer", "temperature", "degrees", "how warm"],
+    ["thermometer", "temperature", "degrees"], [], ["thermometer", "temperature", "degrees", "how warm"],
     "thermometer", [...THERM(), col(12, 11, 15)]),
   c("temperature-hot", "Hot", "The thermometer with the column near the top",
     ["hot", "warm", "high"], [], ["hot", "high temperature", "warm", "heat"],
@@ -121,7 +121,7 @@ export const BATCH_125: Icon[] = [
     ["pollen", "high", "allergy"], [], ["pollen high", "high pollen count", "bad for hay fever", "allergy alert"],
     "figure", [disc(12, 13, 4.5), disc(5, 8, 1), disc(12, 4, 1), disc(19, 8, 1), disc(6, 19, 1), disc(18, 19, 1)]),
   c("pollution", "Pollution", "The chimney with what it puts in the air",
-    ["pollution", "smog", "emissions"], ["emissions"], ["pollution", "emissions", "dirty air", "smog"],
+    ["pollution", "smog", "emissions"], [], ["pollution", "emissions", "dirty air", "smog"],
     "figure", [poly([[5, 21], [5, 12], [10, 12], [10, 21]], true), poly([[14, 21], [14, 15], [19, 15], [19, 21]], true), arc(7.5, 9, 3, 90, 270), arc(7.5, 5, 3, 270, 90)]),
   c("ozone", "Ozone", "Three rings joined — the layer that shields",
     ["ozone", "layer", "uv"], [], ["ozone", "ozone layer", "o3", "uv shield"],

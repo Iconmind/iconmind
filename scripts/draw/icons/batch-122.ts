@@ -90,7 +90,7 @@ export const BATCH_122: Icon[] = [
     ["first-aid", "medical", "kit"], ["first-aid"], ["first aid kit", "medical kit", "travel medicine", "emergency kit"],
     "case", [rect(3, 7, 18, 13, 2), poly([[9, 7], [9, 4], [15, 4], [15, 7]]), col(12, 11, 17), row(14, 9, 15)]),
   c("travel-sim", "Travel SIM", "The SIM card with its clipped corner",
-    ["sim", "card", "data"], ["sim-card"], ["travel sim", "sim card", "local sim", "data abroad"],
+    ["sim", "card", "data"], [], ["travel sim", "sim card", "local sim", "data abroad"],
     "card", [poly([[6, 3], [16, 3], [19, 6], [19, 21], [6, 21]], true), poly([[9, 10], [16, 10], [16, 17], [9, 17]], true)]),
   c("roaming", "Roaming", "The phone with the signal arcs beside it",
     ["roaming", "network", "abroad"], [], ["roaming", "data roaming", "network abroad", "mobile abroad"],
@@ -104,7 +104,7 @@ export const BATCH_122: Icon[] = [
 
   /* ── the plan ───────────────────────────────────────────────────────────────── */
   c("itinerary", "Itinerary", "The page with the days ruled down it",
-    ["itinerary", "plan", "days"], ["schedule"], ["itinerary", "trip plan", "day by day", "travel schedule"],
+    ["itinerary", "plan", "days"], [], ["itinerary", "trip plan", "day by day", "travel schedule"],
     "page", [...PAGE(), row(7, 11, 18), row(12, 11, 18), row(17, 11, 18)]),
   c("trip-plan", "Trip plan", "The page with a route drawn on it",
     ["plan", "route", "prepare"], [], ["trip plan", "plan a trip", "travel plan", "route plan"],

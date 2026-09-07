@@ -50,7 +50,7 @@ export const BATCH_121: Icon[] = [
     ["scale", "distance", "bar"], [], ["map scale", "scale bar", "distance scale", "how far"],
     "figure", [row(11, 3, 21), col(3, 11, 17), col(9, 11, 15), col(15, 11, 15), col(21, 11, 17)]),
   c("map-fence", "Geofence", "The map with a ring drawn on it — the area that is watched",
-    ["geofence", "area", "boundary"], ["geofence"], ["geofence", "map fence", "watched area", "boundary alert"],
+    ["geofence", "area", "boundary"], [], ["geofence", "map fence", "watched area", "boundary alert"],
     "map", [...MAP(), disc(12, 12, 4)]),
   c("offline-map", "Offline map", "The map with an arrow into it — kept on the phone for later",
     ["offline", "download", "saved"], [], ["offline map", "download map", "saved map", "map without signal"],
@@ -68,7 +68,7 @@ export const BATCH_121: Icon[] = [
     ["spin", "rotate", "world"], [], ["spin the globe", "rotate world", "turn the globe", "other side"],
     "orbit", [disc(12, 12, 8), arc(12, 12, 8, 90, 270), poly([[12, 2], [14.5, 4.5], [12, 7]])]),
   c("time-zone-map", "Time zones", "The globe with a clock on it — what the hour is over there",
-    ["timezone", "hours", "world"], ["timezone"], ["time zones", "world clock", "local time there", "utc offset"],
+    ["timezone", "hours", "world"], [], ["time zones", "world clock", "local time there", "utc offset"],
     "orbit", [disc(12, 12, 9), col(12, 3, 21), disc(16, 15, 4), col(16, 12, 15), row(15, 16, 18.5)]),
 
   /* ── the compass and the north ──────────────────────────────────────────────── */
@@ -93,7 +93,7 @@ export const BATCH_121: Icon[] = [
 
   /* ── the route ──────────────────────────────────────────────────────────────── */
   c("travel-route", "Route", "A line from one pin to another, bending on the way",
-    ["route", "path", "journey"], ["route"], ["route", "journey", "the way there", "planned route"],
+    ["route", "path", "journey"], [], ["route", "journey", "the way there", "planned route"],
     "figure", [disc(5, 5, 3), disc(19, 19, 3), poly([[5, 9], [5, 13], [12, 13], [12, 19], [15, 19]])]),
   c("route-alt", "Alternative route", "Two ways to the same place, one dashed",
     ["alternative", "other", "compare"], [], ["alternative route", "other way", "second route", "avoid traffic"],
@@ -160,7 +160,7 @@ export const BATCH_121: Icon[] = [
     ["start", "from", "origin"], ["origin"], ["start point", "from here", "origin", "journey starts"],
     "pin", [PIN(), poly([[10, 7], [13, 10], [10, 13]], true)]),
   c("pin-end", "End point", "The pin with a square in it — the journey ends here",
-    ["end", "to", "destination"], ["destination"], ["end point", "destination", "journey ends", "arrive here"],
+    ["end", "to", "destination"], [], ["end point", "destination", "journey ends", "arrive here"],
     "pin", [PIN(), poly([[9.5, 7.5], [14.5, 7.5], [14.5, 12.5], [9.5, 12.5]], true)]),
 
   /* ── what is out there ──────────────────────────────────────────────────────── */
@@ -189,7 +189,7 @@ export const BATCH_121: Icon[] = [
     ["border", "frontier", "crossing"], ["frontier"], ["border crossing", "frontier", "cross the border", "customs post"],
     "figure", [col(12, 2, 7), col(12, 10, 14), col(12, 17, 22), row(12, 4, 19), poly([[16, 9], [19, 12], [16, 15]])]),
   c("country-flag", "Country", "A flag on its pole — which country you are in",
-    ["flag", "country", "nation"], ["flag"], ["country flag", "flag", "nation", "which country"],
+    ["flag", "country", "nation"], [], ["country flag", "flag", "nation", "which country"],
     "figure", [col(5, 2, 22), poly([[5, 4], [19, 4], [19, 13], [5, 13]]), row(8.5, 5, 19)]),
   c("travel-guide", "Travel guide", "The book with a pin on its cover",
     ["guide", "book", "advice"], ["guidebook"], ["travel guide", "guidebook", "where to go", "travel book"],

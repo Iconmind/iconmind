@@ -105,7 +105,7 @@ export const BATCH_120: Icon[] = [
     ["view", "city", "skyline"], [], ["city view", "skyline view", "city facing", "urban view"],
     "figure", [poly([[3, 21], [3, 10], [10, 10], [10, 21]]), poly([[12, 21], [12, 4], [19, 4], [19, 21]]), row(14, 3, 10), row(9, 12, 19), row(21, 2, 22)]),
   c("free-wifi", "Free wi-fi", "The waves of a signal over a bed",
-    ["wifi", "internet", "free"], ["wifi"], ["free wifi", "wi-fi", "internet included", "wireless"],
+    ["wifi", "internet", "free"], [], ["free wifi", "wi-fi", "internet included", "wireless"],
     "fan", [arc(12, 17, 4.5, 200, 340), arc(12, 17, 9, 200, 340), disc(12, 18, 1)]),
   c("free-parking", "Free parking", "The parking letter with a car under it",
     ["parking", "free", "car"], [], ["free parking", "parking included", "car park", "guest parking"],

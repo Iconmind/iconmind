@@ -116,7 +116,7 @@ export const BATCH_124: Icon[] = [
     ["frost", "crystals", "cold"], [], ["frost", "frosty", "ground frost", "hoar frost"],
     "figure", [row(18, 2, 22), ...FLAKE(7, 11, 3.5), ...FLAKE(17, 11, 3.5), col(12, 9, 18)]),
   c("black-ice", "Black ice", "The road with the warning triangle over it",
-    ["black-ice", "road", "slippery"], ["ice-warning"], ["black ice", "icy road", "slippery road", "ice warning"],
+    ["black-ice", "road", "slippery"], [], ["black ice", "icy road", "slippery road", "ice warning"],
     "figure", [TRIANGLE(), ...FLAKE(12, 13, 3)]),
 
   /* ── water rising ───────────────────────────────────────────────────────────── */

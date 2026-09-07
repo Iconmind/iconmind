@@ -100,12 +100,12 @@ export const BATCH_119: Icon[] = [
     ["arrivals", "board", "incoming"], [], ["arrival board", "arrivals", "landing times", "incoming flights"],
     "board", [...BOARD(), row(10, 6, 16), poly([[13.5, 7.5], [16, 10], [13.5, 12.5]])]),
   c("timetable", "Timetable", "The board with a clock on it — when everything runs",
-    ["timetable", "schedule", "times"], ["schedule"], ["timetable", "schedule", "service times", "when it runs"],
+    ["timetable", "schedule", "times"], [], ["timetable", "schedule", "service times", "when it runs"],
     "board", [...BOARD(), ...clockMark(SMALL, 10)]),
 
   /* ── the bag ────────────────────────────────────────────────────────────────── */
   c("checked-bag", "Checked bag", "The suitcase with a tag on its handle — the one that goes in the hold",
-    ["luggage", "hold", "checked"], ["suitcase"], ["checked bag", "suitcase", "hold luggage", "checked luggage"],
+    ["luggage", "hold", "checked"], [], ["checked bag", "suitcase", "hold luggage", "checked luggage"],
     "case", [...CASE(), row(11, 3, 21)]),
   c("carry-on", "Carry-on", "A smaller case on its wheels — the one that comes with you",
     ["cabin", "hand", "trolley"], ["cabin-bag"], ["carry on", "cabin bag", "hand luggage", "trolley case"],
@@ -114,7 +114,7 @@ export const BATCH_119: Icon[] = [
     ["drop", "hand-over", "check"], [], ["bag drop", "baggage drop", "drop your bag", "check your bag"],
     "case", [rect(3, 10, 18, 11, 2), col(12, 2, 8), poly([[9.5, 5.5], [12, 8], [14.5, 5.5]])]),
   c("baggage-claim", "Baggage claim", "The suitcase on the belt going round — where the bags come back",
-    ["claim", "belt", "carousel"], ["carousel"], ["baggage claim", "carousel", "luggage belt", "collect bags"],
+    ["claim", "belt", "carousel"], [], ["baggage claim", "carousel", "luggage belt", "collect bags"],
     "case", [rect(6, 4.5, 12, 9.5, 2), poly([[10, 4.5], [10, 2], [14, 2], [14, 4.5]]), row(17, 2, 22), row(21, 2, 22)]),
   c("overweight-bag", "Overweight bag", "The suitcase with an exclamation on it — heavier than it may be",
     ["overweight", "heavy", "limit"], [], ["overweight bag", "excess baggage", "too heavy", "weight limit"],

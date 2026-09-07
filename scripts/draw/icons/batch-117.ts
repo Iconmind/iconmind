@@ -102,7 +102,7 @@ export const BATCH_117: Icon[] = [
     ["home", "cover", "property"], ["home-insurance"], ["home cover", "home insurance", "house insurance", "buildings insurance"],
     "canopy", [...CANOPY(), poly([[8, 16.5], [12, 12.5], [16, 16.5]]), poly([[9, 16.5], [9, 21], [15, 21], [15, 16.5]])]),
   c("travel-cover", "Travel cover", "A suitcase under a canopy — the trip, covered",
-    ["travel", "cover", "trip"], ["travel-insurance"], ["travel cover", "travel insurance", "trip insurance", "holiday insurance"],
+    ["travel", "cover", "trip"], [], ["travel cover", "travel insurance", "trip insurance", "holiday insurance"],
     "canopy", [...CANOPY(), poly([[8, 15.5], [16, 15.5], [16, 20.5], [8, 20.5]], true), poly([[10, 15.5], [10, 12.5], [14, 12.5], [14, 15.5]])]),
   c("pet-cover", "Pet cover", "A paw under a canopy — the pet, covered",
     ["pet", "cover", "animal"], ["pet-insurance"], ["pet cover", "pet insurance", "vet bills", "animal insurance"],
