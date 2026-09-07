@@ -1,0 +1,45 @@
+{
+  "slug": "fireworks",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Fireworks",
+  "description": "The burst going out",
+  "tags": [
+    "fireworks",
+    "burst",
+    "sky"
+  ],
+  "keywords": [
+    "fireworks",
+    "the burst",
+    "in the sky",
+    "bang"
+  ],
+  "family": "burst",
+  "shapes": [
+    {
+      "d": "M7 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 7L8 4",
+      "closed": false
+    },
+    {
+      "d": "M6 8L3 5",
+      "closed": false
+    },
+    {
+      "d": "M10 8L13 5",
+      "closed": false
+    },
+    {
+      "d": "M16 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M19 19L21 21",
+      "closed": false
+    }
+  ]
+}

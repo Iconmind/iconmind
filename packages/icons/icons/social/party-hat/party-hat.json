@@ -1,0 +1,34 @@
+{
+  "slug": "party-hat",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Party hat",
+  "description": "The cone with the pompom",
+  "tags": [
+    "hat",
+    "cone",
+    "pompom"
+  ],
+  "keywords": [
+    "party hat",
+    "the cone hat",
+    "pompom",
+    "wear it"
+  ],
+  "family": "hat",
+  "shapes": [
+    {
+      "d": "M5 20C7 14 10 10 12 6C14 10 17 14 19 20Z",
+      "closed": true,
+      "_why": "the cone, tall to the point"
+    },
+    {
+      "d": "M10 4a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 17H17",
+      "closed": false
+    }
+  ]
+}

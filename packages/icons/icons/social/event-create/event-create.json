@@ -1,0 +1,33 @@
+{
+  "slug": "event-create",
+  "category": "social",
+  "subcategory": "event",
+  "name": "New event",
+  "description": "The ticket and the cross to add one",
+  "tags": [
+    "create",
+    "add",
+    "new"
+  ],
+  "keywords": [
+    "create an event",
+    "add an event",
+    "new event",
+    "put it on"
+  ],
+  "family": "ticket",
+  "shapes": [
+    {
+      "d": "M2 7L14 7L14 10L12 12L14 14L14 17L2 17L2 14L4 12L2 10Z",
+      "closed": true
+    },
+    {
+      "d": "M18 8V16",
+      "closed": false
+    },
+    {
+      "d": "M14 12H22",
+      "closed": false
+    }
+  ]
+}

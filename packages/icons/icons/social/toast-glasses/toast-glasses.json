@@ -1,0 +1,50 @@
+{
+  "slug": "toast-glasses",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Toast",
+  "description": "The two glasses meeting",
+  "tags": [
+    "toast",
+    "cheers",
+    "two"
+  ],
+  "aliases": [
+    "cheers"
+  ],
+  "keywords": [
+    "toast",
+    "cheers",
+    "clink glasses",
+    "raise a glass"
+  ],
+  "family": "glass",
+  "shapes": [
+    {
+      "d": "M3 4H9.5C9.5 8 8 10 7.5 12H5C4.5 10 3 8 3 4Z",
+      "closed": true,
+      "_why": "one bowl, tapering to the stem"
+    },
+    {
+      "d": "M6 12V20",
+      "closed": false
+    },
+    {
+      "d": "M3 20H9",
+      "closed": false
+    },
+    {
+      "d": "M14.5 4H21C21 8 19.5 10 19 12H16.5C16 10 14.5 8 14.5 4Z",
+      "closed": true,
+      "_why": "the other bowl"
+    },
+    {
+      "d": "M18 12V20",
+      "closed": false
+    },
+    {
+      "d": "M15 20H21",
+      "closed": false
+    }
+  ]
+}

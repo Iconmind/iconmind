@@ -1,0 +1,37 @@
+{
+  "slug": "group-photo",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Group photo",
+  "description": "Everyone in the frame",
+  "tags": [
+    "photo",
+    "frame",
+    "everyone"
+  ],
+  "keywords": [
+    "group photo",
+    "everyone in",
+    "the frame",
+    "picture together"
+  ],
+  "family": "frame",
+  "shapes": [
+    {
+      "d": "M3 5L3 19L21 19L21 5Z",
+      "closed": true
+    },
+    {
+      "d": "M5 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "rsvp",
+  "category": "social",
+  "subcategory": "event",
+  "name": "RSVP",
+  "description": "The reply going back",
+  "tags": [
+    "rsvp",
+    "reply",
+    "answer"
+  ],
+  "keywords": [
+    "rsvp",
+    "reply to the invite",
+    "let them know",
+    "answer"
+  ],
+  "family": "envelope",
+  "shapes": [
+    {
+      "d": "M7 9L7 19L21 19L21 9Z",
+      "closed": true
+    },
+    {
+      "d": "M7 9L14 16L21 9",
+      "closed": false
+    },
+    {
+      "d": "M6 11L3 14L6 17",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "plus-one",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Plus one",
+  "description": "The second name added",
+  "tags": [
+    "plus-one",
+    "guest",
+    "extra"
+  ],
+  "keywords": [
+    "plus one",
+    "bring someone",
+    "extra guest",
+    "two of you"
+  ],
+  "family": "pair",
+  "shapes": [
+    {
+      "d": "M5 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 15A3 3 0 0 1 10 15",
+      "closed": false
+    },
+    {
+      "d": "M13 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 15A3 3 0 0 1 18 15",
+      "closed": false
+    },
+    {
+      "d": "M19.5 8V14",
+      "closed": false
+    },
+    {
+      "d": "M17 11H22",
+      "closed": false
+    }
+  ]
+}

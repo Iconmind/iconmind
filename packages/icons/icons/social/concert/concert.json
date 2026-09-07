@@ -1,0 +1,44 @@
+{
+  "slug": "concert",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Concert",
+  "description": "Heads in front of the stage",
+  "tags": [
+    "concert",
+    "gig",
+    "crowd"
+  ],
+  "aliases": [
+    "gig"
+  ],
+  "keywords": [
+    "concert",
+    "a gig",
+    "the crowd",
+    "band on"
+  ],
+  "family": "stage",
+  "shapes": [
+    {
+      "d": "M9 5A3 3 0 0 1 12 2H12A3 3 0 0 1 15 5V8A3 3 0 0 1 12 11H12A3 3 0 0 1 9 8Z",
+      "closed": true
+    },
+    {
+      "d": "M12 11V15",
+      "closed": false
+    },
+    {
+      "d": "M3 21A3 3 0 0 1 9 21",
+      "closed": false
+    },
+    {
+      "d": "M9 21A3 3 0 0 1 15 21",
+      "closed": false
+    },
+    {
+      "d": "M15 21A3 3 0 0 1 21 21",
+      "closed": false
+    }
+  ]
+}

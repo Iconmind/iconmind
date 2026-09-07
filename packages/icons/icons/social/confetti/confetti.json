@@ -1,0 +1,45 @@
+{
+  "slug": "confetti",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Confetti",
+  "description": "The bits still coming down",
+  "tags": [
+    "confetti",
+    "falling",
+    "bits"
+  ],
+  "keywords": [
+    "confetti",
+    "thrown",
+    "coming down",
+    "bits of paper"
+  ],
+  "family": "scatter",
+  "shapes": [
+    {
+      "d": "M5 4L8 7",
+      "closed": false
+    },
+    {
+      "d": "M15 5L18 8",
+      "closed": false
+    },
+    {
+      "d": "M4 13L7 16",
+      "closed": false
+    },
+    {
+      "d": "M16 14L19 17",
+      "closed": false
+    },
+    {
+      "d": "M10 10L13 13",
+      "closed": false
+    },
+    {
+      "d": "M9 18L12 21",
+      "closed": false
+    }
+  ]
+}

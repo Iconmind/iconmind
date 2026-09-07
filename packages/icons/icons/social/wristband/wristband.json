@@ -1,0 +1,30 @@
+{
+  "slug": "wristband",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Wristband",
+  "description": "The band with its clasp",
+  "tags": [
+    "wristband",
+    "band",
+    "pass"
+  ],
+  "keywords": [
+    "wristband",
+    "the band",
+    "day pass",
+    "on your wrist"
+  ],
+  "family": "band",
+  "shapes": [
+    {
+      "d": "M14 6C18 7 21 9 21 12C21 16 17 18 12 18C7 18 3 16 3 12C3 9 6 7 10 6",
+      "closed": false,
+      "_why": "the band, open at the clasp"
+    },
+    {
+      "d": "M10 3L14 3L14 8L10 8Z",
+      "closed": true
+    }
+  ]
+}

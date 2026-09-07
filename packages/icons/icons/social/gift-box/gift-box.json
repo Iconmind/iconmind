@@ -1,0 +1,37 @@
+{
+  "slug": "gift-box",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Gift",
+  "description": "The box with the ribbon round it",
+  "tags": [
+    "gift",
+    "ribbon",
+    "present"
+  ],
+  "keywords": [
+    "gift",
+    "a present",
+    "wrapped up",
+    "ribbon"
+  ],
+  "family": "box",
+  "shapes": [
+    {
+      "d": "M4 9L4 20L20 20L20 9",
+      "closed": false
+    },
+    {
+      "d": "M2 9H22",
+      "closed": false
+    },
+    {
+      "d": "M12 9V20",
+      "closed": false
+    },
+    {
+      "d": "M12 9L8 5L12 5",
+      "closed": false
+    }
+  ]
+}

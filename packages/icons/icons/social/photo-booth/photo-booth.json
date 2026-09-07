@@ -1,0 +1,34 @@
+{
+  "slug": "photo-booth",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Photo booth",
+  "description": "The booth with the curtain drawn",
+  "tags": [
+    "booth",
+    "curtain",
+    "strip"
+  ],
+  "keywords": [
+    "photo booth",
+    "the booth",
+    "curtain",
+    "photo strip"
+  ],
+  "family": "booth",
+  "shapes": [
+    {
+      "d": "M4 3L4 21L20 21L20 3Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V16C8 18 12 18 12 16V3",
+      "closed": false,
+      "_why": "the curtain hanging in it"
+    },
+    {
+      "d": "M14 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

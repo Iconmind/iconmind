@@ -1,0 +1,40 @@
+{
+  "slug": "memory-album",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Album",
+  "description": "The book with a picture in it",
+  "tags": [
+    "album",
+    "book",
+    "keep"
+  ],
+  "aliases": [
+    "scrapbook"
+  ],
+  "keywords": [
+    "photo album",
+    "scrapbook",
+    "memories",
+    "the book"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 3L4 21L20 21L20 3Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V21",
+      "closed": false
+    },
+    {
+      "d": "M11 8L11 16L17 16L17 8Z",
+      "closed": true
+    },
+    {
+      "d": "M11 14L13 12L16 15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "guest-list",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Guest list",
+  "description": "The names on the board",
+  "tags": [
+    "guests",
+    "names",
+    "list"
+  ],
+  "keywords": [
+    "guest list",
+    "who is coming",
+    "the names",
+    "list"
+  ],
+  "family": "board",
+  "shapes": [
+    {
+      "d": "M4 5L4 21L20 21L20 5Z",
+      "closed": true
+    },
+    {
+      "d": "M9 5L9 2L15 2L15 5",
+      "closed": false
+    },
+    {
+      "d": "M7 10H17",
+      "closed": false
+    },
+    {
+      "d": "M7 14H17",
+      "closed": false
+    },
+    {
+      "d": "M7 18H13",
+      "closed": false
+    }
+  ]
+}

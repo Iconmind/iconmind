@@ -1,0 +1,37 @@
+{
+  "slug": "beer-mug",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Beer",
+  "description": "The mug with its handle",
+  "tags": [
+    "beer",
+    "mug",
+    "handle"
+  ],
+  "aliases": [
+    "pint"
+  ],
+  "keywords": [
+    "beer",
+    "a pint",
+    "the mug",
+    "handle"
+  ],
+  "family": "glass",
+  "shapes": [
+    {
+      "d": "M5 6L15 6L15 21L5 21Z",
+      "closed": true
+    },
+    {
+      "d": "M15 9C18 9 19 11 19 13C19 15 18 17 15 17",
+      "closed": false,
+      "_why": "the handle off the side"
+    },
+    {
+      "d": "M5 10H15",
+      "closed": false
+    }
+  ]
+}

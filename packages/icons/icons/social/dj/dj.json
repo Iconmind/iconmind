@@ -1,0 +1,44 @@
+{
+  "slug": "dj",
+  "category": "social",
+  "subcategory": "event",
+  "name": "DJ",
+  "description": "The two decks over the mixer",
+  "tags": [
+    "dj",
+    "decks",
+    "mixer"
+  ],
+  "aliases": [
+    "decks"
+  ],
+  "keywords": [
+    "dj",
+    "the decks",
+    "spinning records",
+    "mixer"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M2 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 19H22",
+      "closed": false
+    },
+    {
+      "d": "M5 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

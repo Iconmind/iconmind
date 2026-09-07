@@ -1,0 +1,36 @@
+{
+  "slug": "dress-code",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Dress code",
+  "description": "The bow tie you were asked for",
+  "tags": [
+    "dress-code",
+    "bow-tie",
+    "smart"
+  ],
+  "aliases": [
+    "black-tie"
+  ],
+  "keywords": [
+    "dress code",
+    "black tie",
+    "bow tie",
+    "how to dress"
+  ],
+  "family": "tie",
+  "shapes": [
+    {
+      "d": "M4 7L8 11L4 15Z",
+      "closed": true
+    },
+    {
+      "d": "M20 7L16 11L20 15Z",
+      "closed": true
+    },
+    {
+      "d": "M10 8L14 8L14 14L10 14Z",
+      "closed": true
+    }
+  ]
+}

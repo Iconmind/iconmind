@@ -1,0 +1,38 @@
+{
+  "slug": "event-calendar",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Event calendar",
+  "description": "The month with the day marked",
+  "tags": [
+    "calendar",
+    "month",
+    "marked"
+  ],
+  "keywords": [
+    "event calendar",
+    "what is on",
+    "the month",
+    "marked day"
+  ],
+  "family": "calendar",
+  "shapes": [
+    {
+      "d": "M3 6A2 2 0 0 1 5 4H19A2 2 0 0 1 21 6V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M4 7C5.5 9 7.5 9 9 7C10.5 9 12.5 9 14 7C15.5 9 17.5 9 19 7",
+      "closed": false,
+      "_why": "the bunting strung across it"
+    },
+    {
+      "d": "M3 13H21",
+      "closed": false
+    },
+    {
+      "d": "M7 17H13",
+      "closed": false
+    }
+  ]
+}

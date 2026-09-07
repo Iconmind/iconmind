@@ -1,0 +1,38 @@
+{
+  "slug": "party-popper",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Party popper",
+  "description": "The cone with the bits out of it",
+  "tags": [
+    "popper",
+    "bang",
+    "streamers"
+  ],
+  "keywords": [
+    "party popper",
+    "pull it",
+    "streamers",
+    "bang"
+  ],
+  "family": "burst",
+  "shapes": [
+    {
+      "d": "M3 21L11 13C13 15 14 18 13 21Z",
+      "closed": true,
+      "_why": "the popper, open at the mouth"
+    },
+    {
+      "d": "M14 9L17 6",
+      "closed": false
+    },
+    {
+      "d": "M16 12L19 9",
+      "closed": false
+    },
+    {
+      "d": "M12 6L15 3",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "selfie",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Selfie",
+  "description": "The phone held out at arm's length",
+  "tags": [
+    "selfie",
+    "phone",
+    "arm"
+  ],
+  "keywords": [
+    "selfie",
+    "phone at arm's length",
+    "take one yourself",
+    "front camera"
+  ],
+  "family": "phone",
+  "shapes": [
+    {
+      "d": "M6 3L6 17L16 17L16 3Z",
+      "closed": true
+    },
+    {
+      "d": "M9 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 15L20 19L20 22",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "event-review",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Review",
+  "description": "The card with the mark on it",
+  "tags": [
+    "review",
+    "rated",
+    "feedback"
+  ],
+  "keywords": [
+    "event review",
+    "how it went",
+    "rate it",
+    "feedback"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M3 5L3 19L21 19L21 5Z",
+      "closed": true
+    },
+    {
+      "d": "M7 12L10 15L16 9",
+      "closed": false
+    },
+    {
+      "d": "M7 16H17",
+      "closed": false
+    }
+  ]
+}

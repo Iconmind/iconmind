@@ -1,0 +1,29 @@
+{
+  "slug": "ticket-scan",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Scan ticket",
+  "description": "The beam across the ticket",
+  "tags": [
+    "scan",
+    "beam",
+    "check"
+  ],
+  "keywords": [
+    "scan the ticket",
+    "check them in",
+    "beam",
+    "at the door"
+  ],
+  "family": "ticket",
+  "shapes": [
+    {
+      "d": "M3 8L21 8L21 11L19 13L21 15L21 18L3 18L3 15L5 13L3 11Z",
+      "closed": true
+    },
+    {
+      "d": "M2 13H22",
+      "closed": false
+    }
+  ]
+}

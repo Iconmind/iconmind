@@ -1,0 +1,33 @@
+{
+  "slug": "festival",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Festival",
+  "description": "The tent with the flag up",
+  "tags": [
+    "festival",
+    "tent",
+    "flag"
+  ],
+  "keywords": [
+    "festival",
+    "the tent",
+    "field of tents",
+    "flag"
+  ],
+  "family": "tent",
+  "shapes": [
+    {
+      "d": "M3 19L12 10L21 19Z",
+      "closed": true
+    },
+    {
+      "d": "M12 2V10",
+      "closed": false
+    },
+    {
+      "d": "M12 3L16 7L12 7",
+      "closed": false
+    }
+  ]
+}

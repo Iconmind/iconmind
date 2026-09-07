@@ -1,0 +1,33 @@
+{
+  "slug": "event-invite",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Invitation",
+  "description": "The card standing out of the envelope",
+  "tags": [
+    "invite",
+    "card",
+    "asked"
+  ],
+  "keywords": [
+    "invitation",
+    "invite someone",
+    "you are invited",
+    "the card"
+  ],
+  "family": "envelope",
+  "shapes": [
+    {
+      "d": "M6 11L6 20L18 20L18 11Z",
+      "closed": true
+    },
+    {
+      "d": "M6 11L12 17L18 11",
+      "closed": false
+    },
+    {
+      "d": "M8 11L8 4L16 4L16 11",
+      "closed": false
+    }
+  ]
+}

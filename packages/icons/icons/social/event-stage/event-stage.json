@@ -1,0 +1,45 @@
+{
+  "slug": "event-stage",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Stage",
+  "description": "The lights over the platform",
+  "tags": [
+    "stage",
+    "platform",
+    "lights"
+  ],
+  "keywords": [
+    "the stage",
+    "on stage",
+    "platform",
+    "lights"
+  ],
+  "family": "stage",
+  "shapes": [
+    {
+      "d": "M2 4H22",
+      "closed": false
+    },
+    {
+      "d": "M7 4V7",
+      "closed": false
+    },
+    {
+      "d": "M5 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 4V7",
+      "closed": false
+    },
+    {
+      "d": "M15 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 18H20",
+      "closed": false
+    }
+  ]
+}

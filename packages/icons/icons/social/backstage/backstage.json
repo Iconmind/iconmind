@@ -1,0 +1,39 @@
+{
+  "slug": "backstage",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Backstage",
+  "description": "The way in behind the curtain",
+  "tags": [
+    "backstage",
+    "curtain",
+    "behind"
+  ],
+  "keywords": [
+    "backstage",
+    "behind the curtain",
+    "the way in",
+    "green room"
+  ],
+  "family": "curtain",
+  "shapes": [
+    {
+      "d": "M2 4H22",
+      "closed": false
+    },
+    {
+      "d": "M3 4V21H5.5C7 21 7 20 7 18V4",
+      "closed": false,
+      "_why": "the curtain drawn back one side"
+    },
+    {
+      "d": "M21 4V21H18.5C17 21 17 20 17 18V4",
+      "closed": false,
+      "_why": "and the other"
+    },
+    {
+      "d": "M10 21L10 12L14 12L14 21",
+      "closed": false
+    }
+  ]
+}

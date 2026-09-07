@@ -1,0 +1,37 @@
+{
+  "slug": "gift-open",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Opened",
+  "description": "The lid off and the bits out",
+  "tags": [
+    "opened",
+    "unwrapped",
+    "lid-off"
+  ],
+  "keywords": [
+    "gift opened",
+    "unwrapped",
+    "lid off",
+    "what is inside"
+  ],
+  "family": "box",
+  "shapes": [
+    {
+      "d": "M5 13L5 21L19 21L19 13",
+      "closed": false
+    },
+    {
+      "d": "M3 10H21",
+      "closed": false
+    },
+    {
+      "d": "M13 6L16 3",
+      "closed": false
+    },
+    {
+      "d": "M8 5L10 3",
+      "closed": false
+    }
+  ]
+}

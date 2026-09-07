@@ -1,0 +1,41 @@
+{
+  "slug": "buffet",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Buffet",
+  "description": "The dishes along the table",
+  "tags": [
+    "buffet",
+    "dishes",
+    "help-yourself"
+  ],
+  "keywords": [
+    "buffet",
+    "help yourself",
+    "the spread",
+    "dishes"
+  ],
+  "family": "table",
+  "shapes": [
+    {
+      "d": "M2 13H22",
+      "closed": false
+    },
+    {
+      "d": "M3 13A4 4 0 0 1 11 13",
+      "closed": false
+    },
+    {
+      "d": "M13 13A4 4 0 0 1 21 13",
+      "closed": false
+    },
+    {
+      "d": "M6 13V19",
+      "closed": false
+    },
+    {
+      "d": "M18 13V19",
+      "closed": false
+    }
+  ]
+}

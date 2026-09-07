@@ -1,0 +1,30 @@
+{
+  "slug": "after-party",
+  "category": "social",
+  "subcategory": "event",
+  "name": "After party",
+  "description": "The moon over the glass",
+  "tags": [
+    "after",
+    "late",
+    "carry-on"
+  ],
+  "keywords": [
+    "after party",
+    "carry on",
+    "late night",
+    "the second one"
+  ],
+  "family": "glass",
+  "shapes": [
+    {
+      "d": "M7 3C5 4.5 4 7 5 9C6 11 8 11.5 9.5 11C8.5 9.5 8 7.5 8.5 5.5C8.8 4.5 8 3.5 7 3Z",
+      "closed": true,
+      "_why": "the moon out over it"
+    },
+    {
+      "d": "M6 14L20 14L13 21Z",
+      "closed": true
+    }
+  ]
+}

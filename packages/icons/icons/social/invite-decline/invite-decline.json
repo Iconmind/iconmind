@@ -1,0 +1,37 @@
+{
+  "slug": "invite-decline",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Declined",
+  "description": "The invitation turned down",
+  "tags": [
+    "declined",
+    "no",
+    "cannot"
+  ],
+  "keywords": [
+    "invite declined",
+    "cannot come",
+    "said no",
+    "rsvp no"
+  ],
+  "family": "envelope",
+  "shapes": [
+    {
+      "d": "M2 10L2 19L16 19L16 10Z",
+      "closed": true
+    },
+    {
+      "d": "M6 10L6 5L12 5L12 10",
+      "closed": false
+    },
+    {
+      "d": "M18 13L22 17",
+      "closed": false
+    },
+    {
+      "d": "M22 13L18 17",
+      "closed": false
+    }
+  ]
+}

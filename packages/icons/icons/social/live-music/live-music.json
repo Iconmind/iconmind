@@ -1,0 +1,39 @@
+{
+  "slug": "live-music",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Live music",
+  "description": "The mic on its stand",
+  "tags": [
+    "music",
+    "mic",
+    "played"
+  ],
+  "keywords": [
+    "live music",
+    "a band on",
+    "microphone",
+    "played live"
+  ],
+  "family": "note",
+  "shapes": [
+    {
+      "d": "M6 17a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 17L12 5",
+      "closed": false
+    },
+    {
+      "d": "M15 9C17 11 17 15 15 17",
+      "closed": false,
+      "_why": "the sound coming off it"
+    },
+    {
+      "d": "M18 6C21 9.5 21 16.5 18 20",
+      "closed": false,
+      "_why": "the sound carrying further"
+    }
+  ]
+}

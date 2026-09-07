@@ -1,0 +1,33 @@
+{
+  "slug": "save-the-date",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Save the date",
+  "description": "The day ringed on the page",
+  "tags": [
+    "date",
+    "ringed",
+    "diary"
+  ],
+  "keywords": [
+    "save the date",
+    "put it in the diary",
+    "the day",
+    "ringed"
+  ],
+  "family": "calendar",
+  "shapes": [
+    {
+      "d": "M4 6A2 2 0 0 1 6 4H18A2 2 0 0 1 20 6V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M4 9H20",
+      "closed": false
+    },
+    {
+      "d": "M9 15a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

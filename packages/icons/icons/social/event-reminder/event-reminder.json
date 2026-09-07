@@ -1,0 +1,33 @@
+{
+  "slug": "event-reminder",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Reminder",
+  "description": "The ticket and the clock on it",
+  "tags": [
+    "reminder",
+    "clock",
+    "soon"
+  ],
+  "keywords": [
+    "event reminder",
+    "it is soon",
+    "do not forget",
+    "clock"
+  ],
+  "family": "ticket",
+  "shapes": [
+    {
+      "d": "M2 6L13 6L13 9L11 11L13 13L13 16L2 16L2 13L4 11L2 9Z",
+      "closed": true
+    },
+    {
+      "d": "M13 16a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 16L17 13",
+      "closed": false
+    }
+  ]
+}

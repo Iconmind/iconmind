@@ -1,0 +1,33 @@
+{
+  "slug": "invite-accept",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Accepted",
+  "description": "The invitation said yes to",
+  "tags": [
+    "accepted",
+    "yes",
+    "coming"
+  ],
+  "keywords": [
+    "invite accepted",
+    "coming",
+    "said yes",
+    "rsvp yes"
+  ],
+  "family": "envelope",
+  "shapes": [
+    {
+      "d": "M2 10L2 19L16 19L16 10Z",
+      "closed": true
+    },
+    {
+      "d": "M6 10L6 5L12 5L12 10",
+      "closed": false
+    },
+    {
+      "d": "M16 15L18 17L22 13",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "wine-glass",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Wine",
+  "description": "The bowl on the stem",
+  "tags": [
+    "wine",
+    "bowl",
+    "stem"
+  ],
+  "keywords": [
+    "wine glass",
+    "a glass of wine",
+    "the bowl",
+    "stem"
+  ],
+  "family": "glass",
+  "shapes": [
+    {
+      "d": "M6 4H18V8C18 12 15.5 14 12 14C8.5 14 6 12 6 8Z",
+      "closed": true,
+      "_why": "the bowl of the glass"
+    },
+    {
+      "d": "M12 14V20",
+      "closed": false
+    },
+    {
+      "d": "M7 20H17",
+      "closed": false
+    }
+  ]
+}

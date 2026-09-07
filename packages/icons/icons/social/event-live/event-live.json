@@ -1,0 +1,38 @@
+{
+  "slug": "event-live",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Live",
+  "description": "The dot and the sound going out",
+  "tags": [
+    "live",
+    "now",
+    "broadcast"
+  ],
+  "aliases": [
+    "on-air"
+  ],
+  "keywords": [
+    "event is live",
+    "on air",
+    "happening now",
+    "broadcast"
+  ],
+  "family": "signal",
+  "shapes": [
+    {
+      "d": "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 7C4 10 4 14 7 17",
+      "closed": false,
+      "_why": "the signal one side"
+    },
+    {
+      "d": "M17 7C20 10 20 14 17 17",
+      "closed": false,
+      "_why": "the signal the other"
+    }
+  ]
+}

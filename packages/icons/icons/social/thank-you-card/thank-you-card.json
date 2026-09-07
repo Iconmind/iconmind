@@ -1,0 +1,30 @@
+{
+  "slug": "thank-you-card",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Thank you",
+  "description": "The card with the heart on it",
+  "tags": [
+    "thanks",
+    "card",
+    "heart"
+  ],
+  "keywords": [
+    "thank you card",
+    "say thanks",
+    "a card",
+    "grateful"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M3 5L3 19L21 19L21 5Z",
+      "closed": true
+    },
+    {
+      "d": "M12 16C9 14 6 11.5 7.5 9C9 7.5 11 8.5 12 10C13 8.5 15 7.5 16.5 9C18 11.5 15 14 12 16Z",
+      "closed": true,
+      "_why": "the heart written on it"
+    }
+  ]
+}

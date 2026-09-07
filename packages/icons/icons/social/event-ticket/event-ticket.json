@@ -1,0 +1,29 @@
+{
+  "slug": "event-ticket",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Ticket",
+  "description": "The stub down one end",
+  "tags": [
+    "ticket",
+    "stub",
+    "entry"
+  ],
+  "keywords": [
+    "event ticket",
+    "the ticket",
+    "stub",
+    "entry"
+  ],
+  "family": "ticket",
+  "shapes": [
+    {
+      "d": "M3 7L21 7L21 10L19 12L21 14L21 17L3 17L3 14L5 12L3 10Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7V17",
+      "closed": false
+    }
+  ]
+}

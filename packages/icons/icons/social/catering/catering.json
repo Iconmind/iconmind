@@ -1,0 +1,33 @@
+{
+  "slug": "catering",
+  "category": "social",
+  "subcategory": "event",
+  "name": "Catering",
+  "description": "The cloche over the plate",
+  "tags": [
+    "catering",
+    "cloche",
+    "served"
+  ],
+  "keywords": [
+    "catering",
+    "under the cloche",
+    "served",
+    "food laid on"
+  ],
+  "family": "plate",
+  "shapes": [
+    {
+      "d": "M4 15A8 8 0 0 1 20 15",
+      "closed": false
+    },
+    {
+      "d": "M2 15H22",
+      "closed": false
+    },
+    {
+      "d": "M11 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}
