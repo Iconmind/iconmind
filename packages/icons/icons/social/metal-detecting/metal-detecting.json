@@ -1,0 +1,37 @@
+{
+  "slug": "metal-detecting",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Metal detecting",
+  "description": "The coil over the ground",
+  "tags": [
+    "detecting",
+    "coil",
+    "finds"
+  ],
+  "keywords": [
+    "metal detecting",
+    "the coil",
+    "sweep the ground",
+    "finds"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M7 3L7 9",
+      "closed": false
+    },
+    {
+      "d": "M7 9L13 9",
+      "closed": false
+    },
+    {
+      "d": "M9 13a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 19H21",
+      "closed": false
+    }
+  ]
+}

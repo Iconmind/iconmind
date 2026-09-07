@@ -1,0 +1,33 @@
+{
+  "slug": "picnic",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Picnic",
+  "description": "The basket on the rug",
+  "tags": [
+    "picnic",
+    "basket",
+    "rug"
+  ],
+  "keywords": [
+    "picnic",
+    "the basket",
+    "on the rug",
+    "eat outside"
+  ],
+  "family": "basket",
+  "shapes": [
+    {
+      "d": "M5 9L5 18L19 18L19 9Z",
+      "closed": true
+    },
+    {
+      "d": "M7 9A5 5 0 0 1 17 9",
+      "closed": false
+    },
+    {
+      "d": "M2 21H22",
+      "closed": false
+    }
+  ]
+}

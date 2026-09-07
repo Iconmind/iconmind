@@ -1,0 +1,40 @@
+{
+  "slug": "turntable",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Turntable",
+  "description": "The arm across the record",
+  "tags": [
+    "turntable",
+    "arm",
+    "deck"
+  ],
+  "aliases": [
+    "record-player"
+  ],
+  "keywords": [
+    "turntable",
+    "record player",
+    "the arm",
+    "the deck"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M3 5L3 21L21 21L21 5Z",
+      "closed": true
+    },
+    {
+      "d": "M4 13a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 8L14 12",
+      "closed": false
+    }
+  ]
+}

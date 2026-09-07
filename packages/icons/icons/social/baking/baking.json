@@ -1,0 +1,38 @@
+{
+  "slug": "baking",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Baking",
+  "description": "The pin over the dough",
+  "tags": [
+    "baking",
+    "pin",
+    "dough"
+  ],
+  "keywords": [
+    "baking",
+    "the rolling pin",
+    "the dough",
+    "bake something"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M5 9A3 3 0 0 1 8 6H16A3 3 0 0 1 19 9V9A3 3 0 0 1 16 12H8A3 3 0 0 1 5 9Z",
+      "closed": true
+    },
+    {
+      "d": "M2 9H5",
+      "closed": false
+    },
+    {
+      "d": "M19 9H22",
+      "closed": false
+    },
+    {
+      "d": "M4 20C7 17 17 17 20 20",
+      "closed": false,
+      "_why": "the dough under it"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "astronomy",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Astronomy",
+  "description": "The telescope pointed up",
+  "tags": [
+    "astronomy",
+    "telescope",
+    "sky"
+  ],
+  "keywords": [
+    "astronomy",
+    "the telescope",
+    "look up",
+    "the sky"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M5 12L13 4L17 8L9 16Z",
+      "closed": true
+    },
+    {
+      "d": "M11 14V21",
+      "closed": false
+    },
+    {
+      "d": "M7 21H15",
+      "closed": false
+    }
+  ]
+}

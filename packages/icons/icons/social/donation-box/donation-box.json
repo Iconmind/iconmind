@@ -1,0 +1,38 @@
+{
+  "slug": "donation-box",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Donations",
+  "description": "The slot in the top of the box",
+  "tags": [
+    "donations",
+    "slot",
+    "give"
+  ],
+  "keywords": [
+    "donation box",
+    "the slot",
+    "give something",
+    "collection"
+  ],
+  "family": "box",
+  "shapes": [
+    {
+      "d": "M4 9L4 20L20 20L20 9",
+      "closed": false
+    },
+    {
+      "d": "M2 9H22",
+      "closed": false
+    },
+    {
+      "d": "M9 6H15",
+      "closed": false
+    },
+    {
+      "d": "M12 16C10 14.5 8 13 9 11.5C9.7 10.5 11 11 12 12C13 11 14.3 10.5 15 11.5C16 13 14 14.5 12 16Z",
+      "closed": true,
+      "_why": "the heart on the front"
+    }
+  ]
+}

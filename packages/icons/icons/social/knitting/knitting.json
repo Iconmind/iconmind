@@ -1,0 +1,38 @@
+{
+  "slug": "knitting",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Knitting",
+  "description": "The needles crossed in the wool",
+  "tags": [
+    "knitting",
+    "needles",
+    "wool"
+  ],
+  "keywords": [
+    "knitting",
+    "the needles",
+    "wool",
+    "knit one purl one"
+  ],
+  "family": "yarn",
+  "shapes": [
+    {
+      "d": "M3 15a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 12L21 4",
+      "closed": false
+    },
+    {
+      "d": "M16 15L21 10",
+      "closed": false
+    },
+    {
+      "d": "M5 13C8 15 10 17 11 20",
+      "closed": false,
+      "_why": "the strand round the ball"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "sewing",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Sewing",
+  "description": "The needle and the thread through it",
+  "tags": [
+    "sewing",
+    "needle",
+    "thread"
+  ],
+  "keywords": [
+    "sewing",
+    "the needle",
+    "thread it",
+    "stitch"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M4 20L18 6",
+      "closed": false
+    },
+    {
+      "d": "M18 6L21 3",
+      "closed": false
+    },
+    {
+      "d": "M16 7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 12C7 9 9 15 12 12C15 9 17 15 20 12",
+      "closed": false,
+      "_why": "the thread through it"
+    }
+  ]
+}

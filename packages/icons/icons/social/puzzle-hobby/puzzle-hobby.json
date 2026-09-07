@@ -1,0 +1,31 @@
+{
+  "slug": "puzzle-hobby",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Puzzles",
+  "description": "The pieces still to place",
+  "tags": [
+    "puzzles",
+    "pieces",
+    "solve"
+  ],
+  "keywords": [
+    "puzzle hobby",
+    "doing puzzles",
+    "the pieces",
+    "solve it"
+  ],
+  "family": "piece",
+  "shapes": [
+    {
+      "d": "M3 4H9C9 2.5 13 2.5 13 4V10H3Z",
+      "closed": true,
+      "_why": "the piece already placed"
+    },
+    {
+      "d": "M11 13H21V19C21 20.5 17 20.5 17 19H11Z",
+      "closed": true,
+      "_why": "the one still to go"
+    }
+  ]
+}

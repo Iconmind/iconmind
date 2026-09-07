@@ -1,0 +1,40 @@
+{
+  "slug": "beekeeping",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Beekeeping",
+  "description": "The hive in its boxes",
+  "tags": [
+    "beekeeping",
+    "hive",
+    "bees"
+  ],
+  "aliases": [
+    "hive"
+  ],
+  "keywords": [
+    "beekeeping",
+    "the hive",
+    "keeping bees",
+    "honey"
+  ],
+  "family": "box",
+  "shapes": [
+    {
+      "d": "M5 5L19 5L19 9L5 9Z",
+      "closed": true
+    },
+    {
+      "d": "M5 12L19 12L19 16L5 16Z",
+      "closed": true
+    },
+    {
+      "d": "M3 20H21",
+      "closed": false
+    },
+    {
+      "d": "M11 3a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

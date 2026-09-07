@@ -1,0 +1,33 @@
+{
+  "slug": "campfire",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Campfire",
+  "description": "The flames over the logs",
+  "tags": [
+    "campfire",
+    "flames",
+    "logs"
+  ],
+  "aliases": [
+    "bonfire"
+  ],
+  "keywords": [
+    "campfire",
+    "the fire",
+    "logs",
+    "sit round it"
+  ],
+  "family": "fire",
+  "shapes": [
+    {
+      "d": "M12 17C8 15 6.5 11 9 7C10.5 9.5 12 9.5 12 8C12 5.5 10.5 4 12 2C15 4.5 17.5 7 17.5 11C17.5 14.5 15 16 12 17Z",
+      "closed": true,
+      "_why": "the flame off the logs"
+    },
+    {
+      "d": "M6 20H18",
+      "closed": false
+    }
+  ]
+}

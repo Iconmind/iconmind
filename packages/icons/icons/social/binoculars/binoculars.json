@@ -1,0 +1,41 @@
+{
+  "slug": "binoculars",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Binoculars",
+  "description": "The two barrels joined",
+  "tags": [
+    "binoculars",
+    "barrels",
+    "look"
+  ],
+  "keywords": [
+    "binoculars",
+    "the barrels",
+    "look closer",
+    "spot it"
+  ],
+  "family": "gear",
+  "shapes": [
+    {
+      "d": "M3 8L3 19L10 19L10 8Z",
+      "closed": true
+    },
+    {
+      "d": "M14 8L14 19L21 19L21 8Z",
+      "closed": true
+    },
+    {
+      "d": "M10 12H14",
+      "closed": false
+    },
+    {
+      "d": "M4 5H9",
+      "closed": false
+    },
+    {
+      "d": "M15 5H20",
+      "closed": false
+    }
+  ]
+}

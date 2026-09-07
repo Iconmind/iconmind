@@ -1,0 +1,37 @@
+{
+  "slug": "darkroom",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Darkroom",
+  "description": "The print hung up to dry",
+  "tags": [
+    "darkroom",
+    "print",
+    "develop"
+  ],
+  "keywords": [
+    "darkroom",
+    "developing",
+    "the print",
+    "hung to dry"
+  ],
+  "family": "print",
+  "shapes": [
+    {
+      "d": "M2 4H22",
+      "closed": false
+    },
+    {
+      "d": "M7 4L7 18L17 18L17 4",
+      "closed": false
+    },
+    {
+      "d": "M9 14L12 11L15 14",
+      "closed": false
+    },
+    {
+      "d": "M10 8a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

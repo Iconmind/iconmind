@@ -1,0 +1,37 @@
+{
+  "slug": "hobby-journal",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Journal",
+  "description": "The book with the ribbon in it",
+  "tags": [
+    "journal",
+    "ribbon",
+    "entries"
+  ],
+  "keywords": [
+    "journal",
+    "a diary",
+    "the ribbon",
+    "write it down"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M5 3L5 21L19 21L19 3Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3V21",
+      "closed": false
+    },
+    {
+      "d": "M16 3L16 12L14 10L12 12L12 3",
+      "closed": false
+    },
+    {
+      "d": "M11 16H17",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "calligraphy",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Calligraphy",
+  "description": "The nib and the stroke it made",
+  "tags": [
+    "calligraphy",
+    "nib",
+    "stroke"
+  ],
+  "keywords": [
+    "calligraphy",
+    "the nib",
+    "brush stroke",
+    "fine writing"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M13 3L17 7L10 14L6 10Z",
+      "closed": true
+    },
+    {
+      "d": "M8 12L4 16L4 20L8 20L12 16",
+      "closed": false
+    },
+    {
+      "d": "M13 20C16 18 19 18 21 20",
+      "closed": false,
+      "_why": "the stroke it made"
+    }
+  ]
+}

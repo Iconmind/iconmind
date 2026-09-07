@@ -1,0 +1,37 @@
+{
+  "slug": "hobby",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Hobby",
+  "description": "The thing you do for its own sake",
+  "tags": [
+    "hobby",
+    "pastime",
+    "spare-time"
+  ],
+  "aliases": [
+    "pastime"
+  ],
+  "keywords": [
+    "hobby",
+    "a pastime",
+    "spare time",
+    "what you do for fun"
+  ],
+  "family": "heart",
+  "shapes": [
+    {
+      "d": "M12 20C8 17 3 13 5 8.5C6.5 5.5 10 6.5 12 9.5C14 6.5 17.5 5.5 19 8.5C21 13 16 17 12 20Z",
+      "closed": true,
+      "_why": "the heart in it"
+    },
+    {
+      "d": "M8 4L10 2",
+      "closed": false
+    },
+    {
+      "d": "M16 4L14 2",
+      "closed": false
+    }
+  ]
+}

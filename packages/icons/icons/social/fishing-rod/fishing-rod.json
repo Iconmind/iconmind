@@ -1,0 +1,38 @@
+{
+  "slug": "fishing-rod",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Rod",
+  "description": "The rod bent over the line",
+  "tags": [
+    "rod",
+    "reel",
+    "cast"
+  ],
+  "keywords": [
+    "fishing rod",
+    "the reel",
+    "cast it",
+    "rod"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M4 20C8 16 14 10 20 4",
+      "closed": false,
+      "_why": "the rod, bent under the line"
+    },
+    {
+      "d": "M6 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 10L14 20",
+      "closed": false
+    },
+    {
+      "d": "M13 20a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

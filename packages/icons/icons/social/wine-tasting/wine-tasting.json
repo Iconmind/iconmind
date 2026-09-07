@@ -1,0 +1,39 @@
+{
+  "slug": "wine-tasting",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Wine tasting",
+  "description": "The glass swirled and held up",
+  "tags": [
+    "tasting",
+    "glass",
+    "swirl"
+  ],
+  "keywords": [
+    "wine tasting",
+    "swirl it",
+    "the glass",
+    "taste"
+  ],
+  "family": "glass",
+  "shapes": [
+    {
+      "d": "M7 4H17V8C17 12 15 14 12 14C9 14 7 12 7 8Z",
+      "closed": true,
+      "_why": "the bowl of the glass"
+    },
+    {
+      "d": "M12 14V20",
+      "closed": false
+    },
+    {
+      "d": "M8 20H16",
+      "closed": false
+    },
+    {
+      "d": "M9 8C11 10 13 10 15 8",
+      "closed": false,
+      "_why": "the wine in it"
+    }
+  ]
+}

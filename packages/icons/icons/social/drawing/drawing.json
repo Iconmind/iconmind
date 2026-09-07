@@ -1,0 +1,33 @@
+{
+  "slug": "drawing",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Drawing",
+  "description": "The pencil over the sheet",
+  "tags": [
+    "drawing",
+    "pencil",
+    "sketch"
+  ],
+  "keywords": [
+    "drawing",
+    "the pencil",
+    "sketch",
+    "draw something"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M3 3L3 16L15 16L15 3Z",
+      "closed": true
+    },
+    {
+      "d": "M12 15L19 8L21 10L14 17Z",
+      "closed": true
+    },
+    {
+      "d": "M13 16L10 19L13 19",
+      "closed": false
+    }
+  ]
+}

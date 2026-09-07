@@ -1,0 +1,33 @@
+{
+  "slug": "writing",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Writing",
+  "description": "The pen on the line",
+  "tags": [
+    "writing",
+    "pen",
+    "line"
+  ],
+  "keywords": [
+    "writing",
+    "the pen",
+    "write something",
+    "on paper"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M6 13L16 3L19 6L9 16Z",
+      "closed": true
+    },
+    {
+      "d": "M6 13L4 15L4 18L7 18L9 16",
+      "closed": false
+    },
+    {
+      "d": "M3 21H21",
+      "closed": false
+    }
+  ]
+}

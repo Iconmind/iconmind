@@ -1,0 +1,42 @@
+{
+  "slug": "stargazing",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Stargazing",
+  "description": "The stars over the ground",
+  "tags": [
+    "stargazing",
+    "stars",
+    "night"
+  ],
+  "keywords": [
+    "stargazing",
+    "the stars",
+    "at night",
+    "look up"
+  ],
+  "family": "sky",
+  "shapes": [
+    {
+      "d": "M7 3L7 9",
+      "closed": false
+    },
+    {
+      "d": "M4 6L10 6",
+      "closed": false
+    },
+    {
+      "d": "M16 8L16 14",
+      "closed": false
+    },
+    {
+      "d": "M13 11L19 11",
+      "closed": false
+    },
+    {
+      "d": "M3 20C7 17 17 17 21 20",
+      "closed": false,
+      "_why": "the ground under them"
+    }
+  ]
+}

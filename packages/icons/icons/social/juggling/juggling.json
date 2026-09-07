@@ -1,0 +1,38 @@
+{
+  "slug": "juggling",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Juggling",
+  "description": "The three balls in the air",
+  "tags": [
+    "juggling",
+    "balls",
+    "air"
+  ],
+  "keywords": [
+    "juggling",
+    "three balls",
+    "in the air",
+    "keep them up"
+  ],
+  "family": "toy",
+  "shapes": [
+    {
+      "d": "M6 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 4C18 5 20 11 16 15",
+      "closed": false,
+      "_why": "the way they go round"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "magic-trick",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Magic",
+  "description": "The hat and what comes out of it",
+  "tags": [
+    "magic",
+    "hat",
+    "trick"
+  ],
+  "keywords": [
+    "magic trick",
+    "out of the hat",
+    "the trick",
+    "conjuring"
+  ],
+  "family": "hat",
+  "shapes": [
+    {
+      "d": "M7 18L7 9L17 9L17 18",
+      "closed": false
+    },
+    {
+      "d": "M3 18H21",
+      "closed": false
+    },
+    {
+      "d": "M18 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 4a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

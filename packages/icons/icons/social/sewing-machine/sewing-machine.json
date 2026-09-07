@@ -1,0 +1,38 @@
+{
+  "slug": "sewing-machine",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Sewing machine",
+  "description": "The arm over the plate",
+  "tags": [
+    "machine",
+    "arm",
+    "stitch"
+  ],
+  "keywords": [
+    "sewing machine",
+    "the arm",
+    "the plate",
+    "run it up"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M3 18H21",
+      "closed": false
+    },
+    {
+      "d": "M10 12H16C18 12 19 14 19 18",
+      "closed": false,
+      "_why": "the arm curving down to the bed"
+    },
+    {
+      "d": "M4 7L10 7L10 12L4 12Z",
+      "closed": true
+    },
+    {
+      "d": "M7 12V17",
+      "closed": false
+    }
+  ]
+}

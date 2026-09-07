@@ -1,0 +1,41 @@
+{
+  "slug": "woodwork",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Woodwork",
+  "description": "The chisel taking the shaving off",
+  "tags": [
+    "woodwork",
+    "chisel",
+    "shave"
+  ],
+  "aliases": [
+    "carpentry"
+  ],
+  "keywords": [
+    "woodwork",
+    "carpentry",
+    "the chisel",
+    "shape it"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M4 6L4 11L14 11L14 6Z",
+      "closed": true
+    },
+    {
+      "d": "M14 8.5L19 8.5",
+      "closed": false
+    },
+    {
+      "d": "M3 17H21",
+      "closed": false
+    },
+    {
+      "d": "M6 17C9 14 13 14 16 17",
+      "closed": false,
+      "_why": "the shaving coming off"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "reading",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Reading",
+  "description": "The book held open",
+  "tags": [
+    "reading",
+    "open",
+    "book"
+  ],
+  "keywords": [
+    "reading",
+    "a book",
+    "held open",
+    "read"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M12 7C10 5 6 4 3 5V19C6 18 10 19 12 21",
+      "closed": false,
+      "_why": "the left page"
+    },
+    {
+      "d": "M12 7C14 5 18 4 21 5V19C18 18 14 19 12 21",
+      "closed": false,
+      "_why": "the right page"
+    },
+    {
+      "d": "M5 11H9",
+      "closed": false
+    },
+    {
+      "d": "M15 11H19",
+      "closed": false
+    }
+  ]
+}

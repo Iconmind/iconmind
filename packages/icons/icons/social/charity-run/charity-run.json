@@ -1,0 +1,36 @@
+{
+  "slug": "charity-run",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Charity run",
+  "description": "The number on the shirt",
+  "tags": [
+    "charity",
+    "run",
+    "number"
+  ],
+  "aliases": [
+    "fun-run"
+  ],
+  "keywords": [
+    "charity run",
+    "fun run",
+    "the number",
+    "run for it"
+  ],
+  "family": "shirt",
+  "shapes": [
+    {
+      "d": "M3 9L8 4L16 4L21 9L17 13L17 20L7 20L7 13Z",
+      "closed": true
+    },
+    {
+      "d": "M11 11L13 9L13 17",
+      "closed": false
+    },
+    {
+      "d": "M11 17H15",
+      "closed": false
+    }
+  ]
+}

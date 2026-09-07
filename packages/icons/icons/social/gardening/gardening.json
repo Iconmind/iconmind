@@ -1,0 +1,45 @@
+{
+  "slug": "gardening",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Gardening",
+  "description": "The fork in the ground",
+  "tags": [
+    "gardening",
+    "fork",
+    "dig"
+  ],
+  "keywords": [
+    "gardening",
+    "the fork",
+    "in the ground",
+    "dig it over"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M12 2V11",
+      "closed": false
+    },
+    {
+      "d": "M7 11H17",
+      "closed": false
+    },
+    {
+      "d": "M7 11V17",
+      "closed": false
+    },
+    {
+      "d": "M12 11V17",
+      "closed": false
+    },
+    {
+      "d": "M17 11V17",
+      "closed": false
+    },
+    {
+      "d": "M3 20H21",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "photography",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Photography",
+  "description": "The lens wide open",
+  "tags": [
+    "photography",
+    "lens",
+    "shot"
+  ],
+  "keywords": [
+    "photography",
+    "taking photos",
+    "the lens",
+    "shoot"
+  ],
+  "family": "camera",
+  "shapes": [
+    {
+      "d": "M5 6L5 19L18 19L18 6Z",
+      "closed": true
+    },
+    {
+      "d": "M8 3L21 3L21 16",
+      "closed": false
+    },
+    {
+      "d": "M8 15L11 12L14 15",
+      "closed": false
+    },
+    {
+      "d": "M11 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

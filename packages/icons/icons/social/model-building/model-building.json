@@ -1,0 +1,41 @@
+{
+  "slug": "model-building",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Model making",
+  "description": "The pieces on the sprue",
+  "tags": [
+    "model",
+    "sprue",
+    "kit"
+  ],
+  "keywords": [
+    "model building",
+    "the kit",
+    "on the sprue",
+    "glue it"
+  ],
+  "family": "frame",
+  "shapes": [
+    {
+      "d": "M4 4L4 20L20 20L20 4Z",
+      "closed": true
+    },
+    {
+      "d": "M12 4V20",
+      "closed": false
+    },
+    {
+      "d": "M6 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 8L18 11L15 14",
+      "closed": false
+    },
+    {
+      "d": "M6 16a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

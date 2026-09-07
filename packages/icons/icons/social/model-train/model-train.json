@@ -1,0 +1,37 @@
+{
+  "slug": "model-train",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Model railway",
+  "description": "The engine on the track",
+  "tags": [
+    "railway",
+    "engine",
+    "track"
+  ],
+  "keywords": [
+    "model train",
+    "the engine",
+    "on the track",
+    "railway"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M5 5L5 14L19 14L19 9L14 9L14 5Z",
+      "closed": true
+    },
+    {
+      "d": "M6 16a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 16a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 19H21",
+      "closed": false
+    }
+  ]
+}

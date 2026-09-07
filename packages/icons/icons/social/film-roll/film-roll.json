@@ -1,0 +1,40 @@
+{
+  "slug": "film-roll",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Film",
+  "description": "The roll with its sprockets",
+  "tags": [
+    "film",
+    "roll",
+    "sprockets"
+  ],
+  "aliases": [
+    "negatives"
+  ],
+  "keywords": [
+    "film roll",
+    "negatives",
+    "sprockets",
+    "35mm"
+  ],
+  "family": "film",
+  "shapes": [
+    {
+      "d": "M3 7L3 17L21 17L21 7Z",
+      "closed": true
+    },
+    {
+      "d": "M7 7V17",
+      "closed": false
+    },
+    {
+      "d": "M12 7V17",
+      "closed": false
+    },
+    {
+      "d": "M17 7V17",
+      "closed": false
+    }
+  ]
+}

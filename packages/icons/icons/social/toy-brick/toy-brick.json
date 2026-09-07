@@ -1,0 +1,36 @@
+{
+  "slug": "toy-brick",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Building bricks",
+  "description": "The studs on top of it",
+  "tags": [
+    "bricks",
+    "studs",
+    "build"
+  ],
+  "aliases": [
+    "lego"
+  ],
+  "keywords": [
+    "toy brick",
+    "building bricks",
+    "the studs",
+    "build something"
+  ],
+  "family": "block",
+  "shapes": [
+    {
+      "d": "M4 9L4 19L20 19L20 9Z",
+      "closed": true
+    },
+    {
+      "d": "M7 9L7 6L10 6L10 9",
+      "closed": false
+    },
+    {
+      "d": "M14 9L14 6L17 6L17 9",
+      "closed": false
+    }
+  ]
+}

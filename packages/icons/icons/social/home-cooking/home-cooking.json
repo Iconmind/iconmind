@@ -1,0 +1,40 @@
+{
+  "slug": "home-cooking",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Cooking",
+  "description": "The pan with the steam off it",
+  "tags": [
+    "cooking",
+    "pan",
+    "steam"
+  ],
+  "keywords": [
+    "home cooking",
+    "the pan",
+    "cook something",
+    "steam"
+  ],
+  "family": "pan",
+  "shapes": [
+    {
+      "d": "M3 12H17C17 17 14 20 10 20C6 20 3 17 3 12Z",
+      "closed": true,
+      "_why": "the pan on the heat"
+    },
+    {
+      "d": "M17 12L21 8",
+      "closed": false
+    },
+    {
+      "d": "M8 9C10 7 8 5 10 3",
+      "closed": false,
+      "_why": "the steam off it"
+    },
+    {
+      "d": "M13 9C15 7 13 5 15 3",
+      "closed": false,
+      "_why": "more steam beside it"
+    }
+  ]
+}

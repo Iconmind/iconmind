@@ -1,0 +1,48 @@
+{
+  "slug": "hobby-drone",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Drone",
+  "description": "The rotors either side",
+  "tags": [
+    "drone",
+    "rotors",
+    "fly"
+  ],
+  "aliases": [
+    "quadcopter"
+  ],
+  "keywords": [
+    "drone",
+    "quadcopter",
+    "the rotors",
+    "fly it"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M7 10L17 10L17 15L7 15Z",
+      "closed": true
+    },
+    {
+      "d": "M7 11L4 8",
+      "closed": false
+    },
+    {
+      "d": "M17 11L20 8",
+      "closed": false
+    },
+    {
+      "d": "M2 7H7",
+      "closed": false
+    },
+    {
+      "d": "M17 7H22",
+      "closed": false
+    },
+    {
+      "d": "M12 15L12 19",
+      "closed": false
+    }
+  ]
+}

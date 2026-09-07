@@ -1,0 +1,38 @@
+{
+  "slug": "tea-ceremony",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Tea",
+  "description": "The pot with its handle up",
+  "tags": [
+    "tea",
+    "pot",
+    "brew"
+  ],
+  "aliases": [
+    "teapot"
+  ],
+  "keywords": [
+    "tea ceremony",
+    "the teapot",
+    "brew tea",
+    "pour"
+  ],
+  "family": "vessel",
+  "shapes": [
+    {
+      "d": "M5 12H17V16C17 19 14 20 11 20C8 20 5 19 5 16Z",
+      "closed": true,
+      "_why": "the pot, wide at the belly"
+    },
+    {
+      "d": "M17 14L20 11",
+      "closed": false
+    },
+    {
+      "d": "M7 12C7 9 9 7 11 7C13 7 15 9 15 12",
+      "closed": false,
+      "_why": "the handle over the top"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "fishing",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Fishing",
+  "description": "The fish on the line",
+  "tags": [
+    "fishing",
+    "line",
+    "catch"
+  ],
+  "keywords": [
+    "fishing",
+    "the catch",
+    "on the line",
+    "angling"
+  ],
+  "family": "animal",
+  "shapes": [
+    {
+      "d": "M9 19C6 19 4 17 4 15C4 13 6 11 9 11C13 11 15 13 16 15C15 17 13 19 9 19Z",
+      "closed": true,
+      "_why": "the fish on the end of it"
+    },
+    {
+      "d": "M16 15L19 12",
+      "closed": false
+    },
+    {
+      "d": "M16 15L19 18",
+      "closed": false
+    },
+    {
+      "d": "M9 8L9 2",
+      "closed": false
+    }
+  ]
+}

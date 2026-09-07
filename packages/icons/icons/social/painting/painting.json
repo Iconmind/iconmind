@@ -1,0 +1,33 @@
+{
+  "slug": "painting",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Painting",
+  "description": "The brush over the canvas",
+  "tags": [
+    "painting",
+    "brush",
+    "canvas"
+  ],
+  "keywords": [
+    "painting",
+    "the brush",
+    "on canvas",
+    "paint something"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M3 4L3 16L15 16L15 4Z",
+      "closed": true
+    },
+    {
+      "d": "M13 15L20 8",
+      "closed": false
+    },
+    {
+      "d": "M18 6L22 10L20 12L16 8Z",
+      "closed": true
+    }
+  ]
+}

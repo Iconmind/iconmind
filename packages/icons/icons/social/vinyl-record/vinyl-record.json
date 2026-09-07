@@ -1,0 +1,33 @@
+{
+  "slug": "vinyl-record",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Vinyl",
+  "description": "The record with its label",
+  "tags": [
+    "vinyl",
+    "record",
+    "grooves"
+  ],
+  "keywords": [
+    "vinyl record",
+    "the grooves",
+    "the label",
+    "play a record"
+  ],
+  "family": "disc",
+  "shapes": [
+    {
+      "d": "M3 4L3 20L17 20L17 4Z",
+      "closed": true
+    },
+    {
+      "d": "M9 12a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

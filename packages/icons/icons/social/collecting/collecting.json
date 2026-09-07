@@ -1,0 +1,41 @@
+{
+  "slug": "collecting",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Collecting",
+  "description": "The set laid out in its case",
+  "tags": [
+    "collecting",
+    "set",
+    "case"
+  ],
+  "keywords": [
+    "collecting",
+    "a collection",
+    "the set",
+    "laid out"
+  ],
+  "family": "case",
+  "shapes": [
+    {
+      "d": "M3 5L3 19L21 19L21 5Z",
+      "closed": true
+    },
+    {
+      "d": "M12 5V19",
+      "closed": false
+    },
+    {
+      "d": "M5.5 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14.5 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "volunteering",
+  "category": "social",
+  "subcategory": "hobby",
+  "name": "Volunteering",
+  "description": "The hand under the heart",
+  "tags": [
+    "volunteering",
+    "help",
+    "give"
+  ],
+  "keywords": [
+    "volunteering",
+    "give your time",
+    "help out",
+    "lend a hand"
+  ],
+  "family": "heart",
+  "shapes": [
+    {
+      "d": "M12 12C9.5 10 6 7.5 7.5 5C8.5 3.5 10.5 4 12 6C13.5 4 15.5 3.5 16.5 5C18 7.5 14.5 10 12 12Z",
+      "closed": true,
+      "_why": "the heart held up"
+    },
+    {
+      "d": "M4 21V17C4 15 6 14 8 14H16C18 14 20 15 20 17V21",
+      "closed": false,
+      "_why": "the hand under it"
+    }
+  ]
+}
