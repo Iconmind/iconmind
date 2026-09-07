@@ -1,0 +1,37 @@
+{
+  "slug": "motel",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Motel",
+  "description": "A low block with a car in front of it — the room you drive to",
+  "tags": [
+    "motel",
+    "roadside",
+    "drive"
+  ],
+  "keywords": [
+    "motel",
+    "roadside motel",
+    "drive up room",
+    "motor inn"
+  ],
+  "family": "hotel",
+  "shapes": [
+    {
+      "d": "M2 15L2 5L22 5L22 15",
+      "closed": false
+    },
+    {
+      "d": "M2 9H22",
+      "closed": false
+    },
+    {
+      "d": "M4 21L4 17.5L8 17.5L8 21",
+      "closed": false
+    },
+    {
+      "d": "M14 21L14 17.5L18 17.5L18 21",
+      "closed": false
+    }
+  ]
+}

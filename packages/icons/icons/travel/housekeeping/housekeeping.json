@@ -1,0 +1,44 @@
+{
+  "slug": "housekeeping",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Housekeeping",
+  "description": "The trolley with the towels on it",
+  "tags": [
+    "cleaning",
+    "trolley",
+    "service"
+  ],
+  "aliases": [
+    "cleaning"
+  ],
+  "keywords": [
+    "housekeeping",
+    "room cleaning",
+    "maid service",
+    "cleaning trolley"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 6L4 18L20 18L20 6Z",
+      "closed": true
+    },
+    {
+      "d": "M4 12H20",
+      "closed": false
+    },
+    {
+      "d": "M6 20.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 20.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 3H12",
+      "closed": false
+    }
+  ]
+}

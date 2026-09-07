@@ -1,0 +1,38 @@
+{
+  "slug": "hotel-check-in",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Check in",
+  "description": "The key card with an arrow into it — the room taken",
+  "tags": [
+    "check-in",
+    "arrive",
+    "in"
+  ],
+  "keywords": [
+    "hotel check in",
+    "check in",
+    "arrive",
+    "get the room"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M6 3H17L21 7V19A2 2 0 0 1 19 21H6A2 2 0 0 1 4 19V5A2 2 0 0 1 6 3Z",
+      "closed": true,
+      "_why": "a key card: one corner clipped, so the reader takes it the right way round"
+    },
+    {
+      "d": "M7 6L11 6L11 9L7 9Z",
+      "closed": true
+    },
+    {
+      "d": "M7 15H15",
+      "closed": false
+    },
+    {
+      "d": "M12.5 12.5L15 15L12.5 17.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "villa",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Villa",
+  "description": "A house with a pool beside it — the whole place to yourself",
+  "tags": [
+    "villa",
+    "house",
+    "private"
+  ],
+  "keywords": [
+    "villa",
+    "private house",
+    "holiday home",
+    "whole house"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 11L8 5L14 11",
+      "closed": false
+    },
+    {
+      "d": "M4 11L4 19L12 19L12 11",
+      "closed": false
+    },
+    {
+      "d": "M15 14L17 12L19 14L21 12",
+      "closed": false
+    },
+    {
+      "d": "M15 19L17 17L19 19L21 17",
+      "closed": false
+    }
+  ]
+}

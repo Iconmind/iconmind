@@ -1,0 +1,38 @@
+{
+  "slug": "hotel-check-out",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Check out",
+  "description": "The key card with an arrow out of it — the room given back",
+  "tags": [
+    "check-out",
+    "leave",
+    "out"
+  ],
+  "keywords": [
+    "hotel check out",
+    "check out",
+    "leave the room",
+    "hand back the key"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M6 3H17L21 7V19A2 2 0 0 1 19 21H6A2 2 0 0 1 4 19V5A2 2 0 0 1 6 3Z",
+      "closed": true,
+      "_why": "a key card: one corner clipped, so the reader takes it the right way round"
+    },
+    {
+      "d": "M7 6L11 6L11 9L7 9Z",
+      "closed": true
+    },
+    {
+      "d": "M8 15H16",
+      "closed": false
+    },
+    {
+      "d": "M10.5 12.5L8 15L10.5 17.5",
+      "closed": false
+    }
+  ]
+}

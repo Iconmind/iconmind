@@ -1,0 +1,41 @@
+{
+  "slug": "family-room",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Family room",
+  "description": "The bed with a small one beside it",
+  "tags": [
+    "family",
+    "children",
+    "room"
+  ],
+  "keywords": [
+    "family room",
+    "room for four",
+    "children's bed",
+    "family suite"
+  ],
+  "family": "bed",
+  "shapes": [
+    {
+      "d": "M2 18L2 10L12 10L12 18",
+      "closed": false
+    },
+    {
+      "d": "M2 13.5H12",
+      "closed": false
+    },
+    {
+      "d": "M4 10L4 7L8 7L8 10",
+      "closed": false
+    },
+    {
+      "d": "M15 18L15 13L22 13L22 18",
+      "closed": false
+    },
+    {
+      "d": "M15 15.5H22",
+      "closed": false
+    }
+  ]
+}

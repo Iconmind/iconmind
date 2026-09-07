@@ -1,0 +1,37 @@
+{
+  "slug": "hotel-star",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Hotel rating",
+  "description": "The hotel with a stone over its door — how many stars it holds",
+  "tags": [
+    "stars",
+    "rating",
+    "class"
+  ],
+  "keywords": [
+    "hotel rating",
+    "star rating",
+    "five star hotel",
+    "hotel class"
+  ],
+  "family": "hotel",
+  "shapes": [
+    {
+      "d": "M3 4A2 2 0 0 1 5 2H19A2 2 0 0 1 21 4V20A2 2 0 0 1 19 22H5A2 2 0 0 1 3 20Z",
+      "closed": true
+    },
+    {
+      "d": "M10 22L10 17L14 17L14 22",
+      "closed": false
+    },
+    {
+      "d": "M12 5.5L14 7.5L12 9.5L10 7.5Z",
+      "closed": true
+    },
+    {
+      "d": "M7 11H17",
+      "closed": false
+    }
+  ]
+}

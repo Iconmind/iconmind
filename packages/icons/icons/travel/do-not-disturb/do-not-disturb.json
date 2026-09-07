@@ -1,0 +1,41 @@
+{
+  "slug": "do-not-disturb",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Do not disturb",
+  "description": "The hanger on the door handle",
+  "tags": [
+    "disturb",
+    "privacy",
+    "hanger"
+  ],
+  "aliases": [
+    "dnd"
+  ],
+  "keywords": [
+    "do not disturb",
+    "dnd",
+    "door hanger",
+    "privacy sign"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9.5 3A2.5 2.5 0 0 1 14.5 3V5.5A2.5 2.5 0 0 1 9.5 5.5Z",
+      "closed": true,
+      "_why": "the hole the hanger takes the door handle by"
+    },
+    {
+      "d": "M7 8L17 8L17 21L7 21Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 12H14.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 16H14.5",
+      "closed": false
+    }
+  ]
+}

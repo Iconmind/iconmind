@@ -1,0 +1,41 @@
+{
+  "slug": "resort",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Resort",
+  "description": "A palm over a low building — the place you fly to and stay in",
+  "tags": [
+    "resort",
+    "holiday",
+    "beach"
+  ],
+  "keywords": [
+    "resort",
+    "beach resort",
+    "holiday resort",
+    "all inclusive hotel"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 9V18",
+      "closed": false
+    },
+    {
+      "d": "M3.5 5.5A3.5 3.5 0 0 1 3.5 12.5",
+      "closed": false
+    },
+    {
+      "d": "M10.5 12.5A3.5 3.5 0 0 1 10.5 5.5",
+      "closed": false
+    },
+    {
+      "d": "M13 18L13 11L22 11L22 18",
+      "closed": false
+    },
+    {
+      "d": "M2 18H22",
+      "closed": false
+    }
+  ]
+}

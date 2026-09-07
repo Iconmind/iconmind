@@ -1,0 +1,41 @@
+{
+  "slug": "city-view",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "City view",
+  "description": "The window with the skyline in it",
+  "tags": [
+    "view",
+    "city",
+    "skyline"
+  ],
+  "keywords": [
+    "city view",
+    "skyline view",
+    "city facing",
+    "urban view"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 21L3 10L10 10L10 21",
+      "closed": false
+    },
+    {
+      "d": "M12 21L12 4L19 4L19 21",
+      "closed": false
+    },
+    {
+      "d": "M3 14H10",
+      "closed": false
+    },
+    {
+      "d": "M12 9H19",
+      "closed": false
+    },
+    {
+      "d": "M2 21H22",
+      "closed": false
+    }
+  ]
+}

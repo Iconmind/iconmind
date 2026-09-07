@@ -1,0 +1,37 @@
+{
+  "slug": "tent",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Tent",
+  "description": "One tent with its door open",
+  "tags": [
+    "tent",
+    "camp",
+    "shelter"
+  ],
+  "keywords": [
+    "tent",
+    "camping tent",
+    "shelter",
+    "pitch"
+  ],
+  "family": "tent",
+  "shapes": [
+    {
+      "d": "M2 16L12 6L22 16Z",
+      "closed": true
+    },
+    {
+      "d": "M12 11L7 16",
+      "closed": false
+    },
+    {
+      "d": "M12 11L17 16",
+      "closed": false
+    },
+    {
+      "d": "M4 19H20",
+      "closed": false
+    }
+  ]
+}

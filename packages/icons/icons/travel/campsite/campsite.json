@@ -1,0 +1,44 @@
+{
+  "slug": "campsite",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Campsite",
+  "description": "Two tents side by side",
+  "tags": [
+    "camp",
+    "camping",
+    "pitch"
+  ],
+  "aliases": [
+    "camping"
+  ],
+  "keywords": [
+    "campsite",
+    "camping",
+    "camp ground",
+    "pitch a tent"
+  ],
+  "family": "tent",
+  "shapes": [
+    {
+      "d": "M2 14L7 9L12 14Z",
+      "closed": true
+    },
+    {
+      "d": "M12 14L17 9L22 14Z",
+      "closed": true
+    },
+    {
+      "d": "M7 11V14",
+      "closed": false
+    },
+    {
+      "d": "M17 11V14",
+      "closed": false
+    },
+    {
+      "d": "M2 17H22",
+      "closed": false
+    }
+  ]
+}

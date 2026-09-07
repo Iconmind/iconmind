@@ -1,0 +1,44 @@
+{
+  "slug": "balcony",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Balcony",
+  "description": "The railing along the edge of the floor outside",
+  "tags": [
+    "balcony",
+    "terrace",
+    "outside"
+  ],
+  "aliases": [
+    "terrace"
+  ],
+  "keywords": [
+    "balcony",
+    "terrace",
+    "private balcony",
+    "outdoor space"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 6H22",
+      "closed": false
+    },
+    {
+      "d": "M6 6V17",
+      "closed": false
+    },
+    {
+      "d": "M12 6V17",
+      "closed": false
+    },
+    {
+      "d": "M18 6V17",
+      "closed": false
+    },
+    {
+      "d": "M2 17H22",
+      "closed": false
+    }
+  ]
+}

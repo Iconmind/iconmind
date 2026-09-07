@@ -1,0 +1,40 @@
+{
+  "slug": "accessible-room",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Accessible room",
+  "description": "The wheelchair on the door of a room",
+  "tags": [
+    "accessible",
+    "wheelchair",
+    "step-free"
+  ],
+  "aliases": [
+    "wheelchair-access"
+  ],
+  "keywords": [
+    "accessible room",
+    "wheelchair access",
+    "step free",
+    "disabled access"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 4.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 7L9 14L16 14",
+      "closed": false
+    },
+    {
+      "d": "M6 17a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 14L19 17",
+      "closed": false
+    }
+  ]
+}

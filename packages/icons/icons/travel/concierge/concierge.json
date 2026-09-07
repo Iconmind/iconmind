@@ -1,0 +1,37 @@
+{
+  "slug": "concierge",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Concierge",
+  "description": "A person with crossed keys on the chest",
+  "tags": [
+    "concierge",
+    "staff",
+    "help"
+  ],
+  "keywords": [
+    "concierge",
+    "hotel staff",
+    "guest services",
+    "ask the desk"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A9 9 0 0 1 21 21",
+      "closed": false
+    },
+    {
+      "d": "M8 20L16 12",
+      "closed": false
+    },
+    {
+      "d": "M16 20L8 12",
+      "closed": false
+    }
+  ]
+}

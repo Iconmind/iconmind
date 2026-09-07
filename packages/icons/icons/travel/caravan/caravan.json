@@ -1,0 +1,40 @@
+{
+  "slug": "caravan",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Caravan",
+  "description": "A caravan on its wheel, with its window and hitch",
+  "tags": [
+    "caravan",
+    "trailer",
+    "rv"
+  ],
+  "aliases": [
+    "trailer"
+  ],
+  "keywords": [
+    "caravan",
+    "trailer",
+    "rv",
+    "motorhome"
+  ],
+  "family": "vehicle",
+  "shapes": [
+    {
+      "d": "M3 15L3 5L19 5L19 15Z",
+      "closed": true
+    },
+    {
+      "d": "M6 8L11 8L11 12L6 12Z",
+      "closed": true
+    },
+    {
+      "d": "M6 17.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M19 10H22",
+      "closed": false
+    }
+  ]
+}

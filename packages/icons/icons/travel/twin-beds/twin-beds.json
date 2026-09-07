@@ -1,0 +1,45 @@
+{
+  "slug": "twin-beds",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Twin beds",
+  "description": "Two single beds side by side",
+  "tags": [
+    "beds",
+    "twin",
+    "single"
+  ],
+  "keywords": [
+    "twin beds",
+    "two singles",
+    "twin room",
+    "separate beds"
+  ],
+  "family": "bed",
+  "shapes": [
+    {
+      "d": "M2 18L2 11L10 11L10 18",
+      "closed": false
+    },
+    {
+      "d": "M2 14H10",
+      "closed": false
+    },
+    {
+      "d": "M3 11L3 8.5L6.5 8.5L6.5 11",
+      "closed": false
+    },
+    {
+      "d": "M14 18L14 11L22 11L22 18",
+      "closed": false
+    },
+    {
+      "d": "M14 14H22",
+      "closed": false
+    },
+    {
+      "d": "M15 11L15 8.5L18.5 8.5L18.5 11",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "wake-up-call",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Wake-up call",
+  "description": "The alarm bell ringing beside the bed",
+  "tags": [
+    "alarm",
+    "morning",
+    "call"
+  ],
+  "aliases": [
+    "alarm-call"
+  ],
+  "keywords": [
+    "wake up call",
+    "morning call",
+    "alarm",
+    "wake me at"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 13a8 8 0 1 0 16 0a8 8 0 1 0 -16 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9V13",
+      "closed": false
+    },
+    {
+      "d": "M12 13H16",
+      "closed": false
+    },
+    {
+      "d": "M5 5L8 8",
+      "closed": false
+    },
+    {
+      "d": "M19 5L16 8",
+      "closed": false
+    }
+  ]
+}

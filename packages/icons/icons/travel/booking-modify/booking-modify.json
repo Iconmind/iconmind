@@ -1,0 +1,41 @@
+{
+  "slug": "booking-modify",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Change booking",
+  "description": "The calendar with a pen stroke on it — the dates changed",
+  "tags": [
+    "change",
+    "amend",
+    "edit"
+  ],
+  "keywords": [
+    "change booking",
+    "amend reservation",
+    "modify dates",
+    "edit booking"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 7A2 2 0 0 1 5 5H19A2 2 0 0 1 21 7V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 10H21",
+      "closed": false
+    },
+    {
+      "d": "M8 2.5V5",
+      "closed": false
+    },
+    {
+      "d": "M16 2.5V5",
+      "closed": false
+    },
+    {
+      "d": "M8 18L15 11",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "pool",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Swimming pool",
+  "description": "Waves in a basin",
+  "tags": [
+    "pool",
+    "swim",
+    "water"
+  ],
+  "aliases": [
+    "swimming-pool"
+  ],
+  "keywords": [
+    "swimming pool",
+    "pool",
+    "swim",
+    "hotel pool"
+  ],
+  "family": "pool",
+  "shapes": [
+    {
+      "d": "M2 7L2 15L22 15L22 7",
+      "closed": false
+    },
+    {
+      "d": "M4 11L6.5 8.5L9 11L11.5 8.5L14 11L16.5 8.5L19 11",
+      "closed": false
+    },
+    {
+      "d": "M2 18H22",
+      "closed": false
+    }
+  ]
+}

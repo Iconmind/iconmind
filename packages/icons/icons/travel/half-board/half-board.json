@@ -1,0 +1,37 @@
+{
+  "slug": "half-board",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Half board",
+  "description": "Two dishes of the day, one struck through",
+  "tags": [
+    "half-board",
+    "meals",
+    "dinner"
+  ],
+  "keywords": [
+    "half board",
+    "two meals",
+    "dinner included",
+    "breakfast and dinner"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 15A8 8 0 0 1 20 15",
+      "closed": false
+    },
+    {
+      "d": "M2 15H22",
+      "closed": false
+    },
+    {
+      "d": "M12 7V15",
+      "closed": false
+    },
+    {
+      "d": "M6 19H18",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "sea-view",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Sea view",
+  "description": "The window with the sea in it",
+  "tags": [
+    "view",
+    "sea",
+    "ocean"
+  ],
+  "aliases": [
+    "ocean-view"
+  ],
+  "keywords": [
+    "sea view",
+    "ocean view",
+    "view of the water",
+    "sea facing"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 5A2 2 0 0 1 5 3H19A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M5 11L8 8L11 11L14 8L17 11",
+      "closed": false
+    },
+    {
+      "d": "M7 17L10 14L13 17L16 14",
+      "closed": false
+    }
+  ]
+}

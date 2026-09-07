@@ -1,0 +1,42 @@
+{
+  "slug": "early-checkin",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Early check-in",
+  "description": "The key card with a clock on it, hands before the hour",
+  "tags": [
+    "early",
+    "check-in",
+    "time"
+  ],
+  "keywords": [
+    "early check in",
+    "check in early",
+    "before three",
+    "early arrival"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M6 3H17L21 7V19A2 2 0 0 1 19 21H6A2 2 0 0 1 4 19V5A2 2 0 0 1 6 3Z",
+      "closed": true,
+      "_why": "a key card: one corner clipped, so the reader takes it the right way round"
+    },
+    {
+      "d": "M7 6L11 6L11 9L7 9Z",
+      "closed": true
+    },
+    {
+      "d": "M10 14.5a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13.5 11.5V14.5",
+      "closed": false
+    },
+    {
+      "d": "M10.5 14.5H13.5",
+      "closed": false
+    }
+  ]
+}

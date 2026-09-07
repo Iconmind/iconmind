@@ -1,0 +1,48 @@
+{
+  "slug": "free-cancellation",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Free cancellation",
+  "description": "The calendar with a cross on it and no fee to pay — cancel for nothing",
+  "tags": [
+    "free",
+    "cancel",
+    "refundable"
+  ],
+  "aliases": [
+    "refundable"
+  ],
+  "keywords": [
+    "free cancellation",
+    "refundable",
+    "cancel for free",
+    "no fee"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 7A2 2 0 0 1 5 5H19A2 2 0 0 1 21 7V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 10H21",
+      "closed": false
+    },
+    {
+      "d": "M8 2.5V5",
+      "closed": false
+    },
+    {
+      "d": "M16 2.5V5",
+      "closed": false
+    },
+    {
+      "d": "M7 13L11 17",
+      "closed": false
+    },
+    {
+      "d": "M11 13L7 17",
+      "closed": false
+    }
+  ]
+}

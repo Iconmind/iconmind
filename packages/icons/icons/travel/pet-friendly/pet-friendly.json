@@ -1,0 +1,41 @@
+{
+  "slug": "pet-friendly",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Pets welcome",
+  "description": "A paw on the door — the dog may come in",
+  "tags": [
+    "pets",
+    "dog",
+    "welcome"
+  ],
+  "aliases": [
+    "pets-allowed"
+  ],
+  "keywords": [
+    "pet friendly",
+    "pets allowed",
+    "dog friendly",
+    "bring your pet"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14.5 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 16A5 5 0 0 1 17 16A4 4 0 0 1 12 20A4 4 0 0 1 7 16Z",
+      "closed": true,
+      "_why": "the pad: one arc over the toes and a rounded heel"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "spa",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Spa",
+  "description": "Steam rising from a bowl of hot water",
+  "tags": [
+    "spa",
+    "wellness",
+    "massage"
+  ],
+  "aliases": [
+    "wellness"
+  ],
+  "keywords": [
+    "spa",
+    "wellness",
+    "massage",
+    "hotel spa"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M19 14A7 7 0 0 1 5 14",
+      "closed": false
+    },
+    {
+      "d": "M4 14H20",
+      "closed": false
+    },
+    {
+      "d": "M9 11L11 9L9 7",
+      "closed": false
+    },
+    {
+      "d": "M15 11L17 9L15 7",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "hotel-gym",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Gym",
+  "description": "A dumbbell",
+  "tags": [
+    "gym",
+    "fitness",
+    "weights"
+  ],
+  "aliases": [
+    "fitness"
+  ],
+  "keywords": [
+    "hotel gym",
+    "fitness room",
+    "dumbbell",
+    "work out"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 12H16",
+      "closed": false
+    },
+    {
+      "d": "M5 7L5 17L8 17L8 7Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7L16 17L19 17L19 7Z",
+      "closed": true
+    },
+    {
+      "d": "M2.5 10V14",
+      "closed": false
+    },
+    {
+      "d": "M21.5 10V14",
+      "closed": false
+    }
+  ]
+}

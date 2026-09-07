@@ -1,0 +1,33 @@
+{
+  "slug": "minibar",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Minibar",
+  "description": "The little fridge with a bottle in it",
+  "tags": [
+    "fridge",
+    "drinks",
+    "bar"
+  ],
+  "keywords": [
+    "minibar",
+    "mini fridge",
+    "room bar",
+    "drinks in the room"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M5 4A2 2 0 0 1 7 2H17A2 2 0 0 1 19 4V20A2 2 0 0 1 17 22H7A2 2 0 0 1 5 20Z",
+      "closed": true
+    },
+    {
+      "d": "M5 9H19",
+      "closed": false
+    },
+    {
+      "d": "M9.5 13.5L9.5 18.5L14.5 18.5L14.5 13.5L12 11Z",
+      "closed": true
+    }
+  ]
+}

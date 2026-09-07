@@ -1,0 +1,33 @@
+{
+  "slug": "glamping",
+  "category": "travel",
+  "subcategory": "lodging",
+  "name": "Glamping",
+  "description": "The tent with a stone over it — canvas with a bed in it",
+  "tags": [
+    "glamping",
+    "luxury",
+    "canvas"
+  ],
+  "keywords": [
+    "glamping",
+    "luxury camping",
+    "safari tent",
+    "yurt"
+  ],
+  "family": "tent",
+  "shapes": [
+    {
+      "d": "M2 16L12 6L22 16Z",
+      "closed": true
+    },
+    {
+      "d": "M12 10.5L14 12.5L12 14.5L10 12.5Z",
+      "closed": true
+    },
+    {
+      "d": "M4 19H20",
+      "closed": false
+    }
+  ]
+}
