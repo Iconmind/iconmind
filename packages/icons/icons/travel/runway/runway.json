@@ -1,0 +1,44 @@
+{
+  "slug": "runway",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Runway",
+  "description": "The strip with its centre line and the numbers at the end",
+  "tags": [
+    "runway",
+    "strip",
+    "tarmac"
+  ],
+  "aliases": [
+    "airstrip"
+  ],
+  "keywords": [
+    "runway",
+    "airstrip",
+    "tarmac",
+    "landing strip"
+  ],
+  "family": "road",
+  "shapes": [
+    {
+      "d": "M7 2V22",
+      "closed": false
+    },
+    {
+      "d": "M17 2V22",
+      "closed": false
+    },
+    {
+      "d": "M12 4V8",
+      "closed": false
+    },
+    {
+      "d": "M12 11V15",
+      "closed": false
+    },
+    {
+      "d": "M12 18V21",
+      "closed": false
+    }
+  ]
+}

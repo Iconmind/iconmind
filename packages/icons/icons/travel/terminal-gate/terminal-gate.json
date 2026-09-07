@@ -1,0 +1,33 @@
+{
+  "slug": "terminal-gate",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Gate",
+  "description": "The gate number on the board over a doorway",
+  "tags": [
+    "gate",
+    "number",
+    "departure"
+  ],
+  "keywords": [
+    "gate",
+    "departure gate",
+    "gate number",
+    "boarding gate"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 4A2 2 0 0 1 6 2H18A2 2 0 0 1 20 4V7A2 2 0 0 1 18 9H6A2 2 0 0 1 4 7Z",
+      "closed": true
+    },
+    {
+      "d": "M7 21L7 12L17 12L17 21",
+      "closed": false
+    },
+    {
+      "d": "M5 21H19",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "hot-air-balloon",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Hot-air balloon",
+  "description": "The envelope over its basket",
+  "tags": [
+    "balloon",
+    "flight",
+    "basket"
+  ],
+  "aliases": [
+    "balloon"
+  ],
+  "keywords": [
+    "hot air balloon",
+    "balloon flight",
+    "ballooning",
+    "balloon ride"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 9a7 7 0 1 0 14 0a7 7 0 1 0 -14 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 15.5L12 18L14.5 15.5",
+      "closed": false
+    },
+    {
+      "d": "M9.5 18L9.5 21.5L14.5 21.5L14.5 18Z",
+      "closed": true
+    }
+  ]
+}

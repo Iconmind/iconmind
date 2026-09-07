@@ -82,6 +82,8 @@ const ANCHORED = new Set([
   "finance/investment-goal",
   // an ear of wheat carries its grain at the top of the stalk
   "finance/yield",
+  // a plane climbing or dropping sits above the ground line it leaves or meets
+  "travel/takeoff", "travel/landing",
   // what is covered stands under the canopy; the canopy is the weight
   "finance/health-cover", "finance/life-cover",
   // charts on their axes: the ink sits where the axes and the baseline are

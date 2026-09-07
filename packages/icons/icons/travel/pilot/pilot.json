@@ -1,0 +1,40 @@
+{
+  "slug": "pilot",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Pilot",
+  "description": "A person with wings on the chest — the one flying it",
+  "tags": [
+    "pilot",
+    "captain",
+    "crew"
+  ],
+  "aliases": [
+    "captain"
+  ],
+  "keywords": [
+    "pilot",
+    "captain",
+    "flight crew",
+    "cockpit crew"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A9 9 0 0 1 21 21",
+      "closed": false
+    },
+    {
+      "d": "M7 17L12 17L17 17",
+      "closed": false
+    },
+    {
+      "d": "M9.5 14.5L12 17L14.5 14.5",
+      "closed": false
+    }
+  ]
+}

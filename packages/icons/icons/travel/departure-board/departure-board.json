@@ -1,0 +1,45 @@
+{
+  "slug": "departure-board",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Departure board",
+  "description": "The board with its rows of times — everything leaving",
+  "tags": [
+    "departures",
+    "board",
+    "times"
+  ],
+  "keywords": [
+    "departure board",
+    "departures",
+    "flight board",
+    "leaving times"
+  ],
+  "family": "board",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V15A2 2 0 0 1 20 17H4A2 2 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M7 21L7 17",
+      "closed": false
+    },
+    {
+      "d": "M17 21L17 17",
+      "closed": false
+    },
+    {
+      "d": "M5 7H12",
+      "closed": false
+    },
+    {
+      "d": "M5 11H15",
+      "closed": false
+    },
+    {
+      "d": "M5 14H9",
+      "closed": false
+    }
+  ]
+}

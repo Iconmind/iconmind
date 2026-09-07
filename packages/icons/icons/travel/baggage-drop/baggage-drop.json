@@ -1,0 +1,33 @@
+{
+  "slug": "baggage-drop",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Bag drop",
+  "description": "The suitcase with an arrow dropping onto it — the bag handed over",
+  "tags": [
+    "drop",
+    "hand-over",
+    "check"
+  ],
+  "keywords": [
+    "bag drop",
+    "baggage drop",
+    "drop your bag",
+    "check your bag"
+  ],
+  "family": "case",
+  "shapes": [
+    {
+      "d": "M3 12A2 2 0 0 1 5 10H19A2 2 0 0 1 21 12V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M12 2V8",
+      "closed": false
+    },
+    {
+      "d": "M9.5 5.5L12 8L14.5 5.5",
+      "closed": false
+    }
+  ]
+}

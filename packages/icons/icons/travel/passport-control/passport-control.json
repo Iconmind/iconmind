@@ -1,0 +1,40 @@
+{
+  "slug": "passport-control",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Passport control",
+  "description": "The passport at a desk with a person behind it — the border checked",
+  "tags": [
+    "border",
+    "control",
+    "immigration"
+  ],
+  "aliases": [
+    "immigration"
+  ],
+  "keywords": [
+    "passport control",
+    "immigration",
+    "border control",
+    "passport check"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 8A2 2 0 0 1 6 6H18A2 2 0 0 1 20 8V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 6V21",
+      "closed": false
+    },
+    {
+      "d": "M12 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 21A4.5 4.5 0 0 1 18.5 21",
+      "closed": false
+    }
+  ]
+}

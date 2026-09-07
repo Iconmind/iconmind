@@ -1,0 +1,45 @@
+{
+  "slug": "flight-delay",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Flight delayed",
+  "description": "The boarding pass with a clock on it — later than it said",
+  "tags": [
+    "delay",
+    "late",
+    "waiting"
+  ],
+  "keywords": [
+    "flight delayed",
+    "delayed flight",
+    "late departure",
+    "flight delay"
+  ],
+  "family": "pass",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M17.5 6.5V11",
+      "closed": false
+    },
+    {
+      "d": "M17.5 13V17.5",
+      "closed": false
+    },
+    {
+      "d": "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 9V12",
+      "closed": false
+    },
+    {
+      "d": "M12 12H14.5",
+      "closed": false
+    }
+  ]
+}

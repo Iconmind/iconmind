@@ -1,0 +1,41 @@
+{
+  "slug": "harbour",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Harbour",
+  "description": "An anchor: the ring, the shank, the stock and the crown",
+  "tags": [
+    "harbour",
+    "marina",
+    "anchor"
+  ],
+  "aliases": [
+    "marina",
+    "anchor"
+  ],
+  "keywords": [
+    "harbour",
+    "harbor",
+    "marina",
+    "anchor"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M10 4.5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 6.5V20",
+      "closed": false
+    },
+    {
+      "d": "M7 8.5H17",
+      "closed": false
+    },
+    {
+      "d": "M19 13A7 7 0 0 1 5 13",
+      "closed": false
+    }
+  ]
+}

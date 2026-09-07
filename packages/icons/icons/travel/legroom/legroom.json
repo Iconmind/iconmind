@@ -1,0 +1,37 @@
+{
+  "slug": "legroom",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Legroom",
+  "description": "A seat with the space in front of it marked",
+  "tags": [
+    "seat",
+    "space",
+    "comfort"
+  ],
+  "keywords": [
+    "legroom",
+    "seat pitch",
+    "extra space",
+    "leg space"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 2L6 13L18 13",
+      "closed": false
+    },
+    {
+      "d": "M6 17H18",
+      "closed": false
+    },
+    {
+      "d": "M9 17V20",
+      "closed": false
+    },
+    {
+      "d": "M15 17V20",
+      "closed": false
+    }
+  ]
+}

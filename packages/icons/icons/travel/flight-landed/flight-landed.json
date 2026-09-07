@@ -1,0 +1,37 @@
+{
+  "slug": "flight-landed",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Flight landed",
+  "description": "The boarding pass with a check on it — it is down",
+  "tags": [
+    "landed",
+    "arrived",
+    "down"
+  ],
+  "keywords": [
+    "flight landed",
+    "arrived",
+    "on the ground",
+    "landing confirmed"
+  ],
+  "family": "pass",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M17.5 6.5V11",
+      "closed": false
+    },
+    {
+      "d": "M17.5 13V17.5",
+      "closed": false
+    },
+    {
+      "d": "M9 12L11 14L15 10",
+      "closed": false
+    }
+  ]
+}

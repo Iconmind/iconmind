@@ -1,0 +1,37 @@
+{
+  "slug": "boarding-gate",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Boarding gate",
+  "description": "The gate with an arrow going through it — the way onto the plane",
+  "tags": [
+    "boarding",
+    "through",
+    "gate"
+  ],
+  "keywords": [
+    "boarding gate",
+    "go to gate",
+    "gate open",
+    "walk through"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 21L4 4L8 4L8 21",
+      "closed": false
+    },
+    {
+      "d": "M20 21L20 4L16 4L16 21",
+      "closed": false
+    },
+    {
+      "d": "M10 12H14.5",
+      "closed": false
+    },
+    {
+      "d": "M12 9.5L14.5 12L12 14.5",
+      "closed": false
+    }
+  ]
+}

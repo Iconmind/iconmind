@@ -1,0 +1,45 @@
+{
+  "slug": "shuttle-bus",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Shuttle bus",
+  "description": "A small bus with an arrow under it — the one that runs to and fro",
+  "tags": [
+    "shuttle",
+    "bus",
+    "transfer"
+  ],
+  "keywords": [
+    "shuttle bus",
+    "airport shuttle",
+    "transfer bus",
+    "hotel shuttle"
+  ],
+  "family": "bus",
+  "shapes": [
+    {
+      "d": "M4 4A2 2 0 0 1 6 2H18A2 2 0 0 1 20 4V12A2 2 0 0 1 18 14H6A2 2 0 0 1 4 12Z",
+      "closed": true
+    },
+    {
+      "d": "M4 6H20",
+      "closed": false
+    },
+    {
+      "d": "M6 16a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 16a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 20H19",
+      "closed": false
+    },
+    {
+      "d": "M17 18L19 20L17 22",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "in-flight-meal",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "In-flight meal",
+  "description": "The tray with its dishes — dinner at altitude",
+  "tags": [
+    "meal",
+    "tray",
+    "food"
+  ],
+  "aliases": [
+    "airline-meal"
+  ],
+  "keywords": [
+    "in-flight meal",
+    "airline food",
+    "meal service",
+    "dinner on board"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 15H22",
+      "closed": false
+    },
+    {
+      "d": "M2.5 15A6.5 6.5 0 0 1 15.5 15",
+      "closed": false
+    },
+    {
+      "d": "M15.5 15L15.5 8L21 8L21 15",
+      "closed": false
+    },
+    {
+      "d": "M4 18H20",
+      "closed": false
+    }
+  ]
+}

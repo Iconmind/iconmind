@@ -1,0 +1,44 @@
+{
+  "slug": "control-tower",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Control tower",
+  "description": "The tower's cab and the mast under it — the eyes over the field",
+  "tags": [
+    "tower",
+    "atc",
+    "control"
+  ],
+  "aliases": [
+    "atc"
+  ],
+  "keywords": [
+    "control tower",
+    "air traffic control",
+    "atc",
+    "tower"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 5A2 2 0 0 1 7 3H17A2 2 0 0 1 19 5V8A2 2 0 0 1 17 10H7A2 2 0 0 1 5 8Z",
+      "closed": true
+    },
+    {
+      "d": "M6 6.5H18",
+      "closed": false
+    },
+    {
+      "d": "M12 10V19",
+      "closed": false
+    },
+    {
+      "d": "M6 19H18",
+      "closed": false
+    },
+    {
+      "d": "M3 22H21",
+      "closed": false
+    }
+  ]
+}

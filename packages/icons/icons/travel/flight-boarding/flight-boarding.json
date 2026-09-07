@@ -1,0 +1,30 @@
+{
+  "slug": "flight-boarding",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Flight",
+  "description": "A plane seen from above — the flight itself",
+  "tags": [
+    "plane",
+    "flight",
+    "aircraft"
+  ],
+  "aliases": [
+    "plane",
+    "flight"
+  ],
+  "keywords": [
+    "plane",
+    "flight",
+    "aircraft",
+    "air travel"
+  ],
+  "family": "plane",
+  "shapes": [
+    {
+      "d": "M12 2L14.5 4.5V9.5L21 16H14.5V19L17 21.5H7L9.5 19V16H3L9.5 9.5V4.5Z",
+      "closed": true,
+      "_why": "a plane from above: the nose, two wings swept back at 45° with straight trailing edges, and the tailplane, one outline"
+    }
+  ]
+}

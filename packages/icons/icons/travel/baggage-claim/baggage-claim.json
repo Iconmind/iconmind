@@ -1,0 +1,40 @@
+{
+  "slug": "baggage-claim",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Baggage claim",
+  "description": "The suitcase on the belt going round — where the bags come back",
+  "tags": [
+    "claim",
+    "belt",
+    "carousel"
+  ],
+  "aliases": [
+    "carousel"
+  ],
+  "keywords": [
+    "baggage claim",
+    "carousel",
+    "luggage belt",
+    "collect bags"
+  ],
+  "family": "case",
+  "shapes": [
+    {
+      "d": "M6 6.5A2 2 0 0 1 8 4.5H16A2 2 0 0 1 18 6.5V12A2 2 0 0 1 16 14H8A2 2 0 0 1 6 12Z",
+      "closed": true
+    },
+    {
+      "d": "M10 4.5L10 2L14 2L14 4.5",
+      "closed": false
+    },
+    {
+      "d": "M2 17H22",
+      "closed": false
+    },
+    {
+      "d": "M2 21H22",
+      "closed": false
+    }
+  ]
+}

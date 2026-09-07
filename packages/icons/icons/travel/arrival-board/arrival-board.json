@@ -1,0 +1,41 @@
+{
+  "slug": "arrival-board",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Arrival board",
+  "description": "The board with an arrow coming in — everything landing",
+  "tags": [
+    "arrivals",
+    "board",
+    "incoming"
+  ],
+  "keywords": [
+    "arrival board",
+    "arrivals",
+    "landing times",
+    "incoming flights"
+  ],
+  "family": "board",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V15A2 2 0 0 1 20 17H4A2 2 0 0 1 2 15Z",
+      "closed": true
+    },
+    {
+      "d": "M7 21L7 17",
+      "closed": false
+    },
+    {
+      "d": "M17 21L17 17",
+      "closed": false
+    },
+    {
+      "d": "M6 10H16",
+      "closed": false
+    },
+    {
+      "d": "M13.5 7.5L16 10L13.5 12.5",
+      "closed": false
+    }
+  ]
+}

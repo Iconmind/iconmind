@@ -1,0 +1,37 @@
+{
+  "slug": "visa",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Visa",
+  "description": "The passport page with a stamp on it — permission to enter",
+  "tags": [
+    "visa",
+    "stamp",
+    "permission"
+  ],
+  "keywords": [
+    "visa",
+    "entry visa",
+    "visa stamp",
+    "travel permission"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M4 4A2 2 0 0 1 6 2H18A2 2 0 0 1 20 4V20A2 2 0 0 1 18 22H6A2 2 0 0 1 4 20Z",
+      "closed": true
+    },
+    {
+      "d": "M8 2V22",
+      "closed": false
+    },
+    {
+      "d": "M10 8L17 8L17 16L10 16Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12H15",
+      "closed": false
+    }
+  ]
+}

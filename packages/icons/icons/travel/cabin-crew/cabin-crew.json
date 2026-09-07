@@ -1,0 +1,40 @@
+{
+  "slug": "cabin-crew",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Cabin crew",
+  "description": "A person with a tray on the chest — the one who works the aisle",
+  "tags": [
+    "crew",
+    "steward",
+    "service"
+  ],
+  "aliases": [
+    "flight-attendant"
+  ],
+  "keywords": [
+    "cabin crew",
+    "flight attendant",
+    "steward",
+    "air host"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21A9 9 0 0 1 21 21",
+      "closed": false
+    },
+    {
+      "d": "M7 16H17",
+      "closed": false
+    },
+    {
+      "d": "M9 16L9 19L15 19L15 16",
+      "closed": false
+    }
+  ]
+}

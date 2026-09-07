@@ -1,0 +1,36 @@
+{
+  "slug": "funicular",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Funicular",
+  "description": "The carriage on the slope, on its rail",
+  "tags": [
+    "funicular",
+    "incline",
+    "rail"
+  ],
+  "aliases": [
+    "incline-railway"
+  ],
+  "keywords": [
+    "funicular",
+    "incline railway",
+    "cliff railway",
+    "cable railway"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 21L21 2",
+      "closed": false
+    },
+    {
+      "d": "M4 20L8 16L14 16L10 20Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12L16 8L22 8L18 12Z",
+      "closed": true
+    }
+  ]
+}

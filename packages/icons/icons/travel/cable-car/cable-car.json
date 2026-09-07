@@ -1,0 +1,40 @@
+{
+  "slug": "cable-car",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Cable car",
+  "description": "The cabin hanging from its wire",
+  "tags": [
+    "cable",
+    "gondola",
+    "aerial"
+  ],
+  "aliases": [
+    "gondola"
+  ],
+  "keywords": [
+    "cable car",
+    "gondola lift",
+    "aerial tramway",
+    "cableway"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 4H22",
+      "closed": false
+    },
+    {
+      "d": "M12 4V8",
+      "closed": false
+    },
+    {
+      "d": "M5 10A2 2 0 0 1 7 8H17A2 2 0 0 1 19 10V16A2 2 0 0 1 17 18H7A2 2 0 0 1 5 16Z",
+      "closed": true
+    },
+    {
+      "d": "M5 13H19",
+      "closed": false
+    }
+  ]
+}

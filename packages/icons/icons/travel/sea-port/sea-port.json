@@ -1,0 +1,48 @@
+{
+  "slug": "sea-port",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Sea port",
+  "description": "A crane on the quay over the water",
+  "tags": [
+    "port",
+    "quay",
+    "dock"
+  ],
+  "aliases": [
+    "dock"
+  ],
+  "keywords": [
+    "sea port",
+    "harbour dock",
+    "quay",
+    "port terminal"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 4V19",
+      "closed": false
+    },
+    {
+      "d": "M5 4H19",
+      "closed": false
+    },
+    {
+      "d": "M5 9L10 4",
+      "closed": false
+    },
+    {
+      "d": "M17 4V10",
+      "closed": false
+    },
+    {
+      "d": "M14 10L20 10L20 14L14 14Z",
+      "closed": true
+    },
+    {
+      "d": "M2 19H22",
+      "closed": false
+    }
+  ]
+}

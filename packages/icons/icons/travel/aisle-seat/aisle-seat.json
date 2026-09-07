@@ -1,0 +1,29 @@
+{
+  "slug": "aisle-seat",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Aisle seat",
+  "description": "A seat with the gangway beside it",
+  "tags": [
+    "seat",
+    "aisle",
+    "gangway"
+  ],
+  "keywords": [
+    "aisle seat",
+    "seat by the aisle",
+    "gangway seat",
+    "easy exit"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 4L4 20L12 20L12 4Z",
+      "closed": true
+    },
+    {
+      "d": "M17 3V21",
+      "closed": false
+    }
+  ]
+}

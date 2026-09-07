@@ -1,0 +1,40 @@
+{
+  "slug": "carry-on",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Carry-on",
+  "description": "A smaller case on its wheels — the one that comes with you",
+  "tags": [
+    "cabin",
+    "hand",
+    "trolley"
+  ],
+  "aliases": [
+    "cabin-bag"
+  ],
+  "keywords": [
+    "carry on",
+    "cabin bag",
+    "hand luggage",
+    "trolley case"
+  ],
+  "family": "case",
+  "shapes": [
+    {
+      "d": "M5 8A2 2 0 0 1 7 6H17A2 2 0 0 1 19 8V17A2 2 0 0 1 17 19H7A2 2 0 0 1 5 17Z",
+      "closed": true
+    },
+    {
+      "d": "M10 6L10 3L14 3L14 6",
+      "closed": false
+    },
+    {
+      "d": "M7 21a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 21a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

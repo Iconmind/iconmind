@@ -1,0 +1,33 @@
+{
+  "slug": "airport",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Airport",
+  "description": "The control tower over the apron — where the flights are",
+  "tags": [
+    "airport",
+    "tower",
+    "airfield"
+  ],
+  "keywords": [
+    "airport",
+    "airfield",
+    "air terminal",
+    "airport code"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 21L9 9L15 9L15 21",
+      "closed": false
+    },
+    {
+      "d": "M6 9L10.5 4.5L13.5 4.5L18 9",
+      "closed": false
+    },
+    {
+      "d": "M3 21H21",
+      "closed": false
+    }
+  ]
+}

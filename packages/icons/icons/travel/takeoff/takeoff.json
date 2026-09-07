@@ -1,0 +1,41 @@
+{
+  "slug": "takeoff",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Take-off",
+  "description": "A plane climbing away from the ground",
+  "tags": [
+    "departure",
+    "climb",
+    "leave"
+  ],
+  "aliases": [
+    "departure"
+  ],
+  "keywords": [
+    "take off",
+    "takeoff",
+    "departing flight",
+    "plane climbing"
+  ],
+  "family": "plane",
+  "shapes": [
+    {
+      "d": "M12 3L14 5V9L19.5 14.5H14V17L16 19H8L10 17V14.5H4.5L10 9V5Z",
+      "closed": true,
+      "_why": "the same plane one size down: nose, wings at 45°, tailplane"
+    },
+    {
+      "d": "M2 22H22",
+      "closed": false
+    },
+    {
+      "d": "M2 5L5 2",
+      "closed": false
+    },
+    {
+      "d": "M2 2L5 2L5 5",
+      "closed": false
+    }
+  ]
+}

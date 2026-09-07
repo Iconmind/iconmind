@@ -1,0 +1,40 @@
+{
+  "slug": "transit-card",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Transit card",
+  "description": "The travel card you tap at the barrier",
+  "tags": [
+    "card",
+    "tap",
+    "oyster"
+  ],
+  "aliases": [
+    "travel-card"
+  ],
+  "keywords": [
+    "transit card",
+    "travel card",
+    "oyster card",
+    "tap card"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M6.12 11.32A2 2 0 0 1 9.88 11.32",
+      "closed": false
+    },
+    {
+      "d": "M4.24 10.63A4 4 0 0 1 11.76 10.63",
+      "closed": false
+    },
+    {
+      "d": "M14 9H19",
+      "closed": false
+    }
+  ]
+}

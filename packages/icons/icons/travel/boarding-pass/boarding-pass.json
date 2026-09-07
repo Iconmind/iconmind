@@ -1,0 +1,41 @@
+{
+  "slug": "boarding-pass",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Boarding pass",
+  "description": "The pass with its stub torn down the perforation",
+  "tags": [
+    "pass",
+    "ticket",
+    "stub"
+  ],
+  "keywords": [
+    "boarding pass",
+    "flight ticket",
+    "airline ticket",
+    "e-ticket"
+  ],
+  "family": "pass",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M17.5 6.5V11",
+      "closed": false
+    },
+    {
+      "d": "M17.5 13V17.5",
+      "closed": false
+    },
+    {
+      "d": "M5 9H13",
+      "closed": false
+    },
+    {
+      "d": "M5 13H10",
+      "closed": false
+    }
+  ]
+}

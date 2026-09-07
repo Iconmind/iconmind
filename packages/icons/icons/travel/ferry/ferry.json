@@ -1,0 +1,33 @@
+{
+  "slug": "ferry",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Ferry",
+  "description": "The hull with a deckhouse on it — the boat that carries cars",
+  "tags": [
+    "ferry",
+    "boat",
+    "crossing"
+  ],
+  "keywords": [
+    "ferry",
+    "car ferry",
+    "boat crossing",
+    "ferry terminal"
+  ],
+  "family": "boat",
+  "shapes": [
+    {
+      "d": "M2 15L22 15L17 20L7 20Z",
+      "closed": true
+    },
+    {
+      "d": "M7 15L7 9L17 9L17 15",
+      "closed": false
+    },
+    {
+      "d": "M9 6H15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "flight-cancel",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Flight cancelled",
+  "description": "The boarding pass with a cross on it — it is not going",
+  "tags": [
+    "cancelled",
+    "off",
+    "grounded"
+  ],
+  "keywords": [
+    "flight cancelled",
+    "cancelled flight",
+    "flight off",
+    "grounded"
+  ],
+  "family": "pass",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M17.5 6.5V11",
+      "closed": false
+    },
+    {
+      "d": "M17.5 13V17.5",
+      "closed": false
+    },
+    {
+      "d": "M10 10L14 14",
+      "closed": false
+    },
+    {
+      "d": "M14 10L10 14",
+      "closed": false
+    }
+  ]
+}

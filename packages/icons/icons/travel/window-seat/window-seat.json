@@ -1,0 +1,29 @@
+{
+  "slug": "window-seat",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Window seat",
+  "description": "A seat with the window beside it",
+  "tags": [
+    "seat",
+    "window",
+    "view"
+  ],
+  "keywords": [
+    "window seat",
+    "seat by the window",
+    "window side",
+    "a view"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 4L4 20L12 20L12 4Z",
+      "closed": true
+    },
+    {
+      "d": "M13 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    }
+  ]
+}

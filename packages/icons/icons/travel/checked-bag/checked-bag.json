@@ -1,0 +1,36 @@
+{
+  "slug": "checked-bag",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Checked bag",
+  "description": "The suitcase with a tag on its handle — the one that goes in the hold",
+  "tags": [
+    "luggage",
+    "hold",
+    "checked"
+  ],
+  "aliases": [
+    "suitcase"
+  ],
+  "keywords": [
+    "checked bag",
+    "suitcase",
+    "hold luggage",
+    "checked luggage"
+  ],
+  "family": "case",
+  "shapes": [
+    {
+      "d": "M3 8A2 2 0 0 1 5 6H19A2 2 0 0 1 21 8V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M9 6L9 3L15 3L15 6",
+      "closed": false
+    },
+    {
+      "d": "M3 11H21",
+      "closed": false
+    }
+  ]
+}

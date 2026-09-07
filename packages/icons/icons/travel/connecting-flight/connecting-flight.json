@@ -1,0 +1,41 @@
+{
+  "slug": "connecting-flight",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Connecting flight",
+  "description": "The boarding pass with two chevrons on it — one flight into the next",
+  "tags": [
+    "connection",
+    "transfer",
+    "onward"
+  ],
+  "keywords": [
+    "connecting flight",
+    "connection",
+    "onward flight",
+    "transfer flight"
+  ],
+  "family": "pass",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M17.5 6.5V11",
+      "closed": false
+    },
+    {
+      "d": "M17.5 13V17.5",
+      "closed": false
+    },
+    {
+      "d": "M7 9L10 12L7 15",
+      "closed": false
+    },
+    {
+      "d": "M12 9L15 12L12 15",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "platform",
+  "category": "travel",
+  "subcategory": "transit",
+  "name": "Platform",
+  "description": "The platform edge, its line and the rail beyond",
+  "tags": [
+    "platform",
+    "edge",
+    "station"
+  ],
+  "keywords": [
+    "platform",
+    "station platform",
+    "platform edge",
+    "track side"
+  ],
+  "family": "platform",
+  "shapes": [
+    {
+      "d": "M2 8H22",
+      "closed": false
+    },
+    {
+      "d": "M4 11H20",
+      "closed": false
+    },
+    {
+      "d": "M2 16H22",
+      "closed": false
+    }
+  ]
+}
