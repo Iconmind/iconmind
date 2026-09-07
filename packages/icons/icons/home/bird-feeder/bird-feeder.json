@@ -1,0 +1,37 @@
+{
+  "slug": "bird-feeder",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Bird feeder",
+  "description": "The little roof over the tray",
+  "tags": [
+    "feeder",
+    "roof",
+    "seed"
+  ],
+  "keywords": [
+    "bird feeder",
+    "feed the birds",
+    "seed",
+    "hanging feeder"
+  ],
+  "family": "building",
+  "shapes": [
+    {
+      "d": "M12 3V7",
+      "closed": false
+    },
+    {
+      "d": "M6 13L12 7L18 13",
+      "closed": false
+    },
+    {
+      "d": "M8 13L8 18L16 18L16 13",
+      "closed": false
+    },
+    {
+      "d": "M9 21H15",
+      "closed": false
+    }
+  ]
+}

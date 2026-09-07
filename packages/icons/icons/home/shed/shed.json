@@ -1,0 +1,33 @@
+{
+  "slug": "shed",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Shed",
+  "description": "The hut with its door",
+  "tags": [
+    "shed",
+    "hut",
+    "store"
+  ],
+  "keywords": [
+    "shed",
+    "garden shed",
+    "hut",
+    "the mower lives here"
+  ],
+  "family": "building",
+  "shapes": [
+    {
+      "d": "M3 11L12 2L21 11",
+      "closed": false
+    },
+    {
+      "d": "M5 11L5 20L19 20L19 11",
+      "closed": false
+    },
+    {
+      "d": "M10 20L10 14L14 14L14 20",
+      "closed": false
+    }
+  ]
+}

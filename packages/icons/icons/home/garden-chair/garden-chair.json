@@ -1,0 +1,40 @@
+{
+  "slug": "garden-chair",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Garden chair",
+  "description": "The seat leaning back",
+  "tags": [
+    "chair",
+    "seat",
+    "sit"
+  ],
+  "aliases": [
+    "deckchair"
+  ],
+  "keywords": [
+    "garden chair",
+    "deckchair",
+    "sit outside",
+    "seat"
+  ],
+  "family": "chair",
+  "shapes": [
+    {
+      "d": "M5 12H17",
+      "closed": false
+    },
+    {
+      "d": "M17 12L21 8",
+      "closed": false
+    },
+    {
+      "d": "M7 12V19",
+      "closed": false
+    },
+    {
+      "d": "M15 12V19",
+      "closed": false
+    }
+  ]
+}

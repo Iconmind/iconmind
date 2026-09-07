@@ -1,0 +1,36 @@
+{
+  "slug": "patio",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Patio",
+  "description": "The slabs laid out",
+  "tags": [
+    "patio",
+    "slabs",
+    "paving"
+  ],
+  "aliases": [
+    "paving"
+  ],
+  "keywords": [
+    "patio",
+    "paving",
+    "slabs",
+    "paved"
+  ],
+  "family": "plot",
+  "shapes": [
+    {
+      "d": "M3 6L11 6L11 11L3 11Z",
+      "closed": true
+    },
+    {
+      "d": "M14 6L21 6L21 11L14 11Z",
+      "closed": true
+    },
+    {
+      "d": "M3 14L21 14L21 19L3 19Z",
+      "closed": true
+    }
+  ]
+}

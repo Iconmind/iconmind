@@ -1,0 +1,30 @@
+{
+  "slug": "hedge",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Hedge",
+  "description": "The block of it along the ground",
+  "tags": [
+    "hedge",
+    "block",
+    "border"
+  ],
+  "keywords": [
+    "hedge",
+    "the hedge",
+    "border",
+    "bushes"
+  ],
+  "family": "plot",
+  "shapes": [
+    {
+      "d": "M3 17V12C3 8 7 5 12 5C17 5 21 8 21 12V17Z",
+      "closed": true,
+      "_why": "the hedge, squared off along the top"
+    },
+    {
+      "d": "M3 20H21",
+      "closed": false
+    }
+  ]
+}

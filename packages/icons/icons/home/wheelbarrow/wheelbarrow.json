@@ -1,0 +1,40 @@
+{
+  "slug": "wheelbarrow",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Wheelbarrow",
+  "description": "The tray over its one wheel",
+  "tags": [
+    "barrow",
+    "tray",
+    "wheel"
+  ],
+  "aliases": [
+    "barrow"
+  ],
+  "keywords": [
+    "wheelbarrow",
+    "barrow",
+    "cart it",
+    "one wheel"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M4 8L18 8L15 11L7 11Z",
+      "closed": true
+    },
+    {
+      "d": "M18 9L21 12",
+      "closed": false
+    },
+    {
+      "d": "M4 15a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 11L15 17",
+      "closed": false
+    }
+  ]
+}

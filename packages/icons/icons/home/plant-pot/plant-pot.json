@@ -1,0 +1,42 @@
+{
+  "slug": "plant-pot",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Plant pot",
+  "description": "The two leaves out of the pot",
+  "tags": [
+    "plant",
+    "pot",
+    "leaves"
+  ],
+  "aliases": [
+    "houseplant"
+  ],
+  "keywords": [
+    "plant pot",
+    "houseplant",
+    "potted plant",
+    "leaves"
+  ],
+  "family": "plant",
+  "shapes": [
+    {
+      "d": "M8 13L8 21L16 21L16 13",
+      "closed": false
+    },
+    {
+      "d": "M6 13H18",
+      "closed": false
+    },
+    {
+      "d": "M12 13C12 9 9 6 6 5C6 9 8 12 12 13Z",
+      "closed": true,
+      "_why": "a leaf out of the pot"
+    },
+    {
+      "d": "M12 13C12 10 15 7 18 6C18 9 16 12 12 13Z",
+      "closed": true,
+      "_why": "a leaf on the other side"
+    }
+  ]
+}

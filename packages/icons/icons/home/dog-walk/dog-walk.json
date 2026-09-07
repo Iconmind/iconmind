@@ -1,0 +1,46 @@
+{
+  "slug": "dog-walk",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Walk",
+  "description": "The paw going past",
+  "tags": [
+    "walk",
+    "paw",
+    "out"
+  ],
+  "keywords": [
+    "dog walk",
+    "take it out",
+    "walkies",
+    "paw"
+  ],
+  "family": "paw",
+  "shapes": [
+    {
+      "d": "M13 19C10.5 19 8.5 17 8.5 15C8.5 13 10.5 11.5 13 11.5C15.5 11.5 17.5 13 17.5 15C17.5 17 15.5 19 13 19Z",
+      "closed": true,
+      "_why": "the pad of the paw"
+    },
+    {
+      "d": "M8 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 8a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 13H6",
+      "closed": false
+    },
+    {
+      "d": "M3 17H6",
+      "closed": false
+    }
+  ]
+}

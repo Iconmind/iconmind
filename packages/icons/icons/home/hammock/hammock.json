@@ -1,0 +1,39 @@
+{
+  "slug": "hammock",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Hammock",
+  "description": "The sling between two posts",
+  "tags": [
+    "hammock",
+    "sling",
+    "posts"
+  ],
+  "keywords": [
+    "hammock",
+    "swing seat",
+    "lie down outside",
+    "sling"
+  ],
+  "family": "frame",
+  "shapes": [
+    {
+      "d": "M4 6V21",
+      "closed": false
+    },
+    {
+      "d": "M20 6V21",
+      "closed": false
+    },
+    {
+      "d": "M4 8C4 16 20 16 20 8",
+      "closed": false,
+      "_why": "the sling hanging between them"
+    },
+    {
+      "d": "M4 12C4 19 20 19 20 12",
+      "closed": false,
+      "_why": "the underside of it"
+    }
+  ]
+}

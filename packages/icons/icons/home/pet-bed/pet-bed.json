@@ -1,0 +1,31 @@
+{
+  "slug": "pet-bed",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Pet bed",
+  "description": "The cushion inside the rim",
+  "tags": [
+    "bed",
+    "cushion",
+    "sleep"
+  ],
+  "keywords": [
+    "pet bed",
+    "dog basket",
+    "where it sleeps",
+    "cushion"
+  ],
+  "family": "bowl",
+  "shapes": [
+    {
+      "d": "M3 14C3 10 7 8 12 8C17 8 21 10 21 14C21 17 17 18 12 18C7 18 3 17 3 14Z",
+      "closed": true,
+      "_why": "the outside of the bed"
+    },
+    {
+      "d": "M7 14C7 12 9 11 12 11C15 11 17 12 17 14C17 15.5 15 16 12 16C9 16 7 15.5 7 14Z",
+      "closed": true,
+      "_why": "the cushion sunk inside it"
+    }
+  ]
+}

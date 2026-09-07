@@ -1,0 +1,39 @@
+{
+  "slug": "sprinkler",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Sprinkler",
+  "description": "The head throwing water both ways",
+  "tags": [
+    "sprinkler",
+    "spray",
+    "head"
+  ],
+  "keywords": [
+    "sprinkler",
+    "sprinkler head",
+    "spray the lawn",
+    "watering"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M12 12V19",
+      "closed": false
+    },
+    {
+      "d": "M10 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 8C17 6 19 6 21 7",
+      "closed": false,
+      "_why": "the spray thrown one way"
+    },
+    {
+      "d": "M9 8C7 6 5 6 3 7",
+      "closed": false,
+      "_why": "the spray thrown the other"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "cat-flap",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Cat flap",
+  "description": "The flap cut into the door",
+  "tags": [
+    "flap",
+    "door",
+    "in-out"
+  ],
+  "keywords": [
+    "cat flap",
+    "in and out",
+    "the flap",
+    "door"
+  ],
+  "family": "door",
+  "shapes": [
+    {
+      "d": "M5 3L5 21L19 21L19 3Z",
+      "closed": true
+    },
+    {
+      "d": "M8 21V17C8 15 16 15 16 17V21",
+      "closed": false,
+      "_why": "the flap, arched at the top"
+    }
+  ]
+}

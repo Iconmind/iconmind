@@ -1,0 +1,44 @@
+{
+  "slug": "pet-toy",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Pet toy",
+  "description": "The bone it carries about",
+  "tags": [
+    "toy",
+    "bone",
+    "play"
+  ],
+  "aliases": [
+    "bone"
+  ],
+  "keywords": [
+    "pet toy",
+    "a bone",
+    "play with it",
+    "chew"
+  ],
+  "family": "toy",
+  "shapes": [
+    {
+      "d": "M7 12H17",
+      "closed": false
+    },
+    {
+      "d": "M4 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 14a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 14a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

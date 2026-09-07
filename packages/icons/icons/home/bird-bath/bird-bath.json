@@ -1,0 +1,34 @@
+{
+  "slug": "bird-bath",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Bird bath",
+  "description": "The dish on its pedestal",
+  "tags": [
+    "bath",
+    "dish",
+    "pedestal"
+  ],
+  "keywords": [
+    "bird bath",
+    "water for the birds",
+    "dish",
+    "pedestal"
+  ],
+  "family": "vessel",
+  "shapes": [
+    {
+      "d": "M4 7H20C20 11 16 13 12 13C8 13 4 11 4 7Z",
+      "closed": true,
+      "_why": "the dish, shallow and wide"
+    },
+    {
+      "d": "M12 13V18",
+      "closed": false
+    },
+    {
+      "d": "M7 18H17",
+      "closed": false
+    }
+  ]
+}

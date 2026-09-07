@@ -1,0 +1,40 @@
+{
+  "slug": "dog",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Dog",
+  "description": "The head with the ears folded down",
+  "tags": [
+    "dog",
+    "ears",
+    "nose"
+  ],
+  "keywords": [
+    "dog",
+    "a dog",
+    "puppy",
+    "pet dog"
+  ],
+  "family": "animal",
+  "shapes": [
+    {
+      "d": "M7 6C8 5 10 5 12 5C14 5 16 5 17 6C17.5 8 17.5 11 17 13C17 17 15 19 12 19C9 19 7 17 7 13C6.5 11 6.5 8 7 6Z",
+      "closed": true,
+      "_why": "the head, narrow down to the nose"
+    },
+    {
+      "d": "M7 7C5.5 7 4.5 9 4.5 12C4.5 14 5.5 15 7 14Z",
+      "closed": true,
+      "_why": "an ear hanging beside it"
+    },
+    {
+      "d": "M17 7C18.5 7 19.5 9 19.5 12C19.5 14 18.5 15 17 14Z",
+      "closed": true,
+      "_why": "the ear on the other side"
+    },
+    {
+      "d": "M11 16a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

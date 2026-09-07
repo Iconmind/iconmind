@@ -1,0 +1,41 @@
+{
+  "slug": "fish-tank",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Fish tank",
+  "description": "The fish under the water line",
+  "tags": [
+    "tank",
+    "water",
+    "fish"
+  ],
+  "aliases": [
+    "aquarium"
+  ],
+  "keywords": [
+    "fish tank",
+    "aquarium",
+    "goldfish",
+    "water"
+  ],
+  "family": "frame",
+  "shapes": [
+    {
+      "d": "M3 6L3 20L21 20L21 6Z",
+      "closed": true
+    },
+    {
+      "d": "M3 9H21",
+      "closed": false
+    },
+    {
+      "d": "M9 15C11 12 15 12 17 15C15 18 11 18 9 15Z",
+      "closed": true,
+      "_why": "the fish in the water"
+    },
+    {
+      "d": "M9 15L6 12",
+      "closed": false
+    }
+  ]
+}

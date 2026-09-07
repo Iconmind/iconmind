@@ -1,0 +1,37 @@
+{
+  "slug": "swing",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Swing",
+  "description": "The seat on its two ropes",
+  "tags": [
+    "swing",
+    "ropes",
+    "seat"
+  ],
+  "keywords": [
+    "swing",
+    "on the swing",
+    "ropes",
+    "play outside"
+  ],
+  "family": "frame",
+  "shapes": [
+    {
+      "d": "M5 3H19",
+      "closed": false
+    },
+    {
+      "d": "M8 3V18",
+      "closed": false
+    },
+    {
+      "d": "M16 3V18",
+      "closed": false
+    },
+    {
+      "d": "M6 18H18",
+      "closed": false
+    }
+  ]
+}

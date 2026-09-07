@@ -1,0 +1,34 @@
+{
+  "slug": "trowel",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Trowel",
+  "description": "The little blade on its grip",
+  "tags": [
+    "trowel",
+    "planting",
+    "blade"
+  ],
+  "keywords": [
+    "trowel",
+    "planting trowel",
+    "small spade",
+    "dig a hole"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M7 12H17C17 16 14 19 12 21C10 19 7 16 7 12Z",
+      "closed": true,
+      "_why": "the blade, tapering to a point"
+    },
+    {
+      "d": "M12 7V12",
+      "closed": false
+    },
+    {
+      "d": "M10 4L14 4L14 7L10 7Z",
+      "closed": true
+    }
+  ]
+}

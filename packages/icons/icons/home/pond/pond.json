@@ -1,0 +1,31 @@
+{
+  "slug": "pond",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Pond",
+  "description": "The water with a ripple across it",
+  "tags": [
+    "pond",
+    "water",
+    "ripple"
+  ],
+  "keywords": [
+    "pond",
+    "garden pond",
+    "water",
+    "ripple"
+  ],
+  "family": "water",
+  "shapes": [
+    {
+      "d": "M12 7C17 7 21 9 21 13C21 17 17 19 12 19C7 19 3 17 3 13C3 9 7 7 12 7Z",
+      "closed": true,
+      "_why": "the water, held in its edge"
+    },
+    {
+      "d": "M8 15C10 13 14 13 16 15",
+      "closed": false,
+      "_why": "a ripple across it"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "watering-can",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Watering can",
+  "description": "The can with its spout and rose",
+  "tags": [
+    "watering",
+    "spout",
+    "rose"
+  ],
+  "keywords": [
+    "watering can",
+    "water the plants",
+    "spout",
+    "can"
+  ],
+  "family": "vessel",
+  "shapes": [
+    {
+      "d": "M6 10L6 20L16 20L16 10Z",
+      "closed": true
+    },
+    {
+      "d": "M16 12L21 7",
+      "closed": false
+    },
+    {
+      "d": "M19 5L22 8",
+      "closed": false
+    },
+    {
+      "d": "M8 10C8 6 14 6 14 10",
+      "closed": false,
+      "_why": "the handle over the top"
+    }
+  ]
+}

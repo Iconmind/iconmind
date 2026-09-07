@@ -1,0 +1,40 @@
+{
+  "slug": "fertiliser",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Fertiliser",
+  "description": "The sack with the feed in it",
+  "tags": [
+    "fertiliser",
+    "sack",
+    "feed"
+  ],
+  "aliases": [
+    "plant-food"
+  ],
+  "keywords": [
+    "fertiliser",
+    "plant food",
+    "feed the plants",
+    "sack"
+  ],
+  "family": "packet",
+  "shapes": [
+    {
+      "d": "M6 21L6 8L18 8L18 21Z",
+      "closed": true
+    },
+    {
+      "d": "M6 8L9 5L15 5L18 8",
+      "closed": false
+    },
+    {
+      "d": "M9 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

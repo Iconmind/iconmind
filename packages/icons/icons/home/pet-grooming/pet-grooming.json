@@ -1,0 +1,41 @@
+{
+  "slug": "pet-grooming",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Grooming",
+  "description": "The brush and its bristles",
+  "tags": [
+    "grooming",
+    "brush",
+    "bristles"
+  ],
+  "keywords": [
+    "pet grooming",
+    "brush the coat",
+    "bristles",
+    "groom"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M4 8A2 2 0 0 1 6 6H14A2 2 0 0 1 16 8V12A2 2 0 0 1 14 14H6A2 2 0 0 1 4 12Z",
+      "closed": true
+    },
+    {
+      "d": "M6 14V18",
+      "closed": false
+    },
+    {
+      "d": "M10 14V18",
+      "closed": false
+    },
+    {
+      "d": "M14 14V18",
+      "closed": false
+    },
+    {
+      "d": "M16 10L21 10",
+      "closed": false
+    }
+  ]
+}

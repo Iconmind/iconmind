@@ -1,0 +1,36 @@
+{
+  "slug": "rabbit",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Rabbit",
+  "description": "The head under two long ears",
+  "tags": [
+    "rabbit",
+    "ears",
+    "long"
+  ],
+  "aliases": [
+    "bunny"
+  ],
+  "keywords": [
+    "rabbit",
+    "bunny",
+    "long ears",
+    "pet rabbit"
+  ],
+  "family": "animal",
+  "shapes": [
+    {
+      "d": "M7 16a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 4.5A1.5 1.5 0 0 1 8.5 3H8.5A1.5 1.5 0 0 1 10 4.5V9.5A1.5 1.5 0 0 1 8.5 11H8.5A1.5 1.5 0 0 1 7 9.5Z",
+      "closed": true
+    },
+    {
+      "d": "M14 4.5A1.5 1.5 0 0 1 15.5 3H15.5A1.5 1.5 0 0 1 17 4.5V9.5A1.5 1.5 0 0 1 15.5 11H15.5A1.5 1.5 0 0 1 14 9.5Z",
+      "closed": true
+    }
+  ]
+}

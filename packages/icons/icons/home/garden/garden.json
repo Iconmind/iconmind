@@ -1,0 +1,37 @@
+{
+  "slug": "garden",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Garden",
+  "description": "The tree and the bush on the ground",
+  "tags": [
+    "plot",
+    "grow",
+    "outdoors"
+  ],
+  "keywords": [
+    "garden",
+    "the garden",
+    "outdoors",
+    "growing"
+  ],
+  "family": "plot",
+  "shapes": [
+    {
+      "d": "M4 18H20",
+      "closed": false
+    },
+    {
+      "d": "M2 8a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 12V18",
+      "closed": false
+    },
+    {
+      "d": "M13 18A4 4 0 0 1 21 18",
+      "closed": false
+    }
+  ]
+}

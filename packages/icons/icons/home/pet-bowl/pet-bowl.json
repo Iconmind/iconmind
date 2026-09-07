@@ -1,0 +1,30 @@
+{
+  "slug": "pet-bowl",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Pet bowl",
+  "description": "The dish on its mat",
+  "tags": [
+    "bowl",
+    "dish",
+    "feed"
+  ],
+  "keywords": [
+    "pet bowl",
+    "dog bowl",
+    "feed the cat",
+    "dish"
+  ],
+  "family": "bowl",
+  "shapes": [
+    {
+      "d": "M4 8H20C20 12 17 15 12 15C7 15 4 12 4 8Z",
+      "closed": true,
+      "_why": "the dish, wide and shallow"
+    },
+    {
+      "d": "M7 18H17",
+      "closed": false
+    }
+  ]
+}

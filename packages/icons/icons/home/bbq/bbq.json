@@ -1,0 +1,41 @@
+{
+  "slug": "bbq",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Barbecue",
+  "description": "The lid over the bowl",
+  "tags": [
+    "barbecue",
+    "grill",
+    "lid"
+  ],
+  "aliases": [
+    "grill"
+  ],
+  "keywords": [
+    "bbq",
+    "barbecue",
+    "grill",
+    "cook outside"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M4 11A8 8 0 0 1 20 11",
+      "closed": false
+    },
+    {
+      "d": "M4 13H20C20 16 17 18 12 18C7 18 4 16 4 13Z",
+      "closed": true,
+      "_why": "the bowl under the lid"
+    },
+    {
+      "d": "M8 18L5 21",
+      "closed": false
+    },
+    {
+      "d": "M16 18L19 21",
+      "closed": false
+    }
+  ]
+}

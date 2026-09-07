@@ -1,0 +1,33 @@
+{
+  "slug": "spade",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Spade",
+  "description": "The blade that comes to a point",
+  "tags": [
+    "spade",
+    "dig",
+    "blade"
+  ],
+  "keywords": [
+    "spade",
+    "dig it over",
+    "blade",
+    "digging"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M8 13L16 13L16 17L12 21L8 17Z",
+      "closed": true
+    },
+    {
+      "d": "M12 6V13",
+      "closed": false
+    },
+    {
+      "d": "M9 6H15",
+      "closed": false
+    }
+  ]
+}

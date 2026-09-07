@@ -1,0 +1,37 @@
+{
+  "slug": "lawnmower",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Lawnmower",
+  "description": "The box on its two wheels",
+  "tags": [
+    "mower",
+    "cut",
+    "wheels"
+  ],
+  "keywords": [
+    "lawnmower",
+    "mow the lawn",
+    "cut the grass",
+    "mower"
+  ],
+  "family": "machine",
+  "shapes": [
+    {
+      "d": "M4 11L4 15L16 15L16 11Z",
+      "closed": true
+    },
+    {
+      "d": "M16 13L21 8",
+      "closed": false
+    },
+    {
+      "d": "M4 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

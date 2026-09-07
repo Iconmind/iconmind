@@ -1,0 +1,46 @@
+{
+  "slug": "vet",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Vet",
+  "description": "The paw and the cross beside it",
+  "tags": [
+    "vet",
+    "paw",
+    "care"
+  ],
+  "keywords": [
+    "vet",
+    "take it to the vet",
+    "animal doctor",
+    "check-up"
+  ],
+  "family": "paw",
+  "shapes": [
+    {
+      "d": "M11 19C8.5 19 6.5 17 6.5 15C6.5 13 8.5 11.5 11 11.5C13.5 11.5 15.5 13 15.5 15C15.5 17 13.5 19 11 19Z",
+      "closed": true,
+      "_why": "the pad of the paw"
+    },
+    {
+      "d": "M6 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 8a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M19 4V10",
+      "closed": false
+    },
+    {
+      "d": "M16 7H22",
+      "closed": false
+    }
+  ]
+}

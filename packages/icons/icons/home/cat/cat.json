@@ -1,0 +1,30 @@
+{
+  "slug": "cat",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Cat",
+  "description": "The head with the ears up",
+  "tags": [
+    "cat",
+    "ears",
+    "whiskers"
+  ],
+  "keywords": [
+    "cat",
+    "a cat",
+    "kitten",
+    "pet cat"
+  ],
+  "family": "animal",
+  "shapes": [
+    {
+      "d": "M5 13V5L9 9C10 8.5 14 8.5 15 9L19 5V13C20 15 20 18 18 20C16 22 8 22 6 20C4 18 4 15 5 13Z",
+      "closed": true,
+      "_why": "the head, with an ear pulled up each side"
+    },
+    {
+      "d": "M10 15L12 17L14 15",
+      "closed": false
+    }
+  ]
+}

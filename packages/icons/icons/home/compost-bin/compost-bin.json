@@ -1,0 +1,34 @@
+{
+  "slug": "compost-bin",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Compost",
+  "description": "The bin with its lid over it",
+  "tags": [
+    "compost",
+    "bin",
+    "rot"
+  ],
+  "keywords": [
+    "compost",
+    "compost bin",
+    "food waste",
+    "rot it down"
+  ],
+  "family": "vessel",
+  "shapes": [
+    {
+      "d": "M6 10L6 20L18 20L18 10Z",
+      "closed": true
+    },
+    {
+      "d": "M4 7H20",
+      "closed": false
+    },
+    {
+      "d": "M12 17C9 17 8 15 8 13C11 13 12 15 12 17Z",
+      "closed": true,
+      "_why": "a leaf going in"
+    }
+  ]
+}

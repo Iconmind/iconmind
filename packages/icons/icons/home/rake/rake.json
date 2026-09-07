@@ -1,0 +1,45 @@
+{
+  "slug": "rake",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Rake",
+  "description": "The tines under the handle",
+  "tags": [
+    "rake",
+    "tines",
+    "gather"
+  ],
+  "keywords": [
+    "rake",
+    "rake the leaves",
+    "tines",
+    "gather it up"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M12 3V14",
+      "closed": false
+    },
+    {
+      "d": "M5 14H19",
+      "closed": false
+    },
+    {
+      "d": "M6 14V18",
+      "closed": false
+    },
+    {
+      "d": "M10 14V18",
+      "closed": false
+    },
+    {
+      "d": "M14 14V18",
+      "closed": false
+    },
+    {
+      "d": "M18 14V18",
+      "closed": false
+    }
+  ]
+}

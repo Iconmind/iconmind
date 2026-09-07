@@ -1,0 +1,37 @@
+{
+  "slug": "leash",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Lead",
+  "description": "The loop and the clip on the end",
+  "tags": [
+    "lead",
+    "loop",
+    "clip"
+  ],
+  "aliases": [
+    "lead"
+  ],
+  "keywords": [
+    "leash",
+    "lead",
+    "walk the dog",
+    "clip it on"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M3 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 10C13 12 15 15 16 18",
+      "closed": false,
+      "_why": "the lead running down"
+    },
+    {
+      "d": "M16 18L19 18L19 21L16 21Z",
+      "closed": true
+    }
+  ]
+}

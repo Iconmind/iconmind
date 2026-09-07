@@ -1,0 +1,36 @@
+{
+  "slug": "weed",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Weed",
+  "description": "The one you did not plant",
+  "tags": [
+    "weed",
+    "spiky",
+    "pull"
+  ],
+  "aliases": [
+    "weeds"
+  ],
+  "keywords": [
+    "weed",
+    "weeds",
+    "pull it up",
+    "unwanted"
+  ],
+  "family": "plant",
+  "shapes": [
+    {
+      "d": "M12 4V18",
+      "closed": false
+    },
+    {
+      "d": "M12 12L8 8L12 8L8 4",
+      "closed": false
+    },
+    {
+      "d": "M5 18H19",
+      "closed": false
+    }
+  ]
+}

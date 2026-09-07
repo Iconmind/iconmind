@@ -1,0 +1,40 @@
+{
+  "slug": "lawn",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Lawn",
+  "description": "The blades standing off the ground",
+  "tags": [
+    "lawn",
+    "grass",
+    "blades"
+  ],
+  "keywords": [
+    "lawn",
+    "the grass",
+    "mow the lawn",
+    "turf"
+  ],
+  "family": "plot",
+  "shapes": [
+    {
+      "d": "M4 18H20",
+      "closed": false
+    },
+    {
+      "d": "M7 18C7 14 6 11 5 7",
+      "closed": false,
+      "_why": "a blade of grass"
+    },
+    {
+      "d": "M12 18C12 13 12 10 12 6",
+      "closed": false,
+      "_why": "a blade standing straight"
+    },
+    {
+      "d": "M17 18C17 14 18 11 19 7",
+      "closed": false,
+      "_why": "a blade leaning the other way"
+    }
+  ]
+}

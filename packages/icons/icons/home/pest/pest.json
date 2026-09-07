@@ -1,0 +1,42 @@
+{
+  "slug": "pest",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Pest",
+  "description": "The one eating the leaves",
+  "tags": [
+    "pest",
+    "insect",
+    "eats"
+  ],
+  "keywords": [
+    "pest",
+    "an insect",
+    "eating the plants",
+    "greenfly"
+  ],
+  "family": "creature",
+  "shapes": [
+    {
+      "d": "M12 6C15 6 17 9 17 13C17 17 15 20 12 20C9 20 7 17 7 13C7 9 9 6 12 6Z",
+      "closed": true,
+      "_why": "the body, long and round"
+    },
+    {
+      "d": "M7 10L4 7",
+      "closed": false
+    },
+    {
+      "d": "M17 10L20 7",
+      "closed": false
+    },
+    {
+      "d": "M7 16L4 19",
+      "closed": false
+    },
+    {
+      "d": "M17 16L20 19",
+      "closed": false
+    }
+  ]
+}

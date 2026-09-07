@@ -1,0 +1,41 @@
+{
+  "slug": "hedge-trimmer",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Hedge trimmer",
+  "description": "The blade and its teeth",
+  "tags": [
+    "trimmer",
+    "teeth",
+    "cut"
+  ],
+  "keywords": [
+    "hedge trimmer",
+    "trim the hedge",
+    "teeth",
+    "cutter"
+  ],
+  "family": "tool",
+  "shapes": [
+    {
+      "d": "M3 10H16",
+      "closed": false
+    },
+    {
+      "d": "M4 10V17",
+      "closed": false
+    },
+    {
+      "d": "M8 10V17",
+      "closed": false
+    },
+    {
+      "d": "M12 10V17",
+      "closed": false
+    },
+    {
+      "d": "M16 7L21 7L21 13L16 13Z",
+      "closed": true
+    }
+  ]
+}

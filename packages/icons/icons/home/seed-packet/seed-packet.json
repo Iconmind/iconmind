@@ -1,0 +1,37 @@
+{
+  "slug": "seed-packet",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Seeds",
+  "description": "The packet with the seeds in it",
+  "tags": [
+    "seeds",
+    "packet",
+    "sow"
+  ],
+  "keywords": [
+    "seed packet",
+    "sow the seeds",
+    "seeds",
+    "packet"
+  ],
+  "family": "packet",
+  "shapes": [
+    {
+      "d": "M6 4L18 4L18 20L6 20Z",
+      "closed": true
+    },
+    {
+      "d": "M6 8H18",
+      "closed": false
+    },
+    {
+      "d": "M9 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

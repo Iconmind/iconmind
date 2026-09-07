@@ -1,0 +1,38 @@
+{
+  "slug": "bird-cage",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Bird cage",
+  "description": "The bars up the dome",
+  "tags": [
+    "cage",
+    "bars",
+    "dome"
+  ],
+  "keywords": [
+    "bird cage",
+    "cage",
+    "bars",
+    "budgie"
+  ],
+  "family": "frame",
+  "shapes": [
+    {
+      "d": "M5 20V12C5 8 8 5 12 5C16 5 19 8 19 12V20Z",
+      "closed": true,
+      "_why": "the cage, domed over the top"
+    },
+    {
+      "d": "M9 7V20",
+      "closed": false
+    },
+    {
+      "d": "M15 7V20",
+      "closed": false
+    },
+    {
+      "d": "M12 2V5",
+      "closed": false
+    }
+  ]
+}

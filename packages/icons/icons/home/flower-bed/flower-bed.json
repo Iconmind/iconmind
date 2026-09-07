@@ -1,0 +1,41 @@
+{
+  "slug": "flower-bed",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Flower bed",
+  "description": "The two standing in the ground",
+  "tags": [
+    "flowers",
+    "bed",
+    "planted"
+  ],
+  "keywords": [
+    "flower bed",
+    "planted out",
+    "flowers",
+    "border"
+  ],
+  "family": "plot",
+  "shapes": [
+    {
+      "d": "M4 18H20",
+      "closed": false
+    },
+    {
+      "d": "M6 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 11V18",
+      "closed": false
+    },
+    {
+      "d": "M14 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 14V18",
+      "closed": false
+    }
+  ]
+}

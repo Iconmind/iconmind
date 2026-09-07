@@ -1,0 +1,41 @@
+{
+  "slug": "pet-passport",
+  "category": "home",
+  "subcategory": "garden",
+  "name": "Pet passport",
+  "description": "The book with the paw on it",
+  "tags": [
+    "passport",
+    "book",
+    "travel"
+  ],
+  "keywords": [
+    "pet passport",
+    "travel with a pet",
+    "papers",
+    "book"
+  ],
+  "family": "book",
+  "shapes": [
+    {
+      "d": "M6 3L6 21L18 21L18 3Z",
+      "closed": true
+    },
+    {
+      "d": "M8 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 16a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}
