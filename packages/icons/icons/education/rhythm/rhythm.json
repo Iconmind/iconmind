@@ -1,0 +1,40 @@
+{
+  "slug": "rhythm",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Rhythm",
+  "description": "The beats, long and short",
+  "tags": [
+    "rhythm",
+    "beat",
+    "pattern"
+  ],
+  "aliases": [
+    "beat"
+  ],
+  "keywords": [
+    "rhythm",
+    "the beat",
+    "pattern",
+    "timing"
+  ],
+  "family": "meter",
+  "shapes": [
+    {
+      "d": "M4 8V16",
+      "closed": false
+    },
+    {
+      "d": "M9 5V19",
+      "closed": false
+    },
+    {
+      "d": "M14 8V16",
+      "closed": false
+    },
+    {
+      "d": "M19 5V19",
+      "closed": false
+    }
+  ]
+}

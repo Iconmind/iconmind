@@ -1,0 +1,45 @@
+{
+  "slug": "music-scale",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Scale",
+  "description": "The notes going up step by step",
+  "tags": [
+    "scale",
+    "steps",
+    "up"
+  ],
+  "keywords": [
+    "scale",
+    "musical scale",
+    "up the scale",
+    "steps"
+  ],
+  "family": "chart",
+  "shapes": [
+    {
+      "d": "M3 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 11a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 19L9 17",
+      "closed": false
+    },
+    {
+      "d": "M13 15L15 13",
+      "closed": false
+    },
+    {
+      "d": "M19 11L19 4",
+      "closed": false
+    }
+  ]
+}

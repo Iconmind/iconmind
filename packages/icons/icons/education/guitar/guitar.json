@@ -1,0 +1,39 @@
+{
+  "slug": "guitar",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Guitar",
+  "description": "The body, the neck and the sound hole",
+  "tags": [
+    "guitar",
+    "strings",
+    "strum"
+  ],
+  "keywords": [
+    "guitar",
+    "acoustic guitar",
+    "strum",
+    "strings"
+  ],
+  "family": "guitar",
+  "shapes": [
+    {
+      "d": "M12 21A5 5 0 0 1 12 11A4 4 0 0 1 12 3",
+      "closed": false,
+      "_why": "the body: two curves out and back"
+    },
+    {
+      "d": "M12 21A5 5 0 0 0 12 11A4 4 0 0 0 12 3",
+      "closed": false,
+      "_why": "the other side of it"
+    },
+    {
+      "d": "M12 7L12 3",
+      "closed": false
+    },
+    {
+      "d": "M10 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

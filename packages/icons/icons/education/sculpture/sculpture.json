@@ -1,0 +1,40 @@
+{
+  "slug": "sculpture",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Sculpture",
+  "description": "The bust on its plinth",
+  "tags": [
+    "sculpture",
+    "bust",
+    "carve"
+  ],
+  "aliases": [
+    "statue"
+  ],
+  "keywords": [
+    "sculpture",
+    "statue",
+    "bust",
+    "carved"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 15A5 5 0 0 1 17 15",
+      "closed": false
+    },
+    {
+      "d": "M7 15L17 15L17 18L7 18Z",
+      "closed": true
+    },
+    {
+      "d": "M5 21H19",
+      "closed": false
+    }
+  ]
+}

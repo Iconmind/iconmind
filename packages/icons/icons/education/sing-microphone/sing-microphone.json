@@ -1,0 +1,35 @@
+{
+  "slug": "sing-microphone",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Microphone",
+  "description": "The mic on its stand",
+  "tags": [
+    "microphone",
+    "sing",
+    "mic"
+  ],
+  "keywords": [
+    "microphone",
+    "sing",
+    "vocals",
+    "on the mic"
+  ],
+  "family": "microphone",
+  "shapes": [
+    {
+      "d": "M12 3A3 3 0 0 1 15 6V11A3 3 0 0 1 9 11V6A3 3 0 0 1 12 3Z",
+      "closed": true,
+      "_why": "the head of the mic"
+    },
+    {
+      "d": "M6 11A6 6 0 0 0 18 11",
+      "closed": false,
+      "_why": "the cradle under it"
+    },
+    {
+      "d": "M12 17V21",
+      "closed": false
+    }
+  ]
+}

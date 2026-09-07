@@ -1,0 +1,48 @@
+{
+  "slug": "choir",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Choir",
+  "description": "Voices side by side",
+  "tags": [
+    "choir",
+    "voices",
+    "sing"
+  ],
+  "aliases": [
+    "singers"
+  ],
+  "keywords": [
+    "choir",
+    "singing together",
+    "voices",
+    "chorus"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M3 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 17A4 4 0 0 1 10 17",
+      "closed": false
+    },
+    {
+      "d": "M8 15A4 4 0 0 1 16 15",
+      "closed": false
+    },
+    {
+      "d": "M14 17A4 4 0 0 1 22 17",
+      "closed": false
+    }
+  ]
+}

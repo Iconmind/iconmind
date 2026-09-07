@@ -1,0 +1,44 @@
+{
+  "slug": "perspective-drawing",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Perspective",
+  "description": "The lines running to one point",
+  "tags": [
+    "perspective",
+    "vanishing",
+    "depth"
+  ],
+  "aliases": [
+    "vanishing-point"
+  ],
+  "keywords": [
+    "perspective",
+    "vanishing point",
+    "depth",
+    "one point"
+  ],
+  "family": "grid",
+  "shapes": [
+    {
+      "d": "M2 8H22",
+      "closed": false
+    },
+    {
+      "d": "M11 8a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 19L13 9",
+      "closed": false
+    },
+    {
+      "d": "M21 19L11 9",
+      "closed": false
+    },
+    {
+      "d": "M3 19H21",
+      "closed": false
+    }
+  ]
+}

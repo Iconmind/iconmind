@@ -166,7 +166,7 @@ export const BATCH_129: Icon[] = [
     ["pace", "speed", "dial"], ["speed"], ["pace", "speed", "minutes per kilometre", "how fast"],
     "shoe", [...SHOE(), poly([[13, 2], [9, 6], [12, 6], [8, 10]])]),
   c("cadence", "Cadence", "The crank going round with its pedal",
-    ["cadence", "rhythm", "tempo"], ["tempo"], ["cadence", "steps per minute", "rhythm", "tempo"],
+    ["cadence", "rhythm", "tempo"], [], ["cadence", "steps per minute", "rhythm", "tempo"],
     "crank", [disc(12, 13, 7), poly([[12, 13], [17, 8]]), poly([[15, 4], [20, 9]])]),
   c("calories-burned", "Calories burned", "The flame the work leaves",
     ["calories", "burn", "energy"], ["kcal"], ["calories burned", "kcal", "energy burned", "burn"],

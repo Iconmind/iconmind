@@ -1,0 +1,37 @@
+{
+  "slug": "drum",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Drum",
+  "description": "The skin, the shell and the sticks",
+  "tags": [
+    "drum",
+    "beat",
+    "sticks"
+  ],
+  "keywords": [
+    "drum",
+    "beat the drum",
+    "sticks",
+    "percussion"
+  ],
+  "family": "drum",
+  "shapes": [
+    {
+      "d": "M4 10L4 17L20 17L20 10",
+      "closed": false
+    },
+    {
+      "d": "M4 10H20",
+      "closed": false
+    },
+    {
+      "d": "M6 8L10 4",
+      "closed": false
+    },
+    {
+      "d": "M18 8L14 4",
+      "closed": false
+    }
+  ]
+}

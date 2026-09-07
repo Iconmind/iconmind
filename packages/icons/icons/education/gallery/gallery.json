@@ -1,0 +1,37 @@
+{
+  "slug": "gallery",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Gallery",
+  "description": "The picture with a light over it",
+  "tags": [
+    "gallery",
+    "hang",
+    "light"
+  ],
+  "keywords": [
+    "gallery",
+    "hung on the wall",
+    "art gallery",
+    "lit"
+  ],
+  "family": "frame",
+  "shapes": [
+    {
+      "d": "M4 10A2 2 0 0 1 6 8H18A2 2 0 0 1 20 10V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 5L16 5",
+      "closed": false
+    },
+    {
+      "d": "M12 5L12 8",
+      "closed": false
+    },
+    {
+      "d": "M9 17L13 13L17 17",
+      "closed": false
+    }
+  ]
+}

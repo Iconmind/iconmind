@@ -1,0 +1,33 @@
+{
+  "slug": "collage",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Collage",
+  "description": "Pieces laid over each other",
+  "tags": [
+    "collage",
+    "pieces",
+    "layered"
+  ],
+  "keywords": [
+    "collage",
+    "cut and paste",
+    "layered pieces",
+    "montage"
+  ],
+  "family": "stack",
+  "shapes": [
+    {
+      "d": "M3 4L12 4L12 13L3 13Z",
+      "closed": true
+    },
+    {
+      "d": "M9 9L20 9L20 20L9 20Z",
+      "closed": true
+    },
+    {
+      "d": "M14 3L21 3L21 7",
+      "closed": false
+    }
+  ]
+}

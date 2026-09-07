@@ -1,0 +1,40 @@
+{
+  "slug": "recital",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Recital",
+  "description": "The stage with the curtains open",
+  "tags": [
+    "recital",
+    "stage",
+    "perform"
+  ],
+  "aliases": [
+    "performance"
+  ],
+  "keywords": [
+    "recital",
+    "performance",
+    "on stage",
+    "play in public"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 20H22",
+      "closed": false
+    },
+    {
+      "d": "M3 3L3 14L7 14",
+      "closed": false
+    },
+    {
+      "d": "M21 3L21 14L17 14",
+      "closed": false
+    },
+    {
+      "d": "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

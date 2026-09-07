@@ -1,0 +1,37 @@
+{
+  "slug": "violin",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Violin",
+  "description": "The waisted body and its bow",
+  "tags": [
+    "violin",
+    "bow",
+    "strings"
+  ],
+  "aliases": [
+    "fiddle"
+  ],
+  "keywords": [
+    "violin",
+    "fiddle",
+    "bow",
+    "strings"
+  ],
+  "family": "violin",
+  "shapes": [
+    {
+      "d": "M9 20A4 4 0 0 1 9 12A3.5 3.5 0 0 1 9 5A3.5 3.5 0 0 1 9 12A4 4 0 0 1 9 20Z",
+      "closed": true,
+      "_why": "the waisted body"
+    },
+    {
+      "d": "M9 5L9 2",
+      "closed": false
+    },
+    {
+      "d": "M17 4L21 8",
+      "closed": false
+    }
+  ]
+}

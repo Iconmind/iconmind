@@ -1,0 +1,33 @@
+{
+  "slug": "treble-clef",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Treble clef",
+  "description": "The curl at the top of the stave",
+  "tags": [
+    "treble",
+    "clef",
+    "curl"
+  ],
+  "aliases": [
+    "g-clef"
+  ],
+  "keywords": [
+    "treble clef",
+    "g clef",
+    "the curl",
+    "notation"
+  ],
+  "family": "clef",
+  "shapes": [
+    {
+      "d": "M12 21C10 21 9 19 9 17C9 13 15 10 15 6C15 4 13 3 12 4C10 5 10 8 11 11C12 15 14 17 14 19",
+      "closed": false,
+      "_why": "the clef curling up the stave"
+    },
+    {
+      "d": "M9 16a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

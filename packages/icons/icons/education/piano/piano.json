@@ -1,0 +1,45 @@
+{
+  "slug": "piano",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Piano",
+  "description": "The white keys and the black ones",
+  "tags": [
+    "piano",
+    "keys",
+    "keyboard"
+  ],
+  "keywords": [
+    "piano",
+    "keys",
+    "keyboard",
+    "play the piano"
+  ],
+  "family": "piano",
+  "shapes": [
+    {
+      "d": "M2 8A2 2 0 0 1 4 6H20A2 2 0 0 1 22 8V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M9 6V18",
+      "closed": false
+    },
+    {
+      "d": "M15 6V18",
+      "closed": false
+    },
+    {
+      "d": "M6 6L6 13",
+      "closed": false
+    },
+    {
+      "d": "M12 6L12 13",
+      "closed": false
+    },
+    {
+      "d": "M18 6L18 13",
+      "closed": false
+    }
+  ]
+}

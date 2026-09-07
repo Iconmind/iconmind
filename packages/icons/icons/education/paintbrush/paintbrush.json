@@ -1,0 +1,36 @@
+{
+  "slug": "paintbrush",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Paintbrush",
+  "description": "The handle with its ferrule and bristles",
+  "tags": [
+    "brush",
+    "paint",
+    "bristles"
+  ],
+  "aliases": [
+    "brush"
+  ],
+  "keywords": [
+    "paintbrush",
+    "brush",
+    "paint with it",
+    "bristles"
+  ],
+  "family": "brush",
+  "shapes": [
+    {
+      "d": "M3 21L12 12",
+      "closed": false
+    },
+    {
+      "d": "M12 12L15 9L19 13L16 16Z",
+      "closed": true
+    },
+    {
+      "d": "M19 13L21 11L17 7L15 9Z",
+      "closed": true
+    }
+  ]
+}

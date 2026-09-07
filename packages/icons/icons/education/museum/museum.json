@@ -1,0 +1,41 @@
+{
+  "slug": "museum",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Museum",
+  "description": "The columns under the pediment",
+  "tags": [
+    "museum",
+    "columns",
+    "collection"
+  ],
+  "keywords": [
+    "museum",
+    "collection",
+    "columns",
+    "the museum"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 11L12 4L19 11",
+      "closed": false
+    },
+    {
+      "d": "M7 12V19",
+      "closed": false
+    },
+    {
+      "d": "M12 11V19",
+      "closed": false
+    },
+    {
+      "d": "M17 11V19",
+      "closed": false
+    },
+    {
+      "d": "M3 21H21",
+      "closed": false
+    }
+  ]
+}

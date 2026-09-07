@@ -1,0 +1,33 @@
+{
+  "slug": "metronome",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Metronome",
+  "description": "The arm swinging on the beat",
+  "tags": [
+    "metronome",
+    "swing",
+    "beat"
+  ],
+  "keywords": [
+    "metronome",
+    "keeps the beat",
+    "swinging arm",
+    "practice"
+  ],
+  "family": "metronome",
+  "shapes": [
+    {
+      "d": "M2 17L12 7L22 17Z",
+      "closed": true
+    },
+    {
+      "d": "M12 7L17 12",
+      "closed": false
+    },
+    {
+      "d": "M7 14H17",
+      "closed": false
+    }
+  ]
+}

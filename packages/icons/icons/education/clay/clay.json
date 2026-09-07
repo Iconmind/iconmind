@@ -1,0 +1,33 @@
+{
+  "slug": "clay",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Clay",
+  "description": "The lump before it is anything",
+  "tags": [
+    "clay",
+    "lump",
+    "model"
+  ],
+  "aliases": [
+    "modelling"
+  ],
+  "keywords": [
+    "clay",
+    "modelling clay",
+    "lump of clay",
+    "shape it"
+  ],
+  "family": "clay",
+  "shapes": [
+    {
+      "d": "M4 16C4 11 8 7 12 7C17 7 20 11 20 15C20 18 17 20 12 20C7 20 4 19 4 16Z",
+      "closed": true,
+      "_why": "a lump, pressed flat at the bottom"
+    },
+    {
+      "d": "M9 12L12 15",
+      "closed": false
+    }
+  ]
+}

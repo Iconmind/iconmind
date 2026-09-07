@@ -1,0 +1,37 @@
+{
+  "slug": "pottery-wheel",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Potter's wheel",
+  "description": "The pot turning on the wheel",
+  "tags": [
+    "pottery",
+    "wheel",
+    "throw"
+  ],
+  "keywords": [
+    "potter's wheel",
+    "throwing a pot",
+    "pottery",
+    "wheel"
+  ],
+  "family": "wheel",
+  "shapes": [
+    {
+      "d": "M8 14L8 8L16 8L16 14",
+      "closed": false
+    },
+    {
+      "d": "M4 14H20",
+      "closed": false
+    },
+    {
+      "d": "M12 14V20",
+      "closed": false
+    },
+    {
+      "d": "M6 20H18",
+      "closed": false
+    }
+  ]
+}

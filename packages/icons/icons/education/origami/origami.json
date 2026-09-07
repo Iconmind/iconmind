@@ -1,0 +1,36 @@
+{
+  "slug": "origami",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Origami",
+  "description": "The paper folded into a boat",
+  "tags": [
+    "origami",
+    "fold",
+    "paper"
+  ],
+  "aliases": [
+    "paper-fold"
+  ],
+  "keywords": [
+    "origami",
+    "folded paper",
+    "paper crane",
+    "fold"
+  ],
+  "family": "origami",
+  "shapes": [
+    {
+      "d": "M3 11L21 11L12 20Z",
+      "closed": true
+    },
+    {
+      "d": "M12 12L12 4",
+      "closed": false
+    },
+    {
+      "d": "M12 4L18 10",
+      "closed": false
+    }
+  ]
+}

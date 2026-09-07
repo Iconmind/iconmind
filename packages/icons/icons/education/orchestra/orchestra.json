@@ -1,0 +1,41 @@
+{
+  "slug": "orchestra",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Orchestra",
+  "description": "The players ranked in front of the stand",
+  "tags": [
+    "orchestra",
+    "players",
+    "ranks"
+  ],
+  "keywords": [
+    "orchestra",
+    "ensemble",
+    "the players",
+    "symphony"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 18A10 10 0 0 1 22 18",
+      "closed": false
+    },
+    {
+      "d": "M2 18H22",
+      "closed": false
+    },
+    {
+      "d": "M4 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

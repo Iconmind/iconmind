@@ -1,0 +1,36 @@
+{
+  "slug": "exhibition",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Exhibition",
+  "description": "The piece on its plinth",
+  "tags": [
+    "exhibition",
+    "plinth",
+    "show"
+  ],
+  "aliases": [
+    "show"
+  ],
+  "keywords": [
+    "exhibition",
+    "on show",
+    "plinth",
+    "exhibit"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 13L16 13L16 19L8 19Z",
+      "closed": true
+    },
+    {
+      "d": "M8 7a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 21H20",
+      "closed": false
+    }
+  ]
+}

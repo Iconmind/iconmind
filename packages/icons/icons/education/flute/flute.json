@@ -1,0 +1,40 @@
+{
+  "slug": "flute",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Flute",
+  "description": "The pipe with its holes",
+  "tags": [
+    "flute",
+    "pipe",
+    "holes"
+  ],
+  "aliases": [
+    "woodwind"
+  ],
+  "keywords": [
+    "flute",
+    "woodwind",
+    "holes",
+    "play the flute"
+  ],
+  "family": "flute",
+  "shapes": [
+    {
+      "d": "M3 16L17 2L21 6L7 20Z",
+      "closed": true
+    },
+    {
+      "d": "M8 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

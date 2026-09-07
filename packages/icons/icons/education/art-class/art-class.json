@@ -1,0 +1,41 @@
+{
+  "slug": "art-class",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Art class",
+  "description": "The easel with someone at it",
+  "tags": [
+    "class",
+    "lesson",
+    "learn"
+  ],
+  "keywords": [
+    "art class",
+    "art lesson",
+    "learn to paint",
+    "class"
+  ],
+  "family": "easel",
+  "shapes": [
+    {
+      "d": "M11 6A2 2 0 0 1 13 4H20A2 2 0 0 1 22 6V12A2 2 0 0 1 20 14H13A2 2 0 0 1 11 12Z",
+      "closed": true
+    },
+    {
+      "d": "M14 14L9 19",
+      "closed": false
+    },
+    {
+      "d": "M19 14L21 16",
+      "closed": false
+    },
+    {
+      "d": "M3 9a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 18A4 4 0 0 1 10 18",
+      "closed": false
+    }
+  ]
+}

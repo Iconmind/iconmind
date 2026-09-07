@@ -1,0 +1,41 @@
+{
+  "slug": "bass-clef",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Bass clef",
+  "description": "The dotted clef low on the stave",
+  "tags": [
+    "bass",
+    "clef",
+    "low"
+  ],
+  "aliases": [
+    "f-clef"
+  ],
+  "keywords": [
+    "bass clef",
+    "f clef",
+    "low notes",
+    "notation"
+  ],
+  "family": "clef",
+  "shapes": [
+    {
+      "d": "M7 6C11 6 15 8 15 12C15 16 11 19 7 20",
+      "closed": false,
+      "_why": "the clef curving down"
+    },
+    {
+      "d": "M4 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 10a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

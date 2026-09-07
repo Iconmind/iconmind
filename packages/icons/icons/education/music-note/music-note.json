@@ -1,0 +1,41 @@
+{
+  "slug": "music-note",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Note",
+  "description": "Two notes under one beam",
+  "tags": [
+    "note",
+    "music",
+    "stem"
+  ],
+  "keywords": [
+    "music note",
+    "a note",
+    "crotchet",
+    "quaver"
+  ],
+  "family": "note",
+  "shapes": [
+    {
+      "d": "M5 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 17L9 5",
+      "closed": false
+    },
+    {
+      "d": "M17 17L17 5",
+      "closed": false
+    },
+    {
+      "d": "M9 5L17 5",
+      "closed": false
+    }
+  ]
+}

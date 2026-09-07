@@ -1,0 +1,33 @@
+{
+  "slug": "sketchbook",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Sketchbook",
+  "description": "The pad with its spiral",
+  "tags": [
+    "sketchbook",
+    "pad",
+    "spiral"
+  ],
+  "keywords": [
+    "sketchbook",
+    "drawing pad",
+    "spiral pad",
+    "sketch book"
+  ],
+  "family": "notebook",
+  "shapes": [
+    {
+      "d": "M6 5A2 2 0 0 1 8 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H8A2 2 0 0 1 6 19Z",
+      "closed": true
+    },
+    {
+      "d": "M10 3V21",
+      "closed": false
+    },
+    {
+      "d": "M13 15L16 12L19 15",
+      "closed": false
+    }
+  ]
+}

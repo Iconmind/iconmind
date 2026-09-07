@@ -1,0 +1,36 @@
+{
+  "slug": "conductor",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Conductor",
+  "description": "The baton up",
+  "tags": [
+    "conductor",
+    "baton",
+    "lead"
+  ],
+  "aliases": [
+    "baton"
+  ],
+  "keywords": [
+    "conductor",
+    "baton",
+    "leads the orchestra",
+    "conduct"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M6 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4.5 16A4.5 4.5 0 0 1 13.5 16",
+      "closed": false
+    },
+    {
+      "d": "M14 12L21 5",
+      "closed": false
+    }
+  ]
+}

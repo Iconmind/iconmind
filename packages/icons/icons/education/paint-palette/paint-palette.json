@@ -1,0 +1,38 @@
+{
+  "slug": "paint-palette",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Palette",
+  "description": "The board with the colours on it",
+  "tags": [
+    "palette",
+    "colours",
+    "board"
+  ],
+  "keywords": [
+    "palette",
+    "paint palette",
+    "colours",
+    "mixing board"
+  ],
+  "family": "palette",
+  "shapes": [
+    {
+      "d": "M12 3A9 9 0 1 0 12 21A2.5 2.5 0 0 0 12 16A2 2 0 0 1 12 12H17A4 4 0 0 0 21 8C21 5 17 3 12 3Z",
+      "closed": true,
+      "_why": "the board with a thumb hole cut out of it"
+    },
+    {
+      "d": "M7 8a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 13a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 17a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

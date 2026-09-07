@@ -1,0 +1,41 @@
+{
+  "slug": "dance",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Dance",
+  "description": "The figure mid-step",
+  "tags": [
+    "dance",
+    "step",
+    "move"
+  ],
+  "keywords": [
+    "dance",
+    "dancing",
+    "a step",
+    "move to it"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M10 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 8L13 14",
+      "closed": false
+    },
+    {
+      "d": "M9 7L13 11L17 7",
+      "closed": false
+    },
+    {
+      "d": "M13 14L8 19",
+      "closed": false
+    },
+    {
+      "d": "M13 14L18 19",
+      "closed": false
+    }
+  ]
+}

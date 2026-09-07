@@ -1,0 +1,41 @@
+{
+  "slug": "chord",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Chord",
+  "description": "Three notes sounded together",
+  "tags": [
+    "chord",
+    "together",
+    "notes"
+  ],
+  "keywords": [
+    "chord",
+    "notes together",
+    "harmony",
+    "triad"
+  ],
+  "family": "note",
+  "shapes": [
+    {
+      "d": "M8 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 13a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 18L12 4",
+      "closed": false
+    },
+    {
+      "d": "M12 4L17 4",
+      "closed": false
+    }
+  ]
+}

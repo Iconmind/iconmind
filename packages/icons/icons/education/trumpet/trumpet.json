@@ -1,0 +1,40 @@
+{
+  "slug": "trumpet",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Trumpet",
+  "description": "The bell and the valves",
+  "tags": [
+    "trumpet",
+    "brass",
+    "valves"
+  ],
+  "aliases": [
+    "brass"
+  ],
+  "keywords": [
+    "trumpet",
+    "brass",
+    "valves",
+    "play the trumpet"
+  ],
+  "family": "trumpet",
+  "shapes": [
+    {
+      "d": "M13 11L2 11L2 15L13 15",
+      "closed": false
+    },
+    {
+      "d": "M13 9L19 3L19 21L13 15Z",
+      "closed": true
+    },
+    {
+      "d": "M5 7V11",
+      "closed": false
+    },
+    {
+      "d": "M9 7V11",
+      "closed": false
+    }
+  ]
+}

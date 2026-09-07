@@ -1,0 +1,40 @@
+{
+  "slug": "shade-tint",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Shade and tint",
+  "description": "The same colour, light to dark",
+  "tags": [
+    "shade",
+    "tint",
+    "steps"
+  ],
+  "aliases": [
+    "tone"
+  ],
+  "keywords": [
+    "shade and tint",
+    "tone",
+    "light to dark",
+    "steps"
+  ],
+  "family": "stack",
+  "shapes": [
+    {
+      "d": "M3 5L21 5L21 11L3 11Z",
+      "closed": true
+    },
+    {
+      "d": "M3 14L21 14L21 20L3 20Z",
+      "closed": true
+    },
+    {
+      "d": "M6 8H18",
+      "closed": false
+    },
+    {
+      "d": "M12 17H18",
+      "closed": false
+    }
+  ]
+}

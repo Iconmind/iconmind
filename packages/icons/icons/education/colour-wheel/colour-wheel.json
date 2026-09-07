@@ -1,0 +1,40 @@
+{
+  "slug": "colour-wheel",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Colour wheel",
+  "description": "The circle with the primaries in it",
+  "tags": [
+    "colour",
+    "wheel",
+    "hues"
+  ],
+  "aliases": [
+    "color-wheel"
+  ],
+  "keywords": [
+    "colour wheel",
+    "color wheel",
+    "hues",
+    "spectrum"
+  ],
+  "family": "wheel",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 15a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

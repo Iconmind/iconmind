@@ -1,0 +1,41 @@
+{
+  "slug": "theatre-mask",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Theatre",
+  "description": "The mask of the play",
+  "tags": [
+    "theatre",
+    "mask",
+    "drama"
+  ],
+  "aliases": [
+    "drama"
+  ],
+  "keywords": [
+    "theatre",
+    "drama",
+    "mask",
+    "the play"
+  ],
+  "family": "mask",
+  "shapes": [
+    {
+      "d": "M5 5H19V13A7 7 0 0 1 5 13Z",
+      "closed": true,
+      "_why": "the mask, rounded at the chin"
+    },
+    {
+      "d": "M8 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 9a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 13A4 4 0 0 1 8 13",
+      "closed": false
+    }
+  ]
+}

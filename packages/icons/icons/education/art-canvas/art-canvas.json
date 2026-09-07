@@ -1,0 +1,33 @@
+{
+  "slug": "art-canvas",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Canvas",
+  "description": "The cloth stretched on its frame",
+  "tags": [
+    "canvas",
+    "stretched",
+    "blank"
+  ],
+  "keywords": [
+    "canvas",
+    "stretched canvas",
+    "blank canvas",
+    "paint on it"
+  ],
+  "family": "frame",
+  "shapes": [
+    {
+      "d": "M3 6A2 2 0 0 1 5 4H19A2 2 0 0 1 21 6V18A2 2 0 0 1 19 20H5A2 2 0 0 1 3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M5 6L9 10",
+      "closed": false
+    },
+    {
+      "d": "M19 18L15 14",
+      "closed": false
+    }
+  ]
+}

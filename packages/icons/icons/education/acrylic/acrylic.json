@@ -1,0 +1,40 @@
+{
+  "slug": "acrylic",
+  "category": "education",
+  "subcategory": "arts",
+  "name": "Paint tube",
+  "description": "The tube with its cap",
+  "tags": [
+    "acrylic",
+    "tube",
+    "squeeze"
+  ],
+  "aliases": [
+    "paint-tube"
+  ],
+  "keywords": [
+    "acrylic",
+    "paint tube",
+    "squeeze it out",
+    "tube"
+  ],
+  "family": "tube",
+  "shapes": [
+    {
+      "d": "M6 20L6 8L18 8L18 20Z",
+      "closed": true
+    },
+    {
+      "d": "M6 8L9 5L15 5L18 8",
+      "closed": false
+    },
+    {
+      "d": "M6 11H18",
+      "closed": false
+    },
+    {
+      "d": "M10 5L10 2L14 2L14 5",
+      "closed": false
+    }
+  ]
+}
