@@ -21,16 +21,13 @@
   "family": "origami",
   "shapes": [
     {
-      "d": "M3 11L21 11L12 20Z",
+      "d": "M3 14H21C20 17 17 20 12 20C7 20 4 17 3 14Z",
+      "closed": true,
+      "_why": "the hull, rounded at the bottom"
+    },
+    {
+      "d": "M11 11L11 3L19 11Z",
       "closed": true
-    },
-    {
-      "d": "M12 12L12 4",
-      "closed": false
-    },
-    {
-      "d": "M12 4L18 10",
-      "closed": false
     }
   ]
 }

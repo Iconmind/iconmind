@@ -3,7 +3,7 @@
   "category": "education",
   "subcategory": "arts",
   "name": "Ballet",
-  "description": "The shoe with its ribbons",
+  "description": "The shoe with its ribbon",
   "tags": [
     "ballet",
     "shoe",
@@ -21,17 +21,14 @@
   "family": "shoe",
   "shapes": [
     {
-      "d": "M4 18C4 15 6 13 10 13C14 13 16 14 18 16C19 17 18 19 16 19H7C5 19 4 19 4 18Z",
+      "d": "M3 18C3 12 6 9 10 9C15 9 19 12.5 20 16C20.5 17.5 20 18 18 18Z",
       "closed": true,
       "_why": "the slipper, flat along the sole"
     },
     {
-      "d": "M10 13L6 9",
-      "closed": false
-    },
-    {
-      "d": "M15 14L19 10",
-      "closed": false
+      "d": "M10 9C9 6 7 5 5 4",
+      "closed": false,
+      "_why": "the ribbon trailing from the throat"
     }
   ]
 }

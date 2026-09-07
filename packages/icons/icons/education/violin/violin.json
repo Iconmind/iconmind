@@ -3,7 +3,7 @@
   "category": "education",
   "subcategory": "arts",
   "name": "Violin",
-  "description": "The waisted body and its bow",
+  "description": "The waisted body and its f-holes",
   "tags": [
     "violin",
     "bow",
@@ -21,16 +21,20 @@
   "family": "violin",
   "shapes": [
     {
-      "d": "M9 20A4 4 0 0 1 9 12A3.5 3.5 0 0 1 9 5A3.5 3.5 0 0 1 9 12A4 4 0 0 1 9 20Z",
+      "d": "M12 21C8 21 4 19.5 4 17C4 14.5 9 13.5 9 12C9 10.5 5.5 10 5.5 8.5C5.5 7 8 6 10 6H14C16 6 18.5 7 18.5 8.5C18.5 10 15 10.5 15 12C15 13.5 20 14.5 20 17C20 19.5 16 21 12 21Z",
       "closed": true,
-      "_why": "the waisted body"
+      "_why": "the body: two bouts pinched at the waist"
     },
     {
-      "d": "M9 5L9 2",
+      "d": "M12 2V6",
       "closed": false
     },
     {
-      "d": "M17 4L21 8",
+      "d": "M8 15V18",
+      "closed": false
+    },
+    {
+      "d": "M16 15V18",
       "closed": false
     }
   ]

@@ -3,7 +3,7 @@
   "category": "education",
   "subcategory": "arts",
   "name": "Potter's wheel",
-  "description": "The pot turning on the wheel",
+  "description": "The pot over the turning wheel",
   "tags": [
     "pottery",
     "wheel",
@@ -18,19 +18,20 @@
   "family": "wheel",
   "shapes": [
     {
-      "d": "M8 14L8 8L16 8L16 14",
+      "d": "M9 13C7 11 8 8 10 6H14C16 8 17 11 15 13Z",
+      "closed": true,
+      "_why": "the pot, bellied and open at the top"
+    },
+    {
+      "d": "M3 16H21",
       "closed": false
     },
     {
-      "d": "M4 14H20",
+      "d": "M12 16V20",
       "closed": false
     },
     {
-      "d": "M12 14V20",
-      "closed": false
-    },
-    {
-      "d": "M6 20H18",
+      "d": "M7 20H17",
       "closed": false
     }
   ]

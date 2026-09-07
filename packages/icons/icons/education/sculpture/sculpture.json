@@ -25,16 +25,12 @@
       "closed": true
     },
     {
-      "d": "M7 15A5 5 0 0 1 17 15",
+      "d": "M7 13A5 5 0 0 1 17 13",
       "closed": false
     },
     {
-      "d": "M7 15L17 15L17 18L7 18Z",
+      "d": "M7 16L17 16L17 20L7 20Z",
       "closed": true
-    },
-    {
-      "d": "M5 21H19",
-      "closed": false
     }
   ]
 }

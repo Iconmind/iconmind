@@ -3,7 +3,7 @@
   "category": "education",
   "subcategory": "arts",
   "name": "Clay",
-  "description": "The lump before it is anything",
+  "description": "The lump waiting on the board",
   "tags": [
     "clay",
     "lump",
@@ -21,12 +21,12 @@
   "family": "clay",
   "shapes": [
     {
-      "d": "M4 16C4 11 8 7 12 7C17 7 20 11 20 15C20 18 17 20 12 20C7 20 4 19 4 16Z",
+      "d": "M4 14C4 8 8 4 12 4C17 4 20 9 20 13C20 17 17 18 12 18C7 18 4 18 4 14Z",
       "closed": true,
-      "_why": "a lump, pressed flat at the bottom"
+      "_why": "a lump, flattened where it sits"
     },
     {
-      "d": "M9 12L12 15",
+      "d": "M6 21H18",
       "closed": false
     }
   ]

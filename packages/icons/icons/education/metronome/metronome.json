@@ -18,15 +18,20 @@
   "family": "metronome",
   "shapes": [
     {
-      "d": "M2 17L12 7L22 17Z",
-      "closed": true
+      "d": "M4 20C5 13 8 6 10 3H14C16 6 19 13 20 20",
+      "closed": false,
+      "_why": "the case, tapering to the top"
     },
     {
-      "d": "M12 7L17 12",
+      "d": "M4 20H20",
       "closed": false
     },
     {
-      "d": "M7 14H17",
+      "d": "M12 7V19",
+      "closed": false
+    },
+    {
+      "d": "M10 11H14",
       "closed": false
     }
   ]

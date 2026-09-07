@@ -15,19 +15,23 @@
     "beats per minute",
     "pace"
   ],
-  "family": "metronome",
+  "family": "tempo",
   "shapes": [
     {
-      "d": "M2 17L12 7L22 17Z",
+      "d": "M4 17a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
       "closed": true
     },
     {
-      "d": "M12 7L12 14",
+      "d": "M10 17L10 6",
       "closed": false
     },
     {
-      "d": "M11 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
-      "closed": true
+      "d": "M13 8L17 12L13 16",
+      "closed": false
+    },
+    {
+      "d": "M18 8L22 12L18 16",
+      "closed": false
     }
   ]
 }
