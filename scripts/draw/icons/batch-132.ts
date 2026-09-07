@@ -171,7 +171,7 @@ export const BATCH_132: Icon[] = [
     "ear", [rect(3, 3, 18, 18, 2), raw("M10 18V15C8 14 7 12 7 10A5 5 0 0 1 17 10C17 11 16 12 15 12", "an ear inside the square", false)]),
   c("mental-health-first-aid", "Mental health first aid", "The head with a cross beside it",
     ["mind", "first-aid", "help"], [], ["mental health first aid", "mental health support", "first aid for the mind", "help"],
-    "head", [raw("M4 21V16A6 6 0 1 1 16 16V21", "a head over its shoulders", false), ...CROSS(19, 6, 3)]),
+    "head", [raw("M5 21V18C3.5 16.5 3 14 3 11.5A6 6 0 0 1 15 10.5C15 12 16.5 12.5 16.5 13.5C16.5 14.5 15.5 14.5 15 14.5V17A1.5 1.5 0 0 1 13.5 18.5H11V21", "a head in profile: the brow, the nose and the chin", false), ...CROSS(19, 7, 3)]),
 
   /* ── keeping well ───────────────────────────────────────────────────────────── */
   c("hand-wash", "Wash your hands", "The hands under the water",
@@ -188,7 +188,7 @@ export const BATCH_132: Icon[] = [
     "page", [rect(4, 3, 16, 18, 2), poly([[6, 8], [8, 10], [12, 6]]), row(8, 14, 18), poly([[6, 15], [8, 17], [12, 13]]), row(15, 14, 18)]),
   c("temperature-check", "Temperature check", "The reading taken at the door",
     ["temperature", "check", "reading"], [], ["temperature check", "take a temperature", "thermal check", "screening"],
-    "figure", [raw("M4 19V14A6 6 0 1 1 16 14V19", "a head over its shoulders", false), poly([[22, 7], [18, 7], [18, 12], [22, 12]]), poly([[18, 9.5], [15, 9.5]])]),
+    "figure", [raw("M6 21V17C4 15 3 12 3 9A7 7 0 0 1 17 8C17 10 19 11 19 12C19 13 18 13 17 13V16A2 2 0 0 1 15 18H12V21", "a head in profile: the brow, the nose and the chin", false), poly([[22, 3], [18, 3], [18, 8], [22, 8]]), poly([[18, 5.5], [15, 5.5]])]),
   c("sick-leave", "Sick leave", "The day off with a cross on it",
     ["sick", "leave", "off"], ["off-sick"], ["sick leave", "off sick", "sick day", "day off ill"],
     "window", [...CAL(), ...CROSS(12, 15, 3)]),

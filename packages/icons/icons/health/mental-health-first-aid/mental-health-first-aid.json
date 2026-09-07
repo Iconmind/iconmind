@@ -18,16 +18,16 @@
   "family": "head",
   "shapes": [
     {
-      "d": "M4 21V16A6 6 0 1 1 16 16V21",
+      "d": "M5 21V18C3.5 16.5 3 14 3 11.5A6 6 0 0 1 15 10.5C15 12 16.5 12.5 16.5 13.5C16.5 14.5 15.5 14.5 15 14.5V17A1.5 1.5 0 0 1 13.5 18.5H11V21",
       "closed": false,
-      "_why": "a head over its shoulders"
+      "_why": "a head in profile: the brow, the nose and the chin"
     },
     {
-      "d": "M19 3V9",
+      "d": "M19 4V10",
       "closed": false
     },
     {
-      "d": "M16 6H22",
+      "d": "M16 7H22",
       "closed": false
     }
   ]

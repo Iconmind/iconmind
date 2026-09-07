@@ -17,8 +17,10 @@ const c = (
   tags, aliases, keywords, family, shapes,
 });
 
+/** The head in profile, drawn small enough to leave room for a mark beside it. */
+const HEAD_SM = () => raw("M5 21V18C3.5 16.5 3 14 3 11.5A6 6 0 0 1 15 10.5C15 12 16.5 12.5 16.5 13.5C16.5 14.5 15.5 14.5 15 14.5V17A1.5 1.5 0 0 1 13.5 18.5H11V21", "a head in profile: the brow, the nose and the chin", false);
 /** The head and neck, seen from the front. What is on the mind sits inside it. */
-const HEAD = () => raw("M6 21V16A7 7 0 1 1 18 16V21", "a head over its shoulders", false);
+const HEAD = () => raw("M6 21V17C4 15 3 12 3 9A7 7 0 0 1 17 8C17 10 19 11 19 12C19 13 18 13 17 13V16A2 2 0 0 1 15 18H12V21", "a head in profile: the brow, the nose and the chin", false);
 /** Two eyes, wide apart. The interface already owns both the round smiley and the square
  * one, so a mood here is a pair of eyes and a mouth with no frame at all. */
 const FACE = () => [disc(6, 7, 2), disc(18, 7, 2)];
@@ -38,7 +40,7 @@ export const BATCH_131: Icon[] = [
   /* ── attention ──────────────────────────────────────────────────────────────── */
   c("mindfulness", "Mindfulness", "The head with one still point in it",
     ["attention", "present", "still"], [], ["mindfulness", "mindful", "be present", "attention"],
-    "head", [HEAD(), disc(12, 12, 3)]),
+    "head", [HEAD(), disc(10, 9, 3)]),
   c("meditation", "Meditation", "The figure sitting with its hands in its lap",
     ["meditate", "sit", "quiet"], ["meditate"], ["meditation", "meditate", "sitting practice", "quiet"],
     "lotus", [disc(12, 5, 3), poly([[4, 19], [12, 11], [20, 19]], true), row(16, 7, 17)]),
@@ -99,13 +101,13 @@ export const BATCH_131: Icon[] = [
   /* ── pressure ───────────────────────────────────────────────────────────────── */
   c("stress", "Stress", "The head with a bolt through it",
     ["stress", "pressure", "strain"], [], ["stress", "stressed", "under pressure", "strain"],
-    "head", [HEAD(), poly([[13, 8], [9, 12], [12, 12], [8, 16]])]),
+    "head", [HEAD(), poly([[12, 5], [8, 9], [11, 9], [7, 13]])]),
   c("stress-level", "Stress level", "The meter filling across",
     ["level", "meter", "amount"], [], ["stress level", "how stressed", "meter", "level"],
     "meter", [row(15, 2, 22), raw("M12 8L16 12H8Z", "the pointer standing on the scale", true), col(6, 15, 18), col(12, 15, 18), col(18, 15, 18)]),
   c("anxiety", "Anxiety", "The head with the thought going round",
     ["anxiety", "worry", "loop"], ["worry"], ["anxiety", "anxious", "worry", "racing thoughts"],
-    "head", [HEAD(), poly([[8, 10], [11, 13], [8, 16], [11, 19]])]),
+    "head", [HEAD(), poly([[7, 6], [10, 9], [7, 12], [10, 15]])]),
   c("burnout", "Burnout", "The candle down to its stub",
     ["burnout", "spent", "candle"], [], ["burnout", "burnt out", "spent", "running on empty"],
     "candle", [poly([[8, 20], [8, 15], [16, 15], [16, 20]], true), poly([[12, 15], [12, 12]]), raw("M12 5C13 7.5 15 8.5 15 11A3 3 0 1 1 9 11C9 9 10.5 8.5 10.5 7.5C11 8 12 8 12 5Z", "a flame: the tongue curling up from a round belly", true)]),
@@ -160,7 +162,7 @@ export const BATCH_131: Icon[] = [
     "stones", [raw("M6 5A2 2 0 0 0 6 9H18A2 2 0 0 0 18 5Z", "the top stone", true), raw("M4 12A2.5 2.5 0 0 0 4 17H20A2.5 2.5 0 0 0 20 12Z", "the stone under it", true), row(20, 3, 21)]),
   c("nature-walk", "Walk outside", "The tree and the path up to it",
     ["walk", "outside", "tree"], ["outdoors"], ["walk outside", "nature walk", "outdoors", "a walk"],
-    "tree", [disc(15, 8, 6), poly([[15, 14], [15, 21]]), poly([[2, 21], [6, 17], [6, 13]])]),
+    "tree", [poly([[12, 3], [19, 10], [5, 10]], true), poly([[12, 8], [20, 16], [4, 16]], true), col(12, 16, 20), disc(3, 20, 1), disc(8, 20, 1)]),
   c("sunlight-break", "Get some light", "The door open and the light coming in",
     ["light", "window", "sun"], ["daylight"], ["get some light", "daylight", "sunlight", "step outside"],
     "door", [poly([[5, 21], [5, 4], [13, 4], [13, 21]]), disc(11, 13, 1), poly([[16, 8], [21, 8]]), poly([[16, 12], [21, 12]]), poly([[16, 16], [21, 16]])]),
@@ -183,7 +185,7 @@ export const BATCH_131: Icon[] = [
     "phone", [PHONE(), col(19, 3, 8), disc(19, 11, 1)]),
   c("talk", "Talking", "The words going out",
     ["talk", "speak", "say"], ["speak"], ["talking", "talk", "speak up", "say it"],
-    "head", [raw("M5 21V16A5 5 0 1 1 15 16V21", "a head over its shoulders", false), arc(16, 10, 3, 270, 90), arc(16, 10, 5, 270, 90)]),
+    "head", [HEAD_SM(), arc(18, 12, 2, 270, 90), arc(18, 12, 4, 270, 90)]),
   c("listen", "Listening", "The ear turned towards you",
     ["listen", "ear", "hear"], ["hear"], ["listening", "listen", "hear", "an ear"],
     "ear", [raw("M8 21V17C6 16 5 13 5 10A6 6 0 0 1 17 10C17 12 15 13 14 13C13 13 12 12 12 11", "an ear: the whorl and the lobe under it", false)]),

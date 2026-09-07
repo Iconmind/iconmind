@@ -21,12 +21,12 @@
   "family": "head",
   "shapes": [
     {
-      "d": "M6 21V16A7 7 0 1 1 18 16V21",
+      "d": "M6 21V17C4 15 3 12 3 9A7 7 0 0 1 17 8C17 10 19 11 19 12C19 13 18 13 17 13V16A2 2 0 0 1 15 18H12V21",
       "closed": false,
-      "_why": "a head over its shoulders"
+      "_why": "a head in profile: the brow, the nose and the chin"
     },
     {
-      "d": "M8 10L11 13L8 16L11 19",
+      "d": "M7 6L10 9L7 12L10 15",
       "closed": false
     }
   ]
