@@ -1,0 +1,30 @@
+{
+  "slug": "storm-warning",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Storm warning",
+  "description": "The triangle with a bolt in it",
+  "tags": [
+    "storm",
+    "warning",
+    "danger"
+  ],
+  "keywords": [
+    "storm warning",
+    "severe storm",
+    "storm alert",
+    "danger"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 3.5L21.5 20H2.5Z",
+      "closed": true,
+      "_why": "the warning triangle: sides at 60°, the shape a road sign takes"
+    },
+    {
+      "d": "M13.5 10L11 12.5L13.5 12.5L11 15",
+      "closed": false
+    }
+  ]
+}

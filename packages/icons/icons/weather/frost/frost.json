@@ -1,0 +1,39 @@
+{
+  "slug": "frost",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Frost",
+  "description": "Crystals along a line — the ground gone white",
+  "tags": [
+    "frost",
+    "crystals",
+    "cold"
+  ],
+  "keywords": [
+    "frost",
+    "frosty",
+    "ground frost",
+    "hoar frost"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 18H22",
+      "closed": false
+    },
+    {
+      "d": "M7 7.5V14.5M3.5 14.5L10.5 7.5",
+      "closed": false,
+      "_why": "a flake: two bars crossing at their middle, which is as many crossings as one drawing may hold"
+    },
+    {
+      "d": "M17 7.5V14.5M13.5 14.5L20.5 7.5",
+      "closed": false,
+      "_why": "a flake: two bars crossing at their middle, which is as many crossings as one drawing may hold"
+    },
+    {
+      "d": "M12 9V18",
+      "closed": false
+    }
+  ]
+}

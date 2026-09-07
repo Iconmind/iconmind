@@ -1,0 +1,30 @@
+{
+  "slug": "ash-cloud",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Ash cloud",
+  "description": "The cloud over the mountain",
+  "tags": [
+    "ash",
+    "cloud",
+    "volcanic"
+  ],
+  "keywords": [
+    "ash cloud",
+    "volcanic ash",
+    "ash plume",
+    "flight ash warning"
+  ],
+  "family": "cloud",
+  "shapes": [
+    {
+      "d": "M4 12A3.5 3.5 0 0 1 6 5.5A4.5 4.5 0 0 1 14.5 4.5A5 5 0 0 1 18 12Z",
+      "closed": true,
+      "_why": "the ash cloud above"
+    },
+    {
+      "d": "M5 21L12 14L19 21Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "hurricane",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Hurricane",
+  "description": "The spiral with an eye at its centre",
+  "tags": [
+    "hurricane",
+    "spiral",
+    "eye"
+  ],
+  "keywords": [
+    "hurricane",
+    "tropical storm",
+    "spiral storm",
+    "eye of the storm"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 12A6 6 0 0 1 18 12",
+      "closed": false
+    },
+    {
+      "d": "M18 12A6 6 0 0 1 6 12",
+      "closed": false
+    },
+    {
+      "d": "M18 12L18 4L11 4",
+      "closed": false
+    },
+    {
+      "d": "M6 12L6 20L13 20",
+      "closed": false
+    }
+  ]
+}

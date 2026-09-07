@@ -1,0 +1,41 @@
+{
+  "slug": "cyclone",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Cyclone",
+  "description": "The spiral drawn as three curved arms",
+  "tags": [
+    "cyclone",
+    "spiral",
+    "wind"
+  ],
+  "keywords": [
+    "cyclone",
+    "cyclonic storm",
+    "spiral wind",
+    "cyclone warning"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 17A5 5 0 0 1 9 7",
+      "closed": false
+    },
+    {
+      "d": "M15 7A5 5 0 0 1 15 17",
+      "closed": false
+    },
+    {
+      "d": "M2 5H9",
+      "closed": false
+    },
+    {
+      "d": "M15 19H22",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "wildfire",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Wildfire",
+  "description": "The flame over the ground",
+  "tags": [
+    "fire",
+    "wildfire",
+    "burn"
+  ],
+  "aliases": [
+    "bushfire"
+  ],
+  "keywords": [
+    "wildfire",
+    "bushfire",
+    "forest fire",
+    "fire warning"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 2C14 6 18 8 18 13A6 6 0 1 1 6 13C6 9 9 8 9 5C10 6 12 6 12 2Z",
+      "closed": true,
+      "_why": "a flame: the tongue curling up from a round belly"
+    },
+    {
+      "d": "M3 21H21",
+      "closed": false
+    }
+  ]
+}

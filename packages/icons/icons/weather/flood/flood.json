@@ -1,0 +1,33 @@
+{
+  "slug": "flood",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Flood",
+  "description": "The house with the water over its floor",
+  "tags": [
+    "flood",
+    "water",
+    "rising"
+  ],
+  "keywords": [
+    "flood",
+    "flooding",
+    "water rising",
+    "flooded house"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M5 11L12 4L19 11",
+      "closed": false
+    },
+    {
+      "d": "M7 11L7 16L17 16L17 11",
+      "closed": false
+    },
+    {
+      "d": "M3 19L5.5 16.5L8 19L10.5 16.5L13 19L15.5 16.5L18 19L20.5 16.5",
+      "closed": false
+    }
+  ]
+}

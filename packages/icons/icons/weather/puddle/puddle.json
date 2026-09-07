@@ -1,0 +1,31 @@
+{
+  "slug": "puddle",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Puddle",
+  "description": "The water lying on the ground with a drop over it",
+  "tags": [
+    "puddle",
+    "water",
+    "ground"
+  ],
+  "keywords": [
+    "puddle",
+    "standing water",
+    "wet ground",
+    "water on the road"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 4L14.5 6.5A2.5 2.5 0 0 1 9.5 6.5Z",
+      "closed": true,
+      "_why": "a drop: a point above one round belly"
+    },
+    {
+      "d": "M3 15A9 3.5 0 1 0 21 15A9 3.5 0 1 0 3 15Z",
+      "closed": true,
+      "_why": "a puddle: a flat ellipse, the water lying on the ground"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "tornado-warning",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Tornado warning",
+  "description": "The triangle with the funnel in it",
+  "tags": [
+    "tornado",
+    "warning",
+    "take-cover"
+  ],
+  "keywords": [
+    "tornado warning",
+    "take cover",
+    "twister warning",
+    "tornado alert"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 3.5L21.5 20H2.5Z",
+      "closed": true,
+      "_why": "the warning triangle: sides at 60°, the shape a road sign takes"
+    },
+    {
+      "d": "M7 11H17",
+      "closed": false
+    },
+    {
+      "d": "M9.5 14H14.5",
+      "closed": false
+    },
+    {
+      "d": "M11 17H13.5",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "snowfall",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Snowfall",
+  "description": "Flakes falling past each other",
+  "tags": [
+    "snowfall",
+    "falling",
+    "steady"
+  ],
+  "keywords": [
+    "snowfall",
+    "falling snow",
+    "steady snow",
+    "snow coming down"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 3.5V10.5M4.5 10.5L11.5 3.5",
+      "closed": false,
+      "_why": "a flake: two bars crossing at their middle, which is as many crossings as one drawing may hold"
+    },
+    {
+      "d": "M16 10.5V17.5M12.5 17.5L19.5 10.5",
+      "closed": false,
+      "_why": "a flake: two bars crossing at their middle, which is as many crossings as one drawing may hold"
+    },
+    {
+      "d": "M4 21H20",
+      "closed": false
+    }
+  ]
+}

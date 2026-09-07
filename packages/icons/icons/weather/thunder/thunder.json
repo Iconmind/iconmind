@@ -1,0 +1,34 @@
+{
+  "slug": "thunder",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Thunder",
+  "description": "The cloud with sound coming out of it",
+  "tags": [
+    "thunder",
+    "sound",
+    "rumble"
+  ],
+  "keywords": [
+    "thunder",
+    "rumble",
+    "thunderclap",
+    "sound of the storm"
+  ],
+  "family": "cloud",
+  "shapes": [
+    {
+      "d": "M4 14A4 4 0 0 1 6 6.5A5 5 0 0 1 15.5 5A5.5 5.5 0 0 1 20 14Z",
+      "closed": true,
+      "_why": "three lobes, each an arc whose radius is set by the chord it spans — 4 across 7.76, 5 across 9.62, 5.5 across 10.06 — which no constructor takes as an argument"
+    },
+    {
+      "d": "M9.18 17.97A3 3 0 0 1 14.82 17.97",
+      "closed": false
+    },
+    {
+      "d": "M6.36 16.95A6 6 0 0 1 17.64 16.95",
+      "closed": false
+    }
+  ]
+}

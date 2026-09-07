@@ -1,0 +1,33 @@
+{
+  "slug": "thunderstorm",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Thunderstorm",
+  "description": "The cloud with a bolt out of it",
+  "tags": [
+    "thunder",
+    "storm",
+    "lightning"
+  ],
+  "aliases": [
+    "storm"
+  ],
+  "keywords": [
+    "thunderstorm",
+    "storm",
+    "thunder and lightning",
+    "electrical storm"
+  ],
+  "family": "cloud",
+  "shapes": [
+    {
+      "d": "M4 14A4 4 0 0 1 6 6.5A5 5 0 0 1 15.5 5A5.5 5.5 0 0 1 20 14Z",
+      "closed": true,
+      "_why": "three lobes, each an arc whose radius is set by the chord it spans — 4 across 7.76, 5 across 9.62, 5.5 across 10.06 — which no constructor takes as an argument"
+    },
+    {
+      "d": "M13.5 16.5L11 19L13.5 19L11 21.5",
+      "closed": false
+    }
+  ]
+}

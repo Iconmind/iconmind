@@ -1,0 +1,33 @@
+{
+  "slug": "tsunami",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Tsunami",
+  "description": "The wave curling over the shore",
+  "tags": [
+    "tsunami",
+    "wave",
+    "sea"
+  ],
+  "aliases": [
+    "tidal-wave"
+  ],
+  "keywords": [
+    "tsunami",
+    "tidal wave",
+    "big wave",
+    "sea surge"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 17A10 10 0 0 1 20 11A5 5 0 0 0 12 11",
+      "closed": false,
+      "_why": "a wave: the face rising and the crest curling over"
+    },
+    {
+      "d": "M2 20H22",
+      "closed": false
+    }
+  ]
+}

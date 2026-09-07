@@ -1,0 +1,41 @@
+{
+  "slug": "hail",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Hail",
+  "description": "The cloud with stones falling",
+  "tags": [
+    "hail",
+    "stones",
+    "ice"
+  ],
+  "aliases": [
+    "hailstones"
+  ],
+  "keywords": [
+    "hail",
+    "hailstones",
+    "ice pellets",
+    "hail shower"
+  ],
+  "family": "cloud",
+  "shapes": [
+    {
+      "d": "M4 14A4 4 0 0 1 6 6.5A5 5 0 0 1 15.5 5A5.5 5.5 0 0 1 20 14Z",
+      "closed": true,
+      "_why": "three lobes, each an arc whose radius is set by the chord it spans — 4 across 7.76, 5 across 9.62, 5.5 across 10.06 — which no constructor takes as an argument"
+    },
+    {
+      "d": "M6 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 21a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

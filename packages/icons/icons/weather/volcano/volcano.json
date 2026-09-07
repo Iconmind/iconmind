@@ -1,0 +1,36 @@
+{
+  "slug": "volcano",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Volcano",
+  "description": "The mountain with the plume over it",
+  "tags": [
+    "volcano",
+    "eruption",
+    "lava"
+  ],
+  "aliases": [
+    "eruption"
+  ],
+  "keywords": [
+    "volcano",
+    "eruption",
+    "volcanic",
+    "lava"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 20L10 13L14 13L21 20Z",
+      "closed": true
+    },
+    {
+      "d": "M10 13L10 9L14 9L14 13",
+      "closed": false
+    },
+    {
+      "d": "M9 9L12 6L15 9",
+      "closed": false
+    }
+  ]
+}

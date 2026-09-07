@@ -1,0 +1,36 @@
+{
+  "slug": "lightning-bolt",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Lightning",
+  "description": "The bolt with a spark under it",
+  "tags": [
+    "lightning",
+    "bolt",
+    "strike"
+  ],
+  "aliases": [
+    "lightning"
+  ],
+  "keywords": [
+    "lightning",
+    "bolt",
+    "lightning strike",
+    "flash"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M16 2L8 10L13 10L5 18",
+      "closed": false
+    },
+    {
+      "d": "M13 14L19 20",
+      "closed": false
+    },
+    {
+      "d": "M19 14L13 20",
+      "closed": false
+    }
+  ]
+}

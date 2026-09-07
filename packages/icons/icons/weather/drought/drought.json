@@ -1,0 +1,37 @@
+{
+  "slug": "drought",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Drought",
+  "description": "The ground cracked under the sun",
+  "tags": [
+    "drought",
+    "dry",
+    "cracked"
+  ],
+  "keywords": [
+    "drought",
+    "dry ground",
+    "no water",
+    "cracked earth"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8 6a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 13H22",
+      "closed": false
+    },
+    {
+      "d": "M6 13L10 17L6 21",
+      "closed": false
+    },
+    {
+      "d": "M16 13L12 17L16 21",
+      "closed": false
+    }
+  ]
+}

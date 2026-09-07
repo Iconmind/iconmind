@@ -1,0 +1,41 @@
+{
+  "slug": "smoke-alert",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Smoke",
+  "description": "Smoke rising in curls",
+  "tags": [
+    "smoke",
+    "air",
+    "alert"
+  ],
+  "keywords": [
+    "smoke",
+    "smoke alert",
+    "smoke in the air",
+    "air quality"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M9 9A3 3 0 0 1 9 3",
+      "closed": false
+    },
+    {
+      "d": "M9 9A3 3 0 0 1 9 15",
+      "closed": false
+    },
+    {
+      "d": "M9 21A3 3 0 0 1 9 15",
+      "closed": false
+    },
+    {
+      "d": "M15 18L15 13L20 13L20 18Z",
+      "closed": true
+    },
+    {
+      "d": "M3 21H21",
+      "closed": false
+    }
+  ]
+}

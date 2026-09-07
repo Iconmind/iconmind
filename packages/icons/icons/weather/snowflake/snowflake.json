@@ -1,0 +1,29 @@
+{
+  "slug": "snowflake",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Snowflake",
+  "description": "One flake, its six arms out",
+  "tags": [
+    "snowflake",
+    "flake",
+    "crystal"
+  ],
+  "aliases": [
+    "flake"
+  ],
+  "keywords": [
+    "snowflake",
+    "flake",
+    "ice crystal",
+    "snow"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 2V22M4 16L20 8M9 6L12 9L15 6M9 18L12 15L15 18",
+      "closed": false,
+      "_why": "a flake: two bars and the barbs at their ends, one path"
+    }
+  ]
+}

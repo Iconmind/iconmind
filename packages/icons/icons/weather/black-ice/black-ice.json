@@ -1,0 +1,34 @@
+{
+  "slug": "black-ice",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Black ice",
+  "description": "The road with the warning triangle over it",
+  "tags": [
+    "black-ice",
+    "road",
+    "slippery"
+  ],
+  "aliases": [
+    "ice-warning"
+  ],
+  "keywords": [
+    "black ice",
+    "icy road",
+    "slippery road",
+    "ice warning"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 3.5L21.5 20H2.5Z",
+      "closed": true,
+      "_why": "the warning triangle: sides at 60°, the shape a road sign takes"
+    },
+    {
+      "d": "M12 10V16M9 16L15 10",
+      "closed": false,
+      "_why": "a flake: two bars crossing at their middle, which is as many crossings as one drawing may hold"
+    }
+  ]
+}

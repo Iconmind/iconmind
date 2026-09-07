@@ -1,0 +1,40 @@
+{
+  "slug": "landslide",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Landslide",
+  "description": "The hillside slipping away",
+  "tags": [
+    "landslide",
+    "slip",
+    "ground"
+  ],
+  "aliases": [
+    "mudslide"
+  ],
+  "keywords": [
+    "landslide",
+    "mudslide",
+    "land slip",
+    "slope failure"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 6L8 12L14 12L20 18",
+      "closed": false
+    },
+    {
+      "d": "M2 20H22",
+      "closed": false
+    },
+    {
+      "d": "M10 16a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

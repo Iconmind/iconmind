@@ -1,0 +1,30 @@
+{
+  "slug": "flood-warning",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Flood warning",
+  "description": "The triangle with the water line in it",
+  "tags": [
+    "flood",
+    "warning",
+    "alert"
+  ],
+  "keywords": [
+    "flood warning",
+    "flood alert",
+    "water warning",
+    "flood risk"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M12 3.5L21.5 20H2.5Z",
+      "closed": true,
+      "_why": "the warning triangle: sides at 60°, the shape a road sign takes"
+    },
+    {
+      "d": "M7 15.5L9.5 13L12 15.5L14.5 13L17 15.5",
+      "closed": false
+    }
+  ]
+}

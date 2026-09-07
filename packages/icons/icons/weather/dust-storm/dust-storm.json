@@ -1,0 +1,45 @@
+{
+  "slug": "dust-storm",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Dust storm",
+  "description": "The wind carrying dust across the ground",
+  "tags": [
+    "dust",
+    "wind",
+    "storm"
+  ],
+  "keywords": [
+    "dust storm",
+    "dust cloud",
+    "blowing dust",
+    "haboob"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 6H17",
+      "closed": false
+    },
+    {
+      "d": "M17 6L20 3",
+      "closed": false
+    },
+    {
+      "d": "M5 11H19",
+      "closed": false
+    },
+    {
+      "d": "M19 11L22 8",
+      "closed": false
+    },
+    {
+      "d": "M3 16H15",
+      "closed": false
+    },
+    {
+      "d": "M9 20a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

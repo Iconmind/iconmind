@@ -1,0 +1,36 @@
+{
+  "slug": "ice",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Ice",
+  "description": "A block of ice with its facets",
+  "tags": [
+    "ice",
+    "frozen",
+    "block"
+  ],
+  "aliases": [
+    "frozen"
+  ],
+  "keywords": [
+    "ice",
+    "frozen",
+    "ice block",
+    "icy"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 4L18 4L18 15L12 21L6 15Z",
+      "closed": true
+    },
+    {
+      "d": "M6 9L9 12L15 12L18 9",
+      "closed": false
+    },
+    {
+      "d": "M12 12V21",
+      "closed": false
+    }
+  ]
+}

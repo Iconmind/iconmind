@@ -1,0 +1,44 @@
+{
+  "slug": "evacuation",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Evacuation",
+  "description": "The door with a person going through it",
+  "tags": [
+    "evacuate",
+    "exit",
+    "leave"
+  ],
+  "aliases": [
+    "evacuate"
+  ],
+  "keywords": [
+    "evacuation",
+    "evacuate",
+    "leave the area",
+    "emergency exit"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M13 3L21 3L21 21L13 21",
+      "closed": false
+    },
+    {
+      "d": "M4 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 9L7 14L4 17",
+      "closed": false
+    },
+    {
+      "d": "M7 14L10 17",
+      "closed": false
+    },
+    {
+      "d": "M4 11L10 11",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "avalanche",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Avalanche",
+  "description": "The snow coming off the mountain",
+  "tags": [
+    "avalanche",
+    "snow",
+    "slide"
+  ],
+  "keywords": [
+    "avalanche",
+    "snow slide",
+    "mountain snow",
+    "avalanche risk"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 16L11 8L14 11L19 16",
+      "closed": false
+    },
+    {
+      "d": "M7 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M11 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 20H22",
+      "closed": false
+    }
+  ]
+}

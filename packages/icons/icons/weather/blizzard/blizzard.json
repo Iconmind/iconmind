@@ -1,0 +1,43 @@
+{
+  "slug": "blizzard",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Blizzard",
+  "description": "Flakes driven sideways by the wind",
+  "tags": [
+    "blizzard",
+    "wind",
+    "whiteout"
+  ],
+  "keywords": [
+    "blizzard",
+    "whiteout",
+    "driving snow",
+    "snow storm"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 6H14",
+      "closed": false
+    },
+    {
+      "d": "M6 12H20",
+      "closed": false
+    },
+    {
+      "d": "M3 18H14",
+      "closed": false
+    },
+    {
+      "d": "M18.5 3V9M15.5 9L21.5 3",
+      "closed": false,
+      "_why": "a flake: two bars crossing at their middle, which is as many crossings as one drawing may hold"
+    },
+    {
+      "d": "M18.5 15V21M15.5 21L21.5 15",
+      "closed": false,
+      "_why": "a flake: two bars crossing at their middle, which is as many crossings as one drawing may hold"
+    }
+  ]
+}

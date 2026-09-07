@@ -1,0 +1,40 @@
+{
+  "slug": "raincoat",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Raincoat",
+  "description": "The hooded coat with its two sides",
+  "tags": [
+    "raincoat",
+    "coat",
+    "hood"
+  ],
+  "aliases": [
+    "waterproof"
+  ],
+  "keywords": [
+    "raincoat",
+    "waterproof",
+    "rain jacket",
+    "hooded coat"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M8.5 7A3.5 3.5 0 0 1 15.5 7",
+      "closed": false
+    },
+    {
+      "d": "M7 21L7 12L10 9L14 9L17 12L17 21Z",
+      "closed": true
+    },
+    {
+      "d": "M3 18L3 13L7 13",
+      "closed": false
+    },
+    {
+      "d": "M21 18L21 13L17 13",
+      "closed": false
+    }
+  ]
+}

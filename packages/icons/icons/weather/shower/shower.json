@@ -1,0 +1,40 @@
+{
+  "slug": "shower",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Shower",
+  "description": "The cloud with the sun behind it and drops below",
+  "tags": [
+    "shower",
+    "passing",
+    "sun"
+  ],
+  "keywords": [
+    "shower",
+    "passing shower",
+    "sunny shower",
+    "brief rain"
+  ],
+  "family": "cloud",
+  "shapes": [
+    {
+      "d": "M13.5 5A3.5 3.5 0 0 1 20.5 5",
+      "closed": false
+    },
+    {
+      "d": "M4 17A4 4 0 0 1 6 9.5A5 5 0 0 1 15.5 8A5.5 5.5 0 0 1 20 17Z",
+      "closed": true,
+      "_why": "the cloud in front of the sun"
+    },
+    {
+      "d": "M9 17.5L11.5 20A2.5 2.5 0 0 1 6.5 20Z",
+      "closed": true,
+      "_why": "a drop: a point above one round belly"
+    },
+    {
+      "d": "M15 17.5L17.5 20A2.5 2.5 0 0 1 12.5 20Z",
+      "closed": true,
+      "_why": "a drop: a point above one round belly"
+    }
+  ]
+}

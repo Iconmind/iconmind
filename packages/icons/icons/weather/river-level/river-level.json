@@ -1,0 +1,41 @@
+{
+  "slug": "river-level",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "River level",
+  "description": "The water between the banks, with the level marked",
+  "tags": [
+    "river",
+    "level",
+    "gauge"
+  ],
+  "keywords": [
+    "river level",
+    "water level",
+    "river gauge",
+    "how high the river is"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 4V20",
+      "closed": false
+    },
+    {
+      "d": "M20 4V20",
+      "closed": false
+    },
+    {
+      "d": "M3 14L5.5 11.5L8 14L10.5 11.5L13 14L15.5 11.5L18 14L20.5 11.5",
+      "closed": false
+    },
+    {
+      "d": "M5 8H9",
+      "closed": false
+    },
+    {
+      "d": "M5 11H9",
+      "closed": false
+    }
+  ]
+}

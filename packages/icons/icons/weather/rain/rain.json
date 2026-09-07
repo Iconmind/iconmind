@@ -1,0 +1,44 @@
+{
+  "slug": "rain",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Rain",
+  "description": "The cloud with three drops under it",
+  "tags": [
+    "rain",
+    "wet",
+    "shower"
+  ],
+  "aliases": [
+    "rainy"
+  ],
+  "keywords": [
+    "rain",
+    "rainy",
+    "wet weather",
+    "raining"
+  ],
+  "family": "cloud",
+  "shapes": [
+    {
+      "d": "M4 14A4 4 0 0 1 6 6.5A5 5 0 0 1 15.5 5A5.5 5.5 0 0 1 20 14Z",
+      "closed": true,
+      "_why": "three lobes, each an arc whose radius is set by the chord it spans — 4 across 7.76, 5 across 9.62, 5.5 across 10.06 — which no constructor takes as an argument"
+    },
+    {
+      "d": "M7 16.5L9.5 19A2.5 2.5 0 0 1 4.5 19Z",
+      "closed": true,
+      "_why": "a drop: a point above one round belly"
+    },
+    {
+      "d": "M12 17.5L14.5 20A2.5 2.5 0 0 1 9.5 20Z",
+      "closed": true,
+      "_why": "a drop: a point above one round belly"
+    },
+    {
+      "d": "M17 16.5L19.5 19A2.5 2.5 0 0 1 14.5 19Z",
+      "closed": true,
+      "_why": "a drop: a point above one round belly"
+    }
+  ]
+}

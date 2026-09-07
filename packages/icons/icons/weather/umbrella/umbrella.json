@@ -1,0 +1,45 @@
+{
+  "slug": "umbrella",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Umbrella",
+  "description": "The scalloped canopy with its stick under it",
+  "tags": [
+    "umbrella",
+    "cover",
+    "rain"
+  ],
+  "keywords": [
+    "umbrella",
+    "brolly",
+    "rain cover",
+    "keep dry"
+  ],
+  "family": "canopy",
+  "shapes": [
+    {
+      "d": "M3 12A9 9 0 0 1 21 12",
+      "closed": false
+    },
+    {
+      "d": "M3 12H21",
+      "closed": false
+    },
+    {
+      "d": "M9 12A3 3 0 0 1 3 12",
+      "closed": false
+    },
+    {
+      "d": "M15 12A3 3 0 0 1 9 12",
+      "closed": false
+    },
+    {
+      "d": "M21 12A3 3 0 0 1 15 12",
+      "closed": false
+    },
+    {
+      "d": "M12 15V21",
+      "closed": false
+    }
+  ]
+}

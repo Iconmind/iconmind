@@ -1,0 +1,45 @@
+{
+  "slug": "umbrella-open",
+  "category": "weather",
+  "subcategory": "storm",
+  "name": "Umbrella up",
+  "description": "The canopy with drops falling on it",
+  "tags": [
+    "open",
+    "up",
+    "raining"
+  ],
+  "keywords": [
+    "umbrella up",
+    "umbrella open",
+    "putting up the umbrella",
+    "in the rain"
+  ],
+  "family": "canopy",
+  "shapes": [
+    {
+      "d": "M3 14A9 9 0 0 1 21 14",
+      "closed": false
+    },
+    {
+      "d": "M3 14H21",
+      "closed": false
+    },
+    {
+      "d": "M12 14V21",
+      "closed": false
+    },
+    {
+      "d": "M5 3L7 5",
+      "closed": false
+    },
+    {
+      "d": "M12 2V4.5",
+      "closed": false
+    },
+    {
+      "d": "M19 3L17 5",
+      "closed": false
+    }
+  ]
+}
