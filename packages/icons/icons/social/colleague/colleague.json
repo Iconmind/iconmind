@@ -1,0 +1,40 @@
+{
+  "slug": "colleague",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Colleague",
+  "description": "The one with the case",
+  "tags": [
+    "colleague",
+    "work",
+    "case"
+  ],
+  "aliases": [
+    "coworker"
+  ],
+  "keywords": [
+    "colleague",
+    "coworker",
+    "someone from work",
+    "work"
+  ],
+  "family": "bust",
+  "shapes": [
+    {
+      "d": "M5 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 16A4 4 0 0 1 12 16",
+      "closed": false
+    },
+    {
+      "d": "M14 12L14 20L22 20L22 12Z",
+      "closed": true
+    },
+    {
+      "d": "M16 12L16 9L20 9L20 12",
+      "closed": false
+    }
+  ]
+}

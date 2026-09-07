@@ -1,0 +1,29 @@
+{
+  "slug": "engagement",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Engagement",
+  "description": "The ring with the stone up",
+  "tags": [
+    "engagement",
+    "ring",
+    "asked"
+  ],
+  "keywords": [
+    "engagement",
+    "engaged",
+    "the ring",
+    "asked them"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M7 15a5 5 0 1 0 10 0a5 5 0 1 0 -10 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 8L12 5L15 8Z",
+      "closed": true
+    }
+  ]
+}

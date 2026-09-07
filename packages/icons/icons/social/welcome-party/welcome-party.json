@@ -1,0 +1,37 @@
+{
+  "slug": "welcome-party",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Welcome",
+  "description": "The door open and the way in",
+  "tags": [
+    "welcome",
+    "door",
+    "arrival"
+  ],
+  "keywords": [
+    "welcome party",
+    "welcome them in",
+    "come in",
+    "arrival"
+  ],
+  "family": "door",
+  "shapes": [
+    {
+      "d": "M6 20L6 4L16 4L16 20",
+      "closed": false
+    },
+    {
+      "d": "M12 12a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 12H22",
+      "closed": false
+    },
+    {
+      "d": "M20 10L18 12L20 14",
+      "closed": false
+    }
+  ]
+}

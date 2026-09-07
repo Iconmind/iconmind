@@ -1,0 +1,41 @@
+{
+  "slug": "baby-shower",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Baby shower",
+  "description": "The pram on its wheels",
+  "tags": [
+    "baby",
+    "pram",
+    "expecting"
+  ],
+  "keywords": [
+    "baby shower",
+    "expecting",
+    "a pram",
+    "new baby"
+  ],
+  "family": "pram",
+  "shapes": [
+    {
+      "d": "M4 13A7 7 0 0 1 18 13",
+      "closed": false
+    },
+    {
+      "d": "M4 13H18",
+      "closed": false
+    },
+    {
+      "d": "M18 13L21 10",
+      "closed": false
+    },
+    {
+      "d": "M5 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

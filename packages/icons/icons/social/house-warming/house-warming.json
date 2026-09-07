@@ -1,0 +1,30 @@
+{
+  "slug": "house-warming",
+  "category": "social",
+  "subcategory": "people",
+  "name": "House warming",
+  "description": "The house with the fire lit",
+  "tags": [
+    "housewarming",
+    "new-place",
+    "fire"
+  ],
+  "keywords": [
+    "house warming",
+    "new place",
+    "moved in",
+    "come and see it"
+  ],
+  "family": "building",
+  "shapes": [
+    {
+      "d": "M4 19L4 12L11 5L18 12L18 19Z",
+      "closed": true
+    },
+    {
+      "d": "M11 16C9 15 9 12 11 11C13 12 13 15 11 16Z",
+      "closed": true,
+      "_why": "the fire lit inside"
+    }
+  ]
+}

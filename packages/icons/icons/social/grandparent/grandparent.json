@@ -1,0 +1,33 @@
+{
+  "slug": "grandparent",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Grandparent",
+  "description": "The one with the stick",
+  "tags": [
+    "grandparent",
+    "elder",
+    "stick"
+  ],
+  "keywords": [
+    "grandparent",
+    "granny",
+    "grandad",
+    "elder"
+  ],
+  "family": "bust",
+  "shapes": [
+    {
+      "d": "M7 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 17A4.5 4.5 0 0 1 14.5 17",
+      "closed": false
+    },
+    {
+      "d": "M18 9V21",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "verified-badge",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Verified",
+  "description": "The tick in the scalloped badge",
+  "tags": [
+    "verified",
+    "checked",
+    "badge"
+  ],
+  "keywords": [
+    "verified badge",
+    "the blue tick",
+    "checked",
+    "confirmed"
+  ],
+  "family": "mark",
+  "shapes": [
+    {
+      "d": "M9 4L15 4L20 9L20 15L15 20L9 20L4 15L4 9Z",
+      "closed": true
+    },
+    {
+      "d": "M8 12L11 15L16 10",
+      "closed": false
+    }
+  ]
+}

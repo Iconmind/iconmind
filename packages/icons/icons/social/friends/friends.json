@@ -1,0 +1,41 @@
+{
+  "slug": "friends",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Friends",
+  "description": "Three of them side by side",
+  "tags": [
+    "friends",
+    "three",
+    "close"
+  ],
+  "keywords": [
+    "friends",
+    "a few friends",
+    "close",
+    "our lot"
+  ],
+  "family": "group",
+  "shapes": [
+    {
+      "d": "M4 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 19A9 9 0 0 1 21 19",
+      "closed": false
+    },
+    {
+      "d": "M3 21H21",
+      "closed": false
+    }
+  ]
+}

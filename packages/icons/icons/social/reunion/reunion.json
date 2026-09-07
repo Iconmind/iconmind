@@ -1,0 +1,41 @@
+{
+  "slug": "reunion",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Reunion",
+  "description": "Two coming back together",
+  "tags": [
+    "reunion",
+    "back",
+    "meet-again"
+  ],
+  "keywords": [
+    "reunion",
+    "meeting again",
+    "back together",
+    "old friends"
+  ],
+  "family": "pair",
+  "shapes": [
+    {
+      "d": "M3 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 15A3 3 0 0 1 8 15",
+      "closed": false
+    },
+    {
+      "d": "M17 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 15A3 3 0 0 1 22 15",
+      "closed": false
+    },
+    {
+      "d": "M9 11L12 14L15 11",
+      "closed": false
+    }
+  ]
+}

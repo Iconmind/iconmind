@@ -1,0 +1,36 @@
+{
+  "slug": "profile-photo",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Profile photo",
+  "description": "The bust inside the round frame",
+  "tags": [
+    "photo",
+    "avatar",
+    "round"
+  ],
+  "aliases": [
+    "avatar"
+  ],
+  "keywords": [
+    "profile photo",
+    "avatar",
+    "your picture",
+    "profile"
+  ],
+  "family": "frame",
+  "shapes": [
+    {
+      "d": "M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 9a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 19A5 5 0 0 1 17 19",
+      "closed": false
+    }
+  ]
+}

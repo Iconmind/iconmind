@@ -1,0 +1,33 @@
+{
+  "slug": "unfollow",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Unfollow",
+  "description": "The line taken through it",
+  "tags": [
+    "unfollow",
+    "drop",
+    "stop"
+  ],
+  "keywords": [
+    "unfollow",
+    "stop following",
+    "drop them",
+    "unsubscribe"
+  ],
+  "family": "bust",
+  "shapes": [
+    {
+      "d": "M7 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 17A4 4 0 0 1 14 17",
+      "closed": false
+    },
+    {
+      "d": "M16 12H22",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "block-user",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Block",
+  "description": "The ring struck through beside them",
+  "tags": [
+    "block",
+    "barred",
+    "no"
+  ],
+  "keywords": [
+    "block someone",
+    "barred",
+    "blocked",
+    "no contact"
+  ],
+  "family": "bust",
+  "shapes": [
+    {
+      "d": "M5 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 17A4 4 0 0 1 12 17",
+      "closed": false
+    },
+    {
+      "d": "M13 15a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 18L20 12",
+      "closed": false
+    }
+  ]
+}

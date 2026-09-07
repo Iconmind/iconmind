@@ -1,0 +1,33 @@
+{
+  "slug": "connection-accept",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Accepted",
+  "description": "The one you said yes to",
+  "tags": [
+    "accepted",
+    "added",
+    "yes"
+  ],
+  "keywords": [
+    "connection accepted",
+    "added them",
+    "request accepted",
+    "connected"
+  ],
+  "family": "bust",
+  "shapes": [
+    {
+      "d": "M7 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 17A4 4 0 0 1 14 17",
+      "closed": false
+    },
+    {
+      "d": "M15 13L18 16L22 12",
+      "closed": false
+    }
+  ]
+}

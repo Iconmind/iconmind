@@ -1,0 +1,38 @@
+{
+  "slug": "stranger",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Stranger",
+  "description": "The one you do not know",
+  "tags": [
+    "stranger",
+    "unknown",
+    "who"
+  ],
+  "keywords": [
+    "stranger",
+    "someone you do not know",
+    "unknown person",
+    "who is this"
+  ],
+  "family": "bust",
+  "shapes": [
+    {
+      "d": "M6 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 17A4 4 0 0 1 13 17",
+      "closed": false
+    },
+    {
+      "d": "M17 7C17 5 20 5 20 7C20 9 18.5 9 18.5 11",
+      "closed": false,
+      "_why": "the question over their head"
+    },
+    {
+      "d": "M17.5 14a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

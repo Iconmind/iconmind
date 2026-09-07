@@ -1,0 +1,33 @@
+{
+  "slug": "profile-edit",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Edit profile",
+  "description": "The pencil laid beside them",
+  "tags": [
+    "edit",
+    "pencil",
+    "change"
+  ],
+  "keywords": [
+    "edit profile",
+    "change your details",
+    "pencil",
+    "update"
+  ],
+  "family": "bust",
+  "shapes": [
+    {
+      "d": "M5 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 17A4 4 0 0 1 12 17",
+      "closed": false
+    },
+    {
+      "d": "M13 18L18 13L20 15L15 20Z",
+      "closed": true
+    }
+  ]
+}

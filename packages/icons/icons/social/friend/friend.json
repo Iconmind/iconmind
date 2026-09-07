@@ -1,0 +1,33 @@
+{
+  "slug": "friend",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Friend",
+  "description": "The one with a hand up",
+  "tags": [
+    "friend",
+    "wave",
+    "greet"
+  ],
+  "keywords": [
+    "friend",
+    "a friend",
+    "waving",
+    "mate"
+  ],
+  "family": "bust",
+  "shapes": [
+    {
+      "d": "M7 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5.5 17A4.5 4.5 0 0 1 14.5 17",
+      "closed": false
+    },
+    {
+      "d": "M16 16L20 12L20 6",
+      "closed": false
+    }
+  ]
+}

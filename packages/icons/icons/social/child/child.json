@@ -1,0 +1,32 @@
+{
+  "slug": "child",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Child",
+  "description": "The one whose head is still big",
+  "tags": [
+    "child",
+    "young",
+    "small"
+  ],
+  "aliases": [
+    "kid"
+  ],
+  "keywords": [
+    "child",
+    "a kid",
+    "young",
+    "little one"
+  ],
+  "family": "bust",
+  "shapes": [
+    {
+      "d": "M8 8a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 19A4 4 0 0 1 16 19",
+      "closed": false
+    }
+  ]
+}

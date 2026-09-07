@@ -1,0 +1,33 @@
+{
+  "slug": "individual",
+  "category": "social",
+  "subcategory": "people",
+  "name": "One person",
+  "description": "The single bust",
+  "tags": [
+    "one",
+    "single",
+    "someone"
+  ],
+  "keywords": [
+    "individual",
+    "one person",
+    "a single person",
+    "someone"
+  ],
+  "family": "bust",
+  "shapes": [
+    {
+      "d": "M9 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 17A5 5 0 0 1 17 17",
+      "closed": false
+    },
+    {
+      "d": "M5 21H19",
+      "closed": false
+    }
+  ]
+}

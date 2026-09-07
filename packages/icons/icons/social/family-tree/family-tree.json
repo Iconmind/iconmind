@@ -1,0 +1,44 @@
+{
+  "slug": "family-tree",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Family tree",
+  "description": "The line down to the two below",
+  "tags": [
+    "tree",
+    "descent",
+    "line"
+  ],
+  "aliases": [
+    "genealogy"
+  ],
+  "keywords": [
+    "family tree",
+    "genealogy",
+    "who came from whom",
+    "ancestry"
+  ],
+  "family": "tree",
+  "shapes": [
+    {
+      "d": "M10 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 7L12 11L6 11L6 15",
+      "closed": false
+    },
+    {
+      "d": "M12 11L18 11L18 15",
+      "closed": false
+    }
+  ]
+}

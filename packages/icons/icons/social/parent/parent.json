@@ -1,0 +1,37 @@
+{
+  "slug": "parent",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Parent",
+  "description": "The tall one and the small one beside",
+  "tags": [
+    "parent",
+    "grown",
+    "with-child"
+  ],
+  "keywords": [
+    "parent",
+    "mum or dad",
+    "with a child",
+    "grown up"
+  ],
+  "family": "pair",
+  "shapes": [
+    {
+      "d": "M5 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3.5 15A4.5 4.5 0 0 1 12.5 15",
+      "closed": false
+    },
+    {
+      "d": "M15 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14 18A3 3 0 0 1 20 18",
+      "closed": false
+    }
+  ]
+}

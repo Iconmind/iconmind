@@ -1,0 +1,38 @@
+{
+  "slug": "get-together",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Get-together",
+  "description": "Heads round the table",
+  "tags": [
+    "gathering",
+    "table",
+    "round"
+  ],
+  "keywords": [
+    "get together",
+    "round the table",
+    "a gathering",
+    "come over"
+  ],
+  "family": "group",
+  "shapes": [
+    {
+      "d": "M12 14C17 14 21 15.5 21 17.5C21 19.5 17 21 12 21C7 21 3 19.5 3 17.5C3 15.5 7 14 12 14Z",
+      "closed": true,
+      "_why": "the table they are round"
+    },
+    {
+      "d": "M4 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    }
+  ]
+}

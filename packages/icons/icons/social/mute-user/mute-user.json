@@ -1,0 +1,38 @@
+{
+  "slug": "mute-user",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Mute",
+  "description": "The sound crossed out beside them",
+  "tags": [
+    "mute",
+    "silence",
+    "off"
+  ],
+  "keywords": [
+    "mute someone",
+    "silence them",
+    "muted",
+    "no notifications"
+  ],
+  "family": "bust",
+  "shapes": [
+    {
+      "d": "M5 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 17A4 4 0 0 1 12 17",
+      "closed": false
+    },
+    {
+      "d": "M15 12C17.5 12 19 13 19 15C19 17 17.5 18 15 18Z",
+      "closed": true,
+      "_why": "the sound they make"
+    },
+    {
+      "d": "M14 19L21 12",
+      "closed": false
+    }
+  ]
+}

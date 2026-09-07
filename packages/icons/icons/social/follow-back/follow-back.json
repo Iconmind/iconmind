@@ -1,0 +1,45 @@
+{
+  "slug": "follow-back",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Follow back",
+  "description": "The arrow going the other way too",
+  "tags": [
+    "follow-back",
+    "both",
+    "return"
+  ],
+  "keywords": [
+    "follow back",
+    "both ways",
+    "return the follow",
+    "mutual follow"
+  ],
+  "family": "pair",
+  "shapes": [
+    {
+      "d": "M3 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 15A3 3 0 0 1 8 15",
+      "closed": false
+    },
+    {
+      "d": "M17 9a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 15A3 3 0 0 1 22 15",
+      "closed": false
+    },
+    {
+      "d": "M9 12L15 12",
+      "closed": false
+    },
+    {
+      "d": "M11 10L9 12L11 14",
+      "closed": false
+    }
+  ]
+}

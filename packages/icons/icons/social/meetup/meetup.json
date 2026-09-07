@@ -1,0 +1,34 @@
+{
+  "slug": "meetup",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Meetup",
+  "description": "The pin with someone on it",
+  "tags": [
+    "meetup",
+    "pin",
+    "where"
+  ],
+  "keywords": [
+    "meetup",
+    "where we are meeting",
+    "the spot",
+    "pin"
+  ],
+  "family": "pin",
+  "shapes": [
+    {
+      "d": "M12 21C12 21 5 14 5 10A7 7 0 0 1 19 10C19 14 12 21 12 21Z",
+      "closed": true,
+      "_why": "the pin dropped on the spot"
+    },
+    {
+      "d": "M10 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 13A3 3 0 0 1 15 13",
+      "closed": false
+    }
+  ]
+}

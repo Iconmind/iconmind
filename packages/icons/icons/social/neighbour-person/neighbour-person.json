@@ -1,0 +1,45 @@
+{
+  "slug": "neighbour-person",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Neighbour",
+  "description": "The one over the fence",
+  "tags": [
+    "neighbour",
+    "fence",
+    "next-door"
+  ],
+  "keywords": [
+    "neighbour",
+    "over the fence",
+    "next door",
+    "the neighbours"
+  ],
+  "family": "bust",
+  "shapes": [
+    {
+      "d": "M4 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 16A4 4 0 0 1 11 16",
+      "closed": false
+    },
+    {
+      "d": "M15 6V20",
+      "closed": false
+    },
+    {
+      "d": "M19 6V20",
+      "closed": false
+    },
+    {
+      "d": "M15 10H19",
+      "closed": false
+    },
+    {
+      "d": "M15 15H19",
+      "closed": false
+    }
+  ]
+}

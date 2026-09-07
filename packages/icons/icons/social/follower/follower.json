@@ -1,0 +1,37 @@
+{
+  "slug": "follower",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Follower",
+  "description": "The one who came along behind",
+  "tags": [
+    "follower",
+    "behind",
+    "audience"
+  ],
+  "keywords": [
+    "follower",
+    "someone following you",
+    "audience",
+    "followers"
+  ],
+  "family": "pair",
+  "shapes": [
+    {
+      "d": "M6 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 17A4 4 0 0 1 13 17",
+      "closed": false
+    },
+    {
+      "d": "M16 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 16A3 3 0 0 1 21 16",
+      "closed": false
+    }
+  ]
+}

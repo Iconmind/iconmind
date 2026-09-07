@@ -1,0 +1,33 @@
+{
+  "slug": "wedding",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Wedding",
+  "description": "The two rings and the stone",
+  "tags": [
+    "wedding",
+    "rings",
+    "married"
+  ],
+  "keywords": [
+    "wedding",
+    "getting married",
+    "two rings",
+    "the big day"
+  ],
+  "family": "ring",
+  "shapes": [
+    {
+      "d": "M4 14a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 14a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 7L12 5L14 7L12 9Z",
+      "closed": true
+    }
+  ]
+}

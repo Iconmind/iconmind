@@ -1,0 +1,33 @@
+{
+  "slug": "handle",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Handle",
+  "description": "The at sign you are known by",
+  "tags": [
+    "handle",
+    "at",
+    "username"
+  ],
+  "aliases": [
+    "username"
+  ],
+  "keywords": [
+    "handle",
+    "username",
+    "the at sign",
+    "what you are called"
+  ],
+  "family": "mark",
+  "shapes": [
+    {
+      "d": "M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 12V15C15 17 18 17 19 15C21 11 18 4 12 4C7 4 3 8 3 12C3 16 7 20 12 20C14 20 15 19.5 16 19",
+      "closed": false,
+      "_why": "the ring that runs round it"
+    }
+  ]
+}

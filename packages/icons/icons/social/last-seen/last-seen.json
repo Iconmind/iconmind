@@ -1,0 +1,37 @@
+{
+  "slug": "last-seen",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Last seen",
+  "description": "The clock beside them",
+  "tags": [
+    "last-seen",
+    "when",
+    "clock"
+  ],
+  "keywords": [
+    "last seen",
+    "when they were here",
+    "last active",
+    "clock"
+  ],
+  "family": "bust",
+  "shapes": [
+    {
+      "d": "M5 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 17A4 4 0 0 1 12 17",
+      "closed": false
+    },
+    {
+      "d": "M13 15a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 15L17 12",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "anniversary",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Anniversary",
+  "description": "The date that comes round again",
+  "tags": [
+    "anniversary",
+    "date",
+    "yearly"
+  ],
+  "keywords": [
+    "anniversary",
+    "the same date again",
+    "years together",
+    "mark the day"
+  ],
+  "family": "heart",
+  "shapes": [
+    {
+      "d": "M12 17C9 15 5 12.5 6.5 9.5C8 7.5 10.5 8.5 12 10.5C13.5 8.5 16 7.5 17.5 9.5C19 12.5 15 15 12 17Z",
+      "closed": true,
+      "_why": "the heart, come round again"
+    },
+    {
+      "d": "M4 12A8 8 0 1 1 8 19",
+      "closed": false,
+      "_why": "the year going round"
+    },
+    {
+      "d": "M2 10L4 12L6 10",
+      "closed": false
+    }
+  ]
+}

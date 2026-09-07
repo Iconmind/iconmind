@@ -1,0 +1,45 @@
+{
+  "slug": "community",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Community",
+  "description": "Three of them standing together",
+  "tags": [
+    "community",
+    "local",
+    "three"
+  ],
+  "keywords": [
+    "community",
+    "the local community",
+    "people round here",
+    "together"
+  ],
+  "family": "group",
+  "shapes": [
+    {
+      "d": "M10 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 11A3 3 0 0 1 15 11",
+      "closed": false
+    },
+    {
+      "d": "M4 13a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 19A3 3 0 0 1 9 19",
+      "closed": false
+    },
+    {
+      "d": "M16 13a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 19A3 3 0 0 1 21 19",
+      "closed": false
+    }
+  ]
+}

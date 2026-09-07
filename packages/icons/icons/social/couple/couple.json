@@ -1,0 +1,37 @@
+{
+  "slug": "couple",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Couple",
+  "description": "Two busts, one a head taller",
+  "tags": [
+    "couple",
+    "two",
+    "pair"
+  ],
+  "keywords": [
+    "couple",
+    "two people",
+    "a pair",
+    "partners"
+  ],
+  "family": "pair",
+  "shapes": [
+    {
+      "d": "M4 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2.5 16A4.5 4.5 0 0 1 11.5 16",
+      "closed": false
+    },
+    {
+      "d": "M14 9a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12.5 18A4.5 4.5 0 0 1 21.5 18",
+      "closed": false
+    }
+  ]
+}

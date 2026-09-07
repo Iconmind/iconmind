@@ -1,0 +1,45 @@
+{
+  "slug": "crowd",
+  "category": "social",
+  "subcategory": "people",
+  "name": "Crowd",
+  "description": "Heads all the way across",
+  "tags": [
+    "crowd",
+    "many",
+    "packed"
+  ],
+  "keywords": [
+    "crowd",
+    "a lot of people",
+    "packed",
+    "the crowd"
+  ],
+  "family": "group",
+  "shapes": [
+    {
+      "d": "M4 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 7a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 14a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 14a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 20H21",
+      "closed": false
+    }
+  ]
+}
