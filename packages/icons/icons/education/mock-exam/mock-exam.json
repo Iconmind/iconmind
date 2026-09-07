@@ -1,0 +1,44 @@
+{
+  "slug": "mock-exam",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Mock exam",
+  "description": "The practice paper",
+  "tags": [
+    "mock",
+    "practice",
+    "trial"
+  ],
+  "aliases": [
+    "practice-exam"
+  ],
+  "keywords": [
+    "mock exam",
+    "practice paper",
+    "trial run",
+    "mock"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M4 3L20 3L20 21L4 21Z",
+      "closed": true
+    },
+    {
+      "d": "M7 9H17",
+      "closed": false
+    },
+    {
+      "d": "M7 13H13",
+      "closed": false
+    },
+    {
+      "d": "M13 15L19 21",
+      "closed": false
+    },
+    {
+      "d": "M19 15L13 21",
+      "closed": false
+    }
+  ]
+}

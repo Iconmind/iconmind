@@ -1,0 +1,44 @@
+{
+  "slug": "revision",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Revision",
+  "description": "Going over it with a fresh eye",
+  "tags": [
+    "revision",
+    "revise",
+    "again"
+  ],
+  "aliases": [
+    "revise"
+  ],
+  "keywords": [
+    "revision",
+    "revise",
+    "go over it again",
+    "recap"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M7 8H17",
+      "closed": false
+    },
+    {
+      "d": "M7 12H13",
+      "closed": false
+    },
+    {
+      "d": "M11 15a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M18 18L21 21",
+      "closed": false
+    }
+  ]
+}

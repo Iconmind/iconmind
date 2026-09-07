@@ -1,0 +1,34 @@
+{
+  "slug": "quiz",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Quiz",
+  "description": "The card with the question on it",
+  "tags": [
+    "quiz",
+    "question",
+    "card"
+  ],
+  "keywords": [
+    "quiz",
+    "a quiz",
+    "question",
+    "test yourself"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M9 10A2.5 2.5 0 0 1 14 10C14 12 11.5 12 11.5 13.5",
+      "closed": false,
+      "_why": "the hook of a question mark"
+    },
+    {
+      "d": "M10.5 15a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

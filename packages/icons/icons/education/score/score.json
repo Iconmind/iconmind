@@ -1,0 +1,36 @@
+{
+  "slug": "score",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Score",
+  "description": "The number you came out with",
+  "tags": [
+    "score",
+    "result",
+    "number"
+  ],
+  "aliases": [
+    "result"
+  ],
+  "keywords": [
+    "score",
+    "result",
+    "how you did",
+    "the number"
+  ],
+  "family": "badge",
+  "shapes": [
+    {
+      "d": "M12 3L19 10L19 14L12 21L5 14L5 10Z",
+      "closed": true
+    },
+    {
+      "d": "M10 11L12 9L12 16",
+      "closed": false
+    },
+    {
+      "d": "M9 16H15",
+      "closed": false
+    }
+  ]
+}

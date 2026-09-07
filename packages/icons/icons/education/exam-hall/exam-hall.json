@@ -1,0 +1,37 @@
+{
+  "slug": "exam-hall",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Exam hall",
+  "description": "The desks apart in rows",
+  "tags": [
+    "hall",
+    "desks",
+    "rows"
+  ],
+  "keywords": [
+    "exam hall",
+    "desks in rows",
+    "the hall",
+    "sitting apart"
+  ],
+  "family": "grid",
+  "shapes": [
+    {
+      "d": "M3 8L9 8L9 12L3 12Z",
+      "closed": true
+    },
+    {
+      "d": "M15 8L21 8L21 12L15 12Z",
+      "closed": true
+    },
+    {
+      "d": "M3 16L9 16L9 20L3 20Z",
+      "closed": true
+    },
+    {
+      "d": "M15 16L21 16L21 20L15 20Z",
+      "closed": true
+    }
+  ]
+}

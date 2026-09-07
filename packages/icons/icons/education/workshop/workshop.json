@@ -1,0 +1,44 @@
+{
+  "slug": "workshop",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Workshop",
+  "description": "The bench with the tools on it",
+  "tags": [
+    "workshop",
+    "bench",
+    "hands-on"
+  ],
+  "aliases": [
+    "hands-on"
+  ],
+  "keywords": [
+    "workshop",
+    "hands on",
+    "workbench",
+    "make something"
+  ],
+  "family": "bench",
+  "shapes": [
+    {
+      "d": "M2 13H22",
+      "closed": false
+    },
+    {
+      "d": "M5 13V21",
+      "closed": false
+    },
+    {
+      "d": "M19 13V21",
+      "closed": false
+    },
+    {
+      "d": "M8 13L8 6L17 6L17 13",
+      "closed": false
+    },
+    {
+      "d": "M10 6A2.5 2.5 0 0 1 15 6",
+      "closed": false
+    }
+  ]
+}

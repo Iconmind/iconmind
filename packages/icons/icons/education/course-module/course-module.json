@@ -1,0 +1,36 @@
+{
+  "slug": "course-module",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Module",
+  "description": "One block of the course",
+  "tags": [
+    "module",
+    "block",
+    "part"
+  ],
+  "aliases": [
+    "unit-block"
+  ],
+  "keywords": [
+    "module",
+    "course module",
+    "one block",
+    "part"
+  ],
+  "family": "cube",
+  "shapes": [
+    {
+      "d": "M4 9L15 9L15 20L4 20Z",
+      "closed": true
+    },
+    {
+      "d": "M4 9L9 4L20 4L15 9",
+      "closed": false
+    },
+    {
+      "d": "M15 9L20 4L20 15L15 20",
+      "closed": false
+    }
+  ]
+}

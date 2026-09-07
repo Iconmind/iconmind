@@ -1,0 +1,36 @@
+{
+  "slug": "distinction",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Distinction",
+  "description": "The rosette for the top mark",
+  "tags": [
+    "distinction",
+    "rosette",
+    "top"
+  ],
+  "aliases": [
+    "merit"
+  ],
+  "keywords": [
+    "distinction",
+    "merit",
+    "top mark",
+    "rosette"
+  ],
+  "family": "award",
+  "shapes": [
+    {
+      "d": "M6 8a6 6 0 1 0 12 0a6 6 0 1 0 -12 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 13L8 21L11 18L14 21L14 13",
+      "closed": false
+    },
+    {
+      "d": "M9 8L11 10L15 6",
+      "closed": false
+    }
+  ]
+}

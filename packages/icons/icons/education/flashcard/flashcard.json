@@ -1,0 +1,36 @@
+{
+  "slug": "flashcard",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Flashcard",
+  "description": "The card with a corner turned",
+  "tags": [
+    "flashcard",
+    "card",
+    "recall"
+  ],
+  "aliases": [
+    "cue-card"
+  ],
+  "keywords": [
+    "flashcard",
+    "cue card",
+    "recall",
+    "card"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M3 6L16 6L21 11L21 18L3 18Z",
+      "closed": true
+    },
+    {
+      "d": "M16 6L16 11L21 11",
+      "closed": false
+    },
+    {
+      "d": "M6 14H14",
+      "closed": false
+    }
+  ]
+}

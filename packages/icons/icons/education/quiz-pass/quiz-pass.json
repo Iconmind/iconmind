@@ -1,0 +1,32 @@
+{
+  "slug": "quiz-pass",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Passed",
+  "description": "The quiz with a tick on it",
+  "tags": [
+    "pass",
+    "correct",
+    "right"
+  ],
+  "aliases": [
+    "passed"
+  ],
+  "keywords": [
+    "passed",
+    "got it right",
+    "correct",
+    "pass"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M7 12L10 15L17 8",
+      "closed": false
+    }
+  ]
+}

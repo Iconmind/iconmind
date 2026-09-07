@@ -1,0 +1,41 @@
+{
+  "slug": "seminar",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Seminar",
+  "description": "Heads round one table",
+  "tags": [
+    "seminar",
+    "round-table",
+    "discuss"
+  ],
+  "keywords": [
+    "seminar",
+    "round table",
+    "discussion",
+    "small group"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M3 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 14H22",
+      "closed": false
+    },
+    {
+      "d": "M7 20L17 20",
+      "closed": false
+    }
+  ]
+}

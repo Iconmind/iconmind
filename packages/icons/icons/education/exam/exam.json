@@ -1,0 +1,44 @@
+{
+  "slug": "exam",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Exam",
+  "description": "The paper you sit",
+  "tags": [
+    "exam",
+    "paper",
+    "sit"
+  ],
+  "aliases": [
+    "examination"
+  ],
+  "keywords": [
+    "exam",
+    "examination",
+    "sit the paper",
+    "test"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M7 8H17",
+      "closed": false
+    },
+    {
+      "d": "M7 12H17",
+      "closed": false
+    },
+    {
+      "d": "M7 16H13",
+      "closed": false
+    },
+    {
+      "d": "M13 17a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

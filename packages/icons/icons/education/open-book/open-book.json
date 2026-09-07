@@ -1,0 +1,35 @@
+{
+  "slug": "open-book",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Open book exam",
+  "description": "The book you may keep open",
+  "tags": [
+    "open-book",
+    "allowed",
+    "reference"
+  ],
+  "keywords": [
+    "open book exam",
+    "book allowed",
+    "reference permitted",
+    "open book"
+  ],
+  "family": "open-book",
+  "shapes": [
+    {
+      "d": "M12 8C10 6 7 5 3 5V17C7 17 10 18 12 20",
+      "closed": false,
+      "_why": "the left-hand leaf"
+    },
+    {
+      "d": "M12 8C14 6 17 5 21 5V17C17 17 14 18 12 20",
+      "closed": false,
+      "_why": "the right-hand leaf"
+    },
+    {
+      "d": "M15 17L17 19L21 15",
+      "closed": false
+    }
+  ]
+}

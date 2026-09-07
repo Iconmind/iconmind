@@ -1,0 +1,45 @@
+{
+  "slug": "multiple-choice",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Multiple choice",
+  "description": "One of the circles filled in",
+  "tags": [
+    "choice",
+    "options",
+    "pick-one"
+  ],
+  "keywords": [
+    "multiple choice",
+    "pick one",
+    "options",
+    "answer"
+  ],
+  "family": "list",
+  "shapes": [
+    {
+      "d": "M5 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 6H21",
+      "closed": false
+    },
+    {
+      "d": "M12 12H21",
+      "closed": false
+    },
+    {
+      "d": "M12 18H18",
+      "closed": false
+    }
+  ]
+}

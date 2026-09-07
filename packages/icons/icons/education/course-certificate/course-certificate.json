@@ -1,0 +1,41 @@
+{
+  "slug": "course-certificate",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Certificate",
+  "description": "The sheet with the seal on it",
+  "tags": [
+    "certificate",
+    "seal",
+    "awarded"
+  ],
+  "keywords": [
+    "certificate",
+    "awarded",
+    "seal",
+    "certified"
+  ],
+  "family": "certificate",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V14A2 2 0 0 1 20 16H4A2 2 0 0 1 2 14Z",
+      "closed": true
+    },
+    {
+      "d": "M6 7H18",
+      "closed": false
+    },
+    {
+      "d": "M6 10H14",
+      "closed": false
+    },
+    {
+      "d": "M14 15a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 17L15 21L17 19L19 21L19 17",
+      "closed": false
+    }
+  ]
+}

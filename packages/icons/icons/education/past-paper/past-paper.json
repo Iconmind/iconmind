@@ -1,0 +1,44 @@
+{
+  "slug": "past-paper",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Past paper",
+  "description": "Last year's questions",
+  "tags": [
+    "past",
+    "previous",
+    "archive"
+  ],
+  "aliases": [
+    "previous-paper"
+  ],
+  "keywords": [
+    "past paper",
+    "previous exam",
+    "last year's paper",
+    "archive"
+  ],
+  "family": "stack",
+  "shapes": [
+    {
+      "d": "M2 4A2 2 0 0 1 4 2H15A2 2 0 0 1 17 4V16A2 2 0 0 1 15 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M6 21L21 21L21 6",
+      "closed": false
+    },
+    {
+      "d": "M5 7H14",
+      "closed": false
+    },
+    {
+      "d": "M5 11H14",
+      "closed": false
+    },
+    {
+      "d": "M5 15H10",
+      "closed": false
+    }
+  ]
+}

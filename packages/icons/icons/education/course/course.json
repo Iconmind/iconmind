@@ -1,0 +1,33 @@
+{
+  "slug": "course",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Course",
+  "description": "The modules stacked in order",
+  "tags": [
+    "course",
+    "modules",
+    "programme"
+  ],
+  "keywords": [
+    "course",
+    "a course",
+    "programme",
+    "modules"
+  ],
+  "family": "stack",
+  "shapes": [
+    {
+      "d": "M3 3L17 3L17 7L3 7Z",
+      "closed": true
+    },
+    {
+      "d": "M5 10L19 10L19 14L5 14Z",
+      "closed": true
+    },
+    {
+      "d": "M7 17L21 17L21 21L7 21Z",
+      "closed": true
+    }
+  ]
+}

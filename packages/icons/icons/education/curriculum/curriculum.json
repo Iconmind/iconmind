@@ -1,0 +1,37 @@
+{
+  "slug": "curriculum",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Curriculum",
+  "description": "What is taught, term by term",
+  "tags": [
+    "curriculum",
+    "plan",
+    "terms"
+  ],
+  "keywords": [
+    "curriculum",
+    "what is taught",
+    "scheme of work",
+    "plan"
+  ],
+  "family": "grid",
+  "shapes": [
+    {
+      "d": "M2 6A2 2 0 0 1 4 4H20A2 2 0 0 1 22 6V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M4 9H20",
+      "closed": false
+    },
+    {
+      "d": "M9 6V18",
+      "closed": false
+    },
+    {
+      "d": "M4 15H20",
+      "closed": false
+    }
+  ]
+}

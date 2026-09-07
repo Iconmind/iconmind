@@ -1,0 +1,36 @@
+{
+  "slug": "honour-roll",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Honour roll",
+  "description": "The banner with the names on it",
+  "tags": [
+    "honour",
+    "roll",
+    "names"
+  ],
+  "aliases": [
+    "honor-roll"
+  ],
+  "keywords": [
+    "honour roll",
+    "honor roll",
+    "roll of honour",
+    "named"
+  ],
+  "family": "banner",
+  "shapes": [
+    {
+      "d": "M4 3L20 3L20 20L12 12L4 20Z",
+      "closed": true
+    },
+    {
+      "d": "M7 7H17",
+      "closed": false
+    },
+    {
+      "d": "M7 10H14",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "diploma",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Diploma",
+  "description": "The rolled sheet with its ribbon",
+  "tags": [
+    "diploma",
+    "rolled",
+    "ribbon"
+  ],
+  "keywords": [
+    "diploma",
+    "rolled certificate",
+    "ribbon",
+    "awarded"
+  ],
+  "family": "scroll",
+  "shapes": [
+    {
+      "d": "M4 8A3 3 0 0 0 4 14H20A3 3 0 0 0 20 8Z",
+      "closed": true,
+      "_why": "the sheet rolled at both ends"
+    },
+    {
+      "d": "M10 14L10 20L12 18L14 20L14 14",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "true-false",
+  "category": "education",
+  "subcategory": "course",
+  "name": "True or false",
+  "description": "One tick, one cross",
+  "tags": [
+    "true",
+    "false",
+    "either"
+  ],
+  "keywords": [
+    "true or false",
+    "yes or no",
+    "either",
+    "two options"
+  ],
+  "family": "list",
+  "shapes": [
+    {
+      "d": "M3 4L11 4L11 12L3 12Z",
+      "closed": true
+    },
+    {
+      "d": "M5 8L7 10L11 6",
+      "closed": false
+    },
+    {
+      "d": "M13 12L21 12L21 20L13 20Z",
+      "closed": true
+    },
+    {
+      "d": "M15 14L19 18",
+      "closed": false
+    },
+    {
+      "d": "M19 14L15 18",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "tutorial",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Tutorial",
+  "description": "The screen with a hand on it",
+  "tags": [
+    "tutorial",
+    "walkthrough",
+    "show"
+  ],
+  "aliases": [
+    "walkthrough"
+  ],
+  "keywords": [
+    "tutorial",
+    "walkthrough",
+    "show me how",
+    "guide"
+  ],
+  "family": "screen",
+  "shapes": [
+    {
+      "d": "M2 5A2 2 0 0 1 4 3H20A2 2 0 0 1 22 5V14A2 2 0 0 1 20 16H4A2 2 0 0 1 2 14Z",
+      "closed": true
+    },
+    {
+      "d": "M9 21V15A2 2 0 0 1 13 15V11A2 2 0 0 1 17 11V16",
+      "closed": false,
+      "_why": "a hand pointing at the screen"
+    },
+    {
+      "d": "M6 8H12",
+      "closed": false
+    }
+  ]
+}

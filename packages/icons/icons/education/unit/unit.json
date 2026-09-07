@@ -1,0 +1,33 @@
+{
+  "slug": "unit",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Unit",
+  "description": "The block with its number",
+  "tags": [
+    "unit",
+    "numbered",
+    "block"
+  ],
+  "keywords": [
+    "unit",
+    "unit one",
+    "numbered block",
+    "section"
+  ],
+  "family": "cube",
+  "shapes": [
+    {
+      "d": "M4 9L15 9L15 20L4 20Z",
+      "closed": true
+    },
+    {
+      "d": "M4 9L9 4L20 4L15 9",
+      "closed": false
+    },
+    {
+      "d": "M8 14L10 12L10 17",
+      "closed": false
+    }
+  ]
+}

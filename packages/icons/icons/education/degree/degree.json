@@ -1,0 +1,30 @@
+{
+  "slug": "degree",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Degree",
+  "description": "The cap over the rolled sheet",
+  "tags": [
+    "degree",
+    "graduate",
+    "award"
+  ],
+  "keywords": [
+    "degree",
+    "graduated",
+    "university degree",
+    "award"
+  ],
+  "family": "cap",
+  "shapes": [
+    {
+      "d": "M2 8L6 4L18 4L22 8L18 12L6 12Z",
+      "closed": true
+    },
+    {
+      "d": "M5 16A2 2 0 0 0 5 20H19A2 2 0 0 0 19 16Z",
+      "closed": true,
+      "_why": "the scroll under the cap"
+    }
+  ]
+}

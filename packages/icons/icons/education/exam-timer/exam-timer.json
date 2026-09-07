@@ -1,0 +1,37 @@
+{
+  "slug": "exam-timer",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Exam timer",
+  "description": "The sand running through",
+  "tags": [
+    "timer",
+    "sand",
+    "time-left"
+  ],
+  "keywords": [
+    "exam timer",
+    "hourglass",
+    "time left",
+    "sand timer"
+  ],
+  "family": "hourglass",
+  "shapes": [
+    {
+      "d": "M6 3H18",
+      "closed": false
+    },
+    {
+      "d": "M6 21H18",
+      "closed": false
+    },
+    {
+      "d": "M6 3L6 6L12 12L18 6L18 3",
+      "closed": false
+    },
+    {
+      "d": "M6 21L6 18L12 12L18 18L18 21",
+      "closed": false
+    }
+  ]
+}

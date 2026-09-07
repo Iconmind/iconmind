@@ -1,0 +1,29 @@
+{
+  "slug": "skill-badge",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Skill badge",
+  "description": "The badge you get for it",
+  "tags": [
+    "badge",
+    "skill",
+    "earned"
+  ],
+  "keywords": [
+    "skill badge",
+    "badge",
+    "earned",
+    "credential"
+  ],
+  "family": "badge",
+  "shapes": [
+    {
+      "d": "M12 3L19 10L19 14L12 21L5 14L5 10Z",
+      "closed": true
+    },
+    {
+      "d": "M8 10L11 13L16 8",
+      "closed": false
+    }
+  ]
+}

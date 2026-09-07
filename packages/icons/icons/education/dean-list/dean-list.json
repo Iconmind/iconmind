@@ -1,0 +1,41 @@
+{
+  "slug": "dean-list",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Dean's list",
+  "description": "The list with a star against it",
+  "tags": [
+    "dean",
+    "list",
+    "honours"
+  ],
+  "keywords": [
+    "dean's list",
+    "honours list",
+    "top students",
+    "listed"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M11 8H17",
+      "closed": false
+    },
+    {
+      "d": "M11 12H17",
+      "closed": false
+    },
+    {
+      "d": "M11 16H17",
+      "closed": false
+    },
+    {
+      "d": "M8 6L10 8L8 10L6 8Z",
+      "closed": true
+    }
+  ]
+}

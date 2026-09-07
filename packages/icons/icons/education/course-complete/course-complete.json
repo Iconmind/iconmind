@@ -1,0 +1,37 @@
+{
+  "slug": "course-complete",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Course complete",
+  "description": "The last box ticked",
+  "tags": [
+    "complete",
+    "finished",
+    "done"
+  ],
+  "keywords": [
+    "course complete",
+    "finished the course",
+    "all done",
+    "completed"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H18A2 2 0 0 1 20 5V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M7 8H17",
+      "closed": false
+    },
+    {
+      "d": "M7 12H17",
+      "closed": false
+    },
+    {
+      "d": "M7 16L10 19L17 12",
+      "closed": false
+    }
+  ]
+}

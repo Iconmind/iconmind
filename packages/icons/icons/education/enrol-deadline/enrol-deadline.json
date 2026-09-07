@@ -1,0 +1,40 @@
+{
+  "slug": "enrol-deadline",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Enrolment deadline",
+  "description": "The last day to sign up",
+  "tags": [
+    "deadline",
+    "last-day",
+    "closes"
+  ],
+  "aliases": [
+    "closing-date"
+  ],
+  "keywords": [
+    "enrolment deadline",
+    "closing date",
+    "last day",
+    "sign up by"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M3 7A2 2 0 0 1 5 5H19A2 2 0 0 1 21 7V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M3 9H21",
+      "closed": false
+    },
+    {
+      "d": "M10 15a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M13 12L13 15L16 15",
+      "closed": false
+    }
+  ]
+}

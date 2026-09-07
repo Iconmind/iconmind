@@ -1,0 +1,40 @@
+{
+  "slug": "tuition",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Tuition fees",
+  "description": "What the course costs",
+  "tags": [
+    "fees",
+    "cost",
+    "pay"
+  ],
+  "aliases": [
+    "fees"
+  ],
+  "keywords": [
+    "tuition",
+    "course fees",
+    "what it costs",
+    "pay"
+  ],
+  "family": "note",
+  "shapes": [
+    {
+      "d": "M2 9A2 2 0 0 1 4 7H20A2 2 0 0 1 22 9V16A2 2 0 0 1 20 18H4A2 2 0 0 1 2 16Z",
+      "closed": true
+    },
+    {
+      "d": "M9 12.5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6 10L6 15",
+      "closed": false
+    },
+    {
+      "d": "M18 10L18 15",
+      "closed": false
+    }
+  ]
+}

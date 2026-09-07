@@ -1,0 +1,41 @@
+{
+  "slug": "study-group",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Study group",
+  "description": "Three of you round one book",
+  "tags": [
+    "study",
+    "group",
+    "together"
+  ],
+  "keywords": [
+    "study group",
+    "revise together",
+    "study together",
+    "group"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M2 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M16 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M7 15A2 2 0 0 1 9 13H15A2 2 0 0 1 17 15V19A2 2 0 0 1 15 21H9A2 2 0 0 1 7 19Z",
+      "closed": true
+    },
+    {
+      "d": "M12 13V21",
+      "closed": false
+    },
+    {
+      "d": "M9 5a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

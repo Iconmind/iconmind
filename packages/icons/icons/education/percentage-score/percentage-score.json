@@ -1,0 +1,33 @@
+{
+  "slug": "percentage-score",
+  "category": "education",
+  "subcategory": "course",
+  "name": "Percentage",
+  "description": "The score out of a hundred",
+  "tags": [
+    "percent",
+    "out-of",
+    "hundred"
+  ],
+  "keywords": [
+    "percentage",
+    "percent score",
+    "out of a hundred",
+    "per cent"
+  ],
+  "family": "percent",
+  "shapes": [
+    {
+      "d": "M3 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 17a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M5 19L19 5",
+      "closed": false
+    }
+  ]
+}
