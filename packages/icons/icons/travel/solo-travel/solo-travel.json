@@ -1,0 +1,33 @@
+{
+  "slug": "solo-travel",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Solo travel",
+  "description": "One person with a pack",
+  "tags": [
+    "solo",
+    "alone",
+    "independent"
+  ],
+  "keywords": [
+    "solo travel",
+    "travelling alone",
+    "independent travel",
+    "one person"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M7 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 21A8 8 0 0 1 18 21",
+      "closed": false
+    },
+    {
+      "d": "M16 9L20 9L20 16L16 16Z",
+      "closed": true
+    }
+  ]
+}

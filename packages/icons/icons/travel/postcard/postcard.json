@@ -1,0 +1,37 @@
+{
+  "slug": "postcard",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Postcard",
+  "description": "The card with a stamp in its corner and two lines of address",
+  "tags": [
+    "postcard",
+    "card",
+    "write"
+  ],
+  "keywords": [
+    "postcard",
+    "send a postcard",
+    "greetings card",
+    "write home"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M2 7A2 2 0 0 1 4 5H20A2 2 0 0 1 22 7V17A2 2 0 0 1 20 19H4A2 2 0 0 1 2 17Z",
+      "closed": true
+    },
+    {
+      "d": "M15 8L19 8L19 12L15 12Z",
+      "closed": true
+    },
+    {
+      "d": "M5 11H13",
+      "closed": false
+    },
+    {
+      "d": "M5 15H13",
+      "closed": false
+    }
+  ]
+}

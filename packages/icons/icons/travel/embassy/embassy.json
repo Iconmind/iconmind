@@ -1,0 +1,40 @@
+{
+  "slug": "embassy",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Embassy",
+  "description": "The building with a flag on its roof",
+  "tags": [
+    "embassy",
+    "consulate",
+    "help"
+  ],
+  "aliases": [
+    "consulate"
+  ],
+  "keywords": [
+    "embassy",
+    "consulate",
+    "your country's office",
+    "help abroad"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 21L4 10L20 10L20 21",
+      "closed": false
+    },
+    {
+      "d": "M2 21H22",
+      "closed": false
+    },
+    {
+      "d": "M12 2V10",
+      "closed": false
+    },
+    {
+      "d": "M12 3L19 3L19 7L12 7",
+      "closed": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "roaming",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Roaming",
+  "description": "The phone with the signal arcs beside it",
+  "tags": [
+    "roaming",
+    "network",
+    "abroad"
+  ],
+  "keywords": [
+    "roaming",
+    "data roaming",
+    "network abroad",
+    "mobile abroad"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 5A2 2 0 0 1 6 3H12A2 2 0 0 1 14 5V19A2 2 0 0 1 12 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M16 9A3 3 0 0 1 16 15",
+      "closed": false
+    },
+    {
+      "d": "M16 5A7 7 0 0 1 16 19",
+      "closed": false
+    }
+  ]
+}

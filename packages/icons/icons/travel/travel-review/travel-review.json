@@ -1,0 +1,30 @@
+{
+  "slug": "travel-review",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Travel review",
+  "description": "The speech bubble with a stone in it — what the traveller said",
+  "tags": [
+    "review",
+    "rating",
+    "opinion"
+  ],
+  "keywords": [
+    "travel review",
+    "trip review",
+    "rating",
+    "what people said"
+  ],
+  "family": "window",
+  "shapes": [
+    {
+      "d": "M4 4H20A2 2 0 0 1 22 6V15A2 2 0 0 1 20 17H13L8 22V17H4A2 2 0 0 1 2 15V6A2 2 0 0 1 4 4Z",
+      "closed": true,
+      "_why": "a bubble with its tail at the foot"
+    },
+    {
+      "d": "M12 8.5L14 10.5L12 12.5L10 10.5Z",
+      "closed": true
+    }
+  ]
+}

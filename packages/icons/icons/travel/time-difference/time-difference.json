@@ -1,0 +1,45 @@
+{
+  "slug": "time-difference",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Time difference",
+  "description": "Two clocks side by side, their hands apart",
+  "tags": [
+    "timezone",
+    "hours",
+    "difference"
+  ],
+  "keywords": [
+    "time difference",
+    "hours ahead",
+    "time zones",
+    "what time is it there"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 12a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M6.5 8.5V12",
+      "closed": false
+    },
+    {
+      "d": "M6.5 12H9.5",
+      "closed": false
+    },
+    {
+      "d": "M13 12a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17.5 12V15.5",
+      "closed": false
+    },
+    {
+      "d": "M14.5 12H17.5",
+      "closed": false
+    }
+  ]
+}

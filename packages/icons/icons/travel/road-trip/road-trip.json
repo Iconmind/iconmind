@@ -1,0 +1,37 @@
+{
+  "slug": "road-trip",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Road trip",
+  "description": "The road running to the horizon",
+  "tags": [
+    "road",
+    "drive",
+    "journey"
+  ],
+  "keywords": [
+    "road trip",
+    "drive",
+    "long drive",
+    "open road"
+  ],
+  "family": "road",
+  "shapes": [
+    {
+      "d": "M3 20L9 14L9 5",
+      "closed": false
+    },
+    {
+      "d": "M21 20L15 14L15 5",
+      "closed": false
+    },
+    {
+      "d": "M12 9V12",
+      "closed": false
+    },
+    {
+      "d": "M12 16V19",
+      "closed": false
+    }
+  ]
+}

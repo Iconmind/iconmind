@@ -1,0 +1,30 @@
+{
+  "slug": "destination-weather",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Weather there",
+  "description": "The sun behind a cloud — what it is doing at the other end",
+  "tags": [
+    "weather",
+    "forecast",
+    "there"
+  ],
+  "keywords": [
+    "destination weather",
+    "weather forecast",
+    "what's it like there",
+    "holiday weather"
+  ],
+  "family": "cloud",
+  "shapes": [
+    {
+      "d": "M4 7a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9 20A4 4 0 0 1 9 12A5 5 0 0 1 18 12A4 4 0 0 1 18 20Z",
+      "closed": true,
+      "_why": "a cloud: three lobes over a flat foot"
+    }
+  ]
+}

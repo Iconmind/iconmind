@@ -1,0 +1,37 @@
+{
+  "slug": "beach-trip",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Beach trip",
+  "description": "The parasol on the sand",
+  "tags": [
+    "beach",
+    "sea",
+    "sun"
+  ],
+  "keywords": [
+    "beach trip",
+    "beach holiday",
+    "seaside",
+    "sun and sand"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 12A9 9 0 0 1 21 12",
+      "closed": false
+    },
+    {
+      "d": "M3 12H21",
+      "closed": false
+    },
+    {
+      "d": "M12 12V20",
+      "closed": false
+    },
+    {
+      "d": "M4 20H20",
+      "closed": false
+    }
+  ]
+}

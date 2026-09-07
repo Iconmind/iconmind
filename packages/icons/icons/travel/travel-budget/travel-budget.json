@@ -1,0 +1,37 @@
+{
+  "slug": "travel-budget",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Travel budget",
+  "description": "The page with a coin on it — what the trip may cost",
+  "tags": [
+    "budget",
+    "cost",
+    "money"
+  ],
+  "keywords": [
+    "travel budget",
+    "trip cost",
+    "holiday budget",
+    "money for the trip"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M4 4A2 2 0 0 1 6 2H18A2 2 0 0 1 20 4V20A2 2 0 0 1 18 22H6A2 2 0 0 1 4 20Z",
+      "closed": true
+    },
+    {
+      "d": "M9 2V22",
+      "closed": false
+    },
+    {
+      "d": "M11.5 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M14.5 10V14",
+      "closed": false
+    }
+  ]
+}

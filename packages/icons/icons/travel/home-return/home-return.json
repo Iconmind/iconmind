@@ -1,0 +1,37 @@
+{
+  "slug": "home-return",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "On the way home",
+  "description": "The house with an arrow coming back to it",
+  "tags": [
+    "home",
+    "return",
+    "back"
+  ],
+  "keywords": [
+    "on the way home",
+    "return home",
+    "heading back",
+    "journey home"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 12L10 5L17 12",
+      "closed": false
+    },
+    {
+      "d": "M5 12L5 20L15 20L15 12",
+      "closed": false
+    },
+    {
+      "d": "M16 16H22",
+      "closed": false
+    },
+    {
+      "d": "M18.5 13.5L16 16L18.5 18.5",
+      "closed": false
+    }
+  ]
+}

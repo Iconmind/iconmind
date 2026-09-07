@@ -1,0 +1,37 @@
+{
+  "slug": "luggage-tag",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Luggage tag",
+  "description": "The tag tied to the handle",
+  "tags": [
+    "tag",
+    "label",
+    "name"
+  ],
+  "keywords": [
+    "luggage tag",
+    "bag tag",
+    "name label",
+    "baggage tag"
+  ],
+  "family": "label",
+  "shapes": [
+    {
+      "d": "M6 4L16 4L20 8L16 12L6 12Z",
+      "closed": true
+    },
+    {
+      "d": "M8 8a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    },
+    {
+      "d": "M4 16H18",
+      "closed": false
+    },
+    {
+      "d": "M4 20H14",
+      "closed": false
+    }
+  ]
+}

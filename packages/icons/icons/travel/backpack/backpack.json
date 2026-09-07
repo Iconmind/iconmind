@@ -1,0 +1,41 @@
+{
+  "slug": "backpack",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Backpack",
+  "description": "A pack with its lid and two straps",
+  "tags": [
+    "rucksack",
+    "pack",
+    "bag"
+  ],
+  "aliases": [
+    "rucksack"
+  ],
+  "keywords": [
+    "backpack",
+    "rucksack",
+    "day pack",
+    "hiking bag"
+  ],
+  "family": "pack",
+  "shapes": [
+    {
+      "d": "M6 21V9A6 6 0 0 1 18 9V21Z",
+      "closed": true,
+      "_why": "a pack: straight sides into one rounded lid"
+    },
+    {
+      "d": "M6 13H18",
+      "closed": false
+    },
+    {
+      "d": "M9 2V4.5",
+      "closed": false
+    },
+    {
+      "d": "M15 2V4.5",
+      "closed": false
+    }
+  ]
+}

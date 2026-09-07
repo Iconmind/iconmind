@@ -1,0 +1,40 @@
+{
+  "slug": "souvenir",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Souvenir",
+  "description": "The little gift bought to take home",
+  "tags": [
+    "souvenir",
+    "gift",
+    "memento"
+  ],
+  "aliases": [
+    "memento"
+  ],
+  "keywords": [
+    "souvenir",
+    "memento",
+    "gift from the trip",
+    "keepsake"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 11A2 2 0 0 1 6 9H18A2 2 0 0 1 20 11V19A2 2 0 0 1 18 21H6A2 2 0 0 1 4 19Z",
+      "closed": true
+    },
+    {
+      "d": "M4 13H20",
+      "closed": false
+    },
+    {
+      "d": "M9 9L9 5L15 5L15 9",
+      "closed": false
+    },
+    {
+      "d": "M12 15L14 17L12 19L10 17Z",
+      "closed": true
+    }
+  ]
+}

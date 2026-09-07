@@ -1,0 +1,29 @@
+{
+  "slug": "travel-pillow",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Travel pillow",
+  "description": "The pillow that goes round the neck",
+  "tags": [
+    "pillow",
+    "neck",
+    "sleep"
+  ],
+  "aliases": [
+    "neck-pillow"
+  ],
+  "keywords": [
+    "travel pillow",
+    "neck pillow",
+    "sleep on the plane",
+    "u pillow"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 10A8 8 0 1 0 20 10A4 4 0 0 1 16 10A4 4 0 0 0 8 10A4 4 0 0 1 4 10Z",
+      "closed": true,
+      "_why": "a horseshoe: the ring open at the front, with rounded ends"
+    }
+  ]
+}

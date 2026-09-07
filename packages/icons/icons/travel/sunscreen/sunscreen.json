@@ -1,0 +1,36 @@
+{
+  "slug": "sunscreen",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Sunscreen",
+  "description": "The bottle with the sun on it",
+  "tags": [
+    "sunscreen",
+    "spf",
+    "cream"
+  ],
+  "aliases": [
+    "sun-cream"
+  ],
+  "keywords": [
+    "sunscreen",
+    "sun cream",
+    "spf",
+    "sun protection"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7 21L7 8L17 8L17 21Z",
+      "closed": true
+    },
+    {
+      "d": "M10 8L10 4L14 4L14 8",
+      "closed": false
+    },
+    {
+      "d": "M9 15a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "travel-sim",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Travel SIM",
+  "description": "The SIM card with its clipped corner",
+  "tags": [
+    "sim",
+    "card",
+    "data"
+  ],
+  "aliases": [
+    "sim-card"
+  ],
+  "keywords": [
+    "travel sim",
+    "sim card",
+    "local sim",
+    "data abroad"
+  ],
+  "family": "card",
+  "shapes": [
+    {
+      "d": "M6 3L16 3L19 6L19 21L6 21Z",
+      "closed": true
+    },
+    {
+      "d": "M9 10L16 10L16 17L9 17Z",
+      "closed": true
+    }
+  ]
+}

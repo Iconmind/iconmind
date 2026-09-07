@@ -1,0 +1,40 @@
+{
+  "slug": "translate-travel",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Translate",
+  "description": "Two speech marks, one in each alphabet",
+  "tags": [
+    "translate",
+    "language",
+    "words"
+  ],
+  "aliases": [
+    "translate"
+  ],
+  "keywords": [
+    "translate",
+    "language",
+    "say it in",
+    "translation"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 5L10 5L10 13L2 13Z",
+      "closed": true
+    },
+    {
+      "d": "M5 13L5 16L8 13",
+      "closed": false
+    },
+    {
+      "d": "M14 9L22 9L22 17L14 17Z",
+      "closed": true
+    },
+    {
+      "d": "M17 17L17 20L20 17",
+      "closed": false
+    }
+  ]
+}

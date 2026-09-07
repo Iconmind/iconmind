@@ -1,0 +1,44 @@
+{
+  "slug": "day-trip",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Day trip",
+  "description": "The sun over a road — out and back in a day",
+  "tags": [
+    "day",
+    "short",
+    "outing"
+  ],
+  "aliases": [
+    "excursion"
+  ],
+  "keywords": [
+    "day trip",
+    "excursion",
+    "out for the day",
+    "short trip"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M7.5 11a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0Z",
+      "closed": true
+    },
+    {
+      "d": "M12 2V5",
+      "closed": false
+    },
+    {
+      "d": "M4 5L7 8",
+      "closed": false
+    },
+    {
+      "d": "M20 5L17 8",
+      "closed": false
+    },
+    {
+      "d": "M2 18H22",
+      "closed": false
+    }
+  ]
+}

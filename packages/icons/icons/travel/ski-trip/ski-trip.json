@@ -1,0 +1,40 @@
+{
+  "slug": "ski-trip",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Ski trip",
+  "description": "Two skis over the piste below",
+  "tags": [
+    "ski",
+    "snow",
+    "winter"
+  ],
+  "aliases": [
+    "skiing"
+  ],
+  "keywords": [
+    "ski trip",
+    "skiing",
+    "winter holiday",
+    "on the slopes"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 19L8 13L11 16L16 11L21 16",
+      "closed": false
+    },
+    {
+      "d": "M6 8L12 2",
+      "closed": false
+    },
+    {
+      "d": "M9 8L15 2",
+      "closed": false
+    },
+    {
+      "d": "M2 21H22",
+      "closed": false
+    }
+  ]
+}

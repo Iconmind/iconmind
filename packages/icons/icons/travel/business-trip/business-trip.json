@@ -1,0 +1,33 @@
+{
+  "slug": "business-trip",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Business trip",
+  "description": "The briefcase with a plane over it",
+  "tags": [
+    "business",
+    "work",
+    "corporate"
+  ],
+  "keywords": [
+    "business trip",
+    "work travel",
+    "corporate travel",
+    "on business"
+  ],
+  "family": "briefcase",
+  "shapes": [
+    {
+      "d": "M3 14A2 2 0 0 1 5 12H19A2 2 0 0 1 21 14V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19Z",
+      "closed": true
+    },
+    {
+      "d": "M9 12L9 9.5L15 9.5L15 12",
+      "closed": false
+    },
+    {
+      "d": "M11 2L13.5 4.5L19 4.5L16.5 7L11 7Z",
+      "closed": true
+    }
+  ]
+}

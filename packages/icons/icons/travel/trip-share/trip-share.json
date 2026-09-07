@@ -1,0 +1,37 @@
+{
+  "slug": "trip-share",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Share the trip",
+  "description": "The page with an arrow leaving it",
+  "tags": [
+    "share",
+    "send",
+    "invite"
+  ],
+  "keywords": [
+    "share trip",
+    "send itinerary",
+    "invite to trip",
+    "share plan"
+  ],
+  "family": "page",
+  "shapes": [
+    {
+      "d": "M4 4A2 2 0 0 1 6 2H18A2 2 0 0 1 20 4V20A2 2 0 0 1 18 22H6A2 2 0 0 1 4 20Z",
+      "closed": true
+    },
+    {
+      "d": "M9 2V22",
+      "closed": false
+    },
+    {
+      "d": "M11 12H18",
+      "closed": false
+    },
+    {
+      "d": "M15.5 9.5L18 12L15.5 14.5",
+      "closed": false
+    }
+  ]
+}

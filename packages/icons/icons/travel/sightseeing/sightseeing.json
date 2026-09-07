@@ -1,0 +1,33 @@
+{
+  "slug": "sightseeing",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Sightseeing",
+  "description": "The camera pointed at the sights",
+  "tags": [
+    "sightseeing",
+    "camera",
+    "photo"
+  ],
+  "keywords": [
+    "sightseeing",
+    "see the sights",
+    "tourist",
+    "take photos"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M2 9A2 2 0 0 1 4 7H20A2 2 0 0 1 22 9V18A2 2 0 0 1 20 20H4A2 2 0 0 1 2 18Z",
+      "closed": true
+    },
+    {
+      "d": "M8 13.5a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
+    },
+    {
+      "d": "M8 7L10.5 4.5L13.5 4.5L16 7",
+      "closed": false
+    }
+  ]
+}

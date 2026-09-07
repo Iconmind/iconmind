@@ -1,0 +1,45 @@
+{
+  "slug": "family-holiday",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Family holiday",
+  "description": "Three heads, one small",
+  "tags": [
+    "family",
+    "children",
+    "together"
+  ],
+  "keywords": [
+    "family holiday",
+    "family trip",
+    "with the children",
+    "family travel"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M3.5 8a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 20A4.5 4.5 0 0 1 11 20",
+      "closed": false
+    },
+    {
+      "d": "M12 6a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M10 19A5 5 0 0 1 20 19",
+      "closed": false
+    },
+    {
+      "d": "M17.5 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
+    },
+    {
+      "d": "M17 20A2.5 2.5 0 0 1 22 20",
+      "closed": false
+    }
+  ]
+}

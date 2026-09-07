@@ -1,0 +1,41 @@
+{
+  "slug": "city-break",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "City break",
+  "description": "Two towers and a short stay",
+  "tags": [
+    "city",
+    "short",
+    "urban"
+  ],
+  "keywords": [
+    "city break",
+    "weekend away",
+    "urban trip",
+    "short city stay"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M4 21L4 8L10 8L10 21",
+      "closed": false
+    },
+    {
+      "d": "M13 21L13 4L19 4L19 21",
+      "closed": false
+    },
+    {
+      "d": "M4 12H10",
+      "closed": false
+    },
+    {
+      "d": "M13 9H19",
+      "closed": false
+    },
+    {
+      "d": "M2 21H22",
+      "closed": false
+    }
+  ]
+}

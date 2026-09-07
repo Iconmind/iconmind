@@ -1,0 +1,45 @@
+{
+  "slug": "group-tour",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Group tour",
+  "description": "Three heads together behind a flag",
+  "tags": [
+    "group",
+    "tour",
+    "together"
+  ],
+  "keywords": [
+    "group tour",
+    "guided group",
+    "tour group",
+    "travel together"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M4 9a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M9.5 9a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M15 9a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M3 19A4 4 0 0 1 11 19",
+      "closed": false
+    },
+    {
+      "d": "M8.5 19A4 4 0 0 1 16.5 19",
+      "closed": false
+    },
+    {
+      "d": "M14 19A4 4 0 0 1 22 19",
+      "closed": false
+    }
+  ]
+}

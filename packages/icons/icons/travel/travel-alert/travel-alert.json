@@ -1,0 +1,37 @@
+{
+  "slug": "travel-alert",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Travel alert",
+  "description": "The pin with an exclamation in it — something to know before you go",
+  "tags": [
+    "alert",
+    "warning",
+    "advice"
+  ],
+  "aliases": [
+    "travel-advisory"
+  ],
+  "keywords": [
+    "travel alert",
+    "travel advisory",
+    "safety warning",
+    "before you go"
+  ],
+  "family": "pin",
+  "shapes": [
+    {
+      "d": "M4 10A8 8 0 0 1 20 10L12 18Z",
+      "closed": true,
+      "_why": "the teardrop `location` is drawn from"
+    },
+    {
+      "d": "M12 6V10",
+      "closed": false
+    },
+    {
+      "d": "M11 12.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

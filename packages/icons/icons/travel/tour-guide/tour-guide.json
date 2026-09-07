@@ -1,0 +1,37 @@
+{
+  "slug": "tour-guide",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Tour guide",
+  "description": "A person with a raised umbrella",
+  "tags": [
+    "guide",
+    "tour",
+    "leader"
+  ],
+  "keywords": [
+    "tour guide",
+    "guided tour",
+    "group leader",
+    "follow the guide"
+  ],
+  "family": "person",
+  "shapes": [
+    {
+      "d": "M6 7a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
+    },
+    {
+      "d": "M2 21A7 7 0 0 1 16 21",
+      "closed": false
+    },
+    {
+      "d": "M14 8A4 4 0 0 1 22 8",
+      "closed": false
+    },
+    {
+      "d": "M18 8V16",
+      "closed": false
+    }
+  ]
+}

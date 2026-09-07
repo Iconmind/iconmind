@@ -1,0 +1,34 @@
+{
+  "slug": "photo-spot",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Photo spot",
+  "description": "The pin with a camera in it — the place worth a photograph",
+  "tags": [
+    "photo",
+    "spot",
+    "instagram"
+  ],
+  "keywords": [
+    "photo spot",
+    "best view",
+    "instagram spot",
+    "photo point"
+  ],
+  "family": "pin",
+  "shapes": [
+    {
+      "d": "M4 10A8 8 0 0 1 20 10L12 18Z",
+      "closed": true,
+      "_why": "the teardrop `location` is drawn from"
+    },
+    {
+      "d": "M8 8L16 8L16 13L8 13Z",
+      "closed": true
+    },
+    {
+      "d": "M11 10.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z",
+      "closed": true
+    }
+  ]
+}

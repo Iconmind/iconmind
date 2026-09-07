@@ -1,0 +1,37 @@
+{
+  "slug": "luggage-scale",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Luggage scale",
+  "description": "The bag hanging from the scale",
+  "tags": [
+    "scale",
+    "weight",
+    "kilos"
+  ],
+  "keywords": [
+    "luggage scale",
+    "bag weight",
+    "weigh the bag",
+    "kilos"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M6 4H18",
+      "closed": false
+    },
+    {
+      "d": "M12 4V8",
+      "closed": false
+    },
+    {
+      "d": "M6 10A2 2 0 0 1 8 8H16A2 2 0 0 1 18 10V18A2 2 0 0 1 16 20H8A2 2 0 0 1 6 18Z",
+      "closed": true
+    },
+    {
+      "d": "M9 14H15",
+      "closed": false
+    }
+  ]
+}

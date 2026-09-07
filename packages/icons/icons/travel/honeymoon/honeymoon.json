@@ -1,0 +1,31 @@
+{
+  "slug": "honeymoon",
+  "category": "travel",
+  "subcategory": "trip",
+  "name": "Honeymoon",
+  "description": "Two hearts on the way",
+  "tags": [
+    "honeymoon",
+    "romance",
+    "couple"
+  ],
+  "keywords": [
+    "honeymoon",
+    "romantic trip",
+    "couple's holiday",
+    "just married"
+  ],
+  "family": "figure",
+  "shapes": [
+    {
+      "d": "M3 9A3 3 0 0 1 9 9A3 3 0 0 1 15 9L9 15Z",
+      "closed": true,
+      "_why": "a heart: two lobes over a point"
+    },
+    {
+      "d": "M12 14A2 2 0 0 1 16 14A2 2 0 0 1 20 14L16 18Z",
+      "closed": true,
+      "_why": "the smaller heart beside it"
+    }
+  ]
+}
