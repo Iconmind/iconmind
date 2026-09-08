@@ -1,7 +1,7 @@
 {
   "name": "@iconmind/react-native",
-  "version": "0.7.1",
-  "description": "React Native components for IconMind \u2014 5,287 tree-shakeable icons for AI-era software, rendered with react-native-svg.",
+  "version": "0.8.0",
+  "description": "React Native components for IconMind — 5,287 tree-shakeable icons for AI-era software, rendered with react-native-svg.",
   "keywords": [
     "icons",
     "svg",

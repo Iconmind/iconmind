@@ -1,6 +1,6 @@
 {
   "name": "@iconmind/react",
-  "version": "0.7.1",
+  "version": "0.8.0",
   "type": "module",
   "sideEffects": false,
   "license": "MIT",
@@ -42,7 +42,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "description": "React components for IconMind \u2014 5,287 tree-shakeable icons for AI-era software (LLMs, agents, MCP, RAG).",
+  "description": "React components for IconMind — 5,287 tree-shakeable icons for AI-era software (LLMs, agents, MCP, RAG).",
   "keywords": [
     "icons",
     "svg",

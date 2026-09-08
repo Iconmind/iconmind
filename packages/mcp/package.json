@@ -1,6 +1,6 @@
 {
   "name": "@iconmind/mcp",
-  "version": "0.7.1",
+  "version": "0.8.0",
   "type": "module",
   "license": "MIT",
   "mcpName": "io.github.iconmind/iconmind",
@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.22.0",
-    "@iconmind/icons": "^0.7.0"
+    "@iconmind/icons": "^0.8.0"
   },
   "devDependencies": {
     "@iconmind/shared": "workspace:*",
