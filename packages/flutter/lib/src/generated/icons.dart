@@ -5400,8 +5400,6 @@ abstract final class IconMindIcons {
   @Deprecated('use plantGrow')
   static const IconMindData growth = g.plantGrow;
   static const IconMindData plantPot = g.plantPot;
-  @Deprecated('use plantPot')
-  static const IconMindData houseplant = g.plantPot;
   static const IconMindData plantSick = g.plantSick;
   static const IconMindData plaster = g.plaster;
   @Deprecated('use plaster')

@@ -26,19 +26,15 @@
       "closed": false
     },
     {
-      "d": "M6 7H13",
+      "d": "M6 6L6 9.5L11 9.5L11 6",
       "closed": false
     },
     {
-      "d": "M6 12H13",
+      "d": "M13 6L13 9.5L18 9.5L18 6",
       "closed": false
     },
     {
-      "d": "M6 6V12",
-      "closed": false
-    },
-    {
-      "d": "M15 9.5H18",
+      "d": "M6 13H18",
       "closed": false
     }
   ]

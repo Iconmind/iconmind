@@ -3,7 +3,7 @@
   "category": "travel",
   "subcategory": "lodging",
   "name": "Spa",
-  "description": "Steam rising from a bowl of hot water",
+  "description": "Three stones balanced, one on the next — the quiet of the place",
   "tags": [
     "spa",
     "wellness",
@@ -21,19 +21,19 @@
   "family": "figure",
   "shapes": [
     {
-      "d": "M19 14A7 7 0 0 1 5 14",
-      "closed": false
+      "d": "M8 17a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z",
+      "closed": true
     },
     {
-      "d": "M4 14H20",
-      "closed": false
+      "d": "M9 10a3 3 0 1 0 6 0a3 3 0 1 0 -6 0Z",
+      "closed": true
     },
     {
-      "d": "M9 11L11 9L9 7",
-      "closed": false
+      "d": "M10 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0Z",
+      "closed": true
     },
     {
-      "d": "M15 11L17 9L15 7",
+      "d": "M4 21.5H20",
       "closed": false
     }
   ]

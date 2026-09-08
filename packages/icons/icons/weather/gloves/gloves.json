@@ -26,9 +26,17 @@
       "_why": "a mitten: straight sides into one rounded top"
     },
     {
-      "d": "M15 21V12A2.5 2.5 0 0 1 20 12V21Z",
+      "d": "M15 21V13A2.5 2.5 0 0 1 20 13V21Z",
       "closed": true,
-      "_why": "the second mitten beside it"
+      "_why": "the second mitten"
+    },
+    {
+      "d": "M6 17H12",
+      "closed": false
+    },
+    {
+      "d": "M15 18H20",
+      "closed": false
     }
   ]
 }

@@ -4,6 +4,6 @@ import '../data.dart';
 /// Gloves
 const IconMindData gloves = IconMindData(
   'gloves',
-  [N('M6 21V10a3 3 0 0 1 6 0v11Z'), N('M15 21v-9a2.5 2.5 0 0 1 5 0v9Z')],
-  [N.tint('M6 21V10a3 3 0 0 1 6 0v11Z'), N.tint('M15 21v-9a2.5 2.5 0 0 1 5 0v9Z'), N('M6 21V10a3 3 0 0 1 6 0v11Z'), N('M15 21v-9a2.5 2.5 0 0 1 5 0v9Z')],
+  [N('M6 21V10a3 3 0 0 1 6 0v11Z'), N('M15 21v-8a2.5 2.5 0 0 1 5 0v8Z'), N('M6 17h6'), N('M15 18h5')],
+  [N.tint('M6 21V10a3 3 0 0 1 6 0v11Z'), N.tint('M15 21v-8a2.5 2.5 0 0 1 5 0v8Z'), N('M6 21V10a3 3 0 0 1 6 0v11Z'), N('M15 21v-8a2.5 2.5 0 0 1 5 0v8Z'), N('M6 17h6'), N('M15 18h5')],
 );

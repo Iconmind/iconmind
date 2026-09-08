@@ -4,6 +4,6 @@ import '../data.dart';
 /// FuelPump
 const IconMindData fuelPump = IconMindData(
   'fuel-pump',
-  [N('M3 21V5l3 -3h6l3 3v16Z'), N('M5.5 7a2 2 0 0 1 2 -2h3a2 2 0 0 1 2 2v2.5a2 2 0 0 1 -2 2h-3a2 2 0 0 1 -2 -2Z'), N('M15 8h3l3 3v6')],
-  [N.tint('M3 21V5l3 -3h6l3 3v16Z'), N.tint('M5.5 7a2 2 0 0 1 2 -2h3a2 2 0 0 1 2 2v2.5a2 2 0 0 1 -2 2h-3a2 2 0 0 1 -2 -2Z'), N('M3 21V5l3 -3h6l3 3v16Z'), N('M5.5 7a2 2 0 0 1 2 -2h3a2 2 0 0 1 2 2v2.5a2 2 0 0 1 -2 2h-3a2 2 0 0 1 -2 -2Z'), N('M15 8h3l3 3v6')],
+  [N('M2.5 21V5l3 -3h7l3 3v16Z'), N('M6 7a2 2 0 0 1 2 -2h2.5a2 2 0 0 1 2 2v2.5a2 2 0 0 1 -2 2H8a2 2 0 0 1 -2 -2Z'), N('M15 8h3l3 3v6')],
+  [N.tint('M2.5 21V5l3 -3h7l3 3v16Z'), N.tint('M6 7a2 2 0 0 1 2 -2h2.5a2 2 0 0 1 2 2v2.5a2 2 0 0 1 -2 2H8a2 2 0 0 1 -2 -2Z'), N('M2.5 21V5l3 -3h7l3 3v16Z'), N('M6 7a2 2 0 0 1 2 -2h2.5a2 2 0 0 1 2 2v2.5a2 2 0 0 1 -2 2H8a2 2 0 0 1 -2 -2Z'), N('M15 8h3l3 3v6')],
 );
