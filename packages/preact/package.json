@@ -1,6 +1,6 @@
 {
   "name": "@iconmind/preact",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "Preact components for IconMind — 5,287 tree-shakeable icons for AI-era software (LLMs, agents, MCP, RAG).",
   "keywords": [
     "icons",
