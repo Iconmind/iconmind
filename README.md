@@ -23,7 +23,7 @@
 <p align="center">
   <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-blue"></a>
   <img alt="icons" src="https://img.shields.io/badge/icons-5287-black">
-  <img alt="cells" src="https://img.shields.io/badge/SVGs-22722-black">
+  <img alt="cells" src="https://img.shields.io/badge/SVGs-31722-black">
   <a href="https://www.npmjs.com/package/@iconmind/react"><img alt="npm" src="https://img.shields.io/npm/v/%40iconmind%2Freact?label=npm&color=blue"></a>
   <a href="https://pub.dev/packages/iconmind_flutter"><img alt="pub.dev" src="https://img.shields.io/pub/v/iconmind_flutter?label=pub.dev&color=blue"></a>
 </p>
