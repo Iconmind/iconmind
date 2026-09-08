@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 /**
  * The refusals, written down.
  *
- * A set of this size is easy to mistake for a pile: 3,787 drawings, added fast, in a
+ * A set of this size is easy to mistake for a pile: 5,287 drawings, added fast, in a
  * vocabulary nobody else covers. What separates the two is what got turned away, so this
  * page lists it. Every entry here is a decision somebody had to make and can be checked
  * against the repository: the gates that rejected a shape are the same commands anyone
@@ -61,7 +61,7 @@ const REDRAWN: Row[] = [
 const CATEGORIES: Row[] = [
   ["Brand and product logos", "They carry trademark weight this set does not want, and most brand guidelines forbid the modification a shared grid requires. Simple Icons already covers about 3,300 of them under CC0."],
   ["Cryptocurrency coins", "Coin icons are logos. cryptocurrency-icons covers roughly 500 of them, and Web3 Icons and Bitcoin Icons cover the rest."],
-  ["Weather, food, animals, vehicles, zodiac, faces", "Generalist territory. Lucide and Tabler do it well, they are drawn on the same grid, and there is no reason for a second copy."],
+  ["Zodiac signs and emoji faces", "Both are pictograms with conventions of their own, and neither survives a 24 px grid at a 2 px stroke. Emoji sets and astrology sets draw them properly. Weather, food, animals and vehicles were on this list until the set grew far enough to draw them on the same grid as everything else."],
   ["A filled variant", "Tried, and dropped. Two variants and three weights is already six drawings per icon; a seventh made the set harder to hold in the head without answering a question anyone asked."],
   ["An icon font", "A font flattens duotone and the three weights into one glyph. The sprite sheet covers the no-build-step case instead."],
   ["A Figma library and plugin", "Built on 30 August 2026 and removed the same day, before publishing. A hand-maintained Figma file is a second source of truth beside the compiler, and the two would diverge within a month. Iconify already carries the same generated output."],

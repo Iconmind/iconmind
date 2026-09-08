@@ -24,7 +24,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup"
+    "build": "NODE_OPTIONS=--max-old-space-size=8192 tsup"
   },
   "peerDependencies": {
     "react": ">=18"
@@ -42,7 +42,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "description": "React components for IconMind — 3,787 tree-shakeable icons for AI-era software (LLMs, agents, MCP, RAG).",
+  "description": "React components for IconMind \u2014 5,287 tree-shakeable icons for AI-era software (LLMs, agents, MCP, RAG).",
   "keywords": [
     "icons",
     "svg",

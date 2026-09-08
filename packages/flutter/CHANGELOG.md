@@ -1,3 +1,12 @@
+## 0.8.0
+
+Fifteen hundred new icons, 5,287 in all, and six new domains: travel, weather, health,
+education, home and social — the everyday half of a product that the AI half sits
+inside, 250 icons each. A kitchen drawn as the tool you pick up rather than the same
+bowl with a different dot in it; a house room by room; people, events, sport, games and
+the things people do with an evening. Three earlier rounds went back on the board first,
+because the contact sheets showed shapes fusing at 16 px instead of reading as objects.
+
 ## 0.7.0
 
 Five hundred new icons, 3,787 in all, and two new domains. Commerce: the storefront,

@@ -1,6 +1,6 @@
 # iconmind/blade-iconmind
 
-Blade components for [IconMind](https://iconmind.dev) — 3,787 icons for AI-era
+Blade components for [IconMind](https://iconmind.dev) — 5,287 icons for AI-era
 software: LLMs, agents, MCP, RAG, and everything around them.
 
 ```bash

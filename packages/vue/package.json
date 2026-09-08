@@ -1,7 +1,7 @@
 {
   "name": "@iconmind/vue",
   "version": "0.7.1",
-  "description": "Vue 3 components for IconMind — 3,787 tree-shakeable icons for AI-era software (LLMs, agents, MCP, RAG).",
+  "description": "Vue 3 components for IconMind \u2014 5,287 tree-shakeable icons for AI-era software (LLMs, agents, MCP, RAG).",
   "keywords": [
     "icons",
     "svg",
@@ -40,7 +40,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup"
+    "build": "NODE_OPTIONS=--max-old-space-size=8192 tsup"
   },
   "peerDependencies": {
     "vue": ">=3.3"

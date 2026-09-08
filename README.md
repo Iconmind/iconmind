@@ -22,7 +22,7 @@
 
 <p align="center">
   <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-blue"></a>
-  <img alt="icons" src="https://img.shields.io/badge/icons-3787-black">
+  <img alt="icons" src="https://img.shields.io/badge/icons-5287-black">
   <img alt="cells" src="https://img.shields.io/badge/SVGs-22722-black">
   <a href="https://www.npmjs.com/package/@iconmind/react"><img alt="npm" src="https://img.shields.io/npm/v/%40iconmind%2Freact?label=npm&color=blue"></a>
   <a href="https://pub.dev/packages/iconmind_flutter"><img alt="pub.dev" src="https://img.shields.io/pub/v/iconmind_flutter?label=pub.dev&color=blue"></a>
@@ -38,16 +38,17 @@ import { Agent, ContextWindow, VectorDatabase } from "@iconmind/react";
 <VectorDatabase size={32} className="text-violet-500" />
 ```
 
-**3,787 icons · 22,722 drawings · 10 packages · one generated source of truth.**
+**5,287 icons · 31,722 drawings · 10 packages · one generated source of truth.**
 
 Every icon is a declaration compiled into six cells by a validator that refuses geometry
-it cannot draw correctly, and a nightly job rasterises all 22,722 of them and fails if any
+it cannot draw correctly, and a nightly job rasterises all 31,722 of them and fails if any
 two icons render the same. That is how a set this size still reads as one hand, and why
 an assistant can be handed [an MCP server](https://iconmind.dev/docs/mcp/) that returns
 real names instead of `<AgentBrain />`.
 
-Six icons were redrawn last week because that scan caught them, and Bluetooth was dropped
-because its rune needs three stroke crossings where the set allows two.
+Icons get redrawn when that scan or the contact sheet catches them — a whole round of
+rooms and appliances went back on the board because shapes were fusing at 16 px — and
+Bluetooth was dropped because its rune needs three stroke crossings where the set allows two.
 [Everything else that was turned away](https://iconmind.dev/not-here/) is written down too.
 
 ## Why this exists
@@ -72,7 +73,7 @@ share an interface without clashing.
 
 ## The set
 
-**3,787 icons · 14 domains · 6 cells each.** Two variants, outline and duotone, each
+**5,287 icons · 20 domains · 6 cells each.** Two variants, outline and duotone, each
 drawn at three weights (1.5 / 2 / 2.5). A weight is a real drawing constraint, not a
 `stroke-width` slider: gap and legibility rules tighten as the stroke grows, and the
 validator checks every cell separately.
@@ -94,6 +95,9 @@ wider behind them, so the whole set answers the variant switch, not just the luc
 | **RAG & Search**: chunking, retrieval, ranking, vectors, grounding | **Data Engineering**: pipelines, warehouses, streaming, quality | **DevOps**: CI/CD, containers, observability, incidents |
 | **Cloud**: compute, storage, network, edge, cost | **Security**: auth, secrets, policy, AI security | **Automation**: workflows, triggers, conditions, human-in-the-loop |
 | **Analytics**: charts, metrics, experiments, LLM observability | **Developer Tools**: code, terminal, VCS, API, testing | **Interface**: arrows, actions, states, layout, media |
+| **Commerce**: store, checkout, shipping, promotions, merchant | **Finance**: banking, wallets, investing, accounting, insurance | **Travel**: vehicles, transit, lodging, navigation, trips |
+| **Weather**: sky, storms, temperature, nature, climate | **Health**: medical, fitness, nutrition, mind, care | **Education**: school, reading, courses, science, arts |
+| **Home**: rooms, appliances, kitchen, garden, household | **Social**: people, events, sport, games, hobbies | |
 
 ## Install
 
@@ -159,7 +163,7 @@ constants: the AOT compiler drops every one you never mention.
 
 ## Download
 
-Every icon page has a **Download** menu with SVG, PNG at 16 to 512 px, WebP, a favicon `.ico`, JPEG and *Copy PNG*, rendered in your browser from the exact variant, weight and colour on screen. The whole set ships as two archives on every [GitHub Release](https://github.com/Iconmind/iconmind/releases): `iconmind-svg.zip` (all 22,722 cells) and `iconmind-png.zip` (one 512 px PNG per icon). It is also an [Iconify](https://icones.js.org) collection (`iconmind:agent`) and one jsDelivr URL away with no install.
+Every icon page has a **Download** menu with SVG, PNG at 16 to 512 px, WebP, a favicon `.ico`, JPEG and *Copy PNG*, rendered in your browser from the exact variant, weight and colour on screen. The whole set ships as two archives on every [GitHub Release](https://github.com/Iconmind/iconmind/releases): `iconmind-svg.zip` (all 31,722 cells) and `iconmind-png.zip` (one 512 px PNG per icon). It is also an [Iconify](https://icones.js.org) collection (`iconmind:agent`) and one jsDelivr URL away with no install.
 
 ## For AI assistants
 
@@ -232,8 +236,8 @@ real audits that redrew more than sixty icons:
 
 ```bash
 pnpm icons:audit                  # size, ink density and centred-ness outliers, with named exceptions
-pnpm icons:twins                  # renders all 3,787 icons and pixel-compares every pair for lookalikes
-pnpm icons:duplicates --perceptual # the nightly scan: 22,722 cells, fails on two that render alike
+pnpm icons:twins                  # renders all 5,287 icons and pixel-compares every pair for lookalikes
+pnpm icons:duplicates --perceptual # the nightly scan: 31,722 cells, fails on two that render alike
 ```
 
 ## Don't take my word for it
@@ -241,7 +245,7 @@ pnpm icons:duplicates --perceptual # the nightly scan: 22,722 cells, fails on tw
 Every claim on this page is a command you can run after cloning:
 
 ```bash
-pnpm icons:validate                # every rule, all 22,722 cells
+pnpm icons:validate                # every rule, all 31,722 cells
 pnpm icons:twins                   # pixel-compare every pair at 24px
 pnpm icons:duplicates --perceptual # the nightly scan for lookalikes
 pnpm test                          # including the bundle-size tripwires
@@ -259,7 +263,7 @@ see on npm is never ahead of or behind the repo.
 **Why is there no CommonJS build?** Providing one would provide a path that does not
 tree-shake well, and some bundlers would silently choose it. ESM only.
 
-**Why only 0/45/90° angles?** It is the constraint that makes 3,787 icons read as one
+**Why only 0/45/90° angles?** It is the constraint that makes 5,287 icons read as one
 hand. Some pictures are refused rather than drawn badly: a warning triangle at 45° is
 a tent, so `warning` is a circle. The rest of the refusals are
 [listed here](https://iconmind.dev/not-here/).
@@ -287,7 +291,7 @@ give you feedback in seconds, and a contact sheet renders any subset at 88/24/16
 ```bash
 pnpm install
 pnpm icons:build       # draw every icon from source
-pnpm icons:validate    # every rule, all 22,722 cells
+pnpm icons:validate    # every rule, all 31,722 cells
 pnpm icons:audit       # the consistency measures
 ```
 

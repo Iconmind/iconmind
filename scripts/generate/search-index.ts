@@ -20,6 +20,34 @@ for (const d of DOMAINS) for (const s of SUBCATEGORIES[d as Domain]) if (!subLis
 
 const icons = (await loadIcons()).filter((i) => i.svg && i.json);
 
+/**
+ * Keywords are compacted, not dropped.
+ *
+ * A keyword list is written as the phrase somebody would type ("roll the dough", "the
+ * rolling pin"), so most of its words are already in the slug, the name or the tags, and
+ * the joiners between them match nothing. Both are paid for by every visitor who opens
+ * the palette. What is left after the overlap and the joiners come out is the words this
+ * icon has and no other field carries — which is the whole reason the field exists.
+ */
+const JOINERS = new Set(
+  ("a an the of in on at to for it its is are and or your you they them this that with " +
+   "without by from as be no not what who how when where do does done off out up").split(" "),
+);
+const wordsIn = (s: string) => s.toLowerCase().split(/[^a-z0-9]+/).filter(Boolean);
+
+function compactKeywords(kw: string[], covered: string[]): string {
+  const have = new Set(covered.flatMap(wordsIn));
+  const out: string[] = [];
+  const seen = new Set<string>();
+  for (const word of kw.flatMap((k) => k.split(" "))) {
+    const w = word.toLowerCase();
+    if (!w || have.has(w) || JOINERS.has(w) || seen.has(w)) continue;
+    seen.add(w);
+    out.push(word);
+  }
+  return out.join(" ");
+}
+
 const rows = icons
   .map((i) => IconMetaInput.parse(JSON.parse(i.json!)))
   .sort((a, b) => a.slug.localeCompare(b.slug))
@@ -30,7 +58,7 @@ const rows = icons
     subList.indexOf(m.subcategory),
     m.tags.join(" "),
     m.aliases.join(" "),
-    m.keywords.join(" "),
+    compactKeywords(m.keywords, [m.slug, m.name, ...m.tags, ...m.aliases, m.category, m.subcategory]),
   ]);
 
 // description is deliberately absent: it roughly doubles the payload and is almost

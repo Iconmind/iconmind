@@ -1,7 +1,7 @@
 {
   "name": "@iconmind/solid",
   "version": "0.7.1",
-  "description": "SolidJS components for IconMind — 3,787 tree-shakeable icons for AI-era software (LLMs, agents, MCP, RAG).",
+  "description": "SolidJS components for IconMind \u2014 5,287 tree-shakeable icons for AI-era software (LLMs, agents, MCP, RAG).",
   "keywords": [
     "icons",
     "svg",
@@ -41,7 +41,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup"
+    "build": "NODE_OPTIONS=--max-old-space-size=8192 tsup"
   },
   "peerDependencies": {
     "solid-js": ">=1.8"

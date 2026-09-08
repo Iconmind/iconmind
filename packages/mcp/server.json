@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
   "name": "io.github.iconmind/iconmind",
-  "description": "Search IconMind's 3,787 MIT icons by name, tag or category and get real slugs and import lines; offline, instant start.",
+  "description": "Search IconMind's 5,287 MIT icons by name, tag or category and get real slugs and import lines; offline, instant start.",
   "repository": {
     "url": "https://github.com/Iconmind/iconmind",
     "source": "github",

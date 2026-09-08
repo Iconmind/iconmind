@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 };
 
 /**
- * The fourteen domains, at the density of the rest of the site.
+ * The twenty domains, at the density of the rest of the site.
  *
  * This page used to run two columns of 26px-padded cards with 24px headings — the only
  * screen on the site set at that scale, and twelve of them meant three scrolls to see a
