@@ -1,6 +1,6 @@
 /**
  * The whole set as two zips — every SVG, every preview PNG — written into the site's
- * build output, never into git. Run after `next build` (see apps/web/vercel.json); the
+ * build output, never into git. Run after `next build` (see scripts/vercel-build.sh); the
  * release workflow attaches the same files to the GitHub Release.
  */
 import { readdirSync, readFileSync, mkdirSync, writeFileSync, statSync } from "node:fs";

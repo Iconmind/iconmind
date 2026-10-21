@@ -5,9 +5,9 @@ import { execFileSync } from "node:child_process";
  *
  * The generator knows which version added or last changed an icon (`addedIn`,
  * `updatedIn`, read from git tags at build). The changelog carries no dates, so the
- * dates come from the same tags, which vercel.json fetches because Vercel's clone has
- * none. A sitemap `lastmod` that is honest beats one that is missing; one that changes
- * on every build is the one Google learns to ignore.
+ * dates come from the same tags, which scripts/vercel-build.sh fetches because Vercel's
+ * clone has none. A sitemap `lastmod` that is honest beats one that is missing; one that
+ * changes on every build is the one Google learns to ignore.
  *
  * The table below was the only source until 0.7.1, 0.8.0 and 0.8.1 shipped without
  * their line and every icon they touched lost its lastmod. Every push to main is a
