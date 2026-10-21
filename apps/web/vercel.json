@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "cd ../.. && pnpm icons:generate && pnpm --filter web run build && node scripts/generate/zips.mjs",
+  "buildCommand": "cd ../.. && (git fetch --quiet --unshallow --tags https://github.com/Iconmind/iconmind.git 2>/dev/null || git fetch --quiet --tags https://github.com/Iconmind/iconmind.git || true) && pnpm icons:generate && pnpm --filter web run build && node scripts/generate/zips.mjs",
   "outputDirectory": "out",
   "trailingSlash": true,
   "headers": [

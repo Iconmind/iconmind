@@ -8,6 +8,7 @@
  */
 import { execFileSync } from "node:child_process";
 import { mkdir, writeFile } from "node:fs/promises";
+import { relative } from "node:path";
 import {
   IconMetaInput, toComponentName, parseSvg,
   DOMAINS, DOMAIN_TITLE, SUBCATEGORIES, type Domain,
@@ -45,32 +46,56 @@ const RELATED_LIMIT = 6;
  * `--diff-filter=AM` counts commits that added or modified content and skips pure
  * renames, so moving every icon into its own directory did not restamp all 100 as
  * updated in the next release.
+ *
+ * Asked one path and one commit at a time, this was three git processes per icon and
+ * nine minutes for 5,287 of them. That was tolerable on a laptop, and the deploy never
+ * had tags to run it against, so the site said every icon was added in the current
+ * version and the sitemap gave 5,287 pages no lastmod. Now the history is read once, as
+ * a map from path to commits, and each tag's ancestry once, as a set. `-l0` lifts the
+ * rename limit: one path never reached it, but a whole commit that moved every icon
+ * does, and past it git reports the moves as additions.
  */
-function gitVersions(paths: string[]): { addedIn: string; updatedIn: string } {
+const history = (() => {
+  const git = (args: string[]) => execFileSync("git", args, {
+    cwd: fromRoot(), encoding: "utf8", maxBuffer: 1 << 30, stdio: ["ignore", "pipe", "ignore"],
+  });
+  const order: string[] = [];
+  const touched = new Map<string, number[]>();
   try {
-    const tags = execFileSync("git", ["log", "--diff-filter=AM", "--format=%H", "--", ...paths], {
-      encoding: "utf8", stdio: ["ignore", "pipe", "ignore"],
-    }).trim().split("\n").filter(Boolean);
-    if (!tags.length) return { addedIn: VERSION, updatedIn: VERSION };
-    // The first release that *contains* the commit, which is not what `git describe`
-    // answers. `describe --tags` finds the newest tag the commit descends from, so for
-    // anything written before the first release it fails outright and falls through to
-    // the current version — every icon in v0.1.0 was reporting 0.2.0.
-    const at = (sha: string) => {
-      try {
-        const tags = execFileSync("git", ["tag", "--contains", sha, "--sort=creatordate"], {
-          encoding: "utf8", stdio: ["ignore", "pipe", "ignore"],
-        }).trim().split("\n").filter(Boolean);
-        // Versions are fixed across the packages, but the icons tag is the one that
-        // means "this drawing shipped".
-        const tag = tags.find((t) => t.startsWith("@iconmind/icons@")) ?? tags[0];
-        return tag ? tag.replace(/^@iconmind\/icons@/, "").replace(/^v/, "") : VERSION;
-      } catch { return VERSION; }
-    };
-    return { addedIn: at(tags.at(-1)!), updatedIn: at(tags[0]!) };
+    for (const entry of git(["log", "-l0", "--diff-filter=AM", "--format=%x00%H", "--name-only"]).split("\0").slice(1)) {
+      const [sha, ...files] = entry.split("\n").filter(Boolean);
+      order.push(sha!);
+      for (const f of files) touched.set(f, [...(touched.get(f) ?? []), order.length - 1]);
+    }
+    const tags = git(["for-each-ref", "--sort=creatordate", "--format=%(refname:short)", "refs/tags"])
+      .split("\n").filter(Boolean)
+      .map((name) => ({ name, has: new Set(git(["rev-list", name]).split("\n")) }));
+    return { order, touched, tags };
   } catch {
-    return { addedIn: VERSION, updatedIn: VERSION };
+    return { order, touched: new Map<string, number[]>(), tags: [] };
   }
+})();
+
+// The first release that *contains* the commit, which is not what `git describe`
+// answers. `describe --tags` finds the newest tag the commit descends from, so for
+// anything written before the first release it fails outright and falls through to
+// the current version — every icon in v0.1.0 was reporting 0.2.0.
+function releaseOf(sha: string) {
+  const tags = history.tags.filter((t) => t.has.has(sha)).map((t) => t.name);
+  // Versions are fixed across the packages, but the icons tag is the one that
+  // means "this drawing shipped".
+  const tag = tags.find((t) => t.startsWith("@iconmind/icons@")) ?? tags[0];
+  return tag ? tag.replace(/^@iconmind\/icons@/, "").replace(/^v/, "") : VERSION;
+}
+
+function gitVersions(paths: string[]): { addedIn: string; updatedIn: string } {
+  // Positions in `git log` order, so the smallest is the newest commit.
+  const seen = paths.flatMap((p) => history.touched.get(relative(fromRoot(), p)) ?? []);
+  if (!seen.length) return { addedIn: VERSION, updatedIn: VERSION };
+  return {
+    addedIn: releaseOf(history.order[Math.max(...seen)]!),
+    updatedIn: releaseOf(history.order[Math.min(...seen)]!),
+  };
 }
 
 const icons = (await loadIcons()).filter((i) => i.svg && i.json);
