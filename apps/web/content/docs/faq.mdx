@@ -1,7 +1,29 @@
 ---
 title: FAQ
-description: Licensing, commercial use, comparisons, and what happens if this stops.
+description: What IconMind is, the frameworks it supports, licensing, comparisons, and what happens if this stops.
 ---
+
+## What is IconMind?
+
+An open-source set of more than five thousand SVG icons for software built around AI.
+Over nine hundred are for LLMs, agents, RAG and MCP; the rest cover the devops, data,
+security and interface work around them, plus everyday domains such as commerce and
+travel. Every icon comes in outline and duotone, in three weights, on a 24px grid. MIT
+licensed.
+
+## Which frameworks does it support?
+
+Components for React, Vue 3, Svelte, Solid, Preact, React Native and Astro on npm, and
+for Flutter on pub.dev. Plain SVG files and a sprite come from `@iconmind/icons`. The
+[installation page](/docs/installation/) has the package name and install command for
+each.
+
+## Can an AI coding assistant use it?
+
+Yes. `@iconmind/mcp` is an MCP server that searches the set and answers with names that
+exist, so an assistant stops inventing icon names that do not. In Claude Code:
+`claude mcp add iconmind -- npx -y @iconmind/mcp`. The [MCP page](/docs/mcp/) covers
+other clients. For an assistant reading the web, [llms.txt](/llms.txt) lists every icon.
 
 ## Can I use these commercially?
 
@@ -11,7 +33,7 @@ different set — and that decision happens without us ever hearing about it.
 
 ## Why not just contribute to Lucide?
 
-Five hundred domain-specific AI icons is scope creep for a generalist set, and it should
+Nine hundred domain-specific AI icons is scope creep for a generalist set, and it should
 be. IconMind is built to sit next to those sets, not replace them — the 24px grid and 2px
 stroke match deliberately so both can appear in one interface without clashing.
 
@@ -37,7 +59,7 @@ a solid variant would have carried.
 MIT, no backend, no accounts, no telemetry. Whatever you have installed keeps working
 forever, and the repository can be forked by anyone.
 
-## Why is the set so small?
+## Why not add icons faster?
 
 Because the alternative is worse. A thousand mediocre icons is not more useful than a
 hundred good ones — it is harder to search and harder to trust. The set grows at the rate
