@@ -115,7 +115,10 @@ jobs:
         run: |
           VERSION="${{ steps.bump.outputs.version }}"
           git tag -f "v$VERSION"
-          git push origin --tags --force
+          # 0.8.3: GitHub answered every tag with "remote rejected (failed)" and no reason,
+          # then took the same tags from a laptop a minute later. One retry after a pause;
+          # the tags matter beyond git, since the next build dates every icon from them.
+          git push origin --tags --force || { sleep 30; git push origin --tags --force; }
           gh release create "v$VERSION" --title "v$VERSION" --generate-notes || \
             echo "release v$VERSION already exists"
           # The whole set as two archives on every release — what "icon pack download" wants.
