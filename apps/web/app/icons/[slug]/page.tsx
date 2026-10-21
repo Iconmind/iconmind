@@ -107,7 +107,17 @@ export default async function IconPage({ params }: { params: Promise<{ slug: str
   const related = (icon.related.map(getIcon).filter(Boolean) as typeof allIcons).map(tile);
   // Its neighbours in the same category, for the toolbar and the list — an icon beside five
   // grey boxes proves nothing about whether it holds its own.
-  const rest = iconsIn(icon.category).filter((i) => i.slug !== icon.slug);
+  //
+  // The eighteen that follow it, group by group, wrapping at the end. It used to be the
+  // first eighteen of the category, so those were linked from all 356 DevOps pages and the
+  // other 338 from none of them, while Search Console sat on 4,431 pages "discovered,
+  // currently not indexed". A sliding window gives every icon the same eighteen links in,
+  // mostly from its own group.
+  const shelf = [...iconsIn(icon.category)].sort(
+    (a, b) => a.subcategory.localeCompare(b.subcategory) || a.slug.localeCompare(b.slug),
+  );
+  const at = shelf.findIndex((i) => i.slug === icon.slug);
+  const rest = shelf.slice(at + 1).concat(shelf.slice(0, at));
   const neighbours = rest.slice(0, 5).map((i) => ({
     slug: i.slug,
     name: i.name,
