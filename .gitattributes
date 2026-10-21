@@ -1,0 +1,4 @@
+# Generated from the icon sources by scripts/generate; never edited by hand. Marked so
+# GitHub leaves them out of the language bar, which called this a Dart project, and
+# collapses them in diffs.
+packages/flutter/lib/src/generated/** linguist-generated=true
