@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { iconCount } from "@/lib/icons";
-import { allTags, nameList, relatedTags, tagOf, titleCase } from "@/lib/index-pages";
+import { allTags, nameList, phrase, relatedTags, tagOf, titleCase } from "@/lib/index-pages";
 import { readSvg, svgBody } from "@/lib/svg";
 import { IconTileGrid } from "@/components/icon-tile-grid";
 import { DescribedList } from "@/components/described-list";
@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: { params: Promise<{ tag: stri
     // show, and it is true. The names stay in the description - they are what keeps 788
     // of these pages distinct from one another.
     title: `${titleCase(t.slug)} icons · ${t.count} free SVG & PNG`,
-    description: `${t.count} free ${t.slug.replace(/-/g, " ")} icons: ${nameList(t.icons)}. Download as SVG or PNG, or use as React, Vue, Svelte or Flutter components. Outline and duotone, MIT.`,
+    description: `${t.count} free ${phrase(t.slug)} icons: ${nameList(t.icons)}. Download as SVG or PNG, or use as React, Vue, Svelte or Flutter components. Outline and duotone, MIT.`,
     alternates: { canonical: `/tags/${t.slug}/` },
   };
 }
@@ -76,7 +76,7 @@ export default async function TagPage({ params }: { params: Promise<{ tag: strin
             {
               "@type": "CollectionPage",
               name: title,
-              description: `${t.count} icons tagged ${t.slug}: ${nameList(t.icons, 6)}.`,
+              description: `${t.count} icons tagged ${phrase(t.slug)}: ${nameList(t.icons, 6)}.`,
               url: `${SITE_URL}/tags/${t.slug}/`,
               isPartOf: { "@type": "WebSite", "@id": `${SITE_URL}/#website` },
               mainEntity: {
@@ -147,7 +147,7 @@ export default async function TagPage({ params }: { params: Promise<{ tag: strin
         <IconTileGrid sections={sections} min={128} size={24} labels />
       </div>
 
-      <DescribedList heading={`The ${t.count} ${t.slug} icons, described`} icons={t.icons} />
+      <DescribedList heading={`The ${t.count} ${phrase(t.slug)} icons, described`} icons={t.icons} />
 
       {related.length > 0 && (
         <section className="mt-12">

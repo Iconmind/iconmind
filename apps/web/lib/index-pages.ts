@@ -116,5 +116,20 @@ export function nameList(icons: IconMeta[], shown = 4) {
   return `${names.join(", ")} and ${rest} more`;
 }
 
+/**
+ * Words a slug can only spell in lower case. Searchers type "ci cd icon", but the page
+ * that ranks for it was titled "Ci cd icons", which reads like a typo in the result.
+ * `rest` is not here on purpose: as a tag it means sleep, not REST.
+ */
+const SPELLED: Record<string, string> = {
+  "ci-cd": "CI/CD", oauth: "OAuth",
+  ai: "AI", api: "API", cpu: "CPU", http: "HTTP", id: "ID", json: "JSON", kpi: "KPI",
+  llm: "LLM", ocr: "OCR", sql: "SQL", tts: "TTS", url: "URL",
+};
+
+/** `ci-cd` → `CI/CD`, `ai-security` → `AI security`: a slug as running text. */
+export const phrase = (slug: string) =>
+  SPELLED[slug] ?? slug.split("-").map((w) => SPELLED[w] ?? w).join(" ");
+
 /** `word` → `Word`, for a slug used as a title. */
-export const titleCase = (slug: string) => slug.replace(/-/g, " ").replace(/^\w/, (c) => c.toUpperCase());
+export const titleCase = (slug: string) => phrase(slug).replace(/^\w/, (c) => c.toUpperCase());

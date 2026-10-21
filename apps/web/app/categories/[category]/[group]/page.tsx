@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { allGroups, groupOf, groupsOf, nameList, titleCase, topTags } from "@/lib/index-pages";
+import { allGroups, groupOf, groupsOf, nameList, phrase, titleCase, topTags } from "@/lib/index-pages";
 import { readSvg, svgBody } from "@/lib/svg";
 import { IconTileGrid } from "@/components/icon-tile-grid";
 import { DescribedList } from "@/components/described-list";
@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   if (!g) return {};
   return {
     title: `${titleCase(g.slug)} icons — ${g.categoryName}`,
-    description: `${g.count} free ${g.slug} icons from the ${g.categoryName} set — ${nameList(g.icons)}. SVG, React, Vue, Svelte, Flutter and more; outline and duotone in three weights. MIT licensed.`,
+    description: `${g.count} free ${phrase(g.slug)} icons from the ${g.categoryName} set — ${nameList(g.icons)}. SVG, React, Vue, Svelte, Flutter and more; outline and duotone in three weights. MIT licensed.`,
     alternates: { canonical: `/categories/${g.category}/${g.slug}/` },
   };
 }
@@ -66,7 +66,7 @@ export default async function GroupPage({ params }: { params: Promise<{ category
             {
               "@type": "CollectionPage",
               name: `${title} — ${g.categoryName}`,
-              description: `${g.count} ${g.slug} icons in ${g.categoryName}: ${nameList(g.icons, 6)}.`,
+              description: `${g.count} ${phrase(g.slug)} icons in ${g.categoryName}: ${nameList(g.icons, 6)}.`,
               url: `${SITE_URL}/categories/${g.category}/${g.slug}/`,
               isPartOf: { "@type": "WebSite", "@id": `${SITE_URL}/#website` },
               mainEntity: {
@@ -142,7 +142,7 @@ export default async function GroupPage({ params }: { params: Promise<{ category
         <IconTileGrid tiles={tiles} min={128} size={24} labels />
       </div>
 
-      <DescribedList heading={`The ${g.count} ${g.slug} icons in ${g.categoryName}, described`} icons={g.icons} />
+      <DescribedList heading={`The ${g.count} ${phrase(g.slug)} icons in ${g.categoryName}, described`} icons={g.icons} />
 
       {tags.length > 0 && (
         <section className="mt-12">
@@ -163,7 +163,7 @@ export default async function GroupPage({ params }: { params: Promise<{ category
       )}
 
       <PageCta
-        heading={`Every ${g.slug} icon in ${g.categoryName}, free to ship`}
+        heading={`Every ${phrase(g.slug)} icon in ${g.categoryName}, free to ship`}
         primary={{ href: `/categories/${g.category}/`, label: `All ${g.categoryName} icons` }}
       >
         {g.count} icons in outline and duotone at three weights, generated from one grid so
