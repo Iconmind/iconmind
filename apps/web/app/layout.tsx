@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Azeret_Mono, Figtree } from "next/font/google";
-import Link from "next/link";
+import Link from "@/components/link";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { SearchTrigger } from "@/components/search-trigger";
 import { CommandPalette } from "@/components/command-palette";

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/link";
 import { iconCount } from "@/lib/icons";
 import { TAG_PAGE_MIN, allTags } from "@/lib/index-pages";
 import { PageCta } from "@/components/page-cta";

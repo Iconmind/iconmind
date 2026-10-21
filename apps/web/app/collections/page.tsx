@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/link";
 import { COLLECTIONS, iconsOf, type Collection } from "@/lib/collections";
 import { iconCount } from "@/lib/icons";
 import { readSvg, svgBody } from "@/lib/svg";

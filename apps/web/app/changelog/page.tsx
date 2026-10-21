@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/link";
 import { releases } from "@/lib/changelog";
 import { allCategories, iconCount, version } from "@/lib/icons";
 import { Card } from "@/components/ui/card";

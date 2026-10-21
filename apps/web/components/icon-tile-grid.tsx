@@ -1,7 +1,7 @@
 "use client";
 
 import { Fragment } from "react";
-import Link from "next/link";
+import Link from "@/components/link";
 import { IconHoverTip, useIconHoverTip } from "@/components/icon-hover-tip";
 import { cn } from "@/lib/utils";
 

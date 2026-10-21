@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/link";
 
 /**
  * The icons on a list page, in words.

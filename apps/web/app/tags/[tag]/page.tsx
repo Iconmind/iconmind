@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/link";
 import { notFound } from "next/navigation";
 import { iconCount } from "@/lib/icons";
 import { allTags, nameList, phrase, relatedTags, tagOf, titleCase } from "@/lib/index-pages";

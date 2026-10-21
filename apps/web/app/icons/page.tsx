@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
-import Link from "next/link";
+import Link from "@/components/link";
 import { allCategories, allIcons, iconCount } from "@/lib/icons";
 import { readSvg, svgBody } from "@/lib/svg";
 import { IconGrid } from "@/components/icon-grid";

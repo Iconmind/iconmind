@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/link";
 import { notFound } from "next/navigation";
 import { allGroups, groupOf, groupsOf, nameList, phrase, titleCase, topTags } from "@/lib/index-pages";
 import { readSvg, svgBody } from "@/lib/svg";

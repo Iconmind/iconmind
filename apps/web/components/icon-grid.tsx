@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useSearchMiss } from "@/lib/search-miss";
-import Link from "next/link";
+import Link from "@/components/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useLook } from "@/components/icons-shell";
 import { inkOf } from "@/components/customize-panel";

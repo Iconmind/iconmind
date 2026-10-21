@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import type { TOCItemType } from "fumadocs-core/toc";
-import Link from "next/link";
+import Link from "@/components/link";
 import { notFound } from "next/navigation";
 import { COMPARISONS, compareOf } from "@/lib/compare";
 import { iconCount } from "@/lib/icons";

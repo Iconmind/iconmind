@@ -2,7 +2,7 @@
 
 import type { CSSProperties } from "react";
 import { useCallback, useEffect, useState } from "react";
-import Link from "next/link";
+import Link from "@/components/link";
 import { toast } from "sonner";
 import { DownloadMenu } from "@/components/download-menu";
 import {

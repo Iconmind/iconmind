@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/link";
 import { iconCount } from "@/lib/icons";
 import { JsonLd, breadcrumbs } from "@/components/json-ld";
 import { SITE_URL } from "@/lib/site";
