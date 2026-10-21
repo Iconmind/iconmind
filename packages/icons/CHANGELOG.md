@@ -1,5 +1,11 @@
 # @iconmind/icons
 
+## 0.8.3
+
+### Patch Changes
+
+- fix(web): move the Vercel build command into a script
+
 ## 0.8.2
 
 ### Patch Changes
