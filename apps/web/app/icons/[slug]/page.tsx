@@ -9,7 +9,7 @@ import { IconTileGrid } from "@/components/icon-tile-grid";
 import { PageCta } from "@/components/page-cta";
 import { JsonLd, breadcrumbs } from "@/components/json-ld";
 import { Badge } from "@/components/ui/badge";
-import { SITE_URL } from "@/lib/site";
+import { ORGANIZATION, SITE_URL } from "@/lib/site";
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -66,8 +66,8 @@ function schema(icon: {
         acquireLicensePage: `${SITE_URL}/docs/license/`,
         creditText: "IconMind",
         copyrightNotice: "IconMind — MIT licensed: commercial use, no attribution required",
-        creator: { "@type": "Organization", name: "IconMind", url: SITE_URL },
-        copyrightHolder: { "@type": "Organization", name: "IconMind", url: SITE_URL },
+        creator: ORGANIZATION,
+        copyrightHolder: ORGANIZATION,
         isFamilyFriendly: true,
       },
       breadcrumbs([

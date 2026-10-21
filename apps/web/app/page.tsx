@@ -11,7 +11,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { SITE_URL } from "@/lib/site";
+import { ORGANIZATION, SAME_AS, SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "IconMind — open-source icons for AI-era software",
@@ -75,7 +75,10 @@ function schema(count: number) {
         description: `${count} open-source SVG icons for LLMs, agents, MCP and RAG. Outline and duotone, in three weights.`,
         license: "https://opensource.org/licenses/MIT",
         offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+        publisher: { "@id": ORGANIZATION["@id"] },
+        sameAs: SAME_AS,
       },
+      ORGANIZATION,
     ],
   };
 }

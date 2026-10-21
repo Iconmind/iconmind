@@ -6,7 +6,7 @@ import { COMPARISONS, compareOf } from "@/lib/compare";
 import { iconCount } from "@/lib/icons";
 import { PageCta } from "@/components/page-cta";
 import { JsonLd, breadcrumbs } from "@/components/json-ld";
-import { SITE_URL } from "@/lib/site";
+import { ORGANIZATION, SITE_URL } from "@/lib/site";
 import { TocNav } from "@/components/toc-nav";
 
 export function generateStaticParams() {
@@ -75,8 +75,8 @@ export default async function ComparePage({ params }: { params: Promise<{ slug: 
                 headline: `IconMind vs ${c.name}`,
                 description: c.lead,
                 url: `${SITE_URL}/compare/${c.slug}/`,
-                author: { "@type": "Organization", name: "IconMind", url: SITE_URL },
-                publisher: { "@type": "Organization", name: "IconMind", url: SITE_URL },
+                author: ORGANIZATION,
+                publisher: ORGANIZATION,
                 isPartOf: { "@type": "WebSite", "@id": `${SITE_URL}/#website` },
                 articleSection: c.sections.map((s) => s.heading),
               },
