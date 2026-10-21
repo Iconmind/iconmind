@@ -14,7 +14,7 @@ VS Code under `"servers"` in `.vscode/mcp.json`, Codex in `~/.codex/config.toml`
 { "mcpServers": { "iconmind": { "command": "npx", "args": ["-y", "@iconmind/mcp"] } } }
 ```
 
-Listed in the MCP registry as `io.github.iconmind/iconmind`; the docs are at
+Listed in the MCP registry as `io.github.Iconmind/iconmind`; the docs are at
 https://iconmind.dev/docs/mcp/.
 
 - Runs offline — the icon data is bundled

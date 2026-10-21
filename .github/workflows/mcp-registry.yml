@@ -1,0 +1,48 @@
+name: MCP Registry
+
+# Lists @iconmind/mcp in the official MCP registry after each release. The registry
+# checks that the npm package's `mcpName` matches the name in server.json, so this runs
+# once the Release workflow has published to npm, from main, where the version bump is.
+#
+# Through OIDC the registry grants a repository the `io.github.<owner>/*` namespace and
+# matches it case-sensitively. The owner is "Iconmind", so the server is
+# `io.github.Iconmind/iconmind`; with a lower-case i the publish is refused.
+on:
+  workflow_run:
+    workflows: [Release]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write # the registry's github-oidc login
+
+concurrency:
+  group: mcp-registry
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      # The release bumps package.json only; server.json follows it here.
+      - name: Set version
+        working-directory: packages/mcp
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          jq --arg v "$VERSION" '.version = $v | .packages[0].version = $v' server.json > server.tmp
+          mv server.tmp server.json
+          cat server.json
+
+      - name: Install mcp-publisher
+        run: curl -sL https://github.com/modelcontextprotocol/registry/releases/download/v1.8.1/mcp-publisher_linux_amd64.tar.gz | tar xz mcp-publisher
+
+      - run: ./mcp-publisher login github-oidc
+
+      - working-directory: packages/mcp
+        run: ../../mcp-publisher publish
