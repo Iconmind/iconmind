@@ -1,0 +1,60 @@
+name: IndexNow
+
+# After each production deploy, tell Bing which pages the latest release changed.
+# Vercel reports its deploys back to GitHub as deployment statuses; this runs on the
+# successful Production ones. Run it by hand with "all" after a change to the site
+# itself, which moves no lastmod.
+on:
+  deployment_status:
+  workflow_dispatch:
+    inputs:
+      all:
+        description: Submit every URL in the sitemap
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: indexnow
+  cancel-in-progress: false
+
+jobs:
+  submit:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.deployment_status.state == 'success' &&
+       github.event.deployment_status.environment == 'Production')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+
+      - id: sitemap
+        run: echo "newest=$(node .github/scripts/indexnow.mjs newest)" >> "$GITHUB_OUTPUT"
+
+      # A marker per lastmod date: a release deploys three times, and only the first
+      # deploy that carries the new date submits.
+      - id: sent
+        uses: actions/cache/restore@v4
+        with:
+          path: .indexnow-sent
+          key: indexnow-${{ steps.sitemap.outputs.newest }}
+          lookup-only: true
+
+      - if: steps.sent.outputs.cache-hit != 'true' || inputs.all
+        run: node .github/scripts/indexnow.mjs
+        env:
+          ALL: ${{ inputs.all && '1' || '' }}
+
+      - if: steps.sent.outputs.cache-hit != 'true'
+        run: echo "${{ steps.sitemap.outputs.newest }}" > .indexnow-sent
+
+      - if: steps.sent.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: .indexnow-sent
+          key: indexnow-${{ steps.sitemap.outputs.newest }}
