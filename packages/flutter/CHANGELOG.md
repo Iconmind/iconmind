@@ -1,3 +1,9 @@
+## 0.8.3
+
+### Patch Changes
+
+- fix(web): move the Vercel build command into a script
+
 ## 0.8.0
 
 Fifteen hundred new icons, 5,287 in all, and six new domains: travel, weather, health,
