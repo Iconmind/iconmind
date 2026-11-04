@@ -1,3 +1,9 @@
+## 0.8.4
+
+### Patch Changes
+
+- ci: publish iconmind_flutter to pub.dev on each release
+
 ## 0.8.3
 
 ### Patch Changes
